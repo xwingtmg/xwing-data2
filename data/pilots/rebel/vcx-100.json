@@ -2,6 +2,7 @@
   "name": "VCX-100 Light Freighter",
   "size": "Large",
   "dial": [],
+  "ability": "Tail Gun: While you have a docked ship, you have a primary [Rear] weapon with an attack value equal to your docker ship's primary [Front] attack value.",
   "stats": [{
       "type": "Front",
       "value": 4
@@ -19,30 +20,29 @@
       "value": 4
     }
   ],
+  "actions": [{
+      "type": "Focus",
+      "color": "White"
+    },
+    {
+      "type": "Lock",
+      "color": "White"
+    },
+    {
+      "type": "SLAM",
+      "color": "White"
+    },
+    {
+      "type": "Reinforce",
+      "color": "White"
+    }
+  ],
   "pilots": [{
     "name": "Hera Syndulla",
     "unique": true,
     "caption": "Spectre-2",
     "initiative": 5,
-    "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.",
-    "shipAbility": "Tail Gun: While you have a docked ship, you have a primary [Rear] weapon with an attack value equal to your docker ship's primary [Front] attack value.",
-    "actions": [{
-        "type": "Focus",
-        "color": "White"
-      },
-      {
-        "type": "Lock",
-        "color": "White"
-      },
-      {
-        "type": "SLAM",
-        "color": "White"
-      },
-      {
-        "type": "Reinforce",
-        "color": "White"
-      }
-    ]
+    "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty."
   }]
 
 }

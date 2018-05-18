@@ -36,40 +36,40 @@
       "value": 2
     }
   ],
+  "actions": [{
+      "type": "Focus",
+      "color": "White",
+      "link": {
+        "type": "Rotate",
+        "color": "Red"
+      }
+    },
+    {
+      "type": "Lock",
+      "color": "White",
+      "link": {
+        "type": "Rotate",
+        "color": "Red"
+      }
+    },
+    {
+      "type": "Boost",
+      "color": "Red"
+    },
+    {
+      "type": "Rotate Arc",
+      "color": "White"
+    },
+    {
+      "type": "JAM",
+      "color": "White"
+    }
+  ],
   "pilots": [{
     "name": "Jan Ors",
     "unique": true,
     "caption": "Espionage Expert",
-    "initiative": 5,
-    "actions": [{
-        "type": "Focus",
-        "color": "White",
-        "link": {
-          "type": "Rotate",
-          "color": "Red"
-        }
-      },
-      {
-        "type": "Lock",
-        "color": "White",
-        "link": {
-          "type": "Rotate",
-          "color": "Red"
-        }
-      },
-      {
-        "type": "Boost",
-        "color": "Red"
-      },
-      {
-        "type": "Rotate Arc",
-        "color": "White"
-      },
-      {
-        "type": "JAM",
-        "color": "White"
-      }
-    ]
+    "initiative": 5
   }]
 
 }

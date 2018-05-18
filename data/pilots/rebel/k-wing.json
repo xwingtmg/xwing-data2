@@ -31,32 +31,32 @@
       "value": 6
     }
   ],
+  "actions": [{
+      "type": "Focus",
+      "color": "White"
+    },
+    {
+      "type": "Lock",
+      "color": "White"
+    },
+    {
+      "type": "SLAM",
+      "color": "White"
+    },
+    {
+      "type": "Rotate Arc",
+      "color": "White"
+    },
+    {
+      "type": "Reload",
+      "color": "White"
+    }
+  ],
   "pilots": [{
     "name": "Miranda Doni",
     "unique": true,
     "caption": "Heavy Hitter",
-    "initiative": 4,
-    "actions": [{
-        "type": "Focus",
-        "color": "White"
-      },
-      {
-        "type": "Lock",
-        "color": "White"
-      },
-      {
-        "type": "SLAM",
-        "color": "White"
-      },
-      {
-        "type": "Rotate Arc",
-        "color": "White"
-      },
-      {
-        "type": "Reload",
-        "color": "White"
-      }
-    ]
+    "initiative": 4
   }]
 
 }

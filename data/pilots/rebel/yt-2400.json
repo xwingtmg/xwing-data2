@@ -1,6 +1,7 @@
 {
   "name": "YT-2400 Light Freighter",
   "size": "Large",
+  "ability": "Sensor Blindspot: While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die.",
   "dial": [
     "1TW",
     "1BB",
@@ -37,30 +38,29 @@
       "value": 4
     }
   ],
+  "actions": [{
+      "type": "Focus",
+      "color": "White"
+    },
+    {
+      "type": "Lock",
+      "color": "White"
+    },
+    {
+      "type": "Barrel Roll",
+      "color": "Red"
+    },
+    {
+      "type": "Rotate Arc",
+      "color": "White"
+    }
+  ],
   "pilots": [{
     "name": "Dash Rendar",
     "unique": true,
     "caption": "Hotshot Mercenary",
     "initiative": 5,
-    "ability": "While you move, you ignore obstacles.",
-    "shipAbility": "Sensor Blindspot: While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die.",
-    "actions": [{
-        "type": "Focus",
-        "color": "White"
-      },
-      {
-        "type": "Lock",
-        "color": "White"
-      },
-      {
-        "type": "Barrel Roll",
-        "color": "Red"
-      },
-      {
-        "type": "Rotate Arc",
-        "color": "White"
-      }
-    ]
+    "ability": "While you move, you ignore obstacles."
   }]
 
 }

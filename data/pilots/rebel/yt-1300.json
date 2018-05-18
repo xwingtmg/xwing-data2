@@ -37,29 +37,29 @@
       "value": 5
     }
   ],
+  "actions": [{
+      "type": "Focus",
+      "color": "White"
+    },
+    {
+      "type": "Lock",
+      "color": "White"
+    },
+    {
+      "type": "Boost",
+      "color": "Red"
+    },
+    {
+      "type": "Rotate Arc",
+      "color": "White"
+    }
+  ],
   "pilots": [{
     "name": "Han Solo",
     "unique": true,
     "caption": "Scoundrel for Hire",
     "initiative": 6,
-    "ability": "After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects",
-    "actions": [{
-        "type": "Focus",
-        "color": "White"
-      },
-      {
-        "type": "Lock",
-        "color": "White"
-      },
-      {
-        "type": "Boost",
-        "color": "Red"
-      },
-      {
-        "type": "Rotate Arc",
-        "color": "White"
-      }
-    ]
+    "ability": "After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects"
   }]
 
 }
