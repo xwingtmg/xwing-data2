@@ -1,0 +1,66 @@
+{
+  "name": "YT-2400 Light Freighter",
+  "size": "Large",
+  "dial": [
+    "1TW",
+    "1BB",
+    "1FB",
+    "1NB",
+    "1YW",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3TW",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YW",
+    "4FW",
+    "4KR"
+  ],
+  "stats": [{
+      "type": "Turret180",
+      "value": 4
+    },
+    {
+      "type": "Agility",
+      "value": 2
+    },
+    {
+      "type": "Hull",
+      "value": 6
+    },
+    {
+      "type": "Shield",
+      "value": 4
+    }
+  ],
+  "pilots": [{
+    "name": "Dash Rendar",
+    "unique": true,
+    "caption": "Hotshot Mercenary",
+    "initiative": 5,
+    "ability": "While you move, you ignore obstacles.",
+    "shipAbility": "Sensor Blindspot: While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die.",
+    "actions": [{
+        "type": "Focus",
+        "color": "White"
+      },
+      {
+        "type": "Lock",
+        "color": "White"
+      },
+      {
+        "type": "Barrel Roll",
+        "color": "Red"
+      },
+      {
+        "type": "Rotate Arc",
+        "color": "White"
+      }
+    ]
+  }]
+
+}

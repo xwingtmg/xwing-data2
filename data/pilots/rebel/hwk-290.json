@@ -1,0 +1,75 @@
+{
+  "name": "HWK-290 Light Freighter",
+  "fullname": "",
+  "size": "Small",
+  "dial": [
+    "0OR",
+    "1BB",
+    "1FB",
+    "1NB",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YR",
+    "4FW"
+  ],
+  "stats": [{
+      "type": "Turret",
+      "value": 2
+    },
+    {
+      "type": "Agility",
+      "value": 2
+    },
+    {
+      "type": "Hull",
+      "value": 3
+    },
+    {
+      "type": "Shield",
+      "value": 2
+    }
+  ],
+  "pilots": [{
+    "name": "Jan Ors",
+    "unique": true,
+    "caption": "Espionage Expert",
+    "initiative": 5,
+    "actions": [{
+        "type": "Focus",
+        "color": "White",
+        "link": {
+          "type": "Rotate",
+          "color": "Red"
+        }
+      },
+      {
+        "type": "Lock",
+        "color": "White",
+        "link": {
+          "type": "Rotate",
+          "color": "Red"
+        }
+      },
+      {
+        "type": "Boost",
+        "color": "Red"
+      },
+      {
+        "type": "Rotate Arc",
+        "color": "White"
+      },
+      {
+        "type": "JAM",
+        "color": "White"
+      }
+    ]
+  }]
+
+}
