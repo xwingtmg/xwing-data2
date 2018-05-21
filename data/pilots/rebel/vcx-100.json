@@ -1,7 +1,25 @@
 {
   "name": "VCX-100 Light Freighter",
   "size": "Large",
-  "dial": [],
+  "dial": [
+    "1TR",
+    "1BW",
+    "1FB",
+    "1NW",
+    "1YR",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YR",
+    "4FW",
+    "4KR"
+  ],
   "ability": "Tail Gun: While you have a docked ship, you have a primary [Rear] weapon with an attack value equal to your docker ship's primary [Front] attack value.",
   "stats": [{
       "type": "Front",
@@ -43,6 +61,10 @@
     "caption": "Spectre-2",
     "initiative": 5,
     "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty."
+  }, {
+    "name": "Lothal Rebel",
+    "unique": false,
+    "initiative": 2,
+    "text": "Another successful Corellion Engineering Corporation freighter design, the VCX-100 is larger than the ubiquitous YT-series, boasting more living space and customizability."
   }]
-
 }

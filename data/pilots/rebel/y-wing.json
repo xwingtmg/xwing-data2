@@ -1,0 +1,46 @@
+{
+  "name": "BTL-A4 Y-wing",
+  "size": "Small",
+  "dial": [],
+  "stats": [{
+      "type": "Front",
+      "value": 2
+    },
+    {
+      "type": "Agility",
+      "value": 1
+    },
+    {
+      "type": "Hull",
+      "value": 6
+    },
+    {
+      "type": "Shield",
+      "value": 2
+    }
+  ],
+  "actions": [{
+      "type": "Focus",
+      "color": "White"
+    },
+    {
+      "type": "Lock",
+      "color": "White"
+    },
+    {
+      "type": "Barrel Roll",
+      "color": "Red"
+    },
+    {
+      "type": "Reload",
+      "color": "Red"
+    }
+  ],
+  "pilots": [{
+    "name": "Gold Squadron Pilot",
+    "unique": false,
+    "initiative": 3,
+    "text": "Commanded by Jon \"Dutch\" Vander, Gold Squadron played an instrumental role in the Battles of Scarif and Yavin."
+  }]
+
+}

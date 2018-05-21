@@ -1,0 +1,46 @@
+{
+  "name": "A/SF-01 B-wing",
+  "size": "Small",
+  "dial": [],
+  "stats": [{
+      "type": "Front",
+      "value": 3
+    },
+    {
+      "type": "Agility",
+      "value": 1
+    },
+    {
+      "type": "Hull",
+      "value": 4
+    },
+    {
+      "type": "Shield",
+      "value": 4
+    }
+  ],
+  "actions": [{
+      "type": "Focus",
+      "color": "White",
+      "link": {
+        "type": "Barrel Roll",
+        "color": "Red"
+      }
+    },
+    {
+      "type": "Lock",
+      "color": "White"
+    },
+    {
+      "type": "Barrel Roll",
+      "color": "White"
+    }
+  ],
+  "pilots": [{
+    "name": "Blue Squadron Pilot",
+    "unique": false,
+    "initiative": 2,
+    "text": "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter."
+  }]
+
+}

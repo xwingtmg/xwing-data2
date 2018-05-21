@@ -1,0 +1,42 @@
+{
+  "name": "T-65 X-wing",
+  "size": "Small",
+  "dial": [],
+  "stats": [{
+      "type": "Front",
+      "value": 3
+    },
+    {
+      "type": "Agility",
+      "value": 2
+    },
+    {
+      "type": "Hull",
+      "value": 4
+    },
+    {
+      "type": "Shield",
+      "value": 2
+    }
+  ],
+  "actions": [{
+      "type": "Focus",
+      "color": "White"
+    },
+    {
+      "type": "Lock",
+      "color": "White"
+    },
+    {
+      "type": "Barrel Roll",
+      "color": "White"
+    }
+  ],
+  "pilots": [{
+    "name": "Blue Squadron Escort",
+    "unique": false,
+    "initiative": 2,
+    "text": "Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion."
+  }]
+
+}

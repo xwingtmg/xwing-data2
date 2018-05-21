@@ -1,6 +1,5 @@
 {
   "name": "HWK-290 Light Freighter",
-  "fullname": "",
   "size": "Small",
   "dial": [
     "0OR",
@@ -70,6 +69,11 @@
     "unique": true,
     "caption": "Espionage Expert",
     "initiative": 5
+  }, {
+    "name": "Rebel Scout",
+    "unique": false,
+    "initiative": 2,
+    "text": "Designed to look like a birt in flight by the Corellian Engineering Corporation, \"hawk\" series ships are exemplary transport craft. Swift and rugged, the HWK-290 is often employed by Rebel agents as a mobile base of operations."
   }]
 
 }

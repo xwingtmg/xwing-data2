@@ -1,0 +1,51 @@
+{
+  "name": "Attack Shuttle",
+  "size": "Small",
+  "dial": [],
+  "ability": "Locked and Loaded: While you are docked, after your carrier ship performs a primary [Front] or [Turret] attack, it may perform a bonus primary [Rear] attack.",
+  "stats": [{
+      "type": "Front",
+      "value": 3
+    },
+    {
+      "type": "Agility",
+      "value": 2
+    },
+    {
+      "type": "Hull",
+      "value": 3
+    },
+    {
+      "type": "Shield",
+      "value": 1
+    }
+  ],
+  "actions": [{
+      "type": "Focus",
+      "color": "White"
+    },
+    {
+      "type": "Evade",
+      "color": "White"
+    },
+    {
+      "type": "Barrel Roll",
+      "color": "White",
+      "link": {
+        "type": "Evade",
+        "color": "Red"
+      }
+    }
+  ],
+  "pilots": [{
+    "name": "Ezra Bridger",
+    "unique": true,
+    "caption": "Spectre-6",
+    "initiative": 3,
+    "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
+    "force": {
+      "value": 1,
+      "recharges": true
+    }
+  }]
+}
