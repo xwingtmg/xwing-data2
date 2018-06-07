@@ -1,0 +1,29 @@
+{
+  "faction": "Scum and Villainy",
+  "name": "Kihraxz Fighter",
+  "pilots": [
+    {
+      "name": "Cartel Marauder",
+      "initiative": 2,
+      "unique": false,
+      "text": "The versatile Kihraxz was modeled after Incom's popular X-wing starfighter, but an array of after-market modifications kits ensure a wide variety of designs.",
+      "image": "https://i.imgur.com/kdQmuom.png"
+    },
+    {
+      "name": "Talonbane Cobra",
+      "caption": "Scourge of Tansarii Point",
+      "initiative": 5,
+      "unique": true,
+      "ability": "While you defend at attack range 3 or perform an attack at attack range 1, roll 1 additional die.",
+      "image": "https://i.imgur.com/AWCWeti.png"
+    },
+    {
+      "name": "Viktor Hel",
+      "caption": "Storied Bounty Hunter",
+      "initiative": 4,
+      "unique": true,
+      "ability": "After you defend, if you did not roll exactly 2 defense dice, the attacker gains 1 stress token.",
+      "image": "https://i.imgur.com/alrLzq1.jpg"
+    }
+  ]
+}

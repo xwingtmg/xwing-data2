@@ -1,0 +1,21 @@
+{
+  "faction": "Galactic Empire",
+  "name": "TIE/ca Punisher",
+  "pilots": [
+    {
+      "name": "\"Deathrain\"",
+      "caption": "Dexterous Bombardier",
+      "initiative": 4,
+      "unique": true,
+      "ability": "After you drop or launch a device, you may perform an action",
+      "image": "https://i.imgur.com/mMqDBzJ.png"
+    },
+    {
+      "name": "Cutlass Squadron Pilot",
+      "initiative": 2,
+      "unique": false,
+      "text": "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute and three additional ordinance pods, each equipped with a twin ion engine.",
+      "image": "https://i.imgur.com/EvOPUtc.png"
+    }
+  ]
+}

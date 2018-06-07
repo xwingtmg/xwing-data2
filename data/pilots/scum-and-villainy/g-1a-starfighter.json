@@ -1,0 +1,21 @@
+{
+  "faction": "Scum and Villainy",
+  "name": "G-1A Starfighter",
+  "pilots": [
+    {
+      "name": "4-LOM",
+      "caption": "Reprogrammed Protocol Droid",
+      "initiative": 3,
+      "unique": true,
+      "ability": "After you fully execute a red maneuver, gain 1 calculate token.\n\nAt the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.",
+      "image": "https://i.imgur.com/Jbxrnua.png"
+    },
+    {
+      "name": "Gand Findsman",
+      "initiative": 1,
+      "unique": false,
+      "text": "The legendary Findsmen of Gand worship the enshrouding mists of their home planet, using signs, augers, and mystical rituals to track their quarry.",
+      "image": "https://i.imgur.com/yYVXjCS.png"
+    }
+  ]
+}

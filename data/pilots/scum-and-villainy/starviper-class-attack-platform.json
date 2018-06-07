@@ -1,0 +1,30 @@
+{
+  "faction": "Scum and Villainy",
+  "name": "Starviper-class Attack Platform",
+  "ability": "Microthrusters: While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template.",
+  "pilots": [
+    {
+      "name": "Black Sun Enforcer",
+      "initiative": 2,
+      "unique": false,
+      "text": "Prince Xizor himself collaborated with MandalMotors to design the StarViper-class attack platform, one of the most formidable starfighters in the galaxy.",
+      "image": "https://i.imgur.com/JK3Fwdu.png"
+    },
+    {
+      "name": "Guri",
+      "caption": "Prince Xizor's Bodyguard",
+      "initiative": 5,
+      "unique": true,
+      "ability": "At the start o the Engagement Phase, if there is at least 1 enemy ship at range 0-1, you may gain 1 focus token. ",
+      "image": "https://i.imgur.com/ber6srQ.png"
+    },
+    {
+      "name": "Prince Xizor",
+      "caption": "Black Sun Kingpin",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you defend, after the Neutralize Results step, another friendly ship at range 0-1 and in the attack arc may suffer 1 (hit) or (crit) damage. If it does, cancel 1 matching result.",
+      "image": "https://i.imgur.com/kgLm5yQ.png"
+    }
+  ]
+}

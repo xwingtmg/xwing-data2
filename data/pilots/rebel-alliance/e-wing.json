@@ -1,0 +1,37 @@
+{
+  "faction": "Rebel Alliance",
+  "name": "E-wing",
+  "ability": "Experimental Scanners: You can acquire locks beyond range 3. You cannot acquire locks at range 1.",
+  "pilots": [
+    {
+      "name": "Corran Horn",
+      "caption": "Tenacious Investigator",
+      "initiative": 5,
+      "unique": true,
+      "ability": "At initiative 0, you may perform a bonus primary attack against an enemy ship in your (bullseye arc). If you do, at the start of the next Planning Phase, gain 1 disarm token.",
+      "image": "https://i.imgur.com/g8jma0k.png"
+    },
+    {
+      "name": "Gavin Darklighter",
+      "caption": "Bold Wingman",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While a friendly ship performs an attack, if the defender is in your [Front], the attacker may change 1 [Hit] result to a [Critical] result.",
+      "image": "https://i.imgur.com/y30x2FC.jpg"
+    },
+    {
+      "name": "Knave Squadron Escort",
+      "initiative": 2,
+      "unique": false,
+      "text": "Designed to combine the best features of the X-wing series with the A-wing series, the E-wing boasts superior firepower, speed and maneuverability.",
+      "image": "https://i.imgur.com/khW6Wsa.jpg"
+    },
+    {
+      "name": "Rogue Squadron Escort",
+      "initiative": 4,
+      "unique": false,
+      "text": "The elite pilots of Rogue Squadron are among the Rebellion's very best.",
+      "image": "https://i.imgur.com/7eV24zH.png"
+    }
+  ]
+}

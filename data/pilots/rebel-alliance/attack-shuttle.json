@@ -1,0 +1,41 @@
+{
+  "faction": "Rebel Alliance",
+  "name": "Attack Shuttle",
+  "ability": "Locked and Loaded: While you are docked, after your carrier ship performs a primary [Front] or [Turret] attack, it may perform a bonus primary [Rear] attack.",
+  "pilots": [
+    {
+      "name": "\"Zeb\" Orrelios",
+      "caption": "Spectre-4",
+      "initiative": 2,
+      "unique": true,
+      "ability": "While you defend, (crit) results are neutralized before (hit) results.",
+      "image": "https://i.imgur.com/WXy3lrB.jpg"
+    },
+    {
+      "name": "Ezra Bridger",
+      "caption": "Spectre-6",
+      "initiative": 3,
+      "unique": true,
+      "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of you [Focus] results to [Evade] or [Hit] results.",
+      "force": 1,
+      "forceRegenerates": true,
+      "image": "https://i.imgur.com/01rgRqz.png"
+    },
+    {
+      "name": "Hera Syndulla",
+      "caption": "Spectre-2",
+      "initiative": 5,
+      "unique": true,
+      "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.",
+      "image": "https://i.imgur.com/Jq3qoJo.jpg"
+    },
+    {
+      "name": "Sabine Wren",
+      "caption": "Spectre-5",
+      "initiative": 3,
+      "unique": true,
+      "ability": "Before you activate, you may perform a [Barrell Roll] or [Boost] action.",
+      "image": "https://i.imgur.com/irQQrm8.jpg"
+    }
+  ]
+}

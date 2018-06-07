@@ -1,0 +1,22 @@
+{
+  "faction": "Galactic Empire",
+  "name": "TIE Interceptor",
+  "ability": "Autothrusters: After you performan action, you may perform a red [Barrel roll] or a red [Boost]",
+  "pilots": [
+    {
+      "name": "Saber Squadron Ace",
+      "initiative": 4,
+      "unique": false,
+      "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
+      "image": "https://i.imgur.com/kBjOZ5j.png"
+    },
+    {
+      "name": "Soontir Fel",
+      "caption": "Ace of Legend",
+      "initiative": 6,
+      "unique": true,
+      "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye] gain 1 focus token. ",
+      "image": "https://i.imgur.com/4TFKKVN.png"
+    }
+  ]
+}

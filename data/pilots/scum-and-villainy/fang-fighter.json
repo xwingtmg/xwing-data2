@@ -1,0 +1,38 @@
+{
+  "faction": "Scum and Villainy",
+  "name": "Fang Fighter",
+  "ability": "Concordia Faceoff: While you defend, if the attack range is 1 and you are in the attacker's [Front], change 1 result to an [Evade] result.",
+  "pilots": [
+    {
+      "name": "Fenn Rau",
+      "caption": "Skull Leader",
+      "initiative": 6,
+      "unique": true,
+      "ability": "While you defend or perform an attack, if the attack range is 1, you may roll 1 additional die.",
+      "image": "https://i.imgur.com/iZNAeEO.jpg"
+    },
+    {
+      "name": "Joy Rekkoff",
+      "caption": "Skull Squadron Ace",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you perform an attack, you may spend 1 [Charge] from an equipped [Torpedoes] upgrade. If you do, the defender rolls 1 fewer defense die.",
+      "image": "https://i.imgur.com/2s4hZrV.png"
+    },
+    {
+      "name": "Old Teroch",
+      "caption": "Mandalorian Mentor",
+      "initiative": 5,
+      "unique": true,
+      "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship at range 1. If you do and you are in its (forward firing arc), it removes all of its green tokens.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/d1/06/d106c657-a31f-44d1-9263-db442b9799fc/swz01_a5_fang_diagram.png"
+    },
+    {
+      "name": "Zealous Recruit",
+      "initiative": 1,
+      "unique": false,
+      "text": "Mandalorian Fang fighter pilots must master the Concordia Faceoff maneuver, leveraging their ships' narrow attack profile to execute deadly head-on charges.",
+      "image": "https://i.imgur.com/Q0IU8Kt.png"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "faction": "Rebel Alliance",
+  "name": "Auzituck Gunship",
+  "pilots": [
+    {
+      "name": "Kashyyyk Defender",
+      "initiative": 1,
+      "unique": false,
+      "text": "Equipped with three wide-range Sureggi twin laser cannons, the Auzituck gunship acts as a powerful deterrent to slaver operations in the Kashyyyk system.",
+      "image": "https://i.imgur.com/oDDRdgb.png"
+    },
+    {
+      "name": "Lowhhrick",
+      "caption": "Escaped Gladiator",
+      "initiative": 3,
+      "unique": true,
+      "ability": "After a friendly ship at range 0-1 becomes the defender, you may spend 1 reinforce token. If you do, that ship gains 1 evade token.",
+      "image": "https://i.imgur.com/8AIllum.jpg"
+    },
+    {
+      "name": "Wullffwarro",
+      "caption": "Wookiee Chief",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you perform a primary attack, if you are damaged, you may roll 1 additional attack die.",
+      "image": "https://i.imgur.com/h0yZwaL.jpg"
+    }
+  ]
+}

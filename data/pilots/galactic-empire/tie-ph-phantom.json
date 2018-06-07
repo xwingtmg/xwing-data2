@@ -1,0 +1,30 @@
+{
+  "faction": "Galactic Empire",
+  "name": "TIE/ph Phantom",
+  "ability": "Stygium Array: After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token.",
+  "pilots": [
+    {
+      "name": "\"Echo\"",
+      "caption": "Slipper Trickster",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you decloak, you *must* use the (2 [Bank Left]) or (2 [Bank Right]) template instead of the (2 [Straight]) template.",
+      "image": "https://i.imgur.com/sVRjx6w.png"
+    },
+    {
+      "name": "\"Whisper\"",
+      "caption": "Soft-Spoken Slayer",
+      "initiative": 5,
+      "unique": true,
+      "ability": "After you perform an attack that hits, gain 1 evade token.",
+      "image": "https://i.imgur.com/iUbk70J.png"
+    },
+    {
+      "name": "Imdaar Test Pilot",
+      "initiative": 3,
+      "unique": false,
+      "text": "The primary result of a hidden research facility on Imdaar Alpha, the TIE phantom achieves what many thought was impossible: a small starfighter equipped with an advanced cloaking device.",
+      "image": "https://i.imgur.com/m3UIgur.png"
+    }
+  ]
+}

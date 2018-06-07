@@ -1,0 +1,22 @@
+{
+  "faction": "Scum and Villainy",
+  "name": "Quadrijet Transfer Spacetug",
+  "ability": "Spacetug Tractor Array: Action: Choose a ship in your (firing arc) at range 1. That ship grains 1 tractor token, or 2 tractor tokens if it is in your (bullseye firing arc) at range 1.",
+  "pilots": [
+    {
+      "name": "Jakku Gunrunner",
+      "initiative": 1,
+      "unique": false,
+      "text": "The Quadrijet transfer spacetug, commonly called a “Quadjumper”, is nimble in space and atmosphere alike, making it popular among both smugglers and explorers.",
+      "image": "https://i.imgur.com/HT0F6Yv.png"
+    },
+    {
+      "name": "Unkar Plutt",
+      "caption": "Miserly Portion Master",
+      "initiative": 2,
+      "unique": true,
+      "ability": "At the start of the Engagement Phase, if there are one or more other ships at range 0, you and each other ship at range 0 gain 1 tractor token.",
+      "image": "https://i.imgur.com/VCf87Ha.png"
+    }
+  ]
+}

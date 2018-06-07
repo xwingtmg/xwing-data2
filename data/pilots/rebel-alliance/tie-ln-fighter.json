@@ -1,0 +1,50 @@
+{
+  "faction": "Rebel Alliance",
+  "name": "TIE/ln Fighter",
+  "pilots": [
+    {
+      "name": "\"Zeb\" Orrelios",
+      "caption": "Spectre-4",
+      "initiative": 2,
+      "unique": true,
+      "ability": "While you defend, [Critical] results are neutralized before [Hit] results.",
+      "image": "https://i.imgur.com/ezuCMJT.jpg"
+    },
+    {
+      "name": "Captain Rex",
+      "caption": "Clone Wars Veteran",
+      "initiative": 2,
+      "unique": true,
+      "ability": "After you perform an attack, assign the Suppressive Fire condition to the defender.",
+      "image": "https://i.imgur.com/SXjax2A.jpg"
+    },
+    {
+      "name": "Ezra Bridger",
+      "caption": "Spectre-6",
+      "initiative": 3,
+      "unique": true,
+      "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
+      "force": 1,
+      "forceRegenerates": true,
+      "image": "https://i.imgur.com/K2JnLRE.png"
+    },
+    {
+      "name": "Ezra Bridger",
+      "caption": "Spectre-6",
+      "initiative": 3,
+      "unique": true,
+      "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
+      "force": 1,
+      "forceRegenerates": true,
+      "image": "https://i.imgur.com/MSuayAE.jpg"
+    },
+    {
+      "name": "Sabine Wren",
+      "caption": "Spectre-5",
+      "initiative": 3,
+      "unique": true,
+      "ability": "Before you activate, you may perform a (barrel roll) or (boost) action.",
+      "image": "https://i.imgur.com/yecurxP.png"
+    }
+  ]
+}

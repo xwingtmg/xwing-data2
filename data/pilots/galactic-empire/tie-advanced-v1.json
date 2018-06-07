@@ -1,0 +1,30 @@
+{
+  "faction": "Galactic Empire",
+  "name": "TIE Advanced v1",
+  "pilots": [
+    {
+      "name": "Baron of the Empire",
+      "initiative": 3,
+      "unique": false,
+      "text": "Sienar Fleet System's TIE Advanced v1 is a groundbreaking starfighter design, featuring upgraded engines, a missile launcher and folding s-foils.",
+      "image": "https://i.imgur.com/6CV2VXS.png"
+    },
+    {
+      "name": "Grand Inquisitor",
+      "caption": "Master of the Inquisitorious",
+      "initiative": 5,
+      "unique": true,
+      "ability": "While you defend at attack range 1, you may spend 1 [Force] to prevent the range 1 bonus. While you perform an attack against a defender at attack range 2-3, you may spend 1 [Force] to apply the range 1 bonus.",
+      "image": "https://i.imgur.com/PElhrM5.png"
+    },
+    {
+      "name": "Inquisitor",
+      "initiative": 3,
+      "unique": false,
+      "text": "The fearsome Inquisitors are given a great deal of autonomy and access to the Empire's latest technology, like the prototype TIE Advanced v1.",
+      "force": 1,
+      "forceRegenerates": true,
+      "image": "https://i.imgur.com/6CV2VXS.png"
+    }
+  ]
+}
