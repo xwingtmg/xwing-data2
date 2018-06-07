@@ -1,0 +1,22 @@
+{
+  "faction": "Galactic Empire",
+  "name": "TIE/sk Striker",
+  "ability": "Adaptive Ailerons: Before you reveal your dial, if you are not stressed you must execute a white ([Bank Left] 1), ([Straight] 1) , or ([Bank Right] 1) manuever.",
+  "pilots": [
+    {
+      "name": "\"Duchess\"",
+      "caption": "Urbane Ace",
+      "initiative": 5,
+      "unique": true,
+      "ability": "You may choose not to use your Adaptive Ailerons.\n\nYou may use your adaptive Ailerons even while stressed.",
+      "image": "https://i.imgur.com/x4zm9K5.png"
+    },
+    {
+      "name": "Planetary Sentinel",
+      "initiative": 1,
+      "unique": false,
+      "text": "To protect its many military installations, the Empire requires a swift and vigilant defensive force. ",
+      "image": "https://i.imgur.com/SBbPj7y.png"
+    }
+  ]
+}

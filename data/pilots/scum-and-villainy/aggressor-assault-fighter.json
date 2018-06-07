@@ -1,0 +1,39 @@
+{
+  "faction": "Scum and Villainy",
+  "name": "Aggressor Assault Fighter",
+  "ability": "Advanced Droid Brain: After you perform a (calculate) action, gain 1 calculate token.",
+  "pilots": [
+    {
+      "name": "IG-88A",
+      "caption": "Aggressive Automaton",
+      "initiative": 4,
+      "unique": true,
+      "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship with (calculate) on its action bar at range 1-2. If you do, transfer 1 of your calculate tokens to it,",
+      "image": "https://i.imgur.com/bcp5bKd.png"
+    },
+    {
+      "name": "IG-88B",
+      "caption": "Brutal Battledroid",
+      "initiative": 4,
+      "unique": true,
+      "ability": "After you perform an attack that misses, you may perform a bonus [cannon] attack.",
+      "image": "https://i.imgur.com/80YX2ED.png"
+    },
+    {
+      "name": "IG-88C",
+      "caption": "Conniving Contraption",
+      "initiative": 4,
+      "unique": true,
+      "ability": "After you perform a (boost) action, you may perform an (evade) action.",
+      "image": "https://i.imgur.com/y9o9rYI.png"
+    },
+    {
+      "name": "IG-88D",
+      "caption": "Deadly Device",
+      "initiative": 4,
+      "unique": true,
+      "ability": "After you execute a Segnor's Loop ( (left sloop) or (right sloop) ) maneuver, you may use another template of the same speed instead: either the turn ( (left turn) or (right turn) of the same direction or the straight ((straight)) template.",
+      "image": "https://i.imgur.com/N0oZPdn.png"
+    }
+  ]
+}

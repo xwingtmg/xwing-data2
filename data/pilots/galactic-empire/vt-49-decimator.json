@@ -1,0 +1,21 @@
+{
+  "faction": "Galactic Empire",
+  "name": "VT-49 Decimator",
+  "pilots": [
+    {
+      "name": "Patrol Leader",
+      "initiative": 2,
+      "unique": false,
+      "text": "To be granted command of a VT/49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.",
+      "image": "https://i.imgur.com/GfdvoEy.png"
+    },
+    {
+      "name": "Rear Admiral Chiraneau",
+      "caption": "Advisor to Admiral Pett",
+      "initiative": 5,
+      "unique": true,
+      "ability": "While you perform an attack, if you are reinforced and the defender is in the (front half) or (rear half) matching your reinforce token,you may change 1 of your (eye) results to a (crit) result.",
+      "image": "https://i.imgur.com/bZFFljY.png"
+    }
+  ]
+}

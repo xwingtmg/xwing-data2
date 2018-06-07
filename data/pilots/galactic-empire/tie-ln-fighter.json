@@ -1,0 +1,66 @@
+{
+  "faction": "Galactic Empire",
+  "name": "TIE/ln Fighter",
+  "pilots": [
+    {
+      "name": "\"Howlrunner\"",
+      "caption": "Obsidian Leader",
+      "initiative": 5,
+      "unique": true,
+      "ability": "While a friendly ship at range 0-1 performs a primary attack, that ship may reroll 1 die.",
+      "image": "https://i.imgur.com/FNqnoMZ.png"
+    },
+    {
+      "name": "\"Night Beast\"",
+      "caption": "Obsidian Two",
+      "initiative": 2,
+      "unique": true,
+      "ability": "After you fully execute a blue maneuver you may perform a [Focus] action.",
+      "image": "https://i.imgur.com/FbwsflC.png"
+    },
+    {
+      "name": "\"Scourge\" Skutu",
+      "caption": "Seasoned Veteran",
+      "initiative": 5,
+      "unique": true,
+      "image": "https://i.imgur.com/GG80Bnl.jpg"
+    },
+    {
+      "name": "Academy Pilot",
+      "initiative": 1,
+      "unique": false,
+      "text": "The Galactic Empire uses the fast and agile TIE/ln, developed by Sienar Fleet Systems and produced in staggering quantity, as its primary starfighter.",
+      "image": "https://i.imgur.com/EmVpvsx.png"
+    },
+    {
+      "name": "Black Squadron Ace",
+      "initiative": 3,
+      "unique": false,
+      "text": "The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the rebel forces at the Battle of Yavin.",
+      "image": "https://i.imgur.com/5LhGep7.png"
+    },
+    {
+      "name": "Iden Versio",
+      "caption": "Inferno Leader",
+      "initiative": 4,
+      "unique": true,
+      "ability": "Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage you may spend 1 [Charge]. If you do, prevent that damage.",
+      "image": "https://i.imgur.com/1GqfiBc.jpg"
+    },
+    {
+      "name": "Obsidian Squadron Pilot",
+      "initiative": 2,
+      "unique": false,
+      "text": "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass produced.",
+      "image": "https://i.imgur.com/DDeq1x3.jpg"
+    },
+    {
+      "name": "Valen Rudor",
+      "caption": "Braggadocious Baron",
+      "initiative": 3,
+      "unique": true,
+      "ability": "After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action.",
+      "image": "https://i.imgur.com/YFaADU4.png"
+    }
+  ]
+}

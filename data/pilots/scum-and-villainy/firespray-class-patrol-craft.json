@@ -1,0 +1,64 @@
+{
+  "name": "Firespray-class Patrol Craft",
+  "size": "Medium",
+  "dial": [
+    "1TW",
+    "1BB",
+    "1FB",
+    "1NB",
+    "1YW",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3ER",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3RR",
+    "4FW",
+    "4KR"
+  ],
+  "faction": "Scum and Villainy",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
+  ],
+  "pilots": [
+    {
+      "name": "Boba Fett",
+      "caption": "Notorious Bounty Hunter",
+      "initiative": 5,
+      "unique": true,
+      "ability": "While you defend or perform an attack, you may reroll 1 of your dice for each enemy ship at range 0-1.",
+      "image": "https://i.imgur.com/eTqvBFF.jpg"
+    },
+    {
+      "name": "Kath Scarlet",
+      "caption": "Captain of the Binayre Pirates",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you perform a primary attack, if there is at least 1 friendly non-limited ship at range 0 of the defender, roll 1 additional attack die.",
+      "image": "https://i.imgur.com/ebr3DrL.png"
+    },
+    {
+      "name": "Koshka Frost",
+      "caption": "Icy Professional",
+      "initiative": 3,
+      "unique": true,
+      "ability": "While you defend or perform and attack, if the enemy ship is stressed, you may reroll 1 of your dice.",
+      "image": "https://i.imgur.com/2s4hZrV.png"
+    }
+  ]
+}

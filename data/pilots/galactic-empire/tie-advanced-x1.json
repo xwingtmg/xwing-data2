@@ -1,0 +1,75 @@
+{
+  "name": "TIE Advanced x1",
+  "size": "Small",
+  "dial": [
+    "1BB",
+    "1FW",
+    "1NB",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3ER",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "3RR",
+    "4FW",
+    "4KR",
+    "5FW"
+  ],
+  "faction": "Galactic Empire",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
+  "ability": "Advanced Targeting Computer: While you perform a primary attack against a defender you have locked, roll 1 additional die and change 1 [Hit] results to a [Critical Hit] result.",
+  "pilots": [
+    {
+      "name": "Darth Vader",
+      "caption": "Black Leader",
+      "initiative": 6,
+      "unique": true,
+      "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
+      "force": 3,
+      "forceRegenerates": true,
+      "image": "https://i.imgur.com/m07Pg9y.png"
+    },
+    {
+      "name": "Maarek Stele",
+      "caption": "Servant of the Empire",
+      "initiative": 5,
+      "unique": true,
+      "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1 and discard the rest. ",
+      "image": "https://i.imgur.com/vJS6Jkw.png"
+    },
+    {
+      "name": "Storm Squadron Ace",
+      "initiative": 3,
+      "unique": false,
+      "text": "The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.",
+      "image": "https://i.imgur.com/ZPCZxyz.png"
+    },
+    {
+      "name": "Ved Foslo",
+      "caption": "Ambitious Engineer",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
+      "image": "https://i.imgur.com/Lk6104G.jpg"
+    }
+  ]
+}

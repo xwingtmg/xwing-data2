@@ -1,0 +1,22 @@
+{
+  "faction": "Galactic Empire",
+  "name": "TIE/sa Bomber",
+  "ability": "Nimble Bomber: If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.",
+  "pilots": [
+    {
+      "name": "\"Deathfire\"",
+      "caption": "Unflinching Diehard",
+      "initiative": 2,
+      "unique": true,
+      "ability": "After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device. ",
+      "image": "https://i.imgur.com/VLOw6DT.png"
+    },
+    {
+      "name": "Scimitar Squadron Pilot",
+      "initiative": 2,
+      "unique": false,
+      "text": "The TIE/sa is exceptionally nimble for a bomber, allowing it to pinpoint its target while avoiding excessive collateral damage to the surrounding area.",
+      "image": "https://i.imgur.com/BIbaiHf.png"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "faction": "Scum and Villainy",
+  "name": "JumpMaster 5000",
+  "pilots": [
+    {
+      "name": "Contracted Scout",
+      "initiative": 2,
+      "unique": false,
+      "text": "Built for long-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
+      "image": "https://i.imgur.com/FEZzvV0.png"
+    },
+    {
+      "name": "Dengar",
+      "caption": "Vengeful Corellion",
+      "initiative": 6,
+      "unique": true,
+      "ability": "After you defend, if the attacker is in your [Front], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
+      "charges": 1,
+      "chargeRegenerates": true,
+      "forceRegenerates": false,
+      "image": "https://i.imgur.com/Pli4hOp.png"
+    }
+  ]
+}

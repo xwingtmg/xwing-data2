@@ -1,0 +1,29 @@
+{
+  "faction": "Scum and Villainy",
+  "name": "YV-666 Light Freighter",
+  "pilots": [
+    {
+      "name": "Bossk",
+      "caption": "Fearsome Hunter",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you perform a primary attack, after the Neutralize Results step, you may spend 1 (crit) result to add 2 (hit) results.",
+      "image": "https://i.imgur.com/CKPzcSB.png"
+    },
+    {
+      "name": "Moralo Eval",
+      "caption": "Criminal Mastermind",
+      "initiative": 4,
+      "unique": true,
+      "ability": "If you would flee, you may spend 1 (charge). If you do, place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of the edge of the play area that you fled from.",
+      "image": "https://i.imgur.com/kn89diB.png"
+    },
+    {
+      "name": "Trandoshan Slaver",
+      "initiative": 2,
+      "unique": false,
+      "text": "The spacious triple-decker design of the YV-666 makes it popular among bounty hunters and slavers, who often retrofit an entire deck for prisoner transport.",
+      "image": "https://i.imgur.com/oL3jSvG.png"
+    }
+  ]
+}

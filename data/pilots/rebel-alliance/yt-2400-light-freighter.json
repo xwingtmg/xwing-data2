@@ -1,0 +1,30 @@
+{
+  "faction": "Rebel Alliance",
+  "name": "YT-2400 Light Freighter",
+  "ability": "Sensor Blindspot: While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die.",
+  "pilots": [
+    {
+      "name": "\"Leebo\"",
+      "caption": "Dry-Witted Droid",
+      "initiative": 3,
+      "unique": true,
+      "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
+      "image": "https://i.imgur.com/1JwTtlv.jpg"
+    },
+    {
+      "name": "Dash Rendar",
+      "caption": "Hotshot Mercenary",
+      "initiative": 5,
+      "unique": true,
+      "ability": "While you move, you ignore obstacles.",
+      "image": "https://i.imgur.com/mInRUGj.png"
+    },
+    {
+      "name": "Wild Space Fringer",
+      "initiative": 1,
+      "unique": false,
+      "text": "Although stock YT-2400 light freighters have plenty of room for cargo, that space is often annexed to support modified weapon systems and oversized engines.",
+      "image": "https://i.imgur.com/oGHjCqq.png"
+    }
+  ]
+}
