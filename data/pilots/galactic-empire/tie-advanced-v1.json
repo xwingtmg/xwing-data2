@@ -1,6 +1,42 @@
 {
-  "faction": "Galactic Empire",
   "name": "TIE Advanced v1",
+  "size": "Small",
+  "dial": [
+    "1TB",
+    "1BB",
+    "1NB",
+    "1YB",
+    "2ER",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "2RR",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "4FW",
+    "4KR",
+    "5FW"
+  ],
+  "faction": "Galactic Empire",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
   "pilots": [
     {
       "name": "Baron of the Empire",

@@ -1,6 +1,38 @@
 {
-  "faction": "Galactic Empire",
   "name": "TIE/ag Aggressor",
+  "size": "Small",
+  "dial": [
+    "1BW",
+    "1FB",
+    "1NW",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "4FW",
+    "4KR"
+  ],
+  "faction": "Galactic Empire",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
+  ],
   "pilots": [
     {
       "name": "Onyx Squadron Scout",

@@ -1,6 +1,41 @@
 {
-  "faction": "Galactic Empire",
   "name": "TIE/D Defender",
+  "size": "Small",
+  "dial": [
+    "1TR",
+    "1BB",
+    "1NB",
+    "1YR",
+    "2TR",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YR",
+    "2KR",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "4FB",
+    "4KW",
+    "5FB"
+  ],
+  "faction": "Galactic Empire",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
+  ],
   "ability": "Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action.",
   "pilots": [
     {

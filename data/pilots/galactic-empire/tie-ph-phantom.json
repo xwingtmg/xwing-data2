@@ -1,6 +1,40 @@
 {
-  "faction": "Galactic Empire",
   "name": "TIE/ph Phantom",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1BW",
+    "1NW",
+    "1YW",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "3KR",
+    "4FW",
+    "4KR"
+  ],
+  "faction": "Galactic Empire",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
   "ability": "Stygium Array: After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token.",
   "pilots": [
     {

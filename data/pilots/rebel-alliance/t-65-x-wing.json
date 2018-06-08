@@ -1,6 +1,22 @@
 {
-  "faction": "Rebel Alliance",
   "name": "T-65 X-wing",
+  "size": "Small",
+  "dial": "1BG,1FG,1NG,2TW,2BW,2FG,2NW,2YW,3TW,3BW,3FW,3NW,3YW,4FW,4KR",
+  "faction": "Rebel Alliance",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
   "pilots": [
     {
       "name": "Biggs Darklighter",
