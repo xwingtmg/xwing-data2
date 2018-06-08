@@ -1,6 +1,34 @@
 {
-  "faction": "Rebel Alliance",
   "name": "BTL-S8 K-wing",
+  "size": "Medium",
+  "dial": [
+    "1BB",
+    "1FB",
+    "1NB",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3BW",
+    "3FW",
+    "3NW"
+  ],
+  "faction": "Rebel Alliance",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
+  ],
   "pilots": [
     {
       "name": "Esege Tuketu",

@@ -1,6 +1,38 @@
 {
-  "faction": "Rebel Alliance",
   "name": "HWK-290 Light Freighter",
+  "size": "Small",
+  "dial": [
+    "0OR",
+    "1BB",
+    "1FB",
+    "1NB",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YR",
+    "4FW"
+  ],
+  "faction": "Rebel Alliance",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
   "pilots": [
     {
       "name": "Jan Ors",

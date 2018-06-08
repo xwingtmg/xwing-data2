@@ -1,6 +1,39 @@
 {
-  "faction": "Galactic Empire",
   "name": "TIE Reaper",
+  "size": "Medium",
+  "dial": [
+    "0OR",
+    "1LR",
+    "1TW",
+    "1BW",
+    "1FG",
+    "1NW",
+    "1YW",
+    "1PR",
+    "2TR",
+    "2BG",
+    "2FG",
+    "2NG",
+    "2YR",
+    "3BR",
+    "3FG",
+    "3NR"
+  ],
+  "faction": "Galactic Empire",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
   "ability": "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must execute a white 1 (left bank), 1 (straight) or 1 (right bank) maneuver.",
   "pilots": [
     {

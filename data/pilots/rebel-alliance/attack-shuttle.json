@@ -1,6 +1,40 @@
 {
-  "faction": "Rebel Alliance",
   "name": "Attack Shuttle",
+  "size": "Small",
+  "dial": [
+    "1TR",
+    "1BG",
+    "1FG",
+    "1NG",
+    "1YR",
+    "2TW",
+    "2BW",
+    "2FG",
+    "2NW",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YR",
+    "4FW",
+    "4KR"
+  ],
+  "faction": "Rebel Alliance",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
+  ],
   "ability": "Locked and Loaded: While you are docked, after your carrier ship performs a primary [Front] or [Turret] attack, it may perform a bonus primary [Rear] attack.",
   "pilots": [
     {

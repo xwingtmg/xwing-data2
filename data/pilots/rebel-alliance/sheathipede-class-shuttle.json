@@ -1,6 +1,38 @@
 {
-  "faction": "Rebel Alliance",
   "name": "Sheathipede-class Shuttle",
+  "size": "Small",
+  "dial": [
+    "1BW",
+    "1FG",
+    "1NW",
+    "2TW",
+    "2BG",
+    "2FG",
+    "2NG",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FG",
+    "3NW",
+    "3YR",
+    "3KR",
+    "4FR"
+  ],
+  "faction": "Rebel Alliance",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
+  ],
   "ability": "Comms Shuttle: While you are docked, your carrier ship games [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action.",
   "pilots": [
     {
