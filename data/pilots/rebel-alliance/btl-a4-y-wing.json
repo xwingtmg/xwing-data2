@@ -1,6 +1,38 @@
 {
-  "faction": "Rebel Alliance",
   "name": "BTL-A4 Y-wing",
+  "size": "Small",
+  "dial": [
+    "1BW",
+    "1FG",
+    "1NW",
+    "2TW",
+    "2BW",
+    "2FG",
+    "2NW",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YR",
+    "4FR",
+    "4KR"
+  ],
+  "faction": "Rebel Alliance",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
   "pilots": [
     {
       "name": "\"Dutch\" Vander",

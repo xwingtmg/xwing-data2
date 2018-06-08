@@ -1,6 +1,39 @@
 {
-  "faction": "Rebel Alliance",
   "name": "TIE/ln Fighter",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1YW",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "3KR",
+    "4FW",
+    "4KR",
+    "5FW"
+  ],
+  "faction": "Rebel Alliance",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 0
+    }
+  ],
   "pilots": [
     {
       "name": "\"Zeb\" Orrelios",

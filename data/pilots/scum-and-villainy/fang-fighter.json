@@ -1,6 +1,36 @@
 {
-  "faction": "Scum and Villainy",
   "name": "Fang Fighter",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1YW",
+    "2ER",
+    "2TB",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YB",
+    "2RR",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "4FW",
+    "4KR",
+    "5FW"
+  ],
+  "faction": "Scum and Villainy",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "agility",
+      "value": 3
+    }
+  ],
   "ability": "Concordia Faceoff: While you defend, if the attack range is 1 and you are in the attacker's [Front], change 1 result to an [Evade] result.",
   "pilots": [
     {
