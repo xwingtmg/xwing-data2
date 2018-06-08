@@ -1,6 +1,39 @@
 {
-  "faction": "Scum and Villainy",
   "name": "M3-A Interceptor",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1BB",
+    "1NB",
+    "1YW",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3KR",
+    "4FW",
+    "5FW",
+    "5KR"
+  ],
+  "faction": "Scum and Villainy",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
+  ],
   "ability": "Weapon Hardpoint: You can equip 1 [Cannon], [Torpedo] or [Missile] upgrade.",
   "pilots": [
     {

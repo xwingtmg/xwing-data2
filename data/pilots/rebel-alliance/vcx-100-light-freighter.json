@@ -59,8 +59,10 @@
       "initiative": 3,
       "unique": true,
       "ability": "While a friendly ship in your firing arc defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
-      "force": 2,
-      "forceRegenerates": true,
+      "force": {
+        "value": 2,
+        "regenerates": true
+      },
       "image": "https://i.imgur.com/qOPVRTj.jpg"
     },
     {

@@ -45,6 +45,10 @@
       "initiative": 4,
       "unique": true,
       "ability": "Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage you may spend 1 [Charge]. If you do, prevent that damage.",
+      "charges": {
+        "value": 1,
+        "regenerates": false
+      },
       "image": "https://i.imgur.com/1GqfiBc.jpg"
     },
     {

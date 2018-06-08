@@ -1,6 +1,39 @@
 {
-  "faction": "Scum and Villainy",
   "name": "Kihraxz Fighter",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1BB",
+    "1NB",
+    "1YW",
+    "2ER",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "2RR",
+    "3BW",
+    "3FB",
+    "3NW",
+    "4FW",
+    "4KR"
+  ],
+  "faction": "Scum and Villainy",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 5
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
+  ],
   "pilots": [
     {
       "name": "Cartel Marauder",

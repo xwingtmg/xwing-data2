@@ -1,6 +1,39 @@
 {
-  "faction": "Scum and Villainy",
   "name": "Z-95-AF4 Headhunter",
+  "size": "Small",
+  "dial": [
+    "1BW",
+    "1FB",
+    "1NW",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "3KR",
+    "4FW",
+    "4KR"
+  ],
+  "faction": "Scum and Villainy",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
   "pilots": [
     {
       "name": "Binayre Pirate",

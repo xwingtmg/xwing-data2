@@ -1,12 +1,45 @@
 {
-  "faction": "Galactic Empire",
   "name": "VT-49 Decimator",
+  "size": "Large",
+  "dial": [
+    "1TR",
+    "1BB",
+    "1FB",
+    "1NB",
+    "1YR",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3TW",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YW",
+    "4FW"
+  ],
+  "faction": "Galactic Empire",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 12
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
+  ],
   "pilots": [
     {
       "name": "Patrol Leader",
       "initiative": 2,
       "unique": false,
-      "text": "To be granted command of a VT/49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.",
+      "text": "To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.",
       "image": "https://i.imgur.com/GfdvoEy.png"
     },
     {

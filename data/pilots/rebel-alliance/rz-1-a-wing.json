@@ -1,6 +1,40 @@
 {
-  "faction": "Rebel Alliance",
   "name": "RZ-1 A-wing",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1YW",
+    "2TB",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YB",
+    "3LR",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "3PR",
+    "4FB",
+    "5FB",
+    "5KR"
+  ],
+  "faction": "Rebel Alliance",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
   "ability": "Vectored Thrusters: After you perform an action, you may perform a red (boost) action.",
   "pilots": [
     {

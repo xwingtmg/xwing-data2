@@ -1,6 +1,38 @@
 {
-  "faction": "Scum and Villainy",
   "name": "YV-666 Light Freighter",
+  "size": "Large",
+  "dial": [
+    "0OR",
+    "1BB",
+    "1FB",
+    "1NB",
+    "2TR",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YR",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "4FW"
+  ],
+  "faction": "Scum and Villainy",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 9
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
+  ],
   "pilots": [
     {
       "name": "Bossk",
@@ -16,6 +48,10 @@
       "initiative": 4,
       "unique": true,
       "ability": "If you would flee, you may spend 1 (charge). If you do, place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of the edge of the play area that you fled from.",
+      "charges": {
+        "value": 2,
+        "regenerates": false
+      },
       "image": "https://i.imgur.com/kn89diB.png"
     },
     {

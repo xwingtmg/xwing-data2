@@ -44,8 +44,10 @@
       "initiative": 6,
       "unique": true,
       "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
-      "force": 3,
-      "forceRegenerates": true,
+      "force": {
+        "value": 3,
+        "regenerates": true
+      },
       "image": "https://i.imgur.com/m07Pg9y.png"
     },
     {

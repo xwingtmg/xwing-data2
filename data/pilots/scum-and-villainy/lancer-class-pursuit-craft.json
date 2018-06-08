@@ -1,6 +1,39 @@
 {
-  "faction": "Scum and Villainy",
   "name": "Lancer-class Pursuit Craft",
+  "size": "Large",
+  "dial": [
+    "1BW",
+    "1FW",
+    "1NW",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3TB",
+    "3BB",
+    "3FB",
+    "3NB",
+    "3YB",
+    "4FB",
+    "5FW",
+    "5KR"
+  ],
+  "faction": "Scum and Villainy",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 8
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
   "pilots": [
     {
       "name": "Asajj Ventress",
@@ -8,6 +41,10 @@
       "initiative": 4,
       "unique": true,
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your (mobile firing arc) at range 0-2 and spend 1 (force). If you do, that ship gains 1 stress token unless it removes 1 green token.",
+      "force": {
+        "value": 2,
+        "regenerates": true
+      },
       "image": "https://i.imgur.com/QNxgpV2.png"
     },
     {

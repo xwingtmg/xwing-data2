@@ -51,6 +51,10 @@
       "initiative": 5,
       "unique": true,
       "ability": "While you defend at attack range 1, you may spend 1 [Force] to prevent the range 1 bonus. While you perform an attack against a defender at attack range 2-3, you may spend 1 [Force] to apply the range 1 bonus.",
+      "force": {
+        "value": 2,
+        "regenerates": true
+      },
       "image": "https://i.imgur.com/PElhrM5.png"
     },
     {
@@ -58,8 +62,10 @@
       "initiative": 3,
       "unique": false,
       "text": "The fearsome Inquisitors are given a great deal of autonomy and access to the Empire's latest technology, like the prototype TIE Advanced v1.",
-      "force": 1,
-      "forceRegenerates": true,
+      "force": {
+        "value": 1,
+        "regenerates": true
+      },
       "image": "https://i.imgur.com/6CV2VXS.png"
     }
   ]

@@ -1,6 +1,39 @@
 {
-  "faction": "Scum and Villainy",
   "name": "JumpMaster 5000",
+  "size": "Large",
+  "dial": [
+    "1TW",
+    "1BB",
+    "1FB",
+    "1NW",
+    "1YR",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NW",
+    "2YR",
+    "3LR",
+    "3BB",
+    "3FB",
+    "3NW",
+    "4FW",
+    "4KR"
+  ],
+  "faction": "Scum and Villainy",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
+  ],
   "pilots": [
     {
       "name": "Contracted Scout",
@@ -15,8 +48,10 @@
       "initiative": 6,
       "unique": true,
       "ability": "After you defend, if the attacker is in your [Front], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
-      "charges": 1,
-      "chargeRegenerates": true,
+      "charges": {
+        "value": 1,
+        "regenerates": true
+      },
       "forceRegenerates": false,
       "image": "https://i.imgur.com/Pli4hOp.png"
     }
