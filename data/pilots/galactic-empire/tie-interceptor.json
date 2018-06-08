@@ -1,6 +1,40 @@
 {
-  "faction": "Galactic Empire",
   "name": "TIE Interceptor",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1YW",
+    "2TB",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YB",
+    "3LR",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "3PR",
+    "4FB",
+    "4KR",
+    "5FW"
+  ],
+  "faction": "Galactic Empire",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 0
+    }
+  ],
   "ability": "Autothrusters: After you performan action, you may perform a red [Barrel roll] or a red [Boost]",
   "pilots": [
     {
