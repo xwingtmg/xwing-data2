@@ -1,6 +1,35 @@
 {
-  "faction": "Galactic Empire",
   "name": "Lambda/Class T-4A Shuttle",
+  "size": "Large",
+  "dial": [
+    "0OR",
+    "1BB",
+    "1FB",
+    "1NB",
+    "2TR",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YR",
+    "3BR",
+    "3FW",
+    "3NR"
+  ],
+  "faction": "Galactic Empire",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
+  ],
   "pilots": [
     {
       "name": "Omicron Group Pilot",

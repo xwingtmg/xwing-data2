@@ -1,6 +1,35 @@
 {
-  "faction": "Galactic Empire",
   "name": "TIE/sk Striker",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1BB",
+    "1FB",
+    "1NB",
+    "1YW",
+    "1KR",
+    "2LR",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "2PR",
+    "3BW",
+    "3FB",
+    "3NW"
+  ],
+  "faction": "Galactic Empire",
+  "stats": [
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "agility",
+      "value": 2
+    }
+  ],
   "ability": "Adaptive Ailerons: Before you reveal your dial, if you are not stressed you must execute a white ([Bank Left] 1), ([Straight] 1) , or ([Bank Right] 1) manuever.",
   "pilots": [
     {
