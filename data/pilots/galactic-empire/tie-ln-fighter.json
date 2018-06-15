@@ -59,6 +59,18 @@
       "image": "https://i.imgur.com/GG80Bnl.jpg"
     },
     {
+      "name": "\"Wampa\"",
+      "caption": "Black Eleven",
+      "initiative": 1,
+      "unique": false,
+      "ability": "While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die. After defending, lose 1 [Charge].",
+      "charges": {
+        "value": 1,
+        "regenerates": true
+      },
+      "image": "https://i.imgur.com/VC8a6MP.jpg"
+    },
+    {
       "name": "Academy Pilot",
       "initiative": 1,
       "unique": false,
