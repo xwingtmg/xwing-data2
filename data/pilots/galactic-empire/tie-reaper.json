@@ -4,20 +4,20 @@
   "dial": [
     "0OR",
     "1LR",
-    "1TW",
-    "1BW",
+    "1TR",
+    "1BB",
     "1FB",
-    "1NW",
-    "1YW",
+    "1NB",
+    "1YR",
     "1PR",
     "2TR",
-    "2BB",
+    "2BW",
     "2FB",
-    "2NB",
+    "2NW",
     "2YR",
-    "3BR",
+    "3BW",
     "3FB",
-    "3NR"
+    "3NW"
   ],
   "faction": "Galactic Empire",
   "stats": [
@@ -37,12 +37,28 @@
   "ability": "Adaptive Ailerons: Before you reveal your dial, if you are not stressed, you must execute a white 1 (left bank), 1 (straight) or 1 (right bank) maneuver.",
   "pilots": [
     {
+      "name": "\"Vizier\"",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/a0/86/a08685c2-260b-449c-ba91-a870f6058e22/swx75_card2_vizier.png",
+      "caption": "Ruthless Tactician",
+      "initiative": 2,
+      "unique": true,
+      "ability": "After you fully execute a speed 1 maneuver using your Adaptive Ailerons ship ability, you may perform a [coordinate] action. If you do, skip your Perform Action step."
+    },
+    {
       "name": "Captain Feroph",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/e9/9ce9dedf-8f3f-482e-bcbb-d105e5c78682/swx75_card2_captain-feroph.png",
       "caption": "Imperial Courier",
       "initiative": 3,
       "unique": true,
-      "ability": "While you defend, if the attacker does not have any green tokens, you may change 1 of your (eye)/blank results to an (evade) result.",
-      "image": "https://i.imgur.com/bpfn4xB.png"
+      "ability": "While you defend, if the attacker does not have any green tokens, you may change 1 of your (eye)/blank results to an (evade) result."
+    },
+    {
+      "name": "Major Vermeil",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/a7/29/a729992e-5e68-46e8-93d7-33f1220aed9d/swx75_card2_major-vermeil.png",
+      "caption": "Veteran of Scarif",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you perform an attack, if the defender does not have any green tokens, you may change 1 of your [Focus]/blank results to a [Hit] result."
     }
   ]
 }

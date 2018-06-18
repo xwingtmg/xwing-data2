@@ -38,6 +38,7 @@
   "pilots": [
     {
       "name": "Chewbacca",
+      "image": "https://i.imgur.com/72poOIG.jpg",
       "caption": "The Mighty",
       "initiative": 4,
       "unique": true,
@@ -45,8 +46,7 @@
       "charges": {
         "value": 1,
         "regenerates": true
-      },
-      "image": "https://i.imgur.com/72poOIG.jpg"
+      }
     },
     {
       "name": "Han Solo",
