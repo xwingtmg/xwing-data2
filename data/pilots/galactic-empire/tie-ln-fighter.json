@@ -44,6 +44,14 @@
       "image": "https://i.imgur.com/FNqnoMZ.png"
     },
     {
+      "name": "\"Mauler\" Mithel",
+      "image": "https://i.imgur.com/A1AVLz6.jpg",
+      "caption": "Black Two",
+      "initiative": 5,
+      "unique": true,
+      "ability": "While you perform an attack at attack range 1 roll 1 additional attack die."
+    },
+    {
       "name": "\"Night Beast\"",
       "caption": "Obsidian Two",
       "initiative": 2,
@@ -56,7 +64,8 @@
       "image": "https://i.imgur.com/GG80Bnl.jpg",
       "caption": "Seasoned Veteran",
       "initiative": 5,
-      "unique": true
+      "unique": true,
+      "ability": "While you perform an attack against an enemy in your [Bullseye], roll 1 additional attack dice."
     },
     {
       "name": "\"Wampa\"",
@@ -83,6 +92,22 @@
       "unique": false,
       "text": "The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the rebel forces at the Battle of Yavin.",
       "image": "https://i.imgur.com/5LhGep7.png"
+    },
+    {
+      "name": "Del Meeko",
+      "image": "https://i.imgur.com/zituAIZ.jpg",
+      "caption": "Inferno Three",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die."
+    },
+    {
+      "name": "Gideon Hask",
+      "image": "https://i.imgur.com/i0qP6cd.jpg",
+      "caption": "Inferno Two",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die."
     },
     {
       "name": "Iden Versio",

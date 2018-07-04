@@ -39,6 +39,14 @@
   "ability": "Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action.",
   "pilots": [
     {
+      "name": "Colonel Vessery",
+      "image": "https://i.imgur.com/zMIFfUy.jpg",
+      "caption": "Contemplative Commander",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you perform an attack against a locked ship, after you roll attack dice, you may acquire a lock on the defender."
+    },
+    {
       "name": "Countess Ryad",
       "caption": "Cutthroat Politico",
       "initiative": 4,

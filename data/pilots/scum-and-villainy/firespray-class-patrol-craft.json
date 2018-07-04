@@ -38,27 +38,35 @@
   "pilots": [
     {
       "name": "Boba Fett",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/12/a4/12a4f0af-510a-4f3e-8eb8-744ab23088cc/swz16_boba-fett.png",
       "caption": "Notorious Bounty Hunter",
       "initiative": 5,
       "unique": true,
-      "ability": "While you defend or perform an attack, you may reroll 1 of your dice for each enemy ship at range 0-1.",
-      "image": "https://i.imgur.com/eTqvBFF.jpg"
+      "ability": "While you defend or perform an attack, you may reroll 1 of your dice for each enemy ship at range 0-1."
     },
     {
       "name": "Kath Scarlet",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/be/71/be7149e6-a385-4f79-b8eb-38329c0ba8c9/swz16_kath-scarlet.png",
       "caption": "Captain of the Binayre Pirates",
       "initiative": 4,
       "unique": true,
-      "ability": "While you perform a primary attack, if there is at least 1 friendly non-limited ship at range 0 of the defender, roll 1 additional attack die.",
-      "image": "https://i.imgur.com/ebr3DrL.png"
+      "ability": "While you perform a primary attack, if there is at least 1 friendly non-limited ship at range 0 of the defender, roll 1 additional attack die."
     },
     {
       "name": "Koshka Frost",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/60/03/60031d7d-a625-4946-8e35-fcc82abfcd2d/swz16_koshka-frost.png",
       "caption": "Icy Professional",
       "initiative": 3,
       "unique": true,
-      "ability": "While you defend or perform and attack, if the enemy ship is stressed, you may reroll 1 of your dice.",
-      "image": "https://i.imgur.com/2s4hZrV.png"
+      "ability": "While you defend or perform and attack, if the enemy ship is stressed, you may reroll 1 of your dice."
+    },
+    {
+      "name": "Krassis Trelix",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/f7/bb/f7bb3a41-d175-4ec7-b0fb-3bf79bba8245/swz16_krassis-trelix.png",
+      "caption": "Imperial Deserter",
+      "initiative": 3,
+      "unique": true,
+      "ability": "You can perform [Front] special attacks from your [Rear]. While you perform a special attack, you may reroll 1 attack die."
     }
   ]
 }
