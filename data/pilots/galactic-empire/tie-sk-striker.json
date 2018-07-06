@@ -33,12 +33,35 @@
   "ability": "Adaptive Ailerons: Before you reveal your dial, if you are not stressed you must execute a white ([Bank Left] 1), ([Straight] 1) , or ([Bank Right] 1) manuever.",
   "pilots": [
     {
+      "name": "\"Countdown\"",
+      "image": "https://i.imgur.com/kVPdfuW.jpg",
+      "caption": "Death Dealer",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you defend, after the Neutralize Results step, if you are not stressed, you may suffer 1 [Hit] damage and gain 1 stress token. If you do, cancel all dice results."
+    },
+    {
       "name": "\"Duchess\"",
       "caption": "Urbane Ace",
       "initiative": 5,
       "unique": true,
       "ability": "You may choose not to use your Adaptive Ailerons.\n\nYou may use your adaptive Ailerons even while stressed.",
       "image": "https://i.imgur.com/x4zm9K5.png"
+    },
+    {
+      "name": "\"Pure Sabacc\"",
+      "image": "https://i.imgur.com/YhDFdGk.jpg",
+      "caption": "Confident Gambler",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you perform an attack, if you have 1 or fewer damage cards, you may roll 1 additional attack die."
+    },
+    {
+      "name": "Black Squadron Scout",
+      "image": "https://i.imgur.com/tibcJCo.jpg",
+      "initiative": 3,
+      "unique": false,
+      "text": "These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability."
     },
     {
       "name": "Planetary Sentinel",

@@ -50,10 +50,30 @@
       "ability": "After you defend, if the attacker is in your [Front], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
       "charges": {
         "value": 1,
-        "regenerates": true
+        "regenerates": 1
       },
       "forceRegenerates": false,
       "image": "https://i.imgur.com/Pli4hOp.png"
+    },
+    {
+      "name": "Manaroo",
+      "image": "https://i.imgur.com/Jmm6wZQ.jpg",
+      "caption": "Graceful Aruzan",
+      "initiative": 3,
+      "unique": true,
+      "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship."
+    },
+    {
+      "name": "Tel Trevura",
+      "image": "https://i.imgur.com/FeUMuVx.jpg",
+      "caption": "Escape Artist",
+      "initiative": 4,
+      "unique": true,
+      "ability": "If you would be destroyed, you may discard 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [hit] damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.",
+      "charges": {
+        "value": 1,
+        "regenerates": 0
+      }
     }
   ]
 }

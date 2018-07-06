@@ -36,11 +36,31 @@
   ],
   "pilots": [
     {
+      "name": "Captain Nym",
+      "image": "https://i.imgur.com/K6HMkzW.jpg",
+      "caption": "Captain of the Lok Revenants",
+      "initiative": 5,
+      "unique": true,
+      "ability": "Before a friendly bomb or mine would detonate, you may spend 1 [Charge] to prevent it from deteriorating.\nWhile you defend against an attack obstructed by a bomb or mine, roll 1 additional defense die.",
+      "charges": {
+        "value": 1,
+        "regenerates": 1
+      }
+    },
+    {
       "name": "Lok Revenant",
       "initiative": 2,
       "unique": false,
       "text": "The Nubian Design Collective crafted the Scurrg H-6 Bomber with combat versatility in mind, arming it with powerful shields and a bristling array of destructive weaponry.",
       "image": "https://i.imgur.com/oA7Cb6x.png"
+    },
+    {
+      "name": "Sol Sixxa",
+      "image": "https://i.imgur.com/K5fOl1Z.jpg",
+      "caption": "Cunning Commander",
+      "initiative": 3,
+      "unique": true,
+      "ability": "If you would drop a device using a [1 [Straight]] template, you may drop it using any other speed 1 template instead."
     }
   ]
 }

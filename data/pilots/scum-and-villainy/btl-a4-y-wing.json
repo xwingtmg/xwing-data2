@@ -35,6 +35,21 @@
   ],
   "pilots": [
     {
+      "name": "Crymorah Goon",
+      "image": "https://i.imgur.com/k9OOfbZ.jpg",
+      "initiative": 1,
+      "unique": false,
+      "text": "Though far from nimble, the Y-wing's heavy hull, substantial shielding, and turret mounted cannons make it an excellent patrol craft."
+    },
+    {
+      "name": "Drea Renthall",
+      "image": "https://i.imgur.com/AxKyzGp.jpg",
+      "caption": "Pirate Lord",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While a friendly non-limited ship performs an attack, if the defender is in your firing arc, the attacked may reroll 1 attack die."
+    },
+    {
       "name": "Hired Gun",
       "initiative": 2,
       "unique": false,

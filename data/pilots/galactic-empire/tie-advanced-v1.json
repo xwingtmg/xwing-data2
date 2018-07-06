@@ -53,7 +53,7 @@
       "ability": "While you defend at attack range 1, you may spend 1 [Force] to prevent the range 1 bonus. While you perform an attack against a defender at attack range 2-3, you may spend 1 [Force] to apply the range 1 bonus.",
       "force": {
         "value": 2,
-        "regenerates": true
+        "regenerates": 1
       },
       "image": "https://i.imgur.com/PElhrM5.png"
     },
@@ -64,9 +64,21 @@
       "text": "The fearsome Inquisitors are given a great deal of autonomy and access to the Empire's latest technology, like the prototype TIE Advanced v1.",
       "force": {
         "value": 1,
-        "regenerates": true
+        "regenerates": 1
       },
       "image": "https://i.imgur.com/6CV2VXS.png"
+    },
+    {
+      "name": "Seventh Sister",
+      "image": "https://i.imgur.com/za20byz.jpg",
+      "caption": "Sadistic Interrogator",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you perform a primary attack, before the Neutralize Results step, you may spend 2 [Force] to cancel 1 [Evade] result.",
+      "force": {
+        "value": 2,
+        "regenerates": 1
+      }
     }
   ]
 }

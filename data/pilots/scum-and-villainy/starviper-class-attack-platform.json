@@ -37,11 +37,26 @@
   "ability": "Microthrusters: While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template.",
   "pilots": [
     {
+      "name": "Black Sun Assassin",
+      "image": "https://i.imgur.com/UHxIn6d.jpg",
+      "initiative": 3,
+      "unique": false,
+      "text": "Although assassinations can be handled with a shot in the dark or a ??? substance added to a drink, a flaming shuttle tumbling from the sky sends a special kind of message."
+    },
+    {
       "name": "Black Sun Enforcer",
       "initiative": 2,
       "unique": false,
       "text": "Prince Xizor himself collaborated with MandalMotors to design the StarViper-class attack platform, one of the most formidable starfighters in the galaxy.",
       "image": "https://i.imgur.com/JK3Fwdu.png"
+    },
+    {
+      "name": "Dalan Oberos",
+      "image": "https://i.imgur.com/AK9lYGC.jpg",
+      "caption": "Elite Bounty Hunter",
+      "initiative": 4,
+      "unique": true,
+      "ability": "After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90°."
     },
     {
       "name": "Guri",

@@ -75,7 +75,7 @@
       "ability": "While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die. After defending, lose 1 [Charge].",
       "charges": {
         "value": 1,
-        "regenerates": true
+        "regenerates": 1
       },
       "image": "https://i.imgur.com/VC8a6MP.jpg"
     },
@@ -117,7 +117,7 @@
       "ability": "Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage you may spend 1 [Charge]. If you do, prevent that damage.",
       "charges": {
         "value": 1,
-        "regenerates": false
+        "regenerates": 0
       },
       "image": "https://i.imgur.com/1GqfiBc.jpg"
     },
@@ -127,6 +127,14 @@
       "unique": false,
       "text": "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass produced.",
       "image": "https://i.imgur.com/DDeq1x3.jpg"
+    },
+    {
+      "name": "Seyn Marana",
+      "image": "https://i.imgur.com/Tb4GOpU.jpg",
+      "caption": "Inferno Four",
+      "initiative": 4,
+      "unique": true,
+      "ability": "While you perform an attack, you may spend 1 [Crit] result. If you do, deal 1 facedown damage card to the defender, then cancel your remaining results."
     },
     {
       "name": "Valen Rudor",

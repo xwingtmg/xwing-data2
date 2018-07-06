@@ -50,12 +50,27 @@
       "image": "https://i.imgur.com/2s4hZrV.png"
     },
     {
+      "name": "Kad Solus",
+      "image": "https://i.imgur.com/Ae1uQVu.jpg",
+      "caption": "Skilled Commando",
+      "initiative": 4,
+      "unique": true,
+      "ability": "After you fully execute a red maneuver, gain 2 focus tokens."
+    },
+    {
       "name": "Old Teroch",
       "caption": "Mandalorian Mentor",
       "initiative": 5,
       "unique": true,
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship at range 1. If you do and you are in its (forward firing arc), it removes all of its green tokens.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/d1/06/d106c657-a31f-44d1-9263-db442b9799fc/swz01_a5_fang_diagram.png"
+    },
+    {
+      "name": "Skull Squadron Pilot",
+      "image": "https://i.imgur.com/9fXccsv.jpg",
+      "initiative": 4,
+      "unique": false,
+      "text": "The aces of Skull Squadron favor an aggressive approach, using their craft's ???? wing technology to achieve unmatched agility in the pursuit of their quarry."
     },
     {
       "name": "Zealous Recruit",

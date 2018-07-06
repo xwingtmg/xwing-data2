@@ -43,9 +43,25 @@
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your (mobile firing arc) at range 0-2 and spend 1 (force). If you do, that ship gains 1 stress token unless it removes 1 green token.",
       "force": {
         "value": 2,
-        "regenerates": true
+        "regenerates": 1
       },
       "image": "https://i.imgur.com/QNxgpV2.png"
+    },
+    {
+      "name": "Ketsu Onyo",
+      "image": "https://i.imgur.com/9F0QVHS.jpg",
+      "caption": "Black Sun Contractor",
+      "initiative": 5,
+      "unique": true,
+      "ability": "At the start of the Engagement Phase, you may choose 1 ship in both your [Front] and [Turret] at range 0-1. If you do, that ship gains 1 tractor token."
+    },
+    {
+      "name": "Sabine Wren",
+      "image": "https://i.imgur.com/DzAs19y.jpg",
+      "caption": "Artistic Saboteur",
+      "initiative": 3,
+      "unique": true,
+      "ability": "While you defend, if the attacked is in your [Mobile arc] at range 0-2, you may add 1 [Focus] result to your dice results."
     },
     {
       "name": "Shadowport Hunter",

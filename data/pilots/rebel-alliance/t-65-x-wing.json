@@ -37,6 +37,14 @@
   ],
   "pilots": [
     {
+      "name": "\"Redline\"",
+      "image": "https://i.imgur.com/VmvZMk8.jpg",
+      "caption": "Adrenaline Junkie",
+      "initiative": 5,
+      "unique": true,
+      "ability": "You can maintain up to 2 locks.\nAfter you perform an action, you may acquire a lock."
+    },
+    {
       "name": "Biggs Darklighter",
       "caption": "Red Three",
       "initiative": 3,
@@ -99,7 +107,7 @@
       "ability": "After you become the defender (before dice are rolled), you may recover 1 [Force].",
       "force": {
         "value": 2,
-        "regenerates": true
+        "regenerates": 1
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/45/b545a9e9-fe15-45c9-9885-ab7fc6e01964/swz01_a5_xwing_diagram.png"
     },

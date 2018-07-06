@@ -42,6 +42,26 @@
       "unique": false,
       "text": "Many veteran pilots in the service of the Hutt Kajidics and other criminal operations choose the M12-L Kimogila for its firepower and dreaded reputation alike.",
       "image": "https://i.imgur.com/pMzEnFO.png"
+    },
+    {
+      "name": "Dalan Oberos",
+      "image": "https://i.imgur.com/3SB3ZdP.jpg",
+      "caption": "Returned from the Grave",
+      "initiative": 3,
+      "unique": true,
+      "ability": "At the start of the Engagement Phase, you may choose 1 shield ship in your [Bullseye] and spend 1 [Energy]. If you do, that ship loses 1 shield and you recover 1 shield.",
+      "charges": {
+        "value": 2,
+        "regenerates": 0
+      }
+    },
+    {
+      "name": "Torani Kulda",
+      "image": "https://i.imgur.com/NVYYF9t.jpg",
+      "caption": "Rodian Freelancer",
+      "initiative": 4,
+      "unique": true,
+      "ability": "After you perform an attack, each enemy ship in your bullseye arc suffers 1 :hit: damage unless it removes 1 green token"
     }
   ]
 }

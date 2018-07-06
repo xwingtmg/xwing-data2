@@ -38,6 +38,13 @@
   "ability": "Autothrusters: After you performan action, you may perform a red [Barrel roll] or a red [Boost]",
   "pilots": [
     {
+      "name": "Alpha Squadron Pilot",
+      "image": "https://i.imgur.com/i4vYHvP.jpg",
+      "initiative": 1,
+      "unique": true,
+      "text": "Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors."
+    },
+    {
       "name": "Saber Squadron Ace",
       "initiative": 4,
       "unique": false,
@@ -51,6 +58,14 @@
       "unique": true,
       "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye] gain 1 focus token. ",
       "image": "https://i.imgur.com/4TFKKVN.png"
+    },
+    {
+      "name": "Turr Phennir",
+      "image": "https://i.imgur.com/biHV5cr.jpg",
+      "caption": "Ambitious Ace",
+      "initiative": 4,
+      "unique": true,
+      "ability": "After you perform an attack, you may perform a [Barrel Roll] or [Boost] action, even if you are stressed."
     }
   ]
 }

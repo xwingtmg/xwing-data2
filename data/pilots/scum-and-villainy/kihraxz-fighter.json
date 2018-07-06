@@ -36,6 +36,21 @@
   ],
   "pilots": [
     {
+      "name": "Black Sun Ace",
+      "image": "https://i.imgur.com/ZYRFasJ.jpg",
+      "initiative": 3,
+      "unique": false,
+      "text": "The Khiraxz assault fighter was developed specifically for the Black Sun crime syndicate whose highly paid ace pilots demanded a nimble powerful ship to match their skills."
+    },
+    {
+      "name": "Captain Jostero",
+      "image": "https://i.imgur.com/67wUh8L.jpg",
+      "caption": "Aggressive Opportunist",
+      "initiative": 4,
+      "unique": true,
+      "ability": "After an enemy ship suffers damage, if it is not defending, you may perform a bonus attack against that ship."
+    },
+    {
       "name": "Cartel Marauder",
       "initiative": 2,
       "unique": false,

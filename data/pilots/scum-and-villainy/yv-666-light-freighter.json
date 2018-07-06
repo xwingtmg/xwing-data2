@@ -43,6 +43,14 @@
       "image": "https://i.imgur.com/CKPzcSB.png"
     },
     {
+      "name": "Latts Razzi",
+      "image": "https://i.imgur.com/sqpKyIj.jpg",
+      "caption": "Martial Artist",
+      "initiative": 3,
+      "unique": true,
+      "ability": "At the start of the Engagement Phase, you may choose a ship at range 1 and spend a lock you have on that ship. If you do, that ship gains 1 tractor token."
+    },
+    {
       "name": "Moralo Eval",
       "caption": "Criminal Mastermind",
       "initiative": 4,
@@ -50,7 +58,7 @@
       "ability": "If you would flee, you may spend 1 (charge). If you do, place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of the edge of the play area that you fled from.",
       "charges": {
         "value": 2,
-        "regenerates": false
+        "regenerates": 0
       },
       "image": "https://i.imgur.com/kn89diB.png"
     },
