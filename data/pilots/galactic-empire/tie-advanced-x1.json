@@ -24,11 +24,16 @@
   "faction": "Galactic Empire",
   "stats": [
     {
-      "type": "hull",
-      "value": 3
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
       "value": 3
     },
     {
@@ -36,7 +41,10 @@
       "value": 2
     }
   ],
-  "ability": "Advanced Targeting Computer: While you perform a primary attack against a defender you have locked, roll 1 additional die and change 1 [Hit] results to a [Critical Hit] result.",
+  "ability": {
+    "name": "Advanced Targeting Computer",
+    "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+  },
   "pilots": [
     {
       "name": "Darth Vader",
@@ -44,26 +52,32 @@
       "initiative": 6,
       "unique": true,
       "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
+      "image": "https://i.imgur.com/m07Pg9y.png",
       "force": {
         "value": 3,
         "regenerates": 1
-      },
-      "image": "https://i.imgur.com/m07Pg9y.png"
+      }
     },
     {
       "name": "Maarek Stele",
       "caption": "Servant of the Empire",
       "initiative": 5,
       "unique": true,
-      "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1 and discard the rest. ",
+      "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
       "image": "https://i.imgur.com/vJS6Jkw.png"
     },
     {
       "name": "Storm Squadron Ace",
-      "image": "https://i.imgur.com/ZPCZxyz.png",
       "initiative": 3,
       "unique": false,
-      "text": "The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor."
+      "text": "The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model, the TIE Interceptor.",
+      "image": "https://i.imgur.com/ZPCZxyz.png"
+    },
+    {
+      "name": "Tempest Squadron Pilot",
+      "initiative": 2,
+      "unique": false,
+      "text": "The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive."
     },
     {
       "name": "Ved Foslo",
@@ -72,6 +86,13 @@
       "unique": true,
       "ability": "While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
       "image": "https://i.imgur.com/Lk6104G.jpg"
+    },
+    {
+      "name": "Zertik Strom",
+      "caption": "Pitiless Administrator",
+      "initiative": 3,
+      "unique": true,
+      "ability": "During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship's damage cards."
     }
   ]
 }

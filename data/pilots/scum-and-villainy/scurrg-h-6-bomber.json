@@ -1,5 +1,5 @@
 {
-  "name": "Scurrg H-6 bomber",
+  "name": "Scurrg H-6 Bomber",
   "size": "Small",
   "dial": [
     "1BB",
@@ -22,12 +22,17 @@
   "faction": "Scum and Villainy",
   "stats": [
     {
-      "type": "hull",
-      "value": 6
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
     },
     {
       "type": "agility",
       "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
     },
     {
       "type": "shields",
@@ -37,11 +42,11 @@
   "pilots": [
     {
       "name": "Captain Nym",
-      "image": "https://i.imgur.com/K6HMkzW.jpg",
       "caption": "Captain of the Lok Revenants",
       "initiative": 5,
       "unique": true,
-      "ability": "Before a friendly bomb or mine would detonate, you may spend 1 [Charge] to prevent it from deteriorating.\nWhile you defend against an attack obstructed by a bomb or mine, roll 1 additional defense die.",
+      "ability": "Before a friendly bomb or mine would detonate, you may spend 1 [Charge] to prevent it from detonating. While you defend against an attack obstructed by a bomb or mine, roll 1 additional defense die.",
+      "image": "https://i.imgur.com/K6HMkzW.jpg",
       "charges": {
         "value": 1,
         "regenerates": 1
@@ -56,11 +61,11 @@
     },
     {
       "name": "Sol Sixxa",
-      "image": "https://i.imgur.com/K5fOl1Z.jpg",
       "caption": "Cunning Commander",
       "initiative": 3,
       "unique": true,
-      "ability": "If you would drop a device using a [1 [Straight]] template, you may drop it using any other speed 1 template instead."
+      "ability": "If you would drop a device using a [1 [Straight]] template, you may drop it using any other speed 1 template instead.",
+      "image": "https://i.imgur.com/K5fOl1Z.jpg"
     }
   ]
 }

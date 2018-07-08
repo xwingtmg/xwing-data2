@@ -21,12 +21,17 @@
   "faction": "Galactic Empire",
   "stats": [
     {
-      "type": "hull",
-      "value": 4
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 4
     },
     {
       "type": "shields",
@@ -36,33 +41,33 @@
   "pilots": [
     {
       "name": "\"Double Edge\"",
-      "image": "https://i.imgur.com/9CAQhnT.jpg",
       "caption": "Contingency Planner",
       "initiative": 2,
       "unique": true,
-      "ability": "After you perform a [Turret] or [Missile] attack that misses, you may perform a bonus attack using a different weapon."
+      "ability": "After you perform a [Turret] or [Missile] attack that misses, you may perform a bonus attack using a different weapon.",
+      "image": "https://i.imgur.com/9CAQhnT.jpg"
     },
     {
       "name": "Lieutenant Kestal",
-      "image": "https://i.imgur.com/2B28yb9.jpg",
       "caption": "Innate Deadeye",
       "initiative": 4,
       "unique": true,
-      "ability": "While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender's blank/[Focus] results."
+      "ability": "While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender's blank/[Focus] results.",
+      "image": "https://i.imgur.com/2B28yb9.jpg"
     },
     {
       "name": "Onyx Squadron Scout",
       "initiative": 3,
       "unique": false,
-      "text": "Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loaded and its manoeuverability to full effect.",
+      "text": "Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loadout and its maneuverability to full effect.",
       "image": "https://i.imgur.com/vitbEbv.png"
     },
     {
       "name": "Sienar Specialist",
-      "image": "https://i.imgur.com/dfWi6CV.jpg",
       "initiative": 2,
       "unique": false,
-      "text": "During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency."
+      "text": "During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency.",
+      "image": "https://i.imgur.com/dfWi6CV.jpg"
     }
   ]
 }

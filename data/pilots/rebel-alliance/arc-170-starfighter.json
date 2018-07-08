@@ -21,12 +21,22 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
-      "value": 6
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Rear",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
     },
     {
       "type": "shields",
@@ -39,7 +49,7 @@
       "caption": "Red Leader",
       "initiative": 4,
       "unique": true,
-      "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token. ",
+      "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
       "image": "https://i.imgur.com/7UeQLa2.png"
     },
     {
@@ -47,7 +57,7 @@
       "caption": "Survivor of Endor",
       "initiative": 3,
       "unique": true,
-      "ability": "After you fully execute a maneuver, if you are stressed, you may roll 1 attack die. On a [Hit] or [Critical] result, remove 1 stress token.",
+      "ability": "After you fully execute a maneuver, if you are stressed, you may roll 1 attack die. On a [Hit] or [Critical Hit] result, remove 1 stress token.",
       "image": "https://i.imgur.com/bTjz7fU.jpg"
     },
     {

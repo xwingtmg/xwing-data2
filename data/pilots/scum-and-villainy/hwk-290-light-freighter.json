@@ -1,5 +1,5 @@
 {
-  "name": "HWK-290 Light freighter",
+  "name": "HWK-290 Light Freighter",
   "size": "Small",
   "dial": [
     "0OR",
@@ -21,12 +21,17 @@
   "faction": "Scum and Villainy",
   "stats": [
     {
-      "type": "hull",
-      "value": 3
+      "arc": "Single Turret Arc",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
     },
     {
       "type": "shields",
@@ -39,19 +44,19 @@
       "caption": "Outer Rim Mercenary",
       "initiative": 4,
       "unique": true,
-      "ability": "After an enemy ship at range 0-3 receives at least 1 ion token, you may spend 3 [energy], if you do, that ship gains 2 additional ion tokens.",
+      "ability": "After an enemy ship at range 0-3 receives at least 1 ion token, you may spend 3 [Charge]. If you do, that ship gains 2 additional ion tokens.",
+      "image": "https://i.imgur.com/Gecc5xw.png",
       "charges": {
         "value": 3,
         "regenerates": 1
-      },
-      "image": "https://i.imgur.com/Gecc5xw.png"
+      }
     },
     {
       "name": "Palob Godalhi",
       "caption": "Tethan Resister",
       "initiative": 3,
       "unique": true,
-      "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your firing arc at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
+      "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your firing arc at range 0-2. If you do, transfer 1 focuse or evade token from that ship to yourself.",
       "image": "https://i.imgur.com/UkY22MH.png"
     },
     {
@@ -66,7 +71,7 @@
       "caption": "Mercenary Miner",
       "initiative": 2,
       "unique": true,
-      "ability": "At the start of the Engagement Phase, you may choose one ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.",
+      "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.",
       "image": "https://i.imgur.com/Gecc5xw.png"
     }
   ]

@@ -23,12 +23,17 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
-      "value": 4
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
     },
     {
       "type": "agility",
       "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 4
     },
     {
       "type": "shields",
@@ -40,14 +45,13 @@
       "name": "Blade Squadron Veteran",
       "initiative": 3,
       "unique": false,
-      "text": "A unique gyrostabilization system surrounds the B-wing's cockpit, ensuring that the pilot always remains stationary during the flight.",
-      "image": "https://i.imgur.com/VQ0xIC7.jpg"
+      "text": "A unique gyrostabilization system surrounds the B-wing's cockpit, ensuring that the pilot always remains stationary during flight."
     },
     {
       "name": "Blue Squadron Pilot",
       "initiative": 2,
       "unique": false,
-      "text": "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter. ",
+      "text": "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter.",
       "image": "https://i.imgur.com/Rdr3gF5.png"
     },
     {

@@ -26,7 +26,8 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
+      "arc": "Front Arc",
+      "type": "attack",
       "value": 3
     },
     {
@@ -34,18 +35,25 @@
       "value": 3
     },
     {
+      "type": "hull",
+      "value": 3
+    },
+    {
       "type": "shields",
       "value": 3
     }
   ],
-  "ability": "Experimental Scanners: You can acquire locks beyond range 3. You cannot acquire locks at range 1.",
+  "ability": {
+    "name": "Experimental Scanners",
+    "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
+  },
   "pilots": [
     {
       "name": "Corran Horn",
       "caption": "Tenacious Investigator",
       "initiative": 5,
       "unique": true,
-      "ability": "At initiative 0, you may perform a bonus primary attack against an enemy ship in your (bullseye arc). If you do, at the start of the next Planning Phase, gain 1 disarm token.",
+      "ability": "At initiative 0, you may perform a bonus primary attack against an enemy ship in your [Bullseye Arc]. If you do, at the start of the next Planning Phase, gain 1 disarm token.",
       "image": "https://i.imgur.com/g8jma0k.png"
     },
     {
@@ -53,15 +61,14 @@
       "caption": "Bold Wingman",
       "initiative": 4,
       "unique": true,
-      "ability": "While a friendly ship performs an attack, if the defender is in your [Front], the attacker may change 1 [Hit] result to a [Critical] result.",
+      "ability": "While a friendly ship performs an attack, if the defender is in your [Front Arc], the attacker may change 1 [Hit] result to a [Critical Hit] result.",
       "image": "https://i.imgur.com/y30x2FC.jpg"
     },
     {
-      "name": "Knave Squadron Escort",
+      "name": "Knave Squadron Pilot",
       "initiative": 2,
       "unique": false,
-      "text": "Designed to combine the best features of the X-wing series with the A-wing series, the E-wing boasts superior firepower, speed and maneuverability.",
-      "image": "https://i.imgur.com/khW6Wsa.jpg"
+      "text": "Designed to combine the best features of the X-wing series with the A-wing series, the E-wing boasts superior firepower, speed, and maneuverability."
     },
     {
       "name": "Rogue Squadron Escort",

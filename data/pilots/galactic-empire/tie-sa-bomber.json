@@ -22,50 +22,54 @@
   "faction": "Galactic Empire",
   "stats": [
     {
-      "type": "hull",
-      "value": 6
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 2
     },
     {
-      "type": "shields",
-      "value": 0
+      "type": "hull",
+      "value": 6
     }
   ],
-  "ability": "Nimble Bomber: If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead.",
+  "ability": {
+    "name": "Nimble Bomber",
+    "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+  },
   "pilots": [
     {
       "name": "\"Deathfire\"",
       "caption": "Unflinching Diehard",
       "initiative": 2,
       "unique": true,
-      "ability": "After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device. ",
+      "ability": "After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device.",
       "image": "https://i.imgur.com/VLOw6DT.png"
     },
     {
       "name": "Captain Jonus",
-      "image": "https://i.imgur.com/Uldzayj.jpg",
       "caption": "Disciplined Instructor",
       "initiative": 4,
       "unique": true,
-      "ability": "While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice."
+      "ability": "While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.",
+      "image": "https://i.imgur.com/Uldzayj.jpg"
     },
     {
       "name": "Gamma Squadron Ace",
-      "image": "https://i.imgur.com/92cvg2N.jpg",
-      "initiative": 4,
+      "initiative": 3,
       "unique": false,
-      "text": "Though it sacrifices a degree of speed and maneuverability compared to a TIE/ln, the TIE bomber's increased payload can carry enough firepower to destroy virtually any enemy target."
+      "text": "Though it sacrifices a degree of speed and maneuverability compared to a TIE/ln, the TIE bomber's increased payload can carry enough firepower to destroy virtually any enemy target.",
+      "image": "https://i.imgur.com/92cvg2N.jpg"
     },
     {
       "name": "Major Rhymer",
-      "image": "https://i.imgur.com/rzJCriK.jpg",
       "caption": "Scimitar Leader",
       "initiative": 4,
       "unique": true,
-      "ability": "While you perform a [Torpedo] or [Missile] attack, you may increase or decrease the range requirement by 1, to a limit of 0-3."
+      "ability": "While you perform a [Torpedo] or [Missile] attack, you may increase or decrease the range requirement by 1, to a limit of 0-3.",
+      "image": "https://i.imgur.com/rzJCriK.jpg"
     },
     {
       "name": "Scimitar Squadron Pilot",
@@ -76,11 +80,11 @@
     },
     {
       "name": "Tomax Bren",
-      "image": "https://i.imgur.com/ZSEw6Mf.jpg",
       "caption": "Brash Maverick",
       "initiative": 5,
       "unique": true,
-      "ability": "After you perform a [Reload] action, you may recover 1 [Charge] token on 1 of your equipped [Talent] upgrade cards."
+      "ability": "After you perform a [Reload] action, you may revocer 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.",
+      "image": "https://i.imgur.com/ZSEw6Mf.jpg"
     }
   ]
 }

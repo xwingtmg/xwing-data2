@@ -23,19 +23,27 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
-      "value": 10
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 4
     },
     {
       "type": "agility",
       "value": 0
     },
     {
+      "type": "hull",
+      "value": 10
+    },
+    {
       "type": "shields",
       "value": 4
     }
   ],
-  "ability": "Tail Gun: While you have a docked ship, you have a primary [Rear] weapon with an attack value equal to your docker ship's primary [Front] attack value.",
+  "ability": {
+    "name": "Tail Gun",
+    "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
+  },
   "pilots": [
     {
       "name": "\"Chopper\"",
@@ -49,7 +57,7 @@
       "name": "Hera Syndulla",
       "caption": "Spectre-2",
       "initiative": 5,
-      "unique": true,
+      "unique": false,
       "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.",
       "image": "https://i.imgur.com/TUvH0aN.png"
     },
@@ -59,11 +67,11 @@
       "initiative": 3,
       "unique": true,
       "ability": "While a friendly ship in your firing arc defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
+      "image": "https://i.imgur.com/qOPVRTj.jpg",
       "force": {
         "value": 2,
         "regenerates": 1
-      },
-      "image": "https://i.imgur.com/qOPVRTj.jpg"
+      }
     },
     {
       "name": "Lothal Rebel",

@@ -22,12 +22,22 @@
   "faction": "Scum and Villainy",
   "stats": [
     {
-      "type": "hull",
-      "value": 8
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Single Turret Arc",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 8
     },
     {
       "type": "shields",
@@ -40,34 +50,34 @@
       "caption": "Force of Her Own",
       "initiative": 4,
       "unique": true,
-      "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your (mobile firing arc) at range 0-2 and spend 1 (force). If you do, that ship gains 1 stress token unless it removes 1 green token.",
+      "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your [Single Turret Arc] at range 0-2 and spend 1 [Force] token. If you do, that ship gains 1 stress token unless it removes 1 green token.",
+      "image": "https://i.imgur.com/QNxgpV2.png",
       "force": {
         "value": 2,
         "regenerates": 1
-      },
-      "image": "https://i.imgur.com/QNxgpV2.png"
+      }
     },
     {
       "name": "Ketsu Onyo",
-      "image": "https://i.imgur.com/9F0QVHS.jpg",
       "caption": "Black Sun Contractor",
       "initiative": 5,
       "unique": true,
-      "ability": "At the start of the Engagement Phase, you may choose 1 ship in both your [Front] and [Turret] at range 0-1. If you do, that ship gains 1 tractor token."
+      "ability": "At the start of the Engagement Phase, you may choose 1 ship in both your [Front Arc] and [Single Turret Arc] at range 0-1. If you do, that ship gains 1 tractor token.",
+      "image": "https://i.imgur.com/9F0QVHS.jpg"
     },
     {
       "name": "Sabine Wren",
-      "image": "https://i.imgur.com/DzAs19y.jpg",
       "caption": "Artistic Saboteur",
       "initiative": 3,
       "unique": true,
-      "ability": "While you defend, if the attacked is in your [Mobile arc] at range 0-2, you may add 1 [Focus] result to your dice results."
+      "ability": "While you defend, if the attacker is in your [Single Turret Arc] at range 0-2, you may add 1 [Focus] result to your dice results.",
+      "image": "https://i.imgur.com/DzAs19y.jpg"
     },
     {
       "name": "Shadowport Hunter",
       "initiative": 2,
       "unique": false,
-      "text": "Crime syndicates augment the lethal skills of their loyal contractors with the best technology available, like the fast and formidable Lancer-class pursuit craft",
+      "text": "Crime syndicates augment the lethal skills of their loyal contractors with the best technology availaboe, like the fast and formidable Lancer-class pursuit craft.",
       "image": "https://i.imgur.com/2kjsK1O.png"
     }
   ]

@@ -21,12 +21,17 @@
   "faction": "Galactic Empire",
   "stats": [
     {
-      "type": "hull",
-      "value": 6
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
     },
     {
       "type": "shields",
@@ -39,14 +44,21 @@
       "caption": "Dexterous Bombardier",
       "initiative": 4,
       "unique": true,
-      "ability": "After you drop or launch a device, you may perform an action",
+      "ability": "After you drop or launch a device, you may perform an action.",
       "image": "https://i.imgur.com/mMqDBzJ.png"
+    },
+    {
+      "name": "\"Redline\"",
+      "caption": "Adrenaline Junkie",
+      "initiative": 5,
+      "unique": true,
+      "ability": "You can maintain up to 2 locks. After you perform an action, you may acquire a lock."
     },
     {
       "name": "Cutlass Squadron Pilot",
       "initiative": 2,
       "unique": false,
-      "text": "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute and three additional ordinance pods, each equipped with a twin ion engine.",
+      "text": "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.",
       "image": "https://i.imgur.com/EvOPUtc.png"
     }
   ]

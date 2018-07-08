@@ -18,12 +18,22 @@
   "faction": "Galactic Empire",
   "stats": [
     {
-      "type": "hull",
-      "value": 6
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Rear",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
     },
     {
       "type": "shields",
@@ -33,19 +43,19 @@
   "pilots": [
     {
       "name": "Captain Kagi",
-      "image": "https://i.imgur.com/s4RmmAe.jpg",
       "caption": "The Emperor's Shuttle Pilot",
       "initiative": 4,
       "unique": true,
-      "ability": "At the start of the Engagement Phase, you may choose 1 or more friendly ships at range 0-3. If you do, transfer all enemy lock tokens from the chosen ships to you."
+      "ability": "At the start of the Engagement Phase, you may choose 1 or more friendly ships at range 0-3. If you do, transfer all enemy lock tokens from the chosen ships to you.",
+      "image": "https://i.imgur.com/s4RmmAe.jpg"
     },
     {
       "name": "Colonel Jendon",
-      "image": "https://i.imgur.com/68HNwaF.jpg",
       "caption": "Darth Vader's Shuttle Pilot",
       "initiative": 3,
       "unique": true,
-      "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, while friendly ships acquire locks this round, they must acquire locks beyond range 3, instead of at range 0-3.",
+      "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, while friendly ships acquire lock this round, they must acquire locks beyond range 3 instead of at range 0-3.",
+      "image": "https://i.imgur.com/68HNwaF.jpg",
       "charges": {
         "value": 2,
         "regenerates": 0
@@ -53,18 +63,22 @@
     },
     {
       "name": "Lieutenant Sai",
-      "image": "https://i.imgur.com/L9rWWdJ.jpg",
       "caption": "Death Squadron Veteran",
       "initiative": 3,
       "unique": true,
-      "ability": "After you a perform a [Coordinate] action, if the ship you chose performed an action on your action bar, you may perform that action."
+      "ability": "After you a perform a [Coordinate] action, if the ship you chose performed an action on your action bar, you may perform that action.",
+      "image": "https://i.imgur.com/L9rWWdJ.jpg",
+      "charges": {
+        "value": 2,
+        "regenerates": 0
+      }
     },
     {
       "name": "Omicron Group Pilot",
-      "image": "https://i.imgur.com/Bdeg9gR.png",
       "initiative": 1,
       "unique": false,
-      "text": "Noted for its tri-wing design and advanced sensor suite. The Lambda class shuttle serves a critical role as a light utility craft in the Imperial Navy."
+      "text": "Noted for its tri-wing design and advanced sensor suite, the Lambda-class shuttle serves a critical role as a light utility craft in the Imperial Navy.",
+      "image": "https://i.imgur.com/Bdeg9gR.png"
     }
   ]
 }

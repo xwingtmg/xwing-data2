@@ -17,12 +17,17 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
-      "value": 6
+      "arc": "Double Turret Arc",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
     },
     {
       "type": "shields",
@@ -40,17 +45,17 @@
     },
     {
       "name": "Miranda Doni",
-      "image": "https://i.imgur.com/fQQiELo.png",
       "caption": "Heavy Hitter",
       "initiative": 4,
       "unique": true,
-      "ability": "While you perform a primary attack you may either spend 1 shield to roll 1 additional attack die or, if you are not shielded, you may roll 1 fewer attack die to recover 1 shield."
+      "ability": "While you perform a primary attack, you may either spend 1 shield to roll 1 additional attack die or, if you are not shielded, you may roll 1 fewer attack die to recover 1 shield.",
+      "image": "https://i.imgur.com/fQQiELo.png"
     },
     {
       "name": "Warden Squadron Pilot",
       "initiative": 2,
       "unique": false,
-      "text": "Koensayr Manufacturing's K-wing boasts an advanced SubLight Acceleration Motor and an unprecedented 18 hardpoints, granting it unrivaled speed and firepower.",
+      "text": "Koensayr Manufacturing's K-wing boasts an afvanced SubLight Acceleration Motor and an unprecedented 18 hard points, granting it unrivaled speed and firepower.",
       "image": "https://i.imgur.com/AZswO0L.png"
     }
   ]

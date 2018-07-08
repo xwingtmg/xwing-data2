@@ -22,11 +22,16 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
+      "arc": "Front Arc",
+      "type": "attack",
       "value": 2
     },
     {
       "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
       "value": 2
     },
     {
@@ -47,7 +52,7 @@
       "name": "Bandit Squadron Pilot",
       "initiative": 1,
       "unique": false,
-      "text": "The Z-95 Headhunter was the primary inspiration for Incom Corporation's exemplary T-65 X-wing starfighter. Though it is considered outdated by modern standards, it remains a versatile and potent snub fighter.",
+      "text": "The Z-95 Headhunter was the primary inspiration for Incom Corportation's exemplary T-65 X-wing starfighter. Though it is considered outdated by modern standards, it remains a versatile and potent snub fighter.",
       "image": "https://i.imgur.com/pq9fX05.png"
     },
     {
@@ -62,7 +67,7 @@
       "name": "Tala Squadron Pilot",
       "initiative": 2,
       "unique": false,
-      "text": "The AF4 series is the latest in a long line of Headhunter designs. Cheap and relatively durable, it is a favorite among independent outfits like the Rebellion.",
+      "text": "The AF4 series is the latest in a long line of Headhunter designs. Cheap and relatively durable, it is a favorite among independent outlets like the Rebellion.",
       "image": "https://i.imgur.com/R6W7mLY.jpg"
     }
   ]

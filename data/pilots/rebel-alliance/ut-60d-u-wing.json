@@ -19,12 +19,17 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
-      "value": 5
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
     },
     {
       "type": "agility",
       "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 5
     },
     {
       "type": "shields",
@@ -34,17 +39,17 @@
   "pilots": [
     {
       "name": "Benthic Two Tubes",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/b0/b8/b0b8d767-7148-4a42-9072-b2716617a714/swz02_a1_benthic-tt.png",
       "caption": "Cavern Angels Marksman",
       "initiative": 2,
       "unique": true,
-      "ability": "After you perform a (focus) action, you may transfer 1 of your focus tokens to a friendly ship at range 1-2."
+      "ability": "After you perform a [Focus] action, you may transfer 1 of your focus tokens to a friendly ship at range 1-2.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/b0/b8/b0b8d767-7148-4a42-9072-b2716617a714/swz02_a1_benthic-tt.png"
     },
     {
       "name": "Blue Squadron Scout",
       "initiative": 2,
       "unique": false,
-      "text": "Used for deploying troops under the cover of darkness or into the heat of battle, the UT-60D U-wing fulfils the Rebellion's need for a swift and hardy troop transport.",
+      "text": "Used for deploying troops under the cover of darkness or into the heat of battle, the UT60D U-wing fulfills the Rebellion's need for a swift and hardy troop transport.",
       "image": "https://i.imgur.com/kZeAOLv.jpg"
     },
     {
@@ -52,7 +57,7 @@
       "caption": "Imperial Defector",
       "initiative": 4,
       "unique": true,
-      "ability": "Friendly ships can aqcquire locks onto objects at range -03 of any friendly ship.",
+      "ability": "Friendly ships can acquire locks onto objects at range 0-3 of any friendly ship.",
       "image": "https://i.imgur.com/BesOcL5.jpg"
     },
     {
@@ -73,19 +78,25 @@
     },
     {
       "name": "Magva Yarro",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/30/0c/300c137c-0c8f-41d0-8582-29601bf2ea38/swz02_a1_magva.png",
       "caption": "Cavern Angels Spotter",
       "initiative": 3,
       "unique": true,
-      "ability": "While a friendly ship at range 0-2 defends, the attacker cannot reroll more than 1 attack die."
+      "ability": "While a friendly ship at range 0-2 defends, the attacker cannot reroll more than 1 attack die.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/30/0c/300c137c-0c8f-41d0-8582-29601bf2ea38/swz02_a1_magva.png"
+    },
+    {
+      "name": "Partisan Renegade",
+      "initiative": 1,
+      "unique": true,
+      "text": "Saw Gerrera's partisans were first established to oppose Separatist forces on Onderon during the Clone Wars and continued to wage war against galactic tyranny as the Empire rose to power."
     },
     {
       "name": "Saw Gerrera",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/75/f3/75f36fb9-66dc-4f90-9bfe-b032aa311e66/swz02_a1_saw-gerrera.png",
-      "caption": "Obsessive Radical",
+      "caption": "Obsessive Outlaw",
       "initiative": 4,
       "unique": true,
-      "ability": "While a damaged friendly ship at range 0-3 performs an attack, it may reroll 1 attack die."
+      "ability": "While a damaged friendly ship at range 0-3 performs an attack, it may reroll 1 attack die.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/75/f3/75f36fb9-66dc-4f90-9bfe-b032aa311e66/swz02_a1_saw-gerrera.png"
     }
   ]
 }

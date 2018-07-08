@@ -22,16 +22,17 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
-      "value": 3
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 3
     },
     {
-      "type": "shields",
-      "value": 0
+      "type": "hull",
+      "value": 3
     }
   ],
   "pilots": [
@@ -40,7 +41,7 @@
       "caption": "Spectre-4",
       "initiative": 2,
       "unique": true,
-      "ability": "While you defend, [Critical] results are neutralized before [Hit] results.",
+      "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://i.imgur.com/ezuCMJT.jpg"
     },
     {
@@ -57,30 +58,18 @@
       "initiative": 3,
       "unique": true,
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
+      "image": "https://i.imgur.com/K2JnLRE.png",
       "force": {
         "value": 1,
         "regenerates": 1
-      },
-      "image": "https://i.imgur.com/K2JnLRE.png"
-    },
-    {
-      "name": "Ezra Bridger",
-      "caption": "Spectre-6",
-      "initiative": 3,
-      "unique": true,
-      "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
-      "force": {
-        "value": 1,
-        "regenerates": 1
-      },
-      "image": "https://i.imgur.com/MSuayAE.jpg"
+      }
     },
     {
       "name": "Sabine Wren",
       "caption": "Spectre-5",
       "initiative": 3,
       "unique": true,
-      "ability": "Before you activate, you may perform a (barrel roll) or (boost) action.",
+      "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
       "image": "https://i.imgur.com/yecurxP.png"
     }
   ]
