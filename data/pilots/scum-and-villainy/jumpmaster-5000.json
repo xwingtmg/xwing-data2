@@ -22,12 +22,17 @@
   "faction": "Scum and Villainy",
   "stats": [
     {
-      "type": "hull",
-      "value": 6
+      "arc": "Single Turret Arc",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 6
     },
     {
       "type": "shields",
@@ -39,40 +44,39 @@
       "name": "Contracted Scout",
       "initiative": 2,
       "unique": false,
-      "text": "Built for long-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
+      "text": "Built for ling-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
       "image": "https://i.imgur.com/FEZzvV0.png"
     },
     {
       "name": "Dengar",
-      "caption": "Vengeful Corellion",
+      "caption": "Vengeful Corellian",
       "initiative": 6,
-      "unique": true,
-      "ability": "After you defend, if the attacker is in your [Front], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
+      "unique": false,
+      "ability": "After you defend, if the attcker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
+      "image": "https://i.imgur.com/Pli4hOp.png",
       "charges": {
         "value": 1,
-        "regenerates": 1
-      },
-      "forceRegenerates": false,
-      "image": "https://i.imgur.com/Pli4hOp.png"
+        "recharges": 1
+      }
     },
     {
       "name": "Manaroo",
-      "image": "https://i.imgur.com/Jmm6wZQ.jpg",
       "caption": "Graceful Aruzan",
       "initiative": 3,
-      "unique": true,
-      "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship."
+      "unique": false,
+      "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.",
+      "image": "https://i.imgur.com/Jmm6wZQ.jpg"
     },
     {
       "name": "Tel Trevura",
-      "image": "https://i.imgur.com/FeUMuVx.jpg",
       "caption": "Escape Artist",
       "initiative": 4,
-      "unique": true,
-      "ability": "If you would be destroyed, you may discard 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [hit] damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.",
+      "unique": false,
+      "ability": "If you would be destroyed, you may spend 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [Hit] damage, and place yourself in reserves instead. At the start of the next planning phase, place yourself within range 1 of your player edge.",
+      "image": "https://i.imgur.com/FeUMuVx.jpg",
       "charges": {
         "value": 1,
-        "regenerates": 0
+        "recharges": 0
       }
     }
   ]

@@ -21,12 +21,17 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
-      "value": 3
+      "arc": "Single Turret Arc",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
     },
     {
       "type": "shields",
@@ -36,11 +41,11 @@
   "pilots": [
     {
       "name": "Jan Ors",
-      "image": "https://i.imgur.com/4I6h8JE.png",
       "caption": "Espionage Expert",
       "initiative": 5,
       "unique": true,
-      "ability": "While a friendly ship in your firing arc performs a primary attack, if you are not stressed you may gain 1 stress token. If you do, that ship may roll 1 additional attack die."
+      "ability": "While a friendly ship in your firing arc performs a primary attack, if you are not stressed, you may gain 1 stress token. If you do, that ship may roll 1 additional attack die.",
+      "image": "https://i.imgur.com/4I6h8JE.png"
     },
     {
       "name": "Kyle Katarn",
@@ -54,7 +59,7 @@
       "name": "Rebel Scout",
       "initiative": 2,
       "unique": false,
-      "text": "Designed to look like a bird in flight by the Corellian Engineering Corporation, \"hawk\" series ships are exemplary transport craft. Swift and rugged, the HWK-290 is often employed by Rebel agents as a mobile base of operations.",
+      "text": "Designed to look like a bird in flight by the Corelian Engineering Corporation, \"hawk\" series ships are exemplary transport craft. Swift and rugged, the HWK-290 is often employed by Rebel agents as a mobile base of operations.",
       "image": "https://i.imgur.com/Fkya9qi.png"
     },
     {

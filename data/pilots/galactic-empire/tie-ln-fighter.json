@@ -22,16 +22,17 @@
   "faction": "Galactic Empire",
   "stats": [
     {
-      "type": "hull",
-      "value": 3
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 3
     },
     {
-      "type": "shields",
-      "value": 0
+      "type": "hull",
+      "value": 3
     }
   ],
   "pilots": [
@@ -40,32 +41,32 @@
       "caption": "Obsidian Leader",
       "initiative": 5,
       "unique": true,
-      "ability": "While a friendly ship at range 0-1 performs a primary attack, that ship may reroll 1 die.",
+      "ability": "While a friendly ship at range 0-1 performs a primary attack, that ship may reroll 1 attack die.",
       "image": "https://i.imgur.com/FNqnoMZ.png"
     },
     {
       "name": "\"Mauler\" Mithel",
-      "image": "https://i.imgur.com/A1AVLz6.jpg",
       "caption": "Black Two",
       "initiative": 5,
       "unique": true,
-      "ability": "While you perform an attack at attack range 1 roll 1 additional attack die."
+      "ability": "While you perform an attack at attack range 1, roll 1 additional attack die.",
+      "image": "https://i.imgur.com/A1AVLz6.jpg"
     },
     {
       "name": "\"Night Beast\"",
       "caption": "Obsidian Two",
       "initiative": 2,
       "unique": true,
-      "ability": "After you fully execute a blue maneuver you may perform a [Focus] action.",
+      "ability": "After you fully execute a blue maneuver, you may perform a [Focus] action.",
       "image": "https://i.imgur.com/FbwsflC.png"
     },
     {
       "name": "\"Scourge\" Skutu",
-      "image": "https://i.imgur.com/GG80Bnl.jpg",
       "caption": "Seasoned Veteran",
       "initiative": 5,
       "unique": true,
-      "ability": "While you perform an attack against an enemy in your [Bullseye], roll 1 additional attack dice."
+      "ability": "While you perform an attack against a defender in your [Bullseye Arc], roll 1 additional attack die.",
+      "image": "https://i.imgur.com/GG80Bnl.jpg"
     },
     {
       "name": "\"Wampa\"",
@@ -73,11 +74,11 @@
       "initiative": 1,
       "unique": true,
       "ability": "While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die. After defending, lose 1 [Charge].",
+      "image": "https://i.imgur.com/VC8a6MP.jpg",
       "charges": {
         "value": 1,
-        "regenerates": 1
-      },
-      "image": "https://i.imgur.com/VC8a6MP.jpg"
+        "recharges": 1
+      }
     },
     {
       "name": "Academy Pilot",
@@ -90,51 +91,55 @@
       "name": "Black Squadron Ace",
       "initiative": 3,
       "unique": false,
-      "text": "The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the rebel forces at the Battle of Yavin.",
+      "text": "The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.",
       "image": "https://i.imgur.com/5LhGep7.png"
     },
     {
       "name": "Del Meeko",
-      "image": "https://i.imgur.com/zituAIZ.jpg",
       "caption": "Inferno Three",
       "initiative": 4,
       "unique": true,
-      "ability": "While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die."
+      "ability": "While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die.",
+      "image": "https://i.imgur.com/zituAIZ.jpg"
     },
     {
       "name": "Gideon Hask",
-      "image": "https://i.imgur.com/i0qP6cd.jpg",
       "caption": "Inferno Two",
       "initiative": 4,
       "unique": true,
-      "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die."
+      "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die.",
+      "image": "https://i.imgur.com/i0qP6cd.jpg"
     },
     {
       "name": "Iden Versio",
       "caption": "Inferno Leader",
       "initiative": 4,
       "unique": true,
-      "ability": "Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage you may spend 1 [Charge]. If you do, prevent that damage.",
+      "ability": "Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 [Charge]. If you do, prevent that damage.",
+      "image": "https://i.imgur.com/1GqfiBc.jpg",
       "charges": {
         "value": 1,
-        "regenerates": 0
-      },
-      "image": "https://i.imgur.com/1GqfiBc.jpg"
+        "recharges": 0
+      }
     },
     {
       "name": "Obsidian Squadron Pilot",
       "initiative": 2,
       "unique": false,
-      "text": "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass produced.",
+      "text": "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass-produced.",
       "image": "https://i.imgur.com/DDeq1x3.jpg"
     },
     {
       "name": "Seyn Marana",
-      "image": "https://i.imgur.com/Tb4GOpU.jpg",
       "caption": "Inferno Four",
       "initiative": 4,
       "unique": true,
-      "ability": "While you perform an attack, you may spend 1 [Crit] result. If you do, deal 1 facedown damage card to the defender, then cancel your remaining results."
+      "ability": "While you perform an attack, you may spend 1 [Critical Hit] result. If you do, deal 1 facedown damage card to the defender, then cancel you remaining results.",
+      "image": "https://i.imgur.com/Tb4GOpU.jpg",
+      "charges": {
+        "value": 1,
+        "recharges": 0
+      }
     },
     {
       "name": "Valen Rudor",

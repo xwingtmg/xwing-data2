@@ -23,7 +23,8 @@
   "faction": "Galactic Empire",
   "stats": [
     {
-      "type": "hull",
+      "arc": "Front Arc",
+      "type": "attack",
       "value": 3
     },
     {
@@ -31,41 +32,44 @@
       "value": 3
     },
     {
-      "type": "shields",
-      "value": 0
+      "type": "hull",
+      "value": 3
     }
   ],
-  "ability": "Autothrusters: After you performan action, you may perform a red [Barrel roll] or a red [Boost]",
+  "ability": {
+    "name": "Autothrusters",
+    "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+  },
   "pilots": [
     {
       "name": "Alpha Squadron Pilot",
-      "image": "https://i.imgur.com/i4vYHvP.jpg",
       "initiative": 1,
-      "unique": true,
-      "text": "Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors."
+      "unique": false,
+      "text": "Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.",
+      "image": "https://i.imgur.com/i4vYHvP.jpg"
     },
     {
       "name": "Saber Squadron Ace",
       "initiative": 4,
       "unique": false,
-      "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
+      "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIR interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
       "image": "https://i.imgur.com/kBjOZ5j.png"
     },
     {
       "name": "Soontir Fel",
       "caption": "Ace of Legend",
       "initiative": 6,
-      "unique": true,
-      "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye] gain 1 focus token. ",
+      "unique": false,
+      "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain 1 focus token.",
       "image": "https://i.imgur.com/4TFKKVN.png"
     },
     {
       "name": "Turr Phennir",
-      "image": "https://i.imgur.com/biHV5cr.jpg",
       "caption": "Ambitious Ace",
-      "initiative": 4,
+      "initiative": 6,
       "unique": true,
-      "ability": "After you perform an attack, you may perform a [Barrel Roll] or [Boost] action, even if you are stressed."
+      "ability": "After you perform an attack, you may perform a [Barrel Roll] or [Boost] action, even if you are stressed.",
+      "image": "https://i.imgur.com/biHV5cr.jpg"
     }
   ]
 }

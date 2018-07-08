@@ -23,12 +23,17 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
-      "value": 8
+      "arc": "Double Turret Arc",
+      "type": "attack",
+      "value": 3
     },
     {
       "type": "agility",
       "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 8
     },
     {
       "type": "shields",
@@ -38,22 +43,18 @@
   "pilots": [
     {
       "name": "Chewbacca",
-      "image": "https://i.imgur.com/72poOIG.jpg",
       "caption": "The Mighty",
       "initiative": 4,
       "unique": true,
-      "ability": "Before you would be dealt a faceup damage card, you may spend 1 (energy) to be dealt the card facedown instead.",
-      "charges": {
-        "value": 1,
-        "regenerates": 1
-      }
+      "ability": "Before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt the card facedown instead.",
+      "image": "https://i.imgur.com/72poOIG.jpg"
     },
     {
       "name": "Han Solo",
       "caption": "Scoundrel for Hire",
       "initiative": 6,
       "unique": true,
-      "ability": "After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects",
+      "ability": "After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects.",
       "image": "https://i.imgur.com/vLoe0hz.png"
     },
     {

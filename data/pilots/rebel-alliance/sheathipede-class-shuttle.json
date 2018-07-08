@@ -22,26 +22,39 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
-      "value": 4
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "arc": "Rear",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 2
     },
     {
+      "type": "hull",
+      "value": 4
+    },
+    {
       "type": "shields",
       "value": 1
     }
   ],
-  "ability": "Comms Shuttle: While you are docked, your carrier ship games [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action.",
+  "ability": {
+    "name": "Comms Shuttle",
+    "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
+  },
   "pilots": [
     {
       "name": "\"Zeb\" Orrelios",
       "caption": "Spectre-4",
       "initiative": 2,
       "unique": true,
-      "ability": "While you defend, (crit) results are neutralized before (hit) results.",
+      "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://i.imgur.com/2ujf4eY.jpg"
     },
     {
@@ -57,19 +70,19 @@
       "caption": "Spectre-6",
       "initiative": 3,
       "unique": true,
-      "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] / [Hit] results.",
+      "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade]/[Hit] results.",
+      "image": "https://i.imgur.com/8rzfJ7R.jpg",
       "force": {
         "value": 1,
-        "regenerates": 1
-      },
-      "image": "https://i.imgur.com/8rzfJ7R.jpg"
+        "recharges": 1
+      }
     },
     {
       "name": "Fenn Rau",
       "caption": "Reluctant Rebel",
       "initiative": 6,
       "unique": true,
-      "ability": "After an enemy ship in your firing arc engages, if you are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.",
+      "ability": "After an enemy ship in your firing arc engages, ifyou are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.",
       "image": "https://i.imgur.com/zir3Bdj.jpg"
     }
   ]

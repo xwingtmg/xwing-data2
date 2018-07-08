@@ -24,38 +24,46 @@
   "faction": "Scum and Villainy",
   "stats": [
     {
-      "type": "hull",
-      "value": 5
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
     },
     {
       "type": "agility",
       "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 5
     }
   ],
-  "ability": "Spacetug Tractor Array: Action: Choose a ship in your (firing arc) at range 1. That ship grains 1 tractor token, or 2 tractor tokens if it is in your (bullseye firing arc) at range 1.",
+  "ability": {
+    "name": "Spacetug Tractor Array",
+    "text": "Action: Choose a ship in your [Front Arc] at tange 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
+  },
   "pilots": [
     {
       "name": "Constable Zuvio",
-      "image": "https://i.imgur.com/7a7O9wm.jpg",
       "caption": "Missing Sheriff of Nima Outpost",
       "initiative": 4,
       "unique": true,
-      "ability": "If you would drop a device, you may launch it using a [1 [Straight]] template instead."
+      "ability": "If you would drop a device, you may launch it using a [1 [Straight]] template instead.",
+      "image": "https://i.imgur.com/7a7O9wm.jpg"
     },
     {
       "name": "Jakku Gunrunner",
       "initiative": 1,
       "unique": false,
-      "text": "The Quadrijet transfer spacetug, commonly called a “Quadjumper”, is nimble in space and atmosphere alike, making it popular among both smugglers and explorers.",
+      "text": "The Quadrijet transfer spacetug, commonly called a \"Quadjumper\" is nimble in space and atmosphere alike, making it populate among both smugglers and explorers.",
       "image": "https://i.imgur.com/HT0F6Yv.png"
     },
     {
       "name": "Sarco Plank",
-      "image": "https://i.imgur.com/vCOYuiJ.jpg",
       "caption": "The Scavenger",
       "initiative": 2,
       "unique": true,
-      "ability": "While you defend, you may treat you agility value as equal to the speed of the maneuver you executed this round."
+      "ability": "While you defend, you may treat your agility value as equal to the speed of the maneuver you executed this round.",
+      "image": "https://i.imgur.com/vCOYuiJ.jpg"
     },
     {
       "name": "Unkar Plutt",

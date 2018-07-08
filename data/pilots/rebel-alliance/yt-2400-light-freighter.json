@@ -23,26 +23,34 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
-      "value": 6
+      "arc": "Double Turret Arc",
+      "type": "attack",
+      "value": 4
     },
     {
       "type": "agility",
       "value": 2
     },
     {
+      "type": "hull",
+      "value": 6
+    },
+    {
       "type": "shields",
       "value": 4
     }
   ],
-  "ability": "Sensor Blindspot: While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die.",
+  "ability": {
+    "name": "Sensor Blindspot",
+    "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and rull 1 fewer attach die."
+  },
   "pilots": [
     {
       "name": "\"Leebo\"",
       "caption": "Dry-Witted Droid",
       "initiative": 3,
       "unique": true,
-      "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
+      "ability": "After you defend or perform an attack, if you spent a calculate token, dain 1 calculate token.",
       "image": "https://i.imgur.com/1JwTtlv.jpg"
     },
     {

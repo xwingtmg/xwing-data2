@@ -22,11 +22,16 @@
   "faction": "Scum and Villainy",
   "stats": [
     {
-      "type": "hull",
+      "arc": "Front Arc",
+      "type": "attack",
       "value": 2
     },
     {
       "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
       "value": 2
     },
     {
@@ -39,15 +44,15 @@
       "name": "Binayre Pirate",
       "initiative": 1,
       "unique": false,
-      "text": "Operating from the Double Worlds, Talus and Tralus, Kath Scarlet's gang of smugglers and pirates would never be described as reputable or dependable—even by other criminals.",
+      "text": "Operating from the Double Worlds, Talus and Tralus, Kath Scarlet's gang of smugglers and pirates would never be described as reputable or dependable - even by other criminals.",
       "image": "https://i.imgur.com/6omMe5j.png"
     },
     {
       "name": "Black Sun Soldier",
-      "image": "https://i.imgur.com/UzPH9n1.jpg",
       "initiative": 3,
       "unique": false,
-      "text": "The vast and ??? Black Sun crime syndicate can always find a use for talented pilots provided they aren't particular about how they earn their credits."
+      "text": "The vast and influential Black Sun crime syndicate can always find a use for talented pilots, provided they aren't particular about how they earn their credits.",
+      "image": "https://i.imgur.com/UzPH9n1.jpg"
     },
     {
       "name": "Kaa'to Leeachos",
@@ -58,12 +63,18 @@
       "image": "https://i.imgur.com/Y5W8G9t.jpg"
     },
     {
-      "name": "N'Dru Suhlak",
-      "image": "https://i.imgur.com/R1CLxDv.jpg",
-      "caption": "Merc Saboteur",
+      "name": "N'dru Suhlak",
+      "caption": "Hunt Saboteur",
       "initiative": 4,
       "unique": true,
-      "ability": "While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack dice."
+      "ability": "While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack die."
+    },
+    {
+      "name": "Nashtah Pup",
+      "caption": "Contingency Plan",
+      "initiative": 0,
+      "unique": true,
+      "ability": "You can deploy only via emergency deployment, and you have the name, initiative, pilot ability, and ship [Charge] of the friendly, destroyed Hound's Tooth."
     }
   ]
 }

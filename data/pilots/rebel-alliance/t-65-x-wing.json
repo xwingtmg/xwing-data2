@@ -23,12 +23,17 @@
   "faction": "Rebel Alliance",
   "stats": [
     {
-      "type": "hull",
-      "value": 4
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
     },
     {
       "type": "agility",
       "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 4
     },
     {
       "type": "shields",
@@ -37,19 +42,11 @@
   ],
   "pilots": [
     {
-      "name": "\"Redline\"",
-      "image": "https://i.imgur.com/VmvZMk8.jpg",
-      "caption": "Adrenaline Junkie",
-      "initiative": 5,
-      "unique": true,
-      "ability": "You can maintain up to 2 locks.\nAfter you perform an action, you may acquire a lock."
-    },
-    {
       "name": "Biggs Darklighter",
       "caption": "Red Three",
-      "initiative": 3,
+      "initiative": 5,
       "unique": true,
-      "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [hit] or [crit] damage to cancel 1 matching result.",
+      "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Hit] or [Critical Hit] damage to cancel 1 matching result.",
       "image": "https://i.imgur.com/P2Kn6DR.png"
     },
     {
@@ -60,19 +57,25 @@
       "image": "https://i.imgur.com/G1NoLFF.png"
     },
     {
+      "name": "Cavern Angels Zealot",
+      "initiative": 1,
+      "unique": false,
+      "text": "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha."
+    },
+    {
       "name": "Edrio Two Tubes",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/b9/27b93e13-e3e0-4557-b49d-2f65a27d078b/swz02_a1_edrio-tt.png",
       "caption": "Cavern Angels Veteran",
       "initiative": 2,
       "unique": true,
-      "ability": "Before you activate, if you are focused, you may perform an action."
+      "ability": "After you activate, if you are focused, you may perform an action.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/b9/27b93e13-e3e0-4557-b49d-2f65a27d078b/swz02_a1_edrio-tt.png"
     },
     {
       "name": "Garven Dreis",
       "caption": "Red Leader",
       "initiative": 4,
       "unique": true,
-      "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gain 1 focus token. ",
+      "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
       "image": "https://i.imgur.com/yWESWzU.png"
     },
     {
@@ -80,36 +83,36 @@
       "caption": "Red Six",
       "initiative": 4,
       "unique": true,
-      "ability": "After you receive a stress token, you may roll 1 attack dice to remove it. On a (hit) result, suffer 1 (hit) damage.",
+      "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
       "image": "https://i.imgur.com/Ny4gBBN.png"
     },
     {
       "name": "Kullbee Sperado",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/54/e154a590-eedd-44fe-b8b0-ad6e89b85295/swz02_a1_kullbee.png",
       "caption": "Enigmatic Gunslinger",
       "initiative": 4,
       "unique": true,
-      "ability": "After you perform a [Barrel Roll] or [Boost] action, you may flip your equipped [Configuration] upgrade card."
+      "ability": "After you perform a [Barrel Roll] or [Boost] action, you may flip your equipped [Configuration] upgrade card.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/54/e154a590-eedd-44fe-b8b0-ad6e89b85295/swz02_a1_kullbee.png"
     },
     {
       "name": "Leevan Tenza",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/4a/e5/4ae59c94-8324-41c2-8a4e-7656b95addb9/swz02_a1_leevan-tenza.png",
       "caption": "Rebel Alliance Defector",
       "initiative": 3,
       "unique": true,
-      "ability": "After you perform a [Barrel Roll] or [Boost] action, you may perform a red [Evade] action."
+      "ability": "After you perform a [Barrel Roll] or [Boost] action, you may perform a red [Evade] action.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/4a/e5/4ae59c94-8324-41c2-8a4e-7656b95addb9/swz02_a1_leevan-tenza.png"
     },
     {
       "name": "Luke Skywalker",
-      "caption": "Red Fice",
+      "caption": "Red Five",
       "initiative": 5,
       "unique": true,
       "ability": "After you become the defender (before dice are rolled), you may recover 1 [Force].",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/45/b545a9e9-fe15-45c9-9885-ab7fc6e01964/swz01_a5_xwing_diagram.png",
       "force": {
         "value": 2,
-        "regenerates": 1
-      },
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/45/b545a9e9-fe15-45c9-9885-ab7fc6e01964/swz01_a5_xwing_diagram.png"
+        "recharges": 1
+      }
     },
     {
       "name": "Red Squadron Veteran",
@@ -123,7 +126,7 @@
       "caption": "Corona Four",
       "initiative": 5,
       "unique": true,
-      "ability": "While you perform an attack, you may spend 1 (eye), (hit) or (crit) result to look at the defender's facedown damage cards, choose 1, and expose it.",
+      "ability": "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
       "image": "https://i.imgur.com/FlJuNDr.png"
     },
     {

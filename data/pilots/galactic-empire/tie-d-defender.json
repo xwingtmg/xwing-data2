@@ -24,7 +24,8 @@
   "faction": "Galactic Empire",
   "stats": [
     {
-      "type": "hull",
+      "arc": "Front Arc",
+      "type": "attack",
       "value": 3
     },
     {
@@ -32,40 +33,47 @@
       "value": 3
     },
     {
+      "type": "hull",
+      "value": 3
+    },
+    {
       "type": "shields",
       "value": 4
     }
   ],
-  "ability": "Full Throttle: After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action.",
+  "ability": {
+    "name": "Full Throttle",
+    "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+  },
   "pilots": [
     {
       "name": "Colonel Vessery",
-      "image": "https://i.imgur.com/zMIFfUy.jpg",
       "caption": "Contemplative Commander",
       "initiative": 4,
       "unique": true,
-      "ability": "While you perform an attack against a locked ship, after you roll attack dice, you may acquire a lock on the defender."
+      "ability": "While you perform an attack against a locked ship, after you roll attack dice, you may acquire a lock on the defender.",
+      "image": "https://i.imgur.com/zMIFfUy.jpg"
     },
     {
       "name": "Countess Ryad",
       "caption": "Cutthroat Politico",
       "initiative": 4,
       "unique": true,
-      "ability": "While you would execute a [Straight] maneuver, you may increase the difficulty of the maneuver. If you to, execute it as a [Koiogran Turn] maneuver instead.",
+      "ability": "While you would execute a [Straight] maneuver, you may increase the difficulty of the maneuver. If you do, execute it as a [Koiogran Turn] maneuver instead.",
       "image": "https://i.imgur.com/2xlGiqx.png"
     },
     {
       "name": "Delta Squadron Pilot",
-      "image": "https://i.imgur.com/ed9jBrD.jpg",
       "initiative": 1,
       "unique": false,
-      "text": "In addition to its missile launchers and six wingtip laser cannons, the formidable TIE defender is equipped with deflector shields and a hyperdrive."
+      "text": "In addition to its missile launchers and six wingtip laser cannons, the formidable TIE defender is equipped with deflector shields and a hyperdrive.",
+      "image": "https://i.imgur.com/ed9jBrD.jpg"
     },
     {
       "name": "Onyx Squadron Ace",
       "initiative": 4,
       "unique": false,
-      "text": "The experimental TIE defender outclasses all other contemporary starfighters, though its size, speed and array of weapons come at a tremendous cost in credits.",
+      "text": "The experimental TIE defender outclasses all other contemporary starfighters, though its size, speed, and array of weapons come at a tremendous cost in credits.",
       "image": "https://i.imgur.com/anocoLw.png"
     },
     {

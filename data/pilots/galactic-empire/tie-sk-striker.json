@@ -22,52 +22,60 @@
   "faction": "Galactic Empire",
   "stats": [
     {
-      "type": "hull",
-      "value": 4
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
     },
     {
       "type": "agility",
       "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 4
     }
   ],
-  "ability": "Adaptive Ailerons: Before you reveal your dial, if you are not stressed you must execute a white ([Bank Left] 1), ([Straight] 1) , or ([Bank Right] 1) manuever.",
+  "ability": {
+    "name": "Adaptive Ailerons",
+    "text": "Before you reveal your dial, if you are not stressed, you must execute a while (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) maneuver."
+  },
   "pilots": [
     {
       "name": "\"Countdown\"",
-      "image": "https://i.imgur.com/kVPdfuW.jpg",
-      "caption": "Death Dealer",
+      "caption": "Death Defier",
       "initiative": 4,
       "unique": true,
-      "ability": "While you defend, after the Neutralize Results step, if you are not stressed, you may suffer 1 [Hit] damage and gain 1 stress token. If you do, cancel all dice results."
+      "ability": "Whlie you defend, after the Neutralize Results step, if you are not stressed, you may suffer 1 [Hit] damage and gain 1 stress token. If you do, cancel all dice results.",
+      "image": "https://i.imgur.com/kVPdfuW.jpg"
     },
     {
       "name": "\"Duchess\"",
       "caption": "Urbane Ace",
       "initiative": 5,
       "unique": true,
-      "ability": "You may choose not to use your Adaptive Ailerons.\n\nYou may use your adaptive Ailerons even while stressed.",
+      "ability": "You may choose not to use your Adaptive Ailerons. You may use your Adaptive Ailerons even while stressed.",
       "image": "https://i.imgur.com/x4zm9K5.png"
     },
     {
       "name": "\"Pure Sabacc\"",
-      "image": "https://i.imgur.com/YhDFdGk.jpg",
       "caption": "Confident Gambler",
       "initiative": 4,
       "unique": true,
-      "ability": "While you perform an attack, if you have 1 or fewer damage cards, you may roll 1 additional attack die."
+      "ability": "While you perform an attack, if you have 1 or fewer damage cards, you may roll 1 additional attack die.",
+      "image": "https://i.imgur.com/YhDFdGk.jpg"
     },
     {
       "name": "Black Squadron Scout",
-      "image": "https://i.imgur.com/tibcJCo.jpg",
       "initiative": 3,
       "unique": false,
-      "text": "These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability."
+      "text": "These heavily armed atmospheric craft employ their specialized moveable winge to gain additional speed and maneuverability.",
+      "image": "https://i.imgur.com/tibcJCo.jpg"
     },
     {
       "name": "Planetary Sentinel",
       "initiative": 1,
       "unique": false,
-      "text": "To protect its many military installations, the Empire requires a swift and vigilant defensive force. ",
+      "text": "To protect its many military installations, the Empire requires a swift and vigilant defense force.",
       "image": "https://i.imgur.com/SBbPj7y.png"
     }
   ]

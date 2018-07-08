@@ -21,12 +21,17 @@
   "faction": "Scum and Villainy",
   "stats": [
     {
-      "type": "hull",
-      "value": 9
+      "arc": "Full Front Arc",
+      "type": "attack",
+      "value": 3
     },
     {
       "type": "agility",
       "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 9
     },
     {
       "type": "shields",
@@ -39,31 +44,36 @@
       "caption": "Fearsome Hunter",
       "initiative": 4,
       "unique": true,
-      "ability": "While you perform a primary attack, after the Neutralize Results step, you may spend 1 (crit) result to add 2 (hit) results.",
+      "ability": "While you perform a primary attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.",
       "image": "https://i.imgur.com/CKPzcSB.png"
     },
     {
       "name": "Latts Razzi",
-      "image": "https://i.imgur.com/sqpKyIj.jpg",
       "caption": "Martial Artist",
       "initiative": 3,
       "unique": true,
-      "ability": "At the start of the Engagement Phase, you may choose a ship at range 1 and spend a lock you have on that ship. If you do, that ship gains 1 tractor token."
+      "ability": "At the start of the Engagement Phase, you may choose a ship at range 1 and spend a lock you have on that ship. If you do, that ship gains 1 tractor token.",
+      "image": "https://i.imgur.com/sqpKyIj.jpg",
+      "charges": {
+        "value": 2,
+        "recharges": 0
+      }
     },
     {
       "name": "Moralo Eval",
       "caption": "Criminal Mastermind",
       "initiative": 4,
       "unique": true,
-      "ability": "If you would flee, you may spend 1 (charge). If you do, place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of the edge of the play area that you fled from.",
+      "ability": "If you would flee, you may spend 1 [Charge]. If you do, place yourself in reserves instead. At the start of the next Planning Phase, place youself within range 1 of the edge of the play area that you fled from.",
+      "image": "https://i.imgur.com/kn89diB.png",
       "charges": {
         "value": 2,
-        "regenerates": 0
-      },
-      "image": "https://i.imgur.com/kn89diB.png"
+        "recharges": 0
+      }
     },
     {
       "name": "Trandoshan Slaver",
+      "caption": "Fearsome Hunter",
       "initiative": 2,
       "unique": false,
       "text": "The spacious triple-decker design of the YV-666 makes it popular among bounty hunters and slavers, who often retrofit an entire deck for prisoner transport.",

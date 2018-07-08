@@ -23,7 +23,8 @@
   "faction": "Galactic Empire",
   "stats": [
     {
-      "type": "hull",
+      "arc": "Front Arc",
+      "type": "attack",
       "value": 3
     },
     {
@@ -31,18 +32,25 @@
       "value": 2
     },
     {
+      "type": "hull",
+      "value": 3
+    },
+    {
       "type": "shields",
       "value": 2
     }
   ],
-  "ability": "Stygium Array: After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token.",
+  "ability": {
+    "name": "Stygium Array",
+    "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
+  },
   "pilots": [
     {
       "name": "\"Echo\"",
-      "caption": "Slipper Trickster",
+      "caption": "Slippery Trickster",
       "initiative": 4,
       "unique": true,
-      "ability": "While you decloak, you *must* use the (2 [Bank Left]) or (2 [Bank Right]) template instead of the (2 [Straight]) template.",
+      "ability": "While you decloak, you must use the {2 [Bank Left]) or (2 [Bank Right]) template instead of the (2 [Straight]) template.",
       "image": "https://i.imgur.com/sVRjx6w.png"
     },
     {
@@ -62,10 +70,10 @@
     },
     {
       "name": "Sigma Squadron Ace",
-      "image": "https://i.imgur.com/0EEsE4C.jpg",
       "initiative": 4,
       "unique": false,
-      "text": "Featuring a hyperdrive and shields, the TIE phantom is also equipped with five laser cannons, giving it substantial firepower for an Imperial fighter."
+      "text": "Featuring a hyperdrive and shields, the TIE phantom is also equipped with five laser cannons, giving it substantial firepower for an Imperial fighter.",
+      "image": "https://i.imgur.com/0EEsE4C.jpg"
     }
   ]
 }
