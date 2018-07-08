@@ -47,7 +47,11 @@
       "initiative": 4,
       "unique": true,
       "ability": "Before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt the card facedown instead.",
-      "image": "https://i.imgur.com/72poOIG.jpg"
+      "image": "https://i.imgur.com/72poOIG.jpg",
+      "charges": {
+        "value": 1,
+        "recharges": 1
+      }
     },
     {
       "name": "Han Solo",

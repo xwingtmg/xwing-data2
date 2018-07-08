@@ -52,21 +52,21 @@
       "name": "Saber Squadron Ace",
       "initiative": 4,
       "unique": false,
-      "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIR interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
+      "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
       "image": "https://i.imgur.com/kBjOZ5j.png"
     },
     {
       "name": "Soontir Fel",
       "caption": "Ace of Legend",
       "initiative": 6,
-      "unique": false,
+      "unique": true,
       "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain 1 focus token.",
       "image": "https://i.imgur.com/4TFKKVN.png"
     },
     {
       "name": "Turr Phennir",
       "caption": "Ambitious Ace",
-      "initiative": 6,
+      "initiative": 4,
       "unique": true,
       "ability": "After you perform an attack, you may perform a [Barrel Roll] or [Boost] action, even if you are stressed.",
       "image": "https://i.imgur.com/biHV5cr.jpg"
