@@ -43,7 +43,7 @@
     {
       "name": "Black Sun Ace",
       "initiative": 3,
-      "unique": false,
+      "limited": 0,
       "text": "The Kihraxz assault fighter was developed specifically for the Black Sun crime syndicate, whose highly paid ace pilots demanded a nimble, powerful ship to match their skills.",
       "image": "https://i.imgur.com/ZYRFasJ.jpg"
     },
@@ -51,14 +51,14 @@
       "name": "Captain Jostero",
       "caption": "Aggressive Opportunist",
       "initiative": 3,
-      "unique": true,
+      "limited": 1,
       "ability": "After an enemy ship suffers damage, if it is not defending, you may perform a bonus attack against that ship.",
       "image": "https://i.imgur.com/67wUh8L.jpg"
     },
     {
       "name": "Cartel Marauder",
       "initiative": 2,
-      "unique": false,
+      "limited": 0,
       "text": "The versatile Kihraxz was modeled after Incom's popular X-wing starfighter, but an array of aftermarket modification kits ensure a wide variety of designs.",
       "image": "https://i.imgur.com/kdQmuom.png"
     },
@@ -66,7 +66,7 @@
       "name": "Graz",
       "caption": "The Hunter",
       "initiative": 4,
-      "unique": true,
+      "limited": 1,
       "ability": "While you defend, if you are behind the attacker, roll 1 additional defense die. While you perform an attack, if you are behind the defender roll 1 additional attack die.",
       "image": "https://i.imgur.com/OXH2wCn.jpg"
     },
@@ -74,7 +74,7 @@
       "name": "Talonbane Cobra",
       "caption": "Scourge of Tansarii Point",
       "initiative": 5,
-      "unique": true,
+      "limited": 1,
       "ability": "While you defend at attack range 3 or perform an attack at range 1, roll 1 additional die.",
       "image": "https://i.imgur.com/AWCWeti.png"
     },
@@ -82,7 +82,7 @@
       "name": "Viktor Hel",
       "caption": "Storied Bounty Hunter",
       "initiative": 4,
-      "unique": true,
+      "limited": 1,
       "ability": "After you defend, if you did not roll exactly 2 defense dice, the attack gains 1 stress token."
     }
   ]

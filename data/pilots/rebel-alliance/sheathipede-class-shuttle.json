@@ -53,7 +53,7 @@
       "name": "\"Zeb\" Orrelios",
       "caption": "Spectre-4",
       "initiative": 2,
-      "unique": true,
+      "limited": 1,
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://i.imgur.com/2ujf4eY.jpg"
     },
@@ -61,7 +61,7 @@
       "name": "AP-5",
       "caption": "Escaped Analyst Droid",
       "initiative": 1,
-      "unique": true,
+      "limited": 1,
       "ability": "While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions.",
       "image": "https://i.imgur.com/DhzlEwW.png"
     },
@@ -69,7 +69,7 @@
       "name": "Ezra Bridger",
       "caption": "Spectre-6",
       "initiative": 3,
-      "unique": true,
+      "limited": 1,
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade]/[Hit] results.",
       "image": "https://i.imgur.com/8rzfJ7R.jpg",
       "force": {
@@ -81,7 +81,7 @@
       "name": "Fenn Rau",
       "caption": "Reluctant Rebel",
       "initiative": 6,
-      "unique": true,
+      "limited": 1,
       "ability": "After an enemy ship in your firing arc engages, if you are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.",
       "image": "https://i.imgur.com/zir3Bdj.jpg"
     }

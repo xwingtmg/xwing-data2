@@ -47,7 +47,7 @@
     {
       "name": "Cartel Spacer",
       "initiative": 1,
-      "unique": false,
+      "limited": 0,
       "text": "MandalMotors' M3-A 'Scyk' Inteceptor is purchased in large quantities by the Hutt Cartel and the Car'das smugglers due to its low cost and customizability.",
       "image": "https://i.imgur.com/R5Wa2QC.png"
     },
@@ -55,7 +55,7 @@
       "name": "Genesis Red",
       "caption": "Tansarii Point Crime Lord",
       "initiative": 4,
-      "unique": true,
+      "limited": 1,
       "ability": "After you acquire a lock, you must remove all of your focus and evade tokens. Then gain the same number of focus and evade tokens that the locked ship has.",
       "image": "https://i.imgur.com/J3HT3lm.jpg"
     },
@@ -63,7 +63,7 @@
       "name": "Inaldra",
       "caption": "Tansarii Point Boss",
       "initiative": 2,
-      "unique": true,
+      "limited": 1,
       "ability": "While you defend or perform an attack, you may suffer 1 [Hit] damage to reroll any number of your dice.",
       "image": "https://i.imgur.com/InCjYYa.jpg"
     },
@@ -71,7 +71,7 @@
       "name": "Laetin A'shera",
       "caption": "Car'das Enforcer",
       "initiative": 3,
-      "unique": true,
+      "limited": 1,
       "ability": "After you defend or perform an attack, if the attack missed, gain 1 evade token.",
       "image": "https://i.imgur.com/vsstiQo.jpg"
     },
@@ -79,7 +79,7 @@
       "name": "Quinn Jast",
       "caption": "Fortune Seeker",
       "initiative": 3,
-      "unique": true,
+      "limited": 1,
       "ability": "At the start of the Engagement Phase, you may gain 1 disarm token to recover 1 [Charge] on 1 of your equipped upgrades.",
       "image": "https://i.imgur.com/iRMmmNF.jpg"
     },
@@ -87,7 +87,7 @@
       "name": "Serissu",
       "caption": "Flight Instructor",
       "initiative": 5,
-      "unique": true,
+      "limited": 1,
       "ability": "While a friendly ship at range 0-1 defends, it may reroll 1 of its dice.",
       "image": "https://i.imgur.com/LOJ9OWn.jpg"
     },
@@ -95,14 +95,14 @@
       "name": "Sunny Bounder",
       "caption": "Incurable Optimist",
       "initiative": 1,
-      "unique": true,
+      "limited": 1,
       "ability": "While you defend or perform an attack, after you roll or reroll your dice, if you have the same result on each of your dice, you may add 1 matching result.",
       "image": "https://i.imgur.com/VzDyCnd.jpg"
     },
     {
       "name": "Tansarii Point Veteran",
       "initiative": 3,
-      "unique": false,
+      "limited": 0,
       "text": "The defeat of Black Sun ace Talonbane Cobra by Car'das smugglers turned the tide of the Battle of Tansarii Point Station. Survivors of the clash are respected throughout the sector.",
       "image": "https://i.imgur.com/lFYeL8f.jpg"
     }

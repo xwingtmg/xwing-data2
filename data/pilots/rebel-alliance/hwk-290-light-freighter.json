@@ -43,7 +43,7 @@
       "name": "Jan Ors",
       "caption": "Espionage Expert",
       "initiative": 5,
-      "unique": true,
+      "limited": 1,
       "ability": "While a friendly ship in your firing arc performs a primary attack, if you are not stressed, you may gain 1 stress token. If you do, that ship may roll 1 additional attack die.",
       "image": "https://i.imgur.com/4I6h8JE.png"
     },
@@ -51,14 +51,14 @@
       "name": "Kyle Katarn",
       "caption": "Relentless Operative",
       "initiative": 3,
-      "unique": true,
+      "limited": 1,
       "ability": "At the start of the Engagement Phase, you may transfer 1 of your focus tokens to a friendly ship in your firing arc.",
       "image": "https://i.imgur.com/LELO1t1.jpg"
     },
     {
       "name": "Rebel Scout",
       "initiative": 2,
-      "unique": false,
+      "limited": 0,
       "text": "Designed to look like a bird in flight by the Corellian Engineering Corporation, \"hawk\" series ships are exemplary transport craft. Swift and rugged, the HWK-290 is often employed by Rebel agents as a mobile base of operations.",
       "image": "https://i.imgur.com/Fkya9qi.png"
     },
@@ -66,7 +66,7 @@
       "name": "Roark Garnet",
       "caption": "Good-Hearted Smuggler",
       "initiative": 4,
-      "unique": true,
+      "limited": 1,
       "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, it engages at initiative 7 instead of its standard initiative value this phase.",
       "image": "https://i.imgur.com/PeNd1xH.jpg"
     }

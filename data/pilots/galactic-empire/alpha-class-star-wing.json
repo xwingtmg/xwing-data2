@@ -42,27 +42,27 @@
       "name": "Lieutenant Karsabi",
       "caption": "Brash Noble",
       "initiative": 3,
-      "unique": true,
+      "limited": 1,
       "ability": "After you gain a disarm token, if you are not stressed, you may gain 1 stress token to remove 1 disarm token."
     },
     {
       "name": "Major Vynder",
       "caption": "Pragmatic Survivor",
       "initiative": 4,
-      "unique": true,
+      "limited": 1,
       "ability": "While you defend, if you are disarmed, roll 1 additional defense die."
     },
     {
       "name": "Nu Squadron Pilot",
       "initiative": 2,
-      "unique": false,
+      "limited": 0,
       "text": "With a design inspired by other Cygnus Spaceworks vessels, the Alpha-class star wing is a versatile craft assigned to Imperial Navy specialist units that need a starfighter they can outfit for multiple roles.",
       "image": "https://i.imgur.com/TbEOuBf.png"
     },
     {
       "name": "Rho Squadron Pilot",
       "initiative": 3,
-      "unique": false,
+      "limited": 0,
       "text": "The elite pilots of Rho Squadron instill terror in the Rebellion, using both the Xg-1 assault configuration and Os-1 arsenal loadout of the Alpha-class star wing to devastating effect."
     }
   ]

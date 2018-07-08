@@ -43,7 +43,7 @@
       "name": "Dace Bonearm",
       "caption": "Outer Rim Mercenary",
       "initiative": 4,
-      "unique": true,
+      "limited": 1,
       "ability": "After an enemy ship at range 0-3 receives at least 1 ion token, you may spend 3 [Charge]. If you do, that ship gains 2 additional ion tokens.",
       "image": "https://i.imgur.com/Gecc5xw.png",
       "charges": {
@@ -55,14 +55,14 @@
       "name": "Palob Godalhi",
       "caption": "Tethan Resister",
       "initiative": 3,
-      "unique": true,
+      "limited": 1,
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your firing arc at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
       "image": "https://i.imgur.com/UkY22MH.png"
     },
     {
       "name": "Spice Runner",
       "initiative": 1,
-      "unique": false,
+      "limited": 0,
       "text": "Though its cargo space is limited compared to other light freighters, the small, swift HWK-290 is a favorite choice of smugglers who specialize in discreetly transporting precious goods.",
       "image": "https://i.imgur.com/PvrCwn6.png"
     },
@@ -70,7 +70,7 @@
       "name": "Torkil Mux",
       "caption": "Mercenary Miner",
       "initiative": 2,
-      "unique": true,
+      "limited": 1,
       "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.",
       "image": "https://i.imgur.com/Gecc5xw.png"
     }

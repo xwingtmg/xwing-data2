@@ -40,7 +40,7 @@
       "name": "\"Zeb\" Orrelios",
       "caption": "Spectre-4",
       "initiative": 2,
-      "unique": true,
+      "limited": 1,
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://i.imgur.com/ezuCMJT.jpg"
     },
@@ -48,7 +48,7 @@
       "name": "Captain Rex",
       "caption": "Clone Wars Veteran",
       "initiative": 2,
-      "unique": true,
+      "limited": 1,
       "ability": "After you perform an attack, assign the Suppressive Fire condition to the defender.",
       "image": "https://i.imgur.com/SXjax2A.jpg"
     },
@@ -56,7 +56,7 @@
       "name": "Ezra Bridger",
       "caption": "Spectre-6",
       "initiative": 3,
-      "unique": true,
+      "limited": 1,
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
       "image": "https://i.imgur.com/K2JnLRE.png",
       "force": {
@@ -68,7 +68,7 @@
       "name": "Sabine Wren",
       "caption": "Spectre-5",
       "initiative": 3,
-      "unique": true,
+      "limited": 1,
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
       "image": "https://i.imgur.com/yecurxP.png"
     }

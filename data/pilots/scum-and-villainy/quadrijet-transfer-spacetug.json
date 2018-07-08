@@ -46,14 +46,14 @@
       "name": "Constable Zuvio",
       "caption": "Missing Sheriff of Nima Outpost",
       "initiative": 4,
-      "unique": true,
+      "limited": 1,
       "ability": "If you would drop a device, you may launch it using a [1 [Straight]] template instead.",
       "image": "https://i.imgur.com/7a7O9wm.jpg"
     },
     {
       "name": "Jakku Gunrunner",
       "initiative": 1,
-      "unique": false,
+      "limited": 0,
       "text": "The Quadrijet transfer spacetug, commonly called a \"Quadjumper\" is nimble in space and atmosphere alike, making it popular among both smugglers and explorers.",
       "image": "https://i.imgur.com/HT0F6Yv.png"
     },
@@ -61,7 +61,7 @@
       "name": "Sarco Plank",
       "caption": "The Scavenger",
       "initiative": 2,
-      "unique": true,
+      "limited": 1,
       "ability": "While you defend, you may treat your agility value as equal to the speed of the maneuver you executed this round.",
       "image": "https://i.imgur.com/vCOYuiJ.jpg"
     },
@@ -69,7 +69,7 @@
       "name": "Unkar Plutt",
       "caption": "Miserly Portion Master",
       "initiative": 2,
-      "unique": true,
+      "limited": 1,
       "ability": "At the start of the Engagement Phase, if there are one or more other ships at range 0, you and each other ship at range 0 gain 1 tractor token.",
       "image": "https://i.imgur.com/VCf87Ha.png"
     }

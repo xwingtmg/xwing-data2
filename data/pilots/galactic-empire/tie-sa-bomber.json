@@ -44,7 +44,7 @@
       "name": "\"Deathfire\"",
       "caption": "Unflinching Diehard",
       "initiative": 2,
-      "unique": true,
+      "limited": 1,
       "ability": "After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device.",
       "image": "https://i.imgur.com/VLOw6DT.png"
     },
@@ -52,14 +52,14 @@
       "name": "Captain Jonus",
       "caption": "Disciplined Instructor",
       "initiative": 4,
-      "unique": true,
+      "limited": 1,
       "ability": "While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.",
       "image": "https://i.imgur.com/Uldzayj.jpg"
     },
     {
       "name": "Gamma Squadron Ace",
       "initiative": 3,
-      "unique": false,
+      "limited": 0,
       "text": "Though it sacrifices a degree of speed and maneuverability compared to a TIE/ln, the TIE bomber's increased payload can carry enough firepower to destroy virtually any enemy target.",
       "image": "https://i.imgur.com/92cvg2N.jpg"
     },
@@ -67,14 +67,14 @@
       "name": "Major Rhymer",
       "caption": "Scimitar Leader",
       "initiative": 4,
-      "unique": true,
+      "limited": 1,
       "ability": "While you perform a [Torpedo] or [Missile] attack, you may increase or decrease the range requirement by 1, to a limit of 0-3.",
       "image": "https://i.imgur.com/rzJCriK.jpg"
     },
     {
       "name": "Scimitar Squadron Pilot",
       "initiative": 2,
-      "unique": false,
+      "limited": 0,
       "text": "The TIE/sa is exceptionally nimble for a bomber, allowing it to pinpoint its target while avoiding excessive collateral damage to the surrounding area.",
       "image": "https://i.imgur.com/BIbaiHf.png"
     },
@@ -82,7 +82,7 @@
       "name": "Tomax Bren",
       "caption": "Brash Maverick",
       "initiative": 5,
-      "unique": true,
+      "limited": 1,
       "ability": "After you perform a [Reload] action, you may revocer 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.",
       "image": "https://i.imgur.com/ZSEw6Mf.jpg"
     }

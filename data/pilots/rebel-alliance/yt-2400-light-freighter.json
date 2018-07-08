@@ -49,7 +49,7 @@
       "name": "\"Leebo\"",
       "caption": "Dry-Witted Droid",
       "initiative": 3,
-      "unique": true,
+      "limited": 1,
       "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
       "image": "https://i.imgur.com/1JwTtlv.jpg"
     },
@@ -57,14 +57,14 @@
       "name": "Dash Rendar",
       "caption": "Hotshot Mercenary",
       "initiative": 5,
-      "unique": true,
+      "limited": 1,
       "ability": "While you move, you ignore obstacles.",
       "image": "https://i.imgur.com/mInRUGj.png"
     },
     {
       "name": "Wild Space Fringer",
       "initiative": 1,
-      "unique": false,
+      "limited": 0,
       "text": "Although stock YT-2400 light freighters have plenty of room for cargo, that space is often annexed to support modified weapon systems and oversized engines.",
       "image": "https://i.imgur.com/oGHjCqq.png"
     }

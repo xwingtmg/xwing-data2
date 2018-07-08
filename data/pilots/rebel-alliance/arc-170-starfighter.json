@@ -48,7 +48,7 @@
       "name": "Garven Dreis",
       "caption": "Red Leader",
       "initiative": 4,
-      "unique": true,
+      "limited": 1,
       "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
       "image": "https://i.imgur.com/7UeQLa2.png"
     },
@@ -56,7 +56,7 @@
       "name": "Ibtisam",
       "caption": "Survivor of Endor",
       "initiative": 3,
-      "unique": true,
+      "limited": 1,
       "ability": "After you fully execute a maneuver, if you are stressed, you may roll 1 attack die. On a [Hit] or [Critical Hit] result, remove 1 stress token.",
       "image": "https://i.imgur.com/bTjz7fU.jpg"
     },
@@ -64,7 +64,7 @@
       "name": "Norra Wexley",
       "caption": "Gold Nine",
       "initiative": 5,
-      "unique": true,
+      "limited": 1,
       "ability": "While you defend, if there is an enemy ship at range 0-1, you may add 1 [Evade] result to your dice results.",
       "image": "https://i.imgur.com/ZbNfdWT.png"
     },
@@ -72,7 +72,7 @@
       "name": "Shara Bey",
       "caption": "Green Four",
       "initiative": 4,
-      "unique": true,
+      "limited": 1,
       "ability": "While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.",
       "image": "https://i.imgur.com/82AO9To.jpg"
     }
