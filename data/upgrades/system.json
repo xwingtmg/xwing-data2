@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Advanced Sensors",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Advanced Sensors",
+        "type": "System",
+        "ability": "After you reveal your dial, you may perform 1 action. If you do, you cannot perform another action during your activation.",
+        "slots": [
+          "System"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Collision Detector",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Collision Detector",
+        "type": "System",
+        "ability": "While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 [Charge] to ignore its effects ntie the end of the round.",
+        "slots": [
+          "System"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Fire-Control System",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Fire-Control System",
+        "type": "System",
+        "ability": "While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.",
+        "slots": [
+          "System"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trajectory Simulator",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Trajectory Simulator",
+        "type": "System",
+        "ability": "During the System Phase, if you would drop or launch a bomb, you may launch it using the (5 [Straight]) tempplate instead.",
+        "slots": [
+          "System"
+        ]
+      }
+    ]
+  }
+]

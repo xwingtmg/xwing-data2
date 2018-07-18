@@ -1,0 +1,264 @@
+[
+  {
+    "name": "Andrasta",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Andrasta",
+        "type": "Title",
+        "ability": "Add [Device] slot.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dauntless",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Dauntless",
+        "type": "Title",
+        "ability": "After you partially execute a maneuver, you may perform 1 white action, treating that action as red.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ghost",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Ghost",
+        "type": "Title",
+        "ability": "You can dock 1 attack shuttle or Sheathipede-class shuttle. Your docked ships can deploy only from your rear guides.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Havoc",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Havoc",
+        "type": "Title",
+        "ability": "Remove [Crew] slot. Add [System] and [Astromech Droid] slots.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hound's Tooth",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Hound's Tooth",
+        "type": "Title",
+        "ability": "1 Z-95 AF4 headhunter can dock with you.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "IG-2000",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "IG-2000",
+        "type": "Title",
+        "ability": "You have the pilot ability of each other friendly ship with the IG-2000 upgrade.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lando's Millennium Falcon",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Lando's Millennium Falcon",
+        "type": "Title",
+        "ability": "1 Escape Craft may dock with you. While you have an Escape Craft docked, you may spend its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Marauder",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Marauder",
+        "type": "Title",
+        "ability": "While you perform a primary [Rear Arc] attack,, you may reroll 1 attack die. Add [UNKNOWN-GUNNER] slot.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Millennium Falcon",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Millennium Falcon",
+        "type": "Title",
+        "ability": "While you defend, if you are evading, you may reroll 1 defense die.",
+        "slots": [
+          "Title"
+        ],
+        "actions": [
+          {
+            "type": "Evade",
+            "difficulty": "White"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mist Hunter",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Mist Hunter",
+        "type": "Title",
+        "ability": "Add [Cannon] slot.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Moldy Crow",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Moldy Crow",
+        "type": "Title",
+        "ability": "Gain a [Front Arc] primary weapon with a value of \"3.\" During the End Phase, do not remove up to 2 focus tokens.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Outrider",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Outrider",
+        "type": "Title",
+        "ability": "While you perform an obstructed attack, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Phantom",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Phantom",
+        "type": "Title",
+        "ability": "You can dock at range 0-1.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Punishing One",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Punishing One",
+        "type": "Title",
+        "ability": "When you perform a primary attack, if the defender is in your [Front Arc], roll 1 additional attack die. Remove [Crew] slot. Add [Astromech Droid] slot.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ST-321",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "ST-321",
+        "type": "Title",
+        "ability": "After you perform a [Coordinate] action, you may choose an enemy ship at range 0-3 of the ship you coordinated. If you do, acquire a lock on that enemy ship, ignoring range restrictions.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shadow Caster",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Shadow Caster",
+        "type": "Title",
+        "ability": "After you perform an attack that hits, if the defender is in your [Single Turret Arc] and your [Front Arc], the defender gains 1 tractor token.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slave I",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Slave I",
+        "type": "Title",
+        "ability": "After you reveal a turn, ([Turn Left] or [Turn Right]) or bank ([Bank Left] or [Bank Right]) maneuver, you may gain 1 stress token. If you do, set your dial to the maneuver of the same speed and bearing in the other direction. Add [Torpedo] slot.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Virago",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Virago",
+        "type": "Title",
+        "ability": "During the End Phase, you may spend 1 [Charge] to perform a red [Boost] action. Add [UNKNOWN-MODIFICATION] slot.",
+        "slots": [
+          "Title"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        }
+      }
+    ]
+  }
+]

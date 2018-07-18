@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Heavy Laser Cannon",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Heavy Laser Cannon",
+        "type": "Cannon",
+        "ability": "Attack: After the Modify Attack Dice step, change all [Critical Hit] results to [Hit] results.",
+        "slots": [
+          "Cannon"
+        ],
+        "attack": {
+          "arc": "Bullseye Arc",
+          "value": 4,
+          "minrange": 2,
+          "maxrange": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Ion Cannon",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Ion Cannon",
+        "type": "Cannon",
+        "ability": "Attack: If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
+        "slots": [
+          "Cannon"
+        ],
+        "attack": {
+          "arc": "Front Arc",
+          "value": 3,
+          "minrange": 1,
+          "maxrange": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Jamming Beam",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Jamming Beam",
+        "type": "Cannon",
+        "ability": "Attack: If this attack hits, all [Hit]/[Critical Hit] results inflict jam tokens instead of damage.",
+        "slots": [
+          "Cannon"
+        ],
+        "attack": {
+          "arc": "Front Arc",
+          "value": 3,
+          "minrange": 1,
+          "maxrange": 2
+        }
+      }
+    ]
+  },
+  {
+    "name": "Tractor Beam",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Tractor Beam",
+        "type": "Cannon",
+        "ability": "Attack: If this attack hits, all [Hit]/[Critical Hit] results inflict tractor tokens instead of damage.",
+        "slots": [
+          "Cannon"
+        ],
+        "attack": {
+          "arc": "Front Arc",
+          "value": 3,
+          "minrange": 1,
+          "maxrange": 3
+        }
+      }
+    ]
+  }
+]

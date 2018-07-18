@@ -1,0 +1,204 @@
+[
+  {
+    "name": "BT-1",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "BT-1",
+        "type": "Gunner",
+        "ability": "While you perform an attack, you may change 1 [Hit] result to a [Critical Hit] result for each stress token the defender has.",
+        "slots": [
+          "Gunner"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bistan",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Bistan",
+        "type": "Gunner",
+        "ability": "After you perform a primary attack, if you are focused, you may perform a bonus [Turret] attack against a shipe you have not already attacked this round.",
+        "slots": [
+          "Gunner"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bossk",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Bossk",
+        "type": "Gunner",
+        "ability": "After you perform a primary attack that misses, if you are not stressedm you must receive 1 stress token to perform a bonus primary attack against the same target.",
+        "slots": [
+          "Gunner"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dengar",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Dengar",
+        "type": "Gunner",
+        "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Charge]. If you do, roll 1 attack die unless the attacker chooses to remove 1 green token. On a [Hit] or [Critical Hit] result, the attacker suffers 1 [Hit] damage.",
+        "slots": [
+          "Gunner"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Ezra Bridger",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Ezra Bridger",
+        "type": "Gunner",
+        "ability": "After you perform a primary attack, you may spend 1 [Force] to perform a bonus [Turret] attack from a [Turret] you have not attacked from this round. If you do and you are stressed, you may reroll 1 attack die.",
+        "slots": [
+          "Gunner"
+        ],
+        "force": {
+          "value": 1,
+          "recovers": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Fifth Brother",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Fifth Brother",
+        "type": "Gunner",
+        "ability": "While you perform an attack, you may spend 1 [Force] to change 1 of your [Focus] results to a [Critical Hit] result.",
+        "slots": [
+          "Gunner"
+        ],
+        "force": {
+          "value": 1,
+          "recovers": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Greedo",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Greedo",
+        "type": "Gunner",
+        "ability": "While you perform an attack, you may spend 1 [Charge] to change 1 [Hit] result to a [Critical Hit] result. While you defend, if your [Charge] is active, the attacker may change 1 [Hit] result to a [Critical Hit] result.",
+        "slots": [
+          "Gunner"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Han Solo",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Han Solo",
+        "type": "Gunner",
+        "ability": "During the Engagement Phase, at initiative 7, you may perform a [Turret] attack. You cannot attack from that [Turret] again this round.",
+        "slots": [
+          "Gunner"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hotshot Gunner",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Hotshot Gunner",
+        "type": "Gunner",
+        "ability": "While you perform a [Turret] attack, after the Modify Defense Dice step, the defender removes 1 focus or calculate token.",
+        "slots": [
+          "Gunner"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Luke Skywalker",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Luke Skywalker",
+        "type": "Gunner",
+        "ability": "At the start of the Engagement Phase, you may spend 1 [Force] to rotate your [Turret] indicator.",
+        "slots": [
+          "Gunner"
+        ],
+        "force": {
+          "value": 1,
+          "recovers": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Skilled Bombardier",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Skilled Bombardier",
+        "type": "Gunner",
+        "ability": "If you would drop or launch a device, you may use a template of the same bearing with a speed 1 higher or lower.",
+        "slots": [
+          "Gunner"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Veteran Tail Gunner",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Veteran Tail Gunner",
+        "type": "Gunner",
+        "ability": "After you perform a primary [Front Arc] attack, you may perform a bonus primary [Rear Arc] attack.",
+        "slots": [
+          "Gunner"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Veteran Turret Gunner",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Veteran Turret Gunner",
+        "type": "Gunner",
+        "ability": "After you perform a primary attack, you may perform a bonus [Turret] attack using a [Turret] you did not already attack from this round.",
+        "slots": [
+          "Gunner"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Adv. Proton Torpedoes",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Adv. Proton Torpedoes",
+        "type": "Torpedo",
+        "ability": "Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.",
+        "slots": [
+          "Torpedo"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
+        "attack": {
+          "arc": "Front Arc",
+          "value": 5,
+          "minrange": 1,
+          "maxrange": 1
+        }
+      }
+    ]
+  },
+  {
+    "name": "Ion Torpedoes",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Ion Torpedoes",
+        "type": "Torpedo",
+        "ability": "Attack ([Lock]): Spend 1 [Charge]. If this attac hits, spend 1 [Hit] or [Critical Hit] re  sult to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
+        "slots": [
+          "Torpedo"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "attack": {
+          "arc": "Front Arc",
+          "value": 4,
+          "minrange": 2,
+          "maxrange": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Proton Torpedoes",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Proton Torpedoes",
+        "type": "Torpedo",
+        "ability": "Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.",
+        "slots": [
+          "Torpedo"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "attack": {
+          "arc": "Front Arc",
+          "value": 4,
+          "minrange": 2,
+          "maxrange": 3
+        }
+      }
+    ]
+  }
+]
