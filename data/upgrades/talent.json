@@ -65,13 +65,7 @@
         "charges": {
           "value": 1,
           "recovers": 0
-        },
-        "actions": [
-          {
-            "type": "Barrel Roll",
-            "difficulty": "White"
-          }
-        ]
+        }
       }
     ]
   },
@@ -82,9 +76,15 @@
       {
         "title": "Expert Handling",
         "type": "Talent",
-        "ability": "While heavy fighters can often be coaxed into a barrel roll, seasoned pilots know how to do it without putting undue stress on their craft or leaving themselves open to attack.",
+        "text": "While heavy fighters can often be coaxed into a barrel roll, seasoned pilots know how to do it without putting undue stress on their craft or leaving themselves open to attack.",
         "slots": [
           "Talent"
+        ],
+        "actions": [
+          {
+            "type": "Barrel Roll",
+            "difficulty": "White"
+          }
         ]
       }
     ]

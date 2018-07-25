@@ -6,7 +6,7 @@
       {
         "title": "Os-1 Arsenal Loadout",
         "type": "Configuration",
-        "ability": "Ahile you have exactly 1 disarm token, you can still perform [Torpedo] and [Missile] attacks against targets you have locked. If you do, you cannot spend you lock during the attack. Add [Torpedo] and [Missile] slots.",
+        "ability": "While you have exactly 1 disarm token, you can still perform [Torpedo] and [Missile] attacks against targets you have locked. If you do, you cannot spend you lock during the attack. Add [Torpedo] and [Missile] slots.",
         "slots": [
           "Configuration"
         ]
@@ -42,7 +42,7 @@
       {
         "title": "Servomotor S-foils (Closed)",
         "type": "Configuration",
-        "ability": "While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90˚ or 180˚. Before you activate, you may flip this card.",
+        "ability": "While you perform a primary attack, roll 1 fewer attack die. Before you activate, you may flip this card.",
         "slots": [
           "Configuration"
         ],

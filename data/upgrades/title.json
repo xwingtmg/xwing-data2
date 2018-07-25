@@ -9,6 +9,12 @@
         "ability": "Add [Device] slot.",
         "slots": [
           "Title"
+        ],
+        "actions": [
+          {
+            "type": "Reload",
+            "difficulty": "White"
+          }
         ]
       }
     ]
@@ -141,6 +147,12 @@
         "ability": "Add [Cannon] slot.",
         "slots": [
           "Title"
+        ],
+        "actions": [
+          {
+            "type": "Barrel Roll",
+            "difficulty": "White"
+          }
         ]
       }
     ]
