@@ -6,6 +6,7 @@
       {
         "title": "BT-1",
         "type": "Gunner",
+        "xws": "bt1",
         "ability": "While you perform an attack, you may change 1 [Hit] result to a [Critical Hit] result for each stress token the defender has.",
         "slots": [
           "Gunner"
@@ -20,6 +21,7 @@
       {
         "title": "Bistan",
         "type": "Gunner",
+        "xws": "bistan",
         "ability": "After you perform a primary attack, if you are focused, you may perform a bonus [Turret] attack against a shipe you have not already attacked this round.",
         "slots": [
           "Gunner"
@@ -34,6 +36,7 @@
       {
         "title": "Bossk",
         "type": "Gunner",
+        "xws": "bossk",
         "ability": "After you perform a primary attack that misses, if you are not stressedm you must receive 1 stress token to perform a bonus primary attack against the same target.",
         "slots": [
           "Gunner"
@@ -48,6 +51,7 @@
       {
         "title": "Dengar",
         "type": "Gunner",
+        "xws": "dengar",
         "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Charge]. If you do, roll 1 attack die unless the attacker chooses to remove 1 green token. On a [Hit] or [Critical Hit] result, the attacker suffers 1 [Hit] damage.",
         "slots": [
           "Gunner"
@@ -66,6 +70,7 @@
       {
         "title": "Ezra Bridger",
         "type": "Gunner",
+        "xws": "ezrabridger",
         "ability": "After you perform a primary attack, you may spend 1 [Force] to perform a bonus [Turret] attack from a [Turret] you have not attacked from this round. If you do and you are stressed, you may reroll 1 attack die.",
         "slots": [
           "Gunner"
@@ -84,6 +89,7 @@
       {
         "title": "Fifth Brother",
         "type": "Gunner",
+        "xws": "fifthbrother",
         "ability": "While you perform an attack, you may spend 1 [Force] to change 1 of your [Focus] results to a [Critical Hit] result.",
         "slots": [
           "Gunner"
@@ -102,6 +108,7 @@
       {
         "title": "Greedo",
         "type": "Gunner",
+        "xws": "greedo",
         "ability": "While you perform an attack, you may spend 1 [Charge] to change 1 [Hit] result to a [Critical Hit] result. While you defend, if your [Charge] is active, the attacker may change 1 [Hit] result to a [Critical Hit] result.",
         "slots": [
           "Gunner"
@@ -120,6 +127,7 @@
       {
         "title": "Han Solo",
         "type": "Gunner",
+        "xws": "hansolo",
         "ability": "During the Engagement Phase, at initiative 7, you may perform a [Turret] attack. You cannot attack from that [Turret] again this round.",
         "slots": [
           "Gunner"
@@ -134,6 +142,7 @@
       {
         "title": "Hotshot Gunner",
         "type": "Gunner",
+        "xws": "hotshotgunner",
         "ability": "While you perform a [Turret] attack, after the Modify Defense Dice step, the defender removes 1 focus or calculate token.",
         "slots": [
           "Gunner"
@@ -148,6 +157,7 @@
       {
         "title": "Luke Skywalker",
         "type": "Gunner",
+        "xws": "lukeskywalker",
         "ability": "At the start of the Engagement Phase, you may spend 1 [Force] to rotate your [Turret] indicator.",
         "slots": [
           "Gunner"
@@ -166,6 +176,7 @@
       {
         "title": "Skilled Bombardier",
         "type": "Gunner",
+        "xws": "skilledbombardier",
         "ability": "If you would drop or launch a device, you may use a template of the same bearing with a speed 1 higher or lower.",
         "slots": [
           "Gunner"
@@ -180,6 +191,7 @@
       {
         "title": "Veteran Tail Gunner",
         "type": "Gunner",
+        "xws": "veterantailgunner",
         "ability": "After you perform a primary [Front Arc] attack, you may perform a bonus primary [Rear Arc] attack.",
         "slots": [
           "Gunner"
@@ -194,6 +206,7 @@
       {
         "title": "Veteran Turret Gunner",
         "type": "Gunner",
+        "xws": "veteranturretgunner",
         "ability": "After you perform a primary attack, you may perform a bonus [Turret] attack using a [Turret] you did not already attack from this round.",
         "slots": [
           "Gunner"

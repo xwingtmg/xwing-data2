@@ -6,6 +6,7 @@
       {
         "title": "Heavy Laser Cannon",
         "type": "Cannon",
+        "xws": "heavylasercannon",
         "ability": "Attack: After the Modify Attack Dice step, change all [Critical Hit] results to [Hit] results.",
         "slots": [
           "Cannon"
@@ -26,6 +27,7 @@
       {
         "title": "Ion Cannon",
         "type": "Cannon",
+        "xws": "ioncannon",
         "ability": "Attack: If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
         "slots": [
           "Cannon"
@@ -46,6 +48,7 @@
       {
         "title": "Jamming Beam",
         "type": "Cannon",
+        "xws": "jammingbeam",
         "ability": "Attack: If this attack hits, all [Hit]/[Critical Hit] results inflict jam tokens instead of damage.",
         "slots": [
           "Cannon"
@@ -66,6 +69,7 @@
       {
         "title": "Tractor Beam",
         "type": "Cannon",
+        "xws": "tractorbeam",
         "ability": "Attack: If this attack hits, all [Hit]/[Critical Hit] results inflict tractor tokens instead of damage.",
         "slots": [
           "Cannon"
