@@ -6,6 +6,7 @@
       {
         "title": "Os-1 Arsenal Loadout",
         "type": "Configuration",
+        "xws": "os1arsenalloadout",
         "ability": "While you have exactly 1 disarm token, you can still perform [Torpedo] and [Missile] attacks against targets you have locked. If you do, you cannot spend you lock during the attack. Add [Torpedo] and [Missile] slots.",
         "slots": [
           "Configuration"
@@ -20,6 +21,7 @@
       {
         "title": "Pivot Wing (Closed)",
         "type": "Configuration",
+        "xws": "pivotwingclosed",
         "ability": "While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90˚ or 180˚. Before you activate, you may flip this card.",
         "slots": [
           "Configuration"
@@ -28,6 +30,7 @@
       {
         "title": "Pivot Wing (Open)",
         "type": "Configuration",
+        "xws": "pivotwingopen",
         "ability": "Before you activate, you may flip this card.",
         "slots": [
           "Configuration"
@@ -42,6 +45,7 @@
       {
         "title": "Servomotor S-foils (Closed)",
         "type": "Configuration",
+        "xws": "servomotorsfoilsclosed",
         "ability": "While you perform a primary attack, roll 1 fewer attack die. Before you activate, you may flip this card.",
         "slots": [
           "Configuration"
@@ -64,6 +68,7 @@
       {
         "title": "Servomotor S-foils (Open)",
         "type": "Configuration",
+        "xws": "servomotorsfoilsopen",
         "ability": "Before you activate, you may flip this card.",
         "slots": [
           "Configuration"
@@ -78,6 +83,7 @@
       {
         "title": "Xg-1 Assault Configuration",
         "type": "Configuration",
+        "xws": "xg1assaultconfiguration",
         "ability": "While you have exactly 1 disarm token, uou can still perform [Cannon] attacks. While you perform a [Cannon] attack while disarmed, roll a maximum of 3 attack dice. Add [Cannon] slot.",
         "slots": [
           "Configuration"

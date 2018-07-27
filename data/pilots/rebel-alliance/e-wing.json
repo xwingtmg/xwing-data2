@@ -53,6 +53,7 @@
       "caption": "Tenacious Investigator",
       "initiative": 5,
       "limited": 1,
+      "xws": "corranhorn",
       "ability": "At initiative 0, you may perform a bonus primary attack against an enemy ship in your [Bullseye Arc]. If you do, at the start of the next Planning Phase, gain 1 disarm token.",
       "image": "https://i.imgur.com/g8jma0k.png"
     },
@@ -61,6 +62,7 @@
       "caption": "Bold Wingman",
       "initiative": 4,
       "limited": 1,
+      "xws": "gavindarklighter",
       "ability": "While a friendly ship performs an attack, if the defender is in your [Front Arc], the attacker may change 1 [Hit] result to a [Critical Hit] result.",
       "image": "https://i.imgur.com/y30x2FC.jpg"
     },
@@ -68,6 +70,7 @@
       "name": "Knave Squadron Escort",
       "initiative": 2,
       "limited": 0,
+      "xws": "knavesquadronescort",
       "text": "Designed to combine the best features of the X-wing series with the A-wing series, the E-wing boasts superior firepower, speed, and maneuverability.",
       "image": "https://i.imgur.com/khW6Wsa.jpg"
     },
@@ -75,6 +78,7 @@
       "name": "Rogue Squadron Escort",
       "initiative": 4,
       "limited": 0,
+      "xws": "roguesquadronescort",
       "text": "The elite pilots of Rogue Squadron are among the Rebellion's very best.",
       "image": "https://i.imgur.com/7eV24zH.png"
     }

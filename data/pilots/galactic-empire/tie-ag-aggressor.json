@@ -44,6 +44,7 @@
       "caption": "Contingency Planner",
       "initiative": 2,
       "limited": 1,
+      "xws": "doubleedge",
       "ability": "After you perform a [Turret] or [Missile] attack that misses, you may perform a bonus attack using a different weapon.",
       "image": "https://i.imgur.com/9CAQhnT.jpg"
     },
@@ -52,6 +53,7 @@
       "caption": "Innate Deadeye",
       "initiative": 4,
       "limited": 1,
+      "xws": "lieutenantkestal",
       "ability": "While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender's blank/[Focus] results.",
       "image": "https://i.imgur.com/2B28yb9.jpg"
     },
@@ -59,6 +61,7 @@
       "name": "Onyx Squadron Scout",
       "initiative": 3,
       "limited": 0,
+      "xws": "onyxsquadronscout",
       "text": "Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loadout and its maneuverability to full effect.",
       "image": "https://i.imgur.com/vitbEbv.png"
     },
@@ -66,6 +69,7 @@
       "name": "Sienar Specialist",
       "initiative": 2,
       "limited": 0,
+      "xws": "sienarspecialist",
       "text": "During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency.",
       "image": "https://i.imgur.com/dfWi6CV.jpg"
     }

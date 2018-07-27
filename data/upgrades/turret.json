@@ -6,6 +6,7 @@
       {
         "title": "Dorsal Turret",
         "type": "Turret",
+        "xws": "dorsalturret",
         "ability": "Attack",
         "slots": [
           "Turret"
@@ -32,6 +33,7 @@
       {
         "title": "Ion Cannot Turret",
         "type": "Turret",
+        "xws": "ioncannotturret",
         "ability": "Attack: If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
         "slots": [
           "Turret"

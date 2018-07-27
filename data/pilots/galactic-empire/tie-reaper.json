@@ -49,6 +49,7 @@
       "caption": "Ruthless Tactician",
       "initiative": 2,
       "limited": 1,
+      "xws": "vizier",
       "ability": "After you fully execute a speed 1 maneuver using your Adaptive Ailerons ship ability, you may perform a [Coordinate] action. If you do, skip your Perform Action step.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/a0/86/a08685c2-260b-449c-ba91-a870f6058e22/swx75_card2_vizier.png"
     },
@@ -57,6 +58,7 @@
       "caption": "Imperial Courier",
       "initiative": 3,
       "limited": 1,
+      "xws": "captainferoph",
       "ability": "While you defend, if the attacker does not have any green tokens, you may change 1 of your [Focus]/blank results to an [Evade] result.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/e9/9ce9dedf-8f3f-482e-bcbb-d105e5c78682/swx75_card2_captain-feroph.png"
     },
@@ -65,6 +67,7 @@
       "caption": "Veteran of Scarif",
       "initiative": 4,
       "limited": 1,
+      "xws": "majorvermeil",
       "ability": "While you perform an attack, if the defender does not have any green tokens, you may change 1 of your [Focus]/blank results to a [Hit] result.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/a7/29/a729992e-5e68-46e8-93d7-33f1220aed9d/swx75_card2_major-vermeil.png"
     },
@@ -72,6 +75,7 @@
       "name": "Scarif Base Pilot",
       "initiative": 1,
       "limited": 0,
+      "xws": "scarifbasepilot",
       "text": "The TIE reaper was designed to ferry elite troops to flashpoints on the battlefield, notably carrying Director Krennic's dreaded death troopers at the Battle of Scarif."
     }
   ]

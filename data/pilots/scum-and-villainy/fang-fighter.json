@@ -46,6 +46,7 @@
       "caption": "Skull Leader",
       "initiative": 6,
       "limited": 1,
+      "xws": "fennrau",
       "ability": "While you defend or perform an attack, if the attack range is 1, you may roll 1 additional die.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/dc/98/dc9801d4-6dfc-40c7-bba4-d5d0ee3e9141/swz17_fenn-rau.png"
     },
@@ -54,6 +55,7 @@
       "caption": "Skull Squadron Ace",
       "initiative": 4,
       "limited": 1,
+      "xws": "joyrekkoff",
       "ability": "While you perform an attack, you may spend 1 [Charge] from an equipped [Torpedo] upgrade. If you do, the defender rolls 1 fewer defense die.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/58/d2/58d2c4e1-db42-45fd-8799-69e0fde2c6f5/swz17_joy-rekkoff.png"
     },
@@ -62,6 +64,7 @@
       "caption": "Skilled Commando",
       "initiative": 4,
       "limited": 1,
+      "xws": "kadsolus",
       "ability": "After you fully execute a red maneuver, gain 2 focus tokens.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/ba/79/ba79d3eb-de1d-4c07-ae03-15c28539ee2a/swz17_kad-solus.png"
     },
@@ -70,6 +73,7 @@
       "caption": "Mandalorian Mentor",
       "initiative": 5,
       "limited": 1,
+      "xws": "oldteroch",
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship at range 1. If you do and you are in its [Front Arc], it removes all of its green tokens.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/66/2a/662af49d-0a41-43e9-972c-871bef1b6fe2/swz17_old-teroch.png"
     },
@@ -77,6 +81,7 @@
       "name": "Skull Squadron Pilot",
       "initiative": 4,
       "limited": 0,
+      "xws": "skullsquadronpilot",
       "text": "The aces of Skull Squadron favor an aggressive approach, using their craft's pivot wing technology to achieve unmatched agility in the pursuit of their quarry.",
       "image": "https://i.imgur.com/9fXccsv.jpg"
     },
@@ -84,6 +89,7 @@
       "name": "Zealous Recruit",
       "initiative": 1,
       "limited": 0,
+      "xws": "zealousrecruit",
       "text": "Mandalorian Fang Fighter pilots must master the Concordia Faceoff maneuver, leveraging their ships' narrow attack profile to execute deadly head-on charges.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/96/90/9690e1b6-13fe-412c-aaea-b6edc987489b/swz17_zealous-recruit.png"
     }
