@@ -44,6 +44,7 @@
       "name": "Binayre Pirate",
       "initiative": 1,
       "limited": 0,
+      "xws": "binayrepirate",
       "text": "Operating from the Double Worlds, Talus and Tralus, Kath Scarlet's gang of smugglers and pirates would never be described as reputable or dependable - even by other criminals.",
       "image": "https://i.imgur.com/6omMe5j.png"
     },
@@ -51,6 +52,7 @@
       "name": "Black Sun Soldier",
       "initiative": 3,
       "limited": 0,
+      "xws": "blacksunsoldier",
       "text": "The vast and influential Black Sun crime syndicate can always find a use for talented pilots, provided they aren't particular about how they earn their credits.",
       "image": "https://i.imgur.com/UzPH9n1.jpg"
     },
@@ -59,6 +61,7 @@
       "caption": "Imposing Marauder",
       "initiative": 3,
       "limited": 1,
+      "xws": "kaatoleeachos",
       "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
       "image": "https://i.imgur.com/Y5W8G9t.jpg"
     },
@@ -67,6 +70,7 @@
       "caption": "Hunt Saboteur",
       "initiative": 4,
       "limited": 1,
+      "xws": "ndrusuhlak",
       "ability": "While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack die."
     },
     {
@@ -74,6 +78,7 @@
       "caption": "Contingency Plan",
       "initiative": 0,
       "limited": 1,
+      "xws": "nashtahpup",
       "ability": "You can deploy only via emergency deployment, and you have the name, initiative, pilot ability, and ship [Charge] of the friendly, destroyed Hound's Tooth."
     }
   ]

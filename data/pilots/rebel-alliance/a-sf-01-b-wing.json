@@ -45,6 +45,7 @@
       "name": "Blade Squadron Veteran",
       "initiative": 3,
       "limited": 0,
+      "xws": "bladesquadronveteran",
       "text": "A unique gyrostabilization system surrounds the B-wing's cockpit, ensuring that the pilot always remains stationary during flight.",
       "image": "https://i.imgur.com/VQ0xIC7.jpg"
     },
@@ -52,6 +53,7 @@
       "name": "Blue Squadron Pilot",
       "initiative": 2,
       "limited": 0,
+      "xws": "bluesquadronpilot",
       "text": "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter.",
       "image": "https://i.imgur.com/Rdr3gF5.png"
     },
@@ -60,6 +62,7 @@
       "caption": "Blade Leader",
       "initiative": 4,
       "limited": 1,
+      "xws": "braylenstramm",
       "ability": "While you defend or perform an attack, if you are stressed, you may reroll up to 2 of your dice.",
       "image": "https://i.imgur.com/ti70cw0.jpg"
     },
@@ -68,6 +71,7 @@
       "caption": "Blue Five",
       "initiative": 4,
       "limited": 1,
+      "xws": "tennumb",
       "ability": "While you defend or perform an attack, you may spend 1 stress token to change all of your [Focus] results to [Evade] or [Hit] results.",
       "image": "https://i.imgur.com/iL6SGKW.png"
     }

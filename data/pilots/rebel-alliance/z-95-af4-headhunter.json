@@ -45,6 +45,7 @@
       "caption": "Intelligence Chief",
       "initiative": 5,
       "limited": 1,
+      "xws": "airencracken",
       "ability": "After you perform an attack, you may choose 1 friendly ship at range 1. That ship may perform an action, treating it as red.",
       "image": "https://i.imgur.com/7bVSVq4.jpg"
     },
@@ -52,6 +53,7 @@
       "name": "Bandit Squadron Pilot",
       "initiative": 1,
       "limited": 0,
+      "xws": "banditsquadronpilot",
       "text": "The Z-95 Headhunter was the primary inspiration for Incom Corporation's exemplary T-65 X-wing starfighter. Though it is considered outdated by modern standards, it remains a versatile and potent snub fighter.",
       "image": "https://i.imgur.com/pq9fX05.png"
     },
@@ -60,6 +62,7 @@
       "caption": "Team Player",
       "initiative": 4,
       "limited": 1,
+      "xws": "lieutenantblount",
       "ability": "While you perform a primary attack, if there is at least 1 other friendly ship at range 0-1 of the defender, you may roll 1 additional attack die.",
       "image": "https://i.imgur.com/Yzh5H1z.jpg"
     },
@@ -67,6 +70,7 @@
       "name": "Tala Squadron Pilot",
       "initiative": 2,
       "limited": 0,
+      "xws": "talasquadronpilot",
       "text": "The AF4 series is the latest in a long line of Headhunter designs. Cheap and relatively durable, it is a favorite among independent outfits like the Rebellion.",
       "image": "https://i.imgur.com/R6W7mLY.jpg"
     }
