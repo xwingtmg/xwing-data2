@@ -44,6 +44,7 @@
       "caption": "Gold Leader",
       "initiative": 4,
       "limited": 1,
+      "cost": 42,
       "ability": "After you perform the [Lock] action, you may choose 1 friendly ship at range 1-3. That ship may acquire a lock on the object you locked, ignoring range restrictions.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/92/87/92874a68-d247-4848-9d00-68ae8e1b1d32/swz13_dutch-vander.png"
     },
@@ -52,6 +53,7 @@
       "caption": "Gold Three",
       "initiative": 3,
       "limited": 1,
+      "cost": 36,
       "ability": "At the start of the Engagement Phase, you may spend 1 focus token to choose a friendly ship at range 0-1. If you do, that ship rolls 1 additional defense die while defending until the end of the round.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/3a/e13ae0c6-68ca-4d07-8f30-07e8aebef64c/swz13_evaan-verlaine.png"
     },
@@ -59,6 +61,7 @@
       "name": "Gold Squadron Veteran",
       "initiative": 3,
       "limited": 0,
+      "cost": 34,
       "text": "Commanded by Jon \"Dutch\" Vander, Gold Squadron played an instrumental role in the Battles of Scarif and Yavin.",
       "image": "https://i.imgur.com/3dC2FCg.png"
     },
@@ -66,6 +69,7 @@
       "name": "Gray Squadron Bomber",
       "initiative": 2,
       "limited": 0,
+      "cost": 32,
       "text": "Long after the Y-wing was phased out by the Galactic Empire, its durability, dependability, and heavy armament help it remain a staple in the Rebel fleet.",
       "image": "https://i.imgur.com/fqMoeRW.png"
     },
@@ -74,6 +78,7 @@
       "caption": "Gray Leader",
       "initiative": 4,
       "limited": 1,
+      "cost": 38,
       "ability": "While you perform an attack, you may reroll 1 attack die for each other friendly ship at range 0-1 of the defender.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/66/ee/66eecc61-6de1-46ae-b18b-e13ce7d6b553/swz13_horton-salm.png"
     },
@@ -82,6 +87,7 @@
       "caption": "Gold Nine",
       "initiative": 5,
       "limited": 1,
+      "cost": 43,
       "ability": "While you defend, if there is an enemy ship at range 0-1, you may add 1 [Evade] result to your dice results.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/a4/70/a4705409-9cc6-4218-ae90-df62482beef4/swz13_norra-wexley.png"
     }

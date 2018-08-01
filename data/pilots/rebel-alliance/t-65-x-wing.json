@@ -46,6 +46,7 @@
       "caption": "Red Three",
       "initiative": 3,
       "limited": 1,
+      "cost": 48,
       "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Hit] or [Critical Hit] damage to cancel 1 matching result.",
       "image": "https://i.imgur.com/P2Kn6DR.png"
     },
@@ -53,6 +54,7 @@
       "name": "Blue Squadron Escort",
       "initiative": 2,
       "limited": 0,
+      "cost": 41,
       "text": "Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.",
       "image": "https://i.imgur.com/G1NoLFF.png"
     },
@@ -60,6 +62,7 @@
       "name": "Cavern Angels Zealot",
       "initiative": 1,
       "limited": 0,
+      "cost": 41,
       "text": "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha."
     },
     {
@@ -67,6 +70,7 @@
       "caption": "Cavern Angels Veteran",
       "initiative": 2,
       "limited": 1,
+      "cost": 45,
       "ability": "Before you activate, if you are focused, you may perform an action.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/b9/27b93e13-e3e0-4557-b49d-2f65a27d078b/swz02_a1_edrio-tt.png"
     },
@@ -75,6 +79,7 @@
       "caption": "Red Leader",
       "initiative": 4,
       "limited": 1,
+      "cost": 47,
       "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
       "image": "https://i.imgur.com/yWESWzU.png"
     },
@@ -83,6 +88,7 @@
       "caption": "Red Six",
       "initiative": 4,
       "limited": 1,
+      "cost": 46,
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
       "image": "https://i.imgur.com/Ny4gBBN.png"
     },
@@ -91,6 +97,7 @@
       "caption": "Enigmatic Gunslinger",
       "initiative": 4,
       "limited": 1,
+      "cost": 48,
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may flip your equipped [Configuration] upgrade card.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/54/e154a590-eedd-44fe-b8b0-ad6e89b85295/swz02_a1_kullbee.png"
     },
@@ -99,6 +106,7 @@
       "caption": "Rebel Alliance Defector",
       "initiative": 3,
       "limited": 1,
+      "cost": 46,
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may perform a red [Evade] action.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/4a/e5/4ae59c94-8324-41c2-8a4e-7656b95addb9/swz02_a1_leevan-tenza.png"
     },
@@ -107,6 +115,7 @@
       "caption": "Red Five",
       "initiative": 5,
       "limited": 1,
+      "cost": 62,
       "ability": "After you become the defender (before dice are rolled), you may recover 1 [Force].",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/b5/45/b545a9e9-fe15-45c9-9885-ab7fc6e01964/swz01_a5_xwing_diagram.png",
       "force": {
@@ -118,6 +127,7 @@
       "name": "Red Squadron Veteran",
       "initiative": 3,
       "limited": 0,
+      "cost": 43,
       "text": "Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.",
       "image": "https://i.imgur.com/JZtZB1m.jpg"
     },
@@ -126,6 +136,7 @@
       "caption": "Corona Four",
       "initiative": 5,
       "limited": 1,
+      "cost": 48,
       "ability": "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
       "image": "https://i.imgur.com/FlJuNDr.png"
     },
@@ -134,6 +145,7 @@
       "caption": "Red Two",
       "initiative": 6,
       "limited": 1,
+      "cost": 52,
       "ability": "While you perform an attack, the defender rolls 1 fewer defense die.",
       "image": "https://i.imgur.com/Dn3gjxq.png"
     }

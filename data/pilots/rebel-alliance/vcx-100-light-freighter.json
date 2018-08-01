@@ -50,6 +50,7 @@
       "caption": "Spectre-3",
       "initiative": 2,
       "limited": 1,
+      "cost": 72,
       "ability": "At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.",
       "image": "https://i.imgur.com/Iwvr07I.jpg"
     },
@@ -58,6 +59,7 @@
       "caption": "Spectre-2",
       "initiative": 5,
       "limited": 1,
+      "cost": 76,
       "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.",
       "image": "https://i.imgur.com/TUvH0aN.png"
     },
@@ -66,6 +68,7 @@
       "caption": "Spectre-1",
       "initiative": 3,
       "limited": 1,
+      "cost": 90,
       "ability": "While a friendly ship in your firing arc defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
       "image": "https://i.imgur.com/qOPVRTj.jpg",
       "force": {
@@ -77,6 +80,7 @@
       "name": "Lothal Rebel",
       "initiative": 2,
       "limited": 0,
+      "cost": 70,
       "text": "Another successful Corellian Engineering Corporation freighter design, the VCX-100 is larger than the ubiquitous YT-series, boasting more living space and customizability.",
       "image": "https://i.imgur.com/PwUPatz.png"
     }

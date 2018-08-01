@@ -44,6 +44,7 @@
       "caption": "Fearsome Hunter",
       "initiative": 4,
       "limited": 1,
+      "cost": 70,
       "ability": "While you perform a primary attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.",
       "image": "https://i.imgur.com/CKPzcSB.png"
     },
@@ -52,6 +53,7 @@
       "caption": "Martial Artist",
       "initiative": 3,
       "limited": 1,
+      "cost": 66,
       "ability": "At the start of the Engagement Phase, you may choose a ship at range 1 and spend a lock you have on that ship. If you do, that ship gains 1 tractor token.",
       "image": "https://i.imgur.com/sqpKyIj.jpg"
     },
@@ -60,6 +62,7 @@
       "caption": "Criminal Mastermind",
       "initiative": 4,
       "limited": 1,
+      "cost": 72,
       "ability": "If you would flee, you may spend 1 [Charge]. If you do, place yourself in reserves instead. At the start of the next Planning Phase, place youself within range 1 of the edge of the play area that you fled from.",
       "image": "https://i.imgur.com/kn89diB.png",
       "charges": {
@@ -72,6 +75,7 @@
       "caption": "Fearsome Hunter",
       "initiative": 2,
       "limited": 0,
+      "cost": 58,
       "text": "The spacious triple-decker design of the YV-666 makes it popular among bounty hunters and slavers, who often retrofit an entire deck for prisoner transport.",
       "image": "https://i.imgur.com/oL3jSvG.png"
     }

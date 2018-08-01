@@ -47,6 +47,7 @@
       "name": "Baron of the Empire",
       "initiative": 3,
       "limited": 0,
+      "cost": 34,
       "text": "Sienar Fleet System's TIE Advanced v1 is a groundbreaking starfighter design, featuring upgraded engines, a missile launcher, and folding s-foils.",
       "image": "https://i.imgur.com/6CV2VXS.png"
     },
@@ -55,6 +56,7 @@
       "caption": "Master of the Inquisitorious",
       "initiative": 5,
       "limited": 1,
+      "cost": 58,
       "ability": "While you defend at attack range 1, you may spend 1 [Force] to prevent the range 1 bonus. While you perform an attack against a defender at attack range 2-3, you may spend 1 [Force] to apply the range 1 bonus.",
       "image": "https://i.imgur.com/PElhrM5.png",
       "force": {
@@ -66,6 +68,7 @@
       "name": "Inquisitor",
       "initiative": 3,
       "limited": 0,
+      "cost": 40,
       "text": "The fearsome Inquisitors are given a great deal of autonomy and access to the Empire's latest technology, like the prototype TIE Advanced v1.",
       "image": "https://i.imgur.com/6CV2VXS.png",
       "force": {
@@ -78,6 +81,7 @@
       "caption": "Sadistic Interrogator",
       "initiative": 4,
       "limited": 1,
+      "cost": 48,
       "ability": "While you perform a primary attack, before the Neutralize Results step, you may spend 2 [Force] to cancel 1 [Evade] result.",
       "image": "https://i.imgur.com/za20byz.jpg",
       "force": {

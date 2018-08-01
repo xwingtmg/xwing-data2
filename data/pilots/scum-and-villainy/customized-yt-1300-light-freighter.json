@@ -42,10 +42,18 @@
   ],
   "pilots": [
     {
+      "name": "Freighter Captain",
+      "initiative": 0,
+      "limited": 0,
+      "cost": 46,
+      "ability": "???"
+    },
+    {
       "name": "Han Solo",
       "caption": "The Corellian Kid",
       "initiative": 6,
       "limited": 1,
+      "cost": 54,
       "ability": "Whlie you defend or perform a primary attack, if the attack is obstructed by an obstacle, you may roll 1 additional die.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/ee/b4/eeb48172-25f2-461e-979a-18b835b834a4/swz04_han-solo.png"
     },
@@ -54,6 +62,7 @@
       "caption": "Droid Revolutionary",
       "initiative": 2,
       "limited": 1,
+      "cost": 47,
       "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/a8/f4/a8f42e81-3eef-49d2-9887-8d71ae70cabc/swz04_l3-37.png"
     },
@@ -62,6 +71,7 @@
       "caption": "Smooth-talking Gambler",
       "initiative": 4,
       "limited": 1,
+      "cost": 49,
       "ability": "After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/8a/97/8a977269-7a61-47b4-9a89-b51c03de8dc5/swz04_a1_pilot-card_lando.png"
     }

@@ -44,6 +44,7 @@
       "name": "Contracted Scout",
       "initiative": 2,
       "limited": 0,
+      "cost": 52,
       "text": "Built for long-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
       "image": "https://i.imgur.com/FEZzvV0.png"
     },
@@ -52,6 +53,7 @@
       "caption": "Vengeful Corellian",
       "initiative": 6,
       "limited": 1,
+      "cost": 64,
       "ability": "After you defend, if the attcker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
       "image": "https://i.imgur.com/Pli4hOp.png",
       "charges": {
@@ -64,6 +66,7 @@
       "caption": "Graceful Aruzan",
       "initiative": 3,
       "limited": 1,
+      "cost": 56,
       "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.",
       "image": "https://i.imgur.com/Jmm6wZQ.jpg"
     },
@@ -72,6 +75,7 @@
       "caption": "Escape Artist",
       "initiative": 4,
       "limited": 1,
+      "cost": 60,
       "ability": "If you would be destroyed, you may spend 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [Hit] damage, and place yourself in reserves instead. At the start of the next planning phase, place yourself within range 1 of your player edge.",
       "image": "https://i.imgur.com/FeUMuVx.jpg",
       "charges": {

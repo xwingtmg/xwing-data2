@@ -46,6 +46,7 @@
       "caption": "The Mighty",
       "initiative": 4,
       "limited": 1,
+      "cost": 84,
       "ability": "Before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt the card facedown instead.",
       "image": "https://i.imgur.com/72poOIG.jpg",
       "charges": {
@@ -58,6 +59,7 @@
       "caption": "Scoundrel for Hire",
       "initiative": 6,
       "limited": 1,
+      "cost": 92,
       "ability": "After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects.",
       "image": "https://i.imgur.com/vLoe0hz.png"
     },
@@ -66,6 +68,7 @@
       "caption": "General of the Alliance",
       "initiative": 5,
       "limited": 1,
+      "cost": 92,
       "ability": "After you fully execute a blue maneuver, you may choose a friendly ship at range 0-3. That ship may perform an action.",
       "image": "https://i.imgur.com/lzS7Rsj.jpg"
     },
@@ -73,6 +76,7 @@
       "name": "Outer Rim Smuggler",
       "initiative": 1,
       "limited": 0,
+      "cost": 78,
       "text": "Known for its durability and modular design, the YT-1300 is one of the most popular, widely used, and extensively customized freighters in the galaxy.",
       "image": "https://i.imgur.com/8YSKpLP.png"
     }
