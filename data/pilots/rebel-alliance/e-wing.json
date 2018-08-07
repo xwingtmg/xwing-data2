@@ -43,10 +43,6 @@
       "value": 3
     }
   ],
-  "ability": {
-    "name": "Experimental Scanners",
-    "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
-  },
   "pilots": [
     {
       "name": "Corran Horn",
@@ -55,7 +51,11 @@
       "limited": 1,
       "cost": 74,
       "ability": "At initiative 0, you may perform a bonus primary attack against an enemy ship in your [Bullseye Arc]. If you do, at the start of the next Planning Phase, gain 1 disarm token.",
-      "image": "https://i.imgur.com/g8jma0k.png"
+      "image": "https://i.imgur.com/g8jma0k.png",
+      "shipAbility": {
+        "name": "Experimental Scanners",
+        "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
+      }
     },
     {
       "name": "Gavin Darklighter",
@@ -64,7 +64,11 @@
       "limited": 1,
       "cost": 68,
       "ability": "While a friendly ship performs an attack, if the defender is in your [Front Arc], the attacker may change 1 [Hit] result to a [Critical Hit] result.",
-      "image": "https://i.imgur.com/y30x2FC.jpg"
+      "image": "https://i.imgur.com/y30x2FC.jpg",
+      "shipAbility": {
+        "name": "Experimental Scanners",
+        "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
+      }
     },
     {
       "name": "Knave Squadron Escort",
@@ -72,7 +76,11 @@
       "limited": 0,
       "cost": 61,
       "text": "Designed to combine the best features of the X-wing series with the A-wing series, the E-wing boasts superior firepower, speed, and maneuverability.",
-      "image": "https://i.imgur.com/khW6Wsa.jpg"
+      "image": "https://i.imgur.com/khW6Wsa.jpg",
+      "shipAbility": {
+        "name": "Experimental Scanners",
+        "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
+      }
     },
     {
       "name": "Rogue Squadron Escort",
@@ -80,7 +88,11 @@
       "limited": 0,
       "cost": 63,
       "text": "The elite pilots of Rogue Squadron are among the Rebellion's very best.",
-      "image": "https://i.imgur.com/7eV24zH.png"
+      "image": "https://i.imgur.com/7eV24zH.png",
+      "shipAbility": {
+        "name": "Experimental Scanners",
+        "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
+      }
     }
   ]
 }

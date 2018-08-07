@@ -39,10 +39,6 @@
       "value": 2
     }
   ],
-  "ability": {
-    "name": "Dead to Rights",
-    "text": "While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens."
-  },
   "pilots": [
     {
       "name": "Cartel Executioner",
@@ -50,7 +46,11 @@
       "limited": 0,
       "cost": 44,
       "text": "Many veteran pilots in the service of the Hutt kajidics and other criminal operations choose the M12-L Kimogila for its firepower and dreaded reputation alike.",
-      "image": "https://i.imgur.com/pMzEnFO.png"
+      "image": "https://i.imgur.com/pMzEnFO.png",
+      "shipAbility": {
+        "name": "Dead to Rights",
+        "text": "While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens."
+      }
     },
     {
       "name": "Dalan Oberos",
@@ -63,6 +63,10 @@
       "charges": {
         "value": 2,
         "recovers": 0
+      },
+      "shipAbility": {
+        "name": "Dead to Rights",
+        "text": "While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens."
       }
     },
     {
@@ -72,7 +76,11 @@
       "limited": 1,
       "cost": 50,
       "ability": "After you perform an attack, each enemy ship in your [Bullseye Arc] suffers 1 [Hit] damage unless it removes 1 green token.",
-      "image": "https://i.imgur.com/NVYYF9t.jpg"
+      "image": "https://i.imgur.com/NVYYF9t.jpg",
+      "shipAbility": {
+        "name": "Dead to Rights",
+        "text": "While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens."
+      }
     }
   ]
 }

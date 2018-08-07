@@ -39,10 +39,6 @@
       "value": 1
     }
   ],
-  "ability": {
-    "name": "Weapon Hardpoint",
-    "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
-  },
   "pilots": [
     {
       "name": "Cartel Spacer",
@@ -50,7 +46,11 @@
       "limited": 0,
       "cost": 29,
       "text": "MandalMotors' M3-A 'Scyk' Inteceptor is purchased in large quantities by the Hutt Cartel and the Car'das smugglers due to its low cost and customizability.",
-      "image": "https://i.imgur.com/R5Wa2QC.png"
+      "image": "https://i.imgur.com/R5Wa2QC.png",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     },
     {
       "name": "Genesis Red",
@@ -59,7 +59,11 @@
       "limited": 1,
       "cost": 35,
       "ability": "After you acquire a lock, you must remove all of your focus and evade tokens. Then gain the same number of focus and evade tokens that the locked ship has.",
-      "image": "https://i.imgur.com/J3HT3lm.jpg"
+      "image": "https://i.imgur.com/J3HT3lm.jpg",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     },
     {
       "name": "Inaldra",
@@ -68,7 +72,11 @@
       "limited": 1,
       "cost": 32,
       "ability": "While you defend or perform an attack, you may suffer 1 [Hit] damage to reroll any number of your dice.",
-      "image": "https://i.imgur.com/InCjYYa.jpg"
+      "image": "https://i.imgur.com/InCjYYa.jpg",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     },
     {
       "name": "Laetin A'shera",
@@ -77,7 +85,11 @@
       "limited": 1,
       "cost": 35,
       "ability": "After you defend or perform an attack, if the attack missed, gain 1 evade token.",
-      "image": "https://i.imgur.com/vsstiQo.jpg"
+      "image": "https://i.imgur.com/vsstiQo.jpg",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     },
     {
       "name": "Quinn Jast",
@@ -86,7 +98,11 @@
       "limited": 1,
       "cost": 35,
       "ability": "At the start of the Engagement Phase, you may gain 1 disarm token to recover 1 [Charge] on 1 of your equipped upgrades.",
-      "image": "https://i.imgur.com/iRMmmNF.jpg"
+      "image": "https://i.imgur.com/iRMmmNF.jpg",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     },
     {
       "name": "Serissu",
@@ -95,7 +111,11 @@
       "limited": 1,
       "cost": 43,
       "ability": "While a friendly ship at range 0-1 defends, it may reroll 1 of its dice.",
-      "image": "https://i.imgur.com/LOJ9OWn.jpg"
+      "image": "https://i.imgur.com/LOJ9OWn.jpg",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     },
     {
       "name": "Sunny Bounder",
@@ -104,7 +124,11 @@
       "limited": 1,
       "cost": 31,
       "ability": "While you defend or perform an attack, after you roll or reroll your dice, if you have the same result on each of your dice, you may add 1 matching result.",
-      "image": "https://i.imgur.com/VzDyCnd.jpg"
+      "image": "https://i.imgur.com/VzDyCnd.jpg",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     },
     {
       "name": "Tansarii Point Veteran",
@@ -112,7 +136,11 @@
       "limited": 0,
       "cost": 33,
       "text": "The defeat of Black Sun ace Talonbane Cobra by Car'das smugglers turned the tide of the Battle of Tansarii Point Station. Survivors of the clash are respected throughout the sector.",
-      "image": "https://i.imgur.com/lFYeL8f.jpg"
+      "image": "https://i.imgur.com/lFYeL8f.jpg",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     }
   ]
 }

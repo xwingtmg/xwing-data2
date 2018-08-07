@@ -41,10 +41,6 @@
       "value": 2
     }
   ],
-  "ability": {
-    "name": "Advanced Targeting Computer",
-    "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-  },
   "pilots": [
     {
       "name": "Darth Vader",
@@ -57,6 +53,10 @@
       "force": {
         "value": 3,
         "recovers": 1
+      },
+      "shipAbility": {
+        "name": "Advanced Targeting Computer",
+        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       }
     },
     {
@@ -66,7 +66,11 @@
       "limited": 1,
       "cost": 50,
       "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/a7/2e/a72ea6fe-b11c-439b-a1f8-6185b9b961f2/swz15_a1_maarek-stele.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/a7/2e/a72ea6fe-b11c-439b-a1f8-6185b9b961f2/swz15_a1_maarek-stele.png",
+      "shipAbility": {
+        "name": "Advanced Targeting Computer",
+        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+      }
     },
     {
       "name": "Storm Squadron Ace",
@@ -74,14 +78,22 @@
       "limited": 0,
       "cost": 43,
       "text": "The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model, the TIE Interceptor.",
-      "image": "https://i.imgur.com/ZPCZxyz.png"
+      "image": "https://i.imgur.com/ZPCZxyz.png",
+      "shipAbility": {
+        "name": "Advanced Targeting Computer",
+        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+      }
     },
     {
       "name": "Tempest Squadron Pilot",
       "initiative": 2,
       "limited": 0,
       "cost": 41,
-      "text": "The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive."
+      "text": "The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.",
+      "shipAbility": {
+        "name": "Advanced Targeting Computer",
+        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+      }
     },
     {
       "name": "Ved Foslo",
@@ -90,7 +102,11 @@
       "limited": 1,
       "cost": 47,
       "ability": "While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/62/a6/62a6ca0a-40bf-4bf6-a9b4-304a6cfb1f87/swz15_a1_ved-foslo.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/62/a6/62a6ca0a-40bf-4bf6-a9b4-304a6cfb1f87/swz15_a1_ved-foslo.png",
+      "shipAbility": {
+        "name": "Advanced Targeting Computer",
+        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+      }
     },
     {
       "name": "Zertik Strom",
@@ -99,7 +115,11 @@
       "limited": 1,
       "cost": 45,
       "ability": "During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship's damage cards.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/59/4b/594b12d4-847a-4193-ab55-36ec29a85e1e/swz15_a1_zertik-strom.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/59/4b/594b12d4-847a-4193-ab55-36ec29a85e1e/swz15_a1_zertik-strom.png",
+      "shipAbility": {
+        "name": "Advanced Targeting Computer",
+        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+      }
     }
   ]
 }

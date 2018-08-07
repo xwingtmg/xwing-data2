@@ -44,10 +44,6 @@
       "value": 1
     }
   ],
-  "ability": {
-    "name": "Comms Shuttle",
-    "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
-  },
   "pilots": [
     {
       "name": "\"Zeb\" Orrelios",
@@ -56,7 +52,11 @@
       "limited": 1,
       "cost": 32,
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
-      "image": "https://i.imgur.com/2ujf4eY.jpg"
+      "image": "https://i.imgur.com/2ujf4eY.jpg",
+      "shipAbility": {
+        "name": "Comms Shuttle",
+        "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
+      }
     },
     {
       "name": "AP-5",
@@ -65,7 +65,11 @@
       "limited": 1,
       "cost": 30,
       "ability": "While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions.",
-      "image": "https://i.imgur.com/DhzlEwW.png"
+      "image": "https://i.imgur.com/DhzlEwW.png",
+      "shipAbility": {
+        "name": "Comms Shuttle",
+        "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
+      }
     },
     {
       "name": "Ezra Bridger",
@@ -78,6 +82,10 @@
       "force": {
         "value": 1,
         "recovers": 1
+      },
+      "shipAbility": {
+        "name": "Comms Shuttle",
+        "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       }
     },
     {
@@ -87,7 +95,11 @@
       "limited": 1,
       "cost": 52,
       "ability": "After an enemy ship in your firing arc engages, if you are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.",
-      "image": "https://i.imgur.com/zir3Bdj.jpg"
+      "image": "https://i.imgur.com/zir3Bdj.jpg",
+      "shipAbility": {
+        "name": "Comms Shuttle",
+        "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
+      }
     }
   ]
 }

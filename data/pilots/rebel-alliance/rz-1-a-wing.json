@@ -40,10 +40,6 @@
       "value": 2
     }
   ],
-  "ability": {
-    "name": "Vectored Thrusters",
-    "text": "After you perform an action, you may perform a red [Boost] action."
-  },
   "pilots": [
     {
       "name": "Arvel Crynyd",
@@ -52,7 +48,11 @@
       "limited": 1,
       "cost": 36,
       "ability": "You can perform primary attacks at range 0. If you would fail a [Boost] action by overlapping another ship, resilve it as though you were partially executing a maneuver instead.",
-      "image": "https://i.imgur.com/merkkbN.png"
+      "image": "https://i.imgur.com/merkkbN.png",
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      }
     },
     {
       "name": "Green Squadron Pilot",
@@ -60,7 +60,11 @@
       "limited": 0,
       "cost": 34,
       "text": "Due to its sensitive controls and high maneuverability, only the most talented pilots belong in an A-wing cockpit.",
-      "image": "https://i.imgur.com/BVko48i.jpg"
+      "image": "https://i.imgur.com/BVko48i.jpg",
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      }
     },
     {
       "name": "Jake Farrell",
@@ -69,7 +73,11 @@
       "limited": 1,
       "cost": 40,
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may choose a friendly ship at range 0-1. That ship may perform a [Focus] action.",
-      "image": "https://i.imgur.com/TmSyObs.jpg"
+      "image": "https://i.imgur.com/TmSyObs.jpg",
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      }
     },
     {
       "name": "Phoenix Squadron Pilot",
@@ -77,7 +85,11 @@
       "limited": 0,
       "cost": 30,
       "text": "Led by Commander Jun Sato, the brave but inexperienced pilots of Phoenix Squadron face staggering odds in their battle against the Galactic Empire.",
-      "image": "https://i.imgur.com/G4scSoc.png"
+      "image": "https://i.imgur.com/G4scSoc.png",
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      }
     }
   ]
 }

@@ -40,10 +40,6 @@
       "value": 1
     }
   ],
-  "ability": {
-    "name": "Locked and Loaded",
-    "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
-  },
   "pilots": [
     {
       "name": "\"Zeb\" Orrelios",
@@ -52,7 +48,11 @@
       "limited": 1,
       "cost": 34,
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
-      "image": "https://i.imgur.com/WXy3lrB.jpg"
+      "image": "https://i.imgur.com/WXy3lrB.jpg",
+      "shipAbility": {
+        "name": "Locked and Loaded",
+        "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
+      }
     },
     {
       "name": "Ezra Bridger",
@@ -65,6 +65,10 @@
       "force": {
         "value": 1,
         "recovers": 1
+      },
+      "shipAbility": {
+        "name": "Locked and Loaded",
+        "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       }
     },
     {
@@ -74,7 +78,11 @@
       "limited": 1,
       "cost": 39,
       "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.",
-      "image": "https://i.imgur.com/Jq3qoJo.jpg"
+      "image": "https://i.imgur.com/Jq3qoJo.jpg",
+      "shipAbility": {
+        "name": "Locked and Loaded",
+        "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
+      }
     },
     {
       "name": "Sabine Wren",
@@ -83,7 +91,11 @@
       "limited": 1,
       "cost": 38,
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
-      "image": "https://i.imgur.com/irQQrm8.jpg"
+      "image": "https://i.imgur.com/irQQrm8.jpg",
+      "shipAbility": {
+        "name": "Locked and Loaded",
+        "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
+      }
     }
   ]
 }

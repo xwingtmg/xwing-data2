@@ -40,10 +40,6 @@
       "value": 4
     }
   ],
-  "ability": {
-    "name": "Sensor Blindspot",
-    "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attach die."
-  },
   "pilots": [
     {
       "name": "\"Leebo\"",
@@ -52,7 +48,11 @@
       "limited": 1,
       "cost": 98,
       "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
-      "image": "https://i.imgur.com/1JwTtlv.jpg"
+      "image": "https://i.imgur.com/1JwTtlv.jpg",
+      "shipAbility": {
+        "name": "Sensor Blindspot",
+        "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attach die."
+      }
     },
     {
       "name": "Dash Rendar",
@@ -61,7 +61,11 @@
       "limited": 1,
       "cost": 100,
       "ability": "While you move, you ignore obstacles.",
-      "image": "https://i.imgur.com/mInRUGj.png"
+      "image": "https://i.imgur.com/mInRUGj.png",
+      "shipAbility": {
+        "name": "Sensor Blindspot",
+        "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attach die."
+      }
     },
     {
       "name": "Wild Space Fringer",
@@ -69,7 +73,11 @@
       "limited": 0,
       "cost": 88,
       "text": "Although stock YT-2400 light freighters have plenty of room for cargo, that space is often annexed to support modified weapon systems and oversized engines.",
-      "image": "https://i.imgur.com/oGHjCqq.png"
+      "image": "https://i.imgur.com/oGHjCqq.png",
+      "shipAbility": {
+        "name": "Sensor Blindspot",
+        "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attach die."
+      }
     }
   ]
 }

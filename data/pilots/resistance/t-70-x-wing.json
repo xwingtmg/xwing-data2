@@ -21,7 +21,8 @@
     "4KR"
   ],
   "faction": "Resistance",
-  "stats": [{
+  "stats": [
+    {
       "arc": "Front Arc",
       "type": "attack",
       "value": 3
@@ -35,17 +36,18 @@
       "value": 4
     }
   ],
-  "ability": {
-    "name": "Weapon Hardpoint",
-    "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
-  },
-  "pilots": [{
+  "pilots": [
+    {
       "name": "Ello Asty",
       "caption": "???",
       "initiative": 0,
       "limited": 1,
       "cost": 200,
-      "ability": "???"
+      "ability": "???",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     },
     {
       "name": "Joph Seastriker",
@@ -53,7 +55,11 @@
       "initiative": 0,
       "limited": 1,
       "cost": 200,
-      "ability": "???"
+      "ability": "???",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     },
     {
       "name": "Karé Kun",
@@ -61,7 +67,11 @@
       "initiative": 0,
       "limited": 1,
       "cost": 200,
-      "ability": "...you may use the [1[Turn Left]] ...mplate instead."
+      "ability": "...you may use the [1[Turn Left]] ...mplate instead.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     },
     {
       "name": "Lieutenand Bastian",
@@ -69,7 +79,11 @@
       "initiative": 2,
       "limited": 1,
       "cost": 200,
-      "ability": "After a ship at range 1-2 is deat a damage card, you may acquire a lock on that ship."
+      "ability": "After a ship at range 1-2 is deat a damage card, you may acquire a lock on that ship.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     },
     {
       "name": "Nien Nunb",
@@ -77,7 +91,11 @@
       "initiative": 0,
       "limited": 1,
       "cost": 200,
-      "ability": "???"
+      "ability": "???",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     },
     {
       "name": "Poe Dameron",
@@ -85,7 +103,11 @@
       "initiative": 6,
       "limited": 1,
       "cost": 200,
-      "ability": "After you perform an action, you may spend 1 [Charge] to perform a white action, treating it as red."
+      "ability": "After you perform an action, you may spend 1 [Charge] to perform a white action, treating it as red.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
     }
   ]
 }

@@ -18,17 +18,17 @@
       "value": 3
     }
   ],
-  "ability": {
-    "name": "Notched Stabilizers",
-    "text": "While you move, you ignore asteroids."
-  },
   "pilots": [
     {
       "name": "Ahhav",
       "caption": "???",
       "initiative": 0,
       "limited": 1,
-      "cost": 200
+      "cost": 200,
+      "shipAbility": {
+        "name": "Notched Stabilizers",
+        "text": "While you move, you ignore asteroids."
+      }
     },
     {
       "name": "Captain Seevor",
@@ -40,6 +40,10 @@
       "charges": {
         "value": 1,
         "recovers": 1
+      },
+      "shipAbility": {
+        "name": "Notched Stabilizers",
+        "text": "While you move, you ignore asteroids."
       }
     },
     {
@@ -48,14 +52,22 @@
       "initiative": 0,
       "limited": 1,
       "cost": 200,
-      "ability": "...you may choose ...[Bullseye Arc] at range 1-2 ...If you do, that ship ...ractor token."
+      "ability": "...you may choose ...[Bullseye Arc] at range 1-2 ...If you do, that ship ...ractor token.",
+      "shipAbility": {
+        "name": "Notched Stabilizers",
+        "text": "While you move, you ignore asteroids."
+      }
     },
     {
       "name": "Mining Guild Surveyor",
       "initiative": 2,
       "limited": 0,
       "cost": 200,
-      "text": "With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly expolits newly discovered deposits... ore on worlds such as Batonn, Lothal..."
+      "text": "With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly expolits newly discovered deposits... ore on worlds such as Batonn, Lothal...",
+      "shipAbility": {
+        "name": "Notched Stabilizers",
+        "text": "While you move, you ignore asteroids."
+      }
     },
     {
       "name": "Overseer Yushyn",
@@ -63,7 +75,11 @@
       "initiative": 2,
       "limited": 1,
       "cost": 200,
-      "ability": "Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token in..."
+      "ability": "Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token in...",
+      "shipAbility": {
+        "name": "Notched Stabilizers",
+        "text": "While you move, you ignore asteroids."
+      }
     }
   ]
 }
