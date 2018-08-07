@@ -1,0 +1,85 @@
+{
+  "name": "Modified TIE/ln Fighter",
+  "size": "Small",
+  "dial": "<unknown>",
+  "faction": "Scum and Villainy",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 3
+    }
+  ],
+  "pilots": [
+    {
+      "name": "Ahhav",
+      "caption": "???",
+      "initiative": 0,
+      "limited": 1,
+      "cost": 200,
+      "shipAbility": {
+        "name": "Notched Stabilizers",
+        "text": "While you move, you ignore asteroids."
+      }
+    },
+    {
+      "name": "Captain Seevor",
+      "caption": "Noisy Nuisance",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 200,
+      "ability": "While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's [Bullseye Arc], you may spend 1 [Charge]. If you do, the enemy ship gains 1 jam token.",
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "shipAbility": {
+        "name": "Notched Stabilizers",
+        "text": "While you move, you ignore asteroids."
+      }
+    },
+    {
+      "name": "Foreman Proach",
+      "caption": "???",
+      "initiative": 0,
+      "limited": 1,
+      "cost": 200,
+      "ability": "...you may choose ...[Bullseye Arc] at range 1-2 ...If you do, that ship ...ractor token.",
+      "shipAbility": {
+        "name": "Notched Stabilizers",
+        "text": "While you move, you ignore asteroids."
+      }
+    },
+    {
+      "name": "Mining Guild Surveyor",
+      "initiative": 2,
+      "limited": 0,
+      "cost": 200,
+      "text": "With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly expolits newly discovered deposits... ore on worlds such as Batonn, Lothal...",
+      "shipAbility": {
+        "name": "Notched Stabilizers",
+        "text": "While you move, you ignore asteroids."
+      }
+    },
+    {
+      "name": "Overseer Yushyn",
+      "caption": "???",
+      "initiative": 2,
+      "limited": 1,
+      "cost": 200,
+      "ability": "Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token in...",
+      "shipAbility": {
+        "name": "Notched Stabilizers",
+        "text": "While you move, you ignore asteroids."
+      }
+    }
+  ]
+}

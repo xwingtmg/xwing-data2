@@ -40,10 +40,6 @@
       "value": 4
     }
   ],
-  "ability": {
-    "name": "Tail Gun",
-    "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
-  },
   "pilots": [
     {
       "name": "\"Chopper\"",
@@ -52,7 +48,11 @@
       "limited": 1,
       "cost": 72,
       "ability": "At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.",
-      "image": "https://i.imgur.com/Iwvr07I.jpg"
+      "image": "https://i.imgur.com/Iwvr07I.jpg",
+      "shipAbility": {
+        "name": "Tail Gun",
+        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
+      }
     },
     {
       "name": "Hera Syndulla",
@@ -61,7 +61,11 @@
       "limited": 1,
       "cost": 76,
       "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.",
-      "image": "https://i.imgur.com/TUvH0aN.png"
+      "image": "https://i.imgur.com/TUvH0aN.png",
+      "shipAbility": {
+        "name": "Tail Gun",
+        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
+      }
     },
     {
       "name": "Kanan Jarrus",
@@ -74,6 +78,10 @@
       "force": {
         "value": 2,
         "recovers": 1
+      },
+      "shipAbility": {
+        "name": "Tail Gun",
+        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
       }
     },
     {
@@ -82,7 +90,11 @@
       "limited": 0,
       "cost": 70,
       "text": "Another successful Corellian Engineering Corporation freighter design, the VCX-100 is larger than the ubiquitous YT-series, boasting more living space and customizability.",
-      "image": "https://i.imgur.com/PwUPatz.png"
+      "image": "https://i.imgur.com/PwUPatz.png",
+      "shipAbility": {
+        "name": "Tail Gun",
+        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
+      }
     }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "name": "Upsilon-class Shuttle",
+  "size": "Large",
+  "dial": [
+    "0OR",
+    "1TR",
+    "1BW",
+    "1FB",
+    "1NW",
+    "1YR",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YR"
+  ],
+  "faction": "First Order",
+  "stats": [
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 0
+    }
+  ],
+  "pilots": [
+    {
+      "name": "Lieutenant Dormitz",
+      "caption": "???",
+      "initiative": 2,
+      "limited": 1,
+      "cost": 200,
+      "ability": "???"
+    },
+    {
+      "name": "Major Stridan",
+      "caption": "???",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 200,
+      "ability": "???"
+    }
+  ]
+}

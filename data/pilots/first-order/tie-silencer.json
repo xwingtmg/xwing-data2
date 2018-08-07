@@ -1,0 +1,52 @@
+{
+  "name": "TIE Silencer",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1YW",
+    "2TB",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YB",
+    "3ER",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "3RR",
+    "4FB",
+    "4KR",
+    "5FB"
+  ],
+  "faction": "First Order",
+  "stats": [
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 0
+    }
+  ],
+  "pilots": [
+    {
+      "name": "\"Blackout\"",
+      "caption": "??? Test Pilot",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 200,
+      "ability": "???"
+    },
+    {
+      "name": "Kylo Ren",
+      "caption": "???",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 200,
+      "ability": "After you defed, you may spend 1 [Force]..."
+    }
+  ]
+}

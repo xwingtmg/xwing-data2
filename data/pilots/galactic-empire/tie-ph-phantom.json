@@ -40,10 +40,6 @@
       "value": 2
     }
   ],
-  "ability": {
-    "name": "Stygium Array",
-    "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
-  },
   "pilots": [
     {
       "name": "\"Echo\"",
@@ -52,7 +48,11 @@
       "limited": 1,
       "cost": 50,
       "ability": "While you decloak, you must use the (2 [Bank Left]) or (2 [Bank Right]) template instead of the (2 [Straight]) template.",
-      "image": "https://i.imgur.com/sVRjx6w.png"
+      "image": "https://i.imgur.com/sVRjx6w.png",
+      "shipAbility": {
+        "name": "Stygium Array",
+        "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
+      }
     },
     {
       "name": "\"Whisper\"",
@@ -61,7 +61,11 @@
       "limited": 1,
       "cost": 52,
       "ability": "After you perform an attack that hits, gain 1 evade token.",
-      "image": "https://i.imgur.com/iUbk70J.png"
+      "image": "https://i.imgur.com/iUbk70J.png",
+      "shipAbility": {
+        "name": "Stygium Array",
+        "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
+      }
     },
     {
       "name": "Imdaar Test Pilot",
@@ -69,7 +73,11 @@
       "limited": 0,
       "cost": 44,
       "text": "The primary result of a hidden research facility on Imdaar Alpha, the TIE phantom achieves what many thought was impossible: a small starfighter equipped with an advanced cloaking device.",
-      "image": "https://i.imgur.com/m3UIgur.png"
+      "image": "https://i.imgur.com/m3UIgur.png",
+      "shipAbility": {
+        "name": "Stygium Array",
+        "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
+      }
     },
     {
       "name": "Sigma Squadron Ace",
@@ -77,7 +85,11 @@
       "limited": 0,
       "cost": 46,
       "text": "Featuring a hyperdrive and shields, the TIE phantom is also equipped with five laser cannons, giving it substantial firepower for an Imperial fighter.",
-      "image": "https://i.imgur.com/0EEsE4C.jpg"
+      "image": "https://i.imgur.com/0EEsE4C.jpg",
+      "shipAbility": {
+        "name": "Stygium Array",
+        "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
+      }
     }
   ]
 }

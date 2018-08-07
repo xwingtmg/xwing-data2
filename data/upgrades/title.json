@@ -20,6 +20,30 @@
     ]
   },
   {
+    "name": "Black One",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Black One",
+        "type": "Title",
+        "ability": "After you perform a [Slam] acion, lose 1 [Charge]. Then, you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [Slam] action.",
+        "slots": [
+          "Title"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
+        "actions": [
+          {
+            "type": "SLAM",
+            "difficulty": "White"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Dauntless",
     "limited": 1,
     "sides": [
@@ -178,7 +202,7 @@
       {
         "title": "Outrider",
         "type": "Title",
-        "ability": "While you perform an obstructed attack, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
+        "ability": "While you perform an attack that is obstructed by an obstacle, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
         "slots": [
           "Title"
         ]
@@ -248,7 +272,7 @@
       {
         "title": "Slave I",
         "type": "Title",
-        "ability": "After you reveal a turn, ([Turn Left] or [Turn Right]) or bank ([Bank Left] or [Bank Right]) maneuver, you may gain 1 stress token. If you do, set your dial to the maneuver of the same speed and bearing in the other direction. Add [Torpedo] slot.",
+        "ability": "After you reveal a turn, ([Turn Left] or [Turn Right]) or bank ([Bank Left] or [Bank Right]) maneuver, you may set your dial to the maneuver of the same speed and bearing in the other direction. Add [Torpedo] slot.",
         "slots": [
           "Title"
         ]

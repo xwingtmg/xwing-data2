@@ -39,10 +39,6 @@
       "value": 1
     }
   ],
-  "ability": {
-    "name": "Microthrusters",
-    "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
-  },
   "pilots": [
     {
       "name": "Black Sun Assassin",
@@ -50,7 +46,11 @@
       "limited": 0,
       "cost": 48,
       "text": "Although assassinations can be handled with a shot in the dark or a dire substance added to a drink, a flaming shuttle tumbling from the sky sends a special kind of message.",
-      "image": "https://i.imgur.com/UHxIn6d.jpg"
+      "image": "https://i.imgur.com/UHxIn6d.jpg",
+      "shipAbility": {
+        "name": "Microthrusters",
+        "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
+      }
     },
     {
       "name": "Black Sun Enforcer",
@@ -58,7 +58,11 @@
       "limited": 0,
       "cost": 46,
       "text": "Prince Xizor himself collaborated with MandalMotors to design the StarViper-class attack platform, one of the most formidable starfighters in the galaxy.",
-      "image": "https://i.imgur.com/JK3Fwdu.png"
+      "image": "https://i.imgur.com/JK3Fwdu.png",
+      "shipAbility": {
+        "name": "Microthrusters",
+        "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
+      }
     },
     {
       "name": "Dalan Oberos",
@@ -67,7 +71,11 @@
       "limited": 1,
       "cost": 54,
       "ability": "After you fully execute a maneuver, you ay gain 1 stress token to rotate your ship 90˚.",
-      "image": "https://i.imgur.com/AK9lYGC.jpg"
+      "image": "https://i.imgur.com/AK9lYGC.jpg",
+      "shipAbility": {
+        "name": "Microthrusters",
+        "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
+      }
     },
     {
       "name": "Guri",
@@ -76,7 +84,11 @@
       "limited": 1,
       "cost": 62,
       "ability": "At the start of the Engagement Phase, if there is at least 1 enemy ship at range 0-1, you may gain 1 focus token.",
-      "image": "https://i.imgur.com/ber6srQ.png"
+      "image": "https://i.imgur.com/ber6srQ.png",
+      "shipAbility": {
+        "name": "Microthrusters",
+        "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
+      }
     },
     {
       "name": "Prince Xizor",
@@ -85,7 +97,11 @@
       "limited": 1,
       "cost": 54,
       "ability": "While you defend, after the Neutralize Results step, another friendly ship at range 0-1 and in the attack arc may suffer 1 [Hit] or [Critical Hit] damage. If it does, cancel 1 matching result.",
-      "image": "https://i.imgur.com/kgLm5yQ.png"
+      "image": "https://i.imgur.com/kgLm5yQ.png",
+      "shipAbility": {
+        "name": "Microthrusters",
+        "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
+      }
     }
   ]
 }

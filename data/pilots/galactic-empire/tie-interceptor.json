@@ -36,10 +36,6 @@
       "value": 3
     }
   ],
-  "ability": {
-    "name": "Autothrusters",
-    "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
-  },
   "pilots": [
     {
       "name": "Alpha Squadron Pilot",
@@ -47,7 +43,11 @@
       "limited": 0,
       "cost": 34,
       "text": "Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.",
-      "image": "https://i.imgur.com/i4vYHvP.jpg"
+      "image": "https://i.imgur.com/i4vYHvP.jpg",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      }
     },
     {
       "name": "Saber Squadron Ace",
@@ -55,7 +55,11 @@
       "limited": 0,
       "cost": 40,
       "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
-      "image": "https://i.imgur.com/kBjOZ5j.png"
+      "image": "https://i.imgur.com/kBjOZ5j.png",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      }
     },
     {
       "name": "Soontir Fel",
@@ -64,7 +68,11 @@
       "limited": 1,
       "cost": 52,
       "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain 1 focus token.",
-      "image": "https://i.imgur.com/4TFKKVN.png"
+      "image": "https://i.imgur.com/4TFKKVN.png",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      }
     },
     {
       "name": "Turr Phennir",
@@ -73,7 +81,11 @@
       "limited": 1,
       "cost": 44,
       "ability": "After you perform an attack, you may perform a [Barrel Roll] or [Boost] action, even if you are stressed.",
-      "image": "https://i.imgur.com/biHV5cr.jpg"
+      "image": "https://i.imgur.com/biHV5cr.jpg",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      }
     }
   ]
 }

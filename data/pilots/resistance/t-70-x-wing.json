@@ -1,0 +1,113 @@
+{
+  "name": "T-70 X-wing",
+  "size": "Small",
+  "dial": [
+    "1BB",
+    "1FB",
+    "1NB",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3ER",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "3RR",
+    "4FW",
+    "4KR"
+  ],
+  "faction": "Resistance",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 4
+    }
+  ],
+  "pilots": [
+    {
+      "name": "Ello Asty",
+      "caption": "???",
+      "initiative": 0,
+      "limited": 1,
+      "cost": 200,
+      "ability": "???",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
+    },
+    {
+      "name": "Joph Seastriker",
+      "caption": "???",
+      "initiative": 0,
+      "limited": 1,
+      "cost": 200,
+      "ability": "???",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
+    },
+    {
+      "name": "Karé Kun",
+      "caption": "???",
+      "initiative": 0,
+      "limited": 1,
+      "cost": 200,
+      "ability": "...you may use the [1[Turn Left]] ...mplate instead.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
+    },
+    {
+      "name": "Lieutenand Bastian",
+      "caption": "Optimistic Analyst",
+      "initiative": 2,
+      "limited": 1,
+      "cost": 200,
+      "ability": "After a ship at range 1-2 is deat a damage card, you may acquire a lock on that ship.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
+    },
+    {
+      "name": "Nien Nunb",
+      "caption": "???",
+      "initiative": 0,
+      "limited": 1,
+      "cost": 200,
+      "ability": "???",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
+    },
+    {
+      "name": "Poe Dameron",
+      "caption": "Trigger-Happy Flyboy",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 200,
+      "ability": "After you perform an action, you may spend 1 [Charge] to perform a white action, treating it as red.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
+    }
+  ]
+}
