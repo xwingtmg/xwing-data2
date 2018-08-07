@@ -1,0 +1,73 @@
+{
+  "cards": [{
+    "title": "Panicked Pilot",
+    "amount": 2,
+    "type": "Pilot",
+    "text": "Gain 2 stress tokens. Then repair this card."
+  }, {
+    "title": "Blinded Pilot",
+    "amount": 2,
+    "type": "Pilot",
+    "text": "While you perform an attack, you can modify your dice only by spending [Force] for their default effect. Action: Repair this card."
+  }, {
+    "title": "Wounded Pilot",
+    "amount": 2,
+    "type": "Pilot",
+    "text": "After you perform an atcion, roll 1 attack die. On a [Hit] or [Critical Hit] result, gain 1 stress token. Action: Repair this card."
+  }, {
+    "title": "Stunned Pilot",
+    "amount": 2,
+    "type": "Pilot",
+    "text": "After you execute a maneuver, if you moved through or overlapped an obstacle, suffer 1 [Hit] damage."
+  }, {
+    "title": "Console Fire",
+    "amount": 2,
+    "type": "Ship",
+    "text": "Before you engage, roll 1 attack die. On a [Hit] result, suffer 1 [Hit] damage. Action: Repair this card."
+  }, {
+    "title": "Damaged Engine",
+    "amount": 2,
+    "type": "Ship",
+    "text": "Increase the difficulty of you turn maneuvers ([Turn Left] and [Turn Right])."
+  }, {
+    "title": "Weapons Failure",
+    "amount": 2,
+    "type": "Ship",
+    "text": "While you perform an attack, roll 1 fewer attack die. Action: Repair this card."
+  }, {
+    "title": "Hull Breach",
+    "amount": 2,
+    "type": "Ship",
+    "text": "Before you would suffer 1 or more [Hit] damage, suffer that much [Critical Hit] damage instead. Action: Repair this card."
+  }, {
+    "title": "Structural Damage",
+    "amount": 2,
+    "type": "Ship",
+    "text": "While you defend, roll 1 fewer defense die."
+  }, {
+    "title": "Damaged Sensor Array",
+    "amount": 2,
+    "type": "Ship",
+    "text": "You cannot perform any actions except the [Focus] action and actions from damage cards. Action: Repair this card."
+  }, {
+    "title": "Loost Stabilizer",
+    "amount": 2,
+    "type": "Ship",
+    "text": "After you execute a non-straight maneuver ([Straight]), suffer 1 [Hit] damage and repair this card. Action: Repair this card."
+  }, {
+    "title": "Disabled Power Regulator",
+    "amount": 2,
+    "type": "Ship",
+    "text": "Before you engage, gain 1 ion token. After you execute an ion maneuver, repair this card."
+  }, {
+    "title": "Fuel Leak",
+    "amount": 4,
+    "type": "Ship",
+    "text": "After you suffer 1 [Critical Hit] damage, suffer 1 [Hit] damage and repair this card. Action: Repair this card."
+  }, {
+    "title": "Direct Hit!",
+    "amount": 5,
+    "type": "Ship",
+    "text": "Suffer 1 [Hit] damage. Then repair this card."
+  }]
+}
