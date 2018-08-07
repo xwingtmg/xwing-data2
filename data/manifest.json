@@ -2,75 +2,90 @@
   "damagedecks": [
     "data/damage-decks/core.json"
   ],
-  "pilots": {
-    "rebelalliance": [
-      "data/pilots/rebel-alliance/a-sf-01-b-wing.json",
-      "data/pilots/rebel-alliance/arc-170-starfighter.json",
-      "data/pilots/rebel-alliance/attack-shuttle.json",
-      "data/pilots/rebel-alliance/auzituck-gunship.json",
-      "data/pilots/rebel-alliance/btl-a4-y-wing.json",
-      "data/pilots/rebel-alliance/btl-s8-k-wing.json",
-      "data/pilots/rebel-alliance/e-wing.json",
-      "data/pilots/rebel-alliance/hwk-290-light-freighter.json",
-      "data/pilots/rebel-alliance/modified-yt-1300-light-freighter.json",
-      "data/pilots/rebel-alliance/rz-1-a-wing.json",
-      "data/pilots/rebel-alliance/sheathipede-class-shuttle.json",
-      "data/pilots/rebel-alliance/t-65-x-wing.json",
-      "data/pilots/rebel-alliance/tie-ln-fighter.json",
-      "data/pilots/rebel-alliance/ut-60d-u-wing.json",
-      "data/pilots/rebel-alliance/vcx-100-light-freighter.json",
-      "data/pilots/rebel-alliance/yt-2400-light-freighter.json",
-      "data/pilots/rebel-alliance/z-95-af4-headhunter.json"
-    ],
-    "scumandvillainy": [
-      "data/pilots/scum-and-villainy/aggressor-assault-fighter.json",
-      "data/pilots/scum-and-villainy/btl-a4-y-wing.json",
-      "data/pilots/scum-and-villainy/customized-yt-1300-light-freighter.json",
-      "data/pilots/scum-and-villainy/escape-craft.json",
-      "data/pilots/scum-and-villainy/fang-fighter.json",
-      "data/pilots/scum-and-villainy/firespray-class-patrol-craft.json",
-      "data/pilots/scum-and-villainy/g-1a-starfighter.json",
-      "data/pilots/scum-and-villainy/hwk-290-light-freighter.json",
-      "data/pilots/scum-and-villainy/jumpmaster-5000.json",
-      "data/pilots/scum-and-villainy/kihraxz-fighter.json",
-      "data/pilots/scum-and-villainy/lancer-class-pursuit-craft.json",
-      "data/pilots/scum-and-villainy/m12-l-kimogila-fighter.json",
-      "data/pilots/scum-and-villainy/m3-a-interceptor.json",
-      "data/pilots/scum-and-villainy/modified-tie-ln-fighter.json",
-      "data/pilots/scum-and-villainy/quadrijet-transfer-spacetug.json",
-      "data/pilots/scum-and-villainy/scurrg-h-6-bomber.json",
-      "data/pilots/scum-and-villainy/starviper-class-attack-platform.json",
-      "data/pilots/scum-and-villainy/yv-666-light-freighter.json",
-      "data/pilots/scum-and-villainy/z-95-af4-headhunter.json"
-    ],
-    "galacticempire": [
-      "data/pilots/galactic-empire/alpha-class-star-wing.json",
-      "data/pilots/galactic-empire/lambda-class-t-4a-shuttle.json",
-      "data/pilots/galactic-empire/tie-advanced-v1.json",
-      "data/pilots/galactic-empire/tie-advanced-x1.json",
-      "data/pilots/galactic-empire/tie-interceptor.json",
-      "data/pilots/galactic-empire/tie-reaper.json",
-      "data/pilots/galactic-empire/tie-d-defender.json",
-      "data/pilots/galactic-empire/tie-ag-aggressor.json",
-      "data/pilots/galactic-empire/tie-ca-punisher.json",
-      "data/pilots/galactic-empire/tie-ln-fighter.json",
-      "data/pilots/galactic-empire/tie-ph-phantom.json",
-      "data/pilots/galactic-empire/tie-sa-bomber.json",
-      "data/pilots/galactic-empire/tie-sk-striker.json",
-      "data/pilots/galactic-empire/vt-49-decimator.json"
-    ],
-    "resistance": [
-      "data/pilots/resistance/mg-100-starfortress-sf-17.json",
-      "data/pilots/resistance/modified-yt-1300-light-freighter.json",
-      "data/pilots/resistance/rz-2-a-wing.json",
-      "data/pilots/resistance/t-70-x-wing.json"
-    ],
-    "firstorder": [
-      "data/pilots/first-order/tie-silencer.json",
-      "data/pilots/first-order/tie-fo-fighter.json",
-      "data/pilots/first-order/upsilon-class-shuttle.json"
-    ]
-  },
+  "pilots": [
+    {
+      "faction": "rebelalliance",
+      "ships": [
+        "data/pilots/rebel-alliance/a-sf-01-b-wing.json",
+        "data/pilots/rebel-alliance/arc-170-starfighter.json",
+        "data/pilots/rebel-alliance/attack-shuttle.json",
+        "data/pilots/rebel-alliance/auzituck-gunship.json",
+        "data/pilots/rebel-alliance/btl-a4-y-wing.json",
+        "data/pilots/rebel-alliance/btl-s8-k-wing.json",
+        "data/pilots/rebel-alliance/e-wing.json",
+        "data/pilots/rebel-alliance/hwk-290-light-freighter.json",
+        "data/pilots/rebel-alliance/modified-yt-1300-light-freighter.json",
+        "data/pilots/rebel-alliance/rz-1-a-wing.json",
+        "data/pilots/rebel-alliance/sheathipede-class-shuttle.json",
+        "data/pilots/rebel-alliance/t-65-x-wing.json",
+        "data/pilots/rebel-alliance/tie-ln-fighter.json",
+        "data/pilots/rebel-alliance/ut-60d-u-wing.json",
+        "data/pilots/rebel-alliance/vcx-100-light-freighter.json",
+        "data/pilots/rebel-alliance/yt-2400-light-freighter.json",
+        "data/pilots/rebel-alliance/z-95-af4-headhunter.json"
+      ]
+    },
+    {
+      "faction": "scumandvillainy",
+      "ships": [
+        "data/pilots/scum-and-villainy/aggressor-assault-fighter.json",
+        "data/pilots/scum-and-villainy/btl-a4-y-wing.json",
+        "data/pilots/scum-and-villainy/customized-yt-1300-light-freighter.json",
+        "data/pilots/scum-and-villainy/escape-craft.json",
+        "data/pilots/scum-and-villainy/fang-fighter.json",
+        "data/pilots/scum-and-villainy/firespray-class-patrol-craft.json",
+        "data/pilots/scum-and-villainy/g-1a-starfighter.json",
+        "data/pilots/scum-and-villainy/hwk-290-light-freighter.json",
+        "data/pilots/scum-and-villainy/jumpmaster-5000.json",
+        "data/pilots/scum-and-villainy/kihraxz-fighter.json",
+        "data/pilots/scum-and-villainy/lancer-class-pursuit-craft.json",
+        "data/pilots/scum-and-villainy/m12-l-kimogila-fighter.json",
+        "data/pilots/scum-and-villainy/m3-a-interceptor.json",
+        "data/pilots/scum-and-villainy/modified-tie-ln-fighter.json",
+        "data/pilots/scum-and-villainy/quadrijet-transfer-spacetug.json",
+        "data/pilots/scum-and-villainy/scurrg-h-6-bomber.json",
+        "data/pilots/scum-and-villainy/starviper-class-attack-platform.json",
+        "data/pilots/scum-and-villainy/yv-666-light-freighter.json",
+        "data/pilots/scum-and-villainy/z-95-af4-headhunter.json"
+      ]
+    },
+    {
+      "faction": "galacticempire",
+      "ships": [
+        "data/pilots/galactic-empire/alpha-class-star-wing.json",
+        "data/pilots/galactic-empire/lambda-class-t-4a-shuttle.json",
+        "data/pilots/galactic-empire/tie-advanced-v1.json",
+        "data/pilots/galactic-empire/tie-advanced-x1.json",
+        "data/pilots/galactic-empire/tie-interceptor.json",
+        "data/pilots/galactic-empire/tie-reaper.json",
+        "data/pilots/galactic-empire/tie-d-defender.json",
+        "data/pilots/galactic-empire/tie-ag-aggressor.json",
+        "data/pilots/galactic-empire/tie-ca-punisher.json",
+        "data/pilots/galactic-empire/tie-ln-fighter.json",
+        "data/pilots/galactic-empire/tie-ph-phantom.json",
+        "data/pilots/galactic-empire/tie-sa-bomber.json",
+        "data/pilots/galactic-empire/tie-sk-striker.json",
+        "data/pilots/galactic-empire/vt-49-decimator.json"
+      ]
+    },
+    {
+      "faction": "resistance",
+      "ships": [
+        "data/pilots/resistance/mg-100-starfortress-sf-17.json",
+        "data/pilots/resistance/modified-yt-1300-light-freighter.json",
+        "data/pilots/resistance/rz-2-a-wing.json",
+        "data/pilots/resistance/t-70-x-wing.json"
+      ]
+    },
+    {
+      "faction": "firstorder",
+      "ships": [
+        "data/pilots/first-order/tie-silencer.json",
+        "data/pilots/first-order/tie-fo-fighter.json",
+        "data/pilots/first-order/upsilon-class-shuttle.json"
+      ]
+    }
+  ],
   "upgrades": [
     "data/upgrades/astromech-droid.json",
     "data/upgrades/cannon.json",
