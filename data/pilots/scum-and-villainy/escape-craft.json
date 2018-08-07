@@ -17,7 +17,8 @@
     "3KR"
   ],
   "faction": "Scum and Villainy",
-  "stats": [{
+  "stats": [
+    {
       "arc": "Front Arc",
       "type": "attack",
       "value": 2
@@ -39,7 +40,8 @@
     "name": "Co-Pilot",
     "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
   },
-  "pilots": [{
+  "pilots": [
+    {
       "name": "Autopilot Drone",
       "caption": "Set to Blow",
       "initiative": 1,
@@ -50,6 +52,12 @@
       "charges": {
         "value": 3,
         "recovers": 0
+      },
+      "shipOverride": {
+        "ability": {
+          "name": "Rigged Energy Cells",
+          "text": "During the System Phase, if you are not docked, lose 1 [Charge]. At the end of the Activation Phase, if you have 0 [Charge], you are destroyed. Before you are removed, each ship at range 0-1 suffers 1 [Critical Hit] damage."
+        }
       }
     },
     {
@@ -63,11 +71,11 @@
     },
     {
       "name": "Lando Calrissian",
-      "caption": "???",
-      "initiative": 0,
+      "caption": "Smooth-talking Gambler",
+      "initiative": 4,
       "limited": 1,
       "cost": 26,
-      "ability": "???",
+      "ability": "After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.",
       "charges": {
         "value": 3,
         "recovers": 0
