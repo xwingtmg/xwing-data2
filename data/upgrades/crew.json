@@ -146,13 +146,13 @@
     ]
   },
   {
-    "name": "Cassian Andor",
+    "name": "Captain Phasma",
     "limited": 1,
     "sides": [
       {
-        "title": "Cassian Andor",
+        "title": "Captain Phasma",
         "type": "Crew",
-        "ability": "During the System Phase, you may choose 1 enemy ship at range 1-2 and guess aloud a bearing and speed, then look at that ship's dial. If the chosen ship's bearing and speed match your guess, you may set your dial to another maneuver.",
+        "ability": "At the...",
         "slots": [
           "Crew"
         ]
@@ -160,13 +160,13 @@
     ]
   },
   {
-    "name": "Chewbacca",
+    "name": "Cassian Andor",
     "limited": 1,
     "sides": [
       {
-        "title": "Chewbacca",
+        "title": "Cassian Andor",
         "type": "Crew",
-        "ability": "At the start of the End Phase, you may spend 1 focus token to repair 1 of your faceup damage cards.",
+        "ability": "During the System Phase, you may choose 1 enemy ship at range 1-2 and guess aloud a bearing and speed, then look at that ship's dial. If the chosen ship's bearing and speed match your guess, you may set your dial to another maneuver.",
         "slots": [
           "Crew"
         ]
@@ -188,6 +188,20 @@
           "value": 2,
           "recovers": 1
         }
+      }
+    ]
+  },
+  {
+    "name": "Chewbacca",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Chewbacca",
+        "type": "Crew",
+        "ability": "At the start of the End Phase, you may spend 1 focus token to repair 1 of your faceup damage cards.",
+        "slots": [
+          "Crew"
+        ]
       }
     ]
   },
@@ -360,20 +374,6 @@
     ]
   },
   {
-    "name": "Han Solo",
-    "limited": 1,
-    "sides": [
-      {
-        "title": "Han Solo",
-        "type": "Crew",
-        "ability": "Before you engage, you may perform a red [Focus] action.",
-        "slots": [
-          "Crew"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Hera Syndulla",
     "limited": 1,
     "sides": [
@@ -533,7 +533,7 @@
       {
         "title": "Lando Calrissian",
         "type": "Crew",
-        "ability": "Action: Roll 2 defense dice. For each [Focus] result, gain 1 focus token. For each [Evade] result, game 1 evade token. If both results are blank, the opposing player chooses focus or evade. You gain 1 token of that type.",
+        "ability": "After you roll dice, you may spend 1 green token to reroll up to 2 of your results.",
         "slots": [
           "Crew"
         ]
@@ -547,7 +547,7 @@
       {
         "title": "Lando Calrissian",
         "type": "Crew",
-        "ability": "After you roll dice, you may spend 1 green token to reroll up to 2 of your results.",
+        "ability": "Action: Roll 2 defense dice. For each [Focus] result, gain 1 focus token. For each [Evade] result, gain 1 evade token. If both results are blank, the opposing player chooses focus or evade. You gain 1 token of that type.",
         "slots": [
           "Crew"
         ]
@@ -721,6 +721,20 @@
     ]
   },
   {
+    "name": "Rose Tico",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Rose Tico",
+        "type": "Crew",
+        "ability": "???",
+        "slots": [
+          "Crew"
+        ]
+      }
+    ]
+  },
+  {
     "name": "Sabine Wren",
     "limited": 1,
     "sides": [
@@ -777,6 +791,21 @@
           "value": 1,
           "recovers": 1
         }
+      }
+    ]
+  },
+  {
+    "name": "Supreme Leader Snoke",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Supreme Leader Snoke",
+        "type": "Crew",
+        "ability": "During the System... you may...",
+        "slots": [
+          "Crew",
+          "Crew"
+        ]
       }
     ]
   },

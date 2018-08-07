@@ -1,5 +1,19 @@
 [
   {
+    "name": "Agile Gunner",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Agile Gunner",
+        "type": "Gunner",
+        "ability": "During the End Phase, you may rotate your [Single Turret Arc] indicator.",
+        "slots": [
+          "Gunner"
+        ]
+      }
+    ]
+  },
+  {
     "name": "BT-1",
     "limited": 1,
     "sides": [
@@ -96,6 +110,20 @@
     ]
   },
   {
+    "name": "Finn",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Finn",
+        "type": "Gunner",
+        "ability": "While you defend or perform a primary attack, if the enemy is in your [Front Arc], you may add 1 blank result to your roll... ..can be rerolled or otherwise...",
+        "slots": [
+          "Gunner"
+        ]
+      }
+    ]
+  },
+  {
     "name": "Greedo",
     "limited": 1,
     "sides": [
@@ -121,6 +149,20 @@
         "title": "Han Solo",
         "type": "Gunner",
         "ability": "During the Engagement Phase, at initiative 7, you may perform a [Turret] attack. You cannot attack from that [Turret] again this round.",
+        "slots": [
+          "Gunner"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Han Solo",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "Han Solo",
+        "type": "Gunner",
+        "ability": "Before you engage, you may perform a red [Focus] action.",
         "slots": [
           "Gunner"
         ]
@@ -167,6 +209,20 @@
         "title": "Skilled Bombardier",
         "type": "Gunner",
         "ability": "If you would drop or launch a device, you may use a template of the same bearing with a speed 1 higher or lower.",
+        "slots": [
+          "Gunner"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Special Forces Gunner",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Special Forces Gunner",
+        "type": "Gunner",
+        "ability": "...e you perform a primary [Front Arc] attack, ...your [Single Turret Arc] is in your [Front Arc], you may roll 1 additional attack die. ...er you perform a primary [Front Arc] attack, ...our [Single Turret Arc] is in your [Rear Arc], you may perform a bonus primary [Single Turret Arc] attack.",
         "slots": [
           "Gunner"
         ]

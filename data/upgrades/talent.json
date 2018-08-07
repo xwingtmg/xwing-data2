@@ -1,5 +1,19 @@
 [
   {
+    "name": "Composure",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Composure",
+        "type": "Talent",
+        "ability": "After you fail an action, if you have no green tokens, you may perform a [Focus] action.",
+        "slots": [
+          "Talent"
+        ]
+      }
+    ]
+  },
+  {
     "name": "Crack Shot",
     "limited": 0,
     "sides": [
@@ -24,7 +38,7 @@
       {
         "title": "Daredevil",
         "type": "Talent",
-        "ability": "While you perform a while [Boost] action, you may treat it as red to use the 91[Turn Left]] or [1 [Turn Right]] template instead.",
+        "ability": "While you perform a while [Boost] action, you may treat it as red to use the [1[Turn Left]] or [1 [Turn Right]] template instead.",
         "slots": [
           "Talent"
         ]
@@ -90,6 +104,20 @@
     ]
   },
   {
+    "name": "Fanatical",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Fanatical",
+        "type": "Talent",
+        "ability": "While you perform a primary attack, if you are not shielded, you may change 1 [Focus] result to a [Hit] result.",
+        "slots": [
+          "Talent"
+        ]
+      }
+    ]
+  },
+  {
     "name": "Fearless",
     "limited": 0,
     "sides": [
@@ -97,6 +125,20 @@
         "title": "Fearless",
         "type": "Talent",
         "ability": "While you perform a [Front Arc] primary attack, if the attack range is 1 and you are in the defender's [Front Arc], you may change 1 of your results to a [Hit] result.",
+        "slots": [
+          "Talent"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heroic",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Heroic",
+        "type": "Talent",
+        "ability": "While you defend or perform an attack, if you have only blank results and have 2 or more results, you may reroll any number of your dice.",
         "slots": [
           "Talent"
         ]
