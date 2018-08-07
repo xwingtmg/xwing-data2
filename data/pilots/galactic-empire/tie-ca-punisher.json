@@ -44,6 +44,7 @@
       "caption": "Dexterous Bombardier",
       "initiative": 4,
       "limited": 1,
+      "cost": 42,
       "ability": "After you drop or launch a device, you may perform an action.",
       "image": "https://i.imgur.com/mMqDBzJ.png"
     },
@@ -52,12 +53,14 @@
       "caption": "Adrenaline Junkie",
       "initiative": 5,
       "limited": 1,
+      "cost": 44,
       "ability": "You can maintain up to 2 locks. After you perform an action, you may acquire a lock."
     },
     {
       "name": "Cutlass Squadron Pilot",
       "initiative": 2,
       "limited": 0,
+      "cost": 36,
       "text": "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.",
       "image": "https://i.imgur.com/EvOPUtc.png"
     }
