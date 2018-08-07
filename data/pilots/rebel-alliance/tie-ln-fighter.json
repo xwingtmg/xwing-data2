@@ -50,7 +50,10 @@
       "initiative": 2,
       "limited": 1,
       "ability": "After you perform an attack, assign the Suppressive Fire condition to the defender.",
-      "image": "https://i.imgur.com/SXjax2A.jpg"
+      "image": "https://i.imgur.com/SXjax2A.jpg",
+      "conditions": [
+        "Suppressive Fire"
+      ]
     },
     {
       "name": "Ezra Bridger",
