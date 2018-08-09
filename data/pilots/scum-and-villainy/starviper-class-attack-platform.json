@@ -111,6 +111,32 @@
       "cost": 62,
       "ability": "At the start of the Engagement Phase, if there is at least 1 enemy ship at range 0-1, you may gain 1 focus token.",
       "image": "https://i.imgur.com/ber6srQ.png",
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Calculate"
+          },
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Calculate"
+          },
+          "type": "Boost"
+        }
+      ],
       "shipAbility": {
         "name": "Microthrusters",
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."

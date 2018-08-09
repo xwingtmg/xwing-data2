@@ -67,6 +67,24 @@
       "cost": 98,
       "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
       "image": "https://i.imgur.com/1JwTtlv.jpg",
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
+      ],
       "shipAbility": {
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attach die."

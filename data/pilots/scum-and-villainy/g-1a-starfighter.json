@@ -70,7 +70,21 @@
       "limited": 0,
       "cost": 43,
       "text": "The legendary Findsmen of Gand worship enshrouding mists of their home planet, using signs, augurs, and mystical rituals to track their quarry.",
-      "image": "https://i.imgur.com/yYVXjCS.png"
+      "image": "https://i.imgur.com/yYVXjCS.png",
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        }
+      ]
     },
     {
       "name": "Zuckuss",
@@ -79,7 +93,21 @@
       "limited": 1,
       "cost": 47,
       "ability": "While you perform a primary attack, you may roll 1 additional attack die. If you do, the defender rolls 1 additional defense die.",
-      "image": "https://i.imgur.com/7FoHkE4.jpg"
+      "image": "https://i.imgur.com/7FoHkE4.jpg",
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        }
+      ]
     }
   ]
 }

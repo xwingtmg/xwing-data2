@@ -63,6 +63,20 @@
         "value": 3,
         "recovers": 0
       },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Coordinate"
+        }
+      ],
       "shipAbility": {
         "name": "Rigged Energy Cells",
         "text": "During the System Phase, if you are not docked, lose 1 [Charge]. At the end of the Activation Phase, if you have 0 [Charge], you are destroyed. Before you are removed, each ship at range 0-1 suffers 1 [Critical Hit] damage."
@@ -76,6 +90,20 @@
       "cost": 22,
       "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/c5/b0/c5b059ab-d58e-469c-b484-44caad6c8989/swz04_l3-37-escape-craft.png",
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Coordinate"
+        }
+      ],
       "shipAbility": {
         "name": "Co-Pilot",
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
