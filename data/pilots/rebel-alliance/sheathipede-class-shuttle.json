@@ -44,6 +44,16 @@
       "value": 1
     }
   ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Coordinate"
+    }
+  ],
   "pilots": [
     {
       "name": "\"Zeb\" Orrelios",
@@ -66,6 +76,16 @@
       "cost": 30,
       "ability": "While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions.",
       "image": "https://i.imgur.com/DhzlEwW.png",
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Coordinate"
+        }
+      ],
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."

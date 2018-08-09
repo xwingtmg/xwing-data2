@@ -38,6 +38,24 @@
       "value": 1
     }
   ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Evade"
+      },
+      "type": "Barrel Roll"
+    }
+  ],
   "pilots": [
     {
       "name": "\"Double Edge\"",

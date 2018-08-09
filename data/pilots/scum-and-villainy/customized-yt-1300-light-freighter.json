@@ -40,13 +40,49 @@
       "value": 3
     }
   ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Boost"
+    },
+    {
+      "difficulty": "White",
+      "type": "Rotate Arc"
+    }
+  ],
   "pilots": [
     {
       "name": "Freighter Captain",
       "initiative": 1,
       "limited": 0,
       "cost": 46,
-      "text": "Many spacers make a living traveling the Outer Rim, where the difference between smuggler and ligitimate merchant is often murky. On the outskirts of civilization, buyers are rarely so discerning to ask where merchandise came from, at least as long as the price is low enougn."
+      "text": "Many spacers make a living traveling the Outer Rim, where the difference between smuggler and ligitimate merchant is often murky. On the outskirts of civilization, buyers are rarely so discerning to ask where merchandise came from, at least as long as the price is low enough.",
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Boost"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
+      ]
     },
     {
       "name": "Han Solo",
@@ -64,7 +100,25 @@
       "limited": 1,
       "cost": 47,
       "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/a8/f4/a8f42e81-3eef-49d2-9887-8d71ae70cabc/swz04_l3-37.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/a8/f4/a8f42e81-3eef-49d2-9887-8d71ae70cabc/swz04_l3-37.png",
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Boost"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
+      ]
     },
     {
       "name": "Lando Calrissian",

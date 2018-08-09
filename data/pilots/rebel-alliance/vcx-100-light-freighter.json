@@ -40,6 +40,20 @@
       "value": 4
     }
   ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Coordinate"
+    }
+  ],
   "pilots": [
     {
       "name": "\"Chopper\"",
@@ -49,6 +63,20 @@
       "cost": 72,
       "ability": "At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.",
       "image": "https://i.imgur.com/Iwvr07I.jpg",
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Coordinate"
+        }
+      ],
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."

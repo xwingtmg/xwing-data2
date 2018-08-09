@@ -45,6 +45,24 @@
       "value": 4
     }
   ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
+  ],
   "pilots": [
     {
       "name": "Boba Fett",

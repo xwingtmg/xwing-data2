@@ -40,6 +40,24 @@
       "value": 5
     }
   ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Boost"
+    },
+    {
+      "difficulty": "White",
+      "type": "Rotate Arc"
+    }
+  ],
   "pilots": [
     {
       "name": "Chewbacca",
