@@ -40,6 +40,20 @@
       "value": 4
     }
   ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Calculate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Jam"
+    }
+  ],
   "pilots": [
     {
       "name": "4-LOM",

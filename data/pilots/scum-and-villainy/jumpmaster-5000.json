@@ -39,6 +39,28 @@
       "value": 3
     }
   ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Rotate Arc"
+      },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Rotate Arc"
+      },
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    }
+  ],
   "pilots": [
     {
       "name": "Contracted Scout",

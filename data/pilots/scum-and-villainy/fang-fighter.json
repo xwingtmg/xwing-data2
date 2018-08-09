@@ -36,6 +36,32 @@
       "value": 4
     }
   ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Focus"
+      },
+      "type": "Boost"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Focus"
+      },
+      "type": "Barrel Roll"
+    }
+  ],
   "pilots": [
     {
       "name": "Fenn Rau",

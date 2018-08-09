@@ -38,6 +38,36 @@
       "value": 2
     }
   ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Rotate Arc"
+      },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Rotate Arc"
+      },
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Boost"
+    },
+    {
+      "difficulty": "White",
+      "type": "Rotate Arc"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Jam"
+    }
+  ],
   "pilots": [
     {
       "name": "Jan Ors",

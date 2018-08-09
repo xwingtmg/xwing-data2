@@ -41,6 +41,24 @@
       "value": 2
     }
   ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Barrel Roll"
+      },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    }
+  ],
   "pilots": [
     {
       "name": "Darth Vader",
