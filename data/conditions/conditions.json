@@ -1,18 +1,22 @@
 [
   {
     "name": "Hunted",
-    "ability": "After you are destroyed, you must choose another friendly ship and assign this condition to it, if able."
+    "ability": "After you are destroyed, you must choose another friendly ship and assign this condition to it, if able.",
+    "xws": "hunted"
   },
   {
     "name": "Listening Device",
-    "ability": "During the System Phase, if an enemy ship with the Informant upgrade is at range 0-2, flip your dial faceup."
+    "ability": "During the System Phase, if an enemy ship with the Informant upgrade is at range 0-2, flip your dial faceup.",
+    "xws": "listeningdevice"
   },
   {
     "name": "Optimized Prototype",
-    "ability": "While you perform a [Front Arc] primary attack against a ship locked by a friendly ship with the Director Krennic upgrade, you may spend 1 [Hit], [Critical Hit], or [Focus] result. If you do, choose one: the defender loses 1 shield, or the defender flips 1 of its facedown damage cards."
+    "ability": "While you perform a [Front Arc] primary attack against a ship locked by a friendly ship with the Director Krennic upgrade, you may spend 1 [Hit], [Critical Hit], or [Focus] result. If you do, choose one: the defender loses 1 shield, or the defender flips 1 of its facedown damage cards.",
+    "xws": "optimizedprototype"
   },
   {
     "name": "Suppressive Fire",
-    "ability": "While you perform an attack against a ship other than Captain Rex, roll 1 fewer attack die. After Captain Rex defends, remove this card. At the end of the Combat phase, if Captain Rex did not perform an attack this phase, remove this card. After Captain Rex is destroyed, remove this card."
+    "ability": "While you perform an attack against a ship other than Captain Rex, roll 1 fewer attack die. After Captain Rex defends, remove this card. At the end of the Combat phase, if Captain Rex did not perform an attack this phase, remove this card. After Captain Rex is destroyed, remove this card.",
+    "xws": "suppressivefire"
   }
 ]

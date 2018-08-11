@@ -51,6 +51,7 @@
       "initiative": 0,
       "limited": 1,
       "cost": 200,
+      "xws": "ahhav",
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
@@ -62,6 +63,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 200,
+      "xws": "captainseevor",
       "ability": "While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's [Bullseye Arc], you may spend 1 [Charge]. If you do, the enemy ship gains 1 jam token.",
       "charges": {
         "value": 1,
@@ -78,6 +80,7 @@
       "initiative": 0,
       "limited": 1,
       "cost": 200,
+      "xws": "foremanproach",
       "ability": "...you may choose ...[Bullseye Arc] at range 1-2 ...If you do, that ship ...ractor token.",
       "shipAbility": {
         "name": "Notched Stabilizers",
@@ -89,6 +92,7 @@
       "initiative": 2,
       "limited": 0,
       "cost": 200,
+      "xws": "miningguildsurveyor",
       "text": "With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly expolits newly discovered deposits... ore on worlds such as Batonn, Lothal...",
       "shipAbility": {
         "name": "Notched Stabilizers",
@@ -101,6 +105,7 @@
       "initiative": 2,
       "limited": 1,
       "cost": 200,
+      "xws": "overseeryushyn",
       "ability": "Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token in...",
       "shipAbility": {
         "name": "Notched Stabilizers",

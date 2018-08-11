@@ -6,6 +6,7 @@
       {
         "title": "\"Chopper\"",
         "type": "Crew",
+        "xws": "chopper-crew",
         "ability": "During the Perform Action step, you may perofrm 1 action, even while stressed. Adter you perform an action while stressed, suffer 1 [Hit] damage unless you expose 1 of your damage cards.",
         "slots": [
           "Crew"
@@ -20,6 +21,7 @@
       {
         "title": "\"Zeb\" Orrelios",
         "type": "Crew",
+        "xws": "zeborrelios",
         "ability": "You can perform primary attacks at range 0. Enemy ships at range 0 can perform primary attacks against you.",
         "slots": [
           "Crew"
@@ -34,6 +36,7 @@
       {
         "title": "0-0-0",
         "type": "Crew",
+        "xws": "000",
         "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship at range 0-1. If you do, you gain 1 calculate token unless that ship chooses to gain 1 stress token.",
         "slots": [
           "Crew"
@@ -48,6 +51,7 @@
       {
         "title": "4-LOM",
         "type": "Crew",
+        "xws": "4lom",
         "ability": "While you perform an attack, after rolling attack dice, you may name a type of green token. If you do, gain 2 ion tokens and, during this attack, the defender cannot spend tokens of the named type.",
         "slots": [
           "Crew"
@@ -62,6 +66,7 @@
       {
         "title": "Admiral Sloane",
         "type": "Crew",
+        "xws": "admiralsloane",
         "ability": "After another friendly ship at range 0-3 defends, if it is destroyed, the attacker gains 2 stress tokens. While a friendly ship at range 0-3 performs an attack against a stressed ship, it may reroll 1 attack die.",
         "slots": [
           "Crew"
@@ -76,6 +81,7 @@
       {
         "title": "Agent Kallus",
         "type": "Crew",
+        "xws": "agentkallus",
         "ability": "Setup: Assign the Hunted condition to 1 enemy ship. While you perform an attack against th eship with the Hunted condition, you may change 1 of your [Focus] results to a [Hit] result.",
         "slots": [
           "Crew"
@@ -90,6 +96,7 @@
       {
         "title": "Baze Malbus",
         "type": "Crew",
+        "xws": "bazemalbus",
         "ability": "While you perform a [Focus] action, you may treat it as red. If you do, gain 1 additional focus token for each enemy ship at range 0-1 to a mazimum of 2.",
         "slots": [
           "Crew"
@@ -104,6 +111,7 @@
       {
         "title": "Boba Fett",
         "type": "Crew",
+        "xws": "bobafett",
         "ability": "Setup: Start in reserve. At the end of Setup, place yourself at range 0 of an obstacle and beyond range 3 of an enemy ship.",
         "slots": [
           "Crew"
@@ -118,6 +126,7 @@
       {
         "title": "C-3PO",
         "type": "Crew",
+        "xws": "c3po",
         "ability": "Before rolling defense dice, you may spend 1 calculate token to guess aloud a number 1 or higher. If you do, and you roll exactly that many [Evade] results, add 1 [Evade] result. Adter you perform the [Calculate] action, gain 1 calculate token.",
         "slots": [
           "Crew"
@@ -138,6 +147,7 @@
       {
         "title": "Cad Bane",
         "type": "Crew",
+        "xws": "cadbane",
         "ability": "After you drop or launch a device, you may perform a red [Boost] action.",
         "slots": [
           "Crew"
@@ -152,6 +162,7 @@
       {
         "title": "Captain Phasma",
         "type": "Crew",
+        "xws": "captainphasma",
         "ability": "At the...",
         "slots": [
           "Crew"
@@ -166,6 +177,7 @@
       {
         "title": "Cassian Andor",
         "type": "Crew",
+        "xws": "cassianandor",
         "ability": "During the System Phase, you may choose 1 enemy ship at range 1-2 and guess aloud a bearing and speed, then look at that ship's dial. If the chosen ship's bearing and speed match your guess, you may set your dial to another maneuver.",
         "slots": [
           "Crew"
@@ -180,6 +192,7 @@
       {
         "title": "Chewbacca",
         "type": "Crew",
+        "xws": "chewbacca",
         "ability": "At the start of the Engagement Phase, you may spend 2 [Charge] to repair 1 faceup damage card.",
         "slots": [
           "Crew"
@@ -198,6 +211,7 @@
       {
         "title": "Chewbacca",
         "type": "Crew",
+        "xws": "chewbacca-crew",
         "ability": "At the start of the End Phase, you may spend 1 focus token to repair 1 of your faceup damage cards.",
         "slots": [
           "Crew"
@@ -212,6 +226,7 @@
       {
         "title": "Ciena Ree",
         "type": "Crew",
+        "xws": "cienaree",
         "ability": "After you perform a [Coordinate] action, if the ship you coordinated performed a [Barrel Roll] or [Boost] action, it may gain 1 stress token to rotate 90˚.",
         "slots": [
           "Crew"
@@ -226,6 +241,7 @@
       {
         "title": "Cikatro Vizago",
         "type": "Crew",
+        "xws": "cikatrovizago",
         "ability": "During the End Phase, you may choose 2 [Illicit] upgrades equipped to friendly ships at range 0-1. If you do, you may exchange these upgrades. End of Game: Return all [Illicit] upgrades to their original ships.",
         "slots": [
           "Crew"
@@ -240,6 +256,7 @@
       {
         "title": "Darth Vader",
         "type": "Crew",
+        "xws": "darthvader",
         "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc at range 0-2 and spend 1 [Force]. If you do, that ship suffers 1 [Hit] damage unless it chooses to remove 1 green token.",
         "slots": [
           "Crew"
@@ -258,6 +275,7 @@
       {
         "title": "Death Troopers",
         "type": "Crew",
+        "xws": "deathtroopers",
         "ability": "During the Activation Phase, enemy ships at range 0-1 cannot remove stress tokens.",
         "slots": [
           "Crew",
@@ -273,6 +291,7 @@
       {
         "title": "Director Krennic",
         "type": "Crew",
+        "xws": "directorkrennic",
         "ability": "Setup: Before placing forces, assign the Optimized Prototype condition to another friendly ship.",
         "slots": [
           "Crew"
@@ -293,6 +312,7 @@
       {
         "title": "Emperor Palpatine",
         "type": "Crew",
+        "xws": "emperorpalpatine",
         "ability": "While another friendly ship defends or performs an attack, you may spend 1 [Force] to modify 1 of its dice as though that ship had spent 1 [Force].",
         "slots": [
           "Crew",
@@ -312,6 +332,7 @@
       {
         "title": "Freelance Slicer",
         "type": "Crew",
+        "xws": "freelanceslicer",
         "ability": "While you defend, before attack dice are rolled, you may spend a lock you have on the attacker to roll 1 attack die. If you do, the attacker gains 1 [Jam] token. Then, on a [Hit] or [Critical Hit] result, gain 1 [Jam] token.",
         "slots": [
           "Crew"
@@ -326,6 +347,7 @@
       {
         "title": "GNK \"Gonk\" Droid",
         "type": "Crew",
+        "xws": "gnkgonkdroid",
         "ability": "Setup: Lose 1 [Charge]. Action: Recover 1 [Charge]. Action: Spend 1 [Charge] to recover 1 shield.",
         "slots": [
           "Crew"
@@ -344,6 +366,7 @@
       {
         "title": "Grand Inquisitor",
         "type": "Crew",
+        "xws": "grandinquisitor",
         "ability": "After an enemy ship at range 0-2 reveals its dial, you may spend 1 [Force] to perform 1 white action on your action bar, treating that action as red.",
         "slots": [
           "Crew"
@@ -362,6 +385,7 @@
       {
         "title": "Grand Moff Tarkin",
         "type": "Crew",
+        "xws": "grandmofftarkin",
         "ability": "During the System Phase, you may spend 2 [Charge]. If you do, each friendly ship may acquire a lock on a ship that you have locked.",
         "slots": [
           "Crew"
@@ -380,6 +404,7 @@
       {
         "title": "Hera Syndulla",
         "type": "Crew",
+        "xws": "herasyndulla",
         "ability": "You can execute red maneuvers even while stressed. After you fully execute a red maneuver, if you ahve 3 or more stress tokens, remove 1 stress token and suffer 1 [Hit] damage.",
         "slots": [
           "Crew"
@@ -394,6 +419,7 @@
       {
         "title": "IG-88D",
         "type": "Crew",
+        "xws": "ig88d",
         "ability": "You have the pilot ability of each other friendly ship with the IG-2000 upgrade. After you perform a [Calculate] action, gain 1 calculate token.",
         "slots": [
           "Crew"
@@ -414,6 +440,7 @@
       {
         "title": "ISB Slicer",
         "type": "Crew",
+        "xws": "isbslicer",
         "ability": "During the End Phase, enemy ships at range 1-2 cannot remove jam tokens.",
         "slots": [
           "Crew"
@@ -428,6 +455,7 @@
       {
         "title": "Informant",
         "type": "Crew",
+        "xws": "informant",
         "ability": "Setup: After placing forces, choose 1 enemy ship and assign the Listening Device condition to it.",
         "slots": [
           "Crew"
@@ -442,6 +470,7 @@
       {
         "title": "Jabba the Hutt",
         "type": "Crew",
+        "xws": "jabbathehutt",
         "ability": "During the End Phase, you may choose 1 friendly ship at range 0-2 and spend 1 [Charge]. If you do, that ship recovers 1 [Charge] on 1 of its equipped [Illicit] upgrades.",
         "slots": [
           "Crew",
@@ -461,6 +490,7 @@
       {
         "title": "Jyn Erso",
         "type": "Crew",
+        "xws": "jynerso",
         "ability": "If a friendly ship at range 0-3 would gain a focus token, it may gain 1 evade token instead.",
         "slots": [
           "Crew"
@@ -475,6 +505,7 @@
       {
         "title": "Kanan Jarrus",
         "type": "Crew",
+        "xws": "kananjarrus",
         "ability": "After a friendly ship at range 0-2 fully executes a white maneuver, you may spend 1 [Force] to remove 1 stress token from that ship.",
         "slots": [
           "Crew"
@@ -493,6 +524,7 @@
       {
         "title": "Ketsu Onyo",
         "type": "Crew",
+        "xws": "ketsuonyo",
         "ability": "At the start of the End Phase, you may choose 1 enemy ship at range 0-2 in your firing arc. If you do, that ship does not remove its tractor tokens.",
         "slots": [
           "Crew"
@@ -507,6 +539,7 @@
       {
         "title": "L3-37",
         "type": "Crew",
+        "xws": "l337",
         "ability": "Setup: Equip this side faceup. While you defend, you may flip this card. If you do, the attack must reroll all attack dice.",
         "slots": [
           "Crew"
@@ -519,6 +552,7 @@
       {
         "title": "L3-37's Programming",
         "type": "Configuration",
+        "xws": "l337sprogramming",
         "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
         "slots": [
           "Configuration"
@@ -533,6 +567,7 @@
       {
         "title": "Lando Calrissian",
         "type": "Crew",
+        "xws": "landocalrissian-crew",
         "ability": "After you roll dice, you may spend 1 green token to reroll up to 2 of your results.",
         "slots": [
           "Crew"
@@ -547,6 +582,7 @@
       {
         "title": "Lando Calrissian",
         "type": "Crew",
+        "xws": "landocalrissian",
         "ability": "Action: Roll 2 defense dice. For each [Focus] result, gain 1 focus token. For each [Evade] result, gain 1 evade token. If both results are blank, the opposing player chooses focus or evade. You gain 1 token of that type.",
         "slots": [
           "Crew"
@@ -561,6 +597,7 @@
       {
         "title": "Latts Razzi",
         "type": "Crew",
+        "xws": "lattsrazzi",
         "ability": "While you defend, if the attacker is stressed, you may remove 1 stress from the attacker to change 1 of your blank/[Focus] results to an [Evade] result.",
         "slots": [
           "Crew"
@@ -575,6 +612,7 @@
       {
         "title": "Leia Organa",
         "type": "Crew",
+        "xws": "leiaorgana",
         "ability": "At the start of the Activation Phase, you may spend 3 [Charge]. During this phase, each friendly ship reduces the difficulty of its red maneuvers.",
         "slots": [
           "Crew"
@@ -593,6 +631,7 @@
       {
         "title": "Magva Yarro",
         "type": "Crew",
+        "xws": "magvayarro",
         "ability": "After you defend, if the attack hit, you may acquire a lock on the attacker.",
         "slots": [
           "Crew"
@@ -607,6 +646,7 @@
       {
         "title": "Maul",
         "type": "Crew",
+        "xws": "maul",
         "ability": "After you suffer damage, you may gain 1 stress token to recover 1 [Force]. You can equip \"Dark Side\" upgades.",
         "slots": [
           "Crew"
@@ -625,6 +665,7 @@
       {
         "title": "Minister Tua",
         "type": "Crew",
+        "xws": "ministertua",
         "ability": "At the start of the Engagement Phase, if you are damaged, you may perform a red [Reinforce] action.",
         "slots": [
           "Crew"
@@ -639,6 +680,7 @@
       {
         "title": "Moff Jerjerrod",
         "type": "Crew",
+        "xws": "moffjerjerrod",
         "ability": "During the System Phase, you may spend 2 [Charge]. If you do, choose the (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) template. Each friendly ship may perform a red [Boost] action using that template.",
         "slots": [
           "Crew"
@@ -657,6 +699,7 @@
       {
         "title": "Nien Nunb",
         "type": "Crew",
+        "xws": "niennunb",
         "ability": "Decrease the difficulty of your bank maneuvers [[Bank Left] and [Bank Right]].",
         "slots": [
           "Crew"
@@ -671,6 +714,7 @@
       {
         "title": "Novice Technician",
         "type": "Crew",
+        "xws": "novicetechnician",
         "ability": "At the end of the round, you may roll 1 attack die to repair 1 faceup damage card. Then, on a [Hit] result, expose 1 damage card.",
         "slots": [
           "Crew"
@@ -685,6 +729,7 @@
       {
         "title": "Perceptive Copilot",
         "type": "Crew",
+        "xws": "perceptivecopilot",
         "ability": "After you perform a [Focus] action, gain 1 focus token.",
         "slots": [
           "Crew"
@@ -699,6 +744,7 @@
       {
         "title": "Qi'ra",
         "type": "Crew",
+        "xws": "qira",
         "ability": "While you move and perform attacks, you ignore all obstacles that you are locking.",
         "slots": [
           "Crew"
@@ -713,6 +759,7 @@
       {
         "title": "R2-D2",
         "type": "Crew",
+        "xws": "r2d2-crew",
         "ability": "During the End Phase, if you are damaged and not shielded, you may roll 1 attack die to recover 1 shield. On a [Hit] result, expose 1 of your damage cards.",
         "slots": [
           "Crew"
@@ -727,6 +774,7 @@
       {
         "title": "Rose Tico",
         "type": "Crew",
+        "xws": "rosetico",
         "ability": "???",
         "slots": [
           "Crew"
@@ -741,6 +789,7 @@
       {
         "title": "Sabine Wren",
         "type": "Crew",
+        "xws": "sabinewren",
         "ability": "Setup: Place 1 ion, 1 jam, 1 stress, and 1 tractor token on this card. After a ship suffers the effect of a friendly bomb, you may remove 1 ion, jam, stress, or tractor token from this card. If you do, that ship gains a matching token.",
         "slots": [
           "Crew"
@@ -755,6 +804,7 @@
       {
         "title": "Saw Gerrera",
         "type": "Crew",
+        "xws": "sawgerrera",
         "ability": "While you perform an attack, you may suffer 1 [Hit] damage to change all of your [Focus] results to [Critical Hit] results.",
         "slots": [
           "Crew"
@@ -769,6 +819,7 @@
       {
         "title": "Seasoned Navigator",
         "type": "Crew",
+        "xws": "seasonednavigator",
         "ability": "After you reveal your dial, you may set your dial to another non-red maneuver of the same speed. While you execute that maneuver, increase its difficulty.",
         "slots": [
           "Crew"
@@ -783,6 +834,7 @@
       {
         "title": "Seventh Sister",
         "type": "Crew",
+        "xws": "seventhsister",
         "ability": "If an enemy ship at range 0-1 would gain a stress token, you may spend 1 [Force] to have it gain 1 jam or tractor token instead.",
         "slots": [
           "Crew"
@@ -801,6 +853,7 @@
       {
         "title": "Supreme Leader Snoke",
         "type": "Crew",
+        "xws": "supremeleadersnoke",
         "ability": "During the System... you may...",
         "slots": [
           "Crew",
@@ -816,6 +869,7 @@
       {
         "title": "Tactical Officer",
         "type": "Crew",
+        "xws": "tacticalofficer",
         "text": "In the chaos of a starfighter battle, a single order can mean the difference between a victory and a massacre.",
         "slots": [
           "Crew"
@@ -836,6 +890,7 @@
       {
         "title": "Tobias Beckett",
         "type": "Crew",
+        "xws": "tobiasbeckett",
         "ability": "Setup: After placing forces, you may choose 1 obstacle in the play area. If you do, place it anywhere in the play area beyond range 2 of any board edge or ship and beyond range 1 of other obstacles.",
         "slots": [
           "Crew"
@@ -850,6 +905,7 @@
       {
         "title": "Unkar Plutt",
         "type": "Crew",
+        "xws": "unkarplutt",
         "ability": "After you partially excute a maneuver, you may suffer 1 [Hit] damage to perform 1 white action.",
         "slots": [
           "Crew"
@@ -864,6 +920,7 @@
       {
         "title": "Zuckuss",
         "type": "Crew",
+        "xws": "zuckuss",
         "ability": "While you perform an attack, if ou are not stressed, you may choose 1 defense die and gain 1 stress token. If you do, the defender must reroll that die.",
         "slots": [
           "Crew"

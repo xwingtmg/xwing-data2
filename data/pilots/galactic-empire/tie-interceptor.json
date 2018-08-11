@@ -60,6 +60,7 @@
       "initiative": 1,
       "limited": 0,
       "cost": 34,
+      "xws": "alphasquadronpilot",
       "text": "Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.",
       "image": "https://i.imgur.com/i4vYHvP.jpg",
       "shipAbility": {
@@ -72,6 +73,7 @@
       "initiative": 4,
       "limited": 0,
       "cost": 40,
+      "xws": "sabersquadronace",
       "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
       "image": "https://i.imgur.com/kBjOZ5j.png",
       "shipAbility": {
@@ -85,6 +87,7 @@
       "initiative": 6,
       "limited": 1,
       "cost": 52,
+      "xws": "soontirfel",
       "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain 1 focus token.",
       "image": "https://i.imgur.com/4TFKKVN.png",
       "shipAbility": {
@@ -98,6 +101,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 44,
+      "xws": "turrphennir",
       "ability": "After you perform an attack, you may perform a [Barrel Roll] or [Boost] action, even if you are stressed.",
       "image": "https://i.imgur.com/biHV5cr.jpg",
       "shipAbility": {

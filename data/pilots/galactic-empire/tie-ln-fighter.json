@@ -56,6 +56,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 40,
+      "xws": "howlrunner",
       "ability": "While a friendly ship at range 0-1 performs a primary attack, that ship may reroll 1 attack die.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/61/10/61100be4-2767-4d2c-a17f-5eb3c1a6c843/swz07_howlrunner.png"
     },
@@ -65,6 +66,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 32,
+      "xws": "maulermithel",
       "ability": "While you perform an attack at attack range 1, roll 1 additional attack die.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/a3/27a38715-323d-45ff-b72d-f37c347a362d/swz14_mauler.png"
     },
@@ -74,6 +76,7 @@
       "initiative": 2,
       "limited": 1,
       "cost": 26,
+      "xws": "nightbeast",
       "ability": "After you fully execute a blue maneuver, you may perform a [Focus] action.",
       "image": "https://i.imgur.com/FbwsflC.png"
     },
@@ -83,6 +86,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 32,
+      "xws": "scourgeskutu",
       "ability": "While you perform an attack against a defender in your [Bullseye Arc], roll 1 additional attack die.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/98/a2/98a2f940-77d7-4ecf-aa21-b2b3faa4715e/swz14_scourge.png"
     },
@@ -92,6 +96,7 @@
       "initiative": 1,
       "limited": 1,
       "cost": 30,
+      "xws": "wampa",
       "ability": "While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die. After defending, lose 1 [Charge].",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/b6/1c/b61c7b54-5fe6-431c-866d-3adf6018e9f7/swz14_wampa.png",
       "charges": {
@@ -104,6 +109,7 @@
       "initiative": 1,
       "limited": 0,
       "cost": 23,
+      "xws": "academypilot",
       "text": "The Galactic Empire uses the fast and agile TIE/ln, developed by Sienar Fleet Systems and produced in staggering quantity, as its primary starfighter.",
       "image": "https://i.imgur.com/EmVpvsx.png"
     },
@@ -112,6 +118,7 @@
       "initiative": 3,
       "limited": 0,
       "cost": 26,
+      "xws": "blacksquadronace",
       "text": "The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.",
       "image": "https://i.imgur.com/5LhGep7.png"
     },
@@ -121,6 +128,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 30,
+      "xws": "delmeeko",
       "ability": "While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/21/c6/21c66049-cbee-4783-a346-6e7167b0f685/swz14_del-meeko.png"
     },
@@ -130,6 +138,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 30,
+      "xws": "gideonhask",
       "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/95/aa/95aa2578-4127-4532-9cf4-df9cd63fc00c/swz14_gideon-hask.png"
     },
@@ -139,6 +148,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 40,
+      "xws": "idenversio",
       "ability": "Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 [Charge]. If you do, prevent that damage.",
       "image": "https://i.imgur.com/1GqfiBc.jpg",
       "charges": {
@@ -151,6 +161,7 @@
       "initiative": 2,
       "limited": 0,
       "cost": 24,
+      "xws": "obsidiansquadronpilot",
       "text": "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass-produced.",
       "image": "https://i.imgur.com/DDeq1x3.jpg"
     },
@@ -160,6 +171,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 30,
+      "xws": "seynmarana",
       "ability": "While you perform an attack, you may spend 1 [Critical Hit] result. If you do, deal 1 facedown damage card to the defender, then cancel you remaining results.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/6e/35/6e356c04-5171-418f-891f-e35852a0bc57/swz14_seyn-marana.png",
       "charges": {
@@ -173,6 +185,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 28,
+      "xws": "valenrudor",
       "ability": "After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action.",
       "image": "https://i.imgur.com/YFaADU4.png"
     }

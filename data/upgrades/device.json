@@ -6,6 +6,7 @@
       {
         "title": "Bomblet Generator",
         "type": "Device",
+        "xws": "bombletgenerator",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] templete. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
         "slots": [
           "Device",
@@ -25,6 +26,7 @@
       {
         "title": "Conner Nets",
         "type": "Device",
+        "xws": "connernets",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": [
           "Device"
@@ -43,6 +45,7 @@
       {
         "title": "Proton Bombs",
         "type": "Device",
+        "xws": "protonbombs",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb using the [1 [Straight]] template.",
         "slots": [
           "Device"
@@ -61,6 +64,7 @@
       {
         "title": "Proximity Mines",
         "type": "Device",
+        "xws": "proximitymines",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": [
           "Device"
@@ -79,6 +83,7 @@
       {
         "title": "Seismic Charges",
         "type": "Device",
+        "xws": "seismiccharges",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge with the [1 [Straight]] template.",
         "slots": [
           "Device"
