@@ -2,11 +2,11 @@
   {
     "name": "Agile Gunner",
     "limited": 0,
+    "xws": "agilegunner",
     "sides": [
       {
         "title": "Agile Gunner",
         "type": "Gunner",
-        "xws": "agilegunner",
         "ability": "During the End Phase, you may rotate your [Single Turret Arc] indicator.",
         "slots": [
           "Gunner"
@@ -17,11 +17,11 @@
   {
     "name": "BT-1",
     "limited": 1,
+    "xws": "bt1",
     "sides": [
       {
         "title": "BT-1",
         "type": "Gunner",
-        "xws": "bt1",
         "ability": "While you perform an attack, you may change 1 [Hit] result to a [Critical Hit] result for each stress token the defender has.",
         "slots": [
           "Gunner"
@@ -32,11 +32,11 @@
   {
     "name": "Bistan",
     "limited": 1,
+    "xws": "bistan",
     "sides": [
       {
         "title": "Bistan",
         "type": "Gunner",
-        "xws": "bistan",
         "ability": "After you perform a primary attack, if you are focused, you may perform a bonus [Turret] attack against a shipe you have not already attacked this round.",
         "slots": [
           "Gunner"
@@ -47,11 +47,11 @@
   {
     "name": "Bossk",
     "limited": 1,
+    "xws": "bossk",
     "sides": [
       {
         "title": "Bossk",
         "type": "Gunner",
-        "xws": "bossk",
         "ability": "After you perform a primary attack that misses, if you are not stressedm you must receive 1 stress token to perform a bonus primary attack against the same target.",
         "slots": [
           "Gunner"
@@ -62,11 +62,11 @@
   {
     "name": "Dengar",
     "limited": 1,
+    "xws": "dengar",
     "sides": [
       {
         "title": "Dengar",
         "type": "Gunner",
-        "xws": "dengar",
         "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Charge]. If you do, roll 1 attack die unless the attacker chooses to remove 1 green token. On a [Hit] or [Critical Hit] result, the attacker suffers 1 [Hit] damage.",
         "slots": [
           "Gunner"
@@ -81,11 +81,11 @@
   {
     "name": "Ezra Bridger",
     "limited": 1,
+    "xws": "ezrabridger",
     "sides": [
       {
         "title": "Ezra Bridger",
         "type": "Gunner",
-        "xws": "ezrabridger",
         "ability": "After you perform a primary attack, you may spend 1 [Force] to perform a bonus [Turret] attack from a [Turret] you have not attacked from this round. If you do and you are stressed, you may reroll 1 attack die.",
         "slots": [
           "Gunner"
@@ -100,11 +100,11 @@
   {
     "name": "Fifth Brother",
     "limited": 1,
+    "xws": "fifthbrother",
     "sides": [
       {
         "title": "Fifth Brother",
         "type": "Gunner",
-        "xws": "fifthbrother",
         "ability": "While you perform an attack, you may spend 1 [Force] to change 1 of your [Focus] results to a [Critical Hit] result.",
         "slots": [
           "Gunner"
@@ -119,11 +119,11 @@
   {
     "name": "Finn",
     "limited": 1,
+    "xws": "finn",
     "sides": [
       {
         "title": "Finn",
         "type": "Gunner",
-        "xws": "finn",
         "ability": "While you defend or perform a primary attack, if the enemy is in your [Front Arc], you may add 1 blank result to your roll... ..can be rerolled or otherwise...",
         "slots": [
           "Gunner"
@@ -134,11 +134,11 @@
   {
     "name": "Greedo",
     "limited": 1,
+    "xws": "greedo",
     "sides": [
       {
         "title": "Greedo",
         "type": "Gunner",
-        "xws": "greedo",
         "ability": "While you perform an attack, you may spend 1 [Charge] to change 1 [Hit] result to a [Critical Hit] result. While you defend, if your [Charge] is active, the attacker may change 1 [Hit] result to a [Critical Hit] result.",
         "slots": [
           "Gunner"
@@ -153,11 +153,11 @@
   {
     "name": "Han Solo",
     "limited": 1,
+    "xws": "hansolo",
     "sides": [
       {
         "title": "Han Solo",
         "type": "Gunner",
-        "xws": "hansolo",
         "ability": "During the Engagement Phase, at initiative 7, you may perform a [Turret] attack. You cannot attack from that [Turret] again this round.",
         "slots": [
           "Gunner"
@@ -168,11 +168,11 @@
   {
     "name": "Han Solo",
     "limited": 1,
+    "xws": "hansolo-gunner",
     "sides": [
       {
         "title": "Han Solo",
         "type": "Gunner",
-        "xws": "hansolo-gunner",
         "ability": "Before you engage, you may perform a red [Focus] action.",
         "slots": [
           "Gunner"
@@ -183,11 +183,11 @@
   {
     "name": "Hotshot Gunner",
     "limited": 0,
+    "xws": "hotshotgunner",
     "sides": [
       {
         "title": "Hotshot Gunner",
         "type": "Gunner",
-        "xws": "hotshotgunner",
         "ability": "While you perform a [Turret] attack, after the Modify Defense Dice step, the defender removes 1 focus or calculate token.",
         "slots": [
           "Gunner"
@@ -198,11 +198,11 @@
   {
     "name": "Luke Skywalker",
     "limited": 1,
+    "xws": "lukeskywalker",
     "sides": [
       {
         "title": "Luke Skywalker",
         "type": "Gunner",
-        "xws": "lukeskywalker",
         "ability": "At the start of the Engagement Phase, you may spend 1 [Force] to rotate your [Turret] indicator.",
         "slots": [
           "Gunner"
@@ -217,11 +217,11 @@
   {
     "name": "Skilled Bombardier",
     "limited": 0,
+    "xws": "skilledbombardier",
     "sides": [
       {
         "title": "Skilled Bombardier",
         "type": "Gunner",
-        "xws": "skilledbombardier",
         "ability": "If you would drop or launch a device, you may use a template of the same bearing with a speed 1 higher or lower.",
         "slots": [
           "Gunner"
@@ -232,11 +232,11 @@
   {
     "name": "Special Forces Gunner",
     "limited": 0,
+    "xws": "specialforcesgunner",
     "sides": [
       {
         "title": "Special Forces Gunner",
         "type": "Gunner",
-        "xws": "specialforcesgunner",
         "ability": "...e you perform a primary [Front Arc] attack, ...your [Single Turret Arc] is in your [Front Arc], you may roll 1 additional attack die. ...er you perform a primary [Front Arc] attack, ...our [Single Turret Arc] is in your [Rear Arc], you may perform a bonus primary [Single Turret Arc] attack.",
         "slots": [
           "Gunner"
@@ -247,11 +247,11 @@
   {
     "name": "Veteran Tail Gunner",
     "limited": 0,
+    "xws": "veterantailgunner",
     "sides": [
       {
         "title": "Veteran Tail Gunner",
         "type": "Gunner",
-        "xws": "veterantailgunner",
         "ability": "After you perform a primary [Front Arc] attack, you may perform a bonus primary [Rear Arc] attack.",
         "slots": [
           "Gunner"
@@ -262,11 +262,11 @@
   {
     "name": "Veteran Turret Gunner",
     "limited": 0,
+    "xws": "veteranturretgunner",
     "sides": [
       {
         "title": "Veteran Turret Gunner",
         "type": "Gunner",
-        "xws": "veteranturretgunner",
         "ability": "After you perform a primary attack, you may perform a bonus [Turret] attack using a [Turret] you did not already attack from this round.",
         "slots": [
           "Gunner"

@@ -2,11 +2,11 @@
   {
     "name": "Heightened Perception",
     "limited": 0,
+    "xws": "heightenedperception",
     "sides": [
       {
         "title": "Heightened Perception",
         "type": "Force Power",
-        "xws": "heightenedperception",
         "ability": "At the start of the Engagement Phase, you may spend 1 [Force]. If you do, engage at initiative 7 instead of your standard initiative value this phase.",
         "slots": [
           "Force Power"
@@ -17,11 +17,11 @@
   {
     "name": "Instinctive Aim",
     "limited": 0,
+    "xws": "instinctiveaim",
     "sides": [
       {
         "title": "Instinctive Aim",
         "type": "Force Power",
-        "xws": "instinctiveaim",
         "ability": "While you perform a special attack, you may spend 1 [Force] to ignore the [Focus] or [Lock] requirement.",
         "slots": [
           "Force Power"
@@ -32,11 +32,11 @@
   {
     "name": "Sense",
     "limited": 0,
+    "xws": "sense",
     "sides": [
       {
         "title": "Sense",
         "type": "Force Power",
-        "xws": "sense",
         "ability": "During the System Phase, you may choose 1 ship at range 0-1 and look at its dial. If you spend 1 [Force], you may choose a ship at range 0-3 instead.",
         "slots": [
           "Force Power"
@@ -47,11 +47,11 @@
   {
     "name": "Supernatural Reflexes",
     "limited": 0,
+    "xws": "supernaturalreflexes",
     "sides": [
       {
         "title": "Supernatural Reflexes",
         "type": "Force Power",
-        "xws": "supernaturalreflexes",
         "ability": "Before you activate, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, suffer 1 [Hit] damage.",
         "slots": [
           "Force Power"
