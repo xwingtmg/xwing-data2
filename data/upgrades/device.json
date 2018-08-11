@@ -2,11 +2,11 @@
   {
     "name": "Bomblet Generator",
     "limited": 0,
+    "xws": "bombletgenerator",
     "sides": [
       {
         "title": "Bomblet Generator",
         "type": "Device",
-        "xws": "bombletgenerator",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] templete. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
         "slots": [
           "Device",
@@ -22,11 +22,11 @@
   {
     "name": "Conner Nets",
     "limited": 0,
+    "xws": "connernets",
     "sides": [
       {
         "title": "Conner Nets",
         "type": "Device",
-        "xws": "connernets",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": [
           "Device"
@@ -41,11 +41,11 @@
   {
     "name": "Proton Bombs",
     "limited": 0,
+    "xws": "protonbombs",
     "sides": [
       {
         "title": "Proton Bombs",
         "type": "Device",
-        "xws": "protonbombs",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb using the [1 [Straight]] template.",
         "slots": [
           "Device"
@@ -60,11 +60,11 @@
   {
     "name": "Proximity Mines",
     "limited": 0,
+    "xws": "proximitymines",
     "sides": [
       {
         "title": "Proximity Mines",
         "type": "Device",
-        "xws": "proximitymines",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": [
           "Device"
@@ -79,11 +79,11 @@
   {
     "name": "Seismic Charges",
     "limited": 0,
+    "xws": "seismiccharges",
     "sides": [
       {
         "title": "Seismic Charges",
         "type": "Device",
-        "xws": "seismiccharges",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge with the [1 [Straight]] template.",
         "slots": [
           "Device"

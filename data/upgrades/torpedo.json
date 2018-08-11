@@ -2,11 +2,11 @@
   {
     "name": "Adv. Proton Torpedoes",
     "limited": 0,
+    "xws": "advprotontorpedoes",
     "sides": [
       {
         "title": "Adv. Proton Torpedoes",
         "type": "Torpedo",
-        "xws": "advprotontorpedoes",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.",
         "slots": [
           "Torpedo"
@@ -27,11 +27,11 @@
   {
     "name": "Ion Torpedoes",
     "limited": 0,
+    "xws": "iontorpedoes",
     "sides": [
       {
         "title": "Ion Torpedoes",
         "type": "Torpedo",
-        "xws": "iontorpedoes",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
         "slots": [
           "Torpedo"
@@ -52,11 +52,11 @@
   {
     "name": "Proton Torpedoes",
     "limited": 0,
+    "xws": "protontorpedoes",
     "sides": [
       {
         "title": "Proton Torpedoes",
         "type": "Torpedo",
-        "xws": "protontorpedoes",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.",
         "slots": [
           "Torpedo"

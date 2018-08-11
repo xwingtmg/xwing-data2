@@ -2,11 +2,11 @@
   {
     "name": "Barrage Rockets",
     "limited": 0,
+    "xws": "barragerockets",
     "sides": [
       {
         "title": "Barrage Rockets",
         "type": "Missile",
-        "xws": "barragerockets",
         "ability": "Attack ([Focus]): Spend 1 [Charge]. If the defender is in your [Bullseye Arc], you may spend 1 or mroe [Charge] to reroll that many attack dice.",
         "slots": [
           "Missile"
@@ -27,11 +27,11 @@
   {
     "name": "Cluster Missiles",
     "limited": 0,
+    "xws": "clustermissiles",
     "sides": [
       {
         "title": "Cluster Missiles",
         "type": "Missile",
-        "xws": "clustermissiles",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After this attack, you may perform this attack as a bonus attack against a different target at range 0-1 of the defender, ignoring the [Lock] requirement.",
         "slots": [
           "Missile"
@@ -52,11 +52,11 @@
   {
     "name": "Concussion Missiles",
     "limited": 0,
+    "xws": "concussionmissiles",
     "sides": [
       {
         "title": "Concussion Missiles",
         "type": "Missile",
-        "xws": "concussionmissiles",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After this attack hits, each ship at range 0-1 of the defender exposes 1 of its damage cards.",
         "slots": [
           "Missile"
@@ -77,11 +77,11 @@
   {
     "name": "Homing Missiles",
     "limited": 0,
+    "xws": "homingmissiles",
     "sides": [
       {
         "title": "Homing Missiles",
         "type": "Missile",
-        "xws": "homingmissiles",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After you declare the defender, the defender may choose to suffer 1 [Hit] damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting.",
         "slots": [
           "Missile"
@@ -102,11 +102,11 @@
   {
     "name": "Ion Missiles",
     "limited": 0,
+    "xws": "ionmissiles",
     "sides": [
       {
         "title": "Ion Missiles",
         "type": "Missile",
-        "xws": "ionmissiles",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
         "slots": [
           "Missile"
@@ -127,11 +127,11 @@
   {
     "name": "Proton Rockets",
     "limited": 0,
+    "xws": "protonrockets",
     "sides": [
       {
         "title": "Proton Rockets",
         "type": "Missile",
-        "xws": "protonrockets",
         "ability": "Attack ([Focus]): Spend 1 [Charge].",
         "slots": [
           "Missile"
