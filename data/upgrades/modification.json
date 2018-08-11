@@ -6,6 +6,7 @@
       {
         "title": "Ablative Plating",
         "type": "Modification",
+        "xws": "ablativeplating",
         "ability": "Before you would suffer damage from an obstacle or from a friendly bomb detonating, you may spend 1 [Charge]. If you do, prevent 1 damage.",
         "slots": [
           "Modification"
@@ -24,6 +25,7 @@
       {
         "title": "Advanced SLAM",
         "type": "Modification",
+        "xws": "advancedslam",
         "ability": "After you perform a [Slam] action, if you fully executed that maneuver, you may perform a white action on your action bar, treating that action as red.",
         "slots": [
           "Modification"
@@ -38,6 +40,7 @@
       {
         "title": "Afterburners",
         "type": "Modification",
+        "xws": "afterburners",
         "ability": "After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.",
         "slots": [
           "Modification"
@@ -56,6 +59,7 @@
       {
         "title": "Electronic Baffle",
         "type": "Modification",
+        "xws": "electronicbaffle",
         "ability": "During the End Phase, you may suffer 1 [Hit] damage to remove 1 red token.",
         "slots": [
           "Modification"
@@ -70,6 +74,7 @@
       {
         "title": "Engine Upgrade",
         "type": "Modification",
+        "xws": "engineupgrade",
         "text": "Large military forces such as the Galactic Empire have standardized engines, but individual pilots and small organizations often replace the power couplings add thrusters, or use high-performance fuel to get extra push out of their engines.",
         "slots": [
           "Modification"
@@ -90,6 +95,7 @@
       {
         "title": "Hull Upgrade",
         "type": "Modification",
+        "xws": "hullupgrade",
         "text": "For those who cannot afford an enhanced shield generator, bolting additional plates onto the hull of a ship can serve as an adequate substitute.",
         "slots": [
           "Modification"
@@ -104,6 +110,7 @@
       {
         "title": "Munitions Failsafe",
         "type": "Modification",
+        "xws": "munitionsfailsafe",
         "ability": "While you perform a [Torpedo] or [Missile] attack, after rolling attack dice, you may cancel all dice results to recover 1 [Charge] you spent as a cost for the attack.",
         "slots": [
           "Modification"
@@ -118,6 +125,7 @@
       {
         "title": "Shield Upgrade",
         "type": "Modification",
+        "xws": "shieldupgrade",
         "text": "Deflector shields are a substantial line of defense on most starships beyond the lightest fighters. While enhancing a ship's shield capacity can be costly, all but the most confident or reckless pilots see the value in this sort of investment.",
         "slots": [
           "Modification"
@@ -132,6 +140,7 @@
       {
         "title": "Static Discharge Vanes",
         "type": "Modification",
+        "xws": "staticdischargevanes",
         "ability": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead.",
         "slots": [
           "Modification"
@@ -146,6 +155,7 @@
       {
         "title": "Stealth Device",
         "type": "Modification",
+        "xws": "stealthdevice",
         "ability": "While you defend, if your [Charge] is active, roll 1 additional defense die. After you suffer damage, lost 1 [Charge].",
         "slots": [
           "Modification"
@@ -164,6 +174,7 @@
       {
         "title": "Tactical Scrambler",
         "type": "Modification",
+        "xws": "tacticalscrambler",
         "ability": "While you obstruct an enemy ship's attack, the defender rolls 1 additional defense die.",
         "slots": [
           "Modification"

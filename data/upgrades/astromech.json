@@ -6,6 +6,7 @@
       {
         "title": "\"Chopper\"",
         "type": "Astromech",
+        "xws": "chopper",
         "ability": "Action: Spend 1 non-recurring [Charge] from another equipped upgrade to recover 1 shield. Action: Spend 2 shields to recover 1 non-recurring [Charge] on an equipped upgrade.",
         "slots": [
           "Astromech"
@@ -20,6 +21,7 @@
       {
         "title": "\"Genius\"",
         "type": "Astromech",
+        "xws": "genius",
         "ability": "After you fully execute a maneuver, if you have not dropped or launched a device this round, you may drop 1 bomb.",
         "slots": [
           "Astromech"
@@ -34,6 +36,7 @@
       {
         "title": "R2 Astromech",
         "type": "Astromech",
+        "xws": "r2astromech",
         "ability": "After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield.",
         "slots": [
           "Astromech"
@@ -52,6 +55,7 @@
       {
         "title": "R2-D2",
         "type": "Astromech",
+        "xws": "r2d2",
         "ability": "After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield.",
         "slots": [
           "Astromech"
@@ -70,6 +74,7 @@
       {
         "title": "R3 Astromech",
         "type": "Astromech",
+        "xws": "r3astromech",
         "ability": "You can maintain up to 2 locks. Each lock must be on a different object. After you perform a [Lock] action, you may acquire a lock.",
         "slots": [
           "Astromech"
@@ -84,6 +89,7 @@
       {
         "title": "R4 Astromech",
         "type": "Astromech",
+        "xws": "r4astromech",
         "ability": "Decrease the difficulty of your speed 1-2 basic maneuvers ([Turn Left], [Bank Left], [Straight], [Bank Right], [Turn Right]).",
         "slots": [
           "Astromech"
@@ -98,6 +104,7 @@
       {
         "title": "R5 Astromech",
         "type": "Astromech",
+        "xws": "r5astromech",
         "ability": "Action: Spend 1 [Charge] to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.",
         "slots": [
           "Astromech"
@@ -116,6 +123,7 @@
       {
         "title": "R5-D8",
         "type": "Astromech",
+        "xws": "r5d8",
         "ability": "Action: Spend 1 [Charge] to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.",
         "slots": [
           "Astromech"
@@ -134,6 +142,7 @@
       {
         "title": "R5-P8",
         "type": "Astromech",
+        "xws": "r5p8",
         "ability": "While you perform an attack against a defender in your [Front Arc], you may spend 1 [Charge] to reroll 1 attack die. If the rerolled results is a [Critical Hit], suffer 1 [Critical Hit] damage.",
         "slots": [
           "Astromech"
@@ -152,6 +161,7 @@
       {
         "title": "R5-TK",
         "type": "Astromech",
+        "xws": "r5tk",
         "ability": "You can perform attacks against friendly ships.",
         "slots": [
           "Astromech"

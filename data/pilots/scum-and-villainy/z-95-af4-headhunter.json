@@ -59,6 +59,7 @@
       "initiative": 1,
       "limited": 0,
       "cost": 24,
+      "xws": "binayrepirate",
       "text": "Operating from the Double Worlds, Talus and Tralus, Kath Scarlet's gang of smugglers and pirates would never be described as reputable or dependable - even by other criminals.",
       "image": "https://i.imgur.com/6omMe5j.png"
     },
@@ -67,6 +68,7 @@
       "initiative": 3,
       "limited": 0,
       "cost": 27,
+      "xws": "blacksunsoldier",
       "text": "The vast and influential Black Sun crime syndicate can always find a use for talented pilots, provided they aren't particular about how they earn their credits.",
       "image": "https://i.imgur.com/UzPH9n1.jpg"
     },
@@ -76,6 +78,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 29,
+      "xws": "kaatoleeachos",
       "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
       "image": "https://i.imgur.com/Y5W8G9t.jpg"
     },
@@ -85,6 +88,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 31,
+      "xws": "ndrusuhlak",
       "ability": "While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack die."
     },
     {
@@ -93,6 +97,7 @@
       "initiative": 0,
       "limited": 1,
       "cost": 6,
+      "xws": "nashtahpup",
       "ability": "You can deploy only via emergency deployment, and you have the name, initiative, pilot ability, and ship [Charge] of the friendly, destroyed Hound's Tooth.",
       "shipAbility": {
         "name": "Escape Craft",

@@ -57,6 +57,7 @@
       "initiative": 1,
       "limited": 1,
       "cost": 12,
+      "xws": "autopilotdrone",
       "text": "Sometimes, manufacturer's warnings are made to be broken.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/6c/7f/6c7fa1cf-0e5e-45a0-998f-1aa45e9962fd/swz04_autopilot-drone.png",
       "charges": {
@@ -88,6 +89,7 @@
       "initiative": 2,
       "limited": 1,
       "cost": 22,
+      "xws": "l337-escapecraft",
       "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/c5/b0/c5b059ab-d58e-469c-b484-44caad6c8989/swz04_l3-37-escape-craft.png",
       "shipActions": [
@@ -115,6 +117,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 26,
+      "xws": "landocalrissian-escapecraft",
       "ability": "After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.",
       "charges": {
         "value": 3,
@@ -131,6 +134,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 24,
+      "xws": "outerrimpioneer",
       "ability": "Friendly ships at range 0-1 can perform attacks at range 0 of obstacles.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/1a/0d/1a0db6ff-cf52-453e-bcfb-7508c03b2359/swz04_outer-rim-pioneer.png",
       "shipAbility": {

@@ -6,6 +6,7 @@
       {
         "title": "Composure",
         "type": "Talent",
+        "xws": "composure",
         "ability": "After you fail an action, if you have no green tokens, you may perform a [Focus] action.",
         "slots": [
           "Talent"
@@ -20,6 +21,7 @@
       {
         "title": "Crack Shot",
         "type": "Talent",
+        "xws": "crackshot",
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], before the Neutralize Results step, you may spend 1 [Charge] to cancel 1 [Evade] result.",
         "slots": [
           "Talent"
@@ -38,6 +40,7 @@
       {
         "title": "Daredevil",
         "type": "Talent",
+        "xws": "daredevil",
         "ability": "While you perform a while [Boost] action, you may treat it as red to use the [1[Turn Left]] or [1 [Turn Right]] template instead.",
         "slots": [
           "Talent"
@@ -52,6 +55,7 @@
       {
         "title": "Debris Gambit",
         "type": "Talent",
+        "xws": "debrisgambit",
         "ability": "While you perform a red [Evade] action, if there is an obstacle at range 0-1, treat the action as white instead.",
         "slots": [
           "Talent"
@@ -72,6 +76,7 @@
       {
         "title": "Elusive",
         "type": "Talent",
+        "xws": "elusive",
         "ability": "While you defend, you may spend 1 [Charge] to reroll 1 defense die. After you fully execute a red maneuver, recover 1 [Charge].",
         "slots": [
           "Talent"
@@ -90,6 +95,7 @@
       {
         "title": "Expert Handling",
         "type": "Talent",
+        "xws": "experthandling",
         "text": "While heavy fighters can often be coaxed into a barrel roll, seasoned pilots know how to do it without putting undue stress on their craft or leaving themselves open to attack.",
         "slots": [
           "Talent"
@@ -110,6 +116,7 @@
       {
         "title": "Fanatical",
         "type": "Talent",
+        "xws": "fanatical",
         "ability": "While you perform a primary attack, if you are not shielded, you may change 1 [Focus] result to a [Hit] result.",
         "slots": [
           "Talent"
@@ -124,6 +131,7 @@
       {
         "title": "Fearless",
         "type": "Talent",
+        "xws": "fearless",
         "ability": "While you perform a [Front Arc] primary attack, if the attack range is 1 and you are in the defender's [Front Arc], you may change 1 of your results to a [Hit] result.",
         "slots": [
           "Talent"
@@ -138,6 +146,7 @@
       {
         "title": "Heroic",
         "type": "Talent",
+        "xws": "heroic",
         "ability": "While you defend or perform an attack, if you have only blank results and have 2 or more results, you may reroll any number of your dice.",
         "slots": [
           "Talent"
@@ -152,6 +161,7 @@
       {
         "title": "Intimidation",
         "type": "Talent",
+        "xws": "intimidation",
         "ability": "While an enemy ship at range 0 defends, it rolls 1 fewer defense die.",
         "slots": [
           "Talent"
@@ -166,6 +176,7 @@
       {
         "title": "Juke",
         "type": "Talent",
+        "xws": "juke",
         "ability": "While you perform an attack, if you are evading, you may change 1 of the defender's [Evade] results to a [Focus] result.",
         "slots": [
           "Talent"
@@ -180,6 +191,7 @@
       {
         "title": "Lone Wolf",
         "type": "Talent",
+        "xws": "lonewolf",
         "ability": "While you defend or perform an attack, if there are no other friendly ships at range 0-2, you may spend 1 [Charge] to reroll 1 of your dice.",
         "slots": [
           "Talent"
@@ -198,6 +210,7 @@
       {
         "title": "Marksmanship",
         "type": "Talent",
+        "xws": "marksmanship",
         "ability": "While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.",
         "slots": [
           "Talent"
@@ -212,6 +225,7 @@
       {
         "title": "Outmaneuver",
         "type": "Talent",
+        "xws": "outmaneuver",
         "ability": "While you perform a [Front Arc] arrack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.",
         "slots": [
           "Talent"
@@ -226,6 +240,7 @@
       {
         "title": "Predator",
         "type": "Talent",
+        "xws": "predator",
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], you may reroll 1 attack die.",
         "slots": [
           "Talent"
@@ -240,6 +255,7 @@
       {
         "title": "Ruthless",
         "type": "Talent",
+        "xws": "ruthless",
         "ability": "While you perform an attack, you may choose another friendly ship at range 0-1 of the defender. If you do, that ship suffers 1 [Hit] damage and you may change 1 of your die results to a [Hit] result.",
         "slots": [
           "Talent"
@@ -254,6 +270,7 @@
       {
         "title": "Saturation Salvo",
         "type": "Talent",
+        "xws": "saturationsalvo",
         "ability": "While you perform a [Torpedo] or [Missile] attack, you may spend 1 charge from that upgrade. If you do, choose two defence dice. The defender must reroll those dice.",
         "slots": [
           "Talent"
@@ -268,6 +285,7 @@
       {
         "title": "Selfless",
         "type": "Talent",
+        "xws": "selfless",
         "ability": "Whlie another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Critical Hit] damage to cancel 1 [Critical Hit] result.",
         "slots": [
           "Talent"
@@ -282,6 +300,7 @@
       {
         "title": "Squad Leader",
         "type": "Talent",
+        "xws": "squadleader",
         "ability": "While you coordinate, the ship you choose can perform an action only if that action is also on your action bar.",
         "slots": [
           "Talent"
@@ -302,6 +321,7 @@
       {
         "title": "Swarm Tactics",
         "type": "Talent",
+        "xws": "swarmtactics",
         "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 1. If you do, that ship treats its initiative as equal to yours until the end of the round.",
         "slots": [
           "Talent"
@@ -316,6 +336,7 @@
       {
         "title": "Trick Shot",
         "type": "Talent",
+        "xws": "trickshot",
         "ability": "While you perform an attack that is obstructed by an obstacle, roll 1 additional attack die.",
         "slots": [
           "Talent"
