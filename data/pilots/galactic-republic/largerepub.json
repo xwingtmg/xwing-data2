@@ -60,57 +60,13 @@
   ],
   "pilots": [
     {
-      "name": "\"Longshot\"",
+      "name": "lalala rep",
       "caption": "Zeta Ace",
       "initiative": 3,
       "limited": 1,
       "cost": 200,
-      "xws": "longshot",
+      "xws": "lalalarep",
       "ability": "While you perform a primary attack at attack range 3, roll 1 additional attack die."
-    },
-    {
-      "name": "\"Midnight\"",
-      "caption": "Omega Leader",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 200,
-      "xws": "midnight",
-      "ability": "While you defend or perform an attack, if you have a lock on the enemy ship, that ship's dice cannot be modified."
-    },
-    {
-      "name": "\"Muse\"",
-      "caption": "Epsilon Leader",
-      "initiative": 2,
-      "limited": 1,
-      "cost": 200,
-      "xws": "muse",
-      "ability": "At that start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token."
-    },
-    {
-      "name": "Commander Malarus",
-      "caption": "???",
-      "initiative": 0,
-      "limited": 1,
-      "cost": 200,
-      "xws": "commandermalarus",
-      "ability": "At the start of the Engagement Phase, you may spend 1 [Charge] and gain 1 stress token. If you do, until the end of the round, while you defend or perform an a... may change all of your [Focus] re... [Hit] results."
-    },
-    {
-      "name": "Lieutenant Rivas",
-      "caption": "Inconvenient Witness",
-      "initiative": 1,
-      "limited": 1,
-      "cost": 200,
-      "xws": "lieutenantrivas",
-      "ability": "After a ship at range 1-2 gains a red or orange token, if you do not have that..."
-    },
-    {
-      "name": "TN-3465",
-      "caption": "???",
-      "initiative": 0,
-      "limited": 1,
-      "cost": 200,
-      "xws": "tn3465"
     }
   ]
 }
