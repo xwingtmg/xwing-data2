@@ -81,8 +81,25 @@
       "faction": "firstorder",
       "ships": [
         "data/pilots/first-order/tie-silencer.json",
+        "data/pilots/first-order/medfo.json",
         "data/pilots/first-order/tie-fo-fighter.json",
         "data/pilots/first-order/upsilon-class-shuttle.json"
+      ]
+    },
+    {
+      "faction": "galacticrepublic",
+      "ships": [
+        "data/pilots/first-order/jedi-starfighter.json",
+        "data/pilots/first-order/medrepub.json",
+        "data/pilots/first-order/largerepub.json"
+      ]
+    },
+    {
+      "faction": "cis",
+      "ships": [
+        "data/pilots/first-order/lilpewpew.json",
+        "data/pilots/first-order/medcis.json",
+        "data/pilots/first-order/largecis.json"
       ]
     }
   ],
