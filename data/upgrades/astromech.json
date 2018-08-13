@@ -12,7 +12,10 @@
           "Astromech"
         ]
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 2
+    }
   },
   {
     "name": "\"Genius\"",
@@ -27,7 +30,10 @@
           "Astromech"
         ]
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 0
+    }
   },
   {
     "name": "R2 Astromech",
@@ -46,7 +52,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 6
+    }
   },
   {
     "name": "R2-D2",
@@ -65,7 +74,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 8
+    }
   },
   {
     "name": "R3 Astromech",
@@ -80,7 +92,10 @@
           "Astromech"
         ]
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 3
+    }
   },
   {
     "name": "R4 Astromech",
@@ -95,7 +110,10 @@
           "Astromech"
         ]
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 2
+    }
   },
   {
     "name": "R5 Astromech",
@@ -114,7 +132,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 5
+    }
   },
   {
     "name": "R5-D8",
@@ -133,7 +154,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 7
+    }
   },
   {
     "name": "R5-P8",
@@ -152,7 +176,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 4
+    }
   },
   {
     "name": "R5-TK",
@@ -167,6 +194,9 @@
           "Astromech"
         ]
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 1
+    }
   }
 ]

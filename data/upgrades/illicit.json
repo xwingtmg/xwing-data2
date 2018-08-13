@@ -16,7 +16,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 5
+    }
   },
   {
     "name": "Contraband Cybernetics",
@@ -35,7 +38,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 5
+    }
   },
   {
     "name": "Deadman's Switch",
@@ -50,7 +56,10 @@
           "Illicit"
         ]
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 2
+    }
   },
   {
     "name": "Feedback Array",
@@ -65,7 +74,10 @@
           "Illicit"
         ]
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 4
+    }
   },
   {
     "name": "Inertial Dampeners",
@@ -80,7 +92,10 @@
           "Illicit"
         ]
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 1
+    }
   },
   {
     "name": "Rigged Cargo Chute",
@@ -99,6 +114,9 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 4
+    }
   }
 ]

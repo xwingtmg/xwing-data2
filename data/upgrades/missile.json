@@ -22,7 +22,10 @@
           "maxrange": 3
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 6
+    }
   },
   {
     "name": "Cluster Missiles",
@@ -47,7 +50,10 @@
           "maxrange": 2
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 5
+    }
   },
   {
     "name": "Concussion Missiles",
@@ -72,7 +78,10 @@
           "maxrange": 3
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 6
+    }
   },
   {
     "name": "Homing Missiles",
@@ -97,7 +106,10 @@
           "maxrange": 3
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 3
+    }
   },
   {
     "name": "Ion Missiles",
@@ -122,7 +134,10 @@
           "maxrange": 3
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 4
+    }
   },
   {
     "name": "Proton Rockets",
@@ -147,6 +162,9 @@
           "maxrange": 2
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 7
+    }
   }
 ]

@@ -12,7 +12,10 @@
           "Force Power"
         ]
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 3
+    }
   },
   {
     "name": "Instinctive Aim",
@@ -27,7 +30,10 @@
           "Force Power"
         ]
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 2
+    }
   },
   {
     "name": "Sense",
@@ -42,7 +48,10 @@
           "Force Power"
         ]
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 6
+    }
   },
   {
     "name": "Supernatural Reflexes",
@@ -57,6 +66,9 @@
           "Force Power"
         ]
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 12
+    }
   }
 ]

@@ -17,7 +17,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 5
+    }
   },
   {
     "name": "Conner Nets",
@@ -36,7 +39,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 6
+    }
   },
   {
     "name": "Proton Bombs",
@@ -55,7 +61,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 5
+    }
   },
   {
     "name": "Proximity Mines",
@@ -74,7 +83,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 6
+    }
   },
   {
     "name": "Seismic Charges",
@@ -93,6 +105,9 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "variableCost": {
+      "value": 3
+    }
   }
 ]
