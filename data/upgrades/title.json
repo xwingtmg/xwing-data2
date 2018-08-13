@@ -18,6 +18,18 @@
           }
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "firesprayclasspatrolcraft"
+        ]
+      }
     ]
   },
   {
@@ -58,6 +70,18 @@
           "Title"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      },
+      {
+        "chassis": [
+          "vt49decimator"
+        ]
+      }
     ]
   },
   {
@@ -71,6 +95,18 @@
         "ability": "You can dock 1 attack shuttle or Sheathipede-class shuttle. Your docked ships can deploy only from your rear guides.",
         "slots": [
           "Title"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      },
+      {
+        "chassis": [
+          "vcx100lightfreighter"
         ]
       }
     ]
@@ -88,6 +124,18 @@
           "Title"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "scurrgh6bomber"
+        ]
+      }
     ]
   },
   {
@@ -101,6 +149,18 @@
         "ability": "1 Z-95 AF4 headhunter can dock with you.",
         "slots": [
           "Title"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "yv666lightfreighter"
         ]
       }
     ]
@@ -118,6 +178,18 @@
           "Title"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "aggressorassaultfighter"
+        ]
+      }
     ]
   },
   {
@@ -133,6 +205,18 @@
           "Title"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "customizedyt1300lightfreighter"
+        ]
+      }
     ]
   },
   {
@@ -146,6 +230,18 @@
         "ability": "While you perform a primary [Rear Arc] attack,, you may reroll 1 attack die. Add [Gunner] slot.",
         "slots": [
           "Title"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "firesprayclasspatrolcraft"
         ]
       }
     ]
@@ -169,6 +265,18 @@
           }
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      },
+      {
+        "chassis": [
+          "modifiedyt1300lightfreighter"
+        ]
+      }
     ]
   },
   {
@@ -190,6 +298,18 @@
           }
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "g1astarfighter"
+        ]
+      }
     ]
   },
   {
@@ -203,6 +323,19 @@
         "ability": "Gain a [Front Arc] primary weapon with a value of \"3.\" During the End Phase, do not remove up to 2 focus tokens.",
         "slots": [
           "Title"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance",
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "hwk290lightfreighter"
         ]
       }
     ]
@@ -220,6 +353,18 @@
           "Title"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      },
+      {
+        "chassis": [
+          "yt2400lightfreighter"
+        ]
+      }
     ]
   },
   {
@@ -233,6 +378,19 @@
         "ability": "You can dock at range 0-1.",
         "slots": [
           "Title"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      },
+      {
+        "chassis": [
+          "attackshuttle",
+          "sheathipedeclassshuttle"
         ]
       }
     ]
@@ -250,6 +408,18 @@
           "Title"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "jumpmaster5000"
+        ]
+      }
     ]
   },
   {
@@ -263,6 +433,18 @@
         "ability": "After you perform a [Coordinate] action, you may choose an enemy ship at range 0-3 of the ship you coordinated. If you do, acquire a lock on that enemy ship, ignoring range restrictions.",
         "slots": [
           "Title"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      },
+      {
+        "chassis": [
+          "lambdaclasst4ashuttle"
         ]
       }
     ]
@@ -280,6 +462,18 @@
           "Title"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "lancerclasspursuitcraft"
+        ]
+      }
     ]
   },
   {
@@ -293,6 +487,18 @@
         "ability": "After you reveal a turn, ([Turn Left] or [Turn Right]) or bank ([Bank Left] or [Bank Right]) maneuver, you may set your dial to the maneuver of the same speed and bearing in the other direction. Add [Torpedo] slot.",
         "slots": [
           "Title"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "firesprayclasspatrolcraft"
         ]
       }
     ]
@@ -313,6 +519,13 @@
           "value": 2,
           "recovers": 0
         }
+      }
+    ],
+    "restrictions": [
+      {
+        "chassis": [
+          "starviperclassattackplatform"
+        ]
       }
     ]
   }

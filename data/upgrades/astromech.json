@@ -12,6 +12,13 @@
           "Astromech"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -25,6 +32,13 @@
         "ability": "After you fully execute a maneuver, if you have not dropped or launched a device this round, you may drop 1 bomb.",
         "slots": [
           "Astromech"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
@@ -65,6 +79,13 @@
           "recovers": 0
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -93,6 +114,13 @@
         "ability": "Decrease the difficulty of your speed 1-2 basic maneuvers ([Turn Left], [Bank Left], [Straight], [Bank Right], [Turn Right]).",
         "slots": [
           "Astromech"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "baseSizes": [
+          "Small"
         ]
       }
     ]
@@ -133,6 +161,13 @@
           "recovers": 0
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -152,6 +187,13 @@
           "recovers": 0
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
     ]
   },
   {
@@ -165,6 +207,13 @@
         "ability": "You can perform attacks against friendly ships.",
         "slots": [
           "Astromech"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]

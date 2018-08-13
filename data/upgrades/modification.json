@@ -16,6 +16,14 @@
           "recovers": 0
         }
       }
+    ],
+    "restrictions": [
+      {
+        "baseSizes": [
+          "Medium",
+          "Large"
+        ]
+      }
     ]
   },
   {
@@ -30,6 +38,13 @@
         "slots": [
           "Modification"
         ]
+      }
+    ],
+    "restrictions": [
+      {
+        "action": {
+          "type": "SLAM"
+        }
       }
     ]
   },
@@ -49,6 +64,13 @@
           "value": 2,
           "recovers": 0
         }
+      }
+    ],
+    "restrictions": [
+      {
+        "baseSizes": [
+          "Small"
+        ]
       }
     ]
   },
@@ -85,6 +107,14 @@
             "difficulty": "White"
           }
         ]
+      }
+    ],
+    "restrictions": [
+      {
+        "action": {
+          "type": "Boost",
+          "difficulty": "Red"
+        }
       }
     ]
   },
@@ -178,6 +208,14 @@
         "ability": "While you obstruct an enemy ship's attack, the defender rolls 1 additional defense die.",
         "slots": [
           "Modification"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "baseSizes": [
+          "Medium",
+          "Large"
         ]
       }
     ]

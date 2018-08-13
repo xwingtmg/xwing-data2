@@ -27,6 +27,13 @@
           "Crew"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -42,6 +49,14 @@
           "Crew"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "character": "darthvader"
+      }
     ]
   },
   {
@@ -55,6 +70,13 @@
         "ability": "While you perform an attack, after rolling attack dice, you may name a type of green token. If you do, gain 2 ion tokens and, during this attack, the defender cannot spend tokens of the named type.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
@@ -72,6 +94,13 @@
           "Crew"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
     ]
   },
   {
@@ -85,6 +114,13 @@
         "ability": "Setup: Assign the Hunted condition to 1 enemy ship. While you perform an attack against th eship with the Hunted condition, you may change 1 of your [Focus] results to a [Hit] result.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
         ]
       }
     ]
@@ -102,6 +138,13 @@
           "Crew"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -115,6 +158,13 @@
         "ability": "Setup: Start in reserve. At the end of Setup, place yourself at range 0 of an obstacle and beyond range 3 of an enemy ship.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
@@ -138,6 +188,13 @@
           }
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -151,6 +208,13 @@
         "ability": "After you drop or launch a device, you may perform a red [Boost] action.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
@@ -183,6 +247,13 @@
           "Crew"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -202,6 +273,13 @@
           "recovers": 1
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -215,6 +293,13 @@
         "ability": "At the start of the End Phase, you may spend 1 focus token to repair 1 of your faceup damage cards.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
@@ -232,6 +317,18 @@
           "Crew"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      },
+      {
+        "action": {
+          "type": "Coordinate"
+        }
+      }
     ]
   },
   {
@@ -245,6 +342,13 @@
         "ability": "During the End Phase, you may choose 2 [Illicit] upgrades equipped to friendly ships at range 0-1. If you do, you may exchange these upgrades. End of Game: Return all [Illicit] upgrades to their original ships.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
@@ -266,6 +370,13 @@
           "recovers": 1
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
     ]
   },
   {
@@ -280,6 +391,13 @@
         "slots": [
           "Crew",
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
         ]
       }
     ]
@@ -303,6 +421,13 @@
           }
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
     ]
   },
   {
@@ -322,6 +447,13 @@
           "value": 1,
           "recovers": 1
         }
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
       }
     ]
   },
@@ -376,6 +508,13 @@
           "recovers": 1
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
     ]
   },
   {
@@ -395,6 +534,18 @@
           "recovers": 1
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      },
+      {
+        "action": {
+          "type": "Lock"
+        }
+      }
     ]
   },
   {
@@ -408,6 +559,13 @@
         "ability": "You can execute red maneuvers even while stressed. After you fully execute a red maneuver, if you ahve 3 or more stress tokens, remove 1 stress token and suffer 1 [Hit] damage.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
         ]
       }
     ]
@@ -431,6 +589,13 @@
           }
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
     ]
   },
   {
@@ -444,6 +609,13 @@
         "ability": "During the End Phase, enemy ships at range 1-2 cannot remove jam tokens.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
         ]
       }
     ]
@@ -481,6 +653,13 @@
           "recovers": 0
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
     ]
   },
   {
@@ -494,6 +673,13 @@
         "ability": "If a friendly ship at range 0-3 would gain a focus token, it may gain 1 evade token instead.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
         ]
       }
     ]
@@ -515,6 +701,13 @@
           "recovers": 1
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -528,6 +721,13 @@
         "ability": "At the start of the End Phase, you may choose 1 enemy ship at range 0-2 in your firing arc. If you do, that ship does not remove its tractor tokens.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
@@ -557,6 +757,13 @@
           "Configuration"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
     ]
   },
   {
@@ -570,6 +777,13 @@
         "ability": "After you roll dice, you may spend 1 green token to reroll up to 2 of your results.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
@@ -587,6 +801,13 @@
           "Crew"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -600,6 +821,13 @@
         "ability": "While you defend, if the attacker is stressed, you may remove 1 stress from the attacker to change 1 of your blank/[Focus] results to an [Evade] result.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
@@ -621,6 +849,13 @@
           "recovers": 1
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -634,6 +869,13 @@
         "ability": "After you defend, if the attack hit, you may acquire a lock on the attacker.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
         ]
       }
     ]
@@ -655,6 +897,13 @@
           "recovers": 1
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
     ]
   },
   {
@@ -668,6 +917,13 @@
         "ability": "At the start of the Engagement Phase, if you are damaged, you may perform a red [Reinforce] action.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
         ]
       }
     ]
@@ -689,6 +945,18 @@
           "recovers": 1
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      },
+      {
+        "action": {
+          "type": "Coordinate"
+        }
+      }
     ]
   },
   {
@@ -702,6 +970,13 @@
         "ability": "Decrease the difficulty of your bank maneuvers [[Bank Left] and [Bank Right]].",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
         ]
       }
     ]
@@ -749,6 +1024,13 @@
           "Crew"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
     ]
   },
   {
@@ -794,6 +1076,13 @@
           "Crew"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -807,6 +1096,13 @@
         "ability": "While you perform an attack, you may suffer 1 [Hit] damage to change all of your [Focus] results to [Critical Hit] results.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
         ]
       }
     ]
@@ -842,6 +1138,13 @@
           "value": 1,
           "recovers": 1
         }
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
       }
     ]
   },
@@ -880,6 +1183,14 @@
           }
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "action": {
+          "type": "Coordinate",
+          "difficulty": "Red"
+        }
+      }
     ]
   },
   {
@@ -893,6 +1204,13 @@
         "ability": "Setup: After placing forces, you may choose 1 obstacle in the play area. If you do, place it anywhere in the play area beyond range 2 of any board edge or ship and beyond range 1 of other obstacles.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
@@ -910,6 +1228,13 @@
           "Crew"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
     ]
   },
   {
@@ -923,6 +1248,13 @@
         "ability": "While you perform an attack, if ou are not stressed, you may choose 1 defense die and gain 1 stress token. If you do, the defender must reroll that die.",
         "slots": [
           "Crew"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
