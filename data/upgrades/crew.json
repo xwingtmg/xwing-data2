@@ -136,6 +136,15 @@
             "type": "Calculate",
             "difficulty": "White"
           }
+        ],
+        "grants": [
+          {
+            "action": {
+              "type": "Calculate",
+              "difficulty": "White"
+            },
+            "value": 1
+          }
         ]
       }
     ]
@@ -301,6 +310,15 @@
             "type": "Lock",
             "difficulty": "White"
           }
+        ],
+        "grants": [
+          {
+            "action": {
+              "type": "Lock",
+              "difficulty": "White"
+            },
+            "value": 1
+          }
         ]
       }
     ]
@@ -428,6 +446,15 @@
           {
             "type": "Calculate",
             "difficulty": "White"
+          }
+        ],
+        "grants": [
+          {
+            "action": {
+              "type": "Calculate",
+              "difficulty": "White"
+            },
+            "value": 1
           }
         ]
       }
@@ -877,6 +904,22 @@
           {
             "type": "Coordinate",
             "difficulty": "White"
+          }
+        ],
+        "grants": [
+          {
+            "action": {
+              "type": "Coordinate",
+              "difficulty": "White"
+            },
+            "value": 1
+          },
+          {
+            "action": {
+              "type": "Coordinate",
+              "difficulty": "Red"
+            },
+            "value": -1
           }
         ]
       }

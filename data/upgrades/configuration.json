@@ -33,6 +33,16 @@
         "ability": "While you have exactly 1 disarm token, you can still perform [Torpedo] and [Missile] attacks against targets you have locked. If you do, you cannot spend you lock during the attack. Add [Torpedo] and [Missile] slots.",
         "slots": [
           "Configuration"
+        ],
+        "grants": [
+          {
+            "slot": "Torpedo",
+            "value": 1
+          },
+          {
+            "slot": "Missile",
+            "value": 1
+          }
         ]
       }
     ]
@@ -108,6 +118,12 @@
         "ability": "While you have exactly 1 disarm token, uou can still perform [Cannon] attacks. While you perform a [Cannon] attack while disarmed, roll a maximum of 3 attack dice. Add [Cannon] slot.",
         "slots": [
           "Configuration"
+        ],
+        "grants": [
+          {
+            "slot": "Cannon",
+            "value": 1
+          }
         ]
       }
     ]

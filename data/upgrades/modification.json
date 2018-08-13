@@ -84,6 +84,22 @@
             "type": "Boost",
             "difficulty": "White"
           }
+        ],
+        "grants": [
+          {
+            "action": {
+              "type": "Boost",
+              "difficulty": "White"
+            },
+            "value": 1
+          },
+          {
+            "action": {
+              "type": "Boost",
+              "difficulty": "Red"
+            },
+            "value": -1
+          }
         ]
       }
     ]
@@ -99,6 +115,12 @@
         "text": "For those who cannot afford an enhanced shield generator, bolting additional plates onto the hull of a ship can serve as an adequate substitute.",
         "slots": [
           "Modification"
+        ],
+        "grants": [
+          {
+            "stat": "hull",
+            "value": 1
+          }
         ]
       }
     ]
@@ -129,6 +151,12 @@
         "text": "Deflector shields are a substantial line of defense on most starships beyond the lightest fighters. While enhancing a ship's shield capacity can be costly, all but the most confident or reckless pilots see the value in this sort of investment.",
         "slots": [
           "Modification"
+        ],
+        "grants": [
+          {
+            "stat": "shields",
+            "value": 1
+          }
         ]
       }
     ]
