@@ -1,0 +1,69 @@
+{
+  "name": "medres",
+  "size": "Medium",
+  "dial": [
+    "1BB",
+    "1FB",
+    "1NB",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3ER",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "3RR",
+    "4FW",
+    "4KR"
+  ],
+  "faction": "Resistance",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 4
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
+  ],
+  "pilots": [
+    {
+      "name": "medres",
+      "caption": "???",
+      "initiative": 0,
+      "limited": 1,
+      "cost": 200,
+      "xws": "medres",
+      "ability": "???",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      }
+    }
+    }
+  ]
+}
