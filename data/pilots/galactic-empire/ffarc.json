@@ -1,0 +1,69 @@
+{
+  "name": "ffarc",
+  "size": "Small",
+  "dial": [
+    "1BW",
+    "1FB",
+    "1NW",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3TW",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YW",
+    "4FR"
+  ],
+  "faction": "Galactic Empire",
+  "stats": [
+    {
+      "arc": "Full Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "SLAM"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reload"
+    }
+  ],
+  "pilots": [
+    {
+      "name": "ffarc",
+      "caption": "Brash Noble",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 39,
+      "xws": "ffarc",
+      "ability": "After you gain a disarm token, if you are not stressed, you may gain 1 stress token to remove 1 disarm token."
+    }
+  ]
+}
