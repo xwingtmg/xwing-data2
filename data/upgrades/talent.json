@@ -13,7 +13,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 2
     }
   },
@@ -35,7 +35,7 @@
         }
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 1
     }
   },
@@ -53,7 +53,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 3
     }
   },
@@ -77,7 +77,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 2
     }
   },
@@ -99,7 +99,7 @@
         }
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 3
     }
   },
@@ -123,8 +123,9 @@
         ]
       }
     ],
-    "variableCost": {
-      "baseSize": {
+    "cost": {
+      "variable": "size",
+      "values": {
         "Small": 2,
         "Medium": 4,
         "Large": 6
@@ -145,7 +146,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 0
     }
   },
@@ -163,7 +164,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 3
     }
   },
@@ -181,7 +182,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 0
     }
   },
@@ -199,7 +200,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 3
     }
   },
@@ -217,7 +218,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 4
     }
   },
@@ -239,7 +240,7 @@
         }
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 4
     }
   },
@@ -257,7 +258,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 1
     }
   },
@@ -275,7 +276,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 6
     }
   },
@@ -293,7 +294,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 2
     }
   },
@@ -311,7 +312,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 1
     }
   },
@@ -329,7 +330,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 6
     }
   },
@@ -347,7 +348,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 3
     }
   },
@@ -371,7 +372,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 4
     }
   },
@@ -389,7 +390,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 3
     }
   },
@@ -407,7 +408,7 @@
         ]
       }
     ],
-    "variableCost": {
+    "cost": {
       "value": 1
     }
   }
