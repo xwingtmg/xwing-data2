@@ -36,12 +36,14 @@
         ],
         "grants": [
           {
-            "slot": "Torpedo",
-            "value": 1
+            "type": "slot",
+            "value": "Torpedo",
+            "amount": 1
           },
           {
-            "slot": "Missile",
-            "value": 1
+            "type": "slot",
+            "value": "Missile",
+            "amount": 1
           }
         ]
       }
@@ -121,8 +123,9 @@
         ],
         "grants": [
           {
-            "slot": "Cannon",
-            "value": 1
+            "type": "slot",
+            "value": "Cannon",
+            "amount": 1
           }
         ]
       }

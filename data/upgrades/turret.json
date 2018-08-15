@@ -25,11 +25,12 @@
         ],
         "grants": [
           {
-            "action": {
+            "type": "action",
+            "value": {
               "type": "Rotate Arc",
               "difficulty": "White"
             },
-            "value": 1
+            "amount": 1
           }
         ]
       }
@@ -61,11 +62,12 @@
         ],
         "grants": [
           {
-            "action": {
+            "type": "action",
+            "value": {
               "type": "Rotate Arc",
               "difficulty": "White"
             },
-            "value": 1
+            "amount": 1
           }
         ]
       }

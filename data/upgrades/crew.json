@@ -139,11 +139,12 @@
         ],
         "grants": [
           {
-            "action": {
+            "type": "action",
+            "value": {
               "type": "Calculate",
               "difficulty": "White"
             },
-            "value": 1
+            "amount": 1
           }
         ]
       }
@@ -313,11 +314,12 @@
         ],
         "grants": [
           {
-            "action": {
+            "type": "action",
+            "value": {
               "type": "Lock",
               "difficulty": "White"
             },
-            "value": 1
+            "amount": 1
           }
         ]
       }
@@ -450,11 +452,12 @@
         ],
         "grants": [
           {
-            "action": {
+            "type": "action",
+            "value": {
               "type": "Calculate",
               "difficulty": "White"
             },
-            "value": 1
+            "amount": 1
           }
         ]
       }
@@ -908,18 +911,12 @@
         ],
         "grants": [
           {
-            "action": {
+            "type": "action",
+            "value": {
               "type": "Coordinate",
               "difficulty": "White"
             },
-            "value": 1
-          },
-          {
-            "action": {
-              "type": "Coordinate",
-              "difficulty": "Red"
-            },
-            "value": -1
+            "amount": 1
           }
         ]
       }

@@ -19,15 +19,17 @@
         ],
         "grants": [
           {
-            "slot": "Device",
-            "value": 1
+            "type": "slot",
+            "value": "Device",
+            "amount": 1
           },
           {
-            "action": {
+            "type": "action",
+            "value": {
               "type": "Reload",
               "difficulty": "White"
             },
-            "value": 1
+            "amount": 1
           }
         ]
       }
@@ -102,16 +104,19 @@
         ],
         "grants": [
           {
-            "slot": "Sensor",
-            "value": 1
+            "type": "slot",
+            "value": "Sensor",
+            "amount": 1
           },
           {
-            "slot": "Astromech",
-            "value": 1
+            "type": "slot",
+            "value": "Astromech",
+            "amount": 1
           },
           {
-            "slot": "Crew",
-            "value": -1
+            "type": "slot",
+            "value": "Crew",
+            "amount": -1
           }
         ]
       }
@@ -176,8 +181,9 @@
         ],
         "grants": [
           {
-            "slot": "Gunner",
-            "value": 1
+            "type": "slot",
+            "value": "Gunner",
+            "amount": 1
           }
         ]
       }
@@ -203,11 +209,12 @@
         ],
         "grants": [
           {
-            "action": {
+            "type": "action",
+            "value": {
               "type": "Evade",
               "difficulty": "White"
             },
-            "value": 1
+            "amount": 1
           }
         ]
       }
@@ -233,15 +240,17 @@
         ],
         "grants": [
           {
-            "slot": "Cannon",
-            "value": 1
+            "type": "slot",
+            "value": "Cannon",
+            "amount": 1
           },
           {
-            "action": {
+            "type": "action",
+            "value": {
               "type": "Barrel Roll",
               "difficulty": "White"
             },
-            "value": 1
+            "amount": 1
           }
         ]
       }
@@ -306,12 +315,14 @@
         ],
         "grants": [
           {
-            "slot": "Crew",
-            "value": -1
+            "type": "slot",
+            "value": "Crew",
+            "amount": -1
           },
           {
-            "slot": "Astromech",
-            "value": 1
+            "type": "slot",
+            "value": "Astromech",
+            "amount": 1
           }
         ]
       }
@@ -361,8 +372,9 @@
         ],
         "grants": [
           {
-            "slot": "Torpedo",
-            "value": 1
+            "type": "slot",
+            "value": "Torpedo",
+            "amount": 1
           }
         ]
       }
@@ -386,12 +398,14 @@
         },
         "grants": [
           {
-            "slot": "Modification",
-            "value": 1
+            "type": "slot",
+            "value": "Modification",
+            "amount": 1
           },
           {
-            "stat": "shields",
-            "value": 1
+            "type": "stat",
+            "value": "shields",
+            "amount": 1
           }
         ]
       }
