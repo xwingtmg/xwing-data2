@@ -109,22 +109,7 @@
     }
   ],
   "upgrades": [
-    "data/upgrades/astromech.json",
-    "data/upgrades/cannon.json",
-    "data/upgrades/configuration.json",
-    "data/upgrades/crew.json",
-    "data/upgrades/device.json",
-    "data/upgrades/force-power.json",
-    "data/upgrades/gunner.json",
-    "data/upgrades/illicit.json",
-    "data/upgrades/missile.json",
-    "data/upgrades/modification.json",
-    "data/upgrades/sensor.json",
-    "data/upgrades/talent.json",
-    "data/upgrades/tech.json",
-    "data/upgrades/title.json",
-    "data/upgrades/torpedo.json",
-    "data/upgrades/turret.json"
+    "data/upgrades/astromech_alt.json"
   ],
   "conditions": "data/conditions/conditions.json"
 }
