@@ -19,7 +19,7 @@
     ],
     "restrictions": [
       {
-        "baseSizes": [
+        "sizes": [
           "Medium",
           "Large"
         ]
@@ -43,7 +43,8 @@
     "restrictions": [
       {
         "action": {
-          "type": "SLAM"
+          "type": "SLAM",
+          "difficulty": "White"
         }
       }
     ]
@@ -68,7 +69,7 @@
     ],
     "restrictions": [
       {
-        "baseSizes": [
+        "sizes": [
           "Small"
         ]
       }
@@ -213,7 +214,7 @@
     ],
     "restrictions": [
       {
-        "baseSizes": [
+        "sizes": [
           "Medium",
           "Large"
         ]
