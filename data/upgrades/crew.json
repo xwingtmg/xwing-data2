@@ -293,6 +293,9 @@
         "title": "Director Krennic",
         "type": "Crew",
         "ability": "Setup: Before placing forces, assign the Optimized Prototype condition to another friendly ship.",
+        "conditions":[
+          "optimizedprototype"
+          ],
         "slots": [
           "Crew"
         ],
