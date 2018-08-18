@@ -68,7 +68,10 @@
       "cost": 32,
       "xws": "captainrex",
       "ability": "After you perform an attack, assign the Suppressive Fire condition to the defender.",
-      "image": "https://i.imgur.com/SXjax2A.jpg"
+      "image": "https://i.imgur.com/SXjax2A.jpg",
+      "conditions": [
+        "suppressivefire"
+      ]
     },
     {
       "name": "Ezra Bridger",
