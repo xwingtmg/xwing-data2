@@ -15,7 +15,14 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "\"Genius\"",
@@ -33,7 +40,14 @@
     ],
     "cost": {
       "value": 0
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "R2 Astromech",
@@ -77,7 +91,14 @@
     ],
     "cost": {
       "value": 8
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "R3 Astromech",
@@ -113,7 +134,14 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small"
+        ]
+      }
+    ]
   },
   {
     "name": "R5 Astromech",
@@ -157,7 +185,14 @@
     ],
     "cost": {
       "value": 7
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "R5-P8",
@@ -179,7 +214,14 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "R5-TK",
@@ -197,6 +239,13 @@
     ],
     "cost": {
       "value": 1
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   }
 ]

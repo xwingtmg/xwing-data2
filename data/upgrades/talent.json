@@ -15,7 +15,14 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Focus"
+        }
+      }
+    ]
   },
   {
     "name": "Crack Shot",
@@ -55,7 +62,20 @@
     ],
     "cost": {
       "value": 3
-    }
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small"
+        ]
+      },
+      {
+        "action": {
+          "type": "Boost",
+          "difficulty": "White"
+        }
+      }
+    ]
   },
   {
     "name": "Debris Gambit",
@@ -89,7 +109,15 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small",
+          "Medium"
+        ]
+      }
+    ]
   },
   {
     "name": "Elusive",
@@ -111,7 +139,15 @@
     ],
     "cost": {
       "value": 3
-    }
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small",
+          "Medium"
+        ]
+      }
+    ]
   },
   {
     "name": "Expert Handling",
@@ -150,7 +186,15 @@
         "Medium": 4,
         "Large": 6
       }
-    }
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Barrel Roll",
+          "difficulty": "Red"
+        }
+      }
+    ]
   },
   {
     "name": "Fanatical",
@@ -186,7 +230,14 @@
     ],
     "cost": {
       "value": 3
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Heroic",
@@ -240,7 +291,15 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small",
+          "Medium"
+        ]
+      }
+    ]
   },
   {
     "name": "Lone Wolf",
@@ -334,7 +393,14 @@
     ],
     "cost": {
       "value": 1
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
+    ]
   },
   {
     "name": "Saturation Salvo",
@@ -352,7 +418,14 @@
     ],
     "cost": {
       "value": 6
-    }
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Reload"
+        }
+      }
+    ]
   },
   {
     "name": "Selfless",
@@ -370,7 +443,14 @@
     ],
     "cost": {
       "value": 3
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Squad Leader",

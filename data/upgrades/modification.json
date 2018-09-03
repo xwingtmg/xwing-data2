@@ -19,7 +19,15 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Medium",
+          "Large"
+        ]
+      }
+    ]
   },
   {
     "name": "Advanced SLAM",
@@ -37,7 +45,15 @@
     ],
     "cost": {
       "value": 3
-    }
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "SLAM",
+          "difficulty": "White"
+        }
+      }
+    ]
   },
   {
     "name": "Afterburners",
@@ -59,7 +75,14 @@
     ],
     "cost": {
       "value": 8
-    }
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small"
+        ]
+      }
+    ]
   },
   {
     "name": "Electronic Baffle",
@@ -116,7 +139,15 @@
         "Medium": 6,
         "Large": 9
       }
-    }
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Boost",
+          "difficulty": "Red"
+        }
+      }
+    ]
   },
   {
     "name": "Hull Upgrade",
@@ -256,6 +287,14 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Medium",
+          "Large"
+        ]
+      }
+    ]
   }
 ]

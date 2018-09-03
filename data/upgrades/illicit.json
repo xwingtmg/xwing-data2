@@ -19,7 +19,15 @@
     ],
     "cost": {
       "value": 5
-    }
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small",
+          "Medium"
+        ]
+      }
+    ]
   },
   {
     "name": "Contraband Cybernetics",
@@ -117,6 +125,14 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Medium",
+          "Large"
+        ]
+      }
+    ]
   }
 ]

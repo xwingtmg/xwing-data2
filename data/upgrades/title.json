@@ -36,7 +36,19 @@
     ],
     "cost": {
       "value": 6
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "firesprayclasspatrolcraft"
+        ]
+      }
+    ]
   },
   {
     "name": "Black One",
@@ -82,7 +94,19 @@
     ],
     "cost": {
       "value": 6
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      },
+      {
+        "chassis": [
+          "vt49decimator"
+        ]
+      }
+    ]
   },
   {
     "name": "Ghost",
@@ -100,7 +124,19 @@
     ],
     "cost": {
       "value": 0
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      },
+      {
+        "chassis": [
+          "vcx100lightfreighter"
+        ]
+      }
+    ]
   },
   {
     "name": "Havoc",
@@ -135,7 +171,19 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "scurrgh6bomber"
+        ]
+      }
+    ]
   },
   {
     "name": "Hound's Tooth",
@@ -153,7 +201,19 @@
     ],
     "cost": {
       "value": 1
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "yv666lightfreighter"
+        ]
+      }
+    ]
   },
   {
     "name": "IG-2000",
@@ -171,7 +231,19 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "aggressorassaultfighter"
+        ]
+      }
+    ]
   },
   {
     "name": "Lando's Millennium Falcon",
@@ -189,7 +261,19 @@
     ],
     "cost": {
       "value": 6
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "customizedyt1300lightfreighter"
+        ]
+      }
+    ]
   },
   {
     "name": "Marauder",
@@ -214,7 +298,19 @@
     ],
     "cost": {
       "value": 3
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "firesprayclasspatrolcraft"
+        ]
+      }
+    ]
   },
   {
     "name": "Millennium Falcon",
@@ -248,7 +344,19 @@
     ],
     "cost": {
       "value": 6
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      },
+      {
+        "chassis": [
+          "modifiedyt1300lightfreighter"
+        ]
+      }
+    ]
   },
   {
     "name": "Mist Hunter",
@@ -287,7 +395,19 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "g1astarfighter"
+        ]
+      }
+    ]
   },
   {
     "name": "Moldy Crow",
@@ -305,7 +425,20 @@
     ],
     "cost": {
       "value": 12
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance",
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "hwk290lightfreighter"
+        ]
+      }
+    ]
   },
   {
     "name": "Outrider",
@@ -323,7 +456,19 @@
     ],
     "cost": {
       "value": 14
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      },
+      {
+        "chassis": [
+          "yt2400lightfreighter"
+        ]
+      }
+    ]
   },
   {
     "name": "Phantom",
@@ -341,7 +486,20 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      },
+      {
+        "chassis": [
+          "attackshuttle",
+          "sheathipedeclassshuttle"
+        ]
+      }
+    ]
   },
   {
     "name": "Punishing One",
@@ -371,7 +529,19 @@
     ],
     "cost": {
       "value": 8
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "jumpmaster5000"
+        ]
+      }
+    ]
   },
   {
     "name": "ST-321",
@@ -389,7 +559,19 @@
     ],
     "cost": {
       "value": 6
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      },
+      {
+        "chassis": [
+          "lambdaclasst4ashuttle"
+        ]
+      }
+    ]
   },
   {
     "name": "Shadow Caster",
@@ -407,7 +589,19 @@
     ],
     "cost": {
       "value": 6
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "lancerclasspursuitcraft"
+        ]
+      }
+    ]
   },
   {
     "name": "Slave I",
@@ -432,7 +626,19 @@
     ],
     "cost": {
       "value": 5
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      },
+      {
+        "chassis": [
+          "firesprayclasspatrolcraft"
+        ]
+      }
+    ]
   },
   {
     "name": "Virago",
@@ -466,6 +672,13 @@
     ],
     "cost": {
       "value": 10
-    }
+    },
+    "restrictions": [
+      {
+        "chassis": [
+          "starviperclassattackplatform"
+        ]
+      }
+    ]
   }
 ]

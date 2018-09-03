@@ -33,7 +33,14 @@
     ],
     "cost": {
       "value": 1
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "0-0-0",
@@ -51,7 +58,15 @@
     ],
     "cost": {
       "value": 3
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "characters": ["darthvader"]
+      }
+    ]
   },
   {
     "name": "4-LOM",
@@ -69,7 +84,14 @@
     ],
     "cost": {
       "value": 3
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Admiral Sloane",
@@ -87,7 +109,14 @@
     ],
     "cost": {
       "value": 10
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
+    ]
   },
   {
     "name": "Agent Kallus",
@@ -108,7 +137,14 @@
     ],
     "cost": {
       "value": 6
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
+    ]
   },
   {
     "name": "Baze Malbus",
@@ -126,7 +162,14 @@
     ],
     "cost": {
       "value": 8
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Boba Fett",
@@ -144,7 +187,14 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "C-3PO",
@@ -178,7 +228,14 @@
     ],
     "cost": {
       "value": 12
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Cad Bane",
@@ -196,7 +253,14 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Captain Phasma",
@@ -232,7 +296,14 @@
     ],
     "cost": {
       "value": 6
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Chewbacca",
@@ -254,7 +325,14 @@
     ],
     "cost": {
       "value": 5
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Chewbacca",
@@ -272,7 +350,14 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Ciena Ree",
@@ -290,7 +375,19 @@
     ],
     "cost": {
       "value": 10
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      },
+      {
+        "action": {
+          "type": "Coordinate"
+        }
+      }
+    ]
   },
   {
     "name": "Cikatro Vizago",
@@ -308,7 +405,14 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Darth Vader",
@@ -330,7 +434,14 @@
     ],
     "cost": {
       "value": 14
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
+    ]
   },
   {
     "name": "Death Troopers",
@@ -349,7 +460,14 @@
     ],
     "cost": {
       "value": 6
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
+    ]
   },
   {
     "name": "Director Krennic",
@@ -386,7 +504,14 @@
     ],
     "cost": {
       "value": 5
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
+    ]
   },
   {
     "name": "Emperor Palpatine",
@@ -409,7 +534,14 @@
     ],
     "cost": {
       "value": 13
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
+    ]
   },
   {
     "name": "Freelance Slicer",
@@ -471,7 +603,14 @@
     ],
     "cost": {
       "value": 16
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
+    ]
   },
   {
     "name": "Grand Moff Tarkin",
@@ -493,7 +632,19 @@
     ],
     "cost": {
       "value": 10
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      },
+      {
+        "action": {
+          "type": "Lock"
+        }
+      }
+    ]
   },
   {
     "name": "Hera Syndulla",
@@ -511,7 +662,14 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "IG-88D",
@@ -545,7 +703,14 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "ISB Slicer",
@@ -563,7 +728,14 @@
     ],
     "cost": {
       "value": 3
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
+    ]
   },
   {
     "name": "Informant",
@@ -607,7 +779,14 @@
     ],
     "cost": {
       "value": 8
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Jyn Erso",
@@ -625,7 +804,14 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Kanan Jarrus",
@@ -647,7 +833,14 @@
     ],
     "cost": {
       "value": 14
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Ketsu Onyo",
@@ -665,7 +858,14 @@
     ],
     "cost": {
       "value": 5
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "L3-37",
@@ -695,7 +895,14 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Lando Calrissian",
@@ -713,7 +920,14 @@
     ],
     "cost": {
       "value": 0
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Lando Calrissian",
@@ -731,7 +945,14 @@
     ],
     "cost": {
       "value": 5
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Latts Razzi",
@@ -749,7 +970,14 @@
     ],
     "cost": {
       "value": 7
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Leia Organa",
@@ -771,7 +999,14 @@
     ],
     "cost": {
       "value": 8
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Magva Yarro",
@@ -789,7 +1024,14 @@
     ],
     "cost": {
       "value": 7
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Maul",
@@ -811,7 +1053,14 @@
     ],
     "cost": {
       "value": 13
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Minister Tua",
@@ -829,7 +1078,14 @@
     ],
     "cost": {
       "value": 7
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
+    ]
   },
   {
     "name": "Moff Jerjerrod",
@@ -851,7 +1107,19 @@
     ],
     "cost": {
       "value": 12
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      },
+      {
+        "action": {
+          "type": "Coordinate"
+        }
+      }
+    ]
   },
   {
     "name": "Nien Nunb",
@@ -869,7 +1137,14 @@
     ],
     "cost": {
       "value": 5
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Novice Technician",
@@ -923,7 +1198,14 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "R2-D2",
@@ -977,7 +1259,14 @@
     ],
     "cost": {
       "value": 3
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Saw Gerrera",
@@ -995,7 +1284,14 @@
     ],
     "cost": {
       "value": 8
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Seasoned Navigator",
@@ -1035,7 +1331,14 @@
     ],
     "cost": {
       "value": 12
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
+    ]
   },
   {
     "name": "Supreme Leader Snoke",
@@ -1088,7 +1391,15 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Coordinate",
+          "difficulty": "Red"
+        }
+      }
+    ]
   },
   {
     "name": "Tobias Beckett",
@@ -1106,7 +1417,14 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Unkar Plutt",
@@ -1124,7 +1442,14 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Zuckuss",
@@ -1142,6 +1467,13 @@
     ],
     "cost": {
       "value": 3
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   }
 ]
