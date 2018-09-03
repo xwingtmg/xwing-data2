@@ -1,0 +1,72 @@
+{
+  "name": "lil pewpew",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1YW",
+    "2LR",
+    "2TB",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YB",
+    "2PR",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "4FW",
+    "4KR",
+    "5FW"
+  ],
+  "faction": "CIS",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    }
+  ],
+  "pilots": [
+    {
+      "name": "sma cis",
+      "caption": "Zeta Ace",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 200,
+      "xws": "smacis",
+      "ability": "While you perform a primary attack at attack range 3, roll 1 additional attack die."
+    }
+  ]
+}

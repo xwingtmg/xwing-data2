@@ -1,0 +1,91 @@
+{
+  "name": "largefront",
+  "size": "Large",
+  "dial": [
+    "1TW",
+    "1BB",
+    "1FB",
+    "1NB",
+    "1YW",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3LR",
+    "3BB",
+    "3FB",
+    "3NB",
+    "3PR",
+    "4FW",
+    "4KR"
+  ],
+  "faction": "Scum and Villainy",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 5
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Calculate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
+  ],
+  "pilots": [
+    {
+      "name": "largefront",
+      "caption": "Aggressive Automaton",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 70,
+      "xws": "largefront",
+      "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship with [Calculate] on its action bar at range 1-3. If you do, transfer 1 of your calculate tokens to it.",
+      "image": "https://i.imgur.com/bcp5bKd.png",
+      "shipAbility": {
+        "name": "Advanced Droid Brain",
+        "text": "After you perform a [Calculate] action, gain 1 calculate token."
+      }
+    },
+    {
+      "name": "IG-88B",
+      "caption": "Brutal Battledroid",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 70,
+      "xws": "ig88b",
+      "ability": "After you perform an attack that misses, you may perform a bonus [Cannon] attack.",
+      "image": "https://i.imgur.com/80YX2ED.png",
+      "shipAbility": {
+        "name": "Advanced Droid Brain",
+        "text": "After you perform a [Calculate] action, gain 1 calculate token."
+      }
+    }
+  ]
+}

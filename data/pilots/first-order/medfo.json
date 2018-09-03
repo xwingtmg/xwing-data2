@@ -1,6 +1,6 @@
 {
-  "name": "TIE Silencer",
-  "size": "Small",
+  "name": "medfo",
+  "size": "Medium",
   "dial": [
     "1TW",
     "1YW",
@@ -38,22 +38,13 @@
   ],
   "pilots": [
     {
-      "name": "\"Blackout\"",
+      "name": "le fofo",
       "caption": "??? Test Pilot",
       "initiative": 5,
       "limited": 1,
       "cost": 200,
-      "xws": "blackout",
+      "xws": "lefofo",
       "ability": "???"
-    },
-    {
-      "name": "Kylo Ren",
-      "caption": "???",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 200,
-      "xws": "kyloren",
-      "ability": "After you defed, you may spend 1 [Force]..."
     }
   ]
 }
