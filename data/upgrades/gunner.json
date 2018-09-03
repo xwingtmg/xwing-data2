@@ -27,6 +27,14 @@
           "Gunner"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "characters": ["darthvader"]
+      }
     ]
   },
   {
@@ -42,6 +50,13 @@
           "Gunner"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -55,6 +70,13 @@
         "ability": "After you perform a primary attack that misses, if you are not stressedm you must receive 1 stress token to perform a bonus primary attack against the same target.",
         "slots": [
           "Gunner"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
@@ -76,6 +98,13 @@
           "recovers": 1
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
     ]
   },
   {
@@ -95,6 +124,13 @@
           "recovers": 1
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -113,6 +149,13 @@
           "value": 1,
           "recovers": 1
         }
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
       }
     ]
   },
@@ -148,6 +191,13 @@
           "recovers": 1
         }
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
     ]
   },
   {
@@ -163,6 +213,13 @@
           "Gunner"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
     ]
   },
   {
@@ -176,6 +233,13 @@
         "ability": "Before you engage, you may perform a red [Focus] action.",
         "slots": [
           "Gunner"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
         ]
       }
     ]
@@ -211,6 +275,13 @@
           "value": 1,
           "recovers": 1
         }
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
       }
     ]
   },
@@ -257,6 +328,13 @@
           "Gunner"
         ]
       }
+    ],
+    "restrictions": [
+      {
+        "arcs": [
+          "Rear Arc"
+        ]
+      }
     ]
   },
   {
@@ -271,6 +349,13 @@
         "slots": [
           "Gunner"
         ]
+      }
+    ],
+    "restrictions": [
+      {
+        "action": {
+          "type": "Rotate Arc"
+        }
       }
     ]
   }

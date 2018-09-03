@@ -16,6 +16,14 @@
           "recovers": 0
         }
       }
+    ],
+    "restrictions": [
+      {
+        "sizes": [
+          "Small",
+          "Medium"
+        ]
+      }
     ]
   },
   {
@@ -98,6 +106,14 @@
           "value": 1,
           "recovers": 0
         }
+      }
+    ],
+    "restrictions": [
+      {
+        "sizes": [
+          "Medium",
+          "Large"
+        ]
       }
     ]
   }
