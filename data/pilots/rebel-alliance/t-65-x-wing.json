@@ -72,7 +72,13 @@
       "cost": 41,
       "xws": "bluesquadronescort",
       "text": "Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.",
-      "image": "https://i.imgur.com/G1NoLFF.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/c7/f8/c7f862bd-38ab-489d-82a8-f0e62f5491dc/swz01-blue-squadron-escort.png",
+      "alt": [
+        {
+          "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/1a/9c1ad7ef-dfb1-427c-b700-747d857f53fc/op066-blue-squadron-pilot.png",
+          "source": "X-Wing Second Edition Launch Party"
+        }
+      ]
     },
     {
       "name": "Cavern Angels Zealot",
@@ -100,7 +106,7 @@
       "cost": 47,
       "xws": "garvendreis-t65xwing",
       "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
-      "image": "https://i.imgur.com/yWESWzU.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/24/75/2475a65d-0afc-4e80-ab8e-c29bbb750439/swz12_card_garven-dreis.png"
     },
     {
       "name": "Jek Porkins",
@@ -144,7 +150,13 @@
       "force": {
         "value": 2,
         "recovers": 1
-      }
+      },
+      "alt": [
+        {
+          "image": "https://images-cdn.fantasyflightgames.com/filer_public/5b/aa/5baa3742-b7b2-47d7-9bec-07f02fafaf1c/op066-luke-skywalker.png",
+          "source": "X-Wing Second Edition Launch Party"
+        }
+      ]
     },
     {
       "name": "Red Squadron Veteran",
@@ -163,7 +175,7 @@
       "cost": 48,
       "xws": "thanekyrell",
       "ability": "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
-      "image": "https://i.imgur.com/FlJuNDr.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/35/a5/35a55ba4-0c71-440b-b05d-d38dff8b9942/swz12_card_thane-kyrell.png"
     },
     {
       "name": "Wedge Antilles",
