@@ -16,6 +16,21 @@
             "type": "Reload",
             "difficulty": "White"
           }
+        ],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Device",
+            "amount": 1
+          },
+          {
+            "type": "action",
+            "value": {
+              "type": "Reload",
+              "difficulty": "White"
+            },
+            "amount": 1
+          }
         ]
       }
     ],
@@ -98,6 +113,23 @@
         "ability": "Remove [Crew] slot. Add [Sensor] and [Astromech] slots.",
         "slots": [
           "Title"
+        ],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Sensor",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Astromech",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Crew",
+            "amount": -1
+          }
         ]
       }
     ],
@@ -170,6 +202,13 @@
         "ability": "While you perform a primary [Rear Arc] attack,, you may reroll 1 attack die. Add [Gunner] slot.",
         "slots": [
           "Title"
+        ],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Gunner",
+            "amount": 1
+          }
         ]
       }
     ],
@@ -194,6 +233,16 @@
             "type": "Evade",
             "difficulty": "White"
           }
+        ],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Evade",
+              "difficulty": "White"
+            },
+            "amount": 1
+          }
         ]
       }
     ],
@@ -217,6 +266,21 @@
           {
             "type": "Barrel Roll",
             "difficulty": "White"
+          }
+        ],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Cannon",
+            "amount": 1
+          },
+          {
+            "type": "action",
+            "value": {
+              "type": "Barrel Roll",
+              "difficulty": "White"
+            },
+            "amount": 1
           }
         ]
       }
@@ -290,6 +354,18 @@
         "ability": "When you perform a primary attack, if the defender is in your [Front Arc], roll 1 additional attack die. Remove [Crew] slot. Add [Astromech] slot.",
         "slots": [
           "Title"
+        ],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Crew",
+            "amount": -1
+          },
+          {
+            "type": "slot",
+            "value": "Astromech",
+            "amount": 1
+          }
         ]
       }
     ],
@@ -344,6 +420,13 @@
         "ability": "After you reveal a turn, ([Turn Left] or [Turn Right]) or bank ([Bank Left] or [Bank Right]) maneuver, you may set your dial to the maneuver of the same speed and bearing in the other direction. Add [Torpedo] slot.",
         "slots": [
           "Title"
+        ],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Torpedo",
+            "amount": 1
+          }
         ]
       }
     ],
@@ -366,7 +449,19 @@
         "charges": {
           "value": 2,
           "recovers": 0
-        }
+        },
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Modification",
+            "amount": 1
+          },
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": 1
+          }
+        ]
       }
     ],
     "cost": {

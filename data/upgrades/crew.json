@@ -163,6 +163,16 @@
             "type": "Calculate",
             "difficulty": "White"
           }
+        ],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Calculate",
+              "difficulty": "White"
+            },
+            "amount": 1
+          }
         ]
       }
     ],
@@ -361,6 +371,16 @@
             "type": "Lock",
             "difficulty": "White"
           }
+        ],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Lock",
+              "difficulty": "White"
+            },
+            "amount": 1
+          }
         ]
       }
     ],
@@ -509,6 +529,16 @@
           {
             "type": "Calculate",
             "difficulty": "White"
+          }
+        ],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Calculate",
+              "difficulty": "White"
+            },
+            "amount": 1
           }
         ]
       }
@@ -1042,6 +1072,16 @@
           {
             "type": "Coordinate",
             "difficulty": "White"
+          }
+        ],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "White"
+            },
+            "amount": 1
           }
         ]
       }

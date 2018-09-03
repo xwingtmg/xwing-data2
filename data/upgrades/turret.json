@@ -23,6 +23,16 @@
             "type": "Rotate Arc",
             "difficulty": "White"
           }
+        ],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Rotate Arc",
+              "difficulty": "White"
+            },
+            "amount": 1
+          }
         ]
       }
     ],
@@ -53,6 +63,16 @@
           {
             "type": "Rotate Arc",
             "difficulty": "White"
+          }
+        ],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Rotate Arc",
+              "difficulty": "White"
+            },
+            "amount": 1
           }
         ]
       }

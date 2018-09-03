@@ -74,6 +74,16 @@
             "type": "Evade",
             "difficulty": "Red"
           }
+        ],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Evade",
+              "difficulty": "Red"
+            },
+            "amount": 1
+          }
         ]
       }
     ],
@@ -119,6 +129,16 @@
           {
             "type": "Barrel Roll",
             "difficulty": "White"
+          }
+        ],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Barrel Roll",
+              "difficulty": "White"
+            },
+            "amount": 1
           }
         ]
       }
@@ -368,6 +388,16 @@
           {
             "type": "Coordinate",
             "difficulty": "Red"
+          }
+        ],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "Red"
+            },
+            "amount": 1
           }
         ]
       }

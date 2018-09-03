@@ -96,6 +96,16 @@
             "type": "Boost",
             "difficulty": "White"
           }
+        ],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Boost",
+              "difficulty": "White"
+            },
+            "amount": 1
+          }
         ]
       }
     ],
@@ -117,8 +127,13 @@
         "title": "Hull Upgrade",
         "type": "Modification",
         "text": "For those who cannot afford an enhanced shield generator, bolting additional plates onto the hull of a ship can serve as an adequate substitute.",
-        "slots": [
-          "Modification"
+        "slots": ["Modification"],
+        "grants": [
+          {
+            "type": "stat",
+            "value": "hull",
+            "amount": 1
+          }
         ]
       }
     ],
@@ -159,8 +174,13 @@
         "title": "Shield Upgrade",
         "type": "Modification",
         "text": "Deflector shields are a substantial line of defense on most starships beyond the lightest fighters. While enhancing a ship's shield capacity can be costly, all but the most confident or reckless pilots see the value in this sort of investment.",
-        "slots": [
-          "Modification"
+        "slots": ["Modification"],
+        "grants": [
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": 1
+          }
         ]
       }
     ],
