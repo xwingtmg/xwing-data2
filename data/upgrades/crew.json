@@ -98,6 +98,9 @@
         "title": "Agent Kallus",
         "type": "Crew",
         "ability": "Setup: Assign the Hunted condition to 1 enemy ship. While you perform an attack against th eship with the Hunted condition, you may change 1 of your [Focus] results to a [Hit] result.",
+        "conditions": [
+          "hunted"  
+          ],
         "slots": [
           "Crew"
         ]
@@ -347,6 +350,9 @@
         "title": "Director Krennic",
         "type": "Crew",
         "ability": "Setup: Before placing forces, assign the Optimized Prototype condition to another friendly ship.",
+        "conditions": [
+            "optimizedprototype"
+          ],
         "slots": [
           "Crew"
         ],
@@ -538,6 +544,9 @@
         "title": "Informant",
         "type": "Crew",
         "ability": "Setup: After placing forces, choose 1 enemy ship and assign the Listening Device condition to it.",
+        "conditions": [
+          "listeningdevice"
+          ],
         "slots": [
           "Crew"
         ]
