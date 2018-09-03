@@ -370,7 +370,8 @@
         "ability": "After you perform a [Coordinate] action, if the ship you coordinated performed a [Barrel Roll] or [Boost] action, it may gain 1 stress token to rotate 90˚.",
         "slots": [
           "Crew"
-        ]
+        ],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/65/4e/654ec955-2bf2-4c3a-adbc-1af5c1df72cb/swz07-ciena-ree.png"
       }
     ],
     "cost": {
@@ -429,7 +430,8 @@
         "force": {
           "value": 1,
           "recovers": 1
-        }
+        },
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/4b/b1/4bb1283b-cb60-4f97-b7d8-20c4d5b13af9/swz07_a2_darth-vader.png"
       }
     ],
     "cost": {
@@ -478,6 +480,7 @@
         "title": "Director Krennic",
         "type": "Crew",
         "ability": "Setup: Before placing forces, assign the Optimized Prototype condition to another friendly ship.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/e9/45/e9451849-9178-4c8a-b8c3-09195f02b64d/swz07_a2_krennic.png",
         "conditions": [
             "optimizedprototype"
           ],
