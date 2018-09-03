@@ -18,7 +18,10 @@
           "maxrange": 3
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 4
+    }
   },
   {
     "name": "Ion Cannon",
@@ -39,7 +42,10 @@
           "maxrange": 3
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 5
+    }
   },
   {
     "name": "Jamming Beam",
@@ -60,7 +66,10 @@
           "maxrange": 2
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 2
+    }
   },
   {
     "name": "Tractor Beam",
@@ -81,6 +90,9 @@
           "maxrange": 3
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   }
 ]

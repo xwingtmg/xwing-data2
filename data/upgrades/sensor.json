@@ -12,7 +12,10 @@
           "Sensor"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 8
+    }
   },
   {
     "name": "Collision Detector",
@@ -31,7 +34,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 5
+    }
   },
   {
     "name": "Fire-Control System",
@@ -46,7 +52,10 @@
           "Sensor"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Trajectory Simulator",
@@ -61,6 +70,9 @@
           "Sensor"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   }
 ]

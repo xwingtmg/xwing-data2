@@ -16,7 +16,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 4
+    }
   },
   {
     "name": "Advanced SLAM",
@@ -31,7 +34,10 @@
           "Modification"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Afterburners",
@@ -50,7 +56,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 8
+    }
   },
   {
     "name": "Electronic Baffle",
@@ -65,7 +74,10 @@
           "Modification"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 2
+    }
   },
   {
     "name": "Engine Upgrade",
@@ -86,7 +98,15 @@
           }
         ]
       }
-    ]
+    ],
+    "cost": {
+      "variable": "size",
+      "values": {
+        "Small": 3,
+        "Medium": 6,
+        "Large": 9
+      }
+    }
   },
   {
     "name": "Hull Upgrade",
@@ -101,7 +121,16 @@
           "Modification"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "variable": "agility",
+      "values": {
+        "0": 2,
+        "1": 3,
+        "2": 5,
+        "3": 7
+      }
+    }
   },
   {
     "name": "Munitions Failsafe",
@@ -116,7 +145,10 @@
           "Modification"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 2
+    }
   },
   {
     "name": "Shield Upgrade",
@@ -131,7 +163,16 @@
           "Modification"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "variable": "agility",
+      "values": {
+        "0": 3,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      }
+    }
   },
   {
     "name": "Static Discharge Vanes",
@@ -146,7 +187,10 @@
           "Modification"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 6
+    }
   },
   {
     "name": "Stealth Device",
@@ -165,7 +209,16 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "cost": {
+      "variable": "agility",
+      "values": {
+        "0": 3,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      }
+    }
   },
   {
     "name": "Tactical Scrambler",
@@ -180,6 +233,9 @@
           "Modification"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 2
+    }
   }
 ]

@@ -22,7 +22,10 @@
           "maxrange": 1
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 6
+    }
   },
   {
     "name": "Ion Torpedoes",
@@ -47,7 +50,10 @@
           "maxrange": 3
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 6
+    }
   },
   {
     "name": "Proton Torpedoes",
@@ -72,6 +78,9 @@
           "maxrange": 3
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 9
+    }
   }
 ]

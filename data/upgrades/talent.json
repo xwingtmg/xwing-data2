@@ -12,7 +12,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 2
+    }
   },
   {
     "name": "Crack Shot",
@@ -31,7 +34,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 1
+    }
   },
   {
     "name": "Daredevil",
@@ -46,7 +52,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Debris Gambit",
@@ -67,7 +76,10 @@
           }
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 2
+    }
   },
   {
     "name": "Elusive",
@@ -86,7 +98,10 @@
           "recovers": 0
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Expert Handling",
@@ -107,7 +122,15 @@
           }
         ]
       }
-    ]
+    ],
+    "cost": {
+      "variable": "size",
+      "values": {
+        "Small": 2,
+        "Medium": 4,
+        "Large": 6
+      }
+    }
   },
   {
     "name": "Fanatical",
@@ -122,7 +145,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 0
+    }
   },
   {
     "name": "Fearless",
@@ -137,7 +163,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Heroic",
@@ -152,7 +181,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 0
+    }
   },
   {
     "name": "Intimidation",
@@ -167,7 +199,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Juke",
@@ -182,7 +217,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 4
+    }
   },
   {
     "name": "Lone Wolf",
@@ -201,7 +239,10 @@
           "recovers": 1
         }
       }
-    ]
+    ],
+    "cost": {
+      "value": 4
+    }
   },
   {
     "name": "Marksmanship",
@@ -216,7 +257,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 1
+    }
   },
   {
     "name": "Outmaneuver",
@@ -231,7 +275,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 6
+    }
   },
   {
     "name": "Predator",
@@ -246,7 +293,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 2
+    }
   },
   {
     "name": "Ruthless",
@@ -261,7 +311,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 1
+    }
   },
   {
     "name": "Saturation Salvo",
@@ -276,7 +329,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 6
+    }
   },
   {
     "name": "Selfless",
@@ -291,7 +347,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Squad Leader",
@@ -312,7 +371,10 @@
           }
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 4
+    }
   },
   {
     "name": "Swarm Tactics",
@@ -327,7 +389,10 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Trick Shot",
@@ -342,6 +407,9 @@
           "Talent"
         ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 1
+    }
   }
 ]
