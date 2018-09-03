@@ -33,7 +33,15 @@
     ],
     "cost": {
       "value": 2
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "names": ["Darth Vader"]
+      }
+    ]
   },
   {
     "name": "Bistan",
@@ -51,7 +59,14 @@
     ],
     "cost": {
       "value": 14
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Bossk",
@@ -69,7 +84,14 @@
     ],
     "cost": {
       "value": 10
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Dengar",
@@ -91,7 +113,14 @@
     ],
     "cost": {
       "value": 6
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Ezra Bridger",
@@ -113,7 +142,14 @@
     ],
     "cost": {
       "value": 18
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Fifth Brother",
@@ -135,7 +171,14 @@
     ],
     "cost": {
       "value": 12
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Empire"
+        ]
+      }
+    ]
   },
   {
     "name": "Finn",
@@ -175,7 +218,14 @@
     ],
     "cost": {
       "value": 1
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Han Solo",
@@ -193,7 +243,14 @@
     ],
     "cost": {
       "value": 12
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Han Solo",
@@ -211,7 +268,14 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Scum and Villainy"
+        ]
+      }
+    ]
   },
   {
     "name": "Hotshot Gunner",
@@ -251,7 +315,14 @@
     ],
     "cost": {
       "value": 30
-    }
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ]
   },
   {
     "name": "Skilled Bombardier",
@@ -305,7 +376,14 @@
     ],
     "cost": {
       "value": 4
-    }
+    },
+    "restrictions": [
+      {
+        "arcs": [
+          "Rear Arc"
+        ]
+      }
+    ]
   },
   {
     "name": "Veteran Turret Gunner",
@@ -323,6 +401,13 @@
     ],
     "cost": {
       "value": 8
-    }
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Rotate Arc"
+        }
+      }
+    ]
   }
 ]

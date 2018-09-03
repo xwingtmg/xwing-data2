@@ -53,7 +53,14 @@
     ],
     "cost": {
       "value": 0
-    }
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "alphaclassstarwing"
+        ]
+      }
+    ]
   },
   {
     "name": "Pivot Wing",
@@ -79,7 +86,14 @@
     ],
     "cost": {
       "value": 0
-    }
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "ut60duwing"
+        ]
+      }
+    ]
   },
   {
     "name": "Servomotor S-foils",
@@ -119,7 +133,14 @@
     ],
     "cost": {
       "value": 0
-    }
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "t65xwing"
+        ]
+      }
+    ]
   },
   {
     "name": "Xg-1 Assault Configuration",
@@ -144,6 +165,13 @@
     ],
     "cost": {
       "value": 0
-    }
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "alphaclassstarwing"
+        ]
+      }
+    ]
   }
 ]
