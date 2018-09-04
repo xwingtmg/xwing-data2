@@ -120,6 +120,26 @@
               "type": "Boost"
             }
           }
+        ],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Boost",
+              "difficulty": "White"
+            }
+          },
+          {
+            "type": "action",
+            "value": {
+              "type": "Focus",
+              "difficulty": "White",
+              "linked": {
+                "type": "Boost",
+                "difficulty": "Red"
+              }
+            }
+          }
         ]
       },
       {
