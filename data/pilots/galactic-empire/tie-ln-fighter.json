@@ -58,7 +58,11 @@
       "cost": 40,
       "xws": "howlrunner",
       "ability": "While a friendly ship at range 0-1 performs a primary attack, that ship may reroll 1 attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/61/10/61100be4-2767-4d2c-a17f-5eb3c1a6c843/swz07_howlrunner.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/61/10/61100be4-2767-4d2c-a17f-5eb3c1a6c843/swz07_howlrunner.png",
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     },
     {
       "name": "\"Mauler\" Mithel",
@@ -68,7 +72,11 @@
       "cost": 32,
       "xws": "maulermithel",
       "ability": "While you perform an attack at attack range 1, roll 1 additional attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/a3/27a38715-323d-45ff-b72d-f37c347a362d/swz14_mauler.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/a3/27a38715-323d-45ff-b72d-f37c347a362d/swz14_mauler.png",
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     },
     {
       "name": "\"Night Beast\"",
@@ -78,7 +86,10 @@
       "cost": 26,
       "xws": "nightbeast",
       "ability": "After you fully execute a blue maneuver, you may perform a [Focus] action.",
-      "image": "https://i.imgur.com/FbwsflC.png"
+      "image": "https://i.imgur.com/FbwsflC.png",
+      "slots": [
+        "Modification"
+      ]
     },
     {
       "name": "\"Scourge\" Skutu",
@@ -88,7 +99,11 @@
       "cost": 32,
       "xws": "scourgeskutu",
       "ability": "While you perform an attack against a defender in your [Bullseye Arc], roll 1 additional attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/98/a2/98a2f940-77d7-4ecf-aa21-b2b3faa4715e/swz14_scourge.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/98/a2/98a2f940-77d7-4ecf-aa21-b2b3faa4715e/swz14_scourge.png",
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     },
     {
       "name": "\"Wampa\"",
@@ -102,7 +117,10 @@
       "charges": {
         "value": 1,
         "recovers": 1
-      }
+      },
+      "slots": [
+        "Modification"
+      ]
     },
     {
       "name": "Academy Pilot",
@@ -117,6 +135,9 @@
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/c9/4e/c94efa45-9cf7-4167-8e41-50d27d300f12/op066-academy-pilot.png",
           "source": "X-Wing Second Edition Launch Party"
         }
+      ],
+      "slots": [
+        "Modification"
       ]
     },
     {
@@ -126,7 +147,11 @@
       "cost": 26,
       "xws": "blacksquadronace",
       "text": "The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/62/88/6288850b-db3d-4ced-9b2e-6e2e0675acb5/swz01-black-squadron-ace.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/62/88/6288850b-db3d-4ced-9b2e-6e2e0675acb5/swz01-black-squadron-ace.png",
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     },
     {
       "name": "Del Meeko",
@@ -136,7 +161,11 @@
       "cost": 30,
       "xws": "delmeeko",
       "ability": "While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/21/c6/21c66049-cbee-4783-a346-6e7167b0f685/swz14_del-meeko.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/21/c6/21c66049-cbee-4783-a346-6e7167b0f685/swz14_del-meeko.png",
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     },
     {
       "name": "Gideon Hask",
@@ -146,7 +175,11 @@
       "cost": 30,
       "xws": "gideonhask",
       "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/95/aa/95aa2578-4127-4532-9cf4-df9cd63fc00c/swz14_gideon-hask.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/95/aa/95aa2578-4127-4532-9cf4-df9cd63fc00c/swz14_gideon-hask.png",
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     },
     {
       "name": "Iden Versio",
@@ -160,7 +193,11 @@
       "charges": {
         "value": 1,
         "recovers": 0
-      }
+      },
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     },
     {
       "name": "Obsidian Squadron Pilot",
@@ -175,6 +212,9 @@
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/12/55/12552f53-decc-49ff-8fe2-e4285d4ff31e/op066-obsidian-squadron-pilot.png",
           "source": "X-Wing Second Edition Launch Party"
         }
+      ],
+      "slots": [
+        "Modification"
       ]
     },
     {
@@ -189,7 +229,11 @@
       "charges": {
         "value": 1,
         "recovers": 0
-      }
+      },
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     },
     {
       "name": "Valen Rudor",
@@ -199,7 +243,11 @@
       "cost": 28,
       "xws": "valenrudor",
       "ability": "After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action.",
-      "image": "https://i.imgur.com/YFaADU4.png"
+      "image": "https://i.imgur.com/YFaADU4.png",
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     }
   ]
 }

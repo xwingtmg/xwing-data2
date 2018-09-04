@@ -59,7 +59,15 @@
       "cost": 47,
       "xws": "benthictwotubes",
       "ability": "After you perform a [Focus] action, you may transfer 1 of your focus tokens to a friendly ship at range 1-2.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/b0/b8/b0b8d767-7148-4a42-9072-b2716617a714/swz02_a1_benthic-tt.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/b0/b8/b0b8d767-7148-4a42-9072-b2716617a714/swz02_a1_benthic-tt.png",
+      "slots": [
+        "Sensor",
+        "Crew",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Blue Squadron Scout",
@@ -68,7 +76,14 @@
       "cost": 43,
       "xws": "bluesquadronscout",
       "text": "Used for deploying troops under the cover of darkness or into the heat of battle, the UT-60D U-wing fulfills the Rebellion's need for a swift and hardy troop transport.",
-      "image": "https://i.imgur.com/kZeAOLv.jpg"
+      "image": "https://i.imgur.com/kZeAOLv.jpg",
+      "slots": [
+        "Sensor",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Bodhi Rook",
@@ -78,7 +93,15 @@
       "cost": 49,
       "xws": "bodhirook",
       "ability": "Friendly ships can acquire locks onto objects at range 0-3 of any friendly ship.",
-      "image": "https://i.imgur.com/BesOcL5.jpg"
+      "image": "https://i.imgur.com/BesOcL5.jpg",
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Cassian Andor",
@@ -88,7 +111,15 @@
       "cost": 47,
       "xws": "cassianandor",
       "ability": "At the start of the Activation Phase, you may choose 1 friendly ship at range 1-3. If you do, that ship removes 1 stress token.",
-      "image": "https://i.imgur.com/adYRjQV.jpg"
+      "image": "https://i.imgur.com/adYRjQV.jpg",
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Heff Tobber",
@@ -98,7 +129,15 @@
       "cost": 45,
       "xws": "hefftobber",
       "ability": "After an enemy ship executes a maneuver, if it is at range 0, you may perform an action.",
-      "image": "https://i.imgur.com/Ti4Ak00.jpg"
+      "image": "https://i.imgur.com/Ti4Ak00.jpg",
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Magva Yarro",
@@ -108,7 +147,16 @@
       "cost": 50,
       "xws": "magvayarro",
       "ability": "While a friendly ship at range 0-2 defends, the attacker cannot reroll more than 1 attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/30/0c/300c137c-0c8f-41d0-8582-29601bf2ea38/swz02_a1_magva.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/30/0c/300c137c-0c8f-41d0-8582-29601bf2ea38/swz02_a1_magva.png",
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Partisan Renegade",
@@ -116,7 +164,15 @@
       "limited": 1,
       "cost": 43,
       "xws": "partisanrenegade",
-      "text": "Saw Gerrera's partisans were first established to oppose Separatist forces on Onderon during the Clone Wars and continued to wage war against galactic tyranny as the Empire rose to power."
+      "text": "Saw Gerrera's partisans were first established to oppose Separatist forces on Onderon during the Clone Wars and continued to wage war against galactic tyranny as the Empire rose to power.",
+      "slots": [
+        "Sensor",
+        "Crew",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Saw Gerrera",
@@ -126,7 +182,16 @@
       "cost": 52,
       "xws": "sawgerrera",
       "ability": "While a damaged friendly ship at range 0-3 performs an attack, it may reroll 1 attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/75/f3/75f36fb9-66dc-4f90-9bfe-b032aa311e66/swz02_a1_saw-gerrera.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/75/f3/75f36fb9-66dc-4f90-9bfe-b032aa311e66/swz02_a1_saw-gerrera.png",
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Configuration"
+      ]
     }
   ]
 }

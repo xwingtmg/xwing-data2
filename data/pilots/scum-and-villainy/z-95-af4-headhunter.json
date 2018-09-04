@@ -61,7 +61,12 @@
       "cost": 24,
       "xws": "binayrepirate",
       "text": "Operating from the Double Worlds, Talus and Tralus, Kath Scarlet's gang of smugglers and pirates would never be described as reputable or dependable - even by other criminals.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/ea/d3/ead3bbb4-7bbb-49fe-8904-3f3aabdda665/swz08-binayre-pirate.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/ea/d3/ead3bbb4-7bbb-49fe-8904-3f3aabdda665/swz08-binayre-pirate.png",
+      "slots": [
+        "Missile",
+        "Illicit",
+        "Modification"
+      ]
     },
     {
       "name": "Black Sun Soldier",
@@ -70,7 +75,13 @@
       "cost": 27,
       "xws": "blacksunsoldier",
       "text": "The vast and influential Black Sun crime syndicate can always find a use for talented pilots, provided they aren't particular about how they earn their credits.",
-      "image": "https://i.imgur.com/UzPH9n1.jpg"
+      "image": "https://i.imgur.com/UzPH9n1.jpg",
+      "slots": [
+        "Talent",
+        "Missile",
+        "Illicit",
+        "Modification"
+      ]
     },
     {
       "name": "Kaa'to Leeachos",
@@ -80,7 +91,13 @@
       "cost": 29,
       "xws": "kaatoleeachos",
       "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
-      "image": "https://i.imgur.com/Y5W8G9t.jpg"
+      "image": "https://i.imgur.com/Y5W8G9t.jpg",
+      "slots": [
+        "Talent",
+        "Missile",
+        "Illicit",
+        "Modification"
+      ]
     },
     {
       "name": "N'dru Suhlak",
@@ -89,7 +106,13 @@
       "limited": 1,
       "cost": 31,
       "xws": "ndrusuhlak",
-      "ability": "While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack die."
+      "ability": "While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack die.",
+      "slots": [
+        "Talent",
+        "Missile",
+        "Illicit",
+        "Modification"
+      ]
     },
     {
       "name": "Nashtah Pup",
@@ -102,7 +125,12 @@
       "shipAbility": {
         "name": "Escape Craft",
         "text": "Setup: Requires the Hound's Tooth. You must begin the game docked with the Hound's Tooth."
-      }
+      },
+      "slots": [
+        "Missile",
+        "Illicit",
+        "Modification"
+      ]
     }
   ]
 }

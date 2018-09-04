@@ -64,7 +64,15 @@
       "shipAbility": {
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at tange 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Tech",
+        "Crew",
+        "Device",
+        "Illicit",
+        "Modification"
+      ]
     },
     {
       "name": "Jakku Gunrunner",
@@ -77,7 +85,14 @@
       "shipAbility": {
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at tange 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
-      }
+      },
+      "slots": [
+        "Tech",
+        "Crew",
+        "Device",
+        "Illicit",
+        "Modification"
+      ]
     },
     {
       "name": "Sarco Plank",
@@ -91,7 +106,14 @@
       "shipAbility": {
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at tange 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
-      }
+      },
+      "slots": [
+        "Tech",
+        "Crew",
+        "Device",
+        "Illicit",
+        "Modification"
+      ]
     },
     {
       "name": "Unkar Plutt",
@@ -105,7 +127,14 @@
       "shipAbility": {
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at tange 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
-      }
+      },
+      "slots": [
+        "Tech",
+        "Crew",
+        "Device",
+        "Illicit",
+        "Modification"
+      ]
     }
   ]
 }

@@ -86,7 +86,14 @@
       "shipAbility": {
         "name": "Experimental Scanners",
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Torpedo",
+        "Astromech",
+        "Modification"
+      ]
     },
     {
       "name": "Gavin Darklighter",
@@ -100,7 +107,14 @@
       "shipAbility": {
         "name": "Experimental Scanners",
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Torpedo",
+        "Astromech",
+        "Modification"
+      ]
     },
     {
       "name": "Knave Squadron Escort",
@@ -113,7 +127,13 @@
       "shipAbility": {
         "name": "Experimental Scanners",
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
-      }
+      },
+      "slots": [
+        "Sensor",
+        "Torpedo",
+        "Astromech",
+        "Modification"
+      ]
     },
     {
       "name": "Rogue Squadron Escort",
@@ -126,7 +146,14 @@
       "shipAbility": {
         "name": "Experimental Scanners",
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Torpedo",
+        "Astromech",
+        "Modification"
+      ]
     }
   ]
 }

@@ -65,7 +65,17 @@
       "cost": 48,
       "xws": "esegetuketu",
       "ability": "While a friendly ship at range 0-2 defends or performs an attack, it may spend your focus tokens as if that ship has them.",
-      "image": "https://i.imgur.com/c5763ZP.jpg"
+      "image": "https://i.imgur.com/c5763ZP.jpg",
+      "slots": [
+        "Torpedo",
+        "Missile",
+        "Missile",
+        "Gunner",
+        "Crew",
+        "Device",
+        "Device",
+        "Modification"
+      ]
     },
     {
       "name": "Miranda Doni",
@@ -75,7 +85,17 @@
       "cost": 50,
       "xws": "mirandadoni",
       "ability": "While you perform a primary attack, you may either spend 1 shield to roll 1 additional attack die or, if you are not shielded, you may roll 1 fewer attack die to recover 1 shield.",
-      "image": "https://i.imgur.com/fQQiELo.png"
+      "image": "https://i.imgur.com/fQQiELo.png",
+      "slots": [
+        "Torpedo",
+        "Missile",
+        "Missile",
+        "Gunner",
+        "Crew",
+        "Device",
+        "Device",
+        "Modification"
+      ]
     },
     {
       "name": "Warden Squadron Pilot",
@@ -84,7 +104,17 @@
       "cost": 40,
       "xws": "wardensquadronpilot",
       "text": "Koensayr Manufacturing's K-wing boasts an advanced SubLight Acceleration Motor and an unprecedented 18 hard points, granting it unrivaled speed and firepower.",
-      "image": "https://i.imgur.com/AZswO0L.png"
+      "image": "https://i.imgur.com/AZswO0L.png",
+      "slots": [
+        "Torpedo",
+        "Missile",
+        "Missile",
+        "Gunner",
+        "Crew",
+        "Device",
+        "Device",
+        "Modification"
+      ]
     }
   ]
 }

@@ -61,7 +61,15 @@
       "cost": 42,
       "xws": "blacksunace",
       "text": "The Kihraxz assault fighter was developed specifically for the Black Sun crime syndicate, whose highly paid ace pilots demanded a nimble, powerful ship to match their skills.",
-      "image": "https://i.imgur.com/ZYRFasJ.jpg"
+      "image": "https://i.imgur.com/ZYRFasJ.jpg",
+      "slot": [
+        "Talent",
+        "Missile",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Modification"
+      ]
     },
     {
       "name": "Captain Jostero",
@@ -71,7 +79,14 @@
       "cost": 43,
       "xws": "captainjostero",
       "ability": "After an enemy ship suffers damage, if it is not defending, you may perform a bonus attack against that ship.",
-      "image": "https://i.imgur.com/67wUh8L.jpg"
+      "image": "https://i.imgur.com/67wUh8L.jpg",
+      "slot": [
+        "Missile",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Modification"
+      ]
     },
     {
       "name": "Cartel Marauder",
@@ -80,7 +95,14 @@
       "cost": 40,
       "xws": "cartelmarauder",
       "text": "The versatile Kihraxz was modeled after Incom's popular X-wing starfighter, but an array of aftermarket modification kits ensure a wide variety of designs.",
-      "image": "https://i.imgur.com/kdQmuom.png"
+      "image": "https://i.imgur.com/kdQmuom.png",
+      "slot": [
+        "Missile",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Modification"
+      ]
     },
     {
       "name": "Graz",
@@ -90,7 +112,15 @@
       "cost": 47,
       "xws": "graz",
       "ability": "While you defend, if you are behind the attacker, roll 1 additional defense die. While you perform an attack, if you are behind the defender roll 1 additional attack die.",
-      "image": "https://i.imgur.com/OXH2wCn.jpg"
+      "image": "https://i.imgur.com/OXH2wCn.jpg",
+      "slot": [
+        "Talent",
+        "Missile",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Modification"
+      ]
     },
     {
       "name": "Talonbane Cobra",
@@ -100,7 +130,15 @@
       "cost": 50,
       "xws": "talonbanecobra",
       "ability": "While you defend at attack range 3 or perform an attack at range 1, roll 1 additional die.",
-      "image": "https://i.imgur.com/AWCWeti.png"
+      "image": "https://i.imgur.com/AWCWeti.png",
+      "slot": [
+        "Talent",
+        "Missile",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Modification"
+      ]
     },
     {
       "name": "Viktor Hel",
@@ -110,7 +148,15 @@
       "cost": 45,
       "xws": "viktorhel",
       "ability": "After you defend, if you did not roll exactly 2 defense dice, the attack gains 1 stress token.",
-      "image": "https://i.imgur.com/alrLzq1.jpg"
+      "image": "https://i.imgur.com/alrLzq1.jpg",
+      "slot": [
+        "Talent",
+        "Missile",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Modification"
+      ]
     }
   ]
 }

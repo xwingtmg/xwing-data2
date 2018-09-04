@@ -81,7 +81,8 @@
       "shipAbility": {
         "name": "Rigged Energy Cells",
         "text": "During the System Phase, if you are not docked, lose 1 [Charge]. At the end of the Activation Phase, if you have 0 [Charge], you are destroyed. Before you are removed, each ship at range 0-1 suffers 1 [Critical Hit] damage."
-      }
+      },
+      "slots": []
     },
     {
       "name": "L3-37",
@@ -109,7 +110,12 @@
       "shipAbility": {
         "name": "Co-Pilot",
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Crew",
+        "Modification"
+      ]
     },
     {
       "name": "Lando Calrissian",
@@ -126,7 +132,12 @@
       "shipAbility": {
         "name": "Co-Pilot",
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
-      }
+      },
+      "stats": [
+        "Talent",
+        "Crew",
+        "Modification"
+      ]
     },
     {
       "name": "Outer Rim Pioneer",
@@ -140,7 +151,12 @@
       "shipAbility": {
         "name": "Co-Pilot",
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
-      }
+      },
+      "stats": [
+        "Talent",
+        "Crew",
+        "Modification"
+      ]
     }
   ]
 }

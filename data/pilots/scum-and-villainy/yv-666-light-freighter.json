@@ -61,7 +61,18 @@
       "cost": 70,
       "xws": "bossk",
       "ability": "While you perform a primary attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.",
-      "image": "https://i.imgur.com/CKPzcSB.png"
+      "image": "https://i.imgur.com/CKPzcSB.png",
+      "slots": [
+        "Talent",
+        "Cannon",
+        "Missile",
+        "Crew",
+        "Crew",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Latts Razzi",
@@ -71,7 +82,18 @@
       "cost": 66,
       "xws": "lattsrazzi",
       "ability": "At the start of the Engagement Phase, you may choose a ship at range 1 and spend a lock you have on that ship. If you do, that ship gains 1 tractor token.",
-      "image": "https://i.imgur.com/sqpKyIj.jpg"
+      "image": "https://i.imgur.com/sqpKyIj.jpg",
+      "slots": [
+        "Talent",
+        "Cannon",
+        "Missile",
+        "Crew",
+        "Crew",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Moralo Eval",
@@ -85,7 +107,18 @@
       "charges": {
         "value": 2,
         "recovers": 0
-      }
+      },
+      "slots": [
+        "Talent",
+        "Cannon",
+        "Missile",
+        "Crew",
+        "Crew",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Trandoshan Slaver",
@@ -95,7 +128,17 @@
       "cost": 58,
       "xws": "trandoshanslaver",
       "text": "The spacious triple-decker design of the YV-666 makes it popular among bounty hunters and slavers, who often retrofit an entire deck for prisoner transport.",
-      "image": "https://i.imgur.com/oL3jSvG.png"
+      "image": "https://i.imgur.com/oL3jSvG.png",
+      "slots": [
+        "Cannon",
+        "Missile",
+        "Crew",
+        "Crew",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     }
   ]
 }
