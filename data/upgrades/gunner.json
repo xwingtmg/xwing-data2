@@ -51,7 +51,7 @@
       {
         "title": "Bistan",
         "type": "Gunner",
-        "ability": "After you perform a primary attack, if you are focused, you may perform a bonus [Turret] attack against a shipe you have not already attacked this round.",
+        "ability": "After you perform a primary attack, if you are focused, you may perform a bonus [Single Turret Arc] attack against a shipe you have not already attacked this round.",
         "slots": [
           "Gunner"
         ]
@@ -130,7 +130,7 @@
       {
         "title": "Ezra Bridger",
         "type": "Gunner",
-        "ability": "After you perform a primary attack, you may spend 1 [Force] to perform a bonus [Turret] attack from a [Turret] you have not attacked from this round. If you do and you are stressed, you may reroll 1 attack die.",
+        "ability": "After you perform a primary attack, you may spend 1 [Force] to perform a bonus [Single Turret Arc] attack from a [Single Turret Arc] you have not attacked from this round. If you do and you are stressed, you may reroll 1 attack die.",
         "slots": [
           "Gunner"
         ],
@@ -235,7 +235,7 @@
       {
         "title": "Han Solo",
         "type": "Gunner",
-        "ability": "During the Engagement Phase, at initiative 7, you may perform a [Turret] attack. You cannot attack from that [Turret] again this round.",
+        "ability": "During the Engagement Phase, at initiative 7, you may perform a [Single Turret Arc] attack. You cannot attack from that [Single Turret Arc] again this round.",
         "slots": [
           "Gunner"
         ]
@@ -285,7 +285,7 @@
       {
         "title": "Hotshot Gunner",
         "type": "Gunner",
-        "ability": "While you perform a [Turret] attack, after the Modify Defense Dice step, the defender removes 1 focus or calculate token.",
+        "ability": "While you perform a [Single Turret Arc] attack, after the Modify Defense Dice step, the defender removes 1 focus or calculate token.",
         "slots": [
           "Gunner"
         ]
@@ -303,7 +303,7 @@
       {
         "title": "Luke Skywalker",
         "type": "Gunner",
-        "ability": "At the start of the Engagement Phase, you may spend 1 [Force] to rotate your [Turret] indicator.",
+        "ability": "At the start of the Engagement Phase, you may spend 1 [Force] to rotate your [Single Turret Arc] indicator.",
         "slots": [
           "Gunner"
         ],
@@ -393,7 +393,7 @@
       {
         "title": "Veteran Turret Gunner",
         "type": "Gunner",
-        "ability": "After you perform a primary attack, you may perform a bonus [Turret] attack using a [Turret] you did not already attack from this round.",
+        "ability": "After you perform a primary attack, you may perform a bonus [Single Turret Arc] attack using a [Single Turret Arc] you did not already attack from this round.",
         "slots": [
           "Gunner"
         ]
