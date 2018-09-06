@@ -78,13 +78,7 @@
       "cost": 26,
       "xws": "nightbeast",
       "ability": "After you fully execute a blue maneuver, you may perform a [Focus] action.",
-      "image": "https://i.imgur.com/FbwsflC.png",
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/12/55/12552f53-decc-49ff-8fe2-e4285d4ff31e/op066-obsidian-squadron-pilot.png",
-          "source": "X-Wing Second Edition Launch Party"
-        }
-      ]
+      "image": "https://i.imgur.com/FbwsflC.png"
     },
     {
       "name": "\"Scourge\" Skutu",
@@ -175,7 +169,13 @@
       "cost": 24,
       "xws": "obsidiansquadronpilot",
       "text": "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass-produced.",
-      "image": "https://i.imgur.com/DDeq1x3.jpg"
+      "image": "https://i.imgur.com/DDeq1x3.jpg",
+      "alt": [
+        {
+          "image": "https://images-cdn.fantasyflightgames.com/filer_public/12/55/12552f53-decc-49ff-8fe2-e4285d4ff31e/op066-obsidian-squadron-pilot.png",
+          "source": "X-Wing Second Edition Launch Party"
+        }
+      ]
     },
     {
       "name": "Seyn Marana",
