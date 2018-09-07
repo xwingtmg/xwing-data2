@@ -25,7 +25,7 @@
       {
         "title": "Collision Detector",
         "type": "Sensor",
-        "ability": "While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 [Charge] to ignore its effects ntie the end of the round.",
+        "ability": "While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 [Charge] to ignore its effects until the end of the round.",
         "slots": [
           "Sensor"
         ],
@@ -66,7 +66,7 @@
       {
         "title": "Trajectory Simulator",
         "type": "Sensor",
-        "ability": "During the System Phase, if you would drop or launch a bomb, you may launch it using the (5 [Straight]) tempplate instead.",
+        "ability": "During the System Phase, if you would drop or launch a bomb, you may launch it using the (5 [Straight]) template instead.",
         "slots": [
           "Sensor"
         ]
