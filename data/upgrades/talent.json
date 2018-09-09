@@ -33,6 +33,7 @@
         "title": "Crack Shot",
         "type": "Talent",
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], before the Neutralize Results step, you may spend 1 [Charge] to cancel 1 [Evade] result.",
+        "images": "https://images-cdn.fantasyflightgames.com/filer_public/86/d9/86d9931b-ee81-4c50-af26-7115febef89d/swz01_a4_crackshot.png",
         "slots": [
           "Talent"
         ],
@@ -55,6 +56,7 @@
         "title": "Daredevil",
         "type": "Talent",
         "ability": "While you perform a while [Boost] action, you may treat it as red to use the [1[Turn Left]] or [1 [Turn Right]] template instead.",
+        "images": "https://images-cdn.fantasyflightgames.com/filer_public/55/65/55659ceb-e6e7-475b-aabd-1791e9854f3b/swz17_daredevil.png",
         "slots": [
           "Talent"
         ]
@@ -158,6 +160,7 @@
         "title": "Expert Handling",
         "type": "Talent",
         "text": "While heavy fighters can often be coaxed into a barrel roll, seasoned pilots know how to do it without putting undue stress on their craft or leaving themselves open to attack.",
+        "images": "https://images-cdn.fantasyflightgames.com/filer_public/ca/54/ca54d4e0-7d84-4171-b685-c3b10772dd78/swz01_a5_expert-handling.png",
         "slots": [
           "Talent"
         ],
@@ -205,6 +208,7 @@
         "title": "Fanatical",
         "type": "Talent",
         "ability": "While you perform a primary attack, if you are not shielded, you may change 1 [Focus] result to a [Hit] result.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/6d/44/6d440bea-11dd-4e4c-b7ef-167a4b6d23e2/swz18_a1_fanatical.png",
         "slots": [
           "Talent"
         ]
@@ -223,6 +227,7 @@
         "title": "Fearless",
         "type": "Talent",
         "ability": "While you perform a [Front Arc] primary attack, if the attack range is 1 and you are in the defender's [Front Arc], you may change 1 of your results to a [Hit] result.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/71/ac/71ac027a-ce78-409d-a05e-0d7795225a8c/swz08-fearless.png",
         "slots": [
           "Talent"
         ]
@@ -287,7 +292,13 @@
         "slots": [
           "Talent"
         ],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/a3/57/a357f9aa-dc26-45d4-894f-b6ff33f05aab/swz14_juke.png"
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/a3/57/a357f9aa-dc26-45d4-894f-b6ff33f05aab/swz14_juke.png",
+        "alt": [
+          {
+            "image": "https://images-cdn.fantasyflightgames.com/filer_public/4c/e1/4ce1fe4d-b778-4dc9-8272-23aac7c3884d/g18xs_juke2nd.png",
+            "source": "Store Championship 2018"
+          }
+        ]
       }
     ],
     "cost": {
@@ -334,6 +345,7 @@
         "title": "Marksmanship",
         "type": "Talent",
         "ability": "While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.",
+        "images": "https://images-cdn.fantasyflightgames.com/filer_public/1a/55/1a5549b4-e246-4409-8064-52b22f454c4d/swz01_a4_marksmanship.png",
         "slots": [
           "Talent"
         ]
@@ -352,6 +364,7 @@
         "title": "Outmaneuver",
         "type": "Talent",
         "ability": "While you perform a [Front Arc] arrack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.",
+        "images": "https://images-cdn.fantasyflightgames.com/filer_public/1d/f4/1df42725-46a8-45ff-8fd2-d8b649f0510c/swz01_a7_outmaneuver.png",
         "slots": [
           "Talent"
         ]
@@ -389,6 +402,7 @@
         "title": "Ruthless",
         "type": "Talent",
         "ability": "While you perform an attack, you may choose another friendly ship at range 0-1 of the defender. If you do, that ship suffers 1 [Hit] damage and you may change 1 of your die results to a [Hit] result.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/42/01/42018820-f3e5-4f11-8a95-e5ebbf1d9fd9/swz07-ruthless.png",
         "slots": [
           "Talent"
         ]
@@ -438,7 +452,8 @@
       {
         "title": "Selfless",
         "type": "Talent",
-        "ability": "Whlie another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Critical Hit] damage to cancel 1 [Critical Hit] result.",
+        "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Critical Hit] damage to cancel 1 [Critical Hit] result.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/dd/ff/ddff7918-ccd9-4dd6-b7f5-ecfe7d5b2e9e/swz06-selfless.png",
         "slots": [
           "Talent"
         ]
@@ -464,6 +479,7 @@
         "title": "Squad Leader",
         "type": "Talent",
         "ability": "While you coordinate, the ship you choose can perform an action only if that action is also on your action bar.",
+        "images": "https://images-cdn.fantasyflightgames.com/filer_public/c3/5b/c35b9f4e-0a97-491c-9476-ab6fdb512ded/swz15_a1_squad-leader.png",
         "slots": [
           "Talent"
         ],
@@ -516,6 +532,7 @@
         "title": "Trick Shot",
         "type": "Talent",
         "ability": "While you perform an attack that is obstructed by an obstacle, roll 1 additional attack die.",
+        "images": "https://images-cdn.fantasyflightgames.com/filer_public/ba/22/ba226a64-5ba6-481c-a576-921a3a00f9e5/swz02_a1_trick-shot.png",
         "slots": [
           "Talent"
         ]
