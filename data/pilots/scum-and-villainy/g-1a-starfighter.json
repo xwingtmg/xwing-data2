@@ -79,7 +79,7 @@
       "limited": 0,
       "cost": 43,
       "xws": "gandfindsman",
-      "text": "The legendary Findsmen of Gand worship enshrouding mists of their home planet, using signs, augurs, and mystical rituals to track their quarry.",
+      "text": "The legendary Findsmen of Gand worship the enshrouding mists of their home planet, using signs, augurs, and mystical rituals to track their quarry.",
       "image": "https://i.imgur.com/yYVXjCS.png",
       "shipActions": [
         {
@@ -112,6 +112,12 @@
       "xws": "zuckuss",
       "ability": "While you perform a primary attack, you may roll 1 additional attack die. If you do, the defender rolls 1 additional defense die.",
       "image": "https://i.imgur.com/7FoHkE4.jpg",
+      "alt": [
+        {
+          "image": "https://images-cdn.fantasyflightgames.com/filer_public/62/69/6269d549-8a5b-40f6-84cb-6ef6fa47212f/op067_zuckuss.png",
+          "source": "Coruscant Invitational 2018"
+        }
+      ],
       "shipActions": [
         {
           "difficulty": "White",
