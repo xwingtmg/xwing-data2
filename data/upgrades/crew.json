@@ -496,6 +496,12 @@
         "type": "Crew",
         "ability": "Setup: Before placing forces, assign the Optimized Prototype condition to another friendly ship.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/e9/45/e9451849-9178-4c8a-b8c3-09195f02b64d/swz07_a2_krennic.png",
+        "alt": [
+          {
+            "image": "https://images-cdn.fantasyflightgames.com/filer_public/10/21/1021c262-702e-4857-9204-35756e051c2c/g18xs_krennic2nd.png",
+            "source": "Store Championship 2018"
+          }
+        ],
         "conditions": [
             "optimizedprototype"
           ],
