@@ -81,7 +81,16 @@
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
-      }
+      },
+      "slots": [
+        "Turret",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Hera Syndulla",
@@ -95,7 +104,17 @@
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Turret",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Kanan Jarrus",
@@ -113,7 +132,17 @@
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
-      }
+      },
+      "slots": [
+        "Force Power",
+        "Turret",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Lothal Rebel",
@@ -126,7 +155,16 @@
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
-      }
+      },
+      "slots": [
+        "Turret",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Modification",
+        "Title"
+      ]
     }
   ]
 }

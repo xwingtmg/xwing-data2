@@ -67,7 +67,15 @@
       "cost": 48,
       "xws": "captainkagi",
       "ability": "At the start of the Engagement Phase, you may choose 1 or more friendly ships at range 0-3. If you do, transfer all enemy lock tokens from the chosen ships to you.",
-      "image": "https://i.imgur.com/s4RmmAe.jpg"
+      "image": "https://i.imgur.com/s4RmmAe.jpg",
+      "slots": [
+        "Sensor",
+        "Cannon",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Colonel Jendon",
@@ -81,7 +89,15 @@
       "charges": {
         "value": 2,
         "recovers": 0
-      }
+      },
+      "slots": [
+        "Sensor",
+        "Cannon",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Lieutenant Sai",
@@ -95,7 +111,15 @@
       "charges": {
         "value": 2,
         "recovers": 0
-      }
+      },
+      "slots": [
+        "Sensor",
+        "Cannon",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Omicron Group Pilot",
@@ -104,7 +128,15 @@
       "cost": 43,
       "xws": "omicrongrouppilot",
       "text": "Noted for its tri-wing design and advanced sensor suite, the Lambda-class shuttle serves a critical role as a light utility craft in the Imperial Navy.",
-      "image": "https://i.imgur.com/Bdeg9gR.png"
+      "image": "https://i.imgur.com/Bdeg9gR.png",
+      "slots": [
+        "Sensor",
+        "Cannon",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Title"
+      ]
     }
   ]
 }

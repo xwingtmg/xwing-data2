@@ -69,7 +69,14 @@
       "cost": 52,
       "xws": "contractedscout",
       "text": "Built for long-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
-      "image": "https://i.imgur.com/FEZzvV0.png"
+      "image": "https://i.imgur.com/FEZzvV0.png",
+      "slots": [
+        "Crew",
+        "Torpedo",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Dengar",
@@ -89,7 +96,15 @@
       "charges": {
         "value": 1,
         "recovers": 1
-      }
+      },
+      "slots": [
+        "Talent",
+        "Crew",
+        "Torpedo",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Manaroo",
@@ -99,7 +114,15 @@
       "cost": 56,
       "xws": "manaroo",
       "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.",
-      "image": "https://i.imgur.com/Jmm6wZQ.jpg"
+      "image": "https://i.imgur.com/Jmm6wZQ.jpg",
+      "slots": [
+        "Talent",
+        "Crew",
+        "Torpedo",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Tel Trevura",
@@ -113,7 +136,15 @@
       "charges": {
         "value": 1,
         "recovers": 0
-      }
+      },
+      "slots": [
+        "Talent",
+        "Crew",
+        "Torpedo",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     }
   ]
 }

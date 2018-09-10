@@ -63,7 +63,15 @@
       "cost": 49,
       "xws": "4lom",
       "ability": "After you fully execute a red maneuver, gain 1 calculate token. At the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.",
-      "image": "https://i.imgur.com/Jbxrnua.png"
+      "image": "https://i.imgur.com/Jbxrnua.png",
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Gand Findsman",
@@ -86,6 +94,13 @@
           "difficulty": "White",
           "type": "Jam"
         }
+      ],
+      "slots": [
+        "Sensor",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Title"
       ]
     },
     {
@@ -116,6 +131,14 @@
           "difficulty": "White",
           "type": "Jam"
         }
+      ],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Title"
       ]
     }
   ]

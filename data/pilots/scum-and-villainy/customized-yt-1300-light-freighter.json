@@ -65,7 +65,16 @@
       "limited": 0,
       "cost": 46,
       "xws": "freightercaptain",
-      "text": "Many spacers make a living traveling the Outer Rim, where the difference between smuggler and legitimate merchant is often murky. On the outskirts of civilization, buyers are rarely so discerning to ask where merchandise came from, at least as long as the price is low enough."
+      "text": "Many spacers make a living traveling the Outer Rim, where the difference between smuggler and legitimate merchant is often murky. On the outskirts of civilization, buyers are rarely so discerning to ask where merchandise came from, at least as long as the price is low enough.",
+      "slots": [
+        "Missile",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Han Solo",
@@ -75,7 +84,17 @@
       "cost": 54,
       "xws": "hansolo",
       "ability": "While you defend or perform a primary attack, if the attack is obstructed by an obstacle, you may roll 1 additional die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/ee/b4/eeb48172-25f2-461e-979a-18b835b834a4/swz04_han-solo.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/ee/b4/eeb48172-25f2-461e-979a-18b835b834a4/swz04_han-solo.png",
+      "slots": [
+        "Talent",
+        "Missile",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "L3-37",
@@ -103,6 +122,15 @@
           "difficulty": "White",
           "type": "Rotate Arc"
         }
+      ],
+      "slots": [
+        "Missile",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Title"
       ]
     },
     {
@@ -113,7 +141,17 @@
       "cost": 49,
       "xws": "landocalrissian",
       "ability": "After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/8a/97/8a977269-7a61-47b4-9a89-b51c03de8dc5/swz04_a1_pilot-card_lando.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/8a/97/8a977269-7a61-47b4-9a89-b51c03de8dc5/swz04_a1_pilot-card_lando.png",
+      "slots": [
+        "Talent",
+        "Missile",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     }
   ]
 }

@@ -75,7 +75,11 @@
       "shipAbility": {
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Missile"
+      ]
     },
     {
       "name": "Green Squadron Pilot",
@@ -88,7 +92,11 @@
       "shipAbility": {
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Missile"
+      ]
     },
     {
       "name": "Jake Farrell",
@@ -102,7 +110,11 @@
       "shipAbility": {
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Missile"
+      ]
     },
     {
       "name": "Phoenix Squadron Pilot",
@@ -115,7 +127,10 @@
       "shipAbility": {
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
-      }
+      },
+      "slots": [
+        "Missile"
+      ]
     }
   ]
 }

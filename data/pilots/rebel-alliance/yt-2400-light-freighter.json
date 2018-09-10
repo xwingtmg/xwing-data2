@@ -89,7 +89,15 @@
       "shipAbility": {
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
-      }
+      },
+      "slots": [
+        "Missile",
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Dash Rendar",
@@ -103,7 +111,16 @@
       "shipAbility": {
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Missile",
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Wild Space Fringer",
@@ -116,7 +133,15 @@
       "shipAbility": {
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
-      }
+      },
+      "slots": [
+        "Missile",
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Title"
+      ]
     }
   ]
 }

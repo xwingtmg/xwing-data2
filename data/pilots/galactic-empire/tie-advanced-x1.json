@@ -82,7 +82,13 @@
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      }
+      },
+      "slots": [
+        "Force Power",
+        "Sensor",
+        "Missile",
+        "Modification"
+      ]
     },
     {
       "name": "Maarek Stele",
@@ -96,7 +102,13 @@
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Missile",
+        "Modification"
+      ]
     },
     {
       "name": "Storm Squadron Ace",
@@ -109,7 +121,13 @@
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Missile",
+        "Modification"
+      ]
     },
     {
       "name": "Tempest Squadron Pilot",
@@ -127,7 +145,12 @@
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      }
+      },
+      "slots": [
+        "Sensor",
+        "Missile",
+        "Modification"
+      ]
     },
     {
       "name": "Ved Foslo",
@@ -141,7 +164,13 @@
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Missile",
+        "Modification"
+      ]
     },
     {
       "name": "Zertik Strom",
@@ -155,7 +184,12 @@
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      }
+      },
+      "slots": [
+        "Sensor",
+        "Missile",
+        "Modification"
+      ]
     }
   ]
 }
