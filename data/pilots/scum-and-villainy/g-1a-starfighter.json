@@ -43,7 +43,7 @@
   "actions": [
     {
       "difficulty": "White",
-      "type": "Calculate"
+      "type": "Focus"
     },
     {
       "difficulty": "White",
@@ -71,6 +71,20 @@
         "Illicit",
         "Modification",
         "Title"
+      ],
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        }
       ]
     },
     {
@@ -81,20 +95,6 @@
       "xws": "gandfindsman",
       "text": "The legendary Findsmen of Gand worship the enshrouding mists of their home planet, using signs, augurs, and mystical rituals to track their quarry.",
       "image": "https://i.imgur.com/yYVXjCS.png",
-      "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Focus"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Jam"
-        }
-      ],
       "slots": [
         "Sensor",
         "Crew",
@@ -116,20 +116,6 @@
         {
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/62/69/6269d549-8a5b-40f6-84cb-6ef6fa47212f/op067_zuckuss.png",
           "source": "Coruscant Invitational 2018"
-        }
-      ],
-      "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Focus"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Jam"
         }
       ],
       "slots": [
