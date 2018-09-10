@@ -61,8 +61,14 @@
       "image": "https://i.imgur.com/kVPdfuW.jpg",
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
-      }
+        "text": "Before you reveal your dial, if you are not stressed, you must execute a white (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) maneuver."
+      },
+      "slots": [
+        "Talent",
+        "Gunner",
+        "Device",
+        "Modification"
+      ]
     },
     {
       "name": "\"Duchess\"",
@@ -75,8 +81,14 @@
       "image": "https://i.imgur.com/x4zm9K5.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
-      }
+        "text": "Before you reveal your dial, if you are not stressed, you must execute a white (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) maneuver."
+      },
+      "slots": [
+        "Talent",
+        "Gunner",
+        "Device",
+        "Modification"
+      ]
     },
     {
       "name": "\"Pure Sabacc\"",
@@ -90,7 +102,13 @@
       "shipAbility": {
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Gunner",
+        "Device",
+        "Modification"
+      ]
     },
     {
       "name": "Black Squadron Scout",
@@ -103,7 +121,13 @@
       "shipAbility": {
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Gunner",
+        "Device",
+        "Modification"
+      ]
     },
     {
       "name": "Planetary Sentinel",
@@ -116,7 +140,12 @@
       "shipAbility": {
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
-      }
+      },
+      "slots": [
+        "Gunner",
+        "Device",
+        "Modification"
+      ]
     }
   ]
 }

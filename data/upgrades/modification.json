@@ -64,6 +64,7 @@
         "title": "Afterburners",
         "type": "Modification",
         "ability": "After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.",
+        "images": "https://images-cdn.fantasyflightgames.com/filer_public/3c/3a/3c3a7d01-4552-4944-ad86-9902d141dd86/swz17_afterburners.png",
         "slots": [
           "Modification"
         ],
@@ -158,6 +159,7 @@
         "title": "Hull Upgrade",
         "type": "Modification",
         "text": "For those who cannot afford an enhanced shield generator, bolting additional plates onto the hull of a ship can serve as an adequate substitute.",
+        "images": "https://images-cdn.fantasyflightgames.com/filer_public/84/f3/84f33996-8984-4fd7-806d-1014cbd91ab8/swz01_a7_hull-upgrade.png",
         "slots": ["Modification"],
         "grants": [
           {
@@ -205,6 +207,12 @@
         "title": "Shield Upgrade",
         "type": "Modification",
         "text": "Deflector shields are a substantial line of defense on most starships beyond the lightest fighters. While enhancing a ship's shield capacity can be costly, all but the most confident or reckless pilots see the value in this sort of investment.",
+        "alt": [
+          {
+            "image": "https://images-cdn.fantasyflightgames.com/filer_public/2a/c1/2ac1eae4-dd25-4807-b09e-df97786a2093/g18x3-shield-upgrade-2.png",
+            "source": "Season Three 2018"
+          }
+        ],
         "slots": ["Modification"],
         "grants": [
           {
@@ -252,6 +260,7 @@
         "title": "Stealth Device",
         "type": "Modification",
         "ability": "While you defend, if your [Charge] is active, roll 1 additional defense die. After you suffer damage, lost 1 [Charge].",
+        "images": "https://images-cdn.fantasyflightgames.com/filer_public/8c/a1/8ca15a1e-3864-4245-8418-416030ac57ab/swz14_stealth-device.png",
         "slots": [
           "Modification"
         ],

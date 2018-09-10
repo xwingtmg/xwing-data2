@@ -80,7 +80,12 @@
       "cost": 34,
       "xws": "baronoftheempire",
       "text": "Sienar Fleet System's TIE Advanced v1 is a groundbreaking starfighter design, featuring upgraded engines, a missile launcher, and folding s-foils.",
-      "image": "https://i.imgur.com/6CV2VXS.png"
+      "image": "https://i.imgur.com/6CV2VXS.png",
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Missile"
+      ]
     },
     {
       "name": "Grand Inquisitor",
@@ -94,7 +99,12 @@
       "force": {
         "value": 2,
         "recovers": 1
-      }
+      },
+      "slots": [
+        "Force Power",
+        "Sensor",
+        "Missile"
+      ]
     },
     {
       "name": "Inquisitor",
@@ -107,7 +117,12 @@
       "force": {
         "value": 1,
         "recovers": 1
-      }
+      },
+      "slots": [
+        "Force Power",
+        "Sensor",
+        "Missile"
+      ]
     },
     {
       "name": "Seventh Sister",
@@ -121,7 +136,12 @@
       "force": {
         "value": 2,
         "recovers": 1
-      }
+      },
+      "slots": [
+        "Force Power",
+        "Sensor",
+        "Missile"
+      ]
     }
   ]
 }

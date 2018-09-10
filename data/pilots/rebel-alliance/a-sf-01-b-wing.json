@@ -66,7 +66,15 @@
       "cost": 44,
       "xws": "bladesquadronveteran",
       "text": "A unique gyrostabilization system surrounds the B-wing's cockpit, ensuring that the pilot always remains stationary during flight.",
-      "image": "https://i.imgur.com/VQ0xIC7.jpg"
+      "image": "https://i.imgur.com/VQ0xIC7.jpg",
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Cannon",
+        "Torpedo",
+        "Modification"
+      ]
     },
     {
       "name": "Blue Squadron Pilot",
@@ -75,7 +83,20 @@
       "cost": 42,
       "xws": "bluesquadronpilot",
       "text": "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter.",
-      "image": "https://i.imgur.com/Rdr3gF5.png"
+      "image": "https://i.imgur.com/Rdr3gF5.png",
+      "slots": [
+        "Sensor",
+        "Cannon",
+        "Cannon",
+        "Torpedo",
+        "Modification"
+      ],
+      "alt": [
+        {
+          "image": "https://images-cdn.fantasyflightgames.com/filer_public/a4/a6/a4a6943b-6af3-4d33-9a04-bff98190d3ee/g18x3-blue-squadron-pilot-2.png",
+          "source": "Season Three 2018"
+        }
+      ]
     },
     {
       "name": "Braylen Stramm",
@@ -85,7 +106,15 @@
       "cost": 50,
       "xws": "braylenstramm",
       "ability": "While you defend or perform an attack, if you are stressed, you may reroll up to 2 of your dice.",
-      "image": "https://i.imgur.com/ti70cw0.jpg"
+      "image": "https://i.imgur.com/ti70cw0.jpg",
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Cannon",
+        "Torpedo",
+        "Modification"
+      ]
     },
     {
       "name": "Ten Numb",
@@ -95,7 +124,15 @@
       "cost": 50,
       "xws": "tennumb",
       "ability": "While you defend or perform an attack, you may spend 1 stress token to change all of your [Focus] results to [Evade] or [Hit] results.",
-      "image": "https://i.imgur.com/iL6SGKW.png"
+      "image": "https://i.imgur.com/iL6SGKW.png",
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Cannon",
+        "Torpedo",
+        "Modification"
+      ]
     }
   ]
 }

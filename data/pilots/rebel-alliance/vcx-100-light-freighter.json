@@ -81,7 +81,16 @@
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
-      }
+      },
+      "slots": [
+        "Turret",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Hera Syndulla",
@@ -91,11 +100,21 @@
       "cost": 76,
       "xws": "herasyndulla-vcx100lightfreighter",
       "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.",
-      "image": "https://i.imgur.com/TUvH0aN.png",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/dc/7a/dc7aab07-e57e-44bf-8f8c-8fee709c8dc0/swz06-hera-syndulla.png",
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Turret",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Kanan Jarrus",
@@ -113,7 +132,17 @@
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
-      }
+      },
+      "slots": [
+        "Force Power",
+        "Turret",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Lothal Rebel",
@@ -126,7 +155,16 @@
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
-      }
+      },
+      "slots": [
+        "Turret",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Modification",
+        "Title"
+      ]
     }
   ]
 }

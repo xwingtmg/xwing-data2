@@ -67,7 +67,14 @@
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Crew",
+        "Astromech",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "AP-5",
@@ -91,7 +98,14 @@
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Crew",
+        "Astromech",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Ezra Bridger",
@@ -109,7 +123,14 @@
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
-      }
+      },
+      "slots": [
+        "Force Power",
+        "Crew",
+        "Astromech",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Fenn Rau",
@@ -123,7 +144,14 @@
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Crew",
+        "Astromech",
+        "Modification",
+        "Title"
+      ]
     }
   ]
 }
