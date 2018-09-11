@@ -63,7 +63,13 @@
       "cost": 48,
       "xws": "biggsdarklighter",
       "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Hit] or [Critical Hit] damage to cancel 1 matching result.",
-      "image": "https://i.imgur.com/P2Kn6DR.png"
+      "slots": [
+        "Torpedo",
+        "Astromech",
+        "Modification",
+        "Configuration"
+      ],
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/f8/7d/f87dd3c2-6a86-4c41-9035-e08f7bdc915f/swz12_card_biggs-darklighter.png"
     },
     {
       "name": "Blue Squadron Escort",
@@ -78,6 +84,12 @@
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/1a/9c1ad7ef-dfb1-427c-b700-747d857f53fc/op066-blue-squadron-pilot.png",
           "source": "X-Wing Second Edition Launch Party"
         }
+      ],
+      "slots": [
+        "Torpedo",
+        "Astromech",
+        "Modification",
+        "Configuration"
       ]
     },
     {
@@ -86,7 +98,14 @@
       "limited": 0,
       "cost": 41,
       "xws": "cavernangelszealot",
-      "text": "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha."
+      "text": "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha.",
+      "slots": [
+        "Torpedo",
+        "Astromech",
+        "Illicit",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Edrio Two Tubes",
@@ -96,7 +115,14 @@
       "cost": 45,
       "xws": "edriotwotubes",
       "ability": "Before you activate, if you are focused, you may perform an action.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/b9/27b93e13-e3e0-4557-b49d-2f65a27d078b/swz02_a1_edrio-tt.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/b9/27b93e13-e3e0-4557-b49d-2f65a27d078b/swz02_a1_edrio-tt.png",
+      "slots": [
+        "Torpedo",
+        "Astromech",
+        "Illicit",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Garven Dreis",
@@ -106,7 +132,14 @@
       "cost": 47,
       "xws": "garvendreis-t65xwing",
       "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/24/75/2475a65d-0afc-4e80-ab8e-c29bbb750439/swz12_card_garven-dreis.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/24/75/2475a65d-0afc-4e80-ab8e-c29bbb750439/swz12_card_garven-dreis.png",
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Astromech",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Jek Porkins",
@@ -116,7 +149,14 @@
       "cost": 46,
       "xws": "jekporkins",
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
-      "image": "https://i.imgur.com/Ny4gBBN.png"
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Astromech",
+        "Modification",
+        "Configuration"
+      ],
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/84/f6/84f6af5d-0cd0-497c-92a0-2ca765a6faa4/swz01_a7_pilot-card_jek.png"
     },
     {
       "name": "Kullbee Sperado",
@@ -126,7 +166,15 @@
       "cost": 48,
       "xws": "kullbeesperado",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may flip your equipped [Configuration] upgrade card.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/54/e154a590-eedd-44fe-b8b0-ad6e89b85295/swz02_a1_kullbee.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/54/e154a590-eedd-44fe-b8b0-ad6e89b85295/swz02_a1_kullbee.png",
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Astromech",
+        "Illicit",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Leevan Tenza",
@@ -136,7 +184,15 @@
       "cost": 46,
       "xws": "leevantenza",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may perform a red [Evade] action.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/4a/e5/4ae59c94-8324-41c2-8a4e-7656b95addb9/swz02_a1_leevan-tenza.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/4a/e5/4ae59c94-8324-41c2-8a4e-7656b95addb9/swz02_a1_leevan-tenza.png",
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Astromech",
+        "Illicit",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Luke Skywalker",
@@ -155,7 +211,18 @@
         {
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/5b/aa/5baa3742-b7b2-47d7-9bec-07f02fafaf1c/op066-luke-skywalker.png",
           "source": "X-Wing Second Edition Launch Party"
+        },
+        {
+          "image": "https://images-cdn.fantasyflightgames.com/filer_public/ab/5d/ab5d5131-0043-4b74-9549-5e959aaaf47a/op086-luke-skywalker.png",
+          "source": "Gen Con Indy 2018"
         }
+      ],
+      "slots": [
+        "Force Power",
+        "Torpedo",
+        "Astromech",
+        "Modification",
+        "Configuration"
       ]
     },
     {
@@ -165,7 +232,14 @@
       "cost": 43,
       "xws": "redsquadronveteran",
       "text": "Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.",
-      "image": "https://i.imgur.com/JZtZB1m.jpg"
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Astromech",
+        "Modification",
+        "Configuration"
+      ],
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/53/cd/53cd4dbc-257b-46ee-a1b9-11886e92f0d2/swz01_a7_pilot-card_red-vet.png"
     },
     {
       "name": "Thane Kyrell",
@@ -175,7 +249,14 @@
       "cost": 48,
       "xws": "thanekyrell",
       "ability": "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/35/a5/35a55ba4-0c71-440b-b05d-d38dff8b9942/swz12_card_thane-kyrell.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/35/a5/35a55ba4-0c71-440b-b05d-d38dff8b9942/swz12_card_thane-kyrell.png",
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Astromech",
+        "Modification",
+        "Configuration"
+      ]
     },
     {
       "name": "Wedge Antilles",
@@ -185,7 +266,14 @@
       "cost": 52,
       "xws": "wedgeantilles",
       "ability": "While you perform an attack, the defender rolls 1 fewer defense die.",
-      "image": "https://i.imgur.com/Dn3gjxq.png"
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Astromech",
+        "Modification",
+        "Configuration"
+      ],
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/52/42/52421391-5649-4295-b063-9770f04e9599/swz12_card_wedge-antilles.png"
     }
   ]
 }

@@ -7,7 +7,7 @@
       {
         "title": "Barrage Rockets",
         "type": "Missile",
-        "ability": "Attack ([Focus]): Spend 1 [Charge]. If the defender is in your [Bullseye Arc], you may spend 1 or mroe [Charge] to reroll that many attack dice.",
+        "ability": "Attack ([Focus]): Spend 1 [Charge]. If the defender is in your [Bullseye Arc], you may spend 1 or more [Charge] to reroll that many attack dice.",
         "slots": [
           "Missile",
           "Missile"
@@ -38,6 +38,7 @@
         "title": "Cluster Missiles",
         "type": "Missile",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After this attack, you may perform this attack as a bonus attack against a different target at range 0-1 of the defender, ignoring the [Lock] requirement.",
+        "images": "https://images-cdn.fantasyflightgames.com/filer_public/f0/e3/f0e35feb-d783-4756-8753-a16f09a11aed/swz15_a1_cluster-missiles.png",
         "slots": [
           "Missile"
         ],
@@ -67,6 +68,7 @@
         "title": "Concussion Missiles",
         "type": "Missile",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After this attack hits, each ship at range 0-1 of the defender exposes 1 of its damage cards.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/d2/df/d2dfb147-7b92-4d97-8d67-bda037fe356e/swz16_concussion-missiles.png",
         "slots": [
           "Missile"
         ],
@@ -154,6 +156,7 @@
         "title": "Proton Rockets",
         "type": "Missile",
         "ability": "Attack ([Focus]): Spend 1 [Charge].",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/32/c8/32c81aab-6817-44a1-918b-540a1641e59e/swz06_a1_proton-rockets.png",
         "slots": [
           "Missile"
         ],

@@ -66,12 +66,18 @@
       "limited": 1,
       "cost": 50,
       "xws": "echo",
-      "ability": "While you decloak, you must use the (2 [Bank Left]) or (2 [Bank Right]) template instead of the (2 [Straight]) template.",
+      "ability": "While you decloak, you must use the [2 [Bank Left]] or [2 [Bank Right]] template instead of the [2 [Straight]] template.",
       "image": "https://i.imgur.com/sVRjx6w.png",
       "shipAbility": {
         "name": "Stygium Array",
         "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Modification"
+      ]
     },
     {
       "name": "\"Whisper\"",
@@ -85,7 +91,13 @@
       "shipAbility": {
         "name": "Stygium Array",
         "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Modification"
+      ]
     },
     {
       "name": "Imdaar Test Pilot",
@@ -98,7 +110,12 @@
       "shipAbility": {
         "name": "Stygium Array",
         "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
-      }
+      },
+      "slots": [
+        "Sensor",
+        "Crew",
+        "Modification"
+      ]
     },
     {
       "name": "Sigma Squadron Ace",
@@ -111,7 +128,13 @@
       "shipAbility": {
         "name": "Stygium Array",
         "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Modification"
+      ]
     }
   ]
 }

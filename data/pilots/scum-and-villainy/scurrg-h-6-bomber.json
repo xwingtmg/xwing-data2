@@ -66,7 +66,16 @@
       "charges": {
         "value": 1,
         "recovers": 1
-      }
+      },
+      "slots": [
+        "Talent",
+        "Turret",
+        "Crew",
+        "Device",
+        "Device",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Lok Revenant",
@@ -75,7 +84,15 @@
       "cost": 46,
       "xws": "lokrevenant",
       "text": "The Nubian Design Collective crafted the Scurrg H-6 Bomber with combat versatility in mind, arming it with powerful shields and a bristling array of destructive weaponry.",
-      "image": "https://i.imgur.com/oA7Cb6x.png"
+      "image": "https://i.imgur.com/oA7Cb6x.png",
+      "slots": [
+        "Turret",
+        "Crew",
+        "Device",
+        "Device",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Sol Sixxa",
@@ -85,7 +102,16 @@
       "cost": 49,
       "xws": "solsixxa",
       "ability": "If you would drop a device using a [1 [Straight]] template, you may drop it using any other speed 1 template instead.",
-      "image": "https://i.imgur.com/K5fOl1Z.jpg"
+      "image": "https://i.imgur.com/K5fOl1Z.jpg",
+      "slots": [
+        "Talent",
+        "Turret",
+        "Crew",
+        "Device",
+        "Device",
+        "Modification",
+        "Title"
+      ]
     }
   ]
 }

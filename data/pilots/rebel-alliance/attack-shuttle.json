@@ -71,7 +71,13 @@
       "shipAbility": {
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
-      }
+      },
+      "slots": [
+        "Turret",
+        "Crew",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Ezra Bridger",
@@ -89,7 +95,14 @@
       "shipAbility": {
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
-      }
+      },
+      "slots": [
+        "Force Power",
+        "Turret",
+        "Crew",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Hera Syndulla",
@@ -103,7 +116,14 @@
       "shipAbility": {
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Turret",
+        "Crew",
+        "Modification",
+        "Title"
+      ]
     },
     {
       "name": "Sabine Wren",
@@ -113,11 +133,18 @@
       "cost": 38,
       "xws": "sabinewren",
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
-      "image": "https://i.imgur.com/irQQrm8.jpg",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/7f/de/7fde6e01-f59d-45cb-8730-cfd394e2b272/swz06_a1_sabine-wren.png",
       "shipAbility": {
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Turret",
+        "Crew",
+        "Modification",
+        "Title"
+      ]
     }
   ]
 }

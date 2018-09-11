@@ -58,7 +58,10 @@
       "cost": 26,
       "xws": "zeborrelios-tielnfighter",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
-      "image": "https://i.imgur.com/ezuCMJT.jpg"
+      "image": "https://i.imgur.com/ezuCMJT.jpg",
+      "slots": [
+        "Modification"
+      ]
     },
     {
       "name": "Captain Rex",
@@ -71,6 +74,9 @@
       "image": "https://i.imgur.com/SXjax2A.jpg",
       "conditions": [
         "suppressivefire"
+      ],
+      "slots": [
+        "Modification"
       ]
     },
     {
@@ -85,7 +91,11 @@
       "force": {
         "value": 1,
         "recovers": 1
-      }
+      },
+      "slots": [
+        "Force Power",
+        "Modification"
+      ]
     },
     {
       "name": "Sabine Wren",
@@ -95,7 +105,11 @@
       "cost": 28,
       "xws": "sabinewren-tielnfighter",
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
-      "image": "https://i.imgur.com/yecurxP.png"
+      "image": "https://i.imgur.com/yecurxP.png",
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     }
   ]
 }

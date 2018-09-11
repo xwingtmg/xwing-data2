@@ -8,6 +8,7 @@
         "title": "Advanced Sensors",
         "type": "Sensor",
         "ability": "After you reveal your dial, you may perform 1 action. If you do, you cannot perform another action during your activation.",
+        "images": "https://images-cdn.fantasyflightgames.com/filer_public/05/5e/055e3ce9-dfd8-4e37-9b04-fdba19dbd6dc/swz02_a1_advanced-sensors.png",
         "slots": [
           "Sensor"
         ]
@@ -25,7 +26,7 @@
       {
         "title": "Collision Detector",
         "type": "Sensor",
-        "ability": "While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 [Charge] to ignore its effects ntie the end of the round.",
+        "ability": "While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 [Charge] to ignore its effects until the end of the round.",
         "slots": [
           "Sensor"
         ],
@@ -66,7 +67,7 @@
       {
         "title": "Trajectory Simulator",
         "type": "Sensor",
-        "ability": "During the System Phase, if you would drop or launch a bomb, you may launch it using the (5 [Straight]) tempplate instead.",
+        "ability": "During the System Phase, if you would drop or launch a bomb, you may launch it using the [5 [Straight]] template instead.",
         "slots": [
           "Sensor"
         ]

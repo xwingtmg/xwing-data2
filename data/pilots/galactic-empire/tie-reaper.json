@@ -69,8 +69,13 @@
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/a0/86/a08685c2-260b-449c-ba91-a870f6058e22/swx75_card2_vizier.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) maneuver."
-      }
+        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
+      },
+      "slots": [
+        "Crew",
+        "Crew",
+        "Modification"
+      ]
     },
     {
       "name": "Captain Feroph",
@@ -83,8 +88,14 @@
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/e9/9ce9dedf-8f3f-482e-bcbb-d105e5c78682/swx75_card2_captain-feroph.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) maneuver."
-      }
+        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
+      },
+      "slots": [
+        "Talent",
+        "Crew",
+        "Crew",
+        "Modification"
+      ]
     },
     {
       "name": "Major Vermeil",
@@ -97,8 +108,14 @@
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/a7/29/a729992e-5e68-46e8-93d7-33f1220aed9d/swx75_card2_major-vermeil.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) maneuver."
-      }
+        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
+      },
+      "slots": [
+        "Talent",
+        "Crew",
+        "Crew",
+        "Modification"
+      ]
     },
     {
       "name": "Scarif Base Pilot",
@@ -108,10 +125,21 @@
       "xws": "scarifbasepilot",
       "text": "The TIE reaper was designed to ferry elite troops to flashpoints on the battlefield, notably carrying Director Krennic's dreaded death troopers at the Battle of Scarif.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/7b/8a/7b8ac059-3528-46df-be0f-26e3469a77c3/swz07_a2_scarif-pilot.png",
+      "alt": [
+        {
+          "image": "https://images-cdn.fantasyflightgames.com/filer_public/d3/22/d3220543-7735-44fc-80a8-90507ca363c8/g18x2-scarif-base-pilot-2.png",
+          "source": "Season Two 2018"
+        }
+      ],
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) maneuver."
-      }
+        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
+      },
+      "slots": [
+        "Crew",
+        "Crew",
+        "Modification"
+      ]
     }
   ]
 }

@@ -65,7 +65,15 @@
       "cost": 33,
       "xws": "doubleedge",
       "ability": "After you perform a [Turret] or [Missile] attack that misses, you may perform a bonus attack using a different weapon.",
-      "image": "https://i.imgur.com/9CAQhnT.jpg"
+      "image": "https://i.imgur.com/9CAQhnT.jpg",
+      "slots": [
+        "Talent",
+        "Turret",
+        "Missile",
+        "Missile",
+        "Gunner",
+        "Modification"
+      ]
     },
     {
       "name": "Lieutenant Kestal",
@@ -75,7 +83,15 @@
       "cost": 36,
       "xws": "lieutenantkestal",
       "ability": "While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender's blank/[Focus] results.",
-      "image": "https://i.imgur.com/2B28yb9.jpg"
+      "image": "https://i.imgur.com/2B28yb9.jpg",
+      "slots": [
+        "Talent",
+        "Turret",
+        "Missile",
+        "Missile",
+        "Gunner",
+        "Modification"
+      ]
     },
     {
       "name": "Onyx Squadron Scout",
@@ -84,7 +100,15 @@
       "cost": 32,
       "xws": "onyxsquadronscout",
       "text": "Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loadout and its maneuverability to full effect.",
-      "image": "https://i.imgur.com/vitbEbv.png"
+      "image": "https://i.imgur.com/vitbEbv.png",
+      "slots": [
+        "Talent",
+        "Turret",
+        "Missile",
+        "Missile",
+        "Gunner",
+        "Modification"
+      ]
     },
     {
       "name": "Sienar Specialist",
@@ -93,7 +117,14 @@
       "cost": 30,
       "xws": "sienarspecialist",
       "text": "During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency.",
-      "image": "https://i.imgur.com/dfWi6CV.jpg"
+      "image": "https://i.imgur.com/dfWi6CV.jpg",
+      "slots": [
+        "Turret",
+        "Missile",
+        "Missile",
+        "Gunner",
+        "Modification"
+      ]
     }
   ]
 }

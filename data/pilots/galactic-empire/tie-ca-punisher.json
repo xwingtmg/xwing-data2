@@ -73,7 +73,17 @@
       "cost": 42,
       "xws": "deathrain",
       "ability": "After you drop or launch a device, you may perform an action.",
-      "image": "https://i.imgur.com/mMqDBzJ.png"
+      "image": "https://i.imgur.com/mMqDBzJ.png",
+      "slots": [
+        "Sensor",
+        "Torpedo",
+        "Missile",
+        "Missile",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ]
     },
     {
       "name": "\"Redline\"",
@@ -82,7 +92,17 @@
       "limited": 1,
       "cost": 44,
       "xws": "redline",
-      "ability": "You can maintain up to 2 locks. After you perform an action, you may acquire a lock."
+      "ability": "You can maintain up to 2 locks. After you perform an action, you may acquire a lock.",
+      "slots": [
+        "Sensor",
+        "Torpedo",
+        "Missile",
+        "Missile",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ]
     },
     {
       "name": "Cutlass Squadron Pilot",
@@ -91,7 +111,17 @@
       "cost": 36,
       "xws": "cutlasssquadronpilot",
       "text": "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.",
-      "image": "https://i.imgur.com/EvOPUtc.png"
+      "image": "https://i.imgur.com/EvOPUtc.png",
+      "slots": [
+        "Sensor",
+        "Torpedo",
+        "Missile",
+        "Missile",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ]
     }
   ]
 }

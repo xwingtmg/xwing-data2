@@ -64,7 +64,16 @@
       "cost": 32,
       "xws": "crymorahgoon",
       "text": "Though far from nimble, the Y-wing's heavy hull, substantial shielding, and turret-mounted cannons make it an excellent patrol craft.",
-      "image": "https://i.imgur.com/k9OOfbZ.jpg"
+      "image": "https://i.imgur.com/k9OOfbZ.jpg",
+      "slots": [
+        "Turret",
+        "Torpedo",
+        "Gunner",
+        "Astromech",
+        "Device",
+        "Illicit",
+        "Modification"
+      ]
     },
     {
       "name": "Drea Renthal",
@@ -73,7 +82,17 @@
       "limited": 1,
       "cost": 40,
       "xws": "drearenthal",
-      "ability": "While a friendly non-limited ship performs an attack, if the defender is in your firing arc, the attacker may reroll 1 attack die."
+      "ability": "While a friendly non-limited ship performs an attack, if the defender is in your firing arc, the attacker may reroll 1 attack die.",
+      "slots": [
+        "Talent",
+        "Turret",
+        "Torpedo",
+        "Gunner",
+        "Astromech",
+        "Device",
+        "Illicit",
+        "Modification"
+      ]
     },
     {
       "name": "Hired Gun",
@@ -82,7 +101,17 @@
       "cost": 34,
       "xws": "hiredgun",
       "text": "Just the mention of Imperial credits can bring a host of less-than-trustworthy individuals to your side.",
-      "image": "https://i.imgur.com/kCQaRyo.png"
+      "image": "https://i.imgur.com/kCQaRyo.png",
+      "slots": [
+        "Talent",
+        "Turret",
+        "Torpedo",
+        "Gunner",
+        "Astromech",
+        "Device",
+        "Illicit",
+        "Modification"
+      ]
     },
     {
       "name": "Kavil",
@@ -92,7 +121,17 @@
       "cost": 42,
       "xws": "kavil",
       "ability": "While you perform a non-[Front Arc] attack, roll 1 additional attack die.",
-      "image": "https://i.imgur.com/r5fZmK6.jpg"
+      "image": "https://i.imgur.com/r5fZmK6.jpg",
+      "slots": [
+        "Talent",
+        "Turret",
+        "Torpedo",
+        "Gunner",
+        "Astromech",
+        "Device",
+        "Illicit",
+        "Modification"
+      ]
     }
   ]
 }

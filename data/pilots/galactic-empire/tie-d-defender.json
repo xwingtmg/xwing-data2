@@ -76,7 +76,13 @@
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Missile"
+      ]
     },
     {
       "name": "Countess Ryad",
@@ -90,7 +96,13 @@
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Missile"
+      ]
     },
     {
       "name": "Delta Squadron Pilot",
@@ -103,7 +115,12 @@
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
-      }
+      },
+      "slots": [
+        "Sensor",
+        "Cannon",
+        "Missile"
+      ]
     },
     {
       "name": "Onyx Squadron Ace",
@@ -116,7 +133,13 @@
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Missile"
+      ]
     },
     {
       "name": "Rexler Brath",
@@ -130,7 +153,13 @@
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Missile"
+      ]
     }
   ]
 }
