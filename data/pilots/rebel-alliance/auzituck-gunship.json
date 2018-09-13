@@ -20,37 +20,15 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    {
-      "arc": "Full Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 1
-    },
-    {
-      "type": "hull",
-      "value": 6
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Full Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 6 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Coordinate"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Coordinate" },
+    { "difficulty": "Red", "type": "Barrel Roll" }
   ],
   "pilots": [
     {
@@ -60,12 +38,10 @@
       "cost": 46,
       "xws": "kashyyykdefender",
       "text": "Equipped with three wide-range Sureggi twin laser cannons, the Auzituck gunship acts as a powerful deterrent to slaver operations in the Kashyyyk system.",
-      "image": "https://i.imgur.com/oDDRdgb.png",
-      "slots": [
-        "Crew",
-        "Crew",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_33.png",
+      "slots": ["Crew", "Crew", "Modification"],
+      "ffg_id": "XW_P_33",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_33.jpg"
     },
     {
       "name": "Lowhhrick",
@@ -75,13 +51,10 @@
       "cost": 52,
       "xws": "lowhhrick",
       "ability": "After a friendly ship at range 0-1 becomes the defender, you may spend 1 reinforce token. If you do, that ship gains 1 evade token.",
-      "image": "https://i.imgur.com/8AIllum.jpg",
-      "slots": [
-        "Talent",
-        "Crew",
-        "Crew",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_32.png",
+      "slots": ["Talent", "Crew", "Crew", "Modification"],
+      "ffg_id": "XW_P_32",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_32.jpg"
     },
     {
       "name": "Wullffwarro",
@@ -91,13 +64,10 @@
       "cost": 56,
       "xws": "wullffwarro",
       "ability": "While you perform a primary attack, if you are damaged, you may roll 1 additional attack die.",
-      "image": "https://i.imgur.com/h0yZwaL.jpg",
-      "slots": [
-        "Talent",
-        "Crew",
-        "Crew",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_31.png",
+      "slots": ["Talent", "Crew", "Crew", "Modification"],
+      "ffg_id": "XW_P_31",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_31.jpg"
     }
   ]
 }

@@ -22,41 +22,16 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Double Turret Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 1
-    },
-    {
-      "type": "hull",
-      "value": 8
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Double Turret Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 8 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Boost"
-    },
-    {
-      "difficulty": "White",
-      "type": "Rotate Arc"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Boost" },
+    { "difficulty": "White", "type": "Rotate Arc" }
   ],
   "pilots": [
     {
@@ -74,7 +49,10 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_225",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_225.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_225.jpg"
     },
     {
       "name": "Han Solo",
@@ -84,7 +62,7 @@
       "cost": 54,
       "xws": "hansolo",
       "ability": "While you defend or perform a primary attack, if the attack is obstructed by an obstacle, you may roll 1 additional die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/ee/b4/eeb48172-25f2-461e-979a-18b835b834a4/swz04_han-solo.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_222.png",
       "slots": [
         "Talent",
         "Missile",
@@ -94,7 +72,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_222",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_222.jpg"
     },
     {
       "name": "L3-37",
@@ -104,24 +84,12 @@
       "cost": 47,
       "xws": "l337",
       "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/a8/f4/a8f42e81-3eef-49d2-9887-8d71ae70cabc/swz04_l3-37.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_224.png",
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Calculate"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "Red",
-          "type": "Boost"
-        },
-        {
-          "difficulty": "White",
-          "type": "Rotate Arc"
-        }
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Boost" },
+        { "difficulty": "White", "type": "Rotate Arc" }
       ],
       "slots": [
         "Missile",
@@ -131,7 +99,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_224",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_224.jpg"
     },
     {
       "name": "Lando Calrissian",
@@ -141,7 +111,7 @@
       "cost": 49,
       "xws": "landocalrissian",
       "ability": "After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/8a/97/8a977269-7a61-47b4-9a89-b51c03de8dc5/swz04_a1_pilot-card_lando.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_223.png",
       "slots": [
         "Talent",
         "Missile",
@@ -151,7 +121,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_223",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_223.jpg"
     }
   ]
 }

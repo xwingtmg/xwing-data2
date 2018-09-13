@@ -17,46 +17,17 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "arc": "Rear Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 1
-    },
-    {
-      "type": "hull",
-      "value": 6
-    },
-    {
-      "type": "shields",
-      "value": 4
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "arc": "Rear Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 6 },
+    { "type": "shields", "value": 4 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Reinforce"
-    },
-    {
-      "difficulty": "White",
-      "type": "Coordinate"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Jam"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Reinforce" },
+    { "difficulty": "White", "type": "Coordinate" },
+    { "difficulty": "Red", "type": "Jam" }
   ],
   "pilots": [
     {
@@ -67,15 +38,10 @@
       "cost": 48,
       "xws": "captainkagi",
       "ability": "At the start of the Engagement Phase, you may choose 1 or more friendly ships at range 0-3. If you do, transfer all enemy lock tokens from the chosen ships to you.",
-      "image": "https://i.imgur.com/s4RmmAe.jpg",
-      "slots": [
-        "Sensor",
-        "Cannon",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Title"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_142.png",
+      "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
+      "ffg_id": "XW_P_142",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_142.jpg"
     },
     {
       "name": "Colonel Jendon",
@@ -85,19 +51,11 @@
       "cost": 46,
       "xws": "coloneljendon",
       "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, while friendly ships acquire lock this round, they must acquire locks beyond range 3 instead of at range 0-3.",
-      "image": "https://i.imgur.com/68HNwaF.jpg",
-      "charges": {
-        "value": 2,
-        "recovers": 0
-      },
-      "slots": [
-        "Sensor",
-        "Cannon",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Title"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_143.png",
+      "charges": { "value": 2, "recovers": 0 },
+      "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
+      "ffg_id": "XW_P_143",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_143.jpg"
     },
     {
       "name": "Lieutenant Sai",
@@ -107,19 +65,11 @@
       "cost": 47,
       "xws": "lieutenantsai",
       "ability": "After you a perform a [Coordinate] action, if the ship you chose performed an action on your action bar, you may perform that action.",
-      "image": "https://i.imgur.com/L9rWWdJ.jpg",
-      "charges": {
-        "value": 2,
-        "recovers": 0
-      },
-      "slots": [
-        "Sensor",
-        "Cannon",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Title"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_144.png",
+      "charges": { "value": 2, "recovers": 0 },
+      "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
+      "ffg_id": "XW_P_144",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_144.jpg"
     },
     {
       "name": "Omicron Group Pilot",
@@ -128,15 +78,10 @@
       "cost": 43,
       "xws": "omicrongrouppilot",
       "text": "Noted for its tri-wing design and advanced sensor suite, the Lambda-class shuttle serves a critical role as a light utility craft in the Imperial Navy.",
-      "image": "https://i.imgur.com/Bdeg9gR.png",
-      "slots": [
-        "Sensor",
-        "Cannon",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Title"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_145.png",
+      "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
+      "ffg_id": "XW_P_145",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_145.jpg"
     }
   ]
 }

@@ -20,53 +20,25 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    {
-      "arc": "Single Turret Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
       "type": "Focus"
     },
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
       "type": "Lock"
     },
-    {
-      "difficulty": "Red",
-      "type": "Boost"
-    },
-    {
-      "difficulty": "White",
-      "type": "Rotate Arc"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Jam"
-    }
+    { "difficulty": "Red", "type": "Boost" },
+    { "difficulty": "White", "type": "Rotate Arc" },
+    { "difficulty": "Red", "type": "Jam" }
   ],
   "pilots": [
     {
@@ -77,7 +49,7 @@
       "cost": 42,
       "xws": "janors",
       "ability": "While a friendly ship in your firing arc performs a primary attack, if you are not stressed, you may gain 1 stress token. If you do, that ship may roll 1 additional attack die.",
-      "image": "https://i.imgur.com/4I6h8JE.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_42.png",
       "slots": [
         "Talent",
         "Crew",
@@ -85,7 +57,9 @@
         "Modification",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_42",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_42.jpg"
     },
     {
       "name": "Kyle Katarn",
@@ -95,7 +69,7 @@
       "cost": 38,
       "xws": "kylekatarn",
       "ability": "At the start of the Engagement Phase, you may transfer 1 of your focus tokens to a friendly ship in your firing arc.",
-      "image": "https://i.imgur.com/LELO1t1.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_43.png",
       "slots": [
         "Talent",
         "Crew",
@@ -103,7 +77,9 @@
         "Modification",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_43",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_43.jpg"
     },
     {
       "name": "Rebel Scout",
@@ -112,14 +88,10 @@
       "cost": 32,
       "xws": "rebelscout",
       "text": "Designed to look like a bird in flight by the Corellian Engineering Corporation, \"hawk\" series ships are exemplary transport craft. Swift and rugged, the HWK-290 is often employed by Rebel agents as a mobile base of operations.",
-      "image": "https://i.imgur.com/Fkya9qi.png",
-      "slots": [
-        "Crew",
-        "Device",
-        "Modification",
-        "Modification",
-        "Title"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_45.png",
+      "slots": ["Crew", "Device", "Modification", "Modification", "Title"],
+      "ffg_id": "XW_P_45",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_45.jpg"
     },
     {
       "name": "Roark Garnet",
@@ -129,7 +101,7 @@
       "cost": 38,
       "xws": "roarkgarnet",
       "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, it engages at initiative 7 instead of its standard initiative value this phase.",
-      "image": "https://i.imgur.com/PeNd1xH.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_44.png",
       "slots": [
         "Talent",
         "Crew",
@@ -137,7 +109,9 @@
         "Modification",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_44",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_44.jpg"
     }
   ]
 }

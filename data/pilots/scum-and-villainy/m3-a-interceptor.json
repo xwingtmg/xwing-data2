@@ -21,41 +21,16 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 1
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 1 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Barrel Roll" }
   ],
   "pilots": [
     {
@@ -65,14 +40,14 @@
       "cost": 29,
       "xws": "cartelspacer",
       "text": "MandalMotors' M3-A 'Scyk' Inteceptor is purchased in large quantities by the Hutt Cartel and the Car'das smugglers due to its low cost and customizability.",
-      "image": "https://i.imgur.com/R5Wa2QC.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_190.png",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "slots": [
-        "Modification"
-      ]
+      "slots": ["Modification"],
+      "ffg_id": "XW_P_190",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_190.jpg"
     },
     {
       "name": "Genesis Red",
@@ -82,15 +57,14 @@
       "cost": 35,
       "xws": "genesisred",
       "ability": "After you acquire a lock, you must remove all of your focus and evade tokens. Then gain the same number of focus and evade tokens that the locked ship has.",
-      "image": "https://i.imgur.com/J3HT3lm.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_184.png",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_184",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_184.jpg"
     },
     {
       "name": "Inaldra",
@@ -100,14 +74,14 @@
       "cost": 32,
       "xws": "inaldra",
       "ability": "While you defend or perform an attack, you may suffer 1 [Hit] damage to reroll any number of your dice.",
-      "image": "https://i.imgur.com/InCjYYa.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_187.png",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "slots": [
-        "Modification"
-      ]
+      "slots": ["Modification"],
+      "ffg_id": "XW_P_187",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_187.jpg"
     },
     {
       "name": "Laetin A'shera",
@@ -117,15 +91,14 @@
       "cost": 35,
       "xws": "laetinashera",
       "ability": "After you defend or perform an attack, if the attack missed, gain 1 evade token.",
-      "image": "https://i.imgur.com/vsstiQo.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_185.png",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_185",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_185.jpg"
     },
     {
       "name": "Quinn Jast",
@@ -135,15 +108,14 @@
       "cost": 35,
       "xws": "quinnjast",
       "ability": "At the start of the Engagement Phase, you may gain 1 disarm token to recover 1 [Charge] on 1 of your equipped upgrades.",
-      "image": "https://i.imgur.com/iRMmmNF.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_186.png",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_186",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_186.jpg"
     },
     {
       "name": "Serissu",
@@ -153,15 +125,14 @@
       "cost": 43,
       "xws": "serissu",
       "ability": "While a friendly ship at range 0-1 defends, it may reroll 1 of its dice.",
-      "image": "https://i.imgur.com/LOJ9OWn.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_183.png",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_183",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_183.jpg"
     },
     {
       "name": "Sunny Bounder",
@@ -171,14 +142,14 @@
       "cost": 31,
       "xws": "sunnybounder",
       "ability": "While you defend or perform an attack, after you roll or reroll your dice, if you have the same result on each of your dice, you may add 1 matching result.",
-      "image": "https://i.imgur.com/VzDyCnd.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_188.png",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "slots": [
-        "Modification"
-      ]
+      "slots": ["Modification"],
+      "ffg_id": "XW_P_188",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_188.jpg"
     },
     {
       "name": "Tansarii Point Veteran",
@@ -187,15 +158,14 @@
       "cost": 33,
       "xws": "tansariipointveteran",
       "text": "The defeat of Black Sun ace Talonbane Cobra by Car'das smugglers turned the tide of the Battle of Tansarii Point Station. Survivors of the clash are respected throughout the sector.",
-      "image": "https://i.imgur.com/lFYeL8f.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_189.png",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_189",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_189.jpg"
     }
   ]
 }

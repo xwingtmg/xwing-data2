@@ -19,41 +19,16 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 4
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 4 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "SLAM"
-    },
-    {
-      "difficulty": "White",
-      "type": "Reload"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "SLAM" },
+    { "difficulty": "White", "type": "Reload" }
   ],
   "pilots": [
     {
@@ -71,7 +46,10 @@
         "Missile",
         "Modification",
         "Configuration"
-      ]
+      ],
+      "ffg_id": "XW_P_136",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_136.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_136.jpg"
     },
     {
       "name": "Major Vynder",
@@ -88,7 +66,10 @@
         "Missile",
         "Modification",
         "Configuration"
-      ]
+      ],
+      "ffg_id": "XW_P_135",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_135.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_135.jpg"
     },
     {
       "name": "Nu Squadron Pilot",
@@ -97,14 +78,16 @@
       "cost": 35,
       "xws": "nusquadronpilot",
       "text": "With a design inspired by other Cygnus Spaceworks vessels, the Alpha-class star wing is a versatile craft assigned to Imperial Navy specialist units that need a starfighter they can outfit for multiple roles.",
-      "image": "https://i.imgur.com/TbEOuBf.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_138.png",
       "slots": [
         "Sensor",
         "Torpedo",
         "Missile",
         "Modification",
         "Configuration"
-      ]
+      ],
+      "ffg_id": "XW_P_138",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_138.jpg"
     },
     {
       "name": "Rho Squadron Pilot",
@@ -120,7 +103,10 @@
         "Missile",
         "Modification",
         "Configuration"
-      ]
+      ],
+      "ffg_id": "XW_P_137",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_137.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_137.jpg"
     }
   ]
 }

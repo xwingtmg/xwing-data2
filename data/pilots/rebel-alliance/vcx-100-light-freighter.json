@@ -22,37 +22,15 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 4
-    },
-    {
-      "type": "agility",
-      "value": 0
-    },
-    {
-      "type": "hull",
-      "value": 10
-    },
-    {
-      "type": "shields",
-      "value": 4
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 4 },
+    { "type": "agility", "value": 0 },
+    { "type": "hull", "value": 10 },
+    { "type": "shields", "value": 4 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Coordinate"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Coordinate" }
   ],
   "pilots": [
     {
@@ -63,20 +41,11 @@
       "cost": 72,
       "xws": "chopper",
       "ability": "At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.",
-      "image": "https://i.imgur.com/Iwvr07I.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_75.png",
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Calculate"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Coordinate"
-        }
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Coordinate" }
       ],
       "shipAbility": {
         "name": "Tail Gun",
@@ -90,7 +59,9 @@
         "Gunner",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_75",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_75.jpg"
     },
     {
       "name": "Hera Syndulla",
@@ -100,7 +71,7 @@
       "cost": 76,
       "xws": "herasyndulla-vcx100lightfreighter",
       "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/dc/7a/dc7aab07-e57e-44bf-8f8c-8fee709c8dc0/swz06-hera-syndulla.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_73.png",
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
@@ -114,7 +85,9 @@
         "Gunner",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_73",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_73.jpg"
     },
     {
       "name": "Kanan Jarrus",
@@ -124,11 +97,8 @@
       "cost": 90,
       "xws": "kananjarrus",
       "ability": "While a friendly ship in your firing arc defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
-      "image": "https://i.imgur.com/qOPVRTj.jpg",
-      "force": {
-        "value": 2,
-        "recovers": 1
-      },
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_74.png",
+      "force": { "value": 2, "recovers": 1 },
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
@@ -142,7 +112,9 @@
         "Gunner",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_74",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_74.jpg"
     },
     {
       "name": "Lothal Rebel",
@@ -151,7 +123,7 @@
       "cost": 70,
       "xws": "lothalrebel",
       "text": "Another successful Corellian Engineering Corporation freighter design, the VCX-100 is larger than the ubiquitous YT-series, boasting more living space and customizability.",
-      "image": "https://i.imgur.com/PwUPatz.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_76.png",
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
@@ -164,7 +136,9 @@
         "Gunner",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_76",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_76.jpg"
     }
   ]
 }
