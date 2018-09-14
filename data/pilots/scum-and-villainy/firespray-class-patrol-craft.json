@@ -22,46 +22,17 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "arc": "Rear Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 6
-    },
-    {
-      "type": "shields",
-      "value": 4
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "arc": "Rear Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 6 },
+    { "type": "shields", "value": 4 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Reinforce"
-    },
-    {
-      "difficulty": "White",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Reinforce" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "pilots": [
     {
@@ -72,7 +43,7 @@
       "cost": 80,
       "xws": "bobafett",
       "ability": "While you defend or perform an attack, you may reroll 1 of your dice for each enemy ship at range 0-1.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/12/a4/12a4f0af-510a-4f3e-8eb8-744ab23088cc/swz16_boba-fett.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_149.png",
       "slots": [
         "Talent",
         "Cannon",
@@ -88,7 +59,9 @@
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/bd/38/bd388799-287f-455e-9624-8078e676fed0/op067_boba-fett.png",
           "source": "Coruscant Invitational 2018"
         }
-      ]
+      ],
+      "ffg_id": "XW_P_149",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_149.jpg"
     },
     {
       "name": "Bounty Hunter",
@@ -97,7 +70,7 @@
       "cost": 66,
       "xws": "bountyhunter",
       "text": "The Firespray-class patrol craft is infamous for its association with the deadly bounty hunters Jango Fett and Boba Fett, who packed their craft with countless deadly armaments.",
-      "image": "https://i.imgur.com/ijynRyj.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_154.png",
       "slots": [
         "Cannon",
         "Missile",
@@ -106,7 +79,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_154",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_154.jpg"
     },
     {
       "name": "Emon Azzameen",
@@ -116,7 +91,7 @@
       "cost": 76,
       "xws": "emonazzameen",
       "ability": "If you would drop a device using a [1 [Straight]] template, you may use the [3 [Turn Left]], [3 [Straight]], or [3 [Turn Right]] template instead.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/92/43/92434ad6-cac6-4a31-8e23-509b9559181d/swz16_emon-azzameen.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_150.png",
       "slots": [
         "Talent",
         "Cannon",
@@ -126,7 +101,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_150",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_150.jpg"
     },
     {
       "name": "Kath Scarlet",
@@ -136,7 +113,7 @@
       "cost": 74,
       "xws": "kathscarlet",
       "ability": "While you perform a primary attack, if there is at least 1 friendly non-limited ship at range 0 of the defender, roll 1 additional attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/be/71/be7149e6-a385-4f79-b8eb-38329c0ba8c9/swz16_kath-scarlet.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_151.png",
       "slots": [
         "Talent",
         "Cannon",
@@ -146,7 +123,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_151",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_151.jpg"
     },
     {
       "name": "Koshka Frost",
@@ -156,7 +135,7 @@
       "cost": 71,
       "xws": "koshkafrost",
       "ability": "While you defend or perform an attack, if the enemy ship is stressed, you may reroll 1 of your dice.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/60/03/60031d7d-a625-4946-8e35-fcc82abfcd2d/swz16_koshka-frost.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_152.png",
       "slots": [
         "Talent",
         "Cannon",
@@ -166,7 +145,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_152",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_152.jpg"
     },
     {
       "name": "Krassis Trelix",
@@ -176,7 +157,7 @@
       "cost": 70,
       "xws": "krassistrelix",
       "ability": "You can perform [Front Arc] special attacks from your [Rear Arc]. While you perform a special attack, you may reroll 1 attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/f7/bb/f7bb3a41-d175-4ec7-b0fb-3bf79bba8245/swz16_krassis-trelix.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_153.png",
       "slots": [
         "Talent",
         "Cannon",
@@ -186,7 +167,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_153",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_153.jpg"
     }
   ]
 }

@@ -22,41 +22,16 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    {
-      "arc": "Double Turret Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 1
-    },
-    {
-      "type": "hull",
-      "value": 8
-    },
-    {
-      "type": "shields",
-      "value": 5
-    }
+    { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 8 },
+    { "type": "shields", "value": 5 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Boost"
-    },
-    {
-      "difficulty": "White",
-      "type": "Rotate Arc"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Boost" },
+    { "difficulty": "White", "type": "Rotate Arc" }
   ],
   "pilots": [
     {
@@ -67,11 +42,8 @@
       "cost": 84,
       "xws": "chewbacca",
       "ability": "Before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt the card facedown instead.",
-      "image": "https://i.imgur.com/72poOIG.jpg",
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_71.png",
+      "charges": { "value": 1, "recovers": 1 },
       "slots": [
         "Talent",
         "Missile",
@@ -81,7 +53,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_71",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_71.jpg"
     },
     {
       "name": "Han Solo",
@@ -91,7 +65,7 @@
       "cost": 92,
       "xws": "hansolo-modifiedyt1300lightfreighter",
       "ability": "After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/f7/a3/f7a3537f-f276-415e-ab05-f782f9f5f50a/swz06-han-solo-pilot.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_69.png",
       "slots": [
         "Talent",
         "Missile",
@@ -101,7 +75,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_69",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_69.jpg"
     },
     {
       "name": "Lando Calrissian",
@@ -111,7 +87,7 @@
       "cost": 92,
       "xws": "landocalrissian-modifiedyt1300lightfreighter",
       "ability": "After you fully execute a blue maneuver, you may choose a friendly ship at range 0-3. That ship may perform an action.",
-      "image": "https://i.imgur.com/lzS7Rsj.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_70.png",
       "slots": [
         "Talent",
         "Missile",
@@ -121,7 +97,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_70",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_70.jpg"
     },
     {
       "name": "Outer Rim Smuggler",
@@ -130,7 +108,7 @@
       "cost": 78,
       "xws": "outerrimsmuggler",
       "text": "Known for its durability and modular design, the YT-1300 is one of the most popular, widely used, and extensively customized freighters in the galaxy.",
-      "image": "https://i.imgur.com/8YSKpLP.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_72.png",
       "slots": [
         "Missile",
         "Crew",
@@ -139,7 +117,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_72",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_72.jpg"
     }
   ]
 }

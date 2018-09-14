@@ -21,37 +21,15 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 2
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 2 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Barrel Roll" }
   ],
   "pilots": [
     {
@@ -61,12 +39,10 @@
       "cost": 24,
       "xws": "binayrepirate",
       "text": "Operating from the Double Worlds, Talus and Tralus, Kath Scarlet's gang of smugglers and pirates would never be described as reputable or dependable - even by other criminals.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/ea/d3/ead3bbb4-7bbb-49fe-8904-3f3aabdda665/swz08-binayre-pirate.png",
-      "slots": [
-        "Missile",
-        "Illicit",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_173.png",
+      "slots": ["Missile", "Illicit", "Modification"],
+      "ffg_id": "XW_P_173",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_173.jpg"
     },
     {
       "name": "Black Sun Soldier",
@@ -75,13 +51,10 @@
       "cost": 27,
       "xws": "blacksunsoldier",
       "text": "The vast and influential Black Sun crime syndicate can always find a use for talented pilots, provided they aren't particular about how they earn their credits.",
-      "image": "https://i.imgur.com/UzPH9n1.jpg",
-      "slots": [
-        "Talent",
-        "Missile",
-        "Illicit",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_172.png",
+      "slots": ["Talent", "Missile", "Illicit", "Modification"],
+      "ffg_id": "XW_P_172",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_172.jpg"
     },
     {
       "name": "Kaa'to Leeachos",
@@ -91,13 +64,10 @@
       "cost": 29,
       "xws": "kaatoleeachos",
       "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
-      "image": "https://i.imgur.com/Y5W8G9t.jpg",
-      "slots": [
-        "Talent",
-        "Missile",
-        "Illicit",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_170.png",
+      "slots": ["Talent", "Missile", "Illicit", "Modification"],
+      "ffg_id": "XW_P_170",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_170.jpg"
     },
     {
       "name": "N'dru Suhlak",
@@ -107,12 +77,10 @@
       "cost": 31,
       "xws": "ndrusuhlak",
       "ability": "While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack die.",
-      "slots": [
-        "Talent",
-        "Missile",
-        "Illicit",
-        "Modification"
-      ]
+      "slots": ["Talent", "Missile", "Illicit", "Modification"],
+      "ffg_id": "XW_P_169",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_169.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_169.jpg"
     },
     {
       "name": "Nashtah Pup",
@@ -126,11 +94,10 @@
         "name": "Escape Craft",
         "text": "Setup: Requires the Hound's Tooth. You must begin the game docked with the Hound's Tooth."
       },
-      "slots": [
-        "Missile",
-        "Illicit",
-        "Modification"
-      ]
+      "slots": ["Missile", "Illicit", "Modification"],
+      "ffg_id": "XW_P_171",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_171.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_171.jpg"
     }
   ]
 }

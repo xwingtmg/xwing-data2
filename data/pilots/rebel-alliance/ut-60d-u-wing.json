@@ -18,37 +18,15 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 5
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 5 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Coordinate"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Coordinate" }
   ],
   "pilots": [
     {
@@ -59,7 +37,7 @@
       "cost": 47,
       "xws": "benthictwotubes",
       "ability": "After you perform a [Focus] action, you may transfer 1 of your focus tokens to a friendly ship at range 1-2.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/b0/b8/b0b8d767-7148-4a42-9072-b2716617a714/swz02_a1_benthic-tt.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_58.png",
       "slots": [
         "Sensor",
         "Crew",
@@ -67,7 +45,9 @@
         "Illicit",
         "Modification",
         "Configuration"
-      ]
+      ],
+      "ffg_id": "XW_P_58",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_58.jpg"
     },
     {
       "name": "Blue Squadron Scout",
@@ -76,14 +56,10 @@
       "cost": 43,
       "xws": "bluesquadronscout",
       "text": "Used for deploying troops under the cover of darkness or into the heat of battle, the UT-60D U-wing fulfills the Rebellion's need for a swift and hardy troop transport.",
-      "image": "https://i.imgur.com/kZeAOLv.jpg",
-      "slots": [
-        "Sensor",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Configuration"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_60.png",
+      "slots": ["Sensor", "Crew", "Crew", "Modification", "Configuration"],
+      "ffg_id": "XW_P_60",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_60.jpg"
     },
     {
       "name": "Bodhi Rook",
@@ -93,7 +69,7 @@
       "cost": 49,
       "xws": "bodhirook",
       "ability": "Friendly ships can acquire locks onto objects at range 0-3 of any friendly ship.",
-      "image": "https://i.imgur.com/BesOcL5.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_54.png",
       "slots": [
         "Talent",
         "Sensor",
@@ -101,7 +77,9 @@
         "Crew",
         "Modification",
         "Configuration"
-      ]
+      ],
+      "ffg_id": "XW_P_54",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_54.jpg"
     },
     {
       "name": "Cassian Andor",
@@ -111,7 +89,7 @@
       "cost": 47,
       "xws": "cassianandor",
       "ability": "At the start of the Activation Phase, you may choose 1 friendly ship at range 1-3. If you do, that ship removes 1 stress token.",
-      "image": "https://i.imgur.com/adYRjQV.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_56.png",
       "slots": [
         "Talent",
         "Sensor",
@@ -119,7 +97,9 @@
         "Crew",
         "Modification",
         "Configuration"
-      ]
+      ],
+      "ffg_id": "XW_P_56",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_56.jpg"
     },
     {
       "name": "Heff Tobber",
@@ -129,7 +109,7 @@
       "cost": 45,
       "xws": "hefftobber",
       "ability": "After an enemy ship executes a maneuver, if it is at range 0, you may perform an action.",
-      "image": "https://i.imgur.com/Ti4Ak00.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_59.png",
       "slots": [
         "Talent",
         "Sensor",
@@ -137,7 +117,9 @@
         "Crew",
         "Modification",
         "Configuration"
-      ]
+      ],
+      "ffg_id": "XW_P_59",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_59.jpg"
     },
     {
       "name": "Magva Yarro",
@@ -147,7 +129,7 @@
       "cost": 50,
       "xws": "magvayarro",
       "ability": "While a friendly ship at range 0-2 defends, the attacker cannot reroll more than 1 attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/30/0c/300c137c-0c8f-41d0-8582-29601bf2ea38/swz02_a1_magva.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_57.png",
       "slots": [
         "Talent",
         "Sensor",
@@ -156,7 +138,9 @@
         "Illicit",
         "Modification",
         "Configuration"
-      ]
+      ],
+      "ffg_id": "XW_P_57",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_57.jpg"
     },
     {
       "name": "Partisan Renegade",
@@ -172,7 +156,10 @@
         "Illicit",
         "Modification",
         "Configuration"
-      ]
+      ],
+      "ffg_id": "XW_P_61",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_61.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_61.jpg"
     },
     {
       "name": "Saw Gerrera",
@@ -182,7 +169,7 @@
       "cost": 52,
       "xws": "sawgerrera",
       "ability": "While a damaged friendly ship at range 0-3 performs an attack, it may reroll 1 attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/75/f3/75f36fb9-66dc-4f90-9bfe-b032aa311e66/swz02_a1_saw-gerrera.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_55.png",
       "slots": [
         "Talent",
         "Sensor",
@@ -197,7 +184,9 @@
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/fe/0c/fe0cdda5-8529-4331-a508-bde68b627e65/g18x2-saw-gerrera-2.png",
           "source": "Season Two 2018"
         }
-      ]
+      ],
+      "ffg_id": "XW_P_55",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_55.jpg"
     }
   ]
 }

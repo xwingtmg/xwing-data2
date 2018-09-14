@@ -25,51 +25,23 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Lock"
-      },
+      "linked": { "difficulty": "Red", "type": "Lock" },
       "type": "Barrel Roll"
     },
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Lock"
-      },
+      "linked": { "difficulty": "Red", "type": "Lock" },
       "type": "Boost"
     }
   ],
@@ -82,18 +54,14 @@
       "cost": 74,
       "xws": "corranhorn",
       "ability": "At initiative 0, you may perform a bonus primary attack against an enemy ship in your [Bullseye Arc]. If you do, at the start of the next Planning Phase, gain 1 disarm token.",
-      "image": "https://i.imgur.com/g8jma0k.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_50.png",
       "shipAbility": {
         "name": "Experimental Scanners",
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Astromech",
-        "Modification"
-      ]
+      "slots": ["Talent", "Sensor", "Torpedo", "Astromech", "Modification"],
+      "ffg_id": "XW_P_50",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_50.jpg"
     },
     {
       "name": "Gavin Darklighter",
@@ -103,18 +71,14 @@
       "cost": 68,
       "xws": "gavindarklighter",
       "ability": "While a friendly ship performs an attack, if the defender is in your [Front Arc], the attacker may change 1 [Hit] result to a [Critical Hit] result.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/72/5b/725b2156-af06-4ddb-b1e6-21928918d32c/swz06-gavin-darklighter.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_51.png",
       "shipAbility": {
         "name": "Experimental Scanners",
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Astromech",
-        "Modification"
-      ]
+      "slots": ["Talent", "Sensor", "Torpedo", "Astromech", "Modification"],
+      "ffg_id": "XW_P_51",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_51.jpg"
     },
     {
       "name": "Knave Squadron Escort",
@@ -123,17 +87,14 @@
       "cost": 61,
       "xws": "knavesquadronescort",
       "text": "Designed to combine the best features of the X-wing series with the A-wing series, the E-wing boasts superior firepower, speed, and maneuverability.",
-      "image": "https://i.imgur.com/khW6Wsa.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_53.png",
       "shipAbility": {
         "name": "Experimental Scanners",
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
       },
-      "slots": [
-        "Sensor",
-        "Torpedo",
-        "Astromech",
-        "Modification"
-      ]
+      "slots": ["Sensor", "Torpedo", "Astromech", "Modification"],
+      "ffg_id": "XW_P_53",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_53.jpg"
     },
     {
       "name": "Rogue Squadron Escort",
@@ -142,18 +103,14 @@
       "cost": 63,
       "xws": "roguesquadronescort",
       "text": "The elite pilots of Rogue Squadron are among the Rebellion's very best.",
-      "image": "https://i.imgur.com/7eV24zH.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_52.png",
       "shipAbility": {
         "name": "Experimental Scanners",
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Astromech",
-        "Modification"
-      ]
+      "slots": ["Talent", "Sensor", "Torpedo", "Astromech", "Modification"],
+      "ffg_id": "XW_P_52",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_52.jpg"
     }
   ]
 }

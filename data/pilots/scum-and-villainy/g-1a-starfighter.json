@@ -22,37 +22,15 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 1
-    },
-    {
-      "type": "hull",
-      "value": 5
-    },
-    {
-      "type": "shields",
-      "value": 4
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 5 },
+    { "type": "shields", "value": 4 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Jam"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Jam" }
   ],
   "pilots": [
     {
@@ -63,29 +41,15 @@
       "cost": 49,
       "xws": "4lom",
       "ability": "After you fully execute a red maneuver, gain 1 calculate token. At the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/c6/42/c6429431-17a4-41a6-a576-ccd113f8335f/swz08_a1_4lom.png",
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_201.png",
+      "slots": ["Talent", "Sensor", "Crew", "Illicit", "Modification", "Title"],
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Calculate"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "type": "Jam"
-        }
-      ]
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Jam" }
+      ],
+      "ffg_id": "XW_P_201",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_201.jpg"
     },
     {
       "name": "Gand Findsman",
@@ -94,14 +58,10 @@
       "cost": 43,
       "xws": "gandfindsman",
       "text": "The legendary Findsmen of Gand worship the enshrouding mists of their home planet, using signs, augurs, and mystical rituals to track their quarry.",
-      "image": "https://i.imgur.com/yYVXjCS.png",
-      "slots": [
-        "Sensor",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_203.png",
+      "slots": ["Sensor", "Crew", "Illicit", "Modification", "Title"],
+      "ffg_id": "XW_P_203",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_203.jpg"
     },
     {
       "name": "Zuckuss",
@@ -111,21 +71,16 @@
       "cost": 47,
       "xws": "zuckuss",
       "ability": "While you perform a primary attack, you may roll 1 additional attack die. If you do, the defender rolls 1 additional defense die.",
-      "image": "https://i.imgur.com/7FoHkE4.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_202.png",
       "alt": [
         {
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/62/69/6269d549-8a5b-40f6-84cb-6ef6fa47212f/op067_zuckuss.png",
           "source": "Coruscant Invitational 2018"
         }
       ],
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title"
-      ]
+      "slots": ["Talent", "Sensor", "Crew", "Illicit", "Modification", "Title"],
+      "ffg_id": "XW_P_202",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_202.jpg"
     }
   ]
 }

@@ -20,41 +20,16 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 1
-    },
-    {
-      "type": "hull",
-      "value": 6
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 6 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Reload"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Barrel Roll" },
+    { "difficulty": "Red", "type": "Reload" }
   ],
   "pilots": [
     {
@@ -64,7 +39,7 @@
       "cost": 32,
       "xws": "crymorahgoon",
       "text": "Though far from nimble, the Y-wing's heavy hull, substantial shielding, and turret-mounted cannons make it an excellent patrol craft.",
-      "image": "https://i.imgur.com/k9OOfbZ.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_168.png",
       "slots": [
         "Turret",
         "Torpedo",
@@ -73,7 +48,9 @@
         "Device",
         "Illicit",
         "Modification"
-      ]
+      ],
+      "ffg_id": "XW_P_168",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_168.jpg"
     },
     {
       "name": "Drea Renthal",
@@ -92,7 +69,10 @@
         "Device",
         "Illicit",
         "Modification"
-      ]
+      ],
+      "ffg_id": "XW_P_166",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_166.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_166.jpg"
     },
     {
       "name": "Hired Gun",
@@ -101,7 +81,7 @@
       "cost": 34,
       "xws": "hiredgun",
       "text": "Just the mention of Imperial credits can bring a host of less-than-trustworthy individuals to your side.",
-      "image": "https://i.imgur.com/kCQaRyo.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_167.png",
       "slots": [
         "Talent",
         "Turret",
@@ -111,7 +91,9 @@
         "Device",
         "Illicit",
         "Modification"
-      ]
+      ],
+      "ffg_id": "XW_P_167",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_167.jpg"
     },
     {
       "name": "Kavil",
@@ -121,7 +103,7 @@
       "cost": 42,
       "xws": "kavil",
       "ability": "While you perform a non-[Front Arc] attack, roll 1 additional attack die.",
-      "image": "https://i.imgur.com/r5fZmK6.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_165.png",
       "slots": [
         "Talent",
         "Turret",
@@ -131,7 +113,9 @@
         "Device",
         "Illicit",
         "Modification"
-      ]
+      ],
+      "ffg_id": "XW_P_165",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_165.jpg"
     }
   ]
 }

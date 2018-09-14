@@ -22,37 +22,15 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "White",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "pilots": [
     {
@@ -62,15 +40,14 @@
       "cost": 34,
       "xws": "alphasquadronpilot",
       "text": "Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.",
-      "image": "https://i.imgur.com/i4vYHvP.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_106.png",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": [
-        "Modification",
-        "Modification"
-      ]
+      "slots": ["Modification", "Modification"],
+      "ffg_id": "XW_P_106",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg"
     },
     {
       "name": "Saber Squadron Ace",
@@ -79,16 +56,14 @@
       "cost": 40,
       "xws": "sabersquadronace",
       "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
-      "image": "https://i.imgur.com/kBjOZ5j.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_105.png",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": [
-        "Talent",
-        "Modification",
-        "Modification"
-      ]
+      "slots": ["Talent", "Modification", "Modification"],
+      "ffg_id": "XW_P_105",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg"
     },
     {
       "name": "Soontir Fel",
@@ -98,16 +73,14 @@
       "cost": 52,
       "xws": "soontirfel",
       "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain 1 focus token.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/5a/6b/5a6bf190-e409-45ee-a35f-cde3ef55fe19/swz07-soontir-fel.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_103.png",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": [
-        "Talent",
-        "Modification",
-        "Modification"
-      ]
+      "slots": ["Talent", "Modification", "Modification"],
+      "ffg_id": "XW_P_103",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg"
     },
     {
       "name": "Turr Phennir",
@@ -117,16 +90,14 @@
       "cost": 44,
       "xws": "turrphennir",
       "ability": "After you perform an attack, you may perform a [Barrel Roll] or [Boost] action, even if you are stressed.",
-      "image": "https://i.imgur.com/biHV5cr.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_104.png",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": [
-        "Talent",
-        "Modification",
-        "Modification"
-      ]
+      "slots": ["Talent", "Modification", "Modification"],
+      "ffg_id": "XW_P_104",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg"
     }
   ]
 }
