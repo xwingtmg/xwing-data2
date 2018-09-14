@@ -8,19 +8,14 @@
         "title": "Bomblet Generator",
         "type": "Device",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] templete. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
-        "slots": [
-          "Device",
-          "Device"
-        ],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "slots": ["Device", "Device"],
+        "charges": { "value": 2, "recovers": 0 }
       }
     ],
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 5 },
+    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_63.png",
+    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_63.jpg",
+    "ffg_id": "XW_U_63"
   },
   {
     "name": "Conner Nets",
@@ -31,18 +26,14 @@
         "title": "Conner Nets",
         "type": "Device",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
-        "slots": [
-          "Device"
-        ],
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        }
+        "slots": ["Device"],
+        "charges": { "value": 1, "recovers": 0 }
       }
     ],
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 6 },
+    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_64.png",
+    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_64.jpg",
+    "ffg_id": "XW_U_64"
   },
   {
     "name": "Proton Bombs",
@@ -54,18 +45,14 @@
         "type": "Device",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb using the [1 [Straight]] template.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/9a/31/9a315db8-d666-43be-a1e1-eb5fbb73e8b6/swz07-proton-bombs.png",
-        "slots": [
-          "Device"
-        ],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "slots": ["Device"],
+        "charges": { "value": 2, "recovers": 0 }
       }
     ],
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 5 },
+    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_65.png",
+    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_65.jpg",
+    "ffg_id": "XW_U_65"
   },
   {
     "name": "Proximity Mines",
@@ -77,18 +64,14 @@
         "type": "Device",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/3f/cb/3fcb3597-caf8-4835-a21d-328f3850816f/swz16_proximity-mines.png",
-        "slots": [
-          "Device"
-        ],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "slots": ["Device"],
+        "charges": { "value": 2, "recovers": 0 }
       }
     ],
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 6 },
+    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_66.png",
+    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_66.jpg",
+    "ffg_id": "XW_U_66"
   },
   {
     "name": "Seismic Charges",
@@ -100,17 +83,13 @@
         "type": "Device",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge with the [1 [Straight]] template.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/4b/20/4b20111d-d6ce-44a5-9b4b-1a25476a3152/swz07-seismic-charges.png",
-        "slots": [
-          "Device"
-        ],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "slots": ["Device"],
+        "charges": { "value": 2, "recovers": 0 }
       }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 },
+    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_67.png",
+    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_67.jpg",
+    "ffg_id": "XW_U_67"
   }
 ]

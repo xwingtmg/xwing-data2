@@ -8,9 +8,7 @@
         "title": "Dorsal Turret",
         "type": "Turret",
         "ability": "Attack",
-        "slots": [
-          "Turret"
-        ],
+        "slots": ["Turret"],
         "attack": {
           "arc": "Single Turret Arc",
           "value": 2,
@@ -18,27 +16,20 @@
           "maxrange": 2,
           "ordnance": false
         },
-        "actions": [
-          {
-            "type": "Rotate Arc",
-            "difficulty": "White"
-          }
-        ],
+        "actions": [{ "type": "Rotate Arc", "difficulty": "White" }],
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Rotate Arc",
-              "difficulty": "White"
-            },
+            "value": { "type": "Rotate Arc", "difficulty": "White" },
             "amount": 1
           }
         ]
       }
     ],
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 },
+    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_31.png",
+    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_31.jpg",
+    "ffg_id": "XW_U_31"
   },
   {
     "name": "Ion Cannon Turret",
@@ -50,9 +41,7 @@
         "type": "Turret",
         "ability": "Attack: If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/0d/ab/0dabd201-f871-474c-9660-70dfc161e335/swz07-ion-cannon-turret.png",
-        "slots": [
-          "Turret"
-        ],
+        "slots": ["Turret"],
         "attack": {
           "arc": "Single Turret Arc",
           "value": 3,
@@ -60,26 +49,19 @@
           "maxrange": 2,
           "ordnance": false
         },
-        "actions": [
-          {
-            "type": "Rotate Arc",
-            "difficulty": "White"
-          }
-        ],
+        "actions": [{ "type": "Rotate Arc", "difficulty": "White" }],
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Rotate Arc",
-              "difficulty": "White"
-            },
+            "value": { "type": "Rotate Arc", "difficulty": "White" },
             "amount": 1
           }
         ]
       }
     ],
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 6 },
+    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_32.png",
+    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_32.jpg",
+    "ffg_id": "XW_U_32"
   }
 ]
