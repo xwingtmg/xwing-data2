@@ -20,53 +20,25 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Single Turret Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
       "type": "Focus"
     },
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
       "type": "Lock"
     },
-    {
-      "difficulty": "Red",
-      "type": "Boost"
-    },
-    {
-      "difficulty": "White",
-      "type": "Rotate Arc"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Jam"
-    }
+    { "difficulty": "Red", "type": "Boost" },
+    { "difficulty": "White", "type": "Rotate Arc" },
+    { "difficulty": "Red", "type": "Jam" }
   ],
   "pilots": [
     {
@@ -77,11 +49,8 @@
       "cost": 36,
       "xws": "dacebonearm",
       "ability": "After an enemy ship at range 0-3 receives at least 1 ion token, you may spend 3 [Charge]. If you do, that ship gains 2 additional ion tokens.",
-      "image": "https://i.imgur.com/Gecc5xw.png",
-      "charges": {
-        "value": 3,
-        "recovers": 1
-      },
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_174.png",
+      "charges": { "value": 3, "recovers": 1 },
       "slots": [
         "Talent",
         "Crew",
@@ -90,7 +59,9 @@
         "Modification",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_174",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_174.jpg"
     },
     {
       "name": "Palob Godalhi",
@@ -100,7 +71,7 @@
       "cost": 38,
       "xws": "palobgodalhi",
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your firing arc at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
-      "image": "https://i.imgur.com/UkY22MH.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_175.png",
       "slots": [
         "Talent",
         "Crew",
@@ -109,7 +80,9 @@
         "Modification",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_175",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_175.jpg"
     },
     {
       "name": "Spice Runner",
@@ -118,7 +91,7 @@
       "cost": 32,
       "xws": "spicerunner",
       "text": "Though its cargo space is limited compared to other light freighters, the small, swift HWK-290 is a favorite choice of smugglers who specialize in discreetly transporting precious goods.",
-      "image": "https://i.imgur.com/PvrCwn6.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_177.png",
       "slots": [
         "Crew",
         "Device",
@@ -126,7 +99,9 @@
         "Modification",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_177",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_177.jpg"
     },
     {
       "name": "Torkil Mux",
@@ -136,7 +111,7 @@
       "cost": 36,
       "xws": "torkilmux",
       "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.",
-      "image": "https://i.imgur.com/Gecc5xw.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_176.png",
       "slots": [
         "Crew",
         "Device",
@@ -144,7 +119,9 @@
         "Modification",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_176",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_176.jpg"
     }
   ]
 }

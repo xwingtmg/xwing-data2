@@ -21,38 +21,15 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "arc": "Rear Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 4
-    },
-    {
-      "type": "shields",
-      "value": 1
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "arc": "Rear Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 4 },
+    { "type": "shields", "value": 1 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Coordinate"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Coordinate" }
   ],
   "pilots": [
     {
@@ -63,18 +40,14 @@
       "cost": 32,
       "xws": "zeborrelios-sheathipedeclassshuttle",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
-      "image": "https://i.imgur.com/2ujf4eY.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_40.png",
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
-      "slots": [
-        "Talent",
-        "Crew",
-        "Astromech",
-        "Modification",
-        "Title"
-      ]
+      "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
+      "ffg_id": "XW_P_40",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg"
     },
     {
       "name": "AP-5",
@@ -84,28 +57,18 @@
       "cost": 30,
       "xws": "ap5",
       "ability": "While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions.",
-      "image": "https://i.imgur.com/DhzlEwW.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_41.png",
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Calculate"
-        },
-        {
-          "difficulty": "White",
-          "type": "Coordinate"
-        }
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Coordinate" }
       ],
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
-      "slots": [
-        "Talent",
-        "Crew",
-        "Astromech",
-        "Modification",
-        "Title"
-      ]
+      "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
+      "ffg_id": "XW_P_41",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg"
     },
     {
       "name": "Ezra Bridger",
@@ -115,22 +78,15 @@
       "cost": 42,
       "xws": "ezrabridger-sheathipedeclassshuttle",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade]/[Hit] results.",
-      "image": "https://i.imgur.com/8rzfJ7R.jpg",
-      "force": {
-        "value": 1,
-        "recovers": 1
-      },
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_39.png",
+      "force": { "value": 1, "recovers": 1 },
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
-      "slots": [
-        "Force Power",
-        "Crew",
-        "Astromech",
-        "Modification",
-        "Title"
-      ]
+      "slots": ["Force Power", "Crew", "Astromech", "Modification", "Title"],
+      "ffg_id": "XW_P_39",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg"
     },
     {
       "name": "Fenn Rau",
@@ -140,18 +96,14 @@
       "cost": 52,
       "xws": "fennrau-sheathipedeclassshuttle",
       "ability": "After an enemy ship in your firing arc engages, if you are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.",
-      "image": "https://i.imgur.com/zir3Bdj.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_38.png",
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
-      "slots": [
-        "Talent",
-        "Crew",
-        "Astromech",
-        "Modification",
-        "Title"
-      ]
+      "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
+      "ffg_id": "XW_P_38",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg"
     }
   ]
 }

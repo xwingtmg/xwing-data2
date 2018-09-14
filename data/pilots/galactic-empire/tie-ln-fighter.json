@@ -21,33 +21,14 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Barrel Roll" }
   ],
   "pilots": [
     {
@@ -58,11 +39,10 @@
       "cost": 40,
       "xws": "howlrunner",
       "ability": "While a friendly ship at range 0-1 performs a primary attack, that ship may reroll 1 attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/61/10/61100be4-2767-4d2c-a17f-5eb3c1a6c843/swz07_howlrunner.png",
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_81.png",
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_81",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_81.jpg"
     },
     {
       "name": "\"Mauler\" Mithel",
@@ -72,11 +52,10 @@
       "cost": 32,
       "xws": "maulermithel",
       "ability": "While you perform an attack at attack range 1, roll 1 additional attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/a3/27a38715-323d-45ff-b72d-f37c347a362d/swz14_mauler.png",
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_80.png",
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_80",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_80.jpg"
     },
     {
       "name": "\"Night Beast\"",
@@ -86,10 +65,10 @@
       "cost": 26,
       "xws": "nightbeast",
       "ability": "After you fully execute a blue maneuver, you may perform a [Focus] action.",
-      "image": "https://i.imgur.com/FbwsflC.png",
-      "slots": [
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_88.png",
+      "slots": ["Modification"],
+      "ffg_id": "XW_P_88",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_88.jpg"
     },
     {
       "name": "\"Scourge\" Skutu",
@@ -99,11 +78,10 @@
       "cost": 32,
       "xws": "scourgeskutu",
       "ability": "While you perform an attack against a defender in your [Bullseye Arc], roll 1 additional attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/98/a2/98a2f940-77d7-4ecf-aa21-b2b3faa4715e/swz14_scourge.png",
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_82.png",
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_82",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_82.jpg"
     },
     {
       "name": "\"Wampa\"",
@@ -113,14 +91,11 @@
       "cost": 30,
       "xws": "wampa",
       "ability": "While you perform an attack, you may spend 1 [Charge] to roll 1 additional attack die. After defending, lose 1 [Charge].",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/b6/1c/b61c7b54-5fe6-431c-866d-3adf6018e9f7/swz14_wampa.png",
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
-      "slots": [
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_89.png",
+      "charges": { "value": 1, "recovers": 1 },
+      "slots": ["Modification"],
+      "ffg_id": "XW_P_89",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_89.jpg"
     },
     {
       "name": "Academy Pilot",
@@ -129,16 +104,16 @@
       "cost": 23,
       "xws": "academypilot",
       "text": "The Galactic Empire uses the fast and agile TIE/ln, developed by Sienar Fleet Systems and produced in staggering quantity, as its primary starfighter.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/af/9b/af9bd45c-58ad-4861-a7ce-410dd67aa87f/swz-academy-pilot.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_92.png",
       "alt": [
         {
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/c9/4e/c94efa45-9cf7-4167-8e41-50d27d300f12/op066-academy-pilot.png",
           "source": "X-Wing Second Edition Launch Party"
         }
       ],
-      "slots": [
-        "Modification"
-      ]
+      "slots": ["Modification"],
+      "ffg_id": "XW_P_92",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_92.jpg"
     },
     {
       "name": "Black Squadron Ace",
@@ -147,17 +122,16 @@
       "cost": 26,
       "xws": "blacksquadronace",
       "text": "The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/62/88/6288850b-db3d-4ced-9b2e-6e2e0675acb5/swz01-black-squadron-ace.png",
-      "slots": [
-        "Talent",
-        "Modification"
-      ],
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_90.png",
+      "slots": ["Talent", "Modification"],
       "alt": [
         {
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/fe/2b/fe2b0b19-b983-4665-aa8a-769fc2e03f64/op086-obsidian-squadron-pilot.png",
           "source": "Gen Con Indy 2018"
         }
-      ]
+      ],
+      "ffg_id": "XW_P_90",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_90.jpg"
     },
     {
       "name": "Del Meeko",
@@ -167,11 +141,10 @@
       "cost": 30,
       "xws": "delmeeko",
       "ability": "While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/21/c6/21c66049-cbee-4783-a346-6e7167b0f685/swz14_del-meeko.png",
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_85.png",
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_85",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_85.jpg"
     },
     {
       "name": "Gideon Hask",
@@ -181,11 +154,10 @@
       "cost": 30,
       "xws": "gideonhask",
       "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/95/aa/95aa2578-4127-4532-9cf4-df9cd63fc00c/swz14_gideon-hask.png",
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_84.png",
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_84",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_84.jpg"
     },
     {
       "name": "Iden Versio",
@@ -195,15 +167,11 @@
       "cost": 40,
       "xws": "idenversio",
       "ability": "Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 [Charge]. If you do, prevent that damage.",
-      "image": "https://i.imgur.com/1GqfiBc.jpg",
-      "charges": {
-        "value": 1,
-        "recovers": 0
-      },
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_83.png",
+      "charges": { "value": 1, "recovers": 0 },
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_83",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_83.jpg"
     },
     {
       "name": "Obsidian Squadron Pilot",
@@ -212,16 +180,16 @@
       "cost": 24,
       "xws": "obsidiansquadronpilot",
       "text": "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass-produced.",
-      "image": "https://i.imgur.com/DDeq1x3.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_91.png",
       "alt": [
         {
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/12/55/12552f53-decc-49ff-8fe2-e4285d4ff31e/op066-obsidian-squadron-pilot.png",
           "source": "X-Wing Second Edition Launch Party"
         }
       ],
-      "slots": [
-        "Modification"
-      ]
+      "slots": ["Modification"],
+      "ffg_id": "XW_P_91",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_91.jpg"
     },
     {
       "name": "Seyn Marana",
@@ -231,15 +199,11 @@
       "cost": 30,
       "xws": "seynmarana",
       "ability": "While you perform an attack, you may spend 1 [Critical Hit] result. If you do, deal 1 facedown damage card to the defender, then cancel you remaining results.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/6e/35/6e356c04-5171-418f-891f-e35852a0bc57/swz14_seyn-marana.png",
-      "charges": {
-        "value": 1,
-        "recovers": 0
-      },
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_86.png",
+      "charges": { "value": 1, "recovers": 0 },
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_86",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_86.jpg"
     },
     {
       "name": "Valen Rudor",
@@ -249,11 +213,10 @@
       "cost": 28,
       "xws": "valenrudor",
       "ability": "After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action.",
-      "image": "https://i.imgur.com/YFaADU4.png",
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_87.png",
+      "slots": ["Talent", "Modification"],
+      "ffg_id": "XW_P_87",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_87.jpg"
     }
   ]
 }

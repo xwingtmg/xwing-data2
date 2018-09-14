@@ -21,16 +21,7 @@
     "4KR"
   ],
   "faction": "Resistance",
-  "stats": [
-    {
-      "type": "agility",
-      "value": 0
-    },
-    {
-      "type": "hull",
-      "value": 0
-    }
-  ],
+  "stats": [{ "type": "agility", "value": 0 }, { "type": "hull", "value": 0 }],
   "pilots": [
     {
       "name": "Chewbacca",
@@ -48,12 +39,6 @@
       "cost": 200,
       "xws": "hansolo-modifiedyt1300lightfreighter-resistance"
     },
-    {
-      "name": "Rey",
-      "initiative": 0,
-      "limited": 1,
-      "cost": 200,
-      "xws": "rey"
-    }
+    { "name": "Rey", "initiative": 0, "limited": 1, "cost": 200, "xws": "rey" }
   ]
 }

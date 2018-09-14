@@ -23,41 +23,19 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Barrel Roll"
-      },
+      "linked": { "difficulty": "Red", "type": "Barrel Roll" },
       "type": "Focus"
     },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Barrel Roll" }
   ],
   "pilots": [
     {
@@ -68,27 +46,21 @@
       "cost": 70,
       "xws": "darthvader",
       "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/4a/a3/4aa31721-624a-456c-ab97-9224ba04099c/swz15_a1_darth-vader.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_93.png",
       "alt": [
         {
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/24/0a/240a5d21-309c-4d3d-aef9-5dab25564b7b/op18xu_card_altart2.png",
           "source": "European and North American Championship 2018"
         }
       ],
-      "force": {
-        "value": 3,
-        "recovers": 1
-      },
+      "force": { "value": 3, "recovers": 1 },
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": [
-        "Force Power",
-        "Sensor",
-        "Missile",
-        "Modification"
-      ]
+      "slots": ["Force Power", "Sensor", "Missile", "Modification"],
+      "ffg_id": "XW_P_93",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_93.jpg"
     },
     {
       "name": "Maarek Stele",
@@ -98,17 +70,14 @@
       "cost": 50,
       "xws": "maarekstele",
       "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/a7/2e/a72ea6fe-b11c-439b-a1f8-6185b9b961f2/swz15_a1_maarek-stele.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_94.png",
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Missile",
-        "Modification"
-      ]
+      "slots": ["Talent", "Sensor", "Missile", "Modification"],
+      "ffg_id": "XW_P_94",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_94.jpg"
     },
     {
       "name": "Storm Squadron Ace",
@@ -117,17 +86,14 @@
       "cost": 43,
       "xws": "stormsquadronace",
       "text": "The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.",
-      "image": "https://i.imgur.com/ZPCZxyz.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_97.png",
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Missile",
-        "Modification"
-      ]
+      "slots": ["Talent", "Sensor", "Missile", "Modification"],
+      "ffg_id": "XW_P_97",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_97.jpg"
     },
     {
       "name": "Tempest Squadron Pilot",
@@ -146,11 +112,10 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": [
-        "Sensor",
-        "Missile",
-        "Modification"
-      ]
+      "slots": ["Sensor", "Missile", "Modification"],
+      "ffg_id": "XW_P_98",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_98.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_98.jpg"
     },
     {
       "name": "Ved Foslo",
@@ -160,17 +125,14 @@
       "cost": 47,
       "xws": "vedfoslo",
       "ability": "While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/62/a6/62a6ca0a-40bf-4bf6-a9b4-304a6cfb1f87/swz15_a1_ved-foslo.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_95.png",
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Missile",
-        "Modification"
-      ]
+      "slots": ["Talent", "Sensor", "Missile", "Modification"],
+      "ffg_id": "XW_P_95",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_95.jpg"
     },
     {
       "name": "Zertik Strom",
@@ -180,16 +142,14 @@
       "cost": 45,
       "xws": "zertikstrom",
       "ability": "During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship's damage cards.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/59/4b/594b12d4-847a-4193-ab55-36ec29a85e1e/swz15_a1_zertik-strom.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_96.png",
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": [
-        "Sensor",
-        "Missile",
-        "Modification"
-      ]
+      "slots": ["Sensor", "Missile", "Modification"],
+      "ffg_id": "XW_P_96",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_96.jpg"
     }
   ]
 }

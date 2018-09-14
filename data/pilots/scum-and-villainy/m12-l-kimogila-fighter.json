@@ -21,41 +21,16 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 1
-    },
-    {
-      "type": "hull",
-      "value": 7
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 7 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "White",
-      "type": "Reload"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Reload" }
   ],
   "pilots": [
     {
@@ -65,7 +40,7 @@
       "cost": 44,
       "xws": "cartelexecutioner",
       "text": "Many veteran pilots in the service of the Hutt kajidics and other criminal operations choose the M12-L Kimogila for its firepower and dreaded reputation alike.",
-      "image": "https://i.imgur.com/pMzEnFO.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_209.png",
       "shipAbility": {
         "name": "Dead to Rights",
         "text": "While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens."
@@ -77,7 +52,9 @@
         "Astromech",
         "Illicit",
         "Modification"
-      ]
+      ],
+      "ffg_id": "XW_P_209",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_209.jpg"
     },
     {
       "name": "Dalan Oberos",
@@ -87,11 +64,8 @@
       "cost": 48,
       "xws": "dalanoberos",
       "ability": "At the start of the Engagement Phase, you may choose 1 shielded ship in your [Bullseye Arc] and spend 1 [Charge]. If you do, that ship loses 1 shield and you recover 1 shield.",
-      "image": "https://i.imgur.com/3SB3ZdP.jpg",
-      "charges": {
-        "value": 2,
-        "recovers": 0
-      },
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_208.png",
+      "charges": { "value": 2, "recovers": 0 },
       "shipAbility": {
         "name": "Dead to Rights",
         "text": "While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens."
@@ -103,7 +77,9 @@
         "Astromech",
         "Illicit",
         "Modification"
-      ]
+      ],
+      "ffg_id": "XW_P_208",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_208.jpg"
     },
     {
       "name": "Torani Kulda",
@@ -113,7 +89,7 @@
       "cost": 50,
       "xws": "toranikulda",
       "ability": "After you perform an attack, each enemy ship in your [Bullseye Arc] suffers 1 [Hit] damage unless it removes 1 green token.",
-      "image": "https://i.imgur.com/NVYYF9t.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_207.png",
       "shipAbility": {
         "name": "Dead to Rights",
         "text": "While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens."
@@ -125,7 +101,9 @@
         "Astromech",
         "Illicit",
         "Modification"
-      ]
+      ],
+      "ffg_id": "XW_P_207",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_207.jpg"
     }
   ]
 }

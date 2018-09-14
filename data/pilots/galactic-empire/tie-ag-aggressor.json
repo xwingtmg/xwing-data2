@@ -20,39 +20,17 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 4
-    },
-    {
-      "type": "shields",
-      "value": 1
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 4 },
+    { "type": "shields", "value": 1 }
   ],
   "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Evade"
-      },
+      "linked": { "difficulty": "Red", "type": "Evade" },
       "type": "Barrel Roll"
     }
   ],
@@ -65,7 +43,7 @@
       "cost": 33,
       "xws": "doubleedge",
       "ability": "After you perform a [Turret] or [Missile] attack that misses, you may perform a bonus attack using a different weapon.",
-      "image": "https://i.imgur.com/9CAQhnT.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_128.png",
       "slots": [
         "Talent",
         "Turret",
@@ -73,7 +51,9 @@
         "Missile",
         "Gunner",
         "Modification"
-      ]
+      ],
+      "ffg_id": "XW_P_128",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_128.jpg"
     },
     {
       "name": "Lieutenant Kestal",
@@ -83,7 +63,7 @@
       "cost": 36,
       "xws": "lieutenantkestal",
       "ability": "While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender's blank/[Focus] results.",
-      "image": "https://i.imgur.com/2B28yb9.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_127.png",
       "slots": [
         "Talent",
         "Turret",
@@ -91,7 +71,9 @@
         "Missile",
         "Gunner",
         "Modification"
-      ]
+      ],
+      "ffg_id": "XW_P_127",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_127.jpg"
     },
     {
       "name": "Onyx Squadron Scout",
@@ -100,7 +82,7 @@
       "cost": 32,
       "xws": "onyxsquadronscout",
       "text": "Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loadout and its maneuverability to full effect.",
-      "image": "https://i.imgur.com/vitbEbv.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_129.png",
       "slots": [
         "Talent",
         "Turret",
@@ -108,7 +90,9 @@
         "Missile",
         "Gunner",
         "Modification"
-      ]
+      ],
+      "ffg_id": "XW_P_129",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_129.jpg"
     },
     {
       "name": "Sienar Specialist",
@@ -117,14 +101,10 @@
       "cost": 30,
       "xws": "sienarspecialist",
       "text": "During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency.",
-      "image": "https://i.imgur.com/dfWi6CV.jpg",
-      "slots": [
-        "Turret",
-        "Missile",
-        "Missile",
-        "Gunner",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_130.png",
+      "slots": ["Turret", "Missile", "Missile", "Gunner", "Modification"],
+      "ffg_id": "XW_P_130",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_130.jpg"
     }
   ]
 }

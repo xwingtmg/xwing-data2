@@ -22,39 +22,17 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 1
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 1 }
   ],
   "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
     {
       "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Evade"
-      },
+      "linked": { "difficulty": "Red", "type": "Evade" },
       "type": "Barrel Roll"
     }
   ],
@@ -67,17 +45,14 @@
       "cost": 34,
       "xws": "zeborrelios",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
-      "image": "https://i.imgur.com/WXy3lrB.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_37.png",
       "shipAbility": {
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
-      "slots": [
-        "Turret",
-        "Crew",
-        "Modification",
-        "Title"
-      ]
+      "slots": ["Turret", "Crew", "Modification", "Title"],
+      "ffg_id": "XW_P_37",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg"
     },
     {
       "name": "Ezra Bridger",
@@ -87,22 +62,15 @@
       "cost": 41,
       "xws": "ezrabridger",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
-      "image": "https://i.imgur.com/01rgRqz.png",
-      "force": {
-        "value": 1,
-        "recovers": 1
-      },
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_36.png",
+      "force": { "value": 1, "recovers": 1 },
       "shipAbility": {
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
-      "slots": [
-        "Force Power",
-        "Turret",
-        "Crew",
-        "Modification",
-        "Title"
-      ]
+      "slots": ["Force Power", "Turret", "Crew", "Modification", "Title"],
+      "ffg_id": "XW_P_36",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg"
     },
     {
       "name": "Hera Syndulla",
@@ -112,18 +80,14 @@
       "cost": 39,
       "xws": "herasyndulla",
       "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.",
-      "image": "https://i.imgur.com/Jq3qoJo.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_34.png",
       "shipAbility": {
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
-      "slots": [
-        "Talent",
-        "Turret",
-        "Crew",
-        "Modification",
-        "Title"
-      ]
+      "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
+      "ffg_id": "XW_P_34",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_34.jpg"
     },
     {
       "name": "Sabine Wren",
@@ -133,18 +97,14 @@
       "cost": 38,
       "xws": "sabinewren",
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/7f/de/7fde6e01-f59d-45cb-8730-cfd394e2b272/swz06_a1_sabine-wren.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_35.png",
       "shipAbility": {
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
-      "slots": [
-        "Talent",
-        "Turret",
-        "Crew",
-        "Modification",
-        "Title"
-      ]
+      "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
+      "ffg_id": "XW_P_35",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_35.jpg"
     }
   ]
 }

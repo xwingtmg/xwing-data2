@@ -23,45 +23,17 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 4
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 4 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "White",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "pilots": [
     {
@@ -72,17 +44,14 @@
       "cost": 88,
       "xws": "colonelvessery",
       "ability": "While you perform an attack against a locked ship, after you roll attack dice, you may acquire a lock on the defender.",
-      "image": "https://i.imgur.com/zMIFfUy.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_123.png",
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Cannon",
-        "Missile"
-      ]
+      "slots": ["Talent", "Sensor", "Cannon", "Missile"],
+      "ffg_id": "XW_P_123",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg"
     },
     {
       "name": "Countess Ryad",
@@ -92,17 +61,14 @@
       "cost": 86,
       "xws": "countessryad",
       "ability": "While you would execute a [Straight] maneuver, you may increase the difficulty of the maneuver. If you do, execute it as a [Koiogran Turn] maneuver instead.",
-      "image": "https://i.imgur.com/2xlGiqx.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_124.png",
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Cannon",
-        "Missile"
-      ]
+      "slots": ["Talent", "Sensor", "Cannon", "Missile"],
+      "ffg_id": "XW_P_124",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg"
     },
     {
       "name": "Delta Squadron Pilot",
@@ -111,16 +77,14 @@
       "cost": 72,
       "xws": "deltasquadronpilot",
       "text": "In addition to its missile launchers and six wingtip laser cannons, the formidable TIE defender is equipped with deflector shields and a hyperdrive.",
-      "image": "https://i.imgur.com/ed9jBrD.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_126.png",
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": [
-        "Sensor",
-        "Cannon",
-        "Missile"
-      ]
+      "slots": ["Sensor", "Cannon", "Missile"],
+      "ffg_id": "XW_P_126",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg"
     },
     {
       "name": "Onyx Squadron Ace",
@@ -129,17 +93,14 @@
       "cost": 78,
       "xws": "onyxsquadronace",
       "text": "The experimental TIE defender outclasses all other contemporary starfighters, though its size, speed, and array of weapons come at a tremendous cost in credits.",
-      "image": "https://i.imgur.com/anocoLw.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_125.png",
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Cannon",
-        "Missile"
-      ]
+      "slots": ["Talent", "Sensor", "Cannon", "Missile"],
+      "ffg_id": "XW_P_125",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg"
     },
     {
       "name": "Rexler Brath",
@@ -149,17 +110,14 @@
       "cost": 84,
       "xws": "rexlerbrath",
       "ability": "After you perform an attack that hits, if you are evading, expose 1 of the defender's damage cards.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/7e/35/7e354ba4-7e8b-474c-a895-5d461b99dc2b/swz07_a2_rexler_brath.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_122.png",
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Cannon",
-        "Missile"
-      ]
+      "slots": ["Talent", "Sensor", "Cannon", "Missile"],
+      "ffg_id": "XW_P_122",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg"
     }
   ]
 }

@@ -21,45 +21,23 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Single Turret Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 6
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 6 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
       "type": "Focus"
     },
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Rotate Arc"
-      },
+      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
       "type": "Lock"
     },
-    {
-      "difficulty": "Red",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "Red", "type": "Barrel Roll" }
   ],
   "pilots": [
     {
@@ -69,14 +47,10 @@
       "cost": 52,
       "xws": "contractedscout",
       "text": "Built for long-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
-      "image": "https://i.imgur.com/FEZzvV0.png",
-      "slots": [
-        "Crew",
-        "Torpedo",
-        "Illicit",
-        "Modification",
-        "Title"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_217.png",
+      "slots": ["Crew", "Torpedo", "Illicit", "Modification", "Title"],
+      "ffg_id": "XW_P_217",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg"
     },
     {
       "name": "Dengar",
@@ -86,17 +60,14 @@
       "cost": 64,
       "xws": "dengar",
       "ability": "After you defend, if the attcker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
-      "image": "https://i.imgur.com/Pli4hOp.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_214.png",
       "alt": [
         {
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/fe/da/feda9a2c-38f4-447a-8b0c-af7e04ace137/op067_dengar.png",
           "source": "Coruscant Invitational 2018"
         }
       ],
-      "charges": {
-        "value": 1,
-        "recovers": 1
-      },
+      "charges": { "value": 1, "recovers": 1 },
       "slots": [
         "Talent",
         "Crew",
@@ -104,17 +75,19 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_214",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_214.jpg"
     },
     {
       "name": "Manaroo",
       "caption": "Graceful Aruzan",
       "initiative": 3,
       "limited": 1,
-      "cost": 56,
+      "cost": 54,
       "xws": "manaroo",
       "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.",
-      "image": "https://i.imgur.com/Jmm6wZQ.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_215.png",
       "slots": [
         "Talent",
         "Crew",
@@ -122,7 +95,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_215",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_215.jpg"
     },
     {
       "name": "Tel Trevura",
@@ -132,11 +107,8 @@
       "cost": 60,
       "xws": "teltrevura",
       "ability": "If you would be destroyed, you may spend 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [Hit] damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.",
-      "image": "https://i.imgur.com/FeUMuVx.jpg",
-      "charges": {
-        "value": 1,
-        "recovers": 0
-      },
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_216.png",
+      "charges": { "value": 1, "recovers": 0 },
       "slots": [
         "Talent",
         "Crew",
@@ -144,7 +116,9 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg_id": "XW_P_216",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg"
     }
   ]
 }

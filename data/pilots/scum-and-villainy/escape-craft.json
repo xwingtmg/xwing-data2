@@ -18,37 +18,15 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 2
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 2 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Coordinate"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "Red", "type": "Coordinate" }
   ],
   "pilots": [
     {
@@ -59,30 +37,20 @@
       "cost": 12,
       "xws": "autopilotdrone",
       "text": "Sometimes, manufacturer's warnings are made to be broken.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/6c/7f/6c7fa1cf-0e5e-45a0-998f-1aa45e9962fd/swz04_autopilot-drone.png",
-      "charges": {
-        "value": 3,
-        "recovers": 0
-      },
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_229.png",
+      "charges": { "value": 3, "recovers": 0 },
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Calculate"
-        },
-        {
-          "difficulty": "White",
-          "type": "Barrel Roll"
-        },
-        {
-          "difficulty": "Red",
-          "type": "Coordinate"
-        }
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "Red", "type": "Coordinate" }
       ],
       "shipAbility": {
         "name": "Rigged Energy Cells",
         "text": "During the System Phase, if you are not docked, lose 1 [Charge]. At the end of the Activation Phase, if you have 0 [Charge], you are destroyed. Before you are removed, each ship at range 0-1 suffers 1 [Critical Hit] damage."
       },
-      "slots": []
+      "slots": [],
+      "ffg_id": "XW_P_229",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg"
     },
     {
       "name": "L3-37",
@@ -92,30 +60,19 @@
       "cost": 22,
       "xws": "l337-escapecraft",
       "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/c5/b0/c5b059ab-d58e-469c-b484-44caad6c8989/swz04_l3-37-escape-craft.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_228.png",
       "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Calculate"
-        },
-        {
-          "difficulty": "White",
-          "type": "Barrel Roll"
-        },
-        {
-          "difficulty": "Red",
-          "type": "Coordinate"
-        }
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "Red", "type": "Coordinate" }
       ],
       "shipAbility": {
         "name": "Co-Pilot",
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
       },
-      "slots": [
-        "Talent",
-        "Crew",
-        "Modification"
-      ]
+      "slots": ["Talent", "Crew", "Modification"],
+      "ffg_id": "XW_P_228",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_228.jpg"
     },
     {
       "name": "Lando Calrissian",
@@ -125,19 +82,15 @@
       "cost": 26,
       "xws": "landocalrissian-escapecraft",
       "ability": "After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.",
-      "charges": {
-        "value": 3,
-        "recovers": 0
-      },
+      "charges": { "value": 3, "recovers": 0 },
       "shipAbility": {
         "name": "Co-Pilot",
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
       },
-      "slots": [
-        "Talent",
-        "Crew",
-        "Modification"
-      ]
+      "slots": ["Talent", "Crew", "Modification"],
+      "ffg_id": "XW_P_226",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_226.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg"
     },
     {
       "name": "Outer Rim Pioneer",
@@ -147,16 +100,14 @@
       "cost": 24,
       "xws": "outerrimpioneer",
       "ability": "Friendly ships at range 0-1 can perform attacks at range 0 of obstacles.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/1a/0d/1a0db6ff-cf52-453e-bcfb-7508c03b2359/swz04_outer-rim-pioneer.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_227.png",
       "shipAbility": {
         "name": "Co-Pilot",
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
       },
-      "slots": [
-        "Talent",
-        "Crew",
-        "Modification"
-      ]
+      "slots": ["Talent", "Crew", "Modification"],
+      "ffg_id": "XW_P_227",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_227.jpg"
     }
   ]
 }
