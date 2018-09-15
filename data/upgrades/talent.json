@@ -8,13 +8,13 @@
         "title": "Composure",
         "type": "Talent",
         "ability": "After you fail an action, if you have no green tokens, you may perform a [Focus] action.",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_156.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_156.jpg"
       }
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "action": { "type": "Focus" } }],
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_156.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_156.jpg",
     "ffg_id": "XW_U_156"
   },
   {
@@ -28,12 +28,12 @@
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], before the Neutralize Results step, you may spend 1 [Charge] to cancel 1 [Evade] result.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/86/d9/86d9931b-ee81-4c50-af26-7115febef89d/swz01_a4_crackshot.png",
         "slots": ["Talent"],
-        "charges": { "value": 1, "recovers": 0 }
+        "charges": { "value": 1, "recovers": 0 },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_1.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_1.jpg"
       }
     ],
     "cost": { "value": 1 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_1.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_1.jpg",
     "ffg_id": "XW_U_1"
   },
   {
@@ -46,7 +46,9 @@
         "type": "Talent",
         "ability": "While you perform a white [Boost] action, you may treat it as red to use the [1 [Turn Left]] or [1 [Turn Right]] template instead.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/55/65/55659ceb-e6e7-475b-aabd-1791e9854f3b/swz17_daredevil.png",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_2.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_2.jpg"
       }
     ],
     "cost": { "value": 3 },
@@ -54,8 +56,6 @@
       { "sizes": ["Small"] },
       { "action": { "type": "Boost", "difficulty": "White" } }
     ],
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_2.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_2.jpg",
     "ffg_id": "XW_U_2"
   },
   {
@@ -75,13 +75,13 @@
             "value": { "type": "Evade", "difficulty": "Red" },
             "amount": 1
           }
-        ]
+        ],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_3.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_3.jpg"
       }
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_3.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_3.jpg",
     "ffg_id": "XW_U_3"
   },
   {
@@ -94,13 +94,13 @@
         "type": "Talent",
         "ability": "While you defend, you may spend 1 [Charge] to reroll 1 defense die. After you fully execute a red maneuver, recover 1 [Charge].",
         "slots": ["Talent"],
-        "charges": { "value": 1, "recovers": 0 }
+        "charges": { "value": 1, "recovers": 0 },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_4.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_4.jpg"
       }
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_4.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_4.jpg",
     "ffg_id": "XW_U_4"
   },
   {
@@ -121,15 +121,18 @@
             "value": { "type": "Barrel Roll", "difficulty": "White" },
             "amount": 1
           }
-        ]
+        ],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_5.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_5.jpg"
       }
     ],
-    "cost": { "value": null },
+    "cost": {
+      "variable": "size",
+      "values": { "Small": 2, "Medium": 4, "Large": 6 }
+    },
     "restrictions": [
       { "action": { "type": "Barrel Roll", "difficulty": "Red" } }
     ],
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_5.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_5.jpg",
     "ffg_id": "XW_U_5"
   },
   {
@@ -156,14 +159,13 @@
         "title": "Fearless",
         "type": "Talent",
         "ability": "While you perform a [Front Arc] primary attack, if the attack range is 1 and you are in the defender's [Front Arc], you may change 1 of your results to a [Hit] result.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/71/ac/71ac027a-ce78-409d-a05e-0d7795225a8c/swz08-fearless.png",
-        "slots": ["Talent"]
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_6.png",
+        "slots": ["Talent"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_6.jpg"
       }
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_6.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_6.jpg",
     "ffg_id": "XW_U_6"
   },
   {
@@ -189,12 +191,12 @@
         "title": "Intimidation",
         "type": "Talent",
         "ability": "While an enemy ship at range 0 defends, it rolls 1 fewer defense die.",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_7.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_7.jpg"
       }
     ],
     "cost": { "value": 3 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_7.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_7.jpg",
     "ffg_id": "XW_U_7"
   },
   {
@@ -207,19 +209,18 @@
         "type": "Talent",
         "ability": "While you perform an attack, if you are evading, you may change 1 of the defender's [Evade] results to a [Focus] result.",
         "slots": ["Talent"],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/a3/57/a357f9aa-dc26-45d4-894f-b6ff33f05aab/swz14_juke.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_8.png",
         "alt": [
           {
             "image": "https://images-cdn.fantasyflightgames.com/filer_public/4c/e1/4ce1fe4d-b778-4dc9-8272-23aac7c3884d/g18xs_juke2nd.png",
             "source": "Store Championship 2018"
           }
-        ]
+        ],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_8.jpg"
       }
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_8.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_8.jpg",
     "ffg_id": "XW_U_8"
   },
   {
@@ -233,12 +234,11 @@
         "ability": "While you defend or perform an attack, if there are no other friendly ships at range 0-2, you may spend 1 [Charge] to reroll 1 of your dice.",
         "slots": ["Talent"],
         "charges": { "value": 1, "recovers": 1 },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/97/aa/97aadf7e-f0bf-460f-9030-2ffb005dc8ab/swz16_lone-wolf.png"
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_9.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_9.jpg"
       }
     ],
     "cost": { "value": 4 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_9.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_9.jpg",
     "ffg_id": "XW_U_9"
   },
   {
@@ -251,12 +251,12 @@
         "type": "Talent",
         "ability": "While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/1a/55/1a5549b4-e246-4409-8064-52b22f454c4d/swz01_a4_marksmanship.png",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_10.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_10.jpg"
       }
     ],
     "cost": { "value": 1 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_10.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_10.jpg",
     "ffg_id": "XW_U_10"
   },
   {
@@ -269,12 +269,12 @@
         "type": "Talent",
         "ability": "While you perform a [Front Arc] arrack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/1d/f4/1df42725-46a8-45ff-8fd2-d8b649f0510c/swz01_a7_outmaneuver.png",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_11.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_11.jpg"
       }
     ],
     "cost": { "value": 6 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_11.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_11.jpg",
     "ffg_id": "XW_U_11"
   },
   {
@@ -287,12 +287,11 @@
         "type": "Talent",
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], you may reroll 1 attack die.",
         "slots": ["Talent"],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f9/a4/f9a40266-f33e-4080-becd-44baa827c831/swz08_a1_predator.png"
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_12.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_12.jpg"
       }
     ],
     "cost": { "value": 2 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_12.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_12.jpg",
     "ffg_id": "XW_U_12"
   },
   {
@@ -304,14 +303,13 @@
         "title": "Ruthless",
         "type": "Talent",
         "ability": "While you perform an attack, you may choose another friendly ship at range 0-1 of the defender. If you do, that ship suffers 1 [Hit] damage and you may change 1 of your die results to a [Hit] result.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/42/01/42018820-f3e5-4f11-8a95-e5ebbf1d9fd9/swz07-ruthless.png",
-        "slots": ["Talent"]
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_13.png",
+        "slots": ["Talent"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_13.jpg"
       }
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_13.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_13.jpg",
     "ffg_id": "XW_U_13"
   },
   {
@@ -323,13 +321,13 @@
         "title": "Saturation Salvo",
         "type": "Talent",
         "ability": "While you perform a [Torpedo] or [Missile] attack, you may spend 1 charge from that upgrade. If you do, choose two defence dice. The defender must reroll those dice.",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_14.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_14.jpg"
       }
     ],
     "cost": { "value": 6 },
     "restrictions": [{ "action": { "type": "Reload" } }],
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_14.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_14.jpg",
     "ffg_id": "XW_U_14"
   },
   {
@@ -341,14 +339,13 @@
         "title": "Selfless",
         "type": "Talent",
         "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Critical Hit] damage to cancel 1 [Critical Hit] result.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/dd/ff/ddff7918-ccd9-4dd6-b7f5-ecfe7d5b2e9e/swz06-selfless.png",
-        "slots": ["Talent"]
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_15.png",
+        "slots": ["Talent"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_15.jpg"
       }
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_15.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_15.jpg",
     "ffg_id": "XW_U_15"
   },
   {
@@ -369,12 +366,12 @@
             "value": { "type": "Coordinate", "difficulty": "Red" },
             "amount": 1
           }
-        ]
+        ],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_16.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_16.jpg"
       }
     ],
     "cost": { "value": 4 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_16.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_16.jpg",
     "ffg_id": "XW_U_16"
   },
   {
@@ -386,12 +383,12 @@
         "title": "Swarm Tactics",
         "type": "Talent",
         "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 1. If you do, that ship treats its initiative as equal to yours until the end of the round.",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_17.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_17.jpg"
       }
     ],
     "cost": { "value": 3 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_17.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_17.jpg",
     "ffg_id": "XW_U_17"
   },
   {
@@ -404,12 +401,12 @@
         "type": "Talent",
         "ability": "While you perform an attack that is obstructed by an obstacle, roll 1 additional attack die.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/ba/22/ba226a64-5ba6-481c-a576-921a3a00f9e5/swz02_a1_trick-shot.png",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_18.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_18.jpg"
       }
     ],
     "cost": { "value": 1 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_18.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_18.jpg",
     "ffg_id": "XW_U_18"
   }
 ]

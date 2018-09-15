@@ -16,12 +16,12 @@
           "minrange": 1,
           "maxrange": 1,
           "ordnance": true
-        }
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_33.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_33.jpg"
       }
     ],
     "cost": { "value": 6 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_33.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_33.jpg",
     "ffg_id": "XW_U_33"
   },
   {
@@ -42,12 +42,12 @@
           "minrange": 2,
           "maxrange": 3,
           "ordnance": true
-        }
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_34.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_34.jpg"
       }
     ],
     "cost": { "value": 6 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_34.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_34.jpg",
     "ffg_id": "XW_U_34"
   },
   {
@@ -59,7 +59,7 @@
         "title": "Proton Torpedoes",
         "type": "Torpedo",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f5/33/f5339cd5-514d-473f-92c7-eceb4fdc3cb7/swz01_a3_proton-torpedoes.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_35.png",
         "slots": ["Torpedo"],
         "charges": { "value": 2, "recovers": 0 },
         "attack": {
@@ -68,12 +68,11 @@
           "minrange": 2,
           "maxrange": 3,
           "ordnance": true
-        }
+        },
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_35.jpg"
       }
     ],
     "cost": { "value": 9 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_35.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_35.jpg",
     "ffg_id": "XW_U_35"
   }
 ]

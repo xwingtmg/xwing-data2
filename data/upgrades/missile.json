@@ -16,12 +16,12 @@
           "minrange": 2,
           "maxrange": 3,
           "ordnance": true
-        }
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_36.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_36.jpg"
       }
     ],
     "cost": { "value": 6 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_36.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_36.jpg",
     "ffg_id": "XW_U_36"
   },
   {
@@ -42,12 +42,12 @@
           "minrange": 1,
           "maxrange": 2,
           "ordnance": true
-        }
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_37.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_37.jpg"
       }
     ],
     "cost": { "value": 5 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_37.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_37.jpg",
     "ffg_id": "XW_U_37"
   },
   {
@@ -59,7 +59,7 @@
         "title": "Concussion Missiles",
         "type": "Missile",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After this attack hits, each ship at range 0-1 of the defender exposes 1 of its damage cards.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/d2/df/d2dfb147-7b92-4d97-8d67-bda037fe356e/swz16_concussion-missiles.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_38.png",
         "slots": ["Missile"],
         "charges": { "value": 3, "recovers": 0 },
         "attack": {
@@ -68,12 +68,11 @@
           "minrange": 2,
           "maxrange": 3,
           "ordnance": true
-        }
+        },
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_38.jpg"
       }
     ],
     "cost": { "value": 6 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_38.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_38.jpg",
     "ffg_id": "XW_U_38"
   },
   {
@@ -93,12 +92,12 @@
           "minrange": 2,
           "maxrange": 3,
           "ordnance": true
-        }
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_39.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_39.jpg"
       }
     ],
     "cost": { "value": 3 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_39.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_39.jpg",
     "ffg_id": "XW_U_39"
   },
   {
@@ -118,12 +117,12 @@
           "minrange": 2,
           "maxrange": 3,
           "ordnance": true
-        }
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_40.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_40.jpg"
       }
     ],
     "cost": { "value": 4 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_40.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_40.jpg",
     "ffg_id": "XW_U_40"
   },
   {
@@ -135,7 +134,7 @@
         "title": "Proton Rockets",
         "type": "Missile",
         "ability": "Attack ([Focus]): Spend 1 [Charge].",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/32/c8/32c81aab-6817-44a1-918b-540a1641e59e/swz06_a1_proton-rockets.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_41.png",
         "slots": ["Missile"],
         "charges": { "value": 1, "recovers": 0 },
         "attack": {
@@ -144,12 +143,11 @@
           "minrange": 1,
           "maxrange": 2,
           "ordnance": true
-        }
+        },
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_41.jpg"
       }
     ],
     "cost": { "value": 7 },
-    "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_41.png",
-    "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_41.jpg",
     "ffg_id": "XW_U_41"
   }
 ]
