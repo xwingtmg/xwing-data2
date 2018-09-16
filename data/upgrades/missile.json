@@ -33,7 +33,6 @@
         "title": "Cluster Missiles",
         "type": "Missile",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After this attack, you may perform this attack as a bonus attack against a different target at range 0-1 of the defender, ignoring the [Lock] requirement.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/f0/e3/f0e35feb-d783-4756-8753-a16f09a11aed/swz15_a1_cluster-missiles.png",
         "slots": ["Missile"],
         "charges": { "value": 4, "recovers": 0 },
         "attack": {
