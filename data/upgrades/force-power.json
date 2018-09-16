@@ -11,11 +11,11 @@
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/dd/ab/ddab7958-9dbb-4868-8bcf-fc975b66969b/swz01_heightened-perception.png",
         "slots": ["Force Power"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_19.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_19.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_19.jpg",
+        "ffg_id": "XW_U_19"
       }
     ],
-    "cost": { "value": 3 },
-    "ffg_id": "XW_U_19"
+    "cost": { "value": 3 }
   },
   {
     "name": "Instinctive Aim",
@@ -29,11 +29,11 @@
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/5f/c3/5fc32861-848c-4e40-8313-ecfc7b99e64d/swz01_instinctive-aim.png",
         "slots": ["Force Power"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_20.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_20.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_20.jpg",
+        "ffg_id": "XW_U_20"
       }
     ],
-    "cost": { "value": 2 },
-    "ffg_id": "XW_U_20"
+    "cost": { "value": 2 }
   },
   {
     "name": "Sense",
@@ -47,11 +47,11 @@
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/0f/4d/0f4d0ae3-65aa-40f8-aa00-51f2cec053ad/swz01_sense.png",
         "slots": ["Force Power"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_21.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_21.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_21.jpg",
+        "ffg_id": "XW_U_21"
       }
     ],
-    "cost": { "value": 6 },
-    "ffg_id": "XW_U_21"
+    "cost": { "value": 6 }
   },
   {
     "name": "Supernatural Reflexes",
@@ -64,11 +64,11 @@
         "ability": "Before you activate, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, suffer 1 [Hit] damage.",
         "slots": ["Force Power"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_22.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_22.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_22.jpg",
+        "ffg_id": "XW_U_22"
       }
     ],
     "cost": { "value": 12 },
-    "restrictions": [{ "sizes": ["Small"] }],
-    "ffg_id": "XW_U_22"
+    "restrictions": [{ "sizes": ["Small"] }]
   }
 ]

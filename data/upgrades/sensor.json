@@ -11,11 +11,11 @@
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/05/5e/055e3ce9-dfd8-4e37-9b04-fdba19dbd6dc/swz02_a1_advanced-sensors.png",
         "slots": ["Sensor"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_23.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_23.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_23.jpg",
+        "ffg_id": "XW_U_23"
       }
     ],
-    "cost": { "value": 8 },
-    "ffg_id": "XW_U_23"
+    "cost": { "value": 8 }
   },
   {
     "name": "Collision Detector",
@@ -29,11 +29,11 @@
         "slots": ["Sensor"],
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_24.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_24.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_24.jpg",
+        "ffg_id": "XW_U_24"
       }
     ],
-    "cost": { "value": 5 },
-    "ffg_id": "XW_U_24"
+    "cost": { "value": 5 }
   },
   {
     "name": "Fire-Control System",
@@ -46,11 +46,11 @@
         "ability": "While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.",
         "slots": ["Sensor"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_25.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_25.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_25.jpg",
+        "ffg_id": "XW_U_25"
       }
     ],
-    "cost": { "value": 3 },
-    "ffg_id": "XW_U_25"
+    "cost": { "value": 3 }
   },
   {
     "name": "Trajectory Simulator",
@@ -63,10 +63,10 @@
         "ability": "During the System Phase, if you would drop or launch a bomb, you may launch it using the [5 [Straight]] template instead.",
         "slots": ["Sensor"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_26.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_26.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_26.jpg",
+        "ffg_id": "XW_U_26"
       }
     ],
-    "cost": { "value": 3 },
-    "ffg_id": "XW_U_26"
+    "cost": { "value": 3 }
   }
 ]
