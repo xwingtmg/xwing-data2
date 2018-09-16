@@ -1,0 +1,14 @@
+{
+  "name": "xwing-data2",
+  "version": "0.0.1",
+  "repository": "git@github.com:guidokessels/xwing-data2.git",
+  "author": "Guido Kessels <mail@guidokessels.com>",
+  "license": "MIT",
+  "scripts": {
+    "ffg2xws": "node scripts/ffg2xws.js && prettier --write data/ffgid-xws.json"
+  },
+  "devDependencies": {
+    "jsonfile": "^5.0.0",
+    "prettier": "^1.14.2"
+  }
+}
