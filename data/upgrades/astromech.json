@@ -10,12 +10,12 @@
         "ability": "Action: Spend 1 non-recurring [Charge] from another equipped upgrade to recover 1 shield. Action: Spend 2 shields to recover 1 non-recurring [Charge] on an equipped upgrade.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/5d/1a/5d1a60e4-50f6-40fc-9711-4c4f4513eea9/swz06-chopper-astromech.png",
         "slots": ["Astromech"],
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_99.png"
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_99.png",
+        "ffg_id": "XW_U_99"
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "ffg_id": "XW_U_99"
+    "restrictions": [{ "factions": ["Rebel Alliance"] }]
   },
   {
     "name": "\"Genius\"",
@@ -28,12 +28,12 @@
         "ability": "After you fully execute a maneuver, if you have not dropped or launched a device this round, you may drop 1 bomb.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_143.png",
         "slots": ["Astromech"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_143.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_143.jpg",
+        "ffg_id": "XW_U_143"
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "ffg_id": "XW_U_143"
+    "restrictions": [{ "factions": ["Scum and Villainy"] }]
   },
   {
     "name": "R2 Astromech",
@@ -47,11 +47,11 @@
         "slots": ["Astromech"],
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_53.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_53.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_53.jpg",
+        "ffg_id": "XW_U_53"
       }
     ],
-    "cost": { "value": 6 },
-    "ffg_id": "XW_U_53"
+    "cost": { "value": 6 }
   },
   {
     "name": "R2-D2",
@@ -65,12 +65,12 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_100.png",
         "slots": ["Astromech"],
         "charges": { "value": 3, "recovers": 0 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_100.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_100.jpg",
+        "ffg_id": "XW_U_100"
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "ffg_id": "XW_U_100"
+    "restrictions": [{ "factions": ["Rebel Alliance"] }]
   },
   {
     "name": "R3 Astromech",
@@ -84,11 +84,11 @@
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/d4/e8/d4e80f3e-cffc-4c4f-be2f-09af994f46c8/swz01_a5_r3-astromech.png",
         "slots": ["Astromech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_54.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_54.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_54.jpg",
+        "ffg_id": "XW_U_54"
       }
     ],
-    "cost": { "value": 3 },
-    "ffg_id": "XW_U_54"
+    "cost": { "value": 3 }
   },
   {
     "name": "R4 Astromech",
@@ -102,12 +102,12 @@
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/cd/e5/cde5227e-ab1a-4031-a083-b17f48e3f84f/swz12_card_r4-astromech.png",
         "slots": ["Astromech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_55.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_55.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_55.jpg",
+        "ffg_id": "XW_U_55"
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "sizes": ["Small"] }],
-    "ffg_id": "XW_U_55"
+    "restrictions": [{ "sizes": ["Small"] }]
   },
   {
     "name": "R5 Astromech",
@@ -121,11 +121,11 @@
         "slots": ["Astromech"],
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_56.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_56.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_56.jpg",
+        "ffg_id": "XW_U_56"
       }
     ],
-    "cost": { "value": 5 },
-    "ffg_id": "XW_U_56"
+    "cost": { "value": 5 }
   },
   {
     "name": "R5-D8",
@@ -140,12 +140,12 @@
         "slots": ["Astromech"],
         "charges": { "value": 3, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_101.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_101.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_101.jpg",
+        "ffg_id": "XW_U_101"
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "ffg_id": "XW_U_101"
+    "restrictions": [{ "factions": ["Rebel Alliance"] }]
   },
   {
     "name": "R5-P8",
@@ -159,12 +159,12 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_144.png",
         "slots": ["Astromech"],
         "charges": { "value": 3, "recovers": 0 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_144.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_144.jpg",
+        "ffg_id": "XW_U_144"
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "ffg_id": "XW_U_144"
+    "restrictions": [{ "factions": ["Scum and Villainy"] }]
   },
   {
     "name": "R5-TK",
@@ -177,11 +177,11 @@
         "ability": "You can perform attacks against friendly ships.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_145.png",
         "slots": ["Astromech"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_145.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_145.jpg",
+        "ffg_id": "XW_U_145"
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "ffg_id": "XW_U_145"
+    "restrictions": [{ "factions": ["Scum and Villainy"] }]
   }
 ]
