@@ -33,7 +33,6 @@
         "title": "Ion Torpedoes",
         "type": "Torpedo",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/b2/b8/b2b8fff4-2a82-4eac-9aa9-269e9f6a995b/swz12_card_ion-torpedoes.png",
         "slots": ["Torpedo"],
         "charges": { "value": 2, "recovers": 0 },
         "attack": {
