@@ -20,15 +20,15 @@
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_146.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_146.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_146.jpg",
+        "ffg_id": "XW_U_146"
       }
     ],
     "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
-    ],
-    "ffg_id": "XW_U_146"
+    ]
   },
   {
     "name": "Black One",
@@ -57,15 +57,15 @@
         "ability": "After you partially execute a maneuver, you may perform 1 white action, treating that action as red.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_123.png",
         "slots": ["Title"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_123.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_123.jpg",
+        "ffg_id": "XW_U_123"
       }
     ],
     "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "ships": ["vt49decimator"] }
-    ],
-    "ffg_id": "XW_U_123"
+    ]
   },
   {
     "name": "Ghost",
@@ -78,15 +78,15 @@
         "ability": "You can dock 1 attack shuttle or Sheathipede-class shuttle. Your docked ships can deploy only from your rear guides.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_102.png",
         "slots": ["Title"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_102.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_102.jpg",
+        "ffg_id": "XW_U_102"
       }
     ],
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["vcx100lightfreighter"] }
-    ],
-    "ffg_id": "XW_U_102"
+    ]
   },
   {
     "name": "Havoc",
@@ -104,15 +104,15 @@
           { "type": "slot", "value": "Crew", "amount": -1 }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_147.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_147.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_147.jpg",
+        "ffg_id": "XW_U_147"
       }
     ],
     "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["scurrgh6bomber"] }
-    ],
-    "ffg_id": "XW_U_147"
+    ]
   },
   {
     "name": "Hound's Tooth",
@@ -125,15 +125,15 @@
         "ability": "1 Z-95 AF4 headhunter can dock with you.",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_148.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_148.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_148.jpg",
+        "ffg_id": "XW_U_148"
       }
     ],
     "cost": { "value": 1 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["yv666lightfreighter"] }
-    ],
-    "ffg_id": "XW_U_148"
+    ]
   },
   {
     "name": "IG-2000",
@@ -146,15 +146,15 @@
         "ability": "You have the pilot ability of each other friendly ship with the IG-2000 upgrade.",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_149.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_149.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_149.jpg",
+        "ffg_id": "XW_U_149"
       }
     ],
     "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["aggressorassaultfighter"] }
-    ],
-    "ffg_id": "XW_U_149"
+    ]
   },
   {
     "name": "Lando's Millennium Falcon",
@@ -168,15 +168,15 @@
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/8d/a8/8da88777-3792-4da4-839e-ea7bfbbd5545/swz04_landos-millennium-falcon.png",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_164.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg",
+        "ffg_id": "XW_U_164"
       }
     ],
     "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["customizedyt1300lightfreighter"] }
-    ],
-    "ffg_id": "XW_U_164"
+    ]
   },
   {
     "name": "Marauder",
@@ -191,15 +191,15 @@
         "slots": ["Title"],
         "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_150.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_150.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_150.jpg",
+        "ffg_id": "XW_U_150"
       }
     ],
     "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
-    ],
-    "ffg_id": "XW_U_150"
+    ]
   },
   {
     "name": "Millennium Falcon",
@@ -220,15 +220,15 @@
             "amount": 1
           }
         ],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg",
+        "ffg_id": "XW_U_103"
       }
     ],
     "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["modifiedyt1300lightfreighter"] }
-    ],
-    "ffg_id": "XW_U_103"
+    ]
   },
   {
     "name": "Mist Hunter",
@@ -251,15 +251,15 @@
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_151.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_151.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_151.jpg",
+        "ffg_id": "XW_U_151"
       }
     ],
     "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["g1astarfighter"] }
-    ],
-    "ffg_id": "XW_U_151"
+    ]
   },
   {
     "name": "Moldy Crow",
@@ -273,15 +273,15 @@
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/d5/a3/d5a3b474-777f-49ac-941b-e48c5744e206/swz06-moldy-crow.png",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_104.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_104.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_104.jpg",
+        "ffg_id": "XW_U_104"
       }
     ],
     "cost": { "value": 12 },
     "restrictions": [
       { "factions": ["Rebel Alliance", "Scum and Villainy"] },
       { "ships": ["hwk290lightfreighter"] }
-    ],
-    "ffg_id": "XW_U_104"
+    ]
   },
   {
     "name": "Outrider",
@@ -294,15 +294,15 @@
         "ability": "While you perform an attack that is obstructed by an obstacle, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_105.png",
         "slots": ["Title"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg",
+        "ffg_id": "XW_U_105"
       }
     ],
     "cost": { "value": 14 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["yt2400lightfreighter"] }
-    ],
-    "ffg_id": "XW_U_105"
+    ]
   },
   {
     "name": "Phantom",
@@ -315,15 +315,15 @@
         "ability": "You can dock at range 0-1.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_106.png",
         "slots": ["Title"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_106.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_106.jpg",
+        "ffg_id": "XW_U_106"
       }
     ],
     "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["attackshuttle", "sheathipedeclassshuttle"] }
-    ],
-    "ffg_id": "XW_U_106"
+    ]
   },
   {
     "name": "Punishing One",
@@ -340,15 +340,15 @@
           { "type": "slot", "value": "Astromech", "amount": 1 }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_152.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_152.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_152.jpg",
+        "ffg_id": "XW_U_152"
       }
     ],
     "cost": { "value": 8 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["jumpmaster5000"] }
-    ],
-    "ffg_id": "XW_U_152"
+    ]
   },
   {
     "name": "ST-321",
@@ -361,15 +361,15 @@
         "ability": "After you perform a [Coordinate] action, you may choose an enemy ship at range 0-3 of the ship you coordinated. If you do, acquire a lock on that enemy ship, ignoring range restrictions.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_124.png",
         "slots": ["Title"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_124.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_124.jpg",
+        "ffg_id": "XW_U_124"
       }
     ],
     "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "ships": ["lambdaclasst4ashuttle"] }
-    ],
-    "ffg_id": "XW_U_124"
+    ]
   },
   {
     "name": "Shadow Caster",
@@ -382,15 +382,15 @@
         "ability": "After you perform an attack that hits, if the defender is in your [Single Turret Arc] and your [Front Arc], the defender gains 1 tractor token.",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_153.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_153.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_153.jpg",
+        "ffg_id": "XW_U_153"
       }
     ],
     "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["lancerclasspursuitcraft"] }
-    ],
-    "ffg_id": "XW_U_153"
+    ]
   },
   {
     "name": "Slave I",
@@ -404,15 +404,15 @@
         "slots": ["Title"],
         "grants": [{ "type": "slot", "value": "Torpedo", "amount": 1 }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_154.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_154.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_154.jpg",
+        "ffg_id": "XW_U_154"
       }
     ],
     "cost": { "value": 5 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
-    ],
-    "ffg_id": "XW_U_154"
+    ]
   },
   {
     "name": "Virago",
@@ -430,11 +430,11 @@
           { "type": "stat", "value": "shields", "amount": 1 }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_155.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_155.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_155.jpg",
+        "ffg_id": "XW_U_155"
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [{ "ships": ["starviperclassattackplatform"] }],
-    "ffg_id": "XW_U_155"
+    "restrictions": [{ "ships": ["starviperclassattackplatform"] }]
   }
 ]

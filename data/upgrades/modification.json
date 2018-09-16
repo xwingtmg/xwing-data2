@@ -11,12 +11,12 @@
         "slots": ["Modification"],
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_68.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_68.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_68.jpg",
+        "ffg_id": "XW_U_68"
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
-    "ffg_id": "XW_U_68"
+    "restrictions": [{ "sizes": ["Medium", "Large"] }]
   },
   {
     "name": "Advanced SLAM",
@@ -29,12 +29,12 @@
         "ability": "After you perform a [Slam] action, if you fully executed that maneuver, you may perform a white action on your action bar, treating that action as red.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_69.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_69.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_69.jpg",
+        "ffg_id": "XW_U_69"
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "action": { "type": "SLAM", "difficulty": "White" } }],
-    "ffg_id": "XW_U_69"
+    "restrictions": [{ "action": { "type": "SLAM", "difficulty": "White" } }]
   },
   {
     "name": "Afterburners",
@@ -49,12 +49,12 @@
         "slots": ["Modification"],
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_70.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_70.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_70.jpg",
+        "ffg_id": "XW_U_70"
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "sizes": ["Small"] }],
-    "ffg_id": "XW_U_70"
+    "restrictions": [{ "sizes": ["Small"] }]
   },
   {
     "name": "Electronic Baffle",
@@ -67,11 +67,11 @@
         "ability": "During the End Phase, you may suffer 1 [Hit] damage to remove 1 red token.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_71.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_71.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_71.jpg",
+        "ffg_id": "XW_U_71"
       }
     ],
-    "cost": { "value": 2 },
-    "ffg_id": "XW_U_71"
+    "cost": { "value": 2 }
   },
   {
     "name": "Engine Upgrade",
@@ -92,15 +92,15 @@
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_72.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_72.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_72.jpg",
+        "ffg_id": "XW_U_72"
       }
     ],
     "cost": {
       "variable": "size",
       "values": { "Small": 3, "Medium": 6, "Large": 9 }
     },
-    "restrictions": [{ "action": { "type": "Boost", "difficulty": "Red" } }],
-    "ffg_id": "XW_U_72"
+    "restrictions": [{ "action": { "type": "Boost", "difficulty": "Red" } }]
   },
   {
     "name": "Hull Upgrade",
@@ -115,14 +115,14 @@
         "slots": ["Modification"],
         "grants": [{ "type": "stat", "value": "hull", "amount": 1 }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_73.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_73.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_73.jpg",
+        "ffg_id": "XW_U_73"
       }
     ],
     "cost": {
       "variable": "agility",
       "values": { "0": 2, "1": 3, "2": 5, "3": 7 }
-    },
-    "ffg_id": "XW_U_73"
+    }
   },
   {
     "name": "Munitions Failsafe",
@@ -135,11 +135,11 @@
         "ability": "While you perform a [Torpedo] or [Missile] attack, after rolling attack dice, you may cancel all dice results to recover 1 [Charge] you spent as a cost for the attack.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_74.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_74.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_74.jpg",
+        "ffg_id": "XW_U_74"
       }
     ],
-    "cost": { "value": 2 },
-    "ffg_id": "XW_U_74"
+    "cost": { "value": 2 }
   },
   {
     "name": "Shield Upgrade",
@@ -159,14 +159,14 @@
         "slots": ["Modification"],
         "grants": [{ "type": "stat", "value": "shields", "amount": 1 }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_75.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_75.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_75.jpg",
+        "ffg_id": "XW_U_75"
       }
     ],
     "cost": {
       "variable": "agility",
       "values": { "0": 3, "1": 4, "2": 6, "3": 8 }
-    },
-    "ffg_id": "XW_U_75"
+    }
   },
   {
     "name": "Static Discharge Vanes",
@@ -179,11 +179,11 @@
         "ability": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_76.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg",
+        "ffg_id": "XW_U_76"
       }
     ],
-    "cost": { "value": 6 },
-    "ffg_id": "XW_U_76"
+    "cost": { "value": 6 }
   },
   {
     "name": "Stealth Device",
@@ -198,14 +198,14 @@
         "slots": ["Modification"],
         "charges": { "value": 1, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_77.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_77.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_77.jpg",
+        "ffg_id": "XW_U_77"
       }
     ],
     "cost": {
       "variable": "agility",
       "values": { "0": 3, "1": 4, "2": 6, "3": 8 }
-    },
-    "ffg_id": "XW_U_77"
+    }
   },
   {
     "name": "Tactical Scrambler",
@@ -218,11 +218,11 @@
         "ability": "While you obstruct an enemy ship's attack, the defender rolls 1 additional defense die.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_78.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_78.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_78.jpg",
+        "ffg_id": "XW_U_78"
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
-    "ffg_id": "XW_U_78"
+    "restrictions": [{ "sizes": ["Medium", "Large"] }]
   }
 ]

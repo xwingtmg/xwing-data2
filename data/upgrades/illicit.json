@@ -11,12 +11,12 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_57.png",
         "slots": ["Illicit"],
         "charges": { "value": 2, "recovers": 0 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_57.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_57.jpg",
+        "ffg_id": "XW_U_57"
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
-    "ffg_id": "XW_U_57"
+    "restrictions": [{ "sizes": ["Small", "Medium"] }]
   },
   {
     "name": "Contraband Cybernetics",
@@ -30,11 +30,11 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_58.png",
         "slots": ["Illicit"],
         "charges": { "value": 1, "recovers": 0 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_58.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_58.jpg",
+        "ffg_id": "XW_U_58"
       }
     ],
-    "cost": { "value": 5 },
-    "ffg_id": "XW_U_58"
+    "cost": { "value": 5 }
   },
   {
     "name": "Deadman's Switch",
@@ -47,11 +47,11 @@
         "ability": "After you are destroyed, each other ship at range 0-1 suffers 1 [Hit] damage.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_59.png",
         "slots": ["Illicit"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_59.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_59.jpg",
+        "ffg_id": "XW_U_59"
       }
     ],
-    "cost": { "value": 2 },
-    "ffg_id": "XW_U_59"
+    "cost": { "value": 2 }
   },
   {
     "name": "Feedback Array",
@@ -64,11 +64,11 @@
         "ability": "Before you engage, you may gain 1 ion token and 1 disarm token. If you do, each ship at range 0 suffers 1 [Hit] damage.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_60.png",
         "slots": ["Illicit"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_60.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_60.jpg",
+        "ffg_id": "XW_U_60"
       }
     ],
-    "cost": { "value": 4 },
-    "ffg_id": "XW_U_60"
+    "cost": { "value": 4 }
   },
   {
     "name": "Inertial Dampeners",
@@ -81,11 +81,11 @@
         "ability": "Before you would execute a maneuver, you may spend 1 shield. If you do, execute a white [0 [Stationary]] instead of the maneuver you revealed, then gain 1 stress token.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_61.png",
         "slots": ["Illicit"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_61.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_61.jpg",
+        "ffg_id": "XW_U_61"
       }
     ],
-    "cost": { "value": 1 },
-    "ffg_id": "XW_U_61"
+    "cost": { "value": 1 }
   },
   {
     "name": "Rigged Cargo Chute",
@@ -99,11 +99,11 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_62.png",
         "slots": ["Illicit"],
         "charges": { "value": 1, "recovers": 0 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_62.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_62.jpg",
+        "ffg_id": "XW_U_62"
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
-    "ffg_id": "XW_U_62"
+    "restrictions": [{ "sizes": ["Medium", "Large"] }]
   }
 ]
