@@ -9,14 +9,13 @@
         "type": "Force Power",
         "ability": "At the start of the Engagement Phase, you may spend 1 [Force]. If you do, engage at initiative 7 instead of your standard initiative value this phase.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/dd/ab/ddab7958-9dbb-4868-8bcf-fc975b66969b/swz01_heightened-perception.png",
-        "slots": [
-          "Force Power"
-        ]
+        "slots": ["Force Power"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_19.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_19.jpg"
       }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 },
+    "ffg_id": "XW_U_19"
   },
   {
     "name": "Instinctive Aim",
@@ -28,14 +27,13 @@
         "type": "Force Power",
         "ability": "While you perform a special attack, you may spend 1 [Force] to ignore the [Focus] or [Lock] requirement.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/5f/c3/5fc32861-848c-4e40-8313-ecfc7b99e64d/swz01_instinctive-aim.png",
-        "slots": [
-          "Force Power"
-        ]
+        "slots": ["Force Power"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_20.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_20.jpg"
       }
     ],
-    "cost": {
-      "value": 2
-    }
+    "cost": { "value": 2 },
+    "ffg_id": "XW_U_20"
   },
   {
     "name": "Sense",
@@ -47,14 +45,13 @@
         "type": "Force Power",
         "ability": "During the System Phase, you may choose 1 ship at range 0-1 and look at its dial. If you spend 1 [Force], you may choose a ship at range 0-3 instead.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/0f/4d/0f4d0ae3-65aa-40f8-aa00-51f2cec053ad/swz01_sense.png",
-        "slots": [
-          "Force Power"
-        ]
+        "slots": ["Force Power"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_21.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_21.jpg"
       }
     ],
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 6 },
+    "ffg_id": "XW_U_21"
   },
   {
     "name": "Supernatural Reflexes",
@@ -65,21 +62,13 @@
         "title": "Supernatural Reflexes",
         "type": "Force Power",
         "ability": "Before you activate, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, suffer 1 [Hit] damage.",
-        "slots": [
-          "Force Power"
-        ],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/17/1a/171aa533-6927-4c92-9a25-eea21390c1e9/swz01-supernatural-reflexes.png"
+        "slots": ["Force Power"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_22.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_22.jpg"
       }
     ],
-    "cost": {
-      "value": 12
-    },
-    "restrictions": [
-      {
-        "sizes": [
-          "Small"
-        ]
-      }
-    ]
+    "cost": { "value": 12 },
+    "restrictions": [{ "sizes": ["Small"] }],
+    "ffg_id": "XW_U_22"
   }
 ]

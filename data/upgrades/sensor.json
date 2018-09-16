@@ -9,14 +9,13 @@
         "type": "Sensor",
         "ability": "After you reveal your dial, you may perform 1 action. If you do, you cannot perform another action during your activation.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/05/5e/055e3ce9-dfd8-4e37-9b04-fdba19dbd6dc/swz02_a1_advanced-sensors.png",
-        "slots": [
-          "Sensor"
-        ]
+        "slots": ["Sensor"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_23.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_23.jpg"
       }
     ],
-    "cost": {
-      "value": 8
-    }
+    "cost": { "value": 8 },
+    "ffg_id": "XW_U_23"
   },
   {
     "name": "Collision Detector",
@@ -27,18 +26,14 @@
         "title": "Collision Detector",
         "type": "Sensor",
         "ability": "While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 [Charge] to ignore its effects until the end of the round.",
-        "slots": [
-          "Sensor"
-        ],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "slots": ["Sensor"],
+        "charges": { "value": 2, "recovers": 0 },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_24.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_24.jpg"
       }
     ],
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 5 },
+    "ffg_id": "XW_U_24"
   },
   {
     "name": "Fire-Control System",
@@ -49,15 +44,13 @@
         "title": "Fire-Control System",
         "type": "Sensor",
         "ability": "While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.",
-        "slots": [
-          "Sensor"
-        ],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/57/49/57493390-f170-452c-8428-3e7f87c32b89/swz15_a1_fire-control-system.png"
+        "slots": ["Sensor"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_25.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_25.jpg"
       }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 },
+    "ffg_id": "XW_U_25"
   },
   {
     "name": "Trajectory Simulator",
@@ -68,13 +61,12 @@
         "title": "Trajectory Simulator",
         "type": "Sensor",
         "ability": "During the System Phase, if you would drop or launch a bomb, you may launch it using the [5 [Straight]] template instead.",
-        "slots": [
-          "Sensor"
-        ]
+        "slots": ["Sensor"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_26.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_26.jpg"
       }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 },
+    "ffg_id": "XW_U_26"
   }
 ]

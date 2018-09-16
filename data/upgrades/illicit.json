@@ -8,27 +8,15 @@
         "title": "Cloaking Device",
         "type": "Illicit",
         "ability": "Action: Spend 1 [Charge] to perform a [Cloak] action. At the start of the Planning Phase, roll 1 attack die. On a [Focus] result, decloak or discard your cloak token.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/a0/c8/a0c8f9f4-49fa-43d0-b48d-1140394c084c/swz08-cloaking-device.png",
-        "slots": [
-          "Illicit"
-        ],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        }
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_57.png",
+        "slots": ["Illicit"],
+        "charges": { "value": 2, "recovers": 0 },
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_57.jpg"
       }
     ],
-    "cost": {
-      "value": 5
-    },
-    "restrictions": [
-      {
-        "sizes": [
-          "Small",
-          "Medium"
-        ]
-      }
-    ]
+    "cost": { "value": 5 },
+    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "ffg_id": "XW_U_57"
   },
   {
     "name": "Contraband Cybernetics",
@@ -39,19 +27,14 @@
         "title": "Contraband Cybernetics",
         "type": "Illicit",
         "ability": "Before you activate, you may spend 1 [Charge]. If you do, until the end of the round, you can perform actions and execute red maneuvers, even while stressed.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/10/eb/10ebe5e0-a3cf-460e-87b4-de714fb53797/swz08-contraband-cybernetics.png",
-        "slots": [
-          "Illicit"
-        ],
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        }
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_58.png",
+        "slots": ["Illicit"],
+        "charges": { "value": 1, "recovers": 0 },
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_58.jpg"
       }
     ],
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 5 },
+    "ffg_id": "XW_U_58"
   },
   {
     "name": "Deadman's Switch",
@@ -62,15 +45,13 @@
         "title": "Deadman's Switch",
         "type": "Illicit",
         "ability": "After you are destroyed, each other ship at range 0-1 suffers 1 [Hit] damage.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/1d/8b/1d8bd3de-7431-4957-a2b0-6afad2bf2447/swz08-deadmans-switch.png",
-        "slots": [
-          "Illicit"
-        ]
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_59.png",
+        "slots": ["Illicit"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_59.jpg"
       }
     ],
-    "cost": {
-      "value": 2
-    }
+    "cost": { "value": 2 },
+    "ffg_id": "XW_U_59"
   },
   {
     "name": "Feedback Array",
@@ -81,15 +62,13 @@
         "title": "Feedback Array",
         "type": "Illicit",
         "ability": "Before you engage, you may gain 1 ion token and 1 disarm token. If you do, each ship at range 0 suffers 1 [Hit] damage.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/92/0a/920a27ad-ef0d-46b7-826a-297f77c1e0bd/swz08-feedback-array.png",
-        "slots": [
-          "Illicit"
-        ]
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_60.png",
+        "slots": ["Illicit"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_60.jpg"
       }
     ],
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 },
+    "ffg_id": "XW_U_60"
   },
   {
     "name": "Inertial Dampeners",
@@ -100,15 +79,13 @@
         "title": "Inertial Dampeners",
         "type": "Illicit",
         "ability": "Before you would execute a maneuver, you may spend 1 shield. If you do, execute a white [0 [Stationary]] instead of the maneuver you revealed, then gain 1 stress token.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/cf/ac/cfac1539-0244-407f-9369-645ca6347a33/swz08-inertial-dampeners.png",
-        "slots": [
-          "Illicit"
-        ]
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_61.png",
+        "slots": ["Illicit"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_61.jpg"
       }
     ],
-    "cost": {
-      "value": 1
-    }
+    "cost": { "value": 1 },
+    "ffg_id": "XW_U_61"
   },
   {
     "name": "Rigged Cargo Chute",
@@ -119,26 +96,14 @@
         "title": "Rigged Cargo Chute",
         "type": "Illicit",
         "ability": "Action: Spend 1 [Charge]. Drop 1 loose cargo using the [1 [Straight]] template.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/64/47/6447a9f5-5c18-4543-81cb-79c032b87e04/swz08-rigged-cargo-chute.png",
-        "slots": [
-          "Illicit"
-        ],
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        }
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_62.png",
+        "slots": ["Illicit"],
+        "charges": { "value": 1, "recovers": 0 },
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_62.jpg"
       }
     ],
-    "cost": {
-      "value": 4
-    },
-    "restrictions": [
-      {
-        "sizes": [
-          "Medium",
-          "Large"
-        ]
-      }
-    ]
+    "cost": { "value": 4 },
+    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "ffg_id": "XW_U_62"
   }
 ]

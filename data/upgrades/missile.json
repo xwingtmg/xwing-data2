@@ -8,26 +8,21 @@
         "title": "Barrage Rockets",
         "type": "Missile",
         "ability": "Attack ([Focus]): Spend 1 [Charge]. If the defender is in your [Bullseye Arc], you may spend 1 or more [Charge] to reroll that many attack dice.",
-        "slots": [
-          "Missile",
-          "Missile"
-        ],
-        "charges": {
-          "value": 5,
-          "recovers": 0
-        },
+        "slots": ["Missile", "Missile"],
+        "charges": { "value": 5, "recovers": 0 },
         "attack": {
           "arc": "Front Arc",
           "value": 3,
           "minrange": 2,
           "maxrange": 3,
           "ordnance": true
-        }
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_36.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_36.jpg"
       }
     ],
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 6 },
+    "ffg_id": "XW_U_36"
   },
   {
     "name": "Cluster Missiles",
@@ -39,25 +34,21 @@
         "type": "Missile",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After this attack, you may perform this attack as a bonus attack against a different target at range 0-1 of the defender, ignoring the [Lock] requirement.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/f0/e3/f0e35feb-d783-4756-8753-a16f09a11aed/swz15_a1_cluster-missiles.png",
-        "slots": [
-          "Missile"
-        ],
-        "charges": {
-          "value": 4,
-          "recovers": 0
-        },
+        "slots": ["Missile"],
+        "charges": { "value": 4, "recovers": 0 },
         "attack": {
           "arc": "Front Arc",
           "value": 3,
           "minrange": 1,
           "maxrange": 2,
           "ordnance": true
-        }
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_37.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_37.jpg"
       }
     ],
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 5 },
+    "ffg_id": "XW_U_37"
   },
   {
     "name": "Concussion Missiles",
@@ -68,26 +59,21 @@
         "title": "Concussion Missiles",
         "type": "Missile",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After this attack hits, each ship at range 0-1 of the defender exposes 1 of its damage cards.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/d2/df/d2dfb147-7b92-4d97-8d67-bda037fe356e/swz16_concussion-missiles.png",
-        "slots": [
-          "Missile"
-        ],
-        "charges": {
-          "value": 3,
-          "recovers": 0
-        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_38.png",
+        "slots": ["Missile"],
+        "charges": { "value": 3, "recovers": 0 },
         "attack": {
           "arc": "Front Arc",
           "value": 3,
           "minrange": 2,
           "maxrange": 3,
           "ordnance": true
-        }
+        },
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_38.jpg"
       }
     ],
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 6 },
+    "ffg_id": "XW_U_38"
   },
   {
     "name": "Homing Missiles",
@@ -98,25 +84,21 @@
         "title": "Homing Missiles",
         "type": "Missile",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After you declare the defender, the defender may choose to suffer 1 [Hit] damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting.",
-        "slots": [
-          "Missile"
-        ],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "slots": ["Missile"],
+        "charges": { "value": 2, "recovers": 0 },
         "attack": {
           "arc": "Front Arc",
           "value": 4,
           "minrange": 2,
           "maxrange": 3,
           "ordnance": true
-        }
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_39.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_39.jpg"
       }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 },
+    "ffg_id": "XW_U_39"
   },
   {
     "name": "Ion Missiles",
@@ -127,25 +109,21 @@
         "title": "Ion Missiles",
         "type": "Missile",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
-        "slots": [
-          "Missile"
-        ],
-        "charges": {
-          "value": 3,
-          "recovers": 0
-        },
+        "slots": ["Missile"],
+        "charges": { "value": 3, "recovers": 0 },
         "attack": {
           "arc": "Front Arc",
           "value": 3,
           "minrange": 2,
           "maxrange": 3,
           "ordnance": true
-        }
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_40.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_40.jpg"
       }
     ],
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 },
+    "ffg_id": "XW_U_40"
   },
   {
     "name": "Proton Rockets",
@@ -156,25 +134,20 @@
         "title": "Proton Rockets",
         "type": "Missile",
         "ability": "Attack ([Focus]): Spend 1 [Charge].",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/32/c8/32c81aab-6817-44a1-918b-540a1641e59e/swz06_a1_proton-rockets.png",
-        "slots": [
-          "Missile"
-        ],
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_41.png",
+        "slots": ["Missile"],
+        "charges": { "value": 1, "recovers": 0 },
         "attack": {
           "arc": "Bullseye Arc",
           "value": 5,
           "minrange": 1,
           "maxrange": 2,
           "ordnance": true
-        }
+        },
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_41.jpg"
       }
     ],
-    "cost": {
-      "value": 7
-    }
+    "cost": { "value": 7 },
+    "ffg_id": "XW_U_41"
   }
 ]

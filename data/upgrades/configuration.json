@@ -8,22 +8,16 @@
         "title": "Integrated S-foils (Closed)",
         "type": "Configuration",
         "ability": "???",
-        "slots": [
-          "Configuration"
-        ]
+        "slots": ["Configuration"]
       },
       {
         "title": "Integrated S-foils (Open)",
         "type": "Configuration",
         "ability": "???",
-        "slots": [
-          "Configuration"
-        ]
+        "slots": ["Configuration"]
       }
     ],
-    "cost": {
-      "value": 0
-    }
+    "cost": { "value": 0 }
   },
   {
     "name": "Os-1 Arsenal Loadout",
@@ -34,33 +28,18 @@
         "title": "Os-1 Arsenal Loadout",
         "type": "Configuration",
         "ability": "While you have exactly 1 disarm token, you can still perform [Torpedo] and [Missile] attacks against targets you have locked. If you do, you cannot spend your lock during the attack. Add [Torpedo] and [Missile] slots.",
-        "slots": [
-          "Configuration"
-        ],
+        "slots": ["Configuration"],
         "grants": [
-          {
-            "type": "slot",
-            "value": "Torpedo",
-            "amount": 1
-          },
-          {
-            "type": "slot",
-            "value": "Missile",
-            "amount": 1
-          }
-        ]
+          { "type": "slot", "value": "Torpedo", "amount": 1 },
+          { "type": "slot", "value": "Missile", "amount": 1 }
+        ],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_125.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_125.jpg"
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "ships": [
-          "alphaclassstarwing"
-        ]
-      }
-    ]
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["alphaclassstarwing"] }],
+    "ffg_id": "XW_U_125"
   },
   {
     "name": "Pivot Wing",
@@ -72,30 +51,23 @@
         "type": "Configuration",
         "ability": "While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90˚ or 180˚. Before you activate, you may flip this card.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/40/f9/40f99994-5834-4865-9dce-48372baa164e/swz01_a3_pivot-closed.png",
-        "slots": [
-          "Configuration"
-        ]
+        "slots": ["Configuration"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_107b.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_107b.jpg"
       },
       {
         "title": "Pivot Wing (Open)",
         "type": "Configuration",
         "ability": "Before you activate, you may flip this card.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/66/e9/66e9bcba-36fd-480e-be7c-17c7b93afa5e/swz01_a3_pivot-open.png",
-        "slots": [
-          "Configuration"
-        ]
+        "slots": ["Configuration"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_107.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_107.jpg"
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "ships": [
-          "ut60duwing"
-        ]
-      }
-    ]
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["ut60duwing"] }],
+    "ffg_id": "XW_U_107b"
   },
   {
     "name": "Servomotor S-foils",
@@ -107,64 +79,45 @@
         "type": "Configuration",
         "ability": "While you perform a primary attack, roll 1 fewer attack die. Before you activate, you may flip this card.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/40/ac/40ac4929-f664-4b0d-a983-8d78f6e1d65c/swz01_a3_servomotor-closed.png",
-        "slots": [
-          "Configuration"
-        ],
+        "slots": ["Configuration"],
         "actions": [
-          {
-            "type": "Boost",
-            "difficulty": "White"
-          },
+          { "type": "Boost", "difficulty": "White" },
           {
             "type": "Focus",
             "difficulty": "White",
-            "linked": {
-              "difficulty": "Red",
-              "type": "Boost"
-            }
+            "linked": { "difficulty": "Red", "type": "Boost" }
           }
         ],
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Boost",
-              "difficulty": "White"
-            }
+            "value": { "type": "Boost", "difficulty": "White" }
           },
           {
             "type": "action",
             "value": {
               "type": "Focus",
               "difficulty": "White",
-              "linked": {
-                "type": "Boost",
-                "difficulty": "Red"
-              }
+              "linked": { "type": "Boost", "difficulty": "Red" }
             }
           }
-        ]
+        ],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_108b.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_108b.jpg"
       },
       {
         "title": "Servomotor S-foils (Open)",
         "type": "Configuration",
         "ability": "Before you activate, you may flip this card.",
         "images": "https://images-cdn.fantasyflightgames.com/filer_public/95/ab/95abfa8d-125b-42b9-ba92-7763240eca7f/swz01_a3_servomotor-open.png",
-        "slots": [
-          "Configuration"
-        ]
+        "slots": ["Configuration"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_108.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_108.jpg"
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "ships": [
-          "t65xwing"
-        ]
-      }
-    ]
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["t65xwing"] }],
+    "ffg_id": "XW_U_108b"
   },
   {
     "name": "Xg-1 Assault Configuration",
@@ -175,27 +128,14 @@
         "title": "Xg-1 Assault Configuration",
         "type": "Configuration",
         "ability": "While you have exactly 1 disarm token, uou can still perform [Cannon] attacks. While you perform a [Cannon] attack while disarmed, roll a maximum of 3 attack dice. Add [Cannon] slot.",
-        "slots": [
-          "Configuration"
-        ],
-        "grants": [
-          {
-            "type": "slot",
-            "value": "Cannon",
-            "amount": 1
-          }
-        ]
+        "slots": ["Configuration"],
+        "grants": [{ "type": "slot", "value": "Cannon", "amount": 1 }],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_126.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_126.jpg"
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "ships": [
-          "alphaclassstarwing"
-        ]
-      }
-    ]
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["alphaclassstarwing"] }],
+    "ffg_id": "XW_U_126"
   }
 ]
