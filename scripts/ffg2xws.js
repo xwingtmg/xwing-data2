@@ -1,10 +1,10 @@
-// Quick script to create a ffg_id -> xws mapping file
+// Quick script that maps ffg's `id` field to `xws` values
 
 const fs = require('fs');
 const jsonfile = require('jsonfile');
 
 const dataRoot = __dirname + '/../data';
-const ffg2xws = {};
+const ffg2xws = { pilots: {}, upgrades: {} };
 
 // Upgrades
 const files = fs.readdirSync(`${dataRoot}/upgrades`);
@@ -13,8 +13,8 @@ files.forEach(file => {
   contents.forEach(upg => {
     if (upg.xws) {
       upg.sides.forEach(side => {
-        if (side.ffg_id) {
-          ffg2xws[side.ffg_id] = upg.xws;
+        if (side.ffg) {
+          ffg2xws.upgrades[side.ffg] = upg.xws;
         }
       });
     }
@@ -28,19 +28,20 @@ factions.forEach(faction => {
   ships.forEach(file => {
     const contents = jsonfile.readFileSync(`${dataRoot}/pilots/${faction}/${file}`);
     contents.pilots.forEach(pilot => {
-      if (pilot.xws && pilot.ffg_id) {
-        ffg2xws[pilot.ffg_id] = pilot.xws;
+      if (pilot.xws && pilot.ffg) {
+        ffg2xws.pilots[pilot.ffg] = pilot.xws;
       }
     });
   });
 });
 
-const collator = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' });
-const ordered = Object.keys(ffg2xws)
-  .sort(collator.compare)
-  .reduce((aq, key) => {
-    aq[key] = ffg2xws[key];
-    return aq;
-  }, {});
+// const collator = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' });
+// const ordered = Object.keys(ffg2xws)
+//   .sort(collator.compare)
+//   .reduce((aq, key) => {
+//     aq[key] = ffg2xws[key];
+//     return aq;
+//   }, {});
+const ordered = ffg2xws;
 
-jsonfile.writeFileSync(`${dataRoot}/ffgid-xws.json`, ordered);
+jsonfile.writeFileSync(`${dataRoot}/ffg-xws.json`, ordered);
