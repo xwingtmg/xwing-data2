@@ -7,8 +7,8 @@ const dataRoot = __dirname + '/../data';
 const ffg2xws = { pilots: {}, upgrades: {} };
 
 // Upgrades
-const files = fs.readdirSync(`${dataRoot}/upgrades`);
-files.forEach(file => {
+const upgradeFiles = fs.readdirSync(`${dataRoot}/upgrades`);
+upgradeFiles.forEach(file => {
   const contents = jsonfile.readFileSync(`${dataRoot}/upgrades/${file}`);
   contents.forEach(upg => {
     if (upg.xws) {
