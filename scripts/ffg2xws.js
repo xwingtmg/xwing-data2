@@ -4,7 +4,7 @@ const fs = require('fs');
 const jsonfile = require('jsonfile');
 
 const dataRoot = __dirname + '/../data';
-const ffg2xws = { pilots: {}, upgrades: {}, factions: {}, ships: {}, actions: {} };
+const ffg2xws = { pilots: {}, upgrades: {}, factions: {}, ships: {}, actions: {}, stats: {} };
 
 // Upgrades
 const upgradeFiles = fs.readdirSync(`${dataRoot}/upgrades`);
@@ -64,6 +64,17 @@ actionsFiles.forEach(file => {
   contents.forEach(action => {
     if (action.xws && action.ffg) {
       ffg2xws.actions[action.ffg] = action.xws;
+    }
+  });
+});
+
+// Stats
+const statsFiles = fs.readdirSync(`${dataRoot}/stats`);
+statsFiles.forEach(file => {
+  const contents = jsonfile.readFileSync(`${dataRoot}/stats/${file}`);
+  contents.forEach(stat => {
+    if (stat.xws && stat.ffg) {
+      ffg2xws.stats[stat.ffg] = stat.xws;
     }
   });
 });
