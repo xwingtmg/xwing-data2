@@ -30,7 +30,7 @@
   "actions": [
     { "difficulty": "White", "type": "Focus" },
     { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Coordinate" }
+    { "difficulty": "White", "type": "Reinforce" }
   ],
   "pilots": [
     {
@@ -45,7 +45,7 @@
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
         { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Coordinate" }
+        { "difficulty": "White", "type": "Reinforce" }
       ],
       "shipAbility": {
         "name": "Tail Gun",
