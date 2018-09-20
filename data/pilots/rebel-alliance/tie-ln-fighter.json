@@ -41,8 +41,8 @@
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_49.png",
       "slots": ["Modification"],
-      "ffg_id": "XW_P_49",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_49.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_49.jpg",
+      "ffg": 49
     },
     {
       "name": "Captain Rex",
@@ -55,8 +55,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_48.png",
       "conditions": ["suppressivefire"],
       "slots": ["Modification"],
-      "ffg_id": "XW_P_48",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg",
+      "ffg": 48
     },
     {
       "name": "Ezra Bridger",
@@ -69,8 +69,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_46.png",
       "force": { "value": 1, "recovers": 1 },
       "slots": ["Force Power", "Modification"],
-      "ffg_id": "XW_P_46",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg",
+      "ffg": 46
     },
     {
       "name": "Sabine Wren",
@@ -82,8 +82,8 @@
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_47.png",
       "slots": ["Talent", "Modification"],
-      "ffg_id": "XW_P_47",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg",
+      "ffg": 47
     }
   ]
 }
