@@ -27,6 +27,10 @@ factions.forEach(faction => {
   const ships = fs.readdirSync(`${dataRoot}/pilots/${faction}`);
   ships.forEach(file => {
     const contents = jsonfile.readFileSync(`${dataRoot}/pilots/${faction}/${file}`);
+    // Read the ship xws and FFG ID information
+    if (contents.xws && contents.ffg) {
+      ffg2xws.ships[contents.ffg] = contents.xws;
+    }
     contents.pilots.forEach(pilot => {
       if (pilot.xws && pilot.ffg) {
         ffg2xws.pilots[pilot.ffg] = pilot.xws;
@@ -42,17 +46,6 @@ factionFiles.forEach(file => {
   contents.forEach(faction => {
     if (faction.xws && faction.ffg) {
       ffg2xws.factions[faction.ffg] = faction.xws;
-    }
-  });
-});
-
-// Ships
-const shipsFiles = fs.readdirSync(`${dataRoot}/ships`);
-shipsFiles.forEach(file => {
-  const contents = jsonfile.readFileSync(`${dataRoot}/ships/${file}`);
-  contents.forEach(ship => {
-    if (ship.xws && ship.ffg) {
-      ffg2xws.ships[ship.ffg] = ship.xws;
     }
   });
 });
