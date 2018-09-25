@@ -4,11 +4,11 @@ const fs = require('fs');
 const jsonfile = require('jsonfile');
 
 const dataRoot = __dirname + '/../data';
-const ffg2xws = { pilots: {}, upgrades: {} };
+const ffg2xws = { pilots: {}, upgrades: {}, factions: {}, ships: {}, actions: {}, stats: {} };
 
 // Upgrades
-const files = fs.readdirSync(`${dataRoot}/upgrades`);
-files.forEach(file => {
+const upgradeFiles = fs.readdirSync(`${dataRoot}/upgrades`);
+upgradeFiles.forEach(file => {
   const contents = jsonfile.readFileSync(`${dataRoot}/upgrades/${file}`);
   contents.forEach(upg => {
     if (upg.xws) {
@@ -27,11 +27,48 @@ factions.forEach(faction => {
   const ships = fs.readdirSync(`${dataRoot}/pilots/${faction}`);
   ships.forEach(file => {
     const contents = jsonfile.readFileSync(`${dataRoot}/pilots/${faction}/${file}`);
+    // Read the ship xws and FFG ID information
+    if (contents.xws && contents.ffg) {
+      ffg2xws.ships[contents.ffg] = contents.xws;
+    }
     contents.pilots.forEach(pilot => {
       if (pilot.xws && pilot.ffg) {
         ffg2xws.pilots[pilot.ffg] = pilot.xws;
       }
     });
+  });
+});
+
+// Factions
+const factionFiles = fs.readdirSync(`${dataRoot}/factions`);
+factionFiles.forEach(file => {
+  const contents = jsonfile.readFileSync(`${dataRoot}/factions/${file}`);
+  contents.forEach(faction => {
+    if (faction.xws && faction.ffg) {
+      ffg2xws.factions[faction.ffg] = faction.xws;
+    }
+  });
+});
+
+// Actions
+const actionsFiles = fs.readdirSync(`${dataRoot}/actions`);
+actionsFiles.forEach(file => {
+  const contents = jsonfile.readFileSync(`${dataRoot}/actions/${file}`);
+  contents.forEach(action => {
+    if (action.xws && action.ffg) {
+      ffg2xws.actions[action.ffg] = action.xws;
+    }
+  });
+});
+
+// Stats
+const statsFiles = fs.readdirSync(`${dataRoot}/stats`);
+statsFiles.forEach(file => {
+  const contents = jsonfile.readFileSync(`${dataRoot}/stats/${file}`);
+  contents.forEach(stat => {
+    if (stat.xws && stat.ffg) {
+      ffg2xws.stats[stat.ffg] = stat.xws;
+    }
   });
 });
 
