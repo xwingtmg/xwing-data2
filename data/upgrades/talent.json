@@ -11,7 +11,7 @@
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_156.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_156.jpg",
-        "ffg_id": "XW_U_156"
+        "ffg": 381
       }
     ],
     "cost": { "value": 2 },
@@ -26,12 +26,11 @@
         "title": "Crack Shot",
         "type": "Talent",
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], before the Neutralize Results step, you may spend 1 [Charge] to cancel 1 [Evade] result.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/86/d9/86d9931b-ee81-4c50-af26-7115febef89d/swz01_a4_crackshot.png",
         "slots": ["Talent"],
         "charges": { "value": 1, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_1.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_1.jpg",
-        "ffg_id": "XW_U_1"
+        "ffg": 230
       }
     ],
     "cost": { "value": 1 }
@@ -45,11 +44,10 @@
         "title": "Daredevil",
         "type": "Talent",
         "ability": "While you perform a white [Boost] action, you may treat it as red to use the [1 [Turn Left]] or [1 [Turn Right]] template instead.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/55/65/55659ceb-e6e7-475b-aabd-1791e9854f3b/swz17_daredevil.png",
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_2.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_2.jpg",
-        "ffg_id": "XW_U_2"
+        "ffg": 231
       }
     ],
     "cost": { "value": 3 },
@@ -78,7 +76,7 @@
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_3.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_3.jpg",
-        "ffg_id": "XW_U_3"
+        "ffg": 232
       }
     ],
     "cost": { "value": 2 },
@@ -97,7 +95,7 @@
         "charges": { "value": 1, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_4.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_4.jpg",
-        "ffg_id": "XW_U_4"
+        "ffg": 233
       }
     ],
     "cost": { "value": 3 },
@@ -112,7 +110,6 @@
         "title": "Expert Handling",
         "type": "Talent",
         "text": "While heavy fighters can often be coaxed into a barrel roll, seasoned pilots know how to do it without putting undue stress on their craft or leaving themselves open to attack.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/ca/54/ca54d4e0-7d84-4171-b685-c3b10772dd78/swz01_a5_expert-handling.png",
         "slots": ["Talent"],
         "actions": [{ "type": "Barrel Roll", "difficulty": "White" }],
         "grants": [
@@ -124,7 +121,7 @@
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_5.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_5.jpg",
-        "ffg_id": "XW_U_5"
+        "ffg": 234
       }
     ],
     "cost": {
@@ -162,7 +159,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_6.png",
         "slots": ["Talent"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_6.jpg",
-        "ffg_id": "XW_U_6"
+        "ffg": 235
       }
     ],
     "cost": { "value": 3 },
@@ -194,7 +191,7 @@
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_7.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_7.jpg",
-        "ffg_id": "XW_U_7"
+        "ffg": 236
       }
     ],
     "cost": { "value": 3 }
@@ -217,7 +214,7 @@
           }
         ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_8.jpg",
-        "ffg_id": "XW_U_8"
+        "ffg": 237
       }
     ],
     "cost": { "value": 4 },
@@ -236,7 +233,7 @@
         "charges": { "value": 1, "recovers": 1 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_9.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_9.jpg",
-        "ffg_id": "XW_U_9"
+        "ffg": 238
       }
     ],
     "cost": { "value": 4 }
@@ -250,11 +247,10 @@
         "title": "Marksmanship",
         "type": "Talent",
         "ability": "While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/1a/55/1a5549b4-e246-4409-8064-52b22f454c4d/swz01_a4_marksmanship.png",
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_10.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_10.jpg",
-        "ffg_id": "XW_U_10"
+        "ffg": 239
       }
     ],
     "cost": { "value": 1 }
@@ -268,11 +264,10 @@
         "title": "Outmaneuver",
         "type": "Talent",
         "ability": "While you perform a [Front Arc] arrack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/1d/f4/1df42725-46a8-45ff-8fd2-d8b649f0510c/swz01_a7_outmaneuver.png",
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_11.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_11.jpg",
-        "ffg_id": "XW_U_11"
+        "ffg": 240
       }
     ],
     "cost": { "value": 6 }
@@ -289,7 +284,7 @@
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_12.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_12.jpg",
-        "ffg_id": "XW_U_12"
+        "ffg": 241
       }
     ],
     "cost": { "value": 2 }
@@ -306,7 +301,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_13.png",
         "slots": ["Talent"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_13.jpg",
-        "ffg_id": "XW_U_13"
+        "ffg": 242
       }
     ],
     "cost": { "value": 1 },
@@ -324,7 +319,7 @@
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_14.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_14.jpg",
-        "ffg_id": "XW_U_14"
+        "ffg": 243
       }
     ],
     "cost": { "value": 6 },
@@ -342,7 +337,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_15.png",
         "slots": ["Talent"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_15.jpg",
-        "ffg_id": "XW_U_15"
+        "ffg": 244
       }
     ],
     "cost": { "value": 3 },
@@ -357,7 +352,6 @@
         "title": "Squad Leader",
         "type": "Talent",
         "ability": "While you coordinate, the ship you choose can perform an action only if that action is also on your action bar.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/c3/5b/c35b9f4e-0a97-491c-9476-ab6fdb512ded/swz15_a1_squad-leader.png",
         "slots": ["Talent"],
         "actions": [{ "type": "Coordinate", "difficulty": "Red" }],
         "grants": [
@@ -369,7 +363,7 @@
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_16.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_16.jpg",
-        "ffg_id": "XW_U_16"
+        "ffg": 245
       }
     ],
     "cost": { "value": 4 }
@@ -386,7 +380,7 @@
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_17.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_17.jpg",
-        "ffg_id": "XW_U_17"
+        "ffg": 246
       }
     ],
     "cost": { "value": 3 }
@@ -400,11 +394,10 @@
         "title": "Trick Shot",
         "type": "Talent",
         "ability": "While you perform an attack that is obstructed by an obstacle, roll 1 additional attack die.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/ba/22/ba226a64-5ba6-481c-a576-921a3a00f9e5/swz02_a1_trick-shot.png",
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_18.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_18.jpg",
-        "ffg_id": "XW_U_18"
+        "ffg": 247
       }
     ],
     "cost": { "value": 1 }

@@ -1,5 +1,7 @@
 {
   "name": "TIE Interceptor",
+  "xws": "tieininterceptor",
+  "ffg": 41,
   "size": "Small",
   "dial": [
     "1TW",
@@ -46,8 +48,8 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": ["Modification", "Modification"],
-      "ffg_id": "XW_P_106",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg",
+      "ffg": 106
     },
     {
       "name": "Saber Squadron Ace",
@@ -62,8 +64,8 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": ["Talent", "Modification", "Modification"],
-      "ffg_id": "XW_P_105",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg",
+      "ffg": 105
     },
     {
       "name": "Soontir Fel",
@@ -79,8 +81,8 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": ["Talent", "Modification", "Modification"],
-      "ffg_id": "XW_P_103",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg",
+      "ffg": 103
     },
     {
       "name": "Turr Phennir",
@@ -96,8 +98,8 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": ["Talent", "Modification", "Modification"],
-      "ffg_id": "XW_P_104",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg",
+      "ffg": 104
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "name": "VCX-100 Light Freighter",
+  "xws": "vcx100lightfreighter",
+  "ffg": 23,
   "size": "Large",
   "dial": [
     "1TR",
@@ -30,7 +32,7 @@
   "actions": [
     { "difficulty": "White", "type": "Focus" },
     { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Coordinate" }
+    { "difficulty": "White", "type": "Reinforce" }
   ],
   "pilots": [
     {
@@ -45,7 +47,7 @@
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
         { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Coordinate" }
+        { "difficulty": "White", "type": "Reinforce" }
       ],
       "shipAbility": {
         "name": "Tail Gun",
@@ -60,8 +62,8 @@
         "Modification",
         "Title"
       ],
-      "ffg_id": "XW_P_75",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_75.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_75.jpg",
+      "ffg": 75
     },
     {
       "name": "Hera Syndulla",
@@ -86,8 +88,8 @@
         "Modification",
         "Title"
       ],
-      "ffg_id": "XW_P_73",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_73.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_73.jpg",
+      "ffg": 73
     },
     {
       "name": "Kanan Jarrus",
@@ -113,8 +115,8 @@
         "Modification",
         "Title"
       ],
-      "ffg_id": "XW_P_74",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_74.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_74.jpg",
+      "ffg": 74
     },
     {
       "name": "Lothal Rebel",
@@ -137,8 +139,8 @@
         "Modification",
         "Title"
       ],
-      "ffg_id": "XW_P_76",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_76.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_76.jpg",
+      "ffg": 76
     }
   ]
 }

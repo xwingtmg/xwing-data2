@@ -1,5 +1,7 @@
 {
   "name": "TIE/ca Punisher",
+  "xws": "tiecapunisher",
+  "ffg": 20,
   "size": "Medium",
   "dial": [
     "0OR",
@@ -56,8 +58,8 @@
         "Device",
         "Modification"
       ],
-      "ffg_id": "XW_P_140",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_140.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_140.jpg",
+      "ffg": 140
     },
     {
       "name": "\"Redline\"",
@@ -77,9 +79,9 @@
         "Device",
         "Modification"
       ],
-      "ffg_id": "XW_P_139",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_139.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_139.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_139.jpg",
+      "ffg": 139
     },
     {
       "name": "Cutlass Squadron Pilot",
@@ -99,8 +101,8 @@
         "Device",
         "Modification"
       ],
-      "ffg_id": "XW_P_141",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_141.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_141.jpg",
+      "ffg": 141
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "name": "Escape Craft",
+  "xws": "escapecraft",
+  "ffg": 48,
   "size": "Small",
   "dial": [
     "0OR",
@@ -49,8 +51,8 @@
         "text": "During the System Phase, if you are not docked, lose 1 [Charge]. At the end of the Activation Phase, if you have 0 [Charge], you are destroyed. Before you are removed, each ship at range 0-1 suffers 1 [Critical Hit] damage."
       },
       "slots": [],
-      "ffg_id": "XW_P_229",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg",
+      "ffg": 229
     },
     {
       "name": "L3-37",
@@ -71,8 +73,8 @@
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
       },
       "slots": ["Talent", "Crew", "Modification"],
-      "ffg_id": "XW_P_228",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_228.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_228.jpg",
+      "ffg": 228
     },
     {
       "name": "Lando Calrissian",
@@ -88,9 +90,9 @@
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
       },
       "slots": ["Talent", "Crew", "Modification"],
-      "ffg_id": "XW_P_226",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_226.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg",
+      "ffg": 226
     },
     {
       "name": "Outer Rim Pioneer",
@@ -106,8 +108,8 @@
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
       },
       "slots": ["Talent", "Crew", "Modification"],
-      "ffg_id": "XW_P_227",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_227.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_227.jpg",
+      "ffg": 227
     }
   ]
 }

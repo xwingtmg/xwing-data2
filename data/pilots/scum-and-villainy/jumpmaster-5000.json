@@ -1,5 +1,7 @@
 {
   "name": "JumpMaster 5000",
+  "xws": "jumpmaster5000",
+  "ffg": 45,
   "size": "Large",
   "dial": [
     "1TW",
@@ -49,8 +51,8 @@
       "text": "Built for long-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_217.png",
       "slots": ["Crew", "Torpedo", "Illicit", "Modification", "Title"],
-      "ffg_id": "XW_P_217",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg",
+      "ffg": 217
     },
     {
       "name": "Dengar",
@@ -76,8 +78,8 @@
         "Modification",
         "Title"
       ],
-      "ffg_id": "XW_P_214",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_214.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_214.jpg",
+      "ffg": 214
     },
     {
       "name": "Manaroo",
@@ -96,8 +98,8 @@
         "Modification",
         "Title"
       ],
-      "ffg_id": "XW_P_215",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_215.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_215.jpg",
+      "ffg": 215
     },
     {
       "name": "Tel Trevura",
@@ -117,8 +119,8 @@
         "Modification",
         "Title"
       ],
-      "ffg_id": "XW_P_216",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg",
+      "ffg": 216
     }
   ]
 }

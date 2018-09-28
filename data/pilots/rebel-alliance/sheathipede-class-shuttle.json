@@ -1,5 +1,7 @@
 {
   "name": "Sheathipede-class Shuttle",
+  "xws": "sheathipedeclassshuttle",
+  "ffg": 8,
   "size": "Small",
   "dial": [
     "1SR",
@@ -46,8 +48,8 @@
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
-      "ffg_id": "XW_P_40",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg",
+      "ffg": 40
     },
     {
       "name": "AP-5",
@@ -67,8 +69,8 @@
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
-      "ffg_id": "XW_P_41",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg",
+      "ffg": 41
     },
     {
       "name": "Ezra Bridger",
@@ -85,8 +87,8 @@
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
       "slots": ["Force Power", "Crew", "Astromech", "Modification", "Title"],
-      "ffg_id": "XW_P_39",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg",
+      "ffg": 39
     },
     {
       "name": "Fenn Rau",
@@ -102,8 +104,8 @@
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
-      "ffg_id": "XW_P_38",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg",
+      "ffg": 38
     }
   ]
 }

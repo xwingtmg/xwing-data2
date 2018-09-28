@@ -1,5 +1,7 @@
 {
   "name": "T-65 X-wing",
+  "xws": "t65xwing",
+  "ffg": 33,
   "size": "Small",
   "dial": [
     "1BB",
@@ -43,8 +45,8 @@
       "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Hit] or [Critical Hit] damage to cancel 1 matching result.",
       "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_7.png",
-      "ffg_id": "XW_P_7",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_7.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_7.jpg",
+      "ffg": 7
     },
     {
       "name": "Blue Squadron Escort",
@@ -61,7 +63,7 @@
         }
       ],
       "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
-      "ffg_id": "XW_P_11"
+      "ffg": 11
     },
     {
       "name": "Cavern Angels Zealot",
@@ -77,9 +79,9 @@
         "Modification",
         "Configuration"
       ],
-      "ffg_id": "XW_P_12",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_12.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_12.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_12.jpg",
+      "ffg": 12
     },
     {
       "name": "Edrio Two Tubes",
@@ -97,8 +99,8 @@
         "Modification",
         "Configuration"
       ],
-      "ffg_id": "XW_P_9",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_9.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_9.jpg",
+      "ffg": 9
     },
     {
       "name": "Garven Dreis",
@@ -116,8 +118,8 @@
         "Modification",
         "Configuration"
       ],
-      "ffg_id": "XW_P_4",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_4.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_4.jpg",
+      "ffg": 4
     },
     {
       "name": "Jek Porkins",
@@ -135,8 +137,8 @@
         "Configuration"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_5.png",
-      "ffg_id": "XW_P_5",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_5.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_5.jpg",
+      "ffg": 5
     },
     {
       "name": "Kullbee Sperado",
@@ -155,8 +157,8 @@
         "Modification",
         "Configuration"
       ],
-      "ffg_id": "XW_P_6",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_6.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_6.jpg",
+      "ffg": 6
     },
     {
       "name": "Leevan Tenza",
@@ -175,8 +177,8 @@
         "Modification",
         "Configuration"
       ],
-      "ffg_id": "XW_P_8",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_8.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_8.jpg",
+      "ffg": 8
     },
     {
       "name": "Luke Skywalker",
@@ -205,8 +207,8 @@
         "Modification",
         "Configuration"
       ],
-      "ffg_id": "XW_P_2",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_2.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_2.jpg",
+      "ffg": 2
     },
     {
       "name": "Red Squadron Veteran",
@@ -223,8 +225,8 @@
         "Configuration"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_10.png",
-      "ffg_id": "XW_P_10",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_10.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_10.jpg",
+      "ffg": 10
     },
     {
       "name": "Thane Kyrell",
@@ -242,8 +244,8 @@
         "Modification",
         "Configuration"
       ],
-      "ffg_id": "XW_P_3",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_3.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_3.jpg",
+      "ffg": 3
     },
     {
       "name": "Wedge Antilles",
@@ -261,8 +263,8 @@
         "Configuration"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_1.png",
-      "ffg_id": "XW_P_1",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_1.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_1.jpg",
+      "ffg": 1
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "name": "Attack Shuttle",
+  "xws": "attackshuttle",
+  "ffg": 32,
   "size": "Small",
   "dial": [
     "1TR",
@@ -51,8 +53,8 @@
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
       "slots": ["Turret", "Crew", "Modification", "Title"],
-      "ffg_id": "XW_P_37",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg",
+      "ffg": 37
     },
     {
       "name": "Ezra Bridger",
@@ -69,8 +71,8 @@
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
       "slots": ["Force Power", "Turret", "Crew", "Modification", "Title"],
-      "ffg_id": "XW_P_36",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg",
+      "ffg": 36
     },
     {
       "name": "Hera Syndulla",
@@ -86,8 +88,8 @@
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
       "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
-      "ffg_id": "XW_P_34",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_34.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_34.jpg",
+      "ffg": 34
     },
     {
       "name": "Sabine Wren",
@@ -103,8 +105,8 @@
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
       "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
-      "ffg_id": "XW_P_35",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_35.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_35.jpg",
+      "ffg": 35
     }
   ]
 }

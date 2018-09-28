@@ -8,7 +8,6 @@
         "title": "Andrasta",
         "type": "Title",
         "ability": "Add [Device] slot.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/8f/83/8f83a635-5a04-4951-8195-6e4c447fed35/swz16_andrasta.png",
         "slots": ["Title"],
         "actions": [{ "type": "Reload", "difficulty": "White" }],
         "grants": [
@@ -21,7 +20,7 @@
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_146.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_146.jpg",
-        "ffg_id": "XW_U_146"
+        "ffg": 371
       }
     ],
     "cost": { "value": 6 },
@@ -58,7 +57,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_123.png",
         "slots": ["Title"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_123.jpg",
-        "ffg_id": "XW_U_123"
+        "ffg": 349
       }
     ],
     "cost": { "value": 6 },
@@ -79,7 +78,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_102.png",
         "slots": ["Title"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_102.jpg",
-        "ffg_id": "XW_U_102"
+        "ffg": 326
       }
     ],
     "cost": { "value": 0 },
@@ -105,7 +104,7 @@
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_147.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_147.jpg",
-        "ffg_id": "XW_U_147"
+        "ffg": 372
       }
     ],
     "cost": { "value": 4 },
@@ -126,7 +125,7 @@
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_148.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_148.jpg",
-        "ffg_id": "XW_U_148"
+        "ffg": 373
       }
     ],
     "cost": { "value": 1 },
@@ -147,7 +146,7 @@
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_149.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_149.jpg",
-        "ffg_id": "XW_U_149"
+        "ffg": 374
       }
     ],
     "cost": { "value": 2 },
@@ -165,11 +164,10 @@
         "title": "Lando's Millennium Falcon",
         "type": "Title",
         "ability": "1 Escape Craft may dock with you. While you have an Escape Craft docked, you may spend its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/8d/a8/8da88777-3792-4da4-839e-ea7bfbbd5545/swz04_landos-millennium-falcon.png",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_164.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg",
-        "ffg_id": "XW_U_164"
+        "ffg": 390
       }
     ],
     "cost": { "value": 6 },
@@ -187,12 +185,11 @@
         "title": "Marauder",
         "type": "Title",
         "ability": "While you perform a primary [Rear Arc] attack,, you may reroll 1 attack die. Add [Gunner] slot.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/65/27/652749d7-13b1-4e68-a4cc-b34074a654c5/swz16_marauder.png",
         "slots": ["Title"],
         "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_150.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_150.jpg",
-        "ffg_id": "XW_U_150"
+        "ffg": 375
       }
     ],
     "cost": { "value": 3 },
@@ -221,7 +218,7 @@
           }
         ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg",
-        "ffg_id": "XW_U_103"
+        "ffg": 327
       }
     ],
     "cost": { "value": 6 },
@@ -239,7 +236,6 @@
         "title": "Mist Hunter",
         "type": "Title",
         "ability": "Add [Cannon] slot.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/c3/d1/c3d11605-d84d-4a82-8a0e-299c995d6a6c/swz08_a1_mist-hunter.png",
         "slots": ["Title"],
         "actions": [{ "type": "Barrel Roll", "difficulty": "White" }],
         "grants": [
@@ -252,7 +248,7 @@
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_151.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_151.jpg",
-        "ffg_id": "XW_U_151"
+        "ffg": 376
       }
     ],
     "cost": { "value": 2 },
@@ -270,11 +266,10 @@
         "title": "Moldy Crow",
         "type": "Title",
         "ability": "Gain a [Front Arc] primary weapon with a value of \"3.\" During the End Phase, do not remove up to 2 focus tokens.",
-        "images": "https://images-cdn.fantasyflightgames.com/filer_public/d5/a3/d5a3b474-777f-49ac-941b-e48c5744e206/swz06-moldy-crow.png",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_104.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_104.jpg",
-        "ffg_id": "XW_U_104"
+        "ffg": 328
       }
     ],
     "cost": { "value": 12 },
@@ -295,7 +290,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_105.png",
         "slots": ["Title"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg",
-        "ffg_id": "XW_U_105"
+        "ffg": 329
       }
     ],
     "cost": { "value": 14 },
@@ -316,7 +311,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_106.png",
         "slots": ["Title"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_106.jpg",
-        "ffg_id": "XW_U_106"
+        "ffg": 330
       }
     ],
     "cost": { "value": 2 },
@@ -341,7 +336,7 @@
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_152.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_152.jpg",
-        "ffg_id": "XW_U_152"
+        "ffg": 377
       }
     ],
     "cost": { "value": 8 },
@@ -362,7 +357,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_124.png",
         "slots": ["Title"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_124.jpg",
-        "ffg_id": "XW_U_124"
+        "ffg": 391
       }
     ],
     "cost": { "value": 6 },
@@ -383,7 +378,7 @@
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_153.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_153.jpg",
-        "ffg_id": "XW_U_153"
+        "ffg": 378
       }
     ],
     "cost": { "value": 6 },
@@ -405,7 +400,7 @@
         "grants": [{ "type": "slot", "value": "Torpedo", "amount": 1 }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_154.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_154.jpg",
-        "ffg_id": "XW_U_154"
+        "ffg": 379
       }
     ],
     "cost": { "value": 5 },
@@ -431,7 +426,7 @@
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_155.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_155.jpg",
-        "ffg_id": "XW_U_155"
+        "ffg": 380
       }
     ],
     "cost": { "value": 10 },

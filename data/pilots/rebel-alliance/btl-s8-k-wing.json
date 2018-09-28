@@ -1,5 +1,7 @@
 {
   "name": "BTL-S8 K-wing",
+  "xws": "btls8kwing",
+  "ffg": 30,
   "size": "Medium",
   "dial": [
     "1BB",
@@ -48,8 +50,8 @@
         "Device",
         "Modification"
       ],
-      "ffg_id": "XW_P_63",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_63.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_63.jpg",
+      "ffg": 63
     },
     {
       "name": "Miranda Doni",
@@ -70,8 +72,8 @@
         "Device",
         "Modification"
       ],
-      "ffg_id": "XW_P_62",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_62.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_62.jpg",
+      "ffg": 62
     },
     {
       "name": "Warden Squadron Pilot",
@@ -91,8 +93,8 @@
         "Device",
         "Modification"
       ],
-      "ffg_id": "XW_P_64",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_64.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_64.jpg",
+      "ffg": 64
     }
   ]
 }

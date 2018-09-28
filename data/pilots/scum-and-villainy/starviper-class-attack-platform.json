@@ -1,5 +1,7 @@
 {
   "name": "StarViper-class Attack Platform",
+  "xws": "starviperclassattackplatform",
+  "ffg": 3,
   "size": "Small",
   "dial": [
     "1TW",
@@ -54,8 +56,8 @@
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
       "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Title"],
-      "ffg_id": "XW_P_181",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg",
+      "ffg": 181
     },
     {
       "name": "Black Sun Enforcer",
@@ -70,8 +72,8 @@
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
       "slots": ["Sensor", "Torpedo", "Modification", "Title"],
-      "ffg_id": "XW_P_182",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg",
+      "ffg": 182
     },
     {
       "name": "Dalan Oberos",
@@ -87,8 +89,8 @@
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
       "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Title"],
-      "ffg_id": "XW_P_179",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg",
+      "ffg": 179
     },
     {
       "name": "Guri",
@@ -118,8 +120,8 @@
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
       "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Title"],
-      "ffg_id": "XW_P_178",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_178.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_178.jpg",
+      "ffg": 178
     },
     {
       "name": "Prince Xizor",
@@ -135,8 +137,8 @@
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
       "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Title"],
-      "ffg_id": "XW_P_180",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg",
+      "ffg": 180
     }
   ]
 }

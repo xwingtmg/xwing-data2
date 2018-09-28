@@ -1,5 +1,7 @@
 {
   "name": "Scurrg H-6 Bomber",
+  "xws": "scurrgh6bomber",
+  "ffg": 4,
   "size": "Medium",
   "dial": [
     "1BB",
@@ -51,8 +53,8 @@
         "Modification",
         "Title"
       ],
-      "ffg_id": "XW_P_204",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_204.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_204.jpg",
+      "ffg": 204
     },
     {
       "name": "Lok Revenant",
@@ -63,8 +65,8 @@
       "text": "The Nubian Design Collective crafted the Scurrg H-6 Bomber with combat versatility in mind, arming it with powerful shields and a bristling array of destructive weaponry.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_206.png",
       "slots": ["Turret", "Crew", "Device", "Device", "Modification", "Title"],
-      "ffg_id": "XW_P_206",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_206.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_206.jpg",
+      "ffg": 206
     },
     {
       "name": "Sol Sixxa",
@@ -84,8 +86,8 @@
         "Modification",
         "Title"
       ],
-      "ffg_id": "XW_P_205",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_205.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_205.jpg",
+      "ffg": 205
     }
   ]
 }

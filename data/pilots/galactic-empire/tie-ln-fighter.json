@@ -1,5 +1,7 @@
 {
   "name": "TIE/ln Fighter",
+  "xws": "tielnfighter",
+  "ffg": 11,
   "size": "Small",
   "dial": [
     "1TW",
@@ -41,8 +43,8 @@
       "ability": "While a friendly ship at range 0-1 performs a primary attack, that ship may reroll 1 attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_81.png",
       "slots": ["Talent", "Modification"],
-      "ffg_id": "XW_P_81",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_81.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_81.jpg",
+      "ffg": 81
     },
     {
       "name": "\"Mauler\" Mithel",
@@ -54,8 +56,8 @@
       "ability": "While you perform an attack at attack range 1, roll 1 additional attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_80.png",
       "slots": ["Talent", "Modification"],
-      "ffg_id": "XW_P_80",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_80.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_80.jpg",
+      "ffg": 80
     },
     {
       "name": "\"Night Beast\"",
@@ -67,8 +69,8 @@
       "ability": "After you fully execute a blue maneuver, you may perform a [Focus] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_88.png",
       "slots": ["Modification"],
-      "ffg_id": "XW_P_88",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_88.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_88.jpg",
+      "ffg": 88
     },
     {
       "name": "\"Scourge\" Skutu",
@@ -80,8 +82,8 @@
       "ability": "While you perform an attack against a defender in your [Bullseye Arc], roll 1 additional attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_82.png",
       "slots": ["Talent", "Modification"],
-      "ffg_id": "XW_P_82",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_82.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_82.jpg",
+      "ffg": 82
     },
     {
       "name": "\"Wampa\"",
@@ -94,8 +96,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_89.png",
       "charges": { "value": 1, "recovers": 1 },
       "slots": ["Modification"],
-      "ffg_id": "XW_P_89",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_89.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_89.jpg",
+      "ffg": 89
     },
     {
       "name": "Academy Pilot",
@@ -112,8 +114,8 @@
         }
       ],
       "slots": ["Modification"],
-      "ffg_id": "XW_P_92",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_92.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_92.jpg",
+      "ffg": 92
     },
     {
       "name": "Black Squadron Ace",
@@ -130,8 +132,8 @@
           "source": "Gen Con Indy 2018"
         }
       ],
-      "ffg_id": "XW_P_90",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_90.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_90.jpg",
+      "ffg": 90
     },
     {
       "name": "Del Meeko",
@@ -143,8 +145,8 @@
       "ability": "While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_85.png",
       "slots": ["Talent", "Modification"],
-      "ffg_id": "XW_P_85",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_85.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_85.jpg",
+      "ffg": 85
     },
     {
       "name": "Gideon Hask",
@@ -156,8 +158,8 @@
       "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_84.png",
       "slots": ["Talent", "Modification"],
-      "ffg_id": "XW_P_84",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_84.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_84.jpg",
+      "ffg": 84
     },
     {
       "name": "Iden Versio",
@@ -170,8 +172,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_83.png",
       "charges": { "value": 1, "recovers": 0 },
       "slots": ["Talent", "Modification"],
-      "ffg_id": "XW_P_83",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_83.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_83.jpg",
+      "ffg": 83
     },
     {
       "name": "Obsidian Squadron Pilot",
@@ -188,8 +190,8 @@
         }
       ],
       "slots": ["Modification"],
-      "ffg_id": "XW_P_91",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_91.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_91.jpg",
+      "ffg": 91
     },
     {
       "name": "Seyn Marana",
@@ -202,8 +204,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_86.png",
       "charges": { "value": 1, "recovers": 0 },
       "slots": ["Talent", "Modification"],
-      "ffg_id": "XW_P_86",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_86.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_86.jpg",
+      "ffg": 86
     },
     {
       "name": "Valen Rudor",
@@ -215,8 +217,8 @@
       "ability": "After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_87.png",
       "slots": ["Talent", "Modification"],
-      "ffg_id": "XW_P_87",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_87.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_87.jpg",
+      "ffg": 87
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "name": "TIE/D Defender",
+  "xws": "tieddefender",
+  "ffg": 18,
   "size": "Small",
   "dial": [
     "1TR",
@@ -50,8 +52,8 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile"],
-      "ffg_id": "XW_P_123",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg",
+      "ffg": 123
     },
     {
       "name": "Countess Ryad",
@@ -67,8 +69,8 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile"],
-      "ffg_id": "XW_P_124",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg",
+      "ffg": 124
     },
     {
       "name": "Delta Squadron Pilot",
@@ -83,8 +85,8 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Sensor", "Cannon", "Missile"],
-      "ffg_id": "XW_P_126",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg",
+      "ffg": 126
     },
     {
       "name": "Onyx Squadron Ace",
@@ -99,8 +101,8 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile"],
-      "ffg_id": "XW_P_125",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg",
+      "ffg": 125
     },
     {
       "name": "Rexler Brath",
@@ -116,8 +118,8 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile"],
-      "ffg_id": "XW_P_122",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg",
+      "ffg": 122
     }
   ]
 }

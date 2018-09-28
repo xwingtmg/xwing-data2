@@ -1,5 +1,7 @@
 {
   "name": "G-1A Starfighter",
+  "xws": "g1astarfighter",
+  "ffg": 22,
   "size": "Medium",
   "dial": [
     "0OR",
@@ -48,8 +50,8 @@
         { "difficulty": "White", "type": "Lock" },
         { "difficulty": "White", "type": "Jam" }
       ],
-      "ffg_id": "XW_P_201",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_201.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_201.jpg",
+      "ffg": 201
     },
     {
       "name": "Gand Findsman",
@@ -60,8 +62,8 @@
       "text": "The legendary Findsmen of Gand worship the enshrouding mists of their home planet, using signs, augurs, and mystical rituals to track their quarry.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_203.png",
       "slots": ["Sensor", "Crew", "Illicit", "Modification", "Title"],
-      "ffg_id": "XW_P_203",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_203.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_203.jpg",
+      "ffg": 203
     },
     {
       "name": "Zuckuss",
@@ -79,8 +81,8 @@
         }
       ],
       "slots": ["Talent", "Sensor", "Crew", "Illicit", "Modification", "Title"],
-      "ffg_id": "XW_P_202",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_202.jpg"
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_202.jpg",
+      "ffg": 202
     }
   ]
 }
