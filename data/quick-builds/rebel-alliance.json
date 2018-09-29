@@ -1,0 +1,53 @@
+{
+  "quick-builds": [
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "pilot": "bladesquadronveteran",
+          "upgrades": {
+            "talent": ["elusive"],
+            "cannon": ["jammingbeam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "pilot": "bluesquadronpilot",
+          "upgrades": {
+            "sensor": ["advancedsensors"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "pilot": "braylenstramm",
+          "upgrades": {
+            "talent": ["trickshot"],
+            "cannon": ["jammingbeam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "pilot": "tennumb",
+          "upgrades": {
+            "talent": ["squadleader"],
+            "sensor": ["advancedsensors"],
+            "cannon": ["heavylasercannon"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    }
+  ]
+}
