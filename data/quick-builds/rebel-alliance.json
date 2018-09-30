@@ -4,7 +4,7 @@
       "threat": 2,
       "pilots": [
         {
-          "pilot": "bladesquadronveteran",
+          "id": "bladesquadronveteran",
           "upgrades": {
             "talent": ["elusive"],
             "cannon": ["jammingbeam"]
@@ -16,7 +16,7 @@
       "threat": 2,
       "pilots": [
         {
-          "pilot": "bluesquadronpilot",
+          "id": "bluesquadronpilot",
           "upgrades": {
             "sensor": ["advancedsensors"]
           }
@@ -27,7 +27,7 @@
       "threat": 2,
       "pilots": [
         {
-          "pilot": "braylenstramm",
+          "id": "braylenstramm",
           "upgrades": {
             "talent": ["trickshot"],
             "cannon": ["jammingbeam"]
@@ -39,7 +39,7 @@
       "threat": 3,
       "pilots": [
         {
-          "pilot": "tennumb",
+          "id": "tennumb",
           "upgrades": {
             "talent": ["squadleader"],
             "sensor": ["advancedsensors"],

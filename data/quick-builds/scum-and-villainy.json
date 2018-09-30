@@ -1,0 +1,80 @@
+{
+  "quick-builds": [
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "moraloeval",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "missile": ["clustermissiles"],
+            "crew": ["lattsrazzi"],
+            "gunner": ["dengar"],
+            "illicit": ["contrabandcybernetics"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "lattsrazzi",
+          "upgrades": {
+            "crew": ["bobafett"],
+            "gunner": ["dengar", "bossk"],
+            "illicit": ["feedbackarray"],
+            "modification": ["staticdischargevanes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "trandoshanslaver",
+          "upgrades": {
+            "crew": ["jabbathehutt"],
+            "gunner": ["hotshotgunner"],
+            "illicit": ["contrabandcybernetics", "riggedcargochute"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "bossk",
+          "upgrades": {
+            "talent": ["marksmanship"],
+            "gunner": ["greedo"],
+            "title": ["houndstooth"]
+          }
+        },
+        {
+          "id": "nashtahpup"
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "trandoshanslaver",
+          "upgrades": {
+            "gunner": ["deadmansswitch"],
+            "title": ["houndstooth"]
+          }
+        },
+        {
+          "id": "nashtahpup",
+          "upgrades": {
+            "missile": ["protonrockets"]
+          }
+        }
+      ]
+    }
+  ]
+}
