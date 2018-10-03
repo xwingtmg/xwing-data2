@@ -1,0 +1,65 @@
+{
+  "name": "Scavanged YT-1300",
+  "size": "Large",
+  "dial": [
+    "1BW",
+    "1FB",
+    "1NW",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3LR",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "3PR",
+    "4FW",
+    "4KR"
+  ],
+  "faction": "Resistance",
+  "stats": [
+    { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 8 },
+    { "type": "shields", "value": 3 }
+  ],
+  "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Boost" },
+    { "difficulty": "Red", "type": "Rotate Arc" }
+  ],
+  "pilots": [
+    {
+      "name": "Chewbacca",
+      "caption": "Loyal Companion",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 200,
+      "xws": "chewbacca-modifiedyt1300lightfreighter"
+    },
+    {
+      "name": "Han Solo",
+      "caption": "Jaded Smuggler",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 200,
+      "xws": "hansolo-modifiedyt1300lightfreighter-resistance"
+    },
+    {
+      "name": "Rey",
+      "caption": "Resourceful Scavenger",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 200,
+      "xws": "rey",
+      "ability": "While you defend or perform an attack, if the enemy ship is in your [Front Arc], you may spend 1 [Force] to change 1 of your blank results to an [Evade] or [Hit] result.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/f9/27/f9276fd7-52fd-4b05-8599-05039fa479e6/swz19_a2_reys-pilot.png",
+      "force": { "value": 2, "recovers": 1 }
+    }
+  ]
+}

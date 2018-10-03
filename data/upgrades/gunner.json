@@ -300,5 +300,35 @@
     ],
     "cost": { "value": 8 },
     "restrictions": [{ "action": { "type": "Rotate Arc" } }]
+  },
+  {
+    "name": "Finn",
+    "limited": 1,
+    "xws": "finn",
+    "sides": [
+      {
+        "title": "Finn",
+        "type": "Gunner",
+        "ability": "While you defend or perform a primary attack, if the enemy ship is in your [Front Arc], you may add 1 blank result to your roll (this die can be rerolled or otherwise modified).",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/89/06/8906ae3a-46b0-45f2-8db9-21b81cb05e0a/swz19_a2_finn-gunner.png",
+        "slots": ["Gunner"]
+      }
+    ],
+    "restrictions": [{ "factions": ["Resistance"] }]
+  },
+  {
+    "name": "Paige Tico",
+    "limited": 1,
+    "xws": "paigetico",
+    "sides": [
+      {
+        "title": "Paige Tico",
+        "type": "Gunner",
+        "ability": "After you perform an attack, you may drop 1 bomb or rotate your [Single Turret Arc]. After you are destroyed, you may drop 1 bomb.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/1d/1b/1d1bade1-7afd-40e6-97ae-4430dfe9d169/swz19_a2_paig-tico.png",
+        "slots": ["Gunner"]
+      }
+    ],
+    "restrictions": [{ "factions": ["Resistance"]} ]
   }
 ]

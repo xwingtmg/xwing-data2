@@ -1061,5 +1061,85 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }]
+  },
+  {
+    "name": "C-3PO",
+    "limited": 1,
+    "xws": "c3po-crew-swz19",
+    "sides": [
+      {
+        "title": "C-3PO",
+        "type": "Crew",
+        "ability": "While you coordinate, you can choose friendly ships beyond range 2 if they have [Calculate] on their action bar. After you perform the [Calculate] or [Coordinate] action, gain 1 calculate token.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/59/61/5961c0a7-3b16-424a-9b0c-6151b44fc7cd/swz19_a2_tfa-3p0.png",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "White" },
+            "amount": 1
+          },
+          {
+            "type": "action",
+            "value": { "type": "Coordinate", "difficulty": "Red" },
+            "amount": 1
+          }
+        ]
+      }
+    ],
+    "restrictions": [{ "factions": ["Resistance"] }]
+  },
+  {
+    "name": "Han Solo",
+    "limited": 1,
+    "xws": "hansolo-crew-swz19",
+    "sides": [
+      {
+        "title": "Han Solo",
+        "type": "Crew",
+        "ability": "After you perform an [Evade] action, gain additional evade tokens equal to the number of enemy ships at range 0-1.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/5d/64/5d64e6da-db3c-414e-a10f-c9bf577e5de1/swz19_a2_old-han.png",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Evade", "difficulty": "Red" },
+            "amount": 1
+          }
+        ]
+      }
+    ],
+    "restrictions": [{ "factions": ["Resistance"] }]
+  },
+  {
+    "name": "Chewbacca",
+    "limited": 1,
+    "xws": "chewbacca-crew-swz19",
+    "sides": [
+      {
+        "title": "Chewbacca",
+        "type": "Crew",
+        "ability": "Setup: Lose 1 [Charge]. After a friendly ship at range 0-3 is dealt 1 damage card, recover 1 [Charge]. While you perform an attack, you may spend 2 [Charge] to change 1 [Focus] result to a [Crit] result.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/d7/bc/d7bcf1f0-48e5-4566-8e6d-5be670c04858/swz19_a2_tfa-chewie.png",
+        "slots": ["Crew"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "restrictions": [{ "factions": ["Resistance"] }]
+  },
+  {
+    "name": "Rose Tico",
+    "limited": 1,
+    "xws": "rosetico",
+    "sides": [
+      {
+        "title": "Rose Tico",
+        "type": "Crew",
+        "ability": "While you defend or perform a primary attack, you may spend 1 of your results to acquire a lock on the enemy ship.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/17/20/1720a677-330a-4165-b7a8-1594d62f72c6/swz19_a2_rose-tico.png",
+        "slots": ["Crew"]
+      }
+    ],
+    "restrictions": [{ "factions": [ "Resistance"] }]
   }
 ]
