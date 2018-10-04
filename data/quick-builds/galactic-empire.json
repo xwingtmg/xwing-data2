@@ -196,6 +196,84 @@
           "id": "academypilot"
         }
       ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "darthvader",
+          "upgrades": {
+            "force-power": ["supernaturalreflexes"],
+            "missile": ["clustermissiles"],
+            "system": ["firecontrolsystem"],
+            "modification": ["afterburners", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "darthvader",
+          "upgrades": {
+            "talent": ["ruthless"],
+            "missile": ["clustermissiles"],
+            "system": ["firecontrolsystem"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "stormsquadronace",
+          "upgrades": {
+            "system": ["firecontrolsystem"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "vedfoslo",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "missile": ["clustermissiles"],
+            "system": ["firecontrolsystem"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "zertikstrom",
+          "upgrades": {
+            "talent": ["squadleader"],
+            "missile": ["clustermissiles"],
+            "system": ["firecontrolsystem"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "tempestsquadronpilot",
+          "upgrades": {
+            "missile": ["clustermissiles"]
+          }
+        }
+      ]
     }
   ]
 }
