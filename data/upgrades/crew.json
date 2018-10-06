@@ -14,7 +14,8 @@
         "ffg": 307
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }]
   },
   {
     "name": "\"Zeb\" Orrelios",
