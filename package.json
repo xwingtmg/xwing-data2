@@ -4,6 +4,7 @@
   "repository": "git@github.com:guidokessels/xwing-data2.git",
   "author": "Guido Kessels <mail@guidokessels.com>",
   "license": "MIT",
+  "main": "./data/index.js",
   "scripts": {
     "format": "prettier --print-width 80 --write 'data/**/*.json'",
     "changelog": "git log --pretty=format:'- %s (%h)' --no-merges",

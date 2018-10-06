@@ -1,0 +1,16 @@
+module.exports = [
+  require('./alpha-class-star-wing.json'),
+  require('./lambda-class-t-4a-shuttle.json'),
+  require('./tie-advanced-v1.json'),
+  require('./tie-advanced-x1.json'),
+  require('./tie-ag-aggressor.json'),
+  require('./tie-ca-punisher.json'),
+  require('./tie-d-defender.json'),
+  require('./tie-interceptor.json'),
+  require('./tie-ln-fighter.json'),
+  require('./tie-ph-phantom.json'),
+  require('./tie-reaper.json'),
+  require('./tie-sa-bomber.json'),
+  require('./tie-sk-striker.json'),
+  require('./vt-49-decimator.json'),
+];
