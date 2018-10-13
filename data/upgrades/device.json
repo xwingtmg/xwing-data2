@@ -10,6 +10,11 @@
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] templete. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
         "slots": ["Device", "Device"],
         "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Bomblet",
+          "type": "Bomb",
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-1 rolls 2 attack dice. Each ship suffers 1 [Hit] damage for each [Hit]/[Critical Hit] result."
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_63.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_63.jpg",
         "ffg": 392
@@ -28,6 +33,11 @@
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": ["Device"],
         "charges": { "value": 1, "recovers": 0 },
+        "device": {
+          "name": "Conner Net",
+          "type": "Mine",
+          "effect": "After a ship overlaps or moves through this device, it detonates. When this device detonates, the ship suffers 1 [Hit] damage and gains 3 ion tokens."
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_64.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_64.jpg",
         "ffg": 393
@@ -47,6 +57,11 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_65.png",
         "slots": ["Device"],
         "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Proton Bomb",
+          "type": "Bomb",
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-1 suffers 1 [Critical Hit] damage."
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_65.jpg",
         "ffg": 394
       }
@@ -64,6 +79,11 @@
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": ["Device"],
         "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Proximity Mine",
+          "type": "Mine",
+          "effect": "After a ship overlaps or moves through this device, it detonates. When this device detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit]/[Critical Hit] damage for each matching result."
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_66.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_66.jpg",
         "ffg": 395
@@ -83,6 +103,11 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_67.png",
         "slots": ["Device"],
         "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Seismic Charge",
+          "type": "Bomb",
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, choose 1 obstacle at range 0-1. Each ship at range 0-1 of the obstacle suffers 1 [Hit] damage. Then remove that obstacle."
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_67.jpg",
         "ffg": 396
       }
