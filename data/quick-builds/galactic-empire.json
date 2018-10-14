@@ -274,6 +274,112 @@
           }
         }
       ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "coloneljendon",
+          "upgrades": {
+            "title": ["st321"],
+            "cannon": ["ioncannon"],
+            "system": ["collisiondetector"],
+            "crew": ["darthvader", "freelanceslicer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "captainkagi",
+          "upgrades": {
+            "cannon": ["tractorbeam"],
+            "system": ["collisiondetector"],
+            "crew": ["emperorpalpatine"],
+            "modificication": ["shieldupgrade", "staticdischargevanes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "lieutenantsai",
+          "upgrades": {
+            "cannon": ["jammingbeam"],
+            "system": ["advancedsensors"],
+            "crew": ["cienaree", "gnkgonkdroid"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "omicrongrouppilot",
+          "upgrades": {
+            "cannon": ["jammingbeam"],
+            "crew": ["admiralsloane"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "lieutenantkestal",
+          "upgrades": {
+            "talent": ["elusive"],
+            "missile": ["barragerockets"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "onyxsquadronscout",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "missile": ["protonrockets"],
+            "turret": ["dorsalturret"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "doubleedge",
+          "upgrades": {
+            "turret": ["ioncannonturret"],
+            "missile": ["concussionmissiles"],
+            "gunner": ["hotshotgunner"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sienarspecialist",
+          "upgrades": {
+            "turret": ["ioncannonturret"],
+            "missile": ["homingmissiles"],
+            "missile": ["veteranturretgunner"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
     }
   ]
 }
