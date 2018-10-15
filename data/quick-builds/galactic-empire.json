@@ -651,6 +651,302 @@
           }
         }
       ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "grandinquisitor",
+          "upgrades": {
+            "force-power": ["supernaturalreflexes"],
+            "missile": ["concussionmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "inquisitor",
+          "upgrades": {
+            "force-power": ["instinctiveaim"],
+            "missile": ["clustermissiles"],
+            "modification": ["munitionsfailsafe"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "seventhsister",
+          "upgrades": {
+            "missile": ["homingmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "baronoftheempire",
+          "upgrades": {
+            "missile": ["protonrockets"],
+            "talent": ["crackshot"],
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "soontirfel",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "modification": ["afterburners", "stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "alphasquadronpilot",
+          "upgrades": {
+            "modification": ["ablativeplating"]
+          }
+        },
+        {
+          "id": "alphasquadronpilot",
+          "upgrades": {
+            "modification": ["ablativeplating"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "turrphennir",
+          "upgrades": {
+            "talent": ["daredevil"],
+            "modification": ["electronicbaffle"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sabersquadronpilot",
+          "upgrades": {
+            "talent": ["predator"],
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "lieutenantkarsabi",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "cannon": ["heavylasercannon"],
+            "configuration": ["xg1assaultconfiguration"],
+            "modification": ["advancedslam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "nusquadronpilot",
+          "upgrades": {
+            "torpedo": ["protontorpedoes"],
+            "system": ["firecontrolsystem"],
+            "configuration": ["os1arsenalloadout"],
+            "modification": ["advancedslam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "majorvynder",
+          "upgrades": {
+            "missile": ["barragerockets"],
+            "talent": ["saturationsalvo"],
+            "configuration": ["os1arsenalloadout"],
+            "modification": ["advancedslam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "rhosquadronpilot",
+          "upgrades": {
+            "missile": ["homingmissiles"],
+            "system": ["firecontrolsystem"],
+            "cannon": ["ioncannon"],
+            "configuration": ["xg1assaultconfiguration"],
+            "modification": ["advancedslam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "deathrain",
+          "upgrades": {
+            "missile": ["homingmissiles"],
+            "system": ["trajectorysimulator"],
+            "configuration": ["bombletgenerator"],
+            "modification": ["ablativeplating"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "cutlasssquadronpilot",
+          "upgrades": {
+            "missile": ["ionmissiles"],
+            "system": ["trajectorysimulator"],
+            "gunner": ["skilledbombadier"],
+            "device": ["protonbombs"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "redline",
+          "upgrades": {
+            "missile": ["clustermissiles"],
+            "talent": ["debrisgambit"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "cutlasssquadronpilot",
+          "upgrades": {
+            "missile": ["protonrockets"],
+            "system": ["advancedsensors"],
+            "device": ["connernets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "captainoicunn",
+          "upgrades": {
+            "talent": ["intimidation"],
+            "crew": ["grandmofftarkin"],
+            "title": ["dauntless"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "rearadmiralchiraneau",
+          "upgrades": {
+            "talent": ["swarmtactics"],
+            "crew": ["ministertua", "tacticalofficer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "patrolleader",
+          "upgrades": {
+            "gunner": ["fifthbrother"],
+            "crew": ["informant", "seventhsister"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "vizier",
+          "upgrades": {
+            "crew": ["directorkrennic"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "scarifbasepilot",
+          "upgrades": {
+            "modification": ["shieldupgrade"],
+            "crew": ["deathtroopers"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "vizier",
+          "upgrades": {
+            "talent": ["swarmtactics"],
+            "crew": ["tacticalofficer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "vizier",
+          "upgrades": {
+            "talent": ["swarmtactics"],
+            "crew": ["isbslicer"]
+          }
+        }
+      ]
     }
   ]
 }
