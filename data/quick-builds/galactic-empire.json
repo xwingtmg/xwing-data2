@@ -375,8 +375,194 @@
           "upgrades": {
             "turret": ["ioncannonturret"],
             "missile": ["homingmissiles"],
-            "missile": ["veteranturretgunner"],
+            "gunner": ["veteranturretgunner"],
             "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "whisper",
+          "upgrades": {
+            "talent": ["juke"],
+            "system": ["advancedsensors"],
+            "crew": ["agentkallus"],
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sigmasquadronace",
+          "upgrades": {
+            "talent": ["predator"],
+            "system": ["advancedsensors"],
+            "crew": ["grandinquisitor"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "echo",
+          "upgrades": {
+            "talent": ["lonewolf"],
+            "system": ["collisiondetector"],
+            "crew": ["perceptivecopilot"],
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "imdaartestpilot",
+          "upgrades": {
+            "crew": ["moffjerjerrod"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "duchess",
+          "upgrades": {
+            "talent": ["trickshot"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "blacksquadronscout",
+          "upgrades": {
+            "gunner": ["skilledbombardier"],
+            "device": ["proximitymines"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "countdown",
+          "upgrades": {
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "puresabacc",
+          "upgrades": {
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "planetarysentinel",
+          "upgrades": {
+            "device": ["connernets"]
+          }
+        },
+        {
+          "id": "planetarysentinel",
+          "upgrades": {
+            "device": ["connernets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "countessryad",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "onyxsquadronace"
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "rexlerbrath",
+          "upgrades": {
+            "talent": ["juke"],
+            "system": ["collisiondetector"],
+            "missile": ["clustermissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "deltasquadronpilot",
+          "upgrades": {
+            "cannon": ["ioncannon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "colonelvessery",
+          "upgrades": {
+            "talent": ["juke"],
+            "system": ["firecontrolsystem"],
+            "missile": ["clustermissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "onyxsquadronace",
+          "upgrades": {
+            "talent": ["elusive"],
+            "system": ["advancedsensors"],
+            "missile": ["protonrockets"]
           }
         }
       ]
