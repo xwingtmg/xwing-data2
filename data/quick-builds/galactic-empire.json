@@ -566,6 +566,91 @@
           }
         }
       ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "tomaxbren",
+          "upgrades": {
+            "talent": ["crack shot"],
+            "torpedo": ["protontorpedoes"],
+            "device": ["protonbombs"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "deathfire",
+          "upgrades": {
+            "missile": ["clustermissiles"],
+            "gunner": ["skilledbombardier"],
+            "device": ["seismiccharges", "proximitymines"],
+            "modification": ["electronicbaffle"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "majorrhymer",
+          "upgrades": {
+            "missile": ["clustermissiles"],
+            "talent": ["intimidation"],
+            "torpedo": ["advancedprotontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "scimitarsquadronpilot",
+          "upgrades": {
+            "missile": ["ionmissiles"],
+            "device": ["protonbombs"]
+          }
+        },
+        {
+          "id": "scimitarsquadronpilot",
+          "upgrades": {
+            "missile": ["ionmissiles"],
+            "device": ["protonbombs"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "captainjonus",
+          "upgrades": {
+            "torpedo": ["protontorpedoes"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "gammasquadronace",
+          "upgrades": {
+            "missile": ["concussionmissiles"],
+            "gunner": ["skilledbombardier"],
+            "device": ["bombletgenerator"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
     }
   ]
 }
