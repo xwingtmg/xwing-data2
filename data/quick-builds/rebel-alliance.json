@@ -108,6 +108,124 @@
       ]
     },
     {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "norrawexley",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "turret": ["ioncannonturret"],
+            "astromech": ["r3astromech"],
+            "gunner": ["veteranturretgunner"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "evaanverlaine",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "turret": ["ioncannonturret"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "goldsquadronveteran",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["r3astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "hortonsalm",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "turret": ["ioncannonturret"],
+            "astromech": ["r5astromech"],
+            "gunner": ["veteranturretgunner"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "dutchvander",
+          "upgrades": {
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["r3astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "graysquadronbomber",
+          "upgrades": {
+            "turret": ["ioncannonturret"],
+            "device": ["protonbomb"],
+            "astromech": ["r5astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "esegetuketu",
+          "upgrades": {
+            "system": ["trajectorysimulator"],
+            "missile": ["ionmissiles"],
+            "device": ["connernets"],
+            "device": ["protonbomb"],
+            "modification": ["advancedslam"],
+            "crew": ["perceptivecopilot"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "mirandadoni",
+          "upgrades": {
+            "device": ["protonbomb"],
+            "modification": ["advancedslam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "wardensquadronpilot",
+          "upgrades": {
+            "missile": ["barragerockets"],
+            "device": ["bombletgenerator"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 2,
       "pilots": [
         {
