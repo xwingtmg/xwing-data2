@@ -1,6 +1,113 @@
 {
   "quick-builds": [
     {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "lukeskywalker",
+          "upgrades": {
+            "force-power": ["instinctiveaim"],
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["r2d2"],
+            "configuration": ["servomotorsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "redsquadronveteran",
+          "upgrades": {
+            "talent": ["predator"],
+            "astromech": ["r5astromech"],
+            "configuration": ["servomotorsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "jekporkins",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "modification": ["afterburners", "hullupgrade"],
+            "astromech": ["r5p8"],
+            "configuration": ["servomotorsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bluesquadronescort",
+          "upgrades": {
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["r3astromech"],
+            "configuration": ["servomotorsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "wegeantilles",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "torpedo": ["protontorpedoes"],
+            "modification": ["shieldupgrade"],
+            "astromech": ["r4astromech"],
+            "configuration": ["servomotorsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "biggsdarklighter",
+          "upgrades": {
+            "talent": ["selfless"],
+            "configuration": ["servomotorsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "thanekyrell",
+          "upgrades": {
+            "talent": ["elusive"],
+            "torpedo": ["iontorpedoes"],
+            "modification": ["afterburners", "hullupgrade"],
+            "astromech": ["r2astromech"],
+            "configuration": ["servomotorsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "garvendreis",
+          "upgrades": {
+            "configuration": ["servomotorsfoils"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 2,
       "pilots": [
         {
