@@ -1,6 +1,83 @@
 {
   "quick-builds": [
     {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "hansolo",
+          "upgrades": {
+            "talent": ["elusive"],
+            "crew": ["chewbacca"],
+            "gunner": ["agilegunner"],
+            "illicit": ["riggedcargochute"],
+            "modification": ["tacticalscrambler"],
+            "title": ["landosmillenniumfalcon"]
+          }
+        },
+        {
+          "id": "outerrimpioneer",
+          "upgrades": {
+            "crew": ["tobiasbeckett"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "landocalrissian",
+          "upgrades": {
+            "crew": ["hansolo"],
+            "crew": ["qira"],
+            "title": ["landosmillenniumfalcon"]
+          }
+        },
+        {
+          "id": "l337-escapecraft"
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "l337",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "crew": ["hansolo"],
+            "crew": ["qira"],
+            "modification": ["hullupgrade"],
+            "title": ["landosmillenniumfalcon"]
+          }
+        },
+        {
+          "id": "landocalrissian-escapecraft",
+          "upgrades": {
+            "talent": ["elusive"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "freightercaptain",
+          "upgrades": {
+            "title": ["landosmillenniumfalcon"]
+          }
+        },
+        {
+          "id": "autopilotdrone",
+          "upgrades": {
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 4,
       "pilots": [
         {
