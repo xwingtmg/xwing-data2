@@ -273,6 +273,92 @@
           }
         }
       ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "norrawexley",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "crew": ["seasonednavigator"],
+            "gunner": ["veterantailgunner"],
+            "astromech": ["r3astromech"],
+            "modification": ["ablativeplating", "hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "garvendreis",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "torpedo": ["protontorpedoes"],
+            "crew": ["perceptivecopilot"],
+            "gunner": ["veterantailgunner"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "sharabey",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "torpedo": ["protontorpedoes"],
+            "crew": ["perceptivecopilot"],
+            "astromech": ["r3astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ibtisam",
+          "upgrades": {
+            "talent": ["elusive"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "wullffwarro",
+          "upgrades": {
+            "talent": ["selfless"],
+            "crew": ["gnkgonkdroid", "novicetechnician"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "lowhhrick"
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "kashyyykdefender",
+          "upgrades": {
+            "crew": ["novicetechnician"]
+          }
+        }
+      ]
     }
   ]
 }
