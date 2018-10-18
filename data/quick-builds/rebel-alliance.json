@@ -359,6 +359,110 @@
           }
         }
       ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "corranhorn",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "torpedo": ["protontorpedoes"],
+            "system": ["firecontrolsystem"],
+            "modification": ["afterburners"],
+            "astromech": ["r2astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "roguesquadronescort",
+          "upgrades": {
+            "talent": ["predator"],
+            "torpedo": ["protontorpedoes"],
+            "system": ["collisiondetector"],
+            "astromech": ["r3astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "gavindarklighter",
+          "upgrades": {
+            "talent": ["crackshot"],
+            "torpedo": ["iontorpedoes"],
+            "system": ["firecontrolsystem"],
+            "astromech": ["r4astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "knavesquadronescort"
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "janors",
+          "upgrades": {
+            "talent": ["trickshot"],
+            "crew": ["perceptivecopilot"],
+            "device": ["seismiccharges"],
+            "illicit": ["cloakingdevice"],
+            "modification": ["engineupgrade"],
+            "title": ["moldycrow"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "roarkgarnet",
+          "upgrades": {
+            "talent": ["elusive"],
+            "device": ["seismiccharges"],
+            "modification": ["hullupgrade", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "kylekatarn",
+          "upgrades": {
+            "title": ["moldycrow"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "rebelscout",
+          "upgrades": {
+            "crew": ["sabinewren"],
+            "device": ["seismiccharges", "protonbombs"],
+            "modification": ["engineupgrade"]
+          }
+        }
+      ]
     }
   ]
 }
