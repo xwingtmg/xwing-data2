@@ -547,6 +547,163 @@
           }
         }
       ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "captainrex",
+          "upgrades": {
+            "talent": ["elusive", "juke"],
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sabinewren-tielnfighter",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "device": ["connernets"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "zeborrelios-tielnfighter"
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ezrabridger-tielnfighter",
+          "upgrades": {
+            "force-power": ["supernaturalreflexes"],
+            "crew": ["zeborrelios"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "cassianandor",
+          "upgrades": {
+            "system": ["firecontrolsystem"],
+            "crew": ["jynerso", "bazemalbus"],
+            "configuration": ["pivotwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bodhirook",
+          "upgrades": {
+            "crew": ["cassianandor"],
+            "configuration": ["pivotwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "hefftobber",
+          "upgrades": {
+            "system": ["firecontrolsystem"],
+            "crew": ["perceptivecopilot"],
+            "gunner": ["bistan"],
+            "turret": ["ioncannonturret"],
+            "configuration": ["pivotwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bluesquadronscout",
+          "upgrades": {
+            "system": ["advancedsensors"],
+            "crew": ["tacticalofficer"],
+            "configuration": ["pivotwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "hansolo-modifiedyt1300lightfreighter",
+          "upgrades": {
+            "talent": ["lonewolf"],
+            "crew": ["chewbacca"],
+            "title": ["milleniumfalcon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 6,
+      "pilots": [
+        {
+          "id": "chewbacca",
+          "upgrades": {
+            "talent": ["predator"],
+            "crew": ["leiaorgana", "c3po-crew", "r2d2-crew"],
+            "gunner": ["hansolo", "lukeskywalker"],
+            "modification": ["engineupgrade"],
+            "title": ["milleniumfalcon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "landocalrissian-modifiedyt1300lightfreighter",
+          "upgrades": {
+            "talent": ["swarmtactics"],
+            "missile": ["concussionmissiles"],
+            "crew": ["niennunb"],
+            "modification": ["engineupgrade"],
+            "title": ["milleniumfalcon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "outerrimsmuggler",
+          "upgrades": {
+            "missile": ["hoingmissiles"],
+            "crew": ["novicetechnician"],
+            "gunner": ["veteranturretgunner"],
+            "modification": ["staticdischargevanes"],
+            "illicit": ["feedbackarray"]
+          }
+        }
+      ]
     }
   ]
 }
