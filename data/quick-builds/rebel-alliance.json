@@ -100,7 +100,7 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "garvendreis",
+          "id": "garvendreis-t65xwing",
           "upgrades": {
             "configuration": ["servomotorsfoils"]
           }
@@ -111,7 +111,7 @@
       "threat": 3,
       "pilots": [
         {
-          "id": "norrawexley",
+          "id": "norrawexley-btla4ywing",
           "upgrades": {
             "talent": ["experthandling"],
             "turret": ["ioncannonturret"],
@@ -460,6 +460,90 @@
             "crew": ["sabinewren"],
             "device": ["seismiccharges", "protonbombs"],
             "modification": ["engineupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "arvelcrynyd",
+          "upgrades": {
+            "missile": ["protonrockets"],
+            "talent": ["intimidation"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "greensquadronpilot",
+          "upgrades": {
+            "missile": ["concussionmissiles"],
+            "talent": ["daredevil"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "jakefarrell",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "missile": ["clustermissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "phoenixsquadronpilot",
+          "upgrades": {
+            "missile": ["protonrockets"]
+          }
+        },
+        {
+          "id": "phoenixsquadronpilot",
+          "upgrades": {
+            "missile": ["protonrockets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "fennrau-sheathipedeclassshuttle",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "crew": ["seasonednavigator"],
+            "astromech": ["r4astromech"],
+            "title": ["phantom"],
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ezrabridger-sheathipedeclassshuttle",
+          "upgrades": {
+            "force-power": ["heightenedperception"],
+            "astromech": ["chopper"],
+            "title": ["phantom"],
+            "modification": ["afterburners"]
           }
         }
       ]
