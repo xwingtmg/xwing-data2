@@ -152,6 +152,19 @@
           }
         }
       ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "skullsquadronpilot",
+          "upgrades": {
+            "talent": ["marksmanship"],
+            "torpedo": ["advancedprotontorpedoes"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
     }
   ]
 }

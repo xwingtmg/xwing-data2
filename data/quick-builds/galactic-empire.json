@@ -48,6 +48,18 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "idenversio",
+          "upgrades": {
+            "talent": ["lonewolf"],
+            "modification": ["protontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "nightbeast",
           "upgrades": {
             "talent": ["predator"],
