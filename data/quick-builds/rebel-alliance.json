@@ -704,6 +704,308 @@
           }
         }
       ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "talasquadronpilot",
+          "upgrades": {
+            "talent": ["selfless"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "airencracken",
+          "upgrades": {
+            "missile": ["homingmissiles"],
+            "talent": ["swarmtactics"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "banditsquadronpilot"
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "lieutenantblount",
+          "upgrades": {
+            "missile": ["protonrockets"],
+            "talent": ["outmaneuver"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "herasyndulla",
+          "upgrades": {
+            "talent": ["elusive"],
+            "turret": ["ioncannonturret"],
+            "title": ["phantom"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sabinewren",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "turret": ["dorsalturret"],
+            "title": ["phantom"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "dashrendar",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "talent": ["trickshot"],
+            "illicit": ["riggedcargochute"],
+            "crew": ["perceptivecopilot"],
+            "title": ["outrider"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "leebo",
+          "upgrades": {
+            "illicit": ["inertialdampeners"],
+            "title": ["outrider"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "wildspacefringer",
+          "upgrades": {
+            "missile": ["concussionmissiles"],
+            "gunner": ["veteranturretgunner"],
+            "illicit": ["contrabandcybernetics"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "magvayarro",
+          "upgrades": {
+            "talent": ["elusive"],
+            "system": ["advancedsensors"],
+            "crew": ["sawgerrera"],
+            "modification": ["shieldupgrade"],
+            "configuration": ["pivotwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sawgerrera",
+          "upgrades": {
+            "crew": ["magvayarro"],
+            "configuration": ["pivotwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "benthictwotubes",
+          "upgrades": {
+            "system": ["advancedsensors"],
+            "configuration": ["pivotwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "partisanrenegade",
+          "upgrades": {
+            "illicit": ["deadmansswitch"],
+            "configuration": ["pivotwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "kullbeesperado",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "astromech": ["r2astromech"],
+            "illicit": ["deadmansswitch"],
+            "modification": ["afterburners", "hullupgrade"],
+            "configuration": ["servomotorsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "edriotwotubes",
+          "upgrades": {
+            "talent": ["trickshot"],
+            "astromech": ["r4astromech"],
+            "illicit": ["deadmansswitch"],
+            "configuration": ["servomotorsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "leevantenza",
+          "upgrades": {
+            "talent": ["elusive"],
+            "astromech": ["r2astromech"],
+            "illicit": ["deadmansswitch"],
+            "modification": ["afterburners", "hullupgrade"],
+            "configuration": ["servomotorsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "cavernangelszealot",
+          "upgrades": {
+            "astromech": ["r2astromech"],
+            "illicit": ["deadmansswitch"],
+            "configuration": ["servomotorsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 6,
+      "pilots": [
+        {
+          "id": "kananjarrus",
+          "upgrades": {
+            "crew": ["chopper-crew"],
+            "crew": ["herasyndulla"],
+            "gunner": ["ezrabridger"],
+            "turret": ["ioncannonturret"],
+            "title": ["ghost"]
+          }
+        },
+        {
+          "id": "zeborrelios",
+          "upgrades": {
+            "title": ["phantom"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 6,
+      "pilots": [
+        {
+          "id": "herasyndulla-vcx100lightfreighter",
+          "upgrades": {
+            "talent": ["elusive"],
+            "crew": ["kananjarrus"],
+            "turret": ["dorsalturret"],
+            "title": ["ghost"]
+          }
+        },
+        {
+          "id": "ezrabridger",
+          "upgrades": {
+            "force-power": ["supernaturalreflexes"],
+            "turret": ["dorsalturret"],
+            "title": ["phantom"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 6,
+      "pilots": [
+        {
+          "id": "chopper",
+          "upgrades": {
+            "crew": ["zeborrelios"],
+            "turret": ["ioncannonturret"],
+            "title": ["ghost"]
+          }
+        },
+        {
+          "id": "ap5",
+          "upgrades": {
+            "astromech": ["r4astromech"],
+            "title": ["phantom"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 6,
+      "pilots": [
+        {
+          "id": "lothalrebel",
+          "upgrades": {
+            "crew": ["landocalrissian"],
+            "turret": ["dorsalturret"],
+            "title": ["ghost"]
+          }
+        },
+        {
+          "id": "zeborrelios-sheathipedeclassshuttle",
+          "upgrades": {
+            "astromech": ["r5astromech"],
+            "title": ["phantom"]
+          }
+        }
+      ]
     }
   ]
 }
