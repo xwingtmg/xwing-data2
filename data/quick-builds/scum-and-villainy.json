@@ -436,6 +436,186 @@
           }
         }
       ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "kavil",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "turret": ["dorsalturret"],
+            "astromech": ["genius"],
+            "device": ["protonbombs"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "hiredgun",
+          "upgrades": {
+            "talent": ["crackshot"],
+            "turret": ["ioncannonturret"],
+            "astromech": ["r3astromech"],
+            "device": ["connernets"],
+            "gunner": ["veteranturretgunner"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "drearenthal",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "turret": ["ioncannonturret"],
+            "gunner": ["hotshotgunner"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "crymorrahgoon",
+          "upgrades": {
+            "torpedo": ["iontorpedoes"],
+            "turret": ["dorsalturret"],
+            "astromech": ["r3astromech"],
+            "illicit": ["inertialdampeners"],
+            "device": ["proximitymines"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "dacebonearm",
+          "upgrades": {
+            "modification": ["staticdischargevanes"],
+            "illicit": ["feedbackarray"],
+            "device": ["connernets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "palobgodalhi",
+          "upgrades": {
+            "talent": ["juke", "debrisgambit"],
+            "modification": ["stealthdevice"],
+            "illicit": ["contrabandcybernetics"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "torkilmux",
+          "upgrades": {
+            "illicit": ["cloakingdevice"],
+            "device": ["proximitymines"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "spicerunner",
+          "upgrades": {
+            "modification": ["electronicbaffle"],
+            "illicit": ["deadmansswitch"],
+            "device": ["protonbombs"]
+          }
+        },
+        {
+          "id": "spicerunner",
+          "upgrades": {
+            "modification": ["electronicbaffle"],
+            "illicit": ["deadmansswitch"],
+            "device": ["protonbombs"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "constablezuvio",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "illicit": ["riggedcargochute"],
+            "modification": ["shieldupgrade"],
+            "device": ["connernets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "jakkugunrunner",
+          "upgrades": {
+            "modification": ["electronicbaffle"],
+            "crew": ["novicetechnician"],
+            "device": ["proximitymines"]
+          }
+        },
+        {
+          "id": "jakkugunrunner",
+          "upgrades": {
+            "modification": ["electronicbaffle"],
+            "crew": ["novicetechnician"],
+            "device": ["proximitymines"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "unkarplutt",
+          "upgrades": {
+            "crew": ["novicetechnician"],
+            "illicit": ["contrabandcybernetics"],
+            "modification": ["afterburners"],
+            "device": ["proximitymines"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "sarcoplank",
+          "upgrades": {
+            "crew": ["unkarplutt"],
+            "illicit": ["feedbackarray"],
+            "modification": ["shieldupgrade", "hullupgrade"],
+            "device": ["seismiccharges"]
+          }
+        }
+      ]
     }
   ]
 }
