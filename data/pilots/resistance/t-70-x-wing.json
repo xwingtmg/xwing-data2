@@ -34,11 +34,46 @@
   ],
   "pilots": [
     {
+      "name": "Blue Squadron Rookie",
+      "initiative": 1,
+      "limited": 0,
+      "xws": "bluesquadronrookie",
+      "text": "The Incom-FreiTek T-70 X-Wing was designed to improve upon the tactical flexibility of the venerable T-65. The starfighter's advanced droid socket is compatible with a wider array of astromechs, and its modular weapons pods allow ground crews to tailor its payload for specific missions.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/ec/05/ec050670-3a1c-4581-8829-fcc60c3cf8e6/swz25_blue-sqd_a1.png"
+    },
+    {
+      "name": "Red Squadron Expert",
+      "initiative": 3,
+      "limited": 0,
+      "xws": "redsquadronexpert",
+      "text": "Although the bulk of the Resistance Starfighter Corps is made up of young volunteers from the New Republic, their ranks are bolstered by veterans of the Galactic Civil War determined to finish what they started decades ago.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/dc/0c/dc0c0e5c-1679-401e-aeb7-cb28085c194e/swz25_red-sqd_a1.png"
+    },
+    {
+      "name": "Black Squadron Ace",
+      "initiative": 4,
+      "limited": 0,
+      "xws": "blacksquadronace",
+      "text": "During the Cold War, Poe Dameron's Black Squadron conducted covert operations against the First Order in defiance of treaties ratified by the New Republic Senate.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/d8/6e/d86ed567-822a-4c5f-b367-ed0a8e7c802d/swz25_black-sqd-ace_a1.png"
+    },
+    {
       "name": "Ello Asty",
       "caption": "???",
       "initiative": 0,
       "limited": 1,
-      "cost": 200,
       "xws": "elloasty",
       "ability": "???",
       "shipAbility": {
@@ -48,25 +83,25 @@
     },
     {
       "name": "Joph Seastriker",
-      "caption": "???",
-      "initiative": 0,
+      "caption": "Reckless Bodyguard",
+      "initiative": 3,
       "limited": 1,
-      "cost": 200,
       "xws": "jophseastriker",
-      "ability": "???",
+      "ability": "After you lose 1 shield, gain 1 evade token.",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
-      }
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/90/fc/90fc30fb-db99-46cb-8761-89b6536286eb/swz25_joph_a1.png"
     },
     {
-      "name": "Karé Kun",
-      "caption": "???",
-      "initiative": 0,
+      "name": "Kare Kun",
+      "caption": "Woman of Action",
+      "initiative": 4,
       "limited": 1,
-      "cost": 200,
-      "xws": "karkun",
-      "ability": "...you may use the [1[Turn Left]] ...mplate instead.",
+      "xws": "karekun",
+      "ability": "While you boost, you may use the [1[Turn Left]] or [1[Turn Right]] template instead.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/42/59/42597afe-f592-4bac-98ad-f70e876fb451/swz25_kare_a1.png",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
@@ -77,20 +112,19 @@
       "caption": "Optimistic Analyst",
       "initiative": 2,
       "limited": 1,
-      "cost": 200,
       "xws": "lieutenandbastian",
       "ability": "After a ship at range 1-2 is deat a damage card, you may acquire a lock on that ship.",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
-      }
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/5c/57/5c572491-e1c7-4618-bb2d-7de20511d82c/swz25_lt-bastian_a1.png"
     },
     {
       "name": "Nien Nunb",
       "caption": "???",
       "initiative": 0,
       "limited": 1,
-      "cost": 200,
       "xws": "niennunb",
       "ability": "???",
       "shipAbility": {
@@ -103,13 +137,26 @@
       "caption": "Trigger-Happy Flyboy",
       "initiative": 6,
       "limited": 1,
-      "cost": 200,
       "xws": "poedameron",
       "ability": "After you perform an action, you may spend 1 [Charge] to perform a white action, treating it as red.",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
-      }
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/ea/60/ea60fada-8e09-4d9e-9dee-c47492e65124/swz25_poe_a1.png"
+    },
+    {
+      "name": "Jaycris Tubbs",
+      "caption": "Loving Father",
+      "initiative": 1,
+      "limited": 1,
+      "xws": "jaycristubbs",
+      "ability": "After you fully execute a blue maneuver, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/0c/d5/0cd558ff-78ea-4c14-8c9a-0276e7daf716/swz25_jaycris_a1.png"
     }
   ]
 }
