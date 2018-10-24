@@ -154,6 +154,149 @@
       ]
     },
     {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "bobafett",
+          "upgrades": {
+            "talent": ["lonewolf"],
+            "crew": ["perceptivecopilot"],
+            "illicit": ["inertialdampeners"],
+            "device": ["seismiccharges"],
+            "title": ["slavei"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "kathscarlet",
+          "upgrades": {
+            "title": ["marauder"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "krassistrelix",
+          "upgrades": {
+            "missile": ["concussionmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "emonazzameen",
+          "upgrades": {
+            "talent": ["elusive"],
+            "crew": ["perceptivecopilot"],
+            "illicit": ["inertialdampeners"],
+            "device": ["seismiccharges"],
+            "device": ["proximitymines"],
+            "title": ["andrasta"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "koshkafrost",
+          "upgrades": {
+            "crew": ["perceptivecopilot"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "bountyhunter",
+          "upgrades": {
+            "crew": ["perceptivecopilot"],
+            "illicit": ["inertialdampeners"],
+            "device": ["seismiccharges"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "fennrau",
+          "upgrades": {
+            "talent": ["daredevil"],
+            "modification": ["afterburners", "hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "kadsolus",
+          "upgrades": {
+            "talent": ["fearless"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "zealousrecruit",
+          "upgrades": {
+            "torpedo": ["protontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "joyrekkof",
+          "upgrades": {
+            "talent": ["predator"],
+            "torpedo": ["iontorpedoes"],
+            "modification": ["afterburners", "hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "oldteroch"
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "skullsquadronpilot",
+          "upgrades": {
+            "talent": ["fearless"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 3,
       "pilots": [
         {
@@ -162,6 +305,134 @@
             "talent": ["marksmanship"],
             "torpedo": ["advancedprotontorpedoes"],
             "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "ketsuonyo",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "illicit": ["riggedcargochute"],
+            "modification": ["shieldupgrade"],
+            "title": ["shadowcaster"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "sabinewren",
+          "upgrades": {
+            "talent": ["fearless"],
+            "crew": ["ketsuonyo"],
+            "title": ["shadowcaster"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "asajjventress",
+          "upgrades": {
+            "force": ["sense"],
+            "gunner": ["veteranturretgunner"],
+            "illicit": ["inertialdampeners", "deadmansswitch"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "shadowporthunter",
+          "upgrades": {
+            "crew": ["maul"],
+            "illicit": ["contrabandcybernetics"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "talonbanecobra",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "missile": ["clustermissiles"],
+            "illicit": ["inertialdampeners"],
+            "modification": ["afterburners", "electronicbaffle", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "viktorhel",
+          "upgrades": {
+            "talent": ["crackshot"],
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "graz",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "missile": ["concussionmissiles"],
+            "illicit": ["contrabandcybernetics"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "blacksunace",
+          "upgrades": {
+            "talent": ["predator"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "captainjostero",
+          "upgrades": {
+            "missile": ["ionmissiles"],
+            "modification": ["munitionsfailsafe"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "cartelmarauder",
+          "upgrades": {
+            "missile": ["concussionmissiles"],
+            "modification": ["munitionsfailsafe", "hullupgrade"]
           }
         }
       ]
