@@ -43,7 +43,7 @@
       "xws": "asajjventress",
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your [Single Turret Arc] at range 0-2 and spend 1 [Force] token. If you do, that ship gains 1 stress token unless it removes 1 green token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_219.png",
-      "force": { "value": 2, "recovers": 1 },
+      "force": { "value": 2, "recovers": 1, "side": "dark" },
       "slots": [
         "Force Power",
         "Crew",

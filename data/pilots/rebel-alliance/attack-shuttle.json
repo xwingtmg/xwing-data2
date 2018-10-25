@@ -63,7 +63,7 @@
       "xws": "ezrabridger",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_36.png",
-      "force": { "value": 1, "recovers": 1 },
+      "force": { "value": 1, "recovers": 1, "side": "light" },
       "shipAbility": {
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
