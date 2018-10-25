@@ -1,0 +1,45 @@
+{
+  "quick-builds": [
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "poedameron",
+          "upgrades": {
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["bb8"],
+            "configuration": ["integratedsfoils"],
+            "modification": ["afterburners"],
+            "title": ["blackone"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "jessikapava",
+          "upgrades": {
+            "astromech": ["r5astromech"],
+            "configuration": ["integratedsfoils"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "blacksquadronace",
+          "upgrades": {
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["m9g8"],
+            "configuration": ["integratedsfoils"]
+          }
+        }
+      ]
+    }
+  ]
+}
