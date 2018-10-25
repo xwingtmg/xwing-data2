@@ -848,6 +848,231 @@
           }
         }
       ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ndrusuhlak",
+          "upgrades": {
+            "talent": ["lonewolf"],
+            "missile": ["homingmissiles"],
+            "modification": ["hullupgrade"],
+            "illicit": ["cloakingdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "blacksunsoldier",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "missile": ["concussionmissiles"],
+            "illicit": ["deadmansswitch"],
+            "modification": ["hullupgrade"]
+          }
+        },
+        {
+          "id": "blacksunsoldier",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "missile": ["concussionmissiles"],
+            "illicit": ["deadmansswitch"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "kaatoleeachos",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "missile": ["clustermissiles"],
+            "illicit": ["contrabandcybernetics"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "binayrepirate"
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "4lom",
+          "upgrades": {
+            "talent": ["elusive"],
+            "system": ["advancedsensors"],
+            "crew": ["000", "zuckuss"],
+            "gunner": ["bt1"],
+            "title": ["misthunter"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "zuckuss",
+          "upgrades": {
+            "talent": ["lonewolf"],
+            "crew": ["4lom"],
+            "cannon": ["tractorbeam"],
+            "title": ["misthunter"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "gandfindsman",
+          "upgrades": {
+            "system": ["firecontrolsystem"],
+            "crew": ["freelanceslicer"],
+            "illicit": ["deadmansswitch"],
+            "modification": ["electronicbaffle"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "toranikulda",
+          "upgrades": {
+            "talent": ["saturationsalvo"],
+            "torpedo": ["protontorpedoes"],
+            "missile": ["clustermissiles"],
+            "astromech": ["r4astromech"],
+            "illicit": ["inertialdampeners"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "dalanoberos",
+          "upgrades": {
+            "talent": ["experthandling"],
+            "astromech": ["r5tk"],
+            "illicit": ["inertialdampeners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "cartelexecutioner",
+          "upgrades": {
+            "talent": ["crackshot"],
+            "astromech": ["r5p8"],
+            "illicit": ["contrabandcybernetics"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "captainnym",
+          "upgrades": {
+            "talent": ["squadleader"],
+            "system": ["trajectorysimulator"],
+            "astromech": ["r4astromech"],
+            "device": ["bombletgenerator"],
+            "title": ["havoc"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "solsixxa",
+          "upgrades": {
+            "turret": ["ioncannonturret"],
+            "gunner": ["skilledbombadier"],
+            "device": ["connernets"],
+            "device": ["proximitymines"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "lokrevenant",
+          "upgrades": {
+            "turret": ["dorsalturret"],
+            "device": ["bombletgenerator"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 6,
+      "pilots": [
+        {
+          "id": "ig88a",
+          "upgrades": {
+            "system": ["advancedsensors"],
+            "title": ["ig2000"]
+          }
+        },
+        {
+          "id": "ig88d",
+          "upgrades": {
+            "system": ["advancedsensors"],
+            "title": ["ig2000"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 6,
+      "pilots": [
+        {
+          "id": "ig88b",
+          "upgrades": {
+            "system": ["firecontrolsystem"],
+            "cannon": ["ioncannon"],
+            "title": ["ig2000"]
+          }
+        },
+        {
+          "id": "ig88c",
+          "upgrades": {
+            "system": ["firecontrolsystem"],
+            "cannon": ["ioncannon"],
+            "title": ["ig2000"]
+          }
+        }
+      ]
     }
   ]
 }
