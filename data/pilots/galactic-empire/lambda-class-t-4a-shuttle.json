@@ -1,5 +1,7 @@
 {
   "name": "Lambda-class T-4a Shuttle",
+  "xws": "lambdaclasst4ashuttle",
+  "ffg": 26,
   "size": "Large",
   "dial": [
     "0OR",
@@ -66,7 +68,6 @@
       "xws": "lieutenantsai",
       "ability": "After you a perform a [Coordinate] action, if the ship you chose performed an action on your action bar, you may perform that action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_144.png",
-      "charges": { "value": 2, "recovers": 0 },
       "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_144.jpg",
       "ffg": 144

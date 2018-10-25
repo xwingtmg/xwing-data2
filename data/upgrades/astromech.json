@@ -179,5 +179,20 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }]
+  },
+  {
+    "name": "R2-HA",
+    "limited": 1,
+    "xws": "r2ha",
+    "sides": [
+      {
+        "title": "R2-HA",
+        "type": "Astromech",
+        "ability": "While you defend, you may spend your lock on the attacker to reroll any number of your defense dice.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/2b/17/2b17e1c2-ba4f-4456-aba3-7b66a7a2d803/swz19_a2_r2-ha.png",
+        "slots": ["Astromech"]
+      }
+    ],
+    "restrictions": [{ "factions": ["Resistance"] }]
   }
 ]

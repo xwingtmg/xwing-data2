@@ -99,6 +99,11 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_62.png",
         "slots": ["Illicit"],
         "charges": { "value": 1, "recovers": 0 },
+        "device": {
+          "name": "Loose Cargo",
+          "type": "Obstacle",
+          "effect": "Loose cargo is a debris cloud."
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_62.jpg",
         "ffg": 291
       }
