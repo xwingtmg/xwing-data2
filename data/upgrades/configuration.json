@@ -135,5 +135,82 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["alphaclassstarwing"] }]
+  },
+  {
+    "name": "Grappling Struts",
+    "limited": 0,
+    "xws": "grapplingstruts",
+    "sides": [
+      {
+        "title": "Grappling Struts (Open)",
+        "type": "Configuration",
+        "ability": "You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token. If you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.",
+        "slots": ["Configuration"]
+      },
+      {
+        "title": "Grappling Struts (Closed)",
+        "type": "Configuration",
+        "slots": ["Configuration"]
+      }
+    ],
+    "restrictions": [
+      { "action": { "type": "Calculate", "difficulty": "White" } },
+      { "factions": ["Separatist Alliance"] }
+    ]
+  },
+  {
+    "name": "Delta-7B",
+    "limited": 0,
+    "xws": "delta7b",
+    "sides": [
+      {
+        "title": "Delta-7B",
+        "type": "Configuration",
+        "slots": ["Configuration"],
+        "grants": [
+          {
+            "type": "stat",
+            "value": "agility",
+            "amount": -1
+          },
+          {
+            "type": "stat",
+            "value": "shield",
+            "amount": 2
+          },
+          {
+            "type": "stat",
+            "value": "attack",
+            "arc": "Front Arc",
+            "amount": 1
+          }
+        ]
+      }
+    ],
+    "restrictions": [{ "ships": ["delta7aethersprite"] }]
+  },
+  {
+    "name": "Calibrated Laser Targeting",
+    "limited": 0,
+    "xws": "calibratedlasertargeting",
+    "sides": [
+      {
+        "title": "Calibrated Laser Targeting",
+        "type": "Configuration",
+        "slots": [
+          "Configuration",
+          "Modification"
+        ],
+        "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], add 1 [Focus] result.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/4a/32/4a32d934-9d57-433c-8fb6-ce6c1cb52224/swz34_calibrated-laser-targeting.png"
+      }
+    ],
+    "restrictions": [
+      {
+        "ships": [
+          "delta7aethersprite"
+        ]
+      }
+    ]
   }
 ]

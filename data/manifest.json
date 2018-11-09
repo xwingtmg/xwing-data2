@@ -97,6 +97,22 @@
         "data/pilots/first-order/tie-fo-fighter.json",
         "data/pilots/first-order/upsilon-class-shuttle.json"
       ]
+    },
+    {
+      "faction": "separatistalliance",
+      "ships": [
+        "data/pilots/separatist-alliance/vulture-class-droid-fighter.json",
+        "data/pilots/separatist-alliance/belbullab-22-starfighter.json",
+        "data/pilots/separatist-alliance/sith-infiltrator.json"
+      ]
+    },
+    {
+      "faction": "galacticempire",
+      "ships": [
+        "data/pilots/galactic-republic/arc-170-starfighter.json",
+        "data/pilots/galactic-republic/delta-7-aethersprite.json",
+        "data/pilots/galactic-republic/v-19-torrent-starfighter.json"
+      ]
     }
   ],
   "upgrades": [
@@ -111,6 +127,7 @@
     "data/upgrades/missile.json",
     "data/upgrades/modification.json",
     "data/upgrades/sensor.json",
+    "data/upgrades/tactical-relay.json",
     "data/upgrades/talent.json",
     "data/upgrades/tech.json",
     "data/upgrades/title.json",

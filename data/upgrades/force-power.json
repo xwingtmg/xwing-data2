@@ -67,5 +67,21 @@
     ],
     "cost": { "value": 12 },
     "restrictions": [{ "sizes": ["Small"] }]
+  },
+  {
+    "name": "Brilliant Evasion",
+    "limited": 0,
+    "xws": "brilliantevasion",
+    "sides": [
+      {
+        "title": "Brilliant Evasion",
+        "type": "Force Power",
+        "ability": "While you defend, if you are not in the attacker's [Bullseye Arc], you may spend 1 [Force] to change 2 of your [Focus] results to [Evade] results.",
+        "slots": [
+          "Force Power"
+        ],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/d0/a4/d0a49094-b246-4345-9f65-846b070e9fc6/swz34_brilliant-evasion.png"
+      }
+    ]
   }
 ]

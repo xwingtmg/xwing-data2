@@ -1,0 +1,99 @@
+{
+    "name": "Delta-7 Aethersprite",
+    "xws": "delta7aethersprite",
+    "size": "Small",
+    "dial": [
+        "1TW",
+        "1BB",
+        "1NB",
+        "1YW",
+        "2LR",
+        "2TW",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YW",
+        "2PR",
+        "3BW",
+        "3FB",
+        "3NW",
+        "4FW",
+        "4KR",
+        "5FW",
+        "5KR"
+    ],
+    "faction": "Galactic Republic",
+    "stats": [
+        {
+            "arc": "Front Arc",
+            "type": "attack",
+            "value": 2
+        },
+        {
+            "type": "agility",
+            "value": 3
+        },
+        {
+            "type": "hull",
+            "value": 3
+        },
+        {
+            "type": "shields",
+            "value": 1
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "Purple",
+            "type": "Evade"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "White",
+            "type": "Barrel Roll"
+        },
+        {
+            "difficulty": "White",
+            "type": "Boost"
+        }
+    ],
+    "pilots": [
+        {
+            "name": "Jedi Knight",
+            "initiative": 3,
+            "limited": 0,
+            "xws": "jediknight",
+            "shipAbility": {
+                "name": "Unknown",
+                "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrell Roll] action."
+            }
+        },
+        {
+            "name": "Obi-Wan Kenobi",
+            "initiative": 5,
+            "limited": 1,
+            "xws": "obiwankenobi",
+            "shipAbility": {
+                "name": "Unknown",
+                "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrell Roll] action."
+            }
+        },
+        {
+            "name": "Anakin Skywalker",
+            "initiative": 6,
+            "limited": 1,
+            "xws": "anakinskywalker",
+            "shipAbility": {
+                "name": "Unknown",
+                "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrell Roll] action."
+            }
+        }
+    ]
+}
