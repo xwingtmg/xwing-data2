@@ -40,6 +40,30 @@
           }
         }
       ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "tallissanlintra",
+          "upgrades": {
+            "talent": ["predator"],
+            "tech": ["ferrospherepaint"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "zaribangel",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "missile": ["protonrockets"]
+          }
+        }
+      ]
     }
   ]
 }
