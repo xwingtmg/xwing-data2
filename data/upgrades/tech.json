@@ -11,7 +11,7 @@
         "slots": ["Tech"]
       }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 4 }
   },
   {
     "name": "Ferrosphere Paint",
@@ -26,7 +26,7 @@
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/3c/6c/3c6c1f9b-e419-4b99-9336-79b6d2fb5a6e/swz22_ferrosphere_paint.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
@@ -56,7 +56,7 @@
         "slots": ["Tech"]
       }
     ],
-    "cost": { "value": 0 },
+    "cost": { "value": 8 },
     "restrictions": [{ "sizes": ["Small"] }]
   },
   {
@@ -72,6 +72,6 @@
         "slots": ["Tech"]
       }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 5 }
   }
 ]
