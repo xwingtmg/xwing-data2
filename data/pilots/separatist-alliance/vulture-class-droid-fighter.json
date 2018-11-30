@@ -1,0 +1,54 @@
+{
+  "name": "Vulture-class Droid Fighter",
+  "xws": "vultureclassdroidfighter",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1YW",
+    "1KR",
+    "2ER",
+    "2TB",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YB",
+    "2RR",
+    "3TW",
+    "3BR",
+    "3FB",
+    "3NR",
+    "3YW",
+    "4FB",
+    "5FW"
+  ],
+  "faction": "Separatist Alliance",
+  "stats": [
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 3 }
+  ],
+  "actions": [
+    { "difficulty": "White", "type": "Calculate" },
+    { "difficulty": "White", "type": "Lock" },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Calculate"
+      }
+    }
+  ],
+  "pilots": [
+    {
+      "name": "Trade Federation Drone",
+      "initiative": 1,
+      "limited": 0,
+      "xws": "tradefederationdrone",
+      "shipAbility": {
+        "name": "Unknown",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      }
+    }
+  ]
+}

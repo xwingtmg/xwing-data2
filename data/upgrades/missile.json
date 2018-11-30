@@ -148,5 +148,30 @@
       }
     ],
     "cost": { "value": 7 }
+  },
+  {
+    "name": "Energy-Shell Charges",
+    "limited": 0,
+    "xws": "energyshellcharges",
+    "sides": [
+      {
+        "title": "Energy-Shell Charges",
+        "type": "Missile",
+        "ability": "Attack ([Calculate]): Spend 1 [Charge]. While you peform this attack, you may spend 1 calculate token to change 1 [Focus] result to a [Crit] result. Action: Reload this card.",
+        "charges": {"value": 1, "recovers": 0},
+        "attack": {
+          "arc": "Front Arc",
+          "value": 3,
+          "minrange": 2,
+          "maxrange": 3,
+          "ordnance": true
+        },
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/06/a7/06a78e45-d472-4ca7-8dcb-1e79c795ef0a/swz31_energy-shell-charges.png",
+        "slots": ["Missile"]
+      }
+    ],
+    "restrictions": [
+      {"type": ""}
+    ]
   }
 ]
