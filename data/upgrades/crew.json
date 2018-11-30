@@ -202,7 +202,7 @@
         "slots": ["Crew"]
       }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 0 },
     "restrictions": [{ "factions": ["First Order"] }]
   },
   {
@@ -642,8 +642,8 @@
         "type": "Crew",
         "ability": "Action: Choose 1 enemy ship at range 1-3. If you do, spend 1 [Force] to assign the I'll Show You the Dark Side condition to that ship.",
         "conditions": ["illshowyouthedarkside"],
-        "slots": ["Crew"]
-        "force": { "value": 1, "recovers": 1 },
+        "slots": ["Crew"],
+        "force": { "value": 1, "recovers": 1 }
       }
     ],
     "restrictions": [{ "factions": ["First Order"] }]
@@ -1022,10 +1022,10 @@
         "type": "Crew",
         "ability": "During the System Phase, you may choose any number of enemy ships beyond range 1. If you do, spend that many [Force] to flip each chosen ship's dial faceup.",
         "slots": ["Crew", "Crew"],
-        "force": { "value": 1, "recovers": 1 },
+        "force": { "value": 1, "recovers": 1 }
       }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 0 },
     "restrictions": [{ "factions": ["First Order"] }]
   },
   {
