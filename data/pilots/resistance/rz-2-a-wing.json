@@ -1,6 +1,6 @@
 {
   "name": "RZ-2 A-wing",
-  "name": "rz2awing",
+  "xws": "rz2awing",
   "size": "Small",
   "dial": [
     "1TW",
@@ -38,39 +38,112 @@
       "caption": "Luminous Mentor",
       "initiative": 5,
       "limited": 1,
-      "cost": 200,
+      "cost": 38,
       "xws": "lulolampar",
       "ability": "While you defend or perform a primary attack, if you are stressed, you must roll 1 fewer defense die or 1 additional attack die.",
       "shipAbility": {
         "name": "Refined Gyrostabilizers",
         "text": "You can rotate you [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
-      }
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/87/ef/87efde7e-148e-44e9-85ee-a1153de4b86b/swz22_lulo_lampar.png",
+      "slots": [
+        "Talent",
+        "Talent",
+        "Tech",
+        "Missile"
+      ]
     },
     {
       "name": "Tallissan Lintra",
       "caption": "Deadly Approach",
       "initiative": 5,
       "limited": 1,
-      "cost": 200,
+      "cost": 35,
       "xws": "tallissanlintra",
       "ability": "While an enemy ship in your [Bullseye Arc] performs an attack, you may spend 1 [Charge]. If you do, the defender rolls 1 additional die.",
       "shipAbility": {
         "name": "Refined Gyrostabilizers",
         "text": "You can rotate you [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
-      }
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/4c/5f/4c5ff4d0-0a0b-450c-b557-3baca4cabdb9/swz22_tallissan_lintra.png",
+      "slots": [
+        "Talent",
+        "Talent",
+        "Tech",
+        "Missile"
+      ]
     },
     {
       "name": "Zari Bangel",
-      "caption": "???",
+      "caption": "Aerial Exhibitionist",
       "initiative": 3,
       "limited": 1,
-      "cost": 200,
+      "cost": 35,
       "xws": "zaribangel",
       "ability": "You do not skip your Perform Action step after you partially execute a maneuver.",
       "shipAbility": {
         "name": "Refined Gyrostabilizers",
         "text": "You can rotate you [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
-      }
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/8f/63/8f630eba-1203-41f7-b4d1-688c6b8e7b53/swz22_zari_bangel.png",
+      "slots": [
+        "Talent",
+        "Talent",
+        "Tech",
+        "Missile"
+      ]
+    },
+    {
+      "name": "Greer Sonnel",
+      "caption": "Kothan Si",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 36,
+      "xws": "greersonnel",
+      "ability": "After you fully execute a maneuver, you may rotate your [Single Turret Arc].",
+      "shipAbility": {
+        "name": "Refined Gyrostabilizers",
+        "text": "You can rotate you [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/0e/a9/0ea93e07-5308-434d-b1ef-28b4cb8cc9d9/swz22_greer_sonnel.png",
+      "slots": [
+        "Talent",
+        "Talent",
+        "Tech",
+        "Missile"
+      ]
+    },
+    {
+      "name": "Green Squadron Expert",
+      "initiative": 0,
+      "limited": 0,
+      "cost": 34,
+      "xws": "greensquadronexpert",
+      "shipAbility": {
+        "name": "Refined Gyrostabilizers",
+        "text": "You can rotate you [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
+      },
+      "slots": [
+        "Talent",
+        "Talent",
+        "Tech",
+        "Missile"
+      ]
+    },
+    {
+      "name": "Blue Squadron Recruit",
+      "initiative": 0,
+      "limited": 0,
+      "cost": 32,
+      "xws": "bluesquadronrecruit",
+      "shipAbility": {
+        "name": "Refined Gyrostabilizers",
+        "text": "You can rotate you [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
+      },
+      "slots": [
+        "Tech",
+        "Missile"
+      ]
     }
   ]
 }
