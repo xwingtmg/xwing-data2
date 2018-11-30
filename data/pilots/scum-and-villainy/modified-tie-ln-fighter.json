@@ -34,7 +34,7 @@
     {
       "name": "Ahhav",
       "caption": "Vengeful Survivor",
-      "initiative":3,
+      "initiative": 3,
       "limited": 1,
       "cost": 30,
       "xws": "ahhav",
@@ -44,10 +44,7 @@
         "text": "While you move, you ignore asteroids."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/d5/af/d5af765f-4c49-4209-98a8-e76f52bf9608/swz23_ahhav.png",
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "slots": ["Talent", "Modification"]
     },
     {
       "name": "Captain Seevor",
@@ -63,10 +60,7 @@
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "slots": ["Talent", "Modification"]
     },
     {
       "name": "Foreman Proach",
@@ -81,10 +75,7 @@
         "text": "While you move, you ignore asteroids."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/a0/bf/a0bf95a7-36ba-4e1b-a946-2372bed3cf2a/swz23_foreman_proach.png",
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "slots": ["Talent", "Modification"]
     },
     {
       "name": "Mining Guild Surveyor",
@@ -98,10 +89,7 @@
         "text": "While you move, you ignore asteroids."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/bf/da/bfda499f-603a-41c7-b2ee-50ffeeddb384/swz23_mining-guild-surveyor.png",
-      "slots": [
-        "Talent",
-        "Modification"
-      ]
+      "slots": ["Talent", "Modification"]
     },
     {
       "name": "Overseer Yushyn",
@@ -115,11 +103,9 @@
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
-      "charges": {"value": 1, "recovers": 1},
+      "charges": { "value": 1, "recovers": 1 },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/c1/78/c178c035-befe-44dd-bdb6-541c377ed85b/swz23_overseer-yushyn.png",
-      "slots": [
-        "Modification"
-      ]
+      "slots": ["Modification"]
     },
     {
       "name": "Mining Guild Sentry",
@@ -133,9 +119,7 @@
         "text": "While you move, you ignore asteroids."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/53/32/5332ea1f-21df-4a19-bfd5-557b3f825e6d/swz23_mining-guild-sentry.png",
-      "slots": [
-        "Modification"
-      ]
+      "slots": ["Modification"]
     }
   ]
 }

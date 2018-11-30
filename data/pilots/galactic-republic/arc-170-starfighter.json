@@ -1,80 +1,80 @@
 {
-    "name": "ARC-170 Starfighter",
-    "xws": "arc170starfighter",
-    "size": "Medium",
-    "dial": [
-        "1BB",
-        "1FB",
-        "1NB",
-        "2TW",
-        "2BB",
-        "2FB",
-        "2NB",
-        "2YW",
-        "3TR",
-        "3BW",
-        "3FW",
-        "3NW",
-        "3YR",
-        "4FR",
-        "4KR"
-    ],
-    "faction": "Galactic Republic",
-    "stats": [
-        {
-            "arc": "Front Arc",
-            "type": "attack",
-            "value": 3
-        },
-        {
-            "arc": "Rear Arc",
-            "type": "attack",
-            "value": 2
-        },
-        {
-            "type": "agility",
-            "value": 1
-        },
-        {
-            "type": "hull",
-            "value": 6
-        },
-        {
-            "type": "shields",
-            "value": 3
-        }
-    ],
-    "actions": [
-        {
-            "difficulty": "White",
-            "type": "Focus"
-        },
-        {
-            "difficulty": "White",
-            "type": "Lock"
-        },
-        {
-            "difficulty": "Red",
-            "type": "Barrel Roll"
-        }
-    ],
-    "pilots": [
-        {
-            "name": "\"Sinker\"",
-            "caption": "Wolfpack Veteran",
-            "initiative": 3,
-            "limited": 1,
-            "xws": "sinker",
-            "ability": "While a friendly ship at range 1-2 in your [Left Arc] or [Right Arc] performs a primary attack, it may reroll 1 attack die.",
-            "image": "https://images-cdn.fantasyflightgames.com/filer_public/4e/2b/4e2bb1a3-4865-421d-898f-5272f1ab3b73/swz33_sinker.png",
-            "slots": [
-                "Talent",
-                "Torpedo",
-                "Crew",
-                "Gunner",
-                "Astromech",
-                "Modification"
-            ]
-        }
-    ]
+  "name": "ARC-170 Starfighter",
+  "xws": "arc170starfighter",
+  "size": "Medium",
+  "dial": [
+    "1BB",
+    "1FB",
+    "1NB",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YR",
+    "4FR",
+    "4KR"
+  ],
+  "faction": "Galactic Republic",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Rear Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    }
+  ],
+  "pilots": [
+    {
+      "name": "\"Sinker\"",
+      "caption": "Wolfpack Veteran",
+      "initiative": 3,
+      "limited": 1,
+      "xws": "sinker",
+      "ability": "While a friendly ship at range 1-2 in your [Left Arc] or [Right Arc] performs a primary attack, it may reroll 1 attack die.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/4e/2b/4e2bb1a3-4865-421d-898f-5272f1ab3b73/swz33_sinker.png",
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Crew",
+        "Gunner",
+        "Astromech",
+        "Modification"
+      ]
+    }
+  ]
 }

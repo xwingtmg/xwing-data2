@@ -5,7 +5,7 @@
   "author": "Guido Kessels <mail@guidokessels.com>",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --print-width 80 --write data/**/*.json",
+    "format": "prettier --print-width 80 --write 'data/**/*.json'",
     "ffg2xws": "node scripts/ffg2xws.js && prettier --print-width 80 --write data/ffg-xws.json"
   },
   "devDependencies": {
