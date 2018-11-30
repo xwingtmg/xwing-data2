@@ -33,22 +33,28 @@
   "pilots": [
     {
       "name": "Ahhav",
-      "caption": "???",
-      "initiative": 0,
+      "caption": "Vengeful Survivor",
+      "initiative":3,
       "limited": 1,
-      "cost": 200,
+      "cost": 30,
       "xws": "ahhav",
+      "ability": "While you defend or perform an attack, if the enemy ship is a larger size than you, roll 1 additional die.",
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
-      }
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/d5/af/d5af765f-4c49-4209-98a8-e76f52bf9608/swz23_ahhav.png",
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     },
     {
       "name": "Captain Seevor",
       "caption": "Noisy Nuisance",
       "initiative": 3,
       "limited": 1,
-      "cost": 200,
+      "cost": 28,
       "xws": "captainseevor",
       "ability": "While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's [Bullseye Arc], you may spend 1 [Charge]. If you do, the enemy ship gains 1 jam token.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/c9/f5/c9f5de03-e3e2-45b9-a86e-10ba74d1baed/swz23_a1_captain-seevor.png",
@@ -56,45 +62,80 @@
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
-      }
+      },
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     },
     {
       "name": "Foreman Proach",
-      "caption": "???",
-      "initiative": 0,
+      "caption": "Slave Driver",
+      "initiative": 4,
       "limited": 1,
-      "cost": 200,
+      "cost": 32,
       "xws": "foremanproach",
-      "ability": "...you may choose ...[Bullseye Arc] at range 1-2 ...If you do, that ship ...ractor token.",
+      "ability": "Before you engage, you may choose 1 enemy ship in your [Bullseye Arc] at range 1-2 and gain 1 disarm token. If you do, that ship gains 1 tractor token.",
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
-      }
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/a0/bf/a0bf95a7-36ba-4e1b-a946-2372bed3cf2a/swz23_foreman_proach.png",
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     },
     {
       "name": "Mining Guild Surveyor",
       "initiative": 2,
       "limited": 0,
-      "cost": 200,
+      "cost": 25,
       "xws": "miningguildsurveyor",
-      "text": "With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly expolits newly discovered deposits... ore on worlds such as Batonn, Lothal...",
+      "text": "With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly expolits newly discovered deposits of doonium ore on worlds such as Batonn, Lothal and Umbara.",
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
-      }
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/bf/da/bfda499f-603a-41c7-b2ee-50ffeeddb384/swz23_mining-guild-surveyor.png",
+      "slots": [
+        "Talent",
+        "Modification"
+      ]
     },
     {
       "name": "Overseer Yushyn",
-      "caption": "???",
+      "caption": "Overbearing Boss",
       "initiative": 2,
       "limited": 1,
-      "cost": 200,
+      "cost": 26,
       "xws": "overseeryushyn",
-      "ability": "Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token in...",
+      "ability": "Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token instead",
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
-      }
+      },
+      "charges": {"value": 1, "recovers": 1},
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/c1/78/c178c035-befe-44dd-bdb6-541c377ed85b/swz23_overseer-yushyn.png",
+      "slots": [
+        "Modification"
+      ]
+    },
+    {
+      "name": "Mining Guild Sentry",
+      "initiative": 1,
+      "limited": 0,
+      "cost": 24,
+      "xws": "miningguildsentry",
+      "text": "As part of its arrangement with the Empire, the Mining Guild recieves modified TIE/ln Fighters to protect its operations. These craft have solar Panels removed from their stabilizers for improved visibility, and feature more extensive life support systems for the benefit of their corporate pilots.",
+      "shipAbility": {
+        "name": "Notched Stabilizers",
+        "text": "While you move, you ignore asteroids."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/53/32/5332ea1f-21df-4a19-bfd5-557b3f825e6d/swz23_mining-guild-sentry.png",
+      "slots": [
+        "Modification"
+      ]
     }
   ]
 }
