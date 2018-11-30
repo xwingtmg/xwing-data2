@@ -69,7 +69,7 @@
       "xws": "ezrabridger-tielnfighter",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_46.png",
-      "force": { "value": 1, "recovers": 1 },
+      "force": { "value": 1, "recovers": 1, "side": "light" },
       "slots": ["Force Power", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg",
       "ffg": 46

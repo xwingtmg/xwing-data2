@@ -100,7 +100,7 @@
       "xws": "kananjarrus",
       "ability": "While a friendly ship in your firing arc defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_74.png",
-      "force": { "value": 2, "recovers": 1 },
+      "force": { "value": 2, "recovers": 1, "side": "light" },
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
