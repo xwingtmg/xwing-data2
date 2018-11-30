@@ -194,5 +194,74 @@
       }
     ],
     "restrictions": [{ "factions": ["Resistance"] }]
+  },
+  {
+    "name": "BB-8",
+    "limited": 1,
+    "xws": "bb8",
+    "sides": [
+      {
+        "title": "BB-8",
+        "type": "Astromech",
+        "ability": "Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] or [Boost] action.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/13/fe/13fe41a3-58df-41a7-ba97-38aed4a6c1fe/swz25_bb-8_a1.png",
+        "slots": ["Astromech"],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        }
+      }
+    ],
+    "restrictions": [{"factions": ["Resistance"]}]
+  },
+  {
+    "name": "BB Astromech",
+    "limited": 0,
+    "xws": "bbastromech",
+    "sides": [
+      {
+        "title": "BB Astromech",
+        "type": "Astromech",
+        "ability": "Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll].",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f8/fd/f8fd534a-43df-4285-a41c-1f8a789d06a5/swz25_bb-astromech_a1.png",
+        "slots": [
+          "Astromech"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        }
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Resistance"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "M9-G8",
+    "limited": 1,
+    "xws": "m9g8",
+    "sides": [
+      {
+        "title": "M9-G8",
+        "type": "Astromech",
+        "ability": "While a ship you are locking performs an attack, you may choose 1 attack die. If you do, the attacker rerolls that die.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/5f/ca5fc18f-26ae-41e2-8edf-e0ee93d872cb/swz25_m9-g8_a1.png",
+        "slots": [
+          "Astromech"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Resistance"
+        ]
+      }
+    ]
   }
 ]
