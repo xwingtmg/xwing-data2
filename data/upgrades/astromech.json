@@ -212,7 +212,7 @@
         }
       }
     ],
-    "restrictions": [{"factions": ["Resistance"]}]
+    "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
     "name": "BB Astromech",
@@ -224,9 +224,7 @@
         "type": "Astromech",
         "ability": "Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll].",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/f8/fd/f8fd534a-43df-4285-a41c-1f8a789d06a5/swz25_bb-astromech_a1.png",
-        "slots": [
-          "Astromech"
-        ],
+        "slots": ["Astromech"],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -235,9 +233,7 @@
     ],
     "restrictions": [
       {
-        "factions": [
-          "Resistance"
-        ]
+        "factions": ["Resistance"]
       }
     ]
   },
@@ -251,16 +247,12 @@
         "type": "Astromech",
         "ability": "While a ship you are locking performs an attack, you may choose 1 attack die. If you do, the attacker rerolls that die.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/5f/ca5fc18f-26ae-41e2-8edf-e0ee93d872cb/swz25_m9-g8_a1.png",
-        "slots": [
-          "Astromech"
-        ]
+        "slots": ["Astromech"]
       }
     ],
     "restrictions": [
       {
-        "factions": [
-          "Resistance"
-        ]
+        "factions": ["Resistance"]
       }
     ]
   }
