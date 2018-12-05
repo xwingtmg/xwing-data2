@@ -1,94 +1,165 @@
 {
-  "name": "TIE/fo Fighter",
-  "xws": "tiefofighter",
-  "size": "Small",
-  "dial": [
-    "1TW",
-    "1YW",
-    "2LR",
-    "2TB",
-    "2BB",
-    "2FB",
-    "2NB",
-    "2YB",
-    "2PR",
-    "3TW",
-    "3BW",
-    "3FB",
-    "3NW",
-    "3YW",
-    "4FW",
-    "4KR",
-    "5FW"
-  ],
-  "faction": "First Order",
-  "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 1 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Evade" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Barrel Roll" }
-  ],
-  "pilots": [
-    {
-      "name": "\"Longshot\"",
-      "caption": "Zeta Ace",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 200,
-      "xws": "longshot",
-      "ability": "While you perform a primary attack at attack range 3, roll 1 additional attack die."
-    },
-    {
-      "name": "\"Midnight\"",
-      "caption": "Omega Leader",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 200,
-      "xws": "midnight",
-      "ability": "While you defend or perform an attack, if you have a lock on the enemy ship, that ship's dice cannot be modified.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/56/94/56940164-d919-4b04-8303-f39357555fad/swz18_a1_midnight.png"
-    },
-    {
-      "name": "\"Muse\"",
-      "caption": "Epsilon Leader",
-      "initiative": 2,
-      "limited": 1,
-      "cost": 200,
-      "xws": "muse",
-      "ability": "At that start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/bc/6a/bc6a10be-53d1-493d-95b5-d556ae7379a0/swz18_a1_muse.png"
-    },
-    {
-      "name": "Commander Malarus",
-      "caption": "???",
-      "initiative": 0,
-      "limited": 1,
-      "cost": 200,
-      "xws": "commandermalarus",
-      "ability": "At the start of the Engagement Phase, you may spend 1 [Charge] and gain 1 stress token. If you do, until the end of the round, while you defend or perform an a... may change all of your [Focus] re... [Hit] results."
-    },
-    {
-      "name": "Lieutenant Rivas",
-      "caption": "Inconvenient Witness",
-      "initiative": 1,
-      "limited": 1,
-      "cost": 200,
-      "xws": "lieutenantrivas",
-      "ability": "After a ship at range 1-2 gains a red or orange token, if you do not have that..."
-    },
-    {
-      "name": "TN-3465",
-      "caption": "???",
-      "initiative": 0,
-      "limited": 1,
-      "cost": 200,
-      "xws": "tn3465"
-    }
-  ]
+	"name": "TIE/fo Fighter",
+	"xws": "tiefofighter",
+	"size": "Small",
+	"dial": [
+		"1TW",
+		"1YW",
+		"2LR",
+		"2TB",
+		"2BB",
+		"2FB",
+		"2NB",
+		"2YB",
+		"2PR",
+		"3TW",
+		"3BW",
+		"3FB",
+		"3NW",
+		"3YW",
+		"4FW",
+		"4KR",
+		"5FW"
+	],
+	"faction": "First Order",
+	"stats": [{
+			"arc": "Front Arc",
+			"type": "attack",
+			"value": 2
+		},
+		{
+			"type": "agility",
+			"value": 3
+		},
+		{
+			"type": "hull",
+			"value": 3
+		},
+		{
+			"type": "shields",
+			"value": 1
+		}
+	],
+	"actions": [{
+			"difficulty": "White",
+			"type": "Focus"
+		},
+		{
+			"difficulty": "White",
+			"type": "Evade"
+		},
+		{
+			"difficulty": "White",
+			"type": "Lock"
+		},
+		{
+			"difficulty": "White",
+			"type": "Barrel Roll"
+		}
+	],
+	"pilots": [{
+			"name": "\"Midnight\"",
+			"caption": "Omega Leader",
+			"initiative": 6,
+			"limited": 1,
+			"cost": 200,
+			"xws": "midnight",
+			"ability": "While you defend or perform an attack, if you have a lock on the enemy ship, that ship's dice cannot be modified.",
+			"image": "https://images-cdn.fantasyflightgames.com/filer_public/56/94/56940164-d919-4b04-8303-f39357555fad/swz18_a1_midnight.png"
+		},
+		{
+			"name": "Commander Malarus",
+			"caption": "First Order Enforcer",
+			"initiative": 5,
+			"limited": 1,
+			"cost": 41,
+			"xws": "commandermalarus",
+			"ability": "At the start of the Engagement Phase, you may spend 1 [Charge] and gain 1 stress token. If you do, until the end of the round, while you defend or perform an attack, you may change all of your [Focus] results to [Evade] or [Hit] results."
+		},
+		{
+			"name": "\"Scorch\"",
+			"caption": "Zeta Leader",
+			"initiative": 4,
+			"limited": 1,
+			"cost": 35,
+			"xws": "scorch",
+			"ability": "While you perform a primary attack, if you are not stressed, you may gain 1 stress token to roll 1 additional attack die."
+		},
+		{
+			"name": "\"Static\"",
+			"caption": "Omega Ace",
+			"initiative": 4,
+			"limited": 1,
+			"cost": 35,
+			"xws": "static",
+			"ability": "While you perform a primary attack, you may spend your lock on the defender and a focus token to change all your results to [Crit] results."
+		},
+		{
+			"name": "\"Longshot\"",
+			"caption": "Zeta Ace",
+			"initiative": 3,
+			"limited": 1,
+			"cost": 33,
+			"xws": "longshot",
+			"ability": "While you perform a primary attack at attack range 3, roll 1 additional attack die."
+		},
+		{
+			"name": "Omega Squadron Ace",
+			"initiative": 3,
+			"limited": 0,
+			"cost": 31,
+			"xws": "omegasquadronace"
+		},
+		{
+			"name": "\"Muse\"",
+			"caption": "Epsilon Leader",
+			"initiative": 2,
+			"limited": 1,
+			"cost": 32,
+			"xws": "muse",
+			"ability": "At that start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.",
+			"image": "https://images-cdn.fantasyflightgames.com/filer_public/bc/6a/bc6a10be-53d1-493d-95b5-d556ae7379a0/swz18_a1_muse.png"
+		},
+		{
+			"name": "TN-3465",
+			"caption": "Loose End",
+			"initiative": 2,
+			"limited": 1,
+			"cost": 31,
+			"xws": "tn3465",
+			"ability": "While another friendly ship performs an attack, if you are at range 0-1 of the defender, you may suffer 1 [Crit] damage to change 1 of the attacker's results to a [Crit] result."
+		},
+		{
+			"name": "Zeta Squadron Pilot",
+			"initiative": 2,
+			"limited": 0,
+			"cost": 29,
+			"xws": "zetasquadronpilot"
+		},
+		{
+			"name": "Epsilon Squadron Cadet",
+			"initiative": 1,
+			"limited": 0,
+			"cost": 28,
+			"xws": "epsilonsquadroncadet"
+		},
+		{
+			"name": "Lieutenant Rivas",
+			"caption": "Inconvenient Witness",
+			"initiative": 1,
+			"limited": 1,
+			"cost": 30,
+			"xws": "lieutenantrivas",
+			"ability": "After a ship at range 1-2 gains a red or orange token, if you do not have that ship locked, you may acquire a lock on that ship."
+		},
+		{
+			"name": "\"Null\"",
+			"caption": "Epsilon Ace",
+			"initiative": 0,
+			"limited": 1,
+			"cost": 31,
+			"xws": "null",
+			"ability": "While you are not damaged, treat your initiative value as 7."
+		}
+	]
 }
