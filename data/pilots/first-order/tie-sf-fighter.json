@@ -32,26 +32,26 @@
     { "type": "shields", "value": 3 }
   ],
   "actions": [
-      {
+    {
       "difficulty": "White",
       "linked": { "difficulty": "White", "type": "Rotate Arc" },
       "type": "Focus"
-      },
-	{
+    },
+    {
       "difficulty": "White",
       "linked": { "difficulty": "White", "type": "Rotate Arc" },
       "type": "Evade"
-      },
-      {
+    },
+    {
       "difficulty": "White",
       "linked": { "difficulty": "White", "type": "Rotate Arc" },
       "type": "Lock"
-      },
-	{
+    },
+    {
       "difficulty": "White",
       "linked": { "difficulty": "White", "type": "Rotate Arc" },
       "type": "Barrel Roll"
-      }
+    }
   ],
   "pilots": [
     {
@@ -62,10 +62,10 @@
       "cost": 45,
       "xws": "quickdraw",
       "ability": "After you lose a shield, you may spend 1 [Charge]. If you do, you may perform a bonus primary attack.",
-	"shipAbility": {
-	   "name": "Heavy Weapon Turret",
-	   "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
-	},
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      },
       "slots": ["Talent", "Sensor", "Tech", "Missile", "Gunner", "Modification"]
     },
     {
@@ -76,10 +76,10 @@
       "cost": 41,
       "xws": "backdraft",
       "ability": "While you perform a [Single Turret Arc] primary attack, if the defender is in your [Rear Arc] roll 1 additional die.",
-	"shipAbility": {
-	   "name": "Heavy Weapon Turret",
-	   "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
-	},
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      },
       "slots": ["Talent", "Sensor", "Tech", "Missile", "Gunner", "Modification"]
     },
     {
@@ -88,10 +88,10 @@
       "limited": 0,
       "cost": 36,
       "xws": "omegasquadronexpert",
-	"shipAbility": {
-	   "name": "Heavy Weapon Turret",
-	   "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
-	},
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      },
       "slots": ["Talent", "Sensor", "Tech", "Missile", "Gunner", "Modification"]
     },
     {
@@ -100,10 +100,10 @@
       "limited": 0,
       "cost": 34,
       "xws": "omegasquadronexpert",
-	"shipAbility": {
-	   "name": "Heavy Weapon Turret",
-	   "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
-	},
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      },
       "slots": ["Talent", "Sensor", "Tech", "Missile", "Gunner", "Modification"]
     }
   ]
