@@ -22,25 +22,160 @@
     "5FB"
   ],
   "faction": "First Order",
-  "stats": [{ "type": "agility", "value": 0 }, { "type": "hull", "value": 0 }],
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
+  ],
   "pilots": [
     {
       "name": "\"Blackout\"",
-      "caption": "??? Test Pilot",
+      "xws": "blackout",
+      "caption": "Ill-Fated Test Pilot",
       "initiative": 5,
       "limited": 1,
-      "cost": 200,
-      "xws": "blackout",
-      "ability": "???"
+      "cost": 70,
+      "ability": "While you perform an attack, if the attack is obstructed by an obstacle, the defender rolls 2 fewer defense dice.",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "slots": [
+        "Talent",
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Modification"
+      ]
     },
     {
       "name": "Kylo Ren",
-      "caption": "???",
+      "xws": "kyloren",
+      "caption": "Tormented Apprentice",
       "initiative": 5,
       "limited": 1,
-      "cost": 200,
-      "xws": "kyloren",
-      "ability": "After you defed, you may spend 1 [Force]..."
+      "cost": 82,
+      "ability": "After you defend, you may spend 1 [Force] to assign the I'll Show You the Dark Side condition to the attacker.",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "slots": [
+        "Force",
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Modification"
+      ]
+    },
+    {
+      "name": "First Order Test Pilot",
+      "xws": "firstordertestpilot",
+      "initiative": 4,
+      "limited": 0,
+      "cost": 62,
+      "text": "Engineered for incredible speed and precise handling, the TIE Silencer is devastating in the hands of those who can unlock its full potential. Any lesser pilot could easily be overwhelmed and lose control of the nimble craft. ",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "slots": [
+        "Talent",
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Modification"
+      ]
+    },
+    {
+      "name": "\"Recoil\"",
+      "xws": "recoil",
+      "caption": "Quantity Over Quality",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 63,
+      "text": "While you are stressed, you may treat enemy ships in your [Front Arc] at range 0-1 as being in your [Bullseye Arc].",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "slots": [
+        "Talent",
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Modification"
+      ]
+    },
+    {
+      "name": "\"Avenger\"",
+      "xws": "avenger",
+      "caption": "Wrathful Wingmate",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 62,
+      "text": "After another friendly ship is destroyed, you may perform an action, even while stressed.",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "slots": [
+        "Talent",
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Modification"
+      ]
+    },
+    {
+      "name": "Sienar-Jaemus Engineer",
+      "xws": "sienarjaemusengineer",
+      "initiative": 1,
+      "limited": 0,
+      "cost": 56,
+      "text": "Developed by Sienar-Jaemus Fleet Systems as a successor to the vaunted TIE Defender, the TIE/vn Silencer incorporates bleeding-edge technologies developed at research facilities hidden in the Unknown Regions.",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "slots": [
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Modification"
+      ]
     }
   ]
 }
