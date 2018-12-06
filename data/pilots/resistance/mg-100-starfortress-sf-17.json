@@ -19,23 +19,135 @@
     "3NR"
   ],
   "faction": "Resistance",
-  "stats": [{ "type": "agility", "value": 0 }, { "type": "hull", "value": 0 }],
+  "stats": [
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 0
+    }
+  ],
   "pilots": [
     {
+      "name": "Cobalt Squadron Bomber",
+      "initiative": 1,
+      "limited": 0,
+      "xws": "cobaltsquadronbomber",
+      "text": "Whether the ordnance silos of their StarFortresses are loaded with proton bombs or relief supplies, the heroic crews of Cobalt Squadron dedicate their lives to making a difference in the galaxy.",
+      "image": "http://www.infinitearenas.com/xw2browse/images/resistance/cobalt-squadron-bomber.jpg",
+      "cost": 63,
+      "slots": [
+        "Sensor",
+        "Tech",
+        "Crew",
+        "Gunner",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ]
+    },
+    {
+      "name": "Cat",
+      "caption": "Cobalt Wasp",
+      "initiative": 1,
+      "limited": 1,
+      "xws": "cat",
+      "ability": "While you perform a primary attack, if the defender is at range 0-1 of at least 1 friendly device, roll 1 additional die.",
+      "image": "http://www.infinitearenas.com/xw2browse/images/resistance/cat.jpg",
+      "cost": 67,
+      "slots": [
+        "Sensor",
+        "Tech",
+        "Crew",
+        "Gunner",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ]
+    },
+    {
+      "name": "Vennie",
+      "caption": "Crimson Cutter",
+      "initiative": 2,
+      "limited": 1,
+      "xws": "vennie",
+      "ability": "While you defend, if the attacker is in a friendly ship's [Turret], you may add 1 [Focus] result to your roll.",
+      "image": "http://www.infinitearenas.com/xw2browse/images/resistance/vennie.jpg",
+      "cost": 67,
+      "slots": [
+        "Sensor",
+        "Tech",
+        "Crew",
+        "Gunner",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ]
+    },
+    {
       "name": "Ben Teene",
-      "caption": "???",
+      "caption": "Crimson Bolide",
       "initiative": 3,
       "limited": 1,
-      "cost": 200,
-      "xws": "benteene"
+      "xws": "benteene",
+      "ability": "After you perform an attack, if the defender is in your [Turret], assign the RATTLED condition to the defender.",
+      "image": "http://www.infinitearenas.com/xw2browse/images/resistance/ben-teene.jpg",
+      "cost": 68,
+      "slots": [
+        "Sensor",
+        "Tech",
+        "Crew",
+        "Gunner",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ]
+    },
+    {
+      "name": "Edon Kappehl",
+      "caption": "Crimson Hailstorm",
+      "initiative": 3,
+      "limited": 1,
+      "xws": "edonkappehl",
+      "ability": "After you fully execute a blue or white maneuver, if you have not dropped or launched a device this round, you may drop 1 device.",
+      "image": "http://www.infinitearenas.com/xw2browse/images/resistance/edon-kappehl.jpg",
+      "cost": 69,
+      "slots": [
+        "Sensor",
+        "Tech",
+        "Crew",
+        "Gunner",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ]
     },
     {
       "name": "Finch Dallow",
-      "caption": "???",
-      "initiative": 0,
+      "caption": "Cobalt Hammer",
+      "initiative": 4,
       "limited": 1,
-      "cost": 200,
-      "xws": "finchdallow"
+      "xws": "finchdallow",
+      "ability": "Before you would drop a bomb, you may place it in the play area touching you instead.",
+      "image": "http://www.infinitearenas.com/xw2browse/images/resistance/finch-dallow.jpg",
+      "cost": 70,
+      "slots": [
+        "Sensor",
+        "Tech",
+        "Crew",
+        "Gunner",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ]
     }
   ]
 }
