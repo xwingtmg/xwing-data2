@@ -5,15 +5,26 @@
     "xws": "hunted"
   },
   {
+    "name": "I'll Show You the Dark Side",
+    "ability": "When this card is assigned, if there is no faceup damage card on it, the player who assigned it searches the damage deck for 1 Pilot damage card and places it faceup on this card. Then shuffle the damage deck. When you would suffer 1 [Critical Hit] damage, you are instead dealt the faceup damage card on this card. Then, remove this card.",
+    "xws": "illshowyouthedarkside",
+    "image": "https://images-cdn.fantasyflightgames.com/filer_public/d1/43/d143413b-c3ee-4eca-b489-9ca1f463980a/swz18_ill-show-you_a3.png"
+  },
+  {
     "name": "Listening Device",
     "ability": "During the System Phase, if an enemy ship with the Informant upgrade is at range 0-2, flip your dial faceup.",
     "xws": "listeningdevice"
   },
   {
     "name": "Optimized Prototype",
-    "ability": "While you perform a [Front Arc] primary attack against a ship locked by a friendly ship with the Director Krennic upgrade, you may spend 1 [Hit]/[Critical Hit]/[Focus] result. If you do, choose one: the defender loses 1 shield, or the defender flips 1 of its facedown damage cards.",
+    "ability": "While you perform a [Front Arc] primary attack against a ship locked by a friendly ship with the Director Krennic upgrade, you may spend 1 [Hit], [Critical Hit], or [Focus] result. If you do, choose one: the defender loses 1 shield, or the defender flips 1 of its facedown damage cards.",
     "xws": "optimizedprototype",
     "image": "https://images-cdn.fantasyflightgames.com/filer_public/0d/94/0d94dd35-08eb-493c-b4bd-c077be0e2292/swx75_card2_optimized-prototype.png"
+  },
+  {
+    "name": "Rattled",
+    "ability": "After a bomb or mine at range 0-1 detonates, suffer 1 [Critical Hit] damage. Then, remove this card. ACTION: If there are no bombs or mines at range 0-1, remove this card.",
+    "xws": "rattled"
   },
   {
     "name": "Suppressive Fire",
