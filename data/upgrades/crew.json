@@ -777,6 +777,9 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_136.png",
         "slots": ["Crew"],
         "force": { "value": 1, "recovers": 1 },
+        "grants": [
+          { "type": "force", "value": {"side": ["dark"]}, "amount": 1 }
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_136.jpg",
         "ffg": 361
       }

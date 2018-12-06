@@ -81,5 +81,32 @@
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/d0/a4/d0a49094-b246-4345-9f65-846b070e9fc6/swz34_brilliant-evasion.png"
       }
     ]
+  },
+  {
+    "name": "Hate",
+    "limited": 0,
+    "xws": "hate",
+    "sides": [
+      {
+        "title": "Hate",
+        "type": "Force Power",
+        "ability": "After you suffer 1 or more damage, recover that many [Force].",
+        "slots": ["Force Power"],
+        "restrictions": [{ "force_side": ["dark"] }]
+      }
+    ]
+  },
+  {
+    "name": "Predictive Shot",
+    "limited": 0,
+    "xws": "predictiveshot",
+    "sides": [
+      {
+        "title": "Predicitive Shot",
+        "type": "Force Power",
+        "ability": "After you declare an attack, if the defender is in your [Bullseye Arc], you may spend 1 [Force]. If you do, during the Roll Defense Dice step, the defender cannot roll more defense dice than the number of your [Hit]/[Crit] results.",
+        "slots": ["Force Power"]
+      }
+    ]
   }
 ]

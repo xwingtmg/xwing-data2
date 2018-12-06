@@ -55,7 +55,7 @@
           "source": "European and North American Championship 2018"
         }
       ],
-      "force": { "value": 3, "recovers": 1, "side": "dark" },
+      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."

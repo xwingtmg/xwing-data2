@@ -189,7 +189,7 @@
       "xws": "lukeskywalker",
       "ability": "After you become the defender (before dice are rolled), you may recover 1 [Force].",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_2.png",
-      "force": { "value": 2, "recovers": 1, "side": "light" },
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "alt": [
         {
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/5b/aa/5baa3742-b7b2-47d7-9bec-07f02fafaf1c/op066-luke-skywalker.png",
