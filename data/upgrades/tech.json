@@ -8,10 +8,14 @@
         "title": "Advanced Optics",
         "type": "Tech",
         "ability": "While you perform an attack, you may spend 1 focus token to change 1 of your blank results to a [Hit] result.",
-        "slots": ["Tech"]
+        "slots": [
+          "Tech"
+        ]
       }
     ],
-    "cost": { "value": 4 }
+    "cost": {
+      "value": 4
+    }
   },
   {
     "name": "Ferrosphere Paint",
@@ -22,12 +26,22 @@
         "title": "Ferrosphere Paint",
         "type": "Tech",
         "ability": "After an enemy ship locks you, if you are not in that ship's [Bullseye Arc], that ship gains 1 stress token.",
-        "slots": ["Tech"],
+        "slots": [
+          "Tech"
+        ],
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/3c/6c/3c6c1f9b-e419-4b99-9336-79b6d2fb5a6e/swz22_ferrosphere_paint.png"
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Resistance"
+        ]
+      }
+    ]
   },
   {
     "name": "Hyperspace Tracking Data",
@@ -38,10 +52,14 @@
         "title": "Hyperspace Tracking Data",
         "type": "Tech",
         "ability": "Setup: Before placing forces, you may... 0 and 6...",
-        "slots": ["Tech"]
+        "slots": [
+          "Tech"
+        ]
       }
     ],
-    "cost": { "value": 0 }
+    "cost": {
+      "value": 0
+    }
   },
   {
     "name": "Primed Thrusters",
@@ -53,11 +71,21 @@
         "type": "Tech",
         "ability": "While you have 2 or fewer stress tokens, you can perform [Barrel Roll] and [Boost] actions even while stressed.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/86/a1/86a1115b-eb55-491b-84e4-67e2b6124999/swz19_a1_primed-thrusters.png",
-        "slots": ["Tech"]
+        "slots": [
+          "Tech"
+        ]
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "sizes": ["Small"] }]
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small"
+        ]
+      }
+    ]
   },
   {
     "name": "Targeting Synchronizer",
@@ -69,9 +97,31 @@
         "type": "Tech",
         "ability": "While a friendly ship at range 1-2 performs an attack against a target you have locked, that ship ignores the [Lock] attack requirement.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/3a/f7/3af7d426-c7f1-456e-b2e7-dfb3b735f9da/swz19_a1_targeting-synchronizer.png",
-        "slots": ["Tech"]
+        "slots": [
+          "Tech"
+        ]
       }
     ],
-    "cost": { "value": 5 }
+    "cost": {
+      "value": 5
+    }
+  },
+  {
+    "name": "Pattern Analyzer",
+    "limited": 0,
+    "xws": "patternanalyzer",
+    "sides": [
+      {
+        "title": "Pattern Analyzer",
+        "type": "Tech",
+        "ability": "While you fully execute a red maneuver, before the Check Difficulty step, you may perform 1 action.",
+        "slots": [
+          "Tech"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 5
+    }
   }
 ]
