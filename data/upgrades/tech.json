@@ -123,5 +123,23 @@
     "cost": {
       "value": 5
     }
+  },
+  {
+    "name": "Biohexacrypt Codes",
+    "limited": 0,
+    "xws": "biohexacryptcodes",
+    "sides": [
+      {
+        "title": "Biohexacrypt Codes",
+        "type": "Tech",
+        "ability": "While you coordinate or jam, if you have a lock on a ship, you may spend that lock to choose that ship, ignoring range restrictions.",
+        "slots": [
+          "Tech"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 1
+    }
   }
 ]
