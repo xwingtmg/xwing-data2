@@ -25,7 +25,8 @@
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
     { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 4 }
+    { "type": "hull", "value": 4 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
     { "difficulty": "White", "type": "Focus" },
@@ -33,6 +34,28 @@
     { "difficulty": "White", "type": "Boost" }
   ],
   "pilots": [
+    {
+      "name": "Poe Dameron",
+      "caption": "Trigger-Happy Flyboy",
+      "initiative": 6,
+      "limited": 1,
+      "xws": "poedameron",
+      "ability": "After you perform an action, you may spend 1 [Charge] to perform a white action, treating it as red.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/ea/60/ea60fada-8e09-4d9e-9dee-c47492e65124/swz25_poe_a1.png",
+      "cost": 68,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Astromech",
+        "Modification",
+        "Configuration",
+        "Title"
+      ]
+    },
     {
       "name": "Blue Squadron Rookie",
       "initiative": 1,
@@ -60,7 +83,6 @@
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/dc/0c/dc0c0e5c-1679-401e-aeb7-cb28085c194e/swz25_red-sqd_a1.png",
       "cost": 48,
       "slots": [
-        "Talent",
         "Tech",
         "Astromech",
         "Modification",
@@ -91,11 +113,11 @@
     },
     {
       "name": "Ello Asty",
-      "caption": "???",
-      "initiative": 0,
+      "caption": "Born to Ill",
+      "initiative": 5,
       "limited": 1,
       "xws": "elloasty",
-      "ability": "???",
+      "ability": "After you reveal a red Tallon Roll ([Tallon Roll Left] or [Tallon Roll Right] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
@@ -133,7 +155,7 @@
       ]
     },
     {
-      "name": "Kare Kun",
+      "name": "Karé Kun",
       "caption": "Woman of Action",
       "initiative": 4,
       "limited": 1,
@@ -166,9 +188,8 @@
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/5c/57/5c572491-e1c7-4618-bb2d-7de20511d82c/swz25_lt-bastian_a1.png",
-      "cost": 53,
+      "cost": 48,
       "slots": [
-        "Talent",
         "Tech",
         "Astromech",
         "Modification",
@@ -179,7 +200,7 @@
     {
       "name": "Nien Nunb",
       "caption": "Sarcastic Survivor",
-      "initiative": 0,
+      "initiative": 5,
       "limited": 1,
       "xws": "niennunb",
       "ability": "After you gain a stress token, if there is an enemy ship in your [Front Arc] at range 0-1, you may remove that stress token.",
@@ -188,28 +209,6 @@
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
       "cost": 55,
-      "slots": [
-        "Talent",
-        "Tech",
-        "Astromech",
-        "Modification",
-        "Configuration",
-        "Title"
-      ]
-    },
-    {
-      "name": "Poe Dameron",
-      "caption": "Trigger-Happy Flyboy",
-      "initiative": 6,
-      "limited": 1,
-      "xws": "poedameron",
-      "ability": "After you perform an action, you may spend 1 [Charge] to perform a white action, treating it as red.",
-      "shipAbility": {
-        "name": "Weapon Hardpoint",
-        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
-      },
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/ea/60/ea60fada-8e09-4d9e-9dee-c47492e65124/swz25_poe_a1.png",
-      "cost": 68,
       "slots": [
         "Talent",
         "Tech",
@@ -233,7 +232,6 @@
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/0c/d5/0cd558ff-78ea-4c14-8c9a-0276e7daf716/swz25_jaycris_a1.png",
       "cost": 50,
       "slots": [
-        "Talent",
         "Tech",
         "Astromech",
         "Modification",
