@@ -21,12 +21,44 @@
   "faction": "Resistance",
   "stats": [
     {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Double Turret Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
       "type": "agility",
-      "value": 0
+      "value": 1
     },
     {
       "type": "hull",
-      "value": 0
+      "value": 9
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Rotate Arc"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reload"
     }
   ],
   "pilots": [
