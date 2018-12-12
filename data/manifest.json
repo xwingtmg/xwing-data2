@@ -124,5 +124,11 @@
     "data/upgrades/torpedo.json",
     "data/upgrades/turret.json"
   ],
-  "conditions": "data/conditions/conditions.json"
+  "conditions": "data/conditions/conditions.json",
+  "quick-builds": [
+    "data/quick-builds/rebel-alliance.json",
+    "data/quick-builds/scum-and-villainy.json",
+    "data/quick-builds/galactic-empire.json"
+    "data/quick-builds/resistance.json"
+  ]
 }
