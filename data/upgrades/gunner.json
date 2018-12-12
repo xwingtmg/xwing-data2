@@ -314,6 +314,7 @@
         "slots": ["Gunner"]
       }
     ],
+    "cost": { "value": 10 },
     "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
@@ -329,7 +330,23 @@
         "slots": ["Gunner"]
       }
     ],
+    "cost": { "value": 7 },
+    "restrictions": [{ "factions": ["Resistance"] }]
+  },
+  {
+    "name": "Rey",
+    "limited": 1,
+    "xws": "rey-gunner",
+    "sides": [
+      {
+        "title": "Rey",
+        "type": "Gunner",
+        "ability": "While you defend or perform an attack, if the enemy ship is in your [Single Turret Arc], you may spend 1 [Force] to change 1 of your blank results to a [Hit] or [Crit] result.",
+        "slots": ["Gunner"],
+        "force": { "value": 1, "recovers": 1 }
+      }
+    ],
     "restrictions": [{ "factions": ["Resistance"] }],
-    "cost": { "value": 7 }
+    "cost": { "value": 14 }
   }
 ]
