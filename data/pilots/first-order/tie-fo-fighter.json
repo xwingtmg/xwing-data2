@@ -1,6 +1,7 @@
 {
   "name": "TIE/fo Fighter",
   "xws": "tiefofighter",
+  "ffg": 49,
   "size": "Small",
   "dial": [
     "1TW",
@@ -69,7 +70,8 @@
       "xws": "midnight",
       "ability": "While you defend or perform an attack, if you have a lock on the enemy ship, that ship's dice cannot be modified.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/56/94/56940164-d919-4b04-8303-f39357555fad/swz18_a1_midnight.png",
-      "slots": ["Talent", "Tech", "Modification"]
+      "slots": ["Talent", "Tech", "Modification"],
+      "ffg": 397
     },
     {
       "name": "Commander Malarus",
@@ -80,7 +82,8 @@
       "xws": "commandermalarus",
       "ability": "At the start of the Engagement Phase, you may spend 1 [Charge] and gain 1 stress token. If you do, until the end of the round, while you defend or perform an attack, you may change all of your [Focus] results to [Evade] or [Hit] results.",
       "slots": ["Talent", "Tech", "Modification"],
-      "charges": { "value": 2, "recovers": 0 }
+      "charges": { "value": 2, "recovers": 0 },
+      "ffg": 452
     },
     {
       "name": "\"Scorch\"",
@@ -90,7 +93,8 @@
       "cost": 35,
       "xws": "scorch",
       "ability": "While you perform a primary attack, if you are not stressed, you may gain 1 stress token to roll 1 additional attack die.",
-      "slots": ["Talent", "Tech", "Modification"]
+      "slots": ["Talent", "Tech", "Modification"],
+      "ffg": 398
     },
     {
       "name": "\"Static\"",
@@ -100,7 +104,8 @@
       "cost": 35,
       "xws": "static",
       "ability": "While you perform a primary attack, you may spend your lock on the defender and a focus token to change all your results to [Crit] results.",
-      "slots": ["Talent", "Tech", "Modification"]
+      "slots": ["Talent", "Tech", "Modification"],
+      "ffg": 399
     },
     {
       "name": "\"Longshot\"",
@@ -110,7 +115,8 @@
       "cost": 33,
       "xws": "longshot",
       "ability": "While you perform a primary attack at attack range 3, roll 1 additional attack die.",
-      "slots": ["Talent", "Tech", "Modification"]
+      "slots": ["Talent", "Tech", "Modification"],
+      "ffg": 400
     },
     {
       "name": "Omega Squadron Ace",
@@ -118,7 +124,8 @@
       "limited": 0,
       "cost": 31,
       "xws": "omegasquadronace",
-      "slots": ["Talent", "Tech", "Modification"]
+      "slots": ["Talent", "Tech", "Modification"],
+      "ffg": 403
     },
     {
       "name": "\"Muse\"",
@@ -129,7 +136,8 @@
       "xws": "muse",
       "ability": "At that start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/bc/6a/bc6a10be-53d1-493d-95b5-d556ae7379a0/swz18_a1_muse.png",
-      "slots": ["Talent", "Tech", "Modification"]
+      "slots": ["Talent", "Tech", "Modification"],
+      "ffg": 401
     },
     {
       "name": "TN-3465",
@@ -139,7 +147,8 @@
       "cost": 31,
       "xws": "tn3465",
       "ability": "While another friendly ship performs an attack, if you are at range 0-1 of the defender, you may suffer 1 [Crit] damage to change 1 of the attacker's results to a [Crit] result.",
-      "slots": ["Tech", "Modification"]
+      "slots": ["Tech", "Modification"],
+      "ffg": 453
     },
     {
       "name": "Zeta Squadron Pilot",
@@ -147,7 +156,8 @@
       "limited": 0,
       "cost": 29,
       "xws": "zetasquadronpilot",
-      "slots": ["Tech", "Modification"]
+      "slots": ["Tech", "Modification"],
+      "ffg": 404
     },
     {
       "name": "Epsilon Squadron Cadet",
@@ -155,7 +165,8 @@
       "limited": 0,
       "cost": 28,
       "xws": "epsilonsquadroncadet",
-      "slots": ["Tech", "Modification"]
+      "slots": ["Tech", "Modification"],
+      "ffg": 405
     },
     {
       "name": "Lieutenant Rivas",
@@ -165,7 +176,8 @@
       "cost": 30,
       "xws": "lieutenantrivas",
       "ability": "After a ship at range 1-2 gains a red or orange token, if you do not have that ship locked, you may acquire a lock on that ship.",
-      "slots": ["Tech", "Modification"]
+      "slots": ["Tech", "Modification"],
+      "ffg": 454
     },
     {
       "name": "\"Null\"",
@@ -175,7 +187,8 @@
       "cost": 31,
       "xws": "null",
       "ability": "While you are not damaged, treat your initiative value as 7.",
-      "slots": ["Talent", "Tech", "Modification"]
+      "slots": ["Talent", "Tech", "Modification"],
+      "ffg": 402
     }
   ]
 }

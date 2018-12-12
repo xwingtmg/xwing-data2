@@ -1,6 +1,7 @@
 {
   "name": "T-70 X-wing",
   "xws": "t70xwing",
+  "ffg": 53,
   "size": "Small",
   "dial": [
     "1BB",
@@ -55,7 +56,8 @@
         "Modification",
         "Configuration",
         "Title"
-      ]
+      ],
+      "ffg": 418
     },
     {
       "name": "Blue Squadron Rookie",
@@ -69,7 +71,8 @@
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/ec/05/ec050670-3a1c-4581-8829-fcc60c3cf8e6/swz25_blue-sqd_a1.png",
       "cost": 46,
-      "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"]
+      "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"],
+      "ffg": 426
     },
     {
       "name": "Red Squadron Expert",
@@ -83,7 +86,8 @@
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/dc/0c/dc0c0e5c-1679-401e-aeb7-cb28085c194e/swz25_red-sqd_a1.png",
       "cost": 48,
-      "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"]
+      "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"],
+      "ffg": 425
     },
     {
       "name": "Black Squadron Ace",
@@ -104,7 +108,8 @@
         "Modification",
         "Configuration",
         "Title"
-      ]
+      ],
+      "ffg": 451
     },
     {
       "name": "Ello Asty",
@@ -125,7 +130,8 @@
         "Modification",
         "Configuration",
         "Title"
-      ]
+      ],
+      "ffg": 419
     },
     {
       "name": "Joph Seastriker",
@@ -147,7 +153,8 @@
         "Modification",
         "Configuration",
         "Title"
-      ]
+      ],
+      "ffg": 424
     },
     {
       "name": "Karé Kun",
@@ -169,7 +176,8 @@
         "Modification",
         "Configuration",
         "Title"
-      ]
+      ],
+      "ffg": 421
     },
     {
       "name": "Lieutenant Bastian",
@@ -184,7 +192,8 @@
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/5c/57/5c572491-e1c7-4618-bb2d-7de20511d82c/swz25_lt-bastian_a1.png",
       "cost": 48,
-      "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"]
+      "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"],
+      "ffg": 449
     },
     {
       "name": "Nien Nunb",
@@ -205,7 +214,8 @@
         "Modification",
         "Configuration",
         "Title"
-      ]
+      ],
+      "ffg": 420
     },
     {
       "name": "Jaycris Tubbs",
@@ -220,7 +230,8 @@
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/0c/d5/0cd558ff-78ea-4c14-8c9a-0276e7daf716/swz25_jaycris_a1.png",
       "cost": 50,
-      "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"]
+      "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"],
+      "ffg": 450
     },
     {
       "name": "Jessika Pava",
@@ -236,7 +247,8 @@
       "image": "http://www.infinitearenas.com/xw2browse/images/resistance/jessika-pava.jpg",
       "cost": 52,
       "charges": { "value": 1, "recovers": 1 },
-      "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"]
+      "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"],
+      "ffg": 423
     },
     {
       "name": "Temmin Wexley",
@@ -258,7 +270,8 @@
         "Modification",
         "Configuration",
         "Title"
-      ]
+      ],
+      "ffg": 422
     }
   ]
 }
