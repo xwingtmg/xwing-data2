@@ -1,6 +1,7 @@
 {
   "name": "TIE/sf Fighter",
   "xws": "tiesffighter",
+  "ffg": 50,
   "size": "Small",
   "dial": [
     "1TR",
@@ -74,7 +75,8 @@
         "Gunner",
         "Modification"
       ],
-      "charges": { "value": 1, "recovers": 1 }
+      "charges": { "value": 1, "recovers": 1 },
+      "ffg": 406
     },
     {
       "name": "Backdraft",
@@ -88,7 +90,8 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "slots": ["Talent", "Sensor", "Tech", "Missile", "Gunner", "Modification"]
+      "slots": ["Talent", "Sensor", "Tech", "Missile", "Gunner", "Modification"],
+      "ffg": 407
     },
     {
       "name": "Omega Squadron Expert",
@@ -100,7 +103,8 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "slots": ["Talent", "Sensor", "Tech", "Missile", "Gunner", "Modification"]
+      "slots": ["Talent", "Sensor", "Tech", "Missile", "Gunner", "Modification"],
+      "ffg": 408
     },
     {
       "name": "Zeta Squadron Survivor",
@@ -112,7 +116,8 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "slots": ["Talent", "Sensor", "Tech", "Missile", "Gunner", "Modification"]
+      "slots": ["Talent", "Sensor", "Tech", "Missile", "Gunner", "Modification"],
+      "ffg": 409
     }
   ]
 }

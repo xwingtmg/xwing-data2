@@ -1,6 +1,7 @@
 {
   "name": "Scavenged YT-1300",
   "xws": "scavengedyt1300",
+  "ffg": 57,
   "size": "Large",
   "dial": [
     "1BW",
@@ -67,7 +68,8 @@
       "text": "After witnessing the Hosnian Cataclysm, some spacers willingly aided the Resistance with whatever ships they had.",
       "image": "http://www.infinitearenas.com/xw2browse/images/resistance/resistance-sympathizer.jpg",
       "cost": 68,
-      "slots": ["Crew", "Crew", "Gunner", "Illicit", "Modification", "Title"]
+      "slots": ["Crew", "Crew", "Gunner", "Illicit", "Modification", "Title"],
+      "ffg": 430
     },
     {
       "name": "Chewbacca",
@@ -86,7 +88,8 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg": 429
     },
     {
       "name": "Han Solo",
@@ -105,7 +108,8 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg": 427
     },
     {
       "name": "Rey",
@@ -128,7 +132,8 @@
         "Illicit",
         "Modification",
         "Title"
-      ]
+      ],
+      "ffg": 428
     }
   ]
 }
