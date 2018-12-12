@@ -314,6 +314,7 @@
         "slots": ["Gunner"]
       }
     ],
+    "cost": { "value": 10 },
     "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
@@ -329,6 +330,7 @@
         "slots": ["Gunner"]
       }
     ],
+    "cost": { "value": 7 },
     "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
@@ -345,6 +347,6 @@
       }
     ],
     "restrictions": [{ "factions": ["Resistance"] }],
-    "cost": { "value": 7 }
+    "cost": { "value": 14 }
   }
 ]
