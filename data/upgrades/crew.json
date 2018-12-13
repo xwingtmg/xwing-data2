@@ -199,10 +199,11 @@
         "title": "Captain Phasma",
         "type": "Crew",
         "ability": "At the end of the Engagement Phase, each enemy ship at range 0-1 that is not stressed gains 1 stress token.",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 465
       }
     ],
-    "cost": { "value": 0 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["First Order"] }]
   },
   {
@@ -414,9 +415,11 @@
         "title": "General Hux",
         "type": "Crew",
         "ability": "While you perform a white [Coordinate] action, you may treat if as red. If you do, you may coordinate up to 2 additional ships of the same ship type, and each ship you coordinate must perform the same action, treating that action as red.",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 465
       }
     ],
+    "cost": { "value": 10 },
     "restrictions": [{ "factions": ["First Order"] }]
   },
   {
@@ -643,9 +646,11 @@
         "ability": "Action: Choose 1 enemy ship at range 1-3. If you do, spend 1 [Force] to assign the I'll Show You the Dark Side condition to that ship.",
         "conditions": ["illshowyouthedarkside"],
         "slots": ["Crew"],
-        "force": { "value": 1, "recovers": 1 }
+        "force": { "value": 1, "recovers": 1 },
+        "ffg": 467
       }
     ],
+    "cost": { "value": 11 },
     "restrictions": [{ "factions": ["First Order"] }]
   },
   {
@@ -890,9 +895,11 @@
         "title": "Petty Officer Thanisson",
         "type": "Crew",
         "ability": "During the Activation or Engagement Phase, after an enemy ship in your [Front Arc] at range 0-1 gains a red or orange token, if you are not stressed, you may gain 1 stress token. If you do, that ship gains 1 additional token of the type that it gained.",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 468
       }
     ],
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["First Order"] }]
   },
   {
@@ -1012,10 +1019,11 @@
         "type": "Crew",
         "ability": "During the System Phase, you may choose any number of enemy ships beyond range 1. If you do, spend that many [Force] to flip each chosen ship's dial faceup.",
         "slots": ["Crew", "Crew"],
-        "force": { "value": 1, "recovers": 1 }
+        "force": { "value": 1, "recovers": 1 },
+        "ffg": 469
       }
     ],
-    "cost": { "value": 0 },
+    "cost": { "value": 13 },
     "restrictions": [{ "factions": ["First Order"] }]
   },
   {
@@ -1122,9 +1130,11 @@
             "value": { "type": "Coordinate", "difficulty": "Red" },
             "amount": 1
           }
-        ]
+        ],
+        "ffg": 472
       }
     ],
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
@@ -1144,9 +1154,11 @@
             "value": { "type": "Evade", "difficulty": "Red" },
             "amount": 1
           }
-        ]
+        ],
+        "ffg": 474
       }
     ],
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
@@ -1160,9 +1172,11 @@
         "ability": "Setup: Lose 1 [Charge]. After a friendly ship at range 0-3 is dealt 1 damage card, recover 1 [Charge]. While you perform an attack, you may spend 2 [Charge] to change 1 [Focus] result to a [Crit] result.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/d7/bc/d7bcf1f0-48e5-4566-8e6d-5be670c04858/swz19_a2_tfa-chewie.png",
         "slots": ["Crew"],
-        "charges": { "value": 2, "recovers": 0 }
+        "charges": { "value": 2, "recovers": 0 },
+        "ffg": 473
       }
     ],
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
@@ -1175,9 +1189,11 @@
         "type": "Crew",
         "ability": "While you defend or perform a primary attack, you may spend 1 of your results to acquire a lock on the enemy ship.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/17/20/1720a677-330a-4165-b7a8-1594d62f72c6/swz19_a2_rose-tico.png",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 475
       }
     ],
+    "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Resistance"] }]
   }
 ]

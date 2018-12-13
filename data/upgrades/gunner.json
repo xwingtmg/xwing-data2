@@ -130,20 +130,6 @@
     "restrictions": [{ "factions": ["Galactic Empire"] }]
   },
   {
-    "name": "Finn",
-    "limited": 1,
-    "xws": "finn",
-    "sides": [
-      {
-        "title": "Finn",
-        "type": "Gunner",
-        "ability": "While you defend or perform a primary attack, if the enemy is in your [Front Arc], you may add 1 blank result to your roll... ..can be rerolled or otherwise...",
-        "slots": ["Gunner"]
-      }
-    ],
-    "cost": { "value": 0 }
-  },
-  {
     "name": "Greedo",
     "limited": 1,
     "xws": "greedo",
@@ -260,7 +246,8 @@
         "title": "Special Forces Gunner",
         "type": "Gunner",
         "ability": "...e you perform a primary [Front Arc] attack, ...your [Single Turret Arc] is in your [Front Arc], you may roll 1 additional attack die. ...er you perform a primary [Front Arc] attack, ...our [Single Turret Arc] is in your [Rear Arc], you may perform a bonus primary [Single Turret Arc] attack.",
-        "slots": ["Gunner"]
+        "slots": ["Gunner"],
+        "ffg": 470
       }
     ],
     "cost": { "value": 0 }
@@ -311,7 +298,8 @@
         "type": "Gunner",
         "ability": "While you defend or perform a primary attack, if the enemy ship is in your [Front Arc], you may add 1 blank result to your roll (this die can be rerolled or otherwise modified).",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/89/06/8906ae3a-46b0-45f2-8db9-21b81cb05e0a/swz19_a2_finn-gunner.png",
-        "slots": ["Gunner"]
+        "slots": ["Gunner"],
+        "ffg": 476
       }
     ],
     "cost": { "value": 10 },
@@ -327,7 +315,8 @@
         "type": "Gunner",
         "ability": "After you perform an attack, you may drop 1 bomb or rotate your [Single Turret Arc]. After you are destroyed, you may drop 1 bomb.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/1d/1b/1d1bade1-7afd-40e6-97ae-4430dfe9d169/swz19_a2_paig-tico.png",
-        "slots": ["Gunner"]
+        "slots": ["Gunner"],
+        "ffg": 477
       }
     ],
     "cost": { "value": 7 },
@@ -343,7 +332,8 @@
         "type": "Gunner",
         "ability": "While you defend or perform an attack, if the enemy ship is in your [Single Turret Arc], you may spend 1 [Force] to change 1 of your blank results to a [Hit] or [Crit] result.",
         "slots": ["Gunner"],
-        "force": { "value": 1, "recovers": 1 }
+        "force": { "value": 1, "recovers": 1 },
+        "ffg": 478
       }
     ],
     "restrictions": [{ "factions": ["Resistance"] }],
