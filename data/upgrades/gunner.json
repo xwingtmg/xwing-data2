@@ -130,20 +130,6 @@
     "restrictions": [{ "factions": ["Galactic Empire"] }]
   },
   {
-    "name": "Finn",
-    "limited": 1,
-    "xws": "finn",
-    "sides": [
-      {
-        "title": "Finn",
-        "type": "Gunner",
-        "ability": "While you defend or perform a primary attack, if the enemy is in your [Front Arc], you may add 1 blank result to your roll... ..can be rerolled or otherwise...",
-        "slots": ["Gunner"]
-      }
-    ],
-    "cost": { "value": 0 }
-  },
-  {
     "name": "Greedo",
     "limited": 1,
     "xws": "greedo",
