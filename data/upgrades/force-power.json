@@ -92,9 +92,13 @@
         "type": "Force Power",
         "ability": "After you suffer 1 or more damage, recover that many [Force].",
         "slots": ["Force Power"],
-        "restrictions": [{ "force_side": ["dark"] }]
+        "restrictions": [{ "force_side": ["dark"] }],
+        "ffg": 489
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Predictive Shot",

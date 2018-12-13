@@ -142,7 +142,8 @@
         "type": "Talent",
         "ability": "While you perform a primary attack, if you are not shielded, you may change 1 [Focus] result to a [Hit] result.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/6d/44/6d440bea-11dd-4e4c-b7ef-167a4b6d23e2/swz18_a1_fanatical.png",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "ffg": 459
       }
     ],
     "cost": { "value": 0 }
@@ -174,7 +175,8 @@
         "title": "Heroic",
         "type": "Talent",
         "ability": "While you defend or perform an attack, if you have only blank results and have 2 or more results, you may reroll any number of your dice.",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "ffg": 471
       }
     ],
     "cost": { "value": 0 }

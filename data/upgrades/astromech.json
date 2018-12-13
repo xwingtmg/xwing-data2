@@ -190,9 +190,11 @@
         "type": "Astromech",
         "ability": "While you defend, you may spend your lock on the attacker to reroll any number of your defense dice.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/2b/17/2b17e1c2-ba4f-4456-aba3-7b66a7a2d803/swz19_a2_r2-ha.png",
-        "slots": ["Astromech"]
+        "slots": ["Astromech"],
+        "ffg": 482
       }
     ],
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
@@ -209,9 +211,11 @@
         "charges": {
           "value": 2,
           "recovers": 0
-        }
+        },
+        "ffg": 479
       }
     ],
+    "cost": { "value": 8 },
     "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
@@ -228,9 +232,11 @@
         "charges": {
           "value": 2,
           "recovers": 0
-        }
+        },
+        "ffg": 480
       }
     ],
+    "cost": { "value": 5 },
     "restrictions": [
       {
         "factions": ["Resistance"]
@@ -247,9 +253,11 @@
         "type": "Astromech",
         "ability": "While a ship you are locking performs an attack, you may choose 1 attack die. If you do, the attacker rerolls that die.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/ca/5f/ca5fc18f-26ae-41e2-8edf-e0ee93d872cb/swz25_m9-g8_a1.png",
-        "slots": ["Astromech"]
+        "slots": ["Astromech"],
+        "ffg": 481
       }
     ],
+    "cost": { "value": 7 },
     "restrictions": [
       {
         "factions": ["Resistance"]
