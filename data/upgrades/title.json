@@ -40,10 +40,11 @@
         "ability": "After you perform a [Slam] action, lose 1 [Charge]. Then, you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [Slam] action.",
         "slots": ["Title"],
         "charges": { "value": 1, "recovers": 0 },
-        "actions": [{ "type": "SLAM", "difficulty": "White" }]
+        "actions": [{ "type": "SLAM", "difficulty": "White" }],
+        "ffg": 484
       }
     ],
-    "cost": { "value": 0 },
+    "cost": { "value": 2 },
     "image": "https://images-cdn.fantasyflightgames.com/filer_public/e2/e4/e2e492b1-66d9-4dcc-9af6-a1a4e07a7378/swz25_black-one_a1.png"
   },
   {
