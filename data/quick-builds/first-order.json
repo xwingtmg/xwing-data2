@@ -1,0 +1,128 @@
+{
+  "quick-builds": [
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "midnight",
+          "upgrades": {
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "commandermalarus",
+          "upgrades": {
+            "tech": ["advancedoptics"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "scorch",
+          "upgrades": {
+            "talent": ["fanatical"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "static",
+          "upgrades": {
+            "talent": ["outmaneuver"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "longshot",
+          "upgrades": {
+            "talent": ["elusive", "predator"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "omegasquadronace",
+          "upgrades": {
+            "astromech": ["elusive, fanatical"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "muse",
+          "upgrades": {
+            "talent": ["elusive"],
+            "tech": ["advancedoptics"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "TN-3465",
+          "upgrades": {
+            "tech": ["targetingsynchronizer"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "epsilonsquadroncadet",
+          "upgrades": {
+            "tech": ["targetingsynchronizer"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "lieutenantrivas"
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "null",
+          "upgrades": {
+            "talent": ["swarmtactics"],
+            "modification": ["afterburners", "shieldupgrade"]
+          }
+        }
+      ]
+    }
+  ]
+}

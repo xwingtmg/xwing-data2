@@ -19,12 +19,118 @@
       "threat": 3,
       "pilots": [
         {
+          "id": "elloasty",
+          "upgrades": {
+            "talent": ["elusive"],
+            "modification": ["afterburners"],
+            "configuration": ["integratedsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "niennunb",
+          "upgrades": {
+            "talent": ["elusive"],
+            "modification": ["afterburners"],
+            "configuration": ["integratedsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "karekun",
+          "upgrades": {
+            "talent": ["predator"],
+            "configuration": ["integratedsfoils"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "temminwexley",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "configuration": ["integratedsfoils"],
+            "torpedo": ["protontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
           "id": "jessikapava",
           "upgrades": {
             "astromech": ["r5astromech"],
             "configuration": ["integratedsfoils"],
             "modification": ["hullupgrade"]
           }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "jophseastriker",
+          "upgrades": {
+            "astromech": ["r2astromech"],
+            "configuration": ["integratedsfoils"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "redsquadronexpert"
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "lieutenantbastian",
+          "upgrades": {
+            "astromech": ["r3astromech"],
+            "configuration": ["integratedsfoils"],
+            "tech": ["targetingsynchronizer"],
+            "torpedo": ["protontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bluesquadronrookie",
+          "upgrades": {
+            "astromech": ["bbastromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "jaycristubbs"
         }
       ]
     },
@@ -57,10 +163,60 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "lulolampar",
+          "upgrades": {
+            "tech": ["primedthrusters"],
+            "missile": ["homingmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "greersonnel",
+          "upgrades": {
+            "talent": ["elusive"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "greensquadronexpert",
+          "upgrades": {
+            "talent": ["heroic"],
+            "tech": ["primedthrusters"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "zaribangel",
           "upgrades": {
             "talent": ["outmaneuver"],
             "missile": ["protonrockets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bluesquadronrecruit",
+          "upgrades": {
+            "tech": ["primedthrusters"],
+            "modification": ["shieldupgrade"],
+            "missile": ["homingmissiles"]
           }
         }
       ]
