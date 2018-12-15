@@ -1,6 +1,6 @@
 [
   {
-    "name": "Integrated S-foils",
+    "name": "Integrated S-foils (Open)",
     "limited": 0,
     "xws": "integratedsfoils",
     "sides": [
@@ -42,8 +42,14 @@
         "ffg": 487
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["t70xwing"] }]
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "ships": ["t70xwing"]
+      }
+    ]
   },
   {
     "name": "Os-1 Arsenal Loadout",
@@ -56,19 +62,33 @@
         "ability": "While you have exactly 1 disarm token, you can still perform [Torpedo] and [Missile] attacks against targets you have locked. If you do, you cannot spend your lock during the attack. Add [Torpedo] and [Missile] slots.",
         "slots": ["Configuration"],
         "grants": [
-          { "type": "slot", "value": "Torpedo", "amount": 1 },
-          { "type": "slot", "value": "Missile", "amount": 1 }
+          {
+            "type": "slot",
+            "value": "Torpedo",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Missile",
+            "amount": 1
+          }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_125.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_125.jpg",
         "ffg": 350
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["alphaclassstarwing"] }]
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "ships": ["alphaclassstarwing"]
+      }
+    ]
   },
   {
-    "name": "Pivot Wing",
+    "name": "Pivot Wing (Closed)",
     "limited": 0,
     "xws": "pivotwing",
     "sides": [
@@ -91,11 +111,17 @@
         "ffg": 331
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["ut60duwing"] }]
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "ships": ["ut60duwing"]
+      }
+    ]
   },
   {
-    "name": "Servomotor S-foils",
+    "name": "Servomotor S-foils (Closed)",
     "limited": 0,
     "xws": "servomotorsfoils",
     "sides": [
@@ -105,24 +131,36 @@
         "ability": "While you perform a primary attack, roll 1 fewer attack die. Before you activate, you may flip this card.",
         "slots": ["Configuration"],
         "actions": [
-          { "type": "Boost", "difficulty": "White" },
+          {
+            "type": "Boost",
+            "difficulty": "White"
+          },
           {
             "type": "Focus",
             "difficulty": "White",
-            "linked": { "difficulty": "Red", "type": "Boost" }
+            "linked": {
+              "difficulty": "Red",
+              "type": "Boost"
+            }
           }
         ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Boost", "difficulty": "White" }
+            "value": {
+              "type": "Boost",
+              "difficulty": "White"
+            }
           },
           {
             "type": "action",
             "value": {
               "type": "Focus",
               "difficulty": "White",
-              "linked": { "type": "Boost", "difficulty": "Red" }
+              "linked": {
+                "type": "Boost",
+                "difficulty": "Red"
+              }
             }
           }
         ],
@@ -140,8 +178,14 @@
         "ffg": 333
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["t65xwing"] }]
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "ships": ["t65xwing"]
+      }
+    ]
   },
   {
     "name": "Xg-1 Assault Configuration",
@@ -151,16 +195,28 @@
       {
         "title": "Xg-1 Assault Configuration",
         "type": "Configuration",
-        "ability": "While you have exactly 1 disarm token, uou can still perform [Cannon] attacks. While you perform a [Cannon] attack while disarmed, roll a maximum of 3 attack dice. Add [Cannon] slot.",
+        "ability": "While you have exactly 1 disarm token, you can still perform [Cannon] attacks. While you perform a [Cannon] attack while disarmed, roll a maximum of 3 attack dice. Add [Cannon] slot.",
         "slots": ["Configuration"],
-        "grants": [{ "type": "slot", "value": "Cannon", "amount": 1 }],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Cannon",
+            "amount": 1
+          }
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_126.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_126.jpg",
         "ffg": 351
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["alphaclassstarwing"] }]
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "ships": ["alphaclassstarwing"]
+      }
+    ]
   },
   {
     "name": "Grappling Struts",
@@ -180,8 +236,15 @@
       }
     ],
     "restrictions": [
-      { "action": { "type": "Calculate", "difficulty": "White" } },
-      { "factions": ["Separatist Alliance"] }
+      {
+        "action": {
+          "type": "Calculate",
+          "difficulty": "White"
+        }
+      },
+      {
+        "factions": ["Separatist Alliance"]
+      }
     ]
   },
   {
@@ -213,7 +276,11 @@
         ]
       }
     ],
-    "restrictions": [{ "ships": ["delta7aethersprite"] }]
+    "restrictions": [
+      {
+        "ships": ["delta7aethersprite"]
+      }
+    ]
   },
   {
     "name": "Calibrated Laser Targeting",

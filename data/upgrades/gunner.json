@@ -14,7 +14,9 @@
         "ffg": 388
       }
     ],
-    "cost": { "value": 10 }
+    "cost": {
+      "value": 10
+    }
   },
   {
     "name": "BT-1",
@@ -31,9 +33,14 @@
         "ffg": 365
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "restrictions": [
-      { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
+      {
+        "factions": ["Scum and Villainy"],
+        "names": ["Darth Vader"]
+      }
     ]
   },
   {
@@ -51,8 +58,14 @@
         "ffg": 319
       }
     ],
-    "cost": { "value": 14 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 14
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Bossk",
@@ -69,8 +82,14 @@
         "ffg": 364
       }
     ],
-    "cost": { "value": 10 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 10
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Dengar",
@@ -83,13 +102,22 @@
         "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Charge]. If you do, roll 1 attack die unless the attacker chooses to remove 1 green token. On a [Hit] or [Critical Hit] result, the attacker suffers 1 [Hit] damage.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_141.png",
         "slots": ["Gunner"],
-        "charges": { "value": 1, "recovers": 1 },
+        "charges": {
+          "value": 1,
+          "recovers": 1
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_141.jpg",
         "ffg": 366
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Ezra Bridger",
@@ -102,13 +130,22 @@
         "ability": "After you perform a primary attack, you may spend 1 [Force] to perform a bonus [Single Turret Arc] attack from a [Single Turret Arc] you have not attacked from this round. If you do and you are stressed, you may reroll 1 attack die.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_96.png",
         "slots": ["Gunner"],
-        "force": { "value": 1, "recovers": 1 },
+        "force": {
+          "value": 1,
+          "recovers": 1
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_96.jpg",
         "ffg": 320
       }
     ],
-    "cost": { "value": 18 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 18
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Fifth Brother",
@@ -121,13 +158,22 @@
         "ability": "While you perform an attack, you may spend 1 [Force] to change 1 of your [Focus] results to a [Critical Hit] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_122.png",
         "slots": ["Gunner"],
-        "force": { "value": 1, "recovers": 1 },
+        "force": {
+          "value": 1,
+          "recovers": 1
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_122.jpg",
         "ffg": 348
       }
     ],
-    "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "cost": {
+      "value": 12
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ]
   },
   {
     "name": "Greedo",
@@ -140,13 +186,22 @@
         "ability": "While you perform an attack, you may spend 1 [Charge] to change 1 [Hit] result to a [Critical Hit] result. While you defend, if your [Charge] is active, the attacker may change 1 [Hit] result to a [Critical Hit] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_142.png",
         "slots": ["Gunner"],
-        "charges": { "value": 1, "recovers": 1 },
+        "charges": {
+          "value": 1,
+          "recovers": 1
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_142.jpg",
         "ffg": 367
       }
     ],
-    "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 1
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Han Solo",
@@ -163,8 +218,14 @@
         "ffg": 321
       }
     ],
-    "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 12
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Han Solo",
@@ -181,8 +242,14 @@
         "ffg": 389
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Hotshot Gunner",
@@ -199,7 +266,9 @@
         "ffg": 278
       }
     ],
-    "cost": { "value": 7 }
+    "cost": {
+      "value": 7
+    }
   },
   {
     "name": "Luke Skywalker",
@@ -211,14 +280,23 @@
         "type": "Gunner",
         "ability": "At the start of the Engagement Phase, you may spend 1 [Force] to rotate your [Single Turret Arc] indicator.",
         "slots": ["Gunner"],
-        "force": { "value": 1, "recovers": 1 },
+        "force": {
+          "value": 1,
+          "recovers": 1
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_98.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_98.jpg",
         "ffg": 322
       }
     ],
-    "cost": { "value": 30 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 30
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Skilled Bombardier",
@@ -235,7 +313,9 @@
         "ffg": 279
       }
     ],
-    "cost": { "value": 2 }
+    "cost": {
+      "value": 2
+    }
   },
   {
     "name": "Special Forces Gunner",
@@ -252,7 +332,9 @@
         "ffg": 470
       }
     ],
-    "cost": { "value": 0 }
+    "cost": {
+      "value": 10
+    }
   },
   {
     "name": "Veteran Tail Gunner",
@@ -269,8 +351,14 @@
         "ffg": 280
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "arcs": ["Rear Arc"] }]
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "arcs": ["Rear Arc"]
+      }
+    ]
   },
   {
     "name": "Veteran Turret Gunner",
@@ -287,8 +375,16 @@
         "ffg": 281
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "action": { "type": "Rotate Arc" } }]
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Rotate Arc"
+        }
+      }
+    ]
   },
   {
     "name": "Finn",
@@ -305,8 +401,14 @@
         "ffg": 476
       }
     ],
-    "cost": { "value": 10 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "cost": {
+      "value": 10
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ]
   },
   {
     "name": "Paige Tico",
@@ -316,15 +418,21 @@
       {
         "title": "Paige Tico",
         "type": "Gunner",
-        "ability": "After you perform an attack, you may drop 1 bomb or rotate your [Single Turret Arc]. After you are destroyed, you may drop 1 bomb.",
+        "ability": "After you perform a primary attack, you may drop 1 bomb or rotate your [Single Turret Arc]. After you are destroyed, you may drop 1 bomb.",
         "slots": ["Gunner"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9dc15f634233b5daba107a07aa63d04c.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a34ab7a76083f91577110d31d20b6e14.jpg",
         "ffg": 477
       }
     ],
-    "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "cost": {
+      "value": 7
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ]
   },
   {
     "name": "Rey",
@@ -334,7 +442,7 @@
       {
         "title": "Rey",
         "type": "Gunner",
-        "ability": "While you defend or perform an attack, if the enemy ship is in your [Single Turret Arc], you may spend 1 [Force] to change 1 of your blank results to a [Hit] or [Crit] result.",
+        "ability": "While you defend or perform an attack, if the enemy ship is in your [Single Turret Arc], you may spend 1 [Force] to change 1 of your blank results to a [Evade] or [Hit] result.",
         "slots": ["Gunner"],
         "force": { "value": 1, "recovers": 1 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e11aec8ae6ec855694947bc2f9d1917e.png",
@@ -342,7 +450,13 @@
         "ffg": 478
       }
     ],
-    "restrictions": [{ "factions": ["Resistance"] }],
-    "cost": { "value": 14 }
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ],
+    "cost": {
+      "value": 14
+    }
   }
 ]

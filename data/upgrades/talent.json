@@ -14,8 +14,16 @@
         "ffg": 381
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "action": { "type": "Focus" } }]
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Focus"
+        }
+      }
+    ]
   },
   {
     "name": "Crack Shot",
@@ -27,13 +35,18 @@
         "type": "Talent",
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], before the Neutralize Results step, you may spend 1 [Charge] to cancel 1 [Evade] result.",
         "slots": ["Talent"],
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_1.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_1.jpg",
         "ffg": 230
       }
     ],
-    "cost": { "value": 1 }
+    "cost": {
+      "value": 1
+    }
   },
   {
     "name": "Daredevil",
@@ -50,10 +63,19 @@
         "ffg": 231
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "restrictions": [
-      { "sizes": ["Small"] },
-      { "action": { "type": "Boost", "difficulty": "White" } }
+      {
+        "sizes": ["Small"]
+      },
+      {
+        "action": {
+          "type": "Boost",
+          "difficulty": "White"
+        }
+      }
     ]
   },
   {
@@ -66,11 +88,19 @@
         "type": "Talent",
         "ability": "While you perform a red [Evade] action, if there is an obstacle at range 0-1, treat the action as white instead.",
         "slots": ["Talent"],
-        "actions": [{ "type": "Evade", "difficulty": "Red" }],
+        "actions": [
+          {
+            "type": "Evade",
+            "difficulty": "Red"
+          }
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Evade", "difficulty": "Red" },
+            "value": {
+              "type": "Evade",
+              "difficulty": "Red"
+            },
             "amount": 1
           }
         ],
@@ -79,8 +109,14 @@
         "ffg": 232
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }]
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "sizes": ["Small", "Medium"]
+      }
+    ]
   },
   {
     "name": "Elusive",
@@ -92,14 +128,23 @@
         "type": "Talent",
         "ability": "While you defend, you may spend 1 [Charge] to reroll 1 defense die. After you fully execute a red maneuver, recover 1 [Charge].",
         "slots": ["Talent"],
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_4.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_4.jpg",
         "ffg": 233
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }]
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "sizes": ["Small", "Medium"]
+      }
+    ]
   },
   {
     "name": "Expert Handling",
@@ -111,11 +156,19 @@
         "type": "Talent",
         "text": "While heavy fighters can often be coaxed into a barrel roll, seasoned pilots know how to do it without putting undue stress on their craft or leaving themselves open to attack.",
         "slots": ["Talent"],
-        "actions": [{ "type": "Barrel Roll", "difficulty": "White" }],
+        "actions": [
+          {
+            "type": "Barrel Roll",
+            "difficulty": "White"
+          }
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Barrel Roll", "difficulty": "White" },
+            "value": {
+              "type": "Barrel Roll",
+              "difficulty": "White"
+            },
             "amount": 1
           }
         ],
@@ -126,10 +179,19 @@
     ],
     "cost": {
       "variable": "size",
-      "values": { "Small": 2, "Medium": 4, "Large": 6 }
+      "values": {
+        "Small": 2,
+        "Medium": 4,
+        "Large": 6
+      }
     },
     "restrictions": [
-      { "action": { "type": "Barrel Roll", "difficulty": "Red" } }
+      {
+        "action": {
+          "type": "Barrel Roll",
+          "difficulty": "Red"
+        }
+      }
     ]
   },
   {
@@ -146,7 +208,9 @@
         "ffg": 459
       }
     ],
-    "cost": { "value": 0 }
+    "cost": {
+      "value": 2
+    }
   },
   {
     "name": "Fearless",
@@ -163,8 +227,14 @@
         "ffg": 235
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Heroic",
@@ -181,7 +251,9 @@
         "ffg": 471
       }
     ],
-    "cost": { "value": 0 }
+    "cost": {
+      "value": 1
+    }
   },
   {
     "name": "Intimidation",
@@ -198,7 +270,9 @@
         "ffg": 236
       }
     ],
-    "cost": { "value": 3 }
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Juke",
@@ -221,8 +295,14 @@
         "ffg": 237
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }]
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "sizes": ["Small", "Medium"]
+      }
+    ]
   },
   {
     "name": "Lone Wolf",
@@ -234,13 +314,18 @@
         "type": "Talent",
         "ability": "While you defend or perform an attack, if there are no other friendly ships at range 0-2, you may spend 1 [Charge] to reroll 1 of your dice.",
         "slots": ["Talent"],
-        "charges": { "value": 1, "recovers": 1 },
+        "charges": {
+          "value": 1,
+          "recovers": 1
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_9.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_9.jpg",
         "ffg": 238
       }
     ],
-    "cost": { "value": 4 }
+    "cost": {
+      "value": 4
+    }
   },
   {
     "name": "Marksmanship",
@@ -257,7 +342,9 @@
         "ffg": 239
       }
     ],
-    "cost": { "value": 1 }
+    "cost": {
+      "value": 1
+    }
   },
   {
     "name": "Outmaneuver",
@@ -267,14 +354,16 @@
       {
         "title": "Outmaneuver",
         "type": "Talent",
-        "ability": "While you perform a [Front Arc] arrack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.",
+        "ability": "While you perform a [Front Arc] attack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.",
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_11.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_11.jpg",
         "ffg": 240
       }
     ],
-    "cost": { "value": 6 }
+    "cost": {
+      "value": 6
+    }
   },
   {
     "name": "Predator",
@@ -291,7 +380,9 @@
         "ffg": 241
       }
     ],
-    "cost": { "value": 2 }
+    "cost": {
+      "value": 2
+    }
   },
   {
     "name": "Ruthless",
@@ -308,8 +399,14 @@
         "ffg": 242
       }
     ],
-    "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "cost": {
+      "value": 1
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ]
   },
   {
     "name": "Saturation Salvo",
@@ -319,15 +416,23 @@
       {
         "title": "Saturation Salvo",
         "type": "Talent",
-        "ability": "While you perform a [Torpedo] or [Missile] attack, you may spend 1 charge from that upgrade. If you do, choose two defence dice. The defender must reroll those dice.",
+        "ability": "While you perform a [Torpedo] or [Missile] attack, you may spend 1 [Charge] from that upgrade. If you do, choose two defense dice. The defender must reroll those dice.",
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_14.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_14.jpg",
         "ffg": 243
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "action": { "type": "Reload" } }]
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Reload"
+        }
+      }
+    ]
   },
   {
     "name": "Selfless",
@@ -344,8 +449,14 @@
         "ffg": 244
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Squad Leader",
@@ -357,11 +468,19 @@
         "type": "Talent",
         "ability": "While you coordinate, the ship you choose can perform an action only if that action is also on your action bar.",
         "slots": ["Talent"],
-        "actions": [{ "type": "Coordinate", "difficulty": "Red" }],
+        "actions": [
+          {
+            "type": "Coordinate",
+            "difficulty": "Red"
+          }
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Coordinate", "difficulty": "Red" },
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "Red"
+            },
             "amount": 1
           }
         ],
@@ -370,7 +489,9 @@
         "ffg": 245
       }
     ],
-    "cost": { "value": 4 }
+    "cost": {
+      "value": 4
+    }
   },
   {
     "name": "Swarm Tactics",
@@ -387,7 +508,9 @@
         "ffg": 246
       }
     ],
-    "cost": { "value": 3 }
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Trick Shot",
@@ -404,6 +527,8 @@
         "ffg": 247
       }
     ],
-    "cost": { "value": 1 }
+    "cost": {
+      "value": 1
+    }
   }
 ]

@@ -86,7 +86,11 @@
       "limited": 1,
       "cost": 82,
       "ability": "After you defend, you may spend 1 [Force] to assign the I'll Show You the Dark Side condition to the attacker.",
-      "force": { "value": 2, "recovers": 1, "side": ["dark"] },
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": ["dark"]
+      },
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
@@ -103,7 +107,7 @@
       "initiative": 4,
       "limited": 0,
       "cost": 62,
-      "text": "Engineered for incredible speed and precise handling, the TIE Silencer is devastating in the hands of those who can unlock its full potential. Any lesser pilot could easily be overwhelmed and lose control of the nimble craft. ",
+      "text": "Engineered for incredible speed and precise handling, the TIE Silencer is devastating in the hands of those who can unlock its full potential. Any lesser pilot could easily be overwhelmed and lose control of the nimble craft.",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."

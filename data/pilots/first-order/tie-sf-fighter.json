@@ -26,37 +26,66 @@
   ],
   "faction": "First Order",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "arc": "Single Turret Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": { "difficulty": "White", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
       "type": "Focus"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "White", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
       "type": "Evade"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "White", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
       "type": "Lock"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "White", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
       "type": "Barrel Roll"
     }
   ],
   "pilots": [
     {
-      "name": "Quickdraw",
+      "name": "\"Quickdraw\"",
       "caption": "Defiant Duelist",
       "initiative": 6,
       "limited": 1,
@@ -81,7 +110,7 @@
       "ffg": 406
     },
     {
-      "name": "Backdraft",
+      "name": "\"Backdraft\"",
       "caption": "Fiery Fanatic",
       "initiative": 4,
       "limited": 1,

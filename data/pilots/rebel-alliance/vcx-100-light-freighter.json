@@ -24,15 +24,37 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 4 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 10 },
-    { "type": "shields", "value": 4 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 4
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 10
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Reinforce" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    }
   ],
   "pilots": [
     {
@@ -45,13 +67,22 @@
       "ability": "At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_75.png",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Reinforce" }
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce"
+        }
       ],
       "shipAbility": {
         "name": "Tail Gun",
-        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
+        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
       },
       "slots": [
         "Turret",
@@ -76,7 +107,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_73.png",
       "shipAbility": {
         "name": "Tail Gun",
-        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
+        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
       },
       "slots": [
         "Talent",
@@ -100,10 +131,14 @@
       "xws": "kananjarrus",
       "ability": "While a friendly ship in your firing arc defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_74.png",
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": ["light"]
+      },
       "shipAbility": {
         "name": "Tail Gun",
-        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
+        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
       },
       "slots": [
         "Force Power",
@@ -128,7 +163,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_76.png",
       "shipAbility": {
         "name": "Tail Gun",
-        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] value."
+        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
       },
       "slots": [
         "Turret",

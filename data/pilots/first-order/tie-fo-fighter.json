@@ -85,7 +85,10 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f7506ec739f5580d484ff0ee49b041f3.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d9cfa6aacc29d55a47aaa0d9f75d362e.jpg",
       "slots": ["Talent", "Tech", "Modification"],
-      "charges": { "value": 2, "recovers": 0 },
+      "charges": {
+        "value": 2,
+        "recovers": 0
+      },
       "ffg": 452
     },
     {
@@ -108,7 +111,7 @@
       "limited": 1,
       "cost": 35,
       "xws": "static",
-      "ability": "While you perform a primary attack, you may spend your lock on the defender and a focus token to change all your results to [Crit] results.",
+      "ability": "While you perform a primary attack, you may spend your lock on the defender and a focus token to change all of your results to [Critical Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/2481fe5d98026e086a901d83dbe87018.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/30e0837d4877df289c220ea0ae174078.jpg",
       "slots": ["Talent", "Tech", "Modification"],
@@ -145,7 +148,7 @@
       "limited": 1,
       "cost": 32,
       "xws": "muse",
-      "ability": "At that start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.",
+      "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/7de4e91de0906eb548bfe3a08a1b6abe.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d3f8b9baf0bbd8a7d2b785a616dacbcf.jpg",
       "slots": ["Talent", "Tech", "Modification"],
@@ -158,7 +161,7 @@
       "limited": 1,
       "cost": 31,
       "xws": "tn3465",
-      "ability": "While another friendly ship performs an attack, if you are at range 0-1 of the defender, you may suffer 1 [Crit] damage to change 1 of the attacker's results to a [Crit] result.",
+      "ability": "While another friendly ship performs an attack, if you are at range 0-1 of the defender, you may suffer 1 [Critical Hit] damage to change 1 of the attacker's results to a [Critical Hit] result.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/333cbf0da8849edb38c4e93944d8fe57.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/9fce0e75539a225e9ff1536e466c3c13.jpg",
       "slots": ["Tech", "Modification"],

@@ -23,15 +23,37 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 5 },
-    { "type": "shields", "value": 1 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 5
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Barrel Roll" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    }
   ],
   "pilots": [
     {
@@ -78,7 +100,7 @@
       "limited": 0,
       "cost": 40,
       "xws": "cartelmarauder",
-      "text": "The versatile Kihraxz was modeled after Incom's popular X-wing starfighter, but an array of aftermarket modification kits ensure a wide variety of designs.",
+      "text": "The versatile Kihraxz was modeled after Incom's popular X-wing starfighter, but an array of after-market modification kits ensure a wide variety of designs.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_196.png",
       "slots": [
         "Missile",
@@ -97,7 +119,7 @@
       "limited": 1,
       "cost": 47,
       "xws": "graz",
-      "ability": "While you defend, if you are behind the attacker, roll 1 additional defense die. While you perform an attack, if you are behind the defender roll 1 additional attack die.",
+      "ability": "While you defend, if you are behind the attacker, roll 1 additional defense die. While you perform an attack, if you are behind the defender, roll 1 additional attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_192.png",
       "slots": [
         "Talent",
@@ -117,7 +139,7 @@
       "limited": 1,
       "cost": 50,
       "xws": "talonbanecobra",
-      "ability": "While you defend at attack range 3 or perform an attack at range 1, roll 1 additional die.",
+      "ability": "While you defend at attack range 3 or perform an attack at attack range 1, roll 1 additional die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_191.png",
       "slots": [
         "Talent",
@@ -137,7 +159,7 @@
       "limited": 1,
       "cost": 45,
       "xws": "viktorhel",
-      "ability": "After you defend, if you did not roll exactly 2 defense dice, the attack gains 1 stress token.",
+      "ability": "After you defend, if you did not roll exactly 2 defense dice, the attacker gains 1 stress token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_193.png",
       "slots": [
         "Talent",

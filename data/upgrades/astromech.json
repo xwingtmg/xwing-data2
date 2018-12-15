@@ -7,14 +7,20 @@
       {
         "title": "\"Chopper\"",
         "type": "Astromech",
-        "ability": "Action: Spend 1 non-recurring [Charge] from another equipped upgrade to recover 1 shield. Action: Spend 2 shields to recover 1 non-recurring [Charge] on an equipped upgrade.",
+        "ability": "Action: Spend 1 non-recurring  [Charge] from another equipped upgrade to recover 1 shield.  Action: Spend 2 shields to recover 1 non-recurring [Charge] on an equipped upgrade.",
         "slots": ["Astromech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_99.png",
         "ffg": 323
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "\"Genius\"",
@@ -31,8 +37,14 @@
         "ffg": 368
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "R2 Astromech",
@@ -44,13 +56,18 @@
         "type": "Astromech",
         "ability": "After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield.",
         "slots": ["Astromech"],
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_53.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_53.jpg",
         "ffg": 282
       }
     ],
-    "cost": { "value": 6 }
+    "cost": {
+      "value": 6
+    }
   },
   {
     "name": "R2-D2",
@@ -63,13 +80,22 @@
         "ability": "After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_100.png",
         "slots": ["Astromech"],
-        "charges": { "value": 3, "recovers": 0 },
+        "charges": {
+          "value": 3,
+          "recovers": 0
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_100.jpg",
         "ffg": 324
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "R3 Astromech",
@@ -86,7 +112,9 @@
         "ffg": 283
       }
     ],
-    "cost": { "value": 3 }
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "R4 Astromech",
@@ -103,8 +131,14 @@
         "ffg": 284
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "sizes": ["Small"] }]
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "sizes": ["Small"]
+      }
+    ]
   },
   {
     "name": "R5 Astromech",
@@ -116,13 +150,18 @@
         "type": "Astromech",
         "ability": "Action: Spend 1 [Charge] to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.",
         "slots": ["Astromech"],
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_56.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_56.jpg",
         "ffg": 285
       }
     ],
-    "cost": { "value": 5 }
+    "cost": {
+      "value": 5
+    }
   },
   {
     "name": "R5-D8",
@@ -134,14 +173,23 @@
         "type": "Astromech",
         "ability": "Action: Spend 1 [Charge] to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.",
         "slots": ["Astromech"],
-        "charges": { "value": 3, "recovers": 0 },
+        "charges": {
+          "value": 3,
+          "recovers": 0
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_101.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_101.jpg",
         "ffg": 325
       }
     ],
-    "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 7
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "R5-P8",
@@ -151,16 +199,25 @@
       {
         "title": "R5-P8",
         "type": "Astromech",
-        "ability": "While you perform an attack against a defender in your [Front Arc], you may spend 1 [Charge] to reroll 1 attack die. If the rerolled result is a [Critical Hit], suffer 1 [Critical Hit] damage.",
+        "ability": "While you perform an attack against a defender in your [Front Arc], you may spend 1 [Charge] to reroll 1 attack die. If the rerolled result is a [Critical Hit] result, suffer 1 [Critical Hit] damage.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_144.png",
         "slots": ["Astromech"],
-        "charges": { "value": 3, "recovers": 0 },
+        "charges": {
+          "value": 3,
+          "recovers": 0
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_144.jpg",
         "ffg": 369
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "R5-TK",
@@ -177,8 +234,14 @@
         "ffg": 370
       }
     ],
-    "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 1
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "R5-X3",
@@ -196,8 +259,14 @@
         "ffg": 483
       }
     ],
-    "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "cost": {
+      "value": 5
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ]
   },
   {
     "name": "R2-HA",
@@ -214,8 +283,14 @@
         "ffg": 482
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ]
   },
   {
     "name": "BB-8",
@@ -236,8 +311,14 @@
         "ffg": 479
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ]
   },
   {
     "name": "BB Astromech",
@@ -247,7 +328,7 @@
       {
         "title": "BB Astromech",
         "type": "Astromech",
-        "ability": "Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll].",
+        "ability": "Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] action.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/010399f4054469aed3b04acba08d41b0.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a2e3aaf77e8690a37e76ef4ae2087180.jpg",
         "slots": ["Astromech"],
@@ -258,7 +339,9 @@
         "ffg": 480
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 5
+    },
     "restrictions": [
       {
         "factions": ["Resistance"]
@@ -280,7 +363,9 @@
         "ffg": 481
       }
     ],
-    "cost": { "value": 7 },
+    "cost": {
+      "value": 7
+    },
     "restrictions": [
       {
         "factions": ["Resistance"]

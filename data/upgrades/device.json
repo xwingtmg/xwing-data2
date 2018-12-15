@@ -7,9 +7,12 @@
       {
         "title": "Bomblet Generator",
         "type": "Device",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] templete. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
+        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
         "slots": ["Device", "Device"],
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "device": {
           "name": "Bomblet",
           "type": "Bomb",
@@ -20,7 +23,9 @@
         "ffg": 392
       }
     ],
-    "cost": { "value": 5 }
+    "cost": {
+      "value": 5
+    }
   },
   {
     "name": "Conner Nets",
@@ -32,7 +37,10 @@
         "type": "Device",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": ["Device"],
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "device": {
           "name": "Conner Net",
           "type": "Mine",
@@ -43,7 +51,9 @@
         "ffg": 393
       }
     ],
-    "cost": { "value": 6 }
+    "cost": {
+      "value": 6
+    }
   },
   {
     "name": "Proton Bombs",
@@ -56,7 +66,10 @@
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb using the [1 [Straight]] template.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_65.png",
         "slots": ["Device"],
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "device": {
           "name": "Proton Bomb",
           "type": "Bomb",
@@ -66,7 +79,9 @@
         "ffg": 394
       }
     ],
-    "cost": { "value": 5 }
+    "cost": {
+      "value": 5
+    }
   },
   {
     "name": "Proximity Mines",
@@ -78,7 +93,10 @@
         "type": "Device",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": ["Device"],
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "device": {
           "name": "Proximity Mine",
           "type": "Mine",
@@ -89,7 +107,9 @@
         "ffg": 395
       }
     ],
-    "cost": { "value": 6 }
+    "cost": {
+      "value": 6
+    }
   },
   {
     "name": "Seismic Charges",
@@ -102,7 +122,10 @@
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge with the [1 [Straight]] template.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_67.png",
         "slots": ["Device"],
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "device": {
           "name": "Seismic Charge",
           "type": "Bomb",
@@ -112,6 +135,8 @@
         "ffg": 396
       }
     ],
-    "cost": { "value": 3 }
+    "cost": {
+      "value": 3
+    }
   }
 ]

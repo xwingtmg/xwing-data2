@@ -24,15 +24,37 @@
   ],
   "faction": "Resistance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 4 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Boost" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
   ],
   "pilots": [
     {
@@ -49,7 +71,10 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/14c504c0815213a66010c4013d9296ee.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/cb8efd0b723b8ceb0c35b7a64b309bf2.jpg",
       "cost": 68,
-      "charges": { "value": 1, "recovers": 1 },
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
       "slots": [
         "Talent",
         "Tech",
@@ -65,7 +90,7 @@
       "initiative": 1,
       "limited": 0,
       "xws": "bluesquadronrookie",
-      "text": "The Incom-FreiTek T-70 X-Wing was designed to improve upon the tactical flexibility of the venerable T-65. The starfighter's advanced droid socket is compatible with a wider array of astromechs, and its modular weapons pods allow ground crews to tailor its payload for specific missions.",
+      "text": "The Incom-FreiTek T-70 X-Wing was designed to improve upon the tactical flexibility of the venerable T-65. The starfighter's advanced droid socket is compatible with a wide array of astromechs, and its modular weapons pods allow ground crews to tailor its payload for specific missions.",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
@@ -97,7 +122,7 @@
       "initiative": 4,
       "limited": 0,
       "xws": "blacksquadronace-t70xwing",
-      "text": "During the Cold War, Poe Dameron's Black Squadron conducted covert operations against the First Order in defiance of treaties ratified by the New Republic Senate.",
+      "text": "During the Cold War, Poe Dameron's Black Squadron conducted daring covert operations against the First Order in defiance of treaties ratified by the New Republic Senate.",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
@@ -121,7 +146,7 @@
       "initiative": 5,
       "limited": 1,
       "xws": "elloasty",
-      "ability": "After you reveal a red Tallon Roll ([Tallon Roll Left] or [Tallon Roll Right] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.",
+      "ability": "After you reveal a red Tallon Roll [[Tallon Roll Left] or [Tallon Roll Right]] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
@@ -164,7 +189,7 @@
       "ffg": 424
     },
     {
-      "name": "Karé Kun",
+      "name": "Kare Kun",
       "caption": "Woman of Action",
       "initiative": 4,
       "limited": 1,
@@ -259,7 +284,10 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/bc26d8864f421f1362473aa4982108ba.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/05c48dc381e54c6951d3ee42d3587577.jpg",
       "cost": 52,
-      "charges": { "value": 1, "recovers": 1 },
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
       "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"],
       "ffg": 423
     },

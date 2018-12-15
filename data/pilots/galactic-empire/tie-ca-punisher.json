@@ -22,21 +22,49 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Lock" },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Lock"
+      },
       "type": "Boost"
     },
-    { "difficulty": "White", "type": "Reload" }
+    {
+      "difficulty": "White",
+      "type": "Reload"
+    }
   ],
   "pilots": [
     {
@@ -68,7 +96,7 @@
       "limited": 1,
       "cost": 44,
       "xws": "redline",
-      "ability": "You can maintain up to 2 locks. After you perform an action, you may acquire a lock.",
+      "ability": "You can maintain up to 2 locks.  After you perform an action, you may acquire a lock.",
       "slots": [
         "Sensor",
         "Torpedo",

@@ -23,23 +23,45 @@
   ],
   "faction": "Scum and Villainy",
   "stats": [
-    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Single Turret Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Rotate Arc"
+      },
       "type": "Focus"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Rotate Arc"
+      },
       "type": "Lock"
     },
-    { "difficulty": "Red", "type": "Barrel Roll" }
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    }
   ],
   "pilots": [
     {
@@ -61,7 +83,7 @@
       "limited": 1,
       "cost": 64,
       "xws": "dengar",
-      "ability": "After you defend, if the attcker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
+      "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_214.png",
       "alt": [
         {
@@ -69,7 +91,10 @@
           "source": "Coruscant Invitational 2018"
         }
       ],
-      "charges": { "value": 1, "recovers": 1 },
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
       "slots": [
         "Talent",
         "Crew",
@@ -110,7 +135,10 @@
       "xws": "teltrevura",
       "ability": "If you would be destroyed, you may spend 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [Hit] damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_216.png",
-      "charges": { "value": 1, "recovers": 0 },
+      "charges": {
+        "value": 1,
+        "recovers": 0
+      },
       "slots": [
         "Talent",
         "Crew",

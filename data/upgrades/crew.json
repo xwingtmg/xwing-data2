@@ -14,8 +14,14 @@
         "ffg": 307
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "\"Zeb\" Orrelios",
@@ -32,8 +38,14 @@
         "ffg": 318
       }
     ],
-    "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 1
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "0-0-0",
@@ -50,9 +62,14 @@
         "ffg": 352
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "restrictions": [
-      { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
+      {
+        "factions": ["Scum and Villainy"],
+        "names": ["Darth Vader"]
+      }
     ]
   },
   {
@@ -70,8 +87,14 @@
         "ffg": 353
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Admiral Sloane",
@@ -88,8 +111,14 @@
         "ffg": 335
       }
     ],
-    "cost": { "value": 10 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "cost": {
+      "value": 10
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ]
   },
   {
     "name": "Agent Kallus",
@@ -107,8 +136,14 @@
         "ffg": 336
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ]
   },
   {
     "name": "Baze Malbus",
@@ -118,15 +153,21 @@
       {
         "title": "Baze Malbus",
         "type": "Crew",
-        "ability": "While you perform a [Focus] action, you may treat it as red. If you do, gain 1 additional focus token for each enemy ship at range 0-1 to a maximum of 2.",
+        "ability": "While you perform a [Focus] action, you may treat it as red. If you do, gain 1 additional focus token for each enemy ship at range 0-1, to a maximum of 2.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_79.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_79.jpg",
         "ffg": 303
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Boba Fett",
@@ -136,15 +177,21 @@
       {
         "title": "Boba Fett",
         "type": "Crew",
-        "ability": "Setup: Start in reserve. At the end of Setup, place yourself at range 0 of an obstacle and beyond range 3 of an enemy ship.",
+        "ability": "Setup: Start in reserve. At the end of Setup, place yourself at range 0 of an obstacle and beyond range 3 of any enemy ship.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_129.png",
         "slots": ["Crew"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_129.jpg",
         "ffg": 354
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "C-3PO",
@@ -154,13 +201,21 @@
       {
         "title": "C-3PO",
         "type": "Crew",
-        "ability": "Before rolling defense dice, you may spend 1 calculate token to guess aloud a number 1 or higher. If you do, and you roll exactly that many [Evade] results, add 1 [Evade] result. Adter you perform the [Calculate] action, gain 1 calculate token.",
+        "ability": "Before rolling defense dice, you may spend 1 calculate token to guess aloud a number 1 or higher. If you do and you roll exactly that many [Evade] results, add 1 [Evade] result. After you perform the [Calculate] action, gain 1 calculate token.",
         "slots": ["Crew"],
-        "actions": [{ "type": "Calculate", "difficulty": "White" }],
+        "actions": [
+          {
+            "type": "Calculate",
+            "difficulty": "White"
+          }
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Calculate", "difficulty": "White" },
+            "value": {
+              "type": "Calculate",
+              "difficulty": "White"
+            },
             "amount": 1
           }
         ],
@@ -169,8 +224,14 @@
         "ffg": 304
       }
     ],
-    "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 12
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Cad Bane",
@@ -187,8 +248,14 @@
         "ffg": 355
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Captain Phasma",
@@ -205,8 +272,14 @@
         "ffg": 465
       }
     ],
-    "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["First Order"] }]
+    "cost": {
+      "value": 5
+    },
+    "restrictions": [
+      {
+        "factions": ["First Order"]
+      }
+    ]
   },
   {
     "name": "Cassian Andor",
@@ -223,8 +296,14 @@
         "ffg": 305
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Chewbacca",
@@ -236,14 +315,23 @@
         "type": "Crew",
         "ability": "At the start of the Engagement Phase, you may spend 2 [Charge] to repair 1 faceup damage card.",
         "slots": ["Crew"],
-        "charges": { "value": 2, "recovers": 1 },
+        "charges": {
+          "value": 2,
+          "recovers": 1
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_82.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_82.jpg",
         "ffg": 306
       }
     ],
-    "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 5
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Chewbacca",
@@ -260,8 +348,14 @@
         "ffg": 382
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Ciena Ree",
@@ -271,17 +365,25 @@
       {
         "title": "Ciena Ree",
         "type": "Crew",
-        "ability": "After you perform a [Coordinate] action, if the ship you coordinated performed a [Barrel Roll] or [Boost] action, it may gain 1 stress token to rotate 90˚.",
+        "ability": "After you perform a [Coordinate] action, if the ship you coordinated performed a [Barrel Roll] or [Boost] action, it may gain 1 stress token to rotate 90°.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_111.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_111.jpg",
         "ffg": 337
       }
     ],
-    "cost": { "value": 10 },
+    "cost": {
+      "value": 10
+    },
     "restrictions": [
-      { "factions": ["Galactic Empire"] },
-      { "action": { "type": "Coordinate" } }
+      {
+        "factions": ["Galactic Empire"]
+      },
+      {
+        "action": {
+          "type": "Coordinate"
+        }
+      }
     ]
   },
   {
@@ -299,8 +401,14 @@
         "ffg": 356
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Darth Vader",
@@ -312,14 +420,23 @@
         "type": "Crew",
         "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc at range 0-2 and spend 1 [Force]. If you do, that ship suffers 1 [Hit] damage unless it chooses to remove 1 green token.",
         "slots": ["Crew"],
-        "force": { "value": 1, "recovers": 1 },
+        "force": {
+          "value": 1,
+          "recovers": 1
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_112.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_112.jpg",
         "ffg": 338
       }
     ],
-    "cost": { "value": 14 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "cost": {
+      "value": 14
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ]
   },
   {
     "name": "Death Troopers",
@@ -336,8 +453,14 @@
         "ffg": 339
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ]
   },
   {
     "name": "Director Krennic",
@@ -357,11 +480,19 @@
         ],
         "conditions": ["optimizedprototype"],
         "slots": ["Crew"],
-        "actions": [{ "type": "Lock", "difficulty": "White" }],
+        "actions": [
+          {
+            "type": "Lock",
+            "difficulty": "White"
+          }
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Lock", "difficulty": "White" },
+            "value": {
+              "type": "Lock",
+              "difficulty": "White"
+            },
             "amount": 1
           }
         ],
@@ -369,8 +500,14 @@
         "ffg": 340
       }
     ],
-    "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "cost": {
+      "value": 5
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ]
   },
   {
     "name": "Emperor Palpatine",
@@ -383,13 +520,22 @@
         "ability": "While another friendly ship defends or performs an attack, you may spend 1 [Force] to modify 1 of its dice as though that ship had spent 1 [Force].",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_115.png",
         "slots": ["Crew", "Crew"],
-        "force": { "value": 1, "recovers": 1 },
+        "force": {
+          "value": 1,
+          "recovers": 1
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_115.jpg",
         "ffg": 341
       }
     ],
-    "cost": { "value": 13 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "cost": {
+      "value": 13
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ]
   },
   {
     "name": "Freelance Slicer",
@@ -399,14 +545,16 @@
       {
         "title": "Freelance Slicer",
         "type": "Crew",
-        "ability": "While you defend, before attack dice are rolled, you may spend a lock you have on the attacker to roll 1 attack die. If you do, the attacker gains 1 [Jam] token. Then, on a [Hit] or [Critical Hit] result, gain 1 [Jam] token.",
+        "ability": "While you defend, before attack dice are rolled, you may spend a lock you have on the attacker to roll 1 attack die. If you do, the attacker gains 1 jam token. Then, on a [Hit] or [Critical Hit] result, gain 1 jam token.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_42.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_42.jpg",
         "ffg": 271
       }
     ],
-    "cost": { "value": 3 }
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "General Hux",
@@ -416,15 +564,21 @@
       {
         "title": "General Hux",
         "type": "Crew",
-        "ability": "While you perform a white [Coordinate] action, you may treat if as red. If you do, you may coordinate up to 2 additional ships of the same ship type, and each ship you coordinate must perform the same action, treating that action as red.",
+        "ability": "While you perform a white [Coordinate] action, you may treat it as red. If you do, you may coordinate up to 2 additional ships of the same ship type, and each ship you coordinate must perform the same action, treating that action as red.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/fa0b8492eff625bc66f00bd561015465.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/94bee4960ca0fb907ba77d5cb2ff7abb.jpg",
         "ffg": 466
       }
     ],
-    "cost": { "value": 10 },
-    "restrictions": [{ "factions": ["First Order"] }]
+    "cost": {
+      "value": 10
+    },
+    "restrictions": [
+      {
+        "factions": ["First Order"]
+      }
+    ]
   },
   {
     "name": "GNK \"Gonk\" Droid",
@@ -436,13 +590,18 @@
         "type": "Crew",
         "ability": "Setup: Lose 1 [Charge]. Action: Recover 1 [Charge]. Action: Spend 1 [Charge] to recover 1 shield.",
         "slots": ["Crew"],
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_43.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_43.jpg",
         "ffg": 272
       }
     ],
-    "cost": { "value": 10 }
+    "cost": {
+      "value": 10
+    }
   },
   {
     "name": "Grand Inquisitor",
@@ -455,13 +614,22 @@
         "ability": "After an enemy ship at range 0-2 reveals its dial, you may spend 1 [Force] to perform 1 white action on your action bar, treating that action as red.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_116.png",
         "slots": ["Crew"],
-        "force": { "value": 1, "recovers": 1 },
+        "force": {
+          "value": 1,
+          "recovers": 1
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_116.jpg",
         "ffg": 342
       }
     ],
-    "cost": { "value": 16 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "cost": {
+      "value": 16
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ]
   },
   {
     "name": "Grand Moff Tarkin",
@@ -474,15 +642,26 @@
         "ability": "During the System Phase, you may spend 2 [Charge]. If you do, each friendly ship may acquire a lock on a ship that you have locked.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_117.png",
         "slots": ["Crew"],
-        "charges": { "value": 2, "recovers": 1 },
+        "charges": {
+          "value": 2,
+          "recovers": 1
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_117.jpg",
         "ffg": 343
       }
     ],
-    "cost": { "value": 10 },
+    "cost": {
+      "value": 10
+    },
     "restrictions": [
-      { "factions": ["Galactic Empire"] },
-      { "action": { "type": "Lock" } }
+      {
+        "factions": ["Galactic Empire"]
+      },
+      {
+        "action": {
+          "type": "Lock"
+        }
+      }
     ]
   },
   {
@@ -493,15 +672,21 @@
       {
         "title": "Hera Syndulla",
         "type": "Crew",
-        "ability": "You can execute red maneuvers even while stressed. After you fully execute a red maneuver, if you ahve 3 or more stress tokens, remove 1 stress token and suffer 1 [Hit] damage.",
+        "ability": "You can execute red maneuvers even while stressed. After you fully execute a red maneuver, if you have 3 or more stress tokens, remove 1 stress token and suffer 1 [Hit] damage.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_84.png",
         "slots": ["Crew"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_84.jpg",
         "ffg": 308
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "IG-88D",
@@ -514,11 +699,19 @@
         "ability": "You have the pilot ability of each other friendly ship with the IG-2000 upgrade. After you perform a [Calculate] action, gain 1 calculate token.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_132.png",
         "slots": ["Crew"],
-        "actions": [{ "type": "Calculate", "difficulty": "White" }],
+        "actions": [
+          {
+            "type": "Calculate",
+            "difficulty": "White"
+          }
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Calculate", "difficulty": "White" },
+            "value": {
+              "type": "Calculate",
+              "difficulty": "White"
+            },
             "amount": 1
           }
         ],
@@ -526,8 +719,14 @@
         "ffg": 357
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "ISB Slicer",
@@ -544,8 +743,14 @@
         "ffg": 344
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ]
   },
   {
     "name": "Informant",
@@ -563,7 +768,9 @@
         "ffg": 273
       }
     ],
-    "cost": { "value": 5 }
+    "cost": {
+      "value": 5
+    }
   },
   {
     "name": "Jabba the Hutt",
@@ -576,13 +783,22 @@
         "ability": "During the End Phase, you may choose 1 friendly ship at range 0-2 and spend 1 [Charge]. If you do, that ship recovers 1 [Charge] on 1 of its equipped [Illicit] upgrades.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_133.png",
         "slots": ["Crew", "Crew"],
-        "charges": { "value": 4, "recovers": 0 },
+        "charges": {
+          "value": 4,
+          "recovers": 0
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_133.jpg",
         "ffg": 358
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Jyn Erso",
@@ -599,8 +815,14 @@
         "ffg": 309
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Kanan Jarrus",
@@ -612,14 +834,23 @@
         "type": "Crew",
         "ability": "After a friendly ship at range 0-2 fully executes a white maneuver, you may spend 1 [Force] to remove 1 stress token from that ship.",
         "slots": ["Crew"],
-        "force": { "value": 1, "recovers": 1 },
+        "force": {
+          "value": 1,
+          "recovers": 1
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_86.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_86.jpg",
         "ffg": 310
       }
     ],
-    "cost": { "value": 14 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 14
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Ketsu Onyo",
@@ -636,8 +867,14 @@
         "ffg": 359
       }
     ],
-    "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 5
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Kylo Ren",
@@ -656,8 +893,14 @@
         "ffg": 467
       }
     ],
-    "cost": { "value": 11 },
-    "restrictions": [{ "factions": ["First Order"] }]
+    "cost": {
+      "value": 11
+    },
+    "restrictions": [
+      {
+        "factions": ["First Order"]
+      }
+    ]
   },
   {
     "name": "L3-37",
@@ -667,7 +910,7 @@
       {
         "title": "L3-37",
         "type": "Crew",
-        "ability": "Setup: Equip this side faceup. While you defend, you may flip this card. If you do, the attack must reroll all attack dice.",
+        "ability": "Setup: Equip this side faceup. While you defend, you may flip this card. If you do, the attacker must reroll all attack dice.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_158.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_158.jpg",
@@ -682,8 +925,14 @@
         "ffg": 383
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Lando Calrissian",
@@ -700,8 +949,14 @@
         "ffg": 385
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Lando Calrissian",
@@ -718,8 +973,14 @@
         "ffg": 311
       }
     ],
-    "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 5
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Latts Razzi",
@@ -736,8 +997,14 @@
         "ffg": 360
       }
     ],
-    "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 7
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Leia Organa",
@@ -750,13 +1017,22 @@
         "ability": "At the start of the Activation Phase, you may spend 3 [Charge]. During this phase, each friendly ship reduces the difficulty of its red maneuvers.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_88.png",
         "slots": ["Crew"],
-        "charges": { "value": 3, "recovers": 1 },
+        "charges": {
+          "value": 3,
+          "recovers": 1
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_88.jpg",
         "ffg": 312
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Magva Yarro",
@@ -773,8 +1049,14 @@
         "ffg": 313
       }
     ],
-    "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 7
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Maul",
@@ -784,20 +1066,34 @@
       {
         "title": "Maul",
         "type": "Crew",
-        "ability": "After you suffer damage, you may gain 1 stress token to recover 1 [Force]. You can equip \"Dark Side\" upgades.",
+        "ability": "After you suffer damage, you may gain 1 stress token to recover 1 [Force]. You can equip \"Dark Side\" upgrades.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_136.png",
         "slots": ["Crew"],
-        "force": { "value": 1, "recovers": 1 },
+        "force": {
+          "value": 1,
+          "recovers": 1
+        },
         "grants": [
-          { "type": "force", "value": { "side": ["dark"] }, "amount": 1 }
+          {
+            "type": "force",
+            "value": {
+              "side": ["dark"]
+            },
+            "amount": 1
+          }
         ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_136.jpg",
         "ffg": 361
       }
     ],
-    "cost": { "value": 13 },
+    "cost": {
+      "value": 13
+    },
     "restrictions": [
-      { "factions": ["Scum and Villainy"], "names": ["Ezra Bridger"] }
+      {
+        "factions": ["Scum and Villainy"],
+        "names": ["Ezra Bridger"]
+      }
     ]
   },
   {
@@ -815,8 +1111,14 @@
         "ffg": 345
       }
     ],
-    "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "cost": {
+      "value": 7
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ]
   },
   {
     "name": "Moff Jerjerrod",
@@ -829,15 +1131,26 @@
         "ability": "During the System Phase, you may spend 2 [Charge]. If you do, choose the [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] template. Each friendly ship may perform a red [Boost] action using that template.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_120.png",
         "slots": ["Crew"],
-        "charges": { "value": 2, "recovers": 1 },
+        "charges": {
+          "value": 2,
+          "recovers": 1
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_120.jpg",
         "ffg": 346
       }
     ],
-    "cost": { "value": 12 },
+    "cost": {
+      "value": 12
+    },
     "restrictions": [
-      { "factions": ["Galactic Empire"] },
-      { "action": { "type": "Coordinate" } }
+      {
+        "factions": ["Galactic Empire"]
+      },
+      {
+        "action": {
+          "type": "Coordinate"
+        }
+      }
     ]
   },
   {
@@ -848,15 +1161,21 @@
       {
         "title": "Nien Nunb",
         "type": "Crew",
-        "ability": "Decrease the difficulty of your bank maneuvers [[Bank Left] and [Bank Right]].",
+        "ability": "Decrease the difficulty of your bank maneuvers ([Bank Left] and [Bank Right]).",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_90.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_90.jpg",
         "ffg": 314
       }
     ],
-    "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 5
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Novice Technician",
@@ -866,14 +1185,16 @@
       {
         "title": "Novice Technician",
         "type": "Crew",
-        "ability": "At the end of the round, you may roll 1 attack die to repair 1 faceup damage card. Then, on a [Hit] result, expose 1 damage card.",
+        "ability": "At the end of the round, you may roll 1 attack die to repair 1 faceup damage card. Then on a [Hit] result, expose 1 damage card.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_45.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_45.jpg",
         "ffg": 274
       }
     ],
-    "cost": { "value": 4 }
+    "cost": {
+      "value": 4
+    }
   },
   {
     "name": "Perceptive Copilot",
@@ -890,7 +1211,9 @@
         "ffg": 275
       }
     ],
-    "cost": { "value": 10 }
+    "cost": {
+      "value": 10
+    }
   },
   {
     "name": "Petty Officer Thanisson",
@@ -907,8 +1230,14 @@
         "ffg": 468
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["First Order"] }]
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["First Order"]
+      }
+    ]
   },
   {
     "name": "Qi'ra",
@@ -918,15 +1247,21 @@
       {
         "title": "Qi'ra",
         "type": "Crew",
-        "ability": "While you move and perform attacks, you ignore all obstacles that you are locking.",
+        "ability": "While you move and perform attacks, you ignore obstacles that you are locking.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_161.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_161.jpg",
         "ffg": 387
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "R2-D2",
@@ -943,7 +1278,9 @@
         "ffg": 315
       }
     ],
-    "cost": { "value": 8 }
+    "cost": {
+      "value": 8
+    }
   },
   {
     "name": "Sabine Wren",
@@ -953,15 +1290,21 @@
       {
         "title": "Sabine Wren",
         "type": "Crew",
-        "ability": "Setup: Place 1 ion, 1 jam, 1 stress, and 1 tractor token on this card. After a ship suffers the effect of a friendly bomb, you may remove 1 ion, jam, stress, or tractor token from this card. If you do, that ship gains a matching token.",
+        "ability": "Setup: Place 1 ion, 1 jam, 1 stress, and 1 tractor token on this card.  After a ship suffers the effect of a friendly bomb, you may remove 1 ion, jam, stress, or tractor token from this card. If you do, that ship gains a matching token.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_92.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_92.jpg",
         "ffg": 316
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Saw Gerrera",
@@ -978,8 +1321,14 @@
         "ffg": 317
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ]
   },
   {
     "name": "Seasoned Navigator",
@@ -996,7 +1345,9 @@
         "ffg": 276
       }
     ],
-    "cost": { "value": 5 }
+    "cost": {
+      "value": 5
+    }
   },
   {
     "name": "Seventh Sister",
@@ -1009,13 +1360,22 @@
         "ability": "If an enemy ship at range 0-1 would gain a stress token, you may spend 1 [Force] to have it gain 1 jam or tractor token instead.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_121.png",
         "slots": ["Crew"],
-        "force": { "value": 1, "recovers": 1 },
+        "force": {
+          "value": 1,
+          "recovers": 1
+        },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_121.jpg",
         "ffg": 347
       }
     ],
-    "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "cost": {
+      "value": 12
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ]
   },
   {
     "name": "Supreme Leader Snoke",
@@ -1033,8 +1393,14 @@
         "ffg": 469
       }
     ],
-    "cost": { "value": 13 },
-    "restrictions": [{ "factions": ["First Order"] }]
+    "cost": {
+      "value": 13
+    },
+    "restrictions": [
+      {
+        "factions": ["First Order"]
+      }
+    ]
   },
   {
     "name": "Tactical Officer",
@@ -1046,11 +1412,19 @@
         "type": "Crew",
         "text": "In the chaos of a starfighter battle, a single order can mean the difference between a victory and a massacre.",
         "slots": ["Crew"],
-        "actions": [{ "type": "Coordinate", "difficulty": "White" }],
+        "actions": [
+          {
+            "type": "Coordinate",
+            "difficulty": "White"
+          }
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Coordinate", "difficulty": "White" },
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "White"
+            },
             "amount": 1
           }
         ],
@@ -1059,9 +1433,16 @@
         "ffg": 277
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "restrictions": [
-      { "action": { "type": "Coordinate", "difficulty": "Red" } }
+      {
+        "action": {
+          "type": "Coordinate",
+          "difficulty": "Red"
+        }
+      }
     ]
   },
   {
@@ -1079,8 +1460,14 @@
         "ffg": 386
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Unkar Plutt",
@@ -1090,15 +1477,21 @@
       {
         "title": "Unkar Plutt",
         "type": "Crew",
-        "ability": "After you partially excute a maneuver, you may suffer 1 [Hit] damage to perform 1 white action.",
+        "ability": "After you partially execute a maneuver, you may suffer 1 [Hit] damage to perform 1 white action.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_137.png",
         "slots": ["Crew"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_137.jpg",
         "ffg": 362
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "Zuckuss",
@@ -1108,15 +1501,21 @@
       {
         "title": "Zuckuss",
         "type": "Crew",
-        "ability": "While you perform an attack, if ou are not stressed, you may choose 1 defense die and gain 1 stress token. If you do, the defender must reroll that die.",
+        "ability": "While you perform an attack, if you are not stressed, you may choose 1 defense die and gain 1 stress token. If you do, the defender must reroll that die.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_138.png",
         "slots": ["Crew"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_138.jpg",
         "ffg": 363
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ]
   },
   {
     "name": "C-3PO",
@@ -1133,20 +1532,32 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Calculate", "difficulty": "White" },
+            "value": {
+              "type": "Calculate",
+              "difficulty": "White"
+            },
             "amount": 1
           },
           {
             "type": "action",
-            "value": { "type": "Coordinate", "difficulty": "Red" },
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "Red"
+            },
             "amount": 1
           }
         ],
         "ffg": 472
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ]
   },
   {
     "name": "Han Solo",
@@ -1163,15 +1574,24 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Evade", "difficulty": "Red" },
+            "value": {
+              "type": "Evade",
+              "difficulty": "Red"
+            },
             "amount": 1
           }
         ],
         "ffg": 474
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ]
   },
   {
     "name": "Chewbacca",
@@ -1181,16 +1601,25 @@
       {
         "title": "Chewbacca",
         "type": "Crew",
-        "ability": "Setup: Lose 1 [Charge]. After a friendly ship at range 0-3 is dealt 1 damage card, recover 1 [Charge]. While you perform an attack, you may spend 2 [Charge] to change 1 [Focus] result to a [Crit] result.",
+        "ability": "Setup: Lose 1 [Charge]. After a friendly ship at range 0-3 is dealt 1 damage card, recover 1 [Charge]. While you perform an attack, you may spend 2 [Charge] to change 1 [Focus] result to a [Critical Hit] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3090c218acff7dc71a81e791ce15860e.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3d124811dd272ec2355a30903a827034.jpg",
         "slots": ["Crew"],
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "ffg": 473
       }
     ],
-    "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "cost": {
+      "value": 5
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ]
   },
   {
     "name": "Rose Tico",
@@ -1200,14 +1629,20 @@
       {
         "title": "Rose Tico",
         "type": "Crew",
-        "ability": "While you defend or perform a primary attack, you may spend 1 of your results to acquire a lock on the enemy ship.",
+        "ability": "While you defend or perform an attack, you may spend 1 of your results to acquire a lock on the enemy ship.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/60ac08169a90794c33d1d582f1a08480.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/92a93952c31c95dff0fc96f31e88cfd3.jpg",
         "slots": ["Crew"],
         "ffg": 475
       }
     ],
-    "cost": { "value": 9 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "cost": {
+      "value": 9
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ]
   }
 ]
