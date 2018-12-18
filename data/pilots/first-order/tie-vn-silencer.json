@@ -91,6 +91,7 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
+      "conditions": ["illshowyouthedarkside"],
       "slots": ["Force Power", "Tech", "Torpedo", "Missile", "Modification"],
       "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/71dbde337b9ff5aab897781d40d8f653.png",
       "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/80b87be22656fc01742fca490193d440.jpg",
