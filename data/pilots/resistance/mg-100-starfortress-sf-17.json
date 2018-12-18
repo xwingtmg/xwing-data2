@@ -53,7 +53,7 @@
       "difficulty": "White",
       "type": "Lock"
     },
-    {
+    {fben
       "difficulty": "White",
       "type": "Rotate Arc"
     },
@@ -138,6 +138,7 @@
       "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/c9189c7e510b4d734d4d78c4f595010f.png",
       "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/74ca7444aec38cb0034b67b04f6aaa76.jpg",
       "cost": 68,
+      "conditions": ["rattled"],
       "slots": [
         "Sensor",
         "Tech",
