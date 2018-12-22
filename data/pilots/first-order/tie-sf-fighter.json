@@ -57,7 +57,7 @@
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEsf.png",
   "pilots": [
     {
-      "name": "Quickdraw",
+      "name": "\"Quickdraw\"",
       "caption": "Defiant Duelist",
       "initiative": 6,
       "limited": 1,
@@ -82,7 +82,7 @@
       "ffg": 406
     },
     {
-      "name": "Backdraft",
+      "name": "\"Backdraft\"",
       "caption": "Fiery Fanatic",
       "initiative": 4,
       "limited": 1,
@@ -111,6 +111,7 @@
       "limited": 0,
       "cost": 36,
       "xws": "omegasquadronexpert",
+      "text": "The TIE/sf is a versatile starfighter that specialized armaments and experimental systems for long-range operations for First Order Special Forces.",
       "shipAbility": {
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
@@ -133,6 +134,7 @@
       "limited": 0,
       "cost": 34,
       "xws": "zetasquadronsurvivor",
+      "text": "Humiliated by their failure, the remaining pilots from Starkiller Base are eager to prove their worth in pursuit of the Resistance.",
       "shipAbility": {
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
