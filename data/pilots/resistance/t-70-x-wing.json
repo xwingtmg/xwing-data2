@@ -66,7 +66,7 @@
       "initiative": 1,
       "limited": 0,
       "xws": "bluesquadronrookie",
-      "text": "The Incom-FreiTek T-70 X-Wing was designed to improve upon the tactical flexibility of the venerable T-65. The starfighter's advanced droid socket is compatible with a wider array of astromechs, and its modular weapons pods allow ground crews to tailor its payload for specific missions.",
+      "text": "The Incom-FreiTek T-70 X-Wing was designed to improve upon the tactical flexibility of the venerable T-65. The starfighter's advanced droid socket is compatible with a wide array of astromechs, and its modular weapons pods allow ground crews to tailor its payload for specific missions.",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
@@ -90,7 +90,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/58967d94cfef285c4df2fdbb77fd0502.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0e847453270afe089ea331316f7b7731.jpg",
       "cost": 48,
-      "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"],
+      "slots": ["Talent", "Tech", "Astromech", "Modification", "Configuration", "Title"],
       "ffg": 425
     },
     {
@@ -98,7 +98,7 @@
       "initiative": 4,
       "limited": 0,
       "xws": "blacksquadronace-t70xwing",
-      "text": "During the Cold War, Poe Dameron's Black Squadron conducted covert operations against the First Order in defiance of treaties ratified by the New Republic Senate.",
+      "text": "During the Cold War, Poe Dameron's Black Squadron conducted daring covert operations against the First Order in defiance of treaties ratified by the New Republic Senate.",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
@@ -122,7 +122,7 @@
       "initiative": 5,
       "limited": 1,
       "xws": "elloasty",
-      "ability": "After you reveal a red Tallon Roll ([Tallon Roll Left] or [Tallon Roll Right] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.",
+      "ability": "After you reveal a red Tallon Roll [[Tallon Roll Left] or [Tallon Roll Right]] maneuver, if you have 2 or fewer stress tokens, treat that maneuver as white.",
       "shipAbility": {
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
@@ -165,7 +165,7 @@
       "ffg": 424
     },
     {
-      "name": "Karé Kun",
+      "name": "Kare Kun",
       "caption": "Woman of Action",
       "initiative": 4,
       "limited": 1,
