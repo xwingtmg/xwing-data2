@@ -104,7 +104,7 @@
       "initiative": 4,
       "limited": 0,
       "cost": 62,
-      "text": "Engineered for incredible speed and precise handling, the TIE Silencer is devastating in the hands of those who can unlock its full potential. Any lesser pilot could easily be overwhelmed and lose control of the nimble craft. ",
+      "text": "Engineered for incredible speed and precise handling, the TIE Silencer is devastating in the hands of those who can unlock its full potential. Any lesser pilot could easily be overwhelmed and lose control of the nimble craft.",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
@@ -121,7 +121,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 63,
-      "text": "While you are stressed, you may treat enemy ships in your [Front Arc] at range 0-1 as being in your [Bullseye Arc].",
+      "ability": "While you are stressed, you may treat enemy ships in your [Front Arc] at range 0-1 as being in your [Bullseye Arc].",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
@@ -138,7 +138,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 62,
-      "text": "After another friendly ship is destroyed, you may perform an action, even while stressed.",
+      "ability": "After another friendly ship is destroyed, you may perform an action, even while stressed.",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
