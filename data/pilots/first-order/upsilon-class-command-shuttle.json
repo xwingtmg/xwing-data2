@@ -98,7 +98,7 @@
       "limited": 1,
       "cost": 63,
       "xws": "majorstridan",
-      "ability": "While you coordinate or resolve the effect of one of your upgrades, you may treat friendly ships at range 2-3 as being at range 0 or range1.",
+      "ability": "While you coordinate or resolve the effect of one of your upgrades, you may treat friendly ships at range 2-3 as being at range 0 or range 1.",
       "shipAbility": {
         "name": "Linked Battery",
         "text": "Whlie you perform a [Cannon] attack, roll 1 additional die."
@@ -158,7 +158,7 @@
         "value": 1,
         "recovers": 1
       },
-      "text": " The Upsilon-class command shuttle serves as a base of operations for many of the First Order's senior officers and agents. Its powerful sensors and communications equipment allow them to orchestrate the spread of terror across the galaxy. ",
+      "text": "The Upsilon-class command shuttle serves as a base of operations for many of the First Order's senior officers and agents. Its powerful sensors and communications equipment allow them to orchestrate the spread of terror across the galaxy.",
       "shipAbility": {
         "name": "Linked Battery",
         "text": "Whlie you perform a [Cannon] attack, roll 1 additional die."
@@ -180,11 +180,11 @@
     {
       "name": "Lieutenant Tavson",
       "caption": "Obedient Shuttle Pilot",
-      "initiative": 2,
+      "initiative": 3,
       "limited": 1,
       "cost": 62,
       "xws": "lieutenanttavson",
-      "ability": "After you suffer damage, you may spend 1 [Charge] to perform an action. ",
+      "ability": "After you suffer damage, you may spend 1 [Charge] to perform an action.",
       "charges": {
         "value": 2,
         "recovers": 1
