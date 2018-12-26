@@ -146,7 +146,8 @@
         "ffg": 459
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["First Order"] }]
   },
   {
     "name": "Fearless",
@@ -181,7 +182,8 @@
         "ffg": 471
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 1 },
+    "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
     "name": "Intimidation",
