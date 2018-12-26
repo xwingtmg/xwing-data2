@@ -47,6 +47,10 @@
       }
     ],
     "cost": { "value": 2 },
+    "restrictions": [
+      { "factions": ["Resistance"] },
+      { "ships": ["t70xwing"] }
+    ]
     "image": "https://images-cdn.fantasyflightgames.com/filer_public/e2/e4/e2e492b1-66d9-4dcc-9af6-a1a4e07a7378/swz25_black-one_a1.png"
   },
   {
