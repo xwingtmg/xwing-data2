@@ -62,7 +62,7 @@
     },
     "restrictions": [
       { "factions": ["First Order"] },
-      { "sizes": ["Large"] },
+      { "sizes": ["Large"] }
     ]
   },
   {
@@ -147,7 +147,7 @@
     },
     "restrictions": [
       { "factions": ["First Order"] },
-      { "action": { "type": "Lock" } },
+      { "action": { "type": "Lock" } }
     ]
   }
 ]
