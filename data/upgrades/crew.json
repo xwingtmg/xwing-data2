@@ -943,7 +943,8 @@
         "ffg": 315
       }
     ],
-    "cost": { "value": 8 }
+    "cost": { "value": 8 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }]
   },
   {
     "name": "Sabine Wren",
