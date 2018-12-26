@@ -59,7 +59,11 @@
     ],
     "cost": {
       "value": 0
-    }
+    },
+    "restrictions": [
+      { "factions": ["First Order"] },
+      { "sizes": ["Large"] },
+    ]
   },
   {
     "name": "Primed Thrusters",
@@ -140,6 +144,10 @@
     ],
     "cost": {
       "value": 1
-    }
+    },
+    "restrictions": [
+      { "factions": ["First Order"] },
+      { "action": { "type": "Lock" } },
+    ]
   }
 ]
