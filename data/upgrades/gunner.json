@@ -245,7 +245,7 @@
       {
         "title": "Special Forces Gunner",
         "type": "Gunner",
-        "ability": "While you perform a primary [Front Arc] attack, if your [Single Turret Arc] is in your [Front Arc], you may roll 1 additional attack die. ...er you perform a primary [Front Arc] attack, if your [Single Turret Arc] is in your [Rear Arc], you may perform a bonus primary [Single Turret Arc] attack.",
+        "ability": "While you perform a primary [Front Arc] attack, if your [Single Turret Arc] is in your [Front Arc], you may roll 1 additional attack die. After you perform a primary [Front Arc] attack, if your [Single Turret Arc] is in your [Rear Arc], you may perform a bonus primary [Single Turret Arc] attack.",
         "slots": ["Gunner"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d3aed19c7eb6f9ebc2352ac49cdd6b87.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b87bf63d7db6195febd879edc4880f13.jpg",
@@ -320,7 +320,7 @@
       {
         "title": "Paige Tico",
         "type": "Gunner",
-        "ability": "After you perform an attack, you may drop 1 bomb or rotate your [Single Turret Arc]. After you are destroyed, you may drop 1 bomb.",
+        "ability": "After you perform a primary attack, you may drop 1 bomb or rotate your [Single Turret Arc]. After you are destroyed, you may drop 1 bomb.",
         "slots": ["Gunner"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9dc15f634233b5daba107a07aa63d04c.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a34ab7a76083f91577110d31d20b6e14.jpg",
@@ -338,7 +338,7 @@
       {
         "title": "Rey",
         "type": "Gunner",
-        "ability": "While you defend or perform an attack, if the enemy ship is in your [Single Turret Arc], you may spend 1 [Force] to change 1 of your blank results to a [Hit] or [Crit] result.",
+        "ability": "While you defend or perform an attack, if the enemy ship is in your [Single Turret Arc], you may spend 1 [Force] to change 1 of your blank results to a [Evade] or [Hit] result.",
         "slots": ["Gunner"],
         "force": { "value": 1, "recovers": 1 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e11aec8ae6ec855694947bc2f9d1917e.png",
