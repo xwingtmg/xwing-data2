@@ -154,7 +154,7 @@
       {
         "title": "C-3PO",
         "type": "Crew",
-        "ability": "Before rolling defense dice, you may spend 1 calculate token to guess aloud a number 1 or higher. If you do, and you roll exactly that many [Evade] results, add 1 [Evade] result. Adter you perform the [Calculate] action, gain 1 calculate token.",
+        "ability": "Before rolling defense dice, you may spend 1 calculate token to guess aloud a number 1 or higher. If you do, and you roll exactly that many [Evade] results, add 1 [Evade] result. After you perform the [Calculate] action, gain 1 calculate token.",
         "slots": ["Crew"],
         "actions": [{ "type": "Calculate", "difficulty": "White" }],
         "grants": [
@@ -416,7 +416,7 @@
       {
         "title": "General Hux",
         "type": "Crew",
-        "ability": "While you perform a white [Coordinate] action, you may treat if as red. If you do, you may coordinate up to 2 additional ships of the same ship type, and each ship you coordinate must perform the same action, treating that action as red.",
+        "ability": "While you perform a white [Coordinate] action, you may treat it as red. If you do, you may coordinate up to 2 additional ships of the same ship type, and each ship you coordinate must perform the same action, treating that action as red.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/fa0b8492eff625bc66f00bd561015465.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/94bee4960ca0fb907ba77d5cb2ff7abb.jpg",
@@ -784,7 +784,7 @@
       {
         "title": "Maul",
         "type": "Crew",
-        "ability": "After you suffer damage, you may gain 1 stress token to recover 1 [Force]. You can equip \"Dark Side\" upgades.",
+        "ability": "After you suffer damage, you may gain 1 stress token to recover 1 [Force]. You can equip \"Dark Side\" upgrades.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_136.png",
         "slots": ["Crew"],
         "force": { "value": 1, "recovers": 1 },
@@ -848,7 +848,7 @@
       {
         "title": "Nien Nunb",
         "type": "Crew",
-        "ability": "Decrease the difficulty of your bank maneuvers [[Bank Left] and [Bank Right]].",
+        "ability": "Decrease the difficulty of your bank maneuvers ([Bank Left] and [Bank Right]).",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_90.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_90.jpg",
@@ -1182,7 +1182,7 @@
       {
         "title": "Chewbacca",
         "type": "Crew",
-        "ability": "Setup: Lose 1 [Charge]. After a friendly ship at range 0-3 is dealt 1 damage card, recover 1 [Charge]. While you perform an attack, you may spend 2 [Charge] to change 1 [Focus] result to a [Crit] result.",
+        "ability": "Setup: Lose 1 [Charge]. After a friendly ship at range 0-3 is dealt 1 damage card, recover 1 [Charge]. While you perform an attack, you may spend 2 [Charge] to change 1 [Focus] result to a [Critical Hit] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3090c218acff7dc71a81e791ce15860e.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3d124811dd272ec2355a30903a827034.jpg",
         "slots": ["Crew"],
@@ -1201,7 +1201,7 @@
       {
         "title": "Rose Tico",
         "type": "Crew",
-        "ability": "While you defend or perform a primary attack, you may spend 1 of your results to acquire a lock on the enemy ship.",
+        "ability": "While you defend or perform an attack, you may spend 1 of your results to acquire a lock on the enemy ship.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/60ac08169a90794c33d1d582f1a08480.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/92a93952c31c95dff0fc96f31e88cfd3.jpg",
         "slots": ["Crew"],
