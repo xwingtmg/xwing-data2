@@ -57,21 +57,8 @@
         "type": "Title",
         "ability": "After you perform a [Slam] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [Slam] action.",
         "slots": ["Title"],
-<<<<<<< HEAD
         "charges": { "value": 1, "recovers": 0 },
         "actions": [{ "type": "SLAM", "difficulty": "White" }],
-=======
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        },
-        "actions": [
-          {
-            "type": "SLAM",
-            "difficulty": "White"
-          }
-        ],
->>>>>>> FFG api scraping and processing scripts, updated data with scraped values
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3e9870bff7f61acc12970c254eaeca89.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b617cc192e2ffb8368de79d69e1e7956.jpg",
         "ffg": 484
