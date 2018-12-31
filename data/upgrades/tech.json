@@ -60,10 +60,7 @@
     "cost": {
       "value": 2
     },
-    "restrictions": [
-      { "factions": ["First Order"] },
-      { "sizes": ["Large"] }
-    ]
+    "restrictions": [{ "factions": ["First Order"] }, { "sizes": ["Large"] }]
   },
   {
     "name": "Primed Thrusters",
