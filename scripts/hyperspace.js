@@ -16,6 +16,11 @@ const getApiResponse = async endpoint => {
 
 const getXWDFile = async path => await jsonfile.readFile(path);
 
+const addHyperspaceLegality = hyperspaceLegalIds => item =>
+  Object.assign({}, item, {
+    hyperspace: hyperspaceLegalIds.indexOf(item.ffg) > -1
+  });
+
 const run = async () => {
   const { game_formats: gameformats } = await getApiResponse("/gameformats/");
 
@@ -28,32 +33,57 @@ const run = async () => {
   log(`Found Hyperspace format:\n`, hyperspaceFormat);
 
   const { cards: hyperspaceCards } = await getApiResponse(
-    `/cards/pilots/?game_format=${hyperspaceFormat.id}`
+    `/cards/?game_format=${hyperspaceFormat.id}`
   );
-  log(`Found ${hyperspaceCards.length} legal Hyperspace cards`);
+  const {
+    upgrades: hyperspaceUpgradeIds,
+    pilots: hyperspacePilotIds
+  } = hyperspaceCards.reduce(
+    (acc, card) => {
+      if (card.card_type_id === 1) acc.pilots.push(card.id);
+      if (card.card_type_id === 2) acc.upgrades.push(card.id);
+      return acc;
+    },
+    { upgrades: [], pilots: [] }
+  );
 
-  const hyperspaceLegalIds = hyperspaceCards.map(cards => cards.id);
+  log(`Found ${hyperspacePilotIds.length} Hyperspace pilots`);
+  log(`Found ${hyperspaceUpgradeIds.length} Hyperspace upgrades`);
 
-  const shipsInProgress = [];
+  const updatesInProgress = [];
+
   manifest.pilots.forEach(({ faction, ships }) => {
     log(`Loading ${faction} ships`);
     ships.forEach(path => {
       const promise = getXWDFile(path)
         .then(result => {
-          log(`Processing ${path}`);
-          result.pilots = result.pilots.map(pilot =>
-            Object.assign({}, pilot, {
-              hyperspace: hyperspaceLegalIds.indexOf(pilot.ffg) > -1
-            })
-          );
-          return result;
+          log(`Updating ${path}`);
+          return Object.assign({}, result, {
+            pilots: result.pilots.map(addHyperspaceLegality(hyperspacePilotIds))
+          });
         })
         .then(newResult => jsonfile.writeFile(path, newResult));
-      shipsInProgress.push(promise);
+      updatesInProgress.push(promise);
     });
   });
 
-  await Promise.all(shipsInProgress);
+  manifest.upgrades.forEach(path => {
+    const promise = getXWDFile(path)
+      .then(result => {
+        log(`Updating ${path}`);
+        return result.map(upgrade =>
+          Object.assign({}, upgrade, {
+            sides: upgrade.sides.map(
+              addHyperspaceLegality(hyperspaceUpgradeIds)
+            )
+          })
+        );
+      })
+      .then(newResult => jsonfile.writeFile(path, newResult));
+    updatesInProgress.push(promise);
+  });
+
+  await Promise.all(updatesInProgress);
   log(`All done!`);
 };
 
