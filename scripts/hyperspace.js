@@ -16,11 +16,6 @@ const getApiResponse = async endpoint => {
 
 const getXWDFile = async path => await jsonfile.readFile(path);
 
-const addHyperspaceLegality = hyperspaceLegalIds => item =>
-  Object.assign({}, item, {
-    hyperspace: hyperspaceLegalIds.indexOf(item.ffg) > -1
-  });
-
 const run = async () => {
   const { game_formats: gameformats } = await getApiResponse("/gameformats/");
 
@@ -59,7 +54,11 @@ const run = async () => {
         .then(result => {
           log(`Updating ${path}`);
           return Object.assign({}, result, {
-            pilots: result.pilots.map(addHyperspaceLegality(hyperspacePilotIds))
+            pilots: result.pilots.map(pilot =>
+              Object.assign({}, pilot, {
+                hyperspace: hyperspacePilotIds.indexOf(pilot.ffg) > -1
+              })
+            )
           });
         })
         .then(newResult => jsonfile.writeFile(path, newResult));
@@ -73,8 +72,8 @@ const run = async () => {
         log(`Updating ${path}`);
         return result.map(upgrade =>
           Object.assign({}, upgrade, {
-            sides: upgrade.sides.map(
-              addHyperspaceLegality(hyperspaceUpgradeIds)
+            hyperspace: upgrade.sides.every(
+              side => hyperspaceUpgradeIds.indexOf(side.ffg) > -1
             )
           })
         );
