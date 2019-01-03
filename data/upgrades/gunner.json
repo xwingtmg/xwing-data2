@@ -14,7 +14,8 @@
         "ffg": 388
       }
     ],
-    "cost": { "value": 10 }
+    "cost": { "value": 10 },
+    "hyperspace": true
   },
   {
     "name": "BT-1",
@@ -34,7 +35,8 @@
     "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Bistan",
@@ -52,7 +54,8 @@
       }
     ],
     "cost": { "value": 14 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": false
   },
   {
     "name": "Bossk",
@@ -70,7 +73,8 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "Dengar",
@@ -89,7 +93,8 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "Ezra Bridger",
@@ -108,7 +113,8 @@
       }
     ],
     "cost": { "value": 18 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": false
   },
   {
     "name": "Fifth Brother",
@@ -127,7 +133,8 @@
       }
     ],
     "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": false
   },
   {
     "name": "Greedo",
@@ -146,7 +153,8 @@
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "Han Solo",
@@ -164,7 +172,8 @@
       }
     ],
     "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "Han Solo",
@@ -182,7 +191,8 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": true
   },
   {
     "name": "Hotshot Gunner",
@@ -199,7 +209,8 @@
         "ffg": 278
       }
     ],
-    "cost": { "value": 7 }
+    "cost": { "value": 7 },
+    "hyperspace": true
   },
   {
     "name": "Luke Skywalker",
@@ -218,7 +229,8 @@
       }
     ],
     "cost": { "value": 30 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "Skilled Bombardier",
@@ -235,7 +247,8 @@
         "ffg": 279
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "hyperspace": true
   },
   {
     "name": "Special Forces Gunner",
@@ -256,7 +269,8 @@
     "restrictions": [
       { "factions": ["First Order"] },
       { "ships": ["tiesffighter"] }
-    ]
+    ],
+    "hyperspace": true
   },
   {
     "name": "Veteran Tail Gunner",
@@ -274,7 +288,8 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "arcs": ["Rear Arc"] }]
+    "restrictions": [{ "arcs": ["Rear Arc"] }],
+    "hyperspace": true
   },
   {
     "name": "Veteran Turret Gunner",
@@ -292,7 +307,8 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "action": { "type": "Rotate Arc" } }]
+    "restrictions": [{ "action": { "type": "Rotate Arc" } }],
+    "hyperspace": true
   },
   {
     "name": "Finn",
@@ -310,7 +326,8 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "Paige Tico",
@@ -328,7 +345,8 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "Rey",
@@ -347,6 +365,7 @@
       }
     ],
     "restrictions": [{ "factions": ["Resistance"] }],
-    "cost": { "value": 14 }
+    "cost": { "value": 14 },
+    "hyperspace": true
   }
 ]
