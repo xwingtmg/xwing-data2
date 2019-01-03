@@ -15,7 +15,8 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": false
   },
   {
     "name": "\"Zeb\" Orrelios",
@@ -33,7 +34,8 @@
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": false
   },
   {
     "name": "0-0-0",
@@ -53,7 +55,8 @@
     "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "4-LOM",
@@ -71,7 +74,8 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "Admiral Sloane",
@@ -89,7 +93,8 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": false
   },
   {
     "name": "Agent Kallus",
@@ -108,7 +113,8 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": false
   },
   {
     "name": "Baze Malbus",
@@ -126,7 +132,8 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": false
   },
   {
     "name": "Boba Fett",
@@ -144,7 +151,8 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": true
   },
   {
     "name": "C-3PO",
@@ -170,7 +178,8 @@
       }
     ],
     "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "Cad Bane",
@@ -188,7 +197,8 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "Captain Phasma",
@@ -206,7 +216,8 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["First Order"] }]
+    "restrictions": [{ "factions": ["First Order"] }],
+    "hyperspace": true
   },
   {
     "name": "Cassian Andor",
@@ -224,7 +235,8 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": false
   },
   {
     "name": "Chewbacca",
@@ -243,7 +255,8 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "Chewbacca",
@@ -261,7 +274,8 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": true
   },
   {
     "name": "Ciena Ree",
@@ -282,7 +296,8 @@
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Coordinate" } }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Cikatro Vizago",
@@ -300,7 +315,8 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "Darth Vader",
@@ -319,7 +335,8 @@
       }
     ],
     "cost": { "value": 14 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": false
   },
   {
     "name": "Death Troopers",
@@ -337,7 +354,8 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": true
   },
   {
     "name": "Director Krennic",
@@ -370,7 +388,8 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": true
   },
   {
     "name": "Emperor Palpatine",
@@ -389,7 +408,8 @@
       }
     ],
     "cost": { "value": 13 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": false
   },
   {
     "name": "Freelance Slicer",
@@ -406,7 +426,8 @@
         "ffg": 271
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "hyperspace": false
   },
   {
     "name": "General Hux",
@@ -424,7 +445,8 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [{ "factions": ["First Order"] }]
+    "restrictions": [{ "factions": ["First Order"] }],
+    "hyperspace": true
   },
   {
     "name": "GNK \"Gonk\" Droid",
@@ -442,7 +464,8 @@
         "ffg": 272
       }
     ],
-    "cost": { "value": 10 }
+    "cost": { "value": 10 },
+    "hyperspace": false
   },
   {
     "name": "Grand Inquisitor",
@@ -461,7 +484,8 @@
       }
     ],
     "cost": { "value": 16 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": false
   },
   {
     "name": "Grand Moff Tarkin",
@@ -483,7 +507,8 @@
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Lock" } }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Hera Syndulla",
@@ -501,7 +526,8 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": false
   },
   {
     "name": "IG-88D",
@@ -527,7 +553,8 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "ISB Slicer",
@@ -545,7 +572,8 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": true
   },
   {
     "name": "Informant",
@@ -563,7 +591,8 @@
         "ffg": 273
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "Jabba the Hutt",
@@ -582,7 +611,8 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "Jyn Erso",
@@ -600,7 +630,8 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": false
   },
   {
     "name": "Kanan Jarrus",
@@ -619,7 +650,8 @@
       }
     ],
     "cost": { "value": 14 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": false
   },
   {
     "name": "Ketsu Onyo",
@@ -637,7 +669,8 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "Kylo Ren",
@@ -657,7 +690,8 @@
       }
     ],
     "cost": { "value": 11 },
-    "restrictions": [{ "factions": ["First Order"] }]
+    "restrictions": [{ "factions": ["First Order"] }],
+    "hyperspace": true
   },
   {
     "name": "L3-37",
@@ -683,7 +717,8 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": true
   },
   {
     "name": "Lando Calrissian",
@@ -701,7 +736,8 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": true
   },
   {
     "name": "Lando Calrissian",
@@ -719,7 +755,8 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "Latts Razzi",
@@ -737,7 +774,8 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "Leia Organa",
@@ -756,7 +794,8 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "Magva Yarro",
@@ -774,7 +813,8 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "Maul",
@@ -798,7 +838,8 @@
     "cost": { "value": 13 },
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Ezra Bridger"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Minister Tua",
@@ -816,7 +857,8 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": false
   },
   {
     "name": "Moff Jerjerrod",
@@ -838,7 +880,8 @@
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Coordinate" } }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Nien Nunb",
@@ -856,7 +899,8 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "Novice Technician",
@@ -873,7 +917,8 @@
         "ffg": 274
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "hyperspace": false
   },
   {
     "name": "Perceptive Copilot",
@@ -890,7 +935,8 @@
         "ffg": 275
       }
     ],
-    "cost": { "value": 10 }
+    "cost": { "value": 10 },
+    "hyperspace": true
   },
   {
     "name": "Petty Officer Thanisson",
@@ -908,7 +954,8 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["First Order"] }]
+    "restrictions": [{ "factions": ["First Order"] }],
+    "hyperspace": true
   },
   {
     "name": "Qi'ra",
@@ -926,7 +973,8 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": true
   },
   {
     "name": "R2-D2",
@@ -944,7 +992,8 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "Sabine Wren",
@@ -962,7 +1011,8 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": false
   },
   {
     "name": "Saw Gerrera",
@@ -980,7 +1030,8 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "Seasoned Navigator",
@@ -997,7 +1048,8 @@
         "ffg": 276
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "Seventh Sister",
@@ -1016,7 +1068,8 @@
       }
     ],
     "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }]
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": false
   },
   {
     "name": "Supreme Leader Snoke",
@@ -1035,7 +1088,8 @@
       }
     ],
     "cost": { "value": 13 },
-    "restrictions": [{ "factions": ["First Order"] }]
+    "restrictions": [{ "factions": ["First Order"] }],
+    "hyperspace": true
   },
   {
     "name": "Tactical Officer",
@@ -1063,7 +1117,8 @@
     "cost": { "value": 2 },
     "restrictions": [
       { "action": { "type": "Coordinate", "difficulty": "Red" } }
-    ]
+    ],
+    "hyperspace": true
   },
   {
     "name": "Tobias Beckett",
@@ -1081,7 +1136,8 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": true
   },
   {
     "name": "Unkar Plutt",
@@ -1099,7 +1155,8 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "Zuckuss",
@@ -1117,7 +1174,8 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "C-3PO",
@@ -1147,7 +1205,8 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "Han Solo",
@@ -1172,7 +1231,8 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "Chewbacca",
@@ -1191,7 +1251,8 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "Rose Tico",
@@ -1209,6 +1270,7 @@
       }
     ],
     "cost": { "value": 9 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   }
 ]
