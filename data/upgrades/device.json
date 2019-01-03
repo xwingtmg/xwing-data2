@@ -20,7 +20,8 @@
         "ffg": 392
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "hyperspace": false
   },
   {
     "name": "Conner Nets",
@@ -43,7 +44,8 @@
         "ffg": 393
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "hyperspace": true
   },
   {
     "name": "Proton Bombs",
@@ -66,7 +68,8 @@
         "ffg": 394
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "Proximity Mines",
@@ -89,7 +92,8 @@
         "ffg": 395
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "hyperspace": true
   },
   {
     "name": "Seismic Charges",
@@ -112,6 +116,7 @@
         "ffg": 396
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "hyperspace": true
   }
 ]
