@@ -33,10 +33,7 @@
     {
       "difficulty": "White",
       "type": "Barrel Roll",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Calculate"
-      }
+      "linked": { "difficulty": "Red", "type": "Calculate" }
     }
   ],
   "pilots": [
@@ -48,7 +45,8 @@
       "shipAbility": {
         "name": "Unknown",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
-      }
+      },
+      "hyperspace": false
     }
   ]
 }
