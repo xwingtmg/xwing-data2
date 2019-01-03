@@ -12,20 +12,14 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Barrel Roll",
-              "difficulty": "White"
-            }
+            "value": { "type": "Barrel Roll", "difficulty": "White" }
           },
           {
             "type": "action",
             "value": {
               "type": "Focus",
               "difficulty": "White",
-              "linked": {
-                "type": "Barrel Roll",
-                "difficulty": "Red"
-              }
+              "linked": { "type": "Barrel Roll", "difficulty": "Red" }
             }
           }
         ],
@@ -43,7 +37,8 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["t70xwing"] }]
+    "restrictions": [{ "ships": ["t70xwing"] }],
+    "hyperspace": true
   },
   {
     "name": "Os-1 Arsenal Loadout",
@@ -65,7 +60,8 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["alphaclassstarwing"] }]
+    "restrictions": [{ "ships": ["alphaclassstarwing"] }],
+    "hyperspace": false
   },
   {
     "name": "Pivot Wing",
@@ -92,7 +88,8 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["ut60duwing"] }]
+    "restrictions": [{ "ships": ["ut60duwing"] }],
+    "hyperspace": true
   },
   {
     "name": "Servomotor S-foils",
@@ -141,7 +138,8 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["t65xwing"] }]
+    "restrictions": [{ "ships": ["t65xwing"] }],
+    "hyperspace": true
   },
   {
     "name": "Xg-1 Assault Configuration",
@@ -160,7 +158,8 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["alphaclassstarwing"] }]
+    "restrictions": [{ "ships": ["alphaclassstarwing"] }],
+    "hyperspace": false
   },
   {
     "name": "Grappling Struts",
@@ -182,7 +181,8 @@
     "restrictions": [
       { "action": { "type": "Calculate", "difficulty": "White" } },
       { "factions": ["Separatist Alliance"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Delta-7B",
@@ -194,26 +194,14 @@
         "type": "Configuration",
         "slots": ["Configuration"],
         "grants": [
-          {
-            "type": "stat",
-            "value": "agility",
-            "amount": -1
-          },
-          {
-            "type": "stat",
-            "value": "shield",
-            "amount": 2
-          },
-          {
-            "type": "stat",
-            "value": "attack",
-            "arc": "Front Arc",
-            "amount": 1
-          }
+          { "type": "stat", "value": "agility", "amount": -1 },
+          { "type": "stat", "value": "shield", "amount": 2 },
+          { "type": "stat", "value": "attack", "arc": "Front Arc", "amount": 1 }
         ]
       }
     ],
-    "restrictions": [{ "ships": ["delta7aethersprite"] }]
+    "restrictions": [{ "ships": ["delta7aethersprite"] }],
+    "hyperspace": false
   },
   {
     "name": "Calibrated Laser Targeting",
@@ -228,10 +216,7 @@
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/4a/32/4a32d934-9d57-433c-8fb6-ce6c1cb52224/swz34_calibrated-laser-targeting.png"
       }
     ],
-    "restrictions": [
-      {
-        "ships": ["delta7aethersprite"]
-      }
-    ]
+    "restrictions": [{ "ships": ["delta7aethersprite"] }],
+    "hyperspace": false
   }
 ]
