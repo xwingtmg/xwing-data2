@@ -6,13 +6,18 @@
   "license": "MIT",
   "scripts": {
     "validate:json": "jsonlint-cli data/**/*.json",
-    "format": "prettier --print-width 80 --write 'data/**/*.json'",
+    "format": "prettier --loglevel warn --write 'data/**/*.json'",
     "changelog": "git log --pretty=format:'- %s (%h)' --no-merges",
-    "ffg2xws": "node scripts/ffg2xws.js && prettier --print-width 80 --write data/ffg-xws.json"
+    "ffg2xws": "node scripts/ffg2xws.js && prettier --write data/ffg-xws.json",
+    "hyperspace": "node scripts/hyperspace.js && yarn format"
   },
   "devDependencies": {
     "jsonfile": "^5.0.0",
     "jsonlint-cli": "^1.0.1",
+    "node-fetch": "^2.3.0",
     "prettier": "^1.14.2"
+  },
+  "prettier": {
+    "printWidth": 80
   }
 }

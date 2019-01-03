@@ -58,7 +58,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_101.png",
       "slots": ["Talent", "Sensor", "Missile"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_101.jpg",
-      "ffg": 101
+      "ffg": 101,
+      "hyperspace": false
     },
     {
       "name": "Grand Inquisitor",
@@ -72,7 +73,8 @@
       "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "slots": ["Force Power", "Sensor", "Missile"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_99.jpg",
-      "ffg": 99
+      "ffg": 99,
+      "hyperspace": false
     },
     {
       "name": "Inquisitor",
@@ -85,7 +87,8 @@
       "force": { "value": 1, "recovers": 1, "side": ["dark"] },
       "slots": ["Force Power", "Sensor", "Missile"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_102.jpg",
-      "ffg": 102
+      "ffg": 102,
+      "hyperspace": false
     },
     {
       "name": "Seventh Sister",
@@ -99,7 +102,8 @@
       "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "slots": ["Force Power", "Sensor", "Missile"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg",
-      "ffg": 100
+      "ffg": 100,
+      "hyperspace": false
     }
   ]
 }

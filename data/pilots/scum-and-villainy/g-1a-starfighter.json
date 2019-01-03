@@ -52,7 +52,8 @@
         { "difficulty": "White", "type": "Jam" }
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_201.jpg",
-      "ffg": 201
+      "ffg": 201,
+      "hyperspace": false
     },
     {
       "name": "Gand Findsman",
@@ -64,7 +65,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_203.png",
       "slots": ["Sensor", "Crew", "Illicit", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_203.jpg",
-      "ffg": 203
+      "ffg": 203,
+      "hyperspace": false
     },
     {
       "name": "Zuckuss",
@@ -83,7 +85,8 @@
       ],
       "slots": ["Talent", "Sensor", "Crew", "Illicit", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_202.jpg",
-      "ffg": 202
+      "ffg": 202,
+      "hyperspace": false
     }
   ]
 }
