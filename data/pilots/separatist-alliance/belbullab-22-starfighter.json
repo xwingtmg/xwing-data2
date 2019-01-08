@@ -24,7 +24,25 @@
     "5FW"
   ],
   "faction": "Separatist Alliance",
-  "stats": [{ "type": "shield", "value": 2 }],
-  "actions": [],
+  "stats": [
+    { "type": "attack", "value": 3, "arc": "Front Arc" },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 2 }
+  ],
+  "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll",
+      "linked": { "difficulty": "Red", "type": "Focus" }
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost",
+      "linked": { "difficulty": "Red", "type": "Focus" }
+    }
+  ],
   "pilots": []
 }
