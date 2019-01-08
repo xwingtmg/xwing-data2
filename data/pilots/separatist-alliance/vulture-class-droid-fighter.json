@@ -43,10 +43,49 @@
       "limited": 0,
       "xws": "tradefederationdrone",
       "shipAbility": {
-        "name": "Unknown",
+        "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "hyperspace": false
+    },
+    {
+      "name": "Precise Hunter",
+      "caption": "Pinpoint Protocols",
+      "limited": 3,
+      "initiative": 3,
+      "xws": "precisehunter",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "ability": "While you perform an attack, if the defender is in your [Bullseye Arc], you may reroll 1 blank result.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/37/0c/370c5cb2-0f0d-4d6f-9358-eb3cad9088dc/swz29_precise-hunter.png"
+    },
+    {
+      "name": "Haor Chall Prototype",
+      "caption": "Xi Char Offering",
+      "limited": 2,
+      "initiative": 1,
+      "xws": "haorchallprototype",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "ability": "After an enemy ship in your [Bullseye Arc] at range 0-2 declares another friendly ship as the defender, you may perform a [Calculate] or [Lock] action.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/04/05/0405890a-0f0a-444e-b9eb-8d92dbdf3d63/swz29_hadr-chall.png"
+    },
+    {
+      "name": "DFS-081",
+      "xws": "dfs081",
+      "initiative": 3,
+      "limited": 1,
+      "caption": "Preservation Programming",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "ability": "While a friendly ship at range 0-1 defends, it may spend 1 calculate token to change all [Crit] results to [Hit] results.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/b4/04/b4044057-fae9-4638-b758-14339c1ce98a/swz29_dfs-081.png"
     }
   ]
 }
