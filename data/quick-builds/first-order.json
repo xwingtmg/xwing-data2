@@ -74,7 +74,7 @@
         {
           "id": "muse",
           "upgrades": {
-            "talent": ["elusive"],
+            "talent": ["squadleader"],
             "tech": ["advancedoptics"]
           }
         }
@@ -87,6 +87,18 @@
           "id": "TN-3465",
           "upgrades": {
             "tech": ["targetingsynchronizer"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "zetasquadronpilot",
+          "upgrades": {
+            "tech": ["advancedoptics"],
             "modification": ["shieldupgrade"]
           }
         }
