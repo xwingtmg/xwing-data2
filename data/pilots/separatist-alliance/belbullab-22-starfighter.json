@@ -31,28 +31,16 @@
     { "type": "shield", "value": 2 }
   ],
   "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Focus"
-      },
+      "linked": { "difficulty": "Red", "type": "Focus" },
       "type": "Barrel Roll"
     },
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Focus"
-      },
+      "linked": { "difficulty": "Red", "type": "Focus" },
       "type": "Boost"
     }
   ],
@@ -64,7 +52,8 @@
       "limited": 1,
       "xws": "generalgrievous",
       "ability": "While you perform a primary attack, if you are not in the defender's firing arc, you may reroll up to 2 attack dice.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/9e/e19e3aaa-4b9f-4a9e-bc8f-46812882ebc7/swz29_grievous.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/9e/e19e3aaa-4b9f-4a9e-bc8f-46812882ebc7/swz29_grievous.png",
+      "hyperspace": false
     },
     {
       "name": "Wat Tambor",
@@ -73,7 +62,8 @@
       "limited": 1,
       "xws": "wattambor",
       "ability": "While you perform a primary attack, you may reroll 1 attack die for each calculating friendly ship at range 1 of the defender.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/5e/3d/5e3d8e36-3989-40f4-9908-6bd6583bb88a/swz29_wat-tambor.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/5e/3d/5e3d8e36-3989-40f4-9908-6bd6583bb88a/swz29_wat-tambor.png",
+      "hyperspace": false
     },
     {
       "name": "Feethan Ottraw Autopilot",
@@ -82,32 +72,21 @@
       "xws": "feethanottrawautopilot",
       "text": "Unlike the more disposable fighters it also built for the Separatists, Feethan Ottraw Scalable Assemblies designed the Belbullab-22 with a solid mix of firepower, durability, and speed.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/6e/76/6e7626dc-3b81-4290-aece-ddf5d86e7667/swz29_autopilot.png",
-      "actions": [
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
         {
           "difficulty": "White",
-          "type": "Calculate"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "White",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Calculate"
-          },
+          "linked": { "difficulty": "Red", "type": "Calculate" },
           "type": "Barrel Roll"
         },
         {
           "difficulty": "White",
-          "linked": {
-            "difficulty": "Red",
-            "type": "Calculate"
-          },
+          "linked": { "difficulty": "Red", "type": "Calculate" },
           "type": "Boost"
         }
-      ]
+      ],
+      "hyperspace": false
     },
     {
       "name": "Captain Sear",
@@ -116,7 +95,8 @@
       "initiative": 2,
       "xws": "captainsear",
       "ability": "While a friendly ship at range 0-3 performs a primary attack, if the defender is in its [Bullseye Arc], before the Neutralize Results step, the friendly ship may spend 1 calculate token to cancel 1 [Evade] result.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/76/ba/76baabac-2258-4d60-9cf9-d7b0cdf0faeb/swz29_captain-sear.png"
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/76/ba/76baabac-2258-4d60-9cf9-d7b0cdf0faeb/swz29_captain-sear.png",
+      "hyperspace": false
     }
   ]
 }
