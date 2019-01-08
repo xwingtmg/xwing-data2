@@ -232,5 +232,22 @@
     "cost": { "value": 2 },
     "restrictions": [{ "sizes": ["Medium", "Large"] }],
     "hyperspace": false
+  },
+  {
+    "name": "Impervium Plating",
+    "limited": 0,
+    "xws": "imperviumplating",
+    "sides": [
+      {
+        "title": "Impervium Plating",
+        "type": "Modification",
+        "ability": "Before you would be dealt a faceup Ship damage card, you may spend 1 [Charge] to discard it instead.",
+        "charges": { "value": 2, "recovers": 0 },
+        "slots": ["Modification"],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/10/67/10676484-b596-43fd-a218-2d85707cf476/swz29_impervium-plating.png"
+      }
+    ],
+    "restrictions": [{ "ships": ["belbullab22starfighter"] }],
+    "hyperspace": false
   }
 ]
