@@ -14,7 +14,8 @@
         "ffg": 248
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "hyperspace": true
   },
   {
     "name": "Instinctive Aim",
@@ -31,7 +32,8 @@
         "ffg": 249
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "hyperspace": true
   },
   {
     "name": "Sense",
@@ -48,7 +50,8 @@
         "ffg": 250
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "hyperspace": true
   },
   {
     "name": "Supernatural Reflexes",
@@ -66,7 +69,8 @@
       }
     ],
     "cost": { "value": 12 },
-    "restrictions": [{ "sizes": ["Small"] }]
+    "restrictions": [{ "sizes": ["Small"] }],
+    "hyperspace": true
   },
   {
     "name": "Brilliant Evasion",
@@ -80,7 +84,8 @@
         "slots": ["Force Power"],
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/d0/a4/d0a49094-b246-4345-9f65-846b070e9fc6/swz34_brilliant-evasion.png"
       }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Hate",
@@ -98,9 +103,8 @@
         "ffg": 489
       }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 },
+    "hyperspace": true
   },
   {
     "name": "Predictive Shot",
@@ -117,8 +121,7 @@
         "ffg": 490
       }
     ],
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 },
+    "hyperspace": true
   }
 ]

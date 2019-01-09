@@ -16,7 +16,8 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }]
+    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "hyperspace": false
   },
   {
     "name": "Contraband Cybernetics",
@@ -34,7 +35,8 @@
         "ffg": 287
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "hyperspace": false
   },
   {
     "name": "Deadman's Switch",
@@ -51,7 +53,8 @@
         "ffg": 288
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "hyperspace": true
   },
   {
     "name": "Feedback Array",
@@ -68,7 +71,8 @@
         "ffg": 289
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "hyperspace": false
   },
   {
     "name": "Inertial Dampeners",
@@ -85,7 +89,8 @@
         "ffg": 290
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 1 },
+    "hyperspace": true
   },
   {
     "name": "Rigged Cargo Chute",
@@ -109,6 +114,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }]
+    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "hyperspace": true
   }
 ]

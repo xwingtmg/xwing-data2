@@ -32,7 +32,9 @@
   "actions": [
     { "difficulty": "White", "type": "Focus" },
     { "difficulty": "White", "type": "Evade" },
-    { "difficulty": "White", "type": "Lock" }
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_RZ-2_A-wing.png",
   "pilots": [
@@ -51,7 +53,8 @@
       "slots": ["Talent", "Talent", "Tech", "Missile"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e15d3e2a2fc082b95a64a83df0c96f7f.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b97a025a7859f54bbc68374ff5d8116e.jpg",
-      "ffg": 435
+      "ffg": 435,
+      "hyperspace": true
     },
     {
       "name": "Tallissan Lintra",
@@ -69,7 +72,8 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ee8c3c26ce6432d7581c5f61392597bc.jpg",
       "charges": { "value": 1, "recovers": 1 },
       "slots": ["Talent", "Talent", "Tech", "Missile"],
-      "ffg": 436
+      "ffg": 436,
+      "hyperspace": true
     },
     {
       "name": "Zari Bangel",
@@ -86,7 +90,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d7f37dbb86bb706dd535e9a65b69149a.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2fe44e1e5496645c16f4d2189a1746e3.jpg",
       "slots": ["Talent", "Talent", "Tech", "Missile"],
-      "ffg": 438
+      "ffg": 438,
+      "hyperspace": true
     },
     {
       "name": "Greer Sonnel",
@@ -103,7 +108,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/7fc7b194b02ad7af6adf4ef9b79108d1.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/84bf1ce21926d4500b54e122da01b162.jpg",
       "slots": ["Talent", "Talent", "Tech", "Missile"],
-      "ffg": 437
+      "ffg": 437,
+      "hyperspace": true
     },
     {
       "name": "Green Squadron Expert",
@@ -119,7 +125,8 @@
       "slots": ["Talent", "Talent", "Tech", "Missile"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3f7ad9efb4c5af8b4d1f5c07a3c7538b.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/8427bdfb1cf9497a9ab797e2c955ba41.jpg",
-      "ffg": 439
+      "ffg": 439,
+      "hyperspace": true
     },
     {
       "name": "Blue Squadron Recruit",
@@ -135,7 +142,8 @@
       "slots": ["Tech", "Missile"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e033b2729305ac0b678d6031ada7b2b8.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3df643a75106a59899e5f32ef56e8a5e.jpg",
-      "ffg": 440
+      "ffg": 440,
+      "hyperspace": true
     }
   ]
 }

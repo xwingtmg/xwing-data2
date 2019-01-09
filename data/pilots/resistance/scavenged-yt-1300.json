@@ -15,7 +15,7 @@
     "3LR",
     "3TW",
     "3BW",
-    "3FB",
+    "3FW",
     "3NW",
     "3YW",
     "3PR",
@@ -23,41 +23,16 @@
   ],
   "faction": "Resistance",
   "stats": [
-    {
-      "arc": "Double Turret Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 1
-    },
-    {
-      "type": "hull",
-      "value": 8
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 8 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Boost"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Rotate Arc"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Boost" },
+    { "difficulty": "Red", "type": "Rotate Arc" }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Falcon_Resistance.png",
   "pilots": [
@@ -79,7 +54,8 @@
         "Modification",
         "Title"
       ],
-      "ffg": 430
+      "ffg": 430,
+      "hyperspace": true
     },
     {
       "name": "Chewbacca",
@@ -101,7 +77,8 @@
         "Modification",
         "Title"
       ],
-      "ffg": 429
+      "ffg": 429,
+      "hyperspace": true
     },
     {
       "name": "Han Solo",
@@ -123,7 +100,8 @@
         "Modification",
         "Title"
       ],
-      "ffg": 427
+      "ffg": 427,
+      "hyperspace": true
     },
     {
       "name": "Rey",
@@ -146,7 +124,8 @@
         "Modification",
         "Title"
       ],
-      "ffg": 428
+      "ffg": 428,
+      "hyperspace": true
     }
   ]
 }

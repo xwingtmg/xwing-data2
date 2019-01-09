@@ -45,7 +45,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_49.png",
       "slots": ["Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_49.jpg",
-      "ffg": 49
+      "ffg": 49,
+      "hyperspace": false
     },
     {
       "name": "Captain Rex",
@@ -59,7 +60,8 @@
       "conditions": ["suppressivefire"],
       "slots": ["Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg",
-      "ffg": 48
+      "ffg": 48,
+      "hyperspace": false
     },
     {
       "name": "Ezra Bridger",
@@ -73,7 +75,8 @@
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "slots": ["Force Power", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg",
-      "ffg": 46
+      "ffg": 46,
+      "hyperspace": false
     },
     {
       "name": "Sabine Wren",
@@ -86,7 +89,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_47.png",
       "slots": ["Talent", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg",
-      "ffg": 47
+      "ffg": 47,
+      "hyperspace": false
     }
   ]
 }

@@ -14,9 +14,8 @@
         "ffg": 460
       }
     ],
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "Ferrosphere Paint",
@@ -33,14 +32,9 @@
         "ffg": 488
       }
     ],
-    "cost": {
-      "value": 6
-    },
-    "restrictions": [
-      {
-        "factions": ["Resistance"]
-      }
-    ]
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "Hyperspace Tracking Data",
@@ -57,10 +51,9 @@
         "ffg": 461
       }
     ],
-    "cost": {
-      "value": 2
-    },
-    "restrictions": [{ "factions": ["First Order"] }, { "sizes": ["Large"] }]
+    "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["First Order"] }, { "sizes": ["Large"] }],
+    "hyperspace": true
   },
   {
     "name": "Primed Thrusters",
@@ -77,14 +70,9 @@
         "ffg": 463
       }
     ],
-    "cost": {
-      "value": 8
-    },
-    "restrictions": [
-      {
-        "sizes": ["Small"]
-      }
-    ]
+    "cost": { "value": 8 },
+    "restrictions": [{ "sizes": ["Small"] }],
+    "hyperspace": true
   },
   {
     "name": "Targeting Synchronizer",
@@ -101,9 +89,8 @@
         "ffg": 464
       }
     ],
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "Pattern Analyzer",
@@ -120,9 +107,8 @@
         "ffg": 462
       }
     ],
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "Biohexacrypt Codes",
@@ -139,12 +125,11 @@
         "ffg": 491
       }
     ],
-    "cost": {
-      "value": 1
-    },
+    "cost": { "value": 1 },
     "restrictions": [
       { "factions": ["First Order"] },
       { "action": { "type": "Lock" } }
-    ]
+    ],
+    "hyperspace": false
   }
 ]

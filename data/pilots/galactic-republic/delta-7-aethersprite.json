@@ -24,45 +24,17 @@
   ],
   "faction": "Galactic Republic",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 1
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 1 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "Purple",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "White",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "Purple", "type": "Evade" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "pilots": [
     {
@@ -73,7 +45,8 @@
       "shipAbility": {
         "name": "Unknown",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
-      }
+      },
+      "hyperspace": false
     },
     {
       "name": "Obi-Wan Kenobi",
@@ -83,7 +56,8 @@
       "shipAbility": {
         "name": "Unknown",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
-      }
+      },
+      "hyperspace": false
     },
     {
       "name": "Anakin Skywalker",
@@ -93,7 +67,8 @@
       "shipAbility": {
         "name": "Unknown",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
-      }
+      },
+      "hyperspace": false
     }
   ]
 }

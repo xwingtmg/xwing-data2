@@ -29,7 +29,8 @@
         "ffg": 260
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "hyperspace": false
   },
   {
     "name": "Ion Cannon Turret",
@@ -61,6 +62,7 @@
         "ffg": 261
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "hyperspace": true
   }
 ]

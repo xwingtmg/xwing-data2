@@ -21,46 +21,17 @@
   ],
   "faction": "Resistance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "arc": "Double Turret Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 1
-    },
-    {
-      "type": "hull",
-      "value": 9
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "arc": "Double Turret Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 9 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Rotate Arc"
-    },
-    {
-      "difficulty": "White",
-      "type": "Reload"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Rotate Arc" },
+    { "difficulty": "White", "type": "Reload" }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_StarFortress.png",
   "pilots": [
@@ -83,7 +54,8 @@
         "Device",
         "Modification"
       ],
-      "ffg": 434
+      "ffg": 434,
+      "hyperspace": true
     },
     {
       "name": "Cat",
@@ -105,7 +77,8 @@
         "Device",
         "Modification"
       ],
-      "ffg": 433
+      "ffg": 433,
+      "hyperspace": true
     },
     {
       "name": "Vennie",
@@ -127,7 +100,8 @@
         "Device",
         "Modification"
       ],
-      "ffg": 448
+      "ffg": 448,
+      "hyperspace": true
     },
     {
       "name": "Ben Teene",
@@ -150,7 +124,8 @@
         "Device",
         "Modification"
       ],
-      "ffg": 432
+      "ffg": 432,
+      "hyperspace": true
     },
     {
       "name": "Edon Kappehl",
@@ -172,7 +147,8 @@
         "Device",
         "Modification"
       ],
-      "ffg": 447
+      "ffg": 447,
+      "hyperspace": true
     },
     {
       "name": "Finch Dallow",
@@ -194,7 +170,8 @@
         "Device",
         "Modification"
       ],
-      "ffg": 431
+      "ffg": 431,
+      "hyperspace": true
     }
   ]
 }
