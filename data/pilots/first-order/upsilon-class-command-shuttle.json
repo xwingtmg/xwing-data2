@@ -1,6 +1,6 @@
 {
   "name": "Upsilon-class command shuttle",
-  "xws": "upsilonclassshuttle",
+  "xws": "upsilonclasscommandshuttle",
   "ffg": 51,
   "size": "Large",
   "dial": [
@@ -103,7 +103,7 @@
       "ability": "During the Activation or Engagement Phase, after a ship in your [Front Arc] at range 0-2 gains 1 stress token, you may spend 1 [Charge]. If you do, that ship gains 1 tractor token.",
       "shipAbility": {
         "name": "Linked Battery",
-        "text": "Whlie you perform a [Cannon] attack, roll 1 additional die."
+        "text": "While you perform a [Cannon] attack, roll 1 additional die."
       },
       "slots": [
         "Sensor",
@@ -157,7 +157,7 @@
       "charges": { "value": 2, "recovers": 1 },
       "shipAbility": {
         "name": "Linked Battery",
-        "text": "Whlie you perform a [Cannon] attack, roll 1 additional die."
+        "text": "While you perform a [Cannon] attack, roll 1 additional die."
       },
       "slots": [
         "Sensor",
@@ -184,7 +184,7 @@
       "ability": "While a friendly ship at range 1-2 with lower initiative than you defends or performs an attack, if you have at least 1 [Charge], that ship may reroll 1 [Focus] result. After an enemy ship are range 0-3 is destroyed, lose 1 [Charge].",
       "shipAbility": {
         "name": "Linked Battery",
-        "text": "Whlie you perform a [Cannon] attack, roll 1 additional die."
+        "text": "While you perform a [Cannon] attack, roll 1 additional die."
       },
       "charges": { "value": 2, "recovers": 0 },
       "slots": [
