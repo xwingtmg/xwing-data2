@@ -477,5 +477,30 @@
       { "ships": ["scavengedyt1300"] }
     ],
     "hyperspace": true
+  },
+  {
+    "name": "Soulless One",
+    "limited": 1,
+    "xws": "soullessone",
+    "sides": [
+      {
+        "title": "Soulless One",
+        "type": "Title",
+        "ability": "While you defend, if the attacker is outside your firing arc, you may reroll 1 defense die.",
+        "slots": ["Title"],
+        "grants": [
+          {
+            "type": "stat",
+            "value": "hull",
+            "amount": 2
+          }
+        ],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f3/18/f318bb11-2334-4b13-aee2-3930ed267cf0/swz29_a2_soulless-one.png"
+      }
+    ],
+    "restrictions": [
+      { "factions": [ "Separatist Alliance" ] },
+      { "ships": ["belbullab22starfighter"] }
+    ]
   }
 ]
