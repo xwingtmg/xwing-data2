@@ -428,5 +428,22 @@
     ],
     "cost": { "value": 1 },
     "hyperspace": true
+  },
+  {
+    "name": "Treacherous",
+    "xws": "treacherous",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Treacherous",
+        "type": "Talent",
+        "ability": "While you defend, you may choose a ship obstructing the attack and spend 1 [Charge]. If you do, cancel 1 [Hit] or [Crit] result, and the ship you chose gains 1 strain token. After a ship at range 0-3 is destroyed, recover 1 [Charge].",
+        "slots": ["Talent"],
+        "charges": { "value": 1, "recovers": 0 },
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/78/90/78904e32-b5ad-4fd5-989e-6040595b37b9/swz29_a2_treacherous.png"
+      }
+    ],
+    "hyperspace": false,
+    "restrictions": [{ "factions": ["Separatist Alliance"] }]
   }
 ]
