@@ -5,3 +5,4 @@ cache:
   yarn: true
 script:
   - yarn run validate:json
+  - yarn run validate:schema
