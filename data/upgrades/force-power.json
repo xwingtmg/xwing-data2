@@ -97,13 +97,13 @@
         "type": "Force Power",
         "ability": "After you suffer 1 or more damage, recover that many [Force].",
         "slots": ["Force Power"],
-        "restrictions": [{ "force_side": ["dark"] }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4a10b5c8a3d796116163a741d145f4e9.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a373c947f0a56ee4bcf4223250326dc0.jpg",
         "ffg": 489
       }
     ],
     "cost": { "value": 3 },
+    "restrictions": [{ "force_side": ["dark"] }],
     "hyperspace": true
   },
   {
