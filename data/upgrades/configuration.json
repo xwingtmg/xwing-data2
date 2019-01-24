@@ -193,7 +193,7 @@
         "slots": ["Configuration"],
         "grants": [
           { "type": "stat", "value": "agility", "amount": -1 },
-          { "type": "stat", "value": "shield", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": 2 },
           { "type": "stat", "value": "attack", "arc": "Front Arc", "amount": 1 }
         ]
       }
