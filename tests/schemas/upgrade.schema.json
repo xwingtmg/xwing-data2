@@ -1,0 +1,325 @@
+{
+  "properties": {
+    "name": { "type": "string" },
+    "limited": { "type": "integer", "minimum": 0 },
+    "cost": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "value": { "type": "integer", "minimum": 0 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "variable": {
+              "type": "string",
+              "const": "size"
+            },
+            "values": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "Small": { "type": "integer", "minimum": 0 },
+                "Medium": { "type": "integer", "minimum": 0 },
+                "Large": { "type": "integer", "minimum": 0 }
+              },
+              "required": ["Small", "Medium", "Large"]
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "variable": {
+              "type": "string",
+              "const": "agility"
+            },
+            "values": {
+              "type": "object",
+              "additionalProperties": false,
+              "patternProperties": {
+                "^[0-9]$": { "type": "integer", "minimum": 0 }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "xws": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "hyperspace": { "type": "boolean" },
+    "restrictions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "minProperties": 1,
+        "properties": {
+          "factions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": [
+                "Rebel Alliance",
+                "Galactic Empire",
+                "Scum and Villainy",
+                "Resistance",
+                "First Order",
+                "Galactic Republic",
+                "Separatist Alliance"
+              ]
+            }
+          },
+          "sizes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": ["Small", "Medium", "Large"]
+            }
+          },
+          "names": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "solitary": {
+            "type": "boolean"
+          },
+          "arcs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": [
+                "Double Turret Arc",
+                "Full Front Arc",
+                "Front Arc",
+                "Bullseye Arc",
+                "Single Turret Arc",
+                "Rear Arc"
+              ]
+            }
+          },
+          "action": {
+            "type": "object",
+            "properties": {
+              "difficulty": {
+                "type": "string",
+                "enum": ["Red", "White", "Purple"]
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "Boost",
+                  "Focus",
+                  "Evade",
+                  "Lock",
+                  "Barrel Roll",
+                  "Reinforce",
+                  "Cloak",
+                  "Coordinate",
+                  "Calculate",
+                  "Jam",
+                  "Reload",
+                  "SLAM",
+                  "Rotate Arc"
+                ]
+              }
+            },
+            "required": ["type"],
+            "additionalProperties": false
+          },
+          "ships": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": [
+                "modifiedyt1300lightfreighter",
+                "starviperclassattackplatform",
+                "scurrgh6bomber",
+                "yt2400lightfreighter",
+                "auzituckgunship",
+                "kihraxzfighter",
+                "sheathipedeclassshuttle",
+                "quadrijettransferspacetug",
+                "firesprayclasspatrolcraft",
+                "tielnfighter",
+                "btla4ywing",
+                "tieadvancedx1",
+                "alphaclassstarwing",
+                "ut60duwing",
+                "tieskstriker",
+                "asf01bwing",
+                "tieddefender",
+                "tiesabomber",
+                "tiecapunisher",
+                "aggressorassaultfighter",
+                "g1astarfighter",
+                "vcx100lightfreighter",
+                "yv666lightfreighter",
+                "tieadvancedv1",
+                "lambdaclasst4ashuttle",
+                "tiephphantom",
+                "vt49decimator",
+                "tieagaggressor",
+                "btls8kwing",
+                "arc170starfighter",
+                "attackshuttle",
+                "t65xwing",
+                "hwk290lightfreighter",
+                "rz1awing",
+                "fangfighter",
+                "z95af4headhunter",
+                "m12lkimogilafighter",
+                "ewing",
+                "tieininterceptor",
+                "lancerclasspursuitcraft",
+                "tiereaper",
+                "m3ainterceptor",
+                "jumpmaster5000",
+                "customizedyt1300lightfreighter",
+                "escapecraft",
+                "tiefofighter",
+                "tiesffighter",
+                "upsilonclassshuttle",
+                "tievnsilencer",
+                "t70xwing",
+                "rz2awing",
+                "mg100starfortress",
+                "modifiedtielnfighter",
+                "scavengedyt1300",
+                "belbullab22starfighter",
+                "delta7aethersprite",
+                "vultureclassdroidfighter"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "sides": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["title", "slots", "type"],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "Astromech",
+              "Cannon",
+              "Configuration",
+              "Crew",
+              "Device",
+              "Force Power",
+              "Gunner",
+              "Illicit",
+              "Missile",
+              "Modification",
+              "Sensor",
+              "Tactical Relay",
+              "Talent",
+              "Tech",
+              "Title",
+              "Torpedo",
+              "Turret"
+            ]
+          },
+          "slots": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": [
+                "Astromech",
+                "Cannon",
+                "Configuration",
+                "Crew",
+                "Device",
+                "Force Power",
+                "Gunner",
+                "Illicit",
+                "Missile",
+                "Modification",
+                "Sensor",
+                "Tactical Relay",
+                "Talent",
+                "Tech",
+                "Title",
+                "Torpedo",
+                "Turret"
+              ]
+            }
+          },
+          "image": { "type": "string" },
+          "artwork": { "type": "string" },
+          "ffg": { "type": "integer" },
+          "attack": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["arc", "value", "ordnance", "minrange", "maxrange"],
+            "properties": {
+              "arc": {
+                "type": "string",
+                "enum": [
+                  "Double Turret Arc",
+                  "Full Front Arc",
+                  "Front Arc",
+                  "Bullseye Arc",
+                  "Single Turret Arc",
+                  "Rear Arc"
+                ]
+              },
+              "value": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "minrange": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 3
+              },
+              "maxrange": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 3
+              },
+              "ordnance": {
+                "type": "boolean"
+              }
+            }
+          },
+          "alt": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "properties": {
+                "image": { "type": "string" },
+                "source": { "type": "string" }
+              },
+              "required": ["image", "source"],
+              "additionalProperties": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": ["name", "hyperspace"],
+  "additionalProperties": false
+}
