@@ -42,7 +42,7 @@
       "caption": "Dry-Witted Droid",
       "initiative": 3,
       "limited": 1,
-      "cost": 98,
+      "cost": 88,
       "xws": "leebo",
       "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_78.png",
@@ -56,14 +56,7 @@
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
       },
-      "slots": [
-        "Missile",
-        "Crew",
-        "Gunner",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
+      "slots": ["Missile", "Illicit", "Modification", "Title", "Gunner"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_78.jpg",
       "ffg": 78,
       "hyperspace": false
@@ -73,7 +66,7 @@
       "caption": "Hotshot Mercenary",
       "initiative": 5,
       "limited": 1,
-      "cost": 100,
+      "cost": 98,
       "xws": "dashrendar",
       "ability": "While you move, you ignore obstacles.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_77.png",
@@ -85,10 +78,10 @@
         "Talent",
         "Missile",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_77.jpg",
       "ffg": 77,
@@ -98,7 +91,7 @@
       "name": "Wild Space Fringer",
       "initiative": 1,
       "limited": 0,
-      "cost": 88,
+      "cost": 86,
       "xws": "wildspacefringer",
       "text": "Although stock YT-2400 light freighters have plenty of room for cargo, that space is often annexed to support modified weapon systems and oversized engines.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_79.png",
@@ -109,10 +102,10 @@
       "slots": [
         "Missile",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_79.jpg",
       "ffg": 79,

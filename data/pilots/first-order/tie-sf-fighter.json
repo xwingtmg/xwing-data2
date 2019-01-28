@@ -71,10 +71,10 @@
       "slots": [
         "Talent",
         "Sensor",
-        "Tech",
         "Missile",
+        "Modification",
         "Gunner",
-        "Modification"
+        "Tech"
       ],
       "charges": { "value": 1, "recovers": 1 },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d038dadd7a62bbe2de89d3866e1a3639.png",
@@ -97,10 +97,10 @@
       "slots": [
         "Talent",
         "Sensor",
-        "Tech",
         "Missile",
+        "Modification",
         "Gunner",
-        "Modification"
+        "Tech"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/317cc5350980277f1d389ed618030d85.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/6c3a06877712596601ba1cc4ec533626.jpg",
@@ -121,10 +121,10 @@
       "slots": [
         "Talent",
         "Sensor",
-        "Tech",
         "Missile",
+        "Modification",
         "Gunner",
-        "Modification"
+        "Tech"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/784d00f653ff7cd58cb634c7a59e47c1.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2caf1312bd6aba3630ef6edc1ff81f53.jpg",
@@ -142,7 +142,7 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "slots": ["Sensor", "Tech", "Missile", "Gunner", "Modification"],
+      "slots": ["Sensor", "Missile", "Modification", "Gunner", "Tech"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/848db1993150bda19217e2c14b3c3df6.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg",
       "ffg": 409,
