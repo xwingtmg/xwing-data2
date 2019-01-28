@@ -11,6 +11,7 @@
     "format": "prettier --loglevel warn --write \"data/**/*.json\"",
     "changelog": "git log --pretty=format:'- %s (%h)' --no-merges",
     "ffg2xws": "node scripts/ffg2xws.js && prettier --write data/ffg-xws.json",
+    "ffg2xwd": "node scripts/ffg2xwd.js && yarn format",
     "hyperspace": "node scripts/hyperspace.js && yarn format"
   },
   "devDependencies": {
