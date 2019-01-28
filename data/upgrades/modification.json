@@ -101,7 +101,7 @@
     ],
     "cost": {
       "variable": "size",
-      "values": { "Small": 3, "Medium": 6, "Large": 9 }
+      "values": { "Small": 2, "Medium": 4, "Large": 7 }
     },
     "restrictions": [{ "action": { "type": "Boost", "difficulty": "Red" } }],
     "hyperspace": true
