@@ -14,7 +14,7 @@
         "ffg": 307
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": false
   },
@@ -52,7 +52,7 @@
         "ffg": 352
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 5 },
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
     ],
@@ -73,7 +73,7 @@
         "ffg": 353
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": false
   },
@@ -131,7 +131,7 @@
         "ffg": 303
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": false
   },
@@ -177,7 +177,7 @@
         "ffg": 304
       }
     ],
-    "cost": { "value": 12 },
+    "cost": { "value": 8 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
@@ -254,7 +254,7 @@
         "ffg": 306
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
@@ -314,7 +314,7 @@
         "ffg": 356
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": false
   },
@@ -407,7 +407,7 @@
         "ffg": 341
       }
     ],
-    "cost": { "value": 13 },
+    "cost": { "value": 11 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": false
   },
@@ -483,7 +483,7 @@
         "ffg": 342
       }
     ],
-    "cost": { "value": 16 },
+    "cost": { "value": 14 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": false
   },
@@ -503,7 +503,7 @@
         "ffg": 343
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Lock" } }
@@ -610,7 +610,7 @@
         "ffg": 358
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": false
   },
@@ -649,7 +649,7 @@
         "ffg": 310
       }
     ],
-    "cost": { "value": 14 },
+    "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": false
   },
@@ -754,7 +754,7 @@
         "ffg": 311
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
@@ -793,7 +793,7 @@
         "ffg": 312
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
@@ -812,7 +812,7 @@
         "ffg": 313
       }
     ],
-    "cost": { "value": 7 },
+    "cost": { "value": 8 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
@@ -835,7 +835,7 @@
         "ffg": 361
       }
     ],
-    "cost": { "value": 13 },
+    "cost": { "value": 11 },
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Ezra Bridger"] }
     ],
@@ -876,7 +876,7 @@
         "ffg": 346
       }
     ],
-    "cost": { "value": 12 },
+    "cost": { "value": 10 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Coordinate" } }
@@ -935,7 +935,7 @@
         "ffg": 275
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 8 },
     "hyperspace": true
   },
   {
@@ -1067,7 +1067,7 @@
         "ffg": 347
       }
     ],
-    "cost": { "value": 12 },
+    "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": false
   },
@@ -1173,7 +1173,7 @@
         "ffg": 363
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": false
   },

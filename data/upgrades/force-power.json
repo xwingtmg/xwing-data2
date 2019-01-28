@@ -68,7 +68,10 @@
         "ffg": 251
       }
     ],
-    "cost": { "value": 12 },
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 4, "1": 4, "2": 4, "3": 8, "4": 16, "5": 24, "6": 32 }
+    },
     "restrictions": [{ "sizes": ["Small"] }],
     "hyperspace": true
   },

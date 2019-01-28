@@ -32,7 +32,7 @@
         "ffg": 368
       }
     ],
-    "cost": { "value": 0 },
+    "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": false
   },
@@ -52,7 +52,7 @@
         "ffg": 282
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "hyperspace": true
   },
   {
@@ -71,7 +71,7 @@
         "ffg": 324
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
@@ -128,7 +128,7 @@
         "ffg": 285
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 4 },
     "hyperspace": true
   },
   {
@@ -147,7 +147,7 @@
         "ffg": 325
       }
     ],
-    "cost": { "value": 7 },
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
@@ -245,7 +245,10 @@
         "ffg": 479
       }
     ],
-    "cost": { "value": 8 },
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8 }
+    },
     "restrictions": [{ "factions": ["Resistance"] }],
     "hyperspace": true
   },
@@ -265,7 +268,10 @@
         "ffg": 480
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6 }
+    },
     "restrictions": [{ "factions": ["Resistance"] }],
     "hyperspace": true
   },
