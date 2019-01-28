@@ -1,5 +1,5 @@
 {
-  "name": "Scurrg H-6 Bomber",
+  "name": "Scurrg H-6 bomber",
   "xws": "scurrgh6bomber",
   "ffg": 4,
   "size": "Medium",
@@ -40,7 +40,7 @@
       "caption": "Captain of the Lok Revenants",
       "initiative": 5,
       "limited": 1,
-      "cost": 52,
+      "cost": 48,
       "xws": "captainnym",
       "ability": "Before a friendly bomb or mine would detonate, you may spend 1 [Charge] to prevent it from detonating. While you defend against an attack obstructed by a bomb or mine, roll 1 additional defense die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_204.png",
@@ -52,7 +52,8 @@
         "Device",
         "Device",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_204.jpg",
       "ffg": 204,
@@ -62,11 +63,19 @@
       "name": "Lok Revenant",
       "initiative": 2,
       "limited": 0,
-      "cost": 46,
+      "cost": 43,
       "xws": "lokrevenant",
       "text": "The Nubian Design Collective crafted the Scurrg H-6 Bomber with combat versatility in mind, arming it with powerful shields and a bristling array of destructive weaponry.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_206.png",
-      "slots": ["Turret", "Crew", "Device", "Device", "Modification", "Title"],
+      "slots": [
+        "Turret",
+        "Crew",
+        "Device",
+        "Device",
+        "Modification",
+        "Title",
+        "Gunner"
+      ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_206.jpg",
       "ffg": 206,
       "hyperspace": false
@@ -76,7 +85,7 @@
       "caption": "Cunning Commander",
       "initiative": 3,
       "limited": 1,
-      "cost": 49,
+      "cost": 46,
       "xws": "solsixxa",
       "ability": "If you would drop a device using a [1 [Straight]] template, you may drop it using any other speed 1 template instead.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_205.png",
@@ -87,7 +96,8 @@
         "Device",
         "Device",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_205.jpg",
       "ffg": 205,

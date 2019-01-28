@@ -49,10 +49,10 @@
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "ffg": 430,
       "hyperspace": true
@@ -72,10 +72,10 @@
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "ffg": 429,
       "hyperspace": true
@@ -95,10 +95,10 @@
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "ffg": 427,
       "hyperspace": true
@@ -115,14 +115,14 @@
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "cost": 80,
       "slots": [
-        "Force Power",
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner",
+        "Force Power"
       ],
       "ffg": 428,
       "hyperspace": true
