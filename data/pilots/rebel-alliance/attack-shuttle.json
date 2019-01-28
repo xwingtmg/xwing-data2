@@ -72,7 +72,7 @@
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
-      "slots": ["Force Power", "Turret", "Crew", "Modification", "Title"],
+      "slots": ["Turret", "Crew", "Modification", "Title", "Force Power"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg",
       "ffg": 36,
       "hyperspace": false
@@ -100,7 +100,7 @@
       "caption": "Spectre-5",
       "initiative": 3,
       "limited": 1,
-      "cost": 38,
+      "cost": 42,
       "xws": "sabinewren",
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_35.png",

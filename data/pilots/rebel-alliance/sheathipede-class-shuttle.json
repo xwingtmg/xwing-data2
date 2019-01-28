@@ -40,7 +40,7 @@
       "caption": "Spectre-4",
       "initiative": 2,
       "limited": 1,
-      "cost": 32,
+      "cost": 34,
       "xws": "zeborrelios-sheathipedeclassshuttle",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_40.png",
@@ -58,7 +58,7 @@
       "caption": "Escaped Analyst Droid",
       "initiative": 1,
       "limited": 1,
-      "cost": 30,
+      "cost": 32,
       "xws": "ap5",
       "ability": "While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_41.png",
@@ -89,7 +89,7 @@
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
-      "slots": ["Force Power", "Crew", "Astromech", "Modification", "Title"],
+      "slots": ["Crew", "Astromech", "Modification", "Title", "Force Power"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg",
       "ffg": 39,
       "hyperspace": false
