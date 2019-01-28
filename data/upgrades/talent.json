@@ -14,7 +14,7 @@
         "ffg": 381
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 1 },
     "restrictions": [{ "action": { "type": "Focus" } }],
     "hyperspace": true
   },
@@ -82,7 +82,7 @@
         "ffg": 232
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 3 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "hyperspace": false
   },
@@ -233,7 +233,7 @@
         "ffg": 237
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 5 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "hyperspace": true
   },
@@ -253,7 +253,7 @@
         "ffg": 238
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 5 },
     "hyperspace": true
   },
   {
@@ -426,7 +426,7 @@
         "ffg": 247
       }
     ],
-    "cost": { "value": 1 },
+    "cost": { "value": 2 },
     "hyperspace": true
   },
   {

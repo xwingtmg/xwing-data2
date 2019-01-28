@@ -23,7 +23,7 @@
         "ffg": 371
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
@@ -67,7 +67,7 @@
         "ffg": 349
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "ships": ["vt49decimator"] }
@@ -160,7 +160,7 @@
         "ffg": 374
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 1 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["aggressorassaultfighter"] }
@@ -205,7 +205,7 @@
         "ffg": 375
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
@@ -288,7 +288,7 @@
         "ffg": 328
       }
     ],
-    "cost": { "value": 12 },
+    "cost": { "value": 18 },
     "restrictions": [
       { "factions": ["Rebel Alliance", "Scum and Villainy"] },
       { "ships": ["hwk290lightfreighter"] }
@@ -380,7 +380,7 @@
         "ffg": 391
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "ships": ["lambdaclasst4ashuttle"] }
@@ -425,7 +425,7 @@
         "ffg": 379
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
@@ -488,18 +488,12 @@
         "type": "Title",
         "ability": "While you defend, if the attacker is outside your firing arc, you may reroll 1 defense die.",
         "slots": ["Title"],
-        "grants": [
-          {
-            "type": "stat",
-            "value": "hull",
-            "amount": 2
-          }
-        ],
+        "grants": [{ "type": "stat", "value": "hull", "amount": 2 }],
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/f3/18/f318bb11-2334-4b13-aee2-3930ed267cf0/swz29_a2_soulless-one.png"
       }
     ],
     "restrictions": [
-      { "factions": [ "Separatist Alliance" ] },
+      { "factions": ["Separatist Alliance"] },
       { "ships": ["belbullab22starfighter"] }
     ]
   }

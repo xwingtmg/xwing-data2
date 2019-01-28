@@ -14,7 +14,7 @@
         "ffg": 388
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 8 },
     "hyperspace": true
   },
   {
@@ -132,7 +132,7 @@
         "ffg": 348
       }
     ],
-    "cost": { "value": 12 },
+    "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": false
   },
@@ -171,7 +171,7 @@
         "ffg": 321
       }
     ],
-    "cost": { "value": 12 },
+    "cost": { "value": 14 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
@@ -190,7 +190,7 @@
         "ffg": 389
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": true
   },
@@ -228,7 +228,7 @@
         "ffg": 322
       }
     ],
-    "cost": { "value": 30 },
+    "cost": { "value": 26 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
@@ -306,7 +306,7 @@
         "ffg": 281
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 6 },
     "restrictions": [{ "action": { "type": "Rotate Arc" } }],
     "hyperspace": true
   },
