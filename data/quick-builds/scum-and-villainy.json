@@ -267,7 +267,7 @@
       "threat": 3,
       "pilots": [
         {
-          "id": "joyrekkof",
+          "id": "joyrekkoff",
           "upgrades": {
             "talent": ["predator"],
             "torpedo": ["iontorpedoes"],
@@ -326,7 +326,7 @@
       "threat": 3,
       "pilots": [
         {
-          "id": "sabinewren",
+          "id": "sabinewren-lancerclasspursuitcraft",
           "upgrades": {
             "talent": ["fearless"],
             "crew": ["ketsuonyo"],
@@ -1080,11 +1080,63 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "miningguildsurveyor",
+          "upgrades": {
+            "talent": ["swarmtactics", "trickshot"],
+            "modification": ["staticdischargevanes", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "overseeryushyn"
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "captainseevor",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "ahhav",
           "upgrades": {
             "talent": ["elusive"],
             "modification": ["afterburners", "hullupgrade"]
           }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "foremanproach",
+          "upgrades": {
+            "talent": ["predator", "swarmtactics"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "miningguildsentry"
         }
       ]
     }
