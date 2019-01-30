@@ -237,11 +237,10 @@
       "threat": 4,
       "pilots": [
         {
-          "id": "finchdallow",
+          "id": "cobaltsquadronbomber",
           "upgrades": {
-            "tech": ["advancedoptics"],
-            "gunner": ["paigetico"],
-            "modification": ["hullupgrade", "ablativeplating"],
+            "system": ["trajectorysimulator"],
+            "modification": ["ablativeplating"],
             "device": ["protonbombs"]
           }
         }
