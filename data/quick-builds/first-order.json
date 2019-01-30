@@ -243,6 +243,17 @@
       "threat": 3,
       "pilots": [
         {
+          "id": "blackout",
+          "upgrades": {
+            "talent": ["trickshot"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
           "id": "avenger",
           "upgrades": {
             "tech": ["primedthrusters"],

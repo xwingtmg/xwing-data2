@@ -187,6 +187,18 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "greersonnel",
+          "upgrades": {
+            "talent": ["marksmanship"],
+            "tech": ["primedthrusters"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "greensquadronexpert",
           "upgrades": {
             "talent": ["heroic"],
