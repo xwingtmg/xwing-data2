@@ -302,7 +302,7 @@
           "id": "skullsquadronpilot",
           "upgrades": {
             "talent": ["marksmanship"],
-            "torpedo": ["advancedprotontorpedoes"],
+            "torpedo": ["advprotontorpedoes"],
             "modification": ["afterburners"]
           }
         }
@@ -429,7 +429,7 @@
       ]
     },
     {
-      "threat": 3,
+      "threat": 2,
       "pilots": [
         {
           "id": "cartelmarauder",
@@ -653,7 +653,7 @@
           "upgrades": {
             "talent": ["daredevil"],
             "system": ["advancedsensors"],
-            "torpedo": ["advancedprotontorpedoes"]
+            "torpedo": ["advprotontorpedoes"]
           }
         }
       ]
@@ -714,7 +714,7 @@
           "id": "quinnjast",
           "upgrades": {
             "talent": ["crackshot"],
-            "torpedo": ["advancedprotontorpedoes"],
+            "torpedo": ["advprotontorpedoes"],
             "modification": ["afterburners"]
           }
         }
@@ -778,7 +778,7 @@
       ]
     },
     {
-      "threat": 2,
+      "threat": 3,
       "pilots": [
         {
           "id": "cartelspacer",
@@ -1018,9 +1018,8 @@
           "id": "solsixxa",
           "upgrades": {
             "turret": ["ioncannonturret"],
-            "gunner": ["skilledbombadier"],
-            "device": ["connernets"],
-            "device": ["proximitymines"]
+            "gunner": ["skilledbombardier"],
+            "device": ["connernets", "proximitymines"]
           }
         }
       ]

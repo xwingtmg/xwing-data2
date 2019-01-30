@@ -62,7 +62,7 @@
         {
           "id": "omegasquadronace",
           "upgrades": {
-            "astromech": ["elusive, fanatical"],
+            "talent": ["elusive, fanatical"],
             "modification": ["hullupgrade"]
           }
         }
@@ -198,7 +198,7 @@
           "upgrades": {
             "talent": ["hate", "predictiveshot"],
             "tech": ["primedthrusters"],
-            "torpedo": ["advancedprotontorpedoes"]
+            "torpedo": ["advprotontorpedoes"]
           }
         }
       ]
@@ -246,7 +246,7 @@
           "id": "avenger",
           "upgrades": {
             "tech": ["primedthrusters"],
-            "torpedo": ["advancedprotontorpedoes"]
+            "torpedo": ["advprotontorpedoes"]
           }
         }
       ]

@@ -230,7 +230,7 @@
             "tech": ["advancedoptics"],
             "gunner": ["paigetico"],
             "modification": ["hullupgrade", "ablativeplating"],
-            "bomb": ["protonbombs"]
+            "device": ["protonbombs"]
           }
         }
       ]
@@ -241,9 +241,9 @@
         {
           "id": "cat",
           "upgrades": {
-            "gunner": ["skilledbombadier"],
+            "gunner": ["skilledbombardier"],
             "modification": ["electronicbaffle"],
-            "bomb": ["connernets"]
+            "device": ["connernets"]
           }
         }
       ]
@@ -255,9 +255,9 @@
           "id": "edonkappehl",
           "upgrades": {
             "tech": ["patternanalyzer"],
-            "gunner": ["skilledbombadier"],
+            "gunner": ["skilledbombardier"],
             "crew": ["seasonednavigator"],
-            "bomb": ["protonbombs", "connernets"]
+            "device": ["protonbombs", "connernets"]
           }
         }
       ]
@@ -282,7 +282,7 @@
         {
           "id": "benteene",
           "upgrades": {
-            "bomb": ["protonbombs", "connernets"]
+            "device": ["protonbombs", "connernets"]
           }
         }
       ]
@@ -296,7 +296,7 @@
             "tech": ["advancedoptics"],
             "gunner": ["paigetico"],
             "modification": ["hullupgrade", "ablativeplating"],
-            "bomb": ["protonbombs"]
+            "device": ["protonbombs"]
           }
         }
       ]
