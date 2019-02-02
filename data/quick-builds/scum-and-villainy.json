@@ -199,7 +199,7 @@
             "talent": ["elusive"],
             "crew": ["perceptivecopilot"],
             "illicit": ["inertialdampeners"],
-            "device": ["seismiccharges, proximitymines"],
+            "device": ["seismiccharges", "proximitymines"],
             "title": ["andrasta"]
           }
         }
@@ -267,7 +267,7 @@
       "threat": 3,
       "pilots": [
         {
-          "id": "joyrekkof",
+          "id": "joyrekkoff",
           "upgrades": {
             "talent": ["predator"],
             "torpedo": ["iontorpedoes"],
@@ -302,7 +302,7 @@
           "id": "skullsquadronpilot",
           "upgrades": {
             "talent": ["marksmanship"],
-            "torpedo": ["advancedprotontorpedoes"],
+            "torpedo": ["advprotontorpedoes"],
             "modification": ["afterburners"]
           }
         }
@@ -326,7 +326,7 @@
       "threat": 3,
       "pilots": [
         {
-          "id": "sabinewren",
+          "id": "sabinewren-lancerclasspursuitcraft",
           "upgrades": {
             "talent": ["fearless"],
             "crew": ["ketsuonyo"],
@@ -429,7 +429,7 @@
       ]
     },
     {
-      "threat": 3,
+      "threat": 2,
       "pilots": [
         {
           "id": "cartelmarauder",
@@ -487,7 +487,7 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "crymorrahgoon",
+          "id": "crymorahgoon",
           "upgrades": {
             "torpedo": ["iontorpedoes"],
             "turret": ["dorsalturret"],
@@ -624,7 +624,7 @@
       "threat": 3,
       "pilots": [
         {
-          "id": "princexixor",
+          "id": "princexizor",
           "upgrades": {
             "talent": ["predator"],
             "system": ["firecontrolsystem"],
@@ -653,7 +653,7 @@
           "upgrades": {
             "talent": ["daredevil"],
             "system": ["advancedsensors"],
-            "torpedo": ["advancedprotontorpedoes"]
+            "torpedo": ["advprotontorpedoes"]
           }
         }
       ]
@@ -714,7 +714,7 @@
           "id": "quinnjast",
           "upgrades": {
             "talent": ["crackshot"],
-            "torpedo": ["advancedprotontorpedoes"],
+            "torpedo": ["advprotontorpedoes"],
             "modification": ["afterburners"]
           }
         }
@@ -778,7 +778,7 @@
       ]
     },
     {
-      "threat": 2,
+      "threat": 3,
       "pilots": [
         {
           "id": "cartelspacer",
@@ -1018,9 +1018,8 @@
           "id": "solsixxa",
           "upgrades": {
             "turret": ["ioncannonturret"],
-            "gunner": ["skilledbombadier"],
-            "device": ["connernets"],
-            "device": ["proximitymines"]
+            "gunner": ["skilledbombardier"],
+            "device": ["connernets", "proximitymines"]
           }
         }
       ]
@@ -1081,11 +1080,74 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "miningguildsurveyor",
+          "upgrades": {
+            "talent": ["swarmtactics", "trickshot"],
+            "modification": ["staticdischargevanes", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "overseeryushyn"
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "captainseevor",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "ahhav",
           "upgrades": {
             "talent": ["elusive"],
             "modification": ["afterburners", "hullupgrade"]
           }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "foremanproach",
+          "upgrades": {
+            "talent": ["predator", "swarmtactics"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "foremanproach",
+          "upgrades": {
+            "talent": ["crackshot", "fearless"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "miningguildsentry"
         }
       ]
     }

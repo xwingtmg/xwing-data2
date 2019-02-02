@@ -35,7 +35,7 @@
           "upgrades": {
             "talent": ["outmaneuver"],
             "modification": ["afterburners", "hullupgrade"],
-            "astromech": ["r5p8"],
+            "astromech": ["r5d8"],
             "configuration": ["servomotorsfoils"]
           }
         }
@@ -192,7 +192,7 @@
           "id": "graysquadronbomber",
           "upgrades": {
             "turret": ["ioncannonturret"],
-            "device": ["protonbomb"],
+            "device": ["protonbombs"],
             "astromech": ["r5astromech"]
           }
         }
@@ -206,8 +206,7 @@
           "upgrades": {
             "system": ["trajectorysimulator"],
             "missile": ["ionmissiles"],
-            "device": ["connernets"],
-            "device": ["protonbomb"],
+            "device": ["protonbombs", "connernets"],
             "modification": ["advancedslam"],
             "crew": ["perceptivecopilot"]
           }
@@ -220,7 +219,7 @@
         {
           "id": "mirandadoni",
           "upgrades": {
-            "device": ["protonbomb"],
+            "device": ["protonbombs"],
             "modification": ["advancedslam"]
           }
         }
@@ -245,7 +244,7 @@
           "id": "bladesquadronveteran",
           "upgrades": {
             "talent": ["elusive"],
-            "cannon": ["jammingbeam"]
+            "cannon": ["tractorbeam"]
           }
         }
       ]
@@ -668,7 +667,7 @@
           "upgrades": {
             "talent": ["lonewolf"],
             "crew": ["chewbacca"],
-            "title": ["milleniumfalcon"]
+            "title": ["millenniumfalcon"]
           }
         }
       ]
@@ -683,7 +682,7 @@
             "crew": ["leiaorgana", "c3po-crew", "r2d2-crew"],
             "gunner": ["hansolo", "lukeskywalker"],
             "modification": ["engineupgrade"],
-            "title": ["milleniumfalcon"]
+            "title": ["millenniumfalcon"]
           }
         }
       ]
@@ -698,7 +697,7 @@
             "missile": ["concussionmissiles"],
             "crew": ["niennunb"],
             "modification": ["engineupgrade"],
-            "title": ["milleniumfalcon"]
+            "title": ["millenniumfalcon"]
           }
         }
       ]
@@ -709,7 +708,7 @@
         {
           "id": "outerrimsmuggler",
           "upgrades": {
-            "missile": ["hoingmissiles"],
+            "missile": ["homingmissiles"],
             "crew": ["novicetechnician"],
             "gunner": ["veteranturretgunner"],
             "modification": ["staticdischargevanes"],
@@ -735,7 +734,7 @@
         {
           "id": "airencracken",
           "upgrades": {
-            "missile": ["homingmissiles"],
+            "missile": ["clustermissiles"],
             "talent": ["swarmtactics"],
             "modification": ["hullupgrade"]
           }
@@ -795,8 +794,7 @@
         {
           "id": "dashrendar",
           "upgrades": {
-            "talent": ["experthandling"],
-            "talent": ["trickshot"],
+            "talent": ["experthandling","trickshot"],
             "illicit": ["riggedcargochute"],
             "crew": ["perceptivecopilot"],
             "title": ["outrider"]
@@ -919,7 +917,7 @@
             "talent": ["elusive"],
             "astromech": ["r2astromech"],
             "illicit": ["deadmansswitch"],
-            "modification": ["afterburners", "hullupgrade"],
+            "modification": ["afterburners", "shieldupgrade"],
             "configuration": ["servomotorsfoils"]
           }
         }
@@ -944,8 +942,7 @@
         {
           "id": "kananjarrus",
           "upgrades": {
-            "crew": ["chopper-crew"],
-            "crew": ["herasyndulla"],
+            "crew": ["chopper-crew","herasyndulla"],
             "gunner": ["ezrabridger"],
             "turret": ["ioncannonturret"],
             "title": ["ghost"]

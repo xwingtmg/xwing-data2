@@ -187,6 +187,18 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "greersonnel",
+          "upgrades": {
+            "talent": ["marksmanship"],
+            "tech": ["primedthrusters"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "greensquadronexpert",
           "upgrades": {
             "talent": ["heroic"],
@@ -222,15 +234,14 @@
       ]
     },
     {
-      "threat": 4,
+      "threat": 3,
       "pilots": [
         {
-          "id": "finchdallow",
+          "id": "cobaltsquadronbomber",
           "upgrades": {
-            "tech": ["advancedoptics"],
-            "gunner": ["paigetico"],
-            "modification": ["hullupgrade", "ablativeplating"],
-            "bomb": ["protonbombs"]
+            "system": ["trajectorysimulator"],
+            "modification": ["ablativeplating"],
+            "device": ["protonbombs"]
           }
         }
       ]
@@ -241,9 +252,9 @@
         {
           "id": "cat",
           "upgrades": {
-            "gunner": ["skilledbombadier"],
+            "gunner": ["skilledbombardier"],
             "modification": ["electronicbaffle"],
-            "bomb": ["connernets"]
+            "device": ["connernets"]
           }
         }
       ]
@@ -255,9 +266,9 @@
           "id": "edonkappehl",
           "upgrades": {
             "tech": ["patternanalyzer"],
-            "gunner": ["skilledbombadier"],
+            "gunner": ["skilledbombardier"],
             "crew": ["seasonednavigator"],
-            "bomb": ["protonbombs", "connernets"]
+            "device": ["protonbombs", "connernets"]
           }
         }
       ]
@@ -282,7 +293,7 @@
         {
           "id": "benteene",
           "upgrades": {
-            "bomb": ["protonbombs", "connernets"]
+            "device": ["protonbombs", "connernets"]
           }
         }
       ]
@@ -296,7 +307,7 @@
             "tech": ["advancedoptics"],
             "gunner": ["paigetico"],
             "modification": ["hullupgrade", "ablativeplating"],
-            "bomb": ["protonbombs"]
+            "device": ["protonbombs"]
           }
         }
       ]
@@ -322,7 +333,7 @@
             "astromech": ["bb8"],
             "illicit": ["inertialdampeners"],
             "modification": ["engineupgrade"],
-            "title": ["reysmilleniumfalcon"]
+            "title": ["reysmillenniumfalcon"]
           }
         }
       ]
@@ -333,9 +344,9 @@
         {
           "id": "chewbacca-scavengedyt1300",
           "upgrades": {
-            "gunner": ["rey"],
+            "gunner": ["rey-gunner"],
             "modification": ["engineupgrade"],
-            "title": ["reysmilleniumfalcon"]
+            "title": ["reysmillenniumfalcon"]
           }
         }
       ]

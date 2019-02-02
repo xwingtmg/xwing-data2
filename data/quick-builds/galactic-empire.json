@@ -585,7 +585,7 @@
         {
           "id": "tomaxbren",
           "upgrades": {
-            "talent": ["crack shot"],
+            "talent": ["crackshot"],
             "torpedo": ["protontorpedoes"],
             "device": ["protonbombs"]
           }
@@ -614,7 +614,7 @@
           "upgrades": {
             "missile": ["clustermissiles"],
             "talent": ["intimidation"],
-            "torpedo": ["advancedprotontorpedoes"]
+            "torpedo": ["advprotontorpedoes"]
           }
         }
       ]
@@ -758,7 +758,7 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "sabersquadronpilot",
+          "id": "sabersquadronace",
           "upgrades": {
             "talent": ["predator"],
             "modification": ["stealthdevice"]
@@ -845,7 +845,7 @@
           "upgrades": {
             "missile": ["ionmissiles"],
             "system": ["trajectorysimulator"],
-            "gunner": ["skilledbombadier"],
+            "gunner": ["skilledbombardier"],
             "device": ["protonbombs"]
           }
         }
@@ -940,7 +940,7 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "vizier",
+          "id": "majorvermeil",
           "upgrades": {
             "talent": ["swarmtactics"],
             "crew": ["tacticalofficer"]
@@ -952,7 +952,7 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "vizier",
+          "id": "captainferoph",
           "upgrades": {
             "talent": ["swarmtactics"],
             "crew": ["isbslicer"]

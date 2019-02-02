@@ -62,7 +62,7 @@
         {
           "id": "omegasquadronace",
           "upgrades": {
-            "astromech": ["elusive, fanatical"],
+            "talent": ["elusive", "fanatical"],
             "modification": ["hullupgrade"]
           }
         }
@@ -84,7 +84,7 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "TN-3465",
+          "id": "tn3465",
           "upgrades": {
             "tech": ["targetingsynchronizer"],
             "modification": ["shieldupgrade"]
@@ -198,7 +198,7 @@
           "upgrades": {
             "talent": ["hate", "predictiveshot"],
             "tech": ["primedthrusters"],
-            "torpedo": ["advancedprotontorpedoes"]
+            "torpedo": ["advprotontorpedoes"]
           }
         }
       ]
@@ -210,7 +210,7 @@
           "id": "recoil",
           "upgrades": {
             "talent": ["predator"],
-            "torpedo": ["iontorpedoes"]
+            "torpedo": ["protontorpedoes"]
           }
         }
       ]
@@ -243,10 +243,21 @@
       "threat": 3,
       "pilots": [
         {
+          "id": "blackout",
+          "upgrades": {
+            "talent": ["trickshot"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
           "id": "avenger",
           "upgrades": {
             "tech": ["primedthrusters"],
-            "torpedo": ["advancedprotontorpedoes"]
+            "torpedo": ["advprotontorpedoes"]
           }
         }
       ]
@@ -255,7 +266,7 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "sienar-jaemusengineer"
+          "id": "sienarjaemusengineer"
         }
       ]
     },
@@ -277,7 +288,7 @@
       "threat": 3,
       "pilots": [
         {
-          "id": "liuetenantdormitz",
+          "id": "lieutenantdormitz",
           "upgrades": {
             "talent": ["biohexacryptcodes", "hyperspacetrackingdata"],
             "cannon": ["tractorbeam"]
