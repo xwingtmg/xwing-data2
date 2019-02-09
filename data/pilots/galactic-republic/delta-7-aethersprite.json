@@ -42,21 +42,68 @@
       "initiative": 3,
       "limited": 0,
       "xws": "jediknight",
+      "text": "When the Clone Wars began, the Jedi Knights rallied to the cause of preserving the Republic, assuming command of legions of clone troopers and leading them in battle.",
       "shipAbility": {
-        "name": "Unknown",
+        "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/b0/b3/b0b3f463-a3ea-4fe6-be69-41afed1b4110/swz32_jedi-knight.png",
       "hyperspace": false
     },
     {
       "name": "Obi-Wan Kenobi",
+      "caption": "Guardian of the Republic",
       "initiative": 5,
       "limited": 1,
       "xws": "obiwankenobi",
+      "ability": "After a friendly ship at range 0-2 spends a focus token, you may spend 1 [Force]. If you do, that ship gains 1 focus token.",
       "shipAbility": {
-        "name": "Unknown",
+        "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/f9/24/f9246e39-4852-4a8f-a331-9b78f62439e9/swz32_obi-wan-kenobi.png",
+      "hyperspace": false
+    },
+    {
+      "name": "Plo Koon",
+      "caption": "Serene Mentor",
+      "initiative": 5,
+      "limited": 1,
+      "xws": "plokoon",
+      "ability": "At the start of the Engagement Phase, you may spend 1 [Force] and choose another friendly ship at range 0-2. If you do, you may transfer 1 green token to it or transfer one orange token from it to yourself.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/6a/6f/6a6fef51-fb5f-49c1-b5cc-8e96b6d09051/swz32_plo-koon.png",
+      "hyperspace": false
+    },
+    {
+      "name": "Saesee Tiin",
+      "caption": "Prophetic Pilot",
+      "initiative": 4,
+      "limited": 1,
+      "xws": "saeseetiin",
+      "ability": "After a friendly ship at range 0-2 reveals its dial, you may spend 1 [Force]. If you do, set its dial to another maneuver of the same speed and difficulty.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/77/73/777350cb-614b-48fd-ad8d-d9c867053c6b/swz32_saesee-tiin.png",
+      "hyperspace": false
+    },
+    {
+      "name": "Mace Windu",
+      "caption": "Harsh Traditionalist",
+      "initiative": 5,
+      "limited": 1,
+      "xws": "macewindu",
+      "ability": "After you fully execute a red maneuver, recover 1 [Force].",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/89/28/8928ae70-8883-4c39-9b15-a4754c063b88/swz32_mace-windu.png",
       "hyperspace": false
     },
     {
@@ -65,7 +112,7 @@
       "limited": 1,
       "xws": "anakinskywalker",
       "shipAbility": {
-        "name": "Unknown",
+        "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "hyperspace": false
