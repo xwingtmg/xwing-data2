@@ -34,6 +34,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Jam" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_MistHunter.png",
   "pilots": [
     {
       "name": "4-LOM",
@@ -51,26 +52,28 @@
         { "difficulty": "White", "type": "Jam" }
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_201.jpg",
-      "ffg": 201
+      "ffg": 201,
+      "hyperspace": false
     },
     {
       "name": "Gand Findsman",
       "initiative": 1,
       "limited": 0,
-      "cost": 43,
+      "cost": 41,
       "xws": "gandfindsman",
       "text": "The legendary Findsmen of Gand worship the enshrouding mists of their home planet, using signs, augurs, and mystical rituals to track their quarry.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_203.png",
       "slots": ["Sensor", "Crew", "Illicit", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_203.jpg",
-      "ffg": 203
+      "ffg": 203,
+      "hyperspace": false
     },
     {
       "name": "Zuckuss",
       "caption": "Meditative Gand",
       "initiative": 3,
       "limited": 1,
-      "cost": 47,
+      "cost": 45,
       "xws": "zuckuss",
       "ability": "While you perform a primary attack, you may roll 1 additional attack die. If you do, the defender rolls 1 additional defense die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_202.png",
@@ -82,7 +85,8 @@
       ],
       "slots": ["Talent", "Sensor", "Crew", "Illicit", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_202.jpg",
-      "ffg": 202
+      "ffg": 202,
+      "hyperspace": false
     }
   ]
 }

@@ -56,13 +56,14 @@
       "type": "Coordinate"
     }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Sheathipede.png",
   "pilots": [
     {
       "name": "\"Zeb\" Orrelios",
       "caption": "Spectre-4",
       "initiative": 2,
       "limited": 1,
-      "cost": 32,
+      "cost": 34,
       "xws": "zeborrelios-sheathipedeclassshuttle",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_40.png",
@@ -72,14 +73,15 @@
       },
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg",
-      "ffg": 40
+      "ffg": 40,
+      "hyperspace": false
     },
     {
       "name": "AP-5",
       "caption": "Escaped Analyst Droid",
       "initiative": 1,
       "limited": 1,
-      "cost": 30,
+      "cost": 32,
       "xws": "ap5",
       "ability": "While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_41.png",
@@ -99,7 +101,8 @@
       },
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg",
-      "ffg": 41
+      "ffg": 41,
+      "hyperspace": false
     },
     {
       "name": "Ezra Bridger",
@@ -119,9 +122,10 @@
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
-      "slots": ["Force Power", "Crew", "Astromech", "Modification", "Title"],
+      "slots": ["Crew", "Astromech", "Modification", "Title", "Force Power"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg",
-      "ffg": 39
+      "ffg": 39,
+      "hyperspace": false
     },
     {
       "name": "Fenn Rau",
@@ -138,7 +142,8 @@
       },
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg",
-      "ffg": 38
+      "ffg": 38,
+      "hyperspace": false
     }
   ]
 }

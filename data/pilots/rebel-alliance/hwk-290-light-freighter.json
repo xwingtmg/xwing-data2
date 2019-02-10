@@ -42,13 +42,14 @@
     { "difficulty": "White", "type": "Rotate Arc" },
     { "difficulty": "Red", "type": "Jam" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_HWK-290.png",
   "pilots": [
     {
       "name": "Jan Ors",
       "caption": "Espionage Expert",
       "initiative": 5,
       "limited": 1,
-      "cost": 42,
+      "cost": 44,
       "xws": "janors",
       "ability": "While a friendly ship in your firing arc performs a primary attack, if you are not stressed, you may gain 1 stress token. If you do, that ship may roll 1 additional attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_42.png",
@@ -61,14 +62,15 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_42.jpg",
-      "ffg": 42
+      "ffg": 42,
+      "hyperspace": false
     },
     {
       "name": "Kyle Katarn",
       "caption": "Relentless Operative",
       "initiative": 3,
       "limited": 1,
-      "cost": 38,
+      "cost": 39,
       "xws": "kylekatarn",
       "ability": "At the start of the Engagement Phase, you may transfer 1 of your focus tokens to a friendly ship in your firing arc.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_43.png",
@@ -81,26 +83,28 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_43.jpg",
-      "ffg": 43
+      "ffg": 43,
+      "hyperspace": false
     },
     {
       "name": "Rebel Scout",
       "initiative": 2,
       "limited": 0,
-      "cost": 32,
+      "cost": 33,
       "xws": "rebelscout",
       "text": "Designed to look like a bird in flight by the Corellian Engineering Corporation, \"hawk\" series ships are exemplary transport craft. Swift and rugged, the HWK-290 is often employed by Rebel agents as a mobile base of operations.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_45.png",
       "slots": ["Crew", "Device", "Modification", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_45.jpg",
-      "ffg": 45
+      "ffg": 45,
+      "hyperspace": false
     },
     {
       "name": "Roark Garnet",
       "caption": "Good-Hearted Smuggler",
       "initiative": 4,
       "limited": 1,
-      "cost": 38,
+      "cost": 43,
       "xws": "roarkgarnet",
       "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, it engages at initiative 7 instead of its standard initiative value this phase.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_44.png",
@@ -113,7 +117,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_44.jpg",
-      "ffg": 44
+      "ffg": 44,
+      "hyperspace": false
     }
   ]
 }

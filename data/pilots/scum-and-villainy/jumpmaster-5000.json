@@ -63,25 +63,27 @@
       "type": "Barrel Roll"
     }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Jumpmaster.png",
   "pilots": [
     {
       "name": "Contracted Scout",
       "initiative": 2,
       "limited": 0,
-      "cost": 52,
+      "cost": 46,
       "xws": "contractedscout",
       "text": "Built for long-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_217.png",
-      "slots": ["Crew", "Torpedo", "Illicit", "Modification", "Title"],
+      "slots": ["Torpedo", "Crew", "Illicit", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg",
-      "ffg": 217
+      "ffg": 217,
+      "hyperspace": false
     },
     {
       "name": "Dengar",
       "caption": "Vengeful Corellian",
       "initiative": 6,
       "limited": 1,
-      "cost": 64,
+      "cost": 58,
       "xws": "dengar",
       "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_214.png",
@@ -97,41 +99,43 @@
       },
       "slots": [
         "Talent",
-        "Crew",
         "Torpedo",
+        "Crew",
         "Illicit",
         "Modification",
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_214.jpg",
-      "ffg": 214
+      "ffg": 214,
+      "hyperspace": false
     },
     {
       "name": "Manaroo",
       "caption": "Graceful Aruzan",
       "initiative": 3,
       "limited": 1,
-      "cost": 56,
+      "cost": 47,
       "xws": "manaroo",
       "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_215.png",
       "slots": [
         "Talent",
-        "Crew",
         "Torpedo",
+        "Crew",
         "Illicit",
         "Modification",
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_215.jpg",
-      "ffg": 215
+      "ffg": 215,
+      "hyperspace": false
     },
     {
       "name": "Tel Trevura",
       "caption": "Escape Artist",
       "initiative": 4,
       "limited": 1,
-      "cost": 60,
+      "cost": 50,
       "xws": "teltrevura",
       "ability": "If you would be destroyed, you may spend 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [Hit] damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_216.png",
@@ -141,14 +145,15 @@
       },
       "slots": [
         "Talent",
-        "Crew",
         "Torpedo",
+        "Crew",
         "Illicit",
         "Modification",
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg",
-      "ffg": 216
+      "ffg": 216,
+      "hyperspace": false
     }
   ]
 }

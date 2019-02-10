@@ -138,7 +138,7 @@
       "threat": 3,
       "pilots": [
         {
-          "id": "blacksquadronace",
+          "id": "blacksquadronace-t70xwing",
           "upgrades": {
             "torpedo": ["protontorpedoes"],
             "astromech": ["m9g8"],
@@ -187,6 +187,18 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "greersonnel",
+          "upgrades": {
+            "talent": ["marksmanship"],
+            "tech": ["primedthrusters"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "greensquadronexpert",
           "upgrades": {
             "talent": ["heroic"],
@@ -217,6 +229,136 @@
             "tech": ["primedthrusters"],
             "modification": ["shieldupgrade"],
             "missile": ["homingmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "cobaltsquadronbomber",
+          "upgrades": {
+            "system": ["trajectorysimulator"],
+            "modification": ["ablativeplating"],
+            "device": ["protonbombs"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "cat",
+          "upgrades": {
+            "gunner": ["skilledbombardier"],
+            "modification": ["electronicbaffle"],
+            "device": ["connernets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "edonkappehl",
+          "upgrades": {
+            "tech": ["patternanalyzer"],
+            "gunner": ["skilledbombardier"],
+            "crew": ["seasonednavigator"],
+            "device": ["protonbombs", "connernets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "vennie",
+          "upgrades": {
+            "tech": ["advancedoptics"],
+            "gunner": ["finn"],
+            "crew": ["rosetico"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "benteene",
+          "upgrades": {
+            "device": ["protonbombs", "connernets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "finchdallow",
+          "upgrades": {
+            "tech": ["advancedoptics"],
+            "gunner": ["paigetico"],
+            "modification": ["hullupgrade", "ablativeplating"],
+            "device": ["protonbombs"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "hansolo-scavengedyt1300",
+          "upgrades": {
+            "crew": ["chewbacca-crew-swz19"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "rey",
+          "upgrades": {
+            "gunner": ["finn"],
+            "astromech": ["bb8"],
+            "illicit": ["inertialdampeners"],
+            "modification": ["engineupgrade"],
+            "title": ["reysmillenniumfalcon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "chewbacca-scavengedyt1300",
+          "upgrades": {
+            "gunner": ["rey-gunner"],
+            "modification": ["engineupgrade"],
+            "title": ["reysmillenniumfalcon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "resistancesympathizer",
+          "upgrades": {
+            "crew": ["chewbacca-crew-swz19", "hansolo-crew", "c3po-crew"],
+            "talent": ["debrisgambit"]
           }
         }
       ]

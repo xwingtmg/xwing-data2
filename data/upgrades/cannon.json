@@ -21,7 +21,8 @@
         "ffg": 256
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "Ion Cannon",
@@ -45,7 +46,8 @@
         "ffg": 257
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "hyperspace": false
   },
   {
     "name": "Jamming Beam",
@@ -69,7 +71,8 @@
         "ffg": 258
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 0 },
+    "hyperspace": false
   },
   {
     "name": "Tractor Beam",
@@ -93,6 +96,7 @@
         "ffg": 259
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 2 },
+    "hyperspace": false
   }
 ]

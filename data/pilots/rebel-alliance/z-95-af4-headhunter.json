@@ -33,6 +33,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Z-95.png",
   "pilots": [
     {
       "name": "Airen Cracken",
@@ -45,7 +46,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_27.png",
       "slots": ["Talent", "Missile", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_27.jpg",
-      "ffg": 27
+      "ffg": 27,
+      "hyperspace": false
     },
     {
       "name": "Bandit Squadron Pilot",
@@ -57,7 +59,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_30.png",
       "slots": ["Missile", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_30.jpg",
-      "ffg": 30
+      "ffg": 30,
+      "hyperspace": false
     },
     {
       "name": "Lieutenant Blount",
@@ -70,7 +73,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_28.png",
       "slots": ["Talent", "Missile", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_28.jpg",
-      "ffg": 28
+      "ffg": 28,
+      "hyperspace": false
     },
     {
       "name": "Tala Squadron Pilot",
@@ -82,7 +86,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_29.png",
       "slots": ["Talent", "Missile", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_29.jpg",
-      "ffg": 29
+      "ffg": 29,
+      "hyperspace": false
     }
   ]
 }

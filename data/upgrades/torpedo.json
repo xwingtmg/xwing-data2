@@ -22,7 +22,8 @@
         "ffg": 262
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "hyperspace": false
   },
   {
     "name": "Ion Torpedoes",
@@ -47,7 +48,8 @@
         "ffg": 263
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "hyperspace": true
   },
   {
     "name": "Proton Torpedoes",
@@ -72,6 +74,7 @@
         "ffg": 264
       }
     ],
-    "cost": { "value": 9 }
+    "cost": { "value": 12 },
+    "hyperspace": true
   }
 ]

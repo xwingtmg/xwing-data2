@@ -67,6 +67,7 @@
       "type": "Boost"
     }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_StarViper.png",
   "pilots": [
     {
       "name": "Black Sun Assassin",
@@ -82,7 +83,8 @@
       },
       "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg",
-      "ffg": 181
+      "ffg": 181,
+      "hyperspace": false
     },
     {
       "name": "Black Sun Enforcer",
@@ -98,7 +100,8 @@
       },
       "slots": ["Sensor", "Torpedo", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg",
-      "ffg": 182
+      "ffg": 182,
+      "hyperspace": false
     },
     {
       "name": "Dalan Oberos",
@@ -115,14 +118,15 @@
       },
       "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg",
-      "ffg": 179
+      "ffg": 179,
+      "hyperspace": false
     },
     {
       "name": "Guri",
       "caption": "Prince Xizor's Bodyguard",
       "initiative": 5,
       "limited": 1,
-      "cost": 62,
+      "cost": 63,
       "xws": "guri",
       "ability": "At the start of the Engagement Phase, if there is at least 1 enemy ship at range 0-1, you may gain 1 focus token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_178.png",
@@ -158,7 +162,8 @@
       },
       "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_178.jpg",
-      "ffg": 178
+      "ffg": 178,
+      "hyperspace": false
     },
     {
       "name": "Prince Xizor",
@@ -175,7 +180,8 @@
       },
       "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg",
-      "ffg": 180
+      "ffg": 180,
+      "hyperspace": false
     }
   ]
 }

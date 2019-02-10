@@ -1,18 +1,27 @@
 {
   "name": "xwing-data2",
-  "version": "1.4.3",
+  "version": "1.8.1",
   "repository": "git@github.com:guidokessels/xwing-data2.git",
   "author": "Guido Kessels <mail@guidokessels.com>",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --print-width 80 --write 'data/**/*.json'",
+    "validate:json": "jsonlint-cli data/**/*.json",
+    "validate:schema": "jest tests/**-schema.test.js",
+    "validate:schema:watch": "jest --watch tests/**-schema.test.js",
+    "format": "prettier --loglevel warn --write \"data/**/*.json\"",
     "changelog": "git log --pretty=format:'- %s (%h)' --no-merges",
-    "ffg2xws": "node scripts/ffg2xws.js && prettier --print-width 80 --write data/ffg-xws.json"
+    "ffg2xws": "node scripts/ffg2xws.js && prettier --write data/ffg-xws.json",
+    "hyperspace": "node scripts/hyperspace.js && yarn format"
   },
   "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-json-schema": "^2.0.1",
     "jsonfile": "^5.0.0",
+    "jsonlint-cli": "^1.0.1",
+    "node-fetch": "^2.3.0",
     "prettier": "^1.14.2"
   },
-  "dependencies": {
+  "prettier": {
+    "printWidth": 80
   }
 }

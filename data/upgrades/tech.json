@@ -14,9 +14,8 @@
         "ffg": 460
       }
     ],
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "Ferrosphere Paint",
@@ -33,14 +32,9 @@
         "ffg": 488
       }
     ],
-    "cost": {
-      "value": 6
-    },
-    "restrictions": [
-      {
-        "factions": ["Resistance"]
-      }
-    ]
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "Hyperspace Tracking Data",
@@ -50,16 +44,16 @@
       {
         "title": "Hyperspace Tracking Data",
         "type": "Tech",
-        "ability": "Setup: Before placing forces, you may... 0 and 6...",
+        "ability": "Setup: Before placing forces, you may choose a number between 0 and 6. Treat your initiative as the chosen value during Setup. After Setup, assign 1 focus or evade token to each friendly ship at range 0-2.",
         "slots": ["Tech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a48713c6784bf33bd3f8b36eb19221c3.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/fa5c01453d7aa2e2f1f100593e79669d.jpg",
         "ffg": 461
       }
     ],
-    "cost": {
-      "value": 2
-    }
+    "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["First Order"] }, { "sizes": ["Large"] }],
+    "hyperspace": true
   },
   {
     "name": "Primed Thrusters",
@@ -77,13 +71,11 @@
       }
     ],
     "cost": {
-      "value": 8
+      "variable": "initiative",
+      "values": { "0": 4, "1": 5, "2": 6, "3": 7, "4": 8, "5": 9, "6": 10 }
     },
-    "restrictions": [
-      {
-        "sizes": ["Small"]
-      }
-    ]
+    "restrictions": [{ "sizes": ["Small"] }],
+    "hyperspace": true
   },
   {
     "name": "Targeting Synchronizer",
@@ -100,9 +92,8 @@
         "ffg": 464
       }
     ],
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 6 },
+    "hyperspace": true
   },
   {
     "name": "Pattern Analyzer",
@@ -119,9 +110,8 @@
         "ffg": 462
       }
     ],
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "Biohexacrypt Codes",
@@ -138,8 +128,11 @@
         "ffg": 491
       }
     ],
-    "cost": {
-      "value": 1
-    }
+    "cost": { "value": 1 },
+    "restrictions": [
+      { "factions": ["First Order"] },
+      { "action": { "type": "Lock" } }
+    ],
+    "hyperspace": false
   }
 ]

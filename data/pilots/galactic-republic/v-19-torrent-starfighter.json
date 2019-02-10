@@ -23,41 +23,88 @@
   ],
   "faction": "Galactic Republic",
   "stats": [
-    {
-      "type": "attack",
-      "arc": "Front Arc",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 5
-    }
+    { "type": "attack", "arc": "Front Arc", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 5 }
   ],
   "actions": [
-    {
-      "type": "Focus",
-      "difficulty": "White"
-    },
-    {
-      "type": "Evade",
-      "difficulty": "White"
-    },
-    {
-      "type": "Lock",
-      "difficulty": "White"
-    },
+    { "type": "Focus", "difficulty": "White" },
+    { "type": "Evade", "difficulty": "White" },
+    { "type": "Lock", "difficulty": "White" },
     {
       "type": "Barrel Roll",
       "difficulty": "White",
-      "linked": {
-        "type": "Evade",
-        "difficulty": "Red"
-      }
+      "linked": { "type": "Evade", "difficulty": "Red" }
     }
   ],
-  "pilots": []
+  "pilots": [
+    {
+      "name": "\"Kickback\"",
+      "caption": "Blue Four",
+      "xws": "kickback",
+      "initiative": 4,
+      "limited": 1,
+      "ability": "After you perform a [Barrel Roll] action, you may perform a red [Lock] action.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/57/c4/57c43689-5d1f-4fd2-b1f6-d4bec9448634/swz32_kickback.png",
+      "hyperspace": false
+    },
+    {
+      "name": "\"Odd Ball\"",
+      "caption": "CC-2237",
+      "xws": "oddball",
+      "initiative": 5,
+      "limited": 1,
+      "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/18/d2/18d2b2c2-482a-4b6f-8c53-c3f0f24bea4b/swz32_odd-ball.png",
+      "hyperspace": false
+    },
+    {
+      "name": "\"Swoop\"",
+      "caption": "Blue Six",
+      "xws": "swoop",
+      "initiative": 3,
+      "limited": 1,
+      "ability": "After a friendly small or medium ship fully executes a speed 3-4 maneuver, if it is at range 0-1, it may perform a red [Boost] action.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/c3/9f/c39f4623-a983-4fea-98aa-c11b37e867c0/swz32_swoop.png",
+      "hyperspace": false
+    },
+    {
+      "name": "\"Axe\"",
+      "caption": "Blue Two",
+      "xws": "axe",
+      "initiative": 3,
+      "limited": 1,
+      "ability": "After you defend or perform an attack, you may choose a friendly ship at range 1-2 in your [Left Arc] or [Right Arc]. If you do, transfer 1 green token to that ship.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/2c/ee/2ceea646-b5bd-42ce-aeb1-7f38dc88e045/swz32_axe.png",
+      "hyperspace": false
+    },
+    {
+      "name": "\"Tucker\"",
+      "caption": "Blue Five",
+      "xws": "tucker",
+      "initiative": 2,
+      "limited": 1,
+      "ability": "After a friendly ship at range 1-2 performa an attack against an enemy ship in your [Front Arc], you may perform a [Focus] action.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/79/05/790527b0-486c-4f5e-a1cb-bab1cf29fb5b/swz32_tucker.png",
+      "hyperspace": false
+    },
+    {
+      "name": "Blue Squadron Protector",
+      "xws": "bluesquadronprotector",
+      "initiative": 3,
+      "limited": 0,
+      "text": "Blue Squadron's elite clone pilots are trained to fly their V-19s in conjunction with hedi and often support famous commanders such as Anakin Skywalker and Ahsoka Tano.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/51/18/5118d916-b09f-47a1-a4dd-0df667267d1b/swz32_blue-sqd-protector.png",
+      "hyperspace": false
+    },
+    {
+      "name": "Gold Squadron Trooper",
+      "xws": "goldsquadrontrooper",
+      "initiative": 2,
+      "limited": 0,
+      "text": "The V-19 Torrent starfighter was designed to be a light escort to nimble Delta-7 interceptors flown by Jedi Knights, and has a unique flight profile to reflect this role.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/ab/a7/aba7c941-3472-453f-bfd8-032f5f854e0b/swz32_gold-sqd-trooper.png",
+      "hyperspace": false
+    }
+  ]
 }

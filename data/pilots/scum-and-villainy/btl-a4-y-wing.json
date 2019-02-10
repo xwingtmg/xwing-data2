@@ -33,54 +33,57 @@
     { "difficulty": "Red", "type": "Barrel Roll" },
     { "difficulty": "Red", "type": "Reload" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Y-wing.png",
   "pilots": [
     {
       "name": "Crymorah Goon",
       "initiative": 1,
       "limited": 0,
-      "cost": 32,
+      "cost": 31,
       "xws": "crymorahgoon",
       "text": "Though far from nimble, the Y-wing's heavy hull, substantial shielding, and turret-mounted cannons make it an excellent patrol craft.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_168.png",
       "slots": [
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
         "Illicit",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_168.jpg",
-      "ffg": 168
+      "ffg": 168,
+      "hyperspace": false
     },
     {
       "name": "Drea Renthal",
       "caption": "Pirate Lord",
       "initiative": 4,
       "limited": 1,
-      "cost": 40,
+      "cost": 42,
       "xws": "drearenthal",
       "ability": "While a friendly non-limited ship performs an attack, if the defender is in your firing arc, the attacker may reroll 1 attack die.",
       "slots": [
         "Talent",
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
         "Illicit",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_166.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_166.jpg",
-      "ffg": 166
+      "ffg": 166,
+      "hyperspace": false
     },
     {
       "name": "Hired Gun",
       "initiative": 2,
       "limited": 0,
-      "cost": 34,
+      "cost": 33,
       "xws": "hiredgun",
       "text": "Just the mention of Imperial credits can bring a host of less-than-trustworthy individuals to your side.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_167.png",
@@ -88,21 +91,22 @@
         "Talent",
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
         "Illicit",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_167.jpg",
-      "ffg": 167
+      "ffg": 167,
+      "hyperspace": false
     },
     {
       "name": "Kavil",
       "caption": "Callous Corsair",
       "initiative": 5,
       "limited": 1,
-      "cost": 42,
+      "cost": 43,
       "xws": "kavil",
       "ability": "While you perform a non-[Front Arc] attack, roll 1 additional attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_165.png",
@@ -110,14 +114,15 @@
         "Talent",
         "Turret",
         "Torpedo",
-        "Gunner",
         "Astromech",
         "Device",
         "Illicit",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_165.jpg",
-      "ffg": 165
+      "ffg": 165,
+      "hyperspace": false
     }
   ]
 }

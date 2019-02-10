@@ -36,13 +36,14 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_A-wing.png",
   "pilots": [
     {
       "name": "Arvel Crynyd",
       "caption": "Green Leader",
       "initiative": 3,
       "limited": 1,
-      "cost": 36,
+      "cost": 34,
       "xws": "arvelcrynyd",
       "ability": "You can perform primary attacks at range 0. If you would fail a [Boost] action by overlapping another ship, resolve it as though you were partially executing a maneuver instead.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_20.png",
@@ -50,15 +51,16 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "slots": ["Talent", "Missile"],
+      "slots": ["Talent", "Talent", "Missile"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_20.jpg",
-      "ffg": 20
+      "ffg": 20,
+      "hyperspace": false
     },
     {
       "name": "Green Squadron Pilot",
       "initiative": 3,
       "limited": 0,
-      "cost": 34,
+      "cost": 32,
       "xws": "greensquadronpilot",
       "text": "Due to its sensitive controls and high maneuverability, only the most talented pilots belong in an A-wing cockpit.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_21.png",
@@ -66,16 +68,17 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "slots": ["Talent", "Missile"],
+      "slots": ["Talent", "Talent", "Missile"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg",
-      "ffg": 21
+      "ffg": 21,
+      "hyperspace": false
     },
     {
       "name": "Jake Farrell",
       "caption": "Sage Instructor",
       "initiative": 4,
       "limited": 1,
-      "cost": 40,
+      "cost": 36,
       "xws": "jakefarrell",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may choose a friendly ship at range 0-1. That ship may perform a [Focus] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_19.png",
@@ -83,9 +86,10 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "slots": ["Talent", "Missile"],
+      "slots": ["Talent", "Talent", "Missile"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_19.jpg",
-      "ffg": 19
+      "ffg": 19,
+      "hyperspace": false
     },
     {
       "name": "Phoenix Squadron Pilot",
@@ -99,9 +103,10 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "slots": ["Missile"],
+      "slots": ["Talent", "Missile"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg",
-      "ffg": 22
+      "ffg": 22,
+      "hyperspace": false
     }
   ]
 }

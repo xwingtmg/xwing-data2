@@ -35,6 +35,7 @@
     { "difficulty": "Red", "type": "Boost" },
     { "difficulty": "White", "type": "Rotate Arc" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_CustomizedYT-1300.png",
   "pilots": [
     {
       "name": "Freighter Captain",
@@ -47,14 +48,15 @@
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_225.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_225.jpg",
-      "ffg": 225
+      "ffg": 225,
+      "hyperspace": true
     },
     {
       "name": "Han Solo",
@@ -70,13 +72,14 @@
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_222.jpg",
-      "ffg": 222
+      "ffg": 222,
+      "hyperspace": true
     },
     {
       "name": "L3-37",
@@ -97,13 +100,14 @@
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_224.jpg",
-      "ffg": 224
+      "ffg": 224,
+      "hyperspace": true
     },
     {
       "name": "Lando Calrissian",
@@ -119,13 +123,14 @@
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Illicit",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_223.jpg",
-      "ffg": 223
+      "ffg": 223,
+      "hyperspace": true
     }
   ]
 }

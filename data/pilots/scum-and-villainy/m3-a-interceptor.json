@@ -59,12 +59,13 @@
       "type": "Barrel Roll"
     }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Scyk.png",
   "pilots": [
     {
       "name": "Cartel Spacer",
       "initiative": 1,
       "limited": 0,
-      "cost": 29,
+      "cost": 28,
       "xws": "cartelspacer",
       "text": "MandalMotors' M3-A \"Scyk\" Interceptor is purchased in large quantities by the Hutt Cartel and the Car'das smugglers due to its low cost and customizability.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_190.png",
@@ -74,14 +75,15 @@
       },
       "slots": ["Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_190.jpg",
-      "ffg": 190
+      "ffg": 190,
+      "hyperspace": false
     },
     {
       "name": "Genesis Red",
       "caption": "Tansarii Point Crime Lord",
       "initiative": 4,
       "limited": 1,
-      "cost": 35,
+      "cost": 34,
       "xws": "genesisred",
       "ability": "After you acquire a lock, you must remove all of your focus and evade tokens. Then, gain the same number of focus and evade tokens that the locked ship has.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_184.png",
@@ -91,14 +93,15 @@
       },
       "slots": ["Talent", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_184.jpg",
-      "ffg": 184
+      "ffg": 184,
+      "hyperspace": false
     },
     {
       "name": "Inaldra",
       "caption": "Tansarii Point Boss",
       "initiative": 2,
       "limited": 1,
-      "cost": 32,
+      "cost": 31,
       "xws": "inaldra",
       "ability": "While you defend or perform an attack, you may suffer 1 [Hit] damage to reroll any number of your dice.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_187.png",
@@ -108,14 +111,15 @@
       },
       "slots": ["Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_187.jpg",
-      "ffg": 187
+      "ffg": 187,
+      "hyperspace": false
     },
     {
       "name": "Laetin A'shera",
       "caption": "Car'das Enforcer",
       "initiative": 3,
       "limited": 1,
-      "cost": 35,
+      "cost": 33,
       "xws": "laetinashera",
       "ability": "After you defend or perform an attack, if the attack missed, gain 1 evade token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_185.png",
@@ -125,14 +129,15 @@
       },
       "slots": ["Talent", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_185.jpg",
-      "ffg": 185
+      "ffg": 185,
+      "hyperspace": false
     },
     {
       "name": "Quinn Jast",
       "caption": "Fortune Seeker",
       "initiative": 3,
       "limited": 1,
-      "cost": 35,
+      "cost": 34,
       "xws": "quinnjast",
       "ability": "At the start of the Engagement Phase, you may gain 1 disarm token to recover 1 [Charge] on 1 of your equipped upgrades.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_186.png",
@@ -142,14 +147,15 @@
       },
       "slots": ["Talent", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_186.jpg",
-      "ffg": 186
+      "ffg": 186,
+      "hyperspace": false
     },
     {
       "name": "Serissu",
       "caption": "Flight Instructor",
       "initiative": 5,
       "limited": 1,
-      "cost": 43,
+      "cost": 40,
       "xws": "serissu",
       "ability": "While a friendly ship at range 0-1 defends, it may reroll 1 of its dice.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_183.png",
@@ -159,14 +165,15 @@
       },
       "slots": ["Talent", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_183.jpg",
-      "ffg": 183
+      "ffg": 183,
+      "hyperspace": false
     },
     {
       "name": "Sunny Bounder",
       "caption": "Incurable Optimist",
       "initiative": 1,
       "limited": 1,
-      "cost": 31,
+      "cost": 30,
       "xws": "sunnybounder",
       "ability": "While you defend or perform an attack, after you roll or reroll your dice, if you have the same result on each of your dice, you may add 1 matching result.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_188.png",
@@ -176,13 +183,14 @@
       },
       "slots": ["Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_188.jpg",
-      "ffg": 188
+      "ffg": 188,
+      "hyperspace": false
     },
     {
       "name": "Tansarii Point Veteran",
       "initiative": 3,
       "limited": 0,
-      "cost": 33,
+      "cost": 32,
       "xws": "tansariipointveteran",
       "text": "The defeat of Black Sun ace Talonbane Cobra by Car'das smugglers turned the tide of the Battle of Tansarii Point Station. Survivors of the clash are respected throughout the sector.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_189.png",
@@ -192,7 +200,8 @@
       },
       "slots": ["Talent", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_189.jpg",
-      "ffg": 189
+      "ffg": 189,
+      "hyperspace": false
     }
   ]
 }

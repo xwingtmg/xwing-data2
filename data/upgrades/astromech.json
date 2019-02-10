@@ -13,14 +13,9 @@
         "ffg": 323
       }
     ],
-    "cost": {
-      "value": 2
-    },
-    "restrictions": [
-      {
-        "factions": ["Rebel Alliance"]
-      }
-    ]
+    "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": false
   },
   {
     "name": "\"Genius\"",
@@ -37,14 +32,9 @@
         "ffg": 368
       }
     ],
-    "cost": {
-      "value": 0
-    },
-    "restrictions": [
-      {
-        "factions": ["Scum and Villainy"]
-      }
-    ]
+    "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "R2 Astromech",
@@ -65,9 +55,8 @@
         "ffg": 282
       }
     ],
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "R2-D2",
@@ -88,14 +77,9 @@
         "ffg": 324
       }
     ],
-    "cost": {
-      "value": 8
-    },
-    "restrictions": [
-      {
-        "factions": ["Rebel Alliance"]
-      }
-    ]
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "R3 Astromech",
@@ -112,9 +96,8 @@
         "ffg": 283
       }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 },
+    "hyperspace": true
   },
   {
     "name": "R4 Astromech",
@@ -131,14 +114,9 @@
         "ffg": 284
       }
     ],
-    "cost": {
-      "value": 2
-    },
-    "restrictions": [
-      {
-        "sizes": ["Small"]
-      }
-    ]
+    "cost": { "value": 2 },
+    "restrictions": [{ "sizes": ["Small"] }],
+    "hyperspace": true
   },
   {
     "name": "R5 Astromech",
@@ -159,9 +137,8 @@
         "ffg": 285
       }
     ],
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "R5-D8",
@@ -182,14 +159,9 @@
         "ffg": 325
       }
     ],
-    "cost": {
-      "value": 7
-    },
-    "restrictions": [
-      {
-        "factions": ["Rebel Alliance"]
-      }
-    ]
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "R5-P8",
@@ -210,14 +182,9 @@
         "ffg": 369
       }
     ],
-    "cost": {
-      "value": 4
-    },
-    "restrictions": [
-      {
-        "factions": ["Scum and Villainy"]
-      }
-    ]
+    "cost": { "value": 4 },
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "R5-TK",
@@ -234,14 +201,9 @@
         "ffg": 370
       }
     ],
-    "cost": {
-      "value": 1
-    },
-    "restrictions": [
-      {
-        "factions": ["Scum and Villainy"]
-      }
-    ]
+    "cost": { "value": 1 },
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "R5-X3",
@@ -259,14 +221,9 @@
         "ffg": 483
       }
     ],
-    "cost": {
-      "value": 5
-    },
-    "restrictions": [
-      {
-        "factions": ["Resistance"]
-      }
-    ]
+    "cost": { "value": 5 },
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "R2-HA",
@@ -283,14 +240,9 @@
         "ffg": 482
       }
     ],
-    "cost": {
-      "value": 4
-    },
-    "restrictions": [
-      {
-        "factions": ["Resistance"]
-      }
-    ]
+    "cost": { "value": 4 },
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "BB-8",
@@ -304,21 +256,16 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/37297ef7839800afd543de5d1a363561.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e8a75e0e143a5857ac3931d56ccde86c.jpg",
         "slots": ["Astromech"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "ffg": 479
       }
     ],
     "cost": {
-      "value": 8
+      "variable": "initiative",
+      "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8 }
     },
-    "restrictions": [
-      {
-        "factions": ["Resistance"]
-      }
-    ]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "BB Astromech",
@@ -332,21 +279,16 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/010399f4054469aed3b04acba08d41b0.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a2e3aaf77e8690a37e76ef4ae2087180.jpg",
         "slots": ["Astromech"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "ffg": 480
       }
     ],
     "cost": {
-      "value": 5
+      "variable": "initiative",
+      "values": { "0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6 }
     },
-    "restrictions": [
-      {
-        "factions": ["Resistance"]
-      }
-    ]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "M9-G8",
@@ -363,13 +305,8 @@
         "ffg": 481
       }
     ],
-    "cost": {
-      "value": 7
-    },
-    "restrictions": [
-      {
-        "factions": ["Resistance"]
-      }
-    ]
+    "cost": { "value": 7 },
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   }
 ]

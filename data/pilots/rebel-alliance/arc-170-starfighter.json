@@ -59,6 +59,7 @@
       "type": "Barrel Roll"
     }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Arc-170.png",
   "pilots": [
     {
       "name": "Garven Dreis",
@@ -73,12 +74,13 @@
         "Talent",
         "Torpedo",
         "Crew",
-        "Gunner",
         "Astromech",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_66.jpg",
-      "ffg": 66
+      "ffg": 66,
+      "hyperspace": false
     },
     {
       "name": "Ibtisam",
@@ -93,12 +95,13 @@
         "Talent",
         "Torpedo",
         "Crew",
-        "Gunner",
         "Astromech",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_68.jpg",
-      "ffg": 68
+      "ffg": 68,
+      "hyperspace": false
     },
     {
       "name": "Norra Wexley",
@@ -113,12 +116,13 @@
         "Talent",
         "Torpedo",
         "Crew",
-        "Gunner",
         "Astromech",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_65.jpg",
-      "ffg": 65
+      "ffg": 65,
+      "hyperspace": false
     },
     {
       "name": "Shara Bey",
@@ -133,12 +137,13 @@
         "Talent",
         "Torpedo",
         "Crew",
-        "Gunner",
         "Astromech",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_67.jpg",
-      "ffg": 67
+      "ffg": 67,
+      "hyperspace": false
     }
   ]
 }

@@ -14,9 +14,8 @@
         "ffg": 248
       }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 },
+    "hyperspace": true
   },
   {
     "name": "Instinctive Aim",
@@ -33,9 +32,8 @@
         "ffg": 249
       }
     ],
-    "cost": {
-      "value": 2
-    }
+    "cost": { "value": 2 },
+    "hyperspace": true
   },
   {
     "name": "Sense",
@@ -52,9 +50,8 @@
         "ffg": 250
       }
     ],
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 6 },
+    "hyperspace": true
   },
   {
     "name": "Supernatural Reflexes",
@@ -72,13 +69,11 @@
       }
     ],
     "cost": {
-      "value": 12
+      "variable": "initiative",
+      "values": { "0": 4, "1": 4, "2": 4, "3": 8, "4": 16, "5": 24, "6": 32 }
     },
-    "restrictions": [
-      {
-        "sizes": ["Small"]
-      }
-    ]
+    "restrictions": [{ "sizes": ["Small"] }],
+    "hyperspace": true
   },
   {
     "name": "Brilliant Evasion",
@@ -92,7 +87,8 @@
         "slots": ["Force Power"],
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/d0/a4/d0a49094-b246-4345-9f65-846b070e9fc6/swz34_brilliant-evasion.png"
       }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Hate",
@@ -104,15 +100,14 @@
         "type": "Force Power",
         "ability": "After you suffer 1 or more damage, recover that many [Force].",
         "slots": ["Force Power"],
-        "restrictions": [{ "force_side": ["dark"] }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4a10b5c8a3d796116163a741d145f4e9.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a373c947f0a56ee4bcf4223250326dc0.jpg",
         "ffg": 489
       }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 },
+    "restrictions": [{ "force_side": ["dark"] }],
+    "hyperspace": true
   },
   {
     "name": "Predictive Shot",
@@ -120,7 +115,7 @@
     "xws": "predictiveshot",
     "sides": [
       {
-        "title": "Predicitive Shot",
+        "title": "Predictive Shot",
         "type": "Force Power",
         "ability": "After you declare an attack, if the defender is in your [Bullseye Arc], you may spend 1 [Force]. If you do, during the Roll Defense Dice step, the defender cannot roll more defense dice than the number of your [Hit]/[Critical Hit] results.",
         "slots": ["Force Power"],
@@ -128,6 +123,8 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e0100c63b2753daf68a9d3948824b086.png",
         "ffg": 490
       }
-    ]
+    ],
+    "cost": { "value": 4 },
+    "hyperspace": true
   }
 ]

@@ -30,13 +30,14 @@
     { "difficulty": "White", "type": "Rotate Arc" },
     { "difficulty": "White", "type": "Reload" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_K-wing.png",
   "pilots": [
     {
       "name": "Esege Tuketu",
       "caption": "Selfless Hero",
       "initiative": 3,
       "limited": 1,
-      "cost": 50,
+      "cost": 47,
       "xws": "esegetuketu",
       "ability": "While a friendly ship at range 0-2 defends or performs an attack, it may spend your focus tokens as if that ship has them.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_63.png",
@@ -44,21 +45,22 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Crew",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_63.jpg",
-      "ffg": 63
+      "ffg": 63,
+      "hyperspace": false
     },
     {
       "name": "Miranda Doni",
       "caption": "Heavy Hitter",
       "initiative": 4,
       "limited": 1,
-      "cost": 48,
+      "cost": 45,
       "xws": "mirandadoni",
       "ability": "While you perform a primary attack, you may either spend 1 shield to roll 1 additional attack die or, if you are not shielded, you may roll 1 fewer attack die to recover 1 shield.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_62.png",
@@ -66,20 +68,21 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Crew",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_62.jpg",
-      "ffg": 62
+      "ffg": 62,
+      "hyperspace": false
     },
     {
       "name": "Warden Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 40,
+      "cost": 37,
       "xws": "wardensquadronpilot",
       "text": "Koensayr Manufacturing's K-wing boasts an advanced SubLight Acceleration Motor and an unprecedented 18 hard points, granting it unrivaled speed and firepower.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_64.png",
@@ -87,14 +90,15 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Crew",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_64.jpg",
-      "ffg": 64
+      "ffg": 64,
+      "hyperspace": false
     }
   ]
 }

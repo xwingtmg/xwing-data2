@@ -64,6 +64,7 @@
       "type": "Boost"
     }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_FangFighter.png",
   "pilots": [
     {
       "name": "Fenn Rau",
@@ -80,7 +81,8 @@
       },
       "slots": ["Talent", "Torpedo"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_155.jpg",
-      "ffg": 155
+      "ffg": 155,
+      "hyperspace": true
     },
     {
       "name": "Joy Rekkoff",
@@ -97,7 +99,8 @@
       },
       "slots": ["Talent", "Torpedo"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_157.jpg",
-      "ffg": 157
+      "ffg": 157,
+      "hyperspace": true
     },
     {
       "name": "Kad Solus",
@@ -114,7 +117,8 @@
       },
       "slots": ["Talent", "Torpedo"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_158.jpg",
-      "ffg": 158
+      "ffg": 158,
+      "hyperspace": true
     },
     {
       "name": "Old Teroch",
@@ -131,7 +135,8 @@
       },
       "slots": ["Talent", "Torpedo"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_156.jpg",
-      "ffg": 156
+      "ffg": 156,
+      "hyperspace": true
     },
     {
       "name": "Skull Squadron Pilot",
@@ -147,7 +152,8 @@
       },
       "slots": ["Talent", "Torpedo"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_159.jpg",
-      "ffg": 159
+      "ffg": 159,
+      "hyperspace": true
     },
     {
       "name": "Zealous Recruit",
@@ -163,7 +169,8 @@
       },
       "slots": ["Torpedo"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_160.jpg",
-      "ffg": 160
+      "ffg": 160,
+      "hyperspace": true
     }
   ]
 }

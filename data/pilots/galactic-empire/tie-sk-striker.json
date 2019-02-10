@@ -51,6 +51,7 @@
       "type": "Barrel Roll"
     }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEStriker.png",
   "pilots": [
     {
       "name": "\"Countdown\"",
@@ -65,9 +66,10 @@
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
-      "slots": ["Talent", "Gunner", "Device", "Modification"],
+      "slots": ["Talent", "Device", "Modification", "Gunner"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_118.jpg",
-      "ffg": 118
+      "ffg": 118,
+      "hyperspace": true
     },
     {
       "name": "\"Duchess\"",
@@ -82,9 +84,10 @@
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
-      "slots": ["Talent", "Gunner", "Device", "Modification"],
+      "slots": ["Talent", "Device", "Modification", "Gunner"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_117.jpg",
-      "ffg": 117
+      "ffg": 117,
+      "hyperspace": true
     },
     {
       "name": "\"Pure Sabacc\"",
@@ -99,9 +102,10 @@
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
-      "slots": ["Talent", "Gunner", "Device", "Modification"],
+      "slots": ["Talent", "Device", "Modification", "Gunner"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_119.jpg",
-      "ffg": 119
+      "ffg": 119,
+      "hyperspace": true
     },
     {
       "name": "Black Squadron Scout",
@@ -115,9 +119,10 @@
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
-      "slots": ["Talent", "Gunner", "Device", "Modification"],
+      "slots": ["Talent", "Device", "Modification", "Gunner"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_120.jpg",
-      "ffg": 120
+      "ffg": 120,
+      "hyperspace": true
     },
     {
       "name": "Planetary Sentinel",
@@ -131,9 +136,10 @@
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
-      "slots": ["Gunner", "Device", "Modification"],
+      "slots": ["Device", "Modification", "Gunner"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_121.jpg",
-      "ffg": 121
+      "ffg": 121,
+      "hyperspace": true
     }
   ]
 }

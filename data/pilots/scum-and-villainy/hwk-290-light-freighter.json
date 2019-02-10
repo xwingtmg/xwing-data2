@@ -42,13 +42,14 @@
     { "difficulty": "White", "type": "Rotate Arc" },
     { "difficulty": "Red", "type": "Jam" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_HWK-290.png",
   "pilots": [
     {
       "name": "Dace Bonearm",
       "caption": "Outer Rim Mercenary",
       "initiative": 4,
       "limited": 1,
-      "cost": 36,
+      "cost": 35,
       "xws": "dacebonearm",
       "ability": "After an enemy ship at range 0-3 receives at least 1 ion token, you may spend 3 [Charge]. If you do, that ship gains 2 additional ion tokens.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_174.png",
@@ -63,14 +64,15 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_174.jpg",
-      "ffg": 174
+      "ffg": 174,
+      "hyperspace": false
     },
     {
       "name": "Palob Godalhi",
       "caption": "Tethan Resister",
       "initiative": 3,
       "limited": 1,
-      "cost": 38,
+      "cost": 40,
       "xws": "palobgodalhi",
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your firing arc at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_175.png",
@@ -84,7 +86,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_175.jpg",
-      "ffg": 175
+      "ffg": 175,
+      "hyperspace": false
     },
     {
       "name": "Spice Runner",
@@ -103,14 +106,15 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_177.jpg",
-      "ffg": 177
+      "ffg": 177,
+      "hyperspace": false
     },
     {
       "name": "Torkil Mux",
       "caption": "Mercenary Miner",
       "initiative": 2,
       "limited": 1,
-      "cost": 36,
+      "cost": 38,
       "xws": "torkilmux",
       "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_176.png",
@@ -123,7 +127,8 @@
         "Title"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_176.jpg",
-      "ffg": 176
+      "ffg": 176,
+      "hyperspace": false
     }
   ]
 }
