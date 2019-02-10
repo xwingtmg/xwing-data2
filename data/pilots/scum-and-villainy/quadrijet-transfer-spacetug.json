@@ -34,13 +34,14 @@
     { "difficulty": "Red", "type": "Evade" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Quadjumper.png",
   "pilots": [
     {
       "name": "Constable Zuvio",
       "caption": "Missing Sheriff of Nima Outpost",
       "initiative": 4,
       "limited": 1,
-      "cost": 33,
+      "cost": 35,
       "xws": "constablezuvio",
       "ability": "If you would drop a device, you may launch it using a [1 [Straight]] template instead.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_161.png",
@@ -48,15 +49,16 @@
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
       },
-      "slots": ["Talent", "Tech", "Crew", "Device", "Illicit", "Modification"],
+      "slots": ["Talent", "Crew", "Device", "Illicit", "Modification", "Tech"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg",
-      "ffg": 161
+      "ffg": 161,
+      "hyperspace": false
     },
     {
       "name": "Jakku Gunrunner",
       "initiative": 1,
       "limited": 0,
-      "cost": 28,
+      "cost": 32,
       "xws": "jakkugunrunner",
       "text": "The Quadrijet transfer spacetug, commonly called a \"Quadjumper\" is nimble in space and atmosphere alike, making it popular among both smugglers and explorers.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_164.png",
@@ -64,16 +66,17 @@
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
       },
-      "slots": ["Tech", "Crew", "Device", "Illicit", "Modification"],
+      "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg",
-      "ffg": 164
+      "ffg": 164,
+      "hyperspace": false
     },
     {
       "name": "Sarco Plank",
       "caption": "The Scavenger",
       "initiative": 2,
       "limited": 1,
-      "cost": 31,
+      "cost": 34,
       "xws": "sarcoplank",
       "ability": "While you defend, you may treat your agility value as equal to the speed of the maneuver you executed this round.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_162.png",
@@ -81,16 +84,17 @@
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
       },
-      "slots": ["Tech", "Crew", "Device", "Illicit", "Modification"],
+      "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_162.jpg",
-      "ffg": 162
+      "ffg": 162,
+      "hyperspace": false
     },
     {
       "name": "Unkar Plutt",
       "caption": "Miserly Portion Master",
       "initiative": 2,
       "limited": 1,
-      "cost": 30,
+      "cost": 33,
       "xws": "unkarplutt",
       "ability": "At the start of the Engagement Phase, if there are one or more other ships at range 0, you and each other ship at range 0 gain 1 tractor token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_163.png",
@@ -98,9 +102,10 @@
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in you [Bullseye Arc] at range 1."
       },
-      "slots": ["Tech", "Crew", "Device", "Illicit", "Modification"],
+      "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg",
-      "ffg": 163
+      "ffg": 163,
+      "hyperspace": false
     }
   ]
 }

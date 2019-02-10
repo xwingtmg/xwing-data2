@@ -30,6 +30,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "Red", "type": "Coordinate" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_EscapeShuttle.png",
   "pilots": [
     {
       "name": "Autopilot Drone",
@@ -52,14 +53,15 @@
       },
       "slots": [],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg",
-      "ffg": 229
+      "ffg": 229,
+      "hyperspace": true
     },
     {
       "name": "L3-37",
       "caption": "Droid Revolutionary",
       "initiative": 2,
       "limited": 1,
-      "cost": 22,
+      "cost": 26,
       "xws": "l337-escapecraft",
       "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_228.png",
@@ -74,17 +76,17 @@
       },
       "slots": ["Talent", "Crew", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_228.jpg",
-      "ffg": 228
+      "ffg": 228,
+      "hyperspace": true
     },
     {
       "name": "Lando Calrissian",
       "caption": "Smooth-talking Gambler",
       "initiative": 4,
       "limited": 1,
-      "cost": 26,
+      "cost": 29,
       "xws": "landocalrissian-escapecraft",
       "ability": "After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.",
-      "charges": { "value": 3, "recovers": 0 },
       "shipAbility": {
         "name": "Co-Pilot",
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
@@ -92,14 +94,15 @@
       "slots": ["Talent", "Crew", "Modification"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_226.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg",
-      "ffg": 226
+      "ffg": 226,
+      "hyperspace": true
     },
     {
       "name": "Outer Rim Pioneer",
       "caption": "Skillful Outlaw",
       "initiative": 3,
       "limited": 1,
-      "cost": 24,
+      "cost": 28,
       "xws": "outerrimpioneer",
       "ability": "Friendly ships at range 0-1 can perform attacks at range 0 of obstacles.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_227.png",
@@ -109,7 +112,8 @@
       },
       "slots": ["Talent", "Crew", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_227.jpg",
-      "ffg": 227
+      "ffg": 227,
+      "hyperspace": true
     }
   ]
 }

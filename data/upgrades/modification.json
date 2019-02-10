@@ -15,8 +15,9 @@
         "ffg": 292
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }]
+    "cost": { "value": 6 },
+    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "hyperspace": false
   },
   {
     "name": "Advanced SLAM",
@@ -26,7 +27,7 @@
       {
         "title": "Advanced SLAM",
         "type": "Modification",
-        "ability": "After you perform a [Slam] action, if you fully executed that maneuver, you may perform a white action on your action bar, treating that action as red.",
+        "ability": "After you perform a [SLAM] action, if you fully executed that maneuver, you may perform a white action on your action bar, treating that action as red.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_69.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_69.jpg",
@@ -34,7 +35,8 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "action": { "type": "SLAM", "difficulty": "White" } }]
+    "restrictions": [{ "action": { "type": "SLAM", "difficulty": "White" } }],
+    "hyperspace": false
   },
   {
     "name": "Afterburners",
@@ -52,8 +54,9 @@
         "ffg": 294
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "sizes": ["Small"] }]
+    "cost": { "value": 6 },
+    "restrictions": [{ "sizes": ["Small"] }],
+    "hyperspace": true
   },
   {
     "name": "Electronic Baffle",
@@ -70,7 +73,8 @@
         "ffg": 295
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "hyperspace": false
   },
   {
     "name": "Engine Upgrade",
@@ -97,9 +101,10 @@
     ],
     "cost": {
       "variable": "size",
-      "values": { "Small": 3, "Medium": 6, "Large": 9 }
+      "values": { "Small": 2, "Medium": 4, "Large": 7 }
     },
-    "restrictions": [{ "action": { "type": "Boost", "difficulty": "Red" } }]
+    "restrictions": [{ "action": { "type": "Boost", "difficulty": "Red" } }],
+    "hyperspace": true
   },
   {
     "name": "Hull Upgrade",
@@ -120,7 +125,8 @@
     "cost": {
       "variable": "agility",
       "values": { "0": 2, "1": 3, "2": 5, "3": 7 }
-    }
+    },
+    "hyperspace": true
   },
   {
     "name": "Munitions Failsafe",
@@ -137,7 +143,8 @@
         "ffg": 298
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 1 },
+    "hyperspace": true
   },
   {
     "name": "Shield Upgrade",
@@ -164,7 +171,8 @@
     "cost": {
       "variable": "agility",
       "values": { "0": 3, "1": 4, "2": 6, "3": 8 }
-    }
+    },
+    "hyperspace": true
   },
   {
     "name": "Static Discharge Vanes",
@@ -181,7 +189,8 @@
         "ffg": 300
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 8 },
+    "hyperspace": true
   },
   {
     "name": "Stealth Device",
@@ -202,7 +211,8 @@
     "cost": {
       "variable": "agility",
       "values": { "0": 3, "1": 4, "2": 6, "3": 8 }
-    }
+    },
+    "hyperspace": true
   },
   {
     "name": "Tactical Scrambler",
@@ -220,6 +230,24 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }]
+    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "hyperspace": false
+  },
+  {
+    "name": "Impervium Plating",
+    "limited": 0,
+    "xws": "imperviumplating",
+    "sides": [
+      {
+        "title": "Impervium Plating",
+        "type": "Modification",
+        "ability": "Before you would be dealt a faceup Ship damage card, you may spend 1 [Charge] to discard it instead.",
+        "charges": { "value": 2, "recovers": 0 },
+        "slots": ["Modification"],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/10/67/10676484-b596-43fd-a218-2d85707cf476/swz29_impervium-plating.png"
+      }
+    ],
+    "restrictions": [{ "ships": ["belbullab22starfighter"] }],
+    "hyperspace": false
   }
 ]

@@ -12,20 +12,14 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Barrel Roll",
-              "difficulty": "White"
-            }
+            "value": { "type": "Barrel Roll", "difficulty": "White" }
           },
           {
             "type": "action",
             "value": {
               "type": "Focus",
               "difficulty": "White",
-              "linked": {
-                "type": "Barrel Roll",
-                "difficulty": "Red"
-              }
+              "linked": { "type": "Barrel Roll", "difficulty": "Red" }
             }
           }
         ],
@@ -37,13 +31,14 @@
         "type": "Configuration",
         "ability": "Before you activate, you may flip this card.",
         "slots": ["Configuration"],
-        "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/e3b44142faf0f13e541bf674a6c06dbc.png",
-        "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/bf5e7b98158570f9d4fc259b5553f4ca.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/49372b4efb974ff673a1b79441186fd5.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/bf5e7b98158570f9d4fc259b5553f4ca.jpg",
         "ffg": 487
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["t70xwing"] }]
+    "restrictions": [{ "ships": ["t70xwing"] }],
+    "hyperspace": true
   },
   {
     "name": "Os-1 Arsenal Loadout",
@@ -65,7 +60,8 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["alphaclassstarwing"] }]
+    "restrictions": [{ "ships": ["alphaclassstarwing"] }],
+    "hyperspace": false
   },
   {
     "name": "Pivot Wing",
@@ -75,7 +71,7 @@
       {
         "title": "Pivot Wing (Closed)",
         "type": "Configuration",
-        "ability": "While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90˚ or 180˚. Before you activate, you may flip this card.",
+        "ability": "While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90° or 180°. Before you activate, you may flip this card.",
         "slots": ["Configuration"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_107b.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_107b.jpg",
@@ -92,7 +88,8 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["ut60duwing"] }]
+    "restrictions": [{ "ships": ["ut60duwing"] }],
+    "hyperspace": true
   },
   {
     "name": "Servomotor S-foils",
@@ -141,7 +138,8 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["t65xwing"] }]
+    "restrictions": [{ "ships": ["t65xwing"] }],
+    "hyperspace": true
   },
   {
     "name": "Xg-1 Assault Configuration",
@@ -151,7 +149,7 @@
       {
         "title": "Xg-1 Assault Configuration",
         "type": "Configuration",
-        "ability": "While you have exactly 1 disarm token, uou can still perform [Cannon] attacks. While you perform a [Cannon] attack while disarmed, roll a maximum of 3 attack dice. Add [Cannon] slot.",
+        "ability": "While you have exactly 1 disarm token, you can still perform [Cannon] attacks. While you perform a [Cannon] attack while disarmed, roll a maximum of 3 attack dice. Add [Cannon] slot.",
         "slots": ["Configuration"],
         "grants": [{ "type": "slot", "value": "Cannon", "amount": 1 }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_126.png",
@@ -160,7 +158,8 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["alphaclassstarwing"] }]
+    "restrictions": [{ "ships": ["alphaclassstarwing"] }],
+    "hyperspace": false
   },
   {
     "name": "Grappling Struts",
@@ -168,21 +167,20 @@
     "xws": "grapplingstruts",
     "sides": [
       {
-        "title": "Grappling Struts (Open)",
+        "title": "Grappling Struts (Closed)",
         "type": "Configuration",
-        "ability": "You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token. If you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.",
+        "ability": "Setup: Equip this side faceup. While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.",
         "slots": ["Configuration"]
       },
       {
-        "title": "Grappling Struts (Closed)",
+        "title": "Grappling Struts (Open)",
         "type": "Configuration",
+        "ability": "You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.",
         "slots": ["Configuration"]
       }
     ],
-    "restrictions": [
-      { "action": { "type": "Calculate", "difficulty": "White" } },
-      { "factions": ["Separatist Alliance"] }
-    ]
+    "restrictions": [{ "ships": ["vultureclassdroidfighter"] }],
+    "hyperspace": false
   },
   {
     "name": "Delta-7B",
@@ -194,26 +192,14 @@
         "type": "Configuration",
         "slots": ["Configuration"],
         "grants": [
-          {
-            "type": "stat",
-            "value": "agility",
-            "amount": -1
-          },
-          {
-            "type": "stat",
-            "value": "shield",
-            "amount": 2
-          },
-          {
-            "type": "stat",
-            "value": "attack",
-            "arc": "Front Arc",
-            "amount": 1
-          }
+          { "type": "stat", "value": "agility", "amount": -1 },
+          { "type": "stat", "value": "shields", "amount": 2 },
+          { "type": "stat", "value": "attack", "arc": "Front Arc", "amount": 1 }
         ]
       }
     ],
-    "restrictions": [{ "ships": ["delta7aethersprite"] }]
+    "restrictions": [{ "ships": ["delta7aethersprite"] }],
+    "hyperspace": false
   },
   {
     "name": "Calibrated Laser Targeting",
@@ -228,10 +214,7 @@
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/4a/32/4a32d934-9d57-433c-8fb6-ce6c1cb52224/swz34_calibrated-laser-targeting.png"
       }
     ],
-    "restrictions": [
-      {
-        "ships": ["delta7aethersprite"]
-      }
-    ]
+    "restrictions": [{ "ships": ["delta7aethersprite"] }],
+    "hyperspace": false
   }
 ]

@@ -23,11 +23,12 @@
         "ffg": 371
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
-    ]
+    ],
+    "hyperspace": true
   },
   {
     "name": "Black One",
@@ -37,17 +38,19 @@
       {
         "title": "Black One",
         "type": "Title",
-        "ability": "After you perform a [Slam] action, lose 1 [Charge]. Then, you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [Slam] action.",
+        "ability": "After you perform a [SLAM] action, lose 1 [Charge]. Then, you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [SLAM] action.",
         "slots": ["Title"],
         "charges": { "value": 1, "recovers": 0 },
         "actions": [{ "type": "SLAM", "difficulty": "White" }],
-        "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/3e9870bff7f61acc12970c254eaeca89.png",
-        "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/b617cc192e2ffb8368de79d69e1e7956.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3e9870bff7f61acc12970c254eaeca89.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b617cc192e2ffb8368de79d69e1e7956.jpg",
         "ffg": 484
       }
     ],
     "cost": { "value": 2 },
-    "image": "https://images-cdn.fantasyflightgames.com/filer_public/e2/e4/e2e492b1-66d9-4dcc-9af6-a1a4e07a7378/swz25_black-one_a1.png"
+    "restrictions": [{ "factions": ["Resistance"] }, { "ships": ["t70xwing"] }],
+    "image": "https://images-cdn.fantasyflightgames.com/filer_public/e2/e4/e2e492b1-66d9-4dcc-9af6-a1a4e07a7378/swz25_black-one_a1.png",
+    "hyperspace": true
   },
   {
     "name": "Dauntless",
@@ -64,11 +67,12 @@
         "ffg": 349
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "ships": ["vt49decimator"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Ghost",
@@ -89,7 +93,8 @@
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["vcx100lightfreighter"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Havoc",
@@ -115,7 +120,8 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["scurrgh6bomber"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Hound's Tooth",
@@ -136,7 +142,8 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["yv666lightfreighter"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "IG-2000",
@@ -153,11 +160,12 @@
         "ffg": 374
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 1 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["aggressorassaultfighter"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Lando's Millennium Falcon",
@@ -178,7 +186,8 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["customizedyt1300lightfreighter"] }
-    ]
+    ],
+    "hyperspace": true
   },
   {
     "name": "Marauder",
@@ -196,11 +205,12 @@
         "ffg": 375
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
-    ]
+    ],
+    "hyperspace": true
   },
   {
     "name": "Millennium Falcon",
@@ -229,7 +239,8 @@
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["modifiedyt1300lightfreighter"] }
-    ]
+    ],
+    "hyperspace": true
   },
   {
     "name": "Mist Hunter",
@@ -259,7 +270,8 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["g1astarfighter"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Moldy Crow",
@@ -276,11 +288,12 @@
         "ffg": 328
       }
     ],
-    "cost": { "value": 12 },
+    "cost": { "value": 18 },
     "restrictions": [
       { "factions": ["Rebel Alliance", "Scum and Villainy"] },
       { "ships": ["hwk290lightfreighter"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Outrider",
@@ -301,7 +314,8 @@
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["yt2400lightfreighter"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Phantom",
@@ -322,7 +336,8 @@
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["attackshuttle", "sheathipedeclassshuttle"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Punishing One",
@@ -347,7 +362,8 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["jumpmaster5000"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "ST-321",
@@ -364,11 +380,12 @@
         "ffg": 391
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "ships": ["lambdaclasst4ashuttle"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Shadow Caster",
@@ -389,7 +406,8 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["lancerclasspursuitcraft"] }
-    ]
+    ],
+    "hyperspace": false
   },
   {
     "name": "Slave I",
@@ -407,11 +425,12 @@
         "ffg": 379
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
-    ]
+    ],
+    "hyperspace": true
   },
   {
     "name": "Virago",
@@ -434,7 +453,8 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [{ "ships": ["starviperclassattackplatform"] }]
+    "restrictions": [{ "ships": ["starviperclassattackplatform"] }],
+    "hyperspace": false
   },
   {
     "name": "Rey's Millennium Falcon",
@@ -445,15 +465,36 @@
         "title": "Rey's Millennium Falcon",
         "type": "Title",
         "ability": "If you have 2 or fewer stress tokens, you can execute red Segnor's Loop [[Segnor's Loop Left] or [Segnor's Loop Right]] maneuvers and perform [Boost] and [Rotate Arc] actions even while stressed.",
-        "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/23627443c7f5e7447c306ea7c6242634.png",
-        "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/905ee2a41b7d3b6d1f76294b4cd3e99e.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/23627443c7f5e7447c306ea7c6242634.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/905ee2a41b7d3b6d1f76294b4cd3e99e.jpg",
         "slots": ["Title"],
         "ffg": 485
       }
     ],
+    "cost": { "value": 5 },
     "restrictions": [
       { "factions": ["Resistance"] },
       { "ships": ["scavengedyt1300"] }
+    ],
+    "hyperspace": true
+  },
+  {
+    "name": "Soulless One",
+    "limited": 1,
+    "xws": "soullessone",
+    "sides": [
+      {
+        "title": "Soulless One",
+        "type": "Title",
+        "ability": "While you defend, if the attacker is outside your firing arc, you may reroll 1 defense die.",
+        "slots": ["Title"],
+        "grants": [{ "type": "stat", "value": "hull", "amount": 2 }],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f3/18/f318bb11-2334-4b13-aee2-3930ed267cf0/swz29_a2_soulless-one.png"
+      }
+    ],
+    "restrictions": [
+      { "factions": ["Separatist Alliance"] },
+      { "ships": ["belbullab22starfighter"] }
     ]
   }
 ]

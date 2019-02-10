@@ -37,13 +37,14 @@
     },
     { "difficulty": "Red", "type": "Reload" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEBomber.png",
   "pilots": [
     {
       "name": "\"Deathfire\"",
       "caption": "Unflinching Diehard",
       "initiative": 2,
       "limited": 1,
-      "cost": 32,
+      "cost": 34,
       "xws": "deathfire",
       "ability": "After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_110.png",
@@ -55,20 +56,21 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_110.jpg",
-      "ffg": 110
+      "ffg": 110,
+      "hyperspace": false
     },
     {
       "name": "Captain Jonus",
       "caption": "Disciplined Instructor",
       "initiative": 4,
       "limited": 1,
-      "cost": 36,
+      "cost": 43,
       "xws": "captainjonus",
       "ability": "While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_108.png",
@@ -81,19 +83,20 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_108.jpg",
-      "ffg": 108
+      "ffg": 108,
+      "hyperspace": false
     },
     {
       "name": "Gamma Squadron Ace",
       "initiative": 3,
       "limited": 0,
-      "cost": 30,
+      "cost": 32,
       "xws": "gammasquadronace",
       "text": "Though it sacrifices a degree of speed and maneuverability compared to a TIE/ln, the TIE bomber's increased payload can carry enough firepower to destroy virtually any enemy target.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_111.png",
@@ -106,20 +109,21 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_111.jpg",
-      "ffg": 111
+      "ffg": 111,
+      "hyperspace": false
     },
     {
       "name": "Major Rhymer",
       "caption": "Scimitar Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 34,
+      "cost": 38,
       "xws": "majorrhymer",
       "ability": "While you perform a [Torpedo] or [Missile] attack, you may increase or decrease the range requirement by 1, to a limit of 0-3.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_109.png",
@@ -132,19 +136,20 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_109.jpg",
-      "ffg": 109
+      "ffg": 109,
+      "hyperspace": false
     },
     {
       "name": "Scimitar Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 28,
+      "cost": 30,
       "xws": "scimitarsquadronpilot",
       "text": "The TIE/sa is exceptionally nimble for a bomber, allowing it to pinpoint its target while avoiding excessive collateral damage to the surrounding area.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_112.png",
@@ -156,20 +161,21 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_112.jpg",
-      "ffg": 112
+      "ffg": 112,
+      "hyperspace": false
     },
     {
       "name": "Tomax Bren",
       "caption": "Brash Maverick",
       "initiative": 5,
       "limited": 1,
-      "cost": 34,
+      "cost": 36,
       "xws": "tomaxbren",
       "ability": "After you perform a [Reload] action, you may revocer 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_107.png",
@@ -182,13 +188,14 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_107.jpg",
-      "ffg": 107
+      "ffg": 107,
+      "hyperspace": false
     }
   ]
 }

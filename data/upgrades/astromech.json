@@ -14,7 +14,8 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": false
   },
   {
     "name": "\"Genius\"",
@@ -31,8 +32,9 @@
         "ffg": 368
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "R2 Astromech",
@@ -50,7 +52,8 @@
         "ffg": 282
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "R2-D2",
@@ -68,8 +71,9 @@
         "ffg": 324
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "R3 Astromech",
@@ -86,7 +90,8 @@
         "ffg": 283
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "hyperspace": true
   },
   {
     "name": "R4 Astromech",
@@ -104,7 +109,8 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "sizes": ["Small"] }]
+    "restrictions": [{ "sizes": ["Small"] }],
+    "hyperspace": true
   },
   {
     "name": "R5 Astromech",
@@ -122,7 +128,8 @@
         "ffg": 285
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "R5-D8",
@@ -140,8 +147,9 @@
         "ffg": 325
       }
     ],
-    "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }]
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "R5-P8",
@@ -160,7 +168,8 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "R5-TK",
@@ -178,7 +187,8 @@
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "hyperspace": false
   },
   {
     "name": "R5-X3",
@@ -188,6 +198,7 @@
       {
         "title": "R5-X3",
         "type": "Astromech",
+        "charges": { "value": 2, "recovers": 0 },
         "ability": "Before you activate or engage, you may spend 1 [Charge] to ignore obstacles until the end of this phase.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/aed4536536b67bae316b260ed151c22a.png",
         "slots": ["Astromech"],
@@ -196,7 +207,8 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "R2-HA",
@@ -207,14 +219,15 @@
         "title": "R2-HA",
         "type": "Astromech",
         "ability": "While you defend, you may spend your lock on the attacker to reroll any number of your defense dice.",
-        "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/b3e6d35ca6b6fd297312248ddf4e69a7.png",
-        "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/d72ab7fa7cd398d614466a98076a2e6b.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/b3e6d35ca6b6fd297312248ddf4e69a7.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d72ab7fa7cd398d614466a98076a2e6b.jpg",
         "slots": ["Astromech"],
         "ffg": 482
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "BB-8",
@@ -225,18 +238,19 @@
         "title": "BB-8",
         "type": "Astromech",
         "ability": "Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] or [Boost] action.",
-        "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/37297ef7839800afd543de5d1a363561.png",
-        "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/e8a75e0e143a5857ac3931d56ccde86c.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/37297ef7839800afd543de5d1a363561.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e8a75e0e143a5857ac3931d56ccde86c.jpg",
         "slots": ["Astromech"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "ffg": 479
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8 }
+    },
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "BB Astromech",
@@ -246,23 +260,20 @@
       {
         "title": "BB Astromech",
         "type": "Astromech",
-        "ability": "Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll].",
-        "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/010399f4054469aed3b04acba08d41b0.png",
-        "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/a2e3aaf77e8690a37e76ef4ae2087180.jpg",
+        "ability": "Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] action.",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/010399f4054469aed3b04acba08d41b0.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a2e3aaf77e8690a37e76ef4ae2087180.jpg",
         "slots": ["Astromech"],
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "ffg": 480
       }
     ],
-    "cost": { "value": 5 },
-    "restrictions": [
-      {
-        "factions": ["Resistance"]
-      }
-    ]
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6 }
+    },
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   },
   {
     "name": "M9-G8",
@@ -273,17 +284,14 @@
         "title": "M9-G8",
         "type": "Astromech",
         "ability": "While a ship you are locking performs an attack, you may choose 1 attack die. If you do, the attacker rerolls that die.",
-        "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/cd67f33e8aa52d2aeb07f432125a8c73.png",
-        "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/f810d46699343a134003deea0f423131.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cd67f33e8aa52d2aeb07f432125a8c73.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f810d46699343a134003deea0f423131.jpg",
         "slots": ["Astromech"],
         "ffg": 481
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [
-      {
-        "factions": ["Resistance"]
-      }
-    ]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "hyperspace": true
   }
 ]

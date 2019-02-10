@@ -31,6 +31,7 @@
     { "difficulty": "White", "type": "Evade" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_MiningGuild_TIE.png",
   "pilots": [
     {
       "name": "Ahhav",
@@ -44,28 +45,30 @@
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
-      "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/d58a0696c8d85a63e90eb8a1e522a54c.png",
-      "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/2d162fae88ae58b9eca31f7dc0b7a9da.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d58a0696c8d85a63e90eb8a1e522a54c.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2d162fae88ae58b9eca31f7dc0b7a9da.jpg",
       "slots": ["Talent", "Modification"],
-      "ffg": 442
+      "ffg": 442,
+      "hyperspace": true
     },
     {
       "name": "Captain Seevor",
       "caption": "Noisy Nuisance",
       "initiative": 3,
       "limited": 1,
-      "cost": 28,
+      "cost": 30,
       "xws": "captainseevor",
       "ability": "While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's [Bullseye Arc], you may spend 1 [Charge]. If you do, the enemy ship gains 1 jam token.",
-      "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/70b64586cc2eb05d10efc7ba8dfd69d0.png",
-      "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/6ead4bbfa14075a19972dc57b90a34e1.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/70b64586cc2eb05d10efc7ba8dfd69d0.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/6ead4bbfa14075a19972dc57b90a34e1.jpg",
       "charges": { "value": 1, "recovers": 1 },
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
       "slots": ["Talent", "Modification"],
-      "ffg": 443
+      "ffg": 443,
+      "hyperspace": true
     },
     {
       "name": "Foreman Proach",
@@ -79,10 +82,11 @@
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
-      "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/cfb3b5fa9d747afc3aa10f3b86f45818.png",
-      "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/f789aa53866112fc44fd27ed9e177993.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cfb3b5fa9d747afc3aa10f3b86f45818.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f789aa53866112fc44fd27ed9e177993.jpg",
       "slots": ["Talent", "Modification"],
-      "ffg": 441
+      "ffg": 441,
+      "hyperspace": true
     },
     {
       "name": "Mining Guild Surveyor",
@@ -90,15 +94,16 @@
       "limited": 0,
       "cost": 25,
       "xws": "miningguildsurveyor",
-      "text": "With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly expolits newly discovered deposits of doonium ore on worlds such as Batonn, Lothal and Umbara.",
+      "text": "With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly exploits newly discovered deposits of doonium ore on worlds such as Batonn, Lothal, and Umbara.",
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
-      "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/3e5872dea32f2015bb6737592c21efaf.png",
-      "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/ad058d0b6d46f668f06bf0007207a30a.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3e5872dea32f2015bb6737592c21efaf.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ad058d0b6d46f668f06bf0007207a30a.jpg",
       "slots": ["Talent", "Modification"],
-      "ffg": 445
+      "ffg": 445,
+      "hyperspace": true
     },
     {
       "name": "Overseer Yushyn",
@@ -107,16 +112,17 @@
       "limited": 1,
       "cost": 26,
       "xws": "overseeryushyn",
-      "ability": "Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token instead",
+      "ability": "Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token instead.",
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
       "charges": { "value": 1, "recovers": 1 },
-      "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/6c9268d3e6cc6b671d6db6ac39fcad0f.png",
-      "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/1f454eb7c12b572103e59a9a782c3f50.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6c9268d3e6cc6b671d6db6ac39fcad0f.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/1f454eb7c12b572103e59a9a782c3f50.jpg",
       "slots": ["Modification"],
-      "ffg": 444
+      "ffg": 444,
+      "hyperspace": true
     },
     {
       "name": "Mining Guild Sentry",
@@ -124,15 +130,16 @@
       "limited": 0,
       "cost": 24,
       "xws": "miningguildsentry",
-      "text": "As part of its arrangement with the Empire, the Mining Guild recieves modified TIE/ln Fighters to protect its operations. These craft have solar Panels removed from their stabilizers for improved visibility, and feature more extensive life support systems for the benefit of their corporate pilots.",
+      "text": "As part of its arrangement with the Empire, the Mining Guild receives modified TIE/ln Fighters to protect its operations. These craft have solar panels removed from their stabilizers for improved visibility, and feature more extensive life support systems for the benefit of their corporate pilots.",
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
-      "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/6d67112b15c3c97bd3d4acf2c8d000ed.png",
-      "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/09c955b8008750a30fe398c200431160.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6d67112b15c3c97bd3d4acf2c8d000ed.png",
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/09c955b8008750a30fe398c200431160.jpg",
       "slots": ["Modification"],
-      "ffg": 446
+      "ffg": 446,
+      "hyperspace": true
     }
   ]
 }

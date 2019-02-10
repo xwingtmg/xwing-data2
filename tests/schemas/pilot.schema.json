@@ -1,0 +1,155 @@
+{
+  "properties": {
+    "name": { "type": "string" },
+    "caption": { "type": "string" },
+    "initiative": { "type": "number", "minimum": 0, "maximum": 6 },
+    "limited": { "type": "number", "minimum": 0 },
+    "cost": { "type": "number", "minimum": 0 },
+    "xws": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "ability": { "type": "string" },
+    "text": { "type": "string" },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "force": {
+      "type": "object",
+      "properties": {
+        "value": { "type": "number", "minimum": 0 },
+        "recovers": { "type": "number", "minimum": 0, "maximum": 1 },
+        "side": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["light", "dark"]
+          }
+        }
+      },
+      "required": ["value", "recovers"],
+      "additionalProperties": false
+    },
+    "charges": {
+      "type": "object",
+      "properties": {
+        "value": { "type": "number", "minimum": 0 },
+        "recovers": { "type": "number", "minimum": 0, "maximum": 1 }
+      },
+      "required": ["value", "recovers"],
+      "additionalProperties": false
+    },
+    "slots": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Astromech",
+          "Cannon",
+          "Configuration",
+          "Crew",
+          "Device",
+          "Force Power",
+          "Gunner",
+          "Illicit",
+          "Missile",
+          "Modification",
+          "Sensor",
+          "Tactical Relay",
+          "Talent",
+          "Tech",
+          "Title",
+          "Torpedo",
+          "Turret"
+        ]
+      }
+    },
+    "image": { "type": "string" },
+    "artwork": { "type": "string" },
+    "ffg": { "type": "number" },
+    "hyperspace": { "type": "boolean" },
+    "alt": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "image": { "type": "string" },
+          "source": { "type": "string" }
+        },
+        "required": ["image", "source"],
+        "additionalProperties": false
+      }
+    },
+    "shipAbility": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "text": { "type": "string" }
+      },
+      "required": ["name", "text"],
+      "additionalProperties": false
+    },
+    "shipActions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "difficulty": {
+            "type": "string",
+            "enum": ["Red", "White", "Purple"]
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "Boost",
+              "Focus",
+              "Evade",
+              "Lock",
+              "Barrel Roll",
+              "Reinforce",
+              "Cloak",
+              "Coordinate",
+              "Calculate",
+              "Jam",
+              "Reload",
+              "SLAM",
+              "Rotate Arc"
+            ]
+          },
+          "linked": {
+            "type": "object",
+            "properties": {
+              "difficulty": {
+                "type": "string",
+                "enum": ["Red", "White", "Purple"]
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "Boost",
+                  "Focus",
+                  "Evade",
+                  "Lock",
+                  "Barrel Roll",
+                  "Reinforce",
+                  "Cloak",
+                  "Coordinate",
+                  "Calculate",
+                  "Jam",
+                  "Reload",
+                  "SLAM",
+                  "Rotate Arc"
+                ]
+              }
+            }
+          }
+        },
+        "required": ["difficulty", "type"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["name", "hyperspace"],
+  "additionalProperties": false
+}

@@ -31,6 +31,7 @@
     { "difficulty": "White", "type": "Coordinate" },
     { "difficulty": "Red", "type": "Jam" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Lambda.png",
   "pilots": [
     {
       "name": "Captain Kagi",
@@ -43,7 +44,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_142.png",
       "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_142.jpg",
-      "ffg": 142
+      "ffg": 142,
+      "hyperspace": false
     },
     {
       "name": "Colonel Jendon",
@@ -57,7 +59,8 @@
       "charges": { "value": 2, "recovers": 0 },
       "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_143.jpg",
-      "ffg": 143
+      "ffg": 143,
+      "hyperspace": false
     },
     {
       "name": "Lieutenant Sai",
@@ -70,7 +73,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_144.png",
       "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_144.jpg",
-      "ffg": 144
+      "ffg": 144,
+      "hyperspace": false
     },
     {
       "name": "Omicron Group Pilot",
@@ -82,7 +86,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_145.png",
       "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_145.jpg",
-      "ffg": 145
+      "ffg": 145,
+      "hyperspace": false
     }
   ]
 }

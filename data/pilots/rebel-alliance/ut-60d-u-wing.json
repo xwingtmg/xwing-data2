@@ -30,6 +30,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "Red", "type": "Coordinate" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_U-wing.png",
   "pilots": [
     {
       "name": "Benthic Two Tubes",
@@ -49,7 +50,8 @@
         "Configuration"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_58.jpg",
-      "ffg": 58
+      "ffg": 58,
+      "hyperspace": true
     },
     {
       "name": "Blue Squadron Scout",
@@ -61,7 +63,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_60.png",
       "slots": ["Sensor", "Crew", "Crew", "Modification", "Configuration"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_60.jpg",
-      "ffg": 60
+      "ffg": 60,
+      "hyperspace": false
     },
     {
       "name": "Bodhi Rook",
@@ -81,7 +84,8 @@
         "Configuration"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_54.jpg",
-      "ffg": 54
+      "ffg": 54,
+      "hyperspace": false
     },
     {
       "name": "Cassian Andor",
@@ -101,7 +105,8 @@
         "Configuration"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_56.jpg",
-      "ffg": 56
+      "ffg": 56,
+      "hyperspace": false
     },
     {
       "name": "Heff Tobber",
@@ -121,7 +126,8 @@
         "Configuration"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_59.jpg",
-      "ffg": 59
+      "ffg": 59,
+      "hyperspace": false
     },
     {
       "name": "Magva Yarro",
@@ -142,12 +148,13 @@
         "Configuration"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_57.jpg",
-      "ffg": 57
+      "ffg": 57,
+      "hyperspace": true
     },
     {
       "name": "Partisan Renegade",
       "initiative": 1,
-      "limited": 1,
+      "limited": 0,
       "cost": 43,
       "xws": "partisanrenegade",
       "text": "Saw Gerrera's partisans were first established to oppose Separatist forces on Onderon during the Clone Wars and continued to wage war against galactic tyranny as the Empire rose to power.",
@@ -161,11 +168,12 @@
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_61.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_61.jpg",
-      "ffg": 61
+      "ffg": 61,
+      "hyperspace": true
     },
     {
       "name": "Saw Gerrera",
-      "caption": "Obsessive Radical",
+      "caption": "Obsessive Outlaw",
       "initiative": 4,
       "limited": 1,
       "cost": 52,
@@ -188,7 +196,8 @@
         }
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_55.jpg",
-      "ffg": 55
+      "ffg": 55,
+      "hyperspace": true
     }
   ]
 }

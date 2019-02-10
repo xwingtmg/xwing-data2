@@ -38,6 +38,7 @@
       "type": "Barrel Roll"
     }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_AttackShuttle.png",
   "pilots": [
     {
       "name": "\"Zeb\" Orrelios",
@@ -54,7 +55,8 @@
       },
       "slots": ["Turret", "Crew", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg",
-      "ffg": 37
+      "ffg": 37,
+      "hyperspace": false
     },
     {
       "name": "Ezra Bridger",
@@ -70,9 +72,10 @@
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
-      "slots": ["Force Power", "Turret", "Crew", "Modification", "Title"],
+      "slots": ["Turret", "Crew", "Modification", "Title", "Force Power"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg",
-      "ffg": 36
+      "ffg": 36,
+      "hyperspace": false
     },
     {
       "name": "Hera Syndulla",
@@ -89,14 +92,15 @@
       },
       "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_34.jpg",
-      "ffg": 34
+      "ffg": 34,
+      "hyperspace": false
     },
     {
       "name": "Sabine Wren",
       "caption": "Spectre-5",
       "initiative": 3,
       "limited": 1,
-      "cost": 38,
+      "cost": 42,
       "xws": "sabinewren",
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_35.png",
@@ -106,7 +110,8 @@
       },
       "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_35.jpg",
-      "ffg": 35
+      "ffg": 35,
+      "hyperspace": false
     }
   ]
 }

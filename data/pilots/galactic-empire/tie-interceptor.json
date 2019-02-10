@@ -34,6 +34,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEInterceptor.png",
   "pilots": [
     {
       "name": "Alpha Squadron Pilot",
@@ -49,7 +50,8 @@
       },
       "slots": ["Modification", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg",
-      "ffg": 106
+      "ffg": 106,
+      "hyperspace": false
     },
     {
       "name": "Saber Squadron Ace",
@@ -65,7 +67,8 @@
       },
       "slots": ["Talent", "Modification", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg",
-      "ffg": 105
+      "ffg": 105,
+      "hyperspace": false
     },
     {
       "name": "Soontir Fel",
@@ -82,7 +85,8 @@
       },
       "slots": ["Talent", "Modification", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg",
-      "ffg": 103
+      "ffg": 103,
+      "hyperspace": false
     },
     {
       "name": "Turr Phennir",
@@ -99,7 +103,8 @@
       },
       "slots": ["Talent", "Modification", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg",
-      "ffg": 104
+      "ffg": 104,
+      "hyperspace": false
     }
   ]
 }

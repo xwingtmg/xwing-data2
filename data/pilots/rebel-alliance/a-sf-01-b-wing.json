@@ -38,12 +38,13 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_B-wing.png",
   "pilots": [
     {
       "name": "Blade Squadron Veteran",
       "initiative": 3,
       "limited": 0,
-      "cost": 44,
+      "cost": 43,
       "xws": "bladesquadronveteran",
       "text": "A unique gyrostabilization system surrounds the B-wing's cockpit, ensuring that the pilot always remains stationary during flight.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_25.png",
@@ -56,13 +57,14 @@
         "Modification"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg",
-      "ffg": 25
+      "ffg": 25,
+      "hyperspace": false
     },
     {
       "name": "Blue Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 42,
+      "cost": 41,
       "xws": "bluesquadronpilot",
       "text": "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_26.png",
@@ -74,14 +76,15 @@
         }
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_26.jpg",
-      "ffg": 26
+      "ffg": 26,
+      "hyperspace": false
     },
     {
       "name": "Braylen Stramm",
       "caption": "Blade Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 50,
+      "cost": 47,
       "xws": "braylenstramm",
       "ability": "While you defend or perform an attack, if you are stressed, you may reroll up to 2 of your dice.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_23.png",
@@ -94,14 +97,15 @@
         "Modification"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg",
-      "ffg": 23
+      "ffg": 23,
+      "hyperspace": false
     },
     {
       "name": "Ten Numb",
       "caption": "Blue Five",
       "initiative": 4,
       "limited": 1,
-      "cost": 50,
+      "cost": 46,
       "xws": "tennumb",
       "ability": "While you defend or perform an attack, you may spend 1 stress token to change all of your [Focus] results to [Evade] or [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_24.png",
@@ -114,7 +118,8 @@
         "Modification"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg",
-      "ffg": 24
+      "ffg": 24,
+      "hyperspace": false
     }
   ]
 }

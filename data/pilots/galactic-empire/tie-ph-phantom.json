@@ -35,6 +35,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Cloak" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEPhantom.png",
   "pilots": [
     {
       "name": "\"Echo\"",
@@ -49,16 +50,17 @@
         "name": "Stygium Array",
         "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
       },
-      "slots": ["Talent", "Sensor", "Crew", "Modification"],
+      "slots": ["Talent", "Sensor", "Modification", "Gunner"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_132.jpg",
-      "ffg": 132
+      "ffg": 132,
+      "hyperspace": false
     },
     {
       "name": "\"Whisper\"",
       "caption": "Soft-Spoken Slayer",
       "initiative": 5,
       "limited": 1,
-      "cost": 52,
+      "cost": 54,
       "xws": "whisper",
       "ability": "After you perform an attack that hits, gain 1 evade token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_131.png",
@@ -66,15 +68,16 @@
         "name": "Stygium Array",
         "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
       },
-      "slots": ["Talent", "Sensor", "Crew", "Modification"],
+      "slots": ["Talent", "Sensor", "Modification", "Gunner"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_131.jpg",
-      "ffg": 131
+      "ffg": 131,
+      "hyperspace": false
     },
     {
       "name": "Imdaar Test Pilot",
       "initiative": 3,
       "limited": 0,
-      "cost": 44,
+      "cost": 43,
       "xws": "imdaartestpilot",
       "text": "The primary result of a hidden research facility on Imdaar Alpha, the TIE phantom achieves what many thought was impossible: a small starfighter equipped with an advanced cloaking device.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_134.png",
@@ -82,9 +85,10 @@
         "name": "Stygium Array",
         "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
       },
-      "slots": ["Sensor", "Crew", "Modification"],
+      "slots": ["Sensor", "Modification", "Gunner"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_134.jpg",
-      "ffg": 134
+      "ffg": 134,
+      "hyperspace": false
     },
     {
       "name": "Sigma Squadron Ace",
@@ -98,9 +102,10 @@
         "name": "Stygium Array",
         "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
       },
-      "slots": ["Talent", "Sensor", "Crew", "Modification"],
+      "slots": ["Talent", "Sensor", "Modification", "Gunner"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_133.jpg",
-      "ffg": 133
+      "ffg": 133,
+      "hyperspace": false
     }
   ]
 }

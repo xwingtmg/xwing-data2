@@ -33,6 +33,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Kihraxz.png",
   "pilots": [
     {
       "name": "Black Sun Ace",
@@ -51,7 +52,8 @@
         "Modification"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_195.jpg",
-      "ffg": 195
+      "ffg": 195,
+      "hyperspace": false
     },
     {
       "name": "Captain Jostero",
@@ -70,7 +72,8 @@
         "Modification"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_194.jpg",
-      "ffg": 194
+      "ffg": 194,
+      "hyperspace": false
     },
     {
       "name": "Cartel Marauder",
@@ -88,7 +91,8 @@
         "Modification"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_196.jpg",
-      "ffg": 196
+      "ffg": 196,
+      "hyperspace": false
     },
     {
       "name": "Graz",
@@ -108,7 +112,8 @@
         "Modification"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_192.jpg",
-      "ffg": 192
+      "ffg": 192,
+      "hyperspace": false
     },
     {
       "name": "Talonbane Cobra",
@@ -128,7 +133,8 @@
         "Modification"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_191.jpg",
-      "ffg": 191
+      "ffg": 191,
+      "hyperspace": false
     },
     {
       "name": "Viktor Hel",
@@ -148,7 +154,8 @@
         "Modification"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_193.jpg",
-      "ffg": 193
+      "ffg": 193,
+      "hyperspace": false
     }
   ]
 }

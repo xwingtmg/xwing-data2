@@ -36,6 +36,7 @@
       "type": "Barrel Roll"
     }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEAggressor.png",
   "pilots": [
     {
       "name": "\"Double Edge\"",
@@ -51,11 +52,12 @@
         "Turret",
         "Missile",
         "Missile",
-        "Gunner",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_128.jpg",
-      "ffg": 128
+      "ffg": 128,
+      "hyperspace": false
     },
     {
       "name": "Lieutenant Kestal",
@@ -71,11 +73,12 @@
         "Turret",
         "Missile",
         "Missile",
-        "Gunner",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_127.jpg",
-      "ffg": 127
+      "ffg": 127,
+      "hyperspace": false
     },
     {
       "name": "Onyx Squadron Scout",
@@ -90,11 +93,12 @@
         "Turret",
         "Missile",
         "Missile",
-        "Gunner",
-        "Modification"
+        "Modification",
+        "Gunner"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_129.jpg",
-      "ffg": 129
+      "ffg": 129,
+      "hyperspace": false
     },
     {
       "name": "Sienar Specialist",
@@ -104,9 +108,10 @@
       "xws": "sienarspecialist",
       "text": "During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_130.png",
-      "slots": ["Turret", "Missile", "Missile", "Gunner", "Modification"],
+      "slots": ["Turret", "Missile", "Missile", "Modification", "Gunner"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_130.jpg",
-      "ffg": 130
+      "ffg": 130,
+      "hyperspace": false
     }
   ]
 }

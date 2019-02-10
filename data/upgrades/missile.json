@@ -22,7 +22,8 @@
         "ffg": 265
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 7 },
+    "hyperspace": false
   },
   {
     "name": "Cluster Missiles",
@@ -47,7 +48,8 @@
         "ffg": 266
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "Concussion Missiles",
@@ -72,7 +74,8 @@
         "ffg": 267
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "hyperspace": true
   },
   {
     "name": "Homing Missiles",
@@ -97,7 +100,8 @@
         "ffg": 268
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "Ion Missiles",
@@ -122,7 +126,8 @@
         "ffg": 269
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "Proton Rockets",
@@ -147,7 +152,8 @@
         "ffg": 270
       }
     ],
-    "cost": { "value": 7 }
+    "cost": { "value": 7 },
+    "hyperspace": true
   },
   {
     "name": "Energy-Shell Charges",
@@ -157,7 +163,7 @@
       {
         "title": "Energy-Shell Charges",
         "type": "Missile",
-        "ability": "Attack ([Calculate]): Spend 1 [Charge]. While you peform this attack, you may spend 1 calculate token to change 1 [Focus] result to a [Crit] result. Action: Reload this card.",
+        "ability": "Attack ([Calculate]): Spend 1 [Charge]. While you perform this attack, you may spend 1 calculate token to change 1 [Focus] result to a [Critical Hit] result. Action: Reload this card.",
         "charges": { "value": 1, "recovers": 0 },
         "attack": {
           "arc": "Front Arc",
@@ -173,6 +179,7 @@
     "restrictions": [
       { "action": { "type": "Calculate", "difficulty": "White" } },
       { "factions": ["Separatist Alliance"] }
-    ]
+    ],
+    "hyperspace": false
   }
 ]
