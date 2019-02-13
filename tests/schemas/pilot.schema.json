@@ -11,7 +11,8 @@
     "conditions": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
       }
     },
     "force": {
