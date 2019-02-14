@@ -341,7 +341,7 @@
         {
           "id": "asajjventress",
           "upgrades": {
-            "force": ["sense"],
+            "force-power": ["sense"],
             "gunner": ["veteranturretgunner"],
             "illicit": ["inertialdampeners", "deadmansswitch"]
           }
@@ -627,7 +627,7 @@
           "id": "princexizor",
           "upgrades": {
             "talent": ["predator"],
-            "system": ["firecontrolsystem"],
+            "sensor": ["firecontrolsystem"],
             "modification": ["shieldupgrade"],
             "title": ["virago"]
           }
@@ -640,7 +640,7 @@
         {
           "id": "blacksunenforcer",
           "upgrades": {
-            "system": ["collisiondetector"]
+            "sensor": ["collisiondetector"]
           }
         }
       ]
@@ -652,7 +652,7 @@
           "id": "guri",
           "upgrades": {
             "talent": ["daredevil"],
-            "system": ["advancedsensors"],
+            "sensor": ["advancedsensors"],
             "torpedo": ["advprotontorpedoes"]
           }
         }
@@ -665,7 +665,7 @@
           "id": "dalanoberos-starviperclassattackplatform",
           "upgrades": {
             "talent": ["outmaneuver"],
-            "system": ["firecontrolsystem"],
+            "sensor": ["firecontrolsystem"],
             "illicit": ["contrabandcybernetics"],
             "torpedo": ["protontorpedoes"]
           }
@@ -918,7 +918,7 @@
           "id": "4lom",
           "upgrades": {
             "talent": ["elusive"],
-            "system": ["advancedsensors"],
+            "sensor": ["advancedsensors"],
             "crew": ["000", "zuckuss"],
             "gunner": ["bt1"],
             "title": ["misthunter"]
@@ -946,7 +946,7 @@
         {
           "id": "gandfindsman",
           "upgrades": {
-            "system": ["firecontrolsystem"],
+            "sensor": ["firecontrolsystem"],
             "crew": ["freelanceslicer"],
             "illicit": ["deadmansswitch"],
             "modification": ["electronicbaffle"]
@@ -1003,7 +1003,7 @@
           "id": "captainnym",
           "upgrades": {
             "talent": ["squadleader"],
-            "system": ["trajectorysimulator"],
+            "sensor": ["trajectorysimulator"],
             "astromech": ["r4astromech"],
             "device": ["bombletgenerator"],
             "title": ["havoc"]
@@ -1042,14 +1042,14 @@
         {
           "id": "ig88a",
           "upgrades": {
-            "system": ["advancedsensors"],
+            "sensor": ["advancedsensors"],
             "title": ["ig2000"]
           }
         },
         {
           "id": "ig88d",
           "upgrades": {
-            "system": ["advancedsensors"],
+            "sensor": ["advancedsensors"],
             "title": ["ig2000"]
           }
         }
@@ -1061,7 +1061,7 @@
         {
           "id": "ig88b",
           "upgrades": {
-            "system": ["firecontrolsystem"],
+            "sensor": ["firecontrolsystem"],
             "cannon": ["ioncannon"],
             "title": ["ig2000"]
           }
@@ -1069,7 +1069,7 @@
         {
           "id": "ig88c",
           "upgrades": {
-            "system": ["firecontrolsystem"],
+            "sensor": ["firecontrolsystem"],
             "cannon": ["ioncannon"],
             "title": ["ig2000"]
           }
