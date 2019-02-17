@@ -48,6 +48,7 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/b0/b3/b0b3f463-a3ea-4fe6-be69-41afed1b4110/swz32_jedi-knight.png",
+      "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "hyperspace": false
     },
     {
@@ -62,6 +63,7 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/f9/24/f9246e39-4852-4a8f-a331-9b78f62439e9/swz32_obi-wan-kenobi.png",
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "hyperspace": false
     },
     {
@@ -76,6 +78,7 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/6a/6f/6a6fef51-fb5f-49c1-b5cc-8e96b6d09051/swz32_plo-koon.png",
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "hyperspace": false
     },
     {
@@ -90,12 +93,13 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/77/73/777350cb-614b-48fd-ad8d-d9c867053c6b/swz32_saesee-tiin.png",
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "hyperspace": false
     },
     {
       "name": "Mace Windu",
       "caption": "Harsh Traditionalist",
-      "initiative": 5,
+      "initiative": 4,
       "limited": 1,
       "xws": "macewindu",
       "ability": "After you fully execute a red maneuver, recover 1 [Force].",
@@ -103,7 +107,8 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/89/28/8928ae70-8883-4c39-9b15-a4754c063b88/swz32_mace-windu.png",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/de/33/de3326f7-521c-4f50-8599-483db5f32d6d/swz32_mace-windu.png",
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "hyperspace": false
     },
     {
@@ -115,6 +120,7 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "hyperspace": false
     }
   ]
