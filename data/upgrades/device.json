@@ -118,5 +118,46 @@
     ],
     "cost": { "value": 3 },
     "hyperspace": true
+  },
+  {
+    "name": "DRK-1 Probe Droids",
+    "limited": 1,
+    "xws": "drk1probedroids",
+    "sides": [
+      {
+        "title": "DRK-1 Probe Droids",
+        "type": "Device",
+        "ability": "During the End Phase, you may spend 1 [Charge] to drop or launch 1 DRK-1 probe droid using a speed 3 template. This card's [Charge] cannopt be recovered.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/8d/db/8ddbbf77-aba5-41d2-8917-6866b43dfada/swz30_probe-droid.png",
+        "slots": ["Device"],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "device": {
+          "name": "DRK-1 Probe Droid",
+          "type": "Remote",
+          "effect": "While a friendly ship locks an object or jams an enemy ship, it may measure range from you. After an enemy ship overlaps you, that ship rolls 1 attack die. On a [Focus] result, you suffer 1 [Hit] damage. System Phase: At your initiative, you may relocate useing a [2 [Left Bank]], [2 [Straight]], or [2 [Right Bank]] template.",
+          "initiative": 0,
+          "stats": [
+            {
+              "type": "agility",
+              "value": 3
+            },
+            {
+              "type": "hull",
+              "value": 1
+            }
+          ],
+          "image": "https://images-cdn.fantasyflightgames.com/filer_public/d1/a7/d1a70245-95d9-4d20-931f-3cadd8a11ed8/swz30_probe-card.png"
+        }
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": ["Separatist Alliance"]
+      }
+    ],
+    "hyperspace": true
   }
 ]

@@ -1272,5 +1272,108 @@
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "hyperspace": true
+  },
+  {
+    "name": "Chancellor Palpatine",
+    "limited": 1,
+    "xws": "chancellorpalpatine",
+    "sides": [
+      {
+        "title": "Chancellor Palpatine",
+        "type": "Crew",
+        "ability": "Setup: Equip this side faceup. After you defend, if the attacker is at range 0-2, you may spend 1 [Force Charge]. If you do, the attacker gains 1 stress token. During the End Phase, you may flip this card.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/85/67/85679b7f-d99c-4d8f-8f5c-abd0ffda7842/swz30_palpatine.png",
+        "force": {
+          "value": 1,
+          "recovers": 1
+        },
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "Purple"
+            },
+            "amount": 1
+          }
+        ],
+        "slots": ["Crew"]
+      },
+      {
+        "title": "Darth Sidious",
+        "type": "Crew",
+        "ability": "After you perfor a purple [Coordinate] action, the ship you coordinated gains 1 stress token. Then, it gains 1 focus token or recovers 1 [Force Charge].",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/53/14/5314a1dc-e52f-4239-ad1e-3f9a3834e604/swz30_sidious.png",
+        "force": {
+          "value": 1,
+          "recovers": 1
+        },
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "Purple"
+            },
+            "amount": 1
+          }
+        ],
+        "slots": ["Crew"]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": ["Galactic Republic", "Separatist Alliance"]
+      }
+    ],
+    "hyperspace": false
+  },
+  {
+    "name": "Count Dooku",
+    "limited": 1,
+    "xws": "countdooku-crew",
+    "sides": [
+      {
+        "title": "Count Dooku",
+        "type": "Crew",
+        "ability": "Before a ship at range 0-2 rolls attack or defense dice, if all of your [Force Charge] are active, you may spend 1 [Force Charge] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/07/e107d01b-4d22-4648-953d-f58fb359b8da/swz30_upgrade-dooku.png",
+        "force": {
+          "value": 1,
+          "recovers": 1
+        },
+        "slots": ["Crew"]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": ["Separatist Alliance"]
+      }
+    ],
+    "hyperspace": false
+  },
+  {
+    "name": "General Grievous",
+    "limited": 1,
+    "xws": "generalgrievous",
+    "sides": [
+      {
+        "title": "General Grievous",
+        "type": "Crew",
+        "ability": "While you defend, after the Neutralize Results step, if there are 2 or more [Hit]/[Critial Hit] results, you may spend 1 [Charge] to cancel 1 [Hit] or [Critical Hit] result. After a friendly ship is destroyed, recover 1 [Charge].",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/22/fb/22fb6299-f156-475e-b1ba-8d06738f9af0/swz30_general-grievous.png",
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
+        "slots": ["Crew"]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": ["Separatist Alliance"]
+      }
+    ],
+    "hyperspace": false
   }
 ]
