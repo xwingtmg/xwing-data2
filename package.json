@@ -1,13 +1,13 @@
 {
   "name": "xwing-data2",
-  "version": "1.8.1",
+  "version": "1.9.0",
   "repository": "git@github.com:guidokessels/xwing-data2.git",
   "author": "Guido Kessels <mail@guidokessels.com>",
   "license": "MIT",
   "scripts": {
     "validate:json": "jsonlint-cli data/**/*.json",
-    "validate:schema": "jest tests/**-schema.test.js",
-    "validate:schema:watch": "jest --watch tests/**-schema.test.js",
+    "validate:tests": "jest tests/**.test.js",
+    "validate:tests:watch": "jest --watch tests/**.test.js",
     "format": "prettier --loglevel warn --write \"data/**/*.json\"",
     "changelog": "git log --pretty=format:'- %s (%h)' --no-merges",
     "ffg2xws": "node scripts/ffg2xws.js && prettier --write data/ffg-xws.json",
