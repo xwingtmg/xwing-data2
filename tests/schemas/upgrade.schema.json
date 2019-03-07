@@ -122,6 +122,9 @@
           "solitary": {
             "type": "boolean"
           },
+          "non-limited": {
+            "type": "boolean"
+          },
           "arcs": {
             "type": "array",
             "minItems": 1,
@@ -228,7 +231,34 @@
                 "scavengedyt1300",
                 "belbullab22starfighter",
                 "delta7aethersprite",
-                "vultureclassdroidfighter"
+                "vultureclassdroidfighter",
+                "sithinfiltrator"
+              ]
+            }
+          },
+          "equipped": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": [
+                "Astromech",
+                "Cannon",
+                "Configuration",
+                "Crew",
+                "Device",
+                "Force Power",
+                "Gunner",
+                "Illicit",
+                "Missile",
+                "Modification",
+                "Sensor",
+                "Tactical Relay",
+                "Talent",
+                "Tech",
+                "Title",
+                "Torpedo",
+                "Turret"
               ]
             }
           }

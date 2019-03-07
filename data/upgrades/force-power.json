@@ -126,5 +126,31 @@
     ],
     "cost": { "value": 4 },
     "hyperspace": true
+  },
+  {
+    "name": "Battle Meditation",
+    "xws": "battlemeditation",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Battle Meditation",
+        "type": "Force Power",
+        "ability": "You cannot coordinate limited ships. While you perform a purple [Coordinate] action, you may coordinate 1 additional friendly non-limited ship of the same type. Both ships must perform the same action",
+        "slots": ["Force Power"],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/e3/0b/e30ba082-91c7-408b-9738-d631079911c7/swz32_battle-meditation.png",
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "Purple"
+            },
+            "amount": 1
+          }
+        ]
+      }
+    ],
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "hyperspace": false
   }
 ]

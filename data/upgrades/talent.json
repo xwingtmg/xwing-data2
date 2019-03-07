@@ -448,5 +448,24 @@
     ],
     "hyperspace": false,
     "restrictions": [{ "factions": ["Separatist Alliance"] }]
+  },
+  {
+    "name": "Dedicated",
+    "xws": "dedicated",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Dedicated",
+        "type": "Talent",
+        "ability": "While another friendly ship in your [Left Arc] or [Right Arc] at range 0-2 defends, if it is limited or has the Dedicated upgrade and you are not strained, you may gain 1 strain token. If you do, the defender rerolls 1 of their blank results.",
+        "slots": ["Talent"],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/78/94/78942a7d-d303-41fc-9880-6d3d0062dccd/swz32_dedicated.png"
+      }
+    ],
+    "hyperspace": false,
+    "restrictions": [
+      { "factions": ["Galactic Republic"] },
+      { "non-limited": true }
+    ]
   }
 ]
