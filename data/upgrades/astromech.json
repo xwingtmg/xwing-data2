@@ -295,6 +295,30 @@
     "hyperspace": true
   },
   {
+    "name": "R2-C4",
+    "limited": 1,
+    "xws": "r2c4",
+    "sides": [
+      {
+        "title": "R2-C4",
+        "type": "Astromech",
+        "ability": "While you perform an attack, you may spend 1 evade token to change 1 [Focus] result to a [Hit] result.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/02/e5/02e515c7-6edd-4dcf-a2af-20d9f968bed5/swz40_r2-c4.png",
+        "slots": [
+          "Astromech"
+        ]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": [
+          "Galactic Republic"
+        ]
+      }
+    ],
+    "hyperspace": false
+  },
+  {
     "name": "R4-P Astromech",
     "xws": "r4pastromech",
     "limited": 0,
