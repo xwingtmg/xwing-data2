@@ -304,16 +304,12 @@
         "type": "Astromech",
         "ability": "While you perform an attack, you may spend 1 evade token to change 1 [Focus] result to a [Hit] result.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/02/e5/02e515c7-6edd-4dcf-a2af-20d9f968bed5/swz40_r2-c4.png",
-        "slots": [
-          "Astromech"
-        ]
+        "slots": ["Astromech"]
       }
     ],
     "restrictions": [
       {
-        "factions": [
-          "Galactic Republic"
-        ]
+        "factions": ["Galactic Republic"]
       }
     ],
     "hyperspace": false

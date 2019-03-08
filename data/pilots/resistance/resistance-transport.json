@@ -1,39 +1,37 @@
 {
-    "name": "Resistance Transport",
-    "xws": "resistancetransport",
-    "size": "Small",
-    "dial": [
-        "0OR",
-        "1TR",
-        "1BB",
-        "1FB",
-        "1NB",
-        "1YR",
-        "2TW",
-        "2BW",
-        "2FB",
-        "2NW",
-        "2YW",
-        "3BR",
-        "3FW",
-        "3NR",
-        "3KR",
-        "4FR"
-    ],
-    "faction": "Resistance",
-    "stats": [
-        {
-            "arc": "Front Arc",
-            "type": "attack",
-            "value": 2
-        },
-        {
-            "type": "agility",
-            "value": 1
-        }
-    ],
-    "actions": [
-    ],
-    "pilots": [
-    ]
+  "name": "Resistance Transport",
+  "xws": "resistancetransport",
+  "size": "Small",
+  "dial": [
+    "0OR",
+    "1TR",
+    "1BB",
+    "1FB",
+    "1NB",
+    "1YR",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3BR",
+    "3FW",
+    "3NR",
+    "3KR",
+    "4FR"
+  ],
+  "faction": "Resistance",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    }
+  ],
+  "actions": [],
+  "pilots": []
 }
