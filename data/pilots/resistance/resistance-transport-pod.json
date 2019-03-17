@@ -1,0 +1,63 @@
+{
+    "name": "Resistance Transport Pod",
+    "xws": "resistancetransportpod",
+    "size": "Small",
+    "dial": [
+        "0OR",
+        "1AR",
+        "1TR",
+        "1BB",
+        "1FB",
+        "1NB",
+        "1YR",
+        "1DR",
+        "2TW",
+        "2BW",
+        "2FB",
+        "2NW",
+        "2YW",
+        "3BR",
+        "3FW",
+        "3NR",
+        "4FR"
+    ],
+    "faction": "Resistance",
+    "stats": [
+        {
+            "arc": "Front Arc",
+            "type": "attack",
+            "value": 2
+        },
+        {
+            "type": "agility",
+            "value": 2
+        },
+        {
+            "type": "hull",
+            "value": 3
+        },
+        {
+            "type": "shields",
+            "value": 1
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Jam"
+        }
+    ],
+    "pilots": []
+}
