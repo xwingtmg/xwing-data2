@@ -51,12 +51,8 @@
       }
     ],
     "restrictions": [
-      {
-        "factions": ["Separatist Alliance"]
-      },
-      {
-        "solitary": true
-      }
+      { "factions": ["Separatist Alliance"] },
+      { "solitary": true }
     ],
     "hyperspace": false
   }

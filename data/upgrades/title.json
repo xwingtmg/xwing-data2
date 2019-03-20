@@ -453,7 +453,7 @@
     ],
     "cost": { "value": 10 },
     "restrictions": [{ "ships": ["starviperclassattackplatform"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Rey's Millennium Falcon",
@@ -510,29 +510,19 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Cloak",
-              "difficulty": "Red"
-            }
+            "value": { "type": "Cloak", "difficulty": "Red" }
           },
           {
             "type": "action",
-            "value": {
-              "type": "Jam",
-              "difficulty": "White"
-            }
+            "value": { "type": "Jam", "difficulty": "White" }
           }
         ],
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/f3/18/f318bb11-2334-4b13-aee2-3930ed267cf0/swz29_a2_soulless-one.png"
       }
     ],
     "restrictions": [
-      {
-        "factions": ["Separatist Alliance"]
-      },
-      {
-        "ships": ["sithinfiltrator"]
-      }
+      { "factions": ["Separatist Alliance"] },
+      { "ships": ["sithinfiltrator"] }
     ],
     "hyperspace": false
   }

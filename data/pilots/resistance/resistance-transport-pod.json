@@ -23,41 +23,16 @@
   ],
   "faction": "Resistance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 1
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 1 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Jam"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "Red", "type": "Lock" },
+    { "difficulty": "Red", "type": "Barrel Roll" },
+    { "difficulty": "Red", "type": "Jam" }
   ],
   "pilots": []
 }
