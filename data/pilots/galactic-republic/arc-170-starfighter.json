@@ -2,6 +2,7 @@
   "name": "ARC-170 Starfighter",
   "xws": "arc170starfighter",
   "size": "Medium",
+  "ffg": 31,
   "dial": [
     "1BB",
     "1FB",
@@ -49,6 +50,7 @@
     },
     {
       "name": "\"Jag\"",
+      "xws": "jag",
       "cost": 49,
       "slots": ["Torpedo", "Crew", "Astromech", "Modification", "Gunner"],
       "ffg": 525,
@@ -62,6 +64,7 @@
     },
     {
       "name": "\"Odd Ball\"",
+      "xws": "oddball-arc170starfighter",
       "cost": 55,
       "slots": [
         "Talent",
@@ -82,6 +85,7 @@
     },
     {
       "name": "\"Wolffe\"",
+      "xws": "wolffe",
       "cost": 51,
       "slots": [
         "Talent",
@@ -103,6 +107,7 @@
     },
     {
       "name": "104th Battalion Pilot",
+      "xws": "104thbattalionpilot",
       "cost": 42,
       "slots": ["Torpedo", "Crew", "Astromech", "Modification", "Gunner"],
       "ffg": 528,
@@ -115,6 +120,7 @@
     },
     {
       "name": "Squad Seven Veteran",
+      "xws": "squadsevenveteran",
       "cost": 47,
       "slots": [
         "Talent",
@@ -132,6 +138,5 @@
       "text": "Clone Flight Seven serves as part of the Open Circle Fleet under legendary Jedi Generals such as Plo Koon and Obi-Wan Kenobi, and won glory at the battles of Coruscant and Cato Neimoidia.",
       "hyperspace": true
     }
-  ],
-  "ffg": 31
+  ]
 }
