@@ -105,7 +105,10 @@
         "Gunner",
         "Tech"
       ],
-      "charges": { "value": 1, "recovers": 1 },
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d038dadd7a62bbe2de89d3866e1a3639.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/86f8ccc959081a43dc4d0dbeb921d0ba.jpg",
       "ffg": 406,
@@ -118,7 +121,7 @@
       "limited": 1,
       "cost": 41,
       "xws": "backdraft",
-      "ability": "While you perform a [Single Turret Arc] primary attack, if the defender is in your [Rear Arc] roll 1 additional die.",
+      "ability": "While you perform a [Single Turret Arc] primary attack, if the defender is in your [Rear Arc], roll 1 additional die.",
       "shipAbility": {
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
@@ -142,7 +145,7 @@
       "limited": 0,
       "cost": 36,
       "xws": "omegasquadronexpert",
-      "text": "The TIE/sf is a versatile starfighter that specialized armaments and experimental systems for long-range operations for First Order Special Forces.",
+      "text": "The TIE/sf is a versatile starfighter that carries specialized armament and experimental systems for long-range operations by First Order Special Forces.",
       "shipAbility": {
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
@@ -171,7 +174,13 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "slots": ["Sensor", "Missile", "Modification", "Gunner", "Tech"],
+      "slots": [
+        "Sensor",
+        "Missile",
+        "Modification",
+        "Gunner",
+        "Tech"
+      ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/848db1993150bda19217e2c14b3c3df6.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg",
       "ffg": 409,

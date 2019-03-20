@@ -8,7 +8,9 @@
         "title": "Ablative Plating",
         "type": "Modification",
         "ability": "Before you would suffer damage from an obstacle or from a friendly bomb detonating, you may spend 1 [Charge]. If you do, prevent 1 damage.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -18,8 +20,17 @@
         "ffg": 292
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Medium",
+          "Large"
+        ]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -30,15 +41,26 @@
       {
         "title": "Advanced SLAM",
         "type": "Modification",
-        "ability": "After you perform a [SLAM] action, if you fully executed that maneuver, you may perform a white action on your action bar, treating that action as red.",
-        "slots": ["Modification"],
+        "ability": "After you perform a [Slam] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.",
+        "slots": [
+          "Modification"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_69.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_69.jpg",
         "ffg": 293
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "action": { "type": "SLAM", "difficulty": "White" } }],
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "SLAM",
+          "difficulty": "White"
+        }
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -50,7 +72,9 @@
         "title": "Afterburners",
         "type": "Modification",
         "ability": "After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -60,8 +84,16 @@
         "ffg": 294
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "sizes": ["Small"] }],
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small"
+        ]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -73,13 +105,17 @@
         "title": "Electronic Baffle",
         "type": "Modification",
         "ability": "During the End Phase, you may suffer 1 [Hit] damage to remove 1 red token.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_71.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_71.jpg",
         "ffg": 295
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "hyperspace": false
   },
   {
@@ -91,7 +127,9 @@
         "title": "Engine Upgrade",
         "type": "Modification",
         "text": "Large military forces such as the Galactic Empire have standardized engines, but individual pilots and small organizations often replace the power couplings, add thrusters, or use high-performance fuel to get extra push out of their engines.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "actions": [
           {
             "type": "Boost",
@@ -115,9 +153,20 @@
     ],
     "cost": {
       "variable": "size",
-      "values": { "Small": 2, "Medium": 4, "Large": 7 }
+      "values": {
+        "Small": 2,
+        "Medium": 4,
+        "Large": 7
+      }
     },
-    "restrictions": [{ "action": { "type": "Boost", "difficulty": "Red" } }],
+    "restrictions": [
+      {
+        "action": {
+          "type": "Boost",
+          "difficulty": "Red"
+        }
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -129,7 +178,9 @@
         "title": "Hull Upgrade",
         "type": "Modification",
         "text": "For those who cannot afford an enhanced shield generator, bolting additional plates onto the hull of a ship can serve as an adequate substitute.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "grants": [
           {
             "type": "stat",
@@ -144,7 +195,12 @@
     ],
     "cost": {
       "variable": "agility",
-      "values": { "0": 2, "1": 3, "2": 5, "3": 7 }
+      "values": {
+        "0": 2,
+        "1": 3,
+        "2": 5,
+        "3": 7
+      }
     },
     "hyperspace": true
   },
@@ -157,13 +213,17 @@
         "title": "Munitions Failsafe",
         "type": "Modification",
         "ability": "While you perform a [Torpedo] or [Missile] attack, after rolling attack dice, you may cancel all dice results to recover 1 [Charge] you spent as a cost for the attack.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_74.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_74.jpg",
         "ffg": 298
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 1
+    },
     "hyperspace": true
   },
   {
@@ -181,7 +241,9 @@
             "source": "Season Three 2018"
           }
         ],
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "grants": [
           {
             "type": "stat",
@@ -196,7 +258,12 @@
     ],
     "cost": {
       "variable": "agility",
-      "values": { "0": 3, "1": 4, "2": 6, "3": 8 }
+      "values": {
+        "0": 3,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      }
     },
     "hyperspace": true
   },
@@ -209,13 +276,17 @@
         "title": "Static Discharge Vanes",
         "type": "Modification",
         "ability": "If you would gain an ion or jam token, if you are not stressed, you may choose a ship at range 0-1. If you do, gain 1 stress token and transfer 1 ion or jam token to that ship.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_76.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg",
         "ffg": 300
       }
     ],
-    "cost": { "value": 8 },
+    "cost": {
+      "value": 8
+    },
     "hyperspace": true
   },
   {
@@ -227,7 +298,9 @@
         "title": "Stealth Device",
         "type": "Modification",
         "ability": "While you defend, if your [Charge] is active, roll 1 additional defense die. After you suffer damage, lose 1 [Charge].",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "charges": {
           "value": 1,
           "recovers": 0
@@ -239,7 +312,12 @@
     ],
     "cost": {
       "variable": "agility",
-      "values": { "0": 3, "1": 4, "2": 6, "3": 8 }
+      "values": {
+        "0": 3,
+        "1": 4,
+        "2": 6,
+        "3": 8
+      }
     },
     "hyperspace": true
   },
@@ -252,14 +330,25 @@
         "title": "Tactical Scrambler",
         "type": "Modification",
         "ability": "While you obstruct an enemy ship's attack, the defender rolls 1 additional defense die.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_78.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_78.jpg",
         "ffg": 302
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Medium",
+          "Large"
+        ]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -271,12 +360,23 @@
         "title": "Impervium Plating",
         "type": "Modification",
         "ability": "Before you would be dealt a faceup Ship damage card, you may spend 1 [Charge] to discard it instead.",
-        "charges": { "value": 2, "recovers": 0 },
-        "slots": ["Modification"],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "slots": [
+          "Modification"
+        ],
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/10/67/10676484-b596-43fd-a218-2d85707cf476/swz29_impervium-plating.png"
       }
     ],
-    "restrictions": [{ "ships": ["belbullab22starfighter"] }],
+    "restrictions": [
+      {
+        "ships": [
+          "belbullab22starfighter"
+        ]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -288,13 +388,24 @@
         "title": "Synchronized Console",
         "type": "Modification",
         "ability": "After you perform an attack, you may choose a friendly ship at range 1 or a friendly ship with a Synchronized Console upgrade at range 1-3 and spend a lock you have on the defender. If you do, the friendly ship you chose may acquire a lock on the defender.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/dd/5a/dd5adbe7-cb13-4d42-8a81-211cd265c210/swz32_synchronized-console.png"
       }
     ],
     "restrictions": [
-      { "factions": ["Galactic Republic"] },
-      { "action": { "type": "Lock", "difficulty": "White" } }
+      {
+        "factions": [
+          "Galactic Republic"
+        ]
+      },
+      {
+        "action": {
+          "type": "Lock",
+          "difficulty": "White"
+        }
+      }
     ],
     "hyperspace": false
   },
@@ -311,13 +422,17 @@
           "value": 2,
           "recovers": 0
         },
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/1a/271ad22f-1482-4314-97b1-35e64691a0fb/swz_spare-part-canisters.png"
       }
     ],
     "restrictions": [
       {
-        "equipped": ["Astromech"]
+        "equipped": [
+          "Astromech"
+        ]
       }
     ],
     "hyperspace": false

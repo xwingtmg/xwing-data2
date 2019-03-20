@@ -43,11 +43,26 @@
     }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Evade" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Barrel Roll" },
-    { "difficulty": "White", "type": "Boost" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_RZ-2_A-wing.png",
   "pilots": [
@@ -63,7 +78,12 @@
         "name": "Refined Gyrostabilizers",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
-      "slots": ["Talent", "Talent", "Missile", "Tech"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Tech"
+      ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e15d3e2a2fc082b95a64a83df0c96f7f.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b97a025a7859f54bbc68374ff5d8116e.jpg",
       "ffg": 435,
@@ -83,8 +103,16 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/72cb6c4e50b0ad24af0bb84ce0aa53f0.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ee8c3c26ce6432d7581c5f61392597bc.jpg",
-      "charges": { "value": 1, "recovers": 1 },
-      "slots": ["Talent", "Talent", "Missile", "Tech"],
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Tech"
+      ],
       "ffg": 436,
       "hyperspace": true
     },
@@ -102,7 +130,12 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d7f37dbb86bb706dd535e9a65b69149a.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2fe44e1e5496645c16f4d2189a1746e3.jpg",
-      "slots": ["Talent", "Talent", "Missile", "Tech"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Tech"
+      ],
       "ffg": 438,
       "hyperspace": true
     },
@@ -120,7 +153,12 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/7fc7b194b02ad7af6adf4ef9b79108d1.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/84bf1ce21926d4500b54e122da01b162.jpg",
-      "slots": ["Talent", "Talent", "Missile", "Tech"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Tech"
+      ],
       "ffg": 437,
       "hyperspace": true
     },
@@ -130,12 +168,17 @@
       "limited": 0,
       "cost": 34,
       "xws": "greensquadronexpert",
-      "text": "Years of field-expedient modifications were standardized in the RZ-2 design, but daring pilots see the ship's improved reliability as a challenge to further push the limits on its performance.",
+      "text": "Years of field-expedient modifications were standardized in the RZ-2 design, but daring pilots see the ship's improved reliability as a challenge to further push the limits of its performance.",
       "shipAbility": {
         "name": "Refined Gyrostabilizers",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
-      "slots": ["Talent", "Talent", "Missile", "Tech"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Tech"
+      ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3f7ad9efb4c5af8b4d1f5c07a3c7538b.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/8427bdfb1cf9497a9ab797e2c955ba41.jpg",
       "ffg": 439,
@@ -147,12 +190,16 @@
       "limited": 0,
       "cost": 32,
       "xws": "bluesquadronrecruit",
-      "text": "Young being across the galaxy have grown up on tales of heroism in the Galactic Civil War, and many learned to fly in the same cockpits from which their parents fought the Empire.",
+      "text": "Young beings across the galaxy have grown up on tales of heroism in the Galactic Civil War, and many learned to fly in the same cockpits from which their parents fought the Empire.",
       "shipAbility": {
         "name": "Refined Gyrostabilizers",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
-      "slots": ["Talent", "Missile", "Tech"],
+      "slots": [
+        "Talent",
+        "Missile",
+        "Tech"
+      ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e033b2729305ac0b678d6031ada7b2b8.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3df643a75106a59899e5f32ef56e8a5e.jpg",
       "ffg": 440,

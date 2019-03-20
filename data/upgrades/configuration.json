@@ -1,6 +1,6 @@
 [
   {
-    "name": "Integrated S-foils (Open)",
+    "name": "Integrated S-foils (Closed)",
     "limited": 0,
     "xws": "integratedsfoils",
     "sides": [
@@ -8,18 +8,26 @@
         "title": "Integrated S-foils (Closed)",
         "type": "Configuration",
         "ability": "While you perform a primary attack, if the defender is not in your [Bullseye Arc], roll 1 fewer attack die. Before you activate, you may flip this card.",
-        "slots": ["Configuration"],
+        "slots": [
+          "Configuration"
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Barrel Roll", "difficulty": "White" }
+            "value": {
+              "type": "Barrel Roll",
+              "difficulty": "White"
+            }
           },
           {
             "type": "action",
             "value": {
               "type": "Focus",
               "difficulty": "White",
-              "linked": { "type": "Barrel Roll", "difficulty": "Red" }
+              "linked": {
+                "type": "Barrel Roll",
+                "difficulty": "Red"
+              }
             }
           }
         ],
@@ -31,14 +39,24 @@
         "title": "Integrated S-foils (Open)",
         "type": "Configuration",
         "ability": "Before you activate, you may flip this card.",
-        "slots": ["Configuration"],
+        "slots": [
+          "Configuration"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/49372b4efb974ff673a1b79441186fd5.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/bf5e7b98158570f9d4fc259b5553f4ca.jpg",
         "ffg": 487
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["t70xwing"] }],
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "t70xwing"
+        ]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -50,7 +68,9 @@
         "title": "Os-1 Arsenal Loadout",
         "type": "Configuration",
         "ability": "While you have exactly 1 disarm token, you can still perform [Torpedo] and [Missile] attacks against targets you have locked. If you do, you cannot spend your lock during the attack. Add [Torpedo] and [Missile] slots.",
-        "slots": ["Configuration"],
+        "slots": [
+          "Configuration"
+        ],
         "grants": [
           {
             "type": "slot",
@@ -68,8 +88,16 @@
         "ffg": 350
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["alphaclassstarwing"] }],
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "alphaclassstarwing"
+        ]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -81,7 +109,9 @@
         "title": "Pivot Wing (Closed)",
         "type": "Configuration",
         "ability": "While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90° or 180°. Before you activate, you may flip this card.",
-        "slots": ["Configuration"],
+        "slots": [
+          "Configuration"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_107b.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_107b.jpg",
         "ffg": 332
@@ -90,14 +120,24 @@
         "title": "Pivot Wing (Open)",
         "type": "Configuration",
         "ability": "Before you activate, you may flip this card.",
-        "slots": ["Configuration"],
+        "slots": [
+          "Configuration"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_107.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_107.jpg",
         "ffg": 331
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["ut60duwing"] }],
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "ut60duwing"
+        ]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -109,7 +149,9 @@
         "title": "Servomotor S-foils (Closed)",
         "type": "Configuration",
         "ability": "While you perform a primary attack, roll 1 fewer attack die. Before you activate, you may flip this card.",
-        "slots": ["Configuration"],
+        "slots": [
+          "Configuration"
+        ],
         "actions": [
           {
             "type": "Boost",
@@ -152,14 +194,24 @@
         "title": "Servomotor S-foils (Open)",
         "type": "Configuration",
         "ability": "Before you activate, you may flip this card.",
-        "slots": ["Configuration"],
+        "slots": [
+          "Configuration"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_108.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_108.jpg",
         "ffg": 333
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["t65xwing"] }],
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "t65xwing"
+        ]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -171,7 +223,9 @@
         "title": "Xg-1 Assault Configuration",
         "type": "Configuration",
         "ability": "While you have exactly 1 disarm token, you can still perform [Cannon] attacks. While you perform a [Cannon] attack while disarmed, roll a maximum of 3 attack dice. Add [Cannon] slot.",
-        "slots": ["Configuration"],
+        "slots": [
+          "Configuration"
+        ],
         "grants": [
           {
             "type": "slot",
@@ -184,8 +238,16 @@
         "ffg": 351
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["alphaclassstarwing"] }],
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "alphaclassstarwing"
+        ]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -197,16 +259,26 @@
         "title": "Grappling Struts (Closed)",
         "type": "Configuration",
         "ability": "Setup: Equip this side faceup. While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.",
-        "slots": ["Configuration"]
+        "slots": [
+          "Configuration"
+        ]
       },
       {
         "title": "Grappling Struts (Open)",
         "type": "Configuration",
         "ability": "You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.",
-        "slots": ["Configuration"]
+        "slots": [
+          "Configuration"
+        ]
       }
     ],
-    "restrictions": [{ "ships": ["vultureclassdroidfighter"] }],
+    "restrictions": [
+      {
+        "ships": [
+          "vultureclassdroidfighter"
+        ]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -217,15 +289,36 @@
       {
         "title": "Delta-7B",
         "type": "Configuration",
-        "slots": ["Configuration"],
+        "slots": [
+          "Configuration"
+        ],
         "grants": [
-          { "type": "stat", "value": "agility", "amount": -1 },
-          { "type": "stat", "value": "shields", "amount": 2 },
-          { "type": "stat", "value": "attack", "arc": "Front Arc", "amount": 1 }
+          {
+            "type": "stat",
+            "value": "agility",
+            "amount": -1
+          },
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": 2
+          },
+          {
+            "type": "stat",
+            "value": "attack",
+            "arc": "Front Arc",
+            "amount": 1
+          }
         ]
       }
     ],
-    "restrictions": [{ "ships": ["delta7aethersprite"] }],
+    "restrictions": [
+      {
+        "ships": [
+          "delta7aethersprite"
+        ]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -236,12 +329,21 @@
       {
         "title": "Calibrated Laser Targeting",
         "type": "Configuration",
-        "slots": ["Configuration", "Modification"],
+        "slots": [
+          "Configuration",
+          "Modification"
+        ],
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], add 1 [Focus] result.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/4a/32/4a32d934-9d57-433c-8fb6-ce6c1cb52224/swz34_calibrated-laser-targeting.png"
       }
     ],
-    "restrictions": [{ "ships": ["delta7aethersprite"] }],
+    "restrictions": [
+      {
+        "ships": [
+          "delta7aethersprite"
+        ]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -253,18 +355,24 @@
         "title": "Landing Struts (Closed)",
         "type": "Configuration",
         "ability": "Setup: Equip this side faceup. While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.",
-        "slots": ["Configuration"]
+        "slots": [
+          "Configuration"
+        ]
       },
       {
         "title": "Landing Struts (Open)",
         "type": "Configuration",
         "ability": "You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.",
-        "slots": ["Configuration"]
+        "slots": [
+          "Configuration"
+        ]
       }
     ],
     "restrictions": [
       {
-        "ships": ["hyenaclassdroidbomber"]
+        "ships": [
+          "hyenaclassdroidbomber"
+        ]
       }
     ],
     "hyperspace": false
