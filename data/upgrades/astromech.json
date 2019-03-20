@@ -321,11 +321,13 @@
         "ability": "Before you execute a basic maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.",
         "slots": ["Astromech"],
         "charges": { "value": 2, "recovers": 0 },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f2/b0/f2b08b38-29fa-4be1-b96d-c09a5ac4bc7c/swz32_r4-p_astromech.png"
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f2/b0/f2b08b38-29fa-4be1-b96d-c09a5ac4bc7c/swz32_r4-p_astromech.png",
+        "ffg": 546
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": false
+    "hyperspace": true,
+    "cost": { "value": 4 }
   },
   {
     "name": "R4-P17",
@@ -338,10 +340,30 @@
         "ability": "After you fully execute a red maneuver, you may spend 1 [Charge] to perform an action, even while stressed.",
         "slots": ["Astromech"],
         "charges": { "value": 2, "recovers": 0 },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/08/9c089203-13b7-4639-8366-2498c9fe9982/swz32_r4-p17_astromech.png"
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/08/9c089203-13b7-4639-8366-2498c9fe9982/swz32_r4-p17_astromech.png",
+        "ffg": 547
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": false
+    "hyperspace": true,
+    "cost": { "value": 5 }
+  },
+  {
+    "name": "R4-P44",
+    "xws": "r4p44",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "R4-P44",
+        "type": "Astromech",
+        "ability": "After you fully execute a red maneuver, if there is an enemy ship in your [Bullseye Arc], gain 1 calculate token",
+        "slots": ["Astromech"],
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/749fa54f44bc3327349aa3f8b1742a67.png",
+        "ffg": 551
+      }
+    ],
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "hyperspace": true,
+    "cost": { "value": 5 }
   }
 ]

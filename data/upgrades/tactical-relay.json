@@ -9,14 +9,16 @@
         "type": "Tactical Relay",
         "ability": "During the End Phase, you may choose up to 3 friendly ships at range 0-3. If you do, each of these ships does not remove 1 calculate token.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/08/80/0880f7ae-365d-4a44-892b-cfddb611106e/swz29_kraken.png",
-        "slots": ["Tactical Relay"]
+        "slots": ["Tactical Relay"],
+        "ffg": 531
       }
     ],
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
       { "solitary": true }
     ],
-    "hyperspace": false
+    "hyperspace": true,
+    "cost": { "value": 10 }
   },
   {
     "name": "TV-94",
@@ -28,14 +30,16 @@
         "type": "Tactical Relay",
         "ability": "While a friendly ship at range 0-3 performs a primary attack against a defender in its [Bullseye Arc], if there are 2 or fewer attack dice, it may spend 1 calculate token to add 1 [Hit] result.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/35/4b/354b3a7d-bffe-420f-9fbf-ada532a5058c/swz29_a2_tv94.png",
-        "slots": ["Tactical Relay"]
+        "slots": ["Tactical Relay"],
+        "ffg": 530
       }
     ],
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
       { "solitary": true }
     ],
-    "hyperspace": false
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "K2-B4",
@@ -47,13 +51,15 @@
         "type": "Tactical Relay",
         "ability": "While a friendly ship at range 0-3 defends, it may spend 1 calculate token. If it does, add 1 [Evade] result unless the attacker chooses to gain 1 strain token.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/73/a0/73a0a06c-5036-4fbe-8177-b9c3c3fd200e/swz30_k2-b4.png",
-        "slots": ["Tactical Relay"]
+        "slots": ["Tactical Relay"],
+        "ffg": 537
       }
     ],
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
       { "solitary": true }
     ],
-    "hyperspace": false
+    "cost": { "value": 5 },
+    "hyperspace": true
   }
 ]

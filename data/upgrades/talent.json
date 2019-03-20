@@ -443,11 +443,13 @@
         "ability": "While you defend, you may choose a ship obstructing the attack and spend 1 [Charge]. If you do, cancel 1 [Hit] or [Critical Hit] result, and the ship you chose gains 1 strain token. After a ship at range 0-3 is destroyed, recover 1 [Charge].",
         "slots": ["Talent"],
         "charges": { "value": 1, "recovers": 0 },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/78/90/78904e32-b5ad-4fd5-989e-6040595b37b9/swz29_a2_treacherous.png"
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/78/90/78904e32-b5ad-4fd5-989e-6040595b37b9/swz29_a2_treacherous.png",
+        "ffg": 529
       }
     ],
-    "hyperspace": false,
-    "restrictions": [{ "factions": ["Separatist Alliance"] }]
+    "hyperspace": true,
+    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "cost": { "value": 3 }
   },
   {
     "name": "Dedicated",
@@ -459,13 +461,15 @@
         "type": "Talent",
         "ability": "While another friendly ship in your [Left Arc] or [Right Arc] at range 0-2 defends, if it is limited or has the Dedicated upgrade and you are not strained, you may gain 1 strain token. If you do, the defender rerolls 1 of their blank results.",
         "slots": ["Talent"],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/78/94/78942a7d-d303-41fc-9880-6d3d0062dccd/swz32_dedicated.png"
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/78/94/78942a7d-d303-41fc-9880-6d3d0062dccd/swz32_dedicated.png",
+        "ffg": 544
       }
     ],
-    "hyperspace": false,
+    "hyperspace": true,
     "restrictions": [
       { "factions": ["Galactic Republic"] },
       { "non-limited": true }
-    ]
+    ],
+    "cost": { "value": 3 }
   }
 ]
