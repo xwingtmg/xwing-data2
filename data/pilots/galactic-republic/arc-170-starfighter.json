@@ -22,16 +22,42 @@
   ],
   "faction": "Galactic Republic",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Rear Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Rear Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    }
   ],
   "pilots": [
     {
@@ -40,7 +66,7 @@
       "initiative": 3,
       "limited": 1,
       "xws": "sinker",
-      "ability": "While a friendly ship at range 1-2 in your [Left Arc] or [Right Arc] performs a primary attack, it may reroll 1 attack die.",
+      "ability": "While a friendly ship at range 1-2 in your  or  performs a primary attack, it may reroll 1 attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8297fc7d58ec0a5e6068f8dabbbc00f1.png",
       "slots": ["Torpedo", "Crew", "Astromech", "Modification", "Gunner"],
       "hyperspace": true,
@@ -59,7 +85,7 @@
       "limited": 1,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/124b11dde89cf986fcd8bc8e89094cf5.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/28152f1d6ee09d27a4afd2459947dc3d.png",
-      "ability": "After a friendly ship at range 1-2 in your [Left Arc] or [Right Arc] defends, you may acquire a lock on the attacker.",
+      "ability": "After a friendly ship at range 1-2 in your   or   defends, you may acquire a lock on the attacker.",
       "hyperspace": true
     },
     {
@@ -101,8 +127,11 @@
       "limited": 1,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/933ef28f6a8fda0c5741bd6a9a5f308d.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/2a15fd003a7fc1d475b562a958c6c263.png",
-      "charges": { "value": 1, "recovers": 0 },
-      "ability": "While you perform a primary [Front Arc] attack, you may spend 1 [Charge] to reroll 1 attack die. While you perform a primary [Rear Arc] attack, you may recover 1 [Charge] to roll 1 additional attack die.",
+      "charges": {
+        "value": 1,
+        "recovers": 0
+      },
+      "ability": "While you perform a primary [Front Arc] attack, you may spend 1 [Charge] to reroll 1 attack die.  While you perform a primary [Rear Arc] attack, you may recover 1 [Charge] to roll 1 additional attack die.",
       "hyperspace": true
     },
     {

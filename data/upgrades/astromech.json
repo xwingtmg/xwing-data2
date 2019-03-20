@@ -13,8 +13,14 @@
         "ffg": 323
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -32,8 +38,14 @@
         "ffg": 368
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -55,7 +67,9 @@
         "ffg": 282
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 4
+    },
     "hyperspace": true
   },
   {
@@ -77,8 +91,14 @@
         "ffg": 324
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -96,7 +116,9 @@
         "ffg": 283
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "hyperspace": true
   },
   {
@@ -114,8 +136,14 @@
         "ffg": 284
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "sizes": ["Small"] }],
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "sizes": ["Small"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -137,7 +165,9 @@
         "ffg": 285
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 4
+    },
     "hyperspace": true
   },
   {
@@ -159,8 +189,14 @@
         "ffg": 325
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -182,8 +218,14 @@
         "ffg": 369
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -201,8 +243,14 @@
         "ffg": 370
       }
     ],
-    "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "cost": {
+      "value": 1
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -213,7 +261,10 @@
       {
         "title": "R5-X3",
         "type": "Astromech",
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "ability": "Before you activate or engage, you may spend 1 [Charge] to ignore obstacles until the end of this phase.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/aed4536536b67bae316b260ed151c22a.png",
         "slots": ["Astromech"],
@@ -221,8 +272,14 @@
         "ffg": 483
       }
     ],
-    "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "cost": {
+      "value": 5
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -240,8 +297,14 @@
         "ffg": 482
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -256,15 +319,30 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/37297ef7839800afd543de5d1a363561.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e8a75e0e143a5857ac3931d56ccde86c.jpg",
         "slots": ["Astromech"],
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "ffg": 479
       }
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8 }
+      "values": {
+        "0": 2,
+        "1": 3,
+        "2": 4,
+        "3": 5,
+        "4": 6,
+        "5": 7,
+        "6": 8
+      }
     },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -279,15 +357,30 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/010399f4054469aed3b04acba08d41b0.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a2e3aaf77e8690a37e76ef4ae2087180.jpg",
         "slots": ["Astromech"],
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "ffg": 480
       }
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6 }
+      "values": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      }
     },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -305,8 +398,14 @@
         "ffg": 481
       }
     ],
-    "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "cost": {
+      "value": 7
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -322,7 +421,11 @@
         "slots": ["Astromech"]
       }
     ],
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [
+      {
+        "factions": ["Galactic Republic"]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -335,12 +438,44 @@
         "type": "Astromech",
         "ability": "Before you execute a basic maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.",
         "slots": ["Astromech"],
-        "charges": { "value": 2, "recovers": 0 },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f2/b0/f2b08b38-29fa-4be1-b96d-c09a5ac4bc7c/swz32_r4-p_astromech.png"
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/26f6dd68ba6bb37fa5315f45a6237c88.png",
+        "ffg": 546
       }
     ],
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [
+      {
+        "factions": ["Galactic Republic"]
+      }
+    ],
     "hyperspace": false
+  },
+  {
+    "name": "R4-P44",
+    "xws": "r4p44",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "R4-P44",
+        "type": "Astromech",
+        "ability": "",
+        "slots": ["Astromech"],
+        "image": "",
+        "ffg": 551
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": ["Galactic Republic"]
+      }
+    ],
+    "hyperspace": false,
+    "cost": {
+      "value": 5
+    }
   },
   {
     "name": "R4-P17",
@@ -352,11 +487,19 @@
         "type": "Astromech",
         "ability": "After you fully execute a red maneuver, you may spend 1 [Charge] to perform an action, even while stressed.",
         "slots": ["Astromech"],
-        "charges": { "value": 2, "recovers": 0 },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/08/9c089203-13b7-4639-8366-2498c9fe9982/swz32_r4-p17_astromech.png"
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/80c71951bb28b45b9ffdc84c9e7e69f8.png",
+        "ffg": 547
       }
     ],
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [
+      {
+        "factions": ["Galactic Republic"]
+      }
+    ],
     "hyperspace": false
   }
 ]

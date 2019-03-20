@@ -1,82 +1,87 @@
 [
-    {
-        "name" : "Talent",
-        "xws" : "talent",
-        "ffg" : 1
-    },
-    {
-        "name" : "Sensor",
-        "xws" : "sensor",
-        "ffg" : 2
-    },
-    {
-        "name" : "Cannon",
-        "xws" : "cannon",
-        "ffg" : 3
-    },
-    {
-        "name" : "Turret",
-        "xws" : "turret",
-        "ffg" : 4
-    },
-    {
-        "name" : "Torpedo",
-        "xws" : "torpedo",
-        "ffg" : 5
-    },
-    {
-        "name" : "Missile",
-        "xws" : "missile",
-        "ffg" : 6
-    },
-    {
-        "name" : "Crew",
-        "xws" : "crew",
-        "ffg" : 8
-    },
-    {
-        "name" : "Astromech",
-        "xws" : "astromech",
-        "ffg" : 10
-    },
-    {
-        "name" : "Device",
-        "xws" : "device",
-        "ffg" : 12
-    },
-    {
-        "name" : "Illicit",
-        "xws" : "illicit",
-        "ffg" : 13
-    },
-    {
-        "name" : "Modification",
-        "xws" : "modification",
-        "ffg" : 14
-    },
-    {
-        "name" : "Title",
-        "xws" : "title",
-        "ffg" : 15
-    },
-    {
-        "gunner" : "Gunner",
-        "xws" : "gunner",
-        "ffg" : 16
-    },
-    {
-        "name" : "Force Power",
-        "xws" : "force-power",
-        "ffg" : 17
-    },
-    {
-        "name" : "Configuration",
-        "xws" : "configuration",
-        "ffg" : 18
-    },
-    {
-        "name" : "Tech",
-        "xws" : "tech",
-        "ffg" : 19
-    }
+  {
+    "name": "Talent",
+    "xws": "talent",
+    "ffg": 1
+  },
+  {
+    "name": "Sensor",
+    "xws": "sensor",
+    "ffg": 2
+  },
+  {
+    "name": "Cannon",
+    "xws": "cannon",
+    "ffg": 3
+  },
+  {
+    "name": "Turret",
+    "xws": "turret",
+    "ffg": 4
+  },
+  {
+    "name": "Torpedo",
+    "xws": "torpedo",
+    "ffg": 5
+  },
+  {
+    "name": "Missile",
+    "xws": "missile",
+    "ffg": 6
+  },
+  {
+    "name": "Crew",
+    "xws": "crew",
+    "ffg": 8
+  },
+  {
+    "name": "Astromech",
+    "xws": "astromech",
+    "ffg": 10
+  },
+  {
+    "name": "Device",
+    "xws": "device",
+    "ffg": 12
+  },
+  {
+    "name": "Illicit",
+    "xws": "illicit",
+    "ffg": 13
+  },
+  {
+    "name": "Modification",
+    "xws": "modification",
+    "ffg": 14
+  },
+  {
+    "name": "Title",
+    "xws": "title",
+    "ffg": 15
+  },
+  {
+    "gunner": "Gunner",
+    "xws": "gunner",
+    "ffg": 16
+  },
+  {
+    "name": "Force Power",
+    "xws": "force-power",
+    "ffg": 17
+  },
+  {
+    "name": "Configuration",
+    "xws": "configuration",
+    "ffg": 18
+  },
+  {
+    "name": "Tech",
+    "xws": "tech",
+    "ffg": 19
+  },
+  {
+    "name": "Tactical Relay",
+    "xws": "tactical-relay",
+    "ffg": 1000
+  }
 ]

@@ -25,15 +25,37 @@
   ],
   "faction": "Separatist Alliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 4 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    }
   ],
   "pilots": [
     {
@@ -42,7 +64,11 @@
       "initiative": 5,
       "limited": 1,
       "xws": "darthmaul",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": ["dark"]
+      },
       "ability": "After you perform an attack, you may spend 2 [Force] to perform a bonus primary attack against a different target. If your attack missed, you may perform that bonus primary attack against the same target instead.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/95428161db7de4adcea6fa8bcbf9de2f.png",
       "hyperspace": true,
@@ -67,8 +93,12 @@
       "initiative": 3,
       "limited": 1,
       "xws": "darthtyranus",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
-      "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Force] to remove 1 of your blue or red tokens.After you perform an attack that hits, you may spend 1 [Force] to perform an action.",
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": ["dark"]
+      },
+      "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Force] to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 [Force] to perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/88959087710ec5a80a16dd93573f149d.png",
       "hyperspace": true,
       "cost": 61,
@@ -96,9 +126,18 @@
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/c4/a7/c4a7f563-fae2-4dd2-a0bb-fa0fd697d2a5/swz30_0-66.png",
       "hyperspace": false,
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Barrel Roll" }
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Barrel Roll"
+        }
       ]
     },
     {

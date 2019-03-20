@@ -14,8 +14,16 @@
         "ffg": 381
       }
     ],
-    "cost": { "value": 1 },
-    "restrictions": [{ "action": { "type": "Focus" } }],
+    "cost": {
+      "value": 1
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Focus"
+        }
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -37,7 +45,9 @@
         "ffg": 230
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 1
+    },
     "hyperspace": true
   },
   {
@@ -59,8 +69,15 @@
       "value": 3
     },
     "restrictions": [
-      { "sizes": ["Small"] },
-      { "action": { "type": "Boost", "difficulty": "White" } }
+      {
+        "sizes": ["Small"]
+      },
+      {
+        "action": {
+          "type": "Boost",
+          "difficulty": "White"
+        }
+      }
     ],
     "hyperspace": true
   },
@@ -95,8 +112,14 @@
         "ffg": 232
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "sizes": ["Small", "Medium"]
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -118,8 +141,14 @@
         "ffg": 233
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "sizes": ["Small", "Medium"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -162,7 +191,12 @@
       }
     },
     "restrictions": [
-      { "action": { "type": "Barrel Roll", "difficulty": "Red" } }
+      {
+        "action": {
+          "type": "Barrel Roll",
+          "difficulty": "Red"
+        }
+      }
     ],
     "hyperspace": true
   },
@@ -175,14 +209,20 @@
         "title": "Fanatical",
         "type": "Talent",
         "ability": "While you perform a primary attack, if you are not shielded, you may change 1 [Focus] result to a [Hit] result.",
-        "image" : "https://sb-cdn.fantasyflightgames.com/card_images/en/8b164bdb2b401b6741519f6c6e067550.png",
-        "artwork" : "https://sb-cdn.fantasyflightgames.com/card_art/0a7cac152b045daf71fa5d28504e54b4.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8b164bdb2b401b6741519f6c6e067550.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0a7cac152b045daf71fa5d28504e54b4.jpg",
         "slots": ["Talent"],
         "ffg": 459
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["First Order"] }],
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "factions": ["First Order"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -200,8 +240,14 @@
         "ffg": 235
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "factions": ["Scum and Villainy"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -219,8 +265,14 @@
         "ffg": 471
       }
     ],
-    "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "cost": {
+      "value": 1
+    },
+    "restrictions": [
+      {
+        "factions": ["Resistance"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -238,7 +290,9 @@
         "ffg": 236
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "hyperspace": true
   },
   {
@@ -262,8 +316,14 @@
         "ffg": 237
       }
     ],
-    "cost": { "value": 5 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "cost": {
+      "value": 5
+    },
+    "restrictions": [
+      {
+        "sizes": ["Small", "Medium"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -285,7 +345,9 @@
         "ffg": 238
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 5
+    },
     "hyperspace": true
   },
   {
@@ -303,7 +365,9 @@
         "ffg": 239
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 1
+    },
     "hyperspace": true
   },
   {
@@ -321,7 +385,9 @@
         "ffg": 240
       }
     ],
-    "cost": { "value": 6 },
+    "cost": {
+      "value": 6
+    },
     "hyperspace": true
   },
   {
@@ -339,7 +405,9 @@
         "ffg": 241
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "hyperspace": true
   },
   {
@@ -357,8 +425,14 @@
         "ffg": 242
       }
     ],
-    "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "cost": {
+      "value": 1
+    },
+    "restrictions": [
+      {
+        "factions": ["Galactic Empire"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -376,8 +450,16 @@
         "ffg": 243
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "action": { "type": "Reload" } }],
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Reload"
+        }
+      }
+    ],
     "hyperspace": false
   },
   {
@@ -395,8 +477,14 @@
         "ffg": 244
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "factions": ["Rebel Alliance"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -432,7 +520,15 @@
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 2, "1": 4, "2": 6, "3": 8, "4": 10, "5": 12, "6": 14 }
+      "values": {
+        "0": 2,
+        "1": 4,
+        "2": 6,
+        "3": 8,
+        "4": 10,
+        "5": 12,
+        "6": 14
+      }
     },
     "hyperspace": true
   },
@@ -451,7 +547,9 @@
         "ffg": 246
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "hyperspace": true
   },
   {
@@ -469,7 +567,9 @@
         "ffg": 247
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "hyperspace": true
   },
   {
@@ -482,12 +582,20 @@
         "type": "Talent",
         "ability": "While you defend, you may choose a ship obstructing the attack and spend 1 [Charge]. If you do, cancel 1 [Hit] or [Critical Hit] result, and the ship you chose gains 1 strain token. After a ship at range 0-3 is destroyed, recover 1 [Charge].",
         "slots": ["Talent"],
-        "charges": { "value": 1, "recovers": 0 },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/78/90/78904e32-b5ad-4fd5-989e-6040595b37b9/swz29_a2_treacherous.png"
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a10d907fea50e32ab28d924c67486d37.png",
+        "ffg": 529
       }
     ],
     "hyperspace": false,
-    "restrictions": [{ "factions": ["Separatist Alliance"] }]
+    "restrictions": [
+      {
+        "factions": ["Separatist Alliance"]
+      }
+    ]
   },
   {
     "name": "Dedicated",
@@ -497,15 +605,20 @@
       {
         "title": "Dedicated",
         "type": "Talent",
-        "ability": "While another friendly ship in your [Left Arc] or [Right Arc] at range 0-2 defends, if it is limited or has the Dedicated upgrade and you are not strained, you may gain 1 strain token. If you do, the defender rerolls 1 of their blank results.",
+        "ability": "While another friendly ship in your  or  at range 0-2 defends, if it is limited or has the Dedicated upgrade and you are not strained, you may gain 1 strain token. If you do, the defender rerolls 1 of their blank results.",
         "slots": ["Talent"],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/78/94/78942a7d-d303-41fc-9880-6d3d0062dccd/swz32_dedicated.png"
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/31c6723d7e5670c257acfa8788160437.png",
+        "ffg": 544
       }
     ],
     "hyperspace": false,
     "restrictions": [
-      { "factions": ["Galactic Republic"] },
-      { "non-limited": true }
+      {
+        "factions": ["Galactic Republic"]
+      },
+      {
+        "non-limited": true
+      }
     ]
   }
 ]

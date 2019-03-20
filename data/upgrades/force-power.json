@@ -14,7 +14,9 @@
         "ffg": 248
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "hyperspace": true
   },
   {
@@ -32,7 +34,9 @@
         "ffg": 249
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "hyperspace": true
   },
   {
@@ -50,7 +54,9 @@
         "ffg": 250
       }
     ],
-    "cost": { "value": 6 },
+    "cost": {
+      "value": 6
+    },
     "hyperspace": true
   },
   {
@@ -70,9 +76,21 @@
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 4, "1": 4, "2": 4, "3": 8, "4": 16, "5": 24, "6": 32 }
+      "values": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 8,
+        "4": 16,
+        "5": 24,
+        "6": 32
+      }
     },
-    "restrictions": [{ "sizes": ["Small"] }],
+    "restrictions": [
+      {
+        "sizes": ["Small"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -85,7 +103,8 @@
         "type": "Force Power",
         "ability": "While you defend, if you are not in the attacker's [Bullseye Arc], you may spend 1 [Force] to change 2 of your [Focus] results to [Evade] results.",
         "slots": ["Force Power"],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/d0/a4/d0a49094-b246-4345-9f65-846b070e9fc6/swz34_brilliant-evasion.png"
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/24b175ad35d035f33a35056b0d1d7a36.png",
+        "ffg": 536
       }
     ],
     "hyperspace": false
@@ -105,8 +124,14 @@
         "ffg": 489
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "force_side": ["dark"] }],
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "force_side": ["dark"]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -124,7 +149,9 @@
         "ffg": 490
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 4
+    },
     "hyperspace": true
   },
   {
@@ -135,19 +162,27 @@
       {
         "title": "Battle Meditation",
         "type": "Force Power",
-        "ability": "You cannot coordinate limited ships. While you perform a purple [Coordinate] action, you may coordinate 1 additional friendly non-limited ship of the same type. Both ships must perform the same action",
+        "ability": "You cannot coordinate limited ships. While you perform a purple [Coordinate] action, you may coordinate 1 additional friendly non-limited ship of the same type. Both ships must perform the same action.",
         "slots": ["Force Power"],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/e3/0b/e30ba082-91c7-408b-9738-d631079911c7/swz32_battle-meditation.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d0641df31a0fc40c501055dcd34094f6.png",
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Coordinate", "difficulty": "Purple" },
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "Purple"
+            },
             "amount": 1
           }
-        ]
+        ],
+        "ffg": 545
       }
     ],
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [
+      {
+        "factions": ["Galactic Republic"]
+      }
+    ],
     "hyperspace": false
   }
 ]
