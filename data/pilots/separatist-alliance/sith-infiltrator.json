@@ -44,8 +44,22 @@
       "xws": "darthmaul",
       "force": { "value": 3, "recovers": 1, "side": ["dark"] },
       "ability": "After you perform an attack, you may spend 2 [Force] to perform a bonus primary attack against a different target. If your attack missed, you may perform that bonus primary attack against the same target instead.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/35/d8/35d8295c-1018-4ed7-94a0-c0bff4e6fbbc/swz30_darth-maul.png",
-      "hyperspace": false
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/95428161db7de4adcea6fa8bcbf9de2f.png",
+      "hyperspace": true,
+      "cost": 65,
+      "slots": [
+        "Cannon",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Device",
+        "Modification",
+        "Title",
+        "Force Power",
+        "Tactical Relay"
+      ],
+      "ffg": 503,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/04b1c1fea3735eb844455dd3278346d0.jpg"
     },
     {
       "name": "Count Dooku",
@@ -53,47 +67,70 @@
       "initiative": 3,
       "limited": 1,
       "xws": "darthtyranus",
-      "force": {
-        "value": 3,
-        "recovers": 1,
-        "side": ["dark"]
-      },
-      "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Force Charge] to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 [Force Charge] to perform an action.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/3d/83/3d83b84f-e7d4-46b3-83ae-4d49245ae50d/swz30_count-dooku.png",
-      "hyperspace": false
-    },
-    {
-      "name": "O-66",
-      "caption": "Sinister Automaton",
-      "initiative": 3,
-      "limited": 1,
-      "xws": "o66",
-      "ability": "After you defend, you may spend 1 calculate token to perform an action.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/c4/a7/c4a7f563-fae2-4dd2-a0bb-fa0fd697d2a5/swz30_0-66.png",
-      "hyperspace": false,
-      "shipActions": [
-        {
-          "difficulty": "White",
-          "type": "Calculate"
-        },
-        {
-          "difficulty": "White",
-          "type": "Lock"
-        },
-        {
-          "difficulty": "Red",
-          "type": "Barrel Roll"
-        }
-      ]
+      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Force] to remove 1 of your blue or red tokens.After you perform an attack that hits, you may spend 1 [Force] to perform an action.",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/88959087710ec5a80a16dd93573f149d.png",
+      "hyperspace": true,
+      "cost": 61,
+      "slots": [
+        "Cannon",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Device",
+        "Modification",
+        "Title",
+        "Force Power",
+        "Tactical Relay"
+      ],
+      "ffg": 504,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/65eabe68c7d1ae072442d8c8808414db.jpg"
     },
     {
       "name": "Dark Courier",
       "initiative": 2,
       "limited": 0,
       "xws": "darkcourier",
-      "text": "The vessel called the Scimitar was heavily modified, equipped with stealth technologies and advanved surveillance devices for infiltration and assassination missions.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/e2/02/e20245ab-47e9-41f9-abdf-62f571246faf/swz30_dark-courier.png",
-      "hyperspace": false
+      "text": "The vessel called the Scimitar was heavily modified, equipped with stealth technologies and advanced surveillance devices for infiltration and assassination missions.",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/132f1957b904c890b94bf3aaf2a944ce.png",
+      "hyperspace": true,
+      "cost": 53,
+      "slots": [
+        "Cannon",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Device",
+        "Modification",
+        "Title",
+        "Tactical Relay"
+      ],
+      "ffg": 506,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/8b9c158df033daab2ea6acecd29c5c0d.jpg"
+    },
+    {
+      "name": "0-66",
+      "xws": "066",
+      "cost": 55,
+      "slots": [
+        "Cannon",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Device",
+        "Modification",
+        "Title",
+        "Tactical Relay"
+      ],
+      "ffg": 505,
+      "caption": "Sinister Automaton",
+      "initiative": 3,
+      "limited": 1,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/c0a65aa29f085d517d907bc7799e4146.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9edd9bb6846e77723d8f0381bb7909aa.png",
+      "ability": "After you defend, you may spend 1 calculate token to perform an action.",
+      "hyperspace": true
     }
-  ]
+  ],
+  "ffg": 60
 }

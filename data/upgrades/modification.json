@@ -278,19 +278,12 @@
         "title": "Spare Parts Canisters",
         "type": "Modification",
         "ability": "Action: Spend 1 [Charge] to recover 1 charge on one of your equipped [Astromech] upgrades. Action: Spend 1 [Charge] to drop 1 spare parts, then break all locks assigned to you.",
-        "charges": {
-          "value": 2,
-          "recovers": 0
-        },
+        "charges": { "value": 2, "recovers": 0 },
         "slots": ["Modification"],
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/1a/271ad22f-1482-4314-97b1-35e64691a0fb/swz_spare-part-canisters.png"
       }
     ],
-    "restrictions": [
-      {
-        "equipped": ["Astromech"]
-      }
-    ],
+    "restrictions": [{ "equipped": ["Astromech"] }],
     "hyperspace": false
   }
 ]
