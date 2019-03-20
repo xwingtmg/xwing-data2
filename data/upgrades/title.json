@@ -49,7 +49,6 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Resistance"] }, { "ships": ["t70xwing"] }],
-    "image": "https://images-cdn.fantasyflightgames.com/filer_public/e2/e4/e2e492b1-66d9-4dcc-9af6-a1a4e07a7378/swz25_black-one_a1.png",
     "hyperspace": true
   },
   {
@@ -495,6 +494,46 @@
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
       { "ships": ["belbullab22starfighter"] }
-    ]
+    ],
+    "hyperspace": false
+  },
+  {
+    "name": "Scimitar",
+    "limited": 1,
+    "xws": "scimitar",
+    "sides": [
+      {
+        "title": "Scimitar",
+        "type": "Title",
+        "ability": "Setup: After the Place Forces step, you may cloak. After you decloak, you may choose an enemy ship in your [Bullseye Arc]. If you do, it gains 1 jam token.",
+        "slots": ["Title"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Cloak",
+              "difficulty": "Red"
+            }
+          },
+          {
+            "type": "action",
+            "value": {
+              "type": "Jam",
+              "difficulty": "White"
+            }
+          }
+        ],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f3/18/f318bb11-2334-4b13-aee2-3930ed267cf0/swz29_a2_soulless-one.png"
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": ["Separatist Alliance"]
+      },
+      {
+        "ships": ["sithinfiltrator"]
+      }
+    ],
+    "hyperspace": false
   }
 ]

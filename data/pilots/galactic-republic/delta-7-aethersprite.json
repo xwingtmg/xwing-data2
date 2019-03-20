@@ -48,6 +48,7 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/b0/b3/b0b3f463-a3ea-4fe6-be69-41afed1b4110/swz32_jedi-knight.png",
+      "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "hyperspace": false
     },
     {
@@ -62,6 +63,7 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/f9/24/f9246e39-4852-4a8f-a331-9b78f62439e9/swz32_obi-wan-kenobi.png",
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "hyperspace": false
     },
     {
@@ -76,6 +78,7 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/6a/6f/6a6fef51-fb5f-49c1-b5cc-8e96b6d09051/swz32_plo-koon.png",
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "hyperspace": false
     },
     {
@@ -90,12 +93,13 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/77/73/777350cb-614b-48fd-ad8d-d9c867053c6b/swz32_saesee-tiin.png",
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "hyperspace": false
     },
     {
       "name": "Mace Windu",
       "caption": "Harsh Traditionalist",
-      "initiative": 5,
+      "initiative": 4,
       "limited": 1,
       "xws": "macewindu",
       "ability": "After you fully execute a red maneuver, recover 1 [Force].",
@@ -103,19 +107,81 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/89/28/8928ae70-8883-4c39-9b15-a4754c063b88/swz32_mace-windu.png",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/de/33/de3326f7-521c-4f50-8599-483db5f32d6d/swz32_mace-windu.png",
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "hyperspace": false
     },
     {
       "name": "Anakin Skywalker",
+      "caption": "Hero of the Republic",
       "initiative": 6,
       "limited": 1,
       "xws": "anakinskywalker",
+      "ability": "After you fully execute a maneuver, if there is an enemy ship in your [Front Arc] at range 0-1 or in your [Bullseye Arc], you may spend 1 [Force] to remove 1 stress token.",
       "shipAbility": {
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "hyperspace": false
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
+      "hyperspace": false,
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/55/47/55475084-9b10-48e3-a082-cc88d2a1fdb1/swz34_anakin.png"
+    },
+    {
+      "name": "Ahsoka Tano",
+      "caption": "\"Snips\"",
+      "initiative": 3,
+      "limited": 1,
+      "xws": "ahsokatano",
+      "ability": "After you fully execute a maneuver, you may choose a friendly ship at range 0-1 and spend 1 [Force]. That ship may perform an action, even if it is stressed.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": ["light"]
+      },
+      "hyperspace": false,
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/dd/9c/dd9c47ac-265b-4f9e-b7b5-fe10a1235dea/swz34_ahsoka.png"
+    },
+    {
+      "name": "Barriss Offee",
+      "caption": "Conflicted Padawan",
+      "initiative": 4,
+      "limited": 1,
+      "xws": "barissoffee",
+      "ability": "While a friendly ship at range 0-2 performs an attack, if the defender is in its [Bullseye Arc], you may spend 1 [Force] to change 1 [Focus] result to a [Hit] result or 1 [Hit] result to a [Crit] result.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
+      "force": {
+        "value": 1,
+        "recovers": 1,
+        "side": ["light"]
+      },
+      "hyperspace": false,
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/de/22/de22926b-ee29-480e-9155-b6f46a7bf2c4/swz34_barriss.png"
+    },
+    {
+      "name": "Luminara Unduli",
+      "caption": "Wise Protector",
+      "initiative": 4,
+      "limited": 1,
+      "xws": "luminaraunduli",
+      "ability": "While a friendly ship at range 0-2 defends, if it is not in the attacker's [Bullseye Arc], you may spend 1 [Force]. If you do, change 1 [Crit] result to a [Hit] result or 1 [Hit] result to a [Focus] result.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": ["light"]
+      },
+      "hyperspace": false,
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/eb/61/eb614779-2ce5-412f-8575-2a3e145bb851/swz34_luminara.png"
     }
   ]
 }

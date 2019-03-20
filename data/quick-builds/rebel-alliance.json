@@ -204,7 +204,7 @@
         {
           "id": "esegetuketu",
           "upgrades": {
-            "system": ["trajectorysimulator"],
+            "sensor": ["trajectorysimulator"],
             "missile": ["ionmissiles"],
             "device": ["protonbombs", "connernets"],
             "modification": ["advancedslam"],
@@ -380,7 +380,7 @@
           "upgrades": {
             "talent": ["outmaneuver"],
             "torpedo": ["protontorpedoes"],
-            "system": ["firecontrolsystem"],
+            "sensor": ["firecontrolsystem"],
             "modification": ["afterburners"],
             "astromech": ["r2astromech"]
           }
@@ -395,7 +395,7 @@
           "upgrades": {
             "talent": ["predator"],
             "torpedo": ["protontorpedoes"],
-            "system": ["collisiondetector"],
+            "sensor": ["collisiondetector"],
             "astromech": ["r3astromech"]
           }
         }
@@ -409,7 +409,7 @@
           "upgrades": {
             "talent": ["crackshot"],
             "torpedo": ["iontorpedoes"],
-            "system": ["firecontrolsystem"],
+            "sensor": ["firecontrolsystem"],
             "astromech": ["r4astromech"]
           }
         }
@@ -612,7 +612,7 @@
         {
           "id": "cassianandor",
           "upgrades": {
-            "system": ["firecontrolsystem"],
+            "sensor": ["firecontrolsystem"],
             "crew": ["jynerso", "bazemalbus"],
             "configuration": ["pivotwing"]
           }
@@ -637,7 +637,7 @@
         {
           "id": "hefftobber",
           "upgrades": {
-            "system": ["firecontrolsystem"],
+            "sensor": ["firecontrolsystem"],
             "crew": ["perceptivecopilot"],
             "gunner": ["bistan"],
             "turret": ["ioncannonturret"],
@@ -652,7 +652,7 @@
         {
           "id": "bluesquadronscout",
           "upgrades": {
-            "system": ["advancedsensors"],
+            "sensor": ["advancedsensors"],
             "crew": ["tacticalofficer"],
             "configuration": ["pivotwing"]
           }
@@ -794,7 +794,7 @@
         {
           "id": "dashrendar",
           "upgrades": {
-            "talent": ["experthandling","trickshot"],
+            "talent": ["experthandling", "trickshot"],
             "illicit": ["riggedcargochute"],
             "crew": ["perceptivecopilot"],
             "title": ["outrider"]
@@ -834,7 +834,7 @@
           "id": "magvayarro",
           "upgrades": {
             "talent": ["elusive"],
-            "system": ["advancedsensors"],
+            "sensor": ["advancedsensors"],
             "crew": ["sawgerrera"],
             "modification": ["shieldupgrade"],
             "configuration": ["pivotwing"]
@@ -860,7 +860,7 @@
         {
           "id": "benthictwotubes",
           "upgrades": {
-            "system": ["advancedsensors"],
+            "sensor": ["advancedsensors"],
             "configuration": ["pivotwing"]
           }
         }
@@ -872,7 +872,7 @@
         {
           "id": "partisanrenegade",
           "upgrades": {
-            "system": ["advancedsensors"],
+            "sensor": ["advancedsensors"],
             "illicit": ["deadmansswitch"],
             "configuration": ["pivotwing"]
           }
@@ -942,7 +942,7 @@
         {
           "id": "kananjarrus",
           "upgrades": {
-            "crew": ["chopper-crew","herasyndulla"],
+            "crew": ["chopper-crew", "herasyndulla"],
             "gunner": ["ezrabridger"],
             "turret": ["ioncannonturret"],
             "title": ["ghost"]

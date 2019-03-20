@@ -293,5 +293,69 @@
     "cost": { "value": 7 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "hyperspace": true
+  },
+  {
+    "name": "R2-C4",
+    "limited": 1,
+    "xws": "r2c4",
+    "sides": [
+      {
+        "title": "R2-C4",
+        "type": "Astromech",
+        "ability": "While you perform an attack, you may spend 1 evade token to change 1 [Focus] result to a [Hit] result.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/02/e5/02e515c7-6edd-4dcf-a2af-20d9f968bed5/swz40_r2-c4.png",
+        "slots": ["Astromech"]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": ["Galactic Republic"]
+      }
+    ],
+    "hyperspace": false
+  },
+  {
+    "name": "R4-P Astromech",
+    "xws": "r4pastromech",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "R4-P Astromech",
+        "type": "Astromech",
+        "ability": "Before you execute a basic maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.",
+        "slots": ["Astromech"],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f2/b0/f2b08b38-29fa-4be1-b96d-c09a5ac4bc7c/swz32_r4-p_astromech.png"
+      }
+    ],
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "hyperspace": false
+  },
+  {
+    "name": "R4-P17",
+    "xws": "r4p17",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "R4-P17",
+        "type": "Astromech",
+        "ability": "After you fully execute a red maneuver, you may spend 1 [Charge] to perform an action, even while stressed.",
+        "slots": ["Astromech"],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/08/9c089203-13b7-4639-8366-2498c9fe9982/swz32_r4-p17_astromech.png"
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": ["Galactic Republic"]
+      }
+    ],
+    "hyperspace": false
   }
 ]

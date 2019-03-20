@@ -2,23 +2,24 @@
   "properties": {
     "name": { "type": "string" },
     "caption": { "type": "string" },
-    "initiative": { "type": "number", "minimum": 0, "maximum": 6 },
-    "limited": { "type": "number", "minimum": 0 },
-    "cost": { "type": "number", "minimum": 0 },
+    "initiative": { "type": "integer", "minimum": 0, "maximum": 6 },
+    "limited": { "type": "integer", "minimum": 0 },
+    "cost": { "type": "integer", "minimum": 0 },
     "xws": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "ability": { "type": "string" },
     "text": { "type": "string" },
     "conditions": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
       }
     },
     "force": {
       "type": "object",
       "properties": {
-        "value": { "type": "number", "minimum": 0 },
-        "recovers": { "type": "number", "minimum": 0, "maximum": 1 },
+        "value": { "type": "integer", "minimum": 0 },
+        "recovers": { "type": "integer", "minimum": 0, "maximum": 1 },
         "side": {
           "type": "array",
           "items": {
@@ -33,8 +34,8 @@
     "charges": {
       "type": "object",
       "properties": {
-        "value": { "type": "number", "minimum": 0 },
-        "recovers": { "type": "number", "minimum": 0, "maximum": 1 }
+        "value": { "type": "integer", "minimum": 0 },
+        "recovers": { "type": "integer", "minimum": 0, "maximum": 1 }
       },
       "required": ["value", "recovers"],
       "additionalProperties": false
@@ -66,7 +67,7 @@
     },
     "image": { "type": "string" },
     "artwork": { "type": "string" },
-    "ffg": { "type": "number" },
+    "ffg": { "type": "integer" },
     "hyperspace": { "type": "boolean" },
     "alt": {
       "type": "array",

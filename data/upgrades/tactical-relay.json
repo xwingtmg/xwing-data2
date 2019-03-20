@@ -12,7 +12,10 @@
         "slots": ["Tactical Relay"]
       }
     ],
-    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "restrictions": [
+      { "factions": ["Separatist Alliance"] },
+      { "solitary": true }
+    ],
     "hyperspace": false
   },
   {
@@ -31,6 +34,29 @@
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
       { "solitary": true }
+    ],
+    "hyperspace": false
+  },
+  {
+    "name": "K2-B4",
+    "xws": "k2b4",
+    "limited": 1,
+    "sides": [
+      {
+        "title": "K2-B4",
+        "type": "Tactical Relay",
+        "ability": "While a friendly ship at range 0-3 defends, it may spend 1 calculate token. If it does, add 1 [Evade] result unless the attacker chooses to gain 1 strain token.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/73/a0/73a0a06c-5036-4fbe-8177-b9c3c3fd200e/swz30_k2-b4.png",
+        "slots": ["Tactical Relay"]
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": ["Separatist Alliance"]
+      },
+      {
+        "solitary": true
+      }
     ],
     "hyperspace": false
   }

@@ -46,6 +46,8 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
+      "text": "The Trade Federation deployed countless Vulture Droids at the Battle of Naboo, and continues to use these inexpensive starfighters in the Clone Wars.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/f0/05/f005d66c-754c-4bff-8ca2-45ea67e2d074/swz31_trade-federation-drone.png",
       "hyperspace": false
     },
     {
@@ -88,6 +90,33 @@
       },
       "ability": "While a friendly ship at range 0-1 defends, it may spend 1 calculate token to change all [Critical Hit] results to [Hit] results.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/b4/04/b4044057-fae9-4638-b758-14339c1ce98a/swz29_dfs-081.png",
+      "hyperspace": false
+    },
+    {
+      "name": "Separatist Drone",
+      "initiative": 3,
+      "limited": 0,
+      "xws": "separatistdrone",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "text": "As the Clone Wars escalate, the Separatist Alliance continues to develop the technology of droid starfighters, as well as the tactical droids that command them.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/89/cb/89cb527c-4578-410c-9e5b-4ac78815a679/swz31_separatist-drone.png",
+      "hyperspace": false
+    },
+    {
+      "name": "DFS-311",
+      "xws": "dfs311",
+      "initiative": 1,
+      "limited": 1,
+      "caption": "Scouting Drone",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "ability": "At the start of the Engagement Phase, you may transfer 1 of your calculate tokens to another friendly ship at range 0-3.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/07/b9/07b9dde5-0302-4c31-b54e-92ef136400b1/swz31_dfs-311.png",
       "hyperspace": false
     }
   ]
