@@ -1,71 +1,71 @@
 {
-    "name": "Naboo Royal N-1 Starfighter",
-    "xws": "nabooroyaln1starfighter",
-    "size": "Small",
-    "dial": [
-        "1BW",
-        "1FW",
-        "1NW",
-        "2TW",
-        "2BB",
-        "2FB",
-        "2NB",
-        "2YW",
-        "3ER",
-        "3TW",
-        "3BB",
-        "3FB",
-        "3NB",
-        "3YW",
-        "3RR",
-        "4FW",
-        "5FW"
-    ],
-    "faction": "Galactic Republic",
-    "stats": [
-        {
-            "arc": "Front Arc",
-            "type": "attack",
-            "value": 2
-        },
-        {
-            "type": "agility",
-            "value": 2
-        },
-        {
-            "type": "hull",
-            "value": 3
-        },
-        {
-            "type": "shields",
-            "value": 2
-        }
-    ],
-    "actions": [
-        {
-            "difficulty": "White",
-            "type": "Focus"
-        },
-        {
-            "difficulty": "White",
-            "type": "Lock"
-        },
-        {
-            "difficulty": "White",
-            "type": "Barrel Roll"
-        },
-        {
-            "difficulty": "White",
-            "type": "Boost"
-        }
-    ],
-    "pilots": [
-        {
-            "name": "Anakin Skywalker",
-            "initiative": 4,
-            "limited": 1,
-            "xws": "anakinskywalker-nabooroyaln1starfighter",
-            "hyperspace": false
-        }
-    ]
+  "name": "Naboo Royal N-1 Starfighter",
+  "xws": "nabooroyaln1starfighter",
+  "size": "Small",
+  "dial": [
+    "1BW",
+    "1FW",
+    "1NW",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3ER",
+    "3TW",
+    "3BB",
+    "3FB",
+    "3NB",
+    "3YW",
+    "3RR",
+    "4FW",
+    "5FW"
+  ],
+  "faction": "Galactic Republic",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
+  ],
+  "pilots": [
+    {
+      "name": "Anakin Skywalker",
+      "initiative": 4,
+      "limited": 1,
+      "xws": "anakinskywalker-nabooroyaln1starfighter",
+      "hyperspace": false
+    }
+  ]
 }

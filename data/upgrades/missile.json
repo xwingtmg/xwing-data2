@@ -181,5 +181,45 @@
       { "factions": ["Separatist Alliance"] }
     ],
     "hyperspace": false
+  },
+  {
+    "name": "Discord Missiles",
+    "limited": 3,
+    "xws": "discordmissiles",
+    "sides": [
+      {
+        "title": "Discord Missiles",
+        "type": "Missile",
+        "ability": "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using he [3 [Bank Left]], [3 [Straight]], or [3 [Bank Right]] template. This card's [Charge] cannot be recovered.",
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/19/f6/19f6742a-dd6c-4e93-9db6-c2ffc6c939b7/swz31_discord-missiles.png",
+        "slots": ["Missile"],
+        "device": {
+          "name": "Buzz Droid Swarm",
+          "type": "Remote",
+          "effect": "After an enemy ship moves through or overlaps you, relocate to its front or rear guides (you are at range 0 of this ship). You cannot overlap an object this way. If you cannot be placed at either set of guides, you and that ship each suffer 1 [Hit] damage. Engagement Phase: At your initiative, each enemy ship at range 0 suffers 1 [Critical Hit] damage.",
+          "initiative": 0,
+          "stats": [
+            {
+              "type": "agility",
+              "value": 3
+            },
+            {
+              "type": "hull",
+              "value": 1
+            }
+          ]
+        }
+      }
+    ],
+    "restrictions": [
+      {
+        "factions": ["Separatist Alliance"]
+      }
+    ],
+    "hyperspace": false
   }
 ]
