@@ -226,24 +226,18 @@
         "title": "Landing Struts (Closed)",
         "type": "Configuration",
         "ability": "Setup: Equip this side faceup. While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.",
-        "slots": [
-          "Configuration"
-        ]
+        "slots": ["Configuration"]
       },
       {
         "title": "Landing Struts (Open)",
         "type": "Configuration",
         "ability": "You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.",
-        "slots": [
-          "Configuration"
-        ]
+        "slots": ["Configuration"]
       }
     ],
     "restrictions": [
       {
-        "ships": [
-          "hyenaclassdroidbomber"
-        ]
+        "ships": ["hyenaclassdroidbomber"]
       }
     ],
     "hyperspace": false

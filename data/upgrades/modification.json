@@ -249,5 +249,48 @@
     ],
     "restrictions": [{ "ships": ["belbullab22starfighter"] }],
     "hyperspace": false
+  },
+  {
+    "name": "Synchronized Console",
+    "xws": "synchronizedconsole",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Synchronized Console",
+        "type": "Modification",
+        "ability": "After you perform an attack, you may choose a friendly ship at range 1 or a friendly ship with a Synchronized Console upgrade at range 1-3 and spend a lock you have on the defender. If you do, the friendly ship you chose may acquire a lock on the defender.",
+        "slots": ["Talent"],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/dd/5a/dd5adbe7-cb13-4d42-8a81-211cd265c210/swz32_synchronized-console.png"
+      }
+    ],
+    "restrictions": [
+      { "factions": ["Galactic Republic"] },
+      { "action": { "type": "Lock", "difficulty": "White" } }
+    ],
+    "hyperspace": false
+  },
+  {
+    "name": "Spare Parts Canisters",
+    "limited": 0,
+    "xws": "sparepartscanisters",
+    "sides": [
+      {
+        "title": "Spare Parts Canisters",
+        "type": "Modification",
+        "ability": "Action: Spend 1 [Charge] to recover 1 charge on one of your equipped [Astromech] upgrades. Action: Spend 1 [Charge] to drop 1 spare parts, then break all locks assigned to you.",
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "slots": ["Modification"],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/1a/271ad22f-1482-4314-97b1-35e64691a0fb/swz_spare-part-canisters.png"
+      }
+    ],
+    "restrictions": [
+      {
+        "equipped": ["Astromech"]
+      }
+    ],
+    "hyperspace": false
   }
 ]
