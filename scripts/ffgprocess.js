@@ -184,6 +184,7 @@ function processCard(card) {
             }
         );
         if (!ref) {
+            console.log("** Could not find existing data for", card);
             return false;
         }
     }
