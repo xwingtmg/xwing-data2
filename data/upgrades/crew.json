@@ -713,7 +713,8 @@
         "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
         "slots": ["Configuration"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_158b.png",
-        "ffg": 383
+        "ffg": 383,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_158b.jpg"
       }
     ],
     "cost": { "value": 4 },
@@ -1282,7 +1283,7 @@
         "title": "Chancellor Palpatine",
         "type": "Crew",
         "ability": "Setup: Equip this side faceup. After you defend, if the attacker is at range 0-2, you may spend 1 [Force]. If you do, the attacker gains 1 stress token. During the End Phase, you may flip this card.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/85/67/85679b7f-d99c-4d8f-8f5c-abd0ffda7842/swz30_palpatine.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8218d7b903ea8c0c0f88375124a93a5f.png",
         "force": { "value": 1, "recovers": 1 },
         "grants": [
           {
@@ -1292,13 +1293,14 @@
           }
         ],
         "slots": ["Crew"],
-        "ffg": 556
+        "ffg": 556,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d07f69ceb063c382e60ce33377e9bef7.jpg"
       },
       {
         "title": "Darth Sidious",
         "type": "Crew",
         "ability": "After you perfor a purple [Coordinate] action, the ship you coordinated gains 1 stress token. Then, it gains 1 focus token or recovers 1 [Force Charge].",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/53/14/5314a1dc-e52f-4239-ad1e-3f9a3834e604/swz30_sidious.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/fe4d36bbd6f43ada43a5cf55354211c0.png",
         "force": { "value": 1, "recovers": 1 },
         "grants": [
           {
@@ -1308,7 +1310,8 @@
           }
         ],
         "slots": ["Crew"],
-        "ffg": 538
+        "ffg": 538,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e0772c182d95e3abd540950c7689ab34.jpg"
       }
     ],
     "cost": { "value": 14 },
@@ -1326,10 +1329,11 @@
         "title": "Count Dooku",
         "type": "Crew",
         "ability": "Before a ship at range 0-2 rolls attack or defense dice, if all of your [Force Charge] are active, you may spend 1 [Force Charge] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/07/e107d01b-4d22-4648-953d-f58fb359b8da/swz30_upgrade-dooku.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a1920988dd8634d9780c6363e3f36f6e.png",
         "force": { "value": 1, "recovers": 1 },
         "slots": ["Crew"],
-        "ffg": 539
+        "ffg": 539,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a91424eea1db4aeaf24ab49d5a519e27.jpg"
       }
     ],
     "cost": { "value": 9 },
@@ -1345,10 +1349,11 @@
         "title": "General Grievous",
         "type": "Crew",
         "ability": "While you defend, after the Neutralize Results step, if there are 2 or more [Hit]/[Critical Hit] results, you may spend 1 [Charge] to cancel 1 [Hit] or [Critical Hit] result. After a friendly ship is destroyed, recover 1 [Charge].",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/22/fb/22fb6299-f156-475e-b1ba-8d06738f9af0/swz30_general-grievous.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f3740c47b0253ec848c4cfcdde195393.png",
         "charges": { "value": 1, "recovers": 0 },
         "slots": ["Crew"],
-        "ffg": 540
+        "ffg": 540,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3f6a042b2f8acfdcfcd1f05c28419fe3.jpg"
       }
     ],
     "cost": { "value": 3 },

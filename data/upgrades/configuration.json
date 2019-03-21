@@ -23,8 +23,9 @@
             }
           }
         ],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/57/d2/57d2cce4-68aa-43b7-b6ee-a2eabd01c6f7/swz25_s-foils-closed_a1.png",
-        "ffg": 486
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e3b44142faf0f13e541bf674a6c06dbc.png",
+        "ffg": 486,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a8233a67adce770e91e4b6b9025670ed.jpg"
       },
       {
         "title": "Integrated S-foils (Open)",
@@ -171,14 +172,18 @@
         "type": "Configuration",
         "ability": "Setup: Equip this side faceup. While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.",
         "slots": ["Configuration"],
-        "ffg": 555
+        "ffg": 555,
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ca74271f47c42b390ca0ba0b389144a5.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/24c35aeb94ef846dc498e4a59fb9bf73.jpg"
       },
       {
         "title": "Grappling Struts (Open)",
         "type": "Configuration",
         "ability": "You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.",
         "slots": ["Configuration"],
-        "ffg": 535
+        "ffg": 535,
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/be82da17cfd39003fda380bead210eb9.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/55781f0b97bc691866379ff9e1d6d354.jpg"
       }
     ],
     "restrictions": [{ "ships": ["vultureclassdroidfighter"] }],
@@ -199,7 +204,9 @@
           { "type": "stat", "value": "shields", "amount": 2 },
           { "type": "stat", "value": "attack", "arc": "Front Arc", "amount": 1 }
         ],
-        "ffg": 548
+        "ffg": 548,
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/515903e04a0d06a9200860698326896d.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/6530f18639b7efff5a5a659589e5d65c.jpg"
       }
     ],
     "cost": {
@@ -227,8 +234,9 @@
         "type": "Configuration",
         "slots": ["Configuration", "Modification"],
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], add 1 [Focus] result.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/4a/32/4a32d934-9d57-433c-8fb6-ce6c1cb52224/swz34_calibrated-laser-targeting.png",
-        "ffg": 549
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f3e06326ab525e07f9a85363b6d69580.png",
+        "ffg": 549,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ffe9b36272a15f7c5e2ba2fa075d27dd.jpg"
       }
     ],
     "cost": {

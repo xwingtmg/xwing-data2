@@ -147,9 +147,10 @@
         "title": "Fanatical",
         "type": "Talent",
         "ability": "While you perform a primary attack, if you are not shielded, you may change 1 [Focus] result to a [Hit] result.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/6d/44/6d440bea-11dd-4e4c-b7ef-167a4b6d23e2/swz18_a1_fanatical.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8b164bdb2b401b6741519f6c6e067550.png",
         "slots": ["Talent"],
-        "ffg": 459
+        "ffg": 459,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0a7cac152b045daf71fa5d28504e54b4.jpg"
       }
     ],
     "cost": { "value": 2 },
@@ -443,8 +444,9 @@
         "ability": "While you defend, you may choose a ship obstructing the attack and spend 1 [Charge]. If you do, cancel 1 [Hit] or [Critical Hit] result, and the ship you chose gains 1 strain token. After a ship at range 0-3 is destroyed, recover 1 [Charge].",
         "slots": ["Talent"],
         "charges": { "value": 1, "recovers": 0 },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/78/90/78904e32-b5ad-4fd5-989e-6040595b37b9/swz29_a2_treacherous.png",
-        "ffg": 529
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a10d907fea50e32ab28d924c67486d37.png",
+        "ffg": 529,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/406e6007268488c36fc9066fb0a5d70f.jpg"
       }
     ],
     "hyperspace": true,
@@ -461,8 +463,9 @@
         "type": "Talent",
         "ability": "While another friendly ship in your [Left Arc] or [Right Arc] at range 0-2 defends, if it is limited or has the Dedicated upgrade and you are not strained, you may gain 1 strain token. If you do, the defender rerolls 1 of their blank results.",
         "slots": ["Talent"],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/78/94/78942a7d-d303-41fc-9880-6d3d0062dccd/swz32_dedicated.png",
-        "ffg": 544
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/31c6723d7e5670c257acfa8788160437.png",
+        "ffg": 544,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/21b00eaf0d2f447db8fc7b2dc69222ab.jpg"
       }
     ],
     "hyperspace": true,

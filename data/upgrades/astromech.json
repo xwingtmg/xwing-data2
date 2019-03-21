@@ -10,7 +10,8 @@
         "ability": "Action: Spend 1 non-recurring [Charge] from another equipped upgrade to recover 1 shield. Action: Spend 2 shields to recover 1 non-recurring [Charge] on an equipped upgrade.",
         "slots": ["Astromech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_99.png",
-        "ffg": 323
+        "ffg": 323,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_99.jpg"
       }
     ],
     "cost": { "value": 2 },
@@ -321,8 +322,9 @@
         "ability": "Before you execute a basic maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.",
         "slots": ["Astromech"],
         "charges": { "value": 2, "recovers": 0 },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f2/b0/f2b08b38-29fa-4be1-b96d-c09a5ac4bc7c/swz32_r4-p_astromech.png",
-        "ffg": 546
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/26f6dd68ba6bb37fa5315f45a6237c88.png",
+        "ffg": 546,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/081dbeb7591c8dfd1f752729b27bdf2a.jpg"
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
@@ -340,8 +342,9 @@
         "ability": "After you fully execute a red maneuver, you may spend 1 [Charge] to perform an action, even while stressed.",
         "slots": ["Astromech"],
         "charges": { "value": 2, "recovers": 0 },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/08/9c089203-13b7-4639-8366-2498c9fe9982/swz32_r4-p17_astromech.png",
-        "ffg": 547
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/80c71951bb28b45b9ffdc84c9e7e69f8.png",
+        "ffg": 547,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7b3b50078bef620079c43a1689bb005a.jpg"
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
@@ -359,7 +362,8 @@
         "ability": "After you fully execute a red maneuver, if there is an enemy ship in your [Bullseye Arc], gain 1 calculate token",
         "slots": ["Astromech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/749fa54f44bc3327349aa3f8b1742a67.png",
-        "ffg": 551
+        "ffg": 551,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/313d08463a9c2e7c5d9377a39277ef03.jpg"
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
