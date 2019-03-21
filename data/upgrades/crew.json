@@ -1281,7 +1281,7 @@
       {
         "title": "Chancellor Palpatine",
         "type": "Crew",
-        "ability": "Setup: Equip this side faceup. After you defend, if the attacker is at range 0-2, you may spend 1 [Force Charge]. If you do, the attacker gains 1 stress token. During the End Phase, you may flip this card.",
+        "ability": "Setup: Equip this side faceup. After you defend, if the attacker is at range 0-2, you may spend 1 [Force]. If you do, the attacker gains 1 stress token. During the End Phase, you may flip this card.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/85/67/85679b7f-d99c-4d8f-8f5c-abd0ffda7842/swz30_palpatine.png",
         "force": { "value": 1, "recovers": 1 },
         "grants": [
@@ -1291,7 +1291,8 @@
             "amount": 1
           }
         ],
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 556
       },
       {
         "title": "Darth Sidious",
@@ -1306,13 +1307,15 @@
             "amount": 1
           }
         ],
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 538
       }
     ],
+    "cost": { "value": 14 },
     "restrictions": [
       { "factions": ["Galactic Republic", "Separatist Alliance"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Count Dooku",
@@ -1325,11 +1328,13 @@
         "ability": "Before a ship at range 0-2 rolls attack or defense dice, if all of your [Force Charge] are active, you may spend 1 [Force Charge] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/07/e107d01b-4d22-4648-953d-f58fb359b8da/swz30_upgrade-dooku.png",
         "force": { "value": 1, "recovers": 1 },
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 539
       }
     ],
+    "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "General Grievous",
@@ -1339,13 +1344,15 @@
       {
         "title": "General Grievous",
         "type": "Crew",
-        "ability": "While you defend, after the Neutralize Results step, if there are 2 or more [Hit]/[Critial Hit] results, you may spend 1 [Charge] to cancel 1 [Hit] or [Critical Hit] result. After a friendly ship is destroyed, recover 1 [Charge].",
+        "ability": "While you defend, after the Neutralize Results step, if there are 2 or more [Hit]/[Critical Hit] results, you may spend 1 [Charge] to cancel 1 [Hit] or [Critical Hit] result. After a friendly ship is destroyed, recover 1 [Charge].",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/22/fb/22fb6299-f156-475e-b1ba-8d06738f9af0/swz30_general-grievous.png",
         "charges": { "value": 1, "recovers": 0 },
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 540
       }
     ],
+    "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
-    "hyperspace": false
+    "hyperspace": true
   }
 ]

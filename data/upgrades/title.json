@@ -488,14 +488,16 @@
         "ability": "While you defend, if the attacker is outside your firing arc, you may reroll 1 defense die.",
         "slots": ["Title"],
         "grants": [{ "type": "stat", "value": "hull", "amount": 2 }],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f3/18/f318bb11-2334-4b13-aee2-3930ed267cf0/swz29_a2_soulless-one.png"
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f3/18/f318bb11-2334-4b13-aee2-3930ed267cf0/swz29_a2_soulless-one.png",
+        "ffg": 533
       }
     ],
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
       { "ships": ["belbullab22starfighter"] }
     ],
-    "hyperspace": false
+    "hyperspace": true,
+    "cost": { "value": 10 }
   },
   {
     "name": "Scimitar",
@@ -517,13 +519,15 @@
             "value": { "type": "Jam", "difficulty": "White" }
           }
         ],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f3/18/f318bb11-2334-4b13-aee2-3930ed267cf0/swz29_a2_soulless-one.png"
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f3/18/f318bb11-2334-4b13-aee2-3930ed267cf0/swz29_a2_soulless-one.png",
+        "ffg": 542
       }
     ],
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
       { "ships": ["sithinfiltrator"] }
     ],
-    "hyperspace": false
+    "hyperspace": true,
+    "cost": { "value": 4 }
   }
 ]

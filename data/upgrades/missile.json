@@ -173,14 +173,16 @@
           "ordnance": true
         },
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/06/a7/06a78e45-d472-4ca7-8dcb-1e79c795ef0a/swz31_energy-shell-charges.png",
-        "slots": ["Missile"]
+        "slots": ["Missile"],
+        "ffg": 532
       }
     ],
     "restrictions": [
       { "action": { "type": "Calculate", "difficulty": "White" } },
       { "factions": ["Separatist Alliance"] }
     ],
-    "hyperspace": false
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "Discord Missiles",
@@ -203,10 +205,12 @@
             { "type": "agility", "value": 3 },
             { "type": "hull", "value": 1 }
           ]
-        }
+        },
+        "ffg": 543
       }
     ],
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
-    "hyperspace": false
+    "hyperspace": true
   }
 ]

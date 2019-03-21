@@ -367,5 +367,43 @@
     "restrictions": [{ "factions": ["Resistance"] }],
     "cost": { "value": 14 },
     "hyperspace": true
+  },
+  {
+    "name": "Seventh Fleet Gunner",
+    "limited": 0,
+    "xws": "seventhfleetgunner",
+    "sides": [
+      {
+        "title": "Seventh Fleet Gunner",
+        "type": "Gunner",
+        "slots": ["Gunner"],
+        "ability": "While another friendly ship performs a primary attack, if the defender is in your firing arc, you may spend 1 [Charge]. If you do, the attacker rolls 1 additional die, to a maximum of 4. During the System Phase, you may gain 1 disarm token to recover 1 [Charge].",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a532c1de311e8d0a288af8232495a007.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/8461a9f5c79195b802e8b04da922809f.jpg",
+        "ffg": 553
+      }
+    ],
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "cost": { "value": 9 },
+    "hyperspace": true
+  },
+  {
+    "name": "Clone Commander Cody",
+    "limited": 1,
+    "xws": "clonecommandercody",
+    "sides": [
+      {
+        "title": "Clone Commander Cody",
+        "type": "Gunner",
+        "slots": ["Gunner"],
+        "ability": "After you perform an attack that missed, if 1 or more [Hit]/[Critical Hit] results were neutralized, the defender gains 1 strain token.",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1da8e9de468d456f724d0c1f37e90d28.png",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/209d0df0333dc348c74c0e8a760ca741.jpg",
+        "ffg": 552
+      }
+    ],
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "cost": { "value": 3 },
+    "hyperspace": true
   }
 ]

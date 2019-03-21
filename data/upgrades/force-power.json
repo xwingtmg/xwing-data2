@@ -85,10 +85,15 @@
         "type": "Force Power",
         "ability": "While you defend, if you are not in the attacker's [Bullseye Arc], you may spend 1 [Force] to change 2 of your [Focus] results to [Evade] results.",
         "slots": ["Force Power"],
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/d0/a4/d0a49094-b246-4345-9f65-846b070e9fc6/swz34_brilliant-evasion.png"
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/d0/a4/d0a49094-b246-4345-9f65-846b070e9fc6/swz34_brilliant-evasion.png",
+        "ffg": 536
       }
     ],
-    "hyperspace": false
+    "cost": {
+      "variable": "agility",
+      "values": { "0": 0, "1": 2, "2": 4, "3": 6 }
+    },
+    "hyperspace": true
   },
   {
     "name": "Hate",
@@ -144,10 +149,15 @@
             "value": { "type": "Coordinate", "difficulty": "Purple" },
             "amount": 1
           }
-        ]
+        ],
+        "ffg": 545
       }
     ],
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 3, "1": 5, "2": 7, "3": 9, "4": 11, "5": 13, "6": 15 }
+    },
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": false
+    "hyperspace": true
   }
 ]
