@@ -8,7 +8,9 @@
         "title": "Heightened Perception",
         "type": "Force Power",
         "ability": "At the start of the Engagement Phase, you may spend 1 [Force]. If you do, engage at initiative 7 instead of your standard initiative value this phase.",
-        "slots": ["Force Power"],
+        "slots": [
+          "Force Power"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_19.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_19.jpg",
         "ffg": 248
@@ -28,7 +30,9 @@
         "title": "Instinctive Aim",
         "type": "Force Power",
         "ability": "While you perform a special attack, you may spend 1 [Force] to ignore the [Focus] or [Lock] requirement.",
-        "slots": ["Force Power"],
+        "slots": [
+          "Force Power"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_20.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_20.jpg",
         "ffg": 249
@@ -48,7 +52,9 @@
         "title": "Sense",
         "type": "Force Power",
         "ability": "During the System Phase, you may choose 1 ship at range 0-1 and look at its dial. If you spend 1 [Force], you may choose a ship at range 0-3 instead.",
-        "slots": ["Force Power"],
+        "slots": [
+          "Force Power"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_21.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_21.jpg",
         "ffg": 250
@@ -68,7 +74,9 @@
         "title": "Supernatural Reflexes",
         "type": "Force Power",
         "ability": "Before you activate, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, suffer 1 [Hit] damage.",
-        "slots": ["Force Power"],
+        "slots": [
+          "Force Power"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_22.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_22.jpg",
         "ffg": 251
@@ -88,7 +96,9 @@
     },
     "restrictions": [
       {
-        "sizes": ["Small"]
+        "sizes": [
+          "Small"
+        ]
       }
     ],
     "hyperspace": true
@@ -102,9 +112,12 @@
         "title": "Brilliant Evasion",
         "type": "Force Power",
         "ability": "While you defend, if you are not in the attacker's [Bullseye Arc], you may spend 1 [Force] to change 2 of your [Focus] results to [Evade] results.",
-        "slots": ["Force Power"],
+        "slots": [
+          "Force Power"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/24b175ad35d035f33a35056b0d1d7a36.png",
-        "ffg": 536
+        "ffg": 536,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/73bd7872a2c74e0402255f868d9d12bb.jpg"
       }
     ],
     "hyperspace": false
@@ -118,7 +131,9 @@
         "title": "Hate",
         "type": "Force Power",
         "ability": "After you suffer 1 or more damage, recover that many [Force].",
-        "slots": ["Force Power"],
+        "slots": [
+          "Force Power"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4a10b5c8a3d796116163a741d145f4e9.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a373c947f0a56ee4bcf4223250326dc0.jpg",
         "ffg": 489
@@ -129,7 +144,9 @@
     },
     "restrictions": [
       {
-        "force_side": ["dark"]
+        "force_side": [
+          "dark"
+        ]
       }
     ],
     "hyperspace": true
@@ -143,7 +160,9 @@
         "title": "Predictive Shot",
         "type": "Force Power",
         "ability": "After you declare an attack, if the defender is in your [Bullseye Arc], you may spend 1 [Force]. If you do, during the Roll Defense Dice step, the defender cannot roll more defense dice than the number of your [Hit]/[Critical Hit] results.",
-        "slots": ["Force Power"],
+        "slots": [
+          "Force Power"
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/53ceabb0e2e66e61c077145475b18dab.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e0100c63b2753daf68a9d3948824b086.png",
         "ffg": 490
@@ -158,12 +177,18 @@
     "name": "Battle Meditation",
     "xws": "battlemeditation",
     "limited": 0,
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 3, "1": 5, "2": 7, "3": 9, "4": 11, "5": 13, "6": 15 }
+    },
     "sides": [
       {
         "title": "Battle Meditation",
         "type": "Force Power",
         "ability": "You cannot coordinate limited ships. While you perform a purple [Coordinate] action, you may coordinate 1 additional friendly non-limited ship of the same type. Both ships must perform the same action.",
-        "slots": ["Force Power"],
+        "slots": [
+          "Force Power"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d0641df31a0fc40c501055dcd34094f6.png",
         "grants": [
           {
@@ -175,12 +200,15 @@
             "amount": 1
           }
         ],
-        "ffg": 545
+        "ffg": 545,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e9aed0602a75ddad090820e59036a7fd.jpg"
       }
     ],
     "restrictions": [
       {
-        "factions": ["Galactic Republic"]
+        "factions": [
+          "Galactic Republic"
+        ]
       }
     ],
     "hyperspace": false

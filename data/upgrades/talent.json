@@ -8,7 +8,9 @@
         "title": "Composure",
         "type": "Talent",
         "ability": "After you fail an action, if you have no green tokens, you may perform a [Focus] action.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_156.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_156.jpg",
         "ffg": 381
@@ -35,7 +37,9 @@
         "title": "Crack Shot",
         "type": "Talent",
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], before the Neutralize Results step, you may spend 1 [Charge] to cancel 1 [Evade] result.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "charges": {
           "value": 1,
           "recovers": 0
@@ -59,7 +63,9 @@
         "title": "Daredevil",
         "type": "Talent",
         "ability": "While you perform a white [Boost] action, you may treat it as red to use the [1 [Turn Left]] or [1 [Turn Right]] template instead.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_2.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_2.jpg",
         "ffg": 231
@@ -70,7 +76,9 @@
     },
     "restrictions": [
       {
-        "sizes": ["Small"]
+        "sizes": [
+          "Small"
+        ]
       },
       {
         "action": {
@@ -90,7 +98,9 @@
         "title": "Debris Gambit",
         "type": "Talent",
         "ability": "While you perform a red [Evade] action, if there is an obstacle at range 0-1, treat the action as white instead.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "actions": [
           {
             "type": "Evade",
@@ -117,7 +127,10 @@
     },
     "restrictions": [
       {
-        "sizes": ["Small", "Medium"]
+        "sizes": [
+          "Small",
+          "Medium"
+        ]
       }
     ],
     "hyperspace": false
@@ -131,7 +144,9 @@
         "title": "Elusive",
         "type": "Talent",
         "ability": "While you defend, you may spend 1 [Charge] to reroll 1 defense die. After you fully execute a red maneuver, recover 1 [Charge].",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "charges": {
           "value": 1,
           "recovers": 0
@@ -146,7 +161,10 @@
     },
     "restrictions": [
       {
-        "sizes": ["Small", "Medium"]
+        "sizes": [
+          "Small",
+          "Medium"
+        ]
       }
     ],
     "hyperspace": true
@@ -160,7 +178,9 @@
         "title": "Expert Handling",
         "type": "Talent",
         "text": "While heavy fighters can often be coaxed into a barrel roll, seasoned pilots know how to do it without putting undue stress on their craft or leaving themselves open to attack.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "actions": [
           {
             "type": "Barrel Roll",
@@ -211,7 +231,9 @@
         "ability": "While you perform a primary attack, if you are not shielded, you may change 1 [Focus] result to a [Hit] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8b164bdb2b401b6741519f6c6e067550.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0a7cac152b045daf71fa5d28504e54b4.jpg",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "ffg": 459
       }
     ],
@@ -220,7 +242,9 @@
     },
     "restrictions": [
       {
-        "factions": ["First Order"]
+        "factions": [
+          "First Order"
+        ]
       }
     ],
     "hyperspace": true
@@ -235,7 +259,9 @@
         "type": "Talent",
         "ability": "While you perform a [Front Arc] primary attack, if the attack range is 1 and you are in the defender's [Front Arc], you may change 1 of your results to a [Hit] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_6.png",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_6.jpg",
         "ffg": 235
       }
@@ -245,7 +271,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       }
     ],
     "hyperspace": true
@@ -259,7 +287,9 @@
         "title": "Heroic",
         "type": "Talent",
         "ability": "While you defend or perform an attack, if you have only blank results and have 2 or more results, you may reroll any number of your dice.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9f8baf4893cd90288df44b69b50fa788.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0f6d1677c35001248d7768047c10aa87.jpg",
         "ffg": 471
@@ -270,7 +300,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Resistance"]
+        "factions": [
+          "Resistance"
+        ]
       }
     ],
     "hyperspace": true
@@ -284,7 +316,9 @@
         "title": "Intimidation",
         "type": "Talent",
         "ability": "While an enemy ship at range 0 defends, it rolls 1 fewer defense die.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_7.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_7.jpg",
         "ffg": 236
@@ -304,7 +338,9 @@
         "title": "Juke",
         "type": "Talent",
         "ability": "While you perform an attack, if you are evading, you may change 1 of the defender's [Evade] results to a [Focus] result.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_8.png",
         "alt": [
           {
@@ -321,7 +357,10 @@
     },
     "restrictions": [
       {
-        "sizes": ["Small", "Medium"]
+        "sizes": [
+          "Small",
+          "Medium"
+        ]
       }
     ],
     "hyperspace": true
@@ -335,7 +374,9 @@
         "title": "Lone Wolf",
         "type": "Talent",
         "ability": "While you defend or perform an attack, if there are no other friendly ships at range 0-2, you may spend 1 [Charge] to reroll 1 of your dice.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "charges": {
           "value": 1,
           "recovers": 1
@@ -359,7 +400,9 @@
         "title": "Marksmanship",
         "type": "Talent",
         "ability": "While you perform an attack, if the defender is in your [Bullseye Arc], you may change 1 [Hit] result to a [Critical Hit] result.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_10.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_10.jpg",
         "ffg": 239
@@ -379,7 +422,9 @@
         "title": "Outmaneuver",
         "type": "Talent",
         "ability": "While you perform a [Front Arc] attack, if you are not in the defender's firing arc, the defender rolls 1 fewer defense die.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_11.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_11.jpg",
         "ffg": 240
@@ -399,7 +444,9 @@
         "title": "Predator",
         "type": "Talent",
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], you may reroll 1 attack die.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_12.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_12.jpg",
         "ffg": 241
@@ -420,7 +467,9 @@
         "type": "Talent",
         "ability": "While you perform an attack, you may choose another friendly ship at range 0-1 of the defender. If you do, that ship suffers 1 [Hit] damage and you may change 1 of your die results to a [Hit] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_13.png",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_13.jpg",
         "ffg": 242
       }
@@ -430,7 +479,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Galactic Empire"]
+        "factions": [
+          "Galactic Empire"
+        ]
       }
     ],
     "hyperspace": true
@@ -444,7 +495,9 @@
         "title": "Saturation Salvo",
         "type": "Talent",
         "ability": "While you perform a [Torpedo] or [Missile] attack, you may spend 1 [Charge] from that upgrade. If you do, choose two defense dice. The defender must reroll those dice.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_14.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_14.jpg",
         "ffg": 243
@@ -472,7 +525,9 @@
         "type": "Talent",
         "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Critical Hit] damage to cancel 1 [Critical Hit] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_15.png",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_15.jpg",
         "ffg": 244
       }
@@ -482,7 +537,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Rebel Alliance"]
+        "factions": [
+          "Rebel Alliance"
+        ]
       }
     ],
     "hyperspace": true
@@ -496,7 +553,9 @@
         "title": "Squad Leader",
         "type": "Talent",
         "ability": "While you coordinate, the ship you choose can perform an action only if that action is also on your action bar.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "actions": [
           {
             "type": "Coordinate",
@@ -541,7 +600,9 @@
         "title": "Swarm Tactics",
         "type": "Talent",
         "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 1. If you do, that ship treats its initiative as equal to yours until the end of the round.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_17.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_17.jpg",
         "ffg": 246
@@ -561,7 +622,9 @@
         "title": "Trick Shot",
         "type": "Talent",
         "ability": "While you perform an attack that is obstructed by an obstacle, roll 1 additional attack die.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_18.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_18.jpg",
         "ffg": 247
@@ -581,7 +644,9 @@
         "title": "Treacherous",
         "type": "Talent",
         "ability": "While you defend, you may choose a ship obstructing the attack and spend 1 [Charge]. If you do, cancel 1 [Hit] or [Critical Hit] result, and the ship you chose gains 1 strain token. After a ship at range 0-3 is destroyed, recover 1 [Charge].",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "charges": {
           "value": 1,
           "recovers": 0
@@ -593,9 +658,14 @@
     "hyperspace": false,
     "restrictions": [
       {
-        "factions": ["Separatist Alliance"]
+        "factions": [
+          "Separatist Alliance"
+        ]
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   },
   {
     "name": "Dedicated",
@@ -606,7 +676,9 @@
         "title": "Dedicated",
         "type": "Talent",
         "ability": "While another friendly ship in your [Left Arc] or [Right Arc] at range 0-2 defends, if it is limited or has the Dedicated upgrade and you are not strained, you may gain 1 strain token. If you do, the defender rerolls 1 of their blank results.",
-        "slots": ["Talent"],
+        "slots": [
+          "Talent"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/31c6723d7e5670c257acfa8788160437.png",
         "ffg": 544
       }
@@ -614,11 +686,16 @@
     "hyperspace": false,
     "restrictions": [
       {
-        "factions": ["Galactic Republic"]
+        "factions": [
+          "Galactic Republic"
+        ]
       },
       {
         "non-limited": true
       }
-    ]
+    ],
+    "cost": {
+      "value": 3
+    }
   }
 ]

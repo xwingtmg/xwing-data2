@@ -84,9 +84,17 @@ function getFaction(id) {
 }
 
 function applyDiff(destination, key, value) {
-    // Check to see if a value was updated before 
-    // modifying the value.
-    // Returns true if there are new data
+    // Returns true if data was modified
+
+    // Handle the destination missing some data
+    if (!destination.hasOwnProperty(key) && (value || value.length > 0)) {
+        console.log(key + " was missing.");
+        console.log("--New:      ", value);
+        destination[key] = value;
+        return true;
+    }
+
+    // Handle an update to existing data
     if (value && destination[key]) {
         let existing = JSON.stringify(destination[key]).trim();
         let newValue = JSON.stringify(value).trim();
@@ -171,6 +179,11 @@ function processCard(card) {
     console.log("Processing " + card.name);
     // If the card contains a pilot
     if (card.card_type_id == 1) {
+        // Skip Lando Escape Craft. The FFG card text is not properly tagged and therefore
+        // parses incorrectly.
+        if (card.id == 226) {
+            return true;
+        }
         Object.entries(pilotData).forEach(
             // Check each ship file
             ([ filenameKey, ship ]) => {
@@ -190,32 +203,47 @@ function processCard(card) {
     }
     // If the card contains an upgrade
     if (card.card_type_id == 2) {
-        // Find the upgradeType
-        let upgradeType = upgradeTypes.find(upgradeType => upgradeType.ffg == card.upgrade_types[0]);
-        if (!upgradeType) {
-            console.log("*** WARNING: Could not find FFG Upgrade Type " + card.upgrade_types[0]);
-            return false;
-        }
-        // Find the filename with matching upgrade type
-        filename = Object.keys(upgradeData).find(filename => filename.includes(upgradeType.xws));
-        if (!filename) {
-            console.log("*** WARNING: Could not find file containing upgrade data for type", upgradeType.xws);
-            return false;
-        }
-        // Look at every upgrade in the file
-        upgradeData[filename].forEach(
-            (upgrade) => {
-                // Look at each side of each upgrade
-                upgrade.sides.forEach(
-                    (side) => {
-                        if (side.ffg == card.id) {
-                            ref = side;
-                            upgradeRef = upgrade;
-                        }
+        // Find the upgradeType. There may be more than one upgrade type listed in the FFG data
+        // if the upgrade takes more than one slot type (ex: Calibrated Laser Targeting)
+        card.upgrade_types.forEach(
+            (upgradeTypeNum) => {
+                let upgradeType = upgradeTypes.find(
+                    upgradeType => upgradeType.ffg == upgradeTypeNum
+                );
+                if (!upgradeType) {
+                    console.log("*** WARNING: Could not find FFG Upgrade Type " + upgradeTypeNum);
+                    return false;
+                }
+                // Find the filename with matching upgrade type
+                filename = Object.keys(upgradeData).find(filename => filename.includes(upgradeType.xws));
+                if (!filename) {
+                    console.log("*** WARNING: Could not find file containing upgrade data for type", upgradeType.xws);
+                    return false;
+                }
+                // Look at every upgrade in the file
+                upgradeData[filename].forEach(
+                    (upgrade) => {
+                        // Look at each side of each upgrade
+                        upgrade.sides.forEach(
+                            (side) => {
+                                if (side.ffg == card.id) {
+                                    ref = side;
+                                    upgradeRef = upgrade;
+                                } else if (sanitize(upgrade.title) == sanitize(side.title)) {
+                                    console.log("Found title match without FFG ID match for ", upgrade.title);
+                                    console.log("Applying FFG ID", card.id);
+                                    ref = side;
+                                    upgradeRef = upgrade;
+
+                                    ref.ffg = card.id;
+                                }
+                            }
+                        )
                     }
                 )
             }
         )
+
         if (!ref) {
             return false;
         }
@@ -230,12 +258,24 @@ function processCard(card) {
     if (upgradeRef) {
         // For upgrades, some fields are stored in the parent object
         // while other fields are specific to the upgrade card's side
-        modified = modified || applyDiff(upgradeRef, "name", card.name);
-        modified = modified || applyDiff(upgradeRef, "cost", cost);
+
+        // Only apply a card name change when looking at side[0]
+        if (upgradeRef.sides[0] == ref) {
+            modified = modified || applyDiff(upgradeRef, "name", card.name);
+        }
+        if (cost == null) {
+            console.log("** WARNING: Variable cost detected!")
+        } else {
+            modified = modified || applyDiff(upgradeRef, "cost", cost);
+        }
         modified = modified || applyDiff(upgradeRef, "limited", limited);
     } else {
         modified = modified || applyDiff(ref, "name", card.name);
         modified = modified || applyDiff(ref, "caption", card.subtitle);
+        if (!ref.caption || ref.caption.length == 0) {
+            console.log("Removing empty caption");
+            delete ref.caption;
+        }
         modified = modified || applyDiff(ref, "limited", limited);
     }
     

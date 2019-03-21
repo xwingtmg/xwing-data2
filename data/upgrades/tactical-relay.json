@@ -9,19 +9,26 @@
         "type": "Tactical Relay",
         "ability": "During the End Phase, you may choose up to 3 friendly ships at range 0-3. If you do, each of these ships does not remove 1 calculate token.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/47dae8a3ecd27a48f3dc35aff03a1a75.png",
-        "slots": ["Tactical Relay"],
+        "slots": [
+          "Tactical Relay"
+        ],
         "ffg": 531
       }
     ],
     "restrictions": [
       {
-        "factions": ["Separatist Alliance"]
+        "factions": [
+          "Separatist Alliance"
+        ]
       },
       {
         "solitary": true
       }
     ],
-    "hyperspace": false
+    "hyperspace": false,
+    "cost": {
+      "value": 10
+    }
   },
   {
     "name": "TV-94",
@@ -33,19 +40,26 @@
         "type": "Tactical Relay",
         "ability": "While a friendly ship at range 0-3 performs a primary attack against a defender in its [Bullseye Arc], if there are 2 or fewer attack dice, it may spend 1 calculate token to add 1 [Hit] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/633a34a139c912116c1b034fc2765484.png",
-        "slots": ["Tactical Relay"],
+        "slots": [
+          "Tactical Relay"
+        ],
         "ffg": 530
       }
     ],
     "restrictions": [
       {
-        "factions": ["Separatist Alliance"]
+        "factions": [
+          "Separatist Alliance"
+        ]
       },
       {
         "solitary": true
       }
     ],
-    "hyperspace": false
+    "hyperspace": false,
+    "cost": {
+      "value": 5
+    }
   },
   {
     "name": "K2-B4",
@@ -57,18 +71,25 @@
         "type": "Tactical Relay",
         "ability": "While a friendly ship at range 0-3 defends, it may spend 1 calculate token. If it does, add 1 [Evade] result unless the attacker chooses to gain 1 strain token.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/2178079ef9488899e51e927b2e136572.png",
-        "slots": ["Tactical Relay"],
+        "slots": [
+          "Tactical Relay"
+        ],
         "ffg": 537
       }
     ],
     "restrictions": [
       {
-        "factions": ["Separatist Alliance"]
+        "factions": [
+          "Separatist Alliance"
+        ]
       },
       {
         "solitary": true
       }
     ],
-    "hyperspace": false
+    "hyperspace": false,
+    "cost": {
+      "value": 5
+    }
   }
 ]

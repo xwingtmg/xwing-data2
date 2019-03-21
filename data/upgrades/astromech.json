@@ -8,9 +8,12 @@
         "title": "\"Chopper\"",
         "type": "Astromech",
         "ability": "Action: Spend 1 non-recurring  [Charge] from another equipped upgrade to recover 1 shield.  Action: Spend 2 shields to recover 1 non-recurring [Charge] on an equipped upgrade.",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_99.png",
-        "ffg": 323
+        "ffg": 323,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_99.jpg"
       }
     ],
     "cost": {
@@ -18,7 +21,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Rebel Alliance"]
+        "factions": [
+          "Rebel Alliance"
+        ]
       }
     ],
     "hyperspace": false
@@ -33,7 +38,9 @@
         "type": "Astromech",
         "ability": "After you fully execute a maneuver, if you have not dropped or launched a device this round, you may drop 1 bomb.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_143.png",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_143.jpg",
         "ffg": 368
       }
@@ -43,7 +50,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       }
     ],
     "hyperspace": false
@@ -57,7 +66,9 @@
         "title": "R2 Astromech",
         "type": "Astromech",
         "ability": "After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield.",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -82,7 +93,9 @@
         "type": "Astromech",
         "ability": "After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_100.png",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "charges": {
           "value": 3,
           "recovers": 0
@@ -96,7 +109,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Rebel Alliance"]
+        "factions": [
+          "Rebel Alliance"
+        ]
       }
     ],
     "hyperspace": true
@@ -110,7 +125,9 @@
         "title": "R3 Astromech",
         "type": "Astromech",
         "ability": "You can maintain up to 2 locks. Each lock must be on a different object. After you perform a [Lock] action, you may acquire a lock.",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_54.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_54.jpg",
         "ffg": 283
@@ -130,7 +147,9 @@
         "title": "R4 Astromech",
         "type": "Astromech",
         "ability": "Decrease the difficulty of your speed 1-2 basic maneuvers ([Turn Left], [Bank Left], [Straight], [Bank Right], [Turn Right]).",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_55.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_55.jpg",
         "ffg": 284
@@ -141,7 +160,9 @@
     },
     "restrictions": [
       {
-        "sizes": ["Small"]
+        "sizes": [
+          "Small"
+        ]
       }
     ],
     "hyperspace": true
@@ -155,7 +176,9 @@
         "title": "R5 Astromech",
         "type": "Astromech",
         "ability": "Action: Spend 1 [Charge] to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -179,7 +202,9 @@
         "title": "R5-D8",
         "type": "Astromech",
         "ability": "Action: Spend 1 [Charge] to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "charges": {
           "value": 3,
           "recovers": 0
@@ -194,7 +219,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Rebel Alliance"]
+        "factions": [
+          "Rebel Alliance"
+        ]
       }
     ],
     "hyperspace": true
@@ -209,7 +236,9 @@
         "type": "Astromech",
         "ability": "While you perform an attack against a defender in your [Front Arc], you may spend 1 [Charge] to reroll 1 attack die. If the rerolled result is a [Critical Hit] result, suffer 1 [Critical Hit] damage.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_144.png",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "charges": {
           "value": 3,
           "recovers": 0
@@ -223,7 +252,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       }
     ],
     "hyperspace": false
@@ -238,7 +269,9 @@
         "type": "Astromech",
         "ability": "You can perform attacks against friendly ships.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_145.png",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_145.jpg",
         "ffg": 370
       }
@@ -248,7 +281,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       }
     ],
     "hyperspace": false
@@ -267,7 +302,9 @@
         },
         "ability": "Before you activate or engage, you may spend 1 [Charge] to ignore obstacles until the end of this phase.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/aed4536536b67bae316b260ed151c22a.png",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7361f88154703f61221bc2a775f4a9b6.jpg",
         "ffg": 483
       }
@@ -277,7 +314,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Resistance"]
+        "factions": [
+          "Resistance"
+        ]
       }
     ],
     "hyperspace": true
@@ -293,7 +332,9 @@
         "ability": "While you defend, you may spend your lock on the attacker to reroll any number of your defense dice.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/b3e6d35ca6b6fd297312248ddf4e69a7.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d72ab7fa7cd398d614466a98076a2e6b.jpg",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "ffg": 482
       }
     ],
@@ -302,7 +343,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Resistance"]
+        "factions": [
+          "Resistance"
+        ]
       }
     ],
     "hyperspace": true
@@ -318,7 +361,9 @@
         "ability": "Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] or [Boost] action.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/37297ef7839800afd543de5d1a363561.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e8a75e0e143a5857ac3931d56ccde86c.jpg",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -340,7 +385,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Resistance"]
+        "factions": [
+          "Resistance"
+        ]
       }
     ],
     "hyperspace": true
@@ -356,7 +403,9 @@
         "ability": "Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] action.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/010399f4054469aed3b04acba08d41b0.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a2e3aaf77e8690a37e76ef4ae2087180.jpg",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -378,7 +427,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Resistance"]
+        "factions": [
+          "Resistance"
+        ]
       }
     ],
     "hyperspace": true
@@ -394,7 +445,9 @@
         "ability": "While a ship you are locking performs an attack, you may choose 1 attack die. If you do, the attacker rerolls that die.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cd67f33e8aa52d2aeb07f432125a8c73.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f810d46699343a134003deea0f423131.jpg",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "ffg": 481
       }
     ],
@@ -403,7 +456,9 @@
     },
     "restrictions": [
       {
-        "factions": ["Resistance"]
+        "factions": [
+          "Resistance"
+        ]
       }
     ],
     "hyperspace": true
@@ -418,12 +473,16 @@
         "type": "Astromech",
         "ability": "While you perform an attack, you may spend 1 evade token to change 1 [Focus] result to a [Hit] result.",
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/02/e5/02e515c7-6edd-4dcf-a2af-20d9f968bed5/swz40_r2-c4.png",
-        "slots": ["Astromech"]
+        "slots": [
+          "Astromech"
+        ]
       }
     ],
     "restrictions": [
       {
-        "factions": ["Galactic Republic"]
+        "factions": [
+          "Galactic Republic"
+        ]
       }
     ],
     "hyperspace": false
@@ -437,7 +496,9 @@
         "title": "R4-P Astromech",
         "type": "Astromech",
         "ability": "Before you execute a basic maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -448,10 +509,15 @@
     ],
     "restrictions": [
       {
-        "factions": ["Galactic Republic"]
+        "factions": [
+          "Galactic Republic"
+        ]
       }
     ],
-    "hyperspace": false
+    "hyperspace": false,
+    "cost": {
+      "value": 4
+    }
   },
   {
     "name": "R4-P44",
@@ -462,14 +528,19 @@
         "title": "R4-P44",
         "type": "Astromech",
         "ability": "",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "image": "",
-        "ffg": 551
+        "ffg": 551,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/313d08463a9c2e7c5d9377a39277ef03.jpg"
       }
     ],
     "restrictions": [
       {
-        "factions": ["Galactic Republic"]
+        "factions": [
+          "Galactic Republic"
+        ]
       }
     ],
     "hyperspace": false,
@@ -486,7 +557,9 @@
         "title": "R4-P17",
         "type": "Astromech",
         "ability": "After you fully execute a red maneuver, you may spend 1 [Charge] to perform an action, even while stressed.",
-        "slots": ["Astromech"],
+        "slots": [
+          "Astromech"
+        ],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -497,9 +570,14 @@
     ],
     "restrictions": [
       {
-        "factions": ["Galactic Republic"]
+        "factions": [
+          "Galactic Republic"
+        ]
       }
     ],
-    "hyperspace": false
+    "hyperspace": false,
+    "cost": {
+      "value": 5
+    }
   }
 ]
