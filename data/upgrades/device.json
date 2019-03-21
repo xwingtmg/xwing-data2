@@ -8,10 +8,7 @@
         "title": "Bomblet Generator",
         "type": "Device",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
-        "slots": [
-          "Device",
-          "Device"
-        ],
+        "slots": ["Device", "Device"],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -40,9 +37,7 @@
         "title": "Conner Nets",
         "type": "Device",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
-        "slots": [
-          "Device"
-        ],
+        "slots": ["Device"],
         "charges": {
           "value": 1,
           "recovers": 0
@@ -72,9 +67,7 @@
         "type": "Device",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb using the [1 [Straight]] template.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_65.png",
-        "slots": [
-          "Device"
-        ],
+        "slots": ["Device"],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -102,9 +95,7 @@
         "title": "Proximity Mines",
         "type": "Device",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
-        "slots": [
-          "Device"
-        ],
+        "slots": ["Device"],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -134,9 +125,7 @@
         "type": "Device",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge with the [1 [Straight]] template.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_67.png",
-        "slots": [
-          "Device"
-        ],
+        "slots": ["Device"],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -165,9 +154,7 @@
         "type": "Device",
         "ability": "During the End Phase, you may spend 1 [Charge] to drop or launch 1 DRK-1 probe droid using a speed 3 template. This card's [Charge] cannot be recovered.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/44556cd042e536b41e7e89850e13081a.png",
-        "slots": [
-          "Device"
-        ],
+        "slots": ["Device"],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -194,9 +181,7 @@
     ],
     "restrictions": [
       {
-        "factions": [
-          "Separatist Alliance"
-        ]
+        "factions": ["Separatist Alliance"]
       }
     ],
     "hyperspace": false,
