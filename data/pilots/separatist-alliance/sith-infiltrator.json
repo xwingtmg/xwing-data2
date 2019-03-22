@@ -130,6 +130,11 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/c0a65aa29f085d517d907bc7799e4146.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9edd9bb6846e77723d8f0381bb7909aa.png",
       "ability": "After you defend, you may spend 1 calculate token to perform an action.",
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Barrel Roll" }
+      ],
       "hyperspace": true
     }
   ],
