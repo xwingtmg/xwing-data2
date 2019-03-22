@@ -27,7 +27,7 @@
       {
         "title": "Advanced SLAM",
         "type": "Modification",
-        "ability": "After you perform a [SLAM] action, if you fully executed that maneuver, you may perform a white action on your action bar, treating that action as red.",
+        "ability": "After you perform a [SLAM] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_69.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_69.jpg",
@@ -84,7 +84,7 @@
       {
         "title": "Engine Upgrade",
         "type": "Modification",
-        "text": "Large military forces such as the Galactic Empire have standardized engines, but individual pilots and small organizations often replace the power couplings add thrusters, or use high-performance fuel to get extra push out of their engines.",
+        "text": "Large military forces such as the Galactic Empire have standardized engines, but individual pilots and small organizations often replace the power couplings, add thrusters, or use high-performance fuel to get extra push out of their engines.",
         "slots": ["Modification"],
         "actions": [{ "type": "Boost", "difficulty": "White" }],
         "grants": [
@@ -182,7 +182,7 @@
       {
         "title": "Static Discharge Vanes",
         "type": "Modification",
-        "ability": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead.",
+        "ability": "If you would gain an ion or jam token, if you are not stressed, you may choose a ship at range 0-1. If you do, gain 1 stress token and transfer 1 ion or jam token to that ship.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_76.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg",
@@ -261,7 +261,7 @@
       {
         "title": "Synchronized Console",
         "type": "Modification",
-        "ability": "After you perform an attack, you may choose a friendly ship at range 1 or a friendly ship with a Synchronized Console upgrade at range 1-3 and spend a lock you have on the defender. If you do, the friendly ship you chose may acquire a lock on the defender.",
+        "ability": "After you perform an attack, you may choose a friendly ship at range 1 or a friendly ship with the Synchronized Console upgrade at range 1-3 and spend a lock you have on the defender. If you do, the friendly ship you chose may acquire a lock on the defender.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e3e5bd38f39f904fbaaa75293e56fb38.png",
         "ffg": 554,
