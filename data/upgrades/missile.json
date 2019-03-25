@@ -172,9 +172,10 @@
           "maxrange": 3,
           "ordnance": true
         },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/06/a7/06a78e45-d472-4ca7-8dcb-1e79c795ef0a/swz31_energy-shell-charges.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4b6213e5ed13735bb381df08bdd1398d.png",
         "slots": ["Missile"],
-        "ffg": 532
+        "ffg": 532,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a0eeefcf98562fdbc606c8638c35b6db.jpg"
       }
     ],
     "restrictions": [
@@ -192,9 +193,9 @@
       {
         "title": "Discord Missiles",
         "type": "Missile",
-        "ability": "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using he [3 [Bank Left]], [3 [Straight]], or [3 [Bank Right]] template. This card's [Charge] cannot be recovered.",
+        "ability": "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using the [3 [Bank Left]], [3 [Straight]], or [3 [Bank Right]] template. This card's [Charge] cannot be recovered.",
         "charges": { "value": 1, "recovers": 0 },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/19/f6/19f6742a-dd6c-4e93-9db6-c2ffc6c939b7/swz31_discord-missiles.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ee2f0b906cb4f1dbcafc274f44b76d3d.png",
         "slots": ["Missile"],
         "device": {
           "name": "Buzz Droid Swarm",
@@ -206,7 +207,8 @@
             { "type": "hull", "value": 1 }
           ]
         },
-        "ffg": 543
+        "ffg": 543,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a2c1b72df5f0b429bf38fbd9ad61bc99.jpg"
       }
     ],
     "cost": { "value": 6 },

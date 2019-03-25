@@ -7,7 +7,7 @@
       {
         "title": "Bomblet Generator",
         "type": "Device",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] templete. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
+        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
         "slots": ["Device", "Device"],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
@@ -128,7 +128,7 @@
         "title": "DRK-1 Probe Droids",
         "type": "Device",
         "ability": "During the End Phase, you may spend 1 [Charge] to drop or launch 1 DRK-1 probe droid using a speed 3 template. This card's [Charge] cannot be recovered.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/8d/db/8ddbbf77-aba5-41d2-8917-6866b43dfada/swz30_probe-droid.png",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/44556cd042e536b41e7e89850e13081a.png",
         "slots": ["Device"],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
@@ -142,7 +142,8 @@
           ],
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/d1/a7/d1a70245-95d9-4d20-931f-3cadd8a11ed8/swz30_probe-card.png"
         },
-        "ffg": 541
+        "ffg": 541,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a69a3f1075a711b57cf7459e51647a7a.jpg"
       }
     ],
     "cost": { "value": 6 },
