@@ -22,10 +22,8 @@
         "solitary": true
       }
     ],
-    "hyperspace": false,
-    "cost": {
-      "value": 10
-    }
+    "hyperspace": true,
+    "cost": { "value": 10 }
   },
   {
     "name": "TV-94",
@@ -50,10 +48,8 @@
         "solitary": true
       }
     ],
-    "hyperspace": false,
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "K2-B4",
@@ -78,9 +74,7 @@
         "solitary": true
       }
     ],
-    "hyperspace": false,
-    "cost": {
-      "value": 5
-    }
+    "cost": { "value": 5 },
+    "hyperspace": true
   }
 ]

@@ -108,7 +108,11 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/73bd7872a2c74e0402255f868d9d12bb.jpg"
       }
     ],
-    "hyperspace": false
+    "cost": {
+      "variable": "agility",
+      "values": { "0": 0, "1": 2, "2": 4, "3": 6 }
+    },
+    "hyperspace": true
   },
   {
     "name": "Hate",
@@ -189,6 +193,6 @@
         "factions": ["Galactic Republic"]
       }
     ],
-    "hyperspace": false
+    "hyperspace": true
   }
 ]

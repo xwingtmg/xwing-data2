@@ -56,7 +56,7 @@
       {
         "title": "Black One",
         "type": "Title",
-        "ability": "After you perform a [Slam] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [Slam] action.",
+        "ability": "After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [SLAM] action.",
         "slots": ["Title"],
         "charges": {
           "value": 1,
@@ -713,10 +713,8 @@
         "ships": ["belbullab22starfighter"]
       }
     ],
-    "hyperspace": false,
-    "cost": {
-      "value": 10
-    }
+    "hyperspace": true,
+    "cost": { "value": 10 }
   },
   {
     "name": "Scimitar",
@@ -744,9 +742,9 @@
             }
           }
         ],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/1380bed351b072e5c4df4bb776625fad.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/73d545fd02afd29fa8aa9e9015e7be6e.png",
-        "ffg": 542,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/1380bed351b072e5c4df4bb776625fad.jpg"
+        "ffg": 542
       }
     ],
     "restrictions": [
@@ -757,9 +755,7 @@
         "ships": ["sithinfiltrator"]
       }
     ],
-    "hyperspace": false,
-    "cost": {
-      "value": 4
-    }
+    "hyperspace": true,
+    "cost": { "value": 4 }
   }
 ]

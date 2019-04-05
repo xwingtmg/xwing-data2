@@ -340,15 +340,9 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/20769de45863e2bbb180f05e6ed1e0e3.jpg"
       }
     ],
-    "restrictions": [
-      {
-        "ships": ["belbullab22starfighter"]
-      }
-    ],
-    "hyperspace": false,
-    "cost": {
-      "value": 6
-    }
+    "restrictions": [{ "ships": ["belbullab22starfighter"] }],
+    "hyperspace": true,
+    "cost": { "value": 6 }
   },
   {
     "name": "Synchronized Console",
@@ -359,7 +353,7 @@
         "title": "Synchronized Console",
         "type": "Modification",
         "ability": "After you perform an attack, you may choose a friendly ship at range 1 or a friendly ship with the Synchronized Console upgrade at range 1-3 and spend a lock you have on the defender. If you do, the friendly ship you chose may acquire a lock on the defender.",
-        "slots": ["Talent"],
+        "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e3e5bd38f39f904fbaaa75293e56fb38.png",
         "ffg": 554,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f105bb42b6d3500c300e48ab695c1647.jpg"
@@ -376,10 +370,8 @@
         }
       }
     ],
-    "hyperspace": false,
-    "cost": {
-      "value": 2
-    }
+    "hyperspace": true,
+    "cost": { "value": 2 }
   },
   {
     "name": "Spare Parts Canisters",
@@ -400,14 +392,8 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a61b812e2e74fab5435c9684462cd9d7.jpg"
       }
     ],
-    "restrictions": [
-      {
-        "equipped": ["Astromech"]
-      }
-    ],
+    "restrictions": [{ "equipped": ["Astromech"] }],
     "hyperspace": false,
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 }
   }
 ]

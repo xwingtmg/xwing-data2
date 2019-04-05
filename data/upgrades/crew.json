@@ -959,7 +959,8 @@
         "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
         "slots": ["Configuration"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_158b.png",
-        "ffg": 383
+        "ffg": 383,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_158b.jpg"
       }
     ],
     "cost": {
@@ -1775,7 +1776,7 @@
         "factions": ["Galactic Republic", "Separatist Alliance"]
       }
     ],
-    "hyperspace": false,
+    "hyperspace": true,
     "cost": {
       "value": 14
     }
@@ -1799,15 +1800,9 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a91424eea1db4aeaf24ab49d5a519e27.jpg"
       }
     ],
-    "restrictions": [
-      {
-        "factions": ["Separatist Alliance"]
-      }
-    ],
-    "hyperspace": false,
-    "cost": {
-      "value": 9
-    }
+    "cost": { "value": 9 },
+    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "hyperspace": true
   },
   {
     "name": "General Grievous",
@@ -1817,25 +1812,16 @@
       {
         "title": "General Grievous",
         "type": "Crew",
-        "ability": "While you defend, after the Neutralize Results step, if there are 2 or more [Hit]/[Critical Hit] results, you may spend 1 [Charge] to cancel 1 [Hit] or [Critical Hit] result.  After a friendly ship is destroyed, recover 1 [Charge].",
+        "ability": "While you defend, after the Neutralize Results step, if there are 2 or more [Hit]/[Critical Hit] results, you may spend 1 [Charge] to cancel 1 [Hit] or [Critical Hit] result. After a friendly ship is destroyed, recover 1 [Charge].",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f3740c47b0253ec848c4cfcdde195393.png",
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        },
+        "charges": { "value": 1, "recovers": 0 },
         "slots": ["Crew"],
         "ffg": 540,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3f6a042b2f8acfdcfcd1f05c28419fe3.jpg"
       }
     ],
-    "restrictions": [
-      {
-        "factions": ["Separatist Alliance"]
-      }
-    ],
-    "hyperspace": false,
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 },
+    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "hyperspace": true
   }
 ]

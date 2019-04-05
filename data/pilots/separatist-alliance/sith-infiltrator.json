@@ -8,13 +8,13 @@
     "1FB",
     "1NB",
     "1YR",
-    "2PR",
+    "2LR",
     "2TW",
     "2BB",
     "2FB",
     "2NB",
     "2YW",
-    "2LR",
+    "2PR",
     "3TW",
     "3BW",
     "3FB",
@@ -57,6 +57,7 @@
       "type": "Barrel Roll"
     }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_SithInfiltrator.png",
   "pilots": [
     {
       "name": "Darth Maul",
@@ -92,12 +93,8 @@
       "caption": "Darth Tyranus",
       "initiative": 3,
       "limited": 1,
-      "xws": "darthtyranus",
-      "force": {
-        "value": 3,
-        "recovers": 1,
-        "side": ["dark"]
-      },
+      "xws": "countdooku",
+      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
       "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Force] to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 [Force] to perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/88959087710ec5a80a16dd93573f149d.png",
       "hyperspace": true,
@@ -159,6 +156,11 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/c0a65aa29f085d517d907bc7799e4146.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9edd9bb6846e77723d8f0381bb7909aa.png",
       "ability": "After you defend, you may spend 1 calculate token to perform an action.",
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Barrel Roll" }
+      ],
       "hyperspace": true
     }
   ],

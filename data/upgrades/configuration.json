@@ -279,34 +279,18 @@
         "type": "Configuration",
         "slots": ["Configuration"],
         "grants": [
-          {
-            "type": "stat",
-            "value": "agility",
-            "amount": -1
-          },
-          {
-            "type": "stat",
-            "value": "shields",
-            "amount": 2
-          },
-          {
-            "type": "stat",
-            "value": "attack",
-            "arc": "Front Arc",
-            "amount": 1
-          }
+          { "type": "stat", "value": "agility", "amount": -1 },
+          { "type": "stat", "value": "shields", "amount": 2 },
+          { "type": "stat", "value": "attack", "arc": "Front Arc", "amount": 1 }
         ],
         "ffg": 548,
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/515903e04a0d06a9200860698326896d.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/6530f18639b7efff5a5a659589e5d65c.jpg",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/515903e04a0d06a9200860698326896d.png"
+        "text": "The Delta-7B was designed as a heavier variant of the Delta-7 Aethersprite-class Interceptor, identifiable by the repositioned astromech slot. Many Jedi Generals favor this craft's greater firepower and durability."
       }
     ],
-    "restrictions": [
-      {
-        "ships": ["delta7aethersprite"]
-      }
-    ],
-    "hyperspace": false
+    "restrictions": [{ "ships": ["delta7aethersprite"] }],
+    "hyperspace": true
   },
   {
     "name": "Calibrated Laser Targeting",

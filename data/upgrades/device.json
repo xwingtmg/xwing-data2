@@ -180,14 +180,8 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a69a3f1075a711b57cf7459e51647a7a.jpg"
       }
     ],
-    "restrictions": [
-      {
-        "factions": ["Separatist Alliance"]
-      }
-    ],
-    "hyperspace": false,
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "hyperspace": true
   }
 ]

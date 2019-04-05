@@ -210,9 +210,9 @@
         "type": "Talent",
         "ability": "While you perform a primary attack, if you are not shielded, you may change 1 [Focus] result to a [Hit] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8b164bdb2b401b6741519f6c6e067550.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0a7cac152b045daf71fa5d28504e54b4.jpg",
         "slots": ["Talent"],
-        "ffg": 459
+        "ffg": 459,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0a7cac152b045daf71fa5d28504e54b4.jpg"
       }
     ],
     "cost": {
@@ -591,15 +591,9 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/406e6007268488c36fc9066fb0a5d70f.jpg"
       }
     ],
-    "hyperspace": false,
-    "restrictions": [
-      {
-        "factions": ["Separatist Alliance"]
-      }
-    ],
-    "cost": {
-      "value": 3
-    }
+    "hyperspace": true,
+    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "cost": { "value": 3 }
   },
   {
     "name": "Dedicated",
@@ -616,17 +610,11 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/21b00eaf0d2f447db8fc7b2dc69222ab.jpg"
       }
     ],
-    "hyperspace": false,
+    "hyperspace": true,
     "restrictions": [
-      {
-        "factions": ["Galactic Republic"]
-      },
-      {
-        "non-limited": true
-      }
+      { "factions": ["Galactic Republic"] },
+      { "non-limited": true }
     ],
-    "cost": {
-      "value": 3
-    }
+    "cost": { "value": 3 }
   }
 ]

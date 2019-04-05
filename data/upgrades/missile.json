@@ -222,10 +222,8 @@
         "factions": ["Separatist Alliance"]
       }
     ],
-    "hyperspace": false,
-    "cost": {
-      "value": 4
-    }
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "Discord Missiles",
@@ -236,10 +234,7 @@
         "title": "Discord Missiles",
         "type": "Missile",
         "ability": "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using the [3 [Bank Left]], [3 [Straight]], or [3 [Bank Right]] template. This card's [Charge] cannot be recovered.",
-        "charges": {
-          "value": 1,
-          "recovers": 0
-        },
+        "charges": { "value": 1, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ee2f0b906cb4f1dbcafc274f44b76d3d.png",
         "slots": ["Missile"],
         "device": {
@@ -262,14 +257,8 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a2c1b72df5f0b429bf38fbd9ad61bc99.jpg"
       }
     ],
-    "restrictions": [
-      {
-        "factions": ["Separatist Alliance"]
-      }
-    ],
-    "hyperspace": false,
-    "cost": {
-      "value": 6
-    }
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "hyperspace": true
   }
 ]
