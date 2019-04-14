@@ -1,0 +1,81 @@
+{
+    "name": "Nantex-class Starfighter",
+    "xws": "nantexclassstarfighter",
+    "size": "Small",
+    "dial": [
+        "1TW",
+        "1BB",
+        "1NB",
+        "1YW",
+        "2TW",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YW",
+        "3LR",
+        "3TW",
+        "3BB",
+        "3FB",
+        "3NB",
+        "3YW",
+        "3PR",
+        "4FW",
+        "5FW",
+        "5KR"
+    ],
+    "faction": "Separatist Alliance",
+    "stats": [
+        {
+            "arc": "Bullseye Arc",
+            "type": "attack",
+            "value": 3
+        },
+        {
+            "arc": "Single Turret Arc",
+            "type": "attack",
+            "value": 2
+        },
+        {
+            "type": "agility",
+            "value": 3
+        },
+        {
+            "type": "hull",
+            "value": 4
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Evade"
+        }
+    ],
+    "pilots": [
+        {
+            "name": "Stalgasin Hive Guard",
+            "initiative": 3,
+            "limited": 0,
+            "xws": "stalgasinhiveguard",
+            "shipAbility": {
+                "name": "Pinpoint Turret Array",
+                "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver you may gain 1 tractor token to perform a [Rotate Arc] action."
+            },
+            "hyperspace": false
+        },
+        {
+            "name": "Sun Fac",
+            "initiative": 6,
+            "limited": 0,
+            "xws": "sunfac",
+            "shipAbility": {
+                "name": "Pinpoint Turret Array",
+                "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver you may gain 1 tractor token to perform a [Rotate Arc] action."
+            },
+            "hyperspace": false
+        }
+    ]
+}
