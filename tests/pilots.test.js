@@ -1,3 +1,4 @@
+const { checkKeywordsInString } = require("./helpers/keywords");
 const { matchers } = require("jest-json-schema");
 expect.extend(matchers);
 
@@ -20,6 +21,15 @@ pilotFiles.forEach(({ faction, ships }) => {
           pilots.forEach(p => {
             test(`${p.name || `(unknown pilot)`}`, () => {
               expect(p).toMatchSchema(pilotSchema);
+              if (p.text) {
+                checkKeywordsInString(p.text);
+              }
+              if (p.ability) {
+                checkKeywordsInString(p.ability);
+              }
+              if (p.shipAbility) {
+                checkKeywordsInString(p.shipAbility.text);
+              }
             });
           });
         });
