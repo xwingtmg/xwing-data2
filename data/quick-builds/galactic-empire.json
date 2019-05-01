@@ -446,6 +446,19 @@
       ]
     },
     {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "duchess",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "device": ["connernets"],
+            "modification": ["afterburners","hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 2,
       "pilots": [
         {
@@ -463,9 +476,35 @@
         {
           "id": "blacksquadronscout",
           "upgrades": {
+            "talent": ["predator"],
+            "device": ["connernets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "blacksquadronscout",
+          "upgrades": {
             "gunner": ["skilledbombardier"],
             "device": ["proximitymines"],
             "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "countdown",
+          "upgrades": {
+            "talent": ["elusive"],
+            "device": ["protonbombs"],
+            "gunner": ["skilledbombardier"],
+            "modification": ["shieldupgrade"]
           }
         }
       ]
@@ -487,6 +526,18 @@
         {
           "id": "puresabacc",
           "upgrades": {
+            "talent": ["trickshot"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "puresabacc",
+          "upgrades": {
             "modification": ["stealthdevice"]
           }
         }
@@ -494,6 +545,19 @@
     },
     {
       "threat": 3,
+      "pilots": [
+        {
+          "id": "planetarysentinel",
+          "upgrades": {
+            "gunner": ["skilledbombardier"],
+            "device": ["protonbombs"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
       "pilots": [
         {
           "id": "planetarysentinel",

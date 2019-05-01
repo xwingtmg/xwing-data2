@@ -474,5 +474,23 @@
       { "non-limited": true }
     ],
     "cost": { "value": 3 }
+  },
+  {
+    "name": "Ensnare",
+    "xws": "ensnare",
+    "limited": 0,
+    "sides": [
+      {
+        "title": "Ensnare",
+        "type": "Talent",
+        "slots": ["Talent"],
+        "ability": "At the end of the Activation Phase, if you are tractored, you may choose 1 ship in your [Single Turret Arc] arc at range 0-1. Transfer 1 tractor token to it.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/4c/e1/4ce1fe4d-b778-4dc9-8272-23aac7c3884d/g18xs_juke2nd.png"
+      }
+    ],
+    "hyperspace": false,
+    "restrictions": [{
+      "ships": ["nantexclassstarfighter"]
+    }]
   }
 ]
