@@ -24,41 +24,19 @@
   ],
   "faction": "Separatist Alliance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 5
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 5 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Calculate"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
+    { "difficulty": "White", "type": "Calculate" },
+    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
       "type": "Barrel Roll",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Lock"
-      }
+      "linked": { "difficulty": "Red", "type": "Lock" }
     },
-    {
-      "difficulty": "Red",
-      "type": "Reload"
-    }
+    { "difficulty": "Red", "type": "Reload" }
   ],
   "pilots": [
     {
@@ -70,7 +48,8 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "hyperspace": false
+      "hyperspace": false,
+      "text": "Baktoid Armor Workshop developed the Hyena as a strike craft compatible with Trade Federation Vulture swarm tactics."
     },
     {
       "name": "Bombardment Drone",
@@ -91,6 +70,18 @@
       "xws": "dbs404",
       "initiative": 4,
       "limited": 1,
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "hyperspace": false,
+      "ability": "You can perform primary attacks at range 0. While you perform an attack at attack range 0-1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage."
+    },
+    {
+      "name": "Baktoid Prototype",
+      "xws": "baktoidprototype",
+      "initiative": 1,
+      "limited": 2,
       "shipAbility": {
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."

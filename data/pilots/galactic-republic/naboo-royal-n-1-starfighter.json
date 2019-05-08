@@ -23,41 +23,16 @@
   ],
   "faction": "Galactic Republic",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "White",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "pilots": [
     {
@@ -65,6 +40,70 @@
       "initiative": 4,
       "limited": 1,
       "xws": "anakinskywalker-nabooroyaln1starfighter",
+      "hyperspace": false,
+      "ability": "Before you reveal your maneuver, you may spend 1 [Force] to barrel roll (this is not an action).",
+      "shipAbility": {
+        "name": "Full Throttle",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+      }
+    },
+    {
+      "name": "Ric Olié",
+      "xws": "ricolie",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Full Throttle",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+      },
+      "caption": "Bravo Leader",
+      "hyperspace": false
+    },
+    {
+      "name": "Padmé Amidala",
+      "xws": "padmeamidala",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Full Throttle",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+      },
+      "caption": "Aggressive Negotiator",
+      "hyperspace": false,
+      "ability": "While an enemy ship in your [Front Arc] defends or performs an attack, that ship can modify only 1 [Focus] result (other results can still be modified)."
+    },
+    {
+      "name": "Dineé Ellberger",
+      "xws": "dineeellberger",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Full Throttle",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+      },
+      "hyperspace": false
+    },
+    {
+      "name": "Bravo Flight Officer",
+      "xws": "bravoflightofficer",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Full Throttle",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+      },
+      "text": "The volunteer pilots of the Royal Naboo Secrity Force are dedicated to protecting the people and ideals of their homeworld, and trust their Queen to send them into battle only when all other options have failed.",
+      "hyperspace": false
+    },
+    {
+      "name": "Naboo Handmaiden",
+      "xws": "naboohandmaiden",
+      "initiative": 1,
+      "limited": 2,
+      "shipAbility": {
+        "name": "Full Throttle",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+      },
       "hyperspace": false
     }
   ]
