@@ -14,12 +14,25 @@
     "hyperspace": "node scripts/hyperspace.js && yarn format"
   },
   "devDependencies": {
+    "husky": "^2.2.0",
     "jest": "^23.6.0",
     "jest-json-schema": "^2.0.1",
     "jsonfile": "^5.0.0",
     "jsonlint-cli": "^1.0.1",
+    "lint-staged": "^8.1.6",
     "node-fetch": "^2.3.0",
     "prettier": "^1.14.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "prettier": {
     "tabWidth": 2,
