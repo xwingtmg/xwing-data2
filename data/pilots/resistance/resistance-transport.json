@@ -26,5 +26,37 @@
     { "type": "agility", "value": 1 }
   ],
   "actions": [],
-  "pilots": []
+  "pilots": [
+    {
+      "name": "Cova Nell",
+      "xws": "covanell",
+      "initiative": 4,
+      "limited": 1,
+      "hyperspace": false
+    },
+    {
+      "name": "Pammich Nerro Goode",
+      "xws": "pammichnerrogoode",
+      "initiative": 3,
+      "limited": 1,
+      "caption": "D-Qar Dispatcher",
+      "hyperspace": false,
+      "ability": "While you have 2 or fewer stress tokens, you may execute red maneuvers even while stressed."
+    },
+    {
+      "name": "Nodin Chavdri",
+      "xws": "nodinchavdri",
+      "initiative": 2,
+      "limited": 1,
+      "hyperspace": false
+    },
+    {
+      "name": "Logistics Division Pilot",
+      "xws": "logisticsdivisionpilot",
+      "initiative": 1,
+      "limited": 0,
+      "text": "Without the support of the New Republic, mambers of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.",
+      "hyperspace": false
+    }
+  ]
 }
