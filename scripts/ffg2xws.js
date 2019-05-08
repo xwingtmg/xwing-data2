@@ -1,10 +1,17 @@
 // Quick script that maps ffg's `id` field to `xws` values
 
-const fs = require('fs');
-const jsonfile = require('jsonfile');
+const fs = require("fs");
+const jsonfile = require("jsonfile");
 
-const dataRoot = __dirname + '/../data';
-const ffg2xws = { pilots: {}, upgrades: {}, factions: {}, ships: {}, actions: {}, stats: {} };
+const dataRoot = __dirname + "/../data";
+const ffg2xws = {
+  pilots: {},
+  upgrades: {},
+  factions: {},
+  ships: {},
+  actions: {},
+  stats: {}
+};
 
 // Upgrades
 const upgradeFiles = fs.readdirSync(`${dataRoot}/upgrades`);
@@ -26,7 +33,9 @@ const factions = fs.readdirSync(`${dataRoot}/pilots`);
 factions.forEach(faction => {
   const ships = fs.readdirSync(`${dataRoot}/pilots/${faction}`);
   ships.forEach(file => {
-    const contents = jsonfile.readFileSync(`${dataRoot}/pilots/${faction}/${file}`);
+    const contents = jsonfile.readFileSync(
+      `${dataRoot}/pilots/${faction}/${file}`
+    );
     // Read the ship xws and FFG ID information
     if (contents.xws && contents.ffg) {
       ffg2xws.ships[contents.ffg] = contents.xws;
