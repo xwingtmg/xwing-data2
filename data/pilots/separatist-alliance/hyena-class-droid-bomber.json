@@ -49,7 +49,8 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "hyperspace": false,
-      "text": "Baktoid Armor Workshop developed the Hyena as a strike craft compatible with Trade Federation Vulture swarm tactics."
+      "text": "Baktoid Armor Workshop developed the Hyena as a strike craft compatible with Trade Federation Vulture swarm tactics.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/7b/20/7b2032d2-dc96-4b69-9c59-92c809ba3da5/swz41_techno-union-bomber.png"
     },
     {
       "name": "Bombardment Drone",
@@ -67,6 +68,7 @@
     },
     {
       "name": "DBS-404",
+      "caption": "Preservation Protocol Not Found",
       "xws": "dbs404",
       "initiative": 4,
       "limited": 1,
@@ -75,17 +77,57 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "hyperspace": false,
-      "ability": "You can perform primary attacks at range 0. While you perform an attack at attack range 0-1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage."
+      "ability": "You can perform primary attacks at range 0. While you perform an attack at attack range 0-1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/3e/40/3e40b2b1-92d4-49c7-a7e2-fbef82def2b2/swz41_dbs-404.png"
     },
     {
       "name": "Baktoid Prototype",
+      "caption": "Function over Form",
       "xws": "baktoidprototype",
       "initiative": 1,
       "limited": 2,
+      "ability": "While you perform a special attack, if a friendly ship with the Networked Calculations ship ability has a lock on the defender, you may ignore the [Focus], [Calculate], or [Lock] requirement of that attack.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/82/76/8276e0aa-4c62-402c-aa5c-529baf45822a/swz41_baktoid.png",
       "shipAbility": {
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
+      "hyperspace": false
+    },
+    {
+      "name": "Separatist Bomber",
+      "xws": "separatistbomber",
+      "initiative": 3,
+      "limited": 0,
+      "text": "The droid armies of the Separatists are callous of the plight of civilians and make not effort to limit collateral damage.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/5d/88/5d88fdec-55d6-4ea4-9fa1-af79d0ca5fcd/swz41_separatist-bomber.png",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "hyperspace": false
+    },
+    {
+      "name": "DBD-32C",
+      "caption": "Droid Control Signal Relay",
+      "limited": 1,
+      "initiative": 3,
+      "ability": "At the start of the Engagement Phase, you may spend 1 calculate token to perform a [Coordinate] action. You cannot coordinate ships that do not have the Networked Calculations ship ability.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/dd/bd/ddbd3b62-77a4-4d31-8bb9-8632e6c82207/swz41_dbs-32c.png",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll",
+          "linked": { "difficulty": "Red", "type": "Lock" }
+        },
+        { "difficulty": "Red", "type": "Jam" }
+      ],
       "hyperspace": false
     }
   ]
