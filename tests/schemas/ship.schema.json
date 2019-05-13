@@ -143,6 +143,6 @@
       }
     }
   },
-  "required": ["name", "size", "faction", "actions", "stats", "pilots"],
+  "required": ["name", "xws", "size", "faction", "actions", "stats", "pilots"],
   "additionalProperties": false
 }
