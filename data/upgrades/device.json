@@ -149,5 +149,27 @@
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
     "hyperspace": true
+  },
+  {
+    "name": "Electro-Proton Bomb",
+    "limited": 1,
+    "xws": "electroprotonbomb",
+    "sides": [
+      {
+        "title": "Electro-Proton Bomb",
+        "type": "Device",
+        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop an Electro-Proton Bomb with the [1 [Straight]] template. Then place 1 fuse marker on that device. This card's [Charge] cannot be recovered.",
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/27/b2/27b2f5f3-8f2c-4480-831d-d593cd9aa567/swz41_electro-proton_bomb.png",
+        "slots": ["Device", "Modification"],
+        "charges": { "value": 1, "recovers": 0 },
+        "device": {
+          "name": "Electro-Proton Bomb",
+          "type": "Bomb",
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-2 rolls 4 attack dice. Each ship loses 1 shield for each blank result, gains 1 ion token for each [Focus]/[Hit] result, and gains 1 disarm token for each [Crit] result."
+        }
+      }
+    ],
+    "hyperspace": false,
+    "restrictions": [{ "action": { "type": "Reload", "difficulty": "White" } }]
   }
 ]

@@ -294,5 +294,20 @@
     "restrictions": [{ "equipped": ["Astromech"] }],
     "hyperspace": true,
     "cost": { "value": 4 }
+  },
+  {
+    "name": "Delayed Fuses",
+    "limited": 0,
+    "xws": "delayedfuses",
+    "sides": [
+      {
+        "title": "Delayed Fuses",
+        "type": "Modification",
+        "ability": "After you drop, launch or place a bomb or mine, you may place 1 fuse marker on that device.",
+        "slots": ["Modification"],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/93/70/93702f17-5771-4460-8d22-b99566061306/swz41_delayed-fuses.png"
+      }
+    ],
+    "hyperspace": false
   }
 ]
