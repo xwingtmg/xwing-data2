@@ -1,86 +1,118 @@
 {
-    "name": "BTL-B Y-wing",
-    "xws": "btlbywing",
-    "size": "Small",
-    "dial": [
-        "1BW",
-        "1FB",
-        "1NW",
-        "2TW",
-        "2BW",
-        "2FB",
-        "2NW",
-        "2YW",
-        "3TR",
-        "3BW",
-        "3FW",
-        "3NW",
-        "3YR",
-        "4FR",
-        "4KR"
-    ],
-    "faction": "Galactic Republic",
-    "stats": [
-        {
-            "arc": "Front Arc",
-            "type": "attack",
-            "value": 2
-        },
-        {
-            "type": "agility",
-            "value": 1
-        },
-        {
-            "type": "hull",
-            "value": 5
-        },
-        {
-            "type": "shields",
-            "value": 3
-        }
-    ],
-    "actions": [
-        {
-            "difficulty": "White",
-            "type": "Focus"
-        },
-        {
-            "difficulty": "White",
-            "type": "Lock"
-        },
-        {
-            "difficulty": "Red",
-            "type": "Barrel Roll"
-        },
-        {
-            "difficulty": "Red",
-            "type": "Reload"
-        }
-    ],
-    "pilots": [
-        {
-            "name": "Shadow Squadron Veteran",
-            "initiative": 3,
-            "limited": 0,
-            "xws": "shadowsquadronveteran",
-            "text": "Shadow Squadron has served since the early days of the Clone Wars, winning victories at Kadavo and against the flagship of Griesvous, Malevolence.",
-            "image": "https://images-cdn.fantasyflightgames.com/filer_public/b6/ca/b6cad4cc-120c-4637-8d49-3c9dba68f6ed/swz_w5_pilot-shadow-sqd-vet.png",
-            "shipAbility": {
-                "name": "Plated Hull",
-                "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
-            },
-            "hyperspace": false
-        },
-        {
-            "name": "Anakin Skywalker",
-            "initiative": 6,
-            "limited": 0,
-            "xws": "anakinskywalker-btlbywing",
-            "shipAbility": {
-                "name": "Plated Hull",
-                "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
-            },
-            "hyperspace": false
-        }
-    ]
+  "name": "BTL-B Y-wing",
+  "xws": "btlbywing",
+  "size": "Small",
+  "dial": [
+    "1BW",
+    "1FB",
+    "1NW",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YR",
+    "4FR",
+    "4KR"
+  ],
+  "faction": "Galactic Republic",
+  "stats": [
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 5 },
+    { "type": "shields", "value": 3 }
+  ],
+  "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Barrel Roll" },
+    { "difficulty": "Red", "type": "Reload" }
+  ],
+  "pilots": [
+    {
+      "name": "Shadow Squadron Veteran",
+      "initiative": 3,
+      "limited": 0,
+      "xws": "shadowsquadronveteran",
+      "text": "Shadow Squadron has served since the early days of the Clone Wars, winning victories at Kadavo and against the flagship of Grievous, Malevolence.",
+      "image": "https://images-cdn.fantasyflightgames.com/filer_public/b6/ca/b6cad4cc-120c-4637-8d49-3c9dba68f6ed/swz_w5_pilot-shadow-sqd-vet.png",
+      "shipAbility": {
+        "name": "Plated Hull",
+        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+      },
+      "hyperspace": false
+    },
+    {
+      "name": "Anakin Skywalker",
+      "initiative": 6,
+      "limited": 0,
+      "xws": "anakinskywalker-btlbywing",
+      "shipAbility": {
+        "name": "Plated Hull",
+        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+      },
+      "hyperspace": false
+    },
+    {
+      "name": "\"Odd Ball\"",
+      "xws": "oddball-btlbywing",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Plated Hull",
+        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+      },
+      "caption": "CC-2237",
+      "hyperspace": false
+    },
+    {
+      "name": "\"Matchstick\"",
+      "xws": "matchstick",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Plated Hull",
+        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+      },
+      "hyperspace": false
+    },
+    {
+      "name": "\"Broadside\"",
+      "xws": "broadside",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Plated Hull",
+        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+      },
+      "hyperspace": false
+    },
+    {
+      "name": "\"Goji\"",
+      "xws": "goji",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Plated Hull",
+        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+      },
+      "hyperspace": false
+    },
+    {
+      "name": "Red Squadron Bomber",
+      "xws": "redsquadronbomber",
+      "initiative": 2,
+      "limited": 0,
+      "shipAbility": {
+        "name": "Plated Hull",
+        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+      },
+      "text": "Shadow Squadron has served since the early days of the Clone Wars, winning victories at Kadavo and against the flagship of Grievous, Malevolence.",
+      "hyperspace": false
+    }
+  ]
 }

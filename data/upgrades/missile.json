@@ -214,5 +214,28 @@
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
     "hyperspace": true
+  },
+  {
+    "name": "Diamond-Boron Missiles",
+    "limited": 1,
+    "xws": "diamondboronmissiles",
+    "sides": [
+      {
+        "title": "Diamond-Boron Missiles",
+        "type": "Missile",
+        "slots": ["Missile", "Missile"],
+        "ability": "Attack ([Lock]): Spend 1 [Calculate]. After this attack hits, you may spend 1 [Charge]. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender's rolls 1 attack die and suffers 1 [Hit]/[Critical Hit] damage for each matching result.",
+        "charges": { "value": 3, "recovers": 0 },
+        "attack": {
+          "arc": "Front Arc",
+          "value": 3,
+          "minrange": 2,
+          "maxrange": 3,
+          "ordnance": true
+        },
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f1/c4/f1c4559f-1817-4256-a229-132b40d83ec9/swz41_diamond-boron-missiles.png"
+      }
+    ],
+    "hyperspace": false
   }
 ]
