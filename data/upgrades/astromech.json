@@ -369,5 +369,19 @@
     "restrictions": [{ "factions": ["Galactic Republic"] }],
     "hyperspace": true,
     "cost": { "value": 5 }
+  },
+  {
+    "name": "R2-A6",
+    "limited": 1,
+    "xws": "r2a6",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you reveal your dial, you may set your dial to a maneuver of the same bearing of a speed 1 higher or lower.",
+        "title": "R2-A6",
+        "type": "Astromech",
+        "slots": ["Astromech"]
+      }
+    ]
   }
 ]

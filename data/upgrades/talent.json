@@ -490,5 +490,19 @@
     ],
     "hyperspace": false,
     "restrictions": [{ "ships": ["nantexclassstarfighter"] }]
+  },
+  {
+    "name": "Snap Shot",
+    "limited": 0,
+    "xws": "snapshot",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Your dice cannot be modified.",
+        "title": "Snap Shot",
+        "type": "Talent",
+        "slots": ["Talent"]
+      }
+    ]
   }
 ]

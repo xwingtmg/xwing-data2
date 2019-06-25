@@ -309,5 +309,27 @@
       }
     ],
     "hyperspace": false
+  },
+  {
+    "name": "Angled Deflectors",
+    "limited": 0,
+    "xws": "angleddeflectors",
+    "hyperspace": false,
+    "sides": [
+      {
+        "text": "Starfighter shields often have manual overrides that allow thenm to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",
+        "title": "Angled Deflectors",
+        "type": "Modification",
+        "slots": ["Modification"],
+        "restrictions": [{ "sizes": ["Small", "Medium"] }],
+        "grants": [
+          { "type": "stat", "value": "shields", "amount": -1 },
+          {
+            "type": "action",
+            "value": { "type": "Reinforce", "difficulty": "White" }
+          }
+        ]
+      }
+    ]
   }
 ]

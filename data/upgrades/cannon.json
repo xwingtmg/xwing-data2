@@ -98,5 +98,19 @@
     ],
     "cost": { "value": 2 },
     "hyperspace": true
+  },
+  {
+    "name": "Autoblaster",
+    "limited": 0,
+    "xws": "autoblaster",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Attack: If the defender is in your [Bullseye Arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender's [Front Arc], [Evade] results do not cancel [Critical Hit] results.",
+        "title": "Autoblaster",
+        "type": "Cannon",
+        "slots": ["Cannon"]
+      }
+    ]
   }
 ]
