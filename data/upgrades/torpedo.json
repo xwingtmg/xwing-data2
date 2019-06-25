@@ -76,5 +76,19 @@
     ],
     "cost": { "value": 12 },
     "hyperspace": true
+  },
+  {
+    "name": "Plasma Torpedoes",
+    "limited": 0,
+    "xws": "plasmatorpedoes",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Attack ([Lock]): Spend 1 [Charge]. During the Neutralize Results step, [Critical Hit] results are canceled before [Hit] results. After this attack hits, the defender loses 1 shield.",
+        "title": "Plasma Torpedoes",
+        "type": "Torpedo",
+        "slots": ["Torpedo"]
+      }
+    ]
   }
 ]

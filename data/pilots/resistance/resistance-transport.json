@@ -24,16 +24,24 @@
   "faction": "Resistance",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 }
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 5 },
+    { "type": "shields", "value": 3 }
   ],
-  "actions": [],
+  "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "Red", "type": "Lock" },
+    { "difficulty": "Red", "type": "Coordinate" },
+    { "difficulty": "Red", "type": "Jam" }
+  ],
   "pilots": [
     {
       "name": "Cova Nell",
       "xws": "covanell",
       "initiative": 4,
       "limited": 1,
-      "hyperspace": false
+      "hyperspace": false,
+      "ability": "While you defend or perform a primary attack, if your revealed maneuver is red, roll 1 additional die."
     },
     {
       "name": "Pammich Nerro Goode",
@@ -49,7 +57,8 @@
       "xws": "nodinchavdri",
       "initiative": 2,
       "limited": 1,
-      "hyperspace": false
+      "hyperspace": false,
+      "ability": "After you coordinate or are coordinated, if you have 2 or fewer stress tokens, you may perform 1 action on your action bar as a red action, even if you are stressed."
     },
     {
       "name": "Logistics Division Pilot",

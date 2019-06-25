@@ -42,6 +42,7 @@
       "xws": "anakinskywalker-nabooroyaln1starfighter",
       "hyperspace": false,
       "ability": "Before you reveal your maneuver, you may spend 1 [Force] to barrel roll (this is not an action).",
+      "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
@@ -57,7 +58,8 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "caption": "Bravo Leader",
-      "hyperspace": false
+      "hyperspace": false,
+      "ability": "While you defend or perform a primary attack, if the speed of yor revealed maneuver is higher than the enemy ship's, roll 1 additional die."
     },
     {
       "name": "Padmé Amidala",
@@ -75,13 +77,15 @@
     {
       "name": "Dineé Ellberger",
       "xws": "dineeellberger",
+      "caption": "Bravo Five",
       "initiative": 3,
       "limited": 1,
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "hyperspace": false
+      "hyperspace": false,
+      "ability": "While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship's, that ship's dice cannot be modified."
     },
     {
       "name": "Bravo Flight Officer",
@@ -98,13 +102,16 @@
     {
       "name": "Naboo Handmaiden",
       "xws": "naboohandmaiden",
+      "caption": "Regal Ruse",
       "initiative": 1,
       "limited": 2,
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "hyperspace": false
+      "hyperspace": false,
+      "conditions": ["decoyed"],
+      "ability": "Setup: After placing forces, assign the Decoyed condition to 1 friendly ship other than Naboo Handmaiden."
     }
   ]
 }

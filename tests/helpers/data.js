@@ -56,6 +56,29 @@ const validatePilotXWSId = id => {
   }
 };
 
+const loadConditions = () => {
+  return require(`../../${manifest.conditions}`);
+};
+
+const getConditions = () => {
+  if (!loadedData.conditions) {
+    loadedData.conditions = loadConditions();
+  }
+  return loadedData.conditions;
+};
+
+const getConditionXWSIds = () => {
+  const conditions = getConditions();
+  return conditions.map(c => c.xws).filter(Boolean);
+};
+
+const validateConditionXWSId = id => {
+  const ids = getConditionXWSIds();
+  if (ids.indexOf(id) === -1) {
+    throw new Error(`Condition with xws id "${id}" does not exist`);
+  }
+};
+
 const loadUpgrades = () => {
   const allUpgrades = [];
 
@@ -102,5 +125,6 @@ module.exports = {
   getPilotXWSIds,
   validatePilotXWSId,
   getUpgradesXWSIds,
-  validateUpgradeXWSIdForSlot
+  validateUpgradeXWSIdForSlot,
+  validateConditionXWSId
 };
