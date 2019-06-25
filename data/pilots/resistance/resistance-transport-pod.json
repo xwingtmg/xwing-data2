@@ -38,7 +38,8 @@
       "xws": "bb8",
       "initiative": 3,
       "limited": 1,
-      "hyperspace": false
+      "hyperspace": false,
+      "ability": "During the System Phase, you may perform a red [Barrel Roll] or [Boost] action."
     },
     {
       "name": "Rose Tico",
@@ -56,7 +57,17 @@
       "limited": 1,
       "caption": "Starling",
       "hyperspace": false,
-      "ability": "Setup: After placing forces, assign the Compromising Intel condition to 1 enemy ship."
+      "ability": "Setup: After placing forces, assign the Compromising Intel condition to 1 enemy ship.",
+      "conditions": ["compromisingintel"]
+    },
+    {
+      "name": "Finn",
+      "xws": "finn",
+      "initiative": 2,
+      "limited": 1,
+      "caption": "Big Deal",
+      "hyperspace": false,
+      "ability": "While you defend or perform an attack, you may add 1 blank result, or you may gain 1 strain token to add 1 focus result instead."
     }
   ]
 }
