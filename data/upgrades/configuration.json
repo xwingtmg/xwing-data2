@@ -188,7 +188,7 @@
     ],
     "restrictions": [{ "ships": ["vultureclassdroidfighter"] }],
     "hyperspace": true,
-    "cost": { "value": 3 }
+    "cost": { "value": 1 }
   },
   {
     "name": "Delta-7B",
@@ -268,6 +268,7 @@
       }
     ],
     "restrictions": [{ "ships": ["hyenaclassdroidbomber"] }],
-    "hyperspace": false
+    "hyperspace": false,
+    "cost": { "value": 1 }
   }
 ]
