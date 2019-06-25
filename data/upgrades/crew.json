@@ -1364,7 +1364,8 @@
     "name": "Amilyn Holdo",
     "limited": 1,
     "xws": "amilynholdo",
-    "hyperspace": false,
+    "hyperspace": true,
+    "cost": { "value": 9 },
     "sides": [
       {
         "ability": "Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.",
@@ -1378,7 +1379,8 @@
     "name": "GA-97",
     "limited": 1,
     "xws": "ga97",
-    "hyperspace": false,
+    "hyperspace": true,
+    "cost": { "value": 8 },
     "sides": [
       {
         "ability": "Setup: Before placing forces, you may spend 3-5 [Charge]. If you do, choose another friendly ship and assign the It's the Resistance condition to it.",
@@ -1398,7 +1400,8 @@
     "name": "Kaydel Connix",
     "limited": 1,
     "xws": "kaydelconnix",
-    "hyperspace": false,
+    "hyperspace": true,
+    "cost": { "value": 5 },
     "sides": [
       {
         "ability": "After you reveal your dial, you may set your dial to a basic maneuver of the next higher speed. While you execute that maneuver, increase its difficulty.",
@@ -1412,7 +1415,8 @@
     "name": "Korr Sella",
     "limited": 1,
     "xws": "korrsella",
-    "hyperspace": false,
+    "hyperspace": true,
+    "cost": { "value": 6 },
     "sides": [
       {
         "ability": "After you execute a blue maneuver, remove all of your stress tokens.",
@@ -1426,7 +1430,8 @@
     "name": "Larma D'Acy",
     "limited": 1,
     "xws": "larmadacy",
-    "hyperspace": false,
+    "hyperspace": true,
+    "cost": { "value": 4 },
     "sides": [
       {
         "ability": "While you have 2 or fewer stress tokens, you can perform [Reinforce], [Coordinate], and [Jam] actions, even while stressed. While you perform a white [Reinforce], [Coordinate], or [Jam] action, if you are stressed, treat that action as red.",
@@ -1440,7 +1445,8 @@
     "name": "Leia Organa",
     "limited": 1,
     "xws": "leiaorgana-resistance",
-    "hyperspace": false,
+    "hyperspace": true,
+    "cost": { "value": 19 },
     "sides": [
       {
         "ability": "After a friendly ship reveals its dial, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.",
@@ -1460,7 +1466,7 @@
     "name": "PZ-4CO",
     "limited": 1,
     "xws": "pz4co",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.",
