@@ -23,7 +23,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Ion Torpedoes",
@@ -74,14 +74,14 @@
         "ffg": 264
       }
     ],
-    "cost": { "value": 12 },
+    "cost": { "value": 13 },
     "hyperspace": true
   },
   {
     "name": "Plasma Torpedoes",
     "limited": 0,
     "xws": "plasmatorpedoes",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "Attack ([Lock]): Spend 1 [Charge]. During the Neutralize Results step, [Critical Hit] results are canceled before [Hit] results. After this attack hits, the defender loses 1 shield.",

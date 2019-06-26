@@ -465,7 +465,7 @@
       }
     ],
     "cost": { "value": 10 },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Grand Inquisitor",
@@ -1049,7 +1049,10 @@
         "ffg": 276
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8 }
+    },
     "hyperspace": true
   },
   {
@@ -1115,7 +1118,7 @@
         "ffg": 277
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 6 },
     "restrictions": [
       { "action": { "type": "Coordinate", "difficulty": "Red" } }
     ],

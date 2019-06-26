@@ -74,7 +74,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Engine Upgrade",
@@ -231,7 +231,7 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "sizes": ["Medium", "Large"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Impervium Plating",
@@ -308,13 +308,13 @@
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/93/70/93702f17-5771-4460-8d22-b99566061306/swz41_delayed-fuses.png"
       }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Angled Deflectors",
     "limited": 0,
     "xws": "angleddeflectors",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "text": "Starfighter shields often have manual overrides that allow thenm to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",
