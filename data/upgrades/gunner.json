@@ -36,7 +36,7 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Bistan",
@@ -134,7 +134,7 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Greedo",

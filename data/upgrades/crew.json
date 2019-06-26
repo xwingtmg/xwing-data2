@@ -56,7 +56,7 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "4-LOM",
@@ -92,7 +92,7 @@
         "ffg": 335
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": false
   },
@@ -112,9 +112,9 @@
         "ffg": 336
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Baze Malbus",
@@ -292,7 +292,7 @@
         "ffg": 337
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Coordinate" } }
@@ -387,7 +387,7 @@
         "ffg": 340
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": true
   },
@@ -508,7 +508,7 @@
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Lock" } }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Hera Syndulla",
@@ -877,7 +877,7 @@
         "ffg": 346
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 8 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Coordinate" } }
@@ -1073,7 +1073,7 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Supreme Leader Snoke",
