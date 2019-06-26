@@ -40,8 +40,11 @@
       "initiative": 4,
       "limited": 1,
       "xws": "anakinskywalker-nabooroyaln1starfighter",
-      "hyperspace": false,
+      "hyperspace": true,
+      "cost": 41,
+      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "Before you reveal your maneuver, you may spend 1 [Force] to barrel roll (this is not an action).",
+      "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
@@ -57,7 +60,10 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "caption": "Bravo Leader",
-      "hyperspace": false
+      "hyperspace": true,
+      "cost": 42,
+      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
+      "ability": "While you defend or perform a primary attack, if the speed of yor revealed maneuver is higher than the enemy ship's, roll 1 additional die."
     },
     {
       "name": "Padmé Amidala",
@@ -69,19 +75,25 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "caption": "Aggressive Negotiator",
-      "hyperspace": false,
+      "hyperspace": true,
+      "cost": 45,
+      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "While an enemy ship in your [Front Arc] defends or performs an attack, that ship can modify only 1 [Focus] result (other results can still be modified)."
     },
     {
       "name": "Dineé Ellberger",
       "xws": "dineeellberger",
+      "caption": "Bravo Five",
       "initiative": 3,
       "limited": 1,
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "hyperspace": false
+      "hyperspace": true,
+      "cost": 38,
+      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
+      "ability": "While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship's, that ship's dice cannot be modified."
     },
     {
       "name": "Bravo Flight Officer",
@@ -93,18 +105,25 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "text": "The volunteer pilots of the Royal Naboo Secrity Force are dedicated to protecting the people and ideals of their homeworld, and trust their Queen to send them into battle only when all other options have failed.",
-      "hyperspace": false
+      "hyperspace": true,
+      "cost": 41,
+      "slots": ["Sensor", "Torpedo", "Astromech"]
     },
     {
       "name": "Naboo Handmaiden",
       "xws": "naboohandmaiden",
+      "caption": "Regal Ruse",
       "initiative": 1,
       "limited": 2,
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "hyperspace": false
+      "hyperspace": true,
+      "conditions": ["decoyed"],
+      "ability": "Setup: After placing forces, assign the Decoyed condition to 1 friendly ship other than Naboo Handmaiden.",
+      "cost": 44,
+      "slots": ["Sensor", "Torpedo", "Astromech"]
     }
   ]
 }

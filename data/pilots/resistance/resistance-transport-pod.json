@@ -38,7 +38,10 @@
       "xws": "bb8",
       "initiative": 3,
       "limited": 1,
-      "hyperspace": false
+      "hyperspace": true,
+      "cost": 26,
+      "slots": ["Talent", "Tech", "Crew", "Modification"],
+      "ability": "During the System Phase, you may perform a red [Barrel Roll] or [Boost] action."
     },
     {
       "name": "Rose Tico",
@@ -46,7 +49,9 @@
       "initiative": 3,
       "limited": 1,
       "caption": "Earnest Engineer",
-      "hyperspace": false,
+      "hyperspace": true,
+      "cost": 26,
+      "slots": ["Talent", "Tech", "Crew", "Modification"],
       "ability": "While you defend or perform an attack, you may reroll up to 1 of your results for each other friendly ship in the attack arc."
     },
     {
@@ -55,8 +60,22 @@
       "initiative": 1,
       "limited": 1,
       "caption": "Starling",
-      "hyperspace": false,
-      "ability": "Setup: After placing forces, assign the Compromising Intel condition to 1 enemy ship."
+      "hyperspace": true,
+      "cost": 27,
+      "slots": ["Tech", "Crew", "Modification"],
+      "ability": "Setup: After placing forces, assign the Compromising Intel condition to 1 enemy ship.",
+      "conditions": ["compromisingintel"]
+    },
+    {
+      "name": "Finn",
+      "xws": "finn",
+      "initiative": 2,
+      "limited": 1,
+      "caption": "Big Deal",
+      "hyperspace": true,
+      "cost": 29,
+      "slots": ["Talent", "Tech", "Crew", "Modification"],
+      "ability": "While you defend or perform an attack, you may add 1 blank result, or you may gain 1 strain token to add 1 focus result instead."
     }
   ]
 }

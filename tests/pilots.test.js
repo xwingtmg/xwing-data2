@@ -1,4 +1,5 @@
 const { checkKeywordsInString } = require("./helpers/keywords");
+const { validateConditionXWSId } = require("./helpers/data");
 const { matchers } = require("jest-json-schema");
 expect.extend(matchers);
 
@@ -29,6 +30,9 @@ pilotFiles.forEach(({ faction, ships }) => {
               }
               if (p.shipAbility) {
                 checkKeywordsInString(p.shipAbility.text);
+              }
+              if (p.conditions) {
+                p.conditions.forEach(c => validateConditionXWSId(c));
               }
             });
           });

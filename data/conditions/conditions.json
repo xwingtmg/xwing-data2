@@ -30,5 +30,15 @@
     "name": "Suppressive Fire",
     "ability": "While you perform an attack against a ship other than Captain Rex, roll 1 fewer attack die. After Captain Rex defends, remove this card. At the end of the Combat phase, if Captain Rex did not perform an attack this phase, remove this card. After Captain Rex is destroyed, remove this card.",
     "xws": "suppressivefire"
+  },
+  {
+    "name": "Decoyed",
+    "ability": "While you defend, each friendly Naboo Handmaiden in the attack arc may spend 1 evade token to change one of your results to an [Evade] result. If you are a Naboo Royal N-1 Starfighter, each friendly Naboo Handmaiden in the attack may spend 1 evade token to add 1 [Evade] result instead.",
+    "xws": "decoyed"
+  },
+  {
+    "name": "Compromising Intel",
+    "ability": "During the System Phase, if the enemy Vi Moradi is at range 0-3, flip your dial faceup. While you defend or perform an attack against the enemy Vi Moradi, you cannot spend focus tokens.",
+    "xws": "compromisingintel"
   }
 ]
