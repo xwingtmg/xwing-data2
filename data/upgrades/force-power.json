@@ -32,7 +32,7 @@
         "ffg": 249
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 1 },
     "hyperspace": true
   },
   {
@@ -50,7 +50,7 @@
         "ffg": 250
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 5 },
     "hyperspace": true
   },
   {
@@ -91,8 +91,7 @@
       }
     ],
     "cost": {
-      "variable": "agility",
-      "values": { "0": 0, "1": 2, "2": 4, "3": 6 }
+      "value": 3
     },
     "hyperspace": true
   },
@@ -111,7 +110,10 @@
         "ffg": 489
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "variable": "size",
+      "values": { "Small": 3, "Medium": 6, "Large": 9 }
+    },
     "restrictions": [{ "force_side": ["dark"] }],
     "hyperspace": true
   },
@@ -130,7 +132,7 @@
         "ffg": 490
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 1 },
     "hyperspace": true
   },
   {
@@ -157,7 +159,7 @@
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 3, "1": 5, "2": 7, "3": 9, "4": 11, "5": 13, "6": 15 }
+      "values": { "0": 0, "1": 2, "2": 4, "3": 6, "4": 8, "5": 10, "6": 12 }
     },
     "restrictions": [{ "factions": ["Galactic Republic"] }],
     "hyperspace": true

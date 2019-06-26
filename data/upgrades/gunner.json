@@ -36,7 +36,7 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Bistan",
@@ -112,7 +112,7 @@
         "ffg": 320
       }
     ],
-    "cost": { "value": 18 },
+    "cost": { "value": 14 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": false
   },
@@ -134,7 +134,7 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Greedo",
@@ -306,7 +306,7 @@
         "ffg": 281
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 8 },
     "restrictions": [{ "action": { "type": "Rotate Arc" } }],
     "hyperspace": true
   },

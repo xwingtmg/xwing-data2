@@ -40,7 +40,18 @@
       "xws": "covanell",
       "initiative": 4,
       "limited": 1,
-      "hyperspace": false,
+      "hyperspace": true,
+      "cost": 38,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Cannon",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Astromech",
+        "Modification"
+      ],
       "ability": "While you defend or perform a primary attack, if your revealed maneuver is red, roll 1 additional die."
     },
     {
@@ -49,7 +60,9 @@
       "initiative": 3,
       "limited": 1,
       "caption": "D-Qar Dispatcher",
-      "hyperspace": false,
+      "hyperspace": true,
+      "cost": 36,
+      "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
       "ability": "While you have 2 or fewer stress tokens, you may execute red maneuvers even while stressed."
     },
     {
@@ -57,7 +70,9 @@
       "xws": "nodinchavdri",
       "initiative": 2,
       "limited": 1,
-      "hyperspace": false,
+      "hyperspace": true,
+      "cost": 36,
+      "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
       "ability": "After you coordinate or are coordinated, if you have 2 or fewer stress tokens, you may perform 1 action on your action bar as a red action, even if you are stressed."
     },
     {
@@ -66,7 +81,9 @@
       "initiative": 1,
       "limited": 0,
       "text": "Without the support of the New Republic, mambers of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.",
-      "hyperspace": false
+      "hyperspace": true,
+      "cost": 32,
+      "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"]
     }
   ]
 }

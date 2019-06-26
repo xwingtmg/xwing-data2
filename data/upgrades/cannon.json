@@ -47,7 +47,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Jamming Beam",
@@ -103,7 +103,7 @@
     "name": "Autoblaster",
     "limited": 0,
     "xws": "autoblaster",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "Attack: If the defender is in your [Bullseye Arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender's [Front Arc], [Evade] results do not cancel [Critical Hit] results.",

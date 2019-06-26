@@ -71,7 +71,7 @@
       { "factions": ["Galactic Empire"] },
       { "ships": ["vt49decimator"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Ghost",
@@ -401,7 +401,7 @@
         "ffg": 378
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["lancerclasspursuitcraft"] }
@@ -498,7 +498,7 @@
       { "ships": ["belbullab22starfighter"] }
     ],
     "hyperspace": true,
-    "cost": { "value": 10 }
+    "cost": { "value": 6 }
   },
   {
     "name": "Scimitar",
