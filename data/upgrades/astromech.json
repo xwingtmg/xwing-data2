@@ -75,7 +75,10 @@
         "ffg": 324
       }
     ],
-    "cost": { "value": 6 },
+    "cost": {
+      "variable": "agility",
+      "values": { "0": 4, "1": 4, "2": 5, "3": 7 }
+    },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
