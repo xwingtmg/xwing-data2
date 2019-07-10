@@ -76,13 +76,16 @@
     "name": "Passive Sensors",
     "limited": 0,
     "xws": "passivesensors",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "Action: Spend 1 [Charge]. You can only perform this action in your perform action step. While your [Charge] is inactive, you cannot be coordinated. Before you engage, if your [Charge] is inactive, you may perform a [Coordinate] or [Lock] action.",
         "title": "Passive Sensors",
         "type": "Sensor",
-        "slots": ["Sensor"]
+        "slots": ["Sensor"],
+        "ffg": 577,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a9c69fd08df1a2ce84f240943fe05245.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/08a980b359fb73dbcb9a315e94d505f0.png"
       }
     ]
   }

@@ -100,16 +100,26 @@
     "hyperspace": true
   },
   {
-    "name": "Autoblaster",
+    "name": "Autoblasters",
     "limited": 0,
-    "xws": "autoblaster",
+    "xws": "autoblasters",
     "hyperspace": true,
     "sides": [
       {
         "ability": "Attack: If the defender is in your [Bullseye Arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender's [Front Arc], [Evade] results do not cancel [Critical Hit] results.",
-        "title": "Autoblaster",
+        "title": "Autoblasters",
         "type": "Cannon",
-        "slots": ["Cannon"]
+        "slots": ["Cannon"],
+        "attack": {
+          "arc": "Front Arc",
+          "value": 2,
+          "minrange": 1,
+          "maxrange": 2,
+          "ordnance": false
+        },
+        "ffg": 578,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/dbdad938bd9f4ce64af1d7106dfd5b5e.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/59d4a52e3a534dd090259bd5546e7bab.png"
       }
     ]
   }
