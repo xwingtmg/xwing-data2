@@ -71,5 +71,19 @@
     ],
     "cost": { "value": 10 },
     "hyperspace": true
+  },
+  {
+    "name": "Passive Sensors",
+    "limited": 0,
+    "xws": "passivesensors",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Action: Spend 1 [Charge]. You can only perform this action in your perform action step. While your [Charge] is inactive, you cannot be coordinated. Before you engage, if your [Charge] is inactive, you may perform a [Coordinate] or [Lock] action.",
+        "title": "Passive Sensors",
+        "type": "Sensor",
+        "slots": ["Sensor"]
+      }
+    ]
   }
 ]

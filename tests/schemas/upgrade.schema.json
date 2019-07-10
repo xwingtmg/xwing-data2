@@ -236,7 +236,9 @@
                 "hyenaclassdroidbomber",
                 "nabooroyaln1starfighter",
                 "resistancetransport",
-                "resistancetransportpod"
+                "resistancetransportpod",
+                "nantexclassstarfighter",
+                "btlbywing"
               ]
             }
           },
@@ -382,17 +384,12 @@
           "device": {
             "type": "object",
             "properties": {
-              "name": {"type": "string"},
+              "name": { "type": "string" },
               "type": {
                 "type": "string",
-                "enum": [
-                  "Bomb",
-                  "Mine",
-                  "Obstacle",
-                  "Remote"
-                ]
+                "enum": ["Bomb", "Mine", "Obstacle", "Remote"]
               },
-              "effect": {"type": "string"},
+              "effect": { "type": "string" },
               "initiative": {
                 "type": "integer",
                 "minimum": 0,
@@ -407,21 +404,14 @@
                       "properties": {
                         "type": {
                           "type": "string",
-                          "enum": [
-                            "agility",
-                            "hull",
-                            "shields"
-                          ]
+                          "enum": ["agility", "hull", "shields"]
                         },
                         "value": {
                           "type": "integer",
                           "minimum": 0
                         }
                       },
-                      "required": [
-                        "type",
-                        "value"
-                      ],
+                      "required": ["type", "value"],
                       "additionalProperties": false
                     },
                     {
@@ -429,9 +419,7 @@
                       "properties": {
                         "type": {
                           "type": "string",
-                          "enum": [
-                            "attack"
-                          ]
+                          "enum": ["attack"]
                         },
                         "arc": {
                           "type": "string",
@@ -449,11 +437,7 @@
                           "minimum": 1
                         }
                       },
-                      "required": [
-                        "type",
-                        "value",
-                        "arc"
-                      ],
+                      "required": ["type", "value", "arc"],
                       "additionalProperties": false
                     }
                   ]

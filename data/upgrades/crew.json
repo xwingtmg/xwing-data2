@@ -73,7 +73,7 @@
         "names": ["Darth Vader"]
       }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "4-LOM",
@@ -115,14 +115,8 @@
         "ffg": 335
       }
     ],
-    "cost": {
-      "value": 10
-    },
-    "restrictions": [
-      {
-        "factions": ["Galactic Empire"]
-      }
-    ],
+    "cost": { "value": 9 },
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": false
   },
   {
@@ -141,15 +135,9 @@
         "ffg": 336
       }
     ],
-    "cost": {
-      "value": 6
-    },
-    "restrictions": [
-      {
-        "factions": ["Galactic Empire"]
-      }
-    ],
-    "hyperspace": false
+    "cost": { "value": 5 },
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": true
   },
   {
     "name": "Baze Malbus",
@@ -386,9 +374,7 @@
         "ffg": 337
       }
     ],
-    "cost": {
-      "value": 10
-    },
+    "cost": { "value": 6 },
     "restrictions": [
       {
         "factions": ["Galactic Empire"]
@@ -518,14 +504,8 @@
         "ffg": 340
       }
     ],
-    "cost": {
-      "value": 5
-    },
-    "restrictions": [
-      {
-        "factions": ["Galactic Empire"]
-      }
-    ],
+    "cost": { "value": 4 },
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": true
   },
   {
@@ -592,14 +572,8 @@
         "ffg": 466
       }
     ],
-    "cost": {
-      "value": 10
-    },
-    "restrictions": [
-      {
-        "factions": ["First Order"]
-      }
-    ],
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["First Order"] }],
     "hyperspace": true
   },
   {
@@ -621,10 +595,8 @@
         "ffg": 272
       }
     ],
-    "cost": {
-      "value": 10
-    },
-    "hyperspace": false
+    "cost": { "value": 10 },
+    "hyperspace": true
   },
   {
     "name": "Grand Inquisitor",
@@ -687,7 +659,7 @@
         }
       }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Hera Syndulla",
@@ -745,14 +717,8 @@
         "ffg": 357
       }
     ],
-    "cost": {
-      "value": 4
-    },
-    "restrictions": [
-      {
-        "factions": ["Scum and Villainy"]
-      }
-    ],
+    "cost": { "value": 3 },
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": false
   },
   {
@@ -1067,14 +1033,8 @@
         "ffg": 312
       }
     ],
-    "cost": {
-      "value": 2
-    },
-    "restrictions": [
-      {
-        "factions": ["Rebel Alliance"]
-      }
-    ],
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
   {
@@ -1130,9 +1090,7 @@
         "ffg": 361
       }
     ],
-    "cost": {
-      "value": 11
-    },
+    "cost": { "value": 12 },
     "restrictions": [
       {
         "factions": ["Scum and Villainy"],
@@ -1185,9 +1143,7 @@
         "ffg": 346
       }
     ],
-    "cost": {
-      "value": 10
-    },
+    "cost": { "value": 8 },
     "restrictions": [
       {
         "factions": ["Galactic Empire"]
@@ -1330,14 +1286,8 @@
         "ffg": 315
       }
     ],
-    "cost": {
-      "value": 8
-    },
-    "restrictions": [
-      {
-        "factions": ["Rebel Alliance"]
-      }
-    ],
+    "cost": { "value": 10 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
   {
@@ -1380,14 +1330,8 @@
         "ffg": 317
       }
     ],
-    "cost": {
-      "value": 8
-    },
-    "restrictions": [
-      {
-        "factions": ["Rebel Alliance"]
-      }
-    ],
+    "cost": { "value": 9 },
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
   {
@@ -1406,7 +1350,8 @@
       }
     ],
     "cost": {
-      "value": 5
+      "variable": "initiative",
+      "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8 }
     },
     "hyperspace": true
   },
@@ -1429,15 +1374,9 @@
         "ffg": 347
       }
     ],
-    "cost": {
-      "value": 9
-    },
-    "restrictions": [
-      {
-        "factions": ["Galactic Empire"]
-      }
-    ],
-    "hyperspace": false
+    "cost": { "value": 9 },
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "hyperspace": true
   },
   {
     "name": "Supreme Leader Snoke",
@@ -1499,9 +1438,7 @@
         "ffg": 277
       }
     ],
-    "cost": {
-      "value": 2
-    },
+    "cost": { "value": 6 },
     "restrictions": [
       {
         "action": {
@@ -1800,7 +1737,7 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a91424eea1db4aeaf24ab49d5a519e27.jpg"
       }
     ],
-    "cost": { "value": 9 },
+    "cost": { "value": 10 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
     "hyperspace": true
   },
@@ -1823,5 +1760,127 @@
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
     "hyperspace": true
+  },
+  {
+    "name": "Amilyn Holdo",
+    "limited": 1,
+    "xws": "amilynholdo",
+    "hyperspace": true,
+    "cost": { "value": 9 },
+    "sides": [
+      {
+        "ability": "Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.",
+        "title": "Amilyn Holdo",
+        "type": "Crew",
+        "slots": ["Crew"]
+      }
+    ]
+  },
+  {
+    "name": "GA-97",
+    "limited": 1,
+    "xws": "ga97",
+    "hyperspace": true,
+    "cost": { "value": 8 },
+    "sides": [
+      {
+        "ability": "Setup: Before placing forces, you may spend 3-5 [Charge]. If you do, choose another friendly ship and assign the It's the Resistance condition to it.",
+        "title": "GA-97",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Coordinate", "difficulty": "White" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kaydel Connix",
+    "limited": 1,
+    "xws": "kaydelconnix",
+    "hyperspace": true,
+    "cost": { "value": 5 },
+    "sides": [
+      {
+        "ability": "After you reveal your dial, you may set your dial to a basic maneuver of the next higher speed. While you execute that maneuver, increase its difficulty.",
+        "title": "Kaydel Connix",
+        "type": "Crew",
+        "slots": ["Crew"]
+      }
+    ]
+  },
+  {
+    "name": "Korr Sella",
+    "limited": 1,
+    "xws": "korrsella",
+    "hyperspace": true,
+    "cost": { "value": 6 },
+    "sides": [
+      {
+        "ability": "After you execute a blue maneuver, remove all of your stress tokens.",
+        "title": "Korr Sella",
+        "type": "Crew",
+        "slots": ["Crew"]
+      }
+    ]
+  },
+  {
+    "name": "Larma D'Acy",
+    "limited": 1,
+    "xws": "larmadacy",
+    "hyperspace": true,
+    "cost": { "value": 4 },
+    "sides": [
+      {
+        "ability": "While you have 2 or fewer stress tokens, you can perform [Reinforce], [Coordinate], and [Jam] actions, even while stressed. While you perform a white [Reinforce], [Coordinate], or [Jam] action, if you are stressed, treat that action as red.",
+        "title": "Larma D'Acy",
+        "type": "Crew",
+        "slots": ["Crew"]
+      }
+    ]
+  },
+  {
+    "name": "Leia Organa",
+    "limited": 1,
+    "xws": "leiaorgana-resistance",
+    "hyperspace": true,
+    "cost": { "value": 19 },
+    "sides": [
+      {
+        "ability": "After a friendly ship reveals its dial, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.",
+        "title": "Leia Organa",
+        "type": "Crew",
+        "slots": ["Crew", "Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Coordinate", "difficulty": "Purple" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PZ-4CO",
+    "limited": 1,
+    "xws": "pz4co",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.",
+        "title": "PZ-4CO",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "White" }
+          }
+        ]
+      }
+    ]
   }
 ]

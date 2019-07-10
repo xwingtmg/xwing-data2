@@ -69,7 +69,8 @@
       }
     ],
     "cost": {
-      "value": 4
+      "variable": "agility",
+      "values": { "0": 3, "1": 3, "2": 4, "3": 6 }
     },
     "hyperspace": true
   },
@@ -93,13 +94,10 @@
       }
     ],
     "cost": {
-      "value": 6
+      "variable": "agility",
+      "values": { "0": 4, "1": 4, "2": 5, "3": 7 }
     },
-    "restrictions": [
-      {
-        "factions": ["Rebel Alliance"]
-      }
-    ],
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
   {
@@ -244,14 +242,8 @@
         "ffg": 370
       }
     ],
-    "cost": {
-      "value": 1
-    },
-    "restrictions": [
-      {
-        "factions": ["Scum and Villainy"]
-      }
-    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": false
   },
   {
@@ -502,14 +494,22 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7b3b50078bef620079c43a1689bb005a.jpg"
       }
     ],
-    "restrictions": [
-      {
-        "factions": ["Galactic Republic"]
-      }
-    ],
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "hyperspace": true,
+    "cost": { "value": 5 }
+  },
+  {
+    "name": "R2-A6",
+    "limited": 1,
+    "xws": "r2a6",
     "hyperspace": false,
-    "cost": {
-      "value": 5
-    }
+    "sides": [
+      {
+        "ability": "After you reveal your dial, you may set your dial to a maneuver of the same bearing of a speed 1 higher or lower.",
+        "title": "R2-A6",
+        "type": "Astromech",
+        "slots": ["Astromech"]
+      }
+    ]
   }
 ]

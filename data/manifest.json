@@ -1,5 +1,5 @@
 {
-  "version": "1.10.1",
+  "version": "1.12.0",
   "damagedecks": ["data/damage-decks/core.json"],
   "factions": ["data/factions/factions.json"],
   "stats": ["data/stats/stats.json"],
@@ -96,7 +96,8 @@
         "data/pilots/separatist-alliance/vulture-class-droid-fighter.json",
         "data/pilots/separatist-alliance/belbullab-22-starfighter.json",
         "data/pilots/separatist-alliance/sith-infiltrator.json",
-        "data/pilots/separatist-alliance/hyena-class-droid-bomber.json"
+        "data/pilots/separatist-alliance/hyena-class-droid-bomber.json",
+        "data/pilots/separatist-alliance/nantex-class-starfighter.json"
       ]
     },
     {
@@ -105,7 +106,8 @@
         "data/pilots/galactic-republic/arc-170-starfighter.json",
         "data/pilots/galactic-republic/delta-7-aethersprite.json",
         "data/pilots/galactic-republic/v-19-torrent-starfighter.json",
-        "data/pilots/galactic-republic/naboo-royal-n-1-starfighter.json"
+        "data/pilots/galactic-republic/naboo-royal-n-1-starfighter.json",
+        "data/pilots/galactic-republic/btl-b-y-wing.json"
       ]
     }
   ],

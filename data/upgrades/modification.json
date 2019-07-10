@@ -100,10 +100,8 @@
         "ffg": 295
       }
     ],
-    "cost": {
-      "value": 2
-    },
-    "hyperspace": false
+    "cost": { "value": 2 },
+    "hyperspace": true
   },
   {
     "name": "Engine Upgrade",
@@ -311,15 +309,9 @@
         "ffg": 302
       }
     ],
-    "cost": {
-      "value": 2
-    },
-    "restrictions": [
-      {
-        "sizes": ["Medium", "Large"]
-      }
-    ],
-    "hyperspace": false
+    "cost": { "value": 2 },
+    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "hyperspace": true
   },
   {
     "name": "Impervium Plating",
@@ -342,7 +334,7 @@
     ],
     "restrictions": [{ "ships": ["belbullab22starfighter"] }],
     "hyperspace": true,
-    "cost": { "value": 6 }
+    "cost": { "value": 4 }
   },
   {
     "name": "Synchronized Console",
@@ -393,7 +385,44 @@
       }
     ],
     "restrictions": [{ "equipped": ["Astromech"] }],
-    "hyperspace": false,
+    "hyperspace": true,
     "cost": { "value": 4 }
+  },
+  {
+    "name": "Delayed Fuses",
+    "limited": 0,
+    "xws": "delayedfuses",
+    "sides": [
+      {
+        "title": "Delayed Fuses",
+        "type": "Modification",
+        "ability": "After you drop, launch or place a bomb or mine, you may place 1 fuse marker on that device.",
+        "slots": ["Modification"],
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/93/70/93702f17-5771-4460-8d22-b99566061306/swz41_delayed-fuses.png"
+      }
+    ],
+    "hyperspace": true
+  },
+  {
+    "name": "Angled Deflectors",
+    "limited": 0,
+    "xws": "angleddeflectors",
+    "hyperspace": true,
+    "sides": [
+      {
+        "text": "Starfighter shields often have manual overrides that allow thenm to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",
+        "title": "Angled Deflectors",
+        "type": "Modification",
+        "slots": ["Modification"],
+        "restrictions": [{ "sizes": ["Small", "Medium"] }],
+        "grants": [
+          { "type": "stat", "value": "shields", "amount": -1 },
+          {
+            "type": "action",
+            "value": { "type": "Reinforce", "difficulty": "White" }
+          }
+        ]
+      }
+    ]
   }
 ]
