@@ -3,43 +3,39 @@
  * stores them in ffgcards.json
  */
 
-var https = require('https');
-var fs = require('fs');
+var https = require("https");
+var fs = require("fs");
 
 let cards = "https://squadbuilder.fantasyflightgames.com/api/cards/";
 let metadata = "https://squadbuilder.fantasyflightgames.com/api/app-metadata/";
 
 function getData(url) {
-    console.log("Retrieving " + url);
-    return new Promise((resolve, reject) => {
-        const request = https.get(url, (res) => {
-            let data = "";
-            if (res.status >= 400) {
-                reject(res);
-            } else {
-                res.on('data', (chunk) => {
-                    data += chunk.toString();
-                });
-                res.on('end', () => {
-                    resolve(JSON.parse(data));
-                });
-            }
+  console.log("Retrieving " + url);
+  return new Promise((resolve, reject) => {
+    const request = https.get(url, res => {
+      let data = "";
+      if (res.status >= 400) {
+        reject(res);
+      } else {
+        res.on("data", chunk => {
+          data += chunk.toString();
         });
-        request.on('error', reject);
-        request.end();
+        res.on("end", () => {
+          resolve(JSON.parse(data));
+        });
+      }
     });
+    request.on("error", reject);
+    request.end();
+  });
 }
 
-getData(cards).then(
-    (data) => {
-        console.log("Writing to ffgcards.json");
-        fs.writeFileSync('ffgcards.json', JSON.stringify(data, null, 2));
-    }
-);
+getData(cards).then(data => {
+  console.log("Writing to ffgcards.json");
+  fs.writeFileSync("ffgcards.json", JSON.stringify(data, null, 2));
+});
 
-getData(metadata).then(
-    (data) => {
-	    console.log("Writing to ffgmetadata.json");
-	    fs.writeFileSync('ffgmetadata.json', JSON.stringify(data, null, 2));
-    }
-);
+getData(metadata).then(data => {
+  console.log("Writing to ffgmetadata.json");
+  fs.writeFileSync("ffgmetadata.json", JSON.stringify(data, null, 2));
+});
