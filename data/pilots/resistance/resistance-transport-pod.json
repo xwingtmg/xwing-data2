@@ -2,6 +2,7 @@
   "name": "Resistance Transport Pod",
   "xws": "resistancetransportpod",
   "size": "Small",
+  "ffg": 65,
   "dial": [
     "1TR",
     "1BB",
@@ -41,7 +42,10 @@
       "hyperspace": true,
       "cost": 26,
       "slots": ["Talent", "Tech", "Crew", "Modification"],
-      "ability": "During the System Phase, you may perform a red [Barrel Roll] or [Boost] action."
+      "ability": "During the System Phase, you may perform a red [Barrel Roll] or [Boost] action.",
+      "ffg": 573,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/bbe37aa13822e8c94d9b0950cdd9cdb0.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4d2201d40635299aa134acd52c9587af.png"
     },
     {
       "name": "Rose Tico",
@@ -52,7 +56,10 @@
       "hyperspace": true,
       "cost": 26,
       "slots": ["Talent", "Tech", "Crew", "Modification"],
-      "ability": "While you defend or perform an attack, you may reroll up to 1 of your results for each other friendly ship in the attack arc."
+      "ability": "While you defend or perform an attack, you may reroll up to 1 of your results for each other friendly ship in the attack arc.",
+      "ffg": 574,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/40cba6527802ef9afa41e4009265873c.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1dbf7b355d60f5b3f278522eb702f99f.png"
     },
     {
       "name": "Vi Moradi",
@@ -64,7 +71,10 @@
       "cost": 27,
       "slots": ["Tech", "Crew", "Modification"],
       "ability": "Setup: After placing forces, assign the Compromising Intel condition to 1 enemy ship.",
-      "conditions": ["compromisingintel"]
+      "conditions": ["compromisingintel"],
+      "ffg": 576,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f13328acfd703dc5489fa2249b9f675e.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/14139a2d20ff13b01bd5810371a89064.png"
     },
     {
       "name": "Finn",
@@ -75,7 +85,10 @@
       "hyperspace": true,
       "cost": 29,
       "slots": ["Talent", "Tech", "Crew", "Modification"],
-      "ability": "While you defend or perform an attack, you may add 1 blank result, or you may gain 1 strain token to add 1 focus result instead."
+      "ability": "While you defend or perform an attack, you may add 1 blank result, or you may gain 1 strain token to add 1 focus result instead.",
+      "ffg": 575,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/6e5fea21ac8a7ee345fd07f1c42cc81d.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/311d88e51a039b79e9a422ab3c475288.png"
     }
   ]
 }
