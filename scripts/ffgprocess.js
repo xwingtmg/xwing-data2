@@ -298,7 +298,7 @@ function processCard(card) {
       modified = modified || applyDiff(upgradeRef, "name", card.name);
     }
     if (cost == null) {
-      if (!modified.cost || !("variable" in modified.cost)) {
+      if (!upgradeRef.cost || !("variable" in upgradeRef.cost)) {
         console.log(
           "** WARNING: Variable cost detected but no variable cost metadata for",
           card.name
