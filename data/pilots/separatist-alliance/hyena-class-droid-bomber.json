@@ -2,6 +2,7 @@
   "name": "Hyena-class Droid Bomber",
   "xws": "hyenaclassdroidbomber",
   "size": "Small",
+  "ffg": 66,
   "dial": [
     "1TW",
     "1BR",
@@ -48,9 +49,11 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "hyperspace": false,
+      "hyperspace": true,
       "text": "Baktoid Armor Workshop developed the Hyena as a strike craft compatible with Trade Federation Vulture swarm tactics.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/7b/20/7b2032d2-dc96-4b69-9c59-92c809ba3da5/swz41_techno-union-bomber.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/749bdc89c3da6b8034154780959e9c34.png",
+      "ffg": 568,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/38a1ea6b53a619fcc6121cc32a91024d.jpg"
     },
     {
       "name": "Bombardment Drone",
@@ -63,8 +66,10 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "ability": "If you would drop a device, you may launch that device instead, using the same template.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/c8/3c/c83c098d-1a87-4f08-bcad-ad4cd9c8a00c/swz41_hyena-class-bomber.png",
-      "hyperspace": false
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/099422de35fb5ad2c2d238237e7dfe2c.png",
+      "hyperspace": true,
+      "ffg": 565,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/bc5e862af323dbe8db28d0d6bc6be4ad.jpg"
     },
     {
       "name": "DBS-404",
@@ -76,9 +81,11 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "hyperspace": false,
+      "hyperspace": true,
       "ability": "You can perform primary attacks at range 0. While you perform an attack at attack range 0-1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/3e/40/3e40b2b1-92d4-49c7-a7e2-fbef82def2b2/swz41_dbs-404.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3e647295c7237a5eb36b94d887eb8e56.png",
+      "ffg": 563,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/fb1f119c8dcd69db43a442fecf25fceb.jpg"
     },
     {
       "name": "Baktoid Prototype",
@@ -87,12 +94,14 @@
       "initiative": 1,
       "limited": 2,
       "ability": "While you perform a special attack, if a friendly ship with the Networked Calculations ship ability has a lock on the defender, you may ignore the [Focus], [Calculate], or [Lock] requirement of that attack.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/82/76/8276e0aa-4c62-402c-aa5c-529baf45822a/swz41_baktoid.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/254bc7be63cc9f4e629198f8d45f2f9b.png",
       "shipAbility": {
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "hyperspace": false
+      "hyperspace": true,
+      "ffg": 566,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f1e719d3490aceee6e5d93ac5b2a6cb2.jpg"
     },
     {
       "name": "Separatist Bomber",
@@ -100,12 +109,14 @@
       "initiative": 3,
       "limited": 0,
       "text": "The droid armies of the Separatists are callous to the plight of civilians and make not effort to limit collateral damage.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/5d/88/5d88fdec-55d6-4ea4-9fa1-af79d0ca5fcd/swz41_separatist-bomber.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cf510ca885a5f85395542b9aa51fba73.png",
       "shipAbility": {
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "hyperspace": false
+      "hyperspace": true,
+      "ffg": 567,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/162821196c9ca9ca7ef8d1cb1acab15b.jpg"
     },
     {
       "name": "DBS-32C",
@@ -114,7 +125,7 @@
       "limited": 1,
       "initiative": 3,
       "ability": "At the start of the Engagement Phase, you may spend 1 calculate token to perform a [Coordinate] action. You cannot coordinate ships that do not have the Networked Calculations ship ability.",
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/dd/bd/ddbd3b62-77a4-4d31-8bb9-8632e6c82207/swz41_dbs-32c.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1befc5619a02e2ea8b7bfb8df93471a1.png",
       "shipAbility": {
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
@@ -129,7 +140,9 @@
         },
         { "difficulty": "Red", "type": "Jam" }
       ],
-      "hyperspace": false
+      "hyperspace": true,
+      "ffg": 564,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f58f50898f4fa3900eb1b7d01aec4ae5.jpg"
     }
   ]
 }
