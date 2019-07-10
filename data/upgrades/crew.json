@@ -485,7 +485,7 @@
     ],
     "cost": { "value": 14 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Grand Moff Tarkin",
@@ -508,7 +508,7 @@
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Lock" } }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Hera Syndulla",
@@ -1374,7 +1374,10 @@
         "ability": "Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.",
         "title": "Amilyn Holdo",
         "type": "Crew",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 581,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/daa4aa8732efd994938dae56b6210ede.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cbe5e849e9daa4f3f968b2ff6e2879b1.png"
       }
     ]
   },
@@ -1395,7 +1398,10 @@
             "type": "action",
             "value": { "type": "Coordinate", "difficulty": "White" }
           }
-        ]
+        ],
+        "ffg": 582,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/22b0be31694840d7725790e352fa825d.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3af44c6d32812dc07238b40842d67b47.png"
       }
     ]
   },
@@ -1410,7 +1416,10 @@
         "ability": "After you reveal your dial, you may set your dial to a basic maneuver of the next higher speed. While you execute that maneuver, increase its difficulty.",
         "title": "Kaydel Connix",
         "type": "Crew",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 583,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f14db8bb29fcb06dfee758cb33490fbe.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/29a0eb418850a3821c38874daf0a6b0d.png"
       }
     ]
   },
@@ -1425,7 +1434,10 @@
         "ability": "After you execute a blue maneuver, remove all of your stress tokens.",
         "title": "Korr Sella",
         "type": "Crew",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 584,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/97aa5ed09744e698d42c2a12a369c786.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/dd102b8e517399d12b17756a863d19ee.png"
       }
     ]
   },
@@ -1440,7 +1452,10 @@
         "ability": "While you have 2 or fewer stress tokens, you can perform [Reinforce], [Coordinate], and [Jam] actions, even while stressed. While you perform a white [Reinforce], [Coordinate], or [Jam] action, if you are stressed, treat that action as red.",
         "title": "Larma D'Acy",
         "type": "Crew",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 585,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d147142728d8cc0aa647f97966df3988.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/555a815e60cd7bf4612109c3fd65beaa.png"
       }
     ]
   },
@@ -1461,7 +1476,10 @@
             "type": "action",
             "value": { "type": "Coordinate", "difficulty": "Purple" }
           }
-        ]
+        ],
+        "ffg": 586,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/bd5f0c91b7fb256f91fcfbd006e56acc.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/0a194c8c529278b471e64edc597b06fc.png"
       }
     ]
   },
@@ -1469,7 +1487,7 @@
     "name": "PZ-4CO",
     "limited": 1,
     "xws": "pz4co",
-    "hyperspace": true,
+    "hyperspace": false,
     "sides": [
       {
         "ability": "At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.",
@@ -1481,7 +1499,10 @@
             "type": "action",
             "value": { "type": "Calculate", "difficulty": "White" }
           }
-        ]
+        ],
+        "ffg": 587,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/219ba43a9fc9c9756a87676551aa7a69.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/11c5bdf18a62dc43bdda0834026dace2.png"
       }
     ]
   }
