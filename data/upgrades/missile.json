@@ -8,7 +8,10 @@
         "title": "Barrage Rockets",
         "type": "Missile",
         "ability": "Attack ([Focus]): Spend 1 [Charge]. If the defender is in your [Bullseye Arc], you may spend 1 or more [Charge] to reroll that many attack dice.",
-        "slots": ["Missile", "Missile"],
+        "slots": [
+          "Missile",
+          "Missile"
+        ],
         "charges": {
           "value": 5,
           "recovers": 0
@@ -25,7 +28,9 @@
         "ffg": 265
       }
     ],
-    "cost": { "value": 8 },
+    "cost": {
+      "value": 8
+    },
     "hyperspace": true
   },
   {
@@ -37,7 +42,9 @@
         "title": "Cluster Missiles",
         "type": "Missile",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After this attack, you may perform this attack as a bonus attack against a different target at range 0-1 of the defender, ignoring the [Lock] requirement.",
-        "slots": ["Missile"],
+        "slots": [
+          "Missile"
+        ],
         "charges": {
           "value": 4,
           "recovers": 0
@@ -69,7 +76,9 @@
         "type": "Missile",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After this attack hits, each ship at range 0-1 of the defender exposes 1 of its damage cards.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_38.png",
-        "slots": ["Missile"],
+        "slots": [
+          "Missile"
+        ],
         "charges": {
           "value": 3,
           "recovers": 0
@@ -99,7 +108,9 @@
         "title": "Homing Missiles",
         "type": "Missile",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After you declare the defender, the defender may choose to suffer 1 [Hit] damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting.",
-        "slots": ["Missile"],
+        "slots": [
+          "Missile"
+        ],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -130,7 +141,9 @@
         "title": "Ion Missiles",
         "type": "Missile",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
-        "slots": ["Missile"],
+        "slots": [
+          "Missile"
+        ],
         "charges": {
           "value": 3,
           "recovers": 0
@@ -162,7 +175,9 @@
         "type": "Missile",
         "ability": "Attack ([Focus]): Spend 1 [Charge].",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_41.png",
-        "slots": ["Missile"],
+        "slots": [
+          "Missile"
+        ],
         "charges": {
           "value": 1,
           "recovers": 0
@@ -204,7 +219,9 @@
           "ordnance": true
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4b6213e5ed13735bb381df08bdd1398d.png",
-        "slots": ["Missile"],
+        "slots": [
+          "Missile"
+        ],
         "ffg": 532,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a0eeefcf98562fdbc606c8638c35b6db.jpg"
       }
@@ -217,10 +234,14 @@
         }
       },
       {
-        "factions": ["Separatist Alliance"]
+        "factions": [
+          "Separatist Alliance"
+        ]
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 5
+    },
     "hyperspace": true
   },
   {
@@ -232,9 +253,14 @@
         "title": "Discord Missiles",
         "type": "Missile",
         "ability": "At the start of the Engagement Phase, you may spend 1 calculate token and 1 [Charge] to launch 1 buzz droid swarm using the [3 [Bank Left]], [3 [Straight]], or [3 [Bank Right]] template. This card's [Charge] cannot be recovered.",
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ee2f0b906cb4f1dbcafc274f44b76d3d.png",
-        "slots": ["Missile"],
+        "slots": [
+          "Missile"
+        ],
         "device": {
           "name": "Buzz Droid Swarm",
           "type": "Remote",
@@ -255,8 +281,16 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a2c1b72df5f0b429bf38fbd9ad61bc99.jpg"
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "cost": {
+      "value": 4
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "Separatist Alliance"
+        ]
+      }
+    ],
     "hyperspace": true
   },
   {
@@ -267,9 +301,15 @@
       {
         "title": "Diamond-Boron Missiles",
         "type": "Missile",
-        "slots": ["Missile", "Missile"],
+        "slots": [
+          "Missile",
+          "Missile"
+        ],
         "ability": "Attack ([Lock]): Spend 1 [Calculate]. After this attack hits, you may spend 1 [Charge]. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender's rolls 1 attack die and suffers 1 [Hit]/[Critical Hit] damage for each matching result.",
-        "charges": { "value": 3, "recovers": 0 },
+        "charges": {
+          "value": 3,
+          "recovers": 0
+        },
         "attack": {
           "arc": "Front Arc",
           "value": 3,
@@ -277,9 +317,13 @@
           "maxrange": 3,
           "ordnance": true
         },
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f1/c4/f1c4559f-1817-4256-a229-132b40d83ec9/swz41_diamond-boron-missiles.png"
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/f1/c4/f1c4559f-1817-4256-a229-132b40d83ec9/swz41_diamond-boron-missiles.png",
+        "ffg": 580
       }
     ],
-    "hyperspace": false
+    "hyperspace": false,
+    "cost": {
+      "value": 6
+    }
   }
 ]

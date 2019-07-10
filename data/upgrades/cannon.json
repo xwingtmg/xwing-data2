@@ -8,7 +8,9 @@
         "title": "Heavy Laser Cannon",
         "type": "Cannon",
         "ability": "Attack: After the Modify Attack Dice step, change all [Critical Hit] results to [Hit] results.",
-        "slots": ["Cannon"],
+        "slots": [
+          "Cannon"
+        ],
         "attack": {
           "arc": "Bullseye Arc",
           "value": 4,
@@ -21,7 +23,9 @@
         "ffg": 256
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 4
+    },
     "hyperspace": true
   },
   {
@@ -33,7 +37,9 @@
         "title": "Ion Cannon",
         "type": "Cannon",
         "ability": "Attack: If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
-        "slots": ["Cannon"],
+        "slots": [
+          "Cannon"
+        ],
         "attack": {
           "arc": "Front Arc",
           "value": 3,
@@ -46,7 +52,9 @@
         "ffg": 257
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 5
+    },
     "hyperspace": true
   },
   {
@@ -58,7 +66,9 @@
         "title": "Jamming Beam",
         "type": "Cannon",
         "ability": "Attack: If this attack hits, all [Hit]/[Critical Hit] results inflict jam tokens instead of damage.",
-        "slots": ["Cannon"],
+        "slots": [
+          "Cannon"
+        ],
         "attack": {
           "arc": "Front Arc",
           "value": 3,
@@ -71,7 +81,9 @@
         "ffg": 258
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "hyperspace": true
   },
   {
@@ -83,7 +95,9 @@
         "title": "Tractor Beam",
         "type": "Cannon",
         "ability": "Attack: If this attack hits, all [Hit]/[Critical Hit] results inflict tractor tokens instead of damage.",
-        "slots": ["Cannon"],
+        "slots": [
+          "Cannon"
+        ],
         "attack": {
           "arc": "Front Arc",
           "value": 3,
@@ -96,21 +110,29 @@
         "ffg": 259
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "hyperspace": true
   },
   {
-    "name": "Autoblaster",
+    "name": "Autoblasters",
     "limited": 0,
     "xws": "autoblaster",
     "hyperspace": true,
     "sides": [
       {
         "ability": "Attack: If the defender is in your [Bullseye Arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender's [Front Arc], [Evade] results do not cancel [Critical Hit] results.",
-        "title": "Autoblaster",
+        "title": "Autoblasters",
         "type": "Cannon",
-        "slots": ["Cannon"]
+        "slots": [
+          "Cannon"
+        ],
+        "ffg": 578
       }
-    ]
+    ],
+    "cost": {
+      "value": 2
+    }
   }
 ]

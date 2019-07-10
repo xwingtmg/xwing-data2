@@ -8,7 +8,9 @@
         "title": "Andrasta",
         "type": "Title",
         "ability": "Add [Device] slot.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "actions": [
           {
             "type": "Reload",
@@ -40,10 +42,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       },
       {
-        "ships": ["firesprayclasspatrolcraft"]
+        "ships": [
+          "firesprayclasspatrolcraft"
+        ]
       }
     ],
     "hyperspace": true
@@ -56,8 +62,10 @@
       {
         "title": "Black One",
         "type": "Title",
-        "ability": "After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [SLAM] action.",
-        "slots": ["Title"],
+        "ability": "After you perform a [Slam] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [Slam] action.",
+        "slots": [
+          "Title"
+        ],
         "charges": {
           "value": 1,
           "recovers": 0
@@ -78,10 +86,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Resistance"]
+        "factions": [
+          "Resistance"
+        ]
       },
       {
-        "ships": ["t70xwing"]
+        "ships": [
+          "t70xwing"
+        ]
       }
     ],
     "hyperspace": true
@@ -96,7 +108,9 @@
         "type": "Title",
         "ability": "After you partially execute a maneuver, you may perform 1 white action, treating that action as red.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_123.png",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_123.jpg",
         "ffg": 349
       }
@@ -106,10 +120,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Galactic Empire"]
+        "factions": [
+          "Galactic Empire"
+        ]
       },
       {
-        "ships": ["vt49decimator"]
+        "ships": [
+          "vt49decimator"
+        ]
       }
     ],
     "hyperspace": true
@@ -124,7 +142,9 @@
         "type": "Title",
         "ability": "You can dock 1 attack shuttle or Sheathipede-class shuttle. Your docked ships can deploy only from your rear guides.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_102.png",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_102.jpg",
         "ffg": 326
       }
@@ -134,10 +154,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Rebel Alliance"]
+        "factions": [
+          "Rebel Alliance"
+        ]
       },
       {
-        "ships": ["vcx100lightfreighter"]
+        "ships": [
+          "vcx100lightfreighter"
+        ]
       }
     ],
     "hyperspace": false
@@ -151,7 +175,9 @@
         "title": "Havoc",
         "type": "Title",
         "ability": "Remove [Crew] slot. Add [Sensor] and [Astromech] slots.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
           {
             "type": "slot",
@@ -179,10 +205,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       },
       {
-        "ships": ["scurrgh6bomber"]
+        "ships": [
+          "scurrgh6bomber"
+        ]
       }
     ],
     "hyperspace": false
@@ -196,7 +226,9 @@
         "title": "Hound's Tooth",
         "type": "Title",
         "ability": "1 Z-95-AF4 headhunter can dock with you.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_148.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_148.jpg",
         "ffg": 373
@@ -207,10 +239,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       },
       {
-        "ships": ["yv666lightfreighter"]
+        "ships": [
+          "yv666lightfreighter"
+        ]
       }
     ],
     "hyperspace": false
@@ -224,7 +260,9 @@
         "title": "IG-2000",
         "type": "Title",
         "ability": "You have the pilot ability of each other friendly ship with the IG-2000 upgrade.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_149.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_149.jpg",
         "ffg": 374
@@ -235,10 +273,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       },
       {
-        "ships": ["aggressorassaultfighter"]
+        "ships": [
+          "aggressorassaultfighter"
+        ]
       }
     ],
     "hyperspace": false
@@ -252,7 +294,9 @@
         "title": "Lando's Millennium Falcon",
         "type": "Title",
         "ability": "1 escape shuttle may dock with you. While you have an escape shuttle docked, you may spend its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_164.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg",
         "ffg": 390
@@ -263,10 +307,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       },
       {
-        "ships": ["customizedyt1300lightfreighter"]
+        "ships": [
+          "customizedyt1300lightfreighter"
+        ]
       }
     ],
     "hyperspace": true
@@ -280,7 +328,9 @@
         "title": "Marauder",
         "type": "Title",
         "ability": "While you perform a primary [Rear Arc] attack, you may reroll 1 attack die. Add [Gunner] slot.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
           {
             "type": "slot",
@@ -298,10 +348,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       },
       {
-        "ships": ["firesprayclasspatrolcraft"]
+        "ships": [
+          "firesprayclasspatrolcraft"
+        ]
       }
     ],
     "hyperspace": true
@@ -316,7 +370,9 @@
         "type": "Title",
         "ability": "While you defend, if you are evading, you may reroll 1 defense die.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_103.png",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "actions": [
           {
             "type": "Evade",
@@ -342,10 +398,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Rebel Alliance"]
+        "factions": [
+          "Rebel Alliance"
+        ]
       },
       {
-        "ships": ["modifiedyt1300lightfreighter"]
+        "ships": [
+          "modifiedyt1300lightfreighter"
+        ]
       }
     ],
     "hyperspace": true
@@ -359,7 +419,9 @@
         "title": "Mist Hunter",
         "type": "Title",
         "ability": "Add [Cannon] slot.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "actions": [
           {
             "type": "Barrel Roll",
@@ -391,10 +453,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       },
       {
-        "ships": ["g1astarfighter"]
+        "ships": [
+          "g1astarfighter"
+        ]
       }
     ],
     "hyperspace": false
@@ -408,7 +474,9 @@
         "title": "Moldy Crow",
         "type": "Title",
         "ability": "Gain a [Front Arc] primary weapon with a value of \"3.\" During the End Phase, do not remove up to 2 focus tokens.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_104.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_104.jpg",
         "ffg": 328
@@ -419,10 +487,15 @@
     },
     "restrictions": [
       {
-        "factions": ["Rebel Alliance", "Scum and Villainy"]
+        "factions": [
+          "Rebel Alliance",
+          "Scum and Villainy"
+        ]
       },
       {
-        "ships": ["hwk290lightfreighter"]
+        "ships": [
+          "hwk290lightfreighter"
+        ]
       }
     ],
     "hyperspace": false
@@ -437,7 +510,9 @@
         "type": "Title",
         "ability": "While you perform an obstructed attack, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_105.png",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg",
         "ffg": 329
       }
@@ -447,10 +522,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Rebel Alliance"]
+        "factions": [
+          "Rebel Alliance"
+        ]
       },
       {
-        "ships": ["yt2400lightfreighter"]
+        "ships": [
+          "yt2400lightfreighter"
+        ]
       }
     ],
     "hyperspace": false
@@ -465,7 +544,9 @@
         "type": "Title",
         "ability": "You can dock at range 0-1.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_106.png",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_106.jpg",
         "ffg": 330
       }
@@ -475,10 +556,15 @@
     },
     "restrictions": [
       {
-        "factions": ["Rebel Alliance"]
+        "factions": [
+          "Rebel Alliance"
+        ]
       },
       {
-        "ships": ["attackshuttle", "sheathipedeclassshuttle"]
+        "ships": [
+          "attackshuttle",
+          "sheathipedeclassshuttle"
+        ]
       }
     ],
     "hyperspace": false
@@ -492,7 +578,9 @@
         "title": "Punishing One",
         "type": "Title",
         "ability": "While you perform a primary attack, if the defender is in your [Front Arc], roll 1 additional attack die. Remove [Crew] slot. Add [Astromech] slot.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
           {
             "type": "slot",
@@ -515,10 +603,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       },
       {
-        "ships": ["jumpmaster5000"]
+        "ships": [
+          "jumpmaster5000"
+        ]
       }
     ],
     "hyperspace": false
@@ -533,7 +625,9 @@
         "type": "Title",
         "ability": "After you perform a [Coordinate] action, you may choose an enemy ship at range 0-3 of the ship you coordinated. If you do, acquire a lock on that enemy ship, ignoring range restrictions.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_124.png",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_124.jpg",
         "ffg": 391
       }
@@ -543,10 +637,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Galactic Empire"]
+        "factions": [
+          "Galactic Empire"
+        ]
       },
       {
-        "ships": ["lambdaclasst4ashuttle"]
+        "ships": [
+          "lambdaclasst4ashuttle"
+        ]
       }
     ],
     "hyperspace": false
@@ -560,19 +658,27 @@
         "title": "Shadow Caster",
         "type": "Title",
         "ability": "After you perform an attack that hits, if the defender is in your [Single Turret Arc] and your [Front Arc], the defender gains 1 tractor token.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_153.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_153.jpg",
         "ffg": 378
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       },
       {
-        "ships": ["lancerclasspursuitcraft"]
+        "ships": [
+          "lancerclasspursuitcraft"
+        ]
       }
     ],
     "hyperspace": false
@@ -586,7 +692,9 @@
         "title": "Slave I",
         "type": "Title",
         "ability": "After you reveal a turn ([Turn Left] or [Turn Right]) or bank ([Bank Left] or [Bank Right]) maneuver you may set your dial to the maneuver of the same speed and bearing in the other direction. Add [Torpedo] slot.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
           {
             "type": "slot",
@@ -604,10 +712,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Scum and Villainy"]
+        "factions": [
+          "Scum and Villainy"
+        ]
       },
       {
-        "ships": ["firesprayclasspatrolcraft"]
+        "ships": [
+          "firesprayclasspatrolcraft"
+        ]
       }
     ],
     "hyperspace": true
@@ -621,7 +733,9 @@
         "title": "Virago",
         "type": "Title",
         "ability": "During the End Phase, you may spend 1 [Charge] to perform a red [Boost] action. Add [Modification] slot.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "charges": {
           "value": 2,
           "recovers": 0
@@ -648,7 +762,9 @@
     },
     "restrictions": [
       {
-        "ships": ["starviperclassattackplatform"]
+        "ships": [
+          "starviperclassattackplatform"
+        ]
       }
     ],
     "hyperspace": true
@@ -664,7 +780,9 @@
         "ability": "If you have 2 or fewer stress tokens, you can execute red Segnor's Loop [[Segnor's Loop Left] or [Segnor's Loop Right]] maneuvers and perform [Boost] and [Rotate Arc] actions even while stressed.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/23627443c7f5e7447c306ea7c6242634.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/905ee2a41b7d3b6d1f76294b4cd3e99e.jpg",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "ffg": 485
       }
     ],
@@ -673,10 +791,14 @@
     },
     "restrictions": [
       {
-        "factions": ["Resistance"]
+        "factions": [
+          "Resistance"
+        ]
       },
       {
-        "ships": ["scavengedyt1300"]
+        "ships": [
+          "scavengedyt1300"
+        ]
       }
     ],
     "hyperspace": true
@@ -690,7 +812,9 @@
         "title": "Soulless One",
         "type": "Title",
         "ability": "While you defend, if the attacker is outside your firing arc, you may reroll 1 defense die.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
           {
             "type": "stat",
@@ -705,14 +829,20 @@
     ],
     "restrictions": [
       {
-        "factions": ["Separatist Alliance"]
+        "factions": [
+          "Separatist Alliance"
+        ]
       },
       {
-        "ships": ["belbullab22starfighter"]
+        "ships": [
+          "belbullab22starfighter"
+        ]
       }
     ],
     "hyperspace": true,
-    "cost": { "value": 6 }
+    "cost": {
+      "value": 6
+    }
   },
   {
     "name": "Scimitar",
@@ -723,7 +853,9 @@
         "title": "Scimitar",
         "type": "Title",
         "ability": "Setup: After the Place Forces step, you may cloak. After you decloak, you may choose an enemy ship in your [Bullseye Arc]. If you do, it gains 1 jam token.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
           {
             "type": "action",
@@ -747,13 +879,19 @@
     ],
     "restrictions": [
       {
-        "factions": ["Separatist Alliance"]
+        "factions": [
+          "Separatist Alliance"
+        ]
       },
       {
-        "ships": ["sithinfiltrator"]
+        "ships": [
+          "sithinfiltrator"
+        ]
       }
     ],
     "hyperspace": true,
-    "cost": { "value": 4 }
+    "cost": {
+      "value": 4
+    }
   }
 ]

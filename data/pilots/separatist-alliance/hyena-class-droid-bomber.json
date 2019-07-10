@@ -25,19 +25,41 @@
   ],
   "faction": "Separatist Alliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 5 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 5
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Calculate" },
-    { "difficulty": "White", "type": "Lock" },
+    {
+      "difficulty": "White",
+      "type": "Calculate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
     {
       "difficulty": "White",
       "type": "Barrel Roll",
-      "linked": { "difficulty": "Red", "type": "Lock" }
+      "linked": {
+        "difficulty": "Red",
+        "type": "Lock"
+      }
     },
-    { "difficulty": "Red", "type": "Reload" }
+    {
+      "difficulty": "Red",
+      "type": "Reload"
+    }
   ],
   "pilots": [
     {
@@ -108,7 +130,7 @@
       "xws": "separatistbomber",
       "initiative": 3,
       "limited": 0,
-      "text": "The droid armies of the Separatists are callous to the plight of civilians and make not effort to limit collateral damage.",
+      "text": "The droid armies of the Separatists are callous to the plight of civilians and make no effort to limit collateral damage.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cf510ca885a5f85395542b9aa51fba73.png",
       "shipAbility": {
         "name": "Networked Calculations",
@@ -131,14 +153,26 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
         {
           "difficulty": "White",
           "type": "Barrel Roll",
-          "linked": { "difficulty": "Red", "type": "Lock" }
+          "linked": {
+            "difficulty": "Red",
+            "type": "Lock"
+          }
         },
-        { "difficulty": "Red", "type": "Jam" }
+        {
+          "difficulty": "Red",
+          "type": "Jam"
+        }
       ],
       "hyperspace": true,
       "ffg": 564,

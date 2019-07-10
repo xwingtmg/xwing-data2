@@ -24,16 +24,41 @@
   ],
   "faction": "Resistance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 5 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 5
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "Red", "type": "Lock" },
-    { "difficulty": "Red", "type": "Coordinate" },
-    { "difficulty": "Red", "type": "Jam" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Jam"
+    }
   ],
   "pilots": [
     {
@@ -56,17 +81,24 @@
       "ability": "While you defend or perform a primary attack, if your revealed maneuver is red, roll 1 additional die.",
       "ffg": 569,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/27956dc3600e6e06bf26f9a981205410.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a9ae63785f4cadaa28a74858ff1d1bc4.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a9ae63785f4cadaa28a74858ff1d1bc4.png",
+      "caption": "Evacuation Escort"
     },
     {
       "name": "Pammich Nerro Goode",
       "xws": "pammichnerrogoode",
       "initiative": 3,
       "limited": 1,
-      "caption": "D-Qar Dispatcher",
+      "caption": "D'Qar Dispatcher",
       "hyperspace": true,
       "cost": 36,
-      "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Title",
+        "Configuration",
+        "Tech"
+      ],
       "ability": "While you have 2 or fewer stress tokens, you may execute red maneuvers even while stressed.",
       "ffg": 570,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e5f2e692fcaf63d513cd5c7c1294283e.jpg",
@@ -79,21 +111,34 @@
       "limited": 1,
       "hyperspace": true,
       "cost": 36,
-      "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Title",
+        "Configuration",
+        "Tech"
+      ],
       "ability": "After you coordinate or are coordinated, if you have 2 or fewer stress tokens, you may perform 1 action on your action bar as a red action, even if you are stressed.",
       "ffg": 571,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b0179494a00c2538a4467793e722db3e.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9f41de269cb1ff091487554fb53b2374.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9f41de269cb1ff091487554fb53b2374.png",
+      "caption": "Insubordinate Insurgent"
     },
     {
       "name": "Logistics Division Pilot",
       "xws": "logisticsdivisionpilot",
       "initiative": 1,
       "limited": 0,
-      "text": "Without the support of the New Republic, mambers of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.",
+      "text": "Without the support of the New Republic, members of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.",
       "hyperspace": true,
       "cost": 32,
-      "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Title",
+        "Configuration",
+        "Tech"
+      ],
       "ffg": 572,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/005545edf9fc1c82464f52edad236b27.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/57ea37cdb13f52ec3f3e0b745fc9d630.png"

@@ -391,7 +391,7 @@ extractFileList(manifest["upgrades"]).forEach(
 scrapedData["cards"].forEach(
     (card) => {
         if (!processCard(card)) {
-            notFound.push(card.id);
+            notFound.push({ id: card.id, name: card.name });
         };
     }
 )

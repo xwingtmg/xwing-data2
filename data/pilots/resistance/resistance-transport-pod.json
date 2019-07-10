@@ -22,16 +22,41 @@
   ],
   "faction": "Resistance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 1 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "Red", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
-    { "difficulty": "Red", "type": "Jam" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Jam"
+    }
   ],
   "pilots": [
     {
@@ -41,11 +66,17 @@
       "limited": 1,
       "hyperspace": true,
       "cost": 26,
-      "slots": ["Talent", "Tech", "Crew", "Modification"],
+      "slots": [
+        "Talent",
+        "Tech",
+        "Crew",
+        "Modification"
+      ],
       "ability": "During the System Phase, you may perform a red [Barrel Roll] or [Boost] action.",
       "ffg": 573,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/bbe37aa13822e8c94d9b0950cdd9cdb0.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4d2201d40635299aa134acd52c9587af.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4d2201d40635299aa134acd52c9587af.png",
+      "caption": "Full of Surprises"
     },
     {
       "name": "Rose Tico",
@@ -55,7 +86,12 @@
       "caption": "Earnest Engineer",
       "hyperspace": true,
       "cost": 26,
-      "slots": ["Talent", "Tech", "Crew", "Modification"],
+      "slots": [
+        "Talent",
+        "Tech",
+        "Crew",
+        "Modification"
+      ],
       "ability": "While you defend or perform an attack, you may reroll up to 1 of your results for each other friendly ship in the attack arc.",
       "ffg": 574,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/40cba6527802ef9afa41e4009265873c.jpg",
@@ -69,9 +105,15 @@
       "caption": "Starling",
       "hyperspace": true,
       "cost": 27,
-      "slots": ["Tech", "Crew", "Modification"],
+      "slots": [
+        "Tech",
+        "Crew",
+        "Modification"
+      ],
       "ability": "Setup: After placing forces, assign the Compromising Intel condition to 1 enemy ship.",
-      "conditions": ["compromisingintel"],
+      "conditions": [
+        "compromisingintel"
+      ],
       "ffg": 576,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f13328acfd703dc5489fa2249b9f675e.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/14139a2d20ff13b01bd5810371a89064.png"
@@ -84,7 +126,12 @@
       "caption": "Big Deal",
       "hyperspace": true,
       "cost": 29,
-      "slots": ["Talent", "Tech", "Crew", "Modification"],
+      "slots": [
+        "Talent",
+        "Tech",
+        "Crew",
+        "Modification"
+      ],
       "ability": "While you defend or perform an attack, you may add 1 blank result, or you may gain 1 strain token to add 1 focus result instead.",
       "ffg": 575,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/6e5fea21ac8a7ee345fd07f1c42cc81d.jpg",
