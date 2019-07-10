@@ -511,6 +511,15 @@
         "ffg": 593,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/691b45548136b6e5fd005e7797ae53d9.jpg"
       }
-    ]
+    ],
+    "cost": {
+      "variable": "agility",
+      "values": {
+        "0": 9,
+        "1": 6,
+        "2": 3,
+        "3": 3
+      }
+    }
   }
 ]
