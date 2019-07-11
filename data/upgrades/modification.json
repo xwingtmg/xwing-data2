@@ -310,13 +310,19 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/453d2de1f5059d0e6eb7884a4bf7986b.jpg"
       }
     ],
-    "hyperspace": true
+    "hyperspace": true,
+    "cost": { "value": 1 }
   },
   {
     "name": "Angled Deflectors",
     "limited": 0,
     "xws": "angleddeflectors",
     "hyperspace": true,
+    "cost": {
+      "variable": "agility",
+      "values": { "0": 9, "1": 6, "2": 3, "3": 3 }
+    },
+    "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "sides": [
       {
         "text": "Starfighter shields often have manual overrides that allow thenm to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",

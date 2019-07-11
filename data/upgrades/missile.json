@@ -224,7 +224,7 @@
         "title": "Diamond-Boron Missiles",
         "type": "Missile",
         "slots": ["Missile", "Missile"],
-        "ability": "Attack ([Lock]): Spend 1 [Calculate]. After this attack hits, you may spend 1 [Charge]. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender's rolls 1 attack die and suffers 1 [Hit]/[Critical Hit] damage for each matching result.",
+        "ability": "Attack ([Lock]): Spend 1 [Charge]. After this attack hits, you may spend 1 [Charge]. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender's rolls 1 attack die and suffers 1 [Hit]/[Critical Hit] damage for each matching result.",
         "charges": { "value": 3, "recovers": 0 },
         "attack": {
           "arc": "Front Arc",
@@ -238,6 +238,7 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/bc97441f8e8461e6949ab70b0a4bf0c5.jpg"
       }
     ],
+    "cost": { "value": 6 },
     "hyperspace": true
   }
 ]
