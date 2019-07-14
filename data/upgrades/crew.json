@@ -1477,6 +1477,7 @@
         "title": "Leia Organa",
         "type": "Crew",
         "slots": ["Crew", "Crew"],
+        "force": { "value": 1, "recovers": 1 },
         "grants": [
           {
             "type": "action",
