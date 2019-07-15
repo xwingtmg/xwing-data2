@@ -53,7 +53,10 @@
         "ffg": 282
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "variable": "agility",
+      "values": { "0": 3, "1": 3, "2": 4, "3": 6 }
+    },
     "hyperspace": true
   },
   {
@@ -72,7 +75,10 @@
         "ffg": 324
       }
     ],
-    "cost": { "value": 6 },
+    "cost": {
+      "variable": "agility",
+      "values": { "0": 4, "1": 4, "2": 5, "3": 7 }
+    },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
@@ -187,7 +193,7 @@
         "ffg": 370
       }
     ],
-    "cost": { "value": 1 },
+    "cost": { "value": 0 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": false
   },
@@ -304,12 +310,15 @@
         "title": "R2-C4",
         "type": "Astromech",
         "ability": "While you perform an attack, you may spend 1 evade token to change 1 [Focus] result to a [Hit] result.",
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/02/e5/02e515c7-6edd-4dcf-a2af-20d9f968bed5/swz40_r2-c4.png",
-        "slots": ["Astromech"]
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8fce75228aa2c4eaaf3e9666c4da8caf.png",
+        "slots": ["Astromech"],
+        "ffg": 589,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/db2012557dc9b2953aeeb8c3f98d5052.jpg"
       }
     ],
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "R4-P Astromech",
@@ -369,5 +378,24 @@
     "restrictions": [{ "factions": ["Galactic Republic"] }],
     "hyperspace": true,
     "cost": { "value": 5 }
+  },
+  {
+    "name": "R2-A6",
+    "limited": 1,
+    "xws": "r2a6",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "After you reveal your dial, you may set your dial to a maneuver of the same bearing of a speed 1 higher or lower.",
+        "title": "R2-A6",
+        "type": "Astromech",
+        "slots": ["Astromech"],
+        "ffg": 588,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/fe5da38a69cf0f5212d5cb06ea9053de.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1d90c6b2f87d17c061e07a92373310b4.png"
+      }
+    ],
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "cost": { "value": 6 }
   }
 ]

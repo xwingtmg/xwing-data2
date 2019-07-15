@@ -1,4 +1,6 @@
 const path = require("path");
+const { checkKeywordsInString } = require("./helpers/keywords");
+const { validateConditionXWSId } = require("./helpers/data");
 const { matchers } = require("jest-json-schema");
 expect.extend(matchers);
 
@@ -17,6 +19,14 @@ describe("Upgrades", () => {
           : `(unknown upgrade)`;
         test(testName, () => {
           expect(u).toMatchSchema(upgradeSchema);
+          u.sides.forEach(side => {
+            if (side.ability) {
+              checkKeywordsInString(side.ability);
+            }
+            if (side.conditions) {
+              side.conditions.forEach(c => validateConditionXWSId(c));
+            }
+          });
         });
       });
     });

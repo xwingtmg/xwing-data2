@@ -858,6 +858,18 @@
         {
           "id": "ndrusuhlak",
           "upgrades": {
+            "talent": ["crackshot", "outmaneuver"],
+            "modification": ["hullupgrade", "stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ndrusuhlak",
+          "upgrades": {
             "talent": ["lonewolf"],
             "missile": ["homingmissiles"],
             "modification": ["hullupgrade"],
@@ -893,12 +905,50 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "blacksunsoldier",
+          "upgrades": {
+            "talent": ["crackshot"],
+            "missile": ["clustermissiles"],
+            "modification": ["afterburners", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "kaatoleeachos",
+          "upgrades": {
+            "talent": ["saturationsalvo"],
+            "missile": ["clustermissiles", "concussionmissiles"],
+            "illicit": ["deadmansswitch"],
+            "modification": ["munitionsfailsafe"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "kaatoleeachos",
           "upgrades": {
             "talent": ["experthandling"],
             "missile": ["clustermissiles"],
             "illicit": ["contrabandcybernetics"],
             "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "binayrepirate",
+          "upgrades": {
+            "illicit": ["deadmansswitch"]
           }
         }
       ]
