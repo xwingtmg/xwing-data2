@@ -84,6 +84,7 @@
       { "factions": ["Separatist Alliance"] },
       { "solitary": true }
     ],
-    "hyperspace": false
+    "cost": { "value": 5 },
+    "hyperspace": true
   }
 ]

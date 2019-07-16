@@ -316,6 +316,7 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/db2012557dc9b2953aeeb8c3f98d5052.jpg"
       }
     ],
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Galactic Republic"] }],
     "hyperspace": true
   },
@@ -393,6 +394,8 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/fe5da38a69cf0f5212d5cb06ea9053de.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1d90c6b2f87d17c061e07a92373310b4.png"
       }
-    ]
+    ],
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "cost": { "value": 6 }
   }
 ]

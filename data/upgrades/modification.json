@@ -284,7 +284,7 @@
         "title": "Spare Parts Canisters",
         "type": "Modification",
         "ability": "Action: Spend 1 [Charge] to recover 1 charge on one of your equipped [Astromech] upgrades. Action: Spend 1 [Charge] to drop 1 spare parts, then break all locks assigned to you.",
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": { "value": 1, "recovers": 0 },
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/79d9f2b2bc32bd78ab67dc82eece696a.png",
         "ffg": 550,
@@ -303,20 +303,26 @@
       {
         "title": "Delayed Fuses",
         "type": "Modification",
-        "ability": "After you drop, launch or place a bomb or mine, you may place 1 fuse marker on that device.",
+        "ability": "After you drop, launch, or place a bomb or mine, you may place 1 fuse marker on that device.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4572ece39224eeaf2dfce2770b96f919.png",
         "ffg": 592,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/453d2de1f5059d0e6eb7884a4bf7986b.jpg"
       }
     ],
-    "hyperspace": true
+    "hyperspace": true,
+    "cost": { "value": 1 }
   },
   {
     "name": "Angled Deflectors",
     "limited": 0,
     "xws": "angleddeflectors",
     "hyperspace": true,
+    "cost": {
+      "variable": "agility",
+      "values": { "0": 9, "1": 6, "2": 3, "3": 3 }
+    },
+    "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "sides": [
       {
         "text": "Starfighter shields often have manual overrides that allow thenm to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",

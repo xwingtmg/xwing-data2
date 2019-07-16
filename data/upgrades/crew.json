@@ -1369,6 +1369,7 @@
     "xws": "amilynholdo",
     "hyperspace": true,
     "cost": { "value": 9 },
+    "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
         "ability": "Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.",
@@ -1387,6 +1388,7 @@
     "xws": "ga97",
     "hyperspace": true,
     "cost": { "value": 8 },
+    "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
         "ability": "Setup: Before placing forces, you may spend 3-5 [Charge]. If you do, choose another friendly ship and assign the It's the Resistance condition to it.",
@@ -1411,6 +1413,7 @@
     "xws": "kaydelconnix",
     "hyperspace": true,
     "cost": { "value": 5 },
+    "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
         "ability": "After you reveal your dial, you may set your dial to a basic maneuver of the next higher speed. While you execute that maneuver, increase its difficulty.",
@@ -1429,6 +1432,7 @@
     "xws": "korrsella",
     "hyperspace": true,
     "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
         "ability": "After you execute a blue maneuver, remove all of your stress tokens.",
@@ -1447,6 +1451,7 @@
     "xws": "larmadacy",
     "hyperspace": true,
     "cost": { "value": 4 },
+    "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
         "ability": "While you have 2 or fewer stress tokens, you can perform [Reinforce], [Coordinate], and [Jam] actions, even while stressed. While you perform a white [Reinforce], [Coordinate], or [Jam] action, if you are stressed, treat that action as red.",
@@ -1465,12 +1470,14 @@
     "xws": "leiaorgana-resistance",
     "hyperspace": true,
     "cost": { "value": 19 },
+    "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
         "ability": "After a friendly ship reveals its dial, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.",
         "title": "Leia Organa",
         "type": "Crew",
         "slots": ["Crew", "Crew"],
+        "force": { "value": 1, "recovers": 1 },
         "grants": [
           {
             "type": "action",
@@ -1487,7 +1494,9 @@
     "name": "PZ-4CO",
     "limited": 1,
     "xws": "pz4co",
-    "hyperspace": false,
+    "hyperspace": true,
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
         "ability": "At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.",
