@@ -2,13 +2,15 @@
  * Processes ffgcards.json downloaded data and updates text (and some other) values in ../data/**
  */
 
-var https = require("https");
-var fs = require("fs");
+const fs = require("fs");
+
+const readFile = pathFromRoot =>
+  fs.readFileSync(`${__dirname}/../${pathFromRoot}`, "utf8");
 
 console.log("Reading ./ffgcards.json");
 let dataString = "";
 try {
-  dataString = fs.readFileSync("./ffgcards.json").toString();
+  dataString = readFile("scripts/ffgcards.json");
 } catch (err) {
   console.log("Could not read ./ffgcards.json. Use ffgscrape.js first!");
   process.exit(1);
@@ -17,16 +19,16 @@ try {
 console.log("Reading ./ffgmetadata.json");
 let metadata = {};
 try {
-  let metadataString = fs.readFileSync("./ffgmetadata.json").toString();
+  let metadataString = readFile("scripts/ffgmetadata.json");
   metadata = JSON.parse(metadataString);
 } catch (err) {
   console.log("Could not read ./ffgmetadata.json. Use ffgscrape.js first!");
   process.exit(1);
 }
 
-let manifest = JSON.parse(fs.readFileSync("../data/manifest.json", "utf8"));
-let factions = JSON.parse(fs.readFileSync("../data/factions/factions.json"));
-let translations = JSON.parse(fs.readFileSync("./translations.json", "utf8"));
+let manifest = JSON.parse(readFile("data/manifest.json"));
+let factions = JSON.parse(readFile("data/factions/factions.json"));
+let translations = JSON.parse(readFile("scripts/translations.json"));
 let upgradeTypes = metadata["upgrade_types"];
 
 upgradeTypes.forEach(entry => {
@@ -414,12 +416,12 @@ console.log("** Loaded Scraped Data **");
 
 // Load each of the existing pilot data files
 extractFileList(manifest["pilots"]).forEach(file => {
-  pilotData[file] = JSON.parse(fs.readFileSync("../" + file), "utf8");
+  pilotData[file] = JSON.parse(readFile(file));
 });
 
 // Load each of the existing upgrade data files
 extractFileList(manifest["upgrades"]).forEach(file => {
-  upgradeData[file] = JSON.parse(fs.readFileSync("../" + file), "utf8");
+  upgradeData[file] = JSON.parse(readFile(file));
 });
 
 metadata["ship_types"].forEach(shipType => {
@@ -448,6 +450,9 @@ if (modifiedFiles.length) {
     let data = pilotData[filename]
       ? pilotData[filename]
       : upgradeData[filename];
-    fs.writeFileSync("../" + filename, JSON.stringify(data));
+    fs.writeFileSync(
+      `${__dirname}/../${filename}`,
+      JSON.stringify(data, null, 0)
+    );
   });
 }

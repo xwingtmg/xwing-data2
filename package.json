@@ -12,7 +12,7 @@
     "changelog": "git log --pretty=format:'- %s (%h)' --no-merges",
     "ffg2xws": "node scripts/ffg2xws.js && prettier --write data/ffg-xws.json",
     "hyperspace": "node scripts/hyperspace.js && yarn format",
-    "ffgscrape": "cd scripts && node ffgscrape.js && node ffgprocess.js && cd .. && yarn format"
+    "ffgscrape": "node scripts/ffgscrape.js && node scripts/ffgprocess.js && yarn format"
   },
   "devDependencies": {
     "husky": "^2.2.0",

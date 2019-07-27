@@ -32,10 +32,13 @@ function getData(url) {
 
 getData(cards).then(data => {
   console.log("Writing to ffgcards.json");
-  fs.writeFileSync("ffgcards.json", JSON.stringify(data, null, 2));
+  fs.writeFileSync(`${__dirname}/ffgcards.json`, JSON.stringify(data, null, 2));
 });
 
 getData(metadata).then(data => {
   console.log("Writing to ffgmetadata.json");
-  fs.writeFileSync("ffgmetadata.json", JSON.stringify(data, null, 2));
+  fs.writeFileSync(
+    `${__dirname}/ffgmetadata.json`,
+    JSON.stringify(data, null, 2)
+  );
 });
