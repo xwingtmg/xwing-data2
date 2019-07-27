@@ -344,6 +344,15 @@ function processCard(card) {
     ship_ability_text = stripAllTags(ship_ability_text);
     // Save what's left as the ship ability
     ship_ability.text = ship_ability_text.trim();
+
+    // Card-specific tweaks:
+    //
+    // Nashtah Pup: Ability is missing a space after `Setup:`
+    ship_ability.text = ship_ability.text.replace(
+      /([a-z]):([a-z])/gi,
+      "$1: $2"
+    );
+
     // Update the card data
     modified = modified || applyDiff(ref, "shipAbility", ship_ability);
     // Remove the shipability tag
