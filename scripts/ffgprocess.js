@@ -360,6 +360,12 @@ function processCard(card) {
   }
 
   card_text = stripAllTags(card_text).trim();
+
+  // Card-specific tweaks:
+  //
+  // Ezra [Sheathipede]: Ability has `[Evade] /[Hit]` which should be `[Evade]/[Hit]`
+  card_text = card_text.replace(/\] \/\[/g, "]/[");
+
   if (card_text && card_text.length) {
     // Whatever card text is left is a pilot ability
     modified = modified || applyDiff(ref, "ability", card_text);
