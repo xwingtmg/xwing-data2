@@ -304,7 +304,9 @@ function processCard(card) {
 
     // Only apply a card name change when looking at side[0]
     if (upgradeRef.sides[0] == ref) {
-      modified = modified || applyDiff(upgradeRef, "name", card.name);
+      // Replace `(Open)` and `(Closed)` in dual-side cards
+      const name = card.name.replace(/\((Open|Closed)\)/, "").trim();
+      modified = modified || applyDiff(upgradeRef, "name", name);
     }
     if (cost == null) {
       if (!upgradeRef.cost || !("variable" in upgradeRef.cost)) {
