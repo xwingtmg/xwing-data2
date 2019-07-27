@@ -145,6 +145,7 @@ function sanitize(text) {
   sanitized = sanitized.replace(/\’/g, "'");
   sanitized = sanitized.replace(/\“/g, '\\"');
   sanitized = sanitized.replace(/\”/g, '\\"');
+  sanitized = sanitized.replace(/[˚º]/g, "°");
   return sanitized;
 }
 
