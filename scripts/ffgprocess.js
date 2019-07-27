@@ -169,7 +169,7 @@ function getTagContent(text, tag) {
   }
   let foundText = found[0].substring(tag.length + 2);
   foundText = foundText.substring(0, foundText.length - tag.length - 3);
-  return foundText;
+  return foundText.trim();
 }
 
 function stripTag(text, tag) {
@@ -213,11 +213,6 @@ function processCard(card) {
   // console.log("Processing " + card.name);
   // If the card contains a pilot
   if (card.card_type_id == 1) {
-    // Skip Lando Escape Craft. The FFG card text is not properly tagged and therefore
-    // parses incorrectly.
-    if (card.id == 226) {
-      return true;
-    }
     Object.entries(pilotData).forEach(
       // Check each ship file
       ([filenameKey, ship]) => {
@@ -329,6 +324,13 @@ function processCard(card) {
 
   let card_text = card.ability_text;
 
+  // Card-specific tweaks:
+  //
+  // Lando [Escape Craft]: Card text is missing the `</shipability>` closing tag
+  if (card.id == 226) {
+    card_text = card_text + "</shipability>";
+  }
+
   // Parse card text for shipability text
   let ship_ability_text = getTagContent(card_text, "shipability");
   if (ship_ability_text) {
@@ -336,9 +338,10 @@ function processCard(card) {
     let ship_ability = {};
     // Find text tagged with <sabold> - this will be the name of the ability
     // Remove the ":" at the end
-    ship_ability.name = getTagContent(ship_ability_text, "sabold")
-      .replace(/\:/g, "")
-      .trim();
+    ship_ability.name = getTagContent(ship_ability_text, "sabold").replace(
+      /:$/,
+      ""
+    );
     // Strip out the <sabold> ability name and any other tag content such as <return>
     ship_ability_text = stripTag(ship_ability_text, "sabold");
     ship_ability_text = stripAllTags(ship_ability_text);
