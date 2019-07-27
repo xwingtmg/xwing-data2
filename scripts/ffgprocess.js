@@ -238,6 +238,13 @@ function processCard(card) {
     // Find the upgradeType. There may be more than one upgrade type listed in the FFG data
     // if the upgrade takes more than one slot type (ex: Calibrated Laser Targeting)
     card.upgrade_types.forEach(upgradeTypeNum => {
+      // Card-specific tweaks:
+      //
+      // L3-37's Programming: Treat it as Crew because front side is a Crew card
+      if (card.id === 383) {
+        upgradeTypeNum = 8;
+      }
+
       let upgradeType = upgradeTypes.find(
         upgradeType => upgradeType.ffg == upgradeTypeNum
       );
