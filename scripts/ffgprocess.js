@@ -205,7 +205,7 @@ function processCard(card) {
   let upgradeRef = null;
   let filename = null;
   card.name = stripAllTags(card.name).trim();
-  console.log("Processing " + card.name);
+  // console.log("Processing " + card.name);
   // If the card contains a pilot
   if (card.card_type_id == 1) {
     // Skip Lando Escape Craft. The FFG card text is not properly tagged and therefore
@@ -314,7 +314,6 @@ function processCard(card) {
     modified = modified || applyDiff(ref, "name", card.name);
     modified = modified || applyDiff(ref, "caption", card.subtitle);
     if (!ref.caption || ref.caption.length == 0) {
-      console.log("Removing empty caption");
       delete ref.caption;
     }
     modified = modified || applyDiff(ref, "limited", limited);
