@@ -189,11 +189,15 @@ function stripAllTags(text) {
 
 function processShipType(ship_type) {
   let result = false;
-  Object.entries(pilotData).forEach(([filenameKey, ship]) => {
+  Object.entries(pilotData).forEach(([filename, ship]) => {
     if (ship.ffg == ship_type.id) {
       result = true;
       // Inspect ship type for icon data
-      applyDiff(ship, "icon", ship_type.icon);
+      const modified = applyDiff(ship, "icon", ship_type.icon);
+
+      if (modified) {
+        modifiedFiles.push(filename);
+      }
     }
   });
   return result;
