@@ -316,6 +316,7 @@ function processCard(card) {
     } else {
       modified = modified || applyDiff(upgradeRef, "cost", cost);
     }
+    modified = modified || applyDiff(ref, "title", card.name);
     modified = modified || applyDiff(upgradeRef, "limited", limited);
   } else {
     modified = modified || applyDiff(ref, "name", card.name);
