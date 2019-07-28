@@ -3,6 +3,12 @@
  */
 
 const fs = require("fs");
+const gitdiff = require("git-diff");
+const diffOpts = {
+  color: true,
+  noHeaders: true,
+  wordDiff: true
+};
 
 const readFile = pathFromRoot =>
   fs.readFileSync(`${__dirname}/../${pathFromRoot}`, "utf8");
@@ -111,7 +117,7 @@ function applyDiff(destination, key, value) {
   // Handle the destination missing some data
   if (!destination.hasOwnProperty(key) && (value || value.length > 0)) {
     console.log(key + ` was missing. ${identifier}`);
-    console.log("--New:      ", value);
+    console.log(gitdiff("", value, diffOpts));
     destination[key] = value;
     return true;
   }
@@ -122,8 +128,14 @@ function applyDiff(destination, key, value) {
     let newValue = JSON.stringify(value).trim();
     if (existing.localeCompare(newValue) != 0) {
       console.log(`Change detected in ${key} ${identifier}`);
-      console.log("--Existing: ", destination[key]);
-      console.log("--New:      ", value);
+      const old =
+        typeof destination[key] === "string"
+          ? destination[key]
+          : JSON.stringify(destination[key], null, 2);
+      const updated =
+        typeof value === "string" ? value : JSON.stringify(value, null, 2);
+      const diff = gitdiff(old, updated, diffOpts);
+      console.log(diff);
       destination[key] = value;
       return true;
     }
