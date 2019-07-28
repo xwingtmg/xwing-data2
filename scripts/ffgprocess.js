@@ -100,6 +100,9 @@ function getFaction(id) {
 function applyDiff(destination, key, value) {
   // Returns true if data was modified
 
+  let identifier = destination.name || destination.title || destination.xws;
+  identifier = identifier ? `(${identifier})` : "";
+
   // Remove double spaces in value
   if (typeof value === "string") {
     value = value.replace(/\s{2,}/g, " ");
@@ -107,7 +110,7 @@ function applyDiff(destination, key, value) {
 
   // Handle the destination missing some data
   if (!destination.hasOwnProperty(key) && (value || value.length > 0)) {
-    console.log(key + " was missing.");
+    console.log(key + ` was missing. ${identifier}`);
     console.log("--New:      ", value);
     destination[key] = value;
     return true;
@@ -118,7 +121,7 @@ function applyDiff(destination, key, value) {
     let existing = JSON.stringify(destination[key]).trim();
     let newValue = JSON.stringify(value).trim();
     if (existing.localeCompare(newValue) != 0) {
-      console.log("Change detected in " + key);
+      console.log(`Change detected in ${key} ${identifier}`);
       console.log("--Existing: ", destination[key]);
       console.log("--New:      ", value);
       destination[key] = value;
