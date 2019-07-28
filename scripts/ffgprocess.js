@@ -306,7 +306,7 @@ function processCard(card) {
     if (upgradeRef.sides[0] == ref) {
       // Replace `(Open)` and `(Closed)` in dual-side cards
       const name = card.name.replace(/\((Open|Closed)\)/, "").trim();
-      modified = modified || applyDiff(upgradeRef, "name", name);
+      modified = applyDiff(upgradeRef, "name", name) || modified;
     }
     if (cost == null) {
       if (!upgradeRef.cost || !("variable" in upgradeRef.cost)) {
@@ -316,21 +316,21 @@ function processCard(card) {
         );
       }
     } else {
-      modified = modified || applyDiff(upgradeRef, "cost", cost);
+      modified = applyDiff(upgradeRef, "cost", cost) || modified;
     }
-    modified = modified || applyDiff(ref, "title", card.name);
-    modified = modified || applyDiff(upgradeRef, "limited", limited);
+    modified = applyDiff(ref, "title", card.name) || modified;
+    modified = applyDiff(upgradeRef, "limited", limited) || modified;
   } else {
-    modified = modified || applyDiff(ref, "name", card.name);
-    modified = modified || applyDiff(ref, "caption", card.subtitle);
+    modified = applyDiff(ref, "name", card.name) || modified;
+    modified = applyDiff(ref, "caption", card.subtitle) || modified;
     if (!ref.caption || ref.caption.length == 0) {
       delete ref.caption;
     }
-    modified = modified || applyDiff(ref, "limited", limited);
+    modified = applyDiff(ref, "limited", limited) || modified;
   }
 
-  modified = modified || applyDiff(ref, "artwork", card.image);
-  modified = modified || applyDiff(ref, "image", card.card_image);
+  modified = applyDiff(ref, "artwork", card.image) || modified;
+  modified = applyDiff(ref, "image", card.card_image) || modified;
 
   let card_text = card.ability_text;
 
@@ -367,7 +367,7 @@ function processCard(card) {
     );
 
     // Update the card data
-    modified = modified || applyDiff(ref, "shipAbility", ship_ability);
+    modified = applyDiff(ref, "shipAbility", ship_ability) || modified;
     // Remove the shipability tag
     card_text = stripTag(card_text, "shipability").trim();
   }
@@ -377,7 +377,7 @@ function processCard(card) {
   if (flavor_text) {
     flavor_text = stripTag(flavor_text, "flavor");
     flavor_text = stripAllTags(flavor_text).trim();
-    modified = modified || applyDiff(ref, "text", flavor_text);
+    modified = applyDiff(ref, "text", flavor_text) || modified;
     // Remove flavor tag
     card_text = stripTag(card_text, "flavor").trim();
   }
@@ -391,7 +391,7 @@ function processCard(card) {
 
   if (card_text && card_text.length) {
     // Whatever card text is left is a pilot ability
-    modified = modified || applyDiff(ref, "ability", card_text);
+    modified = applyDiff(ref, "ability", card_text) || modified;
   }
 
   if (modified) {
