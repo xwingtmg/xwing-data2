@@ -38,7 +38,7 @@
       {
         "title": "Black One",
         "type": "Title",
-        "ability": "After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [SLAM] action.",
+        "ability": "After you perform a [Slam] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [Slam] action.",
         "slots": ["Title"],
         "charges": { "value": 1, "recovers": 0 },
         "actions": [{ "type": "SLAM", "difficulty": "White" }],

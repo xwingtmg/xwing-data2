@@ -27,7 +27,7 @@
       {
         "title": "Advanced SLAM",
         "type": "Modification",
-        "ability": "After you perform a [SLAM] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.",
+        "ability": "After you perform a [Slam] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_69.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_69.jpg",
@@ -182,7 +182,7 @@
       {
         "title": "Static Discharge Vanes",
         "type": "Modification",
-        "ability": "If you would gain an ion or jam token, if you are not stressed, you may choose a ship at range 0-1. If you do, gain 1 stress token and transfer 1 ion or jam token to that ship.",
+        "ability": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose a ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_76.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg",
@@ -325,7 +325,7 @@
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "sides": [
       {
-        "text": "Starfighter shields often have manual overrides that allow thenm to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",
+        "text": "Starfighter shields often have manual overrides that allow them to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",
         "title": "Angled Deflectors",
         "type": "Modification",
         "slots": ["Modification"],

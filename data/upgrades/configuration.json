@@ -1,6 +1,6 @@
 [
   {
-    "name": "Integrated S-foils",
+    "name": "Integrated S-foils (Closed)",
     "limited": 0,
     "xws": "integratedsfoils",
     "sides": [
@@ -65,7 +65,7 @@
     "hyperspace": false
   },
   {
-    "name": "Pivot Wing",
+    "name": "Pivot Wing (Closed)",
     "limited": 0,
     "xws": "pivotwing",
     "sides": [
@@ -93,7 +93,7 @@
     "hyperspace": true
   },
   {
-    "name": "Servomotor S-foils",
+    "name": "Servomotor S-foils (Closed)",
     "limited": 0,
     "xws": "servomotorsfoils",
     "sides": [
@@ -163,7 +163,7 @@
     "hyperspace": false
   },
   {
-    "name": "Grappling Struts",
+    "name": "Grappling Struts (Closed)",
     "limited": 0,
     "xws": "grapplingstruts",
     "sides": [
@@ -179,7 +179,7 @@
       {
         "title": "Grappling Struts (Open)",
         "type": "Configuration",
-        "ability": "You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.",
+        "ability": "You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90º in that direction. After you execute a maneuver, flip this card.",
         "slots": ["Configuration"],
         "ffg": 535,
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/be82da17cfd39003fda380bead210eb9.png",
@@ -248,7 +248,7 @@
     "hyperspace": true
   },
   {
-    "name": "Landing Struts",
+    "name": "Landing Struts (Closed)",
     "limited": 0,
     "xws": "landingstruts",
     "sides": [
