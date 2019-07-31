@@ -2,13 +2,21 @@
  * Processes ffgcards.json downloaded data and updates text (and some other) values in ../data/**
  */
 
-var https = require("https");
-var fs = require("fs");
+const fs = require("fs");
+const gitdiff = require("git-diff");
+const diffOpts = {
+  color: true,
+  noHeaders: true,
+  wordDiff: true
+};
+
+const readFile = pathFromRoot =>
+  fs.readFileSync(`${__dirname}/../${pathFromRoot}`, "utf8");
 
 console.log("Reading ./ffgcards.json");
 let dataString = "";
 try {
-  dataString = fs.readFileSync("./ffgcards.json").toString();
+  dataString = readFile("scripts/ffgcards.json");
 } catch (err) {
   console.log("Could not read ./ffgcards.json. Use ffgscrape.js first!");
   process.exit(1);
@@ -17,16 +25,16 @@ try {
 console.log("Reading ./ffgmetadata.json");
 let metadata = {};
 try {
-  let metadataString = fs.readFileSync("./ffgmetadata.json").toString();
+  let metadataString = readFile("scripts/ffgmetadata.json");
   metadata = JSON.parse(metadataString);
 } catch (err) {
   console.log("Could not read ./ffgmetadata.json. Use ffgscrape.js first!");
   process.exit(1);
 }
 
-let manifest = JSON.parse(fs.readFileSync("../data/manifest.json", "utf8"));
-let factions = JSON.parse(fs.readFileSync("../data/factions/factions.json"));
-let translations = JSON.parse(fs.readFileSync("./translations.json", "utf8"));
+let manifest = JSON.parse(readFile("data/manifest.json"));
+let factions = JSON.parse(readFile("data/factions/factions.json"));
+let translations = JSON.parse(readFile("scripts/translations.json"));
 let upgradeTypes = metadata["upgrade_types"];
 
 upgradeTypes.forEach(entry => {
@@ -98,6 +106,9 @@ function getFaction(id) {
 function applyDiff(destination, key, value) {
   // Returns true if data was modified
 
+  let identifier = destination.name || destination.title || destination.xws;
+  identifier = identifier ? `(${identifier})` : "";
+
   // Remove double spaces in value
   if (typeof value === "string") {
     value = value.replace(/\s{2,}/g, " ");
@@ -105,8 +116,8 @@ function applyDiff(destination, key, value) {
 
   // Handle the destination missing some data
   if (!destination.hasOwnProperty(key) && (value || value.length > 0)) {
-    console.log(key + " was missing.");
-    console.log("--New:      ", value);
+    console.log(key + ` was missing. ${identifier}`);
+    console.log(gitdiff("", value, diffOpts));
     destination[key] = value;
     return true;
   }
@@ -116,9 +127,15 @@ function applyDiff(destination, key, value) {
     let existing = JSON.stringify(destination[key]).trim();
     let newValue = JSON.stringify(value).trim();
     if (existing.localeCompare(newValue) != 0) {
-      console.log("Change detected in " + key);
-      console.log("--Existing: ", destination[key]);
-      console.log("--New:      ", value);
+      console.log(`Change detected in ${key} ${identifier}`);
+      const old =
+        typeof destination[key] === "string"
+          ? destination[key]
+          : JSON.stringify(destination[key], null, 2);
+      const updated =
+        typeof value === "string" ? value : JSON.stringify(value, null, 2);
+      const diff = gitdiff(old, updated, diffOpts);
+      console.log(diff);
       destination[key] = value;
       return true;
     }
@@ -143,6 +160,7 @@ function sanitize(text) {
   sanitized = sanitized.replace(/\’/g, "'");
   sanitized = sanitized.replace(/\“/g, '\\"');
   sanitized = sanitized.replace(/\”/g, '\\"');
+  sanitized = sanitized.replace(/[˚º]/g, "°");
   return sanitized;
 }
 
@@ -166,7 +184,7 @@ function getTagContent(text, tag) {
   }
   let foundText = found[0].substring(tag.length + 2);
   foundText = foundText.substring(0, foundText.length - tag.length - 3);
-  return foundText;
+  return foundText.trim();
 }
 
 function stripTag(text, tag) {
@@ -187,11 +205,15 @@ function stripAllTags(text) {
 
 function processShipType(ship_type) {
   let result = false;
-  Object.entries(pilotData).forEach(([filenameKey, ship]) => {
+  Object.entries(pilotData).forEach(([filename, ship]) => {
     if (ship.ffg == ship_type.id) {
       result = true;
       // Inspect ship type for icon data
-      applyDiff(ship, "icon", ship_type.icon);
+      const modified = applyDiff(ship, "icon", ship_type.icon);
+
+      if (modified) {
+        modifiedFiles.push(filename);
+      }
     }
   });
   return result;
@@ -203,14 +225,9 @@ function processCard(card) {
   let upgradeRef = null;
   let filename = null;
   card.name = stripAllTags(card.name).trim();
-  console.log("Processing " + card.name);
+  // console.log("Processing " + card.name);
   // If the card contains a pilot
   if (card.card_type_id == 1) {
-    // Skip Lando Escape Craft. The FFG card text is not properly tagged and therefore
-    // parses incorrectly.
-    if (card.id == 226) {
-      return true;
-    }
     Object.entries(pilotData).forEach(
       // Check each ship file
       ([filenameKey, ship]) => {
@@ -236,6 +253,13 @@ function processCard(card) {
     // Find the upgradeType. There may be more than one upgrade type listed in the FFG data
     // if the upgrade takes more than one slot type (ex: Calibrated Laser Targeting)
     card.upgrade_types.forEach(upgradeTypeNum => {
+      // Card-specific tweaks:
+      //
+      // L3-37's Programming: Treat it as Crew because front side is a Crew card
+      if (card.id === 383) {
+        upgradeTypeNum = 8;
+      }
+
       let upgradeType = upgradeTypes.find(
         upgradeType => upgradeType.ffg == upgradeTypeNum
       );
@@ -295,7 +319,9 @@ function processCard(card) {
 
     // Only apply a card name change when looking at side[0]
     if (upgradeRef.sides[0] == ref) {
-      modified = modified || applyDiff(upgradeRef, "name", card.name);
+      // Replace `(Open)` and `(Closed)` in dual-side cards
+      const name = card.name.replace(/\((Open|Closed)\)/, "").trim();
+      modified = applyDiff(upgradeRef, "name", name) || modified;
     }
     if (cost == null) {
       if (!upgradeRef.cost || !("variable" in upgradeRef.cost)) {
@@ -305,23 +331,30 @@ function processCard(card) {
         );
       }
     } else {
-      modified = modified || applyDiff(upgradeRef, "cost", cost);
+      modified = applyDiff(upgradeRef, "cost", cost) || modified;
     }
-    modified = modified || applyDiff(upgradeRef, "limited", limited);
+    modified = applyDiff(ref, "title", card.name) || modified;
+    modified = applyDiff(upgradeRef, "limited", limited) || modified;
   } else {
-    modified = modified || applyDiff(ref, "name", card.name);
-    modified = modified || applyDiff(ref, "caption", card.subtitle);
+    modified = applyDiff(ref, "name", card.name) || modified;
+    modified = applyDiff(ref, "caption", card.subtitle) || modified;
     if (!ref.caption || ref.caption.length == 0) {
-      console.log("Removing empty caption");
       delete ref.caption;
     }
-    modified = modified || applyDiff(ref, "limited", limited);
+    modified = applyDiff(ref, "limited", limited) || modified;
   }
 
-  modified = modified || applyDiff(ref, "artwork", card.image);
-  modified = modified || applyDiff(ref, "image", card.card_image);
+  modified = applyDiff(ref, "artwork", card.image) || modified;
+  modified = applyDiff(ref, "image", card.card_image) || modified;
 
   let card_text = card.ability_text;
+
+  // Card-specific tweaks:
+  //
+  // Lando [Escape Craft]: Card text is missing the `</shipability>` closing tag
+  if (card.id == 226) {
+    card_text = card_text + "</shipability>";
+  }
 
   // Parse card text for shipability text
   let ship_ability_text = getTagContent(card_text, "shipability");
@@ -330,16 +363,26 @@ function processCard(card) {
     let ship_ability = {};
     // Find text tagged with <sabold> - this will be the name of the ability
     // Remove the ":" at the end
-    ship_ability.name = getTagContent(ship_ability_text, "sabold")
-      .replace(/\:/g, "")
-      .trim();
+    ship_ability.name = getTagContent(ship_ability_text, "sabold").replace(
+      /:$/,
+      ""
+    );
     // Strip out the <sabold> ability name and any other tag content such as <return>
     ship_ability_text = stripTag(ship_ability_text, "sabold");
     ship_ability_text = stripAllTags(ship_ability_text);
     // Save what's left as the ship ability
     ship_ability.text = ship_ability_text.trim();
+
+    // Card-specific tweaks:
+    //
+    // Nashtah Pup: Ability is missing a space after `Setup:`
+    ship_ability.text = ship_ability.text.replace(
+      /([a-z]):([a-z])/gi,
+      "$1: $2"
+    );
+
     // Update the card data
-    modified = modified || applyDiff(ref, "shipAbility", ship_ability);
+    modified = applyDiff(ref, "shipAbility", ship_ability) || modified;
     // Remove the shipability tag
     card_text = stripTag(card_text, "shipability").trim();
   }
@@ -349,15 +392,21 @@ function processCard(card) {
   if (flavor_text) {
     flavor_text = stripTag(flavor_text, "flavor");
     flavor_text = stripAllTags(flavor_text).trim();
-    modified = modified || applyDiff(ref, "text", flavor_text);
+    modified = applyDiff(ref, "text", flavor_text) || modified;
     // Remove flavor tag
     card_text = stripTag(card_text, "flavor").trim();
   }
 
   card_text = stripAllTags(card_text).trim();
+
+  // Card-specific tweaks:
+  //
+  // Ezra [Sheathipede]: Ability has `[Evade] /[Hit]` which should be `[Evade]/[Hit]`
+  card_text = card_text.replace(/\] \/\[/g, "]/[");
+
   if (card_text && card_text.length) {
     // Whatever card text is left is a pilot ability
-    modified = modified || applyDiff(ref, "ability", card_text);
+    modified = applyDiff(ref, "ability", card_text) || modified;
   }
 
   if (modified) {
@@ -414,12 +463,12 @@ console.log("** Loaded Scraped Data **");
 
 // Load each of the existing pilot data files
 extractFileList(manifest["pilots"]).forEach(file => {
-  pilotData[file] = JSON.parse(fs.readFileSync("../" + file), "utf8");
+  pilotData[file] = JSON.parse(readFile(file));
 });
 
 // Load each of the existing upgrade data files
 extractFileList(manifest["upgrades"]).forEach(file => {
-  upgradeData[file] = JSON.parse(fs.readFileSync("../" + file), "utf8");
+  upgradeData[file] = JSON.parse(readFile(file));
 });
 
 metadata["ship_types"].forEach(shipType => {
@@ -448,6 +497,9 @@ if (modifiedFiles.length) {
     let data = pilotData[filename]
       ? pilotData[filename]
       : upgradeData[filename];
-    fs.writeFileSync("../" + filename, JSON.stringify(data));
+    fs.writeFileSync(
+      `${__dirname}/../${filename}`,
+      JSON.stringify(data, null, 0)
+    );
   });
 }
