@@ -198,6 +198,28 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_55.jpg",
       "ffg": 55,
       "hyperspace": true
+    },
+    {
+      "name": "K-2SO",
+      "caption": "Cassian Said I Had To",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 666666,
+      "xws": "k2so",
+      "ability": "After you gain a stress token, gain 1 calculate token.",
+      "image": "",
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Configuration"
+      ],
+      "artwork": "",
+      "ffg": 666666,
+      "hyperspace": false
     }
   ]
 }
