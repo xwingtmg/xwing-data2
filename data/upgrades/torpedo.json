@@ -88,6 +88,14 @@
         "title": "Plasma Torpedoes",
         "type": "Torpedo",
         "slots": ["Torpedo"],
+        "charges": { "value": 2, "recovers": 0 },
+        "attack": {
+          "arc": "Front Arc",
+          "value": 3,
+          "minrange": 2,
+          "maxrange": 3,
+          "ordnance": true
+        }, 
         "ffg": 579,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/4123de29aa73a40eca130e1e75d9353b.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/60fb85c3782c235904678bac8a106150.png"
