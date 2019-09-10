@@ -406,5 +406,23 @@
     "restrictions": [{ "factions": ["Galactic Republic"] }],
     "cost": { "value": 3 },
     "hyperspace": true
+  },
+  {
+    "name": "Ahsoka Tano",
+    "sides": [
+      {
+        "ffg": 615,
+        "title": "Ahsoka Tano",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f37eb1e56dc1928bfcd53e4eb95a01ae.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/bdc101788f827aeaf2f50a513b59aa7e.png",
+        "ability": "After you execute a maneuver, you may spend 1 [Force] and choose a friendly ship at range 1-3 in your firing arc. If you do, it may perform a red [Focus] action, even while stressed.",
+        "slots": ["Gunner"],
+        "type": "Gunner"
+      }
+    ],
+    "cost": { "value": 12 },
+    "limited": 1,
+    "hyperspace": true,
+    "xws": "ahsokatano"
   }
 ]
