@@ -342,5 +342,23 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/41cf9c90abcd8ff5c668bb447967b75c.png"
       }
     ]
+  },
+  {
+    "name": "Targeting Computer",
+    "limited": 0,
+    "sides": [
+      {
+        "ffg": 619,
+        "title": "Targeting Computer",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2e8e6572a5802967220296ec22e5d8cb.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/619d3d56eadaada29c6602cc7cd00148.png",
+        "text": "Targeting computers are standard features on many vessels, especially those designed to deliver ordnance. Some light starfighters and transport craft lack such weapons guidance, though it can be installed as an after-market modification.",
+        "slots": ["Modification"],
+        "type": "Modification"
+      }
+    ],
+    "cost": { "value": 3 },
+    "hyperspace": true,
+    "xws": "targetingcomputer"
   }
 ]
