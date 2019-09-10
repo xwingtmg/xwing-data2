@@ -48,7 +48,16 @@
       "hyperspace": true,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/84e5bef1597b232a20e52e1aa28a4c7e.jpg",
       "cost": 35,
-      "ffg": 602
+      "ffg": 602,
+      "slots": [
+        "Talent",
+        "Turret",
+        "Torpedo",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Gunner"
+      ]
     },
     {
       "name": "Anakin Skywalker",
@@ -65,7 +74,16 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c7c979a7d90961d2e3afe377a71285df.png",
       "ability": "After you fully execute a maneuver, if there is an enemy ship in your [Front Arc] at range 0-1 or in your [Bullseye Arc], you may spend 1 [Force] to remove 1 stress token.",
       "cost": 60,
-      "ffg": 596
+      "ffg": 596,
+      "slots": [
+        "Turret",
+        "Torpedo",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Gunner",
+        "Force Power"
+      ]
     },
     {
       "name": "R2-D2",
@@ -81,7 +99,16 @@
         "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
       },
       "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Rear Arc], gain 1 calculate token.",
-      "hyperspace": true
+      "hyperspace": true,
+      "slots": [
+        "Talent",
+        "Turret",
+        "Torpedo",
+        "Crew",
+        "Device",
+        "Modification",
+        "Gunner"
+      ]
     },
     {
       "name": "\"Odd Ball\"",
@@ -98,7 +125,16 @@
       "ffg": 597,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/5f37609150489b6d49ca659d1b1caa8a.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3b260355bd12266e08ff25ec16d278fe.png",
-      "ability": "After you execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship."
+      "ability": "After you execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
+      "slots": [
+        "Talent",
+        "Turret",
+        "Torpedo",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Gunner"
+      ]
     },
     {
       "name": "\"Matchstick\"",
@@ -115,7 +151,16 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6aa658fe4082ed67500d2ac92c7731a0.png",
       "ability": "While you perform a primary or [Single Turret Arc] attack, you may reroll 1 attack die for each red token you have.",
       "cost": 43,
-      "ffg": 598
+      "ffg": 598,
+      "slots": [
+        "Talent",
+        "Turret",
+        "Torpedo",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Gunner"
+      ]
     },
     {
       "name": "\"Broadside\"",
@@ -132,7 +177,16 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1f0842573067d73acd7bb7589707ec4e.png",
       "ability": "While you perform a [Single Turret Arc] attack, if your [Single Turret Arc] indicator is in your [Left Arc] or [Right Arc], you may change 1 blank result to a [Focus] result.",
       "cost": 36,
-      "ffg": 599
+      "ffg": 599,
+      "slots": [
+        "Talent",
+        "Turret",
+        "Torpedo",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Gunner"
+      ]
     },
     {
       "name": "\"Goji\"",
@@ -149,7 +203,15 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8ac74252d260a910a7990e6e806aa612.png",
       "ability": "While a friendly ship at range 0-3 defends, it may roll 1 additional defense die for each friendly bomb or mine at range 0-1 of it.",
       "cost": 34,
-      "ffg": 601
+      "ffg": 601,
+      "slots": [
+        "Turret",
+        "Torpedo",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Gunner"
+      ]
     },
     {
       "name": "Red Squadron Bomber",
@@ -165,7 +227,15 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e91e0d3a30e85c878f7493360d1b668f.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/692a1f1d4b5f5370dad7cacf2f19d699.png",
       "cost": 33,
-      "ffg": 603
+      "ffg": 603,
+      "slots": [
+        "Turret",
+        "Torpedo",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Gunner"
+      ]
     }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_BTL-B_Ywing.png"

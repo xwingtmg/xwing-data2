@@ -50,7 +50,8 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/62c29b8b7f82e37980d58b39023a800a.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e97a0ae22847e0b71d920a0df9dfcfab.png",
       "cost": 34,
-      "ffg": 609
+      "ffg": 609,
+      "slots": ["Talent"]
     },
     {
       "name": "Sun Fac",
@@ -67,7 +68,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/42265df53c90026a58ac96b0acd3c1f8.png",
       "ability": "While you perform a primary attack, if the defender is tractored, roll 1 additional attack die.",
       "cost": 54,
-      "ffg": 604
+      "ffg": 604,
+      "slots": ["Talent", "Talent"]
     },
     {
       "name": "Berwer Kret",
@@ -84,7 +86,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f1c76ce6ff266c23099686392efef565.png",
       "ability": "After you perform an attack that hits, each friendly ship with [Calculate] on its action bar and a lock on the defender may perform a red [Calculate] action.",
       "cost": 40,
-      "ffg": 605
+      "ffg": 605,
+      "slots": ["Talent", "Talent"]
     },
     {
       "name": "Chertek",
@@ -101,7 +104,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/07504533be45d13cb82d71ea11d234f7.png",
       "ability": "While you perform a primary attack, if the defender is tractored, you may reroll up to 2 attack dice.",
       "cost": 39,
-      "ffg": 606
+      "ffg": 606,
+      "slots": ["Talent", "Talent"]
     },
     {
       "name": "Gorgol",
@@ -116,7 +120,8 @@
         "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
       "ability": "During the System Phase, you may gain 1 disarm token and choose a friendly ship at range 1-2. If you do, it gains 1 tractor token, then repairs 1 of its faceup Ship trait damage cards.",
-      "hyperspace": true
+      "hyperspace": true,
+      "slots": ["Talent"]
     },
     {
       "name": "Petranaki Arena Ace",
@@ -130,7 +135,8 @@
       },
       "text": "The Petranaki Arena is a massive edifice on Geonosis that was a key site in the first battle of the Clone Wars.",
       "hyperspace": true,
-      "limited": 0
+      "limited": 0,
+      "slots": ["Talent", "Talent"]
     }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Nantex_Class_Starfighter.png"
