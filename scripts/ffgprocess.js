@@ -376,6 +376,9 @@ function processCard(card) {
 
     modified = applyDiff(ref, "name", card.name) || modified;
     modified = applyDiff(ref, "caption", card.subtitle) || modified;
+    if (card.initiative) {
+      modified = applyDiff(ref, "initiative", card.initiative) || modified;
+    }
     modified = applyDiff(ref, "cost", parseInt(card.cost, 10)) || modified;
     modified = applyDiff(ref, "ffg", card.id) || modified;
     if (!ref.caption || ref.caption.length == 0) {
