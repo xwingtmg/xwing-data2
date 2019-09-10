@@ -122,7 +122,8 @@
       },
       "ability": "During the System Phase, you may gain 1 disarm token and choose a friendly ship at range 1-2. If you do, it gains 1 tractor token, then repairs 1 of its faceup Ship trait damage cards.",
       "hyperspace": true,
-      "slots": ["Talent"]
+      "slots": ["Talent"],
+      "xws": "gorgol"
     },
     {
       "name": "Petranaki Arena Ace",
@@ -138,7 +139,8 @@
       "text": "The Petranaki Arena is a massive edifice on Geonosis that was a key site in the first battle of the Clone Wars.",
       "hyperspace": true,
       "limited": 0,
-      "slots": ["Talent", "Talent"]
+      "slots": ["Talent", "Talent"],
+      "xws": "petranakiarenaace"
     }
   ],
   "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Nantex_Class_Starfighter.png"
