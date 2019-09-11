@@ -68,6 +68,7 @@
         "name": "Plated Hull",
         "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
       },
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "hyperspace": true,
       "caption": "Hero of the Republic",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7fc9010418aceb84cd9fb48d34e39ec8.jpg",
