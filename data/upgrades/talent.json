@@ -487,24 +487,64 @@
         "title": "Ensnare",
         "type": "Talent",
         "slots": ["Talent"],
-        "ability": "At the end of the Activation Phase, if you are tractored, you may choose 1 ship in your [Single Turret Arc] arc at range 0-1. Transfer 1 tractor token to it."
+        "ability": "At the end of the Activation Phase, if you are tractored, you may choose 1 ship in your [Single Turret Arc] arc at range 0-1. Transfer 1 tractor token to it.",
+        "ffg": 610,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/9513320be3bb150bb8ee6d3504e0ed01.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5d7e0560460a1d91281537a658ddfc86.png"
       }
     ],
-    "hyperspace": false,
+    "cost": {
+      "variable": "initiative",
+      "values": {
+        "0": 10,
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10,
+        "5": 16,
+        "6": 24
+      }
+    },
+    "hyperspace": true,
     "restrictions": [{ "ships": ["nantexclassstarfighter"] }]
   },
   {
     "name": "Snap Shot",
     "limited": 0,
     "xws": "snapshot",
-    "hyperspace": false,
+    "hyperspace": true,
+    "cost": {
+      "variable": "size",
+      "values": { "Small": 7, "Medium": 8, "Large": 9 }
+    },
     "sides": [
       {
-        "ability": "After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Your dice cannot be modified.",
+        "ability": "After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack: Your dice cannot be modified.",
         "title": "Snap Shot",
         "type": "Talent",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "ffg": 612,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ec959ee48f953dbde71aa7c89d0b54bf.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/fed45c0416dfd298d9433c4608e99b7e.png"
       }
     ]
+  },
+  {
+    "sides": [
+      {
+        "ffg": 611,
+        "title": "Gravitic Deflection",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/8bcd2006892a98b5b29d9aba67733cb6.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/50ec6aa5a267ece16d36533f4efe2bb0.png",
+        "ability": "While you defend, you may reroll 1 defense die for each tractored ship in the attack arc.",
+        "slots": ["Talent"],
+        "type": "Talent"
+      }
+    ],
+    "name": "Gravitic Deflection",
+    "limited": 0,
+    "cost": { "value": 5 },
+    "hyperspace": true,
+    "xws": "graviticdeflection"
   }
 ]

@@ -182,7 +182,7 @@
       {
         "title": "Static Discharge Vanes",
         "type": "Modification",
-        "ability": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose a ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead.",
+        "ability": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_76.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg",
@@ -342,5 +342,23 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/41cf9c90abcd8ff5c668bb447967b75c.png"
       }
     ]
+  },
+  {
+    "name": "Targeting Computer",
+    "limited": 0,
+    "sides": [
+      {
+        "ffg": 619,
+        "title": "Targeting Computer",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2e8e6572a5802967220296ec22e5d8cb.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/619d3d56eadaada29c6602cc7cd00148.png",
+        "text": "Targeting computers are standard features on many vessels, especially those designed to deliver ordnance. Some light starfighters and transport craft lack such weapons guidance, though it can be installed as an after-market modification.",
+        "slots": ["Modification"],
+        "type": "Modification"
+      }
+    ],
+    "cost": { "value": 3 },
+    "hyperspace": true,
+    "xws": "targetingcomputer"
   }
 ]

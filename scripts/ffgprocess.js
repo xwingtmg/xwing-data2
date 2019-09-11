@@ -115,15 +115,19 @@ function applyDiff(destination, key, value) {
   }
 
   // Handle the destination missing some data
-  if (!destination.hasOwnProperty(key) && (value || value.length > 0)) {
+  if (
+    !destination.hasOwnProperty(key) &&
+    typeof value !== undefined &&
+    value !== ""
+  ) {
     console.log(key + ` was missing. ${identifier}`);
-    console.log(gitdiff("", value, diffOpts));
+    console.log(gitdiff("", "" + value, diffOpts));
     destination[key] = value;
     return true;
   }
 
   // Handle an update to existing data
-  if (value && destination[key]) {
+  if (typeof value !== "undefined" && typeof destination[key] !== "undefined") {
     let existing = JSON.stringify(destination[key]).trim();
     let newValue = JSON.stringify(value).trim();
     if (existing.localeCompare(newValue) != 0) {
@@ -203,6 +207,14 @@ function stripAllTags(text) {
   return text.replace(/\<[^\>]+\>/gi, "");
 }
 
+function getShipFromFFGId(ffgid) {
+  return metadata.ship_types.find(ship => ship.id === ffgid);
+}
+
+function getUpgradeTypeFromFFGId(ffgid) {
+  return metadata.upgrade_types.find(upgradeType => upgradeType.id === ffgid);
+}
+
 function processShipType(ship_type) {
   let result = false;
   Object.entries(pilotData).forEach(([filename, ship]) => {
@@ -224,7 +236,8 @@ function processCard(card) {
   let ref = null;
   let upgradeRef = null;
   let filename = null;
-  card.name = stripAllTags(card.name).trim();
+  let limited = (card.name.match(/\•/g) || []).length;
+  card.name = stripAllTags(card.name.replace(/\•/g, "")).trim();
   // console.log("Processing " + card.name);
   // If the card contains a pilot
   if (card.card_type_id == 1) {
@@ -239,12 +252,18 @@ function processCard(card) {
           // Save the filename
           filename = filenameKey;
           // Find the pilot inside the data in the ship file
-          ref = ship.pilots.find(pilot => pilot.ffg == card.id);
+          ref = ship.pilots.find(
+            pilot => pilot.ffg == card.id || pilot.name == card.name
+          );
         }
       }
     );
     if (!ref) {
-      console.log("** Could not find existing data for", card);
+      console.log(
+        `** Could not find existing data for pilot FFG id ${card.id} named ${
+          card.name
+        } [${getShipFromFFGId(card.ship_type).name}]`
+      );
       return false;
     }
   }
@@ -284,13 +303,15 @@ function processCard(card) {
       upgradeData[filename].forEach(upgrade => {
         // Look at each side of each upgrade
         upgrade.sides.forEach(side => {
-          if (side.ffg == card.id) {
-            ref = side;
-            upgradeRef = upgrade;
-          } else if (sanitize(upgrade.title) == sanitize(side.title)) {
+          if (side.ffg) {
+            if (side.ffg == card.id) {
+              ref = side;
+              upgradeRef = upgrade;
+            }
+          } else if (sanitize(card.name) == sanitize(side.title)) {
             console.log(
               "Found title match without FFG ID match for ",
-              upgrade.title
+              card.name
             );
             console.log("Applying FFG ID", card.id);
             ref = side;
@@ -310,8 +331,6 @@ function processCard(card) {
   let modified = false;
 
   let cost = card.cost == "*" ? null : { value: parseInt(card.cost) };
-  let limited = (card.name.match(/\•/g) || []).length;
-  card.name = card.name.replace(/\•/g, "");
 
   if (upgradeRef) {
     // For upgrades, some fields are stored in the parent object
@@ -334,10 +353,34 @@ function processCard(card) {
       modified = applyDiff(upgradeRef, "cost", cost) || modified;
     }
     modified = applyDiff(ref, "title", card.name) || modified;
+    modified =
+      applyDiff(
+        ref,
+        "type",
+        getUpgradeTypeFromFFGId(card.upgrade_types[0]).name
+      ) || modified;
+    modified =
+      applyDiff(
+        ref,
+        "slots",
+        card.upgrade_types.map(id => getUpgradeTypeFromFFGId(id).name)
+      ) || modified;
     modified = applyDiff(upgradeRef, "limited", limited) || modified;
   } else {
+    // Card-specific tweaks:
+    //
+    // Odd Ball [BTL-B Y-wing]: Card name is "Oddball" which should be "Odd Ball"
+    if (card.id === 597) {
+      card.name = '"Odd Ball"';
+    }
+
     modified = applyDiff(ref, "name", card.name) || modified;
     modified = applyDiff(ref, "caption", card.subtitle) || modified;
+    if (card.initiative) {
+      modified = applyDiff(ref, "initiative", card.initiative) || modified;
+    }
+    modified = applyDiff(ref, "cost", parseInt(card.cost, 10)) || modified;
+    modified = applyDiff(ref, "ffg", card.id) || modified;
     if (!ref.caption || ref.caption.length == 0) {
       delete ref.caption;
     }
