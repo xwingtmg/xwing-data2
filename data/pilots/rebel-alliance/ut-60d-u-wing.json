@@ -215,6 +215,11 @@
         "Modification",
         "Configuration"
       ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Coordinate" }
+      ],
       "hyperspace": false
     }
   ]
