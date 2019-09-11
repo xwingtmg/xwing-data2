@@ -1,7 +1,6 @@
 {
   "name": "TIE/ba Interceptor",
   "xws": "tiebainterceptor",
-  "ffg": 6666666,
   "size": "Small",
   "dial": [
     "1TB",
@@ -60,7 +59,6 @@
       "caption": "Red Baron",
       "initiative": 6,
       "limited": 1,
-      "cost": 6666666,
       "xws": "majorvonreg",
       "ability": "During the System Phase, you may choose 1 enemy ship in your [Bullseye Arc]. That ship gains 1 deplete or strain token of your choice.",
       "shipAbility": {
@@ -68,10 +66,7 @@
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
       "slots": ["Talent"],
-      "image": "",
-      "artwork": "",
-      "ffg": 6666666,
-      "hyperspace": true
+      "hyperspace": false
     }
   ]
 }
