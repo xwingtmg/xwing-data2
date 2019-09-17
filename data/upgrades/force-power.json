@@ -161,5 +161,44 @@
     },
     "restrictions": [{ "factions": ["Galactic Republic"] }],
     "hyperspace": true
+  },
+  {
+    "name": "Foresight",
+    "sides": [
+      {
+        "ffg": 613,
+        "title": "Foresight",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/87b83856576c1d4b7f3036d6008863f6.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/12c948b9a0fe9f619ecda00f9fdcc437.png",
+        "ability": "After an enemy ship executes a maneuver, you may spend 1 [Force] to perform this attack against it as a bonus attack. Attack: You may change 1 [Focus] result to a [Hit] result; your dice cannot be modified otherwise.",
+        "slots": ["Force Power"],
+        "type": "Force Power"
+      }
+    ],
+    "cost": { "value": 4 },
+    "hyperspace": true,
+    "xws": "foresight",
+    "limited": 0
+  },
+  {
+    "name": "Precognitive Reflexes",
+    "limited": 0,
+    "sides": [
+      {
+        "ffg": 614,
+        "title": "Precognitive Reflexes",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7c139cebc9475051506c5b79a98f465a.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/931c84c3e1b3afe5d078f6b3dd4f677a.png",
+        "ability": "After you reveal your dial, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, gain 1 strain token. If you do, you cannot perform another action during your activation.",
+        "slots": ["Force Power"],
+        "type": "Force Power"
+      }
+    ],
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 3, "1": 3, "2": 3, "3": 4, "4": 7, "5": 10, "6": 13 }
+    },
+    "hyperspace": true,
+    "xws": "precognitivereflexes"
   }
 ]

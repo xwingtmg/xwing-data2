@@ -106,6 +106,20 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_171.jpg",
       "ffg": 171,
       "hyperspace": false
+    },
+    {
+      "name": "Bossk",
+      "caption": "Fearsome Hunter",
+      "initiative": 4,
+      "limited": 1,
+      "xws": "bossk-z95af4headhunter",
+      "ability": "While you perform a primary attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.",
+      "shipAbility": {
+        "name": "Pursuit Craft",
+        "text": "After you deploy, you may acquire a lock on a ship the friendly Hound's Tooth has locked."
+      },
+      "slots": ["Talent", "Missile", "Illicit", "Modification"],
+      "hyperspace": false
     }
   ]
 }

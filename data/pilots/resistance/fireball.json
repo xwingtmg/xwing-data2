@@ -1,0 +1,53 @@
+{
+  "name": "Fireball",
+  "xws": "fireball",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1BB",
+    "1FB",
+    "1NB",
+    "1YW",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YR",
+    "3ER",
+    "3RR",
+    "4FR"
+  ],
+  "faction": "Resistance",
+  "stats": [
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 6 },
+    { "type": "shields", "value": 0 }
+  ],
+  "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Slam" }
+  ],
+  "icon": "",
+  "pilots": [
+    {
+      "name": "Colossus Station Mechanic",
+      "initiative": 2,
+      "limited": 0,
+      "xws": "colossusstationmechanic",
+      "shipAbility": {
+        "name": "Explosion With W??? Setup",
+        "text": "You are dealt 1 facedown damage card. After you perform a [Slam] action, you may expose 1 damage card to remove 1 disarm token."
+      },
+      "slots": ["Modification"],
+      "hyperspace": false
+    }
+  ]
+}

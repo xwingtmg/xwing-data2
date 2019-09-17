@@ -68,7 +68,7 @@
       "hyperspace": true,
       "cost": 42,
       "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
-      "ability": "While you defend or perform a primary attack, if the speed of yor revealed maneuver is higher than the enemy ship's, roll 1 additional die.",
+      "ability": "While you defend or perform a primary attack, if the speed of your revealed maneuver is higher than the enemy ship's, roll 1 additional die.",
       "ffg": 557,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/26080de6b705112c0d7d53de48484bb0.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/87829b7b808c535eb1e2c8314b04971a.png"
@@ -118,7 +118,7 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "text": "The volunteer pilots of the Royal Naboo Secrity Force are dedicated to protecting the people and ideals of their homeworld, and trust their Queen to send them into battle only when all other options have failed.",
+      "text": "The volunteer pilots of the Royal Naboo Security Force are dedicated to protecting the people and ideals of their homeworld, and trust their Queen to send them into battle only when all other options have failed.",
       "hyperspace": true,
       "cost": 34,
       "slots": ["Sensor", "Torpedo", "Astromech"],
@@ -145,5 +145,6 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/afe1521a12124eeff41ed4234e7591ac.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4493fe57050175b6a75e3a13e7553b1e.png"
     }
-  ]
+  ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Royal_Naboo_N-1_Starfighter.png"
 }

@@ -16,7 +16,7 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "\"Genius\"",
@@ -176,7 +176,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "R5-TK",
@@ -397,5 +397,33 @@
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
     "cost": { "value": 6 }
+  },
+  {
+    "name": "C1-10P",
+    "sides": [
+      {
+        "ffg": 618,
+        "title": "C1-10P",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/c480434cf330e99e269eaf0fe83e2444.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cde74a191d82775eacf2e273e855ef5f.png",
+        "ability": "Setup: Equip this side faceup. After you execute a maneuver, you may spend 1 [Charge] to perform a red [Evade] action, even while stressed. During the End Phase, if this card has 0 active [Charge], flip it.",
+        "slots": ["Astromech"],
+        "charges": { "value": 2, "recovers": 0 },
+        "type": "Astromech"
+      },
+      {
+        "ffg": 617,
+        "title": "C1-10P (Erratic)",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/815bfa9be6941de313eb1e318a02b2ae.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6150404202e627187f39b6092cdf702c.png",
+        "ability": "After you execute a maneuver, you must choose a ship at range 0-1. It gains 1 jam token.",
+        "slots": ["Astromech"],
+        "type": "Astromech"
+      }
+    ],
+    "cost": { "value": 7 },
+    "limited": 1,
+    "hyperspace": true,
+    "xws": "c110p"
   }
 ]

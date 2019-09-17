@@ -93,7 +93,7 @@
       { "factions": ["Rebel Alliance"] },
       { "ships": ["vcx100lightfreighter"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Havoc",
@@ -174,7 +174,7 @@
       {
         "title": "Lando's Millennium Falcon",
         "type": "Title",
-        "ability": "1 escape shuttle may dock with you. While you have an escape shuttle docked, you may spend its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
+        "ability": "1 Escape Craft may dock with you. While you have an Escape Craft docked, you may spend its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_164.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg",
@@ -336,7 +336,7 @@
       { "factions": ["Rebel Alliance"] },
       { "ships": ["attackshuttle", "sheathipedeclassshuttle"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Punishing One",
@@ -362,7 +362,7 @@
       { "factions": ["Scum and Villainy"] },
       { "ships": ["jumpmaster5000"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "ST-321",
@@ -416,7 +416,7 @@
       {
         "title": "Slave I",
         "type": "Title",
-        "ability": "After you reveal a turn ([Turn Left] or [Turn Right]) or bank ([Bank Left] or [Bank Right]) maneuver you may set your dial to the maneuver of the same speed and bearing in the other direction. Add [Torpedo] slot.",
+        "ability": "After you reveal a turn ([Turn Left] or [Turn Right]) or bank ([Bank Left] or [Bank Right]) maneuver, you may set your dial to the maneuver of the same speed and bearing in the other direction. Add [Torpedo] slot.",
         "slots": ["Title"],
         "grants": [{ "type": "slot", "value": "Torpedo", "amount": 1 }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_154.png",
