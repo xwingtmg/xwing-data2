@@ -525,7 +525,14 @@
         "slots": ["Talent"],
         "ffg": 612,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ec959ee48f953dbde71aa7c89d0b54bf.jpg",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/fed45c0416dfd298d9433c4608e99b7e.png"
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/fed45c0416dfd298d9433c4608e99b7e.png",
+        "attack": {
+          "arc": "Front Arc",
+          "value": 2,
+          "minrange": 2,
+          "maxrange": 2,
+          "ordnance": true
+        }
       }
     ]
   },
