@@ -1,7 +1,6 @@
 {
   "name": "Fireball",
   "xws": "fireball",
-  "ffg": 666666,
   "size": "Small",
   "dial": [
     "1TW",
@@ -43,17 +42,12 @@
       "initiative": 2,
       "limited": 0,
       "xws": "colossusstationmechanic",
-      "ability": "",
       "shipAbility": {
         "name": "Explosion With W??? Setup",
         "text": "You are dealt 1 facedown damage card. After you perform a [Slam] action, you may expose 1 damage card to remove 1 disarm token."
       },
-      "image": "",
-      "artwork": "",
-      "cost": 666666,
       "slots": ["Modification"],
-      "ffg": 666666,
-      "hyperspace": true
+      "hyperspace": false
     }
   ]
 }

@@ -68,6 +68,7 @@
         "name": "Plated Hull",
         "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
       },
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "hyperspace": true,
       "caption": "Hero of the Republic",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7fc9010418aceb84cd9fb48d34e39ec8.jpg",
@@ -94,6 +95,12 @@
       "limited": 1,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/90c3f9aac7f44e4a6a860c81f93aae99.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/b37b960f2e79ab5eb905bc3593de8961.png",
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Barrel Roll" },
+        { "difficulty": "Red", "type": "Reload" }
+      ],
       "shipAbility": {
         "name": "Plated Hull",
         "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
@@ -126,7 +133,7 @@
       "ffg": 597,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/5f37609150489b6d49ca659d1b1caa8a.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3b260355bd12266e08ff25ec16d278fe.png",
-      "ability": "After you execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
+      "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
       "slots": [
         "Talent",
         "Turret",

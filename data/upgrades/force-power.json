@@ -172,7 +172,14 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/12c948b9a0fe9f619ecda00f9fdcc437.png",
         "ability": "After an enemy ship executes a maneuver, you may spend 1 [Force] to perform this attack against it as a bonus attack. Attack: You may change 1 [Focus] result to a [Hit] result; your dice cannot be modified otherwise.",
         "slots": ["Force Power"],
-        "type": "Force Power"
+        "type": "Force Power",
+        "attack": {
+          "arc": "Bullseye Arc",
+          "value": 2,
+          "minrange": 1,
+          "maxrange": 2,
+          "ordnance": true
+        }
       }
     ],
     "cost": { "value": 4 },

@@ -204,10 +204,8 @@
       "caption": "Cassian Said I Had To",
       "initiative": 3,
       "limited": 1,
-      "cost": 666666,
       "xws": "k2so",
       "ability": "After you gain a stress token, gain 1 calculate token.",
-      "image": "",
       "slots": [
         "Talent",
         "Sensor",
@@ -217,8 +215,11 @@
         "Modification",
         "Configuration"
       ],
-      "artwork": "",
-      "ffg": 666666,
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Coordinate" }
+      ],
       "hyperspace": false
     }
   ]
