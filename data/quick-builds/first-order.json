@@ -196,7 +196,7 @@
         {
           "id": "kyloren",
           "upgrades": {
-            "talent": ["hate", "predictiveshot"],
+            "force-power": ["hate", "predictiveshot"],
             "tech": ["primedthrusters"],
             "torpedo": ["advprotontorpedoes"]
           }
@@ -290,7 +290,7 @@
         {
           "id": "lieutenantdormitz",
           "upgrades": {
-            "talent": ["biohexacryptcodes", "hyperspacetrackingdata"],
+            "tech": ["biohexacryptcodes", "hyperspacetrackingdata"],
             "cannon": ["tractorbeam"]
           }
         }
@@ -310,7 +310,7 @@
         {
           "id": "majorstridan",
           "upgrades": {
-            "talent": ["biohexacryptcodes", "patternanalyzer"],
+            "tech": ["biohexacryptcodes", "patternanalyzer"],
             "crew": ["captainphasma", "generalhux"],
             "cannon": ["tractorbeam"]
           }
