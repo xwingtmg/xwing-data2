@@ -47,7 +47,8 @@
         "text": "Setup:  You are dealt 1 facedown damage card. After you perform a [SLAM] action, you may expose 1 damage card to remove 1 disarm token."
       },
       "slots": ["Modification"],
-      "hyperspace": false
+      "hyperspace": true,
+      "cost": 26
     },
     {
       "name": "Jarek Yeager",
@@ -67,7 +68,8 @@
         "Modification",
         "Modification",
         "Title"
-      ]
+      ],
+      "cost": 33
     },
     {
       "name": "Kazuda Xiono",
@@ -89,7 +91,8 @@
         "Modification",
         "Title"
       ],
-      "ability": "While you defend or perform a primary attack, if the enemy ship's initiative is higher than the number of damage cards you have, you may roll 1 additional die."
+      "ability": "While you defend or perform a primary attack, if the enemy ship's initiative is higher than the number of damage cards you have, you may roll 1 additional die.",
+      "cost": 40
     },
     {
       "name": "R1-J5",
@@ -110,7 +113,8 @@
         "Modification",
         "Title"
       ],
-      "ability": "Before you expose 1 of your damage cards, you may look at your facedown damage cards, choose 1, and expose thet card instead."
+      "ability": "Before you expose 1 of your damage cards, you may look at your facedown damage cards, choose 1, and expose thet card instead.",
+      "cost": 29
     }
   ]
 }

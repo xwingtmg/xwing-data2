@@ -39,55 +39,55 @@
       "name": "Binayre Pirate",
       "initiative": 1,
       "limited": 0,
-      "cost": 24,
+      "cost": 22,
       "xws": "binayrepirate",
       "text": "Operating from the Double Worlds, Talus and Tralus, Kath Scarlet's gang of smugglers and pirates would never be described as reputable or dependable—even by other criminals.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_173.png",
       "slots": ["Missile", "Illicit", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_173.jpg",
       "ffg": 173,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Black Sun Soldier",
       "initiative": 3,
       "limited": 0,
-      "cost": 27,
+      "cost": 24,
       "xws": "blacksunsoldier",
       "text": "The vast and influential Black Sun crime syndicate can always find a use for talented pilots, provided they aren't particular about how they earn their credits.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_172.png",
       "slots": ["Talent", "Missile", "Illicit", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_172.jpg",
       "ffg": 172,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Kaa'to Leeachos",
       "caption": "Imposing Marauder",
       "initiative": 3,
       "limited": 1,
-      "cost": 29,
+      "cost": 27,
       "xws": "kaatoleeachos",
       "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_170.png",
       "slots": ["Talent", "Missile", "Illicit", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_170.jpg",
       "ffg": 170,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "N'dru Suhlak",
       "caption": "Hunt Saboteur",
       "initiative": 4,
       "limited": 1,
-      "cost": 31,
+      "cost": 30,
       "xws": "ndrusuhlak",
       "ability": "While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack die.",
       "slots": ["Talent", "Missile", "Illicit", "Modification"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_169.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_169.jpg",
       "ffg": 169,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Nashtah Pup",
@@ -119,7 +119,8 @@
         "text": "After you deploy, you may acquire a lock on a ship the friendly Hound's Tooth has locked."
       },
       "slots": ["Talent", "Missile", "Illicit", "Modification"],
-      "hyperspace": false
+      "hyperspace": false,
+      "cost": 29
     }
   ]
 }

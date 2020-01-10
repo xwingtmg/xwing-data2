@@ -54,7 +54,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e15d3e2a2fc082b95a64a83df0c96f7f.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b97a025a7859f54bbc68374ff5d8116e.jpg",
       "ffg": 435,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Tallissan Lintra",
@@ -115,7 +115,7 @@
       "name": "Green Squadron Expert",
       "initiative": 3,
       "limited": 0,
-      "cost": 35,
+      "cost": 34,
       "xws": "greensquadronexpert",
       "text": "Years of field-expedient modifications were standardized in the RZ-2 design, but daring pilots see the ship's improved reliability as a challenge to further push the limits of its performance.",
       "shipAbility": {
@@ -132,7 +132,7 @@
       "name": "Blue Squadron Recruit",
       "initiative": 1,
       "limited": 0,
-      "cost": 33,
+      "cost": 32,
       "xws": "bluesquadronrecruit",
       "text": "Young beings across the galaxy have grown up on tales of heroism in the Galactic Civil War, and many learned to fly in the same cockpits from which their parents fought the Empire.",
       "shipAbility": {
@@ -157,7 +157,8 @@
       "caption": "Committed to the Cause",
       "hyperspace": true,
       "slots": ["Talent", "Talent", "Tech", "Missile"],
-      "ability": "After you defend or perform an attack, you may spend 1 [Charge] to gain 1 focus or evade token."
+      "ability": "After you defend or perform an attack, you may spend 1 [Charge] to gain 1 focus or evade token.",
+      "cost": 40
     },
     {
       "name": "Ronith Blario",
@@ -171,7 +172,8 @@
       "caption": "Reckless Rookie",
       "hyperspace": true,
       "slots": ["Talent", "Tech", "Missile"],
-      "ability": "While you defend of perform an attack, if the emeny ship is in another friendly ship's [Single Turret Arc], you may spend 1 focus token from that friendly ship to change 1 of your [Focus] results to an [Evade] or [Hit] result."
+      "ability": "While you defend of perform an attack, if the emeny ship is in another friendly ship's [Single Turret Arc], you may spend 1 focus token from that friendly ship to change 1 of your [Focus] results to an [Evade] or [Hit] result.",
+      "cost": 34
     }
   ]
 }
