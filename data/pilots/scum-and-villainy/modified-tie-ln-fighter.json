@@ -68,7 +68,7 @@
       },
       "slots": ["Talent", "Modification"],
       "ffg": 443,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Foreman Proach",
@@ -86,13 +86,13 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f789aa53866112fc44fd27ed9e177993.jpg",
       "slots": ["Talent", "Modification"],
       "ffg": 441,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Mining Guild Surveyor",
       "initiative": 2,
       "limited": 0,
-      "cost": 25,
+      "cost": 23,
       "xws": "miningguildsurveyor",
       "text": "With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly exploits newly discovered deposits of doonium ore on worlds such as Batonn, Lothal, and Umbara.",
       "shipAbility": {
@@ -128,7 +128,7 @@
       "name": "Mining Guild Sentry",
       "initiative": 1,
       "limited": 0,
-      "cost": 24,
+      "cost": 22,
       "xws": "miningguildsentry",
       "text": "As part of its arrangement with the Empire, the Mining Guild receives modified TIE/ln Fighters to protect its operations. These craft have solar panels removed from their stabilizers for improved visibility, and feature more extensive life support systems for the benefit of their corporate pilots.",
       "shipAbility": {

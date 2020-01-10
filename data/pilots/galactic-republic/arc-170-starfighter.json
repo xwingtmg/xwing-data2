@@ -44,7 +44,7 @@
       "ability": "While a friendly ship at range 1-2 in your [Left Arc] or [Right Arc] performs a primary attack, it may reroll 1 attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8297fc7d58ec0a5e6068f8dabbbc00f1.png",
       "slots": ["Torpedo", "Crew", "Astromech", "Modification", "Gunner"],
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 54,
       "ffg": 526,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/04b3e18c19a0843f89353949c9ffcb77.jpg"
@@ -66,7 +66,7 @@
     {
       "name": "\"Odd Ball\"",
       "xws": "oddball-arc170starfighter",
-      "cost": 52,
+      "cost": 51,
       "slots": [
         "Talent",
         "Torpedo",
@@ -117,12 +117,12 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/5081daee997a2a55de474dad2e8e4a07.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1798ea30f603f073200326864ef9424c.png",
       "text": "The ARC-170 was designed as a dominating heavy escort fighter with powerful front and rear lasers, ordnance, and an astromech for navigation. Squadrons of these mighty ships bolster the Republic Navy's presence at any battle where they are deployed.",
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Squad Seven Veteran",
       "xws": "squadsevenveteran",
-      "cost": 46,
+      "cost": 44,
       "slots": [
         "Talent",
         "Torpedo",

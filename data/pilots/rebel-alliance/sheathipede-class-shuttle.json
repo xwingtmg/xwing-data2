@@ -51,7 +51,7 @@
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg",
       "ffg": 40,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "AP-5",
@@ -73,7 +73,7 @@
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg",
       "ffg": 41,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Ezra Bridger",
@@ -92,14 +92,14 @@
       "slots": ["Crew", "Astromech", "Modification", "Title", "Force Power"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg",
       "ffg": 39,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Fenn Rau",
       "caption": "Reluctant Rebel",
       "initiative": 6,
       "limited": 1,
-      "cost": 52,
+      "cost": 50,
       "xws": "fennrau-sheathipedeclassshuttle",
       "ability": "After an enemy ship in your firing arc engages, if you are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_38.png",
@@ -110,7 +110,7 @@
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg",
       "ffg": 38,
-      "hyperspace": true
+      "hyperspace": false
     }
   ]
 }
