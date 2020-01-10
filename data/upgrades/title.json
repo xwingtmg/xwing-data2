@@ -11,11 +11,9 @@
         "slots": ["Title"],
         "actions": [{ "type": "Reload", "difficulty": "White" }],
         "grants": [
-          { "type": "slot", "value": "Device", "amount": 1 },
           {
             "type": "action",
-            "value": { "type": "Reload", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Reload", "difficulty": "White" }
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_146.png",
@@ -23,7 +21,7 @@
         "ffg": 371
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
@@ -44,7 +42,13 @@
         "actions": [{ "type": "SLAM", "difficulty": "White" }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3e9870bff7f61acc12970c254eaeca89.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b617cc192e2ffb8368de79d69e1e7956.jpg",
-        "ffg": 484
+        "ffg": 484,
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "SLAM", "difficulty": "White" }
+          }
+        ]
       }
     ],
     "cost": { "value": 2 },
@@ -93,7 +97,7 @@
       { "factions": ["Rebel Alliance"] },
       { "ships": ["vcx100lightfreighter"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Havoc",
@@ -115,7 +119,7 @@
         "ffg": 372
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["scurrgh6bomber"] }
@@ -174,19 +178,19 @@
       {
         "title": "Lando's Millennium Falcon",
         "type": "Title",
-        "ability": "1 Escape Craft may dock with you. While you have an Escape Craft docked, you may spend its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
+        "ability": "1 Escape Craft may dock with you. While you have an Escape Craft docked, you may treat its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_164.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg",
         "ffg": 390
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["customizedyt1300lightfreighter"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Marauder",
@@ -209,7 +213,7 @@
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Millennium Falcon",
@@ -226,15 +230,14 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Evade", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Evade", "difficulty": "White" }
           }
         ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg",
         "ffg": 327
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["modifiedyt1300lightfreighter"] }
@@ -253,11 +256,9 @@
         "slots": ["Title"],
         "actions": [{ "type": "Barrel Roll", "difficulty": "White" }],
         "grants": [
-          { "type": "slot", "value": "Cannon", "amount": 1 },
           {
             "type": "action",
-            "value": { "type": "Barrel Roll", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Barrel Roll", "difficulty": "White" }
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_151.png",
@@ -265,7 +266,7 @@
         "ffg": 376
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 1 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["g1astarfighter"] }
@@ -302,7 +303,7 @@
       {
         "title": "Outrider",
         "type": "Title",
-        "ability": "While you perform an obstructed attack, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
+        "ability": "While you perform an attack that is obstructed by an obstacle, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_105.png",
         "slots": ["Title"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg",
@@ -331,12 +332,12 @@
         "ffg": 330
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["attackshuttle", "sheathipedeclassshuttle"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Punishing One",
@@ -357,7 +358,7 @@
         "ffg": 377
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 5 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["jumpmaster5000"] }
@@ -401,7 +402,7 @@
         "ffg": 378
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 1 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["lancerclasspursuitcraft"] }
@@ -424,7 +425,7 @@
         "ffg": 379
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 1 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
@@ -451,9 +452,9 @@
         "ffg": 380
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 8 },
     "restrictions": [{ "ships": ["starviperclassattackplatform"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Rey's Millennium Falcon",
@@ -470,12 +471,12 @@
         "ffg": 485
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Resistance"] },
       { "ships": ["scavengedyt1300"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Soulless One",
@@ -497,7 +498,7 @@
       { "factions": ["Separatist Alliance"] },
       { "ships": ["belbullab22starfighter"] }
     ],
-    "hyperspace": true,
+    "hyperspace": false,
     "cost": { "value": 6 }
   },
   {

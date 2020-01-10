@@ -11,7 +11,13 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/47dae8a3ecd27a48f3dc35aff03a1a75.png",
         "slots": ["Tactical Relay"],
         "ffg": 531,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0e1c2510e830ff6d9e7e6226ef2792b4.jpg"
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0e1c2510e830ff6d9e7e6226ef2792b4.jpg",
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "White" }
+          }
+        ]
       }
     ],
     "restrictions": [
@@ -84,7 +90,7 @@
       { "factions": ["Separatist Alliance"] },
       { "solitary": true }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 9 },
     "hyperspace": true
   }
 ]

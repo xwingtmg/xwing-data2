@@ -53,7 +53,7 @@
     ],
     "cost": { "value": 10 },
     "restrictions": [{ "factions": ["First Order"] }, { "sizes": ["Large"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Primed Thrusters",
@@ -93,7 +93,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Pattern Analyzer",
@@ -111,7 +111,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Biohexacrypt Codes",
@@ -133,6 +133,6 @@
       { "factions": ["First Order"] },
       { "action": { "type": "Lock" } }
     ],
-    "hyperspace": true
+    "hyperspace": false
   }
 ]

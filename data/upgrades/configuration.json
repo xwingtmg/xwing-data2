@@ -90,7 +90,7 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["ut60duwing"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Servomotor S-foils",
@@ -223,7 +223,7 @@
       }
     },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Calibrated Laser Targeting",
@@ -233,7 +233,7 @@
       {
         "title": "Calibrated Laser Targeting",
         "type": "Configuration",
-        "slots": ["Modification", "Configuration"],
+        "slots": ["Configuration", "Modification"],
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], add 1 [Focus] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f3e06326ab525e07f9a85363b6d69580.png",
         "ffg": 549,
