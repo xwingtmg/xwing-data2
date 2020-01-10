@@ -40,7 +40,7 @@
       "name": "Alpha Squadron Pilot",
       "initiative": 1,
       "limited": 0,
-      "cost": 34,
+      "cost": 31,
       "xws": "alphasquadronpilot",
       "text": "Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_106.png",
@@ -51,13 +51,13 @@
       "slots": ["Modification", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg",
       "ffg": 106,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Saber Squadron Ace",
       "initiative": 4,
       "limited": 0,
-      "cost": 40,
+      "cost": 36,
       "xws": "sabersquadronace",
       "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_105.png",
@@ -68,7 +68,7 @@
       "slots": ["Talent", "Modification", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg",
       "ffg": 105,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Soontir Fel",
@@ -86,14 +86,14 @@
       "slots": ["Talent", "Modification", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg",
       "ffg": 103,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Turr Phennir",
       "caption": "Ambitious Ace",
       "initiative": 4,
       "limited": 1,
-      "cost": 44,
+      "cost": 42,
       "xws": "turrphennir",
       "ability": "After you perform an attack, you may perform a [Barrel Roll] or [Boost] action, even if you are stressed.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_104.png",
@@ -104,7 +104,7 @@
       "slots": ["Talent", "Modification", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg",
       "ffg": 104,
-      "hyperspace": true
+      "hyperspace": false
     }
   ]
 }
