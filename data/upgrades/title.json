@@ -11,6 +11,7 @@
         "slots": ["Title"],
         "actions": [{ "type": "Reload", "difficulty": "White" }],
         "grants": [
+          { "type": "slot", "value": "Device", "amount": 1 },
           {
             "type": "action",
             "value": { "type": "Reload", "difficulty": "White" }
@@ -256,6 +257,7 @@
         "slots": ["Title"],
         "actions": [{ "type": "Barrel Roll", "difficulty": "White" }],
         "grants": [
+          { "type": "slot", "value": "Cannon", "amount": 1 },
           {
             "type": "action",
             "value": { "type": "Barrel Roll", "difficulty": "White" }

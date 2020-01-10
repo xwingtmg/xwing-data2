@@ -330,6 +330,7 @@
         "slots": ["Modification"],
         "restrictions": [{ "sizes": ["Small", "Medium"] }],
         "grants": [
+          { "type": "stat", "value": "shields", "amount": -1 },
           {
             "type": "action",
             "value": { "type": "Reinforce", "difficulty": "White" }
