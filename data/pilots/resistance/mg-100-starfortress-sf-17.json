@@ -172,6 +172,26 @@
       ],
       "ffg": 431,
       "hyperspace": true
+    },
+    {
+      "name": "Paige Tico",
+      "xws": "paigetico",
+      "initiative": 5,
+      "limited": 1,
+      "caption": "Hero",
+      "hyperspace": false,
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Tech",
+        "Crew",
+        "Gunner",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ],
+      "ability": "After you drop a device, you may spend 1 [Charge] to drop an additional device."
     }
   ]
 }

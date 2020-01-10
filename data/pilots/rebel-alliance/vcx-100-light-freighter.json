@@ -150,6 +150,30 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_76.jpg",
       "ffg": 76,
       "hyperspace": true
+    },
+    {
+      "name": "Alexsandr Kallus",
+      "xws": "alexandrkallus",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Tail Gun",
+        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
+      },
+      "caption": "Fulcrum",
+      "hyperspace": false,
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Turret",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Modification",
+        "Title"
+      ],
+      "ability": "While you defend, if the attacker modified any attack dice, you may roll 1 additional defense die."
     }
   ]
 }

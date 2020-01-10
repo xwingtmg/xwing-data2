@@ -136,6 +136,24 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg",
       "ffg": 216,
       "hyperspace": true
+    },
+    {
+      "name": "Nom Lumb",
+      "xws": "nomlumb",
+      "initiative": 1,
+      "limited": 1,
+      "caption": "On the Run",
+      "hyperspace": true,
+      "slots": [
+        "Cannon",
+        "Torpedo",
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Title"
+      ],
+      "ability": "After you become the defender, if the attacker is not in your [Single Turret Arc], you must rotate your [Single Turret Arc] indicator to a standard arc the attacker is in."
     }
   ]
 }

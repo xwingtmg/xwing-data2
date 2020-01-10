@@ -147,6 +147,48 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg",
       "ffg": 409,
       "hyperspace": true
+    },
+    {
+      "name": "Lieutenant LeHuse",
+      "xws": "lieutenantlehuse",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      },
+      "caption": "Unflinching Executioner",
+      "hyperspace": true,
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Tech",
+        "Missile",
+        "Gunner",
+        "Modification"
+      ],
+      "ability": "While you perform an attack, you may spend another friendly ship's lock on the defender to reroll any number of your results."
+    },
+    {
+      "name": "Captain Phasma",
+      "xws": "captainphasma",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      },
+      "caption": "Scyre Survivor",
+      "hyperspace": true,
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Tech",
+        "Missile",
+        "Gunner",
+        "Modification"
+      ],
+      "ability": "While you defend, after the Neutralize Results step, another friendly ship at range 0-1 must suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result."
     }
   ]
 }

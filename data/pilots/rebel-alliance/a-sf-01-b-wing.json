@@ -120,6 +120,23 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg",
       "ffg": 24,
       "hyperspace": true
+    },
+    {
+      "name": "Gina Moonsong",
+      "xws": "ginamoonsong",
+      "initiative": 5,
+      "limited": 1,
+      "caption": "Insubordinate Ace",
+      "hyperspace": true,
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Cannon",
+        "Torpedo",
+        "Modification"
+      ],
+      "ability": "At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2."
     }
   ]
 }

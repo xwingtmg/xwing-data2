@@ -106,6 +106,26 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_147.jpg",
       "ffg": 147,
       "hyperspace": true
+    },
+    {
+      "name": "Morna Kee",
+      "xws": "mornakee",
+      "initiative": 4,
+      "limited": 1,
+      "caption": "Determined Attaché",
+      "hyperspace": true,
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Modification",
+        "Title"
+      ],
+      "ability": "During the End Phase, you may spend 1 [Charge] to flip 1 of your reinforce tokens to your other full arc instead of removing it."
     }
   ]
 }

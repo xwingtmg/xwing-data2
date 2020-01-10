@@ -177,6 +177,20 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_189.jpg",
       "ffg": 189,
       "hyperspace": true
+    },
+    {
+      "name": "G4R-G0R V/M",
+      "xws": "g4rgorvm",
+      "initiative": 0,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "caption": "Tilted Droid",
+      "hyperspace": true,
+      "slots": ["Modification"],
+      "ability": "After you defend, each other ship at range 0 suffers 1 [Critical Hit] damage."
     }
   ]
 }

@@ -144,6 +144,20 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/18b2a1b00b2f8c6669b6b1d1b278dcf2.jpg",
       "ffg": 417,
       "hyperspace": true
+    },
+    {
+      "name": "\"Rush\"",
+      "xws": "rush",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "caption": "Adrenaline Junkie",
+      "hyperspace": true,
+      "slots": ["Tech", "Torpedo", "Missile"],
+      "ability": "While you are damaged, treat your initiative as 6."
     }
   ]
 }

@@ -121,6 +121,20 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_121.jpg",
       "ffg": 121,
       "hyperspace": true
+    },
+    {
+      "name": "\"Vagabond\"",
+      "xws": "vagabond",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Adaptive Ailerons",
+        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
+      },
+      "caption": "Destitute Demolitionist",
+      "hyperspace": true,
+      "slots": ["Talent", "Gunner", "Device", "Modification"],
+      "ability": "After you fully execute a maneuver using your Adaptive Ailerons, if you are not stressed, you may drop 1 device."
     }
   ]
 }

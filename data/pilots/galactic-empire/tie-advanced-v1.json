@@ -104,6 +104,17 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg",
       "ffg": 100,
       "hyperspace": true
+    },
+    {
+      "name": "Fifth Brother",
+      "xws": "fifthbrother",
+      "initiative": 4,
+      "limited": 1,
+      "caption": "Ruthless Brute",
+      "hyperspace": false,
+      "force": { "value": 2, "recovers": 1 },
+      "slots": ["Force Power", "Sensor", "Missile"],
+      "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force] to add 1 [Critical Hit] result."
     }
   ]
 }
