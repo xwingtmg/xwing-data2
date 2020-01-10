@@ -174,5 +174,23 @@
     "hyperspace": false,
     "cost": { "value": 12 },
     "restrictions": [{ "action": { "type": "Reload", "difficulty": "White" } }]
+  },
+  {
+    "name": "Cluster Mines",
+    "limited": 0,
+    "xws": "clustermines",
+    "hyperspace": true,
+    "sides": [
+      { "title": "Cluster Mines", "type": "Device", "slots": ["Device"] }
+    ],
+    "cost": { "value": 8 }
+  },
+  {
+    "name": "Ion Bombs",
+    "limited": 0,
+    "xws": "ionbombs",
+    "hyperspace": true,
+    "sides": [{ "title": "Ion Bombs", "type": "Device", "slots": ["Device"] }],
+    "cost": { "value": 6 }
   }
 ]

@@ -532,5 +532,339 @@
     ],
     "hyperspace": true,
     "cost": { "value": 4 }
+  },
+  {
+    "name": "Assailer",
+    "limited": 1,
+    "xws": "assailer",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Gunner] slot. While you defend, if the attack range is 1, you may roll 1 additional defense die.",
+        "title": "Assailer",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 7 }
+  },
+  {
+    "name": "Blood Crow",
+    "limited": 1,
+    "xws": "bloodcrow",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Gunner] Slot. While you perofrm an attack at attack range 1-2, you may add 1 [Focus] result.",
+        "title": "Blood Crow",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 5 }
+  },
+  {
+    "name": "Bright Hope",
+    "limited": 1,
+    "xws": "brighthope",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "You can reinforce only you [Full Front Arc]. While you defend, if you are reinforced and the attacker is in your [Full Front Arc], you may roll 1 additional defense die.",
+        "title": "Bright Hope",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 5 }
+  },
+  {
+    "name": "Broken Horn",
+    "limited": 1,
+    "xws": "brokenhorn",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Crew] and [Illicit] slots. If you are damaged, reduce the difficulty if your speed 3-5 maneuvers.",
+        "title": "Broken Horn",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
+    "name": "Corvus",
+    "limited": 1,
+    "xws": "corvus",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "You can dock up to 2 small ships. After you perform a [Calculate] action, gain 1 calculate token.",
+        "title": "Corvus",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "White" }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 3 }
+  },
+  {
+    "name": "Dodonna's Pride",
+    "limited": 1,
+    "xws": "dodonnaspride",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Team] and [Cargo] slots.",
+        "title": "Dodonna's Pride",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Evade",
+              "difficulty": "White",
+              "linked": { "type": "Coordinate", "difficulty": "Red" }
+            }
+          },
+          {
+            "type": "action",
+            "value": {
+              "type": "Focus",
+              "difficulty": "White",
+              "linked": { "type": "Coordinate", "difficulty": "Red" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 8 }
+  },
+  {
+    "name": "Impetuous",
+    "limited": 1,
+    "xws": "impetuous",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Crew] slot. After you perform an attack, if the defender was destroyed, you may perform a [Focus] or [Lock] action.",
+        "title": "Impetuous",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
+    "name": "Insatiable Worrt",
+    "limited": 1,
+    "xws": "insatiableworrt",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Cargo] slot. During the End Phase, you may recover 1 additional [Shield] or [Energy].",
+        "title": "Insatiable Worrt",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 7 }
+  },
+  {
+    "name": "Instigator",
+    "limited": 1,
+    "xws": "instigator",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Team] slot. While you perform an attack, if the defender has an orange or red tokem, you may reroll up to 2 attack dice.",
+        "title": "Instigator",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Jaina's Light",
+    "limited": 1,
+    "xws": "jainaslight",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While a friendly ship at range 0-2 defends, if the attack is obstructed by an obstacle, you may spend 1 [Energy]. If you do, the defender rolls 1 additional defense die.",
+        "title": "Jaina's Light",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Kaz's Fireball",
+    "limited": 1,
+    "xws": "kazsfireball",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Setup: When you resolve Explosion with Wings, you may search the damage deck and choose a damage card with the Ship trait, you are dealt that card instead. Then, shuffle the damage deck. You can perform actions on damage cards even while ionized.",
+        "title": "Kaz's Fireball",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 2 }
+  },
+  {
+    "name": "Liberator",
+    "limited": 1,
+    "xws": "liberator",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "You can dock up to 2 small ships. After a ship deploys from you, it may perform a [Focus] or [Barrel Roll] action.",
+        "title": "Liberator",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 5 }
+  },
+  {
+    "name": "Luminous",
+    "limited": 1,
+    "xws": "luminous",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: You are placed in reserve. At the end of setup, you are placed in the play area at range 0-2 of a friendly ship.",
+        "title": "Luminous",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 12 }
+  },
+  {
+    "name": "Merchant One",
+    "limited": 1,
+    "xws": "merchantone",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Turret], [Team], and [Cargo] slots. Bonus Attack: Perform a [Turret] attack.",
+        "title": "Merchant One",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Evade", "difficulty": "Red" }
+          },
+          {
+            "type": "action",
+            "value": { "type": "Coordinate", "difficulty": "White" }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 8 }
+  },
+  {
+    "name": "Quantum Storm",
+    "limited": 1,
+    "xws": "quantumstorm",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Team] and [Cargo] slots. After you fully execute a white maneuver, recover 1 [Energy].",
+        "title": "Quantum Storm",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 3 }
+  },
+  {
+    "name": "Requiem",
+    "limited": 1,
+    "xws": "requiem",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After a ship deploys from you, it may acquire a lock on one ship you are locking, ignoring range restrictions.",
+        "title": "Requiem",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 7 }
+  },
+  {
+    "name": "Suppressor",
+    "limited": 1,
+    "xws": "suppressor",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Sensor] slot. After you coordinate a friendly ship, you may spend 1 [Energy] to jam an enemy ship at range 0-2 of that ship, ignoring range restrictions.",
+        "title": "Suppressor",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Tantive IV",
+    "limited": 1,
+    "xws": "tantiveiv",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add 2 [Crew] slots. While you defend, if the attacker is in your [Rear Arc], you may roll 1 additional defense die.",
+        "title": "Tantive IV",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Thunderstrike",
+    "limited": 1,
+    "xws": "thunderstrike",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Gunner] slot. While you perform a bonus attack, if you have not attacked the defender this round, you may reroll 1 attack die.",
+        "title": "Thunderstrike",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
+    "name": "Vector",
+    "limited": 1,
+    "xws": "vector",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Crew] and [Cargo] slots. After a ships deploys from you, it may perform a [Evade] or [Boost] action.",
+        "title": "Vector",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 8 }
   }
 ]

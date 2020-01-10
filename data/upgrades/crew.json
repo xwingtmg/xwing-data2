@@ -1529,5 +1529,113 @@
     "limited": 1,
     "hyperspace": true,
     "xws": "c3po-republic"
+  },
+  {
+    "name": "Aayla Secura",
+    "limited": 1,
+    "xws": "aaylasecura",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While an enemy ship in your [Bullseye Arc] performs an attack...",
+        "title": "Aayla Secura",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Focus",
+              "difficulty": "White",
+              "linked": { "type": "Coordinate", "difficulty": "Purple" }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Agent Terex",
+    "limited": 1,
+    "xws": "agentterex",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup and place 3 calculate tokens on this card. At the start of the Engagement Phase, you may choose a friendly ship at range 0-3 and remve 1 calculate token from this card to have that ship gain a matching token. Then, if there are no calculate tokens on this card, flip it.",
+        "title": "Agent Terex",
+        "type": "Crew",
+        "slots": ["Crew"]
+      }
+    ]
+  },
+  {
+    "name": "K-2SO",
+    "limited": 1,
+    "xws": "k2s0",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "During the System Phase, you may choose a friendly ship at range 0-3. That ship gains 1 calculate and 1 stress token.",
+        "title": "K-2SO",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Calculate",
+              "difficulty": "White",
+              "linked": { "type": "Jam", "difficulty": "White" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 8 }
+  },
+  {
+    "name": "Plo Koon",
+    "limited": 1,
+    "xws": "plokoon",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "At the start of the End Phase, if you are reinforced, you may choose 1 friendly ship at range 0 or in your [Left Arc] or [Right Arc] at range 1. That ship removes 1 deplete token or strain token, or repairs 1 faceup damage card.",
+        "title": "Plo Koon",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Reinforce", "difficulty": "Purple" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Toryn Farr",
+    "limited": 1,
+    "xws": "torynfarr",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you coordinate a friendly ship, it may acquire a lock on a ship you are locking, ignoring range restrictions.",
+        "title": "Toryn Farr",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Lock",
+              "difficulty": "White",
+              "linked": { "type": "Coordinate", "difficulty": "Red" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 4 }
   }
 ]

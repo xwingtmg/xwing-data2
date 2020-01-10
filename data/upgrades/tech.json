@@ -134,5 +134,20 @@
       { "action": { "type": "Lock" } }
     ],
     "hyperspace": false
+  },
+  {
+    "name": "Deuterium Power Cells",
+    "limited": 0,
+    "xws": "deuteriumpowercells",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "During the System Phase, you may spend 1 [Charge] and gain 1 disarm token to recover 1 [Shield]. Before you would gain 1 non-lock token, if you are not stressed, you may spend 1 [Charge] to gain 1 stress token instead.",
+        "title": "Deuterium Power Cells",
+        "type": "Tech",
+        "slots": ["Tech", "Modification"]
+      }
+    ],
+    "cost": { "value": 9 }
   }
 ]

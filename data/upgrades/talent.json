@@ -550,5 +550,26 @@
     "cost": { "value": 5 },
     "hyperspace": true,
     "xws": "graviticdeflection"
+  },
+  {
+    "name": "Proud Tradition",
+    "limited": 0,
+    "xws": "proudtradition",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. While you have 2 or fewer stress tokens, you may perform [Focus] actions even while stressed. After you perform an attack, if you are stressed, the defender may spend 1 focus token or suffer 1 [Critical Hit] damage to flip this card.",
+        "title": "Proud Tradition",
+        "type": "Talent",
+        "slots": ["Talent"]
+      },
+      {
+        "ability": "Treat your [Focus] actions as red.",
+        "title": "False Tradition",
+        "type": "Talent",
+        "slots": ["Talent"]
+      }
+    ],
+    "cost": { "value": 2 }
   }
 ]

@@ -240,5 +240,34 @@
     ],
     "cost": { "value": 6 },
     "hyperspace": false
+  },
+  {
+    "name": "Mag-Pulse Warheads",
+    "limited": 0,
+    "xws": "magpulsewarheads",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Attack ([Lock]): Spend 1 [Charge]. If this attack hits, the defender suffers 1 [Critical Hit] damage and gains 1 deplete and 1 jam token. Then cancel all [Hit]/[Critical Hit] results.",
+        "title": "Mag-Pulse Warheads",
+        "type": "Missile",
+        "slots": ["Missile"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Multi-Missile Pods",
+    "limited": 0,
+    "xws": "multimissilepods",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Attack ([Calculate] or [Lock]): Spend 1 [Charge]. If the defender is in your [Front Arc], you may spend 1 [Charge] to roll 1 additional attack die. If the defender is in your [Bullseye Arc], you map spend up to 2 [Charge] to roll that many additional attack dice instead.",
+        "title": "Multi-Missile Pods",
+        "type": "Missile",
+        "slots": ["Missile", "Missile"]
+      }
+    ]
   }
 ]

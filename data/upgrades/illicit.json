@@ -119,5 +119,65 @@
     "cost": { "value": 4 },
     "restrictions": [{ "sizes": ["Medium", "Large"] }],
     "hyperspace": true
+  },
+  {
+    "name": "Coaxium Hyperfuel",
+    "limited": 0,
+    "xws": "coaxiumhyperfuel",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "You can perform the [SLAM] action even while stressed. If you do, you suffer 1 [Critical Hit] damage unless you expose 1 of your damage cards. After you partially execute a maneuver, you may expose 1 of your damage cards or suffer 1 [Critical Hit] damage to perform a [SLAM] action.",
+        "title": "Coaxium Hyperfuel",
+        "type": "Illicit",
+        "slots": ["Illicit"]
+      }
+    ],
+    "cost": { "value": 2 }
+  },
+  {
+    "name": "Quick-Release Locks",
+    "limited": 1,
+    "xws": "quickreleaselocks",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "During the System Phase, you may spend 1 [Charge] to place 1 cargo crate drift in your [Rear Arc] at range 0. It cannot overlap a ship this way. This card's [Charge] cannot be recovered.",
+        "title": "Quick-Release Locks",
+        "type": "Illicit",
+        "slots": ["Illicit"]
+      }
+    ],
+    "cost": { "value": 5 }
+  },
+  {
+    "name": "Saboteur's Map",
+    "limited": 1,
+    "xws": "saboteursmap",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "At the end of Setup, you may spend up to 1 [Charge] from each of your equipped Mine upgrades to place the corresponding device in the play area beyond range 2 of any enemy ship or other device.",
+        "title": "Saboteur's Map",
+        "type": "Illicit",
+        "slots": ["Illicit"]
+      }
+    ],
+    "cost": { "value": 3 }
+  },
+  {
+    "name": "Scanner Baffler",
+    "limited": 1,
+    "xws": "scannerbaffler",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "At the end of Setup, you may choose up to six other friendly, standard ships in your deployment area at range 0-1. If you do, place those ships anywhere at range 0-1.",
+        "title": "Scanner Baffler",
+        "type": "Illicit",
+        "slots": ["Illicit"]
+      }
+    ],
+    "cost": { "value": 8 }
   }
 ]

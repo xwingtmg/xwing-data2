@@ -425,5 +425,20 @@
     "limited": 1,
     "hyperspace": false,
     "xws": "c110p"
+  },
+  {
+    "name": "R1-J5",
+    "limited": 1,
+    "xws": "r1j5",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "While you have 2 or fewer stress tokens, you can perform actions on damage cards even while stressed. After you repair a damage card with the Ship trait, you may spend 1 [Charge] to repair that card again.",
+        "title": "R1-J5",
+        "type": "Astromech",
+        "slots": ["Astromech"]
+      }
+    ],
+    "cost": { "value": 6 }
   }
 ]
