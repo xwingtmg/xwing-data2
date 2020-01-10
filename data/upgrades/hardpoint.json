@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Ion Cannon Battery",
+    "limited": 0,
+    "xws": "ioncannonbattery",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. Bonus Attack: Spend 1 [Energy]. If this attack hits, the defender suffers 1 [Critical Hit] damage, and all [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
+        "title": "Ion Cannon Battery",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Rotate Arc", "difficulty": "White" }
+          }
+        ]
+      },
+      {
+        "ability": "Offline After you engage, you may spend 2 [Energy] to flip this card.",
+        "title": "Ion Cannon Battery (Offline)",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"]
+      }
+    ],
+    "cost": { "value": 5 }
+  },
+  {
+    "name": "Ordnance Tubes",
+    "limited": 0,
+    "xws": "ordnancetubes",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. You can perform [Torpedo] and [Missile] attacks only as bonus attacks. You must treat the [Front Arc] requirement of you equipped [Torpedo] and [Missile] upgrades as [Full Front Arc]. Bonus Attack: Perform a [Torpedo] attack. Bonus Attack: Perform a [Missile] attack.",
+        "title": "Ordnance Tubes",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"]
+      },
+      {
+        "ability": "Offline You must treat the [Front Arc] requirement of your equipped [Torpedo] and [Missile] upgrades as [Bullseye Arc]. Action: Spend 2 [Energy] to flip this card.",
+        "title": "Ordnance Tubes (Offline)",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"]
+      }
+    ],
+    "cost": { "value": 1 }
+  },
+  {
+    "name": "Point-Defense Battery",
+    "limited": 0,
+    "xws": "pointdefensebattery",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy].",
+        "title": "Point-Defense Battery",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Rotate Arc", "difficulty": "White" }
+          }
+        ]
+      },
+      {
+        "ability": "Offline After you engage, you may spend 2 [Energy] to flip this card.",
+        "title": "Point-Defense Battery (Offline)",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"]
+      }
+    ],
+    "cost": { "value": 9 }
+  },
+  {
+    "name": "Targeting Battery",
+    "limited": 0,
+    "xws": "targetingbattery",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. Bonus Attack: Spend 1 [Energy]. After you perform this attack, you may acquire a lock on the defender.",
+        "title": "Targeting Battery",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Rotate Arc", "difficulty": "White" }
+          }
+        ]
+      },
+      {
+        "ability": "Offline After you engage, you may spend 2 [Energy] to flip this card.",
+        "title": "Targeting Battery (Offline)",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Turbolaser Battery",
+    "limited": 0,
+    "xws": "turbolaserbattery",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. Bonus Attack([Lock]): Spend 3 [Energy]. If this attack hits, add 3 [Hit] results.",
+        "title": "Turbolaser Battery",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Rotate Arc", "difficulty": "White" }
+          }
+        ]
+      },
+      {
+        "ability": "Offline After you engage, you may spend 2 [Energy] to flip this card.",
+        "title": "Turbolaser Battery (Offline)",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"]
+      }
+    ],
+    "cost": { "value": 13 }
+  }
+]

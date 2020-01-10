@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Agent of the Empire",
+    "limited": 1,
+    "xws": "agentoftheempire",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "You are a wing leader. Your wingmates must be 2, 3, 4, or 5 TIE/ln fighters. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.",
+        "title": "Agent of the Empire",
+        "type": "Command",
+        "slots": ["Command"]
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
+    "name": "Dreadnought Hunter",
+    "limited": 2,
+    "xws": "dreadnoughthunter",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you perform an attack against a huge ship, if the attack deals a faceup damage card to the defender and the defender is in your [Bullseye Arc], you may apply the Precision Shot effect even if you are not in the specified arc.",
+        "title": "Dreadnought Hunter",
+        "type": "Command",
+        "slots": ["Command"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "First Order Elite",
+    "limited": 1,
+    "xws": "firstorderelite",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "You are a wing leader. Your wingmates must be 2 or 3 TIE/fo fighters or TIE/sf fighters. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.",
+        "title": "First Order Elite",
+        "type": "Command",
+        "slots": ["Command"]
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
+    "name": "Veteran Wing Leader",
+    "limited": 0,
+    "xws": "veteranwingleader",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "You are a wing leader. Your wingmates must be 2, 3, 4, or 5 other ships of your ship type. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.",
+        "title": "Veteran Wing Leader",
+        "type": "Command",
+        "slots": ["Command"]
+      }
+    ],
+    "cost": { "value": 2 }
+  },
+  {
+    "name": "Admiral Ozzel",
+    "limited": 1,
+    "xws": "admiralozzel",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While a friendly large or huge ship at range 0-3 executes a maneuver, it may suffer 1 [Hit] damage to execute a maneuver of a speed 1 higher or lower instead.",
+        "title": "Admiral Ozzel",
+        "type": "Command",
+        "slots": ["Command", "Crew"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Azmorigan",
+    "limited": 1,
+    "xws": "azmorigan",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "During the End Phase, you may chooses up to 2 friendly ships at range 0-1. If you do, each of these ships does not remove 1 calculate or evade token.",
+        "title": "Azmorigan",
+        "type": "Command",
+        "slots": ["Command", "Crew"]
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
+    "name": "Captain Needa",
+    "limited": 1,
+    "xws": "captainneeda",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.",
+        "title": "Captain Needa",
+        "type": "Command",
+        "slots": ["Command", "Crew"]
+      }
+    ],
+    "cost": { "value": 8 }
+  },
+  {
+    "name": "Carlist Rieekan",
+    "limited": 1,
+    "xws": "carlistrieekan",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After a friendly ship at range 0-2 is destroyed, you may choose a friendly ship at range 0-2. If you do, it may perform a red [Evade] action.",
+        "title": "Carlist Rieekan",
+        "type": "Command",
+        "slots": ["Command", "Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Evade", "difficulty": "Red" }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Jan Dodonna",
+    "limited": 1,
+    "xws": "jandodonna",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Friendly ships at range 0-3 can spend your focus and evade tokens.",
+        "title": "Jan Dodonna",
+        "type": "Command",
+        "slots": ["Command", "Crew"]
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
+    "name": "Raymus Antilles",
+    "limited": 1,
+    "xws": "raymusantilles",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you are destroyed, each friendly ship at range 0-1 gains 1 focus token. After you are destroyed, you are not removed until the end of the End Phase.",
+        "title": "Raymus Antilles",
+        "type": "Command",
+        "slots": ["Command", "Crew"]
+      }
+    ],
+    "cost": { "value": 12 }
+  },
+  {
+    "name": "Stalwart Captain",
+    "limited": 1,
+    "xws": "stalwartcaptain",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you are destroyed, you are not removed until the end of the End Phase.",
+        "title": "Stalwart Captain",
+        "type": "Command",
+        "slots": ["Command", "Crew"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Strategic Commander",
+    "limited": 1,
+    "xws": "strategiccommander",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do it sets its dial to another maneuver of the same difficulty and speed.",
+        "title": "Strategic Commander",
+        "type": "Command",
+        "slots": ["Command", "Crew"]
+      }
+    ],
+    "cost": { "value": 6 }
+  }
+]

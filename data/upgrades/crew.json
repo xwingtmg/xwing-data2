@@ -16,7 +16,7 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "\"Zeb\" Orrelios",
@@ -35,7 +35,7 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "0-0-0",
@@ -104,7 +104,7 @@
       {
         "title": "Agent Kallus",
         "type": "Crew",
-        "ability": "Setup: Assign the Hunted condition to 1 enemy ship. While you perform an attack against the ship with the Hunted condition, you may change 1 of your [Focus] results to a [Hit] result.",
+        "ability": "Setup: After placing forces, assign the Hunted condition to 1 enemy ship. While you perform an attack against the ship with the Hunted condition, you may change 1 of your [Focus] results to a [Hit] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_110.png",
         "conditions": ["hunted"],
         "slots": ["Crew"],
@@ -133,7 +133,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Boba Fett",
@@ -168,8 +168,7 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Calculate", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Calculate", "difficulty": "White" }
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_80.png",
@@ -217,7 +216,7 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["First Order"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Cassian Andor",
@@ -236,7 +235,7 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Chewbacca",
@@ -275,7 +274,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Ciena Ree",
@@ -297,7 +296,7 @@
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Coordinate" } }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Cikatro Vizago",
@@ -336,7 +335,7 @@
     ],
     "cost": { "value": 14 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Death Troopers",
@@ -379,8 +378,7 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Lock", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Lock", "difficulty": "White" }
           }
         ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_114.jpg",
@@ -446,7 +444,7 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["First Order"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "GNK \"Gonk\" Droid",
@@ -465,7 +463,7 @@
       }
     ],
     "cost": { "value": 10 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Grand Inquisitor",
@@ -483,7 +481,7 @@
         "ffg": 342
       }
     ],
-    "cost": { "value": 14 },
+    "cost": { "value": 13 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": true
   },
@@ -527,7 +525,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "IG-88D",
@@ -544,8 +542,7 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Calculate", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Calculate", "difficulty": "White" }
           }
         ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_132.jpg",
@@ -573,7 +570,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Informant",
@@ -651,7 +648,7 @@
     ],
     "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Ketsu Onyo",
@@ -691,7 +688,7 @@
     ],
     "cost": { "value": 11 },
     "restrictions": [{ "factions": ["First Order"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "L3-37",
@@ -719,7 +716,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Lando Calrissian",
@@ -738,7 +735,7 @@
     ],
     "cost": { "value": 8 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Lando Calrissian",
@@ -794,7 +791,7 @@
         "ffg": 312
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 7 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
@@ -815,7 +812,7 @@
     ],
     "cost": { "value": 8 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Maul",
@@ -919,7 +916,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Perceptive Copilot",
@@ -956,7 +953,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["First Order"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Qi'ra",
@@ -975,7 +972,7 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "R2-D2",
@@ -994,7 +991,7 @@
     ],
     "cost": { "value": 10 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Sabine Wren",
@@ -1032,7 +1029,7 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Seasoned Navigator",
@@ -1053,7 +1050,7 @@
       "variable": "initiative",
       "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8 }
     },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Seventh Sister",
@@ -1093,7 +1090,7 @@
     ],
     "cost": { "value": 13 },
     "restrictions": [{ "factions": ["First Order"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Tactical Officer",
@@ -1109,8 +1106,7 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Coordinate", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Coordinate", "difficulty": "White" }
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_48.png",
@@ -1141,7 +1137,7 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Unkar Plutt",
@@ -1196,13 +1192,11 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Calculate", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Calculate", "difficulty": "White" }
           },
           {
             "type": "action",
-            "value": { "type": "Coordinate", "difficulty": "Red" },
-            "amount": 1
+            "value": { "type": "Coordinate", "difficulty": "Red" }
           }
         ],
         "ffg": 472
@@ -1210,7 +1204,7 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Han Solo",
@@ -1227,16 +1221,15 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Evade", "difficulty": "Red" },
-            "amount": 1
+            "value": { "type": "Evade", "difficulty": "Red" }
           }
         ],
         "ffg": 474
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Chewbacca",
@@ -1256,7 +1249,7 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Rose Tico",
@@ -1275,10 +1268,10 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
-    "name": "Chancellor Palpatine",
+    "name": "Palpatine/Sidious",
     "limited": 1,
     "xws": "chancellorpalpatine",
     "sides": [
@@ -1291,8 +1284,7 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Coordinate", "difficulty": "Purple" },
-            "amount": 1
+            "value": { "type": "Coordinate", "difficulty": "Purple" }
           }
         ],
         "slots": ["Crew"],
@@ -1308,8 +1300,7 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Coordinate", "difficulty": "Purple" },
-            "amount": 1
+            "value": { "type": "Coordinate", "difficulty": "Purple" }
           }
         ],
         "slots": ["Crew"],
@@ -1321,7 +1312,7 @@
     "restrictions": [
       { "factions": ["Galactic Republic", "Separatist Alliance"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Count Dooku",
@@ -1368,7 +1359,7 @@
     "limited": 1,
     "xws": "amilynholdo",
     "hyperspace": true,
-    "cost": { "value": 9 },
+    "cost": { "value": 8 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
@@ -1386,8 +1377,8 @@
     "name": "GA-97",
     "limited": 1,
     "xws": "ga97",
-    "hyperspace": true,
-    "cost": { "value": 8 },
+    "hyperspace": false,
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
@@ -1469,7 +1460,7 @@
     "limited": 1,
     "xws": "leiaorgana-resistance",
     "hyperspace": true,
-    "cost": { "value": 19 },
+    "cost": { "value": 17 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
@@ -1525,12 +1516,126 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/01e1a3b43aee6c564662825cadcd3f22.png",
         "ability": "While you defend, if you are calculating, you may reroll 1 defense die. After you perform a [Calculate] action, gain 1 calculate token.",
         "slots": ["Crew"],
-        "type": "Crew"
+        "type": "Crew",
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "White" }
+          }
+        ]
       }
     ],
     "cost": { "value": 8 },
     "limited": 1,
     "hyperspace": true,
     "xws": "c3po-republic"
+  },
+  {
+    "name": "Aayla Secura",
+    "limited": 1,
+    "xws": "aaylasecura",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While an enemy ship in your [Bullseye Arc] performs an attack...",
+        "title": "Aayla Secura",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Focus",
+              "difficulty": "White",
+              "linked": { "type": "Coordinate", "difficulty": "Purple" }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Agent Terex",
+    "limited": 1,
+    "xws": "agentterex",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup and place 3 calculate tokens on this card. At the start of the Engagement Phase, you may choose a friendly ship at range 0-3 and remve 1 calculate token from this card to have that ship gain a matching token. Then, if there are no calculate tokens on this card, flip it.",
+        "title": "Agent Terex",
+        "type": "Crew",
+        "slots": ["Crew"]
+      }
+    ]
+  },
+  {
+    "name": "K-2SO",
+    "limited": 1,
+    "xws": "k2s0",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "During the System Phase, you may choose a friendly ship at range 0-3. That ship gains 1 calculate and 1 stress token.",
+        "title": "K-2SO",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Calculate",
+              "difficulty": "White",
+              "linked": { "type": "Jam", "difficulty": "White" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 8 }
+  },
+  {
+    "name": "Plo Koon",
+    "limited": 1,
+    "xws": "plokoon",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "At the start of the End Phase, if you are reinforced, you may choose 1 friendly ship at range 0 or in your [Left Arc] or [Right Arc] at range 1. That ship removes 1 deplete token or strain token, or repairs 1 faceup damage card.",
+        "title": "Plo Koon",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Reinforce", "difficulty": "Purple" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Toryn Farr",
+    "limited": 1,
+    "xws": "torynfarr",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you coordinate a friendly ship, it may acquire a lock on a ship you are locking, ignoring range restrictions.",
+        "title": "Toryn Farr",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Lock",
+              "difficulty": "White",
+              "linked": { "type": "Coordinate", "difficulty": "Red" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 4 }
   }
 ]

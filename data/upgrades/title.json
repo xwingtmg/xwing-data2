@@ -14,8 +14,7 @@
           { "type": "slot", "value": "Device", "amount": 1 },
           {
             "type": "action",
-            "value": { "type": "Reload", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Reload", "difficulty": "White" }
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_146.png",
@@ -23,7 +22,7 @@
         "ffg": 371
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
@@ -44,7 +43,13 @@
         "actions": [{ "type": "SLAM", "difficulty": "White" }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3e9870bff7f61acc12970c254eaeca89.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b617cc192e2ffb8368de79d69e1e7956.jpg",
-        "ffg": 484
+        "ffg": 484,
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "SLAM", "difficulty": "White" }
+          }
+        ]
       }
     ],
     "cost": { "value": 2 },
@@ -93,7 +98,7 @@
       { "factions": ["Rebel Alliance"] },
       { "ships": ["vcx100lightfreighter"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Havoc",
@@ -115,7 +120,7 @@
         "ffg": 372
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["scurrgh6bomber"] }
@@ -174,19 +179,19 @@
       {
         "title": "Lando's Millennium Falcon",
         "type": "Title",
-        "ability": "1 Escape Craft may dock with you. While you have an Escape Craft docked, you may spend its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
+        "ability": "1 Escape Craft may dock with you. While you have an Escape Craft docked, you may treat its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_164.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg",
         "ffg": 390
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["customizedyt1300lightfreighter"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Marauder",
@@ -209,7 +214,7 @@
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Millennium Falcon",
@@ -226,15 +231,14 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Evade", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Evade", "difficulty": "White" }
           }
         ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg",
         "ffg": 327
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["modifiedyt1300lightfreighter"] }
@@ -256,8 +260,7 @@
           { "type": "slot", "value": "Cannon", "amount": 1 },
           {
             "type": "action",
-            "value": { "type": "Barrel Roll", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Barrel Roll", "difficulty": "White" }
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_151.png",
@@ -265,7 +268,7 @@
         "ffg": 376
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 1 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["g1astarfighter"] }
@@ -302,7 +305,7 @@
       {
         "title": "Outrider",
         "type": "Title",
-        "ability": "While you perform an obstructed attack, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
+        "ability": "While you perform an attack that is obstructed by an obstacle, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_105.png",
         "slots": ["Title"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg",
@@ -331,12 +334,12 @@
         "ffg": 330
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["attackshuttle", "sheathipedeclassshuttle"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Punishing One",
@@ -357,7 +360,7 @@
         "ffg": 377
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 5 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["jumpmaster5000"] }
@@ -401,7 +404,7 @@
         "ffg": 378
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 1 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["lancerclasspursuitcraft"] }
@@ -424,7 +427,7 @@
         "ffg": 379
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 1 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
@@ -451,9 +454,9 @@
         "ffg": 380
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 8 },
     "restrictions": [{ "ships": ["starviperclassattackplatform"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Rey's Millennium Falcon",
@@ -470,12 +473,12 @@
         "ffg": 485
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Resistance"] },
       { "ships": ["scavengedyt1300"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Soulless One",
@@ -497,7 +500,7 @@
       { "factions": ["Separatist Alliance"] },
       { "ships": ["belbullab22starfighter"] }
     ],
-    "hyperspace": true,
+    "hyperspace": false,
     "cost": { "value": 6 }
   },
   {
@@ -531,5 +534,339 @@
     ],
     "hyperspace": true,
     "cost": { "value": 4 }
+  },
+  {
+    "name": "Assailer",
+    "limited": 1,
+    "xws": "assailer",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Gunner] slot. While you defend, if the attack range is 1, you may roll 1 additional defense die.",
+        "title": "Assailer",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 7 }
+  },
+  {
+    "name": "Blood Crow",
+    "limited": 1,
+    "xws": "bloodcrow",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Gunner] Slot. While you perofrm an attack at attack range 1-2, you may add 1 [Focus] result.",
+        "title": "Blood Crow",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 5 }
+  },
+  {
+    "name": "Bright Hope",
+    "limited": 1,
+    "xws": "brighthope",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "You can reinforce only you [Full Front Arc]. While you defend, if you are reinforced and the attacker is in your [Full Front Arc], you may roll 1 additional defense die.",
+        "title": "Bright Hope",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 5 }
+  },
+  {
+    "name": "Broken Horn",
+    "limited": 1,
+    "xws": "brokenhorn",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Crew] and [Illicit] slots. If you are damaged, reduce the difficulty if your speed 3-5 maneuvers.",
+        "title": "Broken Horn",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
+    "name": "Corvus",
+    "limited": 1,
+    "xws": "corvus",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "You can dock up to 2 small ships. After you perform a [Calculate] action, gain 1 calculate token.",
+        "title": "Corvus",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "White" }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 3 }
+  },
+  {
+    "name": "Dodonna's Pride",
+    "limited": 1,
+    "xws": "dodonnaspride",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Team] and [Cargo] slots.",
+        "title": "Dodonna's Pride",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Evade",
+              "difficulty": "White",
+              "linked": { "type": "Coordinate", "difficulty": "Red" }
+            }
+          },
+          {
+            "type": "action",
+            "value": {
+              "type": "Focus",
+              "difficulty": "White",
+              "linked": { "type": "Coordinate", "difficulty": "Red" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 8 }
+  },
+  {
+    "name": "Impetuous",
+    "limited": 1,
+    "xws": "impetuous",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Crew] slot. After you perform an attack, if the defender was destroyed, you may perform a [Focus] or [Lock] action.",
+        "title": "Impetuous",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
+    "name": "Insatiable Worrt",
+    "limited": 1,
+    "xws": "insatiableworrt",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Cargo] slot. During the End Phase, you may recover 1 additional [Shield] or [Energy].",
+        "title": "Insatiable Worrt",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 7 }
+  },
+  {
+    "name": "Instigator",
+    "limited": 1,
+    "xws": "instigator",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Team] slot. While you perform an attack, if the defender has an orange or red tokem, you may reroll up to 2 attack dice.",
+        "title": "Instigator",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Jaina's Light",
+    "limited": 1,
+    "xws": "jainaslight",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While a friendly ship at range 0-2 defends, if the attack is obstructed by an obstacle, you may spend 1 [Energy]. If you do, the defender rolls 1 additional defense die.",
+        "title": "Jaina's Light",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Kaz's Fireball",
+    "limited": 1,
+    "xws": "kazsfireball",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Setup: When you resolve Explosion with Wings, you may search the damage deck and choose a damage card with the Ship trait, you are dealt that card instead. Then, shuffle the damage deck. You can perform actions on damage cards even while ionized.",
+        "title": "Kaz's Fireball",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 2 }
+  },
+  {
+    "name": "Liberator",
+    "limited": 1,
+    "xws": "liberator",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "You can dock up to 2 small ships. After a ship deploys from you, it may perform a [Focus] or [Barrel Roll] action.",
+        "title": "Liberator",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 5 }
+  },
+  {
+    "name": "Luminous",
+    "limited": 1,
+    "xws": "luminous",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: You are placed in reserve. At the end of setup, you are placed in the play area at range 0-2 of a friendly ship.",
+        "title": "Luminous",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 12 }
+  },
+  {
+    "name": "Merchant One",
+    "limited": 1,
+    "xws": "merchantone",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Turret], [Team], and [Cargo] slots. Bonus Attack: Perform a [Turret] attack.",
+        "title": "Merchant One",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Evade", "difficulty": "Red" }
+          },
+          {
+            "type": "action",
+            "value": { "type": "Coordinate", "difficulty": "White" }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 8 }
+  },
+  {
+    "name": "Quantum Storm",
+    "limited": 1,
+    "xws": "quantumstorm",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Team] and [Cargo] slots. After you fully execute a white maneuver, recover 1 [Energy].",
+        "title": "Quantum Storm",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 3 }
+  },
+  {
+    "name": "Requiem",
+    "limited": 1,
+    "xws": "requiem",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After a ship deploys from you, it may acquire a lock on one ship you are locking, ignoring range restrictions.",
+        "title": "Requiem",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 7 }
+  },
+  {
+    "name": "Suppressor",
+    "limited": 1,
+    "xws": "suppressor",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Sensor] slot. After you coordinate a friendly ship, you may spend 1 [Energy] to jam an enemy ship at range 0-2 of that ship, ignoring range restrictions.",
+        "title": "Suppressor",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Tantive IV",
+    "limited": 1,
+    "xws": "tantiveiv",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add 2 [Crew] slots. While you defend, if the attacker is in your [Rear Arc], you may roll 1 additional defense die.",
+        "title": "Tantive IV",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Thunderstrike",
+    "limited": 1,
+    "xws": "thunderstrike",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Gunner] slot. While you perform a bonus attack, if you have not attacked the defender this round, you may reroll 1 attack die.",
+        "title": "Thunderstrike",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
+    "name": "Vector",
+    "limited": 1,
+    "xws": "vector",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Crew] and [Cargo] slots. After a ships deploys from you, it may perform a [Evade] or [Boost] action.",
+        "title": "Vector",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ],
+    "cost": { "value": 8 }
   }
 ]

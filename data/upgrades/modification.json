@@ -36,7 +36,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "action": { "type": "SLAM", "difficulty": "White" } }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Afterburners",
@@ -56,7 +56,7 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [{ "sizes": ["Small"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Electronic Baffle",
@@ -74,7 +74,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Engine Upgrade",
@@ -90,8 +90,7 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Boost", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Boost", "difficulty": "White" }
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_72.png",
@@ -172,7 +171,7 @@
       "variable": "agility",
       "values": { "0": 3, "1": 4, "2": 6, "3": 8 }
     },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Static Discharge Vanes",
@@ -182,15 +181,15 @@
       {
         "title": "Static Discharge Vanes",
         "type": "Modification",
-        "ability": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead.",
+        "ability": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead, then you suffer 1 [Hit] damage.",
         "slots": ["Modification"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_76.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg",
         "ffg": 300
       }
     ],
-    "cost": { "value": 8 },
-    "hyperspace": true
+    "cost": { "value": 6 },
+    "hyperspace": false
   },
   {
     "name": "Stealth Device",
@@ -212,7 +211,7 @@
       "variable": "agility",
       "values": { "0": 3, "1": 4, "2": 6, "3": 8 }
     },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Tactical Scrambler",
@@ -231,7 +230,7 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "sizes": ["Medium", "Large"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Impervium Plating",
@@ -250,7 +249,7 @@
       }
     ],
     "restrictions": [{ "ships": ["belbullab22starfighter"] }],
-    "hyperspace": true,
+    "hyperspace": false,
     "cost": { "value": 4 }
   },
   {
@@ -272,8 +271,8 @@
       { "factions": ["Galactic Republic"] },
       { "action": { "type": "Lock", "difficulty": "White" } }
     ],
-    "hyperspace": true,
-    "cost": { "value": 2 }
+    "hyperspace": false,
+    "cost": { "value": 1 }
   },
   {
     "name": "Spare Parts Canisters",
@@ -354,7 +353,13 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/619d3d56eadaada29c6602cc7cd00148.png",
         "text": "Targeting computers are standard features on many vessels, especially those designed to deliver ordnance. Some light starfighters and transport craft lack such weapons guidance, though it can be installed as an after-market modification.",
         "slots": ["Modification"],
-        "type": "Modification"
+        "type": "Modification",
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Lock", "difficulty": "White" }
+          }
+        ]
       }
     ],
     "cost": { "value": 3 },

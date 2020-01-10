@@ -1,0 +1,181 @@
+[
+  {
+    "name": "Bombardment Specialists",
+    "limited": 0,
+    "xws": "bombardmentspecialists",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you perform an attack, you may spend 1 calculate token to increase or decrease the range requirement by 1, to a limit of 0-5.",
+        "title": "Bombardment Specialists",
+        "type": "Team",
+        "slots": ["Team"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Lock", "difficulty": "White" }
+          },
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "White" }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Comms Team",
+    "limited": 0,
+    "xws": "commsteam",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you perform a [Coordinate] action, you may spend up to 2 [Energy] to coordinate that many additional ships at range 0-1 of the ship you coordinated.",
+        "title": "Comms Team",
+        "type": "Team",
+        "slots": ["Team"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "White",
+              "linked": { "type": "Calculate", "difficulty": "White" }
+            }
+          },
+          {
+            "type": "action",
+            "value": {
+              "type": "Jam",
+              "difficulty": "White",
+              "linked": { "type": "Calculate", "difficulty": "White" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 8 }
+  },
+  {
+    "name": "Damage Control Team",
+    "limited": 0,
+    "xws": "damagecontrolteam",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Before you engage, you may spend 1 or more [Energy] to flip that many of your Offline upgrade cards. Action: Spend 1 or more [Energy] to repair that many of your faceup Ship damage cards.",
+        "title": "Damage Control Team",
+        "type": "Team",
+        "slots": ["Team"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Reinforce",
+              "difficulty": "White",
+              "linked": { "type": "Calculate", "difficulty": "White" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 3 }
+  },
+  {
+    "name": "Gunnery Specialists",
+    "limited": 0,
+    "xws": "gunneryspecialists",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you perform a primary or [Hardpoint] attack, you may spend 1 or more [Energy] to reroll that many attack dice.",
+        "title": "Gunnery Specialists",
+        "type": "Team",
+        "slots": ["Team"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Rotate Arc",
+              "difficulty": "White",
+              "linked": { "type": "Calculate", "difficulty": "White" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 8 }
+  },
+  {
+    "name": "IG-RM Droids",
+    "limited": 0,
+    "xws": "igrmdroids",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you perform an attack, if you are calculating, you may change 1 [Hit] result to a [Critical Hit] result.",
+        "title": "IG-RM Droids",
+        "type": "Team",
+        "slots": ["Team"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "White" }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 2 }
+  },
+  {
+    "name": "Ordnance Team",
+    "limited": 0,
+    "xws": "ordnanceteam",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you perform a [Reload] action, you may apend up to 3 [Energy] to reload that may additional [Charge] on your equipped [Missile]/[Torpedo] upgrades. After you perform a [Reload] action, you may spend 1 [Energy] to remove 1 disarm token.",
+        "title": "Ordnance Team",
+        "type": "Team",
+        "slots": ["Team"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Reload",
+              "difficulty": "White",
+              "linked": { "type": "Calculate", "difficulty": "White" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
+    "name": "Sensor Experts",
+    "limited": 0,
+    "xws": "sensorexperts",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "You can maintain up to 3 locks on different objects. After you perform a [Lock] action, you may spend up to 2 [Energy] to acquire a lock on that many other objects at range 0-1 of th object you locked, ignoring range restrictions.",
+        "title": "Sensor Experts",
+        "type": "Team",
+        "slots": ["Team"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Lock",
+              "difficulty": "White",
+              "linked": { "type": "Calculate", "difficulty": "White" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 10 }
+  }
+]
