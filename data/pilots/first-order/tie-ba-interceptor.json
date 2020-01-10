@@ -31,26 +31,11 @@
     { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "White",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "icon": "",
   "pilots": [

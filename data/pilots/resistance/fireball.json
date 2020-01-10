@@ -46,7 +46,14 @@
         "name": "Explosion with Wings",
         "text": "Setup:  You are dealt 1 facedown damage card. After you perform a [SLAM] action, you may expose 1 damage card to remove 1 disarm token."
       },
-      "slots": ["Modification"],
+      "slots": [
+        "Missile",
+        "Astromech",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Title"
+      ],
       "hyperspace": true,
       "cost": 26
     },
