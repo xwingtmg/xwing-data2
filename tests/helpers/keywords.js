@@ -1,15 +1,19 @@
 const SLOTS = [
   "Astromech",
   "Cannon",
+  "Cargo",
+  "Command",
   "Configuration",
   "Crew",
   "Device",
   "Gunner",
+  "Hardpoint",
   "Illicit",
   "Missile",
   "Modification",
   "Sensor",
   "Talent",
+  "Team",
   "Torpedo",
   "Turret"
 ];
@@ -54,7 +58,16 @@ const ACTIONS = [
   "SLAM"
 ];
 
-const MISC = ["Charge", "Critical Hit", "Evade", "Focus", "Force", "Hit"];
+const MISC = [
+  "Charge",
+  "Critical Hit",
+  "Evade",
+  "Focus",
+  "Force",
+  "Hit",
+  "Shield",
+  "Energy"
+];
 
 const SIZES = ["Small", "Large", "Medium"];
 
