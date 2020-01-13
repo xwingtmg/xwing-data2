@@ -31,26 +31,11 @@
     { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "White",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "icon": "",
   "pilots": [
@@ -59,14 +44,59 @@
       "caption": "Red Baron",
       "initiative": 6,
       "limited": 1,
+      "cost": 57,
       "xws": "majorvonreg",
       "ability": "During the System Phase, you may choose 1 enemy ship in your [Bullseye Arc]. That ship gains 1 deplete or strain token of your choice.",
       "shipAbility": {
         "name": "Fine-Tuned Thrusters",
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
-      "slots": ["Talent"],
-      "hyperspace": false
+      "slots": ["Talent", "Tech", "Missile", "Modification"],
+      "hyperspace": true
+    },
+    {
+      "name": "Holo",
+      "caption": "Trick of the Light",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 54,
+      "xws": "holo",
+      "ability": "At the start of the Engagement Phase, you must transfer 1 of your tokens to another friendly ship at range 0-2.",
+      "shipAbility": {
+        "name": "Fine-Tuned Thrusters",
+        "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
+      },
+      "slots": ["Talent", "Tech", "Missile", "Modification"],
+      "hyperspace": true
+    },
+    {
+      "name": "Ember",
+      "caption": "Dying Flame",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 52,
+      "xws": "ember",
+      "ability": "While you perform an attack, if there is a damaged ship friendly to the defender at range 0-1 of the defender, the defender cannot spend focus or calculate tokens.",
+      "shipAbility": {
+        "name": "Fine-Tuned Thrusters",
+        "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
+      },
+      "slots": ["Talent", "Tech", "Missile", "Modification"],
+      "hyperspace": true
+    },
+    {
+      "name": "First Order Provocateur",
+      "initiative": 3,
+      "limited": 0,
+      "cost": 45,
+      "xws": "firstorderprovocateur",
+      "text": "Major Vonreg's vision guided the enhancement of proven designs while engineering this one-of-a-kind precise and lethal craft from Sienar-Jaemus Fleet Systems.",
+      "shipAbility": {
+        "name": "Fine-Tuned Thrusters",
+        "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
+      },
+      "slots": ["Talent", "Tech", "Missile", "Modification"],
+      "hyperspace": true
     }
   ]
 }

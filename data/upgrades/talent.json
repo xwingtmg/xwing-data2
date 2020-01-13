@@ -7,7 +7,7 @@
       {
         "title": "Composure",
         "type": "Talent",
-        "ability": "After you fail an action, if you have no green tokens, you may perform a [Focus] action.",
+        "ability": "After you fail an action, if you have no green tokens, you may perform a [Focus] action. If you do, you cannot perform additional actions this round.",
         "slots": ["Talent"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_156.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_156.jpg",
@@ -16,7 +16,7 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "action": { "type": "Focus" } }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Crack Shot",
@@ -35,7 +35,7 @@
       }
     ],
     "cost": { "value": 1 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Daredevil",
@@ -52,7 +52,7 @@
         "ffg": 231
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 2 },
     "restrictions": [
       { "sizes": ["Small"] },
       { "action": { "type": "Boost", "difficulty": "White" } }
@@ -73,8 +73,7 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Evade", "difficulty": "Red" },
-            "amount": 1
+            "value": { "type": "Evade", "difficulty": "Red" }
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_3.png",
@@ -104,7 +103,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Expert Handling",
@@ -120,8 +119,7 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Barrel Roll", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Barrel Roll", "difficulty": "White" }
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_5.png",
@@ -131,7 +129,7 @@
     ],
     "cost": {
       "variable": "size",
-      "values": { "Small": 2, "Medium": 4, "Large": 6 }
+      "values": { "Small": 2, "Medium": 3, "Large": 4 }
     },
     "restrictions": [
       { "action": { "type": "Barrel Roll", "difficulty": "Red" } }
@@ -236,7 +234,7 @@
     ],
     "cost": { "value": 7 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Lone Wolf",
@@ -255,7 +253,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Marksmanship",
@@ -273,7 +271,7 @@
       }
     ],
     "cost": { "value": 1 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Outmaneuver",
@@ -309,7 +307,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Ruthless",
@@ -345,7 +343,7 @@
         "ffg": 243
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 5 },
     "restrictions": [{ "action": { "type": "Reload" } }],
     "hyperspace": false
   },
@@ -382,8 +380,7 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Coordinate", "difficulty": "Red" },
-            "amount": 1
+            "value": { "type": "Coordinate", "difficulty": "Red" }
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_16.png",
@@ -416,7 +413,7 @@
       "variable": "initiative",
       "values": { "0": 3, "1": 3, "2": 3, "3": 3, "4": 3, "5": 4, "6": 5 }
     },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Trick Shot",
@@ -434,7 +431,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Treacherous",
@@ -496,16 +493,16 @@
     "cost": {
       "variable": "initiative",
       "values": {
-        "0": 10,
-        "1": 10,
-        "2": 10,
-        "3": 10,
-        "4": 10,
-        "5": 16,
-        "6": 24
+        "0": 12,
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 14,
+        "5": 21,
+        "6": 28
       }
     },
-    "hyperspace": true,
+    "hyperspace": false,
     "restrictions": [{ "ships": ["nantexclassstarfighter"] }]
   },
   {
@@ -525,7 +522,14 @@
         "slots": ["Talent"],
         "ffg": 612,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ec959ee48f953dbde71aa7c89d0b54bf.jpg",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/fed45c0416dfd298d9433c4608e99b7e.png"
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/fed45c0416dfd298d9433c4608e99b7e.png",
+        "attack": {
+          "arc": "Front Arc",
+          "value": 2,
+          "minrange": 2,
+          "maxrange": 2,
+          "ordnance": true
+        }
       }
     ]
   },
@@ -546,5 +550,26 @@
     "cost": { "value": 5 },
     "hyperspace": true,
     "xws": "graviticdeflection"
+  },
+  {
+    "name": "Proud Tradition",
+    "limited": 0,
+    "xws": "proudtradition",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. While you have 2 or fewer stress tokens, you may perform [Focus] actions even while stressed. After you perform an attack, if you are stressed, the defender may spend 1 focus token or suffer 1 [Critical Hit] damage to flip this card.",
+        "title": "Proud Tradition",
+        "type": "Talent",
+        "slots": ["Talent"]
+      },
+      {
+        "ability": "Treat your [Focus] actions as red.",
+        "title": "False Tradition",
+        "type": "Talent",
+        "slots": ["Talent"]
+      }
+    ],
+    "cost": { "value": 2 }
   }
 ]

@@ -20,8 +20,7 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Rotate Arc", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_31.png",
@@ -30,7 +29,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Ion Cannon Turret",
@@ -54,8 +53,7 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Rotate Arc", "difficulty": "White" },
-            "amount": 1
+            "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
         ],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_32.jpg",

@@ -21,7 +21,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Conner Nets",
@@ -45,7 +45,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Proton Bombs",
@@ -93,7 +93,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Seismic Charges",
@@ -171,8 +171,26 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/215f5298b9917bd57db474a38139ba08.jpg"
       }
     ],
-    "hyperspace": true,
-    "cost": { "value": 14 },
+    "hyperspace": false,
+    "cost": { "value": 12 },
     "restrictions": [{ "action": { "type": "Reload", "difficulty": "White" } }]
+  },
+  {
+    "name": "Cluster Mines",
+    "limited": 0,
+    "xws": "clustermines",
+    "hyperspace": true,
+    "sides": [
+      { "title": "Cluster Mines", "type": "Device", "slots": ["Device"] }
+    ],
+    "cost": { "value": 8 }
+  },
+  {
+    "name": "Ion Bombs",
+    "limited": 0,
+    "xws": "ionbombs",
+    "hyperspace": true,
+    "sides": [{ "title": "Ion Bombs", "type": "Device", "slots": ["Device"] }],
+    "cost": { "value": 6 }
   }
 ]

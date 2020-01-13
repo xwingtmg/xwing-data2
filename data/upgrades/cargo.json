@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Adaptive Shields",
+    "limited": 0,
+    "xws": "adaptiveshields",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While another friendly ship at range 0-1 defends, if it is a smaller size than you, you may spend 1 [Shield] or 2 [Energy] to cancel 1 [Hit] or [Critical Hit] result.",
+        "title": "Adaptive Shields",
+        "type": "Cargo",
+        "slots": ["Cargo"]
+      }
+    ],
+    "cost": { "value": 10 }
+  },
+  {
+    "name": "Boosted Scanners",
+    "limited": 0,
+    "xws": "boostedscanners",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you lock, coordinate, or jam, you may spend up to 3 [Energy] to increase the range at which you can choose an object by 1 per [Energy] spent this way, to a maximum of range 5.",
+        "title": "Boosted Scanners",
+        "type": "Cargo",
+        "slots": ["Cargo"]
+      }
+    ],
+    "cost": { "value": 8 }
+  },
+  {
+    "name": "Optimized Power Core",
+    "limited": 0,
+    "xws": "optimizedpowercore",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you execute a blue maneuver, recover 1 [Energy].",
+        "title": "Optimized Power Core",
+        "type": "Cargo",
+        "slots": ["Cargo"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Tibanna Reserves",
+    "limited": 0,
+    "xws": "tibannareserves",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Action: Spend 1 [Charge] to recover 2 [Energy].",
+        "title": "Tibanna Reserves",
+        "type": "Cargo",
+        "slots": ["Cargo"]
+      }
+    ],
+    "cost": { "value": 3 }
+  }
+]

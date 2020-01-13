@@ -73,7 +73,7 @@
       "threat": 2,
       "pilots": [
         {
-          "id": "104thbatallionpilot",
+          "id": "104thbattalionpilot",
           "upgrades": {
             "talent": ["dedicated"],
             "astromech": ["r4pastromech"]
@@ -150,7 +150,8 @@
           "upgrades": {
             "force-power": ["predictiveshot"],
             "astromech": ["r4p17"],
-            "modification": ["sparepartscannisters", "calibratedlasertargeting"]
+            "modification": ["sparepartscanisters"],
+            "configuration": ["calibratedlasertargeting"]
           }
         }
       ]

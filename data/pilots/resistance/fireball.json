@@ -13,12 +13,12 @@
     "2FB",
     "2NW",
     "2YW",
+    "3ER",
     "3TR",
     "3BW",
     "3FW",
     "3NW",
     "3YR",
-    "3ER",
     "3RR",
     "4FR"
   ],
@@ -33,7 +33,7 @@
     { "difficulty": "White", "type": "Focus" },
     { "difficulty": "White", "type": "Evade" },
     { "difficulty": "White", "type": "Barrel Roll" },
-    { "difficulty": "White", "type": "Slam" }
+    { "difficulty": "White", "type": "SLAM" }
   ],
   "icon": "",
   "pilots": [
@@ -43,11 +43,87 @@
       "limited": 0,
       "xws": "colossusstationmechanic",
       "shipAbility": {
-        "name": "Explosion With W??? Setup",
-        "text": "You are dealt 1 facedown damage card. After you perform a [Slam] action, you may expose 1 damage card to remove 1 disarm token."
+        "name": "Explosion with Wings",
+        "text": "Setup:  You are dealt 1 facedown damage card. After you perform a [SLAM] action, you may expose 1 damage card to remove 1 disarm token."
       },
-      "slots": ["Modification"],
-      "hyperspace": false
+      "slots": [
+        "Missile",
+        "Astromech",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Title"
+      ],
+      "hyperspace": true,
+      "cost": 26,
+      "text": "Some ambitious and talented pilots begin their racing careers as ground crew, working around the clock to keep cobbled-together ships in the sky on far-flung worlds like Castilon."
+    },
+    {
+      "name": "Jarek Yeager",
+      "xws": "jarekyeager",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Explosion with Wings",
+        "text": "Setup:  You are dealt 1 facedown damage card. After you perform a [SLAM] action, you may expose 1 damage card to remove 1 disarm token."
+      },
+      "hyperspace": true,
+      "slots": [
+        "Talent",
+        "Missile",
+        "Astromech",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Title"
+      ],
+      "cost": 33,
+      "ability": "While you have 2 or fewer stress tokens, if you are damaged, you can execute red basic maneuvers even while stressed; if you are critically damaged, you can execute red advanced maneuvers even while stressed."
+    },
+    {
+      "name": "Kazuda Xiono",
+      "xws": "kazudaxiono",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Explosion with Wings",
+        "text": "Setup:  You are dealt 1 facedown damage card. After you perform a [SLAM] action, you may expose 1 damage card to remove 1 disarm token."
+      },
+      "caption": "Best Pilot in the Galaxy",
+      "hyperspace": true,
+      "slots": [
+        "Talent",
+        "Missile",
+        "Astromech",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Title"
+      ],
+      "ability": "While you defend or perform a primary attack, if the enemy ship's initiative is higher than the number of damage cards you have, you may roll 1 additional die.",
+      "cost": 40
+    },
+    {
+      "name": "R1-J5",
+      "xws": "r1j5",
+      "initiative": 1,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Explosion with Wings",
+        "text": "Setup:  You are dealt 1 facedown damage card. After you perform a [SLAM] action, you may expose 1 damage card to remove 1 disarm token."
+      },
+      "caption": "Bucket",
+      "hyperspace": true,
+      "slots": [
+        "Missile",
+        "Astromech",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Title"
+      ],
+      "ability": "Before you expose 1 of your damage cards, you may look at your facedown damage cards, choose 1, and expose thet card instead.",
+      "cost": 29
     }
   ]
 }

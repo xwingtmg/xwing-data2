@@ -90,7 +90,7 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["ut60duwing"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Servomotor S-foils",
@@ -223,7 +223,7 @@
       }
     },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Calibrated Laser Targeting",
@@ -233,7 +233,7 @@
       {
         "title": "Calibrated Laser Targeting",
         "type": "Configuration",
-        "slots": ["Modification", "Configuration"],
+        "slots": ["Configuration", "Modification"],
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], add 1 [Focus] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f3e06326ab525e07f9a85363b6d69580.png",
         "ffg": 549,
@@ -274,5 +274,65 @@
     "restrictions": [{ "ships": ["hyenaclassdroidbomber"] }],
     "hyperspace": true,
     "cost": { "value": 1 }
+  },
+  {
+    "name": "Corsair Refit",
+    "limited": 2,
+    "xws": "corsairrefit",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Cannon], [Turret], and [Missile] slots. Bonus Attack: Spend 1 [Energy] to perform a [Cannon], [Turret], or [Missile] attack.",
+        "title": "Corsair Refit",
+        "type": "Configuration",
+        "slots": ["Configuration"]
+      }
+    ],
+    "cost": { "value": 15 }
+  },
+  {
+    "name": "Stabilized S-foils",
+    "limited": 0,
+    "xws": "stabilizedsfoils",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Before you activate, if you are not critically damaged, you may flip this card.",
+        "title": "Stabilized S-foils (Closed)",
+        "type": "Configuration",
+        "slots": ["Configuration"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Barrel Roll",
+              "difficulty": "White",
+              "linked": { "type": "Evade", "difficulty": "Red" }
+            }
+          },
+          {
+            "type": "action",
+            "value": { "type": "Reload", "difficulty": "Red" }
+          }
+        ]
+      },
+      {
+        "ability": "After you perform an attack, you may spend your lock on the defender to perform a bonus [Cannon] attack against that ship using a [Cannon] upgrade you have not attacked with this turn. Before you activate, if you are not critically damaged, you may flip this card.",
+        "title": "Stabilized S-foils (Open)",
+        "type": "Configuration",
+        "slots": ["Configuration"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Barrel Roll",
+              "difficulty": "White",
+              "linked": { "type": "Lock", "difficulty": "Red" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 2 }
   }
 ]

@@ -48,13 +48,13 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_7.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_7.jpg",
       "ffg": 7,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Blue Squadron Escort",
       "initiative": 2,
       "limited": 0,
-      "cost": 41,
+      "cost": 40,
       "xws": "bluesquadronescort",
       "text": "Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_11.png",
@@ -73,7 +73,7 @@
       "name": "Cavern Angels Zealot",
       "initiative": 1,
       "limited": 0,
-      "cost": 41,
+      "cost": 39,
       "xws": "cavernangelszealot",
       "text": "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha.",
       "slots": [
@@ -86,14 +86,14 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_12.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_12.jpg",
       "ffg": 12,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Edrio Two Tubes",
       "caption": "Cavern Angels Veteran",
       "initiative": 2,
       "limited": 1,
-      "cost": 45,
+      "cost": 43,
       "xws": "edriotwotubes",
       "ability": "Before you activate, if you are focused, you may perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_9.png",
@@ -106,7 +106,7 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_9.jpg",
       "ffg": 9,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Garven Dreis",
@@ -133,7 +133,7 @@
       "caption": "Red Six",
       "initiative": 4,
       "limited": 1,
-      "cost": 46,
+      "cost": 45,
       "xws": "jekporkins",
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
       "slots": [
@@ -153,7 +153,7 @@
       "caption": "Enigmatic Gunslinger",
       "initiative": 4,
       "limited": 1,
-      "cost": 48,
+      "cost": 46,
       "xws": "kullbeesperado",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may flip your equipped [Configuration] upgrade card.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_6.png",
@@ -167,14 +167,14 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_6.jpg",
       "ffg": 6,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Leevan Tenza",
       "caption": "Rebel Alliance Defector",
       "initiative": 3,
       "limited": 1,
-      "cost": 46,
+      "cost": 44,
       "xws": "leevantenza",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may perform a red [Evade] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_8.png",
@@ -188,7 +188,7 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_8.jpg",
       "ffg": 8,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Luke Skywalker",
@@ -225,7 +225,7 @@
       "name": "Red Squadron Veteran",
       "initiative": 3,
       "limited": 0,
-      "cost": 43,
+      "cost": 41,
       "xws": "redsquadronveteran",
       "text": "Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.",
       "slots": [
@@ -278,7 +278,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_1.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_1.jpg",
       "ffg": 1,
-      "hyperspace": true
+      "hyperspace": false
     }
   ]
 }
