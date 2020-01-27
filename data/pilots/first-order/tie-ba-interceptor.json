@@ -1,6 +1,7 @@
 {
   "name": "TIE/ba Interceptor",
   "xws": "tiebainterceptor",
+  "ffg": 69,
   "size": "Small",
   "dial": [
     "1TB",
@@ -37,7 +38,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "",
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Vonregs-First-Order-TIE-Interceptor.png",
   "pilots": [
     {
       "name": "Major Vonreg",
@@ -52,10 +53,13 @@
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
       "slots": ["Talent", "Tech", "Missile", "Modification"],
-      "hyperspace": true
+      "hyperspace": true,
+      "ffg": 624,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/4d8fdab1a5317159fcd56f722b6d73e5.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e95d46ad3a22ad0790cfd18a7e10cf81.png"
     },
     {
-      "name": "Holo",
+      "name": "\"Holo\"",
       "caption": "Trick of the Light",
       "initiative": 5,
       "limited": 1,
@@ -67,10 +71,13 @@
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
       "slots": ["Talent", "Tech", "Missile", "Modification"],
-      "hyperspace": true
+      "hyperspace": true,
+      "ffg": 625,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/61d81abede1ce312b0de7d16623c2e60.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ee53482be8e59ff44f272e76c4e8123d.png"
     },
     {
-      "name": "Ember",
+      "name": "\"Ember\"",
       "caption": "Dying Flame",
       "initiative": 4,
       "limited": 1,
@@ -82,7 +89,10 @@
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
       "slots": ["Talent", "Tech", "Missile", "Modification"],
-      "hyperspace": true
+      "hyperspace": true,
+      "ffg": 626,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/47fd0abc0fa4cea1508a800e75d18ebe.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4de956edddeacb92ef3e4f94e0a63db3.png"
     },
     {
       "name": "First Order Provocateur",
@@ -96,7 +106,10 @@
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
       "slots": ["Talent", "Tech", "Missile", "Modification"],
-      "hyperspace": true
+      "hyperspace": true,
+      "ffg": 627,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/947aa948233f6a5fe5833dcf45cf8f01.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c834c2c4722b60e67292130d40c7ec19.png"
     }
   ]
 }
