@@ -1,6 +1,7 @@
 {
   "name": "Fireball",
   "xws": "fireball",
+  "ffg": 70,
   "size": "Small",
   "dial": [
     "1TW",
@@ -35,7 +36,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "SLAM" }
   ],
-  "icon": "",
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Fireball.png",
   "pilots": [
     {
       "name": "Colossus Station Mechanic",
@@ -56,7 +57,10 @@
       ],
       "hyperspace": true,
       "cost": 26,
-      "text": "Some ambitious and talented pilots begin their racing careers as ground crew, working around the clock to keep cobbled-together ships in the sky on far-flung worlds like Castilon."
+      "text": "Some ambitious and talented pilots begin their racing careers as ground crew, working around the clock to keep cobbled-together ships in the sky on far-flung worlds like Castilon.",
+      "ffg": 623,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a8a4a52f9ced88c0bb7b9e90e0e75a18.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/533ab83e881838eb8006c8f8dcf19145.png"
     },
     {
       "name": "Jarek Yeager",
@@ -78,7 +82,11 @@
         "Title"
       ],
       "cost": 33,
-      "ability": "While you have 2 or fewer stress tokens, if you are damaged, you can execute red basic maneuvers even while stressed; if you are critically damaged, you can execute red advanced maneuvers even while stressed."
+      "ability": "While you have 2 or fewer stress tokens, if you are damaged, you can execute red basic maneuvers even while stressed; if you are critically damaged, you can execute red advanced maneuvers even while stressed.",
+      "caption": "Too Old for This",
+      "ffg": 620,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/21bd6c9d7e36c873f88b0fad11ff8fe6.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cc580fd073ea51094b881e37775ef1f0.png"
     },
     {
       "name": "Kazuda Xiono",
@@ -101,7 +109,10 @@
         "Title"
       ],
       "ability": "While you defend or perform a primary attack, if the enemy ship's initiative is higher than the number of damage cards you have, you may roll 1 additional die.",
-      "cost": 40
+      "cost": 40,
+      "ffg": 621,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/4ffdf7cc8ed023322ccf4217ff64b4d2.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ee98b839cf64d8d5d6f4948947abd70b.png"
     },
     {
       "name": "R1-J5",
@@ -122,8 +133,11 @@
         "Modification",
         "Title"
       ],
-      "ability": "Before you expose 1 of your damage cards, you may look at your facedown damage cards, choose 1, and expose thet card instead.",
-      "cost": 29
+      "ability": "Before you expose 1 of your damage cards, you may look at your facedown damage cards, choose 1, and expose that card instead.",
+      "cost": 29,
+      "ffg": 622,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/686597246669987fe1b938f1419e598d.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c5cfd1d89a204722ff95e9a4b134e7f1.png"
     }
   ]
 }

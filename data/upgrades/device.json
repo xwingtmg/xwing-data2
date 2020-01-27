@@ -181,7 +181,15 @@
     "xws": "clustermines",
     "hyperspace": true,
     "sides": [
-      { "title": "Cluster Mines", "type": "Device", "slots": ["Device"] }
+      {
+        "title": "Cluster Mines",
+        "type": "Device",
+        "slots": ["Device"],
+        "ffg": 648,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/aea6bdafa5066a040a8929d6eb46499a.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c27f0dcda78915239450bedf5b931d86.png",
+        "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Cluster Mine set using the [1 [Straight]] template. This card's [Charge] cannot be recovered."
+      }
     ],
     "cost": { "value": 8 }
   },
@@ -190,7 +198,17 @@
     "limited": 0,
     "xws": "ionbombs",
     "hyperspace": true,
-    "sides": [{ "title": "Ion Bombs", "type": "Device", "slots": ["Device"] }],
+    "sides": [
+      {
+        "title": "Ion Bombs",
+        "type": "Device",
+        "slots": ["Device"],
+        "ffg": 649,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f69c5ecaca9ab01380f6329e49970ddf.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e4c43791c16aea639f2e811c16d1dbcf.png",
+        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the [1 [Straight]] template."
+      }
+    ],
     "cost": { "value": 6 }
   }
 ]
