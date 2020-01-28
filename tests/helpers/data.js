@@ -13,7 +13,7 @@ const mapSlotXWSToName = {
   missile: "Missile",
   modification: "Modification",
   sensor: "Sensor",
-  tacticalrelay: "Tactical Relay",
+  "tactical-relay": "Tactical Relay",
   talent: "Talent",
   tech: "Tech",
   title: "Title",

@@ -44,7 +44,7 @@
       "name": "Blade Squadron Veteran",
       "initiative": 3,
       "limited": 0,
-      "cost": 43,
+      "cost": 42,
       "xws": "bladesquadronveteran",
       "text": "A unique gyrostabilization system surrounds the B-wing's cockpit, ensuring that the pilot always remains stationary during flight.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_25.png",
@@ -84,7 +84,7 @@
       "caption": "Blade Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 51,
+      "cost": 52,
       "xws": "braylenstramm",
       "ability": "While you defend or perform an attack, if you are stressed, you may reroll up to 2 of your dice.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_23.png",
@@ -120,6 +120,27 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg",
       "ffg": 24,
       "hyperspace": true
+    },
+    {
+      "name": "Gina Moonsong",
+      "xws": "ginamoonsong",
+      "initiative": 5,
+      "limited": 1,
+      "caption": "Insubordinate Ace",
+      "hyperspace": true,
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Cannon",
+        "Torpedo",
+        "Modification"
+      ],
+      "ability": "At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2.",
+      "cost": 50,
+      "ffg": 628,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/df07f280040d4284c04c194e18c62c9e.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/0fcceeaf64f96b4870146ffbec529dc2.png"
     }
   ]
 }

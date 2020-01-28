@@ -54,7 +54,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e15d3e2a2fc082b95a64a83df0c96f7f.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b97a025a7859f54bbc68374ff5d8116e.jpg",
       "ffg": 435,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Tallissan Lintra",
@@ -115,7 +115,7 @@
       "name": "Green Squadron Expert",
       "initiative": 3,
       "limited": 0,
-      "cost": 35,
+      "cost": 34,
       "xws": "greensquadronexpert",
       "text": "Years of field-expedient modifications were standardized in the RZ-2 design, but daring pilots see the ship's improved reliability as a challenge to further push the limits of its performance.",
       "shipAbility": {
@@ -132,7 +132,7 @@
       "name": "Blue Squadron Recruit",
       "initiative": 1,
       "limited": 0,
-      "cost": 33,
+      "cost": 32,
       "xws": "bluesquadronrecruit",
       "text": "Young beings across the galaxy have grown up on tales of heroism in the Galactic Civil War, and many learned to fly in the same cockpits from which their parents fought the Empire.",
       "shipAbility": {
@@ -144,6 +144,42 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3df643a75106a59899e5f32ef56e8a5e.jpg",
       "ffg": 440,
       "hyperspace": true
+    },
+    {
+      "name": "Zizi Tlo",
+      "xws": "zizitlo",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Refined Gyrostabilizers",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
+      },
+      "caption": "Committed to the Cause",
+      "hyperspace": true,
+      "slots": ["Talent", "Talent", "Tech", "Missile"],
+      "ability": "After you defend or perform an attack, you may spend 1 [Charge] to gain 1 focus or evade token.",
+      "cost": 40,
+      "ffg": 638,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7d5b4f0691b55e9c755b1e71bd16a422.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/17b2411d61b671ebca568ca2bb55e2da.png"
+    },
+    {
+      "name": "Ronith Blario",
+      "xws": "ronithblario",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Refined Gyrostabilizers",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
+      },
+      "caption": "Reckless Rookie",
+      "hyperspace": true,
+      "slots": ["Talent", "Tech", "Missile"],
+      "ability": "While you defend or perform an attack, if the enemy ship is in another friendly ship's [Single Turret Arc], you may spend 1 focus token from that friendly ship to change 1 of your [Focus] results to an [Evade] or [Hit] result.",
+      "cost": 34,
+      "ffg": 639,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0930bea45803774f4b0d863b92a64328.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1e861cadd2291ece7a9207cddcdcba39.png"
     }
   ]
 }

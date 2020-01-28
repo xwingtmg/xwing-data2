@@ -52,14 +52,14 @@
       "name": "Baron of the Empire",
       "initiative": 3,
       "limited": 0,
-      "cost": 32,
+      "cost": 30,
       "xws": "baronoftheempire",
       "text": "Sienar Fleet System's TIE Advanced v1 is a groundbreaking starfighter design, featuring upgraded engines, a missile launcher, and folding s-foils.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_101.png",
       "slots": ["Talent", "Sensor", "Missile"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_101.jpg",
       "ffg": 101,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Grand Inquisitor",
@@ -74,7 +74,7 @@
       "slots": ["Sensor", "Missile", "Force Power"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_99.jpg",
       "ffg": 99,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Inquisitor",
@@ -88,7 +88,7 @@
       "slots": ["Sensor", "Missile", "Force Power"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_102.jpg",
       "ffg": 102,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Seventh Sister",
@@ -103,7 +103,22 @@
       "slots": ["Sensor", "Missile", "Force Power"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg",
       "ffg": 100,
-      "hyperspace": true
+      "hyperspace": false
+    },
+    {
+      "name": "Fifth Brother",
+      "xws": "fifthbrother",
+      "initiative": 4,
+      "limited": 1,
+      "caption": "Ruthless Brute",
+      "hyperspace": false,
+      "force": { "value": 2, "recovers": 1 },
+      "slots": ["Force Power", "Sensor", "Missile"],
+      "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force] to add 1 [Critical Hit] result.",
+      "cost": 42,
+      "ffg": 632,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e79e45f2bdb5a2ab6ff6728b42db0b74.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/01a02a00ef5aad21bc1f0a58028136ec.png"
     }
   ]
 }

@@ -80,7 +80,7 @@
       "xws": "firstordertestpilot",
       "initiative": 4,
       "limited": 0,
-      "cost": 58,
+      "cost": 56,
       "text": "Engineered for incredible speed and precise handling, the TIE Silencer is devastating in the hands of those who can unlock its full potential. Any lesser pilot could easily be overwhelmed and lose control of the nimble craft.",
       "shipAbility": {
         "name": "Autothrusters",
@@ -98,7 +98,7 @@
       "caption": "Quantity Over Quality",
       "initiative": 4,
       "limited": 1,
-      "cost": 58,
+      "cost": 57,
       "ability": "While you are stressed, you may treat enemy ships in your [Front Arc] at range 0-1 as being in your [Bullseye Arc].",
       "shipAbility": {
         "name": "Autothrusters",
@@ -116,7 +116,7 @@
       "caption": "Wrathful Wingmate",
       "initiative": 3,
       "limited": 1,
-      "cost": 57,
+      "cost": 56,
       "ability": "After another friendly ship is destroyed, you may perform an action, even while stressed.",
       "shipAbility": {
         "name": "Autothrusters",
@@ -144,6 +144,24 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/18b2a1b00b2f8c6669b6b1d1b278dcf2.jpg",
       "ffg": 417,
       "hyperspace": true
+    },
+    {
+      "name": "\"Rush\"",
+      "xws": "rush",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "caption": "Adrenaline Junkie",
+      "hyperspace": true,
+      "slots": ["Tech", "Torpedo", "Missile"],
+      "ability": "While you are damaged, treat your initiative as 6.",
+      "cost": 57,
+      "ffg": 643,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3b748daed26df2870694ab9dc679c5ee.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/886d715885da65bdf10ad7c68e4d0a93.png"
     }
   ]
 }

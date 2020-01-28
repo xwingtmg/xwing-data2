@@ -21,8 +21,8 @@
         "ffg": 256
       }
     ],
-    "cost": { "value": 4 },
-    "hyperspace": true
+    "cost": { "value": 5 },
+    "hyperspace": false
   },
   {
     "name": "Ion Cannon",
@@ -46,7 +46,7 @@
         "ffg": 257
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 6 },
     "hyperspace": true
   },
   {
@@ -72,7 +72,7 @@
       }
     ],
     "cost": { "value": 0 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Tractor Beam",
@@ -96,14 +96,14 @@
         "ffg": 259
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 3 },
     "hyperspace": true
   },
   {
     "name": "Autoblasters",
     "limited": 0,
     "xws": "autoblasters",
-    "cost": { "value": 2 },
+    "cost": { "value": 3 },
     "hyperspace": true,
     "sides": [
       {

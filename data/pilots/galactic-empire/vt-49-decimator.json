@@ -65,7 +65,7 @@
       "name": "Patrol Leader",
       "initiative": 2,
       "limited": 0,
-      "cost": 68,
+      "cost": 67,
       "xws": "patrolleader",
       "text": "To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_148.png",
@@ -81,7 +81,7 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_148.jpg",
       "ffg": 148,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Rear Admiral Chiraneau",
@@ -106,6 +106,30 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_147.jpg",
       "ffg": 147,
       "hyperspace": true
+    },
+    {
+      "name": "Morna Kee",
+      "xws": "mornakee",
+      "initiative": 4,
+      "limited": 1,
+      "caption": "Determined Attaché",
+      "hyperspace": true,
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Modification",
+        "Title"
+      ],
+      "ability": "During the End Phase, you may spend 1 [Charge] to flip 1 of your reinforce tokens to your other full arc instead of removing it.",
+      "cost": 75,
+      "ffg": 634,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/296bcef6b8b45cae418c80825f6eb512.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5a913f54447ec375ccc1403769438f81.png"
     }
   ]
 }

@@ -92,7 +92,7 @@
       "name": "Black Squadron Scout",
       "initiative": 3,
       "limited": 0,
-      "cost": 38,
+      "cost": 34,
       "xws": "blacksquadronscout",
       "text": "These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_120.png",
@@ -109,7 +109,7 @@
       "name": "Planetary Sentinel",
       "initiative": 1,
       "limited": 0,
-      "cost": 34,
+      "cost": 31,
       "xws": "planetarysentinel",
       "text": "To protect its many military installations, the Empire requires a swift and vigilant defense force.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_121.png",
@@ -121,6 +121,24 @@
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_121.jpg",
       "ffg": 121,
       "hyperspace": true
+    },
+    {
+      "name": "\"Vagabond\"",
+      "xws": "vagabond",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Adaptive Ailerons",
+        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
+      },
+      "caption": "Destitute Demolitionist",
+      "hyperspace": true,
+      "slots": ["Talent", "Gunner", "Device", "Modification"],
+      "ability": "After you fully execute a maneuver using your Adaptive Ailerons, if you are not stressed, you may drop 1 device.",
+      "cost": 35,
+      "ffg": 633,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/308e253711036e143e22857365bcb7ca.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e1b12f8287593ebaf960561c2febffe4.png"
     }
   ]
 }
