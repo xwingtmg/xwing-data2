@@ -1571,7 +1571,7 @@
   {
     "name": "K-2SO",
     "limited": 1,
-    "xws": "k2s0",
+    "xws": "k2so",
     "hyperspace": true,
     "sides": [
       {
@@ -1588,7 +1588,10 @@
               "linked": { "type": "Jam", "difficulty": "White" }
             }
           }
-        ]
+        ],
+        "ffg": 647,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ced6485e9da6861b36fe3ab0c747fe76.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/bd3d6c3227984bc0f5daacebdc7d92ad.png"
       }
     ],
     "cost": { "value": 8 }

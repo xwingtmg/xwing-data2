@@ -158,7 +158,10 @@
       "hyperspace": true,
       "slots": ["Talent", "Talent", "Tech", "Missile"],
       "ability": "After you defend or perform an attack, you may spend 1 [Charge] to gain 1 focus or evade token.",
-      "cost": 40
+      "cost": 40,
+      "ffg": 638,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7d5b4f0691b55e9c755b1e71bd16a422.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/17b2411d61b671ebca568ca2bb55e2da.png"
     },
     {
       "name": "Ronith Blario",
@@ -172,8 +175,11 @@
       "caption": "Reckless Rookie",
       "hyperspace": true,
       "slots": ["Talent", "Tech", "Missile"],
-      "ability": "While you defend of perform an attack, if the emeny ship is in another friendly ship's [Single Turret Arc], you may spend 1 focus token from that friendly ship to change 1 of your [Focus] results to an [Evade] or [Hit] result.",
-      "cost": 34
+      "ability": "While you defend or perform an attack, if the enemy ship is in another friendly ship's [Single Turret Arc], you may spend 1 focus token from that friendly ship to change 1 of your [Focus] results to an [Evade] or [Hit] result.",
+      "cost": 34,
+      "ffg": 639,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0930bea45803774f4b0d863b92a64328.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1e861cadd2291ece7a9207cddcdcba39.png"
     }
   ]
 }

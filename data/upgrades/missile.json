@@ -251,7 +251,10 @@
         "ability": "Attack ([Lock]): Spend 1 [Charge]. If this attack hits, the defender suffers 1 [Critical Hit] damage and gains 1 deplete and 1 jam token. Then cancel all [Hit]/[Critical Hit] results.",
         "title": "Mag-Pulse Warheads",
         "type": "Missile",
-        "slots": ["Missile"]
+        "slots": ["Missile"],
+        "ffg": 651,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/71140b3339226017653867076e19310f.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/94cdc3be1cf133e123e30f25f181faf7.png"
       }
     ],
     "cost": { "value": 6 }

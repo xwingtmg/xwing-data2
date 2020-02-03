@@ -54,7 +54,8 @@
         "Cannon",
         "Cannon",
         "Torpedo",
-        "Modification"
+        "Modification",
+        "Configuration"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg",
       "ffg": 25,
@@ -68,7 +69,7 @@
       "xws": "bluesquadronpilot",
       "text": "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_26.png",
-      "slots": ["Sensor", "Cannon", "Cannon", "Torpedo", "Modification"],
+      "slots": ["Sensor", "Cannon", "Cannon", "Torpedo", "Modification", "Configuration"],
       "alt": [
         {
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/a4/a6/a4a6943b-6af3-4d33-9a04-bff98190d3ee/g18x3-blue-squadron-pilot-2.png",
@@ -94,7 +95,8 @@
         "Cannon",
         "Cannon",
         "Torpedo",
-        "Modification"
+        "Modification",
+        "Configuration"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg",
       "ffg": 23,
@@ -115,7 +117,8 @@
         "Cannon",
         "Cannon",
         "Torpedo",
-        "Modification"
+        "Modification",
+        "Configuration"
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg",
       "ffg": 24,
@@ -134,10 +137,14 @@
         "Cannon",
         "Cannon",
         "Torpedo",
-        "Modification"
+        "Modification",
+        "Configuration"
       ],
       "ability": "At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2.",
-      "cost": 50
+      "cost": 50,
+      "ffg": 628,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/df07f280040d4284c04c194e18c62c9e.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/0fcceeaf64f96b4870146ffbec529dc2.png"
     }
   ]
 }

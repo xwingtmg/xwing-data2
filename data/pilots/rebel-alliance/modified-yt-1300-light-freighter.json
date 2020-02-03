@@ -133,7 +133,7 @@
       "xws": "leiaorgana",
       "initiative": 5,
       "limited": 1,
-      "caption": "There is Another",
+      "caption": "There Is Another",
       "hyperspace": true,
       "force": { "value": 1, "recovers": 1 },
       "slots": [
@@ -147,7 +147,10 @@
         "Title"
       ],
       "ability": "After a friendly ship fully executes a red maneuver, if it is at range 0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or recovers 1 [Force].",
-      "cost": 79
+      "cost": 79,
+      "ffg": 630,
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/dc207b5c5f00a98e0fad8dc3905373f9.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/677d75036109127dc27d524b902b35ae.png"
     }
   ]
 }
