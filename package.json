@@ -32,8 +32,7 @@
   },
   "lint-staged": {
     "*.{js,json}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ],
     "{data,tests}/**/*.{js,json}": [
       "yarn validate:tests --bail"
