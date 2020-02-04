@@ -112,7 +112,7 @@
       "limited": 1,
       "caption": "Ruthless Brute",
       "hyperspace": false,
-      "force": { "value": 2, "recovers": 1 },
+      "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "slots": ["Force Power", "Sensor", "Missile"],
       "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force] to add 1 [Critical Hit] result.",
       "cost": 42,
