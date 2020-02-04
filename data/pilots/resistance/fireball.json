@@ -137,7 +137,13 @@
       "cost": 29,
       "ffg": 622,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/686597246669987fe1b938f1419e598d.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c5cfd1d89a204722ff95e9a4b134e7f1.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c5cfd1d89a204722ff95e9a4b134e7f1.png",
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "SLAM" }
+      ]
     }
   ]
 }
