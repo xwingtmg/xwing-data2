@@ -34,6 +34,9 @@
     "*.{js,json}": [
       "prettier --write",
       "git add"
+    ],
+    "{data,tests}/**/*.{js,json}": [
+      "yarn validate:tests --bail"
     ]
   },
   "prettier": {
