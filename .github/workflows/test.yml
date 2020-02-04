@@ -19,5 +19,3 @@ jobs:
       run: yarn run validate:json
     - name: Running tests
       run: yarn run validate:tests --ci
-      env:
-        CI: true
