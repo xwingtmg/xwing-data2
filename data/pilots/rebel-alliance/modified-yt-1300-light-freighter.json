@@ -135,7 +135,7 @@
       "limited": 1,
       "caption": "There Is Another",
       "hyperspace": true,
-      "force": { "value": 1, "recovers": 1 },
+      "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "slots": [
         "Force Power",
         "Missile",
