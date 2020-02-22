@@ -249,6 +249,13 @@
     "sides": [
       {
         "ability": "Attack ([Lock]): Spend 1 [Charge]. If this attack hits, the defender suffers 1 [Critical Hit] damage and gains 1 deplete and 1 jam token. Then cancel all [Hit]/[Critical Hit] results.",
+        "attack": {
+          "arc": "Front Arc",
+          "maxrange": 3,
+          "minrange": 1,
+          "ordnance": true,
+          "value": 3
+        },
         "charges": { "value": 2, "recovers": 0 },
         "title": "Mag-Pulse Warheads",
         "type": "Missile",
