@@ -13,7 +13,7 @@
         "device": {
           "name": "Bomblet",
           "type": "Bomb",
-          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-1 rolls 2 attack dice. Each ship suffers 1 [Hit] damage for each [Hit]/[Critical Hit] result."
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 2 attack dice. Each ship or remote suffers 1 [Hit] damage for each [Hit]/[Critical Hit] result."
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_63.png",
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_63.jpg",
@@ -62,7 +62,7 @@
         "device": {
           "name": "Proton Bomb",
           "type": "Bomb",
-          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-1 suffers 1 [Critical Hit] damage."
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 suffers 1 [Critical Hit] damage."
         },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_65.jpg",
         "ffg": 394
@@ -110,7 +110,7 @@
         "device": {
           "name": "Seismic Charge",
           "type": "Bomb",
-          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, choose 1 obstacle at range 0-1. Each ship at range 0-1 of the obstacle suffers 1 [Hit] damage. Then remove that obstacle."
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, choose 1 obstacle at range 0-1. Each ship and remote at range 0-1 of the obstacle suffers 1 [Hit] damage. Then remove that obstacle."
         },
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_67.jpg",
         "ffg": 396
@@ -165,7 +165,7 @@
         "device": {
           "name": "Electro-Proton Bomb",
           "type": "Bomb",
-          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-2 rolls 4 attack dice. Each ship loses 1 shield for each blank result, gains 1 ion token for each [Focus]/[Hit] result, and gains 1 disarm token for each [Crit] result."
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-2 rolls 4 attack dice. Each ship loses 1 shield for each blank result, gains 1 ion token for each [Focus]/[Hit] result, and gains 1 disarm token for each [Crit] result. Each remote at range 0-1 loses 1 shield for each blank result and suffers 1 damage for each [Focus]/[Hit] result."
         },
         "ffg": 591,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/215f5298b9917bd57db474a38139ba08.jpg"
@@ -188,7 +188,13 @@
         "ffg": 648,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/aea6bdafa5066a040a8929d6eb46499a.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c27f0dcda78915239450bedf5b931d86.png",
-        "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Cluster Mine set using the [1 [Straight]] template. This card's [Charge] cannot be recovered."
+        "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Cluster Mine set using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
+        "charges": { "value": 1, "recovers": 0 },
+        "device": {
+          "name": "Cluster Mine",
+          "type": "Mine",
+          "effect": "A Cluster Mine set consists of 3 individual Cluster Mine devices. When a Cluster Mine set is placed, the center Cluster Mine is placed as normal, then two additional cluster mines are placed in the recesses as shown. After a ship overlaps or moves through any individual Cluster Mine, it detonates. Other Cluster Mines in the set that were not overlapped or moved through do not detonate. When each of these devices detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit]/[Critical Hit] damage for each matching result."
+        }
       }
     ],
     "cost": { "value": 8 }
@@ -206,7 +212,13 @@
         "ffg": 649,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f69c5ecaca9ab01380f6329e49970ddf.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e4c43791c16aea639f2e811c16d1dbcf.png",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the [1 [Straight]] template."
+        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the [1 [Straight]] template.",
+        "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Ion Bomb",
+          "type": "Bomb",
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship at range 0-1 gains 3 ion tokens, and each remote at range 0-1 suffers 1 [Hit] damage."
+        }
       }
     ],
     "cost": { "value": 6 }
