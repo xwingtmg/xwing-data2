@@ -240,8 +240,7 @@
           "id": "bluesquadronrecruit",
           "upgrades": {
             "tech": ["primedthrusters"],
-            "talent": ["composure"],
-            "talent": ["snapshot"]
+            "talent": ["composure", "snapshot"]
           }
         }
       ]
@@ -505,8 +504,7 @@
         {
           "id": "zizitlo",
           "upgrades": {
-            "talent": ["elusive"],
-            "talent": ["snapshot"],
+            "talent": ["elusive", "snapshot"]
             "tech": ["primedthrusters"],
             "modification": ["afterburners"]
           }
