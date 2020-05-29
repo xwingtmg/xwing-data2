@@ -164,6 +164,19 @@
       ]
     },
     {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "zetasquadronsurvivor",
+          "upgrades": {
+            "tech": ["advancedoptics"],
+            "talent": ["proudtradition"],
+            "sensor": ["passivesensors"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 3,
       "pilots": [
         {
@@ -337,6 +350,34 @@
           "upgrades": {
             "crew": ["captainphasma"],
             "modification": ["tacticalscrambler"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "captainphasma",
+          "upgrades": {
+            "tech": ["advancedoptics"],
+            "missile": ["ionmissiles"],
+            "talent": ["outmaneuver"],
+            "gunner": ["specialforcesgunner"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "lieutenantlehuse",
+          "upgrades": {
+            "talent": ["elusive"],
+            "missile": ["magpulsewarheads"],
+            "modification": ["angleddeflectors"]
           }
         }
       ]
