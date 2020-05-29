@@ -244,6 +244,19 @@
       "threat": 3,
       "pilots": [
         {
+          "id": "firstordertestpilot",
+          "upgrades": {
+            "talent": ["proudtradition"],
+            "torpedo": ["plasmatorpedoes"],
+            "sensor": ["passivesensors"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
           "id": "blackout",
           "upgrades": {
             "talent": ["elusive"],
@@ -280,6 +293,20 @@
       "pilots": [
         {
           "id": "sienarjaemusengineer"
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "sienarjaemusengineer",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "sensor": ["passivesensors"],
+            "missile": ["magpulsewarheads"],
+            "modification": ["afterburners"]
+          }
         }
       ]
     },
@@ -377,6 +404,19 @@
           "upgrades": {
             "talent": ["elusive"],
             "missile": ["magpulsewarheads"],
+            "modification": ["angleddeflectors"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "rush",
+          "upgrades": {
+            "tech": ["primedthrusters"],
+            "torpedo": ["protontorpedoes"],
             "modification": ["angleddeflectors"]
           }
         }
