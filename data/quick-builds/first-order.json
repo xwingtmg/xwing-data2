@@ -289,14 +289,6 @@
       ]
     },
     {
-      "threat": 2,
-      "pilots": [
-        {
-          "id": "sienarjaemusengineer"
-        }
-      ]
-    },
-    {
       "threat": 3,
       "pilots": [
         {
@@ -307,6 +299,14 @@
             "missile": ["magpulsewarheads"],
             "modification": ["afterburners"]
           }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sienarjaemusengineer"
         }
       ]
     },
