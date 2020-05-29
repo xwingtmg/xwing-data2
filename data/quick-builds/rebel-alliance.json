@@ -238,6 +238,21 @@
       ]
     },
     {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "bladesquadronveteran",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "torpedo": ["protontorpedoes"],
+            "cannon": ["autoblasters"],
+            "modification": ["angleddeflectors"],
+            "configuration": ["stabilizedsfoils"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 2,
       "pilots": [
         {
@@ -253,9 +268,47 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "bladesquadronveteran",
+          "upgrades": {
+            "talent": ["predator"],
+            "cannon": ["ioncannon"],
+            "cannon": ["jammingbeam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "bluesquadronpilot",
           "upgrades": {
             "sensor": ["advancedsensors"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bluesquadronpilot",
+          "upgrades": {
+            "sensor": ["firecontrolsystem"],
+            "torpedo": ["advprotontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bluesquadronpilot",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "torpedo": ["plasmatorpedoes"],
+            "configuration": ["stabilizedsfoils"]
           }
         }
       ]
@@ -276,12 +329,38 @@
       "threat": 3,
       "pilots": [
         {
+          "id": "braylenstramm",
+          "upgrades": {
+            "talent": ["squadleader"],
+            "cannon": ["jammingbeam"],
+            "cannon": ["heavylasercannon"],
+            "modification": ["electronicbaffle"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
           "id": "tennumb",
           "upgrades": {
             "talent": ["squadleader"],
             "sensor": ["advancedsensors"],
             "cannon": ["heavylasercannon"],
             "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "tennumb",
+          "upgrades": {
+            "talent": ["elusive"],
+            "modification": ["electronicbaffle"]
           }
         }
       ]
@@ -1014,6 +1093,21 @@
           "upgrades": {
             "astromech": ["r5astromech"],
             "title": ["phantom"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "ginamoonsong",
+          "upgrades": {
+            "title": ["elusive"],
+            "sensor": ["passivesensors"],
+            "cannon": ["autoblasters"],
+            "modification": ["afterburners"],
+            "configuration": ["stabilizedsfoils"]
           }
         }
       ]
