@@ -281,6 +281,196 @@
           }
         }
       ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "anakinskywalker-nabooroyaln1starfighter",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "sensor": ["collisiondetector"],
+            "force-power": ["heightenedperception"],
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["r2astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ricolie",
+          "upgrades": {
+            "talent": ["daredevil"],
+            "astromech": ["r2a6"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "padmeamidala",
+          "upgrades": {
+            "talent": ["elusive"],
+            "sensor": ["collisiondetector"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "dineeellberger",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "torpedo": ["plasmatorpedoes"],
+            "astromech": ["r3astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bravoflightofficer",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["r2c4"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "naboohandmaiden",
+          "upgrades": {
+            "torpedo": ["plasmatorpedoes"],
+            "astromech": ["homingmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "shadowsquadronveteran",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "device": ["protonbombs"],
+            "cannon": ["ioncannon"],
+            "astromech": ["r5astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "anakinskywalker-btlbywing",
+          "upgrades": {
+            "gunner": ["ahsokatano"],
+            "cannon": ["ioncannon"],
+            "device": ["protonbombs"],
+            "force-power": ["precognitivereflexes"],
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["r2astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "r2d2",
+          "upgrades": {
+            "crew": ["c3po-republic"],
+            "cannon": ["ioncannon"],
+            "device": ["protonbombs"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "oddball-btlbywing",
+          "upgrades": {
+            "talent": ["predator"],
+            "cannon": ["ioncannon"],
+            "modification": ["hullupgrade"],
+            "torpedo": ["protontorpedoes"],
+            "astromech": ["r3astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "matchstick",
+          "upgrades": {
+            "talent": ["elusive"],
+            "device": ["protonbombs"],
+            "cannon": ["ioncannon"],
+            "modification": ["delayedfuses", "shieldupgrade"],
+            "astromech": ["r2astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "broadside",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "modification": ["hullupgrade"],
+            "cannon": ["ioncannon"],
+            "astromech": ["r5astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "goji",
+          "upgrades": {
+            "modification": ["afterburners"],
+            "device": ["electroprotonbomb"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "redsquadronbomber",
+          "upgrades": {
+            "device": ["protonbombs"],
+            "cannon": ["ioncannon"],
+            "modification": ["delayedfuses"],
+            "astromech": ["r2astromech"]
+          }
+        }
+      ]
     }
   ]
 }
