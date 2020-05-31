@@ -496,6 +496,18 @@
       ]
     },
     {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "blacksquadronscout",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "modification": ["targetingcomputer"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 3,
       "pilots": [
         {
@@ -544,7 +556,7 @@
       ]
     },
     {
-      "threat": 3,
+      "threat": 2,
       "pilots": [
         {
           "id": "planetarysentinel",
@@ -558,6 +570,18 @@
     },
     {
       "threat": 2,
+      "pilots": [
+        {
+          "id": "planetarysentinel",
+          "upgrades": {
+            "talent": ["trickshot"],
+            "device": ["connernets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
       "pilots": [
         {
           "id": "planetarysentinel",
@@ -757,6 +781,18 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "inquisitor",
+          "upgrades": {
+            "force-power": ["brilliantevasion"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "seventhsister",
           "upgrades": {
             "missile": ["homingmissiles"]
@@ -773,6 +809,18 @@
             "missile": ["protonrockets"],
             "talent": ["crackshot"],
             "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "baronoftheempire",
+          "upgrades": {
+            "missile": ["magpulsewarheads"],
+            "talent": ["snapshot"]
           }
         }
       ]
@@ -978,6 +1026,17 @@
       ]
     },
     {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "patrolleader",
+          "upgrades": {
+            "modification": ["hullupgrade", "tacticalscrambler"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 2,
       "pilots": [
         {
@@ -1020,6 +1079,45 @@
           "upgrades": {
             "talent": ["swarmtactics"],
             "crew": ["isbslicer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "fifthbrother",
+          "upgrades": {
+            "force-power": ["foresight"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "vagabond",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "device": ["protonbombs"],
+            "gunner": ["skilledbombardier"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "mornakee",
+          "upgrades": {
+            "torpedo": ["plasmatorpedoes"],
+            "device": ["proximitymines"],
+            "crew": ["gnkgonkdroid"],
+            "modification": ["shieldupgrade"]
           }
         }
       ]
