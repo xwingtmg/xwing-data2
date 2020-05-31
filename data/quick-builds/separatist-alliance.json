@@ -55,8 +55,8 @@
         {
           "id": "haorchallprototype",
           "upgrades": {
-            "missile": ["discordmissiles", "energyshellcharges"],
-            "modification": ["stealthdevice"]
+            "missile": ["energyshellcharges"],
+            "modification": ["stealthdevice", "afterburners"]
           }
         }
       ]
@@ -189,6 +189,84 @@
           "upgrades": {
             "talent": ["crackshot"],
             "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "technounionbomber",
+          "upgrades": {
+            "torpedo": ["protontorpedoes"],
+            "device": ["electroprotonbomb"],
+            "modification": ["delayedfuses"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bombardmentdrone",
+          "upgrades": {
+            "sensor": ["trajectorysimulator"],
+            "device": ["bombletgenerator"],
+            "modification": ["delayedfuses"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "dbs404",
+          "upgrades": {
+            "talent": ["predator"],
+            "torpedo": ["plasmatorpedoes"],
+            "modification": ["afterburners"],
+            "configuration": ["landingstruts"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "baktoidprototype",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "missile": ["barragerockets"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "separatistbomber",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "missile": ["diamondboronmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "dbs32c",
+          "upgrades": {
+            "tactical-relay": ["ta175"],
+            "modification": ["stealthdevice"],
+            "configuration": ["landingstruts"]
           }
         }
       ]
