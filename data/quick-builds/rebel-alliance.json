@@ -797,6 +797,18 @@
       ]
     },
     {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "outerrimsmuggler",
+          "upgrades": {
+            "missile": ["homingmissiles"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 1,
       "pilots": [
         {
@@ -962,6 +974,19 @@
       "threat": 3,
       "pilots": [
         {
+          "id": "partisanrenegade",
+          "upgrades": {
+            "crew": ["magvayarro", "sawgerrera"],
+            "illicit": ["deadmansswitch"],
+            "configuration": ["pivotwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
           "id": "kullbeesperado",
           "upgrades": {
             "talent": ["outmaneuver"],
@@ -1101,6 +1126,18 @@
       "threat": 3,
       "pilots": [
         {
+          "id": "lothalrebel",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "torpedo": ["plasmatorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
           "id": "ginamoonsong",
           "upgrades": {
             "title": ["elusive"],
@@ -1108,6 +1145,48 @@
             "cannon": ["autoblasters"],
             "modification": ["afterburners"],
             "configuration": ["stabilizedsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "alexsandrkallus",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "torpedo": ["protontorpedoes"],
+            "title": ["ghost"],
+            "crew": ["zeborrelios"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "k2so",
+          "upgrades": {
+            "talent": ["trickshot"],
+            "sensor": ["passivesensors"],
+            "modification": ["hullupgrade", "angleddeflectors"],
+            "configuration": ["pivotwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "leiaorgana",
+          "upgrades": {
+            "crew": ["landocalrissian", "chewbacca", "r2d2-crew"]
+            "modification": ["engineupgrade"],
+            "title": ["millenniumfalcon"]
           }
         }
       ]
