@@ -440,7 +440,7 @@
           "upgrades": {
             "talent": ["snapshot"],
             "modification": ["hullupgrade"],
-            "cannonturret": ["ioncannonturret"],
+            "turret": ["ioncannonturret"],
             "astromech": ["r5astromech"]
           }
         }
@@ -465,7 +465,7 @@
           "id": "redsquadronbomber",
           "upgrades": {
             "device": ["protonbombs"],
-            "cannonturret": ["ioncannonturret"],
+            "turret": ["ioncannonturret"],
             "modification": ["delayedfuses"],
             "astromech": ["r2astromech"]
           }
