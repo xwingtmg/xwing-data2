@@ -523,6 +523,58 @@
           }
         }
       ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "colossusstationmechanic",
+          "upgrades": {
+            "talent": ["snapshot"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "jarekyeager",
+          "upgrades": {
+            "talent": ["elusive"],
+            "missile": ["magpulsewarheads"],
+            "modification": ["advancedslam", "targetingcomputer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "kazudaxiono",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "modification": ["advancedslam"],
+            "title": ["kazsfireball"],
+            "astromech": ["r1j5"],
+            "illicit": ["coaxiumhyperfuel"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "r1j5",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "missile": ["magpulsewarheads"],
+            "modification": ["afterburners", "targetingcomputer"]
+          }
+        }
+      ]
     }
   ]
 }

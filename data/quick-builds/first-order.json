@@ -421,6 +421,56 @@
           }
         }
       ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "firstorderprovocateur",
+          "upgrades": {
+            "talent": ["snapshot"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "ember",
+          "upgrades": {
+            "talent": ["predator", "elusive"],
+            "missile": ["concussionmissiles"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "holo",
+          "upgrades": {
+            "talent": ["proudtradition"],
+            "missile": ["magpulsewarheads"],
+            "modification": ["hullupgrade", "munitionsfailsafe"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "majorvonreg",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "missile": ["magpulsewarheads"],
+            "tech": ["deuteriumpowercells"]
+          }
+        }
+      ]
     }
   ]
 }
