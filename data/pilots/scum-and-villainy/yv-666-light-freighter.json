@@ -20,9 +20,7 @@
     "3YW",
     "4FW"
   ],
-  "dialCodes": [
-    "YV6"
-  ],
+  "dialCodes": ["YV6"],
   "faction": "Scum and Villainy",
   "stats": [
     { "arc": "Full Front Arc", "type": "attack", "value": 3 },
@@ -42,7 +40,7 @@
       "caption": "Fearsome Hunter",
       "initiative": 4,
       "limited": 1,
-      "cost": 62,
+      "cost": 60,
       "xws": "bossk",
       "ability": "While you perform a primary attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_210.png",
@@ -65,14 +63,14 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_210.jpg",
       "ffg": 210,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Latts Razzi",
       "caption": "Martial Artist",
       "initiative": 3,
       "limited": 1,
-      "cost": 57,
+      "cost": 56,
       "xws": "lattsrazzi",
       "ability": "At the start of the Engagement Phase, you may choose a ship at range 1 and spend a lock you have on that ship. If you do, that ship gains 1 tractor token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_212.png",
@@ -89,7 +87,7 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_212.jpg",
       "ffg": 212,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Moralo Eval",
@@ -120,7 +118,7 @@
       "name": "Trandoshan Slaver",
       "initiative": 2,
       "limited": 0,
-      "cost": 52,
+      "cost": 51,
       "xws": "trandoshanslaver",
       "text": "The spacious triple-decker design of the YV-666 makes it popular among bounty hunters and slavers, who often retrofit an entire deck for prisoner transport.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_213.png",
