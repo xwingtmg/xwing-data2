@@ -164,6 +164,19 @@
       ]
     },
     {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "zetasquadronsurvivor",
+          "upgrades": {
+            "tech": ["advancedoptics"],
+            "talent": ["proudtradition"],
+            "sensor": ["passivesensors"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 3,
       "pilots": [
         {
@@ -231,6 +244,19 @@
       "threat": 3,
       "pilots": [
         {
+          "id": "firstordertestpilot",
+          "upgrades": {
+            "talent": ["proudtradition"],
+            "torpedo": ["plasmatorpedoes"],
+            "sensor": ["passivesensors"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
           "id": "blackout",
           "upgrades": {
             "talent": ["elusive"],
@@ -258,6 +284,20 @@
           "upgrades": {
             "tech": ["primedthrusters"],
             "torpedo": ["advprotontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "sienarjaemusengineer",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "sensor": ["passivesensors"],
+            "missile": ["magpulsewarheads"],
+            "modification": ["afterburners"]
           }
         }
       ]
@@ -337,6 +377,47 @@
           "upgrades": {
             "crew": ["captainphasma"],
             "modification": ["tacticalscrambler"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "captainphasma",
+          "upgrades": {
+            "tech": ["advancedoptics"],
+            "missile": ["ionmissiles"],
+            "talent": ["outmaneuver"],
+            "gunner": ["specialforcesgunner"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "lieutenantlehuse",
+          "upgrades": {
+            "talent": ["elusive"],
+            "missile": ["magpulsewarheads"],
+            "modification": ["angleddeflectors"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "rush",
+          "upgrades": {
+            "tech": ["primedthrusters"],
+            "torpedo": ["protontorpedoes"],
+            "modification": ["angleddeflectors"]
           }
         }
       ]

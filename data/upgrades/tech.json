@@ -32,7 +32,7 @@
         "ffg": 488
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "hyperspace": true
   },
@@ -92,8 +92,8 @@
         "ffg": 464
       }
     ],
-    "cost": { "value": 6 },
-    "hyperspace": false
+    "cost": { "value": 4 },
+    "hyperspace": true
   },
   {
     "name": "Pattern Analyzer",
@@ -143,9 +143,11 @@
     "sides": [
       {
         "ability": "During the System Phase, you may spend 1 [Charge] and gain 1 disarm token to recover 1 [Shield]. Before you would gain 1 non-lock token, if you are not stressed, you may spend 1 [Charge] to gain 1 stress token instead.",
+        "charges": { "value": 2, "recovers": 0 },
         "title": "Deuterium Power Cells",
         "type": "Tech",
         "slots": ["Tech", "Modification"],
+        "charges": { "value": 2, "recovers": 0 },
         "ffg": 654,
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/038636d357004cc01635a93c224d921d.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c0e458b69076138e2408664be131f61e.png"

@@ -22,6 +22,7 @@
     "4FW",
     "4KR"
   ],
+  "dialCodes": ["TPh"],
   "faction": "Galactic Empire",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
@@ -60,7 +61,7 @@
       "caption": "Soft-Spoken Slayer",
       "initiative": 5,
       "limited": 1,
-      "cost": 57,
+      "cost": 60,
       "xws": "whisper",
       "ability": "After you perform an attack that hits, gain 1 evade token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_131.png",

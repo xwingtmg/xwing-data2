@@ -21,6 +21,9 @@
     "5FW",
     "5KR"
   ],
+  "dialCodes": [
+    "M3A"
+  ],
   "faction": "Scum and Villainy",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
@@ -194,7 +197,13 @@
       "cost": 28,
       "ffg": 636,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f1d43e799b5f829b40c091a2274e570f.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/22cf051c016aacea162995df8e9129a2.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/22cf051c016aacea162995df8e9129a2.png",
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" }
+      ]
     }
   ]
 }

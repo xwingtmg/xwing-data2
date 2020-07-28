@@ -30,6 +30,13 @@
         "pattern": "^[0-5][ABDEFKLNOPRSTY][RWB]$"
       }
     },
+	"dialCodes": {
+	  "type": "array",
+	  "items": {
+	    "type": "string",
+	    "minLength": 2
+	  }
+	},
     "pilots": {
       "type": "array"
     },

@@ -768,6 +768,19 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "tansariipointveteran",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "torpedo": ["plasmatorpedoes"],
+            "modification": ["munitionsfailsafe"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "sunnybounder",
           "upgrades": {
             "talent": ["predator"],
@@ -797,6 +810,19 @@
       ]
     },
     {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "cartelspacer",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "cannon": ["autoblasters"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 3,
       "pilots": [
         {
@@ -818,6 +844,17 @@
           "upgrades": {
             "torpedo": ["iontorpedoes"],
             "illicit": ["inertialdampeners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "contractedscout",
+          "upgrades": {
+            "torpedo": ["plasmatorpedoes"]
           }
         }
       ]
@@ -915,6 +952,17 @@
       ]
     },
     {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "blacksunsoldier",
+          "upgrades": {
+            "talent": ["composure"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 2,
       "pilots": [
         {
@@ -937,6 +985,19 @@
             "talent": ["experthandling"],
             "missile": ["clustermissiles"],
             "illicit": ["contrabandcybernetics"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "binayrepirate",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "missile": ["concussionmissiles"],
             "modification": ["afterburners"]
           }
         }
@@ -1198,6 +1259,47 @@
       "pilots": [
         {
           "id": "miningguildsentry"
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "nomlumb",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "gunner": ["dengar"],
+            "torpedo": ["protontorpedoes"],
+            "illicit": ["deadmansswitch"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bossk-z95af4headhunter",
+          "upgrades": {
+            "talent": ["snapshot", "predator"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "g4rgorvm",
+          "upgrades": {
+            "talent": ["intimidation"],
+            "cannon": ["autoblasters"],
+            "illicit": ["deadmansswitch"],
+            "modification": ["shieldupgrade"]
+          }
         }
       ]
     }

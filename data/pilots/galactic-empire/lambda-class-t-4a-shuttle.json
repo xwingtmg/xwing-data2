@@ -17,6 +17,7 @@
     "3FW",
     "3NR"
   ],
+  "dialCodes": ["LS"],
   "faction": "Galactic Empire",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
@@ -52,7 +53,7 @@
       "caption": "Darth Vader's Shuttle Pilot",
       "initiative": 3,
       "limited": 1,
-      "cost": 48,
+      "cost": 49,
       "xws": "coloneljendon",
       "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, while friendly ships acquire locks this round, they must acquire locks beyond range 3 instead of at range 0-3.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_143.png",

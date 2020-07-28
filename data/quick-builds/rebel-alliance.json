@@ -238,6 +238,21 @@
       ]
     },
     {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "bladesquadronveteran",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "torpedo": ["protontorpedoes"],
+            "cannon": ["autoblasters"],
+            "modification": ["angleddeflectors"],
+            "configuration": ["stabilizedsfoils"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 2,
       "pilots": [
         {
@@ -253,9 +268,47 @@
       "threat": 2,
       "pilots": [
         {
+          "id": "bladesquadronveteran",
+          "upgrades": {
+            "talent": ["predator"],
+            "cannon": ["ioncannon"],
+            "cannon": ["jammingbeam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
           "id": "bluesquadronpilot",
           "upgrades": {
             "sensor": ["advancedsensors"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bluesquadronpilot",
+          "upgrades": {
+            "sensor": ["firecontrolsystem"],
+            "torpedo": ["advprotontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bluesquadronpilot",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "torpedo": ["plasmatorpedoes"],
+            "configuration": ["stabilizedsfoils"]
           }
         }
       ]
@@ -276,12 +329,38 @@
       "threat": 3,
       "pilots": [
         {
+          "id": "braylenstramm",
+          "upgrades": {
+            "talent": ["squadleader"],
+            "cannon": ["jammingbeam"],
+            "cannon": ["heavylasercannon"],
+            "modification": ["electronicbaffle"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
           "id": "tennumb",
           "upgrades": {
             "talent": ["squadleader"],
             "sensor": ["advancedsensors"],
             "cannon": ["heavylasercannon"],
             "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "tennumb",
+          "upgrades": {
+            "talent": ["elusive"],
+            "modification": ["electronicbaffle"]
           }
         }
       ]
@@ -718,6 +797,18 @@
       ]
     },
     {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "outerrimsmuggler",
+          "upgrades": {
+            "missile": ["homingmissiles"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
       "threat": 1,
       "pilots": [
         {
@@ -883,6 +974,19 @@
       "threat": 3,
       "pilots": [
         {
+          "id": "partisanrenegade",
+          "upgrades": {
+            "crew": ["magvayarro", "sawgerrera"],
+            "illicit": ["deadmansswitch"],
+            "configuration": ["pivotwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
           "id": "kullbeesperado",
           "upgrades": {
             "talent": ["outmaneuver"],
@@ -1014,6 +1118,75 @@
           "upgrades": {
             "astromech": ["r5astromech"],
             "title": ["phantom"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "lothalrebel",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "torpedo": ["plasmatorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "ginamoonsong",
+          "upgrades": {
+            "talent": ["elusive"],
+            "sensor": ["passivesensors"],
+            "cannon": ["autoblasters"],
+            "modification": ["afterburners"],
+            "configuration": ["stabilizedsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "alexsandrkallus",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "torpedo": ["protontorpedoes"],
+            "title": ["ghost"],
+            "crew": ["zeborrelios"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "k2so",
+          "upgrades": {
+            "talent": ["trickshot"],
+            "sensor": ["passivesensors"],
+            "modification": ["hullupgrade", "angleddeflectors"],
+            "configuration": ["pivotwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "leiaorgana",
+          "upgrades": {
+            "crew": ["landocalrissian", "chewbacca", "r2d2-crew"],
+            "modification": ["engineupgrade"],
+            "title": ["millenniumfalcon"]
           }
         }
       ]

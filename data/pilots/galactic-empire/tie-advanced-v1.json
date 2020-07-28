@@ -24,6 +24,7 @@
     "4KR",
     "5FW"
   ],
+  "dialCodes": ["TAv"],
   "faction": "Galactic Empire",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
@@ -52,14 +53,14 @@
       "name": "Baron of the Empire",
       "initiative": 3,
       "limited": 0,
-      "cost": 30,
+      "cost": 28,
       "xws": "baronoftheempire",
       "text": "Sienar Fleet System's TIE Advanced v1 is a groundbreaking starfighter design, featuring upgraded engines, a missile launcher, and folding s-foils.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_101.png",
       "slots": ["Talent", "Sensor", "Missile"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_101.jpg",
       "ffg": 101,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Grand Inquisitor",
@@ -80,7 +81,7 @@
       "name": "Inquisitor",
       "initiative": 3,
       "limited": 0,
-      "cost": 35,
+      "cost": 36,
       "xws": "inquisitor",
       "text": "The fearsome Inquisitors are given a great deal of autonomy and access to the Empire's latest technology, like the prototype TIE Advanced v1.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_102.png",
@@ -103,7 +104,7 @@
       "slots": ["Sensor", "Missile", "Force Power"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg",
       "ffg": 100,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Fifth Brother",
@@ -111,8 +112,8 @@
       "initiative": 4,
       "limited": 1,
       "caption": "Ruthless Brute",
-      "hyperspace": false,
-      "force": { "value": 2, "recovers": 1 },
+      "hyperspace": true,
+      "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "slots": ["Force Power", "Sensor", "Missile"],
       "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force] to add 1 [Critical Hit] result.",
       "cost": 42,

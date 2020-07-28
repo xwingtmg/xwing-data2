@@ -14,7 +14,10 @@
         "ffg": 388
       }
     ],
-    "cost": { "value": 8 },
+    "cost": {
+      "variable": "size",
+      "values": { "Small": 7, "Medium": 6, "Large": 5 }
+    },
     "hyperspace": true
   },
   {
@@ -53,7 +56,7 @@
         "ffg": 319
       }
     ],
-    "cost": { "value": 14 },
+    "cost": { "value": 10 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": false
   },
@@ -72,9 +75,9 @@
         "ffg": 364
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Dengar",
@@ -112,7 +115,7 @@
         "ffg": 320
       }
     ],
-    "cost": { "value": 14 },
+    "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": false
   },
@@ -132,7 +135,7 @@
         "ffg": 348
       }
     ],
-    "cost": { "value": 11 },
+    "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": true
   },
@@ -171,7 +174,7 @@
         "ffg": 321
       }
     ],
-    "cost": { "value": 14 },
+    "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": false
   },
@@ -265,7 +268,7 @@
         "ffg": 470
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 9 },
     "restrictions": [
       { "factions": ["First Order"] },
       { "ships": ["tiesffighter"] }
@@ -306,7 +309,10 @@
         "ffg": 281
       }
     ],
-    "cost": { "value": 10 },
+    "cost": {
+      "variable": "size",
+      "values": { "Small": 12, "Medium": 9, "Large": 7 }
+    },
     "restrictions": [{ "action": { "type": "Rotate Arc" } }],
     "hyperspace": false
   },
@@ -386,7 +392,7 @@
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
     "cost": { "value": 9 },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Clone Commander Cody",

@@ -16,7 +16,7 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "\"Zeb\" Orrelios",
@@ -35,7 +35,7 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "0-0-0",
@@ -648,7 +648,7 @@
     ],
     "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Ketsu Onyo",
@@ -1010,7 +1010,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Saw Gerrera",
@@ -1571,7 +1571,7 @@
   {
     "name": "K-2SO",
     "limited": 1,
-    "xws": "k2s0",
+    "xws": "k2so",
     "hyperspace": true,
     "sides": [
       {
