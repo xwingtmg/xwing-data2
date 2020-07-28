@@ -20,9 +20,7 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": [
-    "TAg"
-  ],
+  "dialCodes": ["TAg"],
   "faction": "Galactic Empire",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
@@ -46,7 +44,7 @@
       "caption": "Contingency Planner",
       "initiative": 2,
       "limited": 1,
-      "cost": 29,
+      "cost": 28,
       "xws": "doubleedge",
       "ability": "After you perform a [Turret] or [Missile] attack that misses, you may perform a bonus attack using a different weapon.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_128.png",
@@ -67,7 +65,7 @@
       "caption": "Innate Deadeye",
       "initiative": 4,
       "limited": 1,
-      "cost": 31,
+      "cost": 30,
       "xws": "lieutenantkestal",
       "ability": "While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender's blank/[Focus] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_127.png",

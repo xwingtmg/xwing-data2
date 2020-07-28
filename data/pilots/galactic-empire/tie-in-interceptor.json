@@ -22,9 +22,7 @@
     "4KR",
     "5FW"
   ],
-  "dialCodes": [
-    "TI"
-  ],
+  "dialCodes": ["TI"],
   "faction": "Galactic Empire",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
@@ -54,7 +52,7 @@
       "slots": ["Modification", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg",
       "ffg": 106,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Saber Squadron Ace",
@@ -71,14 +69,14 @@
       "slots": ["Talent", "Modification", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg",
       "ffg": 105,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Soontir Fel",
       "caption": "Ace of Legend",
       "initiative": 6,
       "limited": 1,
-      "cost": 53,
+      "cost": 54,
       "xws": "soontirfel",
       "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain 1 focus token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_103.png",
@@ -107,7 +105,7 @@
       "slots": ["Talent", "Modification", "Modification"],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg",
       "ffg": 104,
-      "hyperspace": false
+      "hyperspace": true
     }
   ]
 }
