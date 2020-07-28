@@ -14,7 +14,10 @@
         "ffg": 388
       }
     ],
-    "cost": { "value": 8 },
+    "cost": {
+      "variable": "size",
+      "values": { "Small": 7, "Medium": 6, "Large": 5 }
+    },
     "hyperspace": true
   },
   {
@@ -306,7 +309,10 @@
         "ffg": 281
       }
     ],
-    "cost": { "value": 10 },
+    "cost": {
+      "variable": "size",
+      "values": { "Small": 12, "Medium": 9, "Large": 7 }
+    },
     "restrictions": [{ "action": { "type": "Rotate Arc" } }],
     "hyperspace": false
   },

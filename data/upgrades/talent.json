@@ -34,7 +34,7 @@
         "ffg": 230
       }
     ],
-    "cost": { "value": 1 },
+    "cost": { "value": 2 },
     "hyperspace": false
   },
   {
@@ -271,7 +271,7 @@
       }
     ],
     "cost": { "value": 1 },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Outmaneuver",
@@ -343,7 +343,7 @@
         "ffg": 243
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 4 },
     "restrictions": [{ "action": { "type": "Reload" } }],
     "hyperspace": false
   },
