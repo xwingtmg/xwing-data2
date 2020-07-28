@@ -98,7 +98,7 @@
       { "factions": ["Rebel Alliance"] },
       { "ships": ["vcx100lightfreighter"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Havoc",
@@ -147,7 +147,7 @@
       { "factions": ["Scum and Villainy"] },
       { "ships": ["yv666lightfreighter"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "IG-2000",
@@ -191,7 +191,7 @@
       { "factions": ["Scum and Villainy"] },
       { "ships": ["customizedyt1300lightfreighter"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Marauder",
@@ -339,7 +339,7 @@
       { "factions": ["Rebel Alliance"] },
       { "ships": ["attackshuttle", "sheathipedeclassshuttle"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Punishing One",
@@ -427,7 +427,7 @@
         "ffg": 379
       }
     ],
-    "cost": { "value": 1 },
+    "cost": { "value": 5 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
@@ -500,7 +500,7 @@
       { "factions": ["Separatist Alliance"] },
       { "ships": ["belbullab22starfighter"] }
     ],
-    "hyperspace": false,
+    "hyperspace": true,
     "cost": { "value": 6 }
   },
   {

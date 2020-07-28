@@ -23,9 +23,7 @@
     "4FW",
     "5KR"
   ],
-  "dialCodes": [
-    "SIn"
-  ],
+  "dialCodes": ["SIn"],
   "faction": "Separatist Alliance",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
@@ -115,7 +113,7 @@
     {
       "name": "0-66",
       "xws": "066",
-      "cost": 51,
+      "cost": 49,
       "slots": [
         "Talent",
         "Torpedo",

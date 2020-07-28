@@ -22,9 +22,7 @@
     "5FW",
     "5KR"
   ],
-  "dialCodes": [
-    "D7A"
-  ],
+  "dialCodes": ["D7A"],
   "faction": "Galactic Republic",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
@@ -73,7 +71,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/fcf515534a722b581bc2f85f36cb5c30.png",
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "hyperspace": true,
-      "cost": 48,
+      "cost": 49,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
       "ffg": 511,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f449693ccfd6529244ea7765eed2f83f.jpg"
@@ -92,7 +90,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c0936c57c897ea7bacadf723cfcbd0b6.png",
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "hyperspace": true,
-      "cost": 44,
+      "cost": 45,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
       "ffg": 513,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a4f58c67ecedcb9fcfa6ee45613c002e.jpg"
@@ -130,7 +128,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f0c905f162de8d77dd78c3d49cca77f1.png",
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "hyperspace": false,
-      "cost": 45,
+      "cost": 46,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
       "ffg": 512,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ba6c851af3b8f650d8dcb865a05636f2.jpg"

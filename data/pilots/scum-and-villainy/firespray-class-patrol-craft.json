@@ -22,9 +22,7 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": [
-    "FPC"
-  ],
+  "dialCodes": ["FPC"],
   "faction": "Scum and Villainy",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
@@ -46,7 +44,7 @@
       "caption": "Notorious Bounty Hunter",
       "initiative": 5,
       "limited": 1,
-      "cost": 85,
+      "cost": 86,
       "xws": "bobafett",
       "ability": "While you defend or perform an attack, you may reroll 1 of your dice for each enemy ship at range 0-1.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_149.png",

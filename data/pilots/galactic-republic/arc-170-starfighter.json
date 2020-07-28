@@ -20,9 +20,7 @@
     "4FR",
     "4KR"
   ],
-  "dialCodes": [
-    "AR"
-  ],
+  "dialCodes": ["AR"],
   "faction": "Galactic Republic",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
@@ -69,7 +67,7 @@
     {
       "name": "\"Odd Ball\"",
       "xws": "oddball-arc170starfighter",
-      "cost": 51,
+      "cost": 49,
       "slots": [
         "Talent",
         "Torpedo",

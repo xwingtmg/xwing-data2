@@ -44,8 +44,8 @@
         "ffg": 393
       }
     ],
-    "cost": { "value": 6 },
-    "hyperspace": false
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "Proton Bombs",
@@ -172,7 +172,7 @@
       }
     ],
     "hyperspace": false,
-    "cost": { "value": 12 },
+    "cost": { "value": 11 },
     "restrictions": [{ "action": { "type": "Reload", "difficulty": "White" } }]
   },
   {
@@ -221,6 +221,6 @@
         }
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 5 }
   }
 ]

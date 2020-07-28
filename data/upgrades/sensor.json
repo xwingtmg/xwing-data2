@@ -89,6 +89,9 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/08a980b359fb73dbcb9a315e94d505f0.png"
       }
     ],
-    "cost": { "value": 3 }
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 4, "6": 6 }
+    }
   }
 ]
