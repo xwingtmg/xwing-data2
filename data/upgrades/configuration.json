@@ -213,13 +213,13 @@
     "cost": {
       "variable": "initiative",
       "values": {
-        "0": 14,
+        "0": 15,
         "1": 15,
-        "2": 16,
-        "3": 17,
+        "2": 15,
+        "3": 15,
         "4": 18,
-        "5": 19,
-        "6": 20
+        "5": 21,
+        "6": 24
       }
     },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],

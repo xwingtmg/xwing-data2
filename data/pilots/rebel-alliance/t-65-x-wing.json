@@ -22,10 +22,7 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": [
-    "XW",
-	"T65"
-  ],
+  "dialCodes": ["XW", "T65"],
   "faction": "Rebel Alliance",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
@@ -110,7 +107,7 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_9.jpg",
       "ffg": 9,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Garven Dreis",
@@ -192,7 +189,7 @@
       ],
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_8.jpg",
       "ffg": 8,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Luke Skywalker",
