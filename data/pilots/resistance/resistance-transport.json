@@ -22,9 +22,7 @@
     "3NR",
     "4FR"
   ],
-  "dialCodes": [
-    "RT"
-  ],
+  "dialCodes": ["RT"],
   "faction": "Resistance",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
@@ -112,7 +110,7 @@
       "initiative": 1,
       "limited": 0,
       "text": "Without the support of the New Republic, members of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.",
-      "hyperspace": false,
+      "hyperspace": true,
       "cost": 32,
       "slots": [
         "Tech",
