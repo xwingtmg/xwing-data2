@@ -27,16 +27,16 @@
         "type": "string",
         "minLength": 3,
         "maxLength": 3,
-        "pattern": "^[0-5][ABDEFKLNOPRSTY][RWB]$"
+        "pattern": "^[0-5][ABDEFKLNOPRSTY][RWBP]$"
       }
     },
-	"dialCodes": {
-	  "type": "array",
-	  "items": {
-	    "type": "string",
-	    "minLength": 2
-	  }
-	},
+    "dialCodes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      }
+    },
     "pilots": {
       "type": "array"
     },
