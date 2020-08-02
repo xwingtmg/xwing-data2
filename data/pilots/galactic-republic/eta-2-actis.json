@@ -1,0 +1,51 @@
+{
+  "name": "Eta-2 Actis",
+  "xws": "eta2actis",
+  "size": "Small",
+  "dial": [
+    "1TW",
+    "1YW",
+    "2EP",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "2RP",
+    "3TW",
+    "3BB",
+    "3FB",
+    "3NB",
+    "3YW",
+    "4FB",
+    "4KR",
+    "5FW"
+  ],
+  "faction": "Galactic Republic",
+  "stats": [
+    { "type": "attack", "arc": "Bullseye Arc", "value": 3 },
+    { "type": "attack", "arc": "Front Arc", "value": 2 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 3 }
+  ],
+  "actions": [
+    { "type": "Focus", "difficulty": "White" },
+    { "type": "Evade", "difficulty": "White" },
+    { "type": "Lock", "difficulty": "Purple" },
+    { "type": "Barrel Roll", "difficulty": "White" },
+    { "type": "Boost", "difficulty": "White" }
+  ],
+  "pilots": [
+    {
+      "name": "Anakin Skywalker",
+      "caption": "Hero of Coruscant",
+      "initiative": 6,
+      "limited": 1,
+      "xws": "anakinskywalker-eta2actis",
+      "ability": "After you or a friendly Obi-Wan Kenobi ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship removes 1 red token of your choice.",
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
+      "hyperspace": false
+    }
+  ]
+}
