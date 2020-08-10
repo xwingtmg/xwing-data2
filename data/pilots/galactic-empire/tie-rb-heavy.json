@@ -1,77 +1,82 @@
 {
-	"name": "TIE/rb Heavy",
-	"xws": "tierbheavy",
-	"size": "Medium",
-	"dial": [
-		"1TR",
-		"1BW",
-		"1FB",
-		"1NW",
-		"1YR",
-		"2TW",
-		"2BB",
-		"2FB",
-		"2NB",
-		"2YW",
-		"3RR",
-		"3TR",
-		"3BW",
-		"3FW",
-		"3NW",
-		"3YR",
-		"3RR",
-		"4FW"
-	],
-	"faction": "Galactic Empire",
-	"stats": [{
-			"arc": "Single Turret",
-			"type": "attack",
-			"value": 2
-		},
-		{
-			"type": "agility",
-			"value": 1
-		},
-		{
-			"type": "hull",
-			"value": 8
-		}
-	],
-	"actions": [{
-			"difficulty": "White",
-			"type": "Focus"
-		},
-		{
-			"difficulty": "White",
-			"type": "Reinforce"
-		},
-		{
-			"difficulty": "White",
-			"type": "Lock"
-		},
-		{
-			"difficulty": "Red",
-			"type": "Barrel Roll"
-		},
-		{
-			"difficulty": "White",
-			"linked": {
-				"difficulty": "Red",
-				"type": "Calculate"
-			},
-			"type": "Rotate Arc"
-		}
-	],
-	"pilots": [{
-		"name": "Lyttan Dree",
-		"caption": "Onyx 2",
-		"initiative": 3,
-		"limited": 1,
-		"xws": "lyttandree",
-		"ability": "While a friendly ship at range 0-2 performs an attack, if you are in the defender's [] or [], the attacker may reroll 1 attack die.",
-		"shipAbility": {
-			"name": "Rotating Cannons",
-			"text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
-		}
-	}]
+  "name": "TIE/rb Heavy",
+  "xws": "tierbheavy",
+  "size": "Medium",
+  "dial": [
+    "1TR",
+    "1BW",
+    "1FB",
+    "1NW",
+    "1YR",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3RR",
+    "3TR",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YR",
+    "3RR",
+    "4FW"
+  ],
+  "faction": "Galactic Empire",
+  "stats": [
+    {
+      "arc": "Single Turret Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 8
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Calculate"
+      },
+      "type": "Rotate Arc"
+    }
+  ],
+  "pilots": [
+    {
+      "name": "Lyttan Dree",
+      "caption": "Onyx 2",
+      "initiative": 3,
+      "limited": 1,
+      "xws": "lyttandree",
+      "ability": "While a friendly ship at range 0-2 performs an attack, if you are in the defender's [] or [], the attacker may reroll 1 attack die.",
+      "shipAbility": {
+        "name": "Rotating Cannons",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
+      },
+      "hyperspace": false
+    }
+  ]
 }
