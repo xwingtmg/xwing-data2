@@ -18,9 +18,7 @@
     "3NW",
     "3KR"
   ],
-  "dialCodes": [
-    "ES"
-  ],
+  "dialCodes": ["ES"],
   "faction": "Scum and Villainy",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
@@ -98,7 +96,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_226.png",
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg",
       "ffg": 226,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Outer Rim Pioneer",

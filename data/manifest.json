@@ -1,5 +1,5 @@
 {
-  "version": "1.21.0",
+  "version": "1.22.4",
   "damagedecks": ["data/damage-decks/core.json"],
   "factions": ["data/factions/factions.json"],
   "stats": ["data/stats/stats.json"],
@@ -67,7 +67,8 @@
         "data/pilots/galactic-empire/tie-ph-phantom.json",
         "data/pilots/galactic-empire/tie-sa-bomber.json",
         "data/pilots/galactic-empire/tie-sk-striker.json",
-        "data/pilots/galactic-empire/vt-49-decimator.json"
+        "data/pilots/galactic-empire/vt-49-decimator.json",
+        "data/pilots/galactic-empire/tie-rb-heavy.json"
       ]
     },
     {
@@ -89,7 +90,8 @@
         "data/pilots/first-order/tie-fo-fighter.json",
         "data/pilots/first-order/tie-sf-fighter.json",
         "data/pilots/first-order/tie-vn-silencer.json",
-        "data/pilots/first-order/upsilon-class-command-shuttle.json"
+        "data/pilots/first-order/upsilon-class-command-shuttle.json",
+        "data/pilots/first-order/xi-class-light-shuttle.json"
       ]
     },
     {
@@ -99,7 +101,10 @@
         "data/pilots/separatist-alliance/belbullab-22-starfighter.json",
         "data/pilots/separatist-alliance/sith-infiltrator.json",
         "data/pilots/separatist-alliance/hyena-class-droid-bomber.json",
-        "data/pilots/separatist-alliance/nantex-class-starfighter.json"
+        "data/pilots/separatist-alliance/nantex-class-starfighter.json",
+        "data/pilots/separatist-alliance/droid-tri-fighter.json",
+        "data/pilots/separatist-alliance/hmp-droid-gunship.json",
+        "data/pilots/separatist-alliance/firespray-class-patrol-craft.json"
       ]
     },
     {
@@ -109,7 +114,10 @@
         "data/pilots/galactic-republic/delta-7-aethersprite.json",
         "data/pilots/galactic-republic/v-19-torrent-starfighter.json",
         "data/pilots/galactic-republic/naboo-royal-n-1-starfighter.json",
-        "data/pilots/galactic-republic/btl-b-y-wing.json"
+        "data/pilots/galactic-republic/btl-b-y-wing.json",
+        "data/pilots/galactic-republic/eta-2-actis.json",
+        "data/pilots/galactic-republic/laat-i-gunship.json",
+        "data/pilots/galactic-republic/nimbus-class-v-wing.json"
       ]
     }
   ],

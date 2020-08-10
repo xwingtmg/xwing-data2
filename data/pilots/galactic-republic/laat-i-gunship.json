@@ -1,0 +1,69 @@
+{
+	"name": "LAAT/i Gunship",
+	"xws": "laatigunship",
+	"size": "Medium",
+	"dial": [
+		"0OR",
+		"1BW",
+		"1FB",
+		"1NW",
+		"2TW",
+		"2BW",
+		"2FB",
+		"2NW",
+		"2YW",
+		"3TR",
+		"3BW",
+		"3FW",
+		"3NW",
+		"3YR",
+		"4FR"
+	],
+	"faction": "Galactic Republic",
+	"stats": [{
+			"arc": "Double Turret Arc",
+			"type": "attack",
+			"value": 2
+		},
+		{
+			"type": "agility",
+			"value": 1
+		},
+		{
+			"type": "hull",
+			"value": 8
+		},
+		{
+			"type": "shields",
+			"value": 2
+		}
+	],
+	"actions": [{
+			"difficulty": "White",
+			"type": "Focus"
+		},
+		{
+			"difficulty": "Red",
+			"type": "Reinforce"
+		},
+		{
+			"difficulty": "White",
+			"type": "Lock"
+		},
+		{
+			"difficulty": "White",
+			"type": "Rotate Arc"
+		},
+		{
+			"difficulty": "White",
+			"type": "Reload"
+		}
+	],
+	"pilots": [{
+		"name": "212th Battalion Pilot",
+		"initiative": 2,
+		"limited": 0,
+		"xws": "212thbattalionpilot",
+		"text": "Capable of functioning in space assaults and atmospheric battles alike, the LAAT/i gunship transports Republic troops to battlefronts on planets besieged by the Separatists."
+	}]
+}

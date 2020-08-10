@@ -22,9 +22,7 @@
     "4FW",
     "5FW"
   ],
-  "dialCodes": [
-    "N1"
-  ],
+  "dialCodes": ["N1"],
   "faction": "Galactic Republic",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
@@ -69,7 +67,7 @@
       },
       "caption": "Bravo Leader",
       "hyperspace": true,
-      "cost": 42,
+      "cost": 45,
       "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "While you defend or perform a primary attack, if the speed of your revealed maneuver is higher than the enemy ship's, roll 1 additional die.",
       "ffg": 557,
