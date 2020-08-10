@@ -1,0 +1,75 @@
+{
+	"name": "Firespray-class Patrol Craft",
+	"xws": "firesprayclasspatrolcraft",
+	"size": "Medium",
+	"dial": [
+		"1TW",
+		"1BB",
+		"1FB",
+		"1NB",
+		"1YW",
+		"2TW",
+		"2BW",
+		"2FB",
+		"2NW",
+		"2YW",
+		"3ER",
+		"3BW",
+		"3FB",
+		"3NW",
+		"3RR",
+		"4FW",
+		"4KR"
+	],
+	"dialCodes": ["FPC"],
+	"faction": "Separatist Alliance",
+	"stats": [{
+			"arc": "Front Arc",
+			"type": "attack",
+			"value": 3
+		},
+		{
+			"arc": "Rear Arc",
+			"type": "attack",
+			"value": 3
+		},
+		{
+			"type": "agility",
+			"value": 2
+		},
+		{
+			"type": "hull",
+			"value": 6
+		},
+		{
+			"type": "shields",
+			"value": 4
+		}
+	],
+	"actions": [{
+			"difficulty": "White",
+			"type": "Focus"
+		},
+		{
+			"difficulty": "White",
+			"type": "Lock"
+		},
+		{
+			"difficulty": "Red",
+			"type": "Reinforce"
+		},
+		{
+			"difficulty": "White",
+			"type": "Boost"
+		}
+	],
+	"icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_FIrespray.png",
+	"pilots": [{
+		"name": "Jango Fett",
+		"caption": "Simple Man",
+		"initiative": 6,
+		"limited": 1,
+		"xws": "jangofett",
+		"ability": "While you defend or perform a primary attack, if the difficulty of your revealed maneuver is less than that of the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result."
+	}]
+}
