@@ -1,74 +1,79 @@
 {
-	"name": "HMP Droid Gunship",
-	"xws": "hmpdroidgunship",
-	"size": "Small",
-	"dial": [
-		"0OR",
-		"1BR",
-		"1FB",
-		"1NR",
-		"2TB",
-		"2BW",
-		"2FB",
-		"2NW",
-		"2YB",
-		"3TW",
-		"3BR",
-		"3FW",
-		"3NR",
-		"3YW",
-		"4FR",
-		"5FR"
-	],
-	"faction": "Separatist Alliance",
-	"stats": [{
-			"arc": "Full Front Arc",
-			"type": "attack",
-			"value": 2
-		},
-		{
-			"type": "agility",
-			"value": 1
-		},
-		{
-			"type": "hull",
-			"value": 5
-		},
-		{
-			"type": "shields",
-			"value": 3
-		}
-	],
-	"actions": [{
-			"difficulty": "White",
-			"type": "Calculate"
-		},
-		{
-			"difficulty": "White",
-			"type": "Lock"
-		},
-		{
-			"difficulty": "Red",
-			"type": "Barrel Roll"
-		},
-		{
-			"difficulty": "White",
-			"type": "Reload",
-			"linked": {
-				"difficulty": "Red",
-				"type": "Calculate"
-			}
-		}
-	],
-	"pilots": [{
-		"name": "Separatist Predator",
-		"initiative": 3,
-		"limited": 0,
-		"xws": "separatistpredator",
-		"text": "Armed with ordnance and protected by ray shields, a droid gunship can devastate Republic infantry formations and starfighters with equal proficiency.",
-		"shipAbility": {
-			"name": "Networked Aim",
-			"text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
-		}
-	}]
+  "name": "HMP Droid Gunship",
+  "xws": "hmpdroidgunship",
+  "size": "Small",
+  "dial": [
+    "0OR",
+    "1BR",
+    "1FB",
+    "1NR",
+    "2TB",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YB",
+    "3TW",
+    "3BR",
+    "3FW",
+    "3NR",
+    "3YW",
+    "4FR",
+    "5FR"
+  ],
+  "faction": "Separatist Alliance",
+  "stats": [
+    {
+      "arc": "Full Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 5
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Calculate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reload",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Calculate"
+      }
+    }
+  ],
+  "pilots": [
+    {
+      "name": "Separatist Predator",
+      "initiative": 3,
+      "limited": 0,
+      "xws": "separatistpredator",
+      "text": "Armed with ordnance and protected by ray shields, a droid gunship can devastate Republic infantry formations and starfighters with equal proficiency.",
+      "shipAbility": {
+        "name": "Networked Aim",
+        "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
+      },
+      "hyperspace": false
+    }
+  ]
 }
