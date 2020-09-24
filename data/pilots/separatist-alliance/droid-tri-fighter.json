@@ -24,48 +24,23 @@
   ],
   "faction": "Separatist Alliance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Calculate"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
+    { "difficulty": "White", "type": "Calculate" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
       "type": "Barrel Roll",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Evade"
-      }
+      "linked": { "difficulty": "Red", "type": "Evade" }
     },
     {
       "difficulty": "White",
       "type": "Boost",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Calculate"
-      }
+      "linked": { "difficulty": "Red", "type": "Calculate" }
     }
   ],
   "pilots": [

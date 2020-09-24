@@ -24,43 +24,18 @@
   ],
   "faction": "Galactic Republic",
   "stats": [
-    {
-      "type": "attack",
-      "arc": "Front Arc",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 2
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "type": "attack", "arc": "Front Arc", "value": 2 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 2 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "type": "Focus",
-      "difficulty": "White"
-    },
-    {
-      "type": "Lock",
-      "difficulty": "White"
-    },
-    {
-      "type": "Barrel Roll",
-      "difficulty": "Red"
-    },
+    { "type": "Focus", "difficulty": "White" },
+    { "type": "Lock", "difficulty": "White" },
+    { "type": "Barrel Roll", "difficulty": "Red" },
     {
       "type": "Boost",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Lock"
-      },
+      "linked": { "difficulty": "Red", "type": "Lock" },
       "difficulty": "White"
     }
   ],
