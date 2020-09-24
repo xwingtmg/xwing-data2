@@ -577,5 +577,23 @@
       }
     ],
     "cost": { "value": 2 }
+  },
+  {
+    "sides": [
+      {
+        "ffg": 670,
+        "title": "Deadeye Shot",
+        "type": "Talent",
+        "slots": ["Talent"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/9f2bb1378eecd7358ebb4fd42b3f2f65.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/99f10f4dd059aae2529ec0863a6cc47e.png",
+        "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], you may spend 1 [Hit] result or change 1 [Critical Hit] result to a [Hit] result. If you do, the defender exposes 1 of its damage cards."
+      }
+    ],
+    "name": "Deadeye Shot",
+    "cost": { "value": 1 },
+    "limited": 0,
+    "xws": "deadeyeshot",
+    "hyperspace": true
   }
 ]

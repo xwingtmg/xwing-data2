@@ -222,5 +222,23 @@
       }
     ],
     "cost": { "value": 5 }
+  },
+  {
+    "sides": [
+      {
+        "ffg": 690,
+        "title": "Concussion Bombs",
+        "type": "Device",
+        "slots": ["Device"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/960df489d295d30765d019cf42a1f450.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3b836493f5b17c47e44807c283bc4b04.png",
+        "ability": "During the System Phase, if any of this card's [Charge] are inactive, you must spend 1 [Charge] to drop 1 concussion bomb, if able. Otherwise, you may spend 1 [Charge] to drop 1 concussion bomb."
+      }
+    ],
+    "name": "Concussion Bombs",
+    "cost": { "value": 3 },
+    "limited": 0,
+    "xws": "concussionbombs",
+    "hyperspace": true
   }
 ]

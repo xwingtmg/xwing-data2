@@ -142,7 +142,7 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "During the System Phase, you may spend 1 [Charge] and gain 1 disarm token to recover 1 [Shield]. Before you would gain 1 non-lock token, if you are not stressed, you may spend 1 [Charge] to gain 1 stress token instead.",
+        "ability": "During the System Phase, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield. Before you would gain 1 non-lock token, if you are not stressed, you may spend 1 [Charge] to gain 1 stress token instead.",
         "charges": { "value": 2, "recovers": 0 },
         "title": "Deuterium Power Cells",
         "type": "Tech",
@@ -153,5 +153,41 @@
       }
     ],
     "cost": { "value": 9 }
+  },
+  {
+    "sides": [
+      {
+        "ffg": 671,
+        "title": "Automated Target Priority",
+        "type": "Tech",
+        "slots": ["Tech"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d0f9614d25d622b900f5ceafc8028fbd.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/49d9da05371e92cafec65512526b85c3.png",
+        "ability": "While you perform an attack, you must choose a defender at the closest valid attack range. After you perform an attack that missed, place 1 calculate token on this card. Before you engage, you may remove 1 calculate token from this card to gain a matching token."
+      }
+    ],
+    "name": "Automated Target Priority",
+    "cost": { "value": 1 },
+    "limited": 0,
+    "xws": "automatedtargetpriority",
+    "hyperspace": true
+  },
+  {
+    "sides": [
+      {
+        "ffg": 672,
+        "title": "Sensor Buoy Suite",
+        "type": "Tech",
+        "slots": ["Tech"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/8962c76fb021f876c97b6044b7da827b.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f8fd5c5d87f0512c774b6ac4d0c83f2e.png",
+        "ability": "Setup: Before placing forces, place 2 sensor buoy remotes beyond range 2 of any edge. Before you engage, you may acquire a lock on a ship at range 0-1 of a friendly sensor buoy, ignoring range restrictions."
+      }
+    ],
+    "name": "Sensor Buoy Suite",
+    "cost": { "value": 4 },
+    "limited": 1,
+    "xws": "sensorbuoysuite",
+    "hyperspace": true
   }
 ]
