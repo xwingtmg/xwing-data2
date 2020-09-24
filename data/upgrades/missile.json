@@ -271,14 +271,18 @@
     "name": "Multi-Missile Pods",
     "limited": 0,
     "xws": "multimissilepods",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
-        "ability": "Attack ([Calculate] or [Lock]): Spend 1 [Charge]. If the defender is in your [Front Arc], you may spend 1 [Charge] to roll 1 additional attack die. If the defender is in your [Bullseye Arc], you map spend up to 2 [Charge] to roll that many additional attack dice instead.",
+        "ability": "Attack ([Calculate] or [Lock]): Spend 1 [Charge]. If the defender is in your [Front Arc], you may spend 1 [Charge] to roll 1 additional attack die. If the defender is in your [Bullseye Arc], you may spend up to 2 [Charge] to roll that many additional attack dice instead.",
         "title": "Multi-Missile Pods",
         "type": "Missile",
-        "slots": ["Missile", "Missile"]
+        "slots": ["Missile", "Missile"],
+        "ffg": 673,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/af81354b305251139da023c343c9f70f.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5abef5ee3d6e4acf94cd77280375aa72.png"
       }
-    ]
+    ],
+    "cost": { "value": 8 }
   }
 ]

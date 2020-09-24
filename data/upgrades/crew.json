@@ -1534,10 +1534,10 @@
     "name": "Aayla Secura",
     "limited": 1,
     "xws": "aaylasecura",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
-        "ability": "While an enemy ship in your [Bullseye Arc] performs an attack...",
+        "ability": "While an enemy ship in your [Bullseye Arc] performs an attack, if the defender is friendly and at range 0-2, the defender may change 1 blank result to a [Focus] result.",
         "title": "Aayla Secura",
         "type": "Crew",
         "slots": ["Crew"],
@@ -1550,23 +1550,40 @@
               "linked": { "type": "Coordinate", "difficulty": "Purple" }
             }
           }
-        ]
+        ],
+        "ffg": 675,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/c1d9f86978058e101f6cf112c3946655.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c75b7f3eaadb889b7b94d020c0d81d29.png"
       }
-    ]
+    ],
+    "cost": { "value": 16 }
   },
   {
     "name": "Agent Terex",
     "limited": 1,
     "xws": "agentterex",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
-        "ability": "Setup: Equip this side faceup and place 3 calculate tokens on this card. At the start of the Engagement Phase, you may choose a friendly ship at range 0-3 and remve 1 calculate token from this card to have that ship gain a matching token. Then, if there are no calculate tokens on this card, flip it.",
+        "ability": "Setup: Equip this side faceup and place 3 calculate tokens on this card. At the start of the Engagement Phase, you may choose a friendly ship at range 0-3 and remove 1 calculate token from this card to have that ship gain a matching token. Then, if there are no calculate tokens on this card, flip it.",
         "title": "Agent Terex",
         "type": "Crew",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 686,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/6e7153cd20c808370bbd80d871cf85c3.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/46f1700aa15a7a4e25b3d19b4ad97818.png"
+      },
+      {
+        "slots": ["Crew"],
+        "ffg": 685,
+        "title": "Agent Terex (Cyborg)",
+        "type": "Crew",
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/87f139d19477b1ab35c2dc2ab578eedc.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8d74e6cb42cd9717409451bafda8467b.png",
+        "ability": "During the System Phase, roll 1 attack die. On a [Hit] or [Critical Hit] result, gain 1 calculate token. Otherwise gain 1 jam token. Action: Transfer 1 calculate token or 1 jam token to a ship at range 0-3."
       }
-    ]
+    ],
+    "cost": { "value": 6 }
   },
   {
     "name": "K-2SO",
@@ -1600,10 +1617,10 @@
     "name": "Plo Koon",
     "limited": 1,
     "xws": "plokoon",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
-        "ability": "At the start of the End Phase, if you are reinforced, you may choose 1 friendly ship at range 0 or in your [Left Arc] or [Right Arc] at range 1. That ship removes 1 deplete token or strain token, or repairs 1 faceup damage card.",
+        "ability": "At the start of the End Phase, if you are reinforced, you may choose 1 friendly ship at range 0 or in your [Left Arc] or [Right Arc] at range 1. That ship removes 1 deplete or strain token, or repairs 1 faceup damage card.",
         "title": "Plo Koon",
         "type": "Crew",
         "slots": ["Crew"],
@@ -1612,9 +1629,13 @@
             "type": "action",
             "value": { "type": "Reinforce", "difficulty": "Purple" }
           }
-        ]
+        ],
+        "ffg": 677,
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7551a4c70f701c81e3e79ea9bb5a4237.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1f07b416e509fa27d4005c8d25452e06.png"
       }
-    ]
+    ],
+    "cost": { "value": 10 }
   },
   {
     "name": "Toryn Farr",
@@ -1640,5 +1661,140 @@
       }
     ],
     "cost": { "value": 4 }
+  },
+  {
+    "sides": [
+      {
+        "ffg": 676,
+        "title": "Kit Fisto",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2b1f84f53e0a2fe6f49dbdef202b6adb.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d531840147286ab5b43eb5989d6eb8ec.png",
+        "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-1 and spend 1 [Force]. If you do, it may perform a red [Evade] action."
+      }
+    ],
+    "name": "Kit Fisto",
+    "cost": { "value": 9 },
+    "limited": 1,
+    "xws": "kitfisto",
+    "hyperspace": true
+  },
+  {
+    "sides": [
+      {
+        "ffg": 678,
+        "title": "Yoda",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0f0e3e5576ed1df0e5e2b8ccee638dec.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/7b0fd38f53c20d4a8d1e0ffd97c949ab.png",
+        "ability": "After another friendly ship at range 0-2 fully executes a purple maneuver or performs a purple action, you may spend 1 [Force]. If you do, that ship recovers 1 [Force]."
+      }
+    ],
+    "name": "Yoda",
+    "cost": { "value": 15 },
+    "limited": 1,
+    "xws": "yoda",
+    "hyperspace": true
+  },
+  {
+    "sides": [
+      {
+        "ffg": 679,
+        "title": "\"Fives\"",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/706062dbbf35d8d46c1e1f4b7dad8661.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e15010d96446e208166336cffb78f94d.png",
+        "ability": "After you perform an attack that missed, if the defender's initiative is equal to or greater than your initiative, place 1 evade or focus token on this card. Before you engage, you may remove 1 token from this card to gain 1 matching token."
+      }
+    ],
+    "name": "\"Fives\"",
+    "cost": { "value": 3 },
+    "limited": 1,
+    "xws": "fives",
+    "hyperspace": true
+  },
+  {
+    "sides": [
+      {
+        "ffg": 680,
+        "title": "Wolfpack",
+        "type": "Crew",
+        "slots": ["Crew", "Gunner"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d5a7c585a6f5f06e76c7b927392b61c1.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/63ef9ffc007432e395b3bfa406a879ec.png",
+        "ability": "After a friendly ship at range 0-3 defends, if the attacker is in your firing arc, the defender may gain 1 strain token to acquire a lock on the attacker."
+      }
+    ],
+    "name": "Wolfpack",
+    "cost": { "value": 4 },
+    "limited": 1,
+    "xws": "wolfpack",
+    "hyperspace": true
+  },
+  {
+    "sides": [
+      {
+        "ffg": 684,
+        "title": "Commander Malarus",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/70fb233cb4aee8f02716292268d0b9c1.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/842e172f79c8af94b3dde0cfc769b74a.png",
+        "ability": "Setup: Equip this side faceup. While a friendly non-limited ship at range 0-1 performs a primary attack, that ship may reroll 1 blank result. If it does and the attack does not hit, you must flip this card."
+      },
+      {
+        "ffg": 683,
+        "title": "Commander Malarus (Perfected)",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/c304667782eb50cd85af9fb996a924c9.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d8dabcfeadffbe5ef9eeb1ba4973f714.png",
+        "ability": "While you perform an attack, if the defender is in your [Bullseye Arc], you must convert all [Focus] results to [Hit] results and gain 1 stress token. Then, if you have 2 or more stress tokens, suffer 1 [Hit] damage."
+      }
+    ],
+    "name": "Commander Malarus",
+    "cost": { "value": 7 },
+    "limited": 1,
+    "xws": "commandermalarus",
+    "hyperspace": true
+  },
+  {
+    "sides": [
+      {
+        "ffg": 681,
+        "title": "Ghost Company",
+        "type": "Crew",
+        "slots": ["Crew", "Gunner"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/673fb3c6f002702406456c1b135eda01.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/333dab28d3d96dd2d7a48339d470aae4.png",
+        "ability": "After you perform a primary attack, if you are focused, you may perform a [Single Turret Arc] attack against a ship you have not attacked this round as a bonus attack."
+      }
+    ],
+    "name": "Ghost Company",
+    "cost": { "value": 5 },
+    "limited": 1,
+    "xws": "ghostcompany",
+    "hyperspace": true
+  },
+  {
+    "sides": [
+      {
+        "ffg": 687,
+        "title": "Commander Pyre",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7d1c00624b8253b9157856764d2c1004.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/95166cc0044f721aec2933ae972b2898.png",
+        "ability": "Setup: After placing forces, choose an enemy ship. It gains 2 stress tokens. While you defend, if the attacker is stressed, you may reroll 1 defense die."
+      }
+    ],
+    "name": "Commander Pyre",
+    "cost": { "value": 5 },
+    "limited": 1,
+    "xws": "commanderpyre",
+    "hyperspace": true
   }
 ]

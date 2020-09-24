@@ -336,11 +336,45 @@ function processCard(card) {
     // For upgrades, some fields are stored in the parent object
     // while other fields are specific to the upgrade card's side
 
-    // Only apply a card name change when looking at side[0]
+    // Card-specific tweaks:
+    //
+    // FFG treats Calibrated Laser Targeting as a Mod/Config, but we use Config/Mod
+    // FFG treats Deuterium Power Cells as Mod/Tech, but we use Tech/Mod
+    if (card.id === 549 || card.id === 654) {
+      card.upgrade_types = card.upgrade_types.reverse();
+    }
+    // Lando's Millennium Falcon [Title] doesn't properly capitalize ship name
+    if (card.id === 390) {
+      card.ability_text = card.ability_text.replace(
+        "escape craft",
+        "Escape Craft"
+      );
+    }
+
+    // Only apply a card name or xws change when looking at side[0]
     if (upgradeRef.sides[0] == ref) {
       // Replace `(Open)` and `(Closed)` in dual-side cards
-      const name = card.name.replace(/\((Open|Closed)\)/, "").trim();
+      let name = card.name
+        .replace(/\((Open|Closed|Active|Perfected|Cyborg)\)/, "")
+        .trim();
+
+      // Card-specific tweaks:
+      //
+      // Correct name for Palpatine/Sidious
+      if (card.id === 556) {
+        name = "Palpatine/Sidious";
+      }
+
       modified = applyDiff(upgradeRef, "name", name) || modified;
+
+      if (!upgradeRef.xws) {
+        modified =
+          applyDiff(
+            upgradeRef,
+            "xws",
+            name.toLowerCase().replace(/[^0-9a-z]/g, "")
+          ) || modified;
+      }
     }
     if (cost == null) {
       if (!upgradeRef.cost || !("variable" in upgradeRef.cost)) {
@@ -524,7 +558,18 @@ metadata["ship_types"].forEach(shipType => {
 // Process every scraped card
 scrapedData["cards"].forEach(card => {
   if (!processCard(card)) {
-    notFound.push({ id: card.id, name: card.name });
+    const type = card.card_type_id === 2 ? "upgrade" : "pilot";
+    const cardData = { ffgId: card.id, name: card.name };
+    if (type === "upgrade") {
+      cardData["slot"] = upgradeTypes.find(
+        upgradeType => upgradeType.ffg == card.upgrade_types[0]
+      ).xws;
+    } else {
+      cardData["ship"] = metadata["ship_types"].find(
+        shipType => shipType.id === card.ship_type
+      ).name;
+    }
+    notFound.push(cardData);
   }
 });
 
