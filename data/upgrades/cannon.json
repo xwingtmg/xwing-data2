@@ -123,5 +123,23 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/59d4a52e3a534dd090259bd5546e7bab.png"
       }
     ]
+  },
+  {
+    "sides": [
+      {
+        "ffg": 674,
+        "title": "Synced Laser Cannons",
+        "type": "Cannon",
+        "slots": ["Cannon", "Cannon"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/70d44704aaa8bb8d1f1e2bc904b18c77.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6927e82e460670044786cd46327cb891.png",
+        "ability": "Attack: If you are calculating, the defender does not apply the range bonus."
+      }
+    ],
+    "name": "Synced Laser Cannons",
+    "cost": { "value": 6 },
+    "limited": 0,
+    "xws": "syncedlasercannons",
+    "hyperspace": true
   }
 ]

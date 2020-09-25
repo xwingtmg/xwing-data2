@@ -430,5 +430,44 @@
     "limited": 1,
     "hyperspace": false,
     "xws": "ahsokatano"
+  },
+  {
+    "sides": [
+      {
+        "ffg": 688,
+        "title": "Clone Captain Rex",
+        "type": "Gunner",
+        "slots": ["Gunner"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/245421ccca34a8495ab2b1176215763d.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d5557710e25d5770248736e4743d08ad.png",
+        "ability": "While you perform an attack, you may spend 1 [Focus] result. If you do, each friendly ship that has the defender in its [Bullseye Arc] may gain 1 strain to perform a [Focus] action."
+      }
+    ],
+    "name": "Clone Captain Rex",
+    "cost": { "value": 4 },
+    "limited": 1,
+    "xws": "clonecaptainrex",
+    "hyperspace": true
+  },
+  {
+    "sides": [
+      {
+        "ffg": 689,
+        "title": "Suppressive Gunner",
+        "type": "Gunner",
+        "slots": ["Gunner"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/4902fa74cccbaadfa2108ef7670bcbfe.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ded967f8af64da8948746e6351238484.png",
+        "ability": "While you perform an attack, you may spend 1 [Focus] result. If you do, the defender gains 1 deplete token unless it chooses to suffer 1 [Hit] damage."
+      }
+    ],
+    "name": "Suppressive Gunner",
+    "cost": {
+      "variable": "size",
+      "values": { "Small": 8, "Medium": 7, "Large": 6 }
+    },
+    "limited": 0,
+    "xws": "suppressivegunner",
+    "hyperspace": true
   }
 ]
