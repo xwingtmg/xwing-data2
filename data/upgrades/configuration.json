@@ -336,15 +336,6 @@
   {
     "sides": [
       {
-        "ffg": 691,
-        "title": "Repulsorlift Stabilizers (Active)",
-        "type": "Configuration",
-        "slots": ["Configuration"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/37c67b48073cea976e4b6a6949976aee.jpg",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/57074bd7f510c9c4fd3717894e0239a0.png",
-        "ability": "After you reveal a bank ([Bank Left] or [Bank Right]) or turn ([Turn Left] or [Turn Right]) maneuver, you must perform that maneuver as a sideslip, then flip this card. After you fully execute a non-sideslip maneuver, you may flip this card."
-      },
-      {
         "ffg": 692,
         "title": "Repulsorlift Stabilizers (Inactive)",
         "type": "Configuration",
@@ -352,6 +343,15 @@
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b16d22d90b1b5048a15cf1734334d8fa.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d159e1d6ffc15eda188f858292dc9c2b.png",
         "ability": "Setup: Equip this side faceup. Reduce the difficulty of your straight ([Straight]) maneuvers. After you fully execute a maneuver, you may flip this card."
+      },
+      {
+        "ffg": 691,
+        "title": "Repulsorlift Stabilizers (Active)",
+        "type": "Configuration",
+        "slots": ["Configuration"],
+        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/37c67b48073cea976e4b6a6949976aee.jpg",
+        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/57074bd7f510c9c4fd3717894e0239a0.png",
+        "ability": "After you reveal a bank ([Bank Left] or [Bank Right]) or turn ([Turn Left] or [Turn Right]) maneuver, you must perform that maneuver as a sideslip, then flip this card. After you fully execute a non-sideslip maneuver, you may flip this card."
       }
     ],
     "name": "Repulsorlift Stabilizers",
