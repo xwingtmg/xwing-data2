@@ -27,7 +27,8 @@
               "properties": {
                 "Small": { "type": "integer", "minimum": 0 },
                 "Medium": { "type": "integer", "minimum": 0 },
-                "Large": { "type": "integer", "minimum": 0 }
+                "Large": { "type": "integer", "minimum": 0 },
+                "Huge": { "type": "integer", "minimum": 0 }
               },
               "required": ["Small", "Medium", "Large"]
             }
@@ -64,7 +65,7 @@
               "type": "object",
               "additionalProperties": false,
               "patternProperties": {
-                "^[0-6]$": { "type": "integer", "minimum": 0 }
+                "^[0-8]$": { "type": "integer", "minimum": 0 }
               }
             }
           }
@@ -101,7 +102,7 @@
             "minItems": 1,
             "items": {
               "type": "string",
-              "enum": ["Small", "Medium", "Large"]
+              "enum": ["Small", "Medium", "Large", "Huge"]
             }
           },
           "force_side": {
