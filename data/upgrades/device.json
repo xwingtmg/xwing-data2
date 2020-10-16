@@ -232,7 +232,13 @@
         "slots": ["Device"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/960df489d295d30765d019cf42a1f450.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3b836493f5b17c47e44807c283bc4b04.png",
-        "ability": "During the System Phase, if any of this card's [Charge] are inactive, you must spend 1 [Charge] to drop 1 concussion bomb, if able. Otherwise, you may spend 1 [Charge] to drop 1 concussion bomb."
+        "ability": "During the System Phase, if any of this card's [Charge] are inactive, you must spend 1 [Charge] to drop 1 concussion bomb, if able. Otherwise, you may spend 1 [Charge] to drop 1 concussion bomb.",
+        "charges": { "value": 3, "recovers": 0 },
+        "device": {
+          "name": "Concussion Bomb",
+          "type": "Bomb",
+          "effect": "At the end of the Activation Phase, this device detonates.  When this device detonates, each ship and remote at range 0–1 is dealt 1 facedown damage card. Then, each ship at range 0–1 must expose 1 damage card unless it chooses to gain 1 strain token."
+        }
       }
     ],
     "name": "Concussion Bombs",
