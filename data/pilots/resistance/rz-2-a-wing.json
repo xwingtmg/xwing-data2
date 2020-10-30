@@ -182,6 +182,66 @@
       "ffg": 639,
       "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0930bea45803774f4b0d863b92a64328.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1e861cadd2291ece7a9207cddcdcba39.png"
+    },
+    {
+      "name": "Merl Cobben",
+      "caption": "Distracting Daredevil",
+      "initiative": 1,
+      "limited": 1,
+      "cost": 32,
+      "xws": "merlcobben",
+      "ability": "While a friendly ship at range 0-2 performs a primary attack, if you are in the defender's [Bullseye Arc], the defender rolls 1 fewer defense die.",
+      "shipAbility": {
+        "name": "Refined Gyrostabilizers",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
+      },
+      "slots": ["Talent", "Missile", "Tech"],
+      "hyperspace": true
+    },
+    {
+      "name": "Suralinda Javos",
+      "caption": "Inquisitive Journalist",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 33,
+      "xws": "suralindajavos",
+      "ability": "After you partially execute a maneuver, you may gain 1 strain token to rotate 90° or 180°.",
+      "shipAbility": {
+        "name": "Refined Gyrostabilizers",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
+      },
+      "slots": ["Talent", "Talent", "Missile", "Tech"],
+      "hyperspace": true
+    },
+    {
+      "name": "Wrobie Tyce",
+      "caption": "Dynamic Aerialist",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 35,
+      "xws": "wrobietyce",
+      "ability": "After you defend at attack range 1, if the attacker modified its dice, the attacker gains 1 deplete token.",
+      "shipAbility": {
+        "name": "Refined Gyrostabilizers",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
+      },
+      "slots": ["Talent", "Talent", "Missile", "Tech"],
+      "hyperspace": true
+    },
+    {
+      "name": "Seftin Vanik",
+      "caption": "Skillful Wingmate",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 36,
+      "xws": "seftinvanik",
+      "ability": "After you perform a [Boost] action, you may transfer 1 evade token to a friendly ship at range 1.",
+      "shipAbility": {
+        "name": "Refined Gyrostabilizers",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
+      },
+      "slots": ["Talent", "Talent", "Missile", "Tech"],
+      "hyperspace": true
     }
   ]
 }
