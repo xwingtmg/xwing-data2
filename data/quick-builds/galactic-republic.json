@@ -367,7 +367,7 @@
           "upgrades": {
             "talent": ["snapshot"],
             "device": ["protonbombs"],
-            "cannon": ["ioncannon"],
+            "turret": ["ioncannonturret"],
             "astromech": ["r5astromech"]
           }
         }
@@ -380,7 +380,7 @@
           "id": "anakinskywalker-btlbywing",
           "upgrades": {
             "gunner": ["ahsokatano"],
-            "cannon": ["ioncannon"],
+            "turret": ["ioncannonturret"],
             "device": ["protonbombs"],
             "force-power": ["precognitivereflexes"],
             "torpedo": ["protontorpedoes"],
@@ -396,7 +396,7 @@
           "id": "r2d2",
           "upgrades": {
             "crew": ["c3po-republic"],
-            "cannon": ["ioncannon"],
+            "turret": ["ioncannonturret"],
             "device": ["protonbombs"]
           }
         }
@@ -409,7 +409,7 @@
           "id": "oddball-btlbywing",
           "upgrades": {
             "talent": ["predator"],
-            "cannon": ["ioncannon"],
+            "turret": ["ioncannonturret"],
             "modification": ["hullupgrade"],
             "torpedo": ["protontorpedoes"],
             "astromech": ["r3astromech"]
@@ -425,7 +425,7 @@
           "upgrades": {
             "talent": ["elusive"],
             "device": ["protonbombs"],
-            "cannon": ["ioncannon"],
+            "turret": ["ioncannonturret"],
             "modification": ["delayedfuses", "shieldupgrade"],
             "astromech": ["r2astromech"]
           }
@@ -440,7 +440,7 @@
           "upgrades": {
             "talent": ["snapshot"],
             "modification": ["hullupgrade"],
-            "cannon": ["ioncannon"],
+            "turret": ["ioncannonturret"],
             "astromech": ["r5astromech"]
           }
         }
@@ -465,7 +465,7 @@
           "id": "redsquadronbomber",
           "upgrades": {
             "device": ["protonbombs"],
-            "cannon": ["ioncannon"],
+            "turret": ["ioncannonturret"],
             "modification": ["delayedfuses"],
             "astromech": ["r2astromech"]
           }
