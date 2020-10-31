@@ -246,5 +246,19 @@
     "limited": 0,
     "xws": "concussionbombs",
     "hyperspace": true
+  },
+  {
+    "name": "Thermal Detonators",
+    "limited": 0,
+    "xws": "thermaldetonators",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "During the System Phase, you may spend up to 2 [Charge] to drop that many Thermal Detonators using the [1 [Straight]] or [2 [Straight]] template. Each must be placed using a different template. When you reload this card, recover 1 additional [Charge].",
+        "title": "Thermal Detonators",
+        "type": "Device",
+        "slots": ["Device"]
+      }
+    ]
   }
 ]

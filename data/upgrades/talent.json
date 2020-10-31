@@ -512,7 +512,7 @@
     "hyperspace": true,
     "cost": {
       "variable": "size",
-      "values": { "Small": 7, "Medium": 8, "Large": 9, "Huge": 12 }
+      "values": { "Small": 7, "Medium": 8, "Large": 9 }
     },
     "sides": [
       {
@@ -595,5 +595,64 @@
     "limited": 0,
     "xws": "deadeyeshot",
     "hyperspace": true
+  },
+  {
+    "name": "Backwards Tailslide",
+    "limited": 0,
+    "xws": "backwardstailslide",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "While you boost or barrel roll, if your equipped [Configuration] upgrade has the \"(Closed)\" side faceup, you can move though and overlap obstacles. After you boost or barrel roll through an obstacle, if you are not at range 0 of it, gain 1 evade token.",
+        "title": "Backwards Tailslide",
+        "type": "Talent",
+        "slots": ["Talent"]
+      }
+    ],
+    "cost": { "value": 2 }
+  },
+  {
+    "name": "Ion Limiter Override",
+    "limited": 0,
+    "xws": "ionlimiteroverride",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "After you fully execute a red maneuver, you may perform a [Barrel Roll] action, even while stressed. If you do, roll an attack die; on a [Hit] result gain 1 strain token, and on a [Critical Hit] result, gain 1 ion token.",
+        "title": "Ion Limiter Override",
+        "type": "Talent",
+        "slots": ["Talent"]
+      }
+    ],
+    "cost": { "value": 3 }
+  },
+  {
+    "name": "Marg Sabl Closure",
+    "limited": 0,
+    "xws": "margsablclosure",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you fully execute a maneuver, if you moved through an obstacle, structure, or huge ship, or if you deployed, you may choose 1 enemy ship in your [Front Arc] at range 1-2. That ship gains 1 strain token.",
+        "title": "Marg Sabl Closure",
+        "type": "Talent",
+        "slots": ["Talent"]
+      }
+    ]
+  },
+  {
+    "name": "Starbird Slash",
+    "limited": 0,
+    "xws": "starbirdslash",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "After you fully execute a maneuver, you may choose 1 enemy ship you moved through. That ship gains 1 strain token. Then, if you are in that ship's firing arc, you gain 1 strain token.",
+        "title": "Starbird Slash",
+        "type": "Talent",
+        "slots": ["Talent"]
+      }
+    ],
+    "cost": { "value": 1 }
   }
 ]

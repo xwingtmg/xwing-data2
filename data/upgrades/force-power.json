@@ -206,5 +206,33 @@
     },
     "hyperspace": false,
     "xws": "precognitivereflexes"
+  },
+  {
+    "name": "Extreme Maneuvers",
+    "limited": 0,
+    "xws": "extrememaneuvers",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you perform a [Boost] action, you may spend 1 [Force] to use the turn ([Turn Left] or [Turn Right]) template instead.",
+        "title": "Extreme Maneuvers",
+        "type": "Force Power",
+        "slots": ["Force Power"]
+      }
+    ]
+  },
+  {
+    "name": "Patience",
+    "limited": 0,
+    "xws": "patience",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "At the start of the Engagement Phase, if there is an enemy in your [Front Arc], you may gain 1 deplete token to recover 1 [Force].",
+        "title": "Patience",
+        "type": "Force Power",
+        "slots": ["Force Power"]
+      }
+    ]
   }
 ]

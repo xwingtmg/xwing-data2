@@ -359,5 +359,121 @@
     "limited": 0,
     "xws": "repulsorliftstabilizers",
     "hyperspace": true
+  },
+  {
+    "name": "Alpha-3B \"Besh\"",
+    "limited": 0,
+    "xws": "alpha3bbesh",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you perform a primary attack, you may spend your lock on the defender to change 1 of your blank or [Focus] results to a [Hit] result. Add [Device] slot.",
+        "title": "Alpha-3B \"Besh\"",
+        "type": "Configuration",
+        "slots": ["Configuration"]
+      }
+    ]
+  },
+  {
+    "name": "Alpha-3E \"Esk\"",
+    "limited": 0,
+    "xws": "alpha3eesk",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you perform a primary attackm before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results inflict ion tokens instead of damage.",
+        "title": "Alpha-3E \"Esk\"",
+        "type": "Configuration",
+        "slots": ["Configuration"]
+      }
+    ]
+  },
+  {
+    "name": "Intercept Booster",
+    "limited": 0,
+    "xws": "interceptbooster",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. During the System Phase, gain 1 disarm token unless you flip this card. At the end of the End Phase, if you have no active [Charge], flip this card.",
+        "title": "Intercept Booster (Attached)",
+        "type": "Configuration",
+        "slots": ["Configuration"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "SLAM",
+              "difficulty": "White",
+              "linked": { "type": "Lock", "difficulty": "Red" }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Unhindered by the frailty of an organic pilot, Droid Tri-Fighters are capable of radical acceleration and acute maneuvering. Fitted with booster rockets and fired from the missile tubes of Separatist capital ships, they can intercept hostiles well beyond the range of conventionally deployed starfighters.",
+        "title": "Intercept Booster (Detached)",
+        "type": "Configuration",
+        "slots": ["Configuration"]
+      }
+    ]
+  },
+  {
+    "name": "Maneuver-Assist MGK-300",
+    "limited": 0,
+    "xws": "maneuverassistmgk300",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Reduce the difficulty of your speed 3 straight ([Straight]) and bank ([Bank Left] or [Bank Right]) maneuvers.",
+        "title": "Maneuver-Assist MGK-300",
+        "type": "Configuration",
+        "slots": ["Configuration"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "White" }
+          },
+          {
+            "type": "action",
+            "value": {
+              "type": "Barrel Roll",
+              "difficulty": "White",
+              "linked": { "type": "Calculate", "difficulty": "Red" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 2 }
+  },
+  {
+    "name": "Target-Assist MGK-300",
+    "limited": 0,
+    "xws": "targetassistmgk300",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Before you engage, if you have no green tokens and you are not stressed, gain 1 calculate token for each enemy ship at range 2-3 in your firing arc, to a maximum of 2.",
+        "title": "Target-Assist MGK-300",
+        "type": "Configuration",
+        "slots": ["Configuration"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "White" }
+          },
+          {
+            "type": "action",
+            "value": {
+              "type": "Rotate Arc",
+              "difficulty": "White",
+              "linked": { "type": "Calculate", "difficulty": "White" }
+            }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 3 }
   }
 ]

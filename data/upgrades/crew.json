@@ -1048,7 +1048,7 @@
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8, "7": 9, "8": 10 }
+      "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8 }
     },
     "hyperspace": false
   },
@@ -1671,7 +1671,13 @@
         "slots": ["Crew"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2b1f84f53e0a2fe6f49dbdef202b6adb.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d531840147286ab5b43eb5989d6eb8ec.png",
-        "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-1 and spend 1 [Force]. If you do, it may perform a red [Evade] action."
+        "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-1 and spend 1 [Force]. If you do, it may perform a red [Evade] action.",
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Evade", "difficulty": "Purple" }
+          }
+        ]
       }
     ],
     "name": "Kit Fisto",
@@ -1689,7 +1695,13 @@
         "slots": ["Crew"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0f0e3e5576ed1df0e5e2b8ccee638dec.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/7b0fd38f53c20d4a8d1e0ffd97c949ab.png",
-        "ability": "After another friendly ship at range 0-2 fully executes a purple maneuver or performs a purple action, you may spend 1 [Force]. If you do, that ship recovers 1 [Force]."
+        "ability": "After another friendly ship at range 0-2 fully executes a purple maneuver or performs a purple action, you may spend 1 [Force]. If you do, that ship recovers 1 [Force].",
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "Purple" }
+          }
+        ]
       }
     ],
     "name": "Yoda",
@@ -1770,7 +1782,17 @@
         "slots": ["Crew", "Gunner"],
         "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/673fb3c6f002702406456c1b135eda01.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/333dab28d3d96dd2d7a48339d470aae4.png",
-        "ability": "After you perform a primary attack, if you are focused, you may perform a [Single Turret Arc] attack against a ship you have not attacked this round as a bonus attack."
+        "ability": "After you perform a primary attack, if you are focused, you may perform a [Single Turret Arc] attack against a ship you have not attacked this round as a bonus attack.",
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Rotate Arc",
+              "difficulty": "White",
+              "linked": { "type": "Focus", "difficulty": "Red" }
+            }
+          }
+        ]
       }
     ],
     "name": "Ghost Company",
@@ -1796,5 +1818,47 @@
     "limited": 1,
     "xws": "commanderpyre",
     "hyperspace": true
+  },
+  {
+    "name": "Hondo Ohnaka",
+    "limited": 1,
+    "xws": "hondoohnaka",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Action: Choose 2 ships at range 1-3 of you that are friendly to each other. Coordinate one of the chosen ships, then jam to other, ignoring range restrictions.",
+        "title": "Hondo Ohnaka",
+        "type": "Crew",
+        "slots": ["Crew"]
+      }
+    ]
+  },
+  {
+    "name": "Jango Fett",
+    "limited": 1,
+    "xws": "jangofett",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you defend or perform an attack, you may spend your lock on the enemy ship to change 1 of the enemy ship's [Focus] results to a blank result.",
+        "title": "Jango Fett",
+        "type": "Crew",
+        "slots": ["Crew"]
+      }
+    ]
+  },
+  {
+    "name": "Zam Wesell",
+    "limited": 1,
+    "xws": "zamwesell",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: \"You Should Thank Me\" or \"You'd Better Mean Business\"",
+        "title": "Zam Wesell",
+        "type": "Crew",
+        "slots": ["Crew"]
+      }
+    ]
   }
 ]

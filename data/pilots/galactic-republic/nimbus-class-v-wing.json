@@ -52,6 +52,69 @@
       "xws": "wilhufftarkin",
       "ability": "During the System Phase, you may choose an object that you have locked at range 1-3. Another friendly ship at range 1-3 may acquire a lock on that object.",
       "hyperspace": false
+    },
+    {
+      "name": "\"Odd Ball\"",
+      "xws": "oddball-nimbusclassvwing",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Twin Ion Engines",
+        "text": "Ignore the \"TIE\" ship restriction on upgrade cards."
+      },
+      "caption": "CC-2237",
+      "hyperspace": false,
+      "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship."
+    },
+    {
+      "name": "\"Contrail\"",
+      "xws": "contrail",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Twin Ion Engines",
+        "text": "Ignore the \"TIE\" ship restriction on upgrade cards."
+      },
+      "caption": "CT-4981",
+      "hyperspace": false,
+      "ability": "While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result."
+    },
+    {
+      "name": "\"Klick\"",
+      "xws": "klick",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Twin Ion Engines",
+        "text": "Ignore the \"TIE\" ship restriction on upgrade cards."
+      },
+      "caption": "GC-1000",
+      "hyperspace": false,
+      "ability": "While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 [Charge] to prevent range bonuses from being applied."
+    },
+    {
+      "name": "Shadow Squadron Escort",
+      "xws": "shadowsquadronescort",
+      "initiative": 3,
+      "limited": 0,
+      "shipAbility": {
+        "name": "Twin Ion Engines",
+        "text": "Ignore the \"TIE\" ship restriction on upgrade cards."
+      },
+      "text": "In the waning months of the Clone Wars, elite clone formations carry out missions critical to the future of the Republic; such as the protection of Supreme Chancellor Palpatine's personal shuttle.",
+      "hyperspace": false
+    },
+    {
+      "name": "Loyalist Volunteer",
+      "xws": "loyalistvolunteer",
+      "initiative": 2,
+      "limited": 0,
+      "shipAbility": {
+        "name": "Twin Ion Engines",
+        "text": "Ignore the \"TIE\" ship restriction on upgrade cards."
+      },
+      "text": "The Kuat Systems Engineering Alpha-3 Nimbus-class V-wing is the vessel of choice for clone and non-clone starfighter pilots alike. The techniques pioneered to mass-produce its precision ion engines will later be crucial in the development of the TIE series by Sienar Fleet Systems.",
+      "hyperspace": false
     }
   ]
 }

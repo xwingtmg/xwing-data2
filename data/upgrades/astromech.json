@@ -444,5 +444,79 @@
       }
     ],
     "cost": { "value": 6 }
+  },
+  {
+    "name": "Q7 Astromech",
+    "limited": 0,
+    "xws": "q7astromech",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you barrel roll or boost, you can move through and overlap obstacles.",
+        "title": "Q7 Astromech",
+        "type": "Astromech",
+        "slots": ["Astromech"]
+      }
+    ]
+  },
+  {
+    "name": "R2-D2",
+    "limited": 1,
+    "xws": "r2d2-republic",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you activate, you may spend 1 [Charge] and gain 1 deplete token to repair 1 damage card, recover 1 shield, or remove 1 device at range 0-1.",
+        "title": "R2-D2",
+        "type": "Astromech",
+        "slots": ["Astromech"]
+      }
+    ],
+    "restrictions": [{ "factions": ["Galactic Republic"] }]
+  },
+  {
+    "name": "R2-D2",
+    "limited": 1,
+    "xws": "r2d2-resistance",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "During the End Phase, you may spend 1 [Charge] and 1 [Shield] to remove 1 red token. During the End Phase, if you have no active [Shield], you may spend 1 [Charge] to recover 1 [Shield] and gain 1 deplete token.",
+        "title": "R2-D2",
+        "type": "Astromech",
+        "slots": ["Astromech"]
+      }
+    ],
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Resistance"] }]
+  },
+  {
+    "name": "R6-D8",
+    "limited": 1,
+    "xws": "r6d8",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "While you perform an attack, you may reroll a number of attack dice up to the number of friendly ship at range 0-3 that have the defender in their [Bullseye Arc].",
+        "title": "R6-D8",
+        "type": "Astromech",
+        "slots": ["Astromech"]
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
+    "name": "R7-A7",
+    "limited": 1,
+    "xws": "r7a7",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you perform an attack, you may spend 1 [Charge] to change 1 [Hit] result to a [Critical Hit] result.",
+        "title": "R7-A7",
+        "type": "Astromech",
+        "slots": ["Astromech"]
+      }
+    ]
   }
 ]

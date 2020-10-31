@@ -184,5 +184,19 @@
       }
     ],
     "cost": { "value": 6 }
+  },
+  {
+    "name": "Jedi Commander",
+    "limited": 0,
+    "xws": "jedicommander",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While your wingmates execute purple maneuvers, they treat those maneuvers as red instead. While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
+        "title": "Jedi Commander",
+        "type": "Command",
+        "slots": ["Command"]
+      }
+    ]
   }
 ]

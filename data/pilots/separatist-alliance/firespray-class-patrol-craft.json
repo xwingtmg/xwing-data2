@@ -46,6 +46,32 @@
       "xws": "jangofett",
       "ability": "While you defend or perform a primary attack, if the difficulty of your revealed maneuver is less than that of the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result.",
       "hyperspace": false
+    },
+    {
+      "name": "Zam Wesell",
+      "xws": "zamwesell",
+      "initiative": 5,
+      "limited": 1,
+      "caption": "Clawdite Changeling",
+      "hyperspace": false,
+      "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign one of your secret conditions to yourself facedown: \"You Should Thank Me\" or \"You'd better Mean Business\""
+    },
+    {
+      "name": "Boba Fett",
+      "xws": "bobafett-separatist",
+      "initiative": 3,
+      "limited": 1,
+      "caption": "Survivor",
+      "hyperspace": false,
+      "ability": "While you defend, if there re no other friendly ships at range 0-2, you may change 1 of your blank results to a [Focus] result."
+    },
+    {
+      "name": "Separatist Racketeer",
+      "xws": "separatistracketeer",
+      "initiative": 2,
+      "limited": 0,
+      "text": "Emboldened by the bitter stalemate of the Outer Rim Sieges, mercenary groups across the galaxy take the opportunity to profit from the ongoing war.",
+      "hyperspace": false
     }
   ]
 }

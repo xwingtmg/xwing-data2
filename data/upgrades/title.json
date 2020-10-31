@@ -871,5 +871,19 @@
       }
     ],
     "cost": { "value": 8 }
+  },
+  {
+    "name": "Slave I",
+    "limited": 1,
+    "xws": "slaveiseparatist",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you perform a [Front Arc] attack, if you are in the defender's [Full Rear Arc], you may change 1 [Hit] result to a [Critical Hit] result. Add [Gunner] slot.",
+        "title": "Slave I",
+        "type": "Title",
+        "slots": ["Title"]
+      }
+    ]
   }
 ]

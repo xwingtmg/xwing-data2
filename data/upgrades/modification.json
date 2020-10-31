@@ -365,5 +365,51 @@
     "cost": { "value": 3 },
     "hyperspace": true,
     "xws": "targetingcomputer"
+  },
+  {
+    "name": "Independent Calculations",
+    "limited": 0,
+    "xws": "independentcalculations",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Replace your Networked Calculations ship ability with the following:",
+        "title": "Independent Calculations",
+        "type": "Modification",
+        "slots": ["Modification"]
+      }
+    ]
+  },
+  {
+    "name": "Overdrive Thruster",
+    "limited": 1,
+    "xws": "overdrivethruster",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "While you perform a red [Boost], [Barrel Roll], or [SLAM] action, you must use a template of 1 speed higher, if able.",
+        "title": "Overdrive Thruster",
+        "type": "Modification",
+        "slots": ["Modification"]
+      }
+    ],
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6 }
+    }
+  },
+  {
+    "name": "Precision Ion Engines",
+    "limited": 0,
+    "xws": "precisionionengines",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Before you execute a speed 1-3 Koiogran Turn ([Koiogran Turn]) maneuver, you may spend 1 [Charge] to execute that maneuver as a Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuver instead.",
+        "title": "Precision Ion Engines",
+        "type": "Modification",
+        "slots": ["Modification"]
+      }
+    ]
   }
 ]

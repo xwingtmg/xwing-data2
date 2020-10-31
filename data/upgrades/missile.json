@@ -284,5 +284,19 @@
       }
     ],
     "cost": { "value": 8 }
+  },
+  {
+    "name": "XX-23 S-Thread Tracers",
+    "limited": 2,
+    "xws": "xx23sthreadtracers",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Attack ([Focus], [Calculate], or [Lock]): Spend 1 [Charge]. If this attack hits, each friendly ship at range 1-3 of the defender may acquire a lock on the defender. Then cancel all dice results.",
+        "title": "XX-23 S-Thread Tracers",
+        "type": "Missile",
+        "slots": ["Missile"]
+      }
+    ]
   }
 ]
