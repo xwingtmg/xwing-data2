@@ -41,17 +41,58 @@
   ],
   "pilots": [
     {
-      "name": "Lyttan Dree",
-      "caption": "Onyx 2",
-      "initiative": 3,
-      "limited": 1,
-      "xws": "lyttandree",
-      "ability": "While a friendly ship at range 0-2 performs an attack, if you are in the defender's [] or [], the attacker may reroll 1 attack die.",
+      "name": "Carida Academy Cadet",
+      "cost": 34,
+      "initiative": 1,
+      "slots": ["Cannon", "Cannon", "Modification", "Modification"],
+      "xws": "caridaacademycadet",
       "shipAbility": {
         "name": "Rotating Cannons",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": false
+      "hyperspace": true
+    },
+    {
+      "name": "Onyx Squadron Sentry",
+      "cost": 36,
+      "initiative": 3,
+      "slots": ["Talent", "Cannon", "Cannon", "Modification", "Modification"],
+      "xws": "onyxsquadronsentry",
+      "shipAbility": {
+        "name": "Rotating Cannons",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
+      },
+      "hyperspace": true
+    },
+    {
+      "name": "\"Rampage\"",
+      "caption": "Implacable Pursuer",
+      "cost": 39,
+      "initiative": 4,
+      "limited": 1,
+      "slots": ["Talent", "Cannon", "Cannon", "Modification", "Modification"],
+      "xws": "rampage",
+      "ability": "After you execute a speed 3-4 maneuver, you may choose a ship in your [Single Turret Arc] at range 0-1. If you do, that ship gains 1 strain token, or 2 strain tokens if you are damaged.",
+      "shipAbility": {
+        "name": "Rotating Cannons",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
+      },
+      "hyperspace": true
+    },
+    {
+      "name": "Lyttan Dree",
+      "caption": "Onyx 2",
+      "cost": 37,
+      "initiative": 3,
+      "limited": 1,
+      "slots": ["Cannon", "Cannon", "Modification", "Modification"],
+      "xws": "lyttandree",
+      "ability": "While a friendly ship at range 0-2 performs an attack, if you are in the defender's [Left Arc] or [Right Arc], the attacker may reroll 1 attack die.",
+      "shipAbility": {
+        "name": "Rotating Cannons",
+        "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
+      },
+      "hyperspace": true
     }
   ]
 }

@@ -64,6 +64,29 @@
       "hyperspace": true
     },
     {
+      "name": "Poe Dameron",
+      "caption": "Resistance Commander",
+      "initiative": 6,
+      "limited": 1,
+      "xws": "poedameron-swz68",
+      "ability": "After a friendly ship at range 0-2 performs an action during its activation, you may spend 2 [Charge]. If you do, that ship may perform a white action, treating it as red.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "cost": 65,
+      "charges": { "value": 2, "recovers": 1 },
+      "slots": [
+        "Talent",
+        "Astromech",
+        "Modification",
+        "Title",
+        "Configuration",
+        "Tech"
+      ],
+      "hyperspace": true
+    },
+    {
       "name": "Blue Squadron Rookie",
       "initiative": 1,
       "limited": 0,
@@ -306,6 +329,65 @@
         "Tech"
       ],
       "ffg": 422,
+      "hyperspace": true
+    },
+    {
+      "name": "Temmin Wexley",
+      "caption": "Black Two",
+      "initiative": 4,
+      "limited": 1,
+      "xws": "temminwexley-swz68",
+      "ability": "At the start of the engagement phase, each friendly T-70 X-Wing at range 0-3 may gain 1 strain token to flip its equipped [Configuration] upgrade. If it does, that ship gains 1 calculate token.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "cost": 54,
+      "slots": [
+        "Talent",
+        "Astromech",
+        "Modification",
+        "Title",
+        "Configuration",
+        "Tech"
+      ],
+      "hyperspace": true
+    },
+    {
+      "name": "C'ai Threnalli",
+      "caption": "Tenacious Survivor",
+      "initiative": 4,
+      "limited": 1,
+      "xws": "caithrenalli",
+      "ability": "After you fully execute a maneuver, if you moved through a friendly ship, you may perform an [Evade] action.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "cost": 49,
+      "slots": [
+        "Talent",
+        "Astromech",
+        "Modification",
+        "Title",
+        "Configuration",
+        "Tech"
+      ],
+      "hyperspace": true
+    },
+    {
+      "name": "Nimi Chereen",
+      "caption": "Hopeful hero",
+      "initiative": 2,
+      "limited": 1,
+      "xws": "nimichereen",
+      "ability": "While you perform an attack, if the defender's initiative is higher than yours, you may change 1 blank result to a [Focus] result.",
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "cost": 49,
+      "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
       "hyperspace": true
     }
   ]
