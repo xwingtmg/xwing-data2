@@ -16,7 +16,7 @@
     ],
     "cost": {
       "variable": "size",
-      "values": { "Small": 7, "Medium": 6, "Large": 5 }
+      "values": { "Small": 7, "Medium": 6, "Large": 5, "Huge": 4 }
     },
     "hyperspace": true
   },
@@ -311,7 +311,7 @@
     ],
     "cost": {
       "variable": "size",
-      "values": { "Small": 12, "Medium": 9, "Large": 7 }
+      "values": { "Small": 12, "Medium": 9, "Large": 7, "Huge": 7 }
     },
     "restrictions": [{ "action": { "type": "Rotate Arc" } }],
     "hyperspace": false
@@ -464,7 +464,7 @@
     "name": "Suppressive Gunner",
     "cost": {
       "variable": "size",
-      "values": { "Small": 8, "Medium": 7, "Large": 6 }
+      "values": { "Small": 8, "Medium": 7, "Large": 6, "Huge": 3 }
     },
     "limited": 0,
     "xws": "suppressivegunner",
