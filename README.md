@@ -56,13 +56,13 @@ Go through these steps to create a new release:
 
 1. Make sure to run `yarn run ffg2xws` to verify that `data/ffg-xws.json` has been updated
 1. Bump the version number in `package.json` and `data/manifest.json` according to the [Versioning](#Versioning) rules listed below
-1. Create a tag with the new version number: `git tag NEW_VERSION`
-1. Push the `package.json` and `data/manifest.json` changes and the new tag to GitHub: `git push --tags`
+1. Push the `package.json` and `data/manifest.json` changes to GitHub and/or merge them to the `master` branch
 1. [Create a new release](https://github.com/guidokessels/xwing-data2/releases/new) on GitHub and use the following:
    - `Tag version`: The tag you just created
+   - `Target`: `master` branch
    - `Release title`: The version number
-   - `Describe this release`: The output of the `yarn run changelog PREVIOUS_VERSION...NEW_VERSION` command
-1. :tada: !
+   - `Describe this release`: The output of the `yarn run changelog PREVIOUS_VERSION...HEAD` command (replace `PREVIOUS_VERSION` with the [latest available tag](https://github.com/guidokessels/xwing-data2/tags))
+1. All done! :tada:
 
 ## Versioning
 
