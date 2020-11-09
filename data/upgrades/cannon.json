@@ -153,6 +153,13 @@
         "title": "Underslung Blaster Cannon",
         "type": "Cannon",
         "slots": ["Cannon"],
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 2,
+          "minrange": 1,
+          "maxrange": 1,
+          "ordnance": false
+        },
         "grants": [
           {
             "type": "action",
