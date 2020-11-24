@@ -11,8 +11,6 @@ const diffOpts = {
   wordDiff: true
 };
 
-const TO_LOG = [];
-
 const readFile = pathFromRoot =>
   fs.readFileSync(`${__dirname}/../${pathFromRoot}`, "utf8");
 
@@ -658,5 +656,3 @@ if (modifiedFiles.length) {
     );
   });
 }
-
-console.log(TO_LOG.join("\n"));
