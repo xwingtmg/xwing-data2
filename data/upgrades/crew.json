@@ -10,7 +10,7 @@
         "ability": "During the Perform Action step, you may perform 1 action, even while stressed. After you perform an action while stressed, suffer 1 [Hit] damage unless you expose 1 of your damage cards.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_83.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_83.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_83.jpg",
         "ffg": 307
       }
     ],
@@ -29,7 +29,7 @@
         "ability": "You can perform primary attacks at range 0. Enemy ships at range 0 can perform primary attacks against you.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_94.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_94.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_94.jpg",
         "ffg": 318
       }
     ],
@@ -48,7 +48,7 @@
         "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship at range 0-1. If you do, you gain 1 calculate token unless that ship chooses to gain 1 stress token.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_127.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_127.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_127.jpg",
         "ffg": 352
       }
     ],
@@ -69,7 +69,7 @@
         "ability": "While you perform an attack, after rolling attack dice, you may name a type of green token. If you do, gain 2 ion tokens and, during this attack, the defender cannot spend tokens of the named type.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_128.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_128.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_128.jpg",
         "ffg": 353
       }
     ],
@@ -88,11 +88,11 @@
         "ability": "After another friendly ship at range 0-3 defends, if it is destroyed, the attacker gains 2 stress tokens. While a friendly ship at range 0-3 performs an attack against a stressed ship, it may reroll 1 attack die.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_109.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_109.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_109.jpg",
         "ffg": 335
       }
     ],
-    "cost": { "value": 9 },
+    "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": false
   },
@@ -108,7 +108,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5e9b30fb5a437355afd9d17d8700bd9c.png",
         "conditions": ["hunted"],
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_110.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_110.jpg",
         "ffg": 336
       }
     ],
@@ -127,7 +127,7 @@
         "ability": "While you perform a [Focus] action, you may treat it as red. If you do, gain 1 additional focus token for each enemy ship at range 0-1, to a maximum of 2.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_79.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_79.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_79.jpg",
         "ffg": 303
       }
     ],
@@ -146,7 +146,7 @@
         "ability": "Setup: Start in reserve. At the end of Setup, place yourself at range 0 of an obstacle and beyond range 3 of any enemy ship.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_129.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_129.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_129.jpg",
         "ffg": 354
       }
     ],
@@ -172,7 +172,7 @@
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_80.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_80.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_80.jpg",
         "ffg": 304
       }
     ],
@@ -191,11 +191,11 @@
         "ability": "After you drop or launch a device, you may perform a red [Boost] action.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_130.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_130.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_130.jpg",
         "ffg": 355
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": false
   },
@@ -210,7 +210,7 @@
         "ability": "At the end of the Engagement Phase, each enemy ship at range 0-1 that is not stressed gains 1 stress token.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/784566afc8c540d5e392689865207059.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/71ad5db561ea39d9d59c4bbdc1b42f35.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/71ad5db561ea39d9d59c4bbdc1b42f35.jpg",
         "ffg": 465
       }
     ],
@@ -229,11 +229,11 @@
         "ability": "During the System Phase, you may choose 1 enemy ship at range 1-2 and guess aloud a bearing and speed, then look at that ship's dial. If the chosen ship's bearing and speed match your guess, you may set your dial to another maneuver.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_81.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_81.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_81.jpg",
         "ffg": 305
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": false
   },
@@ -249,11 +249,11 @@
         "slots": ["Crew"],
         "charges": { "value": 2, "recovers": 1 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_82.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_82.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_82.jpg",
         "ffg": 306
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": true
   },
@@ -268,7 +268,7 @@
         "ability": "At the start of the End Phase, you may spend 1 focus token to repair 1 of your faceup damage cards.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_157.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_157.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_157.jpg",
         "ffg": 382
       }
     ],
@@ -287,7 +287,7 @@
         "ability": "After you perform a [Coordinate] action, if the ship you coordinated performed a [Barrel Roll] or [Boost] action, it may gain 1 stress token to rotate 90°.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_111.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_111.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_111.jpg",
         "ffg": 337
       }
     ],
@@ -309,7 +309,7 @@
         "ability": "During the End Phase, you may choose 2 [Illicit] upgrades equipped to friendly ships at range 0-1. If you do, you may exchange these upgrades. End of Game: Return all [Illicit] upgrades to their original ships.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_131.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_131.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_131.jpg",
         "ffg": 356
       }
     ],
@@ -329,7 +329,7 @@
         "slots": ["Crew"],
         "force": { "value": 1, "recovers": 1 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_112.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_112.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_112.jpg",
         "ffg": 338
       }
     ],
@@ -348,7 +348,7 @@
         "ability": "During the Activation Phase, enemy ships at range 0-1 cannot remove stress tokens.",
         "slots": ["Crew", "Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_113.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_113.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_113.jpg",
         "ffg": 339
       }
     ],
@@ -381,7 +381,7 @@
             "value": { "type": "Lock", "difficulty": "White" }
           }
         ],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_114.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_114.jpg",
         "ffg": 340
       }
     ],
@@ -401,7 +401,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_115.png",
         "slots": ["Crew", "Crew"],
         "force": { "value": 1, "recovers": 1 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_115.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_115.jpg",
         "ffg": 341
       }
     ],
@@ -420,7 +420,7 @@
         "ability": "While you defend, before attack dice are rolled, you may spend a lock you have on the attacker to roll 1 attack die. If you do, the attacker gains 1 jam token. Then, on a [Hit] or [Critical Hit] result, gain 1 jam token.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_42.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_42.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_42.jpg",
         "ffg": 271
       }
     ],
@@ -438,7 +438,7 @@
         "ability": "While you perform a white [Coordinate] action, you may treat it as red. If you do, you may coordinate up to 2 additional ships of the same ship type, and each ship you coordinate must perform the same action, treating that action as red.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/fa0b8492eff625bc66f00bd561015465.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/94bee4960ca0fb907ba77d5cb2ff7abb.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/94bee4960ca0fb907ba77d5cb2ff7abb.jpg",
         "ffg": 466
       }
     ],
@@ -458,11 +458,11 @@
         "slots": ["Crew"],
         "charges": { "value": 1, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_43.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_43.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_43.jpg",
         "ffg": 272
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 8 },
     "hyperspace": false
   },
   {
@@ -477,7 +477,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_116.png",
         "slots": ["Crew"],
         "force": { "value": 1, "recovers": 1 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_116.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_116.jpg",
         "ffg": 342
       }
     ],
@@ -497,11 +497,11 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_117.png",
         "slots": ["Crew"],
         "charges": { "value": 2, "recovers": 1 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_117.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_117.jpg",
         "ffg": 343
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Lock" } }
@@ -519,7 +519,7 @@
         "ability": "You can execute red maneuvers even while stressed. After you fully execute a red maneuver, if you have 3 or more stress tokens, remove 1 stress token and suffer 1 [Hit] damage.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_84.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_84.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_84.jpg",
         "ffg": 308
       }
     ],
@@ -545,7 +545,7 @@
             "value": { "type": "Calculate", "difficulty": "White" }
           }
         ],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_132.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_132.jpg",
         "ffg": 357
       }
     ],
@@ -564,7 +564,7 @@
         "ability": "During the End Phase, enemy ships at range 1-2 cannot remove jam tokens.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_118.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_118.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_118.jpg",
         "ffg": 344
       }
     ],
@@ -584,11 +584,11 @@
         "conditions": ["listeningdevice"],
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_44.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_44.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_44.jpg",
         "ffg": 273
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 4 },
     "hyperspace": true
   },
   {
@@ -603,7 +603,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_133.png",
         "slots": ["Crew", "Crew"],
         "charges": { "value": 4, "recovers": 0 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_133.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_133.jpg",
         "ffg": 358
       }
     ],
@@ -622,7 +622,7 @@
         "ability": "If a friendly ship at range 0-3 would gain a focus token, it may gain 1 evade token instead.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_85.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_85.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_85.jpg",
         "ffg": 309
       }
     ],
@@ -642,7 +642,7 @@
         "slots": ["Crew"],
         "force": { "value": 1, "recovers": 1 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_86.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_86.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_86.jpg",
         "ffg": 310
       }
     ],
@@ -661,11 +661,11 @@
         "ability": "At the start of the End Phase, you may choose 1 enemy ship at range 0-2 in your firing arc. If you do, that ship does not remove its tractor tokens.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_134.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_134.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_134.jpg",
         "ffg": 359
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": false
   },
@@ -682,7 +682,7 @@
         "slots": ["Crew"],
         "force": { "value": 1, "recovers": 1 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f60322a1f5ace7e45f6c7e0fa0200705.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a61302c8e1cd180d4198e9ae75b82e91.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a61302c8e1cd180d4198e9ae75b82e91.jpg",
         "ffg": 467
       }
     ],
@@ -701,7 +701,7 @@
         "ability": "Setup: Equip this side faceup. While you defend, you may flip this card. If you do, the attacker must reroll all attack dice.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_158.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_158.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_158.jpg",
         "ffg": 384
       },
       {
@@ -711,7 +711,7 @@
         "slots": ["Configuration"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_158b.png",
         "ffg": 383,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_158b.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b3af6a2a042345a1d95dd7f877fce8c7.jpg"
       }
     ],
     "cost": { "value": 4 },
@@ -729,11 +729,11 @@
         "ability": "After you roll dice, you may spend 1 green token to reroll up to 2 of your results.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_159.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_159.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_159.jpg",
         "ffg": 385
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": false
   },
@@ -748,7 +748,7 @@
         "ability": "Action: Roll 2 defense dice. For each [Focus] result, gain 1 focus token. For each [Evade] result, gain 1 evade token. If both results are blank, the opposing player chooses focus or evade. You gain 1 token of that type.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_87.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_87.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_87.jpg",
         "ffg": 311
       }
     ],
@@ -767,11 +767,11 @@
         "ability": "While you defend, if the attacker is stressed, you may remove 1 stress from the attacker to change 1 of your blank/[Focus] results to an [Evade] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_135.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_135.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_135.jpg",
         "ffg": 360
       }
     ],
-    "cost": { "value": 7 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": true
   },
@@ -787,7 +787,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_88.png",
         "slots": ["Crew"],
         "charges": { "value": 3, "recovers": 1 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_88.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_88.jpg",
         "ffg": 312
       }
     ],
@@ -806,11 +806,11 @@
         "ability": "After you defend, if the attack hit, you may acquire a lock on the attacker.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_89.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_89.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_89.jpg",
         "ffg": 313
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 7 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": false
   },
@@ -829,11 +829,11 @@
         "grants": [
           { "type": "force", "value": { "side": ["dark"] }, "amount": 1 }
         ],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_136.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_136.jpg",
         "ffg": 361
       }
     ],
-    "cost": { "value": 12 },
+    "cost": { "value": 10 },
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Ezra Bridger"] }
     ],
@@ -850,7 +850,7 @@
         "ability": "At the start of the Engagement Phase, if you are damaged, you may perform a red [Reinforce] action.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_119.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_119.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_119.jpg",
         "ffg": 345
       }
     ],
@@ -870,7 +870,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_120.png",
         "slots": ["Crew"],
         "charges": { "value": 2, "recovers": 1 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_120.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_120.jpg",
         "ffg": 346
       }
     ],
@@ -892,7 +892,7 @@
         "ability": "Decrease the difficulty of your bank maneuvers ([Bank Left] and [Bank Right]).",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_90.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_90.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_90.jpg",
         "ffg": 314
       }
     ],
@@ -911,7 +911,7 @@
         "ability": "At the end of the round, you may roll 1 attack die to repair 1 faceup damage card. Then on a [Hit] result, expose 1 damage card.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_45.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_45.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_45.jpg",
         "ffg": 274
       }
     ],
@@ -929,7 +929,7 @@
         "ability": "After you perform a [Focus] action, gain 1 focus token.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_46.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_46.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_46.jpg",
         "ffg": 275
       }
     ],
@@ -947,7 +947,7 @@
         "ability": "During the Activation or Engagement Phase, after an enemy ship in your [Front Arc] at range 0-1 gains a red or orange token, if you are not stressed, you may gain 1 stress token. If you do, that ship gains 1 additional token of the type that it gained.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/900397d209adfd3f7bd6429909cc20cc.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/007c0145ba0ec1c57de17c0448cafef2.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/007c0145ba0ec1c57de17c0448cafef2.jpg",
         "ffg": 468
       }
     ],
@@ -966,7 +966,7 @@
         "ability": "While you move and perform attacks, you ignore obstacles that you are locking.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_161.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_161.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_161.jpg",
         "ffg": 387
       }
     ],
@@ -985,11 +985,11 @@
         "ability": "During the End Phase, if you are damaged and not shielded, you may roll 1 attack die to recover 1 shield. On a [Hit] result, expose 1 of your damage cards.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_91.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_91.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_91.jpg",
         "ffg": 315
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 8 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "hyperspace": false
   },
@@ -1004,7 +1004,7 @@
         "ability": "Setup: Place 1 ion, 1 jam, 1 stress, and 1 tractor token on this card. After a ship suffers the effect of a friendly bomb, you may remove 1 ion, jam, stress, or tractor token from this card. If you do, that ship gains a matching token.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_92.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_92.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_92.jpg",
         "ffg": 316
       }
     ],
@@ -1023,7 +1023,7 @@
         "ability": "While you perform an attack, you may suffer 1 [Hit] damage to change all of your [Focus] results to [Critical Hit] results.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_93.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_93.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_93.jpg",
         "ffg": 317
       }
     ],
@@ -1042,23 +1042,13 @@
         "ability": "After you reveal your dial, you may set your dial to another non-red maneuver of the same speed. While you execute that maneuver, increase its difficulty.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_47.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_47.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_47.jpg",
         "ffg": 276
       }
     ],
     "cost": {
       "variable": "initiative",
-      "values": {
-        "0": 2,
-        "1": 3,
-        "2": 4,
-        "3": 5,
-        "4": 6,
-        "5": 7,
-        "6": 8,
-        "7": 9,
-        "8": 10
-      }
+      "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8 }
     },
     "hyperspace": false
   },
@@ -1074,7 +1064,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_121.png",
         "slots": ["Crew"],
         "force": { "value": 1, "recovers": 1 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_121.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_121.jpg",
         "ffg": 347
       }
     ],
@@ -1094,7 +1084,7 @@
         "slots": ["Crew", "Crew"],
         "force": { "value": 1, "recovers": 1 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5b699f8b5268e5290c42adce0fd2ee3e.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3b29995fb9e419822a34c672f2543fa6.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3b29995fb9e419822a34c672f2543fa6.jpg",
         "ffg": 469
       }
     ],
@@ -1120,7 +1110,7 @@
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_48.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_48.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_48.jpg",
         "ffg": 277
       }
     ],
@@ -1141,7 +1131,7 @@
         "ability": "Setup: After placing forces, you may choose 1 obstacle in the play area. If you do, place it anywhere in the play area beyond range 2 of any board edge or ship and beyond range 1 of other obstacles.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_160.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_160.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_160.jpg",
         "ffg": 386
       }
     ],
@@ -1160,7 +1150,7 @@
         "ability": "After you partially execute a maneuver, you may suffer 1 [Hit] damage to perform 1 white action.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_137.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_137.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_137.jpg",
         "ffg": 362
       }
     ],
@@ -1179,7 +1169,7 @@
         "ability": "While you perform an attack, if you are not stressed, you may choose 1 defense die and gain 1 stress token. If you do, the defender must reroll that die.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_138.png",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_138.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_138.jpg",
         "ffg": 363
       }
     ],
@@ -1197,7 +1187,7 @@
         "type": "Crew",
         "ability": "While you coordinate, you can choose friendly ships beyond range 2 if they have [Calculate] on their action bar. After you perform the [Calculate] or [Coordinate] action, gain 1 calculate token.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a0e80bb89748e7415e945a050f82ba84.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/1629b5a262f8b69e1dee4b841150c9b7.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1629b5a262f8b69e1dee4b841150c9b7.jpg",
         "slots": ["Crew"],
         "grants": [
           {
@@ -1212,7 +1202,7 @@
         "ffg": 472
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "hyperspace": false
   },
@@ -1226,7 +1216,7 @@
         "type": "Crew",
         "ability": "After you perform an [Evade] action, gain additional evade tokens equal to the number of enemy ships at range 0-1.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/622ea4b573afbb5c95b3e9f2989a8aef.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/af2ce405b6c28568aa2d66b78296b351.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/af2ce405b6c28568aa2d66b78296b351.jpg",
         "slots": ["Crew"],
         "grants": [
           {
@@ -1237,7 +1227,7 @@
         "ffg": 474
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "hyperspace": false
   },
@@ -1251,13 +1241,13 @@
         "type": "Crew",
         "ability": "Setup: Lose 1 [Charge]. After a friendly ship at range 0-3 is dealt 1 damage card, recover 1 [Charge]. While you perform an attack, you may spend 2 [Charge] to change 1 [Focus] result to a [Critical Hit] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3090c218acff7dc71a81e791ce15860e.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3d124811dd272ec2355a30903a827034.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3d124811dd272ec2355a30903a827034.jpg",
         "slots": ["Crew"],
         "charges": { "value": 2, "recovers": 0 },
         "ffg": 473
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "hyperspace": false
   },
@@ -1271,7 +1261,7 @@
         "type": "Crew",
         "ability": "While you defend or perform an attack, you may spend 1 of your results to acquire a lock on the enemy ship.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/60ac08169a90794c33d1d582f1a08480.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/92a93952c31c95dff0fc96f31e88cfd3.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/92a93952c31c95dff0fc96f31e88cfd3.jpg",
         "slots": ["Crew"],
         "ffg": 475
       }
@@ -1299,7 +1289,7 @@
         ],
         "slots": ["Crew"],
         "ffg": 556,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d07f69ceb063c382e60ce33377e9bef7.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d07f69ceb063c382e60ce33377e9bef7.jpg"
       },
       {
         "title": "Darth Sidious",
@@ -1315,7 +1305,7 @@
         ],
         "slots": ["Crew"],
         "ffg": 538,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e0772c182d95e3abd540950c7689ab34.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e0772c182d95e3abd540950c7689ab34.jpg"
       }
     ],
     "cost": { "value": 14 },
@@ -1337,7 +1327,7 @@
         "force": { "value": 1, "recovers": 1 },
         "slots": ["Crew"],
         "ffg": 539,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a91424eea1db4aeaf24ab49d5a519e27.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a91424eea1db4aeaf24ab49d5a519e27.jpg"
       }
     ],
     "cost": { "value": 10 },
@@ -1357,7 +1347,7 @@
         "charges": { "value": 1, "recovers": 0 },
         "slots": ["Crew"],
         "ffg": 540,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3f6a042b2f8acfdcfcd1f05c28419fe3.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3f6a042b2f8acfdcfcd1f05c28419fe3.jpg"
       }
     ],
     "cost": { "value": 3 },
@@ -1378,7 +1368,7 @@
         "type": "Crew",
         "slots": ["Crew"],
         "ffg": 581,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/daa4aa8732efd994938dae56b6210ede.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/daa4aa8732efd994938dae56b6210ede.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cbe5e849e9daa4f3f968b2ff6e2879b1.png"
       }
     ]
@@ -1403,7 +1393,7 @@
           }
         ],
         "ffg": 582,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/22b0be31694840d7725790e352fa825d.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/22b0be31694840d7725790e352fa825d.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3af44c6d32812dc07238b40842d67b47.png"
       }
     ]
@@ -1422,7 +1412,7 @@
         "type": "Crew",
         "slots": ["Crew"],
         "ffg": 583,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f14db8bb29fcb06dfee758cb33490fbe.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f14db8bb29fcb06dfee758cb33490fbe.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/29a0eb418850a3821c38874daf0a6b0d.png"
       }
     ]
@@ -1441,7 +1431,7 @@
         "type": "Crew",
         "slots": ["Crew"],
         "ffg": 584,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/97aa5ed09744e698d42c2a12a369c786.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/97aa5ed09744e698d42c2a12a369c786.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/dd102b8e517399d12b17756a863d19ee.png"
       }
     ]
@@ -1460,7 +1450,7 @@
         "type": "Crew",
         "slots": ["Crew"],
         "ffg": 585,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d147142728d8cc0aa647f97966df3988.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d147142728d8cc0aa647f97966df3988.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/555a815e60cd7bf4612109c3fd65beaa.png"
       }
     ]
@@ -1486,7 +1476,7 @@
           }
         ],
         "ffg": 586,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/bd5f0c91b7fb256f91fcfbd006e56acc.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/bd5f0c91b7fb256f91fcfbd006e56acc.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/0a194c8c529278b471e64edc597b06fc.png"
       }
     ]
@@ -1496,7 +1486,7 @@
     "limited": 1,
     "xws": "pz4co",
     "hyperspace": true,
-    "cost": { "value": 6 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
@@ -1511,7 +1501,7 @@
           }
         ],
         "ffg": 587,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/219ba43a9fc9c9756a87676551aa7a69.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/219ba43a9fc9c9756a87676551aa7a69.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/11c5bdf18a62dc43bdda0834026dace2.png"
       }
     ]
@@ -1522,7 +1512,7 @@
       {
         "ffg": 616,
         "title": "C-3PO",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f64417de71053f39ded8886b72184819.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f64417de71053f39ded8886b72184819.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/01e1a3b43aee6c564662825cadcd3f22.png",
         "ability": "While you defend, if you are calculating, you may reroll 1 defense die. After you perform a [Calculate] action, gain 1 calculate token.",
         "slots": ["Crew"],
@@ -1562,7 +1552,7 @@
           }
         ],
         "ffg": 675,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/c1d9f86978058e101f6cf112c3946655.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c1d9f86978058e101f6cf112c3946655.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c75b7f3eaadb889b7b94d020c0d81d29.png"
       }
     ],
@@ -1580,7 +1570,7 @@
         "type": "Crew",
         "slots": ["Crew"],
         "ffg": 686,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/6e7153cd20c808370bbd80d871cf85c3.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/6e7153cd20c808370bbd80d871cf85c3.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/46f1700aa15a7a4e25b3d19b4ad97818.png"
       },
       {
@@ -1588,12 +1578,12 @@
         "ffg": 685,
         "title": "Agent Terex (Cyborg)",
         "type": "Crew",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/87f139d19477b1ab35c2dc2ab578eedc.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/87f139d19477b1ab35c2dc2ab578eedc.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8d74e6cb42cd9717409451bafda8467b.png",
         "ability": "During the System Phase, roll 1 attack die. On a [Hit] or [Critical Hit] result, gain 1 calculate token. Otherwise gain 1 jam token. Action: Transfer 1 calculate token or 1 jam token to a ship at range 0-3."
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 7 }
   },
   {
     "name": "K-2SO",
@@ -1617,11 +1607,11 @@
           }
         ],
         "ffg": 647,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ced6485e9da6861b36fe3ab0c747fe76.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ced6485e9da6861b36fe3ab0c747fe76.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/bd3d6c3227984bc0f5daacebdc7d92ad.png"
       }
     ],
-    "cost": { "value": 8 }
+    "cost": { "value": 7 }
   },
   {
     "name": "Plo Koon",
@@ -1641,7 +1631,7 @@
           }
         ],
         "ffg": 677,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7551a4c70f701c81e3e79ea9bb5a4237.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7551a4c70f701c81e3e79ea9bb5a4237.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1f07b416e509fa27d4005c8d25452e06.png"
       }
     ],
@@ -1667,7 +1657,9 @@
               "linked": { "type": "Coordinate", "difficulty": "Red" }
             }
           }
-        ]
+        ],
+        "ffg": 760,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fa45744ddf40d228a433cca33a7e2f6f.jpg"
       }
     ],
     "cost": { "value": 4 }
@@ -1679,7 +1671,7 @@
         "title": "Kit Fisto",
         "type": "Crew",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2b1f84f53e0a2fe6f49dbdef202b6adb.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2b1f84f53e0a2fe6f49dbdef202b6adb.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d531840147286ab5b43eb5989d6eb8ec.png",
         "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-1 and spend 1 [Force]. If you do, it may perform a red [Evade] action.",
         "grants": [
@@ -1703,7 +1695,7 @@
         "title": "Yoda",
         "type": "Crew",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0f0e3e5576ed1df0e5e2b8ccee638dec.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0f0e3e5576ed1df0e5e2b8ccee638dec.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/7b0fd38f53c20d4a8d1e0ffd97c949ab.png",
         "ability": "After another friendly ship at range 0-2 fully executes a purple maneuver or performs a purple action, you may spend 1 [Force]. If you do, that ship recovers 1 [Force].",
         "grants": [
@@ -1727,7 +1719,7 @@
         "title": "\"Fives\"",
         "type": "Crew",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/706062dbbf35d8d46c1e1f4b7dad8661.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/706062dbbf35d8d46c1e1f4b7dad8661.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e15010d96446e208166336cffb78f94d.png",
         "ability": "After you perform an attack that missed, if the defender's initiative is equal to or greater than your initiative, place 1 evade or focus token on this card. Before you engage, you may remove 1 token from this card to gain 1 matching token."
       }
@@ -1745,7 +1737,7 @@
         "title": "Wolfpack",
         "type": "Crew",
         "slots": ["Crew", "Gunner"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d5a7c585a6f5f06e76c7b927392b61c1.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d5a7c585a6f5f06e76c7b927392b61c1.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/63ef9ffc007432e395b3bfa406a879ec.png",
         "ability": "After a friendly ship at range 0-3 defends, if the attacker is in your firing arc, the defender may gain 1 strain token to acquire a lock on the attacker."
       }
@@ -1763,7 +1755,7 @@
         "title": "Commander Malarus",
         "type": "Crew",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/70fb233cb4aee8f02716292268d0b9c1.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70fb233cb4aee8f02716292268d0b9c1.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/842e172f79c8af94b3dde0cfc769b74a.png",
         "ability": "Setup: Equip this side faceup. While a friendly non-limited ship at range 0-1 performs a primary attack, that ship may reroll 1 blank result. If it does and the attack does not hit, you must flip this card."
       },
@@ -1772,7 +1764,7 @@
         "title": "Commander Malarus (Perfected)",
         "type": "Crew",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/c304667782eb50cd85af9fb996a924c9.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c304667782eb50cd85af9fb996a924c9.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d8dabcfeadffbe5ef9eeb1ba4973f714.png",
         "ability": "While you perform an attack, if the defender is in your [Bullseye Arc], you must convert all [Focus] results to [Hit] results and gain 1 stress token. Then, if you have 2 or more stress tokens, suffer 1 [Hit] damage."
       }
@@ -1790,7 +1782,7 @@
         "title": "Ghost Company",
         "type": "Crew",
         "slots": ["Crew", "Gunner"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/673fb3c6f002702406456c1b135eda01.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/673fb3c6f002702406456c1b135eda01.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/333dab28d3d96dd2d7a48339d470aae4.png",
         "ability": "After you perform a primary attack, if you are focused, you may perform a [Single Turret Arc] attack against a ship you have not attacked this round as a bonus attack.",
         "grants": [
@@ -1818,7 +1810,7 @@
         "title": "Commander Pyre",
         "type": "Crew",
         "slots": ["Crew"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7d1c00624b8253b9157856764d2c1004.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7d1c00624b8253b9157856764d2c1004.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/95166cc0044f721aec2933ae972b2898.png",
         "ability": "Setup: After placing forces, choose an enemy ship. It gains 2 stress tokens. While you defend, if the attacker is stressed, you may reroll 1 defense die."
       }
@@ -1836,12 +1828,15 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "Action: Choose 2 ships at range 1-3 of you that are friendly to each other. Coordinate one of the chosen ships, then jam to other, ignoring range restrictions.",
+        "ability": "Action: Choose 2 ships at range 1-3 of you that are friendly to each other. Coordinate one of the chosen ships, then jam the other, ignoring range restrictions.",
         "title": "Hondo Ohnaka",
         "type": "Crew",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 853,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9345f2eadd69a3f1ea2f44648a17d9b2.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 6 }
   },
   {
     "name": "Jango Fett",
@@ -1853,9 +1848,12 @@
         "ability": "While you defend or perform an attack, you may spend your lock on the enemy ship to change 1 of the enemy ship's [Focus] results to a blank result.",
         "title": "Jango Fett",
         "type": "Crew",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 854,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3a7ec5348f98da20c7b17b91535a3dd2.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 7 }
   },
   {
     "name": "Zam Wesell",
@@ -1864,11 +1862,14 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: \"You Should Thank Me\" or \"You'd Better Mean Business\"",
+        "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: You Should Thank Me You'd Better Mean Business",
         "title": "Zam Wesell",
         "type": "Crew",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 856,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b8819288e0722a11e26d15ecd0b2717f.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 4 }
   }
 ]

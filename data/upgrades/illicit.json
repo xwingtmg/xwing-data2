@@ -11,7 +11,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_57.png",
         "slots": ["Illicit"],
         "charges": { "value": 2, "recovers": 0 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_57.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_57.jpg",
         "ffg": 286
       }
     ],
@@ -31,11 +31,11 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_58.png",
         "slots": ["Illicit"],
         "charges": { "value": 1, "recovers": 0 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_58.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_58.jpg",
         "ffg": 287
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 3 },
     "hyperspace": true
   },
   {
@@ -49,7 +49,7 @@
         "ability": "After you are destroyed, each other ship at range 0-1 suffers 1 [Hit] damage.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_59.png",
         "slots": ["Illicit"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_59.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_59.jpg",
         "ffg": 288
       }
     ],
@@ -67,7 +67,7 @@
         "ability": "Before you engage, you may gain 1 ion token and 1 disarm token. If you do, each ship at range 0 suffers 1 [Hit] damage.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_60.png",
         "slots": ["Illicit"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_60.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_60.jpg",
         "ffg": 289
       }
     ],
@@ -85,23 +85,13 @@
         "ability": "Before you would execute a maneuver, you may spend 1 shield. If you do, execute a white [0 [Stationary]] instead of the maneuver you revealed, then gain 1 stress token.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_61.png",
         "slots": ["Illicit"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_61.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_61.jpg",
         "ffg": 290
       }
     ],
     "cost": {
       "variable": "initiative",
-      "values": {
-        "0": 0,
-        "1": 1,
-        "2": 2,
-        "3": 3,
-        "4": 4,
-        "5": 5,
-        "6": 6,
-        "7": 7,
-        "8": 8
-      }
+      "values": { "0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6 }
     },
     "hyperspace": true
   },
@@ -122,7 +112,7 @@
           "type": "Obstacle",
           "effect": "Loose cargo is a debris cloud."
         },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_62.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_62.jpg",
         "ffg": 291
       }
     ],
@@ -142,11 +132,11 @@
         "type": "Illicit",
         "slots": ["Illicit"],
         "ffg": 650,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/791981d898356ad13e463b8699975155.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/791981d898356ad13e463b8699975155.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1622f5d9e279b54d4610820f5dd31a95.png"
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 1 }
   },
   {
     "name": "Quick-Release Locks",
@@ -155,10 +145,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "During the System Phase, you may spend 1 [Charge] to place 1 cargo crate drift in your [Rear Arc] at range 0. It cannot overlap a ship this way. This card's [Charge] cannot be recovered.",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop 1 cargo crate drift in your [Rear Arc] at range 0. It cannot overlap a ship this way.. This card's [Charge] cannot be recovered.",
         "title": "Quick-Release Locks",
         "type": "Illicit",
-        "slots": ["Illicit"]
+        "slots": ["Illicit"],
+        "ffg": 753,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/836fa300919eafe8e7ac5fbc47b8c0c6.jpg"
       }
     ],
     "cost": { "value": 5 }
@@ -170,10 +162,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "At the end of Setup, you may spend up to 1 [Charge] from each of your equipped Mine upgrades to place the corresponding device in the play area beyond range 2 of any enemy ship or other device.",
+        "ability": "At the end of Setup, you may spend up to 1 [Charge] from each of your equipped Mine upgrades to place the corresponding device in the play area beyond range 2 of any enemy ship, strategic marker, or other device.",
         "title": "Saboteur's Map",
         "type": "Illicit",
-        "slots": ["Illicit"]
+        "slots": ["Illicit"],
+        "ffg": 754,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/46a2b1477a848a09c56dbcd49ab6f9f4.jpg"
       }
     ],
     "cost": { "value": 3 }
@@ -185,10 +179,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "At the end of Setup, you may choose up to six other friendly, standard ships in your deployment area at range 0-1. If you do, place those ships anywhere at range 0-1.",
+        "ability": "At the end of Setup, you may choose any number of other friendly, non-huge ships in your deployment area at range 0-1. If you do, place those ships anywhere in the same deployment area.",
         "title": "Scanner Baffler",
         "type": "Illicit",
-        "slots": ["Illicit"]
+        "slots": ["Illicit"],
+        "ffg": 755,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c4749e45f352215cb96d6b1125c09a91.jpg"
       }
     ],
     "cost": { "value": 8 }
@@ -200,11 +196,14 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "After you acquire a lock on an object or an object acquires a lock on you, if you have 1 active [Charge], lost 1 [Charge] and jam that object, ignoring range restrictions.",
+        "ability": "After you acquire a lock on an object or an object acquires a lock on you, if you have 1 active [Charge], lose 1 [Charge] and jam that object, ignoring range restrictions.",
         "title": "False Transponder Codes",
         "type": "Illicit",
-        "slots": ["Illicit"]
+        "slots": ["Illicit"],
+        "ffg": 877,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/06d6e39ec52930c4faca371e8dcd3fd6.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 2 }
   }
 ]

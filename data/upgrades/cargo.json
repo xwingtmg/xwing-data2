@@ -6,10 +6,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "While another friendly ship at range 0-1 defends, if it is a smaller size than you, you may spend 1 [Shield] or 2 [Energy] to cancel 1 [Hit] or [Critical Hit] result.",
+        "ability": "While another friendly ship at range 0-1 defends, if it is a smaller size than you, you may spend 1 shield or 2 [Energy] to cancel 1 [Hit] or [Critical Hit] result.",
         "title": "Adaptive Shields",
         "type": "Cargo",
-        "slots": ["Cargo"]
+        "slots": ["Cargo"],
+        "ffg": 756,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c7816ed5fed0e34f4fc992b34e7779d4.jpg"
       }
     ],
     "cost": { "value": 10 }
@@ -24,7 +26,9 @@
         "ability": "While you lock, coordinate, or jam, you may spend up to 3 [Energy] to increase the range at which you can choose an object by 1 per [Energy] spent this way, to a maximum of range 5.",
         "title": "Boosted Scanners",
         "type": "Cargo",
-        "slots": ["Cargo"]
+        "slots": ["Cargo"],
+        "ffg": 757,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c712981e1437a13ac6f0de95d4a46cb9.jpg"
       }
     ],
     "cost": { "value": 8 }
@@ -39,7 +43,9 @@
         "ability": "After you execute a blue maneuver, recover 1 [Energy].",
         "title": "Optimized Power Core",
         "type": "Cargo",
-        "slots": ["Cargo"]
+        "slots": ["Cargo"],
+        "ffg": 758,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cd071c9b13ca8da6c061c5cbf32e0cf6.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -54,7 +60,9 @@
         "ability": "Action: Spend 1 [Charge] to recover 2 [Energy].",
         "title": "Tibanna Reserves",
         "type": "Cargo",
-        "slots": ["Cargo"]
+        "slots": ["Cargo"],
+        "ffg": 759,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/48877ef89bde008d353387a89ccf2478.jpg"
       }
     ],
     "cost": { "value": 3 }

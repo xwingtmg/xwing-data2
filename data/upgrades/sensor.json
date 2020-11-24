@@ -10,7 +10,7 @@
         "ability": "After you reveal your dial, you may perform 1 action. If you do, you cannot perform another action during your activation.",
         "slots": ["Sensor"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_23.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_23.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_23.jpg",
         "ffg": 252
       }
     ],
@@ -29,7 +29,7 @@
         "slots": ["Sensor"],
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_24.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_24.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_24.jpg",
         "ffg": 253
       }
     ],
@@ -47,7 +47,7 @@
         "ability": "While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.",
         "slots": ["Sensor"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_25.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_25.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_25.jpg",
         "ffg": 254
       }
     ],
@@ -65,7 +65,7 @@
         "ability": "During the System Phase, if you would drop or launch a bomb, you may launch it using the [5 [Straight]] template instead.",
         "slots": ["Sensor"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_26.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_26.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_26.jpg",
         "ffg": 255
       }
     ],
@@ -85,13 +85,13 @@
         "slots": ["Sensor"],
         "charges": { "value": 1, "recovers": 1 },
         "ffg": 577,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a9c69fd08df1a2ce84f240943fe05245.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a9c69fd08df1a2ce84f240943fe05245.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/08a980b359fb73dbcb9a315e94d505f0.png"
       }
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 4, "6": 6, "7": 8, "8": 10 }
+      "values": { "0": 2, "1": 2, "2": 2, "3": 2, "4": 2, "5": 4, "6": 6 }
     }
   }
 ]

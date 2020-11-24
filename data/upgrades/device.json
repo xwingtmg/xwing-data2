@@ -16,11 +16,11 @@
           "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 2 attack dice. Each ship or remote suffers 1 [Hit] damage for each [Hit]/[Critical Hit] result."
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_63.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_63.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_63.jpg",
         "ffg": 392
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 2 },
     "hyperspace": false
   },
   {
@@ -40,11 +40,11 @@
           "effect": "After a ship overlaps or moves through this device, it detonates. When this device detonates, the ship suffers 1 [Hit] damage and gains 3 ion tokens."
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_64.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_64.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_64.jpg",
         "ffg": 393
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 3 },
     "hyperspace": true
   },
   {
@@ -64,11 +64,11 @@
           "type": "Bomb",
           "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 suffers 1 [Critical Hit] damage."
         },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_65.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_65.jpg",
         "ffg": 394
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 4 },
     "hyperspace": true
   },
   {
@@ -88,7 +88,7 @@
           "effect": "After a ship overlaps or moves through this device, it detonates. When this device detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit] damage plus 1 [Hit]/[Critical Hit] damage for each matching result."
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_66.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_66.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_66.jpg",
         "ffg": 395
       }
     ],
@@ -112,7 +112,7 @@
           "type": "Bomb",
           "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, choose 1 obstacle at range 0-1. Each ship and remote at range 0-1 of the obstacle suffers 1 [Hit] damage. Then remove that obstacle."
         },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_67.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_67.jpg",
         "ffg": 396
       }
     ],
@@ -143,7 +143,7 @@
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/d1/a7/d1a70245-95d9-4d20-931f-3cadd8a11ed8/swz30_probe-card.png"
         },
         "ffg": 541,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a69a3f1075a711b57cf7459e51647a7a.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a69a3f1075a711b57cf7459e51647a7a.jpg"
       }
     ],
     "cost": { "value": 5 },
@@ -168,11 +168,11 @@
           "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-2 rolls 4 attack dice. Each ship loses 1 shield for each blank result, gains 1 ion token for each [Focus]/[Hit] result, and gains 1 disarm token for each [Crit] result. Each remote at range 0-1 loses 1 shield for each blank result and suffers 1 damage for each [Focus]/[Hit] result."
         },
         "ffg": 591,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/215f5298b9917bd57db474a38139ba08.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/215f5298b9917bd57db474a38139ba08.jpg"
       }
     ],
     "hyperspace": false,
-    "cost": { "value": 11 },
+    "cost": { "value": 10 },
     "restrictions": [{ "action": { "type": "Reload", "difficulty": "White" } }]
   },
   {
@@ -186,7 +186,7 @@
         "type": "Device",
         "slots": ["Device"],
         "ffg": 648,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/aea6bdafa5066a040a8929d6eb46499a.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/aea6bdafa5066a040a8929d6eb46499a.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c27f0dcda78915239450bedf5b931d86.png",
         "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Cluster Mine set using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "charges": { "value": 1, "recovers": 0 },
@@ -197,7 +197,7 @@
         }
       }
     ],
-    "cost": { "value": 8 }
+    "cost": { "value": 7 }
   },
   {
     "name": "Ion Bombs",
@@ -210,7 +210,7 @@
         "type": "Device",
         "slots": ["Device"],
         "ffg": 649,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f69c5ecaca9ab01380f6329e49970ddf.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f69c5ecaca9ab01380f6329e49970ddf.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e4c43791c16aea639f2e811c16d1dbcf.png",
         "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the [1 [Straight]] template.",
         "charges": { "value": 2, "recovers": 0 },
@@ -221,7 +221,7 @@
         }
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 3 }
   },
   {
     "sides": [
@@ -230,9 +230,9 @@
         "title": "Concussion Bombs",
         "type": "Device",
         "slots": ["Device"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/960df489d295d30765d019cf42a1f450.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/960df489d295d30765d019cf42a1f450.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3b836493f5b17c47e44807c283bc4b04.png",
-        "ability": "During the System Phase, if any of this card's [Charge] are inactive, you must spend 1 [Charge] to drop 1 concussion bomb, if able. Otherwise, you may spend 1 [Charge] to drop 1 concussion bomb.",
+        "ability": "During the System Phase, if any of this card's [Charge] are inactive, you must spend 1 [Charge] to drop 1 concussion bomb using the [1 [Straight]] template, if able. Otherwise, you may spend 1 [Charge] to drop 1 concussion bomb.",
         "charges": { "value": 3, "recovers": 0 },
         "device": {
           "name": "Concussion Bomb",
@@ -242,7 +242,7 @@
       }
     ],
     "name": "Concussion Bombs",
-    "cost": { "value": 3 },
+    "cost": { "value": 4 },
     "limited": 0,
     "xws": "concussionbombs",
     "hyperspace": true
@@ -254,11 +254,14 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "During the System Phase, you may spend up to 2 [Charge] to drop that many Thermal Detonators using the [1 [Straight]] or [2 [Straight]] template. Each must be placed using a different template. When you reload this card, recover 1 additional [Charge].",
+        "ability": "Bomb During the System Phase, you may spend up to 2 [Charge] to drop that many Thermal Detonators using the [1 [Straight]] or [2 [Straight]] template. Each must be placed using a different template. When you reload this card, recover 1 additional [Charge].",
         "title": "Thermal Detonators",
         "type": "Device",
-        "slots": ["Device"]
+        "slots": ["Device"],
+        "ffg": 864,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/79c228aa933ae9970641262f6352ac4a.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 3 }
   }
 ]
