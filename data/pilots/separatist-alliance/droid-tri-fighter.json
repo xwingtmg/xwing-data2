@@ -55,7 +55,11 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "hyperspace": false,
-      "ability": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship in the enemy ship's firing arc to change 1 [Focus] result to an [Evade] or [Hit] result."
+      "ability": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship in the enemy ship's firing arc to change 1 [Focus] result to an [Evade] or [Hit] result.",
+      "caption": "Clever Circuits",
+      "cost": 40,
+      "ffg": 794,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/dcb7fa7d662c724a28e03ddb3370da25.jpg"
     },
     {
       "name": "Phlac-Arphocc Prototype",
@@ -68,7 +72,10 @@
       },
       "caption": "Predictive Analysis Protocol",
       "hyperspace": false,
-      "ability": "During the System Phase, you may spend your lock on a ship to look at that ship's dial."
+      "ability": "During the System Phase, you may spend your lock on a ship to look at that ship's dial.",
+      "cost": 41,
+      "ffg": 796,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/eb98630629620582fd4c0d091205da1f.jpg"
     },
     {
       "name": "Fearsome Predator",
@@ -81,7 +88,10 @@
       },
       "caption": "Fixated Pursuit",
       "hyperspace": false,
-      "ability": "Setup: After placing forces, assign the Fearful Prey condition to 1 enemy ship."
+      "ability": "Setup: After placing forces, assign the Fearful Prey condition to 1 enemy ship.",
+      "cost": 38,
+      "ffg": 797,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a98ea9c3fc6a99ebda7b5c841d5c179e.jpg"
     },
     {
       "name": "DIS-347",
@@ -94,7 +104,10 @@
       },
       "caption": "Target Acquired",
       "hyperspace": false,
-      "ability": "At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock."
+      "ability": "At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock.",
+      "cost": 38,
+      "ffg": 795,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/805930d3844bde8727c6bb17eb973c8e.jpg"
     },
     {
       "name": "Separatist Interceptor",
@@ -105,8 +118,11 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "text": "Deployed late in the Clone Wars, these aggressive starfighters, adn the destructive buzz droids they carry, pose a serious threat to even veteran Jedi pilots.",
-      "hyperspace": false
+      "text": "Deployed late in the Clone Wars, these aggressive starfighters, and the destructive buzz droids they carry, pose a serious threat to even veteran Jedi pilots.",
+      "hyperspace": false,
+      "cost": 37,
+      "ffg": 798,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3981f72bca3374e9654a11d70531354e.jpg"
     },
     {
       "name": "Colicoid Interceptor",
@@ -117,8 +133,12 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "text": "Designed by the Colicoid Creation Next and manufactured by Phlac-Arphocc Automata Industries, the heuristic processors of Droid Tri-Fighters allow these deadly ships to analyze and adapt to enemy tactics in-flight.",
-      "hyperspace": false
+      "text": "Designed by the Colicoid Creation Nest and manufactured by Phlac-Arphocc Automata Industries, the heuristic processors of Droid Tri-Fighters allow these deadly ships to analyze and adapt to enemy tactics in-flight.",
+      "hyperspace": false,
+      "cost": 35,
+      "ffg": 799,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a0b36a5320377ef6cb2611e4d0d39a6a.jpg"
     }
-  ]
+  ],
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Droid_Tri-Fighter.png"
 }

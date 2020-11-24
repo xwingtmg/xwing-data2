@@ -35,19 +35,19 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_X-wing-T65.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_X-wing-T65.png",
   "pilots": [
     {
       "name": "Biggs Darklighter",
       "caption": "Red Three",
       "initiative": 3,
       "limited": 1,
-      "cost": 48,
+      "cost": 47,
       "xws": "biggsdarklighter",
       "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Hit] or [Critical Hit] damage to cancel 1 matching result.",
       "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_7.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_7.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_7.jpg",
       "ffg": 7,
       "hyperspace": false
     },
@@ -55,11 +55,11 @@
       "name": "Blue Squadron Escort",
       "initiative": 2,
       "limited": 0,
-      "cost": 40,
+      "cost": 38,
       "xws": "bluesquadronescort",
       "text": "Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_11.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_11.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_11.jpg",
       "alt": [
         {
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/1a/9c1ad7ef-dfb1-427c-b700-747d857f53fc/op066-blue-squadron-pilot.png",
@@ -74,7 +74,7 @@
       "name": "Cavern Angels Zealot",
       "initiative": 1,
       "limited": 0,
-      "cost": 39,
+      "cost": 38,
       "xws": "cavernangelszealot",
       "text": "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha.",
       "slots": [
@@ -85,7 +85,7 @@
         "Configuration"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_12.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_12.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_12.jpg",
       "ffg": 12,
       "hyperspace": false
     },
@@ -94,7 +94,7 @@
       "caption": "Cavern Angels Veteran",
       "initiative": 2,
       "limited": 1,
-      "cost": 43,
+      "cost": 42,
       "xws": "edriotwotubes",
       "ability": "Before you activate, if you are focused, you may perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_9.png",
@@ -105,7 +105,7 @@
         "Modification",
         "Configuration"
       ],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_9.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_9.jpg",
       "ffg": 9,
       "hyperspace": true
     },
@@ -114,7 +114,7 @@
       "caption": "Red Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 47,
+      "cost": 46,
       "xws": "garvendreis-t65xwing",
       "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_4.png",
@@ -125,7 +125,7 @@
         "Modification",
         "Configuration"
       ],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_4.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_4.jpg",
       "ffg": 4,
       "hyperspace": true
     },
@@ -134,7 +134,7 @@
       "caption": "Red Six",
       "initiative": 4,
       "limited": 1,
-      "cost": 45,
+      "cost": 44,
       "xws": "jekporkins",
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
       "slots": [
@@ -145,7 +145,7 @@
         "Configuration"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_5.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_5.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_5.jpg",
       "ffg": 5,
       "hyperspace": true
     },
@@ -154,7 +154,7 @@
       "caption": "Enigmatic Gunslinger",
       "initiative": 4,
       "limited": 1,
-      "cost": 46,
+      "cost": 45,
       "xws": "kullbeesperado",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may flip your equipped [Configuration] upgrade card.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_6.png",
@@ -166,7 +166,7 @@
         "Modification",
         "Configuration"
       ],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_6.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_6.jpg",
       "ffg": 6,
       "hyperspace": false
     },
@@ -175,7 +175,7 @@
       "caption": "Rebel Alliance Defector",
       "initiative": 3,
       "limited": 1,
-      "cost": 44,
+      "cost": 43,
       "xws": "leevantenza",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may perform a red [Evade] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_8.png",
@@ -187,7 +187,7 @@
         "Modification",
         "Configuration"
       ],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_8.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_8.jpg",
       "ffg": 8,
       "hyperspace": true
     },
@@ -196,7 +196,7 @@
       "caption": "Red Five",
       "initiative": 5,
       "limited": 1,
-      "cost": 62,
+      "cost": 61,
       "xws": "lukeskywalker",
       "ability": "After you become the defender (before dice are rolled), you may recover 1 [Force].",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_2.png",
@@ -218,7 +218,7 @@
         "Force Power",
         "Configuration"
       ],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_2.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_2.jpg",
       "ffg": 2,
       "hyperspace": true
     },
@@ -226,7 +226,7 @@
       "name": "Red Squadron Veteran",
       "initiative": 3,
       "limited": 0,
-      "cost": 41,
+      "cost": 40,
       "xws": "redsquadronveteran",
       "text": "Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.",
       "slots": [
@@ -237,7 +237,7 @@
         "Configuration"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_10.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_10.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_10.jpg",
       "ffg": 10,
       "hyperspace": true
     },
@@ -246,7 +246,7 @@
       "caption": "Corona Four",
       "initiative": 5,
       "limited": 1,
-      "cost": 48,
+      "cost": 47,
       "xws": "thanekyrell",
       "ability": "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_3.png",
@@ -257,7 +257,7 @@
         "Modification",
         "Configuration"
       ],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_3.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_3.jpg",
       "ffg": 3,
       "hyperspace": true
     },
@@ -266,7 +266,7 @@
       "caption": "Red Two",
       "initiative": 6,
       "limited": 1,
-      "cost": 55,
+      "cost": 54,
       "xws": "wedgeantilles",
       "ability": "While you perform an attack, the defender rolls 1 fewer defense die.",
       "slots": [
@@ -277,7 +277,7 @@
         "Configuration"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_1.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_1.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_1.jpg",
       "ffg": 1,
       "hyperspace": false
     }

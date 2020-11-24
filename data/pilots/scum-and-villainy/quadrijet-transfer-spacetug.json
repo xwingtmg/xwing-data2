@@ -35,14 +35,14 @@
     { "difficulty": "Red", "type": "Evade" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Quadjumper.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Quadjumper.png",
   "pilots": [
     {
       "name": "Constable Zuvio",
       "caption": "Missing Sheriff of Niima Outpost",
       "initiative": 4,
       "limited": 1,
-      "cost": 30,
+      "cost": 29,
       "xws": "constablezuvio",
       "ability": "If you would drop a device, you may launch it using a [1 [Straight]] template instead.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_161.png",
@@ -51,7 +51,7 @@
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
       "slots": ["Talent", "Crew", "Device", "Illicit", "Modification", "Tech"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg",
       "ffg": 161,
       "hyperspace": false
     },
@@ -68,7 +68,7 @@
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
       "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg",
       "ffg": 164,
       "hyperspace": false
     },
@@ -86,7 +86,7 @@
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
       "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_162.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_162.jpg",
       "ffg": 162,
       "hyperspace": false
     },
@@ -104,7 +104,7 @@
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
       "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg",
       "ffg": 163,
       "hyperspace": false
     }
