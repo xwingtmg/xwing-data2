@@ -46,9 +46,9 @@
         "name": "Pinpoint Tractor Array",
         "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
-      "hyperspace": true,
+      "hyperspace": false,
       "text": "Designed for the unique physiology of Geonosian pilots, Nantex-class starfighters are capable of maneuvers that would rip most ships—and pilots—apart.",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/62c29b8b7f82e37980d58b39023a800a.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/62c29b8b7f82e37980d58b39023a800a.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e97a0ae22847e0b71d920a0df9dfcfab.png",
       "cost": 33,
       "ffg": 609,
@@ -65,7 +65,7 @@
       },
       "hyperspace": true,
       "caption": "Archduke's Enforcer",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ace32f2bdd974de54020be34bfb85a76.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ace32f2bdd974de54020be34bfb85a76.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/42265df53c90026a58ac96b0acd3c1f8.png",
       "ability": "While you perform a primary attack, if the defender is tractored, roll 1 additional attack die.",
       "cost": 45,
@@ -83,7 +83,7 @@
       },
       "hyperspace": true,
       "caption": "Hive Guard Captain",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/8466283eeb7d476744913f5d9d69e745.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8466283eeb7d476744913f5d9d69e745.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f1c76ce6ff266c23099686392efef565.png",
       "ability": "After you perform an attack that hits, each friendly ship with [Calculate] on its action bar and a lock on the defender may perform a red [Calculate] action.",
       "cost": 37,
@@ -101,7 +101,7 @@
       },
       "hyperspace": true,
       "caption": "Opportunistic Ace",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/fc7fff6c1e6eb73ff6ae10768f5491a7.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fc7fff6c1e6eb73ff6ae10768f5491a7.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/07504533be45d13cb82d71ea11d234f7.png",
       "ability": "While you perform a primary attack, if the defender is tractored, you may reroll up to 2 attack dice.",
       "cost": 36,
@@ -115,7 +115,7 @@
       "ffg": 607,
       "limited": 1,
       "initiative": 2,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/8749f3b0f17a7c517e8633cc2558792f.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8749f3b0f17a7c517e8633cc2558792f.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d2d0764f83a2740f407082e934986ff2.png",
       "shipAbility": {
         "name": "Pinpoint Tractor Array",
@@ -131,18 +131,18 @@
       "cost": 35,
       "ffg": 608,
       "initiative": 4,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/5c32b5d481ad922be7a0ec4a3743d1d6.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/5c32b5d481ad922be7a0ec4a3743d1d6.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d2d62b6070fdf59b58db79aadb845d54.png",
       "shipAbility": {
         "name": "Pinpoint Tractor Array",
         "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
       "text": "The Petranaki Arena is a massive edifice on Geonosis that was a key site in the first battle of the Clone Wars.",
-      "hyperspace": true,
+      "hyperspace": false,
       "limited": 0,
       "slots": ["Talent", "Talent"],
       "xws": "petranakiarenaace"
     }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Nantex_Class_Starfighter.png"
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Nantex_Class_Starfighter.png"
 }

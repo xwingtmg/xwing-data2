@@ -1,7 +1,7 @@
 {
   "name": "LAAT/i Gunship",
   "xws": "laatigunship",
-  "ffg": 73,
+  "ffg": 74,
   "size": "Medium",
   "dial": [
     "0OR",
@@ -41,7 +41,7 @@
       "xws": "hawk",
       "caption": "Valkyrie 2929",
       "initiative": 4,
-      "cost": 55,
+      "cost": 54,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Talent",
@@ -54,7 +54,7 @@
         "Gunner"
       ],
       "limited": 1,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/14be5b23859dff4b6213511eb97e4e5b.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14be5b23859dff4b6213511eb97e4e5b.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e1fe9b6985d7c9960d634734abd9f9eb.png",
       "shipAbility": {
         "name": "Fire Convergence",
@@ -69,7 +69,7 @@
       "xws": "hound",
       "caption": "Vigilant Tracker",
       "initiative": 2,
-      "cost": 52,
+      "cost": 50,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Missile",
@@ -81,7 +81,7 @@
         "Gunner"
       ],
       "limited": 1,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a88730785b8495c24b1711278ed18934.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a88730785b8495c24b1711278ed18934.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/2230c99fa815740b48c9350547e1c299.png",
       "shipAbility": {
         "name": "Fire Convergence",
@@ -108,7 +108,7 @@
         "Gunner"
       ],
       "limited": 1,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f1866068850a0c806bfbe03c8bba2d07.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f1866068850a0c806bfbe03c8bba2d07.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1a2d9bd52455f4da3de74de0d9a78380.png",
       "shipAbility": {
         "name": "Fire Convergence",
@@ -123,8 +123,8 @@
       "limited": 0,
       "xws": "212thbattalionpilot",
       "text": "Capable of functioning in space assaults and atmospheric battles alike, the LAAT/i gunship transports Republic troops to battlefronts on planets besieged by the Separatists.",
-      "hyperspace": true,
-      "cost": 51,
+      "hyperspace": false,
+      "cost": 49,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Missile",
@@ -136,7 +136,7 @@
         "Gunner"
       ],
       "ffg": 663,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b8538000c5745f53f79e9b6650e6deec.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b8538000c5745f53f79e9b6650e6deec.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/0967a5458478435b72971f7d972a8aaf.png",
       "shipAbility": {
         "name": "Fire Convergence",
@@ -144,5 +144,5 @@
       }
     }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_LAAT_Republic_Gunship.png"
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_LAAT_Republic_Gunship.png"
 }

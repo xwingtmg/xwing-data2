@@ -38,14 +38,14 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEDefender.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEDefender.png",
   "pilots": [
     {
       "name": "Colonel Vessery",
       "caption": "Contemplative Commander",
       "initiative": 4,
       "limited": 1,
-      "cost": 82,
+      "cost": 81,
       "xws": "colonelvessery",
       "ability": "While you perform an attack against a locked ship, after you roll attack dice, you may acquire a lock on the defender.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_123.png",
@@ -54,7 +54,7 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg",
       "ffg": 123,
       "hyperspace": false
     },
@@ -63,7 +63,7 @@
       "caption": "Cutthroat Politico",
       "initiative": 4,
       "limited": 1,
-      "cost": 80,
+      "cost": 79,
       "xws": "countessryad",
       "ability": "While you would execute a [Straight] maneuver, you may increase the difficulty of the maneuver. If you do, execute it as a [Koiogran Turn] maneuver instead.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_124.png",
@@ -72,7 +72,7 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg",
       "ffg": 124,
       "hyperspace": false
     },
@@ -80,7 +80,7 @@
       "name": "Delta Squadron Pilot",
       "initiative": 1,
       "limited": 0,
-      "cost": 67,
+      "cost": 68,
       "xws": "deltasquadronpilot",
       "text": "In addition to its missile launchers and six wingtip laser cannons, the formidable TIE defender is equipped with deflector shields and a hyperdrive.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_126.png",
@@ -89,15 +89,15 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Sensor", "Cannon", "Missile"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg",
       "ffg": 126,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Onyx Squadron Ace",
       "initiative": 4,
       "limited": 0,
-      "cost": 74,
+      "cost": 73,
       "xws": "onyxsquadronace",
       "text": "The experimental TIE defender outclasses all other contemporary starfighters, though its size, speed, and array of weapons come at a tremendous cost in credits.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_125.png",
@@ -106,16 +106,16 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg",
       "ffg": 125,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Rexler Brath",
       "caption": "Onyx Leader",
       "initiative": 5,
       "limited": 1,
-      "cost": 79,
+      "cost": 78,
       "xws": "rexlerbrath",
       "ability": "After you perform an attack that hits, if you are evading, expose 1 of the defender's damage cards.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_122.png",
@@ -124,7 +124,7 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg",
       "ffg": 122,
       "hyperspace": false
     }

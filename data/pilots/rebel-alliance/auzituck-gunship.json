@@ -33,18 +33,18 @@
     { "difficulty": "White", "type": "Reinforce" },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Auzituck.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Auzituck.png",
   "pilots": [
     {
       "name": "Kashyyyk Defender",
       "initiative": 1,
       "limited": 0,
-      "cost": 42,
+      "cost": 44,
       "xws": "kashyyykdefender",
       "text": "Equipped with three wide-range Sureggi twin laser cannons, the Auzituck gunship acts as a powerful deterrent to slaver operations in the Kashyyyk system.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_33.png",
       "slots": ["Crew", "Crew", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_33.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_33.jpg",
       "ffg": 33,
       "hyperspace": false
     },
@@ -53,12 +53,12 @@
       "caption": "Escaped Gladiator",
       "initiative": 3,
       "limited": 1,
-      "cost": 51,
+      "cost": 50,
       "xws": "lowhhrick",
       "ability": "After a friendly ship at range 0-1 becomes the defender, you may spend 1 reinforce token. If you do, that ship gains 1 evade token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_32.png",
       "slots": ["Talent", "Crew", "Crew", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_32.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_32.jpg",
       "ffg": 32,
       "hyperspace": false
     },
@@ -67,12 +67,12 @@
       "caption": "Wookiee Chief",
       "initiative": 4,
       "limited": 1,
-      "cost": 54,
+      "cost": 53,
       "xws": "wullffwarro",
       "ability": "While you perform a primary attack, if you are damaged, you may roll 1 additional attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_31.png",
       "slots": ["Talent", "Crew", "Crew", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_31.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_31.jpg",
       "ffg": 31,
       "hyperspace": false
     }

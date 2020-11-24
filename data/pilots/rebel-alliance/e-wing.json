@@ -48,14 +48,14 @@
       "type": "Boost"
     }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_E-wing.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_E-wing.png",
   "pilots": [
     {
       "name": "Corran Horn",
       "caption": "Tenacious Investigator",
       "initiative": 5,
       "limited": 1,
-      "cost": 64,
+      "cost": 62,
       "xws": "corranhorn",
       "ability": "At initiative 0, you may perform a bonus primary attack against an enemy ship in your [Bullseye Arc]. If you do, at the start of the next Planning Phase, gain 1 disarm token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_50.png",
@@ -64,7 +64,7 @@
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
       },
       "slots": ["Talent", "Sensor", "Torpedo", "Astromech", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_50.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_50.jpg",
       "ffg": 50,
       "hyperspace": false
     },
@@ -82,7 +82,7 @@
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
       },
       "slots": ["Talent", "Sensor", "Torpedo", "Astromech", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_51.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_51.jpg",
       "ffg": 51,
       "hyperspace": false
     },
@@ -99,7 +99,7 @@
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
       },
       "slots": ["Sensor", "Torpedo", "Astromech", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_53.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_53.jpg",
       "ffg": 53,
       "hyperspace": false
     },
@@ -116,7 +116,7 @@
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
       },
       "slots": ["Talent", "Sensor", "Torpedo", "Astromech", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_52.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_52.jpg",
       "ffg": 52,
       "hyperspace": false
     }

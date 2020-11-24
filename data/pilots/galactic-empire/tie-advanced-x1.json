@@ -40,14 +40,14 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEAdvanced.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAdvanced.png",
   "pilots": [
     {
       "name": "Darth Vader",
       "caption": "Black Leader",
       "initiative": 6,
       "limited": 1,
-      "cost": 67,
+      "cost": 66,
       "xws": "darthvader",
       "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_93.png",
@@ -63,9 +63,9 @@
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
       "slots": ["Sensor", "Missile", "Modification", "Force Power"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_93.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_93.jpg",
       "ffg": 93,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Maarek Stele",
@@ -81,9 +81,9 @@
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
       "slots": ["Talent", "Sensor", "Missile", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_94.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_94.jpg",
       "ffg": 94,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Storm Squadron Ace",
@@ -98,7 +98,7 @@
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
       "slots": ["Talent", "Sensor", "Missile", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_97.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_97.jpg",
       "ffg": 97,
       "hyperspace": true
     },
@@ -121,7 +121,7 @@
       },
       "slots": ["Sensor", "Missile", "Modification"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_98.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_98.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_98.jpg",
       "ffg": 98,
       "hyperspace": true
     },
@@ -139,9 +139,9 @@
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
       "slots": ["Talent", "Sensor", "Missile", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_95.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_95.jpg",
       "ffg": 95,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Zertik Strom",
@@ -157,9 +157,9 @@
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
       "slots": ["Sensor", "Missile", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_96.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_96.jpg",
       "ffg": 96,
-      "hyperspace": true
+      "hyperspace": false
     }
   ]
 }

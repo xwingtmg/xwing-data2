@@ -38,7 +38,7 @@
       "linked": { "type": "Evade", "difficulty": "Red" }
     }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_V-19Torrent.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_V-19Torrent.png",
   "pilots": [
     {
       "name": "\"Kickback\"",
@@ -48,11 +48,11 @@
       "limited": 1,
       "ability": "After you perform a [Barrel Roll] action, you may perform a red [Lock] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/76c1228dd4c70dc4e56ac99284a11b0f.png",
-      "hyperspace": false,
+      "hyperspace": true,
       "cost": 30,
       "slots": ["Talent", "Missile", "Modification"],
       "ffg": 517,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/50b08d380769e7127b0d3f5dbbd89d1f.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/50b08d380769e7127b0d3f5dbbd89d1f.jpg"
     },
     {
       "name": "\"Odd Ball\"",
@@ -63,10 +63,10 @@
       "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9ecf7600f20da9a9eff5d3e244934ccb.png",
       "hyperspace": true,
-      "cost": 31,
+      "cost": 30,
       "slots": ["Talent", "Missile", "Modification"],
       "ffg": 516,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2a20c8f88cf55b75df4909f74b0221a2.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2a20c8f88cf55b75df4909f74b0221a2.jpg"
     },
     {
       "name": "\"Swoop\"",
@@ -80,7 +80,7 @@
       "cost": 28,
       "slots": ["Missile", "Modification"],
       "ffg": 519,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/c8c96604a64fce6b953a8b4dc4ff86e6.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c8c96604a64fce6b953a8b4dc4ff86e6.jpg"
     },
     {
       "name": "\"Axe\"",
@@ -90,11 +90,11 @@
       "limited": 1,
       "ability": "After you defend or perform an attack, you may choose a friendly ship at range 1-2 in your [Left Arc] or [Right Arc]. If you do, transfer 1 green token to that ship.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/89ade203dec6b0fa5ed6360aae3b3022.png",
-      "hyperspace": false,
+      "hyperspace": true,
       "cost": 29,
       "slots": ["Talent", "Missile", "Modification"],
       "ffg": 518,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3129e7fc822115a91a04004c35ceda18.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3129e7fc822115a91a04004c35ceda18.jpg"
     },
     {
       "name": "\"Tucker\"",
@@ -108,7 +108,7 @@
       "cost": 27,
       "slots": ["Missile", "Modification"],
       "ffg": 520,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0b24c3261656d83b685ac59e6dfb1817.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0b24c3261656d83b685ac59e6dfb1817.jpg"
     },
     {
       "name": "Blue Squadron Protector",
@@ -117,11 +117,11 @@
       "limited": 0,
       "text": "Blue Squadron's elite clone pilots are trained to fly their V-19s in conjunction with Jedi and often support famous commanders such as Anakin Skywalker and Ahsoka Tano.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/77b2dfdca20865d8d667c41539a7356e.png",
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 26,
       "slots": ["Talent", "Missile", "Modification"],
       "ffg": 521,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/74667d2878cb823d14035e91c8773816.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/74667d2878cb823d14035e91c8773816.jpg"
     },
     {
       "name": "Gold Squadron Trooper",
@@ -134,7 +134,7 @@
       "cost": 25,
       "slots": ["Missile", "Modification"],
       "ffg": 522,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e4ba0b540259e9026142e6fa5e837685.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e4ba0b540259e9026142e6fa5e837685.jpg"
     }
   ],
   "ffg": 62

@@ -18,7 +18,7 @@
           "ordnance": true
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_36.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_36.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_36.jpg",
         "ffg": 265
       }
     ],
@@ -44,7 +44,7 @@
           "ordnance": true
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_37.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_37.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_37.jpg",
         "ffg": 266
       }
     ],
@@ -70,7 +70,7 @@
           "maxrange": 3,
           "ordnance": true
         },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_38.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_38.jpg",
         "ffg": 267
       }
     ],
@@ -96,7 +96,7 @@
           "ordnance": true
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_39.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_39.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_39.jpg",
         "ffg": 268
       }
     ],
@@ -122,12 +122,12 @@
           "ordnance": true
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_40.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_40.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_40.jpg",
         "ffg": 269
       }
     ],
-    "cost": { "value": 3 },
-    "hyperspace": true
+    "cost": { "value": 2 },
+    "hyperspace": false
   },
   {
     "name": "Proton Rockets",
@@ -148,12 +148,12 @@
           "maxrange": 2,
           "ordnance": true
         },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_41.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_41.jpg",
         "ffg": 270
       }
     ],
-    "cost": { "value": 6 },
-    "hyperspace": false
+    "cost": { "value": 5 },
+    "hyperspace": true
   },
   {
     "name": "Energy-Shell Charges",
@@ -175,7 +175,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4b6213e5ed13735bb381df08bdd1398d.png",
         "slots": ["Missile"],
         "ffg": 532,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a0eeefcf98562fdbc606c8638c35b6db.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a0eeefcf98562fdbc606c8638c35b6db.jpg"
       }
     ],
     "restrictions": [
@@ -183,7 +183,7 @@
       { "factions": ["Separatist Alliance"] }
     ],
     "cost": { "value": 5 },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Discord Missiles",
@@ -208,12 +208,12 @@
           ]
         },
         "ffg": 543,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a2c1b72df5f0b429bf38fbd9ad61bc99.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a2c1b72df5f0b429bf38fbd9ad61bc99.jpg"
       }
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Diamond-Boron Missiles",
@@ -235,10 +235,10 @@
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f2c1893053af65ce47300fb133a30312.png",
         "ffg": 580,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/bc97441f8e8461e6949ab70b0a4bf0c5.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/bc97441f8e8461e6949ab70b0a4bf0c5.jpg"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 5 },
     "hyperspace": true
   },
   {
@@ -261,11 +261,11 @@
         "type": "Missile",
         "slots": ["Missile"],
         "ffg": 651,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/71140b3339226017653867076e19310f.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/71140b3339226017653867076e19310f.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/94cdc3be1cf133e123e30f25f181faf7.png"
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 5 }
   },
   {
     "name": "Multi-Missile Pods",
@@ -279,24 +279,27 @@
         "type": "Missile",
         "slots": ["Missile", "Missile"],
         "ffg": 673,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/af81354b305251139da023c343c9f70f.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/af81354b305251139da023c343c9f70f.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5abef5ee3d6e4acf94cd77280375aa72.png"
       }
     ],
-    "cost": { "value": 8 }
+    "cost": { "value": 6 }
   },
   {
     "name": "XX-23 S-Thread Tracers",
     "limited": 2,
     "xws": "xx23sthreadtracers",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "Attack ([Focus], [Calculate], or [Lock]): Spend 1 [Charge]. If this attack hits, each friendly ship at range 1-3 of the defender may acquire a lock on the defender. Then cancel all dice results.",
         "title": "XX-23 S-Thread Tracers",
         "type": "Missile",
-        "slots": ["Missile"]
+        "slots": ["Missile"],
+        "ffg": 851,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/34fa7fa46dbf8626f1480fc9937e7c1b.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 2 }
   }
 ]

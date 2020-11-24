@@ -2,6 +2,7 @@
   "name": "Nimbus-class V-wing",
   "xws": "nimbusclassvwing",
   "size": "Small",
+  "ffg": 71,
   "dial": [
     "1TW",
     "1BR",
@@ -51,7 +52,10 @@
       },
       "xws": "wilhufftarkin",
       "ability": "During the System Phase, you may choose an object that you have locked at range 1-3. Another friendly ship at range 1-3 may acquire a lock on that object.",
-      "hyperspace": false
+      "hyperspace": false,
+      "cost": 34,
+      "ffg": 791,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/02fb0df2a559b8bc66fd475442dbe8df.jpg"
     },
     {
       "name": "\"Odd Ball\"",
@@ -64,7 +68,10 @@
       },
       "caption": "CC-2237",
       "hyperspace": false,
-      "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship."
+      "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
+      "cost": 32,
+      "ffg": 788,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/03ff8a220e58ba5c122bd82292447182.jpg"
     },
     {
       "name": "\"Contrail\"",
@@ -77,7 +84,10 @@
       },
       "caption": "CT-4981",
       "hyperspace": false,
-      "ability": "While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result."
+      "ability": "While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result.",
+      "cost": 33,
+      "ffg": 789,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a513ddef007bed78558369fd70379d15.jpg"
     },
     {
       "name": "\"Klick\"",
@@ -90,7 +100,10 @@
       },
       "caption": "GC-1000",
       "hyperspace": false,
-      "ability": "While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 [Charge] to prevent range bonuses from being applied."
+      "ability": "While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 [Charge] to prevent range bonuses from being applied.",
+      "cost": 32,
+      "ffg": 790,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2331f92ad91a30e81c5c6baafc0dfe08.jpg"
     },
     {
       "name": "Shadow Squadron Escort",
@@ -102,7 +115,10 @@
         "text": "Ignore the \"TIE\" ship restriction on upgrade cards."
       },
       "text": "In the waning months of the Clone Wars, elite clone formations carry out missions critical to the future of the Republic; such as the protection of Supreme Chancellor Palpatine's personal shuttle.",
-      "hyperspace": false
+      "hyperspace": true,
+      "cost": 29,
+      "ffg": 792,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a9dd9a8a65facfae13018bb0d1aad602.jpg"
     },
     {
       "name": "Loyalist Volunteer",
@@ -114,7 +130,11 @@
         "text": "Ignore the \"TIE\" ship restriction on upgrade cards."
       },
       "text": "The Kuat Systems Engineering Alpha-3 Nimbus-class V-wing is the vessel of choice for clone and non-clone starfighter pilots alike. The techniques pioneered to mass-produce its precision ion engines will later be crucial in the development of the TIE series by Sienar Fleet Systems.",
-      "hyperspace": false
+      "hyperspace": true,
+      "cost": 27,
+      "ffg": 793,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/963d472b274bb777fdc9be15527e28f1.jpg"
     }
-  ]
+  ],
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Nimbus-class_V-wing.png"
 }

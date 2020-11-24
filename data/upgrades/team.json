@@ -19,7 +19,9 @@
             "type": "action",
             "value": { "type": "Calculate", "difficulty": "White" }
           }
-        ]
+        ],
+        "ffg": 746,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/00df0c7fae30d4be941f32ba2fce1bc0.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -52,7 +54,9 @@
               "linked": { "type": "Calculate", "difficulty": "White" }
             }
           }
-        ]
+        ],
+        "ffg": 747,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/accec3b3b4603e26ba5bf37cddc2ff1d.jpg"
       }
     ],
     "cost": { "value": 8 }
@@ -77,7 +81,9 @@
               "linked": { "type": "Calculate", "difficulty": "White" }
             }
           }
-        ]
+        ],
+        "ffg": 750,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2e47d434c593aca8030f04103b86a132.jpg"
       }
     ],
     "cost": { "value": 3 }
@@ -102,7 +108,9 @@
               "linked": { "type": "Calculate", "difficulty": "White" }
             }
           }
-        ]
+        ],
+        "ffg": 749,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e39555ce2c899f2f12dcf6fe6e0f5f25.jpg"
       }
     ],
     "cost": { "value": 8 }
@@ -123,7 +131,9 @@
             "type": "action",
             "value": { "type": "Calculate", "difficulty": "White" }
           }
-        ]
+        ],
+        "ffg": 748,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a2e89d07fdf5680e06bce60518845ba9.jpg"
       }
     ],
     "cost": { "value": 2 }
@@ -135,7 +145,7 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "While you perform a [Reload] action, you may apend up to 3 [Energy] to reload that may additional [Charge] on your equipped [Missile]/[Torpedo] upgrades. After you perform a [Reload] action, you may spend 1 [Energy] to remove 1 disarm token.",
+        "ability": "While you perform a [Reload] action, you may spend up to 3 [Energy] to reload that many additional [Charge] on your equipped [Missile]/[Torpedo] upgrades. After you perform a [Reload] action, you may spend 1 [Energy] to remove 1 disarm token.",
         "title": "Ordnance Team",
         "type": "Team",
         "slots": ["Team"],
@@ -148,7 +158,9 @@
               "linked": { "type": "Calculate", "difficulty": "White" }
             }
           }
-        ]
+        ],
+        "ffg": 751,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7a267ccc8299728e6f9fa8650b1321ca.jpg"
       }
     ],
     "cost": { "value": 4 }
@@ -160,7 +172,7 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "You can maintain up to 3 locks on different objects. After you perform a [Lock] action, you may spend up to 2 [Energy] to acquire a lock on that many other objects at range 0-1 of th object you locked, ignoring range restrictions.",
+        "ability": "You can maintain up to 3 locks on different objects. After you perform a [Lock] action, you may spend up to 2 [Energy] to acquire a lock on that many other objects at range 0-1 of the object you locked, ignoring range restrictions.",
         "title": "Sensor Experts",
         "type": "Team",
         "slots": ["Team"],
@@ -173,7 +185,9 @@
               "linked": { "type": "Calculate", "difficulty": "White" }
             }
           }
-        ]
+        ],
+        "ffg": 752,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/779973fbba5deb810846a7f0bf7bf3c3.jpg"
       }
     ],
     "cost": { "value": 10 }

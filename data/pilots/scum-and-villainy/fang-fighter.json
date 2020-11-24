@@ -43,7 +43,7 @@
       "type": "Boost"
     }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_FangFighter.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_FangFighter.png",
   "pilots": [
     {
       "name": "Fenn Rau",
@@ -59,7 +59,7 @@
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
       "slots": ["Talent", "Torpedo"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_155.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_155.jpg",
       "ffg": 155,
       "hyperspace": true
     },
@@ -68,7 +68,7 @@
       "caption": "Skull Squadron Ace",
       "initiative": 4,
       "limited": 1,
-      "cost": 52,
+      "cost": 47,
       "xws": "joyrekkoff",
       "ability": "While you perform an attack, you may spend 1 [Charge] from an equipped [Torpedo] upgrade. If you do, the defender rolls 1 fewer defense die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_157.png",
@@ -77,7 +77,7 @@
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
       "slots": ["Talent", "Torpedo"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_157.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_157.jpg",
       "ffg": 157,
       "hyperspace": true
     },
@@ -95,7 +95,7 @@
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
       "slots": ["Talent", "Torpedo"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_158.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_158.jpg",
       "ffg": 158,
       "hyperspace": true
     },
@@ -113,9 +113,9 @@
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
       "slots": ["Talent", "Torpedo"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_156.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_156.jpg",
       "ffg": 156,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Skull Squadron Pilot",
@@ -130,9 +130,9 @@
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
       "slots": ["Talent", "Torpedo"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_159.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_159.jpg",
       "ffg": 159,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Zealous Recruit",
@@ -147,9 +147,9 @@
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
       "slots": ["Torpedo"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_160.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_160.jpg",
       "ffg": 160,
-      "hyperspace": true
+      "hyperspace": false
     }
   ]
 }

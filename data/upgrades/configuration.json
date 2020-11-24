@@ -25,7 +25,7 @@
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e3b44142faf0f13e541bf674a6c06dbc.png",
         "ffg": 486,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a8233a67adce770e91e4b6b9025670ed.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a8233a67adce770e91e4b6b9025670ed.jpg"
       },
       {
         "title": "Integrated S-foils (Open)",
@@ -33,13 +33,13 @@
         "ability": "Before you activate, you may flip this card.",
         "slots": ["Configuration"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/49372b4efb974ff673a1b79441186fd5.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/bf5e7b98158570f9d4fc259b5553f4ca.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/bf5e7b98158570f9d4fc259b5553f4ca.jpg",
         "ffg": 487
       }
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["t70xwing"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Os-1 Arsenal Loadout",
@@ -56,7 +56,7 @@
           { "type": "slot", "value": "Missile", "amount": 1 }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_125.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_125.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_125.jpg",
         "ffg": 350
       }
     ],
@@ -75,7 +75,7 @@
         "ability": "While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90° or 180°. Before you activate, you may flip this card.",
         "slots": ["Configuration"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_107b.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_107b.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_107b.jpg",
         "ffg": 332
       },
       {
@@ -84,7 +84,7 @@
         "ability": "Before you activate, you may flip this card.",
         "slots": ["Configuration"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_107.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_107.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_107.jpg",
         "ffg": 331
       }
     ],
@@ -125,7 +125,7 @@
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_108b.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_108b.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_108b.jpg",
         "ffg": 334
       },
       {
@@ -134,13 +134,13 @@
         "ability": "Before you activate, you may flip this card.",
         "slots": ["Configuration"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_108.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_108.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_108.jpg",
         "ffg": 333
       }
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["t65xwing"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Xg-1 Assault Configuration",
@@ -154,7 +154,7 @@
         "slots": ["Configuration"],
         "grants": [{ "type": "slot", "value": "Cannon", "amount": 1 }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_126.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_126.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_126.jpg",
         "ffg": 351
       }
     ],
@@ -174,7 +174,7 @@
         "slots": ["Configuration"],
         "ffg": 555,
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ca74271f47c42b390ca0ba0b389144a5.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/24c35aeb94ef846dc498e4a59fb9bf73.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/24c35aeb94ef846dc498e4a59fb9bf73.jpg"
       },
       {
         "title": "Grappling Struts (Open)",
@@ -183,11 +183,11 @@
         "slots": ["Configuration"],
         "ffg": 535,
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/be82da17cfd39003fda380bead210eb9.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/55781f0b97bc691866379ff9e1d6d354.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/55781f0b97bc691866379ff9e1d6d354.jpg"
       }
     ],
     "restrictions": [{ "ships": ["vultureclassdroidfighter"] }],
-    "hyperspace": true,
+    "hyperspace": false,
     "cost": { "value": 1 }
   },
   {
@@ -206,16 +206,16 @@
         ],
         "ffg": 548,
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/515903e04a0d06a9200860698326896d.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/6530f18639b7efff5a5a659589e5d65c.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/6530f18639b7efff5a5a659589e5d65c.jpg",
         "text": "The Delta-7B was designed as a heavier variant of the Delta-7 Aethersprite-class Interceptor, identifiable by the repositioned astromech slot. Many Jedi Generals favor this craft's greater firepower and durability."
       }
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 6, "1": 9, "2": 12, "3": 15, "4": 18, "5": 21, "6": 24 }
+      "values": { "0": 4, "1": 4, "2": 8, "3": 12, "4": 16, "5": 20, "6": 24 }
     },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Calibrated Laser Targeting",
@@ -229,7 +229,7 @@
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], add 1 [Focus] result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f3e06326ab525e07f9a85363b6d69580.png",
         "ffg": 549,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ffe9b36272a15f7c5e2ba2fa075d27dd.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ffe9b36272a15f7c5e2ba2fa075d27dd.jpg"
       }
     ],
     "cost": {
@@ -251,7 +251,7 @@
         "slots": ["Configuration"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c23a0130bad7330c0abb6218745910aa.png",
         "ffg": 594,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/1340d2e5df785275c674d2be07379bf1.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1340d2e5df785275c674d2be07379bf1.jpg"
       },
       {
         "title": "Landing Struts (Open)",
@@ -260,11 +260,11 @@
         "slots": ["Configuration"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/aba79159308e850b635f6c43721ccdee.png",
         "ffg": 595,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/172286420e4263a098c3a2ecb0e73ce2.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/172286420e4263a098c3a2ecb0e73ce2.jpg"
       }
     ],
     "restrictions": [{ "ships": ["hyenaclassdroidbomber"] }],
-    "hyperspace": true,
+    "hyperspace": false,
     "cost": { "value": 1 }
   },
   {
@@ -277,7 +277,9 @@
         "ability": "Add [Cannon], [Turret], and [Missile] slots. Bonus Attack: Spend 1 [Energy] to perform a [Cannon], [Turret], or [Missile] attack.",
         "title": "Corsair Refit",
         "type": "Configuration",
-        "slots": ["Configuration"]
+        "slots": ["Configuration"],
+        "ffg": 780,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1ee2df3c1a0ce5aa60439927e2d1e9ca.jpg"
       }
     ],
     "cost": { "value": 15 }
@@ -286,7 +288,7 @@
     "name": "Stabilized S-foils",
     "limited": 0,
     "xws": "stabilizedsfoils",
-    "hyperspace": true,
+    "hyperspace": false,
     "sides": [
       {
         "ability": "Before you activate, if you are not critically damaged, you may flip this card.",
@@ -308,7 +310,7 @@
           }
         ],
         "ffg": 646,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/80efc4163ceb2000a6981b9851c3d1a9.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/80efc4163ceb2000a6981b9851c3d1a9.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/77f37d94be3977d6d573219dd6462c2b.png"
       },
       {
@@ -327,7 +329,7 @@
           }
         ],
         "ffg": 645,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e6316661a866ec6d474363d135ae75d4.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e6316661a866ec6d474363d135ae75d4.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f03c2baf5b0a095e28948f03468cc5d2.png"
       }
     ],
@@ -340,7 +342,7 @@
         "title": "Repulsorlift Stabilizers (Inactive)",
         "type": "Configuration",
         "slots": ["Configuration"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b16d22d90b1b5048a15cf1734334d8fa.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b16d22d90b1b5048a15cf1734334d8fa.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d159e1d6ffc15eda188f858292dc9c2b.png",
         "ability": "Setup: Equip this side faceup. Reduce the difficulty of your straight ([Straight]) maneuvers. After you fully execute a maneuver, you may flip this card."
       },
@@ -349,7 +351,7 @@
         "title": "Repulsorlift Stabilizers (Active)",
         "type": "Configuration",
         "slots": ["Configuration"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/37c67b48073cea976e4b6a6949976aee.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/37c67b48073cea976e4b6a6949976aee.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/57074bd7f510c9c4fd3717894e0239a0.png",
         "ability": "After you reveal a bank ([Bank Left] or [Bank Right]) or turn ([Turn Left] or [Turn Right]) maneuver, you must perform that maneuver as a sideslip, then flip this card. After you fully execute a non-sideslip maneuver, you may flip this card."
       }
@@ -358,35 +360,41 @@
     "cost": { "value": 3 },
     "limited": 0,
     "xws": "repulsorliftstabilizers",
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Alpha-3B \"Besh\"",
     "limited": 0,
     "xws": "alpha3bbesh",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform a primary attack, you may spend your lock on the defender to change 1 of your blank or [Focus] results to a [Hit] result. Add [Device] slot.",
         "title": "Alpha-3B \"Besh\"",
         "type": "Configuration",
-        "slots": ["Configuration"]
+        "slots": ["Configuration"],
+        "ffg": 870,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2e6d4fc53253cdf04086649b7eaf917a.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 2 }
   },
   {
     "name": "Alpha-3E \"Esk\"",
     "limited": 0,
     "xws": "alpha3eesk",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
-        "ability": "While you perform a primary attackm before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results inflict ion tokens instead of damage.",
+        "ability": "While you perform a primary attack, before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results inflict ion tokens instead of damage.",
         "title": "Alpha-3E \"Esk\"",
         "type": "Configuration",
-        "slots": ["Configuration"]
+        "slots": ["Configuration"],
+        "ffg": 871,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/678c7a36aacdd1cc20b61287df2fc0d9.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 1 }
   },
   {
     "name": "Intercept Booster",
@@ -408,15 +416,20 @@
               "linked": { "type": "Lock", "difficulty": "Red" }
             }
           }
-        ]
+        ],
+        "ffg": 873,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e0d4a33513507acf6852de1329ad7b85.jpg"
       },
       {
         "text": "Unhindered by the frailty of an organic pilot, Droid Tri-Fighters are capable of radical acceleration and acute maneuvering. Fitted with booster rockets and fired from the missile tubes of Separatist capital ships, they can intercept hostiles well beyond the range of conventionally deployed starfighters.",
         "title": "Intercept Booster (Detached)",
         "type": "Configuration",
-        "slots": ["Configuration"]
+        "slots": ["Configuration"],
+        "ffg": 872,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1c125de5b479dbc58f1a0bc2ec770ed3.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 3 }
   },
   {
     "name": "Maneuver-Assist MGK-300",
@@ -442,7 +455,9 @@
               "linked": { "type": "Calculate", "difficulty": "Red" }
             }
           }
-        ]
+        ],
+        "ffg": 722,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b7bc25a4c99fafd0c61ac6efb1129ae.jpg"
       }
     ],
     "cost": { "value": 2 }
@@ -471,7 +486,9 @@
               "linked": { "type": "Calculate", "difficulty": "White" }
             }
           }
-        ]
+        ],
+        "ffg": 723,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/954401c2bc0cc705693553362d078536.jpg"
       }
     ],
     "cost": { "value": 3 }

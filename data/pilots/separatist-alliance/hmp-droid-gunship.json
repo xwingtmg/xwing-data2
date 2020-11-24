@@ -1,7 +1,7 @@
 {
   "name": "HMP Droid Gunship",
   "xws": "hmpdroidgunship",
-  "ffg": 72,
+  "ffg": 75,
   "size": "Small",
   "dial": [
     "0OR",
@@ -56,7 +56,7 @@
         "Tactical Relay"
       ],
       "limited": 1,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/1cd30a5d258ff70472e785c816139d1f.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1cd30a5d258ff70472e785c816139d1f.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/49791d2bcd4e67bc66e97c83f17dad24.png",
       "shipAbility": {
         "name": "Networked Aim",
@@ -81,14 +81,14 @@
         "Tactical Relay"
       ],
       "limited": 0,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/8117e7b2349219b237157bfeda3028d0.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8117e7b2349219b237157bfeda3028d0.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3af13c610ba1544ae93383b2c8b10f90.png",
       "shipAbility": {
         "name": "Networked Aim",
         "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
       },
       "text": "A late-war development for the Confederacy of Independent Systems, the droid gunship uses specialized repulsors to nimbly strafe targets and precisely drop battle droids.",
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "ffg": 668,
@@ -107,7 +107,7 @@
         "Tactical Relay"
       ],
       "limited": 2,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3a95eb82b3cf0420376c75f649d436ee.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3a95eb82b3cf0420376c75f649d436ee.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1352254ba28a6191adfdea1273cedb8d.png",
       "shipAbility": {
         "name": "Networked Aim",
@@ -133,7 +133,7 @@
         "Tactical Relay"
       ],
       "limited": 1,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/20ce8cad5b251ad3ea16d849297e82db.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/20ce8cad5b251ad3ea16d849297e82db.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/b0d0b99b3b18b330f2c37221fb2696f9.png",
       "shipAbility": {
         "name": "Networked Aim",
@@ -159,7 +159,7 @@
         "Tactical Relay"
       ],
       "limited": 2,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ba5a6c72eb21bd7bd58c9f7072dd0fdd.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ba5a6c72eb21bd7bd58c9f7072dd0fdd.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/41b07fdfd2fc8af5d662796905266c6a.png",
       "shipAbility": {
         "name": "Networked Aim",
@@ -178,7 +178,7 @@
         "name": "Networked Aim",
         "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
       },
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 36,
       "slots": [
         "Missile",
@@ -190,9 +190,9 @@
         "Tactical Relay"
       ],
       "ffg": 667,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/af4f7665df100530f6dc8e3cf80a52d4.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/af4f7665df100530f6dc8e3cf80a52d4.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d8cba72d59f876f9849a4ef42740bf40.png"
     }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_HMP_Droid_Gunship.png"
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_HMP_Droid_Gunship.png"
 }

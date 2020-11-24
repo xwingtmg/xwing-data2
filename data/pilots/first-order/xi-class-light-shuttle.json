@@ -1,7 +1,7 @@
 {
   "name": "Xi-class Light Shuttle",
   "xws": "xiclasslightshuttle",
-  "ffg": 71,
+  "ffg": 73,
   "size": "Medium",
   "dial": [
     "0OR",
@@ -53,7 +53,7 @@
         "Tech"
       ],
       "limited": 1,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ee4ceab2fd34a3ccd68c74652f21b782.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ee4ceab2fd34a3ccd68c74652f21b782.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5526136f7923921bcaac3c5ee0af9b75.png",
       "ability": "Setup: After placing forces, choose any number of your equipped [Illicit] upgrades and equip them to friendly TIE/fo or TIE/sf fighters. Each ship can be assigned only 1 [Illicit] this way. End of Game: Return all [Illicit] upgrades to their original ships.",
       "hyperspace": true
@@ -64,10 +64,10 @@
       "caption": "Vindictive Taskmaster",
       "xws": "commandermalarus-xiclasslightshuttle",
       "initiative": 5,
-      "cost": 43,
+      "cost": 45,
       "slots": ["Talent", "Crew", "Crew", "Modification", "Tech", "Tech"],
       "limited": 1,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/9fc217ecda8e05095b2e4d5957a474ba.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9fc217ecda8e05095b2e4d5957a474ba.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9ab5691b7e1e7761cff3c6bd71b4257e.png",
       "ability": "While a friendly ship at range 0-2 performs a primary attack, if it has 1 or more blank results, that ship must gain 1 strain token to reroll 1 blank result, if able.",
       "hyperspace": true
@@ -80,10 +80,10 @@
       "cost": 38,
       "slots": ["Crew", "Crew", "Modification", "Tech", "Tech"],
       "limited": 0,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/85aadb1aa3100fe7e92296ca0465f58b.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/85aadb1aa3100fe7e92296ca0465f58b.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6f8c0773c75e4985a6d863256b726069.png",
       "text": "The First Order lurks in many bases hidden in shadowy corners of the galaxy, slowly spreading its insidious influence.",
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Gideon Hask",
@@ -96,9 +96,9 @@
       "cost": 40,
       "slots": ["Talent", "Crew", "Crew", "Modification", "Tech", "Tech"],
       "ffg": 657,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f0cc7ebb6dc5f2e0d15fd681655777b3.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f0cc7ebb6dc5f2e0d15fd681655777b3.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/21d545f09d9d98f9713b80d5551c4e0b.png"
     }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Xi-class_Shuttle.png"
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Xi-class_Shuttle.png"
 }

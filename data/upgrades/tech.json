@@ -10,12 +10,12 @@
         "ability": "While you perform an attack, you may spend 1 focus token to change 1 of your blank results to a [Hit] result.",
         "slots": ["Tech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e77e204e6b7164f6a1d945b20a0c4359.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e19aa7cd99df250715c17386135cd140.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e19aa7cd99df250715c17386135cd140.jpg",
         "ffg": 460
       }
     ],
-    "cost": { "value": 4 },
-    "hyperspace": true
+    "cost": { "value": 5 },
+    "hyperspace": false
   },
   {
     "name": "Ferrosphere Paint",
@@ -28,11 +28,11 @@
         "ability": "After an enemy ship locks you, if you are not in that ship's [Bullseye Arc], that ship gains 1 stress token.",
         "slots": ["Tech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/55d8ff7d35b714d9c9a6ef1fd7732a60.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/55ff3d199702695f23631d85a25bbae6.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/55ff3d199702695f23631d85a25bbae6.jpg",
         "ffg": 488
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "hyperspace": true
   },
@@ -47,11 +47,11 @@
         "ability": "Setup: Before placing forces, you may choose a number between 0 and 6. Treat your initiative as the chosen value during Setup. After Setup, assign 1 focus or evade token to each friendly ship at range 0-2.",
         "slots": ["Tech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a48713c6784bf33bd3f8b36eb19221c3.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/fa5c01453d7aa2e2f1f100593e79669d.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fa5c01453d7aa2e2f1f100593e79669d.jpg",
         "ffg": 461
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 2 },
     "restrictions": [{ "factions": ["First Order"] }, { "sizes": ["Large"] }],
     "hyperspace": false
   },
@@ -65,7 +65,7 @@
         "type": "Tech",
         "ability": "While you have 2 or fewer stress tokens, you can perform [Barrel Roll] and [Boost] actions even while stressed.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a114625347a0f3088f4679f8107ab631.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3789dd873db0d0c74293531bef49e16e.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3789dd873db0d0c74293531bef49e16e.jpg",
         "slots": ["Tech"],
         "ffg": 463
       }
@@ -87,7 +87,7 @@
         "type": "Tech",
         "ability": "While a friendly ship at range 1-2 performs an attack against a target you have locked, that ship ignores the [Lock] attack requirement.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/83782f01cd3486006c4d279864d2983a.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/1597042d794000fb34d1eee30cc10f35.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1597042d794000fb34d1eee30cc10f35.jpg",
         "slots": ["Tech"],
         "ffg": 464
       }
@@ -106,7 +106,7 @@
         "ability": "While you fully execute a red maneuver, before the Check Difficulty step, you may perform 1 action.",
         "slots": ["Tech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ace963fc4fe9d97f64ab8564dc4beae7.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/811e07d55f95e53fef3182020d8cbf6e.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/811e07d55f95e53fef3182020d8cbf6e.jpg",
         "ffg": 462
       }
     ],
@@ -124,7 +124,7 @@
         "ability": "While you coordinate or jam, if you have a lock on a ship, you may spend that lock to choose that ship, ignoring range restrictions.",
         "slots": ["Tech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/094f3bbc6e3041886398e9eaf692d4ab.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/14c54aef2e36ac34564194e4785c98ce.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14c54aef2e36ac34564194e4785c98ce.jpg",
         "ffg": 491
       }
     ],
@@ -148,7 +148,7 @@
         "type": "Tech",
         "slots": ["Tech", "Modification"],
         "ffg": 654,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/038636d357004cc01635a93c224d921d.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/038636d357004cc01635a93c224d921d.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c0e458b69076138e2408664be131f61e.png"
       }
     ],
@@ -161,7 +161,7 @@
         "title": "Automated Target Priority",
         "type": "Tech",
         "slots": ["Tech"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d0f9614d25d622b900f5ceafc8028fbd.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d0f9614d25d622b900f5ceafc8028fbd.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/49d9da05371e92cafec65512526b85c3.png",
         "ability": "While you perform an attack, you must choose a defender at the closest valid attack range. After you perform an attack that missed, place 1 calculate token on this card. Before you engage, you may remove 1 calculate token from this card to gain a matching token."
       }
@@ -179,7 +179,7 @@
         "title": "Sensor Buoy Suite",
         "type": "Tech",
         "slots": ["Tech"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/8962c76fb021f876c97b6044b7da827b.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8962c76fb021f876c97b6044b7da827b.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f8fd5c5d87f0512c774b6ac4d0c83f2e.png",
         "ability": "Setup: Before placing forces, place 2 sensor buoy remotes beyond range 2 of any edge. Before you engage, you may acquire a lock on a ship at range 0-1 of a friendly sensor buoy, ignoring range restrictions."
       }

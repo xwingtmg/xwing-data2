@@ -11,7 +11,7 @@
         "slots": ["Astromech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_99.png",
         "ffg": 323,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_99.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_99.jpg"
       }
     ],
     "cost": { "value": 2 },
@@ -29,7 +29,7 @@
         "ability": "After you fully execute a maneuver, if you have not dropped or launched a device this round, you may drop 1 bomb.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_143.png",
         "slots": ["Astromech"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_143.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_143.jpg",
         "ffg": 368
       }
     ],
@@ -49,13 +49,13 @@
         "slots": ["Astromech"],
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_53.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_53.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_53.jpg",
         "ffg": 282
       }
     ],
     "cost": {
       "variable": "agility",
-      "values": { "0": 3, "1": 5, "2": 7, "3": 9 }
+      "values": { "0": 3, "1": 4, "2": 5, "3": 8 }
     },
     "hyperspace": true
   },
@@ -71,7 +71,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_100.png",
         "slots": ["Astromech"],
         "charges": { "value": 3, "recovers": 0 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_100.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_100.jpg",
         "ffg": 324
       }
     ],
@@ -93,7 +93,7 @@
         "ability": "You can maintain up to 2 locks. Each lock must be on a different object. After you perform a [Lock] action, you may acquire a lock.",
         "slots": ["Astromech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_54.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_54.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_54.jpg",
         "ffg": 283
       }
     ],
@@ -111,7 +111,7 @@
         "ability": "Decrease the difficulty of your speed 1-2 basic maneuvers ([Turn Left], [Bank Left], [Straight], [Bank Right], [Turn Right]).",
         "slots": ["Astromech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_55.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_55.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_55.jpg",
         "ffg": 284
       }
     ],
@@ -131,12 +131,12 @@
         "slots": ["Astromech"],
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_56.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_56.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_56.jpg",
         "ffg": 285
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "R5-D8",
@@ -150,7 +150,7 @@
         "slots": ["Astromech"],
         "charges": { "value": 3, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_101.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_101.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_101.jpg",
         "ffg": 325
       }
     ],
@@ -170,7 +170,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_144.png",
         "slots": ["Astromech"],
         "charges": { "value": 3, "recovers": 0 },
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_144.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_144.jpg",
         "ffg": 369
       }
     ],
@@ -189,13 +189,13 @@
         "ability": "You can perform attacks against friendly ships.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_145.png",
         "slots": ["Astromech"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_145.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_145.jpg",
         "ffg": 370
       }
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "R5-X3",
@@ -209,13 +209,13 @@
         "ability": "Before you activate or engage, you may spend 1 [Charge] to ignore obstacles until the end of this phase.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/aed4536536b67bae316b260ed151c22a.png",
         "slots": ["Astromech"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7361f88154703f61221bc2a775f4a9b6.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7361f88154703f61221bc2a775f4a9b6.jpg",
         "ffg": 483
       }
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "R2-HA",
@@ -227,14 +227,14 @@
         "type": "Astromech",
         "ability": "While you defend, you may spend your lock on the attacker to reroll any number of your defense dice.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/b3e6d35ca6b6fd297312248ddf4e69a7.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/d72ab7fa7cd398d614466a98076a2e6b.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d72ab7fa7cd398d614466a98076a2e6b.jpg",
         "slots": ["Astromech"],
         "ffg": 482
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "BB-8",
@@ -246,7 +246,7 @@
         "type": "Astromech",
         "ability": "Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] or [Boost] action.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/37297ef7839800afd543de5d1a363561.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e8a75e0e143a5857ac3931d56ccde86c.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e8a75e0e143a5857ac3931d56ccde86c.jpg",
         "slots": ["Astromech"],
         "charges": { "value": 2, "recovers": 0 },
         "ffg": 479
@@ -269,7 +269,7 @@
         "type": "Astromech",
         "ability": "Before you execute a blue maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] action.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/010399f4054469aed3b04acba08d41b0.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a2e3aaf77e8690a37e76ef4ae2087180.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a2e3aaf77e8690a37e76ef4ae2087180.jpg",
         "slots": ["Astromech"],
         "charges": { "value": 2, "recovers": 0 },
         "ffg": 480
@@ -280,7 +280,7 @@
       "values": { "0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6 }
     },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "M9-G8",
@@ -292,14 +292,14 @@
         "type": "Astromech",
         "ability": "While a ship you are locking performs an attack, you may choose 1 attack die. If you do, the attacker rerolls that die.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cd67f33e8aa52d2aeb07f432125a8c73.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f810d46699343a134003deea0f423131.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f810d46699343a134003deea0f423131.jpg",
         "slots": ["Astromech"],
         "ffg": 481
       }
     ],
-    "cost": { "value": 7 },
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "R2-C4",
@@ -313,7 +313,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8fce75228aa2c4eaaf3e9666c4da8caf.png",
         "slots": ["Astromech"],
         "ffg": 589,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/db2012557dc9b2953aeeb8c3f98d5052.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/db2012557dc9b2953aeeb8c3f98d5052.jpg"
       }
     ],
     "cost": { "value": 5 },
@@ -333,11 +333,11 @@
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/26f6dd68ba6bb37fa5315f45a6237c88.png",
         "ffg": 546,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/081dbeb7591c8dfd1f752729b27bdf2a.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/081dbeb7591c8dfd1f752729b27bdf2a.jpg"
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": true,
+    "hyperspace": false,
     "cost": { "value": 2 }
   },
   {
@@ -353,11 +353,11 @@
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/80c71951bb28b45b9ffdc84c9e7e69f8.png",
         "ffg": 547,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7b3b50078bef620079c43a1689bb005a.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7b3b50078bef620079c43a1689bb005a.jpg"
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": true,
+    "hyperspace": false,
     "cost": { "value": 5 }
   },
   {
@@ -372,11 +372,11 @@
         "slots": ["Astromech"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/749fa54f44bc3327349aa3f8b1742a67.png",
         "ffg": 551,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/313d08463a9c2e7c5d9377a39277ef03.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/313d08463a9c2e7c5d9377a39277ef03.jpg"
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": false,
+    "hyperspace": true,
     "cost": { "value": 3 }
   },
   {
@@ -391,7 +391,7 @@
         "type": "Astromech",
         "slots": ["Astromech"],
         "ffg": 588,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/fe5da38a69cf0f5212d5cb06ea9053de.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fe5da38a69cf0f5212d5cb06ea9053de.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1d90c6b2f87d17c061e07a92373310b4.png"
       }
     ],
@@ -404,7 +404,7 @@
       {
         "ffg": 618,
         "title": "C1-10P",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/c480434cf330e99e269eaf0fe83e2444.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c480434cf330e99e269eaf0fe83e2444.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cde74a191d82775eacf2e273e855ef5f.png",
         "ability": "Setup: Equip this side faceup. After you execute a maneuver, you may spend 1 [Charge] to perform a red [Evade] action, even while stressed. During the End Phase, if this card has 0 active [Charge], flip it.",
         "slots": ["Astromech"],
@@ -414,7 +414,7 @@
       {
         "ffg": 617,
         "title": "C1-10P (Erratic)",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/815bfa9be6941de313eb1e318a02b2ae.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/815bfa9be6941de313eb1e318a02b2ae.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6150404202e627187f39b6092cdf702c.png",
         "ability": "After you execute a maneuver, you must choose a ship at range 0-1. It gains 1 jam token.",
         "slots": ["Astromech"],
@@ -439,40 +439,49 @@
         "slots": ["Astromech"],
         "charges": { "value": 3, "recovers": 0 },
         "ffg": 644,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2f64dab83e6e4c52702d5906a18dbae6.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2f64dab83e6e4c52702d5906a18dbae6.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/07ef542a7250abbf79d27526f17ac879.png"
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 5 }
   },
   {
     "name": "Q7 Astromech",
     "limited": 0,
     "xws": "q7astromech",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you barrel roll or boost, you can move through and overlap obstacles.",
         "title": "Q7 Astromech",
         "type": "Astromech",
-        "slots": ["Astromech"]
+        "slots": ["Astromech"],
+        "ffg": 863,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/36187a497f1d8fcd81e0209c279c2c2f.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 4 }
   },
   {
     "name": "R2-D2",
     "limited": 1,
     "xws": "r2d2-republic",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "After you activate, you may spend 1 [Charge] and gain 1 deplete token to repair 1 damage card, recover 1 shield, or remove 1 device at range 0-1.",
         "title": "R2-D2",
+        "ffg": 860,
         "type": "Astromech",
-        "slots": ["Astromech"]
+        "slots": ["Astromech"],
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cc1695a002e056cd11643b166658169e.jpg"
       }
     ],
-    "restrictions": [{ "factions": ["Galactic Republic"] }]
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "cost": {
+      "variable": "agility",
+      "values": { "0": 4, "1": 6, "2": 8, "3": 10 }
+    }
   },
   {
     "name": "R2-D2",
@@ -481,10 +490,12 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "During the End Phase, you may spend 1 [Charge] and 1 [Shield] to remove 1 red token. During the End Phase, if you have no active [Shield], you may spend 1 [Charge] to recover 1 [Shield] and gain 1 deplete token.",
+        "ability": "During the End Phase, you may spend 1 [Charge] and 1 shield to remove 1 red token. During the End Phase, if you have no active shields, you may spend 2 [Charge] to recover 1 shield and gain 1 deplete token.",
         "title": "R2-D2",
+        "ffg": 720,
         "type": "Astromech",
-        "slots": ["Astromech"]
+        "slots": ["Astromech"],
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f22fbeaa2ade3bd405388482bd747c27.jpg"
       }
     ],
     "cost": { "value": 6 },
@@ -497,10 +508,12 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "While you perform an attack, you may reroll a number of attack dice up to the number of friendly ship at range 0-3 that have the defender in their [Bullseye Arc].",
+        "ability": "While you perform an attack, you may reroll a number of attack dice up to the number of friendly ships at range 0-3 that have the defender in their [Bullseye Arc].",
         "title": "R6-D8",
         "type": "Astromech",
-        "slots": ["Astromech"]
+        "slots": ["Astromech"],
+        "ffg": 719,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7155fb226f88c98baf36c5b3fa1e2ef6.jpg"
       }
     ],
     "cost": { "value": 4 }
@@ -509,14 +522,17 @@
     "name": "R7-A7",
     "limited": 1,
     "xws": "r7a7",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform an attack, you may spend 1 [Charge] to change 1 [Hit] result to a [Critical Hit] result.",
         "title": "R7-A7",
         "type": "Astromech",
-        "slots": ["Astromech"]
+        "slots": ["Astromech"],
+        "ffg": 862,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/21a23aa5bad45f33650cc2f7a3b3ecce.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 3 }
   }
 ]

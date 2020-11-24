@@ -10,7 +10,7 @@
         "ability": "At the start of the Engagement Phase, you may spend 1 [Force]. If you do, engage at initiative 7 instead of your standard initiative value this phase.",
         "slots": ["Force Power"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_19.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_19.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_19.jpg",
         "ffg": 248
       }
     ],
@@ -28,7 +28,7 @@
         "ability": "While you perform a special attack, you may spend 1 [Force] to ignore the [Focus] or [Lock] requirement.",
         "slots": ["Force Power"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_20.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_20.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_20.jpg",
         "ffg": 249
       }
     ],
@@ -46,7 +46,7 @@
         "ability": "During the System Phase, you may choose 1 ship at range 0-1 and look at its dial. If you spend 1 [Force], you may choose a ship at range 0-3 instead.",
         "slots": ["Force Power"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_21.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_21.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_21.jpg",
         "ffg": 250
       }
     ],
@@ -64,7 +64,7 @@
         "ability": "Before you activate, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, suffer 1 [Hit] damage.",
         "slots": ["Force Power"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_22.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_22.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_22.jpg",
         "ffg": 251
       }
     ],
@@ -87,11 +87,11 @@
         "slots": ["Force Power"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/24b175ad35d035f33a35056b0d1d7a36.png",
         "ffg": 536,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/73bd7872a2c74e0402255f868d9d12bb.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/73bd7872a2c74e0402255f868d9d12bb.jpg"
       }
     ],
-    "cost": { "value": 3 },
-    "hyperspace": true
+    "cost": { "value": 2 },
+    "hyperspace": false
   },
   {
     "name": "Hate",
@@ -104,7 +104,7 @@
         "ability": "After you suffer 1 or more damage, recover that many [Force].",
         "slots": ["Force Power"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4a10b5c8a3d796116163a741d145f4e9.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a373c947f0a56ee4bcf4223250326dc0.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a373c947f0a56ee4bcf4223250326dc0.jpg",
         "ffg": 489
       }
     ],
@@ -113,7 +113,7 @@
       "values": { "Small": 3, "Medium": 6, "Large": 9 }
     },
     "restrictions": [{ "force_side": ["dark"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Predictive Shot",
@@ -125,13 +125,13 @@
         "type": "Force Power",
         "ability": "After you declare an attack, if the defender is in your [Bullseye Arc], you may spend 1 [Force]. If you do, during the Roll Defense Dice step, the defender cannot roll more defense dice than the number of your [Hit]/[Critical Hit] results.",
         "slots": ["Force Power"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/53ceabb0e2e66e61c077145475b18dab.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/53ceabb0e2e66e61c077145475b18dab.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e0100c63b2753daf68a9d3948824b086.png",
         "ffg": 490
       }
     ],
     "cost": { "value": 1 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Battle Meditation",
@@ -151,15 +151,15 @@
           }
         ],
         "ffg": 545,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e9aed0602a75ddad090820e59036a7fd.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e9aed0602a75ddad090820e59036a7fd.jpg"
       }
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 0, "1": 0, "2": 2, "3": 4, "4": 6, "5": 8, "6": 10 }
+      "values": { "0": 3, "1": 3, "2": 3, "3": 3, "4": 4, "5": 6, "6": 8 }
     },
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Foresight",
@@ -167,7 +167,7 @@
       {
         "ffg": 613,
         "title": "Foresight",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/87b83856576c1d4b7f3036d6008863f6.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/87b83856576c1d4b7f3036d6008863f6.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/12c948b9a0fe9f619ecda00f9fdcc437.png",
         "ability": "After an enemy ship executes a maneuver, you may spend 1 [Force] to perform this attack against it as a bonus attack. Attack: You may change 1 [Focus] result to a [Hit] result; your dice cannot be modified otherwise.",
         "slots": ["Force Power"],
@@ -193,7 +193,7 @@
       {
         "ffg": 614,
         "title": "Precognitive Reflexes",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7c139cebc9475051506c5b79a98f465a.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7c139cebc9475051506c5b79a98f465a.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/931c84c3e1b3afe5d078f6b3dd4f677a.png",
         "ability": "After you reveal your dial, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, gain 1 strain token. If you do, you cannot perform another action during your activation.",
         "slots": ["Force Power"],
@@ -211,28 +211,34 @@
     "name": "Extreme Maneuvers",
     "limited": 0,
     "xws": "extrememaneuvers",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform a [Boost] action, you may spend 1 [Force] to use the turn ([Turn Left] or [Turn Right]) template instead.",
         "title": "Extreme Maneuvers",
         "type": "Force Power",
-        "slots": ["Force Power"]
+        "slots": ["Force Power"],
+        "ffg": 848,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9fde6e000d6e1d9dd28e3ffb301b9c04.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 4 }
   },
   {
     "name": "Patience",
     "limited": 0,
     "xws": "patience",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
-        "ability": "At the start of the Engagement Phase, if there is an enemy in your [Front Arc], you may gain 1 deplete token to recover 1 [Force].",
+        "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Front Arc], you may gain 1 deplete token to recover 1 [Force].",
         "title": "Patience",
         "type": "Force Power",
-        "slots": ["Force Power"]
+        "slots": ["Force Power"],
+        "ffg": 849,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/905d768c07c386930b14d1d5f7e74ba4.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 2 }
   }
 ]

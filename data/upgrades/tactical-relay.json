@@ -11,7 +11,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/47dae8a3ecd27a48f3dc35aff03a1a75.png",
         "slots": ["Tactical Relay"],
         "ffg": 531,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0e1c2510e830ff6d9e7e6226ef2792b4.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0e1c2510e830ff6d9e7e6226ef2792b4.jpg",
         "grants": [
           {
             "type": "action",
@@ -39,7 +39,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/633a34a139c912116c1b034fc2765484.png",
         "slots": ["Tactical Relay"],
         "ffg": 530,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f6177b6339e425fff560af884596a83b.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f6177b6339e425fff560af884596a83b.jpg"
       }
     ],
     "restrictions": [
@@ -47,7 +47,7 @@
       { "solitary": true }
     ],
     "cost": { "value": 5 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "K2-B4",
@@ -61,7 +61,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/2178079ef9488899e51e927b2e136572.png",
         "slots": ["Tactical Relay"],
         "ffg": 537,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/fa9a0b38a079ec78b6db330c2ffc9b0a.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fa9a0b38a079ec78b6db330c2ffc9b0a.jpg"
       }
     ],
     "restrictions": [
@@ -83,7 +83,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d71e07aa3147c6fe943bd0c8131a0096.png",
         "slots": ["Tactical Relay"],
         "ffg": 590,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/daa093356e5022b74d375979446e32ff.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/daa093356e5022b74d375979446e32ff.jpg"
       }
     ],
     "restrictions": [
@@ -91,7 +91,7 @@
       { "solitary": true }
     ],
     "cost": { "value": 11 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "sides": [
@@ -100,7 +100,7 @@
         "title": "Kalani",
         "type": "Tactical Relay",
         "slots": ["Tactical Relay"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/903cb81e543eb48cd7ae6872f214cb24.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/903cb81e543eb48cd7ae6872f214cb24.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f7d014b30966a8e308aad5d1336d50dd.png",
         "ability": "After an enemy ship executes a maneuver, if it is in the [Bullseye Arc] of a friendly ship at range 0-3, you may spend 1 [Charge]. If you do, that friendly ship acquires a lock on that enemy ship, then gains 1 stress token.",
         "grants": [

@@ -18,11 +18,11 @@
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_146.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_146.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_146.jpg",
         "ffg": 371
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
@@ -42,7 +42,7 @@
         "charges": { "value": 1, "recovers": 0 },
         "actions": [{ "type": "SLAM", "difficulty": "White" }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3e9870bff7f61acc12970c254eaeca89.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b617cc192e2ffb8368de79d69e1e7956.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b617cc192e2ffb8368de79d69e1e7956.jpg",
         "ffg": 484,
         "grants": [
           {
@@ -52,7 +52,7 @@
         ]
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }, { "ships": ["t70xwing"] }],
     "hyperspace": true
   },
@@ -67,7 +67,7 @@
         "ability": "After you partially execute a maneuver, you may perform 1 white action, treating that action as red.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_123.png",
         "slots": ["Title"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_123.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_123.jpg",
         "ffg": 349
       }
     ],
@@ -89,7 +89,7 @@
         "ability": "You can dock 1 attack shuttle or Sheathipede-class shuttle. Your docked ships can deploy only from your rear guides.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_102.png",
         "slots": ["Title"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_102.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_102.jpg",
         "ffg": 326
       }
     ],
@@ -116,7 +116,7 @@
           { "type": "slot", "value": "Crew", "amount": -1 }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_147.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_147.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_147.jpg",
         "ffg": 372
       }
     ],
@@ -138,7 +138,7 @@
         "ability": "1 Z-95-AF4 headhunter can dock with you.",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_148.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_148.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_148.jpg",
         "ffg": 373
       }
     ],
@@ -160,7 +160,7 @@
         "ability": "You have the pilot ability of each other friendly ship with the IG-2000 upgrade.",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_149.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_149.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_149.jpg",
         "ffg": 374
       }
     ],
@@ -182,7 +182,7 @@
         "ability": "1 Escape Craft may dock with you. While you have an Escape Craft docked, you may treat its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/96b50606e65bfe308b9e75a03d9a1884.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg",
         "ffg": 390
       }
     ],
@@ -205,7 +205,7 @@
         "slots": ["Title"],
         "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_150.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_150.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_150.jpg",
         "ffg": 375
       }
     ],
@@ -234,7 +234,7 @@
             "value": { "type": "Evade", "difficulty": "White" }
           }
         ],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg",
         "ffg": 327
       }
     ],
@@ -264,7 +264,7 @@
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_151.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_151.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_151.jpg",
         "ffg": 376
       }
     ],
@@ -286,11 +286,11 @@
         "ability": "Gain a [Front Arc] primary weapon with a value of \"3.\" During the End Phase, do not remove up to 2 focus tokens.",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_104.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_104.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_104.jpg",
         "ffg": 328
       }
     ],
-    "cost": { "value": 18 },
+    "cost": { "value": 16 },
     "restrictions": [
       { "factions": ["Rebel Alliance", "Scum and Villainy"] },
       { "ships": ["hwk290lightfreighter"] }
@@ -308,7 +308,7 @@
         "ability": "While you perform an attack that is obstructed by an obstacle, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_105.png",
         "slots": ["Title"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg",
         "ffg": 329
       }
     ],
@@ -330,7 +330,7 @@
         "ability": "You can dock at range 0-1.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_106.png",
         "slots": ["Title"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_106.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_106.jpg",
         "ffg": 330
       }
     ],
@@ -356,7 +356,7 @@
           { "type": "slot", "value": "Astromech", "amount": 1 }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_152.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_152.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_152.jpg",
         "ffg": 377
       }
     ],
@@ -378,7 +378,7 @@
         "ability": "After you perform a [Coordinate] action, you may choose an enemy ship at range 0-3 of the ship you coordinated. If you do, acquire a lock on that enemy ship, ignoring range restrictions.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_124.png",
         "slots": ["Title"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_124.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_124.jpg",
         "ffg": 391
       }
     ],
@@ -400,7 +400,7 @@
         "ability": "After you perform an attack that hits, if the defender is in your [Single Turret Arc] and your [Front Arc], the defender gains 1 tractor token.",
         "slots": ["Title"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_153.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_153.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_153.jpg",
         "ffg": 378
       }
     ],
@@ -423,16 +423,16 @@
         "slots": ["Title"],
         "grants": [{ "type": "slot", "value": "Torpedo", "amount": 1 }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_154.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_154.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_154.jpg",
         "ffg": 379
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Virago",
@@ -450,11 +450,11 @@
           { "type": "stat", "value": "shields", "amount": 1 }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_155.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_155.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_155.jpg",
         "ffg": 380
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 7 },
     "restrictions": [{ "ships": ["starviperclassattackplatform"] }],
     "hyperspace": false
   },
@@ -468,7 +468,7 @@
         "type": "Title",
         "ability": "If you have 2 or fewer stress tokens, you can execute red Segnor's Loop [[Segnor's Loop Left] or [Segnor's Loop Right]] maneuvers and perform [Boost] and [Rotate Arc] actions even while stressed.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/23627443c7f5e7447c306ea7c6242634.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/905ee2a41b7d3b6d1f76294b4cd3e99e.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/905ee2a41b7d3b6d1f76294b4cd3e99e.jpg",
         "slots": ["Title"],
         "ffg": 485
       }
@@ -492,7 +492,7 @@
         "slots": ["Title"],
         "grants": [{ "type": "stat", "value": "hull", "amount": 2 }],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/36b33e7330846570087096cb55fba140.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/36d9391908fe020dec45153ce9bd7d3d.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/36d9391908fe020dec45153ce9bd7d3d.jpg",
         "ffg": 533
       }
     ],
@@ -523,7 +523,7 @@
             "value": { "type": "Jam", "difficulty": "White" }
           }
         ],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/1380bed351b072e5c4df4bb776625fad.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1380bed351b072e5c4df4bb776625fad.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/73d545fd02afd29fa8aa9e9015e7be6e.png",
         "ffg": 542
       }
@@ -545,7 +545,9 @@
         "ability": "Add [Gunner] slot. While you defend, if the attack range is 1, you may roll 1 additional defense die.",
         "title": "Assailer",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 769,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/adbdc704e0f66a27d4ae2ecfb2323d2d.jpg"
       }
     ],
     "cost": { "value": 7 }
@@ -557,10 +559,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "Add [Gunner] Slot. While you perofrm an attack at attack range 1-2, you may add 1 [Focus] result.",
+        "ability": "Add [Gunner] slot. While you perform an attack at attack range 1-2, you may add 1 [Focus] result.",
         "title": "Blood Crow",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 773,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7043e25c4bf030ade5b026e5bc8bd43e.jpg"
       }
     ],
     "cost": { "value": 5 }
@@ -575,7 +579,9 @@
         "ability": "You can reinforce only your [Full Front Arc]. While you defend, if you are reinforced and the attacker is in your [Full Front Arc], you may roll 1 additional defense die.",
         "title": "Bright Hope",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 766,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4f3cb0d471b9ea207665b120a5b27eb7.jpg"
       }
     ],
     "cost": { "value": 5 }
@@ -587,10 +593,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "Add [Crew] and [Illicit] slots. If you are damaged, reduce the difficulty if your speed 3-5 maneuvers.",
+        "ability": "Add [Crew] and [Illicit] slots. If you are damaged, reduce the difficulty of your speed 3-5 maneuvers.",
         "title": "Broken Horn",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 777,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b6b2484bd0fc2c17ff2159b1280a2e5d.jpg"
       }
     ],
     "cost": { "value": 4 }
@@ -611,7 +619,9 @@
             "type": "action",
             "value": { "type": "Calculate", "difficulty": "White" }
           }
-        ]
+        ],
+        "ffg": 770,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/89af7f90118cad6862fa2acb79f05e24.jpg"
       }
     ],
     "cost": { "value": 3 }
@@ -644,7 +654,9 @@
               "linked": { "type": "Coordinate", "difficulty": "Red" }
             }
           }
-        ]
+        ],
+        "ffg": 761,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1dca6b93927cdf20f638ddc7362e0f0f.jpg"
       }
     ],
     "cost": { "value": 8 }
@@ -659,7 +671,9 @@
         "ability": "Add [Crew] slot. After you perform an attack, if the defender was destroyed, you may perform a [Focus] or [Lock] action.",
         "title": "Impetuous",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 771,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/158a70d7bae002ca5bcd4c6fe94cb2d1.jpg"
       }
     ],
     "cost": { "value": 4 }
@@ -671,10 +685,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "Add [Cargo] slot. During the End Phase, you may recover 1 additional [Shield] or [Energy].",
+        "ability": "Add [Cargo] slot. During the End Phase, you may recover 1 additional shield or 1 additional [Energy].",
         "title": "Insatiable Worrt",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 779,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0dc42b21873c86f819f3dd528cdae1ff.jpg"
       }
     ],
     "cost": { "value": 7 }
@@ -686,10 +702,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "Add [Team] slot. While you perform an attack, if the defender has an orange or red tokem, you may reroll up to 2 attack dice.",
+        "ability": "Add [Team] slot. While you perform an attack, if the defender has an orange or red token, you may reroll up to 2 attack dice.",
         "title": "Instigator",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 772,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/943dfb58136280a8cf1ea781bf7b0c2f.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -704,7 +722,9 @@
         "ability": "While a friendly ship at range 0-2 defends, if the attack is obstructed by an obstacle, you may spend 1 [Energy]. If you do, the defender rolls 1 additional defense die.",
         "title": "Jaina's Light",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 762,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8276e8197e00c4f86b5f987643106334.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -721,7 +741,7 @@
         "type": "Title",
         "slots": ["Title"],
         "ffg": 655,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0affe4d794e05c485d6103e5414e816a.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0affe4d794e05c485d6103e5414e816a.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/793a1b659936801101622a5fc0a71e73.png"
       }
     ],
@@ -737,7 +757,9 @@
         "ability": "You can dock up to 2 small ships. After a ship deploys from you, it may perform a [Focus] or [Barrel Roll] action.",
         "title": "Liberator",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 763,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/18bb0bda87c23b452e0c4788136beb30.jpg"
       }
     ],
     "cost": { "value": 5 }
@@ -752,7 +774,9 @@
         "ability": "Setup: You are placed in reserve. At the end of setup, you are placed in the play area at range 0-2 of a friendly ship.",
         "title": "Luminous",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 767,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2989267c764d1eeff27159d85948b3df.jpg"
       }
     ],
     "cost": { "value": 12 }
@@ -777,7 +801,9 @@
             "type": "action",
             "value": { "type": "Coordinate", "difficulty": "White" }
           }
-        ]
+        ],
+        "ffg": 778,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9c35d5bc7124123ec8818e53912449bd.jpg"
       }
     ],
     "cost": { "value": 8 }
@@ -792,7 +818,9 @@
         "ability": "Add [Team] and [Cargo] slots. After you fully execute a white maneuver, recover 1 [Energy].",
         "title": "Quantum Storm",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 768,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b4166822602b0cb41a42d15ca563a0d.jpg"
       }
     ],
     "cost": { "value": 3 }
@@ -807,7 +835,9 @@
         "ability": "After a ship deploys from you, it may acquire a lock on one ship you are locking, ignoring range restrictions.",
         "title": "Requiem",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 774,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/81651841ae936b5090980c8fbf31fda3.jpg"
       }
     ],
     "cost": { "value": 7 }
@@ -822,7 +852,9 @@
         "ability": "Add [Sensor] slot. After you coordinate a friendly ship, you may spend 1 [Energy] to jam an enemy ship at range 0-2 of that ship, ignoring range restrictions.",
         "title": "Suppressor",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 775,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/45c68a9c1b84a9ca1a6dd4ed5b618210.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -837,7 +869,9 @@
         "ability": "Add 2 [Crew] slots. While you defend, if the attacker is in your [Rear Arc], you may roll 1 additional defense die.",
         "title": "Tantive IV",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 764,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/de2147d3f99347d5c07789917402b470.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -852,7 +886,9 @@
         "ability": "Add [Gunner] slot. While you perform a bonus attack, if you have not attacked the defender this round, you may reroll 1 attack die.",
         "title": "Thunderstrike",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 765,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4359306125f05df5481d93982c070c13.jpg"
       }
     ],
     "cost": { "value": 4 }
@@ -864,10 +900,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "Add [Crew] and [Cargo] slots. After a ships deploys from you, it may perform a [Evade] or [Boost] action.",
+        "ability": "Add [Crew] and [Cargo] slots. After a ship deploys from you, it may perform a [Evade] or [Boost] action.",
         "title": "Vector",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 776,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg"
       }
     ],
     "cost": { "value": 8 }
@@ -876,14 +914,17 @@
     "name": "Slave I",
     "limited": 1,
     "xws": "slavei-swz82",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform a [Front Arc] attack, if you are in the defender's [Full Rear Arc], you may change 1 [Hit] result to a [Critical Hit] result. Add [Gunner] slot.",
         "title": "Slave I",
         "type": "Title",
-        "slots": ["Title"]
+        "slots": ["Title"],
+        "ffg": 869,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d16195cbd5b4a9e1cfaf94b35dd188e7.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 3 }
   }
 ]

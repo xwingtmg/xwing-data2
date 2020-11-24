@@ -1,7 +1,7 @@
 {
   "name": "Escape Craft",
   "xws": "escapecraft",
-  "ffg": 48,
+  "ffg": 85,
   "size": "Small",
   "dial": [
     "0OR",
@@ -31,7 +31,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "Red", "type": "Coordinate" }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_EscapeShuttle.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_EscapeShuttle.png",
   "pilots": [
     {
       "name": "Autopilot Drone",
@@ -53,9 +53,9 @@
         "text": "During the System Phase, if you are not docked, lose 1 [Charge]. At the end of the Activation Phase, if you have 0 [Charge], you are destroyed. Before you are removed, each ship at range 0-1 suffers 1 [Critical Hit] damage."
       },
       "slots": [],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg",
       "ffg": 229,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "L3-37",
@@ -76,9 +76,9 @@
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
       },
       "slots": ["Talent", "Crew", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_228.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_228.jpg",
       "ffg": 228,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Lando Calrissian",
@@ -94,7 +94,7 @@
       },
       "slots": ["Talent", "Crew", "Modification"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_226.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg",
       "ffg": 226,
       "hyperspace": true
     },
@@ -112,9 +112,9 @@
         "text": "While you are docked, your carrier ship has your pilot ability in addition to its own."
       },
       "slots": ["Talent", "Crew", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_227.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_227.jpg",
       "ffg": 227,
-      "hyperspace": false
+      "hyperspace": true
     }
   ]
 }

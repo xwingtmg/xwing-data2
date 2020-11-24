@@ -2,6 +2,7 @@
   "name": "Eta-2 Actis",
   "xws": "eta2actis",
   "size": "Small",
+  "ffg": 76,
   "dial": [
     "1TW",
     "1YW",
@@ -45,11 +46,14 @@
       "xws": "anakinskywalker-eta2actis",
       "ability": "After you or a friendly Obi-Wan Kenobi ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship removes 1 red token of your choice.",
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
+      "hyperspace": true,
       "shipAbility": {
         "name": "Intuitive Controls",
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
-      }
+      },
+      "cost": 56,
+      "ffg": 781,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/59d5bfe1c3cae085918a62ab75573032.jpg"
     },
     {
       "name": "Obi-Wan Kenobi",
@@ -61,9 +65,12 @@
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
       },
       "caption": "Guardian of Democracy",
-      "hyperspace": false,
+      "hyperspace": true,
       "force": { "value": 3, "recovers": 1 },
-      "ability": "After you or a friendly Anakin Skywalker ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship gains 1 focus token."
+      "ability": "After you or a friendly Anakin Skywalker ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship gains 1 focus token.",
+      "cost": 49,
+      "ffg": 782,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7718872b876f1cd2a508276a6b79e187.jpg"
     },
     {
       "name": "Aayla Secura",
@@ -75,9 +82,12 @@
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
       },
       "caption": "Confident Warrior",
-      "hyperspace": false,
+      "hyperspace": true,
       "force": { "value": 2, "recovers": 1 },
-      "ability": "While an enemy ship in your [Front Arc] at range 0-1 performs an attack, the defender may change 1 blank result to a [Focus] result."
+      "ability": "While an enemy ship in your [Front Arc] at range 0-1 performs an attack, the defender may change 1 blank result to a [Focus] result.",
+      "cost": 51,
+      "ffg": 783,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a2171b5544ebfd56e22775efa9b73fc4.jpg"
     },
     {
       "name": "Shaak Ti",
@@ -89,9 +99,12 @@
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
       },
       "caption": "Compassionate Mentor",
-      "hyperspace": false,
+      "hyperspace": true,
       "force": { "value": 2, "recovers": 1 },
-      "ability": "At the start of the End Phase, you maye spend any number of [Force] to chose that many friendly ships at range 0-2. Each chosen ship does not remove 1 focus or evade token during this End Phase."
+      "ability": "At the start of the End Phase, you may spend any number of [Force] to choose that many friendly ships at range 0-2. Each chosen ship does not remove 1 focus or evade token during this End Phase.",
+      "cost": 44,
+      "ffg": 784,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c6e6e480dbdf934d2a7d04f1800f5e45.jpg"
     },
     {
       "name": "Jedi General",
@@ -102,9 +115,12 @@
         "name": "Intuitive Controls",
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
       },
-      "text": "As the Clone Wars takes it toll on the ranks of the Jedi Order, those that remain must assume even greater responsibilities of the Grand Army of the Republic.",
+      "text": "As the Clone Wars take their toll on the ranks of the Jedi Order, those that remain must assume even greater responsibilities in the Grand Army of the Republic.",
       "hyperspace": false,
-      "force": { "value": 2, "recovers": 1 }
+      "force": { "value": 2, "recovers": 1 },
+      "cost": 41,
+      "ffg": 786,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b6b83d1e5f47b832018274f35339492a.jpg"
     },
     {
       "name": "Yoda",
@@ -116,9 +132,13 @@
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
       },
       "caption": "Grand Master",
-      "hyperspace": false,
+      "hyperspace": true,
       "force": { "value": 3, "recovers": 1 },
-      "ability": "After another friendly ship at eange 0-3 spends 1 or more [Force], you may spend 1 [Force]. If you do, that ship recovers 1 [Force]."
+      "ability": "After another friendly ship at range 0-3 spends 1 or more [Force], you may spend 1 [Force]. If you do, that ship recovers 1 [Force].",
+      "cost": 48,
+      "ffg": 785,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cbe2495ee143163b82cd7808fbb4f7cd.jpg"
     }
-  ]
+  ],
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Eta-2_Actis.png"
 }

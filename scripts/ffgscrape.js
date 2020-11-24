@@ -6,8 +6,8 @@
 var https = require("https");
 var fs = require("fs");
 
-let cards = "https://squadbuilder.fantasyflightgames.com/api/cards/";
-let metadata = "https://squadbuilder.fantasyflightgames.com/api/app-metadata/";
+let cards = "https://x-wing-api.fantasyflightgames.com/cards/";
+let metadata = "https://x-wing-api.fantasyflightgames.com/app-metadata/";
 
 function getData(url) {
   console.log("Retrieving " + url);

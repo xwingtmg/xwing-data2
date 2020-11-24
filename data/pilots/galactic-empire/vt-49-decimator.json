@@ -36,7 +36,7 @@
     { "difficulty": "White", "type": "Rotate Arc" },
     { "difficulty": "Red", "type": "Coordinate" }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Decimator.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Decimator.png",
   "pilots": [
     {
       "name": "Captain Oicunn",
@@ -58,9 +58,9 @@
         "Title",
         "Gunner"
       ],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_146.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_146.jpg",
       "ffg": 146,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Patrol Leader",
@@ -80,9 +80,9 @@
         "Title",
         "Gunner"
       ],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_148.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_148.jpg",
       "ffg": 148,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Rear Admiral Chiraneau",
@@ -104,9 +104,9 @@
         "Title",
         "Gunner"
       ],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_147.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_147.jpg",
       "ffg": 147,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Morna Kee",
@@ -114,7 +114,7 @@
       "initiative": 4,
       "limited": 1,
       "caption": "Determined Attaché",
-      "hyperspace": true,
+      "hyperspace": false,
       "slots": [
         "Talent",
         "Torpedo",
@@ -130,7 +130,7 @@
       "ability": "During the End Phase, you may spend 1 [Charge] to flip 1 of your reinforce tokens to your other full arc instead of removing it.",
       "cost": 75,
       "ffg": 634,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/296bcef6b8b45cae418c80825f6eb512.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/296bcef6b8b45cae418c80825f6eb512.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5a913f54447ec375ccc1403769438f81.png"
     }
   ]

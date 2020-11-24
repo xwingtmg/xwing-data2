@@ -55,7 +55,7 @@
       "type": "Barrel Roll"
     }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEsf.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEsf.png",
   "pilots": [
     {
       "name": "\"Quickdraw\"",
@@ -79,7 +79,7 @@
       ],
       "charges": { "value": 1, "recovers": 1 },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d038dadd7a62bbe2de89d3866e1a3639.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/86f8ccc959081a43dc4d0dbeb921d0ba.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/86f8ccc959081a43dc4d0dbeb921d0ba.jpg",
       "ffg": 406,
       "hyperspace": false
     },
@@ -88,7 +88,7 @@
       "caption": "Fiery Fanatic",
       "initiative": 4,
       "limited": 1,
-      "cost": 39,
+      "cost": 38,
       "xws": "backdraft",
       "ability": "While you perform a [Single Turret Arc] primary attack, if the defender is in your [Rear Arc], roll 1 additional die.",
       "shipAbility": {
@@ -104,9 +104,9 @@
         "Tech"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/317cc5350980277f1d389ed618030d85.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/6c3a06877712596601ba1cc4ec533626.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/6c3a06877712596601ba1cc4ec533626.jpg",
       "ffg": 407,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Omega Squadron Expert",
@@ -128,7 +128,7 @@
         "Tech"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/784d00f653ff7cd58cb634c7a59e47c1.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2caf1312bd6aba3630ef6edc1ff81f53.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2caf1312bd6aba3630ef6edc1ff81f53.jpg",
       "ffg": 408,
       "hyperspace": true
     },
@@ -145,7 +145,7 @@
       },
       "slots": ["Sensor", "Missile", "Modification", "Gunner", "Tech"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/848db1993150bda19217e2c14b3c3df6.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg",
       "ffg": 409,
       "hyperspace": true
     },
@@ -159,7 +159,7 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "caption": "Unflinching Executioner",
-      "hyperspace": true,
+      "hyperspace": false,
       "slots": [
         "Talent",
         "Sensor",
@@ -169,9 +169,9 @@
         "Modification"
       ],
       "ability": "While you perform an attack, you may spend another friendly ship's lock on the defender to reroll any number of your results.",
-      "cost": 38,
+      "cost": 37,
       "ffg": 641,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e359738e224a6b5509fe19ee0cbf253c.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e359738e224a6b5509fe19ee0cbf253c.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/b823438eb2b32a407bf6a757a4ecb7d5.png"
     },
     {
@@ -184,7 +184,7 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "caption": "Scyre Survivor",
-      "hyperspace": true,
+      "hyperspace": false,
       "slots": [
         "Talent",
         "Sensor",
@@ -194,9 +194,9 @@
         "Modification"
       ],
       "ability": "While you defend, after the Neutralize Results step, another friendly ship at range 0-1 must suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
-      "cost": 39,
+      "cost": 38,
       "ffg": 642,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/c771d32332787ea1c723a78abb463cb4.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c771d32332787ea1c723a78abb463cb4.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/7c0bc32446e17991aff226d0fcab7b19.png"
     }
   ]

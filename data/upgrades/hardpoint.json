@@ -15,13 +15,17 @@
             "type": "action",
             "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
-        ]
+        ],
+        "ffg": 737,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/64d964f87f3c406a380a4e3d23f8adff.jpg"
       },
       {
         "ability": "Offline After you engage, you may spend 2 [Energy] to flip this card.",
         "title": "Ion Cannon Battery (Offline)",
         "type": "Hardpoint",
-        "slots": ["Hardpoint"]
+        "slots": ["Hardpoint"],
+        "ffg": 736,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b7837b3c19f0e0e552a3e2024ada0080.jpg"
       }
     ],
     "cost": { "value": 5 }
@@ -33,16 +37,20 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "Setup: Equip this side faceup. You can perform [Torpedo] and [Missile] attacks only as bonus attacks. You must treat the [Front Arc] requirement of you equipped [Torpedo] and [Missile] upgrades as [Full Front Arc]. Bonus Attack: Perform a [Torpedo] attack. Bonus Attack: Perform a [Missile] attack.",
+        "ability": "Setup: Equip this side faceup. You can perform [Torpedo] and [Missile] attacks only as bonus attacks. You must treat the [Front Arc] requirement of your equipped [Torpedo] and [Missile] upgrades as [Full Front Arc]. Bonus Attack: Perform a [Torpedo] attack. Bonus Attack: Perform a [Missile] attack.",
         "title": "Ordnance Tubes",
         "type": "Hardpoint",
-        "slots": ["Hardpoint"]
+        "slots": ["Hardpoint"],
+        "ffg": 741,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/704417993312731838f68390884c699d.jpg"
       },
       {
         "ability": "Offline You must treat the [Front Arc] requirement of your equipped [Torpedo] and [Missile] upgrades as [Bullseye Arc]. Action: Spend 2 [Energy] to flip this card.",
         "title": "Ordnance Tubes (Offline)",
         "type": "Hardpoint",
-        "slots": ["Hardpoint"]
+        "slots": ["Hardpoint"],
+        "ffg": 740,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1c29cf92ae4254dcc6d6e01649440928.jpg"
       }
     ],
     "cost": { "value": 1 }
@@ -63,13 +71,17 @@
             "type": "action",
             "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
-        ]
+        ],
+        "ffg": 743,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/190fb055e605840f31474e7c0d908f3a.jpg"
       },
       {
         "ability": "Offline After you engage, you may spend 2 [Energy] to flip this card.",
         "title": "Point-Defense Battery (Offline)",
         "type": "Hardpoint",
-        "slots": ["Hardpoint"]
+        "slots": ["Hardpoint"],
+        "ffg": 742,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/19ff0f46629df40158546791f897b55b.jpg"
       }
     ],
     "cost": { "value": 9 }
@@ -90,13 +102,17 @@
             "type": "action",
             "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
-        ]
+        ],
+        "ffg": 739,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f8b2128da475099b9d362e26f04b8e55.jpg"
       },
       {
         "ability": "Offline After you engage, you may spend 2 [Energy] to flip this card.",
         "title": "Targeting Battery (Offline)",
         "type": "Hardpoint",
-        "slots": ["Hardpoint"]
+        "slots": ["Hardpoint"],
+        "ffg": 738,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b60587c3fead89e24b6990a2adb1131c.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -108,7 +124,7 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "Setup: Equip this side faceup. Bonus Attack([Lock]): Spend 3 [Energy]. If this attack hits, add 3 [Hit] results.",
+        "ability": "Setup: Equip this side faceup. Bonus Attack ([Lock]): Spend 3 [Energy]. If this attack hits, add 3 [Hit] results.",
         "title": "Turbolaser Battery",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
@@ -117,13 +133,17 @@
             "type": "action",
             "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
-        ]
+        ],
+        "ffg": 745,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4962c14923b8a068cd8ba6ac34ebd443.jpg"
       },
       {
         "ability": "Offline After you engage, you may spend 2 [Energy] to flip this card.",
         "title": "Turbolaser Battery (Offline)",
         "type": "Hardpoint",
-        "slots": ["Hardpoint"]
+        "slots": ["Hardpoint"],
+        "ffg": 744,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3a88323269e88afa9557ec1b2fe46925.jpg"
       }
     ],
     "cost": { "value": 13 }

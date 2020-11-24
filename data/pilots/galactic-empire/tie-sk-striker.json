@@ -33,7 +33,7 @@
     { "difficulty": "White", "type": "Evade" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEStriker.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEStriker.png",
   "pilots": [
     {
       "name": "\"Countdown\"",
@@ -49,9 +49,9 @@
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
       "slots": ["Talent", "Device", "Modification", "Gunner"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_118.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_118.jpg",
       "ffg": 118,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "\"Duchess\"",
@@ -67,9 +67,9 @@
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
       "slots": ["Talent", "Device", "Modification", "Gunner"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_117.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_117.jpg",
       "ffg": 117,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "\"Pure Sabacc\"",
@@ -85,9 +85,9 @@
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
       "slots": ["Talent", "Device", "Modification", "Gunner"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_119.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_119.jpg",
       "ffg": 119,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Black Squadron Scout",
@@ -102,7 +102,7 @@
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
       "slots": ["Talent", "Device", "Modification", "Gunner"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_120.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_120.jpg",
       "ffg": 120,
       "hyperspace": true
     },
@@ -119,7 +119,7 @@
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
       "slots": ["Device", "Modification", "Gunner"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_121.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_121.jpg",
       "ffg": 121,
       "hyperspace": true
     },
@@ -133,12 +133,12 @@
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
       "caption": "Destitute Demolitionist",
-      "hyperspace": true,
+      "hyperspace": false,
       "slots": ["Talent", "Gunner", "Device", "Modification"],
       "ability": "After you fully execute a maneuver using your Adaptive Ailerons, if you are not stressed, you may drop 1 device.",
       "cost": 34,
       "ffg": 633,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/308e253711036e143e22857365bcb7ca.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/308e253711036e143e22857365bcb7ca.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e1b12f8287593ebaf960561c2febffe4.png"
     }
   ]

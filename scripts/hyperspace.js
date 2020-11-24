@@ -9,7 +9,7 @@ const log = (...args) => console.log(...args);
 const getApiResponse = async endpoint => {
   log(`Fetching API endpoint ${endpoint}`);
   const response = await fetch(
-    `https://squadbuilder.fantasyflightgames.com/api${endpoint}`
+    `https://x-wing-api.fantasyflightgames.com/${endpoint}`
   );
   return await response.json();
 };
@@ -27,20 +27,10 @@ const run = async () => {
   }
   log(`Found Hyperspace format:\n`, hyperspaceFormat);
 
-  const { cards: hyperspaceCards } = await getApiResponse(
-    `/cards/?game_format=${hyperspaceFormat.id}`
-  );
   const {
-    upgrades: hyperspaceUpgradeIds,
-    pilots: hyperspacePilotIds
-  } = hyperspaceCards.reduce(
-    (acc, card) => {
-      if (card.card_type_id === 1) acc.pilots.push(card.id);
-      if (card.card_type_id === 2) acc.upgrades.push(card.id);
-      return acc;
-    },
-    { upgrades: [], pilots: [] }
-  );
+    allowed_upgrades: hyperspaceUpgradeIds,
+    allowed_pilots: hyperspacePilotIds
+  } = hyperspaceFormat;
 
   log(`Found ${hyperspacePilotIds.length} Hyperspace pilots`);
   log(`Found ${hyperspaceUpgradeIds.length} Hyperspace upgrades`);

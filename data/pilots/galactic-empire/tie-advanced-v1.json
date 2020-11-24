@@ -47,7 +47,7 @@
       "type": "Boost"
     }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEAdvancedPrototype.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAdvancedPrototype.png",
   "pilots": [
     {
       "name": "Baron of the Empire",
@@ -58,7 +58,7 @@
       "text": "Sienar Fleet System's TIE Advanced v1 is a groundbreaking starfighter design, featuring upgraded engines, a missile launcher, and folding s-foils.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_101.png",
       "slots": ["Talent", "Sensor", "Missile"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_101.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_101.jpg",
       "ffg": 101,
       "hyperspace": true
     },
@@ -73,7 +73,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_99.png",
       "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "slots": ["Sensor", "Missile", "Force Power"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_99.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_99.jpg",
       "ffg": 99,
       "hyperspace": false
     },
@@ -87,9 +87,9 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_102.png",
       "force": { "value": 1, "recovers": 1, "side": ["dark"] },
       "slots": ["Sensor", "Missile", "Force Power"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_102.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_102.jpg",
       "ffg": 102,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Seventh Sister",
@@ -102,9 +102,9 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_100.png",
       "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "slots": ["Sensor", "Missile", "Force Power"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg",
       "ffg": 100,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Fifth Brother",
@@ -112,13 +112,13 @@
       "initiative": 4,
       "limited": 1,
       "caption": "Ruthless Brute",
-      "hyperspace": true,
+      "hyperspace": false,
       "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "slots": ["Force Power", "Sensor", "Missile"],
       "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force] to add 1 [Critical Hit] result.",
       "cost": 42,
       "ffg": 632,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/e79e45f2bdb5a2ab6ff6728b42db0b74.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e79e45f2bdb5a2ab6ff6728b42db0b74.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/01a02a00ef5aad21bc1f0a58028136ec.png"
     }
   ]

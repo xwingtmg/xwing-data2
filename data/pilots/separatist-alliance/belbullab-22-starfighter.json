@@ -44,7 +44,7 @@
       "type": "Boost"
     }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Belbullab-22.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Belbullab-22.png",
   "pilots": [
     {
       "name": "General Grievous",
@@ -58,7 +58,7 @@
       "cost": 44,
       "slots": ["Talent", "Modification", "Title", "Tactical Relay"],
       "ffg": 492,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3e4dee70764ead7ebe581246a0d4b85d.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3e4dee70764ead7ebe581246a0d4b85d.jpg"
     },
     {
       "name": "Wat Tambor",
@@ -72,7 +72,7 @@
       "cost": 42,
       "slots": ["Talent", "Modification", "Title", "Tactical Relay"],
       "ffg": 493,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/95127fa6d286fe64f3070e742dc64a7c.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/95127fa6d286fe64f3070e742dc64a7c.jpg"
     },
     {
       "name": "Feethan Ottraw Autopilot",
@@ -95,11 +95,11 @@
           "type": "Boost"
         }
       ],
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 35,
       "slots": ["Modification", "Title", "Tactical Relay"],
       "ffg": 496,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/91052cb8f4ba464f5ac4572a725f757b.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/91052cb8f4ba464f5ac4572a725f757b.jpg"
     },
     {
       "name": "Captain Sear",
@@ -109,11 +109,11 @@
       "xws": "captainsear",
       "ability": "While a friendly ship at range 0-3 performs a primary attack, if the defender is in its [Bullseye Arc], before the Neutralize Results step, the friendly ship may spend 1 calculate token to cancel 1 [Evade] result.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3d3704ab454433a8b4d73ee6bff430b8.png",
-      "hyperspace": false,
+      "hyperspace": true,
       "cost": 45,
       "slots": ["Modification", "Title", "Tactical Relay"],
       "ffg": 494,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/91a7a38482d28f21b2620d058800a8fe.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/91a7a38482d28f21b2620d058800a8fe.jpg"
     },
     {
       "name": "Skakoan Ace",
@@ -123,10 +123,10 @@
       "ffg": 495,
       "initiative": 3,
       "limited": 0,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/af0e63b7754ef598f1f36ed9a6c4b4ee.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/af0e63b7754ef598f1f36ed9a6c4b4ee.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ceb7a3bc406ff17be5dee5de62b39195.png",
       "text": "With its powerful engines, devastating triple laser cannons, and high customizability, the Belbullab-22 is the chosen craft of several elite Separatist Alliance pilots, including the infamous General Grievous.",
-      "hyperspace": true
+      "hyperspace": false
     }
   ],
   "ffg": 58

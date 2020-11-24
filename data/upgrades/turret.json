@@ -24,12 +24,12 @@
           }
         ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_31.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_31.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_31.jpg",
         "ffg": 260
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Ion Cannon Turret",
@@ -56,11 +56,11 @@
             "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
         ],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_32.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_32.jpg",
         "ffg": 261
       }
     ],
     "cost": { "value": 5 },
-    "hyperspace": true
+    "hyperspace": false
   }
 ]

@@ -35,7 +35,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEInterceptor.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEInterceptor.png",
   "pilots": [
     {
       "name": "Alpha Squadron Pilot",
@@ -50,7 +50,7 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": ["Modification", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg",
       "ffg": 106,
       "hyperspace": true
     },
@@ -58,7 +58,7 @@
       "name": "Saber Squadron Ace",
       "initiative": 4,
       "limited": 0,
-      "cost": 36,
+      "cost": 35,
       "xws": "sabersquadronace",
       "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_105.png",
@@ -67,7 +67,7 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": ["Talent", "Modification", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg",
       "ffg": 105,
       "hyperspace": true
     },
@@ -85,7 +85,7 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": ["Talent", "Modification", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg",
       "ffg": 103,
       "hyperspace": false
     },
@@ -103,9 +103,9 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": ["Talent", "Modification", "Modification"],
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg",
       "ffg": 104,
-      "hyperspace": true
+      "hyperspace": false
     }
   ]
 }

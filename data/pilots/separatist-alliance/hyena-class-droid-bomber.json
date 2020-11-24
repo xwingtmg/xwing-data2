@@ -2,7 +2,7 @@
   "name": "Hyena-class Droid Bomber",
   "xws": "hyenaclassdroidbomber",
   "size": "Small",
-  "ffg": 66,
+  "ffg": 64,
   "dial": [
     "1TW",
     "1BR",
@@ -50,7 +50,7 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 25,
       "slots": [
         "Torpedo",
@@ -62,7 +62,7 @@
       "text": "Baktoid Armor Workshop developed the Hyena as a strike craft compatible with Trade Federation Vulture swarm tactics.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/749bdc89c3da6b8034154780959e9c34.png",
       "ffg": 568,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/38a1ea6b53a619fcc6121cc32a91024d.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/38a1ea6b53a619fcc6121cc32a91024d.jpg"
     },
     {
       "name": "Bombardment Drone",
@@ -80,7 +80,7 @@
       "cost": 29,
       "slots": ["Sensor", "Device", "Device", "Modification", "Configuration"],
       "ffg": 565,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/bc5e862af323dbe8db28d0d6bc6be4ad.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/bc5e862af323dbe8db28d0d6bc6be4ad.jpg"
     },
     {
       "name": "DBS-404",
@@ -104,7 +104,7 @@
       "ability": "You can perform primary attacks at range 0. While you perform an attack at attack range 0-1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3e647295c7237a5eb36b94d887eb8e56.png",
       "ffg": 563,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/fb1f119c8dcd69db43a442fecf25fceb.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fb1f119c8dcd69db43a442fecf25fceb.jpg"
     },
     {
       "name": "Baktoid Prototype",
@@ -128,7 +128,7 @@
         "Configuration"
       ],
       "ffg": 566,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f1e719d3490aceee6e5d93ac5b2a6cb2.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f1e719d3490aceee6e5d93ac5b2a6cb2.jpg"
     },
     {
       "name": "Separatist Bomber",
@@ -141,7 +141,7 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 28,
       "slots": [
         "Torpedo",
@@ -151,7 +151,7 @@
         "Configuration"
       ],
       "ffg": 567,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/162821196c9ca9ca7ef8d1cb1acab15b.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/162821196c9ca9ca7ef8d1cb1acab15b.jpg"
     },
     {
       "name": "DBS-32C",
@@ -179,8 +179,8 @@
       "cost": 40,
       "slots": ["Sensor", "Tactical Relay", "Modification", "Configuration"],
       "ffg": 564,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/f58f50898f4fa3900eb1b7d01aec4ae5.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f58f50898f4fa3900eb1b7d01aec4ae5.jpg"
     }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Hyena.png"
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Hyena.png"
 }

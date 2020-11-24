@@ -9,7 +9,9 @@
         "ability": "You are a wing leader. Your wingmates must be 2, 3, 4, or 5 TIE/ln fighters. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.",
         "title": "Agent of the Empire",
         "type": "Command",
-        "slots": ["Command"]
+        "slots": ["Command"],
+        "ffg": 732,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f7021137f14e5ee530cd1cc9e5b9264a.jpg"
       }
     ],
     "cost": { "value": 4 }
@@ -24,7 +26,9 @@
         "ability": "While you perform an attack against a huge ship, if the attack deals a faceup damage card to the defender and the defender is in your [Bullseye Arc], you may apply the Precision Shot effect even if you are not in the specified arc.",
         "title": "Dreadnought Hunter",
         "type": "Command",
-        "slots": ["Command"]
+        "slots": ["Command"],
+        "ffg": 735,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/077db882ed94ceec1150c405bd689c33.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -39,7 +43,9 @@
         "ability": "You are a wing leader. Your wingmates must be 2 or 3 TIE/fo fighters or TIE/sf fighters. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.",
         "title": "First Order Elite",
         "type": "Command",
-        "slots": ["Command"]
+        "slots": ["Command"],
+        "ffg": 733,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/aa85719e74f86fec8b7232cf901f9f29.jpg"
       }
     ],
     "cost": { "value": 4 }
@@ -54,7 +60,9 @@
         "ability": "You are a wing leader. Your wingmates must be 2, 3, 4, or 5 other ships of your ship type. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.",
         "title": "Veteran Wing Leader",
         "type": "Command",
-        "slots": ["Command"]
+        "slots": ["Command"],
+        "ffg": 734,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d40521b56b50feb76368a2233b4da4d9.jpg"
       }
     ],
     "cost": { "value": 2 }
@@ -66,10 +74,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "While a friendly large or huge ship at range 0-3 executes a maneuver, it may suffer 1 [Hit] damage to execute a maneuver of a speed 1 higher or lower instead.",
+        "ability": "While a friendly large or huge ship at range 0-3 executes a maneuver, it may suffer 1 [Hit] damage to execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
         "title": "Admiral Ozzel",
-        "type": "Command",
-        "slots": ["Command", "Crew"]
+        "type": "Crew",
+        "slots": ["Crew", "Command"],
+        "ffg": 724,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f5f82fcbc211ffa39f9a213fac643a76.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -81,10 +91,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "During the End Phase, you may chooses up to 2 friendly ships at range 0-1. If you do, each of these ships does not remove 1 calculate or evade token.",
+        "ability": "During the End Phase, you may choose up to 2 friendly ships at range 0-1. If you do, each of these ships does not remove 1 calculate or evade token.",
         "title": "Azmorigan",
-        "type": "Command",
-        "slots": ["Command", "Crew"]
+        "type": "Crew",
+        "slots": ["Crew", "Command"],
+        "ffg": 725,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4dfc9c0a148c3aac400435771a229870.jpg"
       }
     ],
     "cost": { "value": 4 }
@@ -98,8 +110,10 @@
       {
         "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.",
         "title": "Captain Needa",
-        "type": "Command",
-        "slots": ["Command", "Crew"]
+        "type": "Crew",
+        "slots": ["Crew", "Command"],
+        "ffg": 726,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0583ea3a0143ba8e16ced0d3338f0df1.jpg"
       }
     ],
     "cost": { "value": 8 }
@@ -113,14 +127,16 @@
       {
         "ability": "After a friendly ship at range 0-2 is destroyed, you may choose a friendly ship at range 0-2. If you do, it may perform a red [Evade] action.",
         "title": "Carlist Rieekan",
-        "type": "Command",
-        "slots": ["Command", "Crew"],
+        "type": "Crew",
+        "slots": ["Crew", "Command"],
         "grants": [
           {
             "type": "action",
             "value": { "type": "Evade", "difficulty": "Red" }
           }
-        ]
+        ],
+        "ffg": 728,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a86c9d037c976d140ae0d6095f39225a.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -134,8 +150,10 @@
       {
         "ability": "Friendly ships at range 0-3 can spend your focus and evade tokens.",
         "title": "Jan Dodonna",
-        "type": "Command",
-        "slots": ["Command", "Crew"]
+        "type": "Crew",
+        "slots": ["Crew", "Command"],
+        "ffg": 729,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fa6dba670282a19b80dc0e53dec78536.jpg"
       }
     ],
     "cost": { "value": 4 }
@@ -149,8 +167,10 @@
       {
         "ability": "After you are destroyed, each friendly ship at range 0-1 gains 1 focus token. After you are destroyed, you are not removed until the end of the End Phase.",
         "title": "Raymus Antilles",
-        "type": "Command",
-        "slots": ["Command", "Crew"]
+        "type": "Crew",
+        "slots": ["Crew", "Command"],
+        "ffg": 730,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ac03675e91a973a4a31a9b4d380080a6.jpg"
       }
     ],
     "cost": { "value": 12 }
@@ -164,8 +184,10 @@
       {
         "ability": "After you are destroyed, you are not removed until the end of the End Phase.",
         "title": "Stalwart Captain",
-        "type": "Command",
-        "slots": ["Command", "Crew"]
+        "type": "Crew",
+        "slots": ["Crew", "Command"],
+        "ffg": 731,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e204e200410fdea80a1e7582db0dcd32.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -177,10 +199,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do it sets its dial to another maneuver of the same difficulty and speed.",
+        "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.",
         "title": "Strategic Commander",
-        "type": "Command",
-        "slots": ["Command", "Crew"]
+        "type": "Crew",
+        "slots": ["Crew", "Command"],
+        "ffg": 727,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -192,11 +216,22 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "While your wingmates execute purple maneuvers, they treat those maneuvers as red instead. While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
+        "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 V-19 Torrents or 2-5 Nimbus-class V-wings. After you are placed, flip this card.",
         "title": "Jedi Commander",
         "type": "Command",
-        "slots": ["Command"]
+        "slots": ["Command"],
+        "ffg": 835,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/04b5550c3226ede7611fcf46a0c6253f.jpg"
+      },
+      {
+        "ability": "While your wingmates execute purple maneuvers, they treat those maneuvers as red, instead. While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
+        "title": "Jedi Commander",
+        "type": "Command",
+        "slots": ["Command"],
+        "ffg": 834,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/04b5550c3226ede7611fcf46a0c6253f.jpg"
       }
-    ]
+    ],
+    "cost": { "value": 5 }
   }
 ]

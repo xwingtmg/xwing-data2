@@ -17,7 +17,7 @@
           "ordnance": false
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_27.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_27.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_27.jpg",
         "ffg": 256
       }
     ],
@@ -42,7 +42,7 @@
           "ordnance": false
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_28.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_28.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_28.jpg",
         "ffg": 257
       }
     ],
@@ -67,7 +67,7 @@
           "ordnance": false
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_29.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_29.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_29.jpg",
         "ffg": 258
       }
     ],
@@ -92,11 +92,11 @@
           "ordnance": false
         },
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_30.png",
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_U_30.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_30.jpg",
         "ffg": 259
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 4 },
     "hyperspace": true
   },
   {
@@ -104,7 +104,7 @@
     "limited": 0,
     "xws": "autoblasters",
     "cost": { "value": 3 },
-    "hyperspace": true,
+    "hyperspace": false,
     "sides": [
       {
         "ability": "Attack: If the defender is in your [Bullseye Arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender's [Front Arc], [Evade] results do not cancel [Critical Hit] results.",
@@ -119,7 +119,7 @@
           "ordnance": false
         },
         "ffg": 578,
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/dbdad938bd9f4ce64af1d7106dfd5b5e.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/dbdad938bd9f4ce64af1d7106dfd5b5e.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/59d4a52e3a534dd090259bd5546e7bab.png"
       }
     ]
@@ -131,7 +131,7 @@
         "title": "Synced Laser Cannons",
         "type": "Cannon",
         "slots": ["Cannon", "Cannon"],
-        "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/70d44704aaa8bb8d1f1e2bc904b18c77.jpg",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70d44704aaa8bb8d1f1e2bc904b18c77.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6927e82e460670044786cd46327cb891.png",
         "ability": "Attack: If you are calculating, the defender does not apply the range bonus."
       }
@@ -149,7 +149,7 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack ([Lock]): Your dice can be modified only by spending a lock for the default effect.",
+        "ability": "After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack ([Lock]):Your dice can be modified only by spending a lock for the default effect.",
         "title": "Underslung Blaster Cannon",
         "type": "Cannon",
         "slots": ["Cannon"],
@@ -165,7 +165,9 @@
             "type": "action",
             "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
-        ]
+        ],
+        "ffg": 718,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/734d68b47d976624629d101299719222.jpg"
       }
     ],
     "cost": { "value": 3 }

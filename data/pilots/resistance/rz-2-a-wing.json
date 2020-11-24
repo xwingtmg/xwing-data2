@@ -37,14 +37,14 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_RZ-2_A-wing.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_RZ-2_A-wing.png",
   "pilots": [
     {
       "name": "L'ulo L'ampar",
       "caption": "Luminous Mentor",
       "initiative": 5,
       "limited": 1,
-      "cost": 43,
+      "cost": 42,
       "xws": "lulolampar",
       "ability": "While you defend or perform a primary attack, if you are stressed, you must roll 1 fewer defense die or 1 additional attack die.",
       "shipAbility": {
@@ -53,16 +53,16 @@
       },
       "slots": ["Talent", "Talent", "Missile", "Tech"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e15d3e2a2fc082b95a64a83df0c96f7f.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/b97a025a7859f54bbc68374ff5d8116e.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b97a025a7859f54bbc68374ff5d8116e.jpg",
       "ffg": 435,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Tallissan Lintra",
       "caption": "Deadly Approach",
       "initiative": 5,
       "limited": 1,
-      "cost": 36,
+      "cost": 37,
       "xws": "tallissanlintra",
       "ability": "While an enemy ship in your [Bullseye Arc] performs an attack, you may spend 1 [Charge]. If you do, the defender rolls 1 additional die.",
       "shipAbility": {
@@ -70,7 +70,7 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/72cb6c4e50b0ad24af0bb84ce0aa53f0.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/ee8c3c26ce6432d7581c5f61392597bc.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ee8c3c26ce6432d7581c5f61392597bc.jpg",
       "charges": { "value": 1, "recovers": 1 },
       "slots": ["Talent", "Talent", "Missile", "Tech"],
       "ffg": 436,
@@ -89,7 +89,7 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d7f37dbb86bb706dd535e9a65b69149a.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/2fe44e1e5496645c16f4d2189a1746e3.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2fe44e1e5496645c16f4d2189a1746e3.jpg",
       "slots": ["Talent", "Talent", "Missile", "Tech"],
       "ffg": 438,
       "hyperspace": true
@@ -107,7 +107,7 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/7fc7b194b02ad7af6adf4ef9b79108d1.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/84bf1ce21926d4500b54e122da01b162.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/84bf1ce21926d4500b54e122da01b162.jpg",
       "slots": ["Talent", "Talent", "Missile", "Tech"],
       "ffg": 437,
       "hyperspace": true
@@ -125,15 +125,15 @@
       },
       "slots": ["Talent", "Talent", "Missile", "Tech"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3f7ad9efb4c5af8b4d1f5c07a3c7538b.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/8427bdfb1cf9497a9ab797e2c955ba41.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8427bdfb1cf9497a9ab797e2c955ba41.jpg",
       "ffg": 439,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Blue Squadron Recruit",
       "initiative": 1,
       "limited": 0,
-      "cost": 32,
+      "cost": 33,
       "xws": "bluesquadronrecruit",
       "text": "Young beings across the galaxy have grown up on tales of heroism in the Galactic Civil War, and many learned to fly in the same cockpits from which their parents fought the Empire.",
       "shipAbility": {
@@ -142,9 +142,9 @@
       },
       "slots": ["Talent", "Missile", "Tech"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e033b2729305ac0b678d6031ada7b2b8.png",
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/3df643a75106a59899e5f32ef56e8a5e.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3df643a75106a59899e5f32ef56e8a5e.jpg",
       "ffg": 440,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Zizi Tlo",
@@ -162,7 +162,7 @@
       "cost": 41,
       "ffg": 638,
       "charges": { "value": 1, "recovers": 1 },
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/7d5b4f0691b55e9c755b1e71bd16a422.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7d5b4f0691b55e9c755b1e71bd16a422.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/17b2411d61b671ebca568ca2bb55e2da.png"
     },
     {
@@ -180,7 +180,7 @@
       "ability": "While you defend or perform an attack, if the enemy ship is in another friendly ship's [Single Turret Arc], you may spend 1 focus token from that friendly ship to change 1 of your [Focus] results to an [Evade] or [Hit] result.",
       "cost": 34,
       "ffg": 639,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/0930bea45803774f4b0d863b92a64328.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0930bea45803774f4b0d863b92a64328.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1e861cadd2291ece7a9207cddcdcba39.png"
     },
     {
@@ -196,14 +196,16 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "slots": ["Talent", "Missile", "Tech"],
-      "hyperspace": true
+      "hyperspace": true,
+      "ffg": 704,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c51115091ff7f31d6c2da890ed303dd8.jpg"
     },
     {
       "name": "Suralinda Javos",
       "caption": "Inquisitive Journalist",
       "initiative": 3,
       "limited": 1,
-      "cost": 33,
+      "cost": 35,
       "xws": "suralindajavos",
       "ability": "After you partially execute a maneuver, you may gain 1 strain token to rotate 90° or 180°.",
       "shipAbility": {
@@ -211,7 +213,9 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "slots": ["Talent", "Talent", "Missile", "Tech"],
-      "hyperspace": true
+      "hyperspace": true,
+      "ffg": 703,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/255fef80a9e49eb154f254405b6d4ff5.jpg"
     },
     {
       "name": "Wrobie Tyce",
@@ -226,14 +230,16 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "slots": ["Talent", "Talent", "Missile", "Tech"],
-      "hyperspace": true
+      "hyperspace": true,
+      "ffg": 702,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cdc08804712c43ad1f8c6d0597f9d8e3.jpg"
     },
     {
       "name": "Seftin Vanik",
       "caption": "Skillful Wingmate",
       "initiative": 5,
       "limited": 1,
-      "cost": 36,
+      "cost": 37,
       "xws": "seftinvanik",
       "ability": "After you perform a [Boost] action, you may transfer 1 evade token to a friendly ship at range 1.",
       "shipAbility": {
@@ -241,7 +247,9 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "slots": ["Talent", "Talent", "Missile", "Tech"],
-      "hyperspace": true
+      "hyperspace": true,
+      "ffg": 701,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ee11a475190af6c517ca872b19cdaa62.jpg"
     }
   ]
 }

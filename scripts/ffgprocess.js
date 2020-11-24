@@ -4,6 +4,7 @@
 
 const fs = require("fs");
 const gitdiff = require("git-diff");
+const stringMath = require("string-math");
 const diffOpts = {
   color: true,
   noHeaders: true,
@@ -100,6 +101,58 @@ function getFaction(id) {
     return faction.name;
   } else {
     return "";
+  }
+}
+
+function parseVariablePointsCost(cost) {
+  const matches = /max\((\d*), ?(.*)\)/.exec(cost);
+  let hasMax = false;
+  let max = false;
+  let expression = cost;
+  if (matches) {
+    hasMax = true;
+    max = parseInt(matches[1], 10);
+    expression = matches[2];
+  }
+  if (cost.includes("{ship_size}")) {
+    const ship_size_values = {
+      Small: 1,
+      Medium: 2,
+      Large: 3
+      // Huge: 4
+    };
+    const values = {};
+    Object.entries(ship_size_values).forEach(([size, value]) => {
+      const result = stringMath(expression.replace("{ship_size}", value));
+      values[size] = Math.max(0, hasMax ? Math.max(max, result) : result);
+    });
+    return {
+      variable: "size",
+      values
+    };
+  } else if (cost.includes("{initiative}")) {
+    const values = {};
+    for (let i = 0; i <= 6; i++) {
+      const result = stringMath(expression.replace("{initiative}", i));
+      values[i] = Math.max(0, hasMax ? Math.max(max, result) : result);
+    }
+    return {
+      variable: "initiative",
+      values
+    };
+  } else if (cost.includes("{statistics:1}")) {
+    // statistics:1 = AGILITY
+    const values = {};
+    for (let i = 0; i <= 3; i++) {
+      const result = stringMath(expression.replace("{statistics:1}", i));
+      values[i] = Math.max(0, hasMax ? Math.max(max, result) : result);
+    }
+    return {
+      variable: "agility",
+      values
+    };
+  } else {
+    throw new Error(`Unknown variable in variable cost: "${cost}"`);
   }
 }
 
@@ -252,8 +305,8 @@ function processCard(card) {
           // Save the filename
           filename = filenameKey;
           // Find the pilot inside the data in the ship file
-          ref = ship.pilots.find(
-            pilot => pilot.ffg == card.id || pilot.name == card.name
+          ref = ship.pilots.find(pilot =>
+            pilot.ffg ? pilot.ffg == card.id : pilot.name == card.name
           );
         }
       }
@@ -330,7 +383,14 @@ function processCard(card) {
 
   let modified = false;
 
-  let cost = card.cost == "*" ? null : { value: parseInt(card.cost) };
+  const intCost = parseInt(card.cost, 10);
+  let cost = { value: intCost };
+  if (card.cost === "*") {
+    cost = null;
+  } else if (Number.isNaN(intCost)) {
+    // Variable cost detected!
+    cost = parseVariablePointsCost(card.cost);
+  }
 
   if (upgradeRef) {
     // For upgrades, some fields are stored in the parent object
@@ -355,7 +415,10 @@ function processCard(card) {
     if (upgradeRef.sides[0] == ref) {
       // Replace `(Open)` and `(Closed)` in dual-side cards
       let name = card.name
-        .replace(/\((Open|Closed|Active|Perfected|Cyborg)\)/, "")
+        .replace(
+          /\((Open|Closed|Inactive|Active|Perfected|Cyborg|Attached|Detached)\)/,
+          ""
+        )
         .trim();
 
       // Card-specific tweaks:
@@ -403,9 +466,12 @@ function processCard(card) {
   } else {
     // Card-specific tweaks:
     //
-    // Odd Ball [BTL-B Y-wing]: Card name is "Oddball" which should be "Odd Ball"
     if (card.id === 597) {
+      // Odd Ball [BTL-B Y-wing]: Card name is "Oddball" which should be "Odd Ball"
       card.name = '"Odd Ball"';
+    } else if (card.id === 700) {
+      // Mini Chireen [T-70 X-wing]: Card name is "Mini Chereen" which should be "Mini Chireen"
+      card.name = "Nimi Chireen";
     }
 
     modified = applyDiff(ref, "name", card.name) || modified;
@@ -422,7 +488,9 @@ function processCard(card) {
   }
 
   modified = applyDiff(ref, "artwork", card.image) || modified;
-  modified = applyDiff(ref, "image", card.card_image) || modified;
+
+  // Unfortunately the new squadbuidler API no longer has full card images :(
+  // modified = applyDiff(ref, "image", card.card_image) || modified;
 
   let card_text = card.ability_text;
 

@@ -2,6 +2,7 @@
   "name": "TIE/rb Heavy",
   "xws": "tierbheavy",
   "size": "Medium",
+  "ffg": 72,
   "dial": [
     "1TR",
     "1BW",
@@ -57,7 +58,10 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
       },
       "hyperspace": true,
-      "text": "At the Carida Academy, Imperial Navy cadets are taught to be ruthless and loyal, prioritizing victory over the lives of their comrades."
+      "text": "At Carida Academy, Imperial Navy cadets are taught to be ruthless and loyal, prioritizing victory over the lives of their comrades.",
+      "ffg": 696,
+      "limited": 0,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/89c60dc2a00750df2606c5b6e24f60c3.jpg"
     },
     {
       "name": "Onyx Squadron Sentry",
@@ -77,7 +81,10 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
       },
       "hyperspace": true,
-      "text": "The TIE/rb heavy, sometimes called the \"brute,\" is designed for operational flexibility. Its heavy armor and capacity to house an integrated MGK-300 droid to co-pilot make it an excellent patrol craft."
+      "text": "The TIE/rb heavy, sometimes called the \"brute,\" is designed for operational flexibility. Its heavy armor and capacity to house an integrated MGK-300 droid co-pilot make it an excellent patrol craft.",
+      "ffg": 695,
+      "limited": 0,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9431b36aeec89d1dbf988375a3ce8a5b.jpg"
     },
     {
       "name": "\"Rampage\"",
@@ -94,12 +101,14 @@
         "Configuration"
       ],
       "xws": "rampage",
-      "ability": "After you execute a speed 3-4 maneuver, you may choose a ship in your [Single Turret Arc] at range 0-1. If you do, that ship gains 1 strain token, or 2 strain tokens if you are damaged.",
+      "ability": "After you execute a speed 3-4 maneuver, you may choose a ship in your [Single Turret Arc] at range 0-1. That ship gains 1 strain token, or 2 strain tokens if you are damaged.",
       "shipAbility": {
         "name": "Rotating Cannons",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": true
+      "hyperspace": false,
+      "ffg": 693,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/af083fe92dc1b51c2602dad42301d033.jpg"
     },
     {
       "name": "Lyttan Dree",
@@ -120,7 +129,10 @@
         "name": "Rotating Cannons",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": true
+      "hyperspace": false,
+      "ffg": 694,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg"
     }
-  ]
+  ],
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIE_Brute.png"
 }

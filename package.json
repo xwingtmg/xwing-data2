@@ -1,6 +1,6 @@
 {
   "name": "xwing-data2",
-  "version": "1.27.2",
+  "version": "2.0.0",
   "repository": "git@github.com:guidokessels/xwing-data2.git",
   "author": "Guido Kessels <mail@guidokessels.com>",
   "license": "MIT",
@@ -41,5 +41,8 @@
   "prettier": {
     "tabWidth": 2,
     "printWidth": 80
+  },
+  "dependencies": {
+    "string-math": "^1.2.2"
   }
 }

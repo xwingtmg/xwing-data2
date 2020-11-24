@@ -1,7 +1,7 @@
 {
   "name": "Fireball",
   "xws": "fireball",
-  "ffg": 70,
+  "ffg": 69,
   "size": "Small",
   "dial": [
     "1TW",
@@ -37,7 +37,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "SLAM" }
   ],
-  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Fireball.png",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Fireball.png",
   "pilots": [
     {
       "name": "Colossus Station Mechanic",
@@ -60,7 +60,7 @@
       "cost": 26,
       "text": "Some ambitious and talented pilots begin their racing careers as ground crew, working around the clock to keep cobbled-together ships in the sky on far-flung worlds like Castilon.",
       "ffg": 623,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/a8a4a52f9ced88c0bb7b9e90e0e75a18.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a8a4a52f9ced88c0bb7b9e90e0e75a18.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/533ab83e881838eb8006c8f8dcf19145.png"
     },
     {
@@ -72,7 +72,7 @@
         "name": "Explosion with Wings",
         "text": "Setup: You are dealt 1 facedown damage card. After you perform a [SLAM] action, you may expose 1 damage card to remove 1 disarm token."
       },
-      "hyperspace": true,
+      "hyperspace": false,
       "slots": [
         "Talent",
         "Missile",
@@ -82,11 +82,11 @@
         "Modification",
         "Title"
       ],
-      "cost": 33,
+      "cost": 32,
       "ability": "While you have 2 or fewer stress tokens, if you are damaged, you can execute red basic maneuvers even while stressed; if you are critically damaged, you can execute red advanced maneuvers even while stressed.",
       "caption": "Too Old for This",
       "ffg": 620,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/21bd6c9d7e36c873f88b0fad11ff8fe6.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/21bd6c9d7e36c873f88b0fad11ff8fe6.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cc580fd073ea51094b881e37775ef1f0.png"
     },
     {
@@ -99,7 +99,7 @@
         "text": "Setup: You are dealt 1 facedown damage card. After you perform a [SLAM] action, you may expose 1 damage card to remove 1 disarm token."
       },
       "caption": "Best Pilot in the Galaxy",
-      "hyperspace": true,
+      "hyperspace": false,
       "slots": [
         "Talent",
         "Missile",
@@ -110,9 +110,9 @@
         "Title"
       ],
       "ability": "While you defend or perform a primary attack, if the enemy ship's initiative is higher than the number of damage cards you have, you may roll 1 additional die.",
-      "cost": 40,
+      "cost": 39,
       "ffg": 621,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/4ffdf7cc8ed023322ccf4217ff64b4d2.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4ffdf7cc8ed023322ccf4217ff64b4d2.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ee98b839cf64d8d5d6f4948947abd70b.png"
     },
     {
@@ -125,7 +125,7 @@
         "text": "Setup: You are dealt 1 facedown damage card. After you perform a [SLAM] action, you may expose 1 damage card to remove 1 disarm token."
       },
       "caption": "Bucket",
-      "hyperspace": true,
+      "hyperspace": false,
       "slots": [
         "Missile",
         "Crew",
@@ -135,9 +135,9 @@
         "Title"
       ],
       "ability": "Before you expose 1 of your damage cards, you may look at your facedown damage cards, choose 1, and expose that card instead.",
-      "cost": 29,
+      "cost": 28,
       "ffg": 622,
-      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/686597246669987fe1b938f1419e598d.jpg",
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/686597246669987fe1b938f1419e598d.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c5cfd1d89a204722ff95e9a4b134e7f1.png",
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
