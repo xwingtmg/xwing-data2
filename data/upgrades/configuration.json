@@ -39,7 +39,7 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["t70xwing"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Os-1 Arsenal Loadout",
@@ -140,7 +140,7 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["t65xwing"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Xg-1 Assault Configuration",
@@ -187,7 +187,7 @@
       }
     ],
     "restrictions": [{ "ships": ["vultureclassdroidfighter"] }],
-    "hyperspace": true,
+    "hyperspace": false,
     "cost": { "value": 1 }
   },
   {
@@ -215,7 +215,7 @@
       "values": { "0": 4, "1": 4, "2": 8, "3": 12, "4": 16, "5": 20, "6": 24 }
     },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Calibrated Laser Targeting",
@@ -264,7 +264,7 @@
       }
     ],
     "restrictions": [{ "ships": ["hyenaclassdroidbomber"] }],
-    "hyperspace": true,
+    "hyperspace": false,
     "cost": { "value": 1 }
   },
   {
@@ -288,7 +288,7 @@
     "name": "Stabilized S-foils",
     "limited": 0,
     "xws": "stabilizedsfoils",
-    "hyperspace": true,
+    "hyperspace": false,
     "sides": [
       {
         "ability": "Before you activate, if you are not critically damaged, you may flip this card.",
@@ -360,13 +360,13 @@
     "cost": { "value": 3 },
     "limited": 0,
     "xws": "repulsorliftstabilizers",
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Alpha-3B \"Besh\"",
     "limited": 0,
     "xws": "alpha3bbesh",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform a primary attack, you may spend your lock on the defender to change 1 of your blank or [Focus] results to a [Hit] result. Add [Device] slot.",
@@ -383,7 +383,7 @@
     "name": "Alpha-3E \"Esk\"",
     "limited": 0,
     "xws": "alpha3eesk",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform a primary attack, before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results inflict ion tokens instead of damage.",

@@ -49,7 +49,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Proton Torpedoes",
@@ -81,7 +81,7 @@
     "name": "Plasma Torpedoes",
     "limited": 0,
     "xws": "plasmatorpedoes",
-    "hyperspace": true,
+    "hyperspace": false,
     "sides": [
       {
         "ability": "Attack ([Lock]): Spend 1 [Charge]. During the Neutralize Results step, [Critical Hit] results are canceled before [Hit] results. After this attack hits, the defender loses 1 shield.",

@@ -69,7 +69,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Proximity Mines",
@@ -117,7 +117,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "DRK-1 Probe Droids",
@@ -203,7 +203,7 @@
     "name": "Ion Bombs",
     "limited": 0,
     "xws": "ionbombs",
-    "hyperspace": true,
+    "hyperspace": false,
     "sides": [
       {
         "title": "Ion Bombs",
@@ -251,7 +251,7 @@
     "name": "Thermal Detonators",
     "limited": 0,
     "xws": "thermaldetonators",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "Bomb During the System Phase, you may spend up to 2 [Charge] to drop that many Thermal Detonators using the [1 [Straight]] or [2 [Straight]] template. Each must be placed using a different template. When you reload this card, recover 1 additional [Charge].",

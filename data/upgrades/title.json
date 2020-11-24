@@ -432,7 +432,7 @@
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Virago",
@@ -914,7 +914,7 @@
     "name": "Slave I",
     "limited": 1,
     "xws": "slavei-swz82",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform a [Front Arc] attack, if you are in the defender's full rear arc, you may change 1 [Hit] result to a [Critical Hit] result. Add [Gunner] slot.",

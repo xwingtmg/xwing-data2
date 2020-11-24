@@ -172,7 +172,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Heroic",
@@ -194,7 +194,7 @@
       "values": { "0": 1, "1": 1, "2": 1, "3": 2 }
     },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Intimidation",
@@ -212,7 +212,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Juke",
@@ -237,7 +237,7 @@
     ],
     "cost": { "value": 7 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Lone Wolf",
@@ -274,7 +274,7 @@
       }
     ],
     "cost": { "value": 1 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Outmaneuver",
@@ -292,7 +292,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Predator",
@@ -310,7 +310,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Ruthless",
@@ -395,7 +395,7 @@
       "variable": "initiative",
       "values": { "0": 2, "1": 4, "2": 6, "3": 8, "4": 10, "5": 12, "6": 14 }
     },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Swarm Tactics",
@@ -558,7 +558,7 @@
     "name": "Proud Tradition",
     "limited": 0,
     "xws": "proudtradition",
-    "hyperspace": true,
+    "hyperspace": false,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. While you have 2 or fewer stress tokens, you may perform [Focus] actions even while stressed. After you perform an attack, if you are stressed, the defender may spend 1 focus token or suffer 1 [Critical Hit] damage to flip this card.",
@@ -637,7 +637,7 @@
     "name": "Marg Sabl Closure",
     "limited": 0,
     "xws": "margsablclosure",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "After you fully execute a maneuver, if you moved through an obstacle, structure, or huge ship, or if you deployed, you may choose 1 enemy ship in your [Front Arc] at range 1-2. That ship gains 1 strain token.",

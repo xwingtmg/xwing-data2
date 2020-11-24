@@ -97,7 +97,7 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Ezra Bridger",
@@ -137,7 +137,7 @@
     ],
     "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Greedo",
@@ -157,7 +157,7 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Han Solo",
@@ -251,7 +251,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Special Forces Gunner",
@@ -292,7 +292,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "arcs": ["Rear Arc"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Veteran Turret Gunner",
@@ -392,7 +392,7 @@
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
     "cost": { "value": 9 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Clone Commander Cody",
@@ -474,7 +474,7 @@
     "name": "Boba Fett",
     "limited": 1,
     "xws": "bobafett-gunner",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform an attack, if there are no other ships in the attack arc, you may change 1 of your [Focus] results to a [Hit] result.",
@@ -491,7 +491,7 @@
     "name": "Weapons Systems Officer",
     "limited": 0,
     "xws": "weaponssystemsofficer",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "After you perform a special attack with the [Lock] requirement, you may acquire a lock on the defender.",

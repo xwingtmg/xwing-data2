@@ -136,7 +136,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "R5-D8",
@@ -195,7 +195,7 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "R5-X3",
@@ -215,7 +215,7 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "R2-HA",
@@ -234,7 +234,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "BB-8",
@@ -280,7 +280,7 @@
       "values": { "0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6 }
     },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "M9-G8",
@@ -299,7 +299,7 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "R2-C4",
@@ -337,7 +337,7 @@
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": true,
+    "hyperspace": false,
     "cost": { "value": 2 }
   },
   {
@@ -357,7 +357,7 @@
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": true,
+    "hyperspace": false,
     "cost": { "value": 5 }
   },
   {
@@ -376,7 +376,7 @@
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": false,
+    "hyperspace": true,
     "cost": { "value": 3 }
   },
   {
@@ -449,7 +449,7 @@
     "name": "Q7 Astromech",
     "limited": 0,
     "xws": "q7astromech",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you barrel roll or boost, you can move through and overlap obstacles.",
@@ -466,7 +466,7 @@
     "name": "R2-D2",
     "limited": 1,
     "xws": "r2d2-republic",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "After you activate, you may spend 1 [Charge] and gain 1 deplete token to repair 1 damage card, recover 1 shield, or remove 1 device at range 0-1.",
@@ -522,7 +522,7 @@
     "name": "R7-A7",
     "limited": 1,
     "xws": "r7a7",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform an attack, you may spend 1 [Charge] to change 1 [Hit] result to a [Critical Hit] result.",

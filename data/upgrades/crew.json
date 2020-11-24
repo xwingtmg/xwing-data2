@@ -16,7 +16,7 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "\"Zeb\" Orrelios",
@@ -35,7 +35,7 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "0-0-0",
@@ -387,7 +387,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Emperor Palpatine",
@@ -407,7 +407,7 @@
     ],
     "cost": { "value": 11 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Freelance Slicer",
@@ -425,7 +425,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "General Hux",
@@ -483,7 +483,7 @@
     ],
     "cost": { "value": 13 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Grand Moff Tarkin",
@@ -589,7 +589,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Jabba the Hutt",
@@ -648,7 +648,7 @@
     ],
     "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Ketsu Onyo",
@@ -754,7 +754,7 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Latts Razzi",
@@ -793,7 +793,7 @@
     ],
     "cost": { "value": 7 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Magva Yarro",
@@ -837,7 +837,7 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Ezra Bridger"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Minister Tua",
@@ -934,7 +934,7 @@
       }
     ],
     "cost": { "value": 8 },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Petty Officer Thanisson",
@@ -972,7 +972,7 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "R2-D2",
@@ -1010,7 +1010,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Saw Gerrera",
@@ -1050,7 +1050,7 @@
       "variable": "initiative",
       "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8 }
     },
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Seventh Sister",
@@ -1070,7 +1070,7 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Supreme Leader Snoke",
@@ -1118,7 +1118,7 @@
     "restrictions": [
       { "action": { "type": "Coordinate", "difficulty": "Red" } }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Tobias Beckett",
@@ -1137,7 +1137,7 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Unkar Plutt",
@@ -1204,7 +1204,7 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Han Solo",
@@ -1268,7 +1268,7 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Palpatine/Sidious",
@@ -1352,7 +1352,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Amilyn Holdo",
@@ -1402,7 +1402,7 @@
     "name": "Kaydel Connix",
     "limited": 1,
     "xws": "kaydelconnix",
-    "hyperspace": true,
+    "hyperspace": false,
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
@@ -1562,7 +1562,7 @@
     "name": "Agent Terex",
     "limited": 1,
     "xws": "agentterex",
-    "hyperspace": true,
+    "hyperspace": false,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup and place 3 calculate tokens on this card. At the start of the Engagement Phase, you may choose a friendly ship at range 0-3 and remove 1 calculate token from this card to have that ship gain a matching token. Then, if there are no calculate tokens on this card, flip it.",
@@ -1589,7 +1589,7 @@
     "name": "K-2SO",
     "limited": 1,
     "xws": "k2so",
-    "hyperspace": true,
+    "hyperspace": false,
     "sides": [
       {
         "ability": "During the System Phase, you may choose a friendly ship at range 0-3. That ship gains 1 calculate and 1 stress token.",
@@ -1773,7 +1773,7 @@
     "cost": { "value": 7 },
     "limited": 1,
     "xws": "commandermalarus",
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "sides": [
@@ -1825,7 +1825,7 @@
     "name": "Hondo Ohnaka",
     "limited": 1,
     "xws": "hondoohnaka",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "Action: Choose 2 ships at range 1-3 of you that are friendly to each other. Coordinate one of the chosen ships, then jam the other, ignoring range restrictions.",
@@ -1842,7 +1842,7 @@
     "name": "Jango Fett",
     "limited": 1,
     "xws": "jangofett",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "While you defend or perform an attack, you may spend your lock on the enemy ship to change 1 of the enemy ship's [Focus] results to a blank result.",
@@ -1859,7 +1859,7 @@
     "name": "Zam Wesell",
     "limited": 1,
     "xws": "zamwesell",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: You Should Thank Me You'd Better Mean Business",

@@ -46,7 +46,7 @@
       "xws": "anakinskywalker-eta2actis",
       "ability": "After you or a friendly Obi-Wan Kenobi ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship removes 1 red token of your choice.",
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
+      "hyperspace": true,
       "shipAbility": {
         "name": "Intuitive Controls",
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
@@ -65,7 +65,7 @@
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
       },
       "caption": "Guardian of Democracy",
-      "hyperspace": false,
+      "hyperspace": true,
       "force": { "value": 3, "recovers": 1 },
       "ability": "After you or a friendly Anakin Skywalker ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship gains 1 focus token.",
       "cost": 49,
@@ -82,7 +82,7 @@
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
       },
       "caption": "Confident Warrior",
-      "hyperspace": false,
+      "hyperspace": true,
       "force": { "value": 2, "recovers": 1 },
       "ability": "While an enemy ship in your [Front Arc] at range 0-1 performs an attack, the defender may change 1 blank result to a [Focus] result.",
       "cost": 51,
@@ -99,7 +99,7 @@
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
       },
       "caption": "Compassionate Mentor",
-      "hyperspace": false,
+      "hyperspace": true,
       "force": { "value": 2, "recovers": 1 },
       "ability": "At the start of the End Phase, you may spend any number of [Force] to choose that many friendly ships at range 0-2. Each chosen ship does not remove 1 focus or evade token during this End Phase.",
       "cost": 44,
@@ -132,7 +132,7 @@
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
       },
       "caption": "Grand Master",
-      "hyperspace": false,
+      "hyperspace": true,
       "force": { "value": 3, "recovers": 1 },
       "ability": "After another friendly ship at range 0-3 spends 1 or more [Force], you may spend 1 [Force]. If you do, that ship recovers 1 [Force].",
       "cost": 48,

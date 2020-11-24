@@ -89,7 +89,7 @@
       "slots": ["Sensor", "Missile", "Force Power"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_102.jpg",
       "ffg": 102,
-      "hyperspace": false
+      "hyperspace": true
     },
     {
       "name": "Seventh Sister",
@@ -104,7 +104,7 @@
       "slots": ["Sensor", "Missile", "Force Power"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg",
       "ffg": 100,
-      "hyperspace": true
+      "hyperspace": false
     },
     {
       "name": "Fifth Brother",
@@ -112,7 +112,7 @@
       "initiative": 4,
       "limited": 1,
       "caption": "Ruthless Brute",
-      "hyperspace": true,
+      "hyperspace": false,
       "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "slots": ["Force Power", "Sensor", "Missile"],
       "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force] to add 1 [Critical Hit] result.",

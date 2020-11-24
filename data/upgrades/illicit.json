@@ -93,7 +93,7 @@
       "variable": "initiative",
       "values": { "0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6 }
     },
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "Rigged Cargo Chute",
@@ -124,7 +124,7 @@
     "name": "Coaxium Hyperfuel",
     "limited": 0,
     "xws": "coaxiumhyperfuel",
-    "hyperspace": true,
+    "hyperspace": false,
     "sides": [
       {
         "ability": "You can perform the [SLAM] action even while stressed. If you do, you suffer 1 [Critical Hit] damage unless you expose 1 of your damage cards. After you partially execute a maneuver, you may expose 1 of your damage cards or suffer 1 [Critical Hit] damage to perform a [SLAM] action.",
