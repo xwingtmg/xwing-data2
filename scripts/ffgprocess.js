@@ -415,7 +415,10 @@ function processCard(card) {
     if (upgradeRef.sides[0] == ref) {
       // Replace `(Open)` and `(Closed)` in dual-side cards
       let name = card.name
-        .replace(/\((Open|Closed|Inactive|Active|Perfected|Cyborg)\)/, "")
+        .replace(
+          /\((Open|Closed|Inactive|Active|Perfected|Cyborg|Attached|Detached)\)/,
+          ""
+        )
         .trim();
 
       // Card-specific tweaks:

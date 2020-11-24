@@ -305,7 +305,7 @@
       {
         "title": "Outrider",
         "type": "Title",
-        "ability": "While you perform an obstructed attack, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
+        "ability": "While you perform an attack that is obstructed by an obstacle, the defender rolls 1 fewer defense die. After you fully execute a maneuver, if you moved through or overlapped an obstacle, you may remove 1 of your red or orange tokens.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_105.png",
         "slots": ["Title"],
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg",
@@ -917,7 +917,7 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "While you perform a [Front Arc] attack, if you are in the defender's full rear arc, you may change 1 [Hit] result to a [Critical Hit] result. Add [Gunner] slot.",
+        "ability": "While you perform a [Front Arc] attack, if you are in the defender's [Full Rear Arc], you may change 1 [Hit] result to a [Critical Hit] result. Add [Gunner] slot.",
         "title": "Slave I",
         "type": "Title",
         "slots": ["Title"],
