@@ -40,5 +40,20 @@
     "name": "Compromising Intel",
     "ability": "During the System Phase, if the enemy Vi Moradi is at range 0-3, flip your dial faceup. While you defend or perform an attack against the enemy Vi Moradi, you cannot spend focus tokens.",
     "xws": "compromisingintel"
+  },
+  {
+    "name": "Fearful Prey",
+    "ability": "After you defend against an enemy Fearsome Predator, if you did not spend at least 1 green token during the attack, gain 1 strain token.",
+    "xws": "fearfulprey"
+  },
+  {
+    "name": "You'd Better Mean Business",
+    "ability": "This condition is assigned facedown. Reveal it after you defend. After you defend, you may spend 2 [Charge] from Zam Wesell. If you do, perform a bonus attack against the defender. At the end of the Engagement Phase, if this card is facedown and you are in an enemy ship's firing arc, you may reveal this card. If you do, Zam Wesell recovers 2 [Charge]. At the start of the System Phase, remove this condition.",
+    "xws": "youdbettermeanbusiness"
+  },
+  {
+    "name": "You Should Thank Me",
+    "ability": "This condition is assigned facedown. Reveal it after you defend. After you defend, Zam Wesell recovers 1 [Charge]. Then, you may acquire a lock on the attacker. At the end of the Engagement Phase, if this card is facedown and you are in an enemy's firing arc, you may reveal this card and spend 2 [Charge] from Zam Wesell. If you do, you may perform a bonus attack. At the start of the System Phase, remove this condition.",
+    "xws": "youshouldthankme"
   }
 ]

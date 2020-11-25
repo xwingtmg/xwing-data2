@@ -390,6 +390,7 @@
         "title": "Alpha-3E \"Esk\"",
         "type": "Configuration",
         "slots": ["Configuration"],
+        "charges": { "value": 2, "recovers": 1 },
         "ffg": 871,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/678c7a36aacdd1cc20b61287df2fc0d9.jpg"
       }
@@ -407,6 +408,7 @@
         "title": "Intercept Booster (Attached)",
         "type": "Configuration",
         "slots": ["Configuration"],
+        "charges": { "value": 3, "recovers": -1 },
         "grants": [
           {
             "type": "action",
