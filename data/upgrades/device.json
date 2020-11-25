@@ -258,6 +258,7 @@
         "title": "Thermal Detonators",
         "type": "Device",
         "slots": ["Device"],
+        "charges": { "value": 4, "recovers": 0 },
         "ffg": 864,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/79c228aa933ae9970641262f6352ac4a.jpg"
       }
