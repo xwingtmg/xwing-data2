@@ -474,6 +474,7 @@
         "ffg": 860,
         "type": "Astromech",
         "slots": ["Astromech"],
+        "charges": { "value": 2, "recovers": 0 },
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cc1695a002e056cd11643b166658169e.jpg"
       }
     ],
@@ -529,6 +530,7 @@
         "title": "R7-A7",
         "type": "Astromech",
         "slots": ["Astromech"],
+        "charges": { "value": 3, "recovers": 0 },
         "ffg": 862,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/21a23aa5bad45f33650cc2f7a3b3ecce.jpg"
       }
