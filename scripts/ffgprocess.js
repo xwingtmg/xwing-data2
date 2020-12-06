@@ -398,17 +398,34 @@ function processCard(card) {
 
     // Card-specific tweaks:
     //
-    // FFG treats Calibrated Laser Targeting as a Mod/Config, but we use Config/Mod
-    // FFG treats Deuterium Power Cells as Mod/Tech, but we use Tech/Mod
-    if (card.id === 549 || card.id === 654) {
-      card.upgrade_types = card.upgrade_types.reverse();
-    }
-    // Lando's Millennium Falcon [Title] doesn't properly capitalize ship name
-    if (card.id === 390) {
-      card.ability_text = card.ability_text.replace(
-        "escape craft",
-        "Escape Craft"
-      );
+    switch (card.id) {
+      case 282:
+        // card.cost.values['1'] = 4;
+        break;
+      case 329:
+        // Outrider [Title] Errata
+        card.ability_text = card.ability_text.replace(
+            "obstructed attack",
+            "attack that is obstructed by an obstacle"
+        );
+        break;
+      case 390:
+        // Lando's Millennium Falcon [Title] doesn't properly capitalize ship name
+        card.ability_text = card.ability_text.replace(
+            "escape craft",
+            "Escape Craft"
+        );
+        break;
+      case 549:
+      case 654:
+        // FFG treats Calibrated Laser Targeting as a Mod/Config, but we use Config/Mod
+        // FFG treats Deuterium Power Cells as Mod/Tech, but we use Tech/Mod
+        card.upgrade_types = card.upgrade_types.reverse();
+        break;
+      case 869:
+        // Slave I [Title] doesn't properly capitalize Full Rear Arc
+        card.ability_text = card.ability_text.replace('full rear arc', '[Full Rear Arc]')
+        break;
     }
 
     // Only apply a card name or xws change when looking at side[0]
@@ -466,10 +483,7 @@ function processCard(card) {
   } else {
     // Card-specific tweaks:
     //
-    if (card.id === 597) {
-      // Odd Ball [BTL-B Y-wing]: Card name is "Oddball" which should be "Odd Ball"
-      card.name = '"Odd Ball"';
-    } else if (card.id === 700) {
+    if (card.id === 700) {
       // Mini Chireen [T-70 X-wing]: Card name is "Mini Chereen" which should be "Mini Chireen"
       card.name = "Nimi Chireen";
     }
@@ -496,9 +510,20 @@ function processCard(card) {
 
   // Card-specific tweaks:
   //
-  // Lando [Escape Craft]: Card text is missing the `</shipability>` closing tag
-  if (card.id == 226) {
-    card_text = card_text + "</shipability>";
+  switch (card.id) {
+    case 65:
+      // Norra Wexley [ARC-170 Starfighter]: Ability was changed in errata
+      card_text = card_text.replace('you may ', '');
+      break;
+    case 226:
+      // Lando [Escape Craft]: Card text is missing the `</shipability>` closing tag
+      card_text = card_text + "</shipability>";
+      break;
+    case 801:
+      // Zam Wesell [Firespray]: Quotes are not generated correctly by script
+      card_text = card_text.replace("You Should Thank Me", '"You Should Thank Me" or');
+      card_text = card_text.replace("You'd Better Mean Business", '"You\'d Better Mean Business"');
+      break;
   }
 
   // Parse card text for shipability text
