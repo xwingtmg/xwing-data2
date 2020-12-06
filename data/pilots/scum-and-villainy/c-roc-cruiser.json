@@ -1,6 +1,12 @@
 {
+  "name": "C-ROC Cruiser",
+  "xws": "croccruiser",
   "ffg": 82,
   "faction": "Scum and Villainy",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_C-ROC.png",
+  "size": "Huge",
+  "stats": [],
+  "actions": [],
   "pilots": [
     {
       "ffg": 713,
@@ -13,8 +19,8 @@
         "name": "Overdrive Burners",
         "text": "While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die."
       },
-      "text": "Vessels like the C-ROC Cruiser allow criminal operations across the Outer Rim to move massive amounts of illicit materials, or project power that can bully small colonies into compliance."
+      "text": "Vessels like the C-ROC Cruiser allow criminal operations across the Outer Rim to move massive amounts of illicit materials, or project power that can bully small colonies into compliance.",
+      "hyperspace": false
     }
-  ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_C-ROC.png"
+  ]
 }

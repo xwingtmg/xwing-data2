@@ -1,6 +1,12 @@
 {
+  "name": "CR90 Corellian Corvette",
+  "xws": "cr90corelliancorvette",
   "ffg": 78,
   "faction": "Rebel Alliance",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_CR90.png",
+  "size": "Huge",
+  "stats": [],
+  "actions": [],
   "pilots": [
     {
       "ffg": 706,
@@ -13,8 +19,8 @@
         "name": "Broadside Batteries",
         "text": "You can acquire locks and perform primary attacks at range 1-4."
       },
-      "text": "A craft used since before the Clone Wars, the CR90 corvette is favored by the Royal House of Alderaan for its versatility."
+      "text": "A craft used since before the Clone Wars, the CR90 corvette is favored by the Royal House of Alderaan for its versatility.",
+      "hyperspace": false
     }
-  ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_CR90.png"
+  ]
 }

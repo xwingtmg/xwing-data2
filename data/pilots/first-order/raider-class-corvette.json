@@ -1,6 +1,12 @@
 {
+  "name": "Raider-Class Corvette",
+  "xws": "raiderclasscorvette",
   "ffg": 79,
   "faction": "First Order",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Raider.png",
+  "size": "Huge",
+  "stats": [],
+  "actions": [],
   "pilots": [
     {
       "ffg": 708,
@@ -13,8 +19,8 @@
         "name": "Concentrated Batteries",
         "text": "While you perform a primary, [Torpedo], or [Missile] attack, if the defender is in your [Bullseye Arc], roll 1 additional die."
       },
-      "text": "The First Order's supporters make use of former Imperial vessels, such as the Raider-class corvette. Though it has outlived the regime that created it, this craft still spreads terror across the galaxy."
+      "text": "The First Order's supporters make use of former Imperial vessels, such as the Raider-class corvette. Though it has outlived the regime that created it, this craft still spreads terror across the galaxy.",
+      "hyperspace": false
     }
-  ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Raider.png"
+  ]
 }

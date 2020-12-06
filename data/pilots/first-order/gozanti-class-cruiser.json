@@ -1,6 +1,12 @@
 {
+  "name": "Gozanti-Class Cruiser",
+  "xws": "gozanticlasscruiser",
   "ffg": 81,
   "faction": "First Order",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Gozanti.png",
+  "size": "Huge",
+  "stats": [],
+  "actions": [],
   "pilots": [
     {
       "ffg": 712,
@@ -13,8 +19,8 @@
         "name": "Docking Clamps",
         "text": "You can dock up to 4 small ships."
       },
-      "text": "The First Order's swift rise to power rests upon ruthless innovation. However, sympathizers often repurpose Imperial designs, like the venerable Gozanti-class cruiser, in surveillance and patrol operations."
+      "text": "The First Order's swift rise to power rests upon ruthless innovation. However, sympathizers often repurpose Imperial designs, like the venerable Gozanti-class cruiser, in surveillance and patrol operations.",
+      "hyperspace": false
     }
-  ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Gozanti.png"
+  ]
 }

@@ -1,6 +1,12 @@
 {
+  "name": "Raider-Class Corvette",
+  "xws": "raiderclasscorvette",
   "ffg": 79,
   "faction": "Galactic Empire",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Raider.png",
+  "size": "Huge",
+  "stats": [],
+  "actions": [],
   "pilots": [
     {
       "ffg": 707,
@@ -13,8 +19,8 @@
         "name": "Concentrated Batteries",
         "text": "While you perform a primary, [Torpedo], or [Missile] attack, if the defender is in your [Bullseye Arc], roll 1 additional die."
       },
-      "text": "The Raider-class corvette is one of the Empire's smallest warships, often used for reconnaissance missions, surgical strikes, or suppressing enemy starfighters with its powerful ordnance."
+      "text": "The Raider-class corvette is one of the Empire's smallest warships, often used for reconnaissance missions, surgical strikes, or suppressing enemy starfighters with its powerful ordnance.",
+      "hyperspace": false
     }
-  ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Raider.png"
+  ]
 }
