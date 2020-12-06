@@ -1,5 +1,5 @@
 {
-  "version": "2.0.4",
+  "version": "2.0.5",
   "damagedecks": ["data/damage-decks/core.json"],
   "factions": ["data/factions/factions.json"],
   "stats": ["data/stats/stats.json"],
@@ -14,7 +14,9 @@
         "data/pilots/rebel-alliance/auzituck-gunship.json",
         "data/pilots/rebel-alliance/btl-a4-y-wing.json",
         "data/pilots/rebel-alliance/btl-s8-k-wing.json",
+        "data/pilots/rebel-alliance/cr90-corellian-corvette.json",
         "data/pilots/rebel-alliance/e-wing.json",
+        "data/pilots/rebel-alliance/gr-75-medium-transport.json",
         "data/pilots/rebel-alliance/hwk-290-light-freighter.json",
         "data/pilots/rebel-alliance/modified-yt-1300-light-freighter.json",
         "data/pilots/rebel-alliance/rz-1-a-wing.json",
@@ -32,6 +34,7 @@
       "ships": [
         "data/pilots/scum-and-villainy/aggressor-assault-fighter.json",
         "data/pilots/scum-and-villainy/btl-a4-y-wing.json",
+        "data/pilots/scum-and-villainy/c-roc-cruiser.json",
         "data/pilots/scum-and-villainy/customized-yt-1300-light-freighter.json",
         "data/pilots/scum-and-villainy/escape-craft.json",
         "data/pilots/scum-and-villainy/fang-fighter.json",
@@ -55,7 +58,9 @@
       "faction": "galacticempire",
       "ships": [
         "data/pilots/galactic-empire/alpha-class-star-wing.json",
+        "data/pilots/galactic-empire/gozanti-class-cruiser.json",
         "data/pilots/galactic-empire/lambda-class-t-4a-shuttle.json",
+        "data/pilots/galactic-empire/raider-class-corvette.json",
         "data/pilots/galactic-empire/tie-advanced-v1.json",
         "data/pilots/galactic-empire/tie-advanced-x1.json",
         "data/pilots/galactic-empire/tie-in-interceptor.json",
@@ -74,6 +79,7 @@
     {
       "faction": "resistance",
       "ships": [
+        "data/pilots/resistance/gr-75-medium-transport.json",
         "data/pilots/resistance/mg-100-starfortress-sf-17.json",
         "data/pilots/resistance/scavenged-yt-1300.json",
         "data/pilots/resistance/rz-2-a-wing.json",
@@ -86,6 +92,7 @@
     {
       "faction": "firstorder",
       "ships": [
+        "data/pilots/first-order/gozanti-class-cruiser.json",
         "data/pilots/first-order/tie-ba-interceptor.json",
         "data/pilots/first-order/tie-fo-fighter.json",
         "data/pilots/first-order/tie-sf-fighter.json",
@@ -98,6 +105,7 @@
       "faction": "separatistalliance",
       "ships": [
         "data/pilots/separatist-alliance/vulture-class-droid-fighter.json",
+        "data/pilots/separatist-alliance/c-roc-cruiser.json",
         "data/pilots/separatist-alliance/belbullab-22-starfighter.json",
         "data/pilots/separatist-alliance/sith-infiltrator.json",
         "data/pilots/separatist-alliance/hyena-class-droid-bomber.json",
@@ -112,6 +120,7 @@
       "ships": [
         "data/pilots/galactic-republic/arc-170-starfighter.json",
         "data/pilots/galactic-republic/delta-7-aethersprite.json",
+        "data/pilots/galactic-republic/cr90-corellian-corvette.json",
         "data/pilots/galactic-republic/v-19-torrent-starfighter.json",
         "data/pilots/galactic-republic/naboo-royal-n-1-starfighter.json",
         "data/pilots/galactic-republic/btl-b-y-wing.json",
