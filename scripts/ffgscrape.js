@@ -16,7 +16,7 @@ function getData(url, language) {
   return new Promise((resolve, reject) => {
     const request = https.get(url, {
       headers: {
-        'Accept-Language': `${language}`
+        'Accept-Language': language
       }
     }, res => {
       let data = "";
