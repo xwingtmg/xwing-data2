@@ -12,13 +12,14 @@
     "changelog": "git log --pretty=format:'- %s (%h)' --no-merges",
     "ffg2xws": "node scripts/ffg2xws.js && prettier --write data/ffg-xws.json",
     "hyperspace": "node scripts/hyperspace.js && yarn format",
-    "ffgscrape": "node scripts/ffgscrape.js && node scripts/ffgprocess.js && yarn format"
+    "ffgscrape": "node scripts/ffgscrape.js && node scripts/ffgprocess.js && node scripts/ffgtranslations.js && yarn format"
   },
   "devDependencies": {
     "git-diff": "^2.0.6",
     "husky": "^4.2.1",
     "jest": "^25.1.0",
     "jest-json-schema": "^2.1.0",
+    "json-stable-stringify": "^1.0.1",
     "jsonfile": "^5.0.0",
     "jsonlint-cli": "^1.0.1",
     "lint-staged": "^10.0.7",
