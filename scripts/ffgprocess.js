@@ -399,9 +399,6 @@ function processCard(card) {
     // Card-specific tweaks:
     //
     switch (card.id) {
-      case 282:
-        // card.cost.values['1'] = 4;
-        break;
       case 329:
         // Outrider [Title] Errata
         card.ability_text = card.ability_text.replace(
