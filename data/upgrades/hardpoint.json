@@ -10,6 +10,13 @@
         "title": "Ion Cannon Battery",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 4,
+          "minrange": 2,
+          "maxrange": 4,
+          "ordnance": false
+        },
         "grants": [
           {
             "type": "action",
@@ -17,6 +24,7 @@
           }
         ],
         "ffg": 737,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/84/93/84939dce-0228-4c67-bfba-e7c4002a6842/swz55_ion-cannon-battery_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/64d964f87f3c406a380a4e3d23f8adff.jpg"
       },
       {
@@ -42,6 +50,7 @@
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
         "ffg": 741,
+        "image": "https://infinitearenas.com/xw2browse/epic/ordnance-tubes.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/704417993312731838f68390884c699d.jpg"
       },
       {
@@ -66,6 +75,13 @@
         "title": "Point-Defense Battery",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Double Turret Arc",
+          "value": 2,
+          "minrange": 1,
+          "maxrange": 2,
+          "ordnance": false
+        },
         "grants": [
           {
             "type": "action",
@@ -73,6 +89,7 @@
           }
         ],
         "ffg": 743,
+        "image": "https://static.wikia.nocookie.net/xwing-miniatures-second-edition/images/b/b5/Swz53_point-defense-battery_card.png/revision/latest/scale-to-width-down/418?cb=20190930180621",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/190fb055e605840f31474e7c0d908f3a.jpg"
       },
       {
@@ -97,6 +114,13 @@
         "title": "Targeting Battery",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 3,
+          "minrange": 2,
+          "maxrange": 5,
+          "ordnance": false
+        },
         "grants": [
           {
             "type": "action",
@@ -104,6 +128,7 @@
           }
         ],
         "ffg": 739,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/42/a2/42a201e3-6a4a-4e0a-a19e-83d06976ab6a/swz55_targeting-battery_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f8b2128da475099b9d362e26f04b8e55.jpg"
       },
       {
@@ -128,6 +153,13 @@
         "title": "Turbolaser Battery",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 3,
+          "minrange": 3,
+          "maxrange": 5,
+          "ordnance": false
+        },
         "grants": [
           {
             "type": "action",
@@ -135,6 +167,7 @@
           }
         ],
         "ffg": 745,
+        "image": "https://static.wikia.nocookie.net/xwing-miniatures-second-edition/images/5/5e/Swz53_turbolaser-battery_card.png/revision/latest/scale-to-width-down/418?cb=20190918221858",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4962c14923b8a068cd8ba6ac34ebd443.jpg"
       },
       {
