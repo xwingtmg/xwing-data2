@@ -293,11 +293,20 @@
     "sides": [
       {
         "ability": "Attack ([Focus], [Calculate], or [Lock]): Spend 1 [Charge]. If this attack hits, each friendly ship at range 1-3 of the defender may acquire a lock on the defender. Then cancel all dice results.",
+        "attack": {
+          "arc": "Front Arc",
+          "maxrange": 3,
+          "minrange": 1,
+          "ordnance": true,
+          "value": 3
+        },
+        "charges": { "value": 2, "recovers": 0 },
         "title": "XX-23 S-Thread Tracers",
         "type": "Missile",
         "slots": ["Missile"],
         "charges": { "value": 4, "recovers": 0 },
         "ffg": 851,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/96/d7/96d7fd7e-cca2-403d-a291-5fcb973404c6/swz81_upgrade_s-tread-tracers.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/34fa7fa46dbf8626f1480fc9937e7c1b.jpg"
       }
     ],
