@@ -278,7 +278,16 @@
         "title": "Corsair Refit",
         "type": "Configuration",
         "slots": ["Configuration"],
+        "grants": [
+          { "type": "slot", "value": "cannon", "amount": 1 },
+          { "type": "slot", "value": "turret", "amount": 1 },
+          { "type": "slot", "value": "missile", "amount": 1 },
+          { "type": "stat", "value": "hull", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -2 },
+          { "type": "stat", "value": "energy", "amount": 1 }
+        ],
         "ffg": 780,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/fe/93/fe93367f-f999-477a-9e52-7be684649ff7/swz55_corsair-refit_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1ee2df3c1a0ce5aa60439927e2d1e9ca.jpg"
       }
     ],
