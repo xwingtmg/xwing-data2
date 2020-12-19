@@ -1698,10 +1698,11 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0f0e3e5576ed1df0e5e2b8ccee638dec.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/7b0fd38f53c20d4a8d1e0ffd97c949ab.png",
         "ability": "After another friendly ship at range 0-2 fully executes a purple maneuver or performs a purple action, you may spend 1 [Force]. If you do, that ship recovers 1 [Force].",
+        "force": { "value": 2, "recovers": 1 },
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Calculate", "difficulty": "Purple" }
+            "value": { "type": "Coordinate", "difficulty": "Purple" }
           }
         ]
       }
