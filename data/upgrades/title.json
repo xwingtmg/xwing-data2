@@ -546,7 +546,13 @@
         "title": "Assailer",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "gunner", "amount": 1 },
+          { "type": "stat", "value": "hull", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -2 }
+        ],
         "ffg": 769,
+        "image": "https://infinitearenas.com/xw2browse/epic/assailer.PNG",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/adbdc704e0f66a27d4ae2ecfb2323d2d.jpg"
       }
     ],
@@ -563,7 +569,13 @@
         "title": "Blood Crow",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "gunner", "amount": 1 },
+          { "type": "stat", "value": "shields", "amount": -1 },
+          { "type": "stat", "value": "energy", "amount": 2 }
+        ],
         "ffg": 773,
+        "image": "https://infinitearenas.com/xw2browse/epic/blood-crow.PNG",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7043e25c4bf030ade5b026e5bc8bd43e.jpg"
       }
     ],
@@ -581,6 +593,7 @@
         "type": "Title",
         "slots": ["Title"],
         "ffg": 766,
+        "image": "https://infinitearenas.com/xw2browse/epic/bright-hope.PNG",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4f3cb0d471b9ea207665b120a5b27eb7.jpg"
       }
     ],
@@ -597,7 +610,12 @@
         "title": "Broken Horn",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "crew", "amount": 1 },
+          { "type": "slot", "value": "illicit", "amount": 1 }
+        ],
         "ffg": 777,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/03/4a/034a718d-1638-4712-840e-24ace924b8f4/swz55_broken-horn_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b6b2484bd0fc2c17ff2159b1280a2e5d.jpg"
       }
     ],
@@ -621,6 +639,7 @@
           }
         ],
         "ffg": 770,
+        "image": "https://static.wikia.nocookie.net/xwing-miniatures-second-edition/images/d/de/Swz54_card_corvus.png/revision/latest/scale-to-width-down/418?cb=20190807204606",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/89af7f90118cad6862fa2acb79f05e24.jpg"
       }
     ],
@@ -638,6 +657,9 @@
         "type": "Title",
         "slots": ["Title"],
         "grants": [
+          { "type": "slot", "value": "team", "amount": 1 },
+          { "type": "slot", "value": "cargo", "amount": 1 },
+          { "type": "stat", "value": "shields", "amount": -2 },
           {
             "type": "action",
             "value": {
@@ -656,6 +678,7 @@
           }
         ],
         "ffg": 761,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/02/1b/021b7933-5ec6-4ed5-9cbe-3151f1c52b03/swz55_dodonnas-pride_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1dca6b93927cdf20f638ddc7362e0f0f.jpg"
       }
     ],
@@ -672,7 +695,13 @@
         "title": "Impetuous",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "crew", "amount": 1 },
+          { "type": "stat", "value": "shields", "amount": -2 },
+          { "type": "stat", "value": "energy", "amount": 2 }
+        ],
         "ffg": 771,
+        "image": "https://infinitearenas.com/xw2browse/epic/impetuous.PNG",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/158a70d7bae002ca5bcd4c6fe94cb2d1.jpg"
       }
     ],
@@ -689,7 +718,14 @@
         "title": "Insatiable Worrt",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "cargo", "amount": 1 },
+          { "type": "stat", "value": "hull", "amount": 3 },
+          { "type": "stat", "value": "shields", "amount": -1 },
+          { "type": "stat", "value": "energy", "amount": -1 }
+        ],
         "ffg": 779,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/ef/7f/ef7f5951-a1bd-4a8b-9830-98fb3dd67a6f/swz55_insatiable-worrt_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0dc42b21873c86f819f3dd528cdae1ff.jpg"
       }
     ],
@@ -706,7 +742,11 @@
         "title": "Instigator",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "team", "amount": 1 }
+        ],
         "ffg": 772,
+        "image": "https://infinitearenas.com/xw2browse/epic/instigator.PNG",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/943dfb58136280a8cf1ea781bf7b0c2f.jpg"
       }
     ],
@@ -723,7 +763,12 @@
         "title": "Jaina's Light",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "stat", "value": "shields", "amount": 1 },
+          { "type": "stat", "value": "energy", "amount": -1 }
+        ],
         "ffg": 762,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/9a/06/9a06a5c1-6c4d-4488-8b64-ce67437cd2c9/swz55_jainas-light_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8276e8197e00c4f86b5f987643106334.jpg"
       }
     ],
@@ -758,7 +803,11 @@
         "title": "Liberator",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "stat", "value": "energy", "amount": 1 }
+        ],
         "ffg": 763,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/ab/cc/abcc43c0-1817-4ca4-aed9-6d0b0a49e111/swz55_liberator_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/18bb0bda87c23b452e0c4788136beb30.jpg"
       }
     ],
@@ -775,7 +824,12 @@
         "title": "Luminous",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "stat", "value": "shields", "amount": -1 },
+          { "type": "stat", "value": "energy", "amount": 2 }
+        ],
         "ffg": 767,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/8f/ca/8fca5ab1-3b18-4e76-8788-85a0764e7fe4/swz53_luminous.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2989267c764d1eeff27159d85948b3df.jpg"
       }
     ],
@@ -793,6 +847,9 @@
         "type": "Title",
         "slots": ["Title"],
         "grants": [
+          { "type": "slot", "value": "turret", "amount": 1 },
+          { "type": "slot", "value": "team", "amount": 1 },
+          { "type": "slot", "value": "cargo", "amount": 1 },
           {
             "type": "action",
             "value": { "type": "Evade", "difficulty": "Red" }
@@ -803,6 +860,7 @@
           }
         ],
         "ffg": 778,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/95/4a/954a7691-6304-40a5-96d5-718c0eb10770/swz55_merchant-one_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9c35d5bc7124123ec8818e53912449bd.jpg"
       }
     ],
@@ -819,7 +877,13 @@
         "title": "Quantum Storm",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "team", "amount": 1 },
+          { "type": "slot", "value": "cargo", "amount": 1 },
+          { "type": "stat", "value": "energy", "amount": 1 }
+        ],
         "ffg": 768,
+        "image": "https://infinitearenas.com/xw2browse/epic/quantum-storm.PNG",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b4166822602b0cb41a42d15ca563a0d.jpg"
       }
     ],
@@ -837,6 +901,7 @@
         "type": "Title",
         "slots": ["Title"],
         "ffg": 774,
+        "image": "https://infinitearenas.com/xw2browse/epic/requiem.PNG",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/81651841ae936b5090980c8fbf31fda3.jpg"
       }
     ],
@@ -853,7 +918,13 @@
         "title": "Suppressor",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "sensor", "amount": 1 },
+          { "type": "stat", "value": "hull", "amount": -2 },
+          { "type": "stat", "value": "shields", "amount": 2 }
+        ],
         "ffg": 775,
+        "image": "https://infinitearenas.com/xw2browse/epic/suppressor.PNG",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/45c68a9c1b84a9ca1a6dd4ed5b618210.jpg"
       }
     ],
@@ -870,7 +941,11 @@
         "title": "Tantive IV",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "crew", "amount": 2 }
+        ],
         "ffg": 764,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/00/e2/00e2ec2f-6223-4258-ab6c-638ee1630524/swz55_tantive-iv_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/de2147d3f99347d5c07789917402b470.jpg"
       }
     ],
@@ -887,7 +962,13 @@
         "title": "Thunderstrike",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "gunner", "amount": 1 },
+          { "type": "stat", "value": "hull", "amount": 3 },
+          { "type": "stat", "value": "shields", "amount": -3 }
+        ],
         "ffg": 765,
+        "image": "https://images-cdn.fantasyflightgames.com/filer_public/9b/40/9b40aa56-7f16-4966-b5e8-f1a3cba05c30/swz55_thunderstrike_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4359306125f05df5481d93982c070c13.jpg"
       }
     ],
@@ -904,7 +985,12 @@
         "title": "Vector",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "crew", "amount": 1 },
+          { "type": "slot", "value": "cargo", "amount": 1 }
+        ],
         "ffg": 776,
+        "image": "https://infinitearenas.com/xw2browse/epic/vector.PNG",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg"
       }
     ],
