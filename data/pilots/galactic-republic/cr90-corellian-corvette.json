@@ -1,0 +1,26 @@
+{
+  "name": "CR90 Corellian Corvette",
+  "xws": "cr90corelliancorvette",
+  "ffg": 78,
+  "faction": "Galactic Republic",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_CR90.png",
+  "size": "Huge",
+  "stats": [],
+  "actions": [],
+  "pilots": [
+    {
+      "ffg": 705,
+      "name": "Republic Judiciary",
+      "initiative": 8,
+      "cost": 146,
+      "limited": 0,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a04b07c3b0b3dbe1bfac935ca3a9f0d4.jpg",
+      "shipAbility": {
+        "name": "Broadside Batteries",
+        "text": "You can acquire locks and perform primary attacks at range 1-4."
+      },
+      "text": "The Galactic Republic uses small, swift warships such as the CR90 corvette to respond rapidly to Separatist incursions across the galaxy.",
+      "hyperspace": false
+    }
+  ]
+}

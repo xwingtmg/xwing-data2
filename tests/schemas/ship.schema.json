@@ -19,7 +19,7 @@
     "icon": { "type": "string" },
     "size": {
       "type": "string",
-      "enum": ["Small", "Medium", "Large"]
+      "enum": ["Small", "Medium", "Large", "Huge"]
     },
     "dial": {
       "type": "array",

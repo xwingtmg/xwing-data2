@@ -1,0 +1,26 @@
+{
+  "name": "C-ROC Cruiser",
+  "xws": "croccruiser",
+  "ffg": 82,
+  "faction": "Separatist Alliance",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_C-ROC.png",
+  "size": "Huge",
+  "stats": [],
+  "actions": [],
+  "pilots": [
+    {
+      "ffg": 714,
+      "name": "Separatist Privateers",
+      "initiative": 7,
+      "cost": 58,
+      "limited": 0,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/25a3457e2b32c661210524ff8b1fc785.jpg",
+      "shipAbility": {
+        "name": "Overdrive Burners",
+        "text": "While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die."
+      },
+      "text": "The Separatist Alliance makes use of all manner of unsavory contacts in its fight against the Galactic Republic, including corsairs and criminal cartels.",
+      "hyperspace": false
+    }
+  ]
+}

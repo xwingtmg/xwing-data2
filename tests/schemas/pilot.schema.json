@@ -2,7 +2,7 @@
   "properties": {
     "name": { "type": "string" },
     "caption": { "type": "string" },
-    "initiative": { "type": "integer", "minimum": 0, "maximum": 6 },
+    "initiative": { "type": "integer", "minimum": 0, "maximum": 8 },
     "limited": { "type": "integer", "minimum": 0 },
     "cost": { "type": "integer", "minimum": 0 },
     "xws": { "type": "string", "pattern": "^[a-z0-9-]+$" },

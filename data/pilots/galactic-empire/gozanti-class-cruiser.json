@@ -1,0 +1,26 @@
+{
+  "name": "Gozanti-class Cruiser",
+  "xws": "gozanticlasscruiser",
+  "ffg": 81,
+  "faction": "Galactic Empire",
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Gozanti.png",
+  "size": "Huge",
+  "stats": [],
+  "actions": [],
+  "pilots": [
+    {
+      "ffg": 711,
+      "name": "Outer Rim Garrison",
+      "initiative": 7,
+      "cost": 60,
+      "limited": 0,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/205015c2eb127931dbdca3e841ca8668.jpg",
+      "shipAbility": {
+        "name": "Docking Clamps",
+        "text": "You can dock up to 4 small ships."
+      },
+      "text": "Capable of carrying TIE fighters and operating independently for long periods of time, the Gozanti-class cruiser is a common sight in the skies of downtrodden worlds across the Outer Rim.",
+      "hyperspace": false
+    }
+  ]
+}
