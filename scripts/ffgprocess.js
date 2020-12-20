@@ -448,12 +448,7 @@ function processCard(card) {
       modified = applyDiff(upgradeRef, "name", name) || modified;
 
       if (!upgradeRef.xws) {
-        modified =
-          applyDiff(
-            upgradeRef,
-            "xws",
-            name.toLowerCase().replace(/[^0-9a-z]/g, "")
-          ) || modified;
+        modified = applyDiff(upgradeRef, "xws", generateXWS(name)) || modified;
       }
     }
     if (cost == null) {
@@ -486,6 +481,10 @@ function processCard(card) {
     if (card.id === 700) {
       // Mini Chireen [T-70 X-wing]: Card name is "Mini Chereen" which should be "Mini Chireen"
       card.name = "Nimi Chireen";
+    }
+
+    if (!ref.xws) {
+      modified = applyDiff(ref, "xws", generateXWS(card.name)) || modified;
     }
 
     const engagementStat = findStatistic(card.statistics, "engagement");
@@ -700,4 +699,8 @@ if (modifiedFiles.length) {
 
 function findStatistic(statistics = [], id) {
   return statistics.find(({ ffg_id }) => ffg_id === id);
+}
+
+function generateXWS(str) {
+  return str.toLowerCase().replace(/[^0-9a-z]/g, "");
 }
