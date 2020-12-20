@@ -103,6 +103,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/903cb81e543eb48cd7ae6872f214cb24.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f7d014b30966a8e308aad5d1336d50dd.png",
         "ability": "After an enemy ship executes a maneuver, if it is in the [Bullseye Arc] of a friendly ship at range 0-3, you may spend 1 [Charge]. If you do, that friendly ship acquires a lock on that enemy ship, then gains 1 stress token.",
+        "charges": { "value": 3, "recovers": 3 },
         "grants": [
           {
             "type": "action",
