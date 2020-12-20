@@ -3,6 +3,7 @@
     "name": { "type": "string" },
     "caption": { "type": "string" },
     "initiative": { "type": "integer", "minimum": 0, "maximum": 8 },
+    "engagement": { "type": "integer", "minimum": 0, "maximum": 1 },
     "limited": { "type": "integer", "minimum": 0 },
     "cost": { "type": "integer", "minimum": 0 },
     "xws": { "type": "string", "pattern": "^[a-z0-9-]+$" },

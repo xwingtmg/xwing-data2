@@ -12,7 +12,7 @@ const diffOpts = {
 };
 
 const readFile = pathFromRoot =>
-    fs.readFileSync(`${__dirname}/../${pathFromRoot}`, "utf8");
+  fs.readFileSync(`${__dirname}/../${pathFromRoot}`, "utf8");
 
 console.log("Reading ./ffgcards-en.json");
 let dataString = "";
@@ -402,15 +402,15 @@ function processCard(card) {
       case 329:
         // Outrider [Title] Errata
         card.ability_text = card.ability_text.replace(
-            "obstructed attack",
-            "attack that is obstructed by an obstacle"
+          "obstructed attack",
+          "attack that is obstructed by an obstacle"
         );
         break;
       case 390:
         // Lando's Millennium Falcon [Title] doesn't properly capitalize ship name
         card.ability_text = card.ability_text.replace(
-            "escape craft",
-            "Escape Craft"
+          "escape craft",
+          "Escape Craft"
         );
         break;
       case 549:
@@ -421,7 +421,10 @@ function processCard(card) {
         break;
       case 869:
         // Slave I [Title] doesn't properly capitalize Full Rear Arc
-        card.ability_text = card.ability_text.replace('full rear arc', '[Full Rear Arc]')
+        card.ability_text = card.ability_text.replace(
+          "full rear arc",
+          "[Full Rear Arc]"
+        );
         break;
     }
 
@@ -485,6 +488,13 @@ function processCard(card) {
       card.name = "Nimi Chireen";
     }
 
+    const engagementStat = findStatistic(card.statistics, "engagement");
+    if (engagementStat) {
+      modified =
+        applyDiff(ref, "engagement", parseInt(engagementStat.value, 10)) ||
+        modified;
+    }
+
     modified = applyDiff(ref, "name", card.name) || modified;
     modified = applyDiff(ref, "caption", card.subtitle) || modified;
     if (card.initiative) {
@@ -510,7 +520,7 @@ function processCard(card) {
   switch (card.id) {
     case 65:
       // Norra Wexley [ARC-170 Starfighter]: Ability was changed in errata
-      card_text = card_text.replace('you may ', '');
+      card_text = card_text.replace("you may ", "");
       break;
     case 226:
       // Lando [Escape Craft]: Card text is missing the `</shipability>` closing tag
@@ -518,8 +528,14 @@ function processCard(card) {
       break;
     case 801:
       // Zam Wesell [Firespray]: Quotes are not generated correctly by script
-      card_text = card_text.replace("You Should Thank Me", '"You Should Thank Me" or');
-      card_text = card_text.replace("You'd Better Mean Business", '"You\'d Better Mean Business"');
+      card_text = card_text.replace(
+        "You Should Thank Me",
+        '"You Should Thank Me" or'
+      );
+      card_text = card_text.replace(
+        "You'd Better Mean Business",
+        '"You\'d Better Mean Business"'
+      );
       break;
   }
 
@@ -680,4 +696,8 @@ if (modifiedFiles.length) {
       JSON.stringify(data, null, 0)
     );
   });
+}
+
+function findStatistic(statistics = [], id) {
+  return statistics.find(({ ffg_id }) => ffg_id === id);
 }
