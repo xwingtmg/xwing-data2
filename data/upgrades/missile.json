@@ -275,6 +275,14 @@
     "sides": [
       {
         "ability": "Attack ([Calculate] or [Lock]): Spend 1 [Charge]. If the defender is in your [Front Arc], you may spend 1 [Charge] to roll 1 additional attack die. If the defender is in your [Bullseye Arc], you may spend up to 2 [Charge] to roll that many additional attack dice instead.",
+        "attack": {
+          "arc": "Full Front Arc",
+          "maxrange": 2,
+          "minrange": 1,
+          "ordnance": true,
+          "value": 2
+        },
+        "charges": { "value": 5, "recovers": 0 },
         "title": "Multi-Missile Pods",
         "type": "Missile",
         "slots": ["Missile", "Missile"],
