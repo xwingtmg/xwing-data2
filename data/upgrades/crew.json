@@ -1383,6 +1383,7 @@
     "sides": [
       {
         "ability": "Setup: Before placing forces, you may spend 3-5 [Charge]. If you do, choose another friendly ship and assign the It's the Resistance condition to it.",
+        "conditions": ["itstheresistance"],
         "title": "GA-97",
         "type": "Crew",
         "slots": ["Crew"],
