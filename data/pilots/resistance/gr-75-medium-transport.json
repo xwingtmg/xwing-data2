@@ -19,11 +19,21 @@
         "name": "Resupply Craft",
         "text": "After another friendly ship at range 0-1 performs an action, you may spend 1 [Energy]. If you do, it removes 1 orange or red token, or recovers 1 shield."
       },
-      "text": "The GR-75 medium transport acquitted itself well at battles such as the evacuation of Hoth, where several of these ships were pivotal to the Rebel forces' escape.",
+      "text": "In use since the Galactic Civil War, groups within the New Republic still utilize the GR-75 medium transport for supply and aid missions.",
       "hyperspace": false,
       "ability": "In use since the Galactic Civil War, groups within the New Republic still utilize the GR-75 medium transport for supply and aid missions.",
       "engagement": 1,
-      "xws": "newrepublicvolunteers"
+      "xws": "newrepublicvolunteers",
+      "slots": [
+        "Command",
+        "Hardpoint",
+        "Turret",
+        "Crew",
+        "Crew",
+        "Team",
+        "Cargo",
+        "Cargo"
+      ]
     }
   ]
 }

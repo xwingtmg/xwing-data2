@@ -22,7 +22,19 @@
       "text": "Vessels like the C-ROC Cruiser allow criminal operations across the Outer Rim to move massive amounts of illicit materials, or project power that can bully small colonies into compliance.",
       "hyperspace": false,
       "engagement": 1,
-      "xws": "syndicatesmugglers"
+      "xws": "syndicatesmugglers",
+      "slots": [
+        "Command",
+        "Hardpoint",
+        "Crew",
+        "Crew",
+        "Team",
+        "Cargo",
+        "Device",
+        "Illicit",
+        "Title",
+        "Configuration"
+      ]
     }
   ]
 }

@@ -108,6 +108,28 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg",
       "ffg": 22,
       "hyperspace": true
+    },
+    {
+      "name": "Wedge Antilles",
+      "xws": "wedgeantilles-rz1awing",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "hyperspace": false
+    },
+    {
+      "name": "Sabine Wren",
+      "xws": "sabinewren-rz1awing",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "hyperspace": false
     }
   ]
 }
