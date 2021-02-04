@@ -55,7 +55,8 @@
       "slots": ["Talent", "Talent", "Missile"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_20.jpg",
       "ffg": 20,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["A-wing"]
     },
     {
       "name": "Green Squadron Pilot",
@@ -72,7 +73,8 @@
       "slots": ["Talent", "Talent", "Missile"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg",
       "ffg": 21,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["A-wing"]
     },
     {
       "name": "Jake Farrell",
@@ -90,7 +92,8 @@
       "slots": ["Talent", "Talent", "Missile"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_19.jpg",
       "ffg": 19,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["A-wing"]
     },
     {
       "name": "Phoenix Squadron Pilot",
@@ -107,7 +110,8 @@
       "slots": ["Talent", "Missile"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg",
       "ffg": 22,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["A-wing"]
     },
     {
       "name": "Wedge Antilles",
@@ -118,7 +122,8 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "hyperspace": false
+      "hyperspace": false,
+      "keywords": ["A-wing"]
     },
     {
       "name": "Sabine Wren",
@@ -129,7 +134,8 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "hyperspace": false
+      "hyperspace": false,
+      "keywords": ["A-wing"]
     }
   ]
 }

@@ -63,7 +63,8 @@
         "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
       },
       "ability": "After you perform an attack, if the defender is in your [Front Arc], you may acquire a lock on it. Then, if the defender is in your [Bullseye Arc], it gains 1 strain token.",
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["Droid"]
     },
     {
       "ffg": 669,
@@ -88,7 +89,8 @@
         "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
       },
       "text": "A late-war development for the Confederacy of Independent Systems, the droid gunship uses specialized repulsors to nimbly strafe targets and precisely drop battle droids.",
-      "hyperspace": false
+      "hyperspace": false,
+      "keywords": ["Droid"]
     },
     {
       "ffg": 668,
@@ -114,7 +116,8 @@
         "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
       },
       "ability": "While you perform a [Missile] or [Cannon] attack, you may remove 1 tractor token from the defender to reroll up to 2 attack dice.",
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["Droid"]
     },
     {
       "ffg": 664,
@@ -140,7 +143,8 @@
         "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
       },
       "ability": "Before you engage, you may choose another friendly ship at range 0-1. That ship transfers 1 calculate token to you.",
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["Droid"]
     },
     {
       "ffg": 665,
@@ -166,7 +170,8 @@
         "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
       },
       "ability": "After you barrel roll or sideslip, if you are stressed, gain 1 calculate token.",
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["Droid"]
     },
     {
       "name": "Separatist Predator",
@@ -191,7 +196,8 @@
       ],
       "ffg": 667,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/af4f7665df100530f6dc8e3cf80a52d4.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d8cba72d59f876f9849a4ef42740bf40.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d8cba72d59f876f9849a4ef42740bf40.png",
+      "keywords": ["Droid"]
     }
   ],
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_HMP_Droid_Gunship.png"

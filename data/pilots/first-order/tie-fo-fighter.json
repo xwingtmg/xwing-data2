@@ -50,7 +50,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c6a43d25d22d4112dd7e968cab4eb3d5.jpg",
       "slots": ["Talent", "Modification", "Tech"],
       "ffg": 397,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["TIE"]
     },
     {
       "name": "Commander Malarus",
@@ -65,7 +66,8 @@
       "slots": ["Talent", "Modification", "Tech"],
       "charges": { "value": 2, "recovers": 0 },
       "ffg": 452,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["TIE"]
     },
     {
       "name": "\"Scorch\"",
@@ -79,7 +81,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/dd225b2dab46b921e622dca6d799591f.jpg",
       "slots": ["Talent", "Modification", "Tech"],
       "ffg": 398,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["TIE"]
     },
     {
       "name": "\"Static\"",
@@ -93,7 +96,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/30e0837d4877df289c220ea0ae174078.jpg",
       "slots": ["Talent", "Modification", "Tech"],
       "ffg": 399,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["TIE"]
     },
     {
       "name": "\"Longshot\"",
@@ -107,7 +111,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/31ad38b2fc0d39f37ad82e1c70f62135.jpg",
       "slots": ["Talent", "Modification", "Tech"],
       "ffg": 400,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["TIE"]
     },
     {
       "name": "Omega Squadron Ace",
@@ -120,7 +125,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4e5010f7b60902288dac36bf646dcde9.jpg",
       "slots": ["Talent", "Modification", "Tech"],
       "ffg": 403,
-      "hyperspace": false
+      "hyperspace": false,
+      "keywords": ["TIE"]
     },
     {
       "name": "\"Muse\"",
@@ -134,7 +140,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d3f8b9baf0bbd8a7d2b785a616dacbcf.jpg",
       "slots": ["Talent", "Modification", "Tech"],
       "ffg": 401,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["TIE"]
     },
     {
       "name": "TN-3465",
@@ -148,7 +155,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9fce0e75539a225e9ff1536e466c3c13.jpg",
       "slots": ["Modification", "Tech"],
       "ffg": 453,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["TIE"]
     },
     {
       "name": "Zeta Squadron Pilot",
@@ -161,7 +169,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d20d6cc2a052afc783d535c802874d23.jpg",
       "slots": ["Modification", "Tech"],
       "ffg": 404,
-      "hyperspace": false
+      "hyperspace": false,
+      "keywords": ["TIE"]
     },
     {
       "name": "Epsilon Squadron Cadet",
@@ -174,7 +183,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/610cb198e4cda75aab0207841c6e4a87.jpg",
       "slots": ["Modification", "Tech"],
       "ffg": 405,
-      "hyperspace": false
+      "hyperspace": false,
+      "keywords": ["TIE"]
     },
     {
       "name": "Lieutenant Rivas",
@@ -188,7 +198,8 @@
       "ability": "After a ship at range 1-2 gains a red or orange token, if you do not have that ship locked, you may acquire a lock on that ship.",
       "slots": ["Modification", "Tech"],
       "ffg": 454,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["TIE"]
     },
     {
       "name": "\"Null\"",
@@ -202,7 +213,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/eb788d9622d096c6d96c96cf20dc1939.jpg",
       "slots": ["Modification", "Tech"],
       "ffg": 402,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["TIE"]
     }
   ]
 }

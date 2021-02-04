@@ -48,7 +48,8 @@
       "hyperspace": false,
       "cost": 54,
       "ffg": 526,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/04b3e18c19a0843f89353949c9ffcb77.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/04b3e18c19a0843f89353949c9ffcb77.jpg",
+      "keywords": ["Clone"]
     },
     {
       "name": "\"Jag\"",
@@ -62,7 +63,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/124b11dde89cf986fcd8bc8e89094cf5.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/28152f1d6ee09d27a4afd2459947dc3d.png",
       "ability": "After a friendly ship at range 1-2 in your [Left Arc] or [Right Arc] defends, you may acquire a lock on the attacker.",
-      "hyperspace": false
+      "hyperspace": false,
+      "keywords": ["Clone"]
     },
     {
       "name": "\"Odd Ball\"",
@@ -83,7 +85,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/597ace7e901187c88d9ff75bb34a1301.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/b0e39e35b57982a9cdffe663ff47b2dc.png",
       "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
-      "hyperspace": false
+      "hyperspace": false,
+      "keywords": ["Clone"]
     },
     {
       "name": "\"Wolffe\"",
@@ -105,7 +108,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/2a15fd003a7fc1d475b562a958c6c263.png",
       "charges": { "value": 1, "recovers": 0 },
       "ability": "While you perform a primary [Front Arc] attack, you may spend 1 [Charge] to reroll 1 attack die. While you perform a primary [Rear Arc] attack, you may recover 1 [Charge] to roll 1 additional attack die.",
-      "hyperspace": false
+      "hyperspace": false,
+      "keywords": ["Clone"]
     },
     {
       "name": "104th Battalion Pilot",
@@ -118,7 +122,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/5081daee997a2a55de474dad2e8e4a07.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1798ea30f603f073200326864ef9424c.png",
       "text": "The ARC-170 was designed as a dominating heavy escort fighter with powerful front and rear lasers, ordnance, and an astromech for navigation. Squadrons of these mighty ships bolster the Republic Navy's presence at any battle where they are deployed.",
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["Clone"]
     },
     {
       "name": "Squad Seven Veteran",
@@ -138,7 +143,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3c9cad4a6c8cdb6a7749a76e1b42ec23.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/0e0fb59b2806b41214275255986965f2.png",
       "text": "Clone Flight Seven serves as part of the Open Circle Fleet under legendary Jedi Generals such as Plo Koon and Obi-Wan Kenobi, and won glory at the battles of Coruscant and Cato Neimoidia.",
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["Clone"]
     }
   ]
 }

@@ -124,7 +124,8 @@
       "slots": ["Talent", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_186.jpg",
       "ffg": 186,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["Bounty Hunter"]
     },
     {
       "name": "Serissu",
@@ -201,7 +202,8 @@
         { "difficulty": "White", "type": "Evade" },
         { "difficulty": "White", "type": "Lock" },
         { "difficulty": "White", "type": "Barrel Roll" }
-      ]
+      ],
+      "keywords": ["Droid"]
     }
   ]
 }
