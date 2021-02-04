@@ -19,10 +19,21 @@
         "name": "Docking Clamps",
         "text": "You can dock up to 4 small ships."
       },
-      "text": "Capable of carrying TIE fighters and operating independently for long periods of time, the Gozanti-class cruiser is a common sight in the skies of downtrodden worlds across the Outer Rim.",
+      "text": "Capable of carrying four TIE fighters and operating independently for long periods of time, the Gozanti-class cruiser is a common sight in the skies of downtrodden worlds across the Outer Rim.",
       "hyperspace": false,
       "engagement": 1,
-      "xws": "outerrimgarrison"
+      "xws": "outerrimgarrison",
+      "slots": [
+        "Command",
+        "Hardpoint",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Team",
+        "Cargo",
+        "Cargo",
+        "Title"
+      ]
     }
   ]
 }

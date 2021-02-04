@@ -127,6 +127,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg",
       "ffg": 122,
       "hyperspace": false
+    },
+    {
+      "name": "Vult Skerris",
+      "xws": "vultskerris",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Full Throttle",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+      },
+      "hyperspace": false
     }
   ]
 }

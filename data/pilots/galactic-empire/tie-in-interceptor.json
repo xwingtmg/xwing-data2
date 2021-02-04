@@ -106,6 +106,29 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg",
       "ffg": 104,
       "hyperspace": false
+    },
+    {
+      "name": "Ciena Ree",
+      "xws": "cienaree",
+      "initiative": 6,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "hyperspace": false
+    },
+    {
+      "name": "Gideon Hask",
+      "xws": "gideonhask-tieininterceptor",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "caption": "Inferno Two",
+      "hyperspace": false
     }
   ]
 }
