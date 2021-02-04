@@ -70,6 +70,31 @@
         ]
       }
     },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "A-wing",
+          "B-wing",
+          "Bounty Hunter",
+          "Clone",
+          "Dark Side",
+          "Droid",
+          "Freighter",
+          "Jedi",
+          "Light Side",
+          "Mandalorian",
+          "Partisan",
+          "Sith",
+          "Spectre",
+          "TIE",
+          "X-wing",
+          "Y-wing",
+          "YT-1300"
+        ]
+      }
+    },
     "image": { "type": "string" },
     "artwork": { "type": "string" },
     "ffg": { "type": "integer" },

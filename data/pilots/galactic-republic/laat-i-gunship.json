@@ -61,7 +61,8 @@
         "text": "While a friendly ship performs a non-[Single Turret Arc] attack, if the defender is in your [Single Turret Arc], you may spend 1 [Charge]. If you do, the attacker rerolls up to 2 attack dice."
       },
       "ability": "At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a [Barrel Roll] or [Boost] action.",
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["Clone"]
     },
     {
       "ffg": 662,
@@ -88,7 +89,8 @@
         "text": "While a friendly ship performs a non-[Single Turret Arc] attack, if the defender is in your [Single Turret Arc], you may spend 1 [Charge]. If you do, the attacker rerolls up to 2 attack dice."
       },
       "ability": "After a friendly small ship in your [Single Turret Arc] gains a deplete or strain token, if you have no tokens of that type, you may transfer that token to yourself.",
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["Clone"]
     },
     {
       "ffg": 661,
@@ -115,7 +117,8 @@
         "text": "While a friendly ship performs a non-[Single Turret Arc] attack, if the defender is in your [Single Turret Arc], you may spend 1 [Charge]. If you do, the attacker rerolls up to 2 attack dice."
       },
       "ability": "After you or a friendly non-limited ship at range 0-2 are destroyed during the Engagement Phase, that ship is not removed until the end of that phase.",
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["Clone"]
     },
     {
       "name": "212th Battalion Pilot",
@@ -141,7 +144,8 @@
       "shipAbility": {
         "name": "Fire Convergence",
         "text": "While a friendly ship performs a non-[Single Turret Arc] attack, if the defender is in your [Single Turret Arc], you may spend 1 [Charge]. If you do, the attacker rerolls up to 2 attack dice."
-      }
+      },
+      "keywords": ["Clone"]
     }
   ],
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_LAAT_Republic_Gunship.png"

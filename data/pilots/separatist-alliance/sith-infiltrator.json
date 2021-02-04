@@ -61,7 +61,8 @@
         "Tactical Relay"
       ],
       "ffg": 503,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/04b1c1fea3735eb844455dd3278346d0.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/04b1c1fea3735eb844455dd3278346d0.jpg",
+      "keywords": ["Dark Side", "Sith"]
     },
     {
       "name": "Count Dooku",
@@ -86,7 +87,8 @@
         "Tactical Relay"
       ],
       "ffg": 504,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/65eabe68c7d1ae072442d8c8808414db.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/65eabe68c7d1ae072442d8c8808414db.jpg",
+      "keywords": ["Dark Side", "Sith"]
     },
     {
       "name": "Dark Courier",
@@ -137,7 +139,8 @@
         { "difficulty": "White", "type": "Lock" },
         { "difficulty": "Red", "type": "Barrel Roll" }
       ],
-      "hyperspace": false
+      "hyperspace": false,
+      "keywords": ["Droid"]
     }
   ],
   "ffg": 60

@@ -60,7 +60,8 @@
       "slots": ["Talent", "Sensor", "Missile"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_101.jpg",
       "ffg": 101,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["TIE"]
     },
     {
       "name": "Grand Inquisitor",
@@ -75,7 +76,8 @@
       "slots": ["Sensor", "Missile", "Force Power"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_99.jpg",
       "ffg": 99,
-      "hyperspace": false
+      "hyperspace": false,
+      "keywords": ["Dark Side", "TIE"]
     },
     {
       "name": "Inquisitor",
@@ -89,7 +91,8 @@
       "slots": ["Sensor", "Missile", "Force Power"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_102.jpg",
       "ffg": 102,
-      "hyperspace": true
+      "hyperspace": true,
+      "keywords": ["Dark Side", "TIE"]
     },
     {
       "name": "Seventh Sister",
@@ -104,7 +107,8 @@
       "slots": ["Sensor", "Missile", "Force Power"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_100.jpg",
       "ffg": 100,
-      "hyperspace": false
+      "hyperspace": false,
+      "keywords": ["Dark Side", "TIE"]
     },
     {
       "name": "Fifth Brother",
@@ -119,7 +123,8 @@
       "cost": 42,
       "ffg": 632,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e79e45f2bdb5a2ab6ff6728b42db0b74.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/01a02a00ef5aad21bc1f0a58028136ec.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/01a02a00ef5aad21bc1f0a58028136ec.png",
+      "keywords": ["Dark Side", "TIE"]
     }
   ]
 }
