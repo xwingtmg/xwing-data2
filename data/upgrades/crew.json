@@ -1622,6 +1622,7 @@
     "sides": [
       {
         "ability": "At the start of the End Phase, if you are reinforced, you may choose 1 friendly ship at range 0 or in your [Left Arc] or [Right Arc] at range 1. That ship removes 1 deplete or strain token, or repairs 1 faceup damage card.",
+        "force": { "value": 1, "recovers": 1 },
         "title": "Plo Koon",
         "type": "Crew",
         "slots": ["Crew"],
@@ -1676,6 +1677,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2b1f84f53e0a2fe6f49dbdef202b6adb.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d531840147286ab5b43eb5989d6eb8ec.png",
         "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-1 and spend 1 [Force]. If you do, it may perform a red [Evade] action.",
+        "force": { "value": 1, "recovers": 1 },
         "grants": [
           {
             "type": "action",
