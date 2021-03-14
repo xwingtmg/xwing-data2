@@ -423,6 +423,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/bdc101788f827aeaf2f50a513b59aa7e.png",
         "ability": "After you execute a maneuver, you may spend 1 [Force] and choose a friendly ship at range 1-3 in your firing arc. If you do, it may perform a red [Focus] action, even while stressed.",
         "slots": ["Gunner"],
+        "force": { "value": 1, "recovers": 1 },
         "type": "Gunner"
       }
     ],
