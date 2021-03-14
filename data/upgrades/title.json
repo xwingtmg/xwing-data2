@@ -285,6 +285,9 @@
         "type": "Title",
         "ability": "Gain a [Front Arc] primary weapon with a value of \"3.\" During the End Phase, do not remove up to 2 focus tokens.",
         "slots": ["Title"],
+        "grants": [
+          { "type": "stat", "value": "attack", "arc": "Front Arc", "amount": 3 }
+        ],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_104.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_104.jpg",
         "ffg": 328
