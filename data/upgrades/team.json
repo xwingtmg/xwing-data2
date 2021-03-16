@@ -13,11 +13,11 @@
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Lock", "difficulty": "White" }
-          },
-          {
-            "type": "action",
-            "value": { "type": "Calculate", "difficulty": "White" }
+            "value": { 
+              "type": "Lock", 
+              "difficulty": "White",
+              "linked": { "type": "Calculate", "difficulty": "White" }
+            }
           }
         ],
         "ffg": 746,
