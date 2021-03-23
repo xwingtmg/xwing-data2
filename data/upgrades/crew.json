@@ -56,7 +56,7 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
     ],
-    "hyperspace": true
+    "hyperspace": false
   },
   {
     "name": "4-LOM",
@@ -716,7 +716,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Lando Calrissian",
@@ -1563,7 +1563,7 @@
     "name": "Agent Terex",
     "limited": 1,
     "xws": "agentterex",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup and place 3 calculate tokens on this card. At the start of the Engagement Phase, you may choose a friendly ship at range 0-3 and remove 1 calculate token from this card to have that ship gain a matching token. Then, if there are no calculate tokens on this card, flip it.",
@@ -1776,7 +1776,7 @@
     "cost": { "value": 7 },
     "limited": 1,
     "xws": "commandermalarus",
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "sides": [
@@ -1867,7 +1867,7 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: \"You Should Thank Me\" or \"You'd Better Mean Business\"",
+        "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: -You Should Thank Me -You'd Better Mean Business",
         "title": "Zam Wesell",
         "type": "Crew",
         "slots": ["Crew"],
@@ -1879,5 +1879,20 @@
       }
     ],
     "cost": { "value": 4 }
+  },
+  {
+    "name": "Gamut Key",
+    "limited": 1,
+    "xws": "gamutkey",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship at range 0-1 with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
+        "title": "Gamut Key",
+        "type": "Crew",
+        "slots": ["Crew"]
+      }
+    ],
+    "restrictions": [{ "factions": ["Scum and Villainy"] }]
   }
 ]

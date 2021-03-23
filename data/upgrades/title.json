@@ -427,12 +427,12 @@
         "ffg": 379
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Virago",
@@ -685,7 +685,7 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "Add [Cargo] slot. During the End Phase, you may recover 1 additional shield or 1 additional [Energy].",
+        "ability": "Add [Cargo] slot. During the End Phase, you may recover 1 additional [Shield] or [Energy].",
         "title": "Insatiable Worrt",
         "type": "Title",
         "slots": ["Title"],
@@ -926,5 +926,25 @@
       }
     ],
     "cost": { "value": 3 }
+  },
+  {
+    "name": "B6 Blade Wing Prototype",
+    "limited": 1,
+    "xws": "b6bladewingprototype",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Add [Gunner] slot.",
+        "title": "B6 Blade Wing Prototype",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }]
+      }
+    ],
+    "cost": { "value": 2 },
+    "restrictions": [
+      { "factions": ["Rebel Alliance"] },
+      { "ships": ["asf01bwing"] }
+    ]
   }
 ]

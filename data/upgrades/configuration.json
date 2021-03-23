@@ -39,7 +39,7 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["t70xwing"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Os-1 Arsenal Loadout",
@@ -140,7 +140,7 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["t65xwing"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Xg-1 Assault Configuration",
@@ -187,7 +187,7 @@
       }
     ],
     "restrictions": [{ "ships": ["vultureclassdroidfighter"] }],
-    "hyperspace": false,
+    "hyperspace": true,
     "cost": { "value": 1 }
   },
   {
@@ -264,7 +264,7 @@
       }
     ],
     "restrictions": [{ "ships": ["hyenaclassdroidbomber"] }],
-    "hyperspace": false,
+    "hyperspace": true,
     "cost": { "value": 1 }
   },
   {
@@ -297,7 +297,7 @@
     "name": "Stabilized S-foils",
     "limited": 0,
     "xws": "stabilizedsfoils",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "Before you activate, if you are not critically damaged, you may flip this card.",
@@ -369,7 +369,7 @@
     "cost": { "value": 3 },
     "limited": 0,
     "xws": "repulsorliftstabilizers",
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Alpha-3B \"Besh\"",
@@ -410,7 +410,7 @@
     "name": "Intercept Booster",
     "limited": 0,
     "xws": "interceptbooster",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. During the System Phase, gain 1 disarm token unless you flip this card. At the end of the End Phase, if you have no active [Charge], flip this card.",
@@ -503,5 +503,59 @@
       }
     ],
     "cost": { "value": 3 }
+  },
+  {
+    "name": "Sensitive Controls",
+    "limited": 0,
+    "xws": "sensitivecontrols",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Replace your Autothrusters ship ability with the following: Sensitive Controls: During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.",
+        "title": "Sensitive Controls",
+        "type": "Configuration",
+        "slots": ["Configuration"]
+      }
+    ],
+    "restrictions": [{ "ships": ["tieininterceptor"] }],
+    "cost": { "value": 2 }
+  },
+  {
+    "name": "TIE Defender Elite",
+    "limited": 0,
+    "xws": "tiedefenderelite",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Decrease the difficulty of your turn ([Turn Left] or [Turn Right]) maneuvers. Increase the difficulty of your Koiogran Turn ([Koiogran Turn]) maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire Control: After you perform a [Cannon] or [Missile] attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.",
+        "title": "TIE Defender Elite",
+        "type": "Configuration",
+        "slots": ["Configuration"]
+      }
+    ],
+    "restrictions": [{ "ships": ["tieddefender"] }],
+    "cost": { "value": 2 }
+  },
+  {
+    "name": "Vectored Cannons (RZ-1)",
+    "limited": 0,
+    "xws": "vectoredcannonsrz1",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Gain a [Single Turret Arc] indicator. Treat the arc requirement if your [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the System Phase, you may perform a red [Boost] or red [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc].",
+        "title": "Vectored Cannons (RZ-1)",
+        "type": "Configuration",
+        "slots": ["Configuration"],
+        "grants": [
+          {
+            "type": "arc",
+            "value": "Single Turret Arc"
+          }
+        ]
+      }
+    ],
+    "restrictions": [{ "ships": ["rz1awing"] }],
+    "cost": { "value": 1 }
   }
 ]

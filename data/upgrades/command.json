@@ -80,8 +80,8 @@
       {
         "ability": "While a friendly large or huge ship at range 0-3 executes a maneuver, it may suffer 1 [Hit] damage to execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
         "title": "Admiral Ozzel",
-        "type": "Crew",
-        "slots": ["Crew", "Command"],
+        "type": "Command",
+        "slots": ["Command", "Crew"],
         "ffg": 724,
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/07/be/07be48c1-8c28-47af-8bee-ea09c08b59ec/swz53_admiral-ozzel.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f5f82fcbc211ffa39f9a213fac643a76.jpg"
@@ -98,8 +98,8 @@
       {
         "ability": "During the End Phase, you may choose up to 2 friendly ships at range 0-1. If you do, each of these ships does not remove 1 calculate or evade token.",
         "title": "Azmorigan",
-        "type": "Crew",
-        "slots": ["Crew", "Command"],
+        "type": "Command",
+        "slots": ["Command", "Crew"],
         "ffg": 725,
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/5b/c2/5bc2cc05-bcc4-427a-90ad-039225fa1c87/swz55_azmorigan_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4dfc9c0a148c3aac400435771a229870.jpg"
@@ -116,8 +116,8 @@
       {
         "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.",
         "title": "Captain Needa",
-        "type": "Crew",
-        "slots": ["Crew", "Command"],
+        "type": "Command",
+        "slots": ["Command", "Crew"],
         "charges": { "value": 4, "recovers": 0 },
         "ffg": 726,
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/48/59/48592366-3c7f-49f6-9088-b8f6b7d459b0/swz53_captain-needa.png",
@@ -135,8 +135,8 @@
       {
         "ability": "After a friendly ship at range 0-2 is destroyed, you may choose a friendly ship at range 0-2. If you do, it may perform a red [Evade] action.",
         "title": "Carlist Rieekan",
-        "type": "Crew",
-        "slots": ["Crew", "Command"],
+        "type": "Command",
+        "slots": ["Command", "Crew"],
         "grants": [
           {
             "type": "action",
@@ -159,8 +159,8 @@
       {
         "ability": "Friendly ships at range 0-3 can spend your focus and evade tokens.",
         "title": "Jan Dodonna",
-        "type": "Crew",
-        "slots": ["Crew", "Command"],
+        "type": "Command",
+        "slots": ["Command", "Crew"],
         "ffg": 729,
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/1e/b5/1eb5c6d9-dc5c-4fa0-8e58-5153a993d075/swz55_jan-dodonna_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fa6dba670282a19b80dc0e53dec78536.jpg"
@@ -177,8 +177,8 @@
       {
         "ability": "After you are destroyed, each friendly ship at range 0-1 gains 1 focus token. After you are destroyed, you are not removed until the end of the End Phase.",
         "title": "Raymus Antilles",
-        "type": "Crew",
-        "slots": ["Crew", "Command"],
+        "type": "Command",
+        "slots": ["Command", "Crew"],
         "ffg": 730,
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/ee/ba/eebaaf91-37a3-4d28-9e08-6c421ed496b4/swz55_raymus-antilles_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ac03675e91a973a4a31a9b4d380080a6.jpg"
@@ -195,14 +195,15 @@
       {
         "ability": "After you are destroyed, you are not removed until the end of the End Phase.",
         "title": "Stalwart Captain",
-        "type": "Crew",
-        "slots": ["Crew", "Command"],
+        "type": "Command",
+        "slots": ["Command", "Crew"],
         "ffg": 731,
         "image": "https://static.wikia.nocookie.net/xwing-miniatures-second-edition/images/b/bc/Stalwart_Captain.png/revision/latest?cb=20201006040027",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e204e200410fdea80a1e7582db0dcd32.jpg"
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "restrictions": [{ "sizes": ["Huge"] }]
   },
   {
     "name": "Strategic Commander",
@@ -213,14 +214,15 @@
       {
         "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.",
         "title": "Strategic Commander",
-        "type": "Crew",
-        "slots": ["Crew", "Command"],
+        "type": "Command",
+        "slots": ["Command", "Crew"],
         "ffg": 727,
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/5e/b5/5eb5591f-95b5-4fd1-9371-f5c819200dc9/swz53_strategic-commander_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "restrictions": [{ "sizes": ["Huge"] }]
   },
   {
     "name": "Jedi Commander",
@@ -246,6 +248,101 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/04b5550c3226ede7611fcf46a0c6253f.jpg"
       }
     ],
+    "cost": { "value": 3 },
+    "restrictions": [
+      { "factions": ["Galactic Republic"] },
+      { "ships": ["delta7aethersprite", "eta2actis"] }
+    ]
+  },
+  {
+    "name": "B6 Blade Wing Prototype",
+    "limited": 1,
+    "xws": "b6bladewingprototype-command",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Add [Gunner] slot. Attack ([Lock]): Gain 1 ion token to perform this attack. If this attack hits, the defender suffers 1 additional [Hit]/[Critical Hit] damage for each matching uncanceled result after the first.",
+        "title": "B6 Blade Wing Prototype",
+        "type": "Command",
+        "slots": ["Command", "Title"]
+      }
+    ],
+    "cost": { "value": 12 },
+    "restrictions": [
+      { "factions": ["Rebel Alliance"] },
+      { "ships": ["asf01bwing"] }
+    ]
+  },
+  {
+    "name": "Bounty",
+    "limited": 0,
+    "xws": "bounty",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. You can be included in Separatist, Imperial, and First Order squads. After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1 [Charge] on your ship card and each of your upgrade cards. Then flip this card",
+        "title": "Bounty (Hired)",
+        "type": "Command",
+        "slots": ["Command"]
+      },
+      {
+        "text": "Bounty hunting is a complicated profession. Any assassin can kill, but the best hunters are renowned for their ability to bring a mark in alive, as doing so is more difficult but invariably commands a much greater reward.",
+        "title": "Bounty (Paid)",
+        "type": "Command",
+        "slots": ["Command"]
+      }
+    ],
     "cost": { "value": 5 }
+  },
+  {
+    "name": "Phoenix Squadron",
+    "limited": 1,
+    "xws": "phoenixsquadron",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "At the start of the Planning Phase, 1 of your wingmates that is docked with you may join your wing without gaining a stress token. While you or your Attack Shuttle wingmate or Sheathipede-class wingmate defends, up to 2 of your RZ-1 A-wing wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
+        "title": "Phoenix Squadron",
+        "type": "Command",
+        "slots": ["Command"]
+      }
+    ],
+    "cost": { "value": 5 }
+  },
+  {
+    "name": "Shadow Wing",
+    "limited": 1,
+    "xws": "shadowwing",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 other ships of your type. After you are placed, flip this card.",
+        "title": "Shadow Wing",
+        "type": "Command",
+        "slots": ["Command"]
+      },
+      {
+        "ability": "Your wingmates can perform [Barrel Roll] or [Boost] actions. If they do, they voluntarily split from the wing. While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
+        "title": "Shadow Wing",
+        "type": "Command",
+        "slots": ["Command"]
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Skystrike Academy Class",
+    "limited": 2,
+    "xws": "skystrikeacademyclass",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you barrel roll or boost, each of your wingmates is forced to split from the wing. While you defend, up to 5 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] to cancel 1 matching result.",
+        "title": "Skystrike Academy Class",
+        "type": "Command",
+        "slots": ["Command"]
+      }
+    ],
+    "cost": { "value": 3 }
   }
 ]

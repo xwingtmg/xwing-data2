@@ -49,10 +49,10 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Modification", "Modification"],
+      "slots": ["Modification", "Modification", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg",
       "ffg": 106,
-      "hyperspace": true,
+      "hyperspace": false,
       "keywords": ["TIE"]
     },
     {
@@ -67,10 +67,10 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Modification", "Modification"],
+      "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg",
       "ffg": 105,
-      "hyperspace": true,
+      "hyperspace": false,
       "keywords": ["TIE"]
     },
     {
@@ -86,10 +86,10 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Modification", "Modification"],
+      "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg",
       "ffg": 103,
-      "hyperspace": false,
+      "hyperspace": true,
       "keywords": ["TIE"]
     },
     {
@@ -105,10 +105,10 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Modification", "Modification"],
+      "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg",
       "ffg": 104,
-      "hyperspace": false,
+      "hyperspace": true,
       "keywords": ["TIE"]
     },
     {
@@ -120,8 +120,11 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "hyperspace": true,
+      "keywords": ["TIE"],
+      "cost": 48,
+      "slots": ["Talent", "Modification", "Modification", "Configuration"],
+      "ability": "After you perform an attack, if the defender was destroyed, gain 1 stress token. After a friendly ship at range 0-3 is destroyed, remove 1 stress token."
     },
     {
       "name": "Gideon Hask",
@@ -133,7 +136,74 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "caption": "Inferno Two",
-      "hyperspace": false,
+      "hyperspace": true,
+      "keywords": ["TIE"],
+      "cost": 48,
+      "slots": ["Talent", "Modification", "Modification", "Configuration"],
+      "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die."
+    },
+    {
+      "name": "Vult Skerris",
+      "xws": "vultskerris-tieininterceptor",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "caption": "Arrogant Ace",
+      "hyperspace": true,
+      "cost": 46,
+      "slots": ["Talent", "Modification", "Modification", "Configuration"],
+      "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
+      "keywords": ["TIE"]
+    },
+    {
+      "name": "Commandant Goran",
+      "xws": "commandantgoran",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "caption": "Skystrike Superintendent",
+      "hyperspace": true,
+      "cost": 43,
+      "slots": ["Talent", "Modification", "Modification", "Configuration"],
+      "ability": "After a friendly ship at range 0-3 with a lower initiative than you partially executes a maneuver, it may perform a red [Focus] action.",
+      "keywords": ["TIE"]
+    },
+    {
+      "name": "Lieutenant Lorrir",
+      "xws": "lieutenantlorrir",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "caption": "Requiem for Brentaal",
+      "hyperspace": true,
+      "cost": 41,
+      "slots": ["Talent", "Modification", "Modification", "Configuration"],
+      "ability": "While you barrel roll, you must use the ([Bank Left] or [Bank Right]) templates instead of the ([Straight] template.",
+      "keywords": ["TIE"]
+    },
+    {
+      "name": "Nash Windrider",
+      "xws": "nashwindrider",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "caption": "Alderaanian Zealot",
+      "hyperspace": true,
+      "cost": 40,
+      "slots": ["Talent", "Modification", "Modification", "Configuration"],
+      "ability": "During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spent 1 [Charge]. If you do, that ship engages at the current initiative.",
       "keywords": ["TIE"]
     }
   ]

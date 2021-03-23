@@ -135,7 +135,18 @@
       "initiative": 5,
       "limited": 1,
       "hyperspace": false,
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "cost": 40,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Turret",
+        "Torpedo",
+        "Gunner",
+        "Astromech",
+        "Device"
+      ],
+      "ability": "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your [Full Front Arc]."
     },
     {
       "name": "Arliz Hadrassian",
@@ -143,6 +154,67 @@
       "initiative": 4,
       "limited": 1,
       "hyperspace": false,
+      "keywords": ["Y-wing"],
+      "cost": 39,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Turret",
+        "Torpedo",
+        "Gunner",
+        "Astromech",
+        "Device"
+      ],
+      "ability": "While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, you must change 1 of your [Focus] results to a blank result."
+    },
+    {
+      "name": "Amaxine Warrior",
+      "xws": "amaxinewarrior",
+      "initiative": 3,
+      "limited": 0,
+      "text": "Decades after the Battle of Endor, former Imperials remain active in the New Republic. Many have joined paramilitary organizations, such as the Amaxine Warriors, that appropriate martial traditions and cultures to spread the hateful ideology of the First Order amongst those most vulnerable to it.",
+      "hyperspace": true,
+      "cost": 33,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Turret",
+        "Torpedo",
+        "Gunner",
+        "Astromech",
+        "Device"
+      ],
+      "keywords": ["Y-wing"]
+    },
+    {
+      "name": "Padric",
+      "xws": "padric",
+      "initiative": 3,
+      "limited": 1,
+      "caption": "Napkin Bomber",
+      "hyperspace": false,
+      "cost": 36,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Turret",
+        "Torpedo",
+        "Gunner",
+        "Astromech",
+        "Device"
+      ],
+      "ability": "After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.",
+      "keywords": ["Y-wing"]
+    },
+    {
+      "name": "Jinata Security Officer",
+      "xws": "jinatasecurityofficer",
+      "initiative": 2,
+      "limited": 0,
+      "text": "Headquartered on the former Imperial stronghold of Vardos, Jinata Security continues its reconstruction efforts on the devastated planet, even while collaborating with the First Order's rearmament program.",
+      "hyperspace": true,
+      "cost": 31,
+      "slots": ["Tech", "Turret", "Torpedo", "Gunner", "Astromech", "Device"],
       "keywords": ["Y-wing"]
     }
   ]
