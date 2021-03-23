@@ -166,6 +166,37 @@
       "limited": 1,
       "caption": "Phoenix Leader",
       "hyperspace": false,
+      "keywords": ["B-wing", "Spectre"],
+      "cost": 55,
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Cannon",
+        "Torpedo",
+        "Modification",
+        "Configuration"
+      ],
+      "ability": "While another friendly ship at range 1-2 defends or performs an attack, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship."
+    },
+    {
+      "name": "Netrem Pollard",
+      "xws": "netrempollard",
+      "initiative": 3,
+      "limited": 1,
+      "caption": "Dagger Leader",
+      "hyperspace": false,
+      "cost": 46,
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Cannon",
+        "Torpedo",
+        "Modification",
+        "Configuration"
+      ],
+      "ability": "After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.",
       "keywords": ["B-wing"]
     }
   ]

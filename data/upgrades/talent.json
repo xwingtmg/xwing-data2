@@ -558,7 +558,7 @@
     "name": "Proud Tradition",
     "limited": 0,
     "xws": "proudtradition",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. While you have 2 or fewer stress tokens, you may perform [Focus] actions even while stressed. After you perform an attack, if you are stressed, the defender may spend 1 focus token or suffer 1 [Critical Hit] damage to flip this card.",
@@ -623,7 +623,7 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "After you fully execute a red maneuver, you may perform a [Barrel Roll] action, even while stressed. If you do, roll an attack die; on a [Hit] result gain 1 strain token, and on a [Critical Hit] result gain 1 ion token.",
+        "ability": "After you fully execute a red maneuver, you may perform a [Barrel Roll] action, even while stressed. If you do, roll an attack die; on a [Hit] result gain 1 strain token, and on a [Critical Hit] result, gain 1 ion token.",
         "title": "Ion Limiter Override",
         "type": "Talent",
         "slots": ["Talent"],
@@ -666,5 +666,80 @@
       }
     ],
     "cost": { "value": 1 }
+  },
+  {
+    "name": "Cutthroat",
+    "limited": 0,
+    "xws": "cutthroat",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Cutthroat upgrade, you may remove 1 of your orange or red tokens, or recover 1 non-recurring [Charge] on your ship card or one of your equipped upgrade cards.",
+        "title": "Cutthroat",
+        "type": "Talent",
+        "slots": ["Talent"]
+      }
+    ],
+    "cost": { "value": 1 }
+  },
+  {
+    "name": "Disciplined",
+    "limited": 0,
+    "xws": "disciplined",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Disciplined upgrade, you may perform a [Lock] or [Barrel Roll] action.",
+        "title": "Disciplined",
+        "type": "Talent",
+        "slots": ["Talent"]
+      }
+    ],
+    "cost": { "value": 1 }
+  },
+  {
+    "name": "Hopeful",
+    "limited": 0,
+    "xws": "hopeful",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Hopeful upgrade, you may perform a [Focus] or [Boost] action.",
+        "title": "Hopeful",
+        "type": "Talent",
+        "slots": ["Talent"]
+      }
+    ],
+    "cost": { "value": 2 }
+  },
+  {
+    "name": "Interloper Turn",
+    "limited": 0,
+    "xws": "interloperturn",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Before you execute a speed 1-2 turn ([Turn Left] or [Turn Right]) or speed 1-2 Koiogran Turn ([Koiogran Turn]) maneuver, if you are at range 0-1 or an asteroid, structure, or huge ship, you may gain 1 tractor token.",
+        "title": "Interloper Turn",
+        "type": "Talent",
+        "slots": ["Talent"]
+      }
+    ],
+    "cost": { "value": 1 }
+  },
+  {
+    "name": "Tierfon Belly Run",
+    "limited": 0,
+    "xws": "tierfonbellyrun",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "You can perform special attacks even while at range 0 of asteroids. While you defend, if you are at range 0 of an obstacle, attack dice cannot be rerolled.",
+        "title": "Tierfon Belly Run",
+        "type": "Talent",
+        "slots": ["Talent"]
+      }
+    ],
+    "cost": { "value": 2 }
   }
 ]

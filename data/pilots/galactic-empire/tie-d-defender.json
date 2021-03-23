@@ -53,7 +53,7 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Talent", "Sensor", "Cannon", "Missile"],
+      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg",
       "ffg": 123,
       "hyperspace": false,
@@ -72,7 +72,7 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Talent", "Sensor", "Cannon", "Missile"],
+      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg",
       "ffg": 124,
       "hyperspace": false,
@@ -90,7 +90,7 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Sensor", "Cannon", "Missile"],
+      "slots": ["Sensor", "Cannon", "Missile", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg",
       "ffg": 126,
       "hyperspace": true,
@@ -108,7 +108,7 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Talent", "Sensor", "Cannon", "Missile"],
+      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg",
       "ffg": 125,
       "hyperspace": true,
@@ -127,7 +127,7 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Talent", "Sensor", "Cannon", "Missile"],
+      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg",
       "ffg": 122,
       "hyperspace": false,
@@ -142,7 +142,44 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
+      "caption": "Arrogant Ace",
       "hyperspace": false,
+      "cost": 82,
+      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+      "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
+      "keywords": ["TIE"]
+    },
+    {
+      "name": "Darth Vader",
+      "xws": "darthvader-tieddefender",
+      "initiative": 6,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Full Throttle",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+      },
+      "caption": "Dark Lord of the Sith",
+      "hyperspace": false,
+      "force": { "value": 3, "recovers": 1 },
+      "cost": 115,
+      "slots": ["Force Power", "Cannon", "Missile", "Configuration"],
+      "ability": "You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
+      "keywords": ["Dark Side", "Sith", "TIE"]
+    },
+    {
+      "name": "Captain Dobbs",
+      "xws": "captaindobbs",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Full Throttle",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+      },
+      "caption": "Reliable Replacement",
+      "hyperspace": false,
+      "cost": 75,
+      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+      "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc and are not ionized, you may gain 1 ion token to cancel 1 [Hit] result.",
       "keywords": ["TIE"]
     }
   ]

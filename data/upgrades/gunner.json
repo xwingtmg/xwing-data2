@@ -503,5 +503,20 @@
       }
     ],
     "cost": { "value": 7 }
+  },
+  {
+    "name": "Sabine Wren",
+    "limited": 1,
+    "xws": "sabinewren-gunner",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "After you perform a special attack, you may choose a number of friendly ships at range 0-3 of the defender up to the number of damage cards dealt to the defender during that attack. Each chosen ship may remove 1 strain or stress token.",
+        "title": "Sabine Wren",
+        "type": "Gunner",
+        "slots": ["Gunner"]
+      }
+    ],
+    "cost": { "value": 2 }
   }
 ]

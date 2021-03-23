@@ -66,7 +66,7 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_174.jpg",
       "ffg": 174,
-      "hyperspace": false,
+      "hyperspace": true,
       "keywords": ["Freighter"]
     },
     {
@@ -89,7 +89,7 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_175.jpg",
       "ffg": 175,
-      "hyperspace": false,
+      "hyperspace": true,
       "keywords": ["Freighter"]
     },
     {
@@ -132,7 +132,7 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_176.jpg",
       "ffg": 176,
-      "hyperspace": false,
+      "hyperspace": true,
       "keywords": ["Freighter"]
     },
     {
@@ -140,8 +140,19 @@
       "xws": "gamutkey",
       "initiative": 3,
       "limited": 1,
-      "hyperspace": false,
-      "keywords": ["Freighter"]
+      "hyperspace": true,
+      "keywords": ["Freighter"],
+      "cost": 34,
+      "slots": [
+        "Talent",
+        "Crew",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Title"
+      ],
+      "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship at in your [Single Turret Arc] with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship."
     },
     {
       "name": "Kanan Jarrus",
@@ -149,8 +160,39 @@
       "initiative": 3,
       "limited": 1,
       "caption": "Lost Padawan",
-      "hyperspace": false,
-      "keywords": ["Freighter"]
+      "hyperspace": true,
+      "keywords": ["Jedi", "Light Side"],
+      "force": { "value": 1, "recovers": 1 },
+      "cost": 42,
+      "slots": [
+        "Force Power",
+        "Crew",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Title"
+      ],
+      "ability": "While you or a ship in your [Single Turret Arc] defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die."
+    },
+    {
+      "name": "Tápusk",
+      "xws": "tapusk",
+      "initiative": 5,
+      "limited": 1,
+      "caption": "Order 66 Informant",
+      "hyperspace": true,
+      "cost": 36,
+      "slots": [
+        "Talent",
+        "Crew",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Title"
+      ],
+      "ability": "During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge]. If you do, that ship does not recover that [Charge] or [Force]."
     }
   ]
 }

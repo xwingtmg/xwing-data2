@@ -685,7 +685,7 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "Add [Cargo] slot. During the End Phase, you may recover 1 additional shield or 1 additional [Energy].",
+        "ability": "Add [Cargo] slot. During the End Phase, you may recover 1 additional [Shield] or [Energy].",
         "title": "Insatiable Worrt",
         "type": "Title",
         "slots": ["Title"],
@@ -925,6 +925,30 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d16195cbd5b4a9e1cfaf94b35dd188e7.jpg"
       }
     ],
+    "restrictions": [
+      { "factions": ["Scum and Villainy", "Separatist Alliance"] },
+      { "ships": ["firesprayclasspatrolcraft"] }
+    ],
     "cost": { "value": 3 }
+  },
+  {
+    "name": "B6 Blade Wing Prototype",
+    "limited": 1,
+    "xws": "b6bladewingprototype",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Add [Gunner] slot.",
+        "title": "B6 Blade Wing Prototype",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }]
+      }
+    ],
+    "cost": { "value": 2 },
+    "restrictions": [
+      { "factions": ["Rebel Alliance"] },
+      { "ships": ["asf01bwing"] }
+    ]
   }
 ]

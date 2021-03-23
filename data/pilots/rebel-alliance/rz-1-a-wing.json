@@ -73,7 +73,7 @@
       "slots": ["Talent", "Talent", "Missile"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg",
       "ffg": 21,
-      "hyperspace": true,
+      "hyperspace": false,
       "keywords": ["A-wing"]
     },
     {
@@ -110,7 +110,7 @@
       "slots": ["Talent", "Missile"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg",
       "ffg": 22,
-      "hyperspace": true,
+      "hyperspace": false,
       "keywords": ["A-wing"]
     },
     {
@@ -122,8 +122,11 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "hyperspace": false,
-      "keywords": ["A-wing"]
+      "hyperspace": true,
+      "keywords": ["A-wing"],
+      "cost": 35,
+      "slots": ["Talent", "Missile", "Configuration"],
+      "ability": "While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die."
     },
     {
       "name": "Sabine Wren",
@@ -134,7 +137,75 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "hyperspace": false,
+      "hyperspace": true,
+      "keywords": ["A-wing", "Mandalorian"],
+      "cost": 36,
+      "slots": ["Talent", "Talent", "Missile", "Configuration"],
+      "ability": "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result."
+    },
+    {
+      "name": "Hera Syndulla",
+      "xws": "herasyndulla-rz1awing",
+      "initiative": 6,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "caption": "Phoenix Leader",
+      "hyperspace": true,
+      "cost": 41,
+      "slots": ["Talent", "Talent", "Missile", "Configuration"],
+      "ability": "While another friendly ship at range 1-2 defends or performs an attack, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.",
+      "keywords": ["A-wing", "Spectre"]
+    },
+    {
+      "name": "Ahsoka Tano",
+      "xws": "ahsokatano-rz1awing",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "caption": "Fulcrum",
+      "hyperspace": true,
+      "force": { "value": 3, "recovers": 1 },
+      "cost": 49,
+      "slots": ["Force Power", "Force Power", "Missile", "Configuration"],
+      "ability": "After you fully execute a maneuver, you may choose a friendly ship at range 1-2 and spend 2 [Force]. That ship may perform an action, even while stressed.",
+      "keywords": ["A-wing", "Light Side"]
+    },
+    {
+      "name": "Shara Bey",
+      "xws": "sharabey-rz1awing",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "caption": "Green Four",
+      "hyperspace": true,
+      "cost": 32,
+      "slots": ["Talent", "Talent", "Missile", "Configuration"],
+      "ability": "While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.",
+      "keywords": ["A-wing"]
+    },
+    {
+      "name": "Derek Klivian",
+      "xws": "derekklivian",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "caption": "Hobbie",
+      "hyperspace": true,
+      "cost": 30,
+      "slots": ["Talent", "Missile", "Configuration"],
+      "ability": "After you acquire or spend a lock, you may remove 1 red token from yourself.",
       "keywords": ["A-wing"]
     }
   ]
