@@ -142,7 +142,11 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
+      "caption": "Arrogant Ace",
       "hyperspace": false,
+      "cost": 82,
+      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+      "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
       "keywords": ["TIE"]
     },
     {
@@ -161,22 +165,6 @@
       "slots": ["Force Power", "Cannon", "Missile", "Configuration"],
       "ability": "You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
       "keywords": ["Dark Side", "Sith", "TIE"]
-    },
-    {
-      "name": "Vult Skerris",
-      "xws": "vultskerris-tieddefender",
-      "initiative": 5,
-      "limited": 1,
-      "shipAbility": {
-        "name": "Full Throttle",
-        "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
-      },
-      "caption": "Arrogant Ace",
-      "hyperspace": false,
-      "cost": 82,
-      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
-      "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
-      "keywords": ["TIE"]
     },
     {
       "name": "Captain Dobbs",
