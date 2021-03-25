@@ -1863,7 +1863,7 @@
     "cost": { "value": 7 },
     "restrictions": [
       { "factions": ["Scum and Villainy", "Separatist Alliance"] }
-    ],
+    ]
   },
   {
     "name": "Zam Wesell",
@@ -1886,7 +1886,7 @@
     "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Scum and Villainy", "Separatist Alliance"] }
-    ],
+    ]
   },
     {
     "name": "Gamut Key",
@@ -1919,7 +1919,7 @@
             "type": "action",
             "value": { "type": "Coordinate", "difficulty": "Red" }
           }
-        ],
+        ]
       }
     ],
     "restrictions": [{ "factions": ["Scum and Villainy", "Galactic Empire", "First Order"] }]
