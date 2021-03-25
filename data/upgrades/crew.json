@@ -1897,10 +1897,12 @@
       {
         "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship at range 0-1 with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
         "title": "Gamut Key",
+        "charges": { "value": 2, "recovers": 1 },
         "type": "Crew",
         "slots": ["Crew"]
       }
     ],
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }]
   },
   {
@@ -1922,6 +1924,7 @@
         ]
       }
     ],
+    "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy", "Galactic Empire", "First Order"] }]
   }
 ]
