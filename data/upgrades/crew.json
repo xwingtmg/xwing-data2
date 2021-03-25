@@ -1860,7 +1860,10 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3a7ec5348f98da20c7b17b91535a3dd2.jpg"
       }
     ],
-    "cost": { "value": 7 }
+    "cost": { "value": 7 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy", "Separatist Alliance"] }
+    ]
   },
   {
     "name": "Zam Wesell",
@@ -1880,9 +1883,12 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b8819288e0722a11e26d15ecd0b2717f.jpg"
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy", "Separatist Alliance"] }
+    ]
   },
-  {
+    {
     "name": "Gamut Key",
     "limited": 1,
     "xws": "gamutkey",
@@ -1891,10 +1897,34 @@
       {
         "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship at range 0-1 with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
         "title": "Gamut Key",
+        "charges": { "value": 2, "recovers": 1 },
         "type": "Crew",
         "slots": ["Crew"]
       }
     ],
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }]
+  },
+  {
+    "name": "Protectorate Gleb",
+    "limited": 1,
+    "xws": "protectorategleb",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you coordinate, you may transfer 1 orange or red token to the ship you coordinated.",
+        "title": "Protectorate Gleb",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Coordinate", "difficulty": "Red" }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["Scum and Villainy", "Galactic Empire", "First Order"] }]
   }
 ]
