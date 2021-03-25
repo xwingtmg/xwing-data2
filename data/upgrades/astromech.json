@@ -400,6 +400,7 @@
   },
   {
     "name": "C1-10P",
+    "xws": "c110p",
     "sides": [
       {
         "ffg": 618,
@@ -424,7 +425,7 @@
     "cost": { "value": 8 },
     "limited": 1,
     "hyperspace": false,
-    "xws": "c110p"
+    "restrictions": [{ "factions": ["Galactic Republic"] }]
   },
   {
     "name": "R1-J5",
@@ -443,7 +444,8 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/07ef542a7250abbf79d27526f17ac879.png"
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
     "name": "Q7 Astromech",
@@ -518,7 +520,8 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7155fb226f88c98baf36c5b3fa1e2ef6.jpg"
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "restrictions": [{ "factions": ["Resistance"] }]
   },
   {
     "name": "R7-A7",
@@ -536,6 +539,23 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/21a23aa5bad45f33650cc2f7a3b3ecce.jpg"
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "restrictions": [{ "factions": ["Galactic Republic"] }]
+  },
+    {
+    "name": "R4-B11",
+    "limited": 1,
+    "xws": "r4b11",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "While you perform an attack, you may remove 1 orange or red token from the defender to reroll any number of defense dice.",
+        "title": "R4-B11",
+        "type": "Astromech",
+        "slots": ["Astromech"]
+      }
+    ],
+    "cost": { "value": 3 },
+      "restrictions": [{ "factions": ["Scum and Villainy"] }]
   }
 ]
