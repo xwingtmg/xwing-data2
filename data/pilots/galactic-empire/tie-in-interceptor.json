@@ -124,7 +124,10 @@
       "keywords": ["TIE"],
       "cost": 48,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
-      "ability": "After you perform an attack, if the defender was destroyed, gain 1 stress token. After a friendly ship at range 0-3 is destroyed, remove 1 stress token."
+      "ability": "After you perform an attack, if the defender was destroyed, gain 1 stress token. After a friendly ship at range 0-3 is destroyed, remove 1 stress token.",
+      "caption": "Look Through My Eyes",
+      "ffg": 889,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1e8066a3e41db4df36bbb155feac4c20.jpg"
     },
     {
       "name": "Gideon Hask",
@@ -140,7 +143,9 @@
       "keywords": ["TIE"],
       "cost": 48,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
-      "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die."
+      "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die.",
+      "ffg": 892,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f97eca9b805c2e0f8bb833ffce44b033.jpg"
     },
     {
       "name": "Vult Skerris",
@@ -156,7 +161,9 @@
       "cost": 46,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "ffg": 890,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/528647fa86b7a42c3e48992185e422b5.jpg"
     },
     {
       "name": "Commandant Goran",
@@ -171,8 +178,10 @@
       "hyperspace": true,
       "cost": 43,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
-      "ability": "After a friendly ship at range 0-3 with a lower initiative than you partially executes a maneuver, it may perform a red [Focus] action.",
-      "keywords": ["TIE"]
+      "ability": "After a friendly ship at range 0-3 with a lower initiative than yours partially executes a maneuver, it may perform a red [Focus] action.",
+      "keywords": ["TIE"],
+      "ffg": 891,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cf15fb0b36550e1066381dbd38eba259.jpg"
     },
     {
       "name": "Lieutenant Lorrir",
@@ -187,8 +196,10 @@
       "hyperspace": true,
       "cost": 41,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
-      "ability": "While you barrel roll, you must use the ([Bank Left] or [Bank Right]) templates instead of the ([Straight] template.",
-      "keywords": ["TIE"]
+      "ability": "While you barrel roll, you must use the [[Bank Left] or [Bank Right]] template instead of the [[Straight]] template.",
+      "keywords": ["TIE"],
+      "ffg": 893,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0dc2601a5cdde23815e1d0fc54e7817b.jpg"
     },
     {
       "name": "Nash Windrider",
@@ -203,8 +214,10 @@
       "hyperspace": true,
       "cost": 40,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
-      "ability": "During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spent 1 [Charge]. If you do, that ship engages at the current initiative.",
-      "keywords": ["TIE"]
+      "ability": "During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spend 1 [Charge]. If you do, that ship engages at the current initiative.",
+      "keywords": ["TIE"],
+      "ffg": 894,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1470ad9f77f0c8ac14d9fa291895ec9a.jpg"
     }
   ]
 }

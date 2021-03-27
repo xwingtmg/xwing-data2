@@ -147,7 +147,9 @@
       "cost": 82,
       "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
       "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "ffg": 887,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b515e5eda1c2df774f598afc4091af09.jpg"
     },
     {
       "name": "Darth Vader",
@@ -164,7 +166,9 @@
       "cost": 115,
       "slots": ["Force Power", "Cannon", "Missile", "Configuration"],
       "ability": "You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
-      "keywords": ["Dark Side", "Sith", "TIE"]
+      "keywords": ["Dark Side", "Sith", "TIE"],
+      "ffg": 886,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9c2cfc58582671a7073c6b5339ed3004.jpg"
     },
     {
       "name": "Captain Dobbs",
@@ -180,7 +184,9 @@
       "cost": 75,
       "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
       "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc and are not ionized, you may gain 1 ion token to cancel 1 [Hit] result.",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "ffg": 888,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1dde041cd0f46fb1ca2afe15264a3ad4.jpg"
     }
   ]
 }

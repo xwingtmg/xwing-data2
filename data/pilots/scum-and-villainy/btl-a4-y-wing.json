@@ -146,7 +146,10 @@
         "Astromech",
         "Device"
       ],
-      "ability": "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your [Full Front Arc]."
+      "ability": "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your [Full Front Arc].",
+      "caption": "Opportunity Knocks",
+      "ffg": 898,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4e6423bdaa2b09478f46f795c5328c17.jpg"
     },
     {
       "name": "Arliz Hadrassian",
@@ -165,7 +168,10 @@
         "Astromech",
         "Device"
       ],
-      "ability": "While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, you must change 1 of your [Focus] results to a blank result."
+      "ability": "While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, you must change 1 of your [Focus] results to a blank result.",
+      "caption": "Crimson Blade",
+      "ffg": 899,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f00b0ed67b0de579c3bc4fdaceb3f3ab.jpg"
     },
     {
       "name": "Amaxine Warrior",
@@ -184,7 +190,9 @@
         "Astromech",
         "Device"
       ],
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "ffg": 901,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1a6296a88e63a0896952e7dd4178105b.jpg"
     },
     {
       "name": "Padric",
@@ -204,7 +212,9 @@
         "Device"
       ],
       "ability": "After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "ffg": 900,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7d5a18e41b8e3caf1d623cdf06acafc8.jpg"
     },
     {
       "name": "Jinata Security Officer",
@@ -215,7 +225,9 @@
       "hyperspace": true,
       "cost": 31,
       "slots": ["Tech", "Turret", "Torpedo", "Gunner", "Astromech", "Device"],
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "ffg": 902,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d1b998eff3b93d5ed05870096aa27817.jpg"
     }
   ]
 }

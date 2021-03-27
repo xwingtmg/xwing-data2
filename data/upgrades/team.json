@@ -13,8 +13,8 @@
         "grants": [
           {
             "type": "action",
-            "value": { 
-              "type": "Lock", 
+            "value": {
+              "type": "Lock",
               "difficulty": "White",
               "linked": { "type": "Calculate", "difficulty": "White" }
             }

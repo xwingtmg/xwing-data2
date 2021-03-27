@@ -126,7 +126,10 @@
       "keywords": ["A-wing"],
       "cost": 35,
       "slots": ["Talent", "Missile", "Configuration"],
-      "ability": "While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die."
+      "ability": "While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.",
+      "caption": "Promising Pilot",
+      "ffg": 883,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/11bb21ea8f81f374ff862f86e722444f.jpg"
     },
     {
       "name": "Sabine Wren",
@@ -139,9 +142,12 @@
       },
       "hyperspace": true,
       "keywords": ["A-wing", "Mandalorian"],
-      "cost": 36,
+      "cost": 37,
       "slots": ["Talent", "Talent", "Missile", "Configuration"],
-      "ability": "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result."
+      "ability": "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result.",
+      "caption": "Daughter of Mandalore",
+      "ffg": 885,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9db76c98a8bd8bff2c4c46408d631ac0.jpg"
     },
     {
       "name": "Hera Syndulla",
@@ -154,10 +160,12 @@
       },
       "caption": "Phoenix Leader",
       "hyperspace": true,
-      "cost": 41,
+      "cost": 42,
       "slots": ["Talent", "Talent", "Missile", "Configuration"],
       "ability": "While another friendly ship at range 1-2 defends or performs an attack, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.",
-      "keywords": ["A-wing", "Spectre"]
+      "keywords": ["A-wing", "Spectre"],
+      "ffg": 880,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a50b1f5e19e9b389bf521becfa71d447.jpg"
     },
     {
       "name": "Ahsoka Tano",
@@ -174,7 +182,9 @@
       "cost": 49,
       "slots": ["Force Power", "Force Power", "Missile", "Configuration"],
       "ability": "After you fully execute a maneuver, you may choose a friendly ship at range 1-2 and spend 2 [Force]. That ship may perform an action, even while stressed.",
-      "keywords": ["A-wing", "Light Side"]
+      "keywords": ["A-wing", "Light Side"],
+      "ffg": 881,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/40fe14090b12fb634888c845a8efbb1c.jpg"
     },
     {
       "name": "Shara Bey",
@@ -190,7 +200,9 @@
       "cost": 32,
       "slots": ["Talent", "Talent", "Missile", "Configuration"],
       "ability": "While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.",
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "ffg": 882,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c7de7d8ea5e6d4624e8541423f23f447.jpg"
     },
     {
       "name": "Derek Klivian",
@@ -206,7 +218,9 @@
       "cost": 30,
       "slots": ["Talent", "Missile", "Configuration"],
       "ability": "After you acquire or spend a lock, you may remove 1 red token from yourself.",
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "ffg": 884,
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ab937640d11798db7513aecc3de53a16.jpg"
     }
   ]
 }
