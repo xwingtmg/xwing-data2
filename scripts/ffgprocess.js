@@ -433,7 +433,7 @@ function processCard(card) {
       // Replace `(Open)` and `(Closed)` in dual-side cards
       let name = card.name
         .replace(
-          /\((Open|Closed|Inactive|Active|Perfected|Cyborg|Attached|Detached)\)/,
+          /\((Open|Closed|Inactive|Active|Perfected|Cyborg|Attached|Detached|Hired|Paid)\)/,
           ""
         )
         .trim();

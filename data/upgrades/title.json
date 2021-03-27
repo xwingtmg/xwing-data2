@@ -945,7 +945,9 @@
         "title": "B6 Blade Wing Prototype",
         "type": "Title",
         "slots": ["Title"],
-        "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }]
+        "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }],
+        "ffg": 923,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/69e848f2da9a8f6f18d2f89096a94513.jpg"
       }
     ],
     "cost": { "value": 2 },

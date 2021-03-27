@@ -1888,18 +1888,20 @@
       { "factions": ["Scum and Villainy", "Separatist Alliance"] }
     ]
   },
-    {
+  {
     "name": "Gamut Key",
     "limited": 1,
     "xws": "gamutkey",
     "hyperspace": false,
     "sides": [
       {
-        "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship at range 0-1 with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
+        "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose a ship at range 0-1 with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
         "title": "Gamut Key",
         "charges": { "value": 2, "recovers": 1 },
         "type": "Crew",
-        "slots": ["Crew"]
+        "slots": ["Crew"],
+        "ffg": 919,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d6faf9522ae2569b7a125b6a84d5df9a.jpg"
       }
     ],
     "cost": { "value": 6 },
@@ -1912,7 +1914,7 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "After you coordinate, you may transfer 1 orange or red token to the ship you coordinated.",
+        "ability": "After you coordinate a friendly ship, you may transfer 1 orange or red token to the ship you coordinated.",
         "title": "Protectorate Gleb",
         "type": "Crew",
         "slots": ["Crew"],
@@ -1921,10 +1923,14 @@
             "type": "action",
             "value": { "type": "Coordinate", "difficulty": "Red" }
           }
-        ]
+        ],
+        "ffg": 920,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy", "Galactic Empire", "First Order"] }]
+    "restrictions": [
+      { "factions": ["Scum and Villainy", "Galactic Empire", "First Order"] }
+    ]
   }
 ]

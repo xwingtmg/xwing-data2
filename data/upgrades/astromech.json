@@ -542,7 +542,7 @@
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Galactic Republic"] }]
   },
-    {
+  {
     "name": "R4-B11",
     "limited": 1,
     "xws": "r4b11",
@@ -552,10 +552,12 @@
         "ability": "While you perform an attack, you may remove 1 orange or red token from the defender to reroll any number of defense dice.",
         "title": "R4-B11",
         "type": "Astromech",
-        "slots": ["Astromech"]
+        "slots": ["Astromech"],
+        "ffg": 922,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/5f2c2265fbbcf55a749acc6e224f8946.jpg"
       }
     ],
     "cost": { "value": 3 },
-      "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }]
   }
 ]

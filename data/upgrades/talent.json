@@ -623,7 +623,7 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "After you fully execute a red maneuver, you may perform a [Barrel Roll] action, even while stressed. If you do, roll an attack die; on a [Hit] result gain 1 strain token, and on a [Critical Hit] result, gain 1 ion token.",
+        "ability": "After you fully execute a red maneuver, you may perform a [Barrel Roll] action, even while stressed. If you do, roll an attack die; on a [Hit] result gain 1 strain token, and on a [Critical Hit] result gain 1 ion token.",
         "title": "Ion Limiter Override",
         "type": "Talent",
         "slots": ["Talent"],
@@ -677,7 +677,9 @@
         "ability": "After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Cutthroat upgrade, you may remove 1 of your orange or red tokens, or recover 1 non-recurring [Charge] on your ship card or one of your equipped upgrade cards.",
         "title": "Cutthroat",
         "type": "Talent",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "ffg": 914,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ae15ec14df97ac215567f78fe6c92343.jpg"
       }
     ],
     "cost": { "value": 1 }
@@ -692,7 +694,9 @@
         "ability": "After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Disciplined upgrade, you may perform a [Lock] or [Barrel Roll] action.",
         "title": "Disciplined",
         "type": "Talent",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "ffg": 915,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/bddffdbe4ada9aa8b6f43b883cfb7acb.jpg"
       }
     ],
     "cost": { "value": 1 }
@@ -707,10 +711,12 @@
         "ability": "After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the Hopeful upgrade, you may perform a [Focus] or [Boost] action.",
         "title": "Hopeful",
         "type": "Talent",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "ffg": 916,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3c50ea7c72423be60ac00017cbaed807.jpg"
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 1 }
   },
   {
     "name": "Interloper Turn",
@@ -719,10 +725,12 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "Before you execute a speed 1-2 turn ([Turn Left] or [Turn Right]) or speed 1-2 Koiogran Turn ([Koiogran Turn]) maneuver, if you are at range 0-1 or an asteroid, structure, or huge ship, you may gain 1 tractor token.",
+        "ability": "Before you execute a speed 1-2 turn ([Turn Left] or [Turn Right]) or speed 1-2 Koiogran Turn ([Koiogran Turn]) maneuver, if you are at range 0-1 of an asteroid, structure, or huge ship, you may gain 1 tractor token.",
         "title": "Interloper Turn",
         "type": "Talent",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "ffg": 917,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1ae514eedd2e4129b311b69c4174e5f6.jpg"
       }
     ],
     "cost": { "value": 1 }
@@ -737,7 +745,9 @@
         "ability": "You can perform special attacks even while at range 0 of asteroids. While you defend, if you are at range 0 of an obstacle, attack dice cannot be rerolled.",
         "title": "Tierfon Belly Run",
         "type": "Talent",
-        "slots": ["Talent"]
+        "slots": ["Talent"],
+        "ffg": 918,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a1b35914e278f332b59e04749c90452c.jpg"
       }
     ],
     "cost": { "value": 2 }

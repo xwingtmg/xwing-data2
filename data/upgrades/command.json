@@ -280,16 +280,20 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "Setup: Equip this side faceup. You can be included in Separatist, Imperial, and First Order squads. After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1 [Charge] on your ship card and each of your upgrade cards. Then flip this card",
+        "ability": "Setup: Equip this side faceup. You can be included in Separatist, Imperial, and First Order squads. After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1 [Charge] on your ship card and each of your upgrade cards. Then flip this card.",
         "title": "Bounty (Hired)",
         "type": "Command",
-        "slots": ["Command"]
+        "slots": ["Command"],
+        "ffg": 905,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/6877dc90b8296a93c3fc9129d5087020.jpg"
       },
       {
         "text": "Bounty hunting is a complicated profession. Any assassin can kill, but the best hunters are renowned for their ability to bring a mark in alive, as doing so is more difficult but invariably commands a much greater reward.",
         "title": "Bounty (Paid)",
         "type": "Command",
-        "slots": ["Command"]
+        "slots": ["Command"],
+        "ffg": 904,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4502e115fb501138e161b28b0d3f0474.jpg"
       }
     ],
     "cost": { "value": 5 }
@@ -304,7 +308,9 @@
         "ability": "At the start of the Planning Phase, 1 of your wingmates that is docked with you may join your wing without gaining a stress token. While you or your Attack Shuttle wingmate or Sheathipede-class wingmate defends, up to 2 of your RZ-1 A-wing wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
         "title": "Phoenix Squadron",
         "type": "Command",
-        "slots": ["Command"]
+        "slots": ["Command"],
+        "ffg": 908,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/554a0d6690a6a3c4a175b1f363084670.jpg"
       }
     ],
     "cost": { "value": 5 }
@@ -319,13 +325,17 @@
         "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 other ships of your type. After you are placed, flip this card.",
         "title": "Shadow Wing",
         "type": "Command",
-        "slots": ["Command"]
+        "slots": ["Command"],
+        "ffg": 911,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8842d1539a912e7ae3b011bfdb4bbe0a.jpg"
       },
       {
         "ability": "Your wingmates can perform [Barrel Roll] or [Boost] actions. If they do, they voluntarily split from the wing. While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
         "title": "Shadow Wing",
         "type": "Command",
-        "slots": ["Command"]
+        "slots": ["Command"],
+        "ffg": 910,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8842d1539a912e7ae3b011bfdb4bbe0a.jpg"
       }
     ],
     "cost": { "value": 6 }
@@ -337,10 +347,12 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "After you barrel roll or boost, each of your wingmates is forced to split from the wing. While you defend, up to 5 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] to cancel 1 matching result.",
+        "ability": "After you barrel roll or boost, each of your wingmates is forced to split from the wing. While you defend, up to 5 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
         "title": "Skystrike Academy Class",
         "type": "Command",
-        "slots": ["Command"]
+        "slots": ["Command"],
+        "ffg": 912,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b24e79586085204391faa4d4b3d1f4c.jpg"
       }
     ],
     "cost": { "value": 3 }

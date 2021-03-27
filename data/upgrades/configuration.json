@@ -514,11 +514,13 @@
         "ability": "Replace your Autothrusters ship ability with the following: Sensitive Controls: During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.",
         "title": "Sensitive Controls",
         "type": "Configuration",
-        "slots": ["Configuration"]
+        "slots": ["Configuration"],
+        "ffg": 924,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d6fbd4fb3e406c87af923912d0ff866c.jpg"
       }
     ],
     "restrictions": [{ "ships": ["tieininterceptor"] }],
-    "cost": { "value": 2 }
+    "cost": { "value": 0 }
   },
   {
     "name": "TIE Defender Elite",
@@ -527,10 +529,12 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "Decrease the difficulty of your turn ([Turn Left] or [Turn Right]) maneuvers. Increase the difficulty of your Koiogran Turn ([Koiogran Turn]) maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire Control: After you perform a [Cannon] or [Missile] attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.",
+        "ability": "Decrease the difficulty of your turn [[Turn Left] or [Turn Right]] maneuvers. Increase the difficulty of your Koiogran Turn [[Koiogran Turn]] maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire Control: After you perform a [Cannon] or [Missile] attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.",
         "title": "TIE Defender Elite",
         "type": "Configuration",
-        "slots": ["Configuration"]
+        "slots": ["Configuration"],
+        "ffg": 925,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a70e6ac15fdc103d5ee2dd50aa315f9c.jpg"
       }
     ],
     "restrictions": [{ "ships": ["tieddefender"] }],
@@ -543,16 +547,13 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "Gain a [Single Turret Arc] indicator. Treat the arc requirement if your [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the System Phase, you may perform a red [Boost] or red [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc].",
+        "ability": "Gain a [Single Turret Arc] indicator. Treat the arc requirement of your [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the System Phase, you may perform a red [Boost] or red [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc].",
         "title": "Vectored Cannons (RZ-1)",
         "type": "Configuration",
         "slots": ["Configuration"],
-        "grants": [
-          {
-            "type": "arc",
-            "value": "Single Turret Arc"
-          }
-        ]
+        "grants": [{ "type": "arc", "value": "Single Turret Arc" }],
+        "ffg": 926,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fb4cf1a8b51ab44fddee4c9dfbc280a8.jpg"
       }
     ],
     "restrictions": [{ "ships": ["rz1awing"] }],
