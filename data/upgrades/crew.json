@@ -56,7 +56,7 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "4-LOM",
@@ -335,7 +335,7 @@
     ],
     "cost": { "value": 14 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "hyperspace": true
   },
   {
     "name": "Death Troopers",
@@ -1892,7 +1892,7 @@
     "name": "Gamut Key",
     "limited": 1,
     "xws": "gamutkey",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose a ship at range 0-1 with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
@@ -1911,7 +1911,7 @@
     "name": "Protectorate Gleb",
     "limited": 1,
     "xws": "protectorategleb",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "After you coordinate a friendly ship, you may transfer 1 orange or red token to the ship you coordinated.",
