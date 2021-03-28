@@ -62,7 +62,7 @@ const run = async () => {
         log(`Updating ${path}`);
         return result.map(upgrade =>
           Object.assign({}, upgrade, {
-            hyperspace: upgrade.sides.every(
+            hyperspace: upgrade.sides.some(
               side => hyperspaceUpgradeIds.indexOf(side.ffg) > -1
             )
           })
