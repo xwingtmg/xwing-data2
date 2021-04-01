@@ -415,8 +415,27 @@ function processCard(card) {
         break;
       case 549:
       case 654:
+      case 724:
+      case 725:
+      case 726:
+      case 728:
+      case 729:
+      case 730:
+      case 731:
+      case 727:
+      case 903:
         // FFG treats Calibrated Laser Targeting as a Mod/Config, but we use Config/Mod
         // FFG treats Deuterium Power Cells as Mod/Tech, but we use Tech/Mod
+        // FFG treats these as Crew/Command, but we use Command/Crew (since Command is first on the card):
+        //        Admiral Ozzel
+        //        Azmorigan
+        //        Captain Needa
+        //        Carlist Rieekan
+        //        Jan Dodonna
+        //        Raymus Antilles
+        //        Stalwart Captain
+        //        Strategic Commander
+        // FFG treats B6 Blade Wing Prototype as Title/Command, but we use Command/Title
         card.upgrade_types = card.upgrade_types.reverse();
         break;
       case 869:
@@ -443,6 +462,10 @@ function processCard(card) {
       // Correct name for Palpatine/Sidious
       if (card.id === 556) {
         name = "Palpatine/Sidious";
+      }
+      // Correct name for In It For The Money / In It For The Rebellion
+      else if (card.id === 907) {
+        name = "In It For The Money/Rebellion";
       }
 
       modified = applyDiff(upgradeRef, "name", name) || modified;

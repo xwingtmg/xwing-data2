@@ -3,12 +3,12 @@
  */
 
 const fs = require("fs");
-const stringify = require('json-stable-stringify');
+const stringify = require("json-stable-stringify");
 
-const languages = ['en', 'fr', 'de', 'es']
+const languages = ["en", "fr", "de", "es"];
 
 const readFile = pathFromRoot =>
-    fs.readFileSync(`${__dirname}/../${pathFromRoot}`, "utf8");
+  fs.readFileSync(`${__dirname}/../${pathFromRoot}`, "utf8");
 
 let dataStrings = {};
 
@@ -21,7 +21,7 @@ languages.forEach(language => {
     console.log(`Could not read ${fileName}. Use ffgscrape.js first!`);
     process.exit(1);
   }
-})
+});
 
 let translations = JSON.parse(readFile("data/translation.json"));
 let ffg2xws = JSON.parse(readFile("data/ffg-xws.json"));
@@ -47,42 +47,44 @@ function sanitize(text) {
   sanitized = sanitized.replace(/\n/g, "");
   sanitized = sanitized.replace(/–/g, "-");
   sanitized = sanitized.replace(/’/g, "'");
-  sanitized = sanitized.replace(/“/g, '\"');
-  sanitized = sanitized.replace(/”/g, '\"');
-  sanitized = sanitized.replace(/„/g, '\"');
+  sanitized = sanitized.replace(/“/g, '"');
+  sanitized = sanitized.replace(/”/g, '"');
+  sanitized = sanitized.replace(/„/g, '"');
   sanitized = sanitized.replace(/[˚º]/g, "°");
   return sanitized;
 }
 
 Object.entries(dataStrings).forEach(([language, dataString]) => {
-  let data = JSON.parse(dataString)
+  let data = JSON.parse(dataString);
 
   data.cards.forEach(card => {
-    let xwsId
+    let xwsId;
     switch (card.card_type_id) {
       case 1:
-        xwsId = ffg2xws.pilots[card.id]
+        xwsId = ffg2xws.pilots[card.id];
         break;
       case 2:
-        xwsId = ffg2xws.upgrades[card.id]
+        xwsId = ffg2xws.upgrades[card.id];
         break;
       default:
         return;
     }
 
-    let name = stripAllTags(sanitize(card.name).replace(/•/g, "")).trim()
+    let name = stripAllTags(sanitize(card.name).replace(/•/g, "")).trim();
 
     // console.debug(`translations[${xwsId}][${language}] = ${name}`)
+
+    if (typeof xwdId === "undefined") return;
 
     if (!translations.hasOwnProperty(xwsId)) {
       translations[xwsId] = {};
     }
 
-    translations[xwsId][language] = name
-  })
-})
+    translations[xwsId][language] = name;
+  });
+});
 
 fs.writeFileSync(
-    `${__dirname}/../data/translation.json`,
-    stringify(translations, {space: 2})
+  `${__dirname}/../data/translation.json`,
+  stringify(translations, { space: 2 })
 );
