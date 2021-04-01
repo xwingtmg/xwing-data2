@@ -519,7 +519,10 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d6fbd4fb3e406c87af923912d0ff866c.jpg"
       }
     ],
-    "restrictions": [{ "shipAbility": ["Autothrusters"] }, "Standardized"],
+    "restrictions": [
+      { "shipAbility": ["Autothrusters"] },
+      { "standardized": true }
+    ],
     "cost": { "value": 2 }
   },
   {
@@ -537,7 +540,11 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a70e6ac15fdc103d5ee2dd50aa315f9c.jpg"
       }
     ],
-    "restrictions": [{"factions": ["Galactic Empire"]}, { "ships": ["tieddefender"] }, "Standardized"],
+    "restrictions": [
+      { "factions": ["Galactic Empire"] },
+      { "ships": ["tieddefender"] },
+      { "standardized": true }
+    ],
     "cost": { "value": 2 }
   },
   {
@@ -556,7 +563,10 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fb4cf1a8b51ab44fddee4c9dfbc280a8.jpg"
       }
     ],
-    "restrictions": [{ "shipAbility": ["Vectored Thrusters"] }, "Standardized"],
+    "restrictions": [
+      { "shipAbility": ["Vectored Thrusters"] },
+      { "standardized": true }
+    ],
     "cost": { "value": 1 }
   }
 ]
