@@ -264,7 +264,9 @@
         "ability": "Add [Gunner] slot. Attack ([Lock]): Gain 1 ion token to perform this attack. If this attack hits, the defender suffers 1 additional [Hit]/[Critical Hit] damage for each matching uncanceled result after the first.",
         "title": "B6 Blade Wing Prototype",
         "type": "Command",
-        "slots": ["Command", "Title"]
+        "slots": ["Command", "Title"],
+        "ffg": 903,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/71fe49e6d10dc74321a0a96f0b2f64e6.jpg"
       }
     ],
     "cost": { "value": 12 },
@@ -304,6 +306,14 @@
     "xws": "phoenixsquadron",
     "hyperspace": false,
     "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 of the following: 0-1 Attack Shuttle 0-1 Sheathipede-class Shuttle 0-5 RZ-1 A-wings After you are placed, flip this card.",
+        "title": "Phoenix Squadron",
+        "type": "Command",
+        "slots": ["Command"],
+        "ffg": 909,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/554a0d6690a6a3c4a175b1f363084670.jpg"
+      },
       {
         "ability": "At the start of the Planning Phase, 1 of your wingmates that is docked with you may join your wing without gaining a stress token. While you or your Attack Shuttle wingmate or Sheathipede-class wingmate defends, up to 2 of your RZ-1 A-wing wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
         "title": "Phoenix Squadron",
@@ -347,6 +357,14 @@
     "hyperspace": false,
     "sides": [
       {
+        "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 TIE/ln Fighters with initiative lower than yours. After you are placed, flip this card.",
+        "title": "Skystrike Academy Class",
+        "type": "Command",
+        "slots": ["Command"],
+        "ffg": 913,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b24e79586085204391faa4d4b3d1f4c.jpg"
+      },
+      {
         "ability": "After you barrel roll or boost, each of your wingmates is forced to split from the wing. While you defend, up to 5 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
         "title": "Skystrike Academy Class",
         "type": "Command",
@@ -356,5 +374,35 @@
       }
     ],
     "cost": { "value": 3 }
+  },
+  {
+    "name": "In It For The Money/Rebellion",
+    "limited": 0,
+    "xws": "initforthemoneyrebellion",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. You can be included in Republic, Rebel, and Resistance squads. After an allied limited ship in your squad is destroyed, gain 1 focus token and flip this card.",
+        "title": "In It For The Money",
+        "type": "Command",
+        "slots": ["Command"],
+        "ffg": 907,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/26e935cc224ffd02de5e797faa5685c6.jpg"
+      },
+      {
+        "ability": "Non-Scum ships in your squad are treated as friendly instead of allied.",
+        "title": "In It For Your Rebellion",
+        "type": "Command",
+        "slots": ["Command"],
+        "ffg": 906,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/977af5c5c1604a9e45cd040408f5e482.jpg"
+      }
+    ],
+    "cost": { "value": 5 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] },
+      { "standardized": true },
+      { "non-limited": false }
+    ]
   }
 ]
