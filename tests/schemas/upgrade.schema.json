@@ -97,6 +97,16 @@
               ]
             }
           },
+          "shipAbility": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "standardized": {
+            "type": "boolean"
+          },
           "sizes": {
             "type": "array",
             "minItems": 1,

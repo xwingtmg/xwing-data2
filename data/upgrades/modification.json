@@ -384,6 +384,10 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/327275e06ddaac1afbe7b8209883aa4b.jpg"
       }
     ],
+    "restrictions": [
+      { "shipAbility": ["Networked Calculations"] },
+      { "standardized": true }
+    ],
     "cost": { "value": 4 }
   },
   {
