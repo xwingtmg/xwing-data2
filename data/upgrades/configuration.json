@@ -519,8 +519,8 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d6fbd4fb3e406c87af923912d0ff866c.jpg"
       }
     ],
-    "restrictions": [{ "ships": ["tieininterceptor"] }],
-    "cost": { "value": 0 }
+    "restrictions": [{ "shipAbility": ["Autothrusters"] }, "Standardized"],
+    "cost": { "value": 2 }
   },
   {
     "name": "TIE Defender Elite",
@@ -537,7 +537,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a70e6ac15fdc103d5ee2dd50aa315f9c.jpg"
       }
     ],
-    "restrictions": [{ "ships": ["tieddefender"] }],
+    "restrictions": [{"factions": ["Galactic Empire"]}, { "ships": ["tieddefender"] }, "Standardized"],
     "cost": { "value": 2 }
   },
   {
@@ -556,7 +556,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fb4cf1a8b51ab44fddee4c9dfbc280a8.jpg"
       }
     ],
-    "restrictions": [{ "ships": ["rz1awing"] }],
+    "restrictions": [{ "shipAbility": ["Vectored Thrusters"] }, "Standardized"],
     "cost": { "value": 1 }
   }
 ]
