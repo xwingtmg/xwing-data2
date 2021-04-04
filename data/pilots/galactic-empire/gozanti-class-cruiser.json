@@ -18,8 +18,20 @@
     "3FB",
     "4FR"
   ],
-  "stats": [],
-  "actions": [],
+  "stats": [
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 0 },
+    { "type": "hull", "value": 11 },
+    { "type": "shields", "value": 5, "recovers": 1 },
+    { "type": "energy", "value": 3, "recovers": 1 }
+  ],
+  "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Reinforce" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Coordinate" },
+    { "difficulty": "White", "type": "Jam" }
+  ],
   "pilots": [
     {
       "ffg": 711,

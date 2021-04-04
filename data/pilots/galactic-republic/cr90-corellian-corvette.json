@@ -21,8 +21,21 @@
     "4FR",
     "5FR"
   ],
-  "stats": [],
-  "actions": [],
+  "stats": [
+    { "arc": "Left Arc", "type": "attack", "value": 4 },
+    { "arc": "Right Arc", "type": "attack", "value": 4 },
+    { "type": "agility", "value": 0 },
+    { "type": "hull", "value": 18 },
+    { "type": "shields", "value": 7, "recovers": 2 },
+    { "type": "energy", "value": 7, "recovers": 2 }
+  ],
+  "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Reinforce" },
+    { "difficulty": "Red", "type": "Coordinate" },
+    { "difficulty": "White", "type": "Jam" }
+  ],
   "pilots": [
     {
       "ffg": 705,
