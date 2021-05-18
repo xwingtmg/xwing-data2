@@ -558,6 +558,7 @@
         "title": "Vectored Cannons (RZ-1)",
         "type": "Configuration",
         "slots": ["Configuration"],
+        "attack": { "arc": "Single Turret Arc", "value": 2, "minrange": 1, "maxrange": 3, "ordnance": false},
         "grants": [{ "type": "arc", "value": "Single Turret Arc" }],
         "ffg": 926,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fb4cf1a8b51ab44fddee4c9dfbc280a8.jpg"
