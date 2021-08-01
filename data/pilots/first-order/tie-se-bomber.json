@@ -1,0 +1,78 @@
+{
+  "name": "TIE/se Bomber",
+  "xws": "tiesebomber",
+  "size": "Small",
+  "ffg": -999,
+  "dial": [
+    "1TR",
+    "1BW",
+    "1FB",
+    "1NW",
+    "1YR",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3LR",
+    "3TW",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YW",
+    "3PR",
+    "4FW"
+  ],
+  "dialCodes": ["???"],
+  "faction": "First Order",
+  "stats": [
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 4 },
+    { "type": "shields", "value": 2 }
+  ],
+  "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { 
+      "difficulty": "White",
+      "linked": { "difficulty": "Red", "type": "Lock" },
+      "type": "Barrel Roll",
+    },
+    { "difficulty": "Red", "type": "Boost" },
+    { 
+      "difficulty": "White",
+      "linked": { "difficulty": "Red", "type": "Evade" },
+      "type": "Reload",
+    }
+  ],
+  "pilots": [
+    {
+      "name": "Grudge",
+      "xws": "grudge",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Pursuit Thrusters",
+        "text": "During the System Phase, you may perform a [Boost] action."
+      },
+      "hyperspace": true,
+      "cost": -999,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Gunner",
+        "Device",
+        "Modification"
+      ],
+      "ability": "While a friendly bomb or mine at range 0-2 detonates, each time attack dice are rolled to resolve its effect, you may reroll up to 1 of those dice.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "Hateful Harrier"
+    }
+  ],
+  "icon": "???"
+}
