@@ -751,5 +751,24 @@
       }
     ],
     "cost": { "value": 2 }
+  },
+  {
+    "name": "Feedback Ping",
+    "limited": 0,
+    "xws": "feedbackping",
+    "sides": [
+      {
+        "title": "Feedback Ping",
+        "type": "Talent",
+        "ability": "After a ship executes a maneuver, if it is at range 0-1 of a friendly device, you may acquire a lock on that ship, ignoring range restrictions.",
+        "slots": ["Talent"],
+        "image": "???",
+        "artwork": "???",
+        "ffg": -999
+      }
+    ],
+    "cost": { "value": -999 },
+    "restrictions": [{ "action": { "type": "Reload" } }],
+    "hyperspace": true
   }
 ]
