@@ -427,13 +427,9 @@
       }
     ],
     "restrictions": [
-      { "stats": 
-         [ 
-           {"type": "agility", "value": 3} 
-         ] 
-      },
+      { "stats": [ {"type": "agility", "value": 3} ] },
       { "keywords": ["TIE"] }
-    ]
+    ],
     "cost": { "value": 3 }
   }
 ]
