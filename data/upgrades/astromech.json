@@ -559,5 +559,22 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }]
+  },
+  {
+    "name": "Watchful Astromech",
+    "limited": 0,
+    "xws": "watchfulastromech",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "After you perform a [Reload] or [Rotate] action, i you are in an enemy ship's firing arc, you may perform a red [Calculate]",
+        "title": "Watchful Astromech",
+        "type": "Astromech",
+        "slots": ["Astromech"],
+        "ffg": -999,
+        "artwork": "????"
+      }
+    ],
+    "cost": { "value": -999 }
   }
 ]
