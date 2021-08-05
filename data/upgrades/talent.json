@@ -631,6 +631,9 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/babf3b90df6a73d026d4ab7670306ab7.jpg"
       }
     ],
+    "restrictions": [
+      { "keywords": ["TIE"] }
+    ],
     "cost": { "value": 3 }
   },
   {
@@ -768,7 +771,10 @@
       }
     ],
     "cost": { "value": -999 },
-    "restrictions": [{ "action": { "type": "Reload" } }],
+    "restrictions": [
+      { "action": { "type": "Reload" } },
+      { "keywords": ["TIE"] }
+    ],
     "hyperspace": true
   }
 ]
