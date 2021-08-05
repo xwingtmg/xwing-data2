@@ -521,5 +521,24 @@
       }
     ],
     "cost": { "value": 2 }
+  },
+  {
+    "name": "DT-798",
+    "limited": 0,
+    "xws": "dt798",
+    "sides": [
+      {
+        "title": "DT-798",
+        "type": "Gunner",
+        "ability": "At the start of the Engagement Phase, you may choose a friendly ship in your firing arc. If you do, that ship gains 1 strain token. While you perform an attack, you may reroll up to 1 die for each ship in the attack arc with 1 or more non-lock red or orange tokens.",
+        "slots": ["Gunner"],
+        "image": "???",
+        "artwork": "???",
+        "ffg": -999
+      }
+    ],
+    "cost": { "value": -999 },
+    "restrictions": [ { "factions": ["First Order"] } ],
+    "hyperspace": true
   }
 ]
