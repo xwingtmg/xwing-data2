@@ -602,5 +602,53 @@
       { "standardized": true }
     ],
     "hyperspace": true
+  },
+  {
+    "name": "Enhanced Jamming Suite",
+    "limited": 0,
+    "xws": "enhancedjammingsuite",
+    "sides": [
+      {
+        "title": "Enhanced Jamming Suite",
+        "type": "Configuration",
+        "slots": ["Configuration", "Tech"],
+        "ability": "While you jam, you can choose yourself or another friendly ship. While you defend, if the attacker has no green tokens or there is a jammed ship in the attack arc, you may roll 1 additional defense die.",
+        "grants": [
+          {
+            "type": "action",
+            "value": { 
+              "type": "Focus", 
+              "difficulty": "White",
+              "linked": { "type": "Jam", "difficulty": "White" }}
+          },
+          {
+            "type": "action",
+            "value": { 
+              "type": "Barrel Roll", 
+              "difficulty": "White",
+              "linked": { "type": "Jam", "difficulty": "White" }}
+          },
+          {
+            "type": "action",
+            "value": { 
+              "type": "Boost", 
+              "difficulty": "White",
+              "linked": { "type": "Jam", "difficulty": "White" }}
+          },
+          {
+            "type": "action",
+            "value": { "type": "Jam", "difficulty": "White"}
+          }
+        ],
+        "image": "???",
+        "ffg": -999,
+        "artwork": "???"
+      }
+    ],
+    "cost": { "value": -999 },
+    "restrictions": [
+      { "ships": ["tiewiwhispermodifiedinterceptor"] }
+    ],
+    "hyperspace": true
   }
 ]
