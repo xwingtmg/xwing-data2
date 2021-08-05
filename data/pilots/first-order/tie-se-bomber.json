@@ -48,6 +48,60 @@
   ],
   "pilots": [
     {
+      "name": "Breach",
+      "xws": "breach",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Pursuit Thrusters",
+        "text": "During the System Phase, you may perform a [Boost] action."
+      },
+      "hyperspace": true,
+      "cost": -999,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Gunner",
+        "Device",
+        "Modification"
+      ],
+      "ability": "After you fully execute a maneuver or perform a [Boost] action, if you moved through an enemy ship, you may acquire a lock on that ship.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "Ordnance Expert",
+      "keywords": ["TIE"]
+    },
+    {
+      "name": "Scorch",
+      "xws": "scorch-tiesebomber",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Pursuit Thrusters",
+        "text": "During the System Phase, you may perform a [Boost] action."
+      },
+      "hyperspace": true,
+      "cost": -999,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Gunner",
+        "Device",
+        "Modification"
+      ],
+      "ability": "While a friendly ship at range 0-1 performs a primary attack, it may spend 1 [Hit] result. If it does, after defending, the defender gains 1 strain token.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "Jad Bean",
+      "keywords": ["TIE"]
+    },
+    {
       "name": "Grudge",
       "xws": "grudge",
       "initiative": 2,
@@ -71,7 +125,34 @@
       "ffg": -999,
       "artwork": "???",
       "image": "???",
-      "caption": "Hateful Harrier"
+      "caption": "Hateful Harrier",
+      "keywords": ["TIE"]
+    },
+    {
+      "name": "First Order Cadet",
+      "xws": "firstordercadet",
+      "initiative": 3,
+      "limited": 0,
+      "shipAbility": {
+        "name": "Pursuit Thrusters",
+        "text": "During the System Phase, you may perform a [Boost] action."
+      },
+      "hyperspace": true,
+      "cost": -999,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Gunner",
+        "Device",
+        "Modification"
+      ],
+      "text": "The live-fire exercices of the First Order are intended to root out the weak, enforcing the maxim that only the strong survive.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "keywords": ["TIE"]
     }
   ],
   "icon": "???"
