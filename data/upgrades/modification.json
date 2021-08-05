@@ -426,6 +426,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fbafd721fa85216ee1d16d305e31e694.jpg"
       }
     ],
+    "restrictions": [
+      { "stats": 
+         [ 
+           {"type": "agility", "value": 3} 
+         ] 
+      },
+      { "keywords": ["TIE"] }
+    ]
     "cost": { "value": 3 }
   }
 ]
