@@ -576,5 +576,36 @@
       }
     ],
     "cost": { "value": -999 }
+  },
+  {
+    "name": "L4E-R5",
+    "limited": 0,
+    "xws": "l4er5",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "At the start of the Engagement Phase, you may transfer 1 calculate token to a friendly ship in your firing arc.",
+        "title": "L4E-R5",
+        "type": "Astromech",
+        "slots": ["Astromech"],
+        "ffg": -999,
+        "artwork": "????"
+      }
+    ],
+    "cost": { "value": -999 },
+    "restrictions": [
+      { "factions": ["Resistance"], "action": { "type": "Rotate Arc" } }
+    ],
+    "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Rotate Arc",
+              "linked": { "type": "Coordinate", "difficulty": "White" }
+            },
+            "difficulty": "White"
+          }
+      ]
   }
+  
 ]
