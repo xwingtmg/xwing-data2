@@ -569,5 +569,27 @@
       { "standardized": true }
     ],
     "cost": { "value": 1 }
+  },
+  {
+    "name": "Wartime Loadout",
+    "limited": 0,
+    "xws": "wartimeloadout",
+    "sides": [
+      {
+        "title": "Wartime Loadout",
+        "type": "Configuration",
+        "slots": ["Configuration", "Modification"],
+        "ability": "Gain 1 [Torpedo] slot and 1 [Missile] slot. Replace your ship ability with the following: Vectored Cannons: During the System Phase, you may perform a red [Boost] or red [Rotate Arc] action. You can rotate your [Single Turret] indicator only to your [Front Arc] or [Rear Arc].",
+        "image": "???",
+        "ffg": -999,
+        "artwork": "???"
+      }
+    ],
+    "cost": { "value": -999 },
+    "restrictions": [
+      { "ships": ["btanr2ywing"] },
+      { "standardized": true }
+    ],
+    "hyperspace": true
   }
 ]
