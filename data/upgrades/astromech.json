@@ -567,7 +567,7 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "After you perform a [Reload] or [Rotate] action, i you are in an enemy ship's firing arc, you may perform a red [Calculate]",
+        "ability": "After you perform a [Reload] or [Rotate Arc] action, i you are in an enemy ship's firing arc, you may perform a red [Calculate]",
         "title": "Watchful Astromech",
         "type": "Astromech",
         "slots": ["Astromech"],
@@ -589,14 +589,8 @@
         "type": "Astromech",
         "slots": ["Astromech"],
         "ffg": -999,
-        "artwork": "????"
-      }
-    ],
-    "cost": { "value": 0 },
-    "restrictions": [
-      { "factions": ["Resistance"], "action": { "type": "Rotate Arc" } }
-    ],
-    "grants": [
+        "artwork": "????",
+        "grants": [
           {
             "type": "action",
             "value": {
@@ -606,6 +600,12 @@
             "difficulty": "White"
           }
       ]
+      }
+    ],
+    "cost": { "value": 0 },
+    "restrictions": [
+      { "factions": ["Resistance"], "action": { "type": "Rotate Arc" } }
+    ]
   }
   
 ]
