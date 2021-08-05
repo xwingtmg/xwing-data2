@@ -575,7 +575,7 @@
         "artwork": "????"
       }
     ],
-    "cost": { "value": -999 }
+    "cost": { "value": 0 }
   },
   {
     "name": "L4E-R5",
@@ -592,7 +592,7 @@
         "artwork": "????"
       }
     ],
-    "cost": { "value": -999 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Resistance"], "action": { "type": "Rotate Arc" } }
     ],
