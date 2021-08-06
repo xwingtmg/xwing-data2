@@ -774,7 +774,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "action": { "type": "Reload" } },
-      { "keywords": ["TIE"] }
+      { "names": ["TIE"] }
     ],
     "hyperspace": true
   }
