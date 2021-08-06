@@ -567,7 +567,7 @@
     "hyperspace": false,
     "sides": [
       {
-        "ability": "After you perform a [Reload] or [Rotate Arc] action, i you are in an enemy ship's firing arc, you may perform a red [Calculate]",
+        "ability": "After you perform a [Reload] or [Rotate Arc] action, if you are in an enemy ship's firing arc, you may perform a red [Calculate] action.",
         "title": "Watchful Astromech",
         "type": "Astromech",
         "slots": ["Astromech"],
@@ -595,7 +595,7 @@
             "type": "action",
             "value": {
               "type": "Rotate Arc",
-              "linked": { "type": "Coordinate", "difficulty": "White" }
+              "linked": { "type": "Calculate", "difficulty": "White" }
             },
             "difficulty": "White"
           }
