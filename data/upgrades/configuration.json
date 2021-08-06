@@ -511,12 +511,16 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "Replace your Autothrusters ship ability with the following: Sensitive Controls: During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.",
+        "ability": "Replace your Autothrusters ship ability with the following:",
         "title": "Sensitive Controls",
         "type": "Configuration",
         "slots": ["Configuration"],
         "ffg": 924,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d6fbd4fb3e406c87af923912d0ff866c.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d6fbd4fb3e406c87af923912d0ff866c.jpg",
+        "shipAbility": {
+          "name": "Sensitive Controls",
+          "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+        }
       }
     ],
     "restrictions": [
