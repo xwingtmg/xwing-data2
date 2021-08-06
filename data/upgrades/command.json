@@ -216,6 +216,7 @@
         "title": "Strategic Commander",
         "type": "Command",
         "slots": ["Command", "Crew"],
+        "charges": { "value": 3, "recovers": 0 },
         "ffg": 727,
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/5e/b5/5eb5591f-95b5-4fd1-9371-f5c819200dc9/swz53_strategic-commander_card.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
