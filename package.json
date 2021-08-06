@@ -1,6 +1,6 @@
 {
   "name": "xwing-data2",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "repository": "git@github.com:guidokessels/xwing-data2.git",
   "author": "Guido Kessels <mail@guidokessels.com>",
   "license": "MIT",
@@ -26,18 +26,14 @@
     "node-fetch": "^2.6.1",
     "prettier": "^1.19.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,json}": [
       "prettier --write"
     ],
     "{data,tests}/**/*.{js,json}": [
       "yarn validate:tests --bail"
-    ]
+    ],
+    "*.json": "prettier --write"
   },
   "prettier": {
     "tabWidth": 2,

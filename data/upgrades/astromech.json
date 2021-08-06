@@ -493,7 +493,7 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "During the End Phase, you may spend 1 [Charge] and 1 [Shield] to remove 1 red token. During the End Phase, if you have no active [Shield], you may spend 2 [Charge] to recover 1 [Shield] and gain 1 deplete token.",
+        "ability": "During the End Phase, you may spend 1 [Charge] and 1 shield to remove 1 red token. During the End Phase, if you have no active shields, you may spend 2 [Charge] to recover 1 shield and gain 1 deplete token.",
         "title": "R2-D2",
         "ffg": 720,
         "type": "Astromech",
@@ -559,5 +559,52 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }]
+  },
+  {
+    "name": "Watchful Astromech",
+    "limited": 0,
+    "xws": "watchfulastromech",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you perform a [Reload] or [Rotate Arc] action, if you are in an enemy ship's firing arc, you may perform a red [Calculate] action.",
+        "title": "Watchful Astromech",
+        "type": "Astromech",
+        "slots": ["Astromech"],
+        "ffg": -999,
+        "artwork": "????"
+      }
+    ],
+    "cost": { "value": 0 }
+  },
+  {
+    "name": "L4E-R5",
+    "limited": 0,
+    "xws": "l4er5",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "At the start of the Engagement Phase, you may transfer 1 calculate token to a friendly ship in your firing arc.",
+        "title": "L4E-R5",
+        "type": "Astromech",
+        "slots": ["Astromech"],
+        "ffg": -999,
+        "artwork": "????",
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Rotate Arc",
+              "linked": { "type": "Calculate", "difficulty": "White" }
+            },
+            "difficulty": "White"
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 0 },
+    "restrictions": [
+      { "factions": ["Resistance"], "action": { "type": "Rotate Arc" } }
+    ]
   }
 ]

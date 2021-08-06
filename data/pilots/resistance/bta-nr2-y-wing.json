@@ -1,0 +1,174 @@
+{
+  "name": "BTA-NR2 Y-Wing",
+  "xws": "btanr2ywing",
+  "size": "Small",
+  "ffg": 0,
+  "dial": [
+    "1BB",
+    "1FB",
+    "1NB",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YR",
+    "4FR",
+    "5KR"
+  ],
+  "dialCodes": ["???"],
+  "faction": "Resistance",
+  "stats": [
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 1 },
+    { "type": "hull", "value": 5 },
+    { "type": "shields", "value": 3 }
+  ],
+  "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "Red", "type": "Lock" },
+    { "difficulty": "Red", "type": "Barrel Roll" },
+    { "difficulty": "Red", "type": "Boost" }
+  ],
+  "pilots": [
+    {
+      "name": "Zorii Bliss",
+      "xws": "zoriibliss",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Interface",
+        "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
+      },
+      "hyperspace": false,
+      "cost": 0,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Turret",
+        "Device",
+        "Astromech",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
+      "ability": "???",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "???"
+    },
+    {
+      "name": "Lega Fossang",
+      "xws": "legafossang",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Interface",
+        "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
+      },
+      "hyperspace": false,
+      "cost": 0,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Turret",
+        "Device",
+        "Astromech",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
+      "ability": "While you perform a primary or [Turret] attack, you may reroll 1 attack die for each friendly device or calculating friendly ship in the attack arc.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "Hero of Humbarine"
+    },
+    {
+      "name": "Teza Nasz",
+      "xws": "tezanasz",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Interface",
+        "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
+      },
+      "hyperspace": false,
+      "cost": 0,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Turret",
+        "Device",
+        "Astromech",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
+      "ability": "While a friendly ship at range 0-2 performs an attack, if the defender has a ship friendly to the attacker in each of its side arcs ([Left Arc] and [Right Arc]), the attacker may reroll 1 attack die.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "Old Soldier"
+    },
+    {
+      "name": "Shasa Zaro",
+      "xws": "shasazaro",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Interface",
+        "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
+      },
+      "hyperspace": false,
+      "cost": 0,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Turret",
+        "Device",
+        "Astromech",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
+      "ability": "After you defend, you may choose a friendly ship in your [Full Rear Arc] at range 0-2 and 1 of your green tokens. If you do, that ship gains a matching token.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "Artistic Ace"
+    },
+    {
+      "name": "New Republic Patrol",
+      "xws": "newrepublicpatrol",
+      "initiative": 3,
+      "limited": 0,
+      "shipAbility": {
+        "name": "Intuitive Interface",
+        "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
+      },
+      "hyperspace": false,
+      "cost": 0,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Turret",
+        "Device",
+        "Astromech",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
+      "text": "Designed for customization, the BTA-NR2 Y-wing is used by numerous military organizations across the galaxy in a variety of roles, from law enforcement craft to wartime bombers.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???"
+    }
+  ],
+  "icon": "???"
+}

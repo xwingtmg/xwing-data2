@@ -1,5 +1,5 @@
 {
-  "version": "2.2.1",
+  "version": "2.3.0",
   "damagedecks": ["data/damage-decks/core.json"],
   "factions": ["data/factions/factions.json"],
   "stats": ["data/stats/stats.json"],
@@ -86,7 +86,8 @@
         "data/pilots/resistance/t-70-x-wing.json",
         "data/pilots/resistance/resistance-transport.json",
         "data/pilots/resistance/resistance-transport-pod.json",
-        "data/pilots/resistance/fireball.json"
+        "data/pilots/resistance/fireball.json",
+        "data/pilots/resistance/bta-nr2-y-wing.json"
       ]
     },
     {
@@ -99,7 +100,9 @@
         "data/pilots/first-order/tie-sf-fighter.json",
         "data/pilots/first-order/tie-vn-silencer.json",
         "data/pilots/first-order/upsilon-class-command-shuttle.json",
-        "data/pilots/first-order/xi-class-light-shuttle.json"
+        "data/pilots/first-order/xi-class-light-shuttle.json",
+        "data/pilots/first-order/tie-se-bomber.json",
+        "data/pilots/first-order/tie-wi-whisper-modified-interceptor.json"
       ]
     },
     {

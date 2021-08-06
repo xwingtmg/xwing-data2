@@ -189,5 +189,26 @@
     "limited": 1,
     "xws": "sensorbuoysuite",
     "hyperspace": true
+  },
+  {
+    "name": "Sensor Scramblers",
+    "limited": 0,
+    "xws": "sensorscramblers",
+    "sides": [
+      {
+        "title": "Sensor Scramblers",
+        "type": "Tech",
+        "ability": "Setup: Gain 1 cloak token. While you are cloaked, other ships cannot acquire locks on you. During the End Phase, if you are cloaked and there is an enemy ship at range 0-3, you must decloak. If you do and that decloak fails, lose 1 cloak token.",
+        "slots": ["Tech"],
+        "image": "???",
+        "artwork": "???",
+        "ffg": -999
+      }
+    ],
+    "cost": { "value": 0 },
+    "restrictions": [
+      { "ships": ["tiewiwhispermodifiedinterceptor", "tievnsilencer"] }
+    ],
+    "hyperspace": false
   }
 ]

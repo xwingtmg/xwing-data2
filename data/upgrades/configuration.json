@@ -511,12 +511,16 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "Replace your Autothrusters ship ability with the following: Sensitive Controls: During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action.",
+        "ability": "Replace your Autothrusters ship ability with the following:",
         "title": "Sensitive Controls",
         "type": "Configuration",
         "slots": ["Configuration"],
         "ffg": 924,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d6fbd4fb3e406c87af923912d0ff866c.jpg"
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d6fbd4fb3e406c87af923912d0ff866c.jpg",
+        "shipAbility": {
+          "name": "Sensitive Controls",
+          "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+        }
       }
     ],
     "restrictions": [
@@ -558,7 +562,13 @@
         "title": "Vectored Cannons (RZ-1)",
         "type": "Configuration",
         "slots": ["Configuration"],
-        "attack": { "arc": "Single Turret Arc", "value": 2, "minrange": 1, "maxrange": 3, "ordnance": false},
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 2,
+          "minrange": 1,
+          "maxrange": 3,
+          "ordnance": false
+        },
         "grants": [{ "type": "arc", "value": "Single Turret Arc" }],
         "ffg": 926,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fb4cf1a8b51ab44fddee4c9dfbc280a8.jpg"
@@ -569,5 +579,84 @@
       { "standardized": true }
     ],
     "cost": { "value": 1 }
+  },
+  {
+    "name": "Wartime Loadout",
+    "limited": 0,
+    "xws": "wartimeloadout",
+    "sides": [
+      {
+        "title": "Wartime Loadout",
+        "type": "Configuration",
+        "slots": ["Configuration", "Modification"],
+        "ability": "Gain 1 [Torpedo] slot and 1 [Missile] slot. Replace your ship ability with the following: Devastating Barrage: While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannont be canceled by [Evade] results.",
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Lock", "difficulty": "White" }
+          },
+          {
+            "type": "action",
+            "value": { "type": "Reload", "difficulty": "White" }
+          },
+          { "type": "stat", "value": "shields", "amount": 2 }
+        ],
+        "image": "???",
+        "ffg": -999,
+        "artwork": "???"
+      }
+    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["btanr2ywing"] }, { "standardized": true }],
+    "hyperspace": false
+  },
+  {
+    "name": "Enhanced Jamming Suite",
+    "limited": 0,
+    "xws": "enhancedjammingsuite",
+    "sides": [
+      {
+        "title": "Enhanced Jamming Suite",
+        "type": "Configuration",
+        "slots": ["Configuration", "Tech"],
+        "ability": "While you jam, you can choose yourself or another friendly ship. While you defend, if the attacker has no green tokens or there is a jammed ship in the attack arc, you may roll 1 additional defense die.",
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Focus",
+              "difficulty": "White",
+              "linked": { "type": "Jam", "difficulty": "White" }
+            }
+          },
+          {
+            "type": "action",
+            "value": {
+              "type": "Barrel Roll",
+              "difficulty": "White",
+              "linked": { "type": "Jam", "difficulty": "White" }
+            }
+          },
+          {
+            "type": "action",
+            "value": {
+              "type": "Boost",
+              "difficulty": "White",
+              "linked": { "type": "Jam", "difficulty": "White" }
+            }
+          },
+          {
+            "type": "action",
+            "value": { "type": "Jam", "difficulty": "White" }
+          }
+        ],
+        "image": "???",
+        "ffg": -999,
+        "artwork": "???"
+      }
+    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["tiewiwhispermodifiedinterceptor"] }],
+    "hyperspace": false
   }
 ]
