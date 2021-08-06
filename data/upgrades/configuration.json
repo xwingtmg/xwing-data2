@@ -558,7 +558,13 @@
         "title": "Vectored Cannons (RZ-1)",
         "type": "Configuration",
         "slots": ["Configuration"],
-        "attack": { "arc": "Single Turret Arc", "value": 2, "minrange": 1, "maxrange": 3, "ordnance": false},
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 2,
+          "minrange": 1,
+          "maxrange": 3,
+          "ordnance": false
+        },
         "grants": [{ "type": "arc", "value": "Single Turret Arc" }],
         "ffg": 926,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fb4cf1a8b51ab44fddee4c9dfbc280a8.jpg"
@@ -597,11 +603,8 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [
-      { "ships": ["btanr2ywing"] },
-      { "standardized": true }
-    ],
-    "hyperspace": true
+    "restrictions": [{ "ships": ["btanr2ywing"] }, { "standardized": true }],
+    "hyperspace": false
   },
   {
     "name": "Enhanced Jamming Suite",
@@ -616,28 +619,31 @@
         "grants": [
           {
             "type": "action",
-            "value": { 
-              "type": "Focus", 
+            "value": {
+              "type": "Focus",
               "difficulty": "White",
-              "linked": { "type": "Jam", "difficulty": "White" }}
+              "linked": { "type": "Jam", "difficulty": "White" }
+            }
           },
           {
             "type": "action",
-            "value": { 
-              "type": "Barrel Roll", 
+            "value": {
+              "type": "Barrel Roll",
               "difficulty": "White",
-              "linked": { "type": "Jam", "difficulty": "White" }}
+              "linked": { "type": "Jam", "difficulty": "White" }
+            }
           },
           {
             "type": "action",
-            "value": { 
-              "type": "Boost", 
+            "value": {
+              "type": "Boost",
               "difficulty": "White",
-              "linked": { "type": "Jam", "difficulty": "White" }}
+              "linked": { "type": "Jam", "difficulty": "White" }
+            }
           },
           {
             "type": "action",
-            "value": { "type": "Jam", "difficulty": "White"}
+            "value": { "type": "Jam", "difficulty": "White" }
           }
         ],
         "image": "???",
@@ -646,9 +652,7 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [
-      { "ships": ["tiewiwhispermodifiedinterceptor"] }
-    ],
-    "hyperspace": true
+    "restrictions": [{ "ships": ["tiewiwhispermodifiedinterceptor"] }],
+    "hyperspace": false
   }
 ]

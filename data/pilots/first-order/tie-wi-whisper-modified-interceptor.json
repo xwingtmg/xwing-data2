@@ -33,19 +33,19 @@
     { "type": "shields", "value": 2 }
   ],
   "actions": [
-    { 
-      "difficulty": "White", 
+    {
+      "difficulty": "White",
       "linked": { "difficulty": "White", "type": "Rotate Arc" },
-      "type": "Focus" 
+      "type": "Focus"
     },
     { "difficulty": "White", "type": "Evade" },
     { "difficulty": "White", "type": "Lock" },
-    { 
+    {
       "difficulty": "White",
       "linked": { "difficulty": "White", "type": "Rotate Arc" },
       "type": "Barrel Roll"
     },
-    { 
+    {
       "difficulty": "White",
       "linked": { "difficulty": "White", "type": "Rotate Arc" },
       "type": "Boost"
@@ -61,15 +61,9 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 0,
-      "slots": [
-        "Talent",
-        "Talent",
-        "Missile",
-        "Tech",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Talent", "Missile", "Tech", "Configuration"],
       "ability": "Before an enemy ship in your [Bullseye Arc] is dealt a facedown damage card, you may spend 1 [Force]. If you do, that damage card is dealt faceup instead.",
       "ffg": -999,
       "artwork": "???",
@@ -87,15 +81,9 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 0,
-      "slots": [
-        "Talent",
-        "Talent",
-        "Missile",
-        "Tech",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Talent", "Missile", "Tech", "Configuration"],
       "ability": "After you perform a [Bullseye Arc] attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target.",
       "ffg": -999,
       "artwork": "???",
@@ -113,15 +101,9 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "text": "Commanded by Supreme Leader Kylo Ren, the 709th Legion fights without mercy or remorse to crust the Resistance and bring the galaxy under the Forst Order's dominion.",
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 0,
-      "slots": [
-        "Talent",
-        "Talent",
-        "Missile",
-        "Tech",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Talent", "Missile", "Tech", "Configuration"],
       "ability": "After you perform a [Bullseye Arc] attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target.",
       "ffg": -999,
       "artwork": "???",

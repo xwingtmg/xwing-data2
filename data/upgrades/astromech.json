@@ -564,7 +564,7 @@
     "name": "Watchful Astromech",
     "limited": 0,
     "xws": "watchfulastromech",
-    "hyperspace": true,
+    "hyperspace": false,
     "sides": [
       {
         "ability": "After you perform a [Reload] or [Rotate Arc] action, i you are in an enemy ship's firing arc, you may perform a red [Calculate]",
@@ -581,7 +581,7 @@
     "name": "L4E-R5",
     "limited": 0,
     "xws": "l4er5",
-    "hyperspace": true,
+    "hyperspace": false,
     "sides": [
       {
         "ability": "At the start of the Engagement Phase, you may transfer 1 calculate token to a friendly ship in your firing arc.",
@@ -599,7 +599,7 @@
             },
             "difficulty": "White"
           }
-      ]
+        ]
       }
     ],
     "cost": { "value": 0 },
@@ -607,5 +607,4 @@
       { "factions": ["Resistance"], "action": { "type": "Rotate Arc" } }
     ]
   }
-  
 ]

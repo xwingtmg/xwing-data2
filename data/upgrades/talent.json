@@ -631,9 +631,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/babf3b90df6a73d026d4ab7670306ab7.jpg"
       }
     ],
-    "restrictions": [
-      { "names": ["TIE"] }
-    ],
+    "restrictions": [{ "names": ["TIE"] }],
     "cost": { "value": 3 }
   },
   {
@@ -736,7 +734,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1ae514eedd2e4129b311b69c4174e5f6.jpg"
       }
     ],
-    "restrictions": [ { "ships": ["tieddefender"] } ],
+    "restrictions": [{ "ships": ["tieddefender"] }],
     "cost": { "value": 1 }
   },
   {
@@ -772,10 +770,7 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [
-      { "action": { "type": "Reload" } },
-      { "names": ["TIE"] }
-    ],
-    "hyperspace": true
+    "restrictions": [{ "action": { "type": "Reload" } }, { "names": ["TIE"] }],
+    "hyperspace": false
   }
 ]

@@ -34,13 +34,13 @@
   "actions": [
     { "difficulty": "White", "type": "Focus" },
     { "difficulty": "White", "type": "Lock" },
-    { 
+    {
       "difficulty": "White",
       "linked": { "difficulty": "Red", "type": "Lock" },
       "type": "Barrel Roll"
     },
     { "difficulty": "Red", "type": "Boost" },
-    { 
+    {
       "difficulty": "White",
       "linked": { "difficulty": "Red", "type": "Evade" },
       "type": "Reload"
@@ -56,7 +56,7 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 0,
       "slots": [
         "Talent",
@@ -83,7 +83,7 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 0,
       "slots": [
         "Talent",
@@ -110,7 +110,7 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 0,
       "slots": [
         "Talent",
@@ -137,7 +137,7 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
+      "hyperspace": false,
       "cost": 0,
       "slots": [
         "Talent",
