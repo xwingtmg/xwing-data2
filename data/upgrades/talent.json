@@ -189,10 +189,7 @@
         "ffg": 471
       }
     ],
-    "cost": {
-      "variable": "agility",
-      "values": { "0": 1, "1": 1, "2": 1, "3": 2 }
-    },
+    "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "hyperspace": false
   },
