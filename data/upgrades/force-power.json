@@ -225,14 +225,14 @@
     "name": "Compassion",
     "limited": 0,
     "xws": "compassion",
-    "ffg": 934,
     "hyperspace": true,
     "sides": [
       {
         "ability": "Before another friendly ship at range 0-2 would be dealt a faceup Pilot or Crew damage card, you may spend 1 [Force]. If you do, that damage card is discarded instead, and you are dealt 1 facedown damage card. Then, if you have 2 or more damage cards, recover 2 [Force].",
         "title": "Compassion",
         "type": "Force Power",
-        "slots": ["Force Power"]
+        "slots": ["Force Power"],
+        "ffg": 934,
       }
     ],
     "cost": { "value": 1 }
@@ -241,7 +241,6 @@
     "name": "Malice",
     "limited": 0,
     "xws": "malice",
-    "ffg": 935,
     "hyperspace": true,
     "sides": [
       {
@@ -249,6 +248,7 @@
         "title": "Malice",
         "type": "Force Power",
         "slots": ["Force Power"]
+        "ffg": 935,
       }
     ],
     "cost": { "value": 6 }
@@ -257,7 +257,6 @@
     "name": "Shattering Shot",
     "limited": 0,
     "xws": "shatteringshot",
-    "ffg": 936,
     "hyperspace": true,
     "sides": [
       {
@@ -265,6 +264,7 @@
         "title": "Shattering Shot",
         "type": "Force Power",
         "slots": ["Force Power"]
+        "ffg": 936,
       }
     ],
     "cost": { "value": 3 }
