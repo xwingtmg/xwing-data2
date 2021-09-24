@@ -25,7 +25,7 @@
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
     { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 5 },
+    { "type": "hull", "value": 4 },
     { "type": "shields", "value": 3 }
   ],
   "actions": [
@@ -44,50 +44,23 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": false,
-      "cost": 0,
+      "hyperspace": true,
+      "cost": 40,
       "slots": [
         "Talent",
         "Tech",
         "Turret",
-        "Device",
         "Astromech",
+        "Device",
         "Modification",
-        "Modification",
+        "Illicit",
         "Configuration"
       ],
-      "ability": "???",
+      "ability": "After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 [Charge] to perform that action, treating it as red.",
       "ffg": -999,
       "artwork": "???",
       "image": "???",
-      "caption": "???"
-    },
-    {
-      "name": "Lega Fossang",
-      "xws": "legafossang",
-      "initiative": 3,
-      "limited": 1,
-      "shipAbility": {
-        "name": "Intuitive Interface",
-        "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
-      },
-      "hyperspace": false,
-      "cost": 0,
-      "slots": [
-        "Talent",
-        "Tech",
-        "Turret",
-        "Device",
-        "Astromech",
-        "Modification",
-        "Modification",
-        "Configuration"
-      ],
-      "ability": "While you perform a primary or [Turret] attack, you may reroll 1 attack die for each friendly device or calculating friendly ship in the attack arc.",
-      "ffg": -999,
-      "artwork": "???",
-      "image": "???",
-      "caption": "Hero of Humbarine"
+      "caption": "Corsair of Kijimi"
     },
     {
       "name": "Teza Nasz",
@@ -98,14 +71,14 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": false,
-      "cost": 0,
+      "hyperspace": true,
+      "cost": 37,
       "slots": [
         "Talent",
         "Tech",
         "Turret",
-        "Device",
         "Astromech",
+        "Device",
         "Modification",
         "Modification",
         "Configuration"
@@ -117,6 +90,32 @@
       "caption": "Old Soldier"
     },
     {
+      "name": "Wilsa Teshlo",
+      "xws": "wilsateshlo",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Interface",
+        "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
+      },
+      "hyperspace": true,
+      "cost": 34,
+      "slots": [
+        "Tech",
+        "Turret",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
+      "ability": "After you perform an attack, if the defender was dealt a faceup damage card, the defender gains 1 strain token unless it chooses 1 non-recurring [Charge] from 1 of its equipped upgrades and loses that [Charge].",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "Veiled Sorority Privateer"
+    },
+    {
       "name": "Shasa Zaro",
       "xws": "shasazaro",
       "initiative": 4,
@@ -126,13 +125,12 @@
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
       "hyperspace": false,
-      "cost": 0,
+      "cost": 33,
       "slots": [
-        "Talent",
         "Tech",
         "Turret",
-        "Device",
         "Astromech",
+        "Device",
         "Modification",
         "Modification",
         "Configuration"
@@ -144,6 +142,113 @@
       "caption": "Artistic Ace"
     },
     {
+      "name": "Lega Fossang",
+      "xws": "legafossang",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Interface",
+        "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
+      },
+      "hyperspace": true,
+      "cost": 33,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Turret",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
+      "ability": "While you perform a primary or [Turret] attack, you may reroll 1 attack die for each friendly device or calculating friendly ship in the attack arc.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "Hero of Humbarine"
+    },
+    {
+      "name": "Aftab Ackbar",
+      "xws": "aftabackbar",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Interface",
+        "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
+      },
+      "hyperspace": true,
+      "cost": 34,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Turret",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
+      "ability": "After you execute a red basic maneuver or perform a red action, if you have exactly 1 stress token, you may gain 1 strain token to remove that stress token.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "Junior"
+    },
+    {
+      "name": "Corus Kapellim",
+      "xws": "coruskapellim",
+      "initiative": 1,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Interface",
+        "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
+      },
+      "hyperspace": true,
+      "cost": 33,
+      "slots": [
+        "Tech",
+        "Turret",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Illicit",
+        "Configuration"
+      ],
+      "ability": "Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "Gentleman Flyer"
+    },
+    {
+      "name": "C'ai Threnalli",
+      "xws": "caithrenalli-btanr2ywing",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Interface",
+        "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
+      },
+      "hyperspace": true,
+      "cost": 34,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Turret",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
+      "ability": "After you fully execute a maneuver, if you moved through a friendly ship, you may perform an [Evade] action.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "Tenacious Survivor"
+    },
+    {
       "name": "New Republic Patrol",
       "xws": "newrepublicpatrol",
       "initiative": 3,
@@ -152,19 +257,44 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": false,
-      "cost": 0,
+      "hyperspace": true,
+      "cost": 32,
       "slots": [
         "Talent",
         "Tech",
         "Turret",
-        "Device",
         "Astromech",
+        "Device",
         "Modification",
         "Modification",
         "Configuration"
       ],
       "text": "Designed for customization, the BTA-NR2 Y-wing is used by numerous military organizations across the galaxy in a variety of roles, from law enforcement craft to wartime bombers.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???"
+    },
+    {
+      "name": "Kijimi Spice Runner",
+      "xws": "kijimispicerunner",
+      "initiative": 2,
+      "limited": 0,
+      "shipAbility": {
+        "name": "Intuitive Interface",
+        "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
+      },
+      "hyperspace": true,
+      "cost": 31,
+      "slots": [
+        "Tech",
+        "Turret",
+        "Astromech",
+        "Device",
+        "Modification",
+        "Illicit",
+        "Configuration"
+      ],
+      "text": "Led by Zorii Bliss, the Kijimi Spice Runners set aside their usual mercenary ways to take the fight to the Final Order at the Battle of Exegol.",
       "ffg": -999,
       "artwork": "???",
       "image": "???"
