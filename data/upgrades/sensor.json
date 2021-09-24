@@ -14,7 +14,10 @@
         "ffg": 252
       }
     ],
-    "cost": { "value": 10 },
+    "cost": {
+      "variable": "size",
+      "values": { "Small": 13, "Medium": 11, "Large": 9 }
+    },
     "hyperspace": false
   },
   {

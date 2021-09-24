@@ -50,7 +50,7 @@
         "ffg": 250
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 6 },
     "hyperspace": false
   },
   {
@@ -108,10 +108,7 @@
         "ffg": 489
       }
     ],
-    "cost": {
-      "variable": "size",
-      "values": { "Small": 3, "Medium": 6, "Large": 9 }
-    },
+    "cost": { "value": 4 },
     "restrictions": [{ "force_side": ["dark"] }],
     "hyperspace": true
   },
@@ -181,7 +178,7 @@
         }
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 5 },
     "hyperspace": true,
     "xws": "foresight",
     "limited": 0
@@ -222,7 +219,55 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9fde6e000d6e1d9dd28e3ffb301b9c04.jpg"
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 5 }
+  },
+  {
+    "name": "Compassion",
+    "limited": 0,
+    "xws": "compassion",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Before another friendly ship at range 0-2 would be dealt a faceup Pilot or Crew damage card, you may spend 1 [Force]. If you do, that damage card is discarded instead, and you are dealt 1 facedown damage card. Then, if you have 2 or more damage cards, recover 2 [Force].",
+        "title": "Compassion",
+        "type": "Force Power",
+        "slots": ["Force Power"],
+        "ffg": 934
+      }
+    ],
+    "cost": { "value": 1 }
+  },
+  {
+    "name": "Malice",
+    "limited": 0,
+    "xws": "malice",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "While you perform an attack, you may spend 1 [Force] to change 1 [Focus] or [Hit] result to a [Critical Hit] result. If you do, after you perform that attack, if the defender was dealt 1 or more faceup Pilot or Crew damage cards, recover 2 [Force].",
+        "title": "Malice",
+        "type": "Force Power",
+        "slots": ["Force Power"],
+        "ffg": 935
+      }
+    ],
+    "cost": { "value": 6 }
+  },
+  {
+    "name": "Shattering Shot",
+    "limited": 0,
+    "xws": "shatteringshot",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "While you perform an attack, if the attack is obstructed by an obstacle or the defender is at range 0 of an obstacle, you may spend 1 [Force] to add 1 [Focus] result.",
+        "title": "Shattering Shot",
+        "type": "Force Power",
+        "slots": ["Force Power"],
+        "ffg": 936
+      }
+    ],
+    "cost": { "value": 3 }
   },
   {
     "name": "Patience",

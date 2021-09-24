@@ -15,7 +15,7 @@
         "ffg": 292
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [{ "sizes": ["Medium", "Large"] }],
     "hyperspace": false
   },
@@ -191,7 +191,7 @@
         "ffg": 300
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 5 },
     "hyperspace": false
   },
   {
@@ -295,7 +295,7 @@
     ],
     "restrictions": [{ "equipped": ["Astromech"] }],
     "hyperspace": false,
-    "cost": { "value": 4 }
+    "cost": { "value": 3 }
   },
   {
     "name": "Delayed Fuses",
@@ -388,7 +388,7 @@
       { "shipAbility": ["Networked Calculations"] },
       { "standardized": true }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 0 }
   },
   {
     "name": "Overdrive Thruster",
@@ -426,6 +426,6 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fbafd721fa85216ee1d16d305e31e694.jpg"
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 2 }
   }
 ]

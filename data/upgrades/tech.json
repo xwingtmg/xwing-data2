@@ -32,7 +32,7 @@
         "ffg": 488
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "hyperspace": true
   },
@@ -92,7 +92,7 @@
         "ffg": 464
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "hyperspace": true
   },
   {
@@ -152,7 +152,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c0e458b69076138e2408664be131f61e.png"
       }
     ],
-    "cost": { "value": 9 }
+    "cost": { "value": 8 }
   },
   {
     "sides": [
@@ -202,13 +202,13 @@
         "slots": ["Tech"],
         "image": "???",
         "artwork": "???",
-        "ffg": -999
+        "ffg": 939
       }
     ],
-    "cost": { "value": 0 },
+    "cost": { "value": 1 },
     "restrictions": [
       { "ships": ["tiewiwhispermodifiedinterceptor", "tievnsilencer"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   }
 ]

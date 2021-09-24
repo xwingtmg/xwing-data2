@@ -15,7 +15,7 @@
         "ffg": 286
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "hyperspace": false
   },
@@ -210,13 +210,31 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/06d6e39ec52930c4faca371e8dcd3fd6.jpg"
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 3 }
+  },
+  {
+    "name": "Babu Frik",
+    "limited": 0,
+    "xws": "babufrik",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "Before you would gain a non-lock red or orange token, you may spend 1 [Charge] to place it on this card instead. During the System Phase, if there are 1 or more tokens on this card, you must spend 1 [Charge]. If you cannot, remove those tokens and gain matching tokens.",
+        "title": "Babu Frik",
+        "type": "Illicit",
+        "slots": ["Illicit"],
+        "charges": { "value": 3, "recovers": 0 },
+        "ffg": 930
+      }
+    ],
+    "restrictions": [{ "factions": ["Scum and Villainy", "Resistance"] }],
+    "cost": { "value": 7 }
   },
   {
     "name": "Overtuned Modulators",
     "limited": 1,
     "xws": "overtunedmodulators",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "During the System Phase, if you are not stressed, you may spend 1 [Charge] to gain 3 calculate tokens. During the End Phase, if your [Charge] is inactive, for each green token you remove, gain 1 strain token.",
@@ -224,11 +242,11 @@
         "type": "Illicit",
         "slots": ["Illicit"],
         "charges": { "value": 1, "recovers": 0 },
-        "ffg": -999,
+        "ffg": 931,
         "image": "???",
         "artwork": "???"
       }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 3 }
   }
 ]

@@ -268,6 +268,23 @@
     "cost": { "value": 5 }
   },
   {
+    "name": "Electro-Chaff Missiles",
+    "limited": 2,
+    "xws": "electrochaffmissiles",
+    "hyperspace": true,
+    "sides": [
+      {
+        "ability": "During the System Phase, you may spend 1 [Charge] from this cared to launch 1 electro-chaff cloud using the [3 [Bank Left]], [3 [Straight]], or [3 [Bank Right]] template.",
+        "charges": { "value": 1, "recovers": 0 },
+        "title": "Electro-Chaff Missiles",
+        "type": "Missile",
+        "slots": ["Missile", "Device"],
+        "ffg": 932
+      }
+    ],
+    "cost": { "value": 4 }
+  },
+  {
     "name": "Multi-Missile Pods",
     "limited": 0,
     "xws": "multimissilepods",
@@ -291,7 +308,7 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5abef5ee3d6e4acf94cd77280375aa72.png"
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 4 }
   },
   {
     "name": "XX-23 S-Thread Tracers",
@@ -317,6 +334,6 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/34fa7fa46dbf8626f1480fc9937e7c1b.jpg"
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 4 }
   }
 ]

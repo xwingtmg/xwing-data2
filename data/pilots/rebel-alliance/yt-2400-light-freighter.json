@@ -43,7 +43,7 @@
       "caption": "Dry-Witted Droid",
       "initiative": 3,
       "limited": 1,
-      "cost": 76,
+      "cost": 72,
       "xws": "leebo",
       "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_78.png",
@@ -60,7 +60,7 @@
       "slots": [
         "Talent",
         "Missile",
-        "Gunner",
+        "Illicit",
         "Illicit",
         "Modification",
         "Title"
@@ -75,7 +75,7 @@
       "caption": "Hotshot Mercenary",
       "initiative": 5,
       "limited": 1,
-      "cost": 85,
+      "cost": 79,
       "xws": "dashrendar",
       "ability": "While you move, you ignore obstacles.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_77.png",
@@ -87,10 +87,10 @@
         "Talent",
         "Missile",
         "Crew",
+        "Crew",
         "Illicit",
         "Modification",
-        "Title",
-        "Gunner"
+        "Title"
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_77.jpg",
       "ffg": 77,
@@ -109,14 +109,7 @@
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
       },
-      "slots": [
-        "Missile",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
+      "slots": ["Missile", "Crew", "Crew", "Illicit", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_79.jpg",
       "ffg": 79,
       "hyperspace": false,
