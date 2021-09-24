@@ -56,14 +56,15 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": false,
-      "cost": 0,
+      "hyperspace": true,
+      "cost": 36,
       "slots": [
         "Talent",
         "Tech",
         "Torpedo",
         "Missile",
         "Gunner",
+        "Device",
         "Device",
         "Modification"
       ],
@@ -83,14 +84,15 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": false,
-      "cost": 0,
+      "hyperspace": true,
+      "cost": 35,
       "slots": [
         "Talent",
         "Tech",
         "Torpedo",
         "Missile",
         "Gunner",
+        "Device",
         "Device",
         "Modification"
       ],
@@ -102,6 +104,33 @@
       "keywords": ["TIE"]
     },
     {
+      "name": "Dread",
+      "xws": "dread",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Pursuit Thrusters",
+        "text": "During the System Phase, you may perform a [Boost] action."
+      },
+      "hyperspace": true,
+      "cost": 32,
+      "slots": [
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ],
+      "ability": "After you reload, each ship in your [Bullseye Arc] gains 1 deplete token.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "caption": "Devotee of Devastation",
+      "keywords": ["TIE"]
+    },
+    {
       "name": "Grudge",
       "xws": "grudge",
       "initiative": 2,
@@ -110,14 +139,14 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": false,
-      "cost": 0,
+      "hyperspace": true,
+      "cost": 36,
       "slots": [
-        "Talent",
         "Tech",
         "Torpedo",
         "Missile",
         "Gunner",
+        "Device",
         "Device",
         "Modification"
       ],
@@ -137,8 +166,8 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": false,
-      "cost": 0,
+      "hyperspace": true,
+      "cost": 32,
       "slots": [
         "Talent",
         "Tech",
@@ -146,9 +175,36 @@
         "Missile",
         "Gunner",
         "Device",
+        "Device",
         "Modification"
       ],
       "text": "The live-fire exercises of the First Order are intended to root out the weak, enforcing the maxim that only the strong survive.",
+      "ffg": -999,
+      "artwork": "???",
+      "image": "???",
+      "keywords": ["TIE"]
+    },
+    {
+      "name": "Sienar-Jaemus Test Pilot",
+      "xws": "sienarjaemustestpilot",
+      "initiative": 2,
+      "limited": 0,
+      "shipAbility": {
+        "name": "Pursuit Thrusters",
+        "text": "During the System Phase, you may perform a [Boost] action."
+      },
+      "hyperspace": true,
+      "cost": 31,
+      "slots": [
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ],
+      "text": "Equipped with four laser cannons and advanced systems, the TIE/se bomber is a remarkably maneuverable craft that brings devastating ordnance to bear against any who dare to stand against the First Order.",
       "ffg": -999,
       "artwork": "???",
       "image": "???",
