@@ -223,7 +223,8 @@
         "title": "Babu Frik",
         "type": "Illicit",
         "slots": ["Illicit"],
-        "charges": { "value": 3, "recovers": 0 }
+        "charges": { "value": 3, "recovers": 0 },
+        "ffg": 930
       }
     ],
     "restrictions": [
@@ -243,7 +244,7 @@
         "type": "Illicit",
         "slots": ["Illicit"],
         "charges": { "value": 1, "recovers": 0 },
-        "ffg": -999,
+        "ffg": 931,
         "image": "???",
         "artwork": "???"
       }
