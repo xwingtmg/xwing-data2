@@ -92,7 +92,7 @@
         "ffg": 335
       }
     ],
-    "cost": { "value": 12 },
+    "cost": { "value": 16 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": false
   },
@@ -291,7 +291,7 @@
         "ffg": 337
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Coordinate" } }
@@ -405,7 +405,7 @@
         "ffg": 341
       }
     ],
-    "cost": { "value": 11 },
+    "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": true
   },
@@ -568,7 +568,7 @@
         "ffg": 344
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "hyperspace": false
   },
@@ -874,7 +874,7 @@
         "ffg": 346
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 7 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Coordinate" } }
