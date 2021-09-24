@@ -188,7 +188,7 @@
     ],
     "restrictions": [{ "ships": ["vultureclassdroidfighter"] }],
     "hyperspace": true,
-    "cost": { "value": 1 }
+    "cost": { "value": 0 }
   },
   {
     "name": "Delta-7B",
@@ -212,7 +212,7 @@
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 4, "1": 4, "2": 8, "3": 12, "4": 16, "5": 20, "6": 24 }
+      "values": { "0": 6, "1": 6, "2": 10, "3": 14, "4": 17, "5": 20, "6": 24 }
     },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],
     "hyperspace": true
@@ -234,7 +234,7 @@
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 0, "1": 0, "2": 1, "3": 2, "4": 3, "5": 4, "6": 5 }
+      "values": { "0": 2, "1": 2, "2": 3, "3": 4, "4": 5, "5": 6, "6": 7 }
     },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],
     "hyperspace": true
@@ -265,7 +265,7 @@
     ],
     "restrictions": [{ "ships": ["hyenaclassdroidbomber"] }],
     "hyperspace": true,
-    "cost": { "value": 1 }
+    "cost": { "value": 0 }
   },
   {
     "name": "Corsair Refit",
@@ -366,7 +366,7 @@
       }
     ],
     "name": "Repulsorlift Stabilizers",
-    "cost": { "value": 3 },
+    "cost": { "value": 0 },
     "limited": 0,
     "xws": "repulsorliftstabilizers",
     "hyperspace": true
@@ -386,7 +386,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2e6d4fc53253cdf04086649b7eaf917a.jpg"
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 1 }
   },
   {
     "name": "Alpha-3E \"Esk\"",
@@ -404,7 +404,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/678c7a36aacdd1cc20b61287df2fc0d9.jpg"
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 0 }
   },
   {
     "name": "Intercept Booster",
