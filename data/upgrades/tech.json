@@ -202,13 +202,13 @@
         "slots": ["Tech"],
         "image": "???",
         "artwork": "???",
-        "ffg": -999
+        "ffg": 939
       }
     ],
-    "cost": { "value": 0 },
+    "cost": { "value": 1 },
     "restrictions": [
       { "ships": ["tiewiwhispermodifiedinterceptor", "tievnsilencer"] }
     ],
-    "hyperspace": false
+    "hyperspace": true
   }
 ]
