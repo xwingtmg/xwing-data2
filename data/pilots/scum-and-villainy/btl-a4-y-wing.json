@@ -40,7 +40,7 @@
       "name": "Crymorah Goon",
       "initiative": 1,
       "limited": 0,
-      "cost": 30,
+      "cost": 29,
       "xws": "crymorahgoon",
       "text": "Though far from nimble, the Y-wing's heavy hull, substantial shielding, and turret-mounted cannons make it an excellent patrol craft.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_168.png",
@@ -51,7 +51,7 @@
         "Device",
         "Illicit",
         "Modification",
-        "Gunner"
+        "Missile"
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_168.jpg",
       "ffg": 168,
@@ -74,7 +74,7 @@
         "Device",
         "Illicit",
         "Modification",
-        "Gunner"
+        "Missile"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_166.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_166.jpg",
@@ -86,7 +86,7 @@
       "name": "Hired Gun",
       "initiative": 2,
       "limited": 0,
-      "cost": 32,
+      "cost": 31,
       "xws": "hiredgun",
       "text": "Just the mention of Imperial credits can bring a host of less-than-trustworthy individuals to your side.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_167.png",
@@ -98,7 +98,7 @@
         "Device",
         "Illicit",
         "Modification",
-        "Gunner"
+        "Missile"
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_167.jpg",
       "ffg": 167,
@@ -110,7 +110,7 @@
       "caption": "Callous Corsair",
       "initiative": 5,
       "limited": 1,
-      "cost": 43,
+      "cost": 41,
       "xws": "kavil",
       "ability": "While you perform a non-[Front Arc] attack, roll 1 additional attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_165.png",
@@ -122,7 +122,7 @@
         "Device",
         "Illicit",
         "Modification",
-        "Gunner"
+        "Missile"
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_165.jpg",
       "ffg": 165,
@@ -136,13 +136,13 @@
       "limited": 1,
       "hyperspace": false,
       "keywords": ["Y-wing"],
-      "cost": 40,
+      "cost": 39,
       "slots": [
         "Talent",
         "Tech",
         "Turret",
         "Torpedo",
-        "Gunner",
+        "Missile",
         "Astromech",
         "Device"
       ],
@@ -158,13 +158,13 @@
       "limited": 1,
       "hyperspace": false,
       "keywords": ["Y-wing"],
-      "cost": 39,
+      "cost": 38,
       "slots": [
         "Talent",
         "Tech",
         "Turret",
         "Torpedo",
-        "Gunner",
+        "Missile",
         "Astromech",
         "Device"
       ],
@@ -186,7 +186,7 @@
         "Tech",
         "Turret",
         "Torpedo",
-        "Gunner",
+        "Missile",
         "Astromech",
         "Device"
       ],
@@ -207,7 +207,7 @@
         "Tech",
         "Turret",
         "Torpedo",
-        "Gunner",
+        "Missile",
         "Astromech",
         "Device"
       ],
@@ -223,8 +223,8 @@
       "limited": 0,
       "text": "Headquartered on the former Imperial stronghold of Vardos, Jinata Security continues its reconstruction efforts on the devastated planet, even while collaborating with the First Order's rearmament program.",
       "hyperspace": true,
-      "cost": 31,
-      "slots": ["Tech", "Turret", "Torpedo", "Gunner", "Astromech", "Device"],
+      "cost": 30,
+      "slots": ["Tech", "Turret", "Torpedo", "Missile", "Astromech", "Device"],
       "keywords": ["Y-wing"],
       "ffg": 902,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d1b998eff3b93d5ed05870096aa27817.jpg"
