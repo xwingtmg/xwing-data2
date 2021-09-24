@@ -297,7 +297,7 @@
         "ffg": 481
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "hyperspace": false
   },
@@ -579,7 +579,7 @@
   },
   {
     "name": "L4E-R5",
-    "limited": 0,
+    "limited": 1,
     "xws": "l4er5",
     "hyperspace": false,
     "sides": [
@@ -602,7 +602,7 @@
         ]
       }
     ],
-    "cost": { "value": 0 },
+    "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Resistance"], "action": { "type": "Rotate Arc" } }
     ]
