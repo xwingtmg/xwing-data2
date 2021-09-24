@@ -14,10 +14,7 @@
         "ffg": 388
       }
     ],
-    "cost": {
-      "variable": "size",
-      "values": { "Small": 6, "Medium": 5, "Large": 4 }
-    },
+    "cost": { "value": 3 },
     "hyperspace": true
   },
   {
@@ -212,7 +209,7 @@
         "ffg": 278
       }
     ],
-    "cost": { "value": 7 },
+    "cost": { "value": 6 },
     "hyperspace": false
   },
   {
@@ -290,7 +287,7 @@
         "ffg": 280
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 2 },
     "restrictions": [{ "arcs": ["Rear Arc"] }],
     "hyperspace": false
   },
@@ -463,10 +460,7 @@
       }
     ],
     "name": "Suppressive Gunner",
-    "cost": {
-      "variable": "size",
-      "values": { "Small": 8, "Medium": 7, "Large": 6 }
-    },
+    "cost": { "value": 7 },
     "limited": 0,
     "xws": "suppressivegunner",
     "hyperspace": true
@@ -503,7 +497,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c10278c132ecd7cf511b29d4a91c597b.jpg"
       }
     ],
-    "cost": { "value": 7 }
+    "cost": { "value": 5 }
   },
   {
     "name": "Sabine Wren",

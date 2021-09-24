@@ -564,7 +564,7 @@
     "name": "Watchful Astromech",
     "limited": 0,
     "xws": "watchfulastromech",
-    "hyperspace": false,
+    "hyperspace": true,
     "sides": [
       {
         "ability": "After you perform a [Reload] or [Rotate Arc] action, if you are in an enemy ship's firing arc, you may perform a red [Calculate] action.",
@@ -575,7 +575,7 @@
         "artwork": "????"
       }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 2 }
   },
   {
     "name": "L4E-R5",

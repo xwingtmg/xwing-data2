@@ -81,7 +81,7 @@
         "ffg": 232
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "hyperspace": false
   },
@@ -101,7 +101,7 @@
         "ffg": 233
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 2 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "hyperspace": false
   },
@@ -235,7 +235,7 @@
         "ffg": 237
       }
     ],
-    "cost": { "value": 7 },
+    "cost": { "value": 6 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "hyperspace": true
   },
@@ -346,7 +346,7 @@
         "ffg": 243
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [{ "action": { "type": "Reload" } }],
     "hyperspace": false
   },
@@ -632,7 +632,7 @@
       }
     ],
     "restrictions": [{ "names": ["TIE"] }],
-    "cost": { "value": 3 }
+    "cost": { "value": 2 }
   },
   {
     "name": "Marg Sabl Closure",
@@ -752,7 +752,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a1b35914e278f332b59e04749c90452c.jpg"
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 1 }
   },
   {
     "name": "Feedback Ping",
@@ -769,8 +769,8 @@
         "ffg": -999
       }
     ],
-    "cost": { "value": 0 },
+    "cost": { "value": 1 },
     "restrictions": [{ "action": { "type": "Reload" } }, { "names": ["TIE"] }],
-    "hyperspace": false
+    "hyperspace": true
   }
 ]
