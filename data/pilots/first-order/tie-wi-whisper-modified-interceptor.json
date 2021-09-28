@@ -76,8 +76,8 @@
       "artwork": "???",
       "image": "???",
       "caption": "Supreme Leader of the First Order",
-      "keywords": ["TIE", "Dark Side"],
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] }
+      "keywords": ["TIE", "Dark Side", "Light Side"],
+      "force": { "value": 3, "recovers": 1, "side": ["dark", "light"] }
     },
     {
       "name": "Wrath",
