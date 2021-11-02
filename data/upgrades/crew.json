@@ -1602,8 +1602,14 @@
             "type": "action",
             "value": {
               "type": "Calculate",
-              "difficulty": "White",
-              "linked": { "type": "Jam", "difficulty": "White" }
+              "difficulty": "White"
+            }
+          },
+          {
+            "type": "action",
+            "value": {
+              "type": "Jam",
+              "difficulty": "White"
             }
           }
         ],
