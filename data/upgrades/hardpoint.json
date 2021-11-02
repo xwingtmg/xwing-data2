@@ -10,6 +10,13 @@
         "title": "Ion Cannon Battery (Offline)",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 4,
+          "minrange": 2,
+          "maxrange": 4,
+          "ordnance": false
+        },
         "grants": [
           {
             "type": "action",
@@ -66,6 +73,13 @@
         "title": "Point-Defense Battery (Offline)",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 2,
+          "minrange": 1,
+          "maxrange": 2,
+          "ordnance": false
+        },
         "grants": [
           {
             "type": "action",
@@ -97,6 +111,13 @@
         "title": "Targeting Battery (Offline)",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 3,
+          "minrange": 2,
+          "maxrange": 5,
+          "ordnance": false
+        },
         "grants": [
           {
             "type": "action",
@@ -128,6 +149,13 @@
         "title": "Turbolaser Battery (Offline)",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Single Turret Arc",
+          "value": 3,
+          "minrange": 3,
+          "maxrange": 5,
+          "ordnance": false
+        },
         "grants": [
           {
             "type": "action",
@@ -144,6 +172,72 @@
         "slots": ["Hardpoint"],
         "ffg": 744,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3a88323269e88afa9557ec1b2fe46925.jpg"
+      }
+    ],
+    "cost": { "value": 10 }
+  },
+  {
+    "name": "Tractor Tentacles (Offline)",
+    "limited": 0,
+    "xws": "tractortentacles",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Action: Spend 1 [Energy] to repair this card.",
+        "title": "Tractor Tentacles (Offline)",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"],
+        "attack": {
+          "arc": "Rear Arc",
+          "value": 2,
+          "minrange": 1,
+          "maxrange": 2,
+          "ordnance": true
+        },
+        "grants": [],
+        "ffg": 743,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4c1ea70c43bf582038cc80d0836b74e7.jpg"
+      },
+      {
+        "ability": "Setup: Equip this side faceup. Bonus Attack. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy].",
+        "title": "Tractor Tentacles",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"],
+        "ffg": 742,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/60c195f4af8e303047b0633161c42a7d.jpg"
+      }
+    ],
+    "cost": { "value": 0 }
+  },
+  {
+    "name": "Proton Cannon Battery (Offline)",
+    "limited": 0,
+    "xws": "protoncannonbattery",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Action: Spend 1 [Energy] to repair this card.",
+        "title": "Proton Cannon Battery (Offline)",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint", "Cargo"],
+        "attack": {
+          "arc": "Bullseye Arc",
+          "value": 4,
+          "minrange": 2,
+          "maxrange": 5,
+          "ordnance": false
+        },
+        "grants": [],
+        "ffg": 743,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/bbdc9a802049e98132ee424f4c2bc0ec.jpg"
+      },
+      {
+        "ability": "Setup: Equip this side faceup. Bonus Attack: Change 1 [Hit] result to a [Crit] result. Bonus Attack: Spend 1 [Energy]. Change 1 [Hit] result to a [Crit] result.",
+        "title": "Proton Cannon Battery",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint"],
+        "ffg": 742,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/97c81b90378cf7ff53587f74af561ea1.jpg"
       }
     ],
     "cost": { "value": 10 }
