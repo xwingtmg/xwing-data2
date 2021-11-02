@@ -181,6 +181,10 @@
     "limited": 0,
     "xws": "tractortentacles",
     "hyperspace": false,
+    "restrictions": [
+      { "sizes": ["Huge"] },
+      { "ships": ["tridentclassassaultship"] }
+    ],
     "sides": [
       {
         "ability": "Action: Spend 1 [Energy] to repair this card.",
