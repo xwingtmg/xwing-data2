@@ -405,5 +405,79 @@
       { "standardized": true },
       { "non-limited": false }
     ]
+  },
+  {
+    "name": "Mar Tuuk",
+    "limited": 1,
+    "xws": "martuuk",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: After placing forces, choose 1 friendly wing of ships with [Calculate] on their action bars and place that wing in reserve. During the End Phase, you may place that wing within your deployment area or beyond range 2 of any enemy shp. Then you may choose 1 enemy ship at range 0-1 of you; each ship in that wing acquires a lock on it.",
+        "title": "Mar Tuuk",
+        "type": "Command",
+        "slots": ["Command", "Crew"],
+        "ffg": 727,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+      }
+    ],
+    "cost": { "value": 4 },
+    "restrictions": [
+      { "factions": ["Separatist Alliance"] },
+      { "sizes": ["Huge"] }
+    ]
+  },
+  {
+    "name": "Riff Tamson",
+    "limited": 1,
+    "xws": "rifftamson",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "During the Engagement Phase, at initiative 5, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack. After you perform an attack, if the defender was dealt 1 or more faceup damage cards, it gains 2 strain tokens.",
+        "title": "Riff Tamson",
+        "type": "Command",
+        "slots": ["Command", "Crew"],
+        "ffg": 727,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+      }
+    ],
+    "cost": { "value": 6 },
+    "restrictions": [
+      { "factions": ["Separatist Alliance"] },
+      { "sizes": ["Huge"] }
+    ]
+  },
+  {
+    "name": "Asajj Ventress",
+    "limited": 1,
+    "xws": "asajjventress",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "During the System Phase, you may spend 1 [Force]. IF you do, each enemy ship in your [Front Arc] at range 0-1 gains 1 strain token unless it chooses to gain 1 jam token.",
+        "title": "Riff Tamson",
+        "type": "Command",
+        "slots": ["Command", "Crew"],
+        "ffg": 727,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+      }
+    ],
+    "grants" : [
+        {
+          "type": "action",
+          "value": {
+            "type": "Focus",
+            "difficulty": "White",
+            "linked": { "type": "Coordinate", "difficulty": "Purple" }
+          }
+        },
+        { "type": "force", "value": { "side": ["dark"] }, "amount": 1 }
+      ],
+    "cost": { "value": 6 },
+    "restrictions": [
+      { "factions": ["Separatist Alliance", "Scum and Villainy"] },
+      { "sizes": ["Huge"] }
+    ]
   }
 ]
