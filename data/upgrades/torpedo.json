@@ -111,7 +111,7 @@
       {
         "title": "Tracking Torpedoes",
         "type": "Torpedo",
-        "ability": "During the System Phase, you may spend up to 3 [Charge] to launch that many tracking torpedoes using the [3 [Bank Left]], [4 [Straight]], and [3 [Bank Right]] templates. Each device must use a seperate tempalte. Then each device may acquire a lock on an object you have locked, ignoring range restrictions. This card's [Charge] cannot be recovered.",
+        "ability": "During the System Phase, you may spend up to 3 [Charge] to launch that many tracking torpedoes using the [3 [Bank Left]], [4 [Straight]], and [3 [Bank Right]] templates. Each device must use a seperate template. Then each device may acquire a lock on an object you have locked, ignoring range restrictions. This card's [Charge] cannot be recovered.",
         "slots": ["Torpedo"],
         "charges": { "value": 3, "recovers": 0 },
         "attack": {
