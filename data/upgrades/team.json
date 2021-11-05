@@ -227,5 +227,33 @@
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "hyperspace": true
-  }
+  },
+  {
+    "name": "Droid Crew",
+    "limited": 0,
+    "xws": "droidcrew",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you perform a white [Focus] action, treat it as red instead. At the start of the End Phase, repair all of your faceup Crew damage cards.",
+        "title": "Droid Crew",
+        "type": "Team",
+        "slots": ["Team"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Calculate",
+              "difficulty": "White",
+              "linked": { "type": "Lock", "difficulty": "Red" }
+            }
+          }
+        ],
+        "ffg": 123,
+        "artwork": "???"
+      }
+    ],
+    "cost": { "value": 5 },
+    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+  },
 ]
