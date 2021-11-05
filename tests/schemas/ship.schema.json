@@ -64,6 +64,25 @@
             "properties": {
               "type": {
                 "type": "string",
+                "enum": ["agility", "hull", "shields", "energy"]
+              },
+              "value": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "recovers": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "required": ["type", "value", "recovers"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
                 "enum": ["attack"]
               },
               "arc": {
@@ -74,7 +93,9 @@
                   "Front Arc",
                   "Bullseye Arc",
                   "Single Turret Arc",
-                  "Rear Arc"
+                  "Rear Arc",
+                  "Left Arc",
+                  "Right Arc"
                 ]
               },
               "value": {
