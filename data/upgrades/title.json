@@ -553,6 +553,11 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/adbdc704e0f66a27d4ae2ecfb2323d2d.jpg"
       }
     ],
+    "grants": [
+          { "type": "stat", "value": "hull", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -2 },
+          { "type": "slot", "value": "Gunner", "amount": 1 }
+    ],
     "cost": { "value": 5 }
   },
   {
@@ -569,6 +574,11 @@
         "ffg": 773,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7043e25c4bf030ade5b026e5bc8bd43e.jpg"
       }
+    ],
+    "grants": [
+          { "type": "stat", "value": "energy", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -1 },
+          { "type": "slot", "value": "Gunner", "amount": 1 }
     ],
     "cost": { "value": 8 }
   },
@@ -603,6 +613,10 @@
         "ffg": 777,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b6b2484bd0fc2c17ff2159b1280a2e5d.jpg"
       }
+    ],
+    "grants": [
+          { "type": "slot", "value": "Illicit", "amount": 1 },
+          { "type": "slot", "value": "Crew", "amount": 1 }
     ],
     "cost": { "value": 4 }
   },
@@ -656,7 +670,10 @@
               "difficulty": "White",
               "linked": { "type": "Coordinate", "difficulty": "Red" }
             }
-          }
+          },
+          { "type": "stat", "value": "shields", "amount": -2 },
+          { "type": "slot", "value": "Team", "amount": 1 },
+          { "type": "slot", "value": "Cargo", "amount": 1 }
         ],
         "ffg": 761,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1dca6b93927cdf20f638ddc7362e0f0f.jpg"
@@ -679,6 +696,11 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/158a70d7bae002ca5bcd4c6fe94cb2d1.jpg"
       }
     ],
+    "grants": [
+          { "type": "stat", "value": "energy", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -2 },
+          { "type": "slot", "value": "Crew", "amount": 1 }
+    ],
     "cost": { "value": 4 }
   },
   {
@@ -695,6 +717,12 @@
         "ffg": 779,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0dc42b21873c86f819f3dd528cdae1ff.jpg"
       }
+    ],
+    "grants": [
+          { "type": "stat", "value": "energy", "amount": -1 },
+          { "type": "stat", "value": "hull", "amount": 3 },
+          { "type": "stat", "value": "shields", "amount": -1 },
+          { "type": "slot", "value": "Cargo", "amount": 1 }
     ],
     "cost": { "value": 7 }
   },
@@ -713,6 +741,9 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/943dfb58136280a8cf1ea781bf7b0c2f.jpg"
       }
     ],
+    "grants": [
+          { "type": "slot", "value": "Team", "amount": 1 }
+    ],
     "cost": { "value": 6 }
   },
   {
@@ -729,6 +760,10 @@
         "ffg": 762,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8276e8197e00c4f86b5f987643106334.jpg"
       }
+    ],
+    "grants": [
+          { "type": "stat", "value": "energy", "amount": -1 },
+          { "type": "stat", "value": "shields", "amount": 1 }
     ],
     "cost": { "value": 4 }
   },
@@ -765,6 +800,9 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/18bb0bda87c23b452e0c4788136beb30.jpg"
       }
     ],
+    "grants": [
+          { "type": "stat", "value": "energy", "amount": 1 }
+    ],
     "cost": { "value": 5 }
   },
   {
@@ -781,6 +819,10 @@
         "ffg": 767,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2989267c764d1eeff27159d85948b3df.jpg"
       }
+    ],
+    "grants": [
+          { "type": "stat", "value": "energy", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -1 }
     ],
     "cost": { "value": 12 }
   },
@@ -803,7 +845,10 @@
           {
             "type": "action",
             "value": { "type": "Coordinate", "difficulty": "White" }
-          }
+          },
+          { "type": "slot", "value": "Turret", "amount": 1 },
+          { "type": "slot", "value": "Team", "amount": 1 },
+          { "type": "slot", "value": "Cargo", "amount": 1 }
         ],
         "ffg": 778,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9c35d5bc7124123ec8818e53912449bd.jpg"
@@ -826,8 +871,13 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b4166822602b0cb41a42d15ca563a0d.jpg"
       }
     ],
+    "grants": [
+          { "type": "stat", "value": "energy", "amount": 1 },
+          { "type": "slot", "value": "Team", "amount": 1 },
+          { "type": "slot", "value": "Cargo", "amount": 1 }
+    ],
     "cost": { "value": 3 }
-  },
+  },  
   {
     "name": "Requiem",
     "limited": 1,
@@ -842,6 +892,10 @@
         "ffg": 774,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/81651841ae936b5090980c8fbf31fda3.jpg"
       }
+    ],
+    "grants": [
+          { "type": "stat", "value": "energy", "amount": 1 },
+          { "type": "stat", "value": "hull", "amount": -1 }
     ],
     "cost": { "value": 7 }
   },
@@ -860,6 +914,11 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/45c68a9c1b84a9ca1a6dd4ed5b618210.jpg"
       }
     ],
+    "grants": [
+          { "type": "stat", "value": "hull", "amount": -2 },
+          { "type": "stat", "value": "shields", "amount": 2 },
+          { "type": "slot", "value": "Sensor", "amount": 1 }
+    ],
     "cost": { "value": 6 }
   },
   {
@@ -876,6 +935,9 @@
         "ffg": 764,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/de2147d3f99347d5c07789917402b470.jpg"
       }
+    ],
+    "grants": [
+          { "type": "slot", "value": "Crew", "amount": 2 }
     ],
     "cost": { "value": 5 }
   },
@@ -894,6 +956,11 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4359306125f05df5481d93982c070c13.jpg"
       }
     ],
+    "grants": [
+          { "type": "stat", "value": "hull", "amount": 3 },
+          { "type": "stat", "value": "shields", "amount": -3 },
+          { "type": "slot", "value": "Gunner", "amount": 1 }
+    ],
     "cost": { "value": 4 }
   },
   {
@@ -911,6 +978,10 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg"
       }
     ],
+    "grants": [
+          { "type": "slot", "value": "Cargo", "amount": 1 },
+          { "type": "slot", "value": "Crew", "amount": 1 }
+        ],
     "cost": { "value": 7 }
   },
   {
@@ -932,7 +1003,8 @@
       { "factions": ["Scum and Villainy", "Separatist Alliance"] },
       { "ships": ["firesprayclasspatrolcraft"] }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }]
   },
   {
     "name": "B6 Blade Wing Prototype",
@@ -954,6 +1026,80 @@
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["asf01bwing"] }
+    ]
+  },
+  {
+    "name": "Nautolan's Revenge",
+    "limited": 1,
+    "xws": "nautolansrevenge",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Before you engage, you may spend up to 2 calculate tokens. If you do, recover that many [Energy].",
+        "title": "Nautolan's Revenge",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          { "type": "stat", "value": "energy", "amount": 1 },
+          { "type": "stat", "value": "hull", "amount": -2 },
+          { "type": "stat", "value": "shields", "amount": 1 }
+        ],
+        "ffg": 123,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg"
+      }
+    ],
+    "cost": { "value": 2 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] },
+      { "ships": ["tridentclassassaultship"] }
+    ]
+  },
+  {
+    "name": "Grappler",
+    "limited": 1,
+    "xws": "grappler",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you perform a Drill Beak attack at range 1, if the defender is tractored, treat it as being range 0 instead.",
+        "title": "Grappler",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          { "type": "stat", "value": "hull", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -1 }
+        ],
+        "ffg": 123,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg"
+      }
+    ],
+    "cost": { "value": 3 },
+    "restrictions": [
+      { "ships": ["tridentclassassaultship"] }
+    ]
+  },
+  {
+    "name": "Neimoidian Grasp",
+    "limited": 1,
+    "xws": "neimoidiangrasp",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you perform an attack, you may perform a red [Evade] action. While you defend, if you are evading, you may roll 1 addtional defense die.",
+        "title": "Neimoidian Grasp",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          { "type": "stat", "value": "shields", "amount": -2 }
+        ],
+        "ffg": 123,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg"
+      }
+    ],
+    "cost": { "value": 5 },
+    "restrictions": [
+      { "factions": ["Separatist Alliance"] },
+      { "ships": ["tridentclassassaultship"] }
     ]
   }
 ]
