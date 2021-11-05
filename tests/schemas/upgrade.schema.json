@@ -147,7 +147,9 @@
                 "Front Arc",
                 "Bullseye Arc",
                 "Single Turret Arc",
-                "Rear Arc"
+                "Rear Arc",
+                "Left Arc",
+                "Right Arc"
               ]
             }
           },
@@ -253,7 +255,8 @@
                 "btlbywing",
                 "tiewiwhispermodifiedinterceptor",
                 "tiesebomber",
-                "btanr2ywing"
+                "btanr2ywing",
+                "tridentclassassaultship"
               ]
             }
           },
@@ -373,7 +376,9 @@
                   "Front Arc",
                   "Bullseye Arc",
                   "Single Turret Arc",
-                  "Rear Arc"
+                  "Rear Arc",
+                  "Left Arc",
+                  "Right Arc"
                 ]
               },
               "value": {
@@ -383,12 +388,12 @@
               "minrange": {
                 "type": "integer",
                 "minimum": 1,
-                "maximum": 3
+                "maximum": 5
               },
               "maxrange": {
                 "type": "integer",
                 "minimum": 1,
-                "maximum": 3
+                "maximum": 5
               },
               "ordnance": {
                 "type": "boolean"
