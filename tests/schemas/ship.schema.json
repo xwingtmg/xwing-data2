@@ -54,6 +54,10 @@
               "value": {
                 "type": "integer",
                 "minimum": 0
+              },
+              "recovers": {
+                "type": "integer",
+                "minimum": 0
               }
             },
             "required": ["type", "value"],
