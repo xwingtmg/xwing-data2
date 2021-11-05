@@ -102,5 +102,29 @@
       }
     ],
     "cost": { "value": 7 }
+  },
+  {
+    "name": "Tracking Torpedoes",
+    "limited": 0,
+    "xws": "trackingtorpedoes",
+    "sides": [
+      {
+        "title": "Tracking Torpedoes",
+        "type": "Torpedo",
+        "ability": "During the System Phase, you may spend up to 3 [Charge] to launch that many tracking torpedoes using the [3 [Bank Left]], [4 [Straight]], and [3 [Bank Right]] templates. Each device must use a seperate tempalte. Then each device may acquire a lock on an object you have locked, ignoring range restrictions. This card's [Charge] cannot be recovered.",
+        "slots": ["Torpedo"],
+        "charges": { "value": 3, "recovers": 0 },
+        "attack": {
+          "arc": "Front Arc",
+          "value": 4,
+          "ordnance": false
+        },
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_33.jpg",
+        "ffg": 123
+      }
+    ],
+    "cost": { "value": 8 },
+    "restrictions": [{ "sizes": ["Huge"] }]
+    "hyperspace": false
   }
 ]
