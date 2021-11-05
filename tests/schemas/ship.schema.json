@@ -54,13 +54,28 @@
               "value": {
                 "type": "integer",
                 "minimum": 0
+              }
+            },
+            "required": ["type", "value"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["agility", "hull", "shields", "energy"]
+              },
+              "value": {
+                "type": "integer",
+                "minimum": 0
               },
               "recovers": {
                 "type": "integer",
                 "minimum": 0
               }
             },
-            "required": ["type", "value"],
+            "required": ["type", "value", "recovers"],
             "additionalProperties": false
           },
           {
