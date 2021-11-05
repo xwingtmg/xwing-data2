@@ -243,5 +243,34 @@
       }
     ],
     "cost": { "value": 10 }
+  },
+  {
+    "name": "Enhanced Propulsion",
+    "limited": 0,
+    "xws": "enhancedpropulsion",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. At the start of the End Phase, you may spend 2 [Energy] to execute a white [2 [Straight]], [1 [Bank Left]], or [1 [Bank Right]] maneuver.",
+        "title": "Enhanced Propulsion",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint", "Cargo"],
+        "ffg": 123,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/97c81b90378cf7ff53587f74af561ea1.jpg"
+      },
+      {
+        "ability": "Action: Spend 1 [Energy] to repair this card.",
+        "title": "Enhanced Propulsion (Offline)",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint", "Cargo"],
+        "ffg": 123,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/bbdc9a802049e98132ee424f4c2bc0ec.jpg"
+      }
+    ],
+    "cost": { "value": 6 },
+    "restrictions": [
+      { "sizes": ["Huge"] },
+      { "ships": ["tridentclassassaultship"] }
+    ],
   }
 ]
