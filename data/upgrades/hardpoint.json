@@ -272,5 +272,41 @@
       { "sizes": ["Huge"] },
       { "ships": ["tridentclassassaultship"] }
     ],
+  },
+  {
+    "name": "Drill Beak",
+    "limited": 0,
+    "xws": "drillbeak",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. You can perform this attack at range 0. Bonus Attack: Spend 1 [Energy]. If the attack range is 0, change all [Hit] results to [Critical Hit] results.",
+        "title": "Drill Beak",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint", "Cargo"],
+        "attack": {
+          "arc": "Rear Arc",
+          "value": 3,
+          "minrange": 0,
+          "maxrange": 1,
+          "ordnance": true
+        },
+        "ffg": 123,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/97c81b90378cf7ff53587f74af561ea1.jpg"
+      },
+      {
+        "ability": "Action: Spend 1 [Energy] to repair this card.",
+        "title": "Drill Beak (Offline)",
+        "type": "Hardpoint",
+        "slots": ["Hardpoint", "Cargo"],
+        "ffg": 123,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/bbdc9a802049e98132ee424f4c2bc0ec.jpg"
+      }
+    ],
+    "cost": { "value": 4 },
+    "restrictions": [
+      { "sizes": ["Huge"] },
+      { "ships": ["tridentclassassaultship"] }
+    ],
   }
 ]
