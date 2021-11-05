@@ -456,7 +456,7 @@
     "sides": [
       {
         "ability": "During the System Phase, you may spend 1 [Force]. IF you do, each enemy ship in your [Front Arc] at range 0-1 gains 1 strain token unless it chooses to gain 1 jam token.",
-        "title": "Riff Tamson",
+        "title": "Asajj Ventress",
         "type": "Command",
         "slots": ["Command", "Crew"],
         "ffg": 727,
@@ -478,6 +478,76 @@
     "restrictions": [
       { "factions": ["Separatist Alliance", "Scum and Villainy"] },
       { "sizes": ["Huge"] }
+    ]
+  },
+  {
+    "name": "Zealous Captain",
+    "limited": 1,
+    "xws": "zealouscaptain",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "During the Engagement Phase, at initiative 4, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack.",
+        "title": "Zealous Captain",
+        "type": "Command",
+        "slots": ["Command", "Crew"],
+        "ffg": 727,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+      }
+    ],
+    "cost": { "value": 4 },
+    "restrictions": [{ "sizes": ["Huge"] }]
+  },
+  {
+    "name": "Hondo Ohnaka",
+    "limited": 1,
+    "xws": "hondoohnaka",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "During the System Phase, you may spend 1 [Charge] and choose 1 friendly ship at range 0-1. Move 1 Victory Token or Objective Token from its ship card to your ship card, or from your ship card to its ship card.",
+        "charges": { "value": 2, "recovers": 0 },
+        "title": "Hondo Ohnaka",
+        "type": "Command",
+        "slots": ["Command", "Crew"],
+        "ffg": 123,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+      }
+    ],
+    "grants" : [
+        {
+          "type": "action",
+          "value": {
+            "type": "Coordinate",
+            "difficulty": "White",
+            "linked": { "type": "Jam", "difficulty": "Red" }
+          }
+        },
+      ],
+    "cost": { "value": 7 },
+    "restrictions": [
+      { "sizes": ["Huge"] }
+    ]
+  },
+  {
+    "name": "General Grievous",
+    "limited": 1,
+    "xws": "generalgrievous",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "During the Engagement Phase, at initiative 4, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack. You can perform attacks against friendly ships. After you perform an attack, if the defender was destroyed, each friendly ship at range 0-2 of it may perform a [Calculate] action.",
+        "title": "General Grievous",
+        "type": "Command",
+        "slots": ["Command", "Crew"],
+        "ffg": 123,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+      }
+    ],
+    "cost": { "value": 5 },
+    "restrictions": [
+      { "sizes": ["Huge"] },
+      { "factions": ["Separatist Alliance"] }
     ]
   }
 ]
