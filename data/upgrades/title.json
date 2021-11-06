@@ -549,14 +549,14 @@
         "title": "Assailer",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+              { "type": "stat", "value": "hull", "amount": 2 },
+              { "type": "stat", "value": "shields", "amount": -2 },
+              { "type": "slot", "value": "Gunner", "amount": 1 }
+        ],
         "ffg": 769,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/adbdc704e0f66a27d4ae2ecfb2323d2d.jpg"
       }
-    ],
-    "grants": [
-          { "type": "stat", "value": "hull", "amount": 2 },
-          { "type": "stat", "value": "shields", "amount": -2 },
-          { "type": "slot", "value": "Gunner", "amount": 1 }
     ],
     "cost": { "value": 5 }
   },
@@ -571,14 +571,14 @@
         "title": "Blood Crow",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+              { "type": "stat", "value": "energy", "amount": 2 },
+              { "type": "stat", "value": "shields", "amount": -1 },
+              { "type": "slot", "value": "Gunner", "amount": 1 }
+        ],
         "ffg": 773,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7043e25c4bf030ade5b026e5bc8bd43e.jpg"
       }
-    ],
-    "grants": [
-          { "type": "stat", "value": "energy", "amount": 2 },
-          { "type": "stat", "value": "shields", "amount": -1 },
-          { "type": "slot", "value": "Gunner", "amount": 1 }
     ],
     "cost": { "value": 8 }
   },
@@ -610,13 +610,13 @@
         "title": "Broken Horn",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+              { "type": "slot", "value": "Illicit", "amount": 1 },
+              { "type": "slot", "value": "Crew", "amount": 1 }
+        ],
         "ffg": 777,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b6b2484bd0fc2c17ff2159b1280a2e5d.jpg"
       }
-    ],
-    "grants": [
-          { "type": "slot", "value": "Illicit", "amount": 1 },
-          { "type": "slot", "value": "Crew", "amount": 1 }
     ],
     "cost": { "value": 4 }
   },
@@ -692,14 +692,14 @@
         "title": "Impetuous",
         "type": "Title",
         "slots": ["Title"],
-        "ffg": 771,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/158a70d7bae002ca5bcd4c6fe94cb2d1.jpg"
-      }
-    ],
-    "grants": [
+        "grants": [
           { "type": "stat", "value": "energy", "amount": 2 },
           { "type": "stat", "value": "shields", "amount": -2 },
           { "type": "slot", "value": "Crew", "amount": 1 }
+        ],
+        "ffg": 771,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/158a70d7bae002ca5bcd4c6fe94cb2d1.jpg"
+      }
     ],
     "cost": { "value": 4 }
   },
@@ -714,15 +714,15 @@
         "title": "Insatiable Worrt",
         "type": "Title",
         "slots": ["Title"],
-        "ffg": 779,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0dc42b21873c86f819f3dd528cdae1ff.jpg"
-      }
-    ],
-    "grants": [
+        "grants": [
           { "type": "stat", "value": "energy", "amount": -1 },
           { "type": "stat", "value": "hull", "amount": 3 },
           { "type": "stat", "value": "shields", "amount": -1 },
           { "type": "slot", "value": "Cargo", "amount": 1 }
+       ],
+        "ffg": 779,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0dc42b21873c86f819f3dd528cdae1ff.jpg"
+      }
     ],
     "cost": { "value": 7 }
   },
@@ -737,12 +737,12 @@
         "title": "Instigator",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+              { "type": "slot", "value": "Team", "amount": 1 }
+        ],
         "ffg": 772,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/943dfb58136280a8cf1ea781bf7b0c2f.jpg"
       }
-    ],
-    "grants": [
-          { "type": "slot", "value": "Team", "amount": 1 }
     ],
     "cost": { "value": 6 }
   },
@@ -757,13 +757,13 @@
         "title": "Jaina's Light",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "stat", "value": "energy", "amount": -1 },
+          { "type": "stat", "value": "shields", "amount": 1 }
+        ],
         "ffg": 762,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8276e8197e00c4f86b5f987643106334.jpg"
       }
-    ],
-    "grants": [
-          { "type": "stat", "value": "energy", "amount": -1 },
-          { "type": "stat", "value": "shields", "amount": 1 }
     ],
     "cost": { "value": 4 }
   },
@@ -796,12 +796,12 @@
         "title": "Liberator",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "stat", "value": "energy", "amount": 1 }
+        ],
         "ffg": 763,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/18bb0bda87c23b452e0c4788136beb30.jpg"
       }
-    ],
-    "grants": [
-          { "type": "stat", "value": "energy", "amount": 1 }
     ],
     "cost": { "value": 5 }
   },
@@ -816,13 +816,13 @@
         "title": "Luminous",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "stat", "value": "energy", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -1 }
+        ],
         "ffg": 767,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2989267c764d1eeff27159d85948b3df.jpg"
       }
-    ],
-    "grants": [
-          { "type": "stat", "value": "energy", "amount": 2 },
-          { "type": "stat", "value": "shields", "amount": -1 }
     ],
     "cost": { "value": 12 }
   },
@@ -867,14 +867,14 @@
         "title": "Quantum Storm",
         "type": "Title",
         "slots": ["Title"],
-        "ffg": 768,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b4166822602b0cb41a42d15ca563a0d.jpg"
-      }
-    ],
-    "grants": [
+        "grants": [
           { "type": "stat", "value": "energy", "amount": 1 },
           { "type": "slot", "value": "Team", "amount": 1 },
           { "type": "slot", "value": "Cargo", "amount": 1 }
+        ],
+        "ffg": 768,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b4166822602b0cb41a42d15ca563a0d.jpg"
+      }
     ],
     "cost": { "value": 3 }
   },  
@@ -889,13 +889,13 @@
         "title": "Requiem",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "stat", "value": "energy", "amount": 1 },
+          { "type": "stat", "value": "hull", "amount": -1 }
+        ],
         "ffg": 774,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/81651841ae936b5090980c8fbf31fda3.jpg"
       }
-    ],
-    "grants": [
-          { "type": "stat", "value": "energy", "amount": 1 },
-          { "type": "stat", "value": "hull", "amount": -1 }
     ],
     "cost": { "value": 7 }
   },
@@ -910,14 +910,14 @@
         "title": "Suppressor",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+              { "type": "stat", "value": "hull", "amount": -2 },
+              { "type": "stat", "value": "shields", "amount": 2 },
+              { "type": "slot", "value": "Sensor", "amount": 1 }
+        ],
         "ffg": 775,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/45c68a9c1b84a9ca1a6dd4ed5b618210.jpg"
       }
-    ],
-    "grants": [
-          { "type": "stat", "value": "hull", "amount": -2 },
-          { "type": "stat", "value": "shields", "amount": 2 },
-          { "type": "slot", "value": "Sensor", "amount": 1 }
     ],
     "cost": { "value": 6 }
   },
@@ -932,12 +932,12 @@
         "title": "Tantive IV",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "Crew", "amount": 2 }
+        ],
         "ffg": 764,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/de2147d3f99347d5c07789917402b470.jpg"
       }
-    ],
-    "grants": [
-          { "type": "slot", "value": "Crew", "amount": 2 }
     ],
     "cost": { "value": 5 }
   },
@@ -952,14 +952,14 @@
         "title": "Thunderstrike",
         "type": "Title",
         "slots": ["Title"],
-        "ffg": 765,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4359306125f05df5481d93982c070c13.jpg"
-      }
-    ],
-    "grants": [
+        "grants": [
           { "type": "stat", "value": "hull", "amount": 3 },
           { "type": "stat", "value": "shields", "amount": -3 },
           { "type": "slot", "value": "Gunner", "amount": 1 }
+        ],
+        "ffg": 765,
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4359306125f05df5481d93982c070c13.jpg"
+      }
     ],
     "cost": { "value": 4 }
   },
@@ -974,14 +974,14 @@
         "title": "Vector",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "Cargo", "amount": 1 },
+          { "type": "slot", "value": "Crew", "amount": 1 }
+        ],
         "ffg": 776,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg"
       }
     ],
-    "grants": [
-          { "type": "slot", "value": "Cargo", "amount": 1 },
-          { "type": "slot", "value": "Crew", "amount": 1 }
-        ],
     "cost": { "value": 7 }
   },
   {
@@ -995,6 +995,7 @@
         "title": "Slave I",
         "type": "Title",
         "slots": ["Title"],
+        "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }],
         "ffg": 869,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d16195cbd5b4a9e1cfaf94b35dd188e7.jpg"
       }
@@ -1003,8 +1004,7 @@
       { "factions": ["Scum and Villainy", "Separatist Alliance"] },
       { "ships": ["firesprayclasspatrolcraft"] }
     ],
-    "cost": { "value": 3 },
-    "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }]
+    "cost": { "value": 3 }
   },
   {
     "name": "B6 Blade Wing Prototype",
