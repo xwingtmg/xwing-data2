@@ -459,21 +459,21 @@
         "title": "Asajj Ventress",
         "type": "Command",
         "slots": ["Command", "Crew"],
+        "grants" : [
+          {
+            "type": "action",
+            "value": {
+              "type": "Focus",
+              "difficulty": "White",
+              "linked": { "type": "Coordinate", "difficulty": "Purple" }
+            }
+          },
+          { "type": "force", "value": { "side": ["dark"] }, "amount": 1 }
+        ],
         "ffg": 727,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
       }
     ],
-    "grants" : [
-        {
-          "type": "action",
-          "value": {
-            "type": "Focus",
-            "difficulty": "White",
-            "linked": { "type": "Coordinate", "difficulty": "Purple" }
-          }
-        },
-        { "type": "force", "value": { "side": ["dark"] }, "amount": 1 }
-      ],
     "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Separatist Alliance", "Scum and Villainy"] },
@@ -510,20 +510,20 @@
         "title": "Hondo Ohnaka",
         "type": "Command",
         "slots": ["Command", "Crew"],
+        "grants" : [
+          {
+            "type": "action",
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "White",
+              "linked": { "type": "Jam", "difficulty": "Red" }
+            }
+          }
+        ],
         "ffg": 123,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
       }
     ],
-    "grants" : [
-        {
-          "type": "action",
-          "value": {
-            "type": "Coordinate",
-            "difficulty": "White",
-            "linked": { "type": "Jam", "difficulty": "Red" }
-          }
-        }
-      ],
     "cost": { "value": 7 },
     "restrictions": [
       { "sizes": ["Huge"] }
