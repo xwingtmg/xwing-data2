@@ -161,6 +161,7 @@
       "cost": 43,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
+      "charges": { "value": 1, "recovers": -1 },
       "keywords": ["TIE"],
       "ffg": 890,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/528647fa86b7a42c3e48992185e422b5.jpg"
