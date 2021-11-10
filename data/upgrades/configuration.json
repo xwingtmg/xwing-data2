@@ -512,15 +512,15 @@
     "sides": [
       {
         "ability": "Replace your Autothrusters ship ability with the following:",
+        "shipAbility": {
+              "name": "Sensitive Controls",
+              "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+        },
         "title": "Sensitive Controls",
         "type": "Configuration",
         "slots": ["Configuration"],
         "ffg": 924,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d6fbd4fb3e406c87af923912d0ff866c.jpg",
-        "shipAbility": {
-          "name": "Sensitive Controls",
-          "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
-        }
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d6fbd4fb3e406c87af923912d0ff866c.jpg"
       }
     ],
     "restrictions": [
@@ -536,7 +536,11 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "Decrease the difficulty of your turn [[Turn Left] or [Turn Right]] maneuvers. Increase the difficulty of your Koiogran Turn [[Koiogran Turn]] maneuvers. Replace your Full Throttle ship ability with the following: Advanced Fire Control: After you perform a [Cannon] or [Missile] attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender.",
+        "ability": "Decrease the difficulty of your turn [[Turn Left] or [Turn Right]] maneuvers. Increase the difficulty of your Koiogran Turn [[Koiogran Turn]] maneuvers. Replace your Full Throttle ship ability with the following:",
+        "shipAbility": {
+          "name": "Advanced Fire Control",
+          "text": "After you perform a [Cannon] or [Missile] attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender."
+        },
         "title": "TIE Defender Elite",
         "type": "Configuration",
         "slots": ["Configuration"],
@@ -558,7 +562,11 @@
     "hyperspace": true,
     "sides": [
       {
-        "ability": "Gain a [Single Turret Arc] indicator. Treat the arc requirement of your [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters ship ability with the following: Vectored Cannons: During the System Phase, you may perform a red [Boost] or red [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc].",
+        "ability": "Gain a [Single Turret Arc] indicator. Treat the arc requirement of your [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters ship ability with the following:",
+        "shipAbility": {
+          "name": "Vectored Cannons",
+          "text": "During the System Phase, you may perform a red [Boost] or red [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]."
+        },
         "title": "Vectored Cannons (RZ-1)",
         "type": "Configuration",
         "slots": ["Configuration"],
@@ -589,7 +597,11 @@
         "title": "Wartime Loadout",
         "type": "Configuration",
         "slots": ["Configuration", "Modification"],
-        "ability": "Gain 1 [Torpedo] slot and 1 [Missile] slot. Replace your ship ability with the following: Devastating Barrage: While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannont be canceled by [Evade] results.",
+        "ability": "Gain 1 [Torpedo] slot and 1 [Missile] slot. Replace your ship ability with the following:",
+        "shipAbility": {
+          "name": "Devastating Barrage",
+          "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannont be canceled by [Evade] results."
+        },
         "grants": [
           {
             "type": "action",

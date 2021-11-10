@@ -534,5 +534,34 @@
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["First Order"] }],
     "hyperspace": true
+  },
+  {
+    "name": "First Order Ordnance Tech",
+    "limited": 0,
+    "xws": "firstorderordnancetech",
+    "sides": [
+      {
+        "title": "First Order Ordnance Tech",
+        "type": "Gunner",
+        "text": "The First Order trains its pilots and gunners to be fanatically loyal, prioritizing victory even over survival.",
+        "slots": ["Gunner"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Reload",
+              "difficulty": "White",
+              "linked": { "type": "Lock", "difficulty": "White" }
+            }
+          }
+        ],
+        "image": "???",
+        "artwork": "???",
+        "ffg": 937
+      }
+    ],
+    "cost": { "value": 3 },
+    "restrictions": [{ "factions": ["First Order"] }],
+    "hyperspace": true
   }
 ]
