@@ -147,6 +147,7 @@
       "cost": 77,
       "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
       "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
+      "charges": { "value": 1, "recovers": -1 },
       "keywords": ["TIE"],
       "ffg": 887,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b515e5eda1c2df774f598afc4091af09.jpg"
