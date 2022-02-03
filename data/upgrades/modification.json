@@ -427,5 +427,37 @@
       }
     ],
     "cost": { "value": 2 }
+  },
+  {
+    "name": "Mandalorian Optics",
+    "limited": 0,
+    "xws": "mandalorianoptics",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "During the System Phase, you may spend 1 [Charge] to acquire a lock on an object in your [Front Arc]. While you perform a primary attack, if you have a lock on the defender, ignore obstacles beyond range 0 obstructing the attack.",
+        "title": "Mandalorian Optics",
+        "type": "Modification",
+        "slots": ["Modification"],
+        "charges": { "value": 2, "recovers": 0 },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/mandalorianoptics.png"
+      }
+    ]
+  },
+  {
+    "name": "Beskar Reinforced Plating",
+    "limited": 0,
+    "xws": "beskarreinforcedplating",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "While you defend, if the attacker is in your [Front Arc], before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt that card facedown instead, or spend 2 [Charge] to discard it instead.",
+        "title": "Beskar Reinforced Plating",
+        "type": "Modification",
+        "slots": ["Modification"],
+        "charges": { "value": 2, "recovers": 0 },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/beskarreinforcedplating.png"
+      }
+    ]
   }
 ]
