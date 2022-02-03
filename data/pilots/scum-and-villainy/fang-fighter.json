@@ -156,6 +156,23 @@
       "ffg": 160,
       "hyperspace": false,
       "keywords": ["Mandalorian"]
+    },
+    {
+      "name": "Mandalorian Royal Guard",
+      "initiative": 4,
+      "limited": 2,
+      "xws": "mandalorianroyalguard",
+      "ability": "While a friendly non-small ship defends, if you are in the attack arc, you may gain 1 deplete and 1 strain token. If you do, the defender may change 1 result to an [Evade] result.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/mandalorianroyalguard.png",
+      "shipAbility": {
+        "name": "Concordia Faceoff",
+        "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
+      },
+      "slots": ["Talent", "Torpedo", "Modification"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mandalorianroyalguard.png",
+      "ffg": 159,
+      "hyperspace": false,
+      "keywords": ["Mandalorian"]
     }
   ]
 }
