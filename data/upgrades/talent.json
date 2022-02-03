@@ -769,5 +769,26 @@
     "cost": { "value": 1 },
     "restrictions": [{ "action": { "type": "Reload" } }, { "names": ["TIE"] }],
     "hyperspace": true
+  },
+  {
+    "name": "Clan Training",
+    "limited": 0,
+    "xws": "clantraining",
+    "sides": [
+      {
+        "title": "Clan Training",
+        "type": "Talent",
+        "ability": "Before you engage, if you are not focused and there is an enemy ship in your [frontarc] at range 1, you may spend 1 [charge] to perform a red [focus] action. After you perform an attack, if the defender is destroyed, recover 1 [charge].",
+        "slots": ["Talent"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/clantraining.png",
+        "artwork": "???"
+      }
+    ],
+    "cost": {
+      "value": "?"
+    },
+    "restrictions": [{
+        "names": ["Mandalorian"]
+      }]
   }
 ]
