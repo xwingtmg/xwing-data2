@@ -1054,5 +1054,57 @@
       { "factions": ["Separatist Alliance"] },
       { "ships": ["tridentclassassaultship"] }
     ]
+  },
+  {
+    "name": "Trident",
+    "limited": 1,
+    "xws": "trident",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you overlap a ship or a ship overlaps you, if it is not tractored, you may spend 1 [Energy]. If you do, it gains 3 tractor tokens.",
+        "title": "Trident",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          { "type": "stat", "value": "energy", "amount": 1 }
+        ],
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg"
+      }
+    ],
+    "cost": { "value": 4 },
+    "restrictions": [
+      { "factions": ["Separatist Alliance"] },
+      { "ships": ["tridentclassassaultship"] }
+    ]
+  },
+  {
+    "name": "Razor Crest",
+    "limited": 1,
+    "xws": "razorcrest",
+    "sides": [
+      {
+        "ability": "Setup: Place 1 non-limited [Illicit] upgrade facedown under this card. During the System Phase, you may reveal that [Illicit] upgrade and equip it as if it were equipped at Setup (without paying its points cost).",
+        "title": "Razor Crest",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Evade",
+              "difficulty": "White",
+              "linked": { "type": "Barrel Roll", "difficulty": "Red" }
+            }
+          }
+        ],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/razorcrest.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/razorcrest.png"
+      }
+    ],
+    "cost": "?",
+    "restrictions": [
+      { "ships": ["st70assaultship"] }
+    ]
   }
 ]
