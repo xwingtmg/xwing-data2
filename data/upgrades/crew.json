@@ -1938,5 +1938,160 @@
     "restrictions": [
       { "factions": ["Scum and Villainy", "Galactic Empire", "First Order"] }
     ]
+  },
+  {
+    "name": "The Mandalorian",
+    "limited": 1,
+    "xws": "themandalorian",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "During the End Phase, if you did not defend this round, recover 1 non-recurring [Force Charge], if able.",
+        "title": "The Mandalorian",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Reinforce", "difficulty": "White" }
+          }
+        ],
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/themandalorian.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      }
+    ],
+    "cost": { "value": "?" },
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] }
+    ]
+  },
+  {
+    "name": "The Child",
+    "limited": 1,
+    "xws": "thechild",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: After placing forces, choose an opponent; they assign the Merciless Pursuit condition to 2 of their ships. Your [Force Charge] lose the recurring icon. After you defend, if you suffer damage during that attack, recover 1 [Force Charge].",
+        "title": "The Child",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "force": { "value": 2, "recovers": 0 },
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/thechild.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      }
+    ],
+    "cost": { "value": "?" },
+    "restrictions": [
+      { "factions": ["Galactic Empire","Rebel Alliance","Scum and Villainy"] }
+    ]
+  },
+  {
+    "name": "IG-11",
+    "limited": 1,
+    "xws": "ig11",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. Before you would be dealt a faceup damage card, you must place 1 fuse marker on this card and gain 1 calculate token instead. Then, if there are 2 fuse markers on this card, flip it.",
+        "title": "IG-11",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "White" }
+          }
+        ],
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/ig11.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      },
+      {
+        "ability": "During the End Phase, remove 1 fuse marker from this card. Then, if this card has no fuse markers on it, you are destroyed and each other ship at range 0-1 suffers 1 [Crit] damage. Action: Place 1 fuse marker on this card.",
+        "title": "IG-11 (Anti-Capture Protocol)",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/ig11-sideb.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      }
+    ],
+    "cost": { "value": "?" },
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] }
+    ]
+  },
+  {
+    "name": "Greef Karga",
+    "limited": 1,
+    "xws": "greefkarga",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "You can coordinate allied ships as if they were friendly ships. After you coordinate a ship, it may acquire a lock on an object you have locked.",
+        "title": "Greef Karga",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Coordinate", "difficulty": "Red" }
+          }
+        ],
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/greefkarga.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      }
+    ],
+    "cost": { "value": "?" },
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] }
+    ]
+  },
+  {
+    "name": "Kuiil",
+    "limited": 1,
+    "xws": "kuiil",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Action: Roll 1 attack die for each damage card you have. For each [Hit] result, repair 1 faceup Ship damage card, then for each [Crit] result, repair 1 facedown damage card. For each blank result, remove 1 orange token, then for each [Focus] result, gain 1 focus token.",
+        "title": "Kuiil",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/kuiil.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      }
+    ],
+    "cost": { "value": "?" },
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] }
+    ]
+  },
+  {
+    "name": "Peli Motto",
+    "limited": 1,
+    "xws": "pelimotto",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "During the System Phase, you may perform an action on 1 of your damage cards, even while stressed. After you repair a faceup Ship damage card, you may roll 1 attack die. On a [Hit] result, repair another faceup Ship damage card. On a [Crit] result, expose 1 damage card.",
+        "title": "Peli Motto",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/pelimotto.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      }
+    ],
+    "cost": { "value": "?" },
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] },
+      { "sizes": ["Medium","Large"]}
+    ]
   }
 ]
