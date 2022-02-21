@@ -769,5 +769,66 @@
     "cost": { "value": 1 },
     "restrictions": [{ "action": { "type": "Reload" } }, { "names": ["TIE"] }],
     "hyperspace": true
+  },
+  {
+    "name": "Clan Training",
+    "limited": 0,
+    "xws": "clantraining",
+    "sides": [
+      {
+        "title": "Clan Training",
+        "type": "Talent",
+        "ability": "Before you engage, if you are not focused and there is an enemy ship in your [Front Arc] at range 1, you may spend 1 [Charge] to perform a red [Focus] action. After you perform an attack, if the defender is destroyed, recover 1 [Charge].",
+        "slots": ["Talent"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/clantraining.png",
+        "artwork": "???"
+      }
+    ],
+    "cost": {
+      "value": "?"
+    },
+    "restrictions": [{
+        "names": ["Mandalorian"]
+      }]
+  },
+  {
+    "name": "Notorious",
+    "limited": 1,
+    "xws": "notorious",
+    "sides": [
+      {
+        "title": "Notorious",
+        "type": "Talent",
+        "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Charge]. If you do, the attacker gains 1 strain token. While you perform an attack, if the defender is strained, you may reroll 1 blank result.",
+        "charges": {"value": 2, "recovers": 1},
+        "slots": ["Talent"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/notorious.png",
+        "artwork": "???"
+      }
+    ],
+    "cost": {
+      "value": "?"
+    },
+    "restrictions": [{
+        "equipped": ["Illicit"]
+      }]
+  },
+  {
+    "name": "Enduring",
+    "limited": 0,
+    "xws": "enduring",
+    "sides": [
+      {
+        "title": "Enduring",
+        "type": "Talent",
+        "ability": "While you defend, if you are not in the attacker's [Bullseye Arc], [Crit] results are neutralized before [Hit] results. After you suffer [Crit] damage, you may perform a [Calculate] or [Focus] action on your action bar, even while stressed, treating that action as red.",
+        "slots": ["Talent"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/enduring.png",
+        "artwork": "???"
+      }
+    ],
+    "cost": {
+      "value": "?"
+    }
   }
 ]
