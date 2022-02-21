@@ -563,5 +563,24 @@
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["First Order"] }],
     "hyperspace": true
+  },
+  {
+    "name": "Migs Mayfeld",
+    "limited": 1,
+    "xws": "migsmayfeld",
+    "sides": [
+      {
+        "title": "Migs Mayfeld",
+        "type": "Gunner",
+        "ability": "After you perform a [Front Arc] attack, you may perform a [Rear Arc] or [Single Turret Arc] attack as a bonus attack against a different target with 1 or more red or orange tokens.",
+        "slots": ["Gunner"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/migsmayfeld.png",
+        "artwork": "???",
+        "ffg": 937
+      }
+    ],
+    "cost": { "value": "?" },
+    "restrictions": [{ "factions": ["Galactic Empire","Scum and Villainy"] }],
+    "hyperspace": true
   }
 ]
