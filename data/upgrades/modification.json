@@ -442,7 +442,8 @@
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://infinitearenas.com/xw2/images/upgrades/mandalorianoptics.png"
       }
-    ]
+    ],
+    "cost": { "value": "?" }
   },
   {
     "name": "Beskar Reinforced Plating",
@@ -458,6 +459,34 @@
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://infinitearenas.com/xw2/images/upgrades/beskarreinforcedplating.png"
       }
-    ]
+    ],
+    "cost": { "value": "?" }
+  },
+  {
+    "name": "Burnout Thrusters",
+    "limited": 0,
+    "xws": "burnoutthrusters",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1 deplete token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [SLAM] action.",
+        "title": "Burnout Thrusters",
+        "type": "Modification",
+        "slots": ["Modification"],
+        "charges": { "value": 1, "recovers": 0 },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/burnoutthrusters.png",
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "SLAM", "difficulty": "White" }
+          }
+        ]
+      }
+    ],
+    "restrictions": [
+      { "faction": ["Scum and Villainy"] },
+      { "sizes": ["Small","Medium"] }
+    ],
+    "cost": { "value": "?" }
   }
 ]
