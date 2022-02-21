@@ -248,5 +248,51 @@
       }
     ],
     "cost": { "value": 3 }
+  },
+  {
+    "name": "Tracking Fob",
+    "limited": 3,
+    "xws": "trackingfob",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "Setup: After placing forces, choose an opponent: they assign the Marked for Elimination condition to 1 of their ships. They must assign it to a limited ship, if able. You ignore range restrictions while acquiring locks on the ship with the Marked for Elimination condition.",
+        "title": "Tracking Fob",
+        "type": "Illicit",
+        "slots": ["Illicit"],
+        "ffg": 931,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/trackingfob.png",
+        "artwork": "???"
+      }
+    ],
+    "restrictions": [{ "keyword": ["Bounty Hunter"] }],
+    "cost": { "value": "?" }
+  },
+  {
+    "name": "Hotshot Tail Blaster",
+    "limited": 0,
+    "xws": "hotshottailblaster",
+    "hyperspace": false,
+    "sides": [
+      {
+        "ability": "This attack can be performed at range 0. Attack: Spend 1 [Charge].",
+        "title": "Hotshot Tail Blaster",
+        "type": "Illicit",
+        "slots": ["Illicit"],
+        "charges": { "value": 2, "recovers": 0 },
+        "attack": {
+          "arc": "Rear Arc",
+          "value": 2,
+          "minrange": 0,
+          "maxrange": 1,
+          "ordnance": true
+        },
+        "ffg": 931,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/hotshottailblaster.png",
+        "artwork": "???"
+      }
+    ],
+    "restrictions": [{ "sizes": ["Medium","Large"] }],
+    "cost": { "value": "?" }
   }
 ]
