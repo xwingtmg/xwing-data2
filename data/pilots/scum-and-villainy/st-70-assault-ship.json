@@ -1,0 +1,96 @@
+{
+  "name": "ST-70 Assault Ship",
+  "xws": "st70assaultship",
+  "ffg": 41,
+  "size": "Medium",
+  "dial": [
+    "0OR",
+    "1TR",
+    "1BW",
+    "1FB",
+    "1NW",
+    "1YR",
+    "2ER",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "2RR",
+    "3TR",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YR",
+    "4FB",
+    "5KR"
+  ],
+  "dialCodes": ["ST70"],
+  "faction": "Scum and Villainy",
+  "stats": [
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 7 },
+    { "type": "shields", "value": 2 }
+  ],
+  "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Barrel Roll" }
+  ],
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEInterceptor.png",
+  "pilots": [
+    {
+      "name": "The Mandalorian",
+      "caption": "Din Djarin",
+      "initiative": 5,
+      "limited": 1,
+      "cost": "?",
+      "xws": "themandalorian",
+      "ability": "While you defend or perform an attack, if you are in the [Front Arc] at range 1-2 of 2 or more enemy ships, you may change 1 of your blank results to a [Focus] result.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/themandalorian.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/themandalorian.png",
+      "ffg": 106,
+      "hyperspace": false
+    },
+    {
+      "name": "Q9-0",
+      "caption": "Zero",
+      "initiative": 5,
+      "limited": 1,
+      "cost": "?",
+      "xws": "q90",
+      "ability": "After you fully execute an advanced maneuver, you may perform a [calculate] or [barrelroll] action, even while stressed. If you do, gain 1 strain token.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/q90.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/q90.png",
+      "ffg": 106,
+      "hyperspace": false
+    },
+    {
+      "name": "Guild Bounty Hunter",
+      "caption": "Blaster for Hire",
+      "initiative": 3,
+      "limited": 2,
+      "cost": "?",
+      "xws": "guildbountyhunter",
+      "ability": "While you perform an attack at attack range 1-2, you may spend 1 non-recurring [charge] from 1 of your equipped [illicit] upgrades to change 1 [focus] result to a [crit] result.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/guildbountyhunter.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/guildbountyhunter.png",
+      "ffg": 106,
+      "hyperspace": false
+    },
+    {
+      "name": "Outer Rim Enforcer",
+      "initiative": 2,
+      "limited": 0,
+      "cost": "?",
+      "xws": "outerrimenforcer",
+      "text": "While you perform an attack at attack range 1-2, you may spend 1 non-recurring [charge] from 1 of your equipped [illicit] upgrades to change 1 [focus] result to a [crit] result.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/outerrimenforcer.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimenforcer.png",
+      "ffg": 106,
+      "hyperspace": false
+    }
+  ]
+}
