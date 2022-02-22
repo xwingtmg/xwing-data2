@@ -9,6 +9,14 @@
           "additionalProperties": false,
           "description": "Points cost",
           "properties": {
+            "value": { "type": "string" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Points cost",
+          "properties": {
             "value": { "type": "integer", "minimum": 0 }
           }
         },
