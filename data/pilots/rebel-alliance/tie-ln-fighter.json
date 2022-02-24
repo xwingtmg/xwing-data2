@@ -36,11 +36,11 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEFighter.png",
   "pilots": [
     {
-      "name": "\"Zeb\" Orrelios",
+      "name": "“Zeb” Orrelios",
       "caption": "Spectre-4",
       "initiative": 2,
       "limited": 1,
-      "cost": 22,
+      "cost": 3,
       "xws": "zeborrelios-tielnfighter",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_49.png",
@@ -48,14 +48,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_49.jpg",
       "ffg": 49,
       "hyperspace": false,
-      "keywords": ["Spectre", "TIE"]
+      "keywords": ["TIE", "Spectre"],
+      "loadout": 6,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Captain Rex",
       "caption": "Clone Wars Veteran",
       "initiative": 2,
       "limited": 1,
-      "cost": 26,
+      "cost": 3,
       "xws": "captainrex",
       "ability": "After you perform an attack, assign the Suppressive Fire condition to the defender.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_48.png",
@@ -64,14 +68,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg",
       "ffg": 48,
       "hyperspace": false,
-      "keywords": ["Clone", "TIE"]
+      "keywords": ["Clone", "TIE"],
+      "loadout": 8,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Ezra Bridger",
       "caption": "Spectre-6",
       "initiative": 3,
       "limited": 1,
-      "cost": 26,
+      "cost": 3,
       "xws": "ezrabridger-tielnfighter",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_46.png",
@@ -80,14 +88,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg",
       "ffg": 46,
       "hyperspace": false,
-      "keywords": ["Light Side", "Spectre", "TIE"]
+      "keywords": ["Light Side", "Spectre", "TIE"],
+      "loadout": 8,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Sabine Wren",
       "caption": "Spectre-5",
       "initiative": 3,
       "limited": 1,
-      "cost": 26,
+      "cost": 3,
       "xws": "sabinewren-tielnfighter",
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_47.png",
@@ -95,7 +107,11 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg",
       "ffg": 47,
       "hyperspace": false,
-      "keywords": ["Spectre", "TIE"]
+      "keywords": ["Mandalorian", "TIE", "Spectre"],
+      "loadout": 7,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

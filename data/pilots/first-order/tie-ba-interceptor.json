@@ -46,7 +46,7 @@
       "caption": "Red Baron",
       "initiative": 6,
       "limited": 1,
-      "cost": 54,
+      "cost": 6,
       "xws": "majorvonreg",
       "ability": "During the System Phase, you may choose 1 enemy ship in your [Bullseye Arc]. That ship gains 1 deplete or strain token of your choice.",
       "shipAbility": {
@@ -58,14 +58,18 @@
       "ffg": 624,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4d8fdab1a5317159fcd56f722b6d73e5.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e95d46ad3a22ad0790cfd18a7e10cf81.png",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 18,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "\"Holo\"",
+      "name": "“Holo”",
       "caption": "Trick of the Light",
       "initiative": 5,
       "limited": 1,
-      "cost": 53,
+      "cost": 6,
       "xws": "holo",
       "ability": "At the start of the Engagement Phase, you must transfer 1 of your tokens to another friendly ship at range 0-2.",
       "shipAbility": {
@@ -77,14 +81,18 @@
       "ffg": 625,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/61d81abede1ce312b0de7d16623c2e60.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ee53482be8e59ff44f272e76c4e8123d.png",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 12,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "\"Ember\"",
+      "name": "“Ember”",
       "caption": "Dying Flame",
       "initiative": 4,
       "limited": 1,
-      "cost": 45,
+      "cost": 4,
       "xws": "ember",
       "ability": "While you perform an attack, if there is a damaged ship friendly to the defender at range 0-1 of the defender, the defender cannot spend focus or calculate tokens.",
       "shipAbility": {
@@ -96,13 +104,17 @@
       "ffg": 626,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/47fd0abc0fa4cea1508a800e75d18ebe.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4de956edddeacb92ef3e4f94e0a63db3.png",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 7,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "First Order Provocateur",
       "initiative": 3,
       "limited": 0,
-      "cost": 41,
+      "cost": 5,
       "xws": "firstorderprovocateur",
       "text": "Major Vonreg's vision guided the enhancement of proven designs while engineering this one-of-a-kind precise and lethal craft from Sienar-Jaemus Fleet Systems.",
       "shipAbility": {
@@ -114,7 +126,11 @@
       "ffg": 627,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/947aa948233f6a5fe5833dcf45cf8f01.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c834c2c4722b60e67292130d40c7ec19.png",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 3,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

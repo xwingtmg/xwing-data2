@@ -47,7 +47,7 @@
       "caption": "Black Leader",
       "initiative": 6,
       "limited": 1,
-      "cost": 66,
+      "cost": 8,
       "xws": "darthvader",
       "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_93.png",
@@ -66,14 +66,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_93.jpg",
       "ffg": 93,
       "hyperspace": false,
-      "keywords": ["Dark Side", "Sith", "TIE"]
+      "keywords": ["Dark Side", "Sith", "TIE"],
+      "loadout": 22,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Maarek Stele",
       "caption": "Servant of the Empire",
       "initiative": 5,
       "limited": 1,
-      "cost": 44,
+      "cost": 5,
       "xws": "maarekstele",
       "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_94.png",
@@ -85,13 +89,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_94.jpg",
       "ffg": 94,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 18,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Storm Squadron Ace",
       "initiative": 3,
       "limited": 0,
-      "cost": 39,
+      "cost": 3,
       "xws": "stormsquadronace",
       "text": "The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_97.png",
@@ -103,13 +111,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_97.jpg",
       "ffg": 97,
       "hyperspace": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 2,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Tempest Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 36,
+      "cost": 3,
       "xws": "tempestsquadronpilot",
       "text": "The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.",
       "alt": [
@@ -127,14 +139,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_98.jpg",
       "ffg": 98,
       "hyperspace": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 4,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Ved Foslo",
       "caption": "Ambitious Engineer",
       "initiative": 4,
       "limited": 1,
-      "cost": 43,
+      "cost": 4,
       "xws": "vedfoslo",
       "ability": "While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_95.png",
@@ -146,14 +162,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_95.jpg",
       "ffg": 95,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 11,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Zertik Strom",
       "caption": "Pitiless Administrator",
       "initiative": 3,
       "limited": 1,
-      "cost": 40,
+      "cost": 3,
       "xws": "zertikstrom",
       "ability": "During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship's damage cards.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_96.png",
@@ -165,7 +185,11 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_96.jpg",
       "ffg": 96,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 6,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

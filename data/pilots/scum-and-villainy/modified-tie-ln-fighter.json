@@ -39,7 +39,7 @@
       "caption": "Vengeful Survivor",
       "initiative": 3,
       "limited": 1,
-      "cost": 28,
+      "cost": 2,
       "xws": "ahhav",
       "ability": "While you defend or perform an attack, if the enemy ship is a larger size than you, roll 1 additional die.",
       "shipAbility": {
@@ -51,14 +51,18 @@
       "slots": ["Talent", "Modification"],
       "ffg": 442,
       "hyperspace": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 0,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Captain Seevor",
       "caption": "Noisy Nuisance",
       "initiative": 3,
       "limited": 1,
-      "cost": 30,
+      "cost": 4,
       "xws": "captainseevor",
       "ability": "While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's [Bullseye Arc], you may spend 1 [Charge]. If you do, the enemy ship gains 1 jam token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/70b64586cc2eb05d10efc7ba8dfd69d0.png",
@@ -71,14 +75,18 @@
       "slots": ["Talent", "Modification"],
       "ffg": 443,
       "hyperspace": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 10,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Foreman Proach",
       "caption": "Slave Driver",
       "initiative": 4,
       "limited": 1,
-      "cost": 29,
+      "cost": 3,
       "xws": "foremanproach",
       "ability": "Before you engage, you may choose 1 enemy ship in your [Bullseye Arc] at range 1-2 and gain 1 disarm token. If you do, that ship gains 1 tractor token.",
       "shipAbility": {
@@ -90,13 +98,17 @@
       "slots": ["Talent", "Modification"],
       "ffg": 441,
       "hyperspace": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 9,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Mining Guild Surveyor",
       "initiative": 2,
       "limited": 0,
-      "cost": 23,
+      "cost": 3,
       "xws": "miningguildsurveyor",
       "text": "With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly exploits newly discovered deposits of doonium ore on worlds such as Batonn, Lothal, and Umbara.",
       "shipAbility": {
@@ -108,14 +120,18 @@
       "slots": ["Talent", "Modification"],
       "ffg": 445,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 0,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Overseer Yushyn",
       "caption": "Overbearing Boss",
       "initiative": 2,
       "limited": 1,
-      "cost": 24,
+      "cost": 3,
       "xws": "overseeryushyn",
       "ability": "Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token instead.",
       "shipAbility": {
@@ -128,13 +144,17 @@
       "slots": ["Modification"],
       "ffg": 444,
       "hyperspace": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 6,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Mining Guild Sentry",
       "initiative": 1,
       "limited": 0,
-      "cost": 22,
+      "cost": 3,
       "xws": "miningguildsentry",
       "text": "As part of its arrangement with the Empire, the Mining Guild receives modified TIE/ln Fighters to protect its operations. These craft have solar panels removed from their stabilizers for improved visibility, and feature more extensive life support systems for the benefit of their corporate pilots.",
       "shipAbility": {
@@ -146,7 +166,11 @@
       "slots": ["Modification"],
       "ffg": 446,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 0,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

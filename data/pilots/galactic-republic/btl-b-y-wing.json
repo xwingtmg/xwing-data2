@@ -48,7 +48,7 @@
       },
       "hyperspace": false,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/84e5bef1597b232a20e52e1aa28a4c7e.jpg",
-      "cost": 31,
+      "cost": 4,
       "ffg": 602,
       "slots": [
         "Talent",
@@ -59,7 +59,11 @@
         "Modification",
         "Gunner"
       ],
-      "keywords": ["Clone", "Y-wing"]
+      "keywords": ["Clone", "Y-wing"],
+      "loadout": 4,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Anakin Skywalker",
@@ -76,7 +80,7 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7fc9010418aceb84cd9fb48d34e39ec8.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c7c979a7d90961d2e3afe377a71285df.png",
       "ability": "After you fully execute a maneuver, if there is an enemy ship in your [Front Arc] at range 0-1 or in your [Bullseye Arc], you may spend 1 [Force] to remove 1 stress token.",
-      "cost": 50,
+      "cost": 6,
       "ffg": 596,
       "slots": [
         "Turret",
@@ -87,13 +91,17 @@
         "Gunner",
         "Force Power"
       ],
-      "keywords": ["Jedi", "Light Side", "Y-wing"]
+      "keywords": ["Jedi", "Light Side", "Y-wing"],
+      "loadout": 28,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "R2-D2",
       "xws": "r2d2",
       "caption": "Bucket of Bolts",
-      "cost": 31,
+      "cost": 4,
       "ffg": 600,
       "limited": 1,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/90c3f9aac7f44e4a6a860c81f93aae99.jpg",
@@ -120,10 +128,14 @@
         "Gunner"
       ],
       "initiative": 2,
-      "keywords": ["Droid", "Y-wing"]
+      "keywords": ["Droid", "Y-wing"],
+      "loadout": 14,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "\"Odd Ball\"",
+      "name": "“Odd Ball”",
       "xws": "oddball-btlbywing",
       "initiative": 5,
       "limited": 1,
@@ -133,7 +145,7 @@
       },
       "caption": "CC-2237",
       "hyperspace": true,
-      "cost": 39,
+      "cost": 5,
       "ffg": 597,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/5f37609150489b6d49ca659d1b1caa8a.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8f1d65004c763b48293d1324a49c563a.png",
@@ -147,10 +159,14 @@
         "Modification",
         "Gunner"
       ],
-      "keywords": ["Clone", "Y-wing"]
+      "keywords": ["Clone", "Y-wing"],
+      "loadout": 18,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "\"Matchstick\"",
+      "name": "“Matchstick”",
       "xws": "matchstick",
       "initiative": 4,
       "limited": 1,
@@ -163,7 +179,7 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8d8b63edff7a5e9969ca61ebb4456837.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6aa658fe4082ed67500d2ac92c7731a0.png",
       "ability": "While you perform a primary or [Single Turret Arc] attack, you may reroll 1 attack die for each red token you have.",
-      "cost": 41,
+      "cost": 5,
       "ffg": 598,
       "slots": [
         "Talent",
@@ -174,10 +190,14 @@
         "Modification",
         "Gunner"
       ],
-      "keywords": ["Clone", "Y-wing"]
+      "keywords": ["Clone", "Y-wing"],
+      "loadout": 18,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "\"Broadside\"",
+      "name": "“Broadside”",
       "xws": "broadside",
       "initiative": 3,
       "limited": 1,
@@ -190,7 +210,7 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d34e3bcb51d765f9dd12a9fc266e7ad9.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1f0842573067d73acd7bb7589707ec4e.png",
       "ability": "While you perform a [Single Turret Arc] attack, if your [Single Turret Arc] indicator is in your [Left Arc] or [Right Arc], you may change 1 blank result to a [Focus] result.",
-      "cost": 36,
+      "cost": 5,
       "ffg": 599,
       "slots": [
         "Talent",
@@ -201,10 +221,14 @@
         "Modification",
         "Gunner"
       ],
-      "keywords": ["Clone", "Y-wing"]
+      "keywords": ["Clone", "Y-wing"],
+      "loadout": 16,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "\"Goji\"",
+      "name": "“Goji”",
       "xws": "goji",
       "initiative": 2,
       "limited": 1,
@@ -217,7 +241,7 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/026f989543c030d7c8e6757a9aab7a68.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3b34b6fc25db55b66654d355c7f514eb.png",
       "ability": "While a friendly ship at range 0-3 defends, it may roll 1 additional defense die for each friendly bomb at range 0-1 of it.",
-      "cost": 29,
+      "cost": 4,
       "ffg": 601,
       "slots": [
         "Turret",
@@ -227,7 +251,11 @@
         "Modification",
         "Gunner"
       ],
-      "keywords": ["Clone", "Y-wing"]
+      "keywords": ["Clone", "Y-wing"],
+      "loadout": 12,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Red Squadron Bomber",
@@ -242,7 +270,7 @@
       "hyperspace": false,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e91e0d3a30e85c878f7493360d1b668f.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/692a1f1d4b5f5370dad7cacf2f19d699.png",
-      "cost": 30,
+      "cost": 4,
       "ffg": 603,
       "slots": [
         "Turret",
@@ -252,7 +280,11 @@
         "Modification",
         "Gunner"
       ],
-      "keywords": ["Clone", "Y-wing"]
+      "keywords": ["Clone", "Y-wing"],
+      "loadout": 6,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ],
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_BTL-B_Ywing.png"

@@ -38,7 +38,7 @@
       "caption": "Set to Blow",
       "initiative": 1,
       "limited": 1,
-      "cost": 12,
+      "cost": 2,
       "xws": "autopilotdrone",
       "text": "Sometimes, manufacturer's warnings are made to be broken.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_229.png",
@@ -56,14 +56,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_229.jpg",
       "ffg": 229,
       "hyperspace": true,
-      "keywords": ["Droid"]
+      "keywords": ["Droid"],
+      "loadout": 0,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "L3-37",
       "caption": "Droid Revolutionary",
       "initiative": 2,
       "limited": 1,
-      "cost": 26,
+      "cost": 3,
       "xws": "l337-escapecraft",
       "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_228.png",
@@ -80,14 +84,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_228.jpg",
       "ffg": 228,
       "hyperspace": true,
-      "keywords": ["Droid"]
+      "keywords": ["Droid"],
+      "loadout": 4,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Lando Calrissian",
       "caption": "Smooth-talking Gambler",
       "initiative": 4,
       "limited": 1,
-      "cost": 29,
+      "cost": 3,
       "xws": "landocalrissian-escapecraft",
       "ability": "After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.",
       "shipAbility": {
@@ -98,14 +106,18 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_226.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_226.jpg",
       "ffg": 226,
-      "hyperspace": true
+      "hyperspace": true,
+      "loadout": 4,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Outer Rim Pioneer",
       "caption": "Skillful Outlaw",
       "initiative": 3,
       "limited": 1,
-      "cost": 28,
+      "cost": 3,
       "xws": "outerrimpioneer",
       "ability": "Friendly ships at range 0-1 can perform attacks at range 0 of obstacles.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_227.png",
@@ -116,7 +128,11 @@
       "slots": ["Talent", "Crew", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_227.jpg",
       "ffg": 227,
-      "hyperspace": true
+      "hyperspace": true,
+      "loadout": 4,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

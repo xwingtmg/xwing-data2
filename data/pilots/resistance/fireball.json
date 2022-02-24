@@ -57,11 +57,15 @@
         "Title"
       ],
       "hyperspace": true,
-      "cost": 26,
+      "cost": 3,
       "text": "Some ambitious and talented pilots begin their racing careers as ground crew, working around the clock to keep cobbled-together ships in the sky on far-flung worlds like Castilon.",
       "ffg": 623,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a8a4a52f9ced88c0bb7b9e90e0e75a18.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/533ab83e881838eb8006c8f8dcf19145.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/533ab83e881838eb8006c8f8dcf19145.png",
+      "loadout": 2,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Jarek Yeager",
@@ -82,12 +86,16 @@
         "Modification",
         "Title"
       ],
-      "cost": 31,
+      "cost": 3,
       "ability": "While you have 2 or fewer stress tokens, if you are damaged, you can execute red basic maneuvers even while stressed; if you are critically damaged, you can execute red advanced maneuvers even while stressed.",
       "caption": "Too Old for This",
       "ffg": 620,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/21bd6c9d7e36c873f88b0fad11ff8fe6.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cc580fd073ea51094b881e37775ef1f0.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cc580fd073ea51094b881e37775ef1f0.png",
+      "loadout": 6,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Kazuda Xiono",
@@ -110,10 +118,14 @@
         "Title"
       ],
       "ability": "While you defend or perform a primary attack, if the enemy ship's initiative is higher than the number of damage cards you have, you may roll 1 additional die.",
-      "cost": 38,
+      "cost": 4,
       "ffg": 621,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4ffdf7cc8ed023322ccf4217ff64b4d2.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ee98b839cf64d8d5d6f4948947abd70b.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ee98b839cf64d8d5d6f4948947abd70b.png",
+      "loadout": 10,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "R1-J5",
@@ -135,7 +147,7 @@
         "Title"
       ],
       "ability": "Before you expose 1 of your damage cards, you may look at your facedown damage cards, choose 1, and expose that card instead.",
-      "cost": 27,
+      "cost": 2,
       "ffg": 622,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/686597246669987fe1b938f1419e598d.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c5cfd1d89a204722ff95e9a4b134e7f1.png",
@@ -145,7 +157,11 @@
         { "difficulty": "White", "type": "Barrel Roll" },
         { "difficulty": "White", "type": "SLAM" }
       ],
-      "keywords": ["Droid"]
+      "keywords": ["Droid"],
+      "loadout": 0,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

@@ -42,7 +42,7 @@
       "caption": "Missing Sheriff of Niima Outpost",
       "initiative": 4,
       "limited": 1,
-      "cost": 29,
+      "cost": 4,
       "xws": "constablezuvio",
       "ability": "If you would drop a device, you may launch it using a [1 [Straight]] template instead.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_161.png",
@@ -53,13 +53,17 @@
       "slots": ["Talent", "Crew", "Device", "Illicit", "Modification", "Tech"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg",
       "ffg": 161,
-      "hyperspace": false
+      "hyperspace": false,
+      "loadout": 13,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Jakku Gunrunner",
       "initiative": 1,
       "limited": 0,
-      "cost": 29,
+      "cost": 4,
       "xws": "jakkugunrunner",
       "text": "The Quadrijet transfer spacetug, commonly called a \"Quadjumper,\" is nimble in space and atmosphere alike, making it popular among both smugglers and explorers.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_164.png",
@@ -70,14 +74,18 @@
       "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg",
       "ffg": 164,
-      "hyperspace": false
+      "hyperspace": false,
+      "loadout": 4,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Sarco Plank",
       "caption": "The Scavenger",
       "initiative": 2,
       "limited": 1,
-      "cost": 29,
+      "cost": 4,
       "xws": "sarcoplank",
       "ability": "While you defend, you may treat your agility value as equal to the speed of the maneuver you executed this round.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_162.png",
@@ -89,14 +97,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_162.jpg",
       "ffg": 162,
       "hyperspace": false,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "loadout": 6,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Unkar Plutt",
       "caption": "Miserly Portion Master",
       "initiative": 2,
       "limited": 1,
-      "cost": 29,
+      "cost": 4,
       "xws": "unkarplutt",
       "ability": "At the start of the Engagement Phase, if there are one or more other ships at range 0, you and each other ship at range 0 gain 1 tractor token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_163.png",
@@ -107,7 +119,11 @@
       "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg",
       "ffg": 163,
-      "hyperspace": false
+      "hyperspace": false,
+      "loadout": 7,
+      "standard": false,
+      "extended": true,
+      "epic": true
     }
   ]
 }

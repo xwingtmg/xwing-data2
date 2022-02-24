@@ -62,7 +62,7 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "hyperspace": true,
-      "cost": 63,
+      "cost": 7,
       "slots": [
         "Force Power",
         "Talent",
@@ -76,11 +76,15 @@
       "artwork": "???",
       "image": "???",
       "caption": "Supreme Leader of the First Order",
-      "keywords": ["TIE", "Dark Side", "Light Side"],
-      "force": { "value": 3, "recovers": 1, "side": ["dark", "light"] }
+      "keywords": ["Dark Side", "Light Side", "TIE"],
+      "force": { "value": 3, "recovers": 1, "side": ["dark", "light"] },
+      "loadout": 18,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "Wrath",
+      "name": "“Wrath”",
       "xws": "wrath",
       "initiative": 5,
       "limited": 1,
@@ -89,17 +93,21 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "hyperspace": true,
-      "cost": 53,
+      "cost": 5,
       "slots": ["Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ability": "After you perform a [Bullseye Arc] attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target.",
       "ffg": 920,
       "artwork": "???",
       "image": "???",
       "caption": "Herald of Destruction",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 15,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "Nightfall",
+      "name": "“Nightfall”",
       "xws": "nightfall",
       "initiative": 4,
       "limited": 1,
@@ -108,17 +116,21 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "hyperspace": true,
-      "cost": 49,
+      "cost": 4,
       "slots": ["Talent", "Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ability": "After you fully execute a maneuver or perform a [Boost] action, each ship you moved through gains 2 jam tokens.",
       "ffg": 921,
       "artwork": "???",
       "image": "???",
       "caption": "709th Legion Veteran",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 10,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "Whirlwind",
+      "name": "“Whirlwind”",
       "xws": "whirlwind",
       "initiative": 3,
       "limited": 1,
@@ -127,14 +139,18 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "hyperspace": true,
-      "cost": 47,
+      "cost": 4,
       "slots": ["Talent", "Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ability": "Before you engage, you may remove any number of jam tokens, then you may gain 1 focus token for each enemy ship that has you in its [Front Arc].",
       "ffg": 922,
       "artwork": "???",
       "image": "???",
       "caption": "Reap What You Sow",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 12,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "709th Legion Ace",
@@ -147,12 +163,16 @@
       },
       "text": "Commanded by Supreme Leader Kylo Ren, the 709th Legion fights without mercy or remorse to crush the Resistance and bring the galaxy under the First Order's dominion.",
       "hyperspace": true,
-      "cost": 47,
+      "cost": 4,
       "slots": ["Talent", "Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ffg": 923,
       "artwork": "???",
       "image": "???",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 10,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Red Fury Zealot",
@@ -165,12 +185,16 @@
       },
       "text": "Also called Red Fury, the 709th Legion is charged by Supreme Leader Kylo Ren with rooting out dissenters at Black Spire Outpost.",
       "hyperspace": true,
-      "cost": 44,
+      "cost": 4,
       "slots": ["Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ffg": 924,
       "artwork": "???",
       "image": "???",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 3,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ],
   "icon": "???"

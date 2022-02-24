@@ -42,7 +42,7 @@
       "name": "Freighter Captain",
       "initiative": 1,
       "limited": 0,
-      "cost": 41,
+      "cost": 6,
       "xws": "freightercaptain",
       "text": "Many spacers make a living traveling the Outer Rim, where the difference between smuggler and legitimate merchant is often murky. On the outskirts of civilization, buyers are rarely so discerning to ask where merchandise came from, at least as long as the price is low enough.",
       "slots": [
@@ -58,14 +58,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_225.jpg",
       "ffg": 225,
       "hyperspace": false,
-      "keywords": ["Freighter", "YT-1300"]
+      "keywords": ["Freighter", "YT-1300"],
+      "loadout": 6,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Han Solo",
       "caption": "The Corellian Kid",
       "initiative": 6,
       "limited": 1,
-      "cost": 48,
+      "cost": 7,
       "xws": "hansolo",
       "ability": "While you defend or perform a primary attack, if the attack is obstructed by an obstacle, you may roll 1 additional die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_222.png",
@@ -82,14 +86,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_222.jpg",
       "ffg": 222,
       "hyperspace": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "keywords": ["Freighter", "YT-1300"],
+      "loadout": 24,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "L3-37",
       "caption": "Droid Revolutionary",
       "initiative": 2,
       "limited": 1,
-      "cost": 41,
+      "cost": 6,
       "xws": "l337",
       "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_224.png",
@@ -111,14 +119,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_224.jpg",
       "ffg": 224,
       "hyperspace": true,
-      "keywords": ["Droid", "Freighter", "YT-1300"]
+      "keywords": ["Droid", "Freighter", "YT-1300"],
+      "loadout": 15,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Lando Calrissian",
       "caption": "Smooth-talking Gambler",
       "initiative": 4,
       "limited": 1,
-      "cost": 42,
+      "cost": 6,
       "xws": "landocalrissian",
       "ability": "After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_223.png",
@@ -135,7 +147,11 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_223.jpg",
       "ffg": 223,
       "hyperspace": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "keywords": ["Freighter", "YT-1300"],
+      "loadout": 17,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

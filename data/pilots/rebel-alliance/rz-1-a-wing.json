@@ -44,7 +44,7 @@
       "caption": "Green Leader",
       "initiative": 3,
       "limited": 1,
-      "cost": 32,
+      "cost": 3,
       "xws": "arvelcrynyd",
       "ability": "You can perform primary attacks at range 0. If you would fail a [Boost] action by overlapping another ship, resolve it as though you were partially executing a maneuver instead.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_20.png",
@@ -56,13 +56,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_20.jpg",
       "ffg": 20,
       "hyperspace": true,
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 6,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Green Squadron Pilot",
       "initiative": 3,
       "limited": 0,
-      "cost": 30,
+      "cost": 3,
       "xws": "greensquadronpilot",
       "text": "Due to its sensitive controls and high maneuverability, only the most talented pilots belong in an A-wing cockpit.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_21.png",
@@ -74,14 +78,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg",
       "ffg": 21,
       "hyperspace": false,
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 4,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Jake Farrell",
       "caption": "Sage Instructor",
       "initiative": 4,
       "limited": 1,
-      "cost": 34,
+      "cost": 4,
       "xws": "jakefarrell",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may choose a friendly ship at range 0-1. That ship may perform a [Focus] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_19.png",
@@ -93,13 +101,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_19.jpg",
       "ffg": 19,
       "hyperspace": true,
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 8,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Phoenix Squadron Pilot",
       "initiative": 1,
       "limited": 0,
-      "cost": 28,
+      "cost": 3,
       "xws": "phoenixsquadronpilot",
       "text": "Led by Commander Jun Sato, the brave but inexperienced pilots of Phoenix Squadron face staggering odds in their battle against the Galactic Empire.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_22.png",
@@ -111,7 +123,11 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg",
       "ffg": 22,
       "hyperspace": false,
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 3,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Wedge Antilles",
@@ -124,12 +140,16 @@
       },
       "hyperspace": true,
       "keywords": ["A-wing"],
-      "cost": 35,
+      "cost": 4,
       "slots": ["Talent", "Missile", "Configuration"],
       "ability": "While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.",
       "caption": "Promising Pilot",
       "ffg": 883,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/11bb21ea8f81f374ff862f86e722444f.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/11bb21ea8f81f374ff862f86e722444f.jpg",
+      "loadout": 10,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Sabine Wren",
@@ -142,12 +162,16 @@
       },
       "hyperspace": true,
       "keywords": ["A-wing", "Mandalorian"],
-      "cost": 35,
+      "cost": 4,
       "slots": ["Talent", "Talent", "Missile", "Configuration"],
       "ability": "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result.",
       "caption": "Daughter of Mandalore",
       "ffg": 885,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9db76c98a8bd8bff2c4c46408d631ac0.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9db76c98a8bd8bff2c4c46408d631ac0.jpg",
+      "loadout": 15,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Hera Syndulla",
@@ -160,12 +184,16 @@
       },
       "caption": "Phoenix Leader",
       "hyperspace": true,
-      "cost": 48,
+      "cost": 5,
       "slots": ["Talent", "Talent", "Missile", "Configuration"],
       "ability": "While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.",
       "keywords": ["A-wing", "Spectre"],
       "ffg": 880,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a50b1f5e19e9b389bf521becfa71d447.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a50b1f5e19e9b389bf521becfa71d447.jpg",
+      "loadout": 14,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Ahsoka Tano",
@@ -179,12 +207,16 @@
       "caption": "Fulcrum",
       "hyperspace": true,
       "force": { "value": 3, "recovers": 1 },
-      "cost": 49,
+      "cost": 6,
       "slots": ["Force Power", "Force Power", "Missile", "Configuration"],
       "ability": "After you fully execute a maneuver, you may choose a friendly ship at range 1-2 and spend 2 [Force]. That ship may perform an action, even while stressed.",
       "keywords": ["A-wing", "Light Side"],
       "ffg": 881,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/40fe14090b12fb634888c845a8efbb1c.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/40fe14090b12fb634888c845a8efbb1c.jpg",
+      "loadout": 20,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Shara Bey",
@@ -197,12 +229,16 @@
       },
       "caption": "Green Four",
       "hyperspace": true,
-      "cost": 32,
+      "cost": 3,
       "slots": ["Talent", "Talent", "Missile", "Configuration"],
       "ability": "While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.",
       "keywords": ["A-wing"],
       "ffg": 882,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c7de7d8ea5e6d4624e8541423f23f447.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c7de7d8ea5e6d4624e8541423f23f447.jpg",
+      "loadout": 7,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Derek Klivian",
@@ -215,12 +251,16 @@
       },
       "caption": "Hobbie",
       "hyperspace": true,
-      "cost": 30,
+      "cost": 2,
       "slots": ["Talent", "Missile", "Configuration"],
       "ability": "After you acquire or spend a lock, you may remove 1 red token from yourself.",
       "keywords": ["A-wing"],
       "ffg": 884,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ab937640d11798db7513aecc3de53a16.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ab937640d11798db7513aecc3de53a16.jpg",
+      "loadout": 0,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

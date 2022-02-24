@@ -43,7 +43,7 @@
       "initiative": 4,
       "limited": 1,
       "hyperspace": false,
-      "cost": 38,
+      "cost": 5,
       "slots": [
         "Talent",
         "Tech",
@@ -59,16 +59,20 @@
       "ffg": 569,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/27956dc3600e6e06bf26f9a981205410.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a9ae63785f4cadaa28a74858ff1d1bc4.png",
-      "caption": "Evacuation Escort"
+      "caption": "Evacuation Escort",
+      "loadout": 20,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Pammich Nerro Goode",
       "xws": "pammichnerrogoode",
       "initiative": 3,
       "limited": 1,
-      "caption": "D'Qar Dispatcher",
+      "caption": "D’Qar Dispatcher",
       "hyperspace": false,
-      "cost": 35,
+      "cost": 4,
       "slots": [
         "Tech",
         "Cannon",
@@ -82,7 +86,11 @@
       "ability": "While you have 2 or fewer stress tokens, you may execute red maneuvers even while stressed.",
       "ffg": 570,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e5f2e692fcaf63d513cd5c7c1294283e.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9d7dd5d0851911412dd5c86603a0ea91.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9d7dd5d0851911412dd5c86603a0ea91.png",
+      "loadout": 12,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Nodin Chavdri",
@@ -90,7 +98,7 @@
       "initiative": 2,
       "limited": 1,
       "hyperspace": false,
-      "cost": 37,
+      "cost": 5,
       "slots": [
         "Tech",
         "Cannon",
@@ -105,7 +113,11 @@
       "ffg": 571,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b0179494a00c2538a4467793e722db3e.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9f41de269cb1ff091487554fb53b2374.png",
-      "caption": "Insubordinate Insurgent"
+      "caption": "Insubordinate Insurgent",
+      "loadout": 16,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Logistics Division Pilot",
@@ -114,7 +126,7 @@
       "limited": 0,
       "text": "Without the support of the New Republic, members of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.",
       "hyperspace": true,
-      "cost": 34,
+      "cost": 4,
       "slots": [
         "Tech",
         "Cannon",
@@ -127,7 +139,11 @@
       ],
       "ffg": 572,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/005545edf9fc1c82464f52edad236b27.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/57ea37cdb13f52ec3f3e0b745fc9d630.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/57ea37cdb13f52ec3f3e0b745fc9d630.png",
+      "loadout": 6,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ],
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Resistance_Transport.png"

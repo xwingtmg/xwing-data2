@@ -38,11 +38,11 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEReaper.png",
   "pilots": [
     {
-      "name": "\"Vizier\"",
+      "name": "“Vizier”",
       "caption": "Ruthless Tactician",
       "initiative": 2,
       "limited": 1,
-      "cost": 42,
+      "cost": 5,
       "xws": "vizier",
       "ability": "After you fully execute a speed 1 maneuver using your Adaptive Ailerons ship ability, you may perform a [Coordinate] action. If you do, skip your Perform Action step.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_115.png",
@@ -54,14 +54,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_115.jpg",
       "ffg": 115,
       "hyperspace": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 14,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Captain Feroph",
       "caption": "Imperial Courier",
       "initiative": 3,
       "limited": 1,
-      "cost": 47,
+      "cost": 5,
       "xws": "captainferoph",
       "ability": "While you defend, if the attacker does not have any green tokens, you may change 1 of your blank or [Focus] results to an [Evade] result.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_114.png",
@@ -73,14 +77,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_114.jpg",
       "ffg": 114,
       "hyperspace": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 9,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Major Vermeil",
       "caption": "Veteran of Scarif",
       "initiative": 4,
       "limited": 1,
-      "cost": 49,
+      "cost": 5,
       "xws": "majorvermeil",
       "ability": "While you perform an attack, if the defender does not have any green tokens, you may change 1 of your blank or [Focus] results to a [Hit] result.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_113.png",
@@ -92,13 +100,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_113.jpg",
       "ffg": 113,
       "hyperspace": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 8,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Scarif Base Pilot",
       "initiative": 1,
       "limited": 0,
-      "cost": 39,
+      "cost": 5,
       "xws": "scarifbasepilot",
       "text": "The TIE reaper was designed to ferry elite troops to flashpoints on the battlefield, notably carrying Director Krennic's dreaded death troopers at the Battle of Scarif.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_116.png",
@@ -116,7 +128,11 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_116.jpg",
       "ffg": 116,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 8,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

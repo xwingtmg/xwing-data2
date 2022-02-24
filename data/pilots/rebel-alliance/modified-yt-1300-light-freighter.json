@@ -43,7 +43,7 @@
       "caption": "The Mighty",
       "initiative": 4,
       "limited": 1,
-      "cost": 70,
+      "cost": 7,
       "xws": "chewbacca",
       "ability": "Before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt the card facedown instead.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_71.png",
@@ -61,14 +61,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_71.jpg",
       "ffg": 71,
       "hyperspace": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "keywords": ["Freighter", "YT-1300"],
+      "loadout": 18,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Han Solo",
       "caption": "Scoundrel for Hire",
       "initiative": 6,
       "limited": 1,
-      "cost": 79,
+      "cost": 9,
       "xws": "hansolo-modifiedyt1300lightfreighter",
       "ability": "After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_69.png",
@@ -85,14 +89,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_69.jpg",
       "ffg": 69,
       "hyperspace": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "keywords": ["Freighter", "YT-1300"],
+      "loadout": 25,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Lando Calrissian",
       "caption": "General of the Alliance",
       "initiative": 5,
       "limited": 1,
-      "cost": 78,
+      "cost": 9,
       "xws": "landocalrissian-modifiedyt1300lightfreighter",
       "ability": "After you fully execute a blue maneuver, you may choose a friendly ship at range 0-3. That ship may perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_70.png",
@@ -109,13 +117,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_70.jpg",
       "ffg": 70,
       "hyperspace": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "keywords": ["Freighter", "YT-1300"],
+      "loadout": 22,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Outer Rim Smuggler",
       "initiative": 1,
       "limited": 0,
-      "cost": 67,
+      "cost": 7,
       "xws": "outerrimsmuggler",
       "text": "Known for its durability and modular design, the YT-1300 is one of the most popular, widely used, and extensively customized freighters in the galaxy.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_72.png",
@@ -131,7 +143,11 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_72.jpg",
       "ffg": 72,
       "hyperspace": false,
-      "keywords": ["Freighter", "YT-1300"]
+      "keywords": ["Freighter", "YT-1300"],
+      "loadout": 6,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Leia Organa",
@@ -152,11 +168,15 @@
         "Title"
       ],
       "ability": "After a friendly ship fully executes a red maneuver, if it is at range 0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or recovers 1 [Force].",
-      "cost": 77,
+      "cost": 8,
       "ffg": 630,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/dc207b5c5f00a98e0fad8dc3905373f9.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/677d75036109127dc27d524b902b35ae.png",
-      "keywords": ["Freighter", "YT-1300"]
+      "keywords": ["Freighter", "YT-1300", "Light Side"],
+      "loadout": 20,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

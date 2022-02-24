@@ -42,11 +42,11 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPunisher.png",
   "pilots": [
     {
-      "name": "\"Deathrain\"",
+      "name": "“Deathrain”",
       "caption": "Dexterous Bombardier",
       "initiative": 4,
       "limited": 1,
-      "cost": 43,
+      "cost": 6,
       "xws": "deathrain",
       "ability": "After you drop or launch a device, you may perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_140.png",
@@ -63,14 +63,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_140.jpg",
       "ffg": 140,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 20,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "\"Redline\"",
+      "name": "“Redline”",
       "caption": "Adrenaline Junkie",
       "initiative": 5,
       "limited": 1,
-      "cost": 51,
+      "cost": 7,
       "xws": "redline",
       "ability": "You can maintain up to 2 locks. After you perform an action, you may acquire a lock.",
       "slots": [
@@ -87,13 +91,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_139.jpg",
       "ffg": 139,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 25,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Cutlass Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 35,
+      "cost": 5,
       "xws": "cutlasssquadronpilot",
       "text": "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_141.png",
@@ -110,7 +118,11 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_141.jpg",
       "ffg": 141,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 6,
+      "standard": false,
+      "extended": true,
+      "epic": true
     }
   ]
 }

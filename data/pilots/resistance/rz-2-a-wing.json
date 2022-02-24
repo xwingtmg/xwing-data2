@@ -40,11 +40,11 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_RZ-2_A-wing.png",
   "pilots": [
     {
-      "name": "L'ulo L'ampar",
+      "name": "L’ulo L’ampar",
       "caption": "Luminous Mentor",
       "initiative": 5,
       "limited": 1,
-      "cost": 40,
+      "cost": 5,
       "xws": "lulolampar",
       "ability": "While you defend or perform a primary attack, if you are stressed, you must roll 1 fewer defense die or 1 additional attack die.",
       "shipAbility": {
@@ -56,14 +56,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b97a025a7859f54bbc68374ff5d8116e.jpg",
       "ffg": 435,
       "hyperspace": true,
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 16,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Tallissan Lintra",
       "caption": "Deadly Approach",
       "initiative": 5,
       "limited": 1,
-      "cost": 37,
+      "cost": 5,
       "xws": "tallissanlintra",
       "ability": "While an enemy ship in your [Bullseye Arc] performs an attack, you may spend 1 [Charge]. If you do, the defender rolls 1 additional die.",
       "shipAbility": {
@@ -76,14 +80,18 @@
       "slots": ["Talent", "Talent", "Missile", "Tech"],
       "ffg": 436,
       "hyperspace": true,
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 12,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Zari Bangel",
       "caption": "Aerial Exhibitionist",
       "initiative": 3,
       "limited": 1,
-      "cost": 35,
+      "cost": 5,
       "xws": "zaribangel",
       "ability": "You do not skip your Perform Action step after you partially execute a maneuver.",
       "shipAbility": {
@@ -95,14 +103,18 @@
       "slots": ["Talent", "Talent", "Missile", "Tech"],
       "ffg": 438,
       "hyperspace": true,
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 11,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Greer Sonnel",
       "caption": "Kothan Si",
       "initiative": 4,
       "limited": 1,
-      "cost": 36,
+      "cost": 4,
       "xws": "greersonnel",
       "ability": "After you fully execute a maneuver, you may rotate your [Single Turret Arc].",
       "shipAbility": {
@@ -114,13 +126,17 @@
       "slots": ["Talent", "Talent", "Missile", "Tech"],
       "ffg": 437,
       "hyperspace": true,
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 7,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Green Squadron Expert",
       "initiative": 3,
       "limited": 0,
-      "cost": 34,
+      "cost": 4,
       "xws": "greensquadronexpert",
       "text": "Years of field-expedient modifications were standardized in the RZ-2 design, but daring pilots see the ship's improved reliability as a challenge to further push the limits of its performance.",
       "shipAbility": {
@@ -132,13 +148,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8427bdfb1cf9497a9ab797e2c955ba41.jpg",
       "ffg": 439,
       "hyperspace": false,
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 2,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Blue Squadron Recruit",
       "initiative": 1,
       "limited": 0,
-      "cost": 33,
+      "cost": 4,
       "xws": "bluesquadronrecruit",
       "text": "Young beings across the galaxy have grown up on tales of heroism in the Galactic Civil War, and many learned to fly in the same cockpits from which their parents fought the Empire.",
       "shipAbility": {
@@ -150,7 +170,11 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3df643a75106a59899e5f32ef56e8a5e.jpg",
       "ffg": 440,
       "hyperspace": false,
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 4,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Zizi Tlo",
@@ -165,12 +189,16 @@
       "hyperspace": true,
       "slots": ["Talent", "Talent", "Tech", "Missile"],
       "ability": "After you defend or perform an attack, you may spend 1 [Charge] to gain 1 focus or evade token.",
-      "cost": 41,
+      "cost": 5,
       "ffg": 638,
       "charges": { "value": 1, "recovers": 1 },
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7d5b4f0691b55e9c755b1e71bd16a422.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/17b2411d61b671ebca568ca2bb55e2da.png",
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 15,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Ronith Blario",
@@ -185,18 +213,22 @@
       "hyperspace": true,
       "slots": ["Talent", "Tech", "Missile"],
       "ability": "While you defend or perform an attack, if the enemy ship is in another friendly ship's [Single Turret Arc], you may spend 1 focus token from that friendly ship to change 1 of your [Focus] results to an [Evade] or [Hit] result.",
-      "cost": 34,
+      "cost": 4,
       "ffg": 639,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0930bea45803774f4b0d863b92a64328.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1e861cadd2291ece7a9207cddcdcba39.png",
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 8,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Merl Cobben",
       "caption": "Distracting Daredevil",
       "initiative": 1,
       "limited": 1,
-      "cost": 33,
+      "cost": 3,
       "xws": "merlcobben",
       "ability": "While a friendly ship at range 0-2 performs a primary attack, if you are in the defender's [Bullseye Arc], the defender rolls 1 fewer defense die.",
       "shipAbility": {
@@ -208,14 +240,18 @@
       "ffg": 704,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/18/3e/183ed99b-c562-4db5-9377-daf4661dfac9/swz68_merl-cobben.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c51115091ff7f31d6c2da890ed303dd8.jpg",
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 7,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Suralinda Javos",
       "caption": "Inquisitive Journalist",
       "initiative": 3,
       "limited": 1,
-      "cost": 35,
+      "cost": 4,
       "xws": "suralindajavos",
       "ability": "After you partially execute a maneuver, you may gain 1 strain token to rotate 90° or 180°.",
       "shipAbility": {
@@ -227,14 +263,18 @@
       "ffg": 703,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/64/e1644adc-8d8a-4408-90a1-621e0dd4b0c6/swz68_suralinda-javos.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/255fef80a9e49eb154f254405b6d4ff5.jpg",
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 10,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Wrobie Tyce",
       "caption": "Dynamic Aerialist",
       "initiative": 4,
       "limited": 1,
-      "cost": 35,
+      "cost": 4,
       "xws": "wrobietyce",
       "ability": "After you defend at attack range 1, if the attacker modified its dice, the attacker gains 1 deplete token.",
       "shipAbility": {
@@ -246,14 +286,18 @@
       "ffg": 702,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/d3/66/d3669149-00da-4abf-9e08-9655e10db166/swz68_wrobie-tyce.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cdc08804712c43ad1f8c6d0597f9d8e3.jpg",
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 7,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Seftin Vanik",
       "caption": "Skillful Wingmate",
       "initiative": 5,
       "limited": 1,
-      "cost": 37,
+      "cost": 4,
       "xws": "seftinvanik",
       "ability": "After you perform a [Boost] action, you may transfer 1 evade token to a friendly ship at range 1.",
       "shipAbility": {
@@ -265,7 +309,11 @@
       "ffg": 701,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/73/ef/73ef0cdc-deb6-451d-a76c-0b3d9ef147ec/swz68_seftin-vanik.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ee11a475190af6c517ca872b19cdaa62.jpg",
-      "keywords": ["A-wing"]
+      "keywords": ["A-wing"],
+      "loadout": 5,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

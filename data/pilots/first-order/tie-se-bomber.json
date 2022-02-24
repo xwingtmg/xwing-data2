@@ -48,7 +48,7 @@
   ],
   "pilots": [
     {
-      "name": "\"Breach\"",
+      "name": "“Breach”",
       "xws": "breach",
       "initiative": 5,
       "limited": 1,
@@ -57,7 +57,7 @@
         "text": "During the System Phase, you may perform a [Boost] action."
       },
       "hyperspace": true,
-      "cost": 36,
+      "cost": 6,
       "slots": [
         "Talent",
         "Tech",
@@ -73,10 +73,14 @@
       "artwork": "???",
       "image": "???",
       "caption": "Ordnance Expert",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 20,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "\"Scorch\"",
+      "name": "“Scorch”",
       "xws": "scorch-tiesebomber",
       "initiative": 4,
       "limited": 1,
@@ -85,7 +89,7 @@
         "text": "During the System Phase, you may perform a [Boost] action."
       },
       "hyperspace": true,
-      "cost": 35,
+      "cost": 4,
       "slots": [
         "Talent",
         "Tech",
@@ -101,10 +105,14 @@
       "artwork": "???",
       "image": "???",
       "caption": "Jad Bean",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 10,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "\"Dread\"",
+      "name": "“Dread”",
       "xws": "dread",
       "initiative": 3,
       "limited": 1,
@@ -113,7 +121,7 @@
         "text": "During the System Phase, you may perform a [Boost] action."
       },
       "hyperspace": true,
-      "cost": 32,
+      "cost": 4,
       "slots": [
         "Tech",
         "Torpedo",
@@ -128,10 +136,14 @@
       "artwork": "???",
       "image": "???",
       "caption": "Devotee of Devastation",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 12,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "\"Grudge\"",
+      "name": "“Grudge”",
       "xws": "grudge",
       "initiative": 2,
       "limited": 1,
@@ -140,7 +152,7 @@
         "text": "During the System Phase, you may perform a [Boost] action."
       },
       "hyperspace": true,
-      "cost": 36,
+      "cost": 4,
       "slots": [
         "Tech",
         "Torpedo",
@@ -155,7 +167,11 @@
       "artwork": "???",
       "image": "???",
       "caption": "Hateful Harrier",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 15,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "First Order Cadet",
@@ -167,7 +183,7 @@
         "text": "During the System Phase, you may perform a [Boost] action."
       },
       "hyperspace": true,
-      "cost": 32,
+      "cost": 4,
       "slots": [
         "Talent",
         "Tech",
@@ -182,7 +198,11 @@
       "ffg": 917,
       "artwork": "???",
       "image": "???",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 7,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Sienar-Jaemus Test Pilot",
@@ -194,7 +214,7 @@
         "text": "During the System Phase, you may perform a [Boost] action."
       },
       "hyperspace": true,
-      "cost": 31,
+      "cost": 4,
       "slots": [
         "Tech",
         "Torpedo",
@@ -208,7 +228,11 @@
       "ffg": 918,
       "artwork": "???",
       "image": "???",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 8,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ],
   "icon": "???"

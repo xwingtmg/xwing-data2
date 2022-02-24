@@ -42,7 +42,7 @@
       "caption": "Reprogrammed Protocol Droid",
       "initiative": 3,
       "limited": 1,
-      "cost": 49,
+      "cost": 5,
       "xws": "4lom",
       "ability": "After you fully execute a red maneuver, gain 1 calculate token. At the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_201.png",
@@ -55,13 +55,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_201.jpg",
       "ffg": 201,
       "hyperspace": false,
-      "keywords": ["Bounty Hunter", "Droid"]
+      "keywords": ["Bounty Hunter", "Droid"],
+      "loadout": 14,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Gand Findsman",
       "initiative": 1,
       "limited": 0,
-      "cost": 41,
+      "cost": 5,
       "xws": "gandfindsman",
       "text": "The legendary Findsmen of Gand worship the enshrouding mists of their home planet, using signs, augurs, and mystical rituals to track their quarry.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_203.png",
@@ -69,14 +73,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_203.jpg",
       "ffg": 203,
       "hyperspace": false,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "loadout": 3,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Zuckuss",
       "caption": "Meditative Gand",
       "initiative": 3,
       "limited": 1,
-      "cost": 45,
+      "cost": 5,
       "xws": "zuckuss",
       "ability": "While you perform a primary attack, you may roll 1 additional attack die. If you do, the defender rolls 1 additional defense die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_202.png",
@@ -90,7 +98,11 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_202.jpg",
       "ffg": 202,
       "hyperspace": false,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "loadout": 10,
+      "standard": false,
+      "extended": true,
+      "epic": true
     }
   ]
 }

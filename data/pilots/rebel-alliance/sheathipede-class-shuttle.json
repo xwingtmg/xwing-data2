@@ -37,11 +37,11 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Sheathipede.png",
   "pilots": [
     {
-      "name": "\"Zeb\" Orrelios",
+      "name": "“Zeb” Orrelios",
       "caption": "Spectre-4",
       "initiative": 2,
       "limited": 1,
-      "cost": 33,
+      "cost": 3,
       "xws": "zeborrelios-sheathipedeclassshuttle",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_40.png",
@@ -53,14 +53,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg",
       "ffg": 40,
       "hyperspace": true,
-      "keywords": ["Spectre"]
+      "keywords": ["Spectre"],
+      "loadout": 8,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "AP-5",
       "caption": "Escaped Analyst Droid",
       "initiative": 1,
       "limited": 1,
-      "cost": 32,
+      "cost": 3,
       "xws": "ap5",
       "ability": "While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_41.png",
@@ -76,14 +80,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg",
       "ffg": 41,
       "hyperspace": false,
-      "keywords": ["Droid", "Spectre"]
+      "keywords": ["Droid", "Spectre"],
+      "loadout": 8,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Ezra Bridger",
       "caption": "Spectre-6",
       "initiative": 3,
       "limited": 1,
-      "cost": 40,
+      "cost": 4,
       "xws": "ezrabridger-sheathipedeclassshuttle",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade]/[Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_39.png",
@@ -96,14 +104,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg",
       "ffg": 39,
       "hyperspace": true,
-      "keywords": ["Light Side", "Spectre"]
+      "keywords": ["Light Side", "Spectre"],
+      "loadout": 11,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Fenn Rau",
       "caption": "Reluctant Rebel",
       "initiative": 6,
       "limited": 1,
-      "cost": 47,
+      "cost": 5,
       "xws": "fennrau-sheathipedeclassshuttle",
       "ability": "Before an enemy ship in your firing arc engages, if you are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/43140025bc61b3e64ef6831987cafb2c.png",
@@ -115,7 +127,11 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg",
       "ffg": 38,
       "hyperspace": false,
-      "keywords": ["Mandalorian"]
+      "keywords": ["Mandalorian", "Spectre"],
+      "loadout": 15,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

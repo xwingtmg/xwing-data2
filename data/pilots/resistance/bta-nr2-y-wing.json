@@ -45,7 +45,7 @@
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
       "hyperspace": true,
-      "cost": 40,
+      "cost": 5,
       "slots": [
         "Talent",
         "Tech",
@@ -62,7 +62,11 @@
       "charges": { "value": 1, "recovers": 1 },
       "image": "???",
       "caption": "Corsair of Kijimi",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "loadout": 20,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Teza Nasz",
@@ -74,7 +78,7 @@
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
       "hyperspace": true,
-      "cost": 37,
+      "cost": 4,
       "slots": [
         "Talent",
         "Tech",
@@ -90,7 +94,11 @@
       "artwork": "???",
       "image": "???",
       "caption": "Old Soldier",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "loadout": 11,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Wilsa Teshlo",
@@ -102,7 +110,7 @@
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
       "hyperspace": true,
-      "cost": 34,
+      "cost": 3,
       "slots": [
         "Tech",
         "Turret",
@@ -117,7 +125,11 @@
       "artwork": "???",
       "image": "???",
       "caption": "Veiled Sorority Privateer",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "loadout": 8,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Shasa Zaro",
@@ -129,7 +141,7 @@
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
       "hyperspace": false,
-      "cost": 33,
+      "cost": 3,
       "slots": [
         "Tech",
         "Turret",
@@ -144,7 +156,11 @@
       "artwork": "???",
       "image": "???",
       "caption": "Artistic Ace",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "loadout": 7,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Lega Fossang",
@@ -156,7 +172,7 @@
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
       "hyperspace": true,
-      "cost": 33,
+      "cost": 4,
       "slots": [
         "Talent",
         "Tech",
@@ -172,7 +188,11 @@
       "artwork": "???",
       "image": "???",
       "caption": "Hero of Humbarine",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "loadout": 13,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Aftab Ackbar",
@@ -184,7 +204,7 @@
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
       "hyperspace": true,
-      "cost": 34,
+      "cost": 4,
       "slots": [
         "Talent",
         "Tech",
@@ -199,8 +219,12 @@
       "ffg": 908,
       "artwork": "???",
       "image": "???",
-      "caption": "Junior",
-      "keywords": ["Y-wing"]
+      "caption": "“Junior”",
+      "keywords": ["Y-wing"],
+      "loadout": 12,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Corus Kapellim",
@@ -212,7 +236,7 @@
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
       "hyperspace": true,
-      "cost": 33,
+      "cost": 4,
       "slots": [
         "Tech",
         "Turret",
@@ -226,11 +250,15 @@
       "ffg": 909,
       "artwork": "???",
       "image": "???",
-      "caption": "Gentleman Flyer",
-      "keywords": ["Y-wing"]
+      "caption": "“Gentleman Flyer”",
+      "keywords": ["Y-wing"],
+      "loadout": 14,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "C'ai Threnalli",
+      "name": "C’ai Threnalli",
       "xws": "caithrenalli-btanr2ywing",
       "initiative": 2,
       "limited": 1,
@@ -239,7 +267,7 @@
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
       "hyperspace": true,
-      "cost": 34,
+      "cost": 3,
       "slots": [
         "Talent",
         "Tech",
@@ -255,7 +283,11 @@
       "artwork": "???",
       "image": "???",
       "caption": "Tenacious Survivor",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "loadout": 9,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "New Republic Patrol",
@@ -267,7 +299,7 @@
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
       "hyperspace": true,
-      "cost": 32,
+      "cost": 4,
       "slots": [
         "Talent",
         "Tech",
@@ -282,7 +314,11 @@
       "ffg": 911,
       "artwork": "???",
       "image": "???",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "loadout": 7,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Kijimi Spice Runner",
@@ -294,7 +330,7 @@
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
       "hyperspace": true,
-      "cost": 31,
+      "cost": 4,
       "slots": [
         "Tech",
         "Turret",
@@ -308,7 +344,11 @@
       "ffg": 912,
       "artwork": "???",
       "image": "???",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "loadout": 4,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ],
   "icon": "???"

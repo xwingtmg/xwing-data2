@@ -40,7 +40,7 @@
       "name": "Crymorah Goon",
       "initiative": 1,
       "limited": 0,
-      "cost": 29,
+      "cost": 4,
       "xws": "crymorahgoon",
       "text": "Though far from nimble, the Y-wing's heavy hull, substantial shielding, and turret-mounted cannons make it an excellent patrol craft.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_168.png",
@@ -56,14 +56,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_168.jpg",
       "ffg": 168,
       "hyperspace": false,
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "loadout": 4,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Drea Renthal",
       "caption": "Pirate Lord",
       "initiative": 4,
       "limited": 1,
-      "cost": 46,
+      "cost": 5,
       "xws": "drearenthal",
       "ability": "While a friendly non-limited ship performs an attack, if the defender is in your firing arc, the attacker may reroll 1 attack die.",
       "slots": [
@@ -80,13 +84,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_166.jpg",
       "ffg": 166,
       "hyperspace": false,
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "loadout": 10,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Hired Gun",
       "initiative": 2,
       "limited": 0,
-      "cost": 31,
+      "cost": 4,
       "xws": "hiredgun",
       "text": "Just the mention of Imperial credits can bring a host of less-than-trustworthy individuals to your side.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_167.png",
@@ -103,14 +111,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_167.jpg",
       "ffg": 167,
       "hyperspace": false,
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "loadout": 6,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Kavil",
       "caption": "Callous Corsair",
       "initiative": 5,
       "limited": 1,
-      "cost": 41,
+      "cost": 6,
       "xws": "kavil",
       "ability": "While you perform a non-[Front Arc] attack, roll 1 additional attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_165.png",
@@ -127,7 +139,11 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_165.jpg",
       "ffg": 165,
       "hyperspace": false,
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "loadout": 18,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Leema Kai",
@@ -136,7 +152,7 @@
       "limited": 1,
       "hyperspace": false,
       "keywords": ["Y-wing"],
-      "cost": 39,
+      "cost": 5,
       "slots": [
         "Talent",
         "Tech",
@@ -149,7 +165,11 @@
       "ability": "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your full front arc.",
       "caption": "Opportunity Knocks",
       "ffg": 898,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4e6423bdaa2b09478f46f795c5328c17.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4e6423bdaa2b09478f46f795c5328c17.jpg",
+      "loadout": 14,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Arliz Hadrassian",
@@ -158,7 +178,7 @@
       "limited": 1,
       "hyperspace": false,
       "keywords": ["Y-wing"],
-      "cost": 38,
+      "cost": 5,
       "slots": [
         "Talent",
         "Tech",
@@ -171,7 +191,11 @@
       "ability": "While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, before the Modify Defense Dice step, you must change 1 of your [Focus] results to a blank result.",
       "caption": "Crimson Blade",
       "ffg": 899,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f00b0ed67b0de579c3bc4fdaceb3f3ab.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f00b0ed67b0de579c3bc4fdaceb3f3ab.jpg",
+      "loadout": 13,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Amaxine Warrior",
@@ -180,7 +204,7 @@
       "limited": 0,
       "text": "Decades after the Battle of Endor, former Imperials remain active in the New Republic. Many have joined paramilitary organizations, such as the Amaxine Warriors, that appropriate martial traditions and cultures to spread the hateful ideology of the First Order amongst those most vulnerable to it.",
       "hyperspace": true,
-      "cost": 33,
+      "cost": 4,
       "slots": [
         "Talent",
         "Tech",
@@ -192,7 +216,11 @@
       ],
       "keywords": ["Y-wing"],
       "ffg": 901,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1a6296a88e63a0896952e7dd4178105b.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1a6296a88e63a0896952e7dd4178105b.jpg",
+      "loadout": 6,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Padric",
@@ -201,7 +229,7 @@
       "limited": 1,
       "caption": "Napkin Bomber",
       "hyperspace": false,
-      "cost": 36,
+      "cost": 4,
       "slots": [
         "Talent",
         "Tech",
@@ -214,7 +242,11 @@
       "ability": "After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.",
       "keywords": ["Y-wing"],
       "ffg": 900,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7d5a18e41b8e3caf1d623cdf06acafc8.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7d5a18e41b8e3caf1d623cdf06acafc8.jpg",
+      "loadout": 10,
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Jinata Security Officer",
@@ -223,11 +255,15 @@
       "limited": 0,
       "text": "Headquartered on the former Imperial stronghold of Vardos, Jinata Security continues its reconstruction efforts on the devastated planet, even while collaborating with the First Order's rearmament program.",
       "hyperspace": true,
-      "cost": 30,
+      "cost": 4,
       "slots": ["Tech", "Turret", "Torpedo", "Missile", "Astromech", "Device"],
       "keywords": ["Y-wing"],
       "ffg": 902,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d1b998eff3b93d5ed05870096aa27817.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d1b998eff3b93d5ed05870096aa27817.jpg",
+      "loadout": 4,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

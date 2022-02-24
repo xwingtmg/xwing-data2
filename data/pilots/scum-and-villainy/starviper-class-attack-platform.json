@@ -49,7 +49,7 @@
       "name": "Black Sun Assassin",
       "initiative": 3,
       "limited": 0,
-      "cost": 49,
+      "cost": 5,
       "xws": "blacksunassassin",
       "text": "Although assassinations can be handled with a shot in the dark or a dire substance added to a drink, a flaming shuttle tumbling from the sky sends a special kind of message.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_181.png",
@@ -60,13 +60,17 @@
       "slots": ["Talent", "Tech", "Torpedo", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg",
       "ffg": 181,
-      "hyperspace": false
+      "hyperspace": false,
+      "loadout": 6,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Black Sun Enforcer",
       "initiative": 2,
       "limited": 0,
-      "cost": 45,
+      "cost": 5,
       "xws": "blacksunenforcer",
       "text": "Prince Xizor himself collaborated with MandalMotors to design the StarViper-class attack platform, one of the most formidable starfighters in the galaxy.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_182.png",
@@ -77,14 +81,18 @@
       "slots": ["Tech", "Torpedo", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg",
       "ffg": 182,
-      "hyperspace": false
+      "hyperspace": false,
+      "loadout": 6,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Dalan Oberos",
       "caption": "Elite Bounty Hunter",
       "initiative": 4,
       "limited": 1,
-      "cost": 51,
+      "cost": 5,
       "xws": "dalanoberos-starviperclassattackplatform",
       "ability": "After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90°.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_179.png",
@@ -96,14 +104,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg",
       "ffg": 179,
       "hyperspace": false,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "loadout": 10,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Guri",
-      "caption": "Prince Xizor's Bodyguard",
+      "caption": "Prince Xizor’s Bodyguard",
       "initiative": 5,
       "limited": 1,
-      "cost": 60,
+      "cost": 7,
       "xws": "guri",
       "ability": "At the start of the Engagement Phase, if there is at least 1 enemy ship at range 0-1, you may gain 1 focus token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_178.png",
@@ -129,14 +141,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_178.jpg",
       "ffg": 178,
       "hyperspace": false,
-      "keywords": ["Droid"]
+      "keywords": ["Droid"],
+      "loadout": 20,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Prince Xizor",
       "caption": "Black Sun Kingpin",
       "initiative": 4,
       "limited": 1,
-      "cost": 51,
+      "cost": 5,
       "xws": "princexizor",
       "ability": "While you defend, after the Neutralize Results step, another friendly ship at range 0-1 and in the attack arc may suffer 1 [Hit] or [Critical Hit] damage. If it does, cancel 1 matching result.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_180.png",
@@ -147,7 +163,11 @@
       "slots": ["Talent", "Tech", "Torpedo", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg",
       "ffg": 180,
-      "hyperspace": false
+      "hyperspace": false,
+      "loadout": 7,
+      "standard": false,
+      "extended": true,
+      "epic": true
     }
   ]
 }

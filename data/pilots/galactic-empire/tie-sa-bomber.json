@@ -41,11 +41,11 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEBomber.png",
   "pilots": [
     {
-      "name": "\"Deathfire\"",
+      "name": "“Deathfire”",
       "caption": "Unflinching Diehard",
       "initiative": 2,
       "limited": 1,
-      "cost": 32,
+      "cost": 4,
       "xws": "deathfire",
       "ability": "After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_110.png",
@@ -65,14 +65,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_110.jpg",
       "ffg": 110,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 11,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Captain Jonus",
       "caption": "Disciplined Instructor",
       "initiative": 4,
       "limited": 1,
-      "cost": 45,
+      "cost": 5,
       "xws": "captainjonus",
       "ability": "While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_108.png",
@@ -93,13 +97,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_108.jpg",
       "ffg": 108,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 10,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Gamma Squadron Ace",
       "initiative": 3,
       "limited": 0,
-      "cost": 30,
+      "cost": 4,
       "xws": "gammasquadronace",
       "text": "Though it sacrifices a degree of speed and maneuverability compared to a TIE/ln, the TIE bomber's increased payload can carry enough firepower to destroy virtually any enemy target.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_111.png",
@@ -120,14 +128,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_111.jpg",
       "ffg": 111,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 10,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Major Rhymer",
       "caption": "Scimitar Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 37,
+      "cost": 5,
       "xws": "majorrhymer",
       "ability": "While you perform a [Torpedo] or [Missile] attack, you may increase or decrease the range requirement by 1, to a limit of 0-3.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_109.png",
@@ -148,13 +160,17 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_109.jpg",
       "ffg": 109,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 20,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Scimitar Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 27,
+      "cost": 3,
       "xws": "scimitarsquadronpilot",
       "text": "The TIE/sa is exceptionally nimble for a bomber, allowing it to pinpoint its target while avoiding excessive collateral damage to the surrounding area.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_112.png",
@@ -174,14 +190,18 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_112.jpg",
       "ffg": 112,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 4,
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Tomax Bren",
       "caption": "Brash Maverick",
       "initiative": 5,
       "limited": 1,
-      "cost": 35,
+      "cost": 4,
       "xws": "tomaxbren",
       "ability": "After you perform a [Reload] action, you may recover 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_107.png",
@@ -202,7 +222,11 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_107.jpg",
       "ffg": 107,
       "hyperspace": false,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "loadout": 10,
+      "standard": false,
+      "extended": true,
+      "epic": true
     }
   ]
 }
