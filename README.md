@@ -27,18 +27,16 @@ XWS ids have to be unique per type (pilot/upgrade/condition/etc) and do not coll
 
 There are a few scripts that make it easier to work on the data.
 
-You can run these scripts using `npm` or `yarn`. For example:
-
-- `npm run hyperspace`
-- `yarn run hyperspace`
+You can run these scripts using `npm` or `yarn`.
 
 ### Scripts to update data
 
 | Script                | Description                                                                                                         |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| `yarn run hyperspace` | Syncs the `hyperspace` status of all cards with the FFG squadbuilder                                                |
-| `yarn run ffgscrape`  | Syncs all data with the FFG squadbuilder (and alerts on missing cards)                                              |
-| `yarn run ffg2xws`    | Generates the [`data/ffg-xws.json`](https://github.com/guidokessels/xwing-data2/blob/master/data/ffg-xws.json) file |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `yarn ts-node ./scripts/amg/parser.ts` | Scrape ship_points.xlsx and upgrade_points.xlsx for points and format legality                                      |
+| `yarn run hyperspace` | Syncs the `hyperspace` status of all cards with the FFG squadbuilder (obsolete)                                                      |
+| `yarn run ffgscrape`  | Syncs all data with the FFG squadbuilder (and alerts on missing cards) (obsolete)                                                    |
+| `yarn run ffg2xws`    | Generates the [`data/ffg-xws.json`](https://github.com/guidokessels/xwing-data2/blob/master/data/ffg-xws.json) file (obsolete)       |
 
 ### Scripts to work with the repository
 
