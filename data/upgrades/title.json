@@ -1079,29 +1079,6 @@
     ]
   },
   {
-    "name": "Trident",
-    "limited": 1,
-    "xws": "trident",
-    "hyperspace": false,
-    "sides": [
-      {
-        "ability": "After you overlap a ship or a ship overlaps you, if it is not tractored, you may spend 1 [Energy]. If you do, it gains 3 tractor tokens.",
-        "title": "Trident",
-        "type": "Title",
-        "slots": ["Title"],
-        "grants": [
-          { "type": "stat", "value": "energy", "amount": 1 }
-        ],
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg"
-      }
-    ],
-    "cost": { "value": 4 },
-    "restrictions": [
-      { "factions": ["Separatist Alliance"] },
-      { "ships": ["tridentclassassaultship"] }
-    ]
-  },
-  {
     "name": "Razor Crest",
     "limited": 1,
     "xws": "razorcrest",
@@ -1125,7 +1102,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/razorcrest.png"
       }
     ],
-    "cost": "?",
+    "cost": { "value": 0 },
     "restrictions": [
       { "ships": ["st70assaultship"] }
     ]
