@@ -784,6 +784,7 @@
         "artwork": "???"
       }
     ],
+<<<<<<< HEAD
     "cost": {
       "value": "?"
     },
@@ -830,5 +831,11 @@
     "cost": {
       "value": "?"
     }
+=======
+    "hyperspace": false,
+    "restrictions": [{
+        "names": ["Mandalorian"]
+      }]
+>>>>>>> 23a402715f239a433a2d6bd6c3a1c4fa4c87799f
   }
 ]
