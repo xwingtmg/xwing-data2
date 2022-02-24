@@ -40,7 +40,8 @@
       "caption": "Brash Noble",
       "initiative": 3,
       "limited": 1,
-      "cost": 33,
+      "cost": 4,
+      "loadout": 11,
       "xws": "lieutenantkarsabi",
       "ability": "After you gain a disarm token, if you are not stressed, you may gain 1 stress token to remove 1 disarm token.",
       "slots": [
@@ -54,7 +55,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_136.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_136.jpg",
       "ffg": 136,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     },
     {
       "name": "Major Vynder",
