@@ -44,13 +44,12 @@
   "pilots": [
     {
       "name": "Carida Academy Cadet",
-      "cost": 34,
+      "cost": 5,
+      "loadout": 8,
       "initiative": 1,
       "slots": [
         "Cannon",
         "Cannon",
-        "Modification",
-        "Modification",
         "Configuration"
       ],
       "xws": "caridaacademycadet",
@@ -58,7 +57,8 @@
         "name": "Rotating Cannons",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "text": "At Carida Academy, Imperial Navy cadets are taught to be ruthless and loyal, prioritizing victory over the lives of their comrades.",
       "ffg": 696,
       "limited": 0,
@@ -68,13 +68,12 @@
     },
     {
       "name": "Onyx Squadron Sentry",
-      "cost": 35,
+      "cost": 5,
+      "loadout": 7,
       "initiative": 3,
       "slots": [
-        "Talent",
         "Cannon",
         "Cannon",
-        "Modification",
         "Modification",
         "Configuration"
       ],
@@ -83,7 +82,8 @@
         "name": "Rotating Cannons",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "text": "The TIE/rb heavy, sometimes called the \"brute,\" is designed for operational flexibility. Its heavy armor and capacity to house an integrated MGK-300 droid co-pilot make it an excellent patrol craft.",
       "ffg": 695,
       "limited": 0,
@@ -94,7 +94,8 @@
     {
       "name": "\"Rampage\"",
       "caption": "Implacable Pursuer",
-      "cost": 38,
+      "cost": 5,
+      "loadout": 14,
       "initiative": 4,
       "limited": 1,
       "slots": [
@@ -111,7 +112,8 @@
         "name": "Rotating Cannons",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": false,
+      "standard": true,
+      "extended": true,
       "ffg": 693,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/ee/88/ee888bad-fa08-42e2-a558-cbf9a6f2da62/swz67_rampage.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/af083fe92dc1b51c2602dad42301d033.jpg",
@@ -120,10 +122,12 @@
     {
       "name": "Lyttan Dree",
       "caption": "Onyx 2",
-      "cost": 36,
+      "cost": 4,
+      "loadout": 10,
       "initiative": 3,
       "limited": 1,
       "slots": [
+        "Sensor",
         "Cannon",
         "Cannon",
         "Modification",
@@ -136,7 +140,8 @@
         "name": "Rotating Cannons",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": false,
+      "standard": true,
+      "extended": true,
       "ffg": 694,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/6f/37/6f375dcd-61b2-407d-bb3f-0c01cf9491ae/swz67_lyttan-dree.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg",

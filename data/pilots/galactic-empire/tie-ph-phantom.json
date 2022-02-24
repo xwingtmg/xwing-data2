@@ -43,7 +43,8 @@
       "caption": "Slippery Trickster",
       "initiative": 4,
       "limited": 1,
-      "cost": 51,
+      "cost": 6,
+      "loadout": 11,
       "xws": "echo",
       "ability": "While you decloak, you must use the [2 [Bank Left]] or [2 [Bank Right]] template instead of the [2 [Straight]] template.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_132.png",
@@ -51,10 +52,11 @@
         "name": "Stygium Array",
         "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
       },
-      "slots": ["Talent", "Sensor", "Modification", "Gunner"],
+      "slots": ["Talent", "Talent", "Sensor", "Modification", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_132.jpg",
       "ffg": 132,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["TIE"]
     },
     {
@@ -62,7 +64,8 @@
       "caption": "Soft-Spoken Slayer",
       "initiative": 5,
       "limited": 1,
-      "cost": 60,
+      "cost": 7,
+      "loadout": 15,
       "xws": "whisper",
       "ability": "After you perform an attack that hits, gain 1 evade token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_131.png",
@@ -70,17 +73,19 @@
         "name": "Stygium Array",
         "text": "After you decloak, you may perform an [Evade] action. At the start of the End Phase, you may spend 1 evade token to gain 1 cloak token."
       },
-      "slots": ["Talent", "Sensor", "Modification", "Gunner"],
+      "slots": ["Talent", "Sensor", "Modification", "Modification", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_131.jpg",
       "ffg": 131,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["TIE"]
     },
     {
       "name": "Imdaar Test Pilot",
       "initiative": 3,
       "limited": 0,
-      "cost": 43,
+      "cost": 5,
+      "loadout": 6,
       "xws": "imdaartestpilot",
       "text": "The primary result of a hidden research facility on Imdaar Alpha, the TIE phantom achieves what many thought was impossible: a small starfighter equipped with an advanced cloaking device.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_134.png",
@@ -91,14 +96,16 @@
       "slots": ["Sensor", "Modification", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_134.jpg",
       "ffg": 134,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["TIE"]
     },
     {
       "name": "Sigma Squadron Ace",
       "initiative": 4,
       "limited": 0,
-      "cost": 49,
+      "cost": 6,
+      "loadout": 9,
       "xws": "sigmasquadronace",
       "text": "Featuring a hyperdrive and shields, the TIE phantom is also equipped with five laser cannons, giving it substantial firepower for an Imperial fighter.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_133.png",
@@ -109,7 +116,8 @@
       "slots": ["Talent", "Sensor", "Modification", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_133.jpg",
       "ffg": 133,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["TIE"]
     }
   ]

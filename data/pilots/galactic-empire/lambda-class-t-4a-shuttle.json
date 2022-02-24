@@ -39,56 +39,64 @@
       "caption": "The Emperor's Shuttle Pilot",
       "initiative": 4,
       "limited": 1,
-      "cost": 47,
+      "cost": 6,
+      "loadout": 22,
       "xws": "captainkagi",
       "ability": "At the start of the Engagement Phase, you may choose 1 or more friendly ships at range 0-3. If you do, transfer all enemy lock tokens from the chosen ships to you.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_142.png",
       "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_142.jpg",
       "ffg": 142,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     },
     {
       "name": "Colonel Jendon",
       "caption": "Darth Vader's Shuttle Pilot",
       "initiative": 3,
       "limited": 1,
-      "cost": 49,
+      "cost": 6,
+      "loadout": 20,
       "xws": "coloneljendon",
       "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, while friendly ships acquire locks this round, they must acquire locks beyond range 3 instead of at range 0-3.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_143.png",
       "charges": { "value": 2, "recovers": 0 },
-      "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
+      "slots": ["Sensor", "Cannon", "Cannon", "Crew", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_143.jpg",
       "ffg": 143,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     },
     {
       "name": "Lieutenant Sai",
       "caption": "Death Squadron Veteran",
       "initiative": 3,
       "limited": 1,
-      "cost": 46,
+      "cost": 5,
+      "loadout": 14,
       "xws": "lieutenantsai",
       "ability": "After you a perform a [Coordinate] action, if the ship you chose performed an action on your action bar, you may perform that action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_144.png",
       "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_144.jpg",
       "ffg": 144,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     },
     {
       "name": "Omicron Group Pilot",
       "initiative": 1,
       "limited": 0,
-      "cost": 41,
+      "cost": 5,
+      "loadout": 8,
       "xws": "omicrongrouppilot",
       "text": "Noted for its tri-wing design and advanced sensor suite, the Lambda-class shuttle serves a critical role as a light utility craft in the Imperial Navy.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_145.png",
-      "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
+      "slots": ["Sensor", "Cannon", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_145.jpg",
       "ffg": 145,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     }
   ]
 }
