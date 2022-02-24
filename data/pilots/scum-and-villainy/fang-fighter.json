@@ -51,6 +51,7 @@
       "initiative": 6,
       "limited": 1,
       "cost": 68,
+      "loadout": 0,
       "xws": "fennrau",
       "ability": "While you defend or perform an attack, if the attack range is 1, you may roll 1 additional die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_155.png",
@@ -61,7 +62,8 @@
       "slots": ["Talent", "Torpedo"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_155.jpg",
       "ffg": 155,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Mandalorian"]
     },
     {
@@ -70,6 +72,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 47,
+      "loadout": 0,
       "xws": "joyrekkoff",
       "ability": "While you perform an attack, you may spend 1 [Charge] from an equipped [Torpedo] upgrade. If you do, the defender rolls 1 fewer defense die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_157.png",
@@ -80,7 +83,8 @@
       "slots": ["Talent", "Torpedo", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_157.jpg",
       "ffg": 157,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Mandalorian"]
     },
     {
@@ -89,6 +93,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 53,
+      "loadout": 0,
       "xws": "kadsolus",
       "ability": "After you fully execute a red maneuver, gain 2 focus tokens.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_158.png",
@@ -99,7 +104,8 @@
       "slots": ["Talent", "Torpedo", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_158.jpg",
       "ffg": 158,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Mandalorian"]
     },
     {
@@ -108,6 +114,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 56,
+      "loadout": 0,
       "xws": "oldteroch",
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship at range 1. If you do and you are in its [Front Arc], it removes all of its green tokens.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_156.png",
@@ -118,7 +125,8 @@
       "slots": ["Talent", "Torpedo", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_156.jpg",
       "ffg": 156,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Mandalorian"]
     },
     {
@@ -126,6 +134,7 @@
       "initiative": 4,
       "limited": 0,
       "cost": 47,
+      "loadout": 0,
       "xws": "skullsquadronpilot",
       "text": "The aces of Skull Squadron favor an aggressive approach, using their craft's pivot wing technology to achieve unmatched agility in the pursuit of their quarry.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_159.png",
@@ -136,7 +145,8 @@
       "slots": ["Talent", "Torpedo", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_159.jpg",
       "ffg": 159,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Mandalorian"]
     },
     {
@@ -144,6 +154,7 @@
       "initiative": 1,
       "limited": 0,
       "cost": 41,
+      "loadout": 0,
       "xws": "zealousrecruit",
       "text": "Mandalorian Fang fighter pilots must master the Concordia Faceoff maneuver, leveraging their ships' narrow attack profile to execute deadly head-on charges.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_160.png",
@@ -154,7 +165,8 @@
       "slots": ["Torpedo", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_160.jpg",
       "ffg": 160,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Mandalorian"]
     },
     {
@@ -171,7 +183,8 @@
       "slots": ["Talent", "Torpedo", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mandalorianroyalguard.png",
       "ffg": 159,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Mandalorian"]
     }
   ]

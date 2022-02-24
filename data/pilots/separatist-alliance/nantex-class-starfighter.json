@@ -46,11 +46,13 @@
         "name": "Pinpoint Tractor Array",
         "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "text": "Designed for the unique physiology of Geonosian pilots, Nantex-class starfighters are capable of maneuvers that would rip most ships—and pilots—apart.",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/62c29b8b7f82e37980d58b39023a800a.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e97a0ae22847e0b71d920a0df9dfcfab.png",
       "cost": 35,
+      "loadout": 0,
       "ffg": 609,
       "slots": ["Talent"]
     },
@@ -63,12 +65,14 @@
         "name": "Pinpoint Tractor Array",
         "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "caption": "Archduke's Enforcer",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ace32f2bdd974de54020be34bfb85a76.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/42265df53c90026a58ac96b0acd3c1f8.png",
       "ability": "While you perform a primary attack, if the defender is tractored, roll 1 additional attack die.",
       "cost": 44,
+      "loadout": 0,
       "ffg": 604,
       "slots": ["Talent", "Talent"]
     },
@@ -81,12 +85,14 @@
         "name": "Pinpoint Tractor Array",
         "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "caption": "Hive Guard Captain",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8466283eeb7d476744913f5d9d69e745.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f1c76ce6ff266c23099686392efef565.png",
       "ability": "After you perform an attack that hits, each friendly ship with [Calculate] on its action bar and a lock on the defender may perform a red [Calculate] action.",
       "cost": 37,
+      "loadout": 0,
       "ffg": 605,
       "slots": ["Talent", "Talent"]
     },
@@ -99,12 +105,14 @@
         "name": "Pinpoint Tractor Array",
         "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "caption": "Opportunistic Ace",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fc7fff6c1e6eb73ff6ae10768f5491a7.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/07504533be45d13cb82d71ea11d234f7.png",
       "ability": "While you perform a primary attack, if the defender is tractored, you may reroll up to 2 attack dice.",
       "cost": 36,
+      "loadout": 0,
       "ffg": 606,
       "slots": ["Talent", "Talent"]
     },
@@ -112,6 +120,7 @@
       "name": "Gorgol",
       "caption": "Handy Engineer",
       "cost": 32,
+      "loadout": 0,
       "ffg": 607,
       "limited": 1,
       "initiative": 2,
@@ -122,13 +131,15 @@
         "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
       "ability": "During the System Phase, you may gain 1 disarm token and choose a friendly ship at range 1-2. If you do, it gains 1 tractor token, then repairs 1 of its faceup Ship trait damage cards.",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "slots": ["Talent", "Modification"],
       "xws": "gorgol"
     },
     {
       "name": "Petranaki Arena Ace",
       "cost": 37,
+      "loadout": 0,
       "ffg": 608,
       "initiative": 4,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/5c32b5d481ad922be7a0ec4a3743d1d6.jpg",
@@ -138,7 +149,8 @@
         "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
       "text": "The Petranaki Arena is a massive edifice on Geonosis that was a key site in the first battle of the Clone Wars.",
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "limited": 0,
       "slots": ["Talent", "Talent"],
       "xws": "petranakiarenaace"

@@ -42,6 +42,7 @@
       "initiative": 1,
       "limited": 0,
       "cost": 27,
+      "loadout": 0,
       "xws": "cartelspacer",
       "text": "MandalMotors' M3-A \"Scyk\" Interceptor is purchased in large quantities by the Hutt Cartel and the Car'das smugglers due to its low cost and customizability.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_190.png",
@@ -52,7 +53,8 @@
       "slots": ["Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_190.jpg",
       "ffg": 190,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     },
     {
       "name": "Genesis Red",
@@ -60,6 +62,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 31,
+      "loadout": 0,
       "xws": "genesisred",
       "ability": "After you acquire a lock, you must remove all of your focus and evade tokens. Then, gain the same number of focus and evade tokens that the locked ship has.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_184.png",
@@ -70,7 +73,8 @@
       "slots": ["Talent", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_184.jpg",
       "ffg": 184,
-      "hyperspace": true
+      "standard": true,
+      "extended": true
     },
     {
       "name": "Inaldra",
@@ -78,6 +82,7 @@
       "initiative": 2,
       "limited": 1,
       "cost": 30,
+      "loadout": 0,
       "xws": "inaldra",
       "ability": "While you defend or perform an attack, you may suffer 1 [Hit] damage to reroll any number of your dice.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_187.png",
@@ -88,7 +93,8 @@
       "slots": ["Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_187.jpg",
       "ffg": 187,
-      "hyperspace": true
+      "standard": true,
+      "extended": true
     },
     {
       "name": "Laetin A'shera",
@@ -96,6 +102,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 30,
+      "loadout": 0,
       "xws": "laetinashera",
       "ability": "After you defend or perform an attack, if the attack missed, gain 1 evade token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_185.png",
@@ -106,7 +113,8 @@
       "slots": ["Talent", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_185.jpg",
       "ffg": 185,
-      "hyperspace": true
+      "standard": true,
+      "extended": true
     },
     {
       "name": "Quinn Jast",
@@ -114,6 +122,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 31,
+      "loadout": 0,
       "xws": "quinnjast",
       "ability": "At the start of the Engagement Phase, you may gain 1 disarm token to recover 1 [Charge] on 1 of your equipped upgrades.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_186.png",
@@ -124,7 +133,8 @@
       "slots": ["Talent", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_186.jpg",
       "ffg": 186,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Bounty Hunter"]
     },
     {
@@ -133,6 +143,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 40,
+      "loadout": 0,
       "xws": "serissu",
       "ability": "While a friendly ship at range 0-1 defends, it may reroll 1 of its dice.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_183.png",
@@ -143,7 +154,8 @@
       "slots": ["Talent", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_183.jpg",
       "ffg": 183,
-      "hyperspace": true
+      "standard": true,
+      "extended": true
     },
     {
       "name": "Sunny Bounder",
@@ -151,6 +163,7 @@
       "initiative": 1,
       "limited": 1,
       "cost": 27,
+      "loadout": 0,
       "xws": "sunnybounder",
       "ability": "While you defend or perform an attack, after you roll or reroll your dice, if you have the same result on each of your dice, you may add 1 matching result.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_188.png",
@@ -161,13 +174,15 @@
       "slots": ["Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_188.jpg",
       "ffg": 188,
-      "hyperspace": true
+      "standard": true,
+      "extended": true
     },
     {
       "name": "Tansarii Point Veteran",
       "initiative": 3,
       "limited": 0,
       "cost": 29,
+      "loadout": 0,
       "xws": "tansariipointveteran",
       "text": "The defeat of Black Sun ace Talonbane Cobra by Car'das smugglers turned the tide of the Battle of Tansarii Point Station. Survivors of the clash are respected throughout the sector.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_189.png",
@@ -178,7 +193,8 @@
       "slots": ["Talent", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_189.jpg",
       "ffg": 189,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     },
     {
       "name": "G4R-G0R V/M",
@@ -190,10 +206,12 @@
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
       "caption": "Tilted Droid",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "slots": ["Modification"],
       "ability": "After you defend, each other ship at range 0 suffers 1 [Critical Hit] damage.",
       "cost": 28,
+      "loadout": 0,
       "ffg": 636,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f1d43e799b5f829b40c091a2274e570f.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/22cf051c016aacea162995df8e9129a2.png",

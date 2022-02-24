@@ -56,8 +56,10 @@
         "Modification",
         "Title"
       ],
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "cost": 26,
+      "loadout": 0,
       "text": "Some ambitious and talented pilots begin their racing careers as ground crew, working around the clock to keep cobbled-together ships in the sky on far-flung worlds like Castilon.",
       "ffg": 623,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a8a4a52f9ced88c0bb7b9e90e0e75a18.jpg",
@@ -72,7 +74,8 @@
         "name": "Explosion with Wings",
         "text": "Setup: You are dealt 1 facedown damage card. After you perform a [SLAM] action, you may expose 1 damage card to remove 1 disarm token."
       },
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "slots": [
         "Talent",
         "Missile",
@@ -83,6 +86,7 @@
         "Title"
       ],
       "cost": 31,
+      "loadout": 0,
       "ability": "While you have 2 or fewer stress tokens, if you are damaged, you can execute red basic maneuvers even while stressed; if you are critically damaged, you can execute red advanced maneuvers even while stressed.",
       "caption": "Too Old for This",
       "ffg": 620,
@@ -99,7 +103,8 @@
         "text": "Setup: You are dealt 1 facedown damage card. After you perform a [SLAM] action, you may expose 1 damage card to remove 1 disarm token."
       },
       "caption": "Best Pilot in the Galaxy",
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "slots": [
         "Talent",
         "Missile",
@@ -111,6 +116,7 @@
       ],
       "ability": "While you defend or perform a primary attack, if the enemy ship's initiative is higher than the number of damage cards you have, you may roll 1 additional die.",
       "cost": 38,
+      "loadout": 0,
       "ffg": 621,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4ffdf7cc8ed023322ccf4217ff64b4d2.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ee98b839cf64d8d5d6f4948947abd70b.png"
@@ -125,7 +131,8 @@
         "text": "Setup: You are dealt 1 facedown damage card. After you perform a [SLAM] action, you may expose 1 damage card to remove 1 disarm token."
       },
       "caption": "Bucket",
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "slots": [
         "Missile",
         "Crew",
@@ -136,6 +143,7 @@
       ],
       "ability": "Before you expose 1 of your damage cards, you may look at your facedown damage cards, choose 1, and expose that card instead.",
       "cost": 27,
+      "loadout": 0,
       "ffg": 622,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/686597246669987fe1b938f1419e598d.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c5cfd1d89a204722ff95e9a4b134e7f1.png",

@@ -40,6 +40,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 28,
+      "loadout": 0,
       "xws": "ahhav",
       "ability": "While you defend or perform an attack, if the enemy ship is a larger size than you, roll 1 additional die.",
       "shipAbility": {
@@ -50,7 +51,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2d162fae88ae58b9eca31f7dc0b7a9da.jpg",
       "slots": ["Talent", "Modification"],
       "ffg": 442,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["TIE"]
     },
     {
@@ -59,6 +61,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 30,
+      "loadout": 0,
       "xws": "captainseevor",
       "ability": "While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's [Bullseye Arc], you may spend 1 [Charge]. If you do, the enemy ship gains 1 jam token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/70b64586cc2eb05d10efc7ba8dfd69d0.png",
@@ -70,7 +73,8 @@
       },
       "slots": ["Talent", "Modification"],
       "ffg": 443,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["TIE"]
     },
     {
@@ -79,6 +83,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 29,
+      "loadout": 0,
       "xws": "foremanproach",
       "ability": "Before you engage, you may choose 1 enemy ship in your [Bullseye Arc] at range 1-2 and gain 1 disarm token. If you do, that ship gains 1 tractor token.",
       "shipAbility": {
@@ -89,7 +94,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f789aa53866112fc44fd27ed9e177993.jpg",
       "slots": ["Talent", "Modification"],
       "ffg": 441,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["TIE"]
     },
     {
@@ -97,6 +103,7 @@
       "initiative": 2,
       "limited": 0,
       "cost": 23,
+      "loadout": 0,
       "xws": "miningguildsurveyor",
       "text": "With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly exploits newly discovered deposits of doonium ore on worlds such as Batonn, Lothal, and Umbara.",
       "shipAbility": {
@@ -107,7 +114,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ad058d0b6d46f668f06bf0007207a30a.jpg",
       "slots": ["Talent", "Modification"],
       "ffg": 445,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["TIE"]
     },
     {
@@ -116,6 +124,7 @@
       "initiative": 2,
       "limited": 1,
       "cost": 24,
+      "loadout": 0,
       "xws": "overseeryushyn",
       "ability": "Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token instead.",
       "shipAbility": {
@@ -127,7 +136,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1f454eb7c12b572103e59a9a782c3f50.jpg",
       "slots": ["Modification"],
       "ffg": 444,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["TIE"]
     },
     {
@@ -135,6 +145,7 @@
       "initiative": 1,
       "limited": 0,
       "cost": 22,
+      "loadout": 0,
       "xws": "miningguildsentry",
       "text": "As part of its arrangement with the Empire, the Mining Guild receives modified TIE/ln Fighters to protect its operations. These craft have solar panels removed from their stabilizers for improved visibility, and feature more extensive life support systems for the benefit of their corporate pilots.",
       "shipAbility": {
@@ -145,7 +156,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/09c955b8008750a30fe398c200431160.jpg",
       "slots": ["Modification"],
       "ffg": 446,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["TIE"]
     }
   ]

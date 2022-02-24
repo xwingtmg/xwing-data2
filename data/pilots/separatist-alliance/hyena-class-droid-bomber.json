@@ -50,8 +50,10 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "cost": 26,
+      "loadout": 0,
       "slots": [
         "Torpedo",
         "Missile",
@@ -77,8 +79,10 @@
       },
       "ability": "If you would drop a device, you may launch that device instead, using the same template.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/099422de35fb5ad2c2d238237e7dfe2c.png",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "cost": 30,
+      "loadout": 0,
       "slots": ["Sensor", "Device", "Device", "Modification", "Configuration"],
       "ffg": 565,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/bc5e862af323dbe8db28d0d6bc6be4ad.jpg",
@@ -94,8 +98,10 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "cost": 31,
+      "loadout": 0,
       "slots": [
         "Torpedo",
         "Missile",
@@ -121,8 +127,10 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "cost": 29,
+      "loadout": 0,
       "slots": [
         "Sensor",
         "Missile",
@@ -145,8 +153,10 @@
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "cost": 29,
+      "loadout": 0,
       "slots": [
         "Torpedo",
         "Missile",
@@ -180,8 +190,10 @@
         },
         { "difficulty": "Red", "type": "Jam" }
       ],
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "cost": 40,
+      "loadout": 0,
       "slots": ["Sensor", "Tactical Relay", "Modification", "Configuration"],
       "ffg": 564,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f58f50898f4fa3900eb1b7d01aec4ae5.jpg",

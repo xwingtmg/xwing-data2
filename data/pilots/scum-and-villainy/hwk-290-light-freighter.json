@@ -51,6 +51,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 31,
+      "loadout": 0,
       "xws": "dacebonearm",
       "ability": "After an enemy ship at range 0-3 receives at least 1 ion token, you may spend 3 [Charge]. If you do, that ship gains 2 additional ion tokens.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_174.png",
@@ -66,7 +67,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_174.jpg",
       "ffg": 174,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Freighter"]
     },
     {
@@ -75,6 +77,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 40,
+      "loadout": 0,
       "xws": "palobgodalhi",
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your firing arc at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_175.png",
@@ -89,7 +92,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_175.jpg",
       "ffg": 175,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Freighter"]
     },
     {
@@ -97,6 +101,7 @@
       "initiative": 1,
       "limited": 0,
       "cost": 28,
+      "loadout": 0,
       "xws": "spicerunner",
       "text": "Though its cargo space is limited compared to other light freighters, the small, swift HWK-290 is a favorite choice of smugglers who specialize in discreetly transporting precious goods.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_177.png",
@@ -110,7 +115,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_177.jpg",
       "ffg": 177,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Freighter"]
     },
     {
@@ -119,6 +125,7 @@
       "initiative": 2,
       "limited": 1,
       "cost": 38,
+      "loadout": 0,
       "xws": "torkilmux",
       "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_176.png",
@@ -132,7 +139,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_176.jpg",
       "ffg": 176,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Freighter"]
     },
     {
@@ -140,9 +148,11 @@
       "xws": "gamutkey",
       "initiative": 3,
       "limited": 1,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Freighter"],
       "cost": 34,
+      "loadout": 0,
       "slots": [
         "Talent",
         "Crew",
@@ -163,10 +173,12 @@
       "initiative": 3,
       "limited": 1,
       "caption": "Lost Padawan",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Jedi", "Light Side"],
       "force": { "value": 1, "recovers": 1 },
       "cost": 42,
+      "loadout": 0,
       "slots": [
         "Force Power",
         "Crew",
@@ -186,8 +198,10 @@
       "initiative": 5,
       "limited": 1,
       "caption": "Order 66 Informant",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "cost": 36,
+      "loadout": 0,
       "slots": [
         "Talent",
         "Crew",

@@ -43,6 +43,7 @@
       "caption": "Valkyrie 2929",
       "initiative": 4,
       "cost": 51,
+      "loadout": 0,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Talent",
@@ -62,7 +63,8 @@
         "text": "While a friendly ship performs a non-[Single Turret Arc] attack, if the defender is in your [Single Turret Arc], you may spend 1 [Charge]. If you do, the attacker rerolls up to 2 attack dice."
       },
       "ability": "At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a [Barrel Roll] or [Boost] action.",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Clone"]
     },
     {
@@ -72,6 +74,7 @@
       "caption": "Vigilant Tracker",
       "initiative": 2,
       "cost": 48,
+      "loadout": 0,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Missile",
@@ -90,7 +93,8 @@
         "text": "While a friendly ship performs a non-[Single Turret Arc] attack, if the defender is in your [Single Turret Arc], you may spend 1 [Charge]. If you do, the attacker rerolls up to 2 attack dice."
       },
       "ability": "After a friendly small ship in your [Single Turret Arc] gains a deplete or strain token, if you have no tokens of that type, you may transfer that token to yourself.",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Clone"]
     },
     {
@@ -100,6 +104,7 @@
       "caption": "Veteran of Kadavo",
       "initiative": 3,
       "cost": 52,
+      "loadout": 0,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Missile",
@@ -118,7 +123,8 @@
         "text": "While a friendly ship performs a non-[Single Turret Arc] attack, if the defender is in your [Single Turret Arc], you may spend 1 [Charge]. If you do, the attacker rerolls up to 2 attack dice."
       },
       "ability": "After you or a friendly non-limited ship at range 0-2 are destroyed during the Engagement Phase, that ship is not removed until the end of that phase.",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Clone"]
     },
     {
@@ -127,8 +133,10 @@
       "limited": 0,
       "xws": "212thbattalionpilot",
       "text": "Capable of functioning in space assaults and atmospheric battles alike, the LAAT/i gunship transports Republic troops to battlefronts on planets besieged by the Separatists.",
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "cost": 47,
+      "loadout": 0,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Missile",

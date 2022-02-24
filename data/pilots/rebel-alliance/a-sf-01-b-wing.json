@@ -46,6 +46,7 @@
       "initiative": 3,
       "limited": 0,
       "cost": 42,
+      "loadout": 0,
       "xws": "bladesquadronveteran",
       "text": "A unique gyrostabilization system surrounds the B-wing's cockpit, ensuring that the pilot always remains stationary during flight.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_25.png",
@@ -61,7 +62,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg",
       "ffg": 25,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["B-wing"]
     },
     {
@@ -69,6 +71,7 @@
       "initiative": 2,
       "limited": 0,
       "cost": 41,
+      "loadout": 0,
       "xws": "bluesquadronpilot",
       "text": "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_26.png",
@@ -89,7 +92,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_26.jpg",
       "ffg": 26,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["B-wing"]
     },
     {
@@ -98,6 +102,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 52,
+      "loadout": 0,
       "xws": "braylenstramm",
       "ability": "While you defend or perform an attack, if you are stressed, you may reroll up to 2 of your dice.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_23.png",
@@ -113,7 +118,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg",
       "ffg": 23,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["B-wing"]
     },
     {
@@ -122,6 +128,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 49,
+      "loadout": 0,
       "xws": "tennumb",
       "ability": "While you defend or perform an attack, you may spend 1 stress token to change all of your [Focus] results to [Evade] or [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_24.png",
@@ -137,7 +144,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg",
       "ffg": 24,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["B-wing"]
     },
     {
@@ -146,7 +154,8 @@
       "initiative": 5,
       "limited": 1,
       "caption": "Insubordinate Ace",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "slots": [
         "Talent",
         "Sensor",
@@ -159,6 +168,7 @@
       ],
       "ability": "At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2.",
       "cost": 45,
+      "loadout": 0,
       "ffg": 628,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/df07f280040d4284c04c194e18c62c9e.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/0fcceeaf64f96b4870146ffbec529dc2.png",
@@ -170,9 +180,11 @@
       "initiative": 6,
       "limited": 1,
       "caption": "Phoenix Leader",
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["B-wing", "Spectre"],
       "cost": 48,
+      "loadout": 0,
       "slots": [
         "Talent",
         "Sensor",
@@ -193,8 +205,10 @@
       "initiative": 3,
       "limited": 1,
       "caption": "Dagger Leader",
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "cost": 43,
+      "loadout": 0,
       "slots": [
         "Talent",
         "Sensor",

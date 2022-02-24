@@ -49,8 +49,9 @@
       "initiative": 2,
       "limited": 0,
       "cost": 41,
+      "loadout": 0,
       "xws": "contractedscout",
-      "text": "Built for long-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
+      "text": "Built for long-distance reconnaissance and plotting new standard routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_217.png",
       "slots": [
         "Cannon",
@@ -63,7 +64,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg",
       "ffg": 217,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     },
     {
       "name": "Dengar",
@@ -71,6 +73,7 @@
       "initiative": 6,
       "limited": 1,
       "cost": 53,
+      "loadout": 0,
       "xws": "dengar",
       "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_214.png",
@@ -93,7 +96,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_214.jpg",
       "ffg": 214,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Bounty Hunter"]
     },
     {
@@ -102,6 +106,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 45,
+      "loadout": 0,
       "xws": "manaroo",
       "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_215.png",
@@ -117,7 +122,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_215.jpg",
       "ffg": 215,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Bounty Hunter"]
     },
     {
@@ -126,6 +132,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 44,
+      "loadout": 0,
       "xws": "teltrevura",
       "ability": "If you would be destroyed, you may spend 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [Hit] damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_216.png",
@@ -142,7 +149,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg",
       "ffg": 216,
-      "hyperspace": true
+      "standard": true,
+      "extended": true
     },
     {
       "name": "Nom Lumb",
@@ -150,7 +158,8 @@
       "initiative": 1,
       "limited": 1,
       "caption": "On the Run",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "slots": [
         "Cannon",
         "Torpedo",
@@ -162,6 +171,7 @@
       ],
       "ability": "After you become the defender, if the attacker is not in your [Single Turret Arc], you must rotate your [Single Turret Arc] indicator to a standard arc the attacker is in.",
       "cost": 38,
+      "loadout": 0,
       "ffg": 637,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3de089d708ab1c7d8aee35ef99a1f1ed.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4a13a4b7493d39f53b9c37c6a82edf5a.png",

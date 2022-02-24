@@ -50,6 +50,7 @@
       "initiative": 3,
       "limited": 0,
       "cost": 49,
+      "loadout": 0,
       "xws": "blacksunassassin",
       "text": "Although assassinations can be handled with a shot in the dark or a dire substance added to a drink, a flaming shuttle tumbling from the sky sends a special kind of message.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_181.png",
@@ -60,13 +61,15 @@
       "slots": ["Talent", "Tech", "Torpedo", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg",
       "ffg": 181,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     },
     {
       "name": "Black Sun Enforcer",
       "initiative": 2,
       "limited": 0,
       "cost": 45,
+      "loadout": 0,
       "xws": "blacksunenforcer",
       "text": "Prince Xizor himself collaborated with MandalMotors to design the StarViper-class attack platform, one of the most formidable starfighters in the galaxy.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_182.png",
@@ -77,7 +80,8 @@
       "slots": ["Tech", "Torpedo", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg",
       "ffg": 182,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     },
     {
       "name": "Dalan Oberos",
@@ -85,6 +89,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 51,
+      "loadout": 0,
       "xws": "dalanoberos-starviperclassattackplatform",
       "ability": "After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90°.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_179.png",
@@ -95,7 +100,8 @@
       "slots": ["Talent", "Tech", "Torpedo", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg",
       "ffg": 179,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Bounty Hunter"]
     },
     {
@@ -104,6 +110,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 60,
+      "loadout": 0,
       "xws": "guri",
       "ability": "At the start of the Engagement Phase, if there is at least 1 enemy ship at range 0-1, you may gain 1 focus token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_178.png",
@@ -128,7 +135,8 @@
       "slots": ["Talent", "Tech", "Torpedo", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_178.jpg",
       "ffg": 178,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Droid"]
     },
     {
@@ -137,6 +145,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 51,
+      "loadout": 0,
       "xws": "princexizor",
       "ability": "While you defend, after the Neutralize Results step, another friendly ship at range 0-1 and in the attack arc may suffer 1 [Hit] or [Critical Hit] damage. If it does, cancel 1 matching result.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_180.png",
@@ -147,7 +156,8 @@
       "slots": ["Talent", "Tech", "Torpedo", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg",
       "ffg": 180,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     }
   ]
 }

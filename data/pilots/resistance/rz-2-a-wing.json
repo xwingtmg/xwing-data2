@@ -45,6 +45,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 40,
+      "loadout": 0,
       "xws": "lulolampar",
       "ability": "While you defend or perform a primary attack, if you are stressed, you must roll 1 fewer defense die or 1 additional attack die.",
       "shipAbility": {
@@ -55,7 +56,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e15d3e2a2fc082b95a64a83df0c96f7f.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b97a025a7859f54bbc68374ff5d8116e.jpg",
       "ffg": 435,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["A-wing"]
     },
     {
@@ -64,6 +66,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 37,
+      "loadout": 0,
       "xws": "tallissanlintra",
       "ability": "While an enemy ship in your [Bullseye Arc] performs an attack, you may spend 1 [Charge]. If you do, the defender rolls 1 additional die.",
       "shipAbility": {
@@ -75,7 +78,8 @@
       "charges": { "value": 1, "recovers": 1 },
       "slots": ["Talent", "Talent", "Missile", "Tech"],
       "ffg": 436,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["A-wing"]
     },
     {
@@ -84,6 +88,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 35,
+      "loadout": 0,
       "xws": "zaribangel",
       "ability": "You do not skip your Perform Action step after you partially execute a maneuver.",
       "shipAbility": {
@@ -94,7 +99,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2fe44e1e5496645c16f4d2189a1746e3.jpg",
       "slots": ["Talent", "Talent", "Missile", "Tech"],
       "ffg": 438,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["A-wing"]
     },
     {
@@ -103,6 +109,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 36,
+      "loadout": 0,
       "xws": "greersonnel",
       "ability": "After you fully execute a maneuver, you may rotate your [Single Turret Arc].",
       "shipAbility": {
@@ -113,7 +120,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/84bf1ce21926d4500b54e122da01b162.jpg",
       "slots": ["Talent", "Talent", "Missile", "Tech"],
       "ffg": 437,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["A-wing"]
     },
     {
@@ -121,6 +129,7 @@
       "initiative": 3,
       "limited": 0,
       "cost": 34,
+      "loadout": 0,
       "xws": "greensquadronexpert",
       "text": "Years of field-expedient modifications were standardized in the RZ-2 design, but daring pilots see the ship's improved reliability as a challenge to further push the limits of its performance.",
       "shipAbility": {
@@ -131,7 +140,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3f7ad9efb4c5af8b4d1f5c07a3c7538b.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8427bdfb1cf9497a9ab797e2c955ba41.jpg",
       "ffg": 439,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["A-wing"]
     },
     {
@@ -139,6 +149,7 @@
       "initiative": 1,
       "limited": 0,
       "cost": 33,
+      "loadout": 0,
       "xws": "bluesquadronrecruit",
       "text": "Young beings across the galaxy have grown up on tales of heroism in the Galactic Civil War, and many learned to fly in the same cockpits from which their parents fought the Empire.",
       "shipAbility": {
@@ -149,7 +160,8 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e033b2729305ac0b678d6031ada7b2b8.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3df643a75106a59899e5f32ef56e8a5e.jpg",
       "ffg": 440,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["A-wing"]
     },
     {
@@ -162,10 +174,12 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "caption": "Committed to the Cause",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "slots": ["Talent", "Talent", "Tech", "Missile"],
       "ability": "After you defend or perform an attack, you may spend 1 [Charge] to gain 1 focus or evade token.",
       "cost": 41,
+      "loadout": 0,
       "ffg": 638,
       "charges": { "value": 1, "recovers": 1 },
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7d5b4f0691b55e9c755b1e71bd16a422.jpg",
@@ -182,10 +196,12 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "caption": "Reckless Rookie",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "slots": ["Talent", "Tech", "Missile"],
       "ability": "While you defend or perform an attack, if the enemy ship is in another friendly ship's [Single Turret Arc], you may spend 1 focus token from that friendly ship to change 1 of your [Focus] results to an [Evade] or [Hit] result.",
       "cost": 34,
+      "loadout": 0,
       "ffg": 639,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0930bea45803774f4b0d863b92a64328.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1e861cadd2291ece7a9207cddcdcba39.png",
@@ -197,6 +213,7 @@
       "initiative": 1,
       "limited": 1,
       "cost": 33,
+      "loadout": 0,
       "xws": "merlcobben",
       "ability": "While a friendly ship at range 0-2 performs a primary attack, if you are in the defender's [Bullseye Arc], the defender rolls 1 fewer defense die.",
       "shipAbility": {
@@ -204,7 +221,8 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "slots": ["Talent", "Missile", "Tech"],
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "ffg": 704,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/18/3e/183ed99b-c562-4db5-9377-daf4661dfac9/swz68_merl-cobben.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c51115091ff7f31d6c2da890ed303dd8.jpg",
@@ -216,6 +234,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 35,
+      "loadout": 0,
       "xws": "suralindajavos",
       "ability": "After you partially execute a maneuver, you may gain 1 strain token to rotate 90° or 180°.",
       "shipAbility": {
@@ -223,7 +242,8 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "slots": ["Talent", "Talent", "Missile", "Tech"],
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "ffg": 703,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/e1/64/e1644adc-8d8a-4408-90a1-621e0dd4b0c6/swz68_suralinda-javos.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/255fef80a9e49eb154f254405b6d4ff5.jpg",
@@ -235,6 +255,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 35,
+      "loadout": 0,
       "xws": "wrobietyce",
       "ability": "After you defend at attack range 1, if the attacker modified its dice, the attacker gains 1 deplete token.",
       "shipAbility": {
@@ -242,7 +263,8 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "slots": ["Talent", "Talent", "Missile", "Tech"],
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "ffg": 702,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/d3/66/d3669149-00da-4abf-9e08-9655e10db166/swz68_wrobie-tyce.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cdc08804712c43ad1f8c6d0597f9d8e3.jpg",
@@ -254,6 +276,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 37,
+      "loadout": 0,
       "xws": "seftinvanik",
       "ability": "After you perform a [Boost] action, you may transfer 1 evade token to a friendly ship at range 1.",
       "shipAbility": {
@@ -261,7 +284,8 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. After you perform an action, you may perform a red [Boost] or red [Rotate Arc] action."
       },
       "slots": ["Talent", "Talent", "Missile", "Tech"],
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "ffg": 701,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/73/ef/73ef0cdc-deb6-451d-a76c-0b3d9ef147ec/swz68_seftin-vanik.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ee11a475190af6c517ca872b19cdaa62.jpg",

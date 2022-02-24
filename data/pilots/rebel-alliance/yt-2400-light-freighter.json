@@ -44,6 +44,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 72,
+      "loadout": 0,
       "xws": "leebo",
       "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_78.png",
@@ -67,7 +68,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_78.jpg",
       "ffg": 78,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Droid", "Freighter"]
     },
     {
@@ -76,6 +78,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 79,
+      "loadout": 0,
       "xws": "dashrendar",
       "ability": "While you move, you ignore obstacles.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_77.png",
@@ -94,7 +97,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_77.jpg",
       "ffg": 77,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Freighter"]
     },
     {
@@ -102,6 +106,7 @@
       "initiative": 1,
       "limited": 0,
       "cost": 72,
+      "loadout": 0,
       "xws": "wildspacefringer",
       "text": "Although stock YT-2400 light freighters have plenty of room for cargo, that space is often annexed to support modified weapon systems and oversized engines.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_79.png",
@@ -112,7 +117,8 @@
       "slots": ["Missile", "Crew", "Crew", "Illicit", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_79.jpg",
       "ffg": 79,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Freighter"]
     }
   ]

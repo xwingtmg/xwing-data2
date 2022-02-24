@@ -56,6 +56,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 59,
+      "loadout": 0,
       "xws": "corranhorn",
       "ability": "At initiative 0, you may perform a bonus primary attack against an enemy ship in your [Bullseye Arc]. If you do, at the start of the next Planning Phase, gain 1 disarm token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_50.png",
@@ -73,7 +74,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_50.jpg",
       "ffg": 50,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     },
     {
       "name": "Gavin Darklighter",
@@ -81,6 +83,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 55,
+      "loadout": 0,
       "xws": "gavindarklighter",
       "ability": "While a friendly ship performs an attack, if the defender is in your [Front Arc], the attacker may change 1 [Hit] result to a [Critical Hit] result.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_51.png",
@@ -98,13 +101,15 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_51.jpg",
       "ffg": 51,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     },
     {
       "name": "Knave Squadron Escort",
       "initiative": 2,
       "limited": 0,
       "cost": 48,
+      "loadout": 0,
       "xws": "knavesquadronescort",
       "text": "Designed to combine the best features of the X-wing series with the A-wing series, the E-wing boasts superior firepower, speed, and maneuverability.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_53.png",
@@ -115,13 +120,15 @@
       "slots": ["Sensor", "Tech", "Torpedo", "Astromech", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_53.jpg",
       "ffg": 53,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     },
     {
       "name": "Rogue Squadron Escort",
       "initiative": 4,
       "limited": 0,
       "cost": 51,
+      "loadout": 0,
       "xws": "roguesquadronescort",
       "text": "The elite pilots of Rogue Squadron are among the Rebellion's very best.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_52.png",
@@ -139,7 +146,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_52.jpg",
       "ffg": 52,
-      "hyperspace": false
+      "standard": false,
+      "extended": true
     }
   ]
 }

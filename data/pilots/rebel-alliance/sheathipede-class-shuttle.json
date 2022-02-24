@@ -42,6 +42,7 @@
       "initiative": 2,
       "limited": 1,
       "cost": 33,
+      "loadout": 0,
       "xws": "zeborrelios-sheathipedeclassshuttle",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_40.png",
@@ -52,7 +53,8 @@
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_40.jpg",
       "ffg": 40,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Spectre"]
     },
     {
@@ -61,6 +63,7 @@
       "initiative": 1,
       "limited": 1,
       "cost": 32,
+      "loadout": 0,
       "xws": "ap5",
       "ability": "While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_41.png",
@@ -75,7 +78,8 @@
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_41.jpg",
       "ffg": 41,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Droid", "Spectre"]
     },
     {
@@ -84,6 +88,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 40,
+      "loadout": 0,
       "xws": "ezrabridger-sheathipedeclassshuttle",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade]/[Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_39.png",
@@ -95,7 +100,8 @@
       "slots": ["Crew", "Astromech", "Modification", "Title", "Force Power"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_39.jpg",
       "ffg": 39,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Light Side", "Spectre"]
     },
     {
@@ -104,6 +110,7 @@
       "initiative": 6,
       "limited": 1,
       "cost": 47,
+      "loadout": 0,
       "xws": "fennrau-sheathipedeclassshuttle",
       "ability": "Before an enemy ship in your firing arc engages, if you are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/43140025bc61b3e64ef6831987cafb2c.png",
@@ -114,7 +121,8 @@
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_38.jpg",
       "ffg": 38,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Mandalorian"]
     }
   ]

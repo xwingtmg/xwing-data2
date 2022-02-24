@@ -47,6 +47,7 @@
       "initiative": 2,
       "limited": 1,
       "cost": 33,
+      "loadout": 0,
       "xws": "zeborrelios",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_37.png",
@@ -57,7 +58,8 @@
       "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_37.jpg",
       "ffg": 37,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Spectre"]
     },
     {
@@ -66,6 +68,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 40,
+      "loadout": 0,
       "xws": "ezrabridger",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_36.png",
@@ -77,7 +80,8 @@
       "slots": ["Turret", "Crew", "Modification", "Title", "Force Power"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_36.jpg",
       "ffg": 36,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Light Side", "Spectre"]
     },
     {
@@ -86,6 +90,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 38,
+      "loadout": 0,
       "xws": "herasyndulla",
       "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_34.png",
@@ -96,7 +101,8 @@
       "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_34.jpg",
       "ffg": 34,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Spectre"]
     },
     {
@@ -105,6 +111,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 41,
+      "loadout": 0,
       "xws": "sabinewren",
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_35.png",
@@ -115,7 +122,8 @@
       "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_35.jpg",
       "ffg": 35,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Mandalorian", "Spectre"]
     }
   ]

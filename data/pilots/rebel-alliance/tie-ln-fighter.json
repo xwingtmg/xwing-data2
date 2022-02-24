@@ -41,13 +41,15 @@
       "initiative": 2,
       "limited": 1,
       "cost": 22,
+      "loadout": 0,
       "xws": "zeborrelios-tielnfighter",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_49.png",
       "slots": ["Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_49.jpg",
       "ffg": 49,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Spectre", "TIE"]
     },
     {
@@ -56,6 +58,7 @@
       "initiative": 2,
       "limited": 1,
       "cost": 26,
+      "loadout": 0,
       "xws": "captainrex",
       "ability": "After you perform an attack, assign the Suppressive Fire condition to the defender.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_48.png",
@@ -63,7 +66,8 @@
       "slots": ["Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg",
       "ffg": 48,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Clone", "TIE"]
     },
     {
@@ -72,6 +76,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 26,
+      "loadout": 0,
       "xws": "ezrabridger-tielnfighter",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_46.png",
@@ -79,7 +84,8 @@
       "slots": ["Modification", "Force Power"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg",
       "ffg": 46,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Light Side", "Spectre", "TIE"]
     },
     {
@@ -88,13 +94,15 @@
       "initiative": 3,
       "limited": 1,
       "cost": 26,
+      "loadout": 0,
       "xws": "sabinewren-tielnfighter",
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_47.png",
       "slots": ["Talent", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg",
       "ffg": 47,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Spectre", "TIE"]
     }
   ]

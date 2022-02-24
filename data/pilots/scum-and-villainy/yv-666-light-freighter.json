@@ -41,6 +41,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 60,
+      "loadout": 0,
       "xws": "bossk",
       "ability": "While you perform a primary attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_210.png",
@@ -63,7 +64,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_210.jpg",
       "ffg": 210,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Bounty Hunter", "Freighter"]
     },
     {
@@ -72,6 +74,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 55,
+      "loadout": 0,
       "xws": "lattsrazzi",
       "ability": "At the start of the Engagement Phase, you may choose a ship at range 1 and spend a lock you have on that ship. If you do, that ship gains 1 tractor token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_212.png",
@@ -88,7 +91,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_212.jpg",
       "ffg": 212,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Bounty Hunter", "Freighter"]
     },
     {
@@ -97,6 +101,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 64,
+      "loadout": 0,
       "xws": "moraloeval",
       "ability": "If you would flee, you may spend 1 [Charge]. If you do, place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of the edge of the play area that you fled from.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_211.png",
@@ -114,7 +119,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_211.jpg",
       "ffg": 211,
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["Freighter"]
     },
     {
@@ -122,6 +128,7 @@
       "initiative": 2,
       "limited": 0,
       "cost": 51,
+      "loadout": 0,
       "xws": "trandoshanslaver",
       "text": "The spacious triple-decker design of the YV-666 makes it popular among bounty hunters and slavers, who often retrofit an entire deck for prisoner transport.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_213.png",
@@ -137,7 +144,8 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_213.jpg",
       "ffg": 213,
-      "hyperspace": false,
+      "standard": false,
+      "extended": true,
       "keywords": ["Freighter"]
     }
   ]
