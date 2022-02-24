@@ -443,7 +443,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/mandalorianoptics.png"
       }
     ],
-    "cost": { "value": "?" }
+    "cost": { "value": 5 }
   },
   {
     "name": "Beskar Reinforced Plating",
@@ -460,7 +460,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/beskarreinforcedplating.png"
       }
     ],
-    "cost": { "value": "?" }
+    "cost": { "value": 6 }
   },
   {
     "name": "Burnout Thrusters",
@@ -487,6 +487,7 @@
       { "faction": ["Scum and Villainy"] },
       { "sizes": ["Small","Medium"] }
     ],
-    "cost": { "value": "?" }
+    "cost": { "value": 6 }
+    ]
   }
 ]
