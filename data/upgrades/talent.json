@@ -784,10 +784,7 @@
         "artwork": "???"
       }
     ],
-<<<<<<< HEAD
-    "cost": {
-      "value": "?"
-    },
+    "cost": { "value": 3 },
     "restrictions": [{
         "names": ["Mandalorian"]
       }]
@@ -807,9 +804,7 @@
         "artwork": "???"
       }
     ],
-    "cost": {
-      "value": "?"
-    },
+    "cost": { "value": 2 },
     "restrictions": [{
         "equipped": ["Illicit"]
       }]
@@ -828,14 +823,10 @@
         "artwork": "???"
       }
     ],
-    "cost": {
-      "value": "?"
-    }
-=======
+    "cost": { "value": 2 },
     "hyperspace": false,
     "restrictions": [{
         "names": ["Mandalorian"]
       }]
->>>>>>> 23a402715f239a433a2d6bd6c3a1c4fa4c87799f
   }
 ]
