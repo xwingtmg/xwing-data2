@@ -266,7 +266,7 @@
       }
     ],
     "restrictions": [{ "keyword": ["Bounty Hunter"] }],
-    "cost": { "value": "?" }
+    "cost": { "value": 4 }
   },
   {
     "name": "Hotshot Tail Blaster",
@@ -293,6 +293,6 @@
       }
     ],
     "restrictions": [{ "sizes": ["Medium","Large"] }],
-    "cost": { "value": "?" }
+    "cost": { "value": 2 }
   }
 ]
