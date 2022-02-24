@@ -39,7 +39,9 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["t70xwing"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Os-1 Arsenal Loadout",
@@ -62,7 +64,9 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["alphaclassstarwing"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Pivot Wing",
@@ -90,7 +94,9 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["ut60duwing"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Servomotor S-foils",
@@ -140,7 +146,9 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["t65xwing"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Xg-1 Assault Configuration",
@@ -160,7 +168,9 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["alphaclassstarwing"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Grappling Struts",
@@ -187,8 +197,10 @@
       }
     ],
     "restrictions": [{ "ships": ["vultureclassdroidfighter"] }],
-    "hyperspace": true,
-    "cost": { "value": 0 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Delta-7B",
@@ -232,12 +244,11 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ffe9b36272a15f7c5e2ba2fa075d27dd.jpg"
       }
     ],
-    "cost": {
-      "variable": "initiative",
-      "values": { "0": 2, "1": 2, "2": 3, "3": 4, "4": 5, "5": 6, "6": 7 }
-    },
+    "cost": { "value": 0 },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Landing Struts",
@@ -297,7 +308,6 @@
     "name": "Stabilized S-foils",
     "limited": 0,
     "xws": "stabilizedsfoils",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Before you activate, if you are not critically damaged, you may flip this card.",
@@ -342,7 +352,10 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f03c2baf5b0a095e28948f03468cc5d2.png"
       }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -375,7 +388,6 @@
     "name": "Alpha-3B \"Besh\"",
     "limited": 0,
     "xws": "alpha3bbesh",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform a primary attack, you may spend your lock on the defender to change 1 of your blank or [Focus] results to a [Hit] result. Add [Device] slot.",
@@ -386,13 +398,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2e6d4fc53253cdf04086649b7eaf917a.jpg"
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Alpha-3E \"Esk\"",
     "limited": 0,
     "xws": "alpha3eesk",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform a primary attack, before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results inflict ion tokens instead of damage.",
@@ -404,13 +418,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/678c7a36aacdd1cc20b61287df2fc0d9.jpg"
       }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Intercept Booster",
     "limited": 0,
     "xws": "interceptbooster",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. During the System Phase, gain 1 disarm token unless you flip this card. At the end of the End Phase, if you have no active [Charge], flip this card.",
@@ -440,13 +456,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1c125de5b479dbc58f1a0bc2ec770ed3.jpg"
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Maneuver-Assist MGK-300",
     "limited": 0,
     "xws": "maneuverassistmgk300",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Reduce the difficulty of your speed 3 straight ([Straight]) and bank ([Bank Left] or [Bank Right]) maneuvers.",
@@ -471,13 +489,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b7bc25a4c99fafd0c61ac6efb1129ae.jpg"
       }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Target-Assist MGK-300",
     "limited": 0,
     "xws": "targetassistmgk300",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Before you engage, if you have no green tokens and you are not stressed, gain 1 calculate token for each enemy ship at range 2-3 in your firing arc, to a maximum of 2.",
@@ -502,19 +522,21 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/954401c2bc0cc705693553362d078536.jpg"
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 1 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Sensitive Controls",
     "limited": 0,
     "xws": "sensitivecontrols",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Replace your Autothrusters ship ability with the following:",
         "shipAbility": {
-              "name": "Sensitive Controls",
-              "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+          "name": "Sensitive Controls",
+          "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
         },
         "title": "Sensitive Controls",
         "type": "Configuration",
@@ -527,13 +549,15 @@
       { "shipAbility": ["Autothrusters"] },
       { "standardized": true }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "TIE Defender Elite",
     "limited": 0,
     "xws": "tiedefenderelite",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Decrease the difficulty of your turn [[Turn Left] or [Turn Right]] maneuvers. Increase the difficulty of your Koiogran Turn [[Koiogran Turn]] maneuvers. Replace your Full Throttle ship ability with the following:",
@@ -553,7 +577,10 @@
       { "ships": ["tieddefender"] },
       { "standardized": true }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Vectored Cannons (RZ-1)",
@@ -620,7 +647,9 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "ships": ["btanr2ywing"] }, { "standardized": true }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Enhanced Jamming Suite",
@@ -669,6 +698,8 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "ships": ["tiewiwhispermodifiedinterceptor"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

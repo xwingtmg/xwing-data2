@@ -23,7 +23,9 @@
       }
     ],
     "cost": { "value": 8 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Cluster Missiles",
@@ -49,7 +51,9 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Concussion Missiles",
@@ -75,7 +79,9 @@
       }
     ],
     "cost": { "value": 6 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Homing Missiles",
@@ -101,7 +107,9 @@
       }
     ],
     "cost": { "value": 5 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Ion Missiles",
@@ -127,7 +135,9 @@
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Proton Rockets",
@@ -152,8 +162,10 @@
         "ffg": 270
       }
     ],
-    "cost": { "value": 5 },
-    "hyperspace": true
+    "cost": { "value": 8 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Energy-Shell Charges",
@@ -182,8 +194,10 @@
       { "action": { "type": "Calculate", "difficulty": "White" } },
       { "factions": ["Separatist Alliance"] }
     ],
-    "cost": { "value": 5 },
-    "hyperspace": true
+    "cost": { "value": 4 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Discord Missiles",
@@ -213,7 +227,9 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Diamond-Boron Missiles",
@@ -239,13 +255,14 @@
       }
     ],
     "cost": { "value": 5 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Mag-Pulse Warheads",
     "limited": 0,
     "xws": "magpulsewarheads",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Attack ([Lock]): Spend 1 [Charge]. If this attack hits, the defender suffers 1 [Critical Hit] damage and gains 1 deplete and 1 jam token. Then cancel all [Hit]/[Critical Hit] results.",
@@ -265,13 +282,15 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/94cdc3be1cf133e123e30f25f181faf7.png"
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Electro-Chaff Missiles",
     "limited": 2,
     "xws": "electrochaffmissiles",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "During the System Phase, you may spend 1 [Charge] from this cared to launch 1 electro-chaff cloud using the [3 [Bank Left]], [3 [Bank Right]], or [4 [Straight]] template.",
@@ -282,13 +301,15 @@
         "ffg": 932
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Multi-Missile Pods",
     "limited": 0,
     "xws": "multimissilepods",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Attack ([Calculate] or [Lock]): Spend 1 [Charge]. If the defender is in your [Front Arc], you may spend 1 [Charge] to roll 1 additional attack die. If the defender is in your [Bullseye Arc], you may spend up to 2 [Charge] to roll that many additional attack dice instead.",
@@ -308,13 +329,15 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5abef5ee3d6e4acf94cd77280375aa72.png"
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "XX-23 S-Thread Tracers",
     "limited": 2,
     "xws": "xx23sthreadtracers",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Attack ([Focus], [Calculate], or [Lock]): Spend 1 [Charge]. If this attack hits, each friendly ship at range 1-3 of the defender may acquire a lock on the defender. Then cancel all dice results.",
@@ -334,6 +357,9 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/34fa7fa46dbf8626f1480fc9937e7c1b.jpg"
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

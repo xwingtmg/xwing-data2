@@ -16,7 +16,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "\"Genius\"",
@@ -35,7 +37,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R2 Astromech",
@@ -53,11 +57,10 @@
         "ffg": 282
       }
     ],
-    "cost": {
-      "variable": "agility",
-      "values": { "0": 3, "1": 3, "2": 5, "3": 8 }
-    },
-    "hyperspace": true
+    "cost": { "value": 6 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R2-D2",
@@ -75,12 +78,11 @@
         "ffg": 324
       }
     ],
-    "cost": {
-      "variable": "agility",
-      "values": { "0": 4, "1": 6, "2": 8, "3": 10 }
-    },
+    "cost": { "value": 8 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R3 Astromech",
@@ -98,7 +100,9 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R4 Astromech",
@@ -117,7 +121,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "sizes": ["Small"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R5 Astromech",
@@ -136,7 +142,9 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R5-D8",
@@ -156,7 +164,9 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R5-P8",
@@ -176,7 +186,9 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R5-TK",
@@ -195,7 +207,9 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R5-X3",
@@ -215,7 +229,9 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R2-HA",
@@ -234,7 +250,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "BB-8",
@@ -252,12 +270,11 @@
         "ffg": 479
       }
     ],
-    "cost": {
-      "variable": "initiative",
-      "values": { "0": 1, "1": 2, "2": 3, "3": 4, "4": 5, "5": 6, "6": 7 }
-    },
+    "cost": { "value": 7 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "BB Astromech",
@@ -275,12 +292,11 @@
         "ffg": 480
       }
     ],
-    "cost": {
-      "variable": "initiative",
-      "values": { "0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6 }
-    },
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "M9-G8",
@@ -299,7 +315,9 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R2-C4",
@@ -318,7 +336,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R4-P Astromech",
@@ -337,8 +357,10 @@
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": false,
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R4-P17",
@@ -357,8 +379,10 @@
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": false,
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R4-P44",
@@ -376,14 +400,15 @@
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": true,
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R2-A6",
     "limited": 1,
     "xws": "r2a6",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "After you reveal your dial, you may set your dial to a maneuver of the same bearing of a speed 1 higher or lower.",
@@ -396,7 +421,10 @@
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "C1-10P",
@@ -424,14 +452,15 @@
     ],
     "cost": { "value": 8 },
     "limited": 1,
-    "hyperspace": false,
-    "restrictions": [{ "factions": ["Galactic Republic"] }]
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R1-J5",
     "limited": 1,
     "xws": "r1j5",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you have 2 or fewer stress tokens, you can perform actions on damage cards even while stressed. After you repair a damage card with the Ship trait, you may spend 1 [Charge] to repair that card again.",
@@ -445,13 +474,15 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Q7 Astromech",
     "limited": 0,
     "xws": "q7astromech",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you barrel roll or boost, you can move through and overlap obstacles.",
@@ -462,7 +493,10 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/36187a497f1d8fcd81e0209c279c2c2f.jpg"
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R2-D2",
@@ -509,7 +543,6 @@
     "name": "R6-D8",
     "limited": 1,
     "xws": "r6d8",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform an attack, you may reroll a number of attack dice up to the number of friendly ships at range 0-3 that have the defender in their [Bullseye Arc].",
@@ -521,13 +554,15 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "restrictions": [{ "factions": ["Resistance"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R7-A7",
     "limited": 1,
     "xws": "r7a7",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform an attack, you may spend 1 [Charge] to change 1 [Hit] result to a [Critical Hit] result.",
@@ -540,13 +575,15 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Galactic Republic"] }]
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R4-B11",
     "limited": 1,
     "xws": "r4b11",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform an attack, you may remove 1 orange or red token from the defender to reroll any number of defense dice.",
@@ -558,13 +595,15 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Watchful Astromech",
     "limited": 0,
     "xws": "watchfulastromech",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "After you perform a [Reload] or [Rotate Arc] action, if you are in an enemy ship's firing arc, you may perform a red [Calculate] action.",
@@ -575,13 +614,15 @@
         "artwork": "????"
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "L4E-R5",
     "limited": 1,
     "xws": "l4er5",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "At the start of the Engagement Phase, you may transfer 1 calculate token to a friendly ship in your firing arc.",
@@ -602,9 +643,12 @@
         ]
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["Resistance"], "action": { "type": "Rotate Arc" } }
-    ]
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]
