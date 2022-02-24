@@ -185,78 +185,78 @@ const runShips = async () => {
   });
 };
 
-// const findUpgrade = (name: string, type: string) => {
-//   const key = keyFromSlot(type as Slot);
-//   const up = upgradesAssets[key].find(
-//     u => u.sides[0].title.trimName() === name.trimName()
-//   );
+const findUpgrade = (name: string, type: string) => {
+  const path = `./data/upgrades/${type.toLowerCase()}.json`;
+  const file = fs.readFileSync(path).toString();
+  const upgrades = JSON.parse(file);
 
-//   return up;
-// };
+  const upgrade = upgrades.find(
+    (u: any) => u.sides[0].title.trimName() === name.trimName()
+  );
+  if (upgrade) {
+    return { upgrade, path, file: upgrades };
+  }
+};
 
-// const runUpgrades = async () => {
-//   const wbLoader = new ExcelJS.Workbook();
-//   const file = await promises.readFile("./scripts/amg/upgrade_points.xlsx");
-//   const wb = await wbLoader.xlsx.load(file);
-//   // Read lists
+const runUpgrades = async () => {
+  const wbLoader = new ExcelJS.Workbook();
+  const file = await promises.readFile("./scripts/amg/upgrade_points.xlsx");
+  const wb = await wbLoader.xlsx.load(file);
+  // Read lists
 
-//   wb.worksheets.forEach(ws => {
-//     ws.eachRow(row => {
-//       if (row.cellCount === 6 && row.getCell(1).text !== "Upgrade Name") {
-//         const name = row
-//           .getCell(1)
-//           .text.replaceAll("•", "")
-//           .split("/")[0];
-//         const upgradeType = row.getCell(2).text;
-//         const cost = parseInt(row.getCell(3).text);
-//         const std = row.getCell(5).toString();
-//         const ext = row.getCell(6).toString();
+  wb.worksheets.forEach(ws => {
+    ws.eachRow(row => {
+      if (row.cellCount === 6 && row.getCell(1).text !== "Upgrade Name") {
+        const name = row
+          .getCell(1)
+          .text.replaceAll("•", "")
+          .split("/")[0];
+        const upgradeType = row.getCell(2).text;
+        const cost = parseInt(row.getCell(3).text);
+        const std = row.getCell(5).toString();
+        const ext = row.getCell(6).toString();
 
-//         let type = upgradeType
-//           .substring(0, upgradeType.indexOf("("))
-//           .split(",")
-//           .map(s => s.trim())[0];
-//         if (type === "Payload") {
-//           type = "Device";
-//         }
+        let type = upgradeType
+          .substring(0, upgradeType.indexOf("("))
+          .split(",")
+          .map(s => s.trim())[0];
+        if (type === "Payload") {
+          type = "Device";
+        } else if (type === "Force Power") {
+          type = "force-power";
+        } else if (type === "Tactical Relay") {
+          type = "tactical-relay";
+        }
 
-//         const upgrade = findUpgrade(name, type);
-//         if (!upgrade || name === "Delta-7B") {
-//           console.log(`Not found ${name} ${type} ${cost} ${std} ${ext}`);
-//           return;
-//         }
+        // console.log(type);
+        const item = findUpgrade(name, type);
+        if (!item || name === "Delta-7B") {
+          console.log(`Not found ${name} ${type} ${cost} ${std} ${ext}`);
+          return;
+        }
 
-//         upgrade.cost = cost === null ? { value: 0 } : { value: cost };
-//         upgrade.standard = std === "Yes" ? true : false;
-//         upgrade.extended = ext === "Yes" ? true : false;
-//         upgrade.epic = true;
+        const { upgrade, path, file } = item;
 
-//         const key = keyFromSlot(type as Slot);
+        upgrade.cost = cost === null ? { value: 0 } : { value: cost };
+        upgrade.standard = std === "Yes" ? true : false;
+        upgrade.extended = ext === "Yes" ? true : false;
+        upgrade.epic = true;
+        delete upgrade.hyperspace;
 
-//         upgradesAssets[key][upgradesAssets[key].indexOf(upgrade)] = upgrade;
-//       }
-//     });
-//   });
-
-//   slotKeys.forEach(key => {
-//     const f = upgradesAssets[key];
-
-//     const formatted = prettier.format(JSON.stringify(f), {
-//       trailingComma: "all",
-//       singleQuote: true,
-//       parser: "typescript"
-//     });
-//     fs.writeFileSync(
-//       `./src/assets/upgrades/${getName(slotFromKey(key))}.ts`,
-//       formatted,
-//       "utf8"
-//     );
-//   });
-// };
+        const formatted = prettier.format(JSON.stringify(file), {
+          trailingComma: "all",
+          singleQuote: true,
+          parser: "json"
+        });
+        fs.writeFileSync(path, formatted, "utf8");
+      }
+    });
+  });
+};
 
 const runner = async () => {
   await runShips();
-  // await runUpgrades();
+  await runUpgrades();
 };
 
 runner();
