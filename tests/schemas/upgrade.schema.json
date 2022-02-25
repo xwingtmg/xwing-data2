@@ -81,7 +81,7 @@
       ]
     },
     "xws": { "type": "string", "pattern": "^[a-z0-9-]+$" },
-    "hyperspace": { "type": "boolean" },
+    "standard": { "type": "boolean" },
     "extended": { "type": "boolean" },
     "epic": { "type": "boolean" },
     "restrictions": {
