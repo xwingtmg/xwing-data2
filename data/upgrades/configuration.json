@@ -227,7 +227,9 @@
       "values": { "0": 6, "1": 6, "2": 10, "3": 14, "4": 17, "5": 20, "6": 24 }
     },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Calibrated Laser Targeting",
@@ -275,14 +277,18 @@
       }
     ],
     "restrictions": [{ "ships": ["hyenaclassdroidbomber"] }],
-    "hyperspace": true,
+    "standard": true,
+    "extended": true,
+    "epic": true,
     "cost": { "value": 0 }
   },
   {
     "name": "Corsair Refit",
     "limited": 2,
     "xws": "corsairrefit",
-    "hyperspace": false,
+    "standard": false,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Cannon], [Turret], and [Missile] slots. Bonus Attack: Spend 1 [Energy] to perform a [Cannon], [Turret], or [Missile] attack.",
@@ -382,7 +388,9 @@
     "cost": { "value": 0 },
     "limited": 0,
     "xws": "repulsorliftstabilizers",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Alpha-3B \"Besh\"",
@@ -586,7 +594,9 @@
     "name": "Vectored Cannons (RZ-1)",
     "limited": 0,
     "xws": "vectoredcannonsrz1",
-    "hyperspace": true,
+    "standard": true,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
         "ability": "Gain a [Single Turret Arc] indicator. Treat the arc requirement of your [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters ship ability with the following:",

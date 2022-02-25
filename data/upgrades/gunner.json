@@ -210,7 +210,9 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Hotshot Gunner",

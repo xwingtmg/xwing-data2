@@ -133,6 +133,31 @@
               "enum": ["light", "dark"]
             }
           },
+          "keywords": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "A-wing",
+                "B-wing",
+                "Bounty Hunter",
+                "Clone",
+                "Dark Side",
+                "Droid",
+                "Freighter",
+                "Jedi",
+                "Light Side",
+                "Mandalorian",
+                "Partisan",
+                "Sith",
+                "Spectre",
+                "TIE",
+                "X-wing",
+                "Y-wing",
+                "YT-1300"
+              ]
+            }
+          },
           "names": {
             "type": "array",
             "minItems": 1,
@@ -254,6 +279,7 @@
                 "scavengedyt1300",
                 "belbullab22starfighter",
                 "delta7aethersprite",
+                "delta7baethersprite",
                 "eta2actis",
                 "vultureclassdroidfighter",
                 "sithinfiltrator",
@@ -266,6 +292,8 @@
                 "tiewiwhispermodifiedinterceptor",
                 "tiesebomber",
                 "btanr2ywing",
+                "st70assaultship",
+                "gauntletfighter",
                 "tridentclassassaultship"
               ]
             }

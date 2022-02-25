@@ -3,7 +3,9 @@
     "name": "Bombardment Specialists",
     "limited": 0,
     "xws": "bombardmentspecialists",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While you perform an attack, you may spend 1 calculate token to increase or decrease the range requirement by 1, to a limit of 0-5.",
@@ -30,7 +32,9 @@
     "name": "Comms Team",
     "limited": 0,
     "xws": "commsteam",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After you perform a [Coordinate] action, you may spend up to 2 [Energy] to coordinate that many additional ships at range 0-1 of the ship you coordinated.",
@@ -65,7 +69,9 @@
     "name": "Damage Control Team",
     "limited": 0,
     "xws": "damagecontrolteam",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Before you engage, you may spend 1 or more [Energy] to flip that many of your Offline upgrade cards. Action: Spend 1 or more [Energy] to repair that many of your faceup Ship damage cards.",
@@ -92,7 +98,9 @@
     "name": "Gunnery Specialists",
     "limited": 0,
     "xws": "gunneryspecialists",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While you perform a primary or [Hardpoint] attack, you may spend 1 or more [Energy] to reroll that many attack dice.",
@@ -119,7 +127,9 @@
     "name": "IG-RM Droids",
     "limited": 0,
     "xws": "igrmdroids",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While you perform an attack, if you are calculating, you may change 1 [Hit] result to a [Critical Hit] result.",
@@ -142,7 +152,9 @@
     "name": "Ordnance Team",
     "limited": 0,
     "xws": "ordnanceteam",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While you perform a [Reload] action, you may spend up to 3 [Energy] to reload that many additional [Charge] on your equipped [Missile]/[Torpedo] upgrades. After you perform a [Reload] action, you may spend 1 [Energy] to remove 1 disarm token.",
@@ -169,7 +181,9 @@
     "name": "Sensor Experts",
     "limited": 0,
     "xws": "sensorexperts",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "You can maintain up to 3 locks on different objects. After you perform a [Lock] action, you may spend up to 2 [Energy] to acquire a lock on that many other objects at range 0-1 of the object you locked, ignoring range restrictions.",
@@ -196,7 +210,9 @@
     "name": "Tractor Technicians",
     "limited": 0,
     "xws": "tractortechnicians",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "During the End Phase, each other ship at range 0-1 cannot remove its tractor tokens. Before a tractored enemy ship at range 0-1 reveals its dial, you may spend 1 [Energy]. if you do, while that ship executes its maneuver this activation, it reduces the speed of that maneuver by 1, to a minimum of 1.",
@@ -226,13 +242,17 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": false,
+    "epic": true
   },
   {
     "name": "Droid Crew",
     "limited": 0,
     "xws": "droidcrew",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While you perform a white [Focus] action, treat it as red instead. At the start of the End Phase, repair all of your faceup Crew damage cards.",

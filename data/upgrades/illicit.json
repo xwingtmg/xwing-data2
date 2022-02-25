@@ -153,7 +153,9 @@
     "name": "Quick-Release Locks",
     "limited": 1,
     "xws": "quickreleaselocks",
-    "hyperspace": false,
+    "standard": false,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
         "ability": "During the System Phase, you may spend 1 [Charge] to drop 1 cargo crate drift in your [Rear Arc] at range 0. It cannot overlap a ship this way.. This card's [Charge] cannot be recovered.",
@@ -172,7 +174,9 @@
     "name": "Saboteur's Map",
     "limited": 1,
     "xws": "saboteursmap",
-    "hyperspace": false,
+    "standard": false,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
         "ability": "At the end of Setup, you may spend up to 1 [Charge] from each of your equipped Mine upgrades to place the corresponding device in the play area beyond range 2 of any enemy ship, strategic marker, or other device.",
@@ -190,7 +194,9 @@
     "name": "Scanner Baffler",
     "limited": 1,
     "xws": "scannerbaffler",
-    "hyperspace": false,
+    "standard": false,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
         "ability": "At the end of Setup, you may choose any number of other friendly, non-huge ships in your deployment area at range 0-1. If you do, place those ships anywhere in the same deployment area.",
@@ -281,7 +287,7 @@
         "artwork": "???"
       }
     ],
-    "restrictions": [{ "keyword": ["Bounty Hunter"] }],
+    "restrictions": [{ "keywords": ["Bounty Hunter"] }],
     "cost": { "value": 4 },
     "standard": true,
     "extended": true,

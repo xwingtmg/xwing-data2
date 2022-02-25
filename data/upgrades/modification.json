@@ -506,7 +506,7 @@
       }
     ],
     "restrictions": [
-      { "faction": ["Scum and Villainy"] },
+      { "factions": ["Scum and Villainy"] },
       { "sizes": ["Small", "Medium"] }
     ],
     "cost": { "value": 6 },

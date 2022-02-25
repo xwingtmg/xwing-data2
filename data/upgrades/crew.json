@@ -300,7 +300,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Ciena Ree",
@@ -824,7 +826,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Latts Razzi",
@@ -1313,7 +1317,9 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Han Solo",
@@ -1360,7 +1366,9 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Rose Tico",
@@ -1589,7 +1597,9 @@
     "name": "Leia Organa",
     "limited": 1,
     "xws": "leiaorgana-resistance",
-    "hyperspace": true,
+    "standard": true,
+    "extended": true,
+    "epic": true,
     "cost": { "value": 16 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
@@ -1659,7 +1669,9 @@
     ],
     "cost": { "value": 7 },
     "limited": 1,
-    "hyperspace": true,
+    "standard": true,
+    "extended": true,
+    "epic": true,
     "xws": "c3po-republic"
   },
   {
@@ -1782,7 +1794,9 @@
     "name": "Toryn Farr",
     "limited": 1,
     "xws": "torynfarr",
-    "hyperspace": false,
+    "standard": false,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
         "ability": "After you coordinate a friendly ship, it may acquire a lock on a ship you are locking, ignoring range restrictions.",
@@ -2102,7 +2116,7 @@
     "xws": "themandalorian",
     "sides": [
       {
-        "ability": "During the End Phase, if you did not defend this round, recover 1 non-recurring [Force Charge], if able.",
+        "ability": "During the End Phase, if you did not defend this round, recover 1 non-recurring [Force], if able.",
         "title": "The Mandalorian",
         "type": "Crew",
         "slots": ["Crew"],
@@ -2129,7 +2143,7 @@
     "xws": "thechild",
     "sides": [
       {
-        "ability": "Setup: After placing forces, choose an opponent; they assign the Merciless Pursuit condition to 2 of their ships. Your [Force Charge] lose the recurring icon. After you defend, if you suffer damage during that attack, recover 1 [Force Charge].",
+        "ability": "Setup: After placing forces, choose an opponent; they assign the Merciless Pursuit condition to 2 of their ships. Your [Force] lose the recurring icon. After you defend, if you suffer damage during that attack, recover 1 [Force].",
         "title": "The Child",
         "type": "Crew",
         "slots": ["Crew"],
@@ -2151,7 +2165,9 @@
     "name": "IG-11",
     "limited": 1,
     "xws": "ig11",
-    "hyperspace": false,
+    "standard": false,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. Before you would be dealt a faceup damage card, you must place 1 fuse marker on this card and gain 1 calculate token instead. Then, if there are 2 fuse markers on this card, flip it.",
@@ -2169,7 +2185,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
       },
       {
-        "ability": "During the End Phase, remove 1 fuse marker from this card. Then, if this card has no fuse markers on it, you are destroyed and each other ship at range 0-1 suffers 1 [Crit] damage. Action: Place 1 fuse marker on this card.",
+        "ability": "During the End Phase, remove 1 fuse marker from this card. Then, if this card has no fuse markers on it, you are destroyed and each other ship at range 0-1 suffers 1 [Critical Hit] damage. Action: Place 1 fuse marker on this card.",
         "title": "IG-11 (Anti-Capture Protocol)",
         "type": "Crew",
         "slots": ["Crew"],
@@ -2212,10 +2228,12 @@
     "name": "Kuiil",
     "limited": 1,
     "xws": "kuiil",
-    "hyperspace": false,
+    "standard": false,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
-        "ability": "Action: Roll 1 attack die for each damage card you have. For each [Hit] result, repair 1 faceup Ship damage card, then for each [Crit] result, repair 1 facedown damage card. For each blank result, remove 1 orange token, then for each [Focus] result, gain 1 focus token.",
+        "ability": "Action: Roll 1 attack die for each damage card you have. For each [Hit] result, repair 1 faceup Ship damage card, then for each [Critical Hit] result, repair 1 facedown damage card. For each blank result, remove 1 orange token, then for each [Focus] result, gain 1 focus token.",
         "title": "Kuiil",
         "type": "Crew",
         "slots": ["Crew"],
@@ -2233,7 +2251,7 @@
     "xws": "pelimotto",
     "sides": [
       {
-        "ability": "During the System Phase, you may perform an action on 1 of your damage cards, even while stressed. After you repair a faceup Ship damage card, you may roll 1 attack die. On a [Hit] result, repair another faceup Ship damage card. On a [Crit] result, expose 1 damage card.",
+        "ability": "During the System Phase, you may perform an action on 1 of your damage cards, even while stressed. After you repair a faceup Ship damage card, you may roll 1 attack die. On a [Hit] result, repair another faceup Ship damage card. On a [Critical Hit] result, expose 1 damage card.",
         "title": "Peli Motto",
         "type": "Crew",
         "slots": ["Crew"],

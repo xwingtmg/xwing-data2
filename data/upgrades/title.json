@@ -564,7 +564,9 @@
     "name": "Assailer",
     "limited": 1,
     "xws": "assailer",
-    "hyperspace": false,
+    "standard": false,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Gunner] slot. While you defend, if the attack range is 1, you may roll 1 additional defense die.",
@@ -585,7 +587,9 @@
     "name": "Blood Crow",
     "limited": 1,
     "xws": "bloodcrow",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Gunner] slot. While you perform an attack at attack range 1-2, you may add 1 [Focus] result.",
@@ -606,7 +610,9 @@
     "name": "Bright Hope",
     "limited": 1,
     "xws": "brighthope",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "You can reinforce only your [Full Front Arc]. While you defend, if you are reinforced and the attacker is in your [Full Front Arc], you may roll 1 additional defense die.",
@@ -622,7 +628,9 @@
     "name": "Broken Horn",
     "limited": 1,
     "xws": "brokenhorn",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Crew] and [Illicit] slots. If you are damaged, reduce the difficulty of your speed 3-5 maneuvers.",
@@ -642,7 +650,9 @@
     "name": "Corvus",
     "limited": 1,
     "xws": "corvus",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "You can dock up to 2 small ships. After you perform a [Calculate] action, gain 1 calculate token.",
@@ -664,7 +674,9 @@
     "name": "Dodonna's Pride",
     "limited": 1,
     "xws": "dodonnaspride",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Team] and [Cargo] slots.",
@@ -701,7 +713,9 @@
     "name": "Impetuous",
     "limited": 1,
     "xws": "impetuous",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Crew] slot. After you perform an attack, if the defender was destroyed, you may perform a [Focus] or [Lock] action.",
@@ -722,7 +736,9 @@
     "name": "Insatiable Worrt",
     "limited": 1,
     "xws": "insatiableworrt",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Cargo] slot. During the End Phase, you may recover 1 additional shield or 1 additional [Energy].",
@@ -744,7 +760,9 @@
     "name": "Instigator",
     "limited": 1,
     "xws": "instigator",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Team] slot. While you perform an attack, if the defender has an orange or red token, you may reroll up to 2 attack dice.",
@@ -761,7 +779,9 @@
     "name": "Jaina's Light",
     "limited": 1,
     "xws": "jainaslight",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While a friendly ship at range 0-2 defends, if the attack is obstructed by an obstacle, you may spend 1 [Energy]. If you do, the defender rolls 1 additional defense die.",
@@ -800,7 +820,9 @@
     "name": "Liberator",
     "limited": 1,
     "xws": "liberator",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "You can dock up to 2 small ships. After a ship deploys from you, it may perform a [Focus] or [Barrel Roll] action.",
@@ -817,7 +839,9 @@
     "name": "Luminous",
     "limited": 1,
     "xws": "luminous",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: You are placed in reserve. At the end of setup, you are placed in the play area at range 0-2 of a friendly ship.",
@@ -837,7 +861,9 @@
     "name": "Merchant One",
     "limited": 1,
     "xws": "merchantone",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Turret], [Team], and [Cargo] slots. Bonus Attack: Perform a [Turret] attack.",
@@ -866,7 +892,9 @@
     "name": "Quantum Storm",
     "limited": 1,
     "xws": "quantumstorm",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Team] and [Cargo] slots. After you fully execute a white maneuver, recover 1 [Energy].",
@@ -887,7 +915,9 @@
     "name": "Requiem",
     "limited": 1,
     "xws": "requiem",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After a ship deploys from you, it may acquire a lock on one ship you are locking, ignoring range restrictions.",
@@ -907,7 +937,9 @@
     "name": "Suppressor",
     "limited": 1,
     "xws": "suppressor",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Sensor] slot. After you coordinate a friendly ship, you may spend 1 [Energy] to jam an enemy ship at range 0-2 of that ship, ignoring range restrictions.",
@@ -928,7 +960,9 @@
     "name": "Tantive IV",
     "limited": 1,
     "xws": "tantiveiv",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add 2 [Crew] slots. While you defend, if the attacker is in your [Rear Arc], you may roll 1 additional defense die.",
@@ -945,7 +979,9 @@
     "name": "Thunderstrike",
     "limited": 1,
     "xws": "thunderstrike",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Gunner] slot. While you perform a bonus attack, if you have not attacked the defender this round, you may reroll 1 attack die.",
@@ -966,7 +1002,9 @@
     "name": "Vector",
     "limited": 1,
     "xws": "vector",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Crew] and [Cargo] slots. After a ship deploys from you, it may perform a [Evade] or [Boost] action.",
@@ -986,7 +1024,9 @@
     "name": "Slave I",
     "limited": 1,
     "xws": "slavei-swz82",
-    "hyperspace": true,
+    "standard": true,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
         "ability": "While you perform a [Front Arc] attack, if you are in the defender's [Full Rear Arc], you may change 1 [Hit] result to a [Critical Hit] result. Add [Gunner] slot.",
@@ -1030,7 +1070,9 @@
     "name": "Nautolan's Revenge",
     "limited": 1,
     "xws": "nautolansrevenge",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Before you engage, you may spend up to 2 calculate tokens. If you do, recover that many [Energy].",
@@ -1055,7 +1097,9 @@
     "name": "Grappler",
     "limited": 1,
     "xws": "grappler",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While you perform a Drill Beak attack at range 1, if the defender is tractored, treat it as being range 0 instead.",
@@ -1076,7 +1120,9 @@
     "name": "Neimoidian Grasp",
     "limited": 1,
     "xws": "neimoidiangrasp",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After you perform an attack, you may perform a red [Evade] action. While you defend, if you are evading, you may roll 1 additional defense die.",
@@ -1097,7 +1143,9 @@
     "name": "Trident",
     "limited": 1,
     "xws": "trident",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After you overlap a ship or a ship overlaps you, if it is not tractored, you may spend 1 [Energy]. If you do, it gains 3 tractor tokens.",
