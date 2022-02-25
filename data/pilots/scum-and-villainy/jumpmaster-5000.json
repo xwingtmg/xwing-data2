@@ -53,15 +53,12 @@
       "xws": "contractedscout",
       "text": "Built for long-distance reconnaissance and plotting new standard routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_217.png",
-      "slots": [
-        "Cannon",
-        "Torpedo",
-        "Illicit"
-      ],
+      "slots": ["Cannon", "Torpedo", "Illicit"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg",
       "ffg": 217,
       "standard": true,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Dengar",
@@ -94,7 +91,8 @@
       "ffg": 214,
       "standard": true,
       "extended": true,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     },
     {
       "name": "Manaroo",
@@ -120,7 +118,8 @@
       "ffg": 215,
       "standard": true,
       "extended": true,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     },
     {
       "name": "Tel Trevura",
@@ -145,7 +144,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg",
       "ffg": 216,
       "standard": true,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Nom Lumb",
@@ -169,7 +169,8 @@
       "ffg": 637,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3de089d708ab1c7d8aee35ef99a1f1ed.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4a13a4b7493d39f53b9c37c6a82edf5a.png",
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     }
   ]
 }

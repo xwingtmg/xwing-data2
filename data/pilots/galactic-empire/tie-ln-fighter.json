@@ -36,7 +36,7 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEFighter.png",
   "pilots": [
     {
-      "name": "\"Howlrunner\"",
+      "name": "“Howlrunner”",
       "caption": "Obsidian Leader",
       "initiative": 5,
       "limited": 1,
@@ -45,15 +45,22 @@
       "xws": "howlrunner",
       "ability": "While a friendly ship at range 0-1 performs a primary attack, that ship may reroll 1 attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_81.png",
-      "slots": ["Talent", "Talent", "Modification", "Modification", "Modification"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Modification",
+        "Modification",
+        "Modification"
+      ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_81.jpg",
       "ffg": 81,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Mauler\" Mithel",
+      "name": "“Mauler” Mithel",
       "caption": "Black Two",
       "initiative": 5,
       "limited": 1,
@@ -67,10 +74,11 @@
       "ffg": 80,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Night Beast\"",
+      "name": "“Night Beast”",
       "caption": "Obsidian Two",
       "initiative": 2,
       "limited": 1,
@@ -84,10 +92,11 @@
       "ffg": 88,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Scourge\" Skutu",
+      "name": "“Scourge” Skutu",
       "caption": "Seasoned Veteran",
       "initiative": 5,
       "limited": 1,
@@ -101,10 +110,11 @@
       "ffg": 82,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Wampa\"",
+      "name": "“Wampa”",
       "caption": "Black Eleven",
       "initiative": 1,
       "limited": 1,
@@ -119,7 +129,8 @@
       "ffg": 89,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Academy Pilot",
@@ -141,7 +152,8 @@
       "ffg": 92,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Black Squadron Ace",
@@ -163,7 +175,8 @@
       "ffg": 90,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Del Meeko",
@@ -180,7 +193,8 @@
       "ffg": 85,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Gideon Hask",
@@ -197,7 +211,8 @@
       "ffg": 84,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Iden Versio",
@@ -210,12 +225,20 @@
       "ability": "Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 [Charge]. If you do, prevent that damage.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_83.png",
       "charges": { "value": 1, "recovers": 0 },
-      "slots": ["Talent", "Talent", "Cannon", "Torpedo", "Missile", "Modification"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Cannon",
+        "Torpedo",
+        "Missile",
+        "Modification"
+      ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_83.jpg",
       "ffg": 83,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Obsidian Squadron Pilot",
@@ -237,7 +260,8 @@
       "ffg": 91,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Seyn Marana",
@@ -254,7 +278,8 @@
       "ffg": 86,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Valen Rudor",
@@ -271,7 +296,8 @@
       "ffg": 87,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "ISB Jingoist",
@@ -287,7 +313,8 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/isbjingoist.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Moff Gideon",
@@ -304,7 +331,8 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/moffgideon.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }

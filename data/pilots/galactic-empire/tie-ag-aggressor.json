@@ -40,7 +40,7 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAggressor.png",
   "pilots": [
     {
-      "name": "\"Double Edge\"",
+      "name": "“Double Edge”",
       "caption": "Contingency Planner",
       "initiative": 2,
       "limited": 1,
@@ -61,7 +61,8 @@
       "ffg": 128,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Lieutenant Kestal",
@@ -86,7 +87,8 @@
       "ffg": 127,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Onyx Squadron Scout",
@@ -97,17 +99,13 @@
       "xws": "onyxsquadronscout",
       "text": "Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loadout and its maneuverability to full effect.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_129.png",
-      "slots": [
-        "Talent",
-        "Turret",
-        "Missile",
-        "Gunner"
-      ],
+      "slots": ["Talent", "Turret", "Missile", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_129.jpg",
       "ffg": 129,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Sienar Specialist",
@@ -123,7 +121,8 @@
       "ffg": 130,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }

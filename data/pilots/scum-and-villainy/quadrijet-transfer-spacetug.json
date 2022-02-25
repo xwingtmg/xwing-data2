@@ -51,11 +51,19 @@
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
-      "slots": ["Talent", "Device", "Device", "Illicit", "Modification", "Tech"],
+      "slots": [
+        "Talent",
+        "Device",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Tech"
+      ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg",
       "ffg": 161,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Jakku Gunrunner",
@@ -74,7 +82,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg",
       "ffg": 164,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Sarco Plank",
@@ -95,7 +104,8 @@
       "ffg": 162,
       "standard": false,
       "extended": true,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     },
     {
       "name": "Unkar Plutt",
@@ -115,7 +125,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg",
       "ffg": 163,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     }
   ]
 }

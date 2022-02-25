@@ -48,7 +48,7 @@
   ],
   "pilots": [
     {
-      "name": "\"Breach\"",
+      "name": "“Breach”",
       "xws": "breach",
       "initiative": 5,
       "limited": 1,
@@ -58,8 +58,8 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 36,
-      "loadout": 0,
+      "cost": 6,
+      "loadout": 20,
       "slots": [
         "Talent",
         "Tech",
@@ -75,10 +75,11 @@
       "artwork": "???",
       "image": "???",
       "caption": "Ordnance Expert",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Scorch\"",
+      "name": "“Scorch”",
       "xws": "scorch-tiesebomber",
       "initiative": 4,
       "limited": 1,
@@ -88,8 +89,8 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 35,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 10,
       "slots": [
         "Talent",
         "Tech",
@@ -105,10 +106,11 @@
       "artwork": "???",
       "image": "???",
       "caption": "Jad Bean",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Dread\"",
+      "name": "“Dread”",
       "xws": "dread",
       "initiative": 3,
       "limited": 1,
@@ -118,8 +120,8 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 32,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 12,
       "slots": [
         "Tech",
         "Torpedo",
@@ -134,10 +136,11 @@
       "artwork": "???",
       "image": "???",
       "caption": "Devotee of Devastation",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Grudge\"",
+      "name": "“Grudge”",
       "xws": "grudge",
       "initiative": 2,
       "limited": 1,
@@ -147,8 +150,8 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 36,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 15,
       "slots": [
         "Tech",
         "Torpedo",
@@ -163,7 +166,8 @@
       "artwork": "???",
       "image": "???",
       "caption": "Hateful Harrier",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "First Order Cadet",
@@ -176,8 +180,8 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 32,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 7,
       "slots": [
         "Talent",
         "Tech",
@@ -192,7 +196,8 @@
       "ffg": 917,
       "artwork": "???",
       "image": "???",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Sienar-Jaemus Test Pilot",
@@ -205,8 +210,8 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 31,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 8,
       "slots": [
         "Tech",
         "Torpedo",
@@ -220,7 +225,8 @@
       "ffg": 918,
       "artwork": "???",
       "image": "???",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     }
   ],
   "icon": "???"

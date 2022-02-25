@@ -54,7 +54,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_190.jpg",
       "ffg": 190,
       "standard": true,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Genesis Red",
@@ -74,7 +75,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_184.jpg",
       "ffg": 184,
       "standard": true,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Inaldra",
@@ -94,11 +96,12 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_187.jpg",
       "ffg": 187,
       "standard": true,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
-      "name": "Laetin A'shera",
-      "caption": "Car'das Enforcer",
+      "name": "Laetin A’shera",
+      "caption": "Car’das Enforcer",
       "initiative": 3,
       "limited": 1,
       "cost": 4,
@@ -114,7 +117,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_185.jpg",
       "ffg": 185,
       "standard": true,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Quinn Jast",
@@ -135,7 +139,8 @@
       "ffg": 186,
       "standard": true,
       "extended": true,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     },
     {
       "name": "Serissu",
@@ -155,7 +160,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_183.jpg",
       "ffg": 183,
       "standard": true,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Sunny Bounder",
@@ -175,7 +181,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_188.jpg",
       "ffg": 188,
       "standard": true,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Tansarii Point Veteran",
@@ -194,7 +201,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_189.jpg",
       "ffg": 189,
       "standard": true,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "G4R-G0R V/M",
@@ -221,7 +229,8 @@
         { "difficulty": "White", "type": "Lock" },
         { "difficulty": "White", "type": "Barrel Roll" }
       ],
-      "keywords": ["Droid"]
+      "keywords": ["Droid"],
+      "epic": true
     }
   ]
 }

@@ -62,7 +62,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg",
       "ffg": 181,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Black Sun Enforcer",
@@ -81,7 +82,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg",
       "ffg": 182,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Dalan Oberos",
@@ -102,11 +104,12 @@
       "ffg": 179,
       "standard": false,
       "extended": true,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     },
     {
       "name": "Guri",
-      "caption": "Prince Xizor's Bodyguard",
+      "caption": "Prince Xizor’s Bodyguard",
       "initiative": 5,
       "limited": 1,
       "cost": 7,
@@ -137,7 +140,8 @@
       "ffg": 178,
       "standard": false,
       "extended": true,
-      "keywords": ["Droid"]
+      "keywords": ["Droid"],
+      "epic": true
     },
     {
       "name": "Prince Xizor",
@@ -157,7 +161,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg",
       "ffg": 180,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     }
   ]
 }

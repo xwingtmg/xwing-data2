@@ -24,45 +24,17 @@
   ],
   "faction": "Galactic Republic",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 3
-    },
-    {
-      "type": "shields",
-      "value": 3
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 3 },
+    { "type": "shields", "value": 3 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "Purple",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    },
-    {
-      "difficulty": "White",
-      "type": "Boost"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "Purple", "type": "Evade" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "White", "type": "Barrel Roll" },
+    { "difficulty": "White", "type": "Boost" }
   ],
   "ability": {
     "name": "Fine-tuned Controls",
@@ -75,26 +47,13 @@
       "limited": 0,
       "xws": "jediknight",
       "text": "When the Clone Wars began, the Jedi Knights rallied to the cause of preserving the Republic, assuming command of legions of clone troopers and leading them in battle.",
-      "force": {
-        "value": 1,
-        "recovers": 1,
-        "side": [
-          "light"
-        ]
-      },
+      "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
       "cost": 6,
-      "slots": [
-        "Force Power",
-        "Astromech",
-        "Modification"
-      ],
+      "slots": ["Force Power", "Astromech", "Modification"],
       "ffg": 515,
-      "keywords": [
-        "Jedi",
-        "Light Side"
-      ],
+      "keywords": ["Jedi", "Light Side"],
       "loadout": 8,
       "extended": true
     },
@@ -105,13 +64,7 @@
       "limited": 1,
       "xws": "obiwankenobi",
       "ability": "After a friendly ship at range 0-2 spends a focus token, you may spend 1 [Force]. If you do, that ship gains 1 focus token.",
-      "force": {
-        "value": 3,
-        "recovers": 1,
-        "side": [
-          "light"
-        ]
-      },
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
       "cost": 7,
@@ -123,10 +76,7 @@
         "Modification"
       ],
       "ffg": 511,
-      "keywords": [
-        "Jedi",
-        "Light Side"
-      ],
+      "keywords": ["Jedi", "Light Side"],
       "loadout": 12,
       "extended": true
     },
@@ -137,13 +87,7 @@
       "limited": 1,
       "xws": "plokoon",
       "ability": "At the start of the Engagement Phase, you may spend 1 [Force] and choose another friendly ship at range 0-2. If you do, you may transfer 1 green token to it or transfer one orange token from it to yourself.",
-      "force": {
-        "value": 2,
-        "recovers": 1,
-        "side": [
-          "light"
-        ]
-      },
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
       "cost": 7,
@@ -155,10 +99,7 @@
         "Modification"
       ],
       "ffg": 513,
-      "keywords": [
-        "Jedi",
-        "Light Side"
-      ],
+      "keywords": ["Jedi", "Light Side"],
       "loadout": 12,
       "extended": true
     },
@@ -169,26 +110,13 @@
       "limited": 1,
       "xws": "saeseetiin",
       "ability": "After a friendly ship at range 0-2 reveals its dial, you may spend 1 [Force]. If you do, set its dial to another maneuver of the same speed and difficulty.",
-      "force": {
-        "value": 2,
-        "recovers": 1,
-        "side": [
-          "light"
-        ]
-      },
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "standard": false,
       "epic": true,
       "cost": 6,
-      "slots": [
-        "Force Power",
-        "Astromech",
-        "Modification"
-      ],
+      "slots": ["Force Power", "Astromech", "Modification"],
       "ffg": 514,
-      "keywords": [
-        "Jedi",
-        "Light Side"
-      ],
+      "keywords": ["Jedi", "Light Side"],
       "loadout": 9,
       "extended": true
     },
@@ -199,27 +127,13 @@
       "limited": 1,
       "xws": "macewindu",
       "ability": "After you fully execute a red maneuver, recover 1 [Force].",
-      "force": {
-        "value": 3,
-        "recovers": 1,
-        "side": [
-          "light"
-        ]
-      },
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
       "cost": 6,
-      "slots": [
-        "Force Power",
-        "Force Power",
-        "Astromech",
-        "Modification"
-      ],
+      "slots": ["Force Power", "Force Power", "Astromech", "Modification"],
       "ffg": 512,
-      "keywords": [
-        "Jedi",
-        "Light Side"
-      ],
+      "keywords": ["Jedi", "Light Side"],
       "loadout": 8,
       "extended": true
     },
@@ -230,13 +144,7 @@
       "limited": 1,
       "xws": "anakinskywalker",
       "ability": "After you fully execute a maneuver, if there is an enemy ship in your [Front Arc] at range 0-1 or in your [Bullseye Arc], you may spend 1 [Force] to remove 1 stress token.",
-      "force": {
-        "value": 3,
-        "recovers": 1,
-        "side": [
-          "light"
-        ]
-      },
+      "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
       "cost": 8,
@@ -249,10 +157,7 @@
         "Modification"
       ],
       "ffg": 507,
-      "keywords": [
-        "Jedi",
-        "Light Side"
-      ],
+      "keywords": ["Jedi", "Light Side"],
       "extended": true
     },
     {
@@ -262,26 +167,13 @@
       "limited": 1,
       "xws": "ahsokatano",
       "ability": "After you fully execute a maneuver, you may choose a friendly ship at range 0-1 and spend 1 [Force]. That ship may perform an action, even if it is stressed.",
-      "force": {
-        "value": 2,
-        "recovers": 1,
-        "side": [
-          "light"
-        ]
-      },
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
       "cost": 6,
-      "slots": [
-        "Force Power",
-        "Astromech",
-        "Modification"
-      ],
+      "slots": ["Force Power", "Astromech", "Modification"],
       "ffg": 510,
-      "keywords": [
-        "Jedi",
-        "Light Side"
-      ],
+      "keywords": ["Jedi", "Light Side"],
       "loadout": 10,
       "extended": true
     },
@@ -292,27 +184,13 @@
       "limited": 1,
       "xws": "barrissoffee",
       "ability": "While a friendly ship at range 0-2 performs an attack, if the defender is in its [Bullseye Arc], you may spend 1 [Force] to change 1 [Focus] result to a [Hit] result or 1 [Hit] result to a [Critical Hit] result.",
-      "force": {
-        "value": 1,
-        "recovers": 1,
-        "side": [
-          "light"
-        ]
-      },
+      "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
       "cost": 5,
-      "slots": [
-        "Force Power",
-        "Missile",
-        "Astromech",
-        "Modification"
-      ],
+      "slots": ["Force Power", "Missile", "Astromech", "Modification"],
       "ffg": 509,
-      "keywords": [
-        "Jedi",
-        "Light Side"
-      ],
+      "keywords": ["Jedi", "Light Side"],
       "loadout": 10,
       "extended": true
     },
@@ -323,26 +201,13 @@
       "limited": 1,
       "xws": "luminaraunduli",
       "ability": "While a friendly ship at range 0-2 defends, if it is not in the attacker's [Bullseye Arc], you may spend 1 [Force]. If you do, change 1 [Critical Hit] result to a [Hit] result or 1 [Hit] result to a [Focus] result.",
-      "force": {
-        "value": 2,
-        "recovers": 1,
-        "side": [
-          "light"
-        ]
-      },
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
       "cost": 6,
-      "slots": [
-        "Force Power",
-        "Astromech",
-        "Modification"
-      ],
+      "slots": ["Force Power", "Astromech", "Modification"],
       "ffg": 508,
-      "keywords": [
-        "Jedi",
-        "Light Side"
-      ],
+      "keywords": ["Jedi", "Light Side"],
       "loadout": 7,
       "extended": true
     }

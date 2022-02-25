@@ -68,7 +68,8 @@
       "ffg": 174,
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter"]
+      "keywords": ["Freighter"],
+      "epic": true
     },
     {
       "name": "Palob Godalhi",
@@ -93,7 +94,8 @@
       "ffg": 175,
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter"]
+      "keywords": ["Freighter"],
+      "epic": true
     },
     {
       "name": "Spice Runner",
@@ -104,15 +106,13 @@
       "xws": "spicerunner",
       "text": "Though its cargo space is limited compared to other light freighters, the small, swift HWK-290 is a favorite choice of smugglers who specialize in discreetly transporting precious goods.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_177.png",
-      "slots": [
-        "Device",
-        "Illicit"
-      ],
+      "slots": ["Device", "Illicit"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_177.jpg",
       "ffg": 177,
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter"]
+      "keywords": ["Freighter"],
+      "epic": true
     },
     {
       "name": "Torkil Mux",
@@ -124,18 +124,13 @@
       "xws": "torkilmux",
       "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_176.png",
-      "slots": [
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Modification"
-      ],
+      "slots": ["Crew", "Device", "Illicit", "Modification", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_176.jpg",
       "ffg": 176,
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter"]
+      "keywords": ["Freighter"],
+      "epic": true
     },
     {
       "name": "Gamut Key",
@@ -158,7 +153,8 @@
       "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship in your [Single Turret Arc] with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
       "caption": "Collaborationist Governor",
       "ffg": 896,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c505641a8f7b883897b41fd07809d37d.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c505641a8f7b883897b41fd07809d37d.jpg",
+      "epic": true
     },
     {
       "name": "Kanan Jarrus",
@@ -168,7 +164,7 @@
       "caption": "Lost Padawan",
       "standard": true,
       "extended": true,
-      "keywords": ["Jedi", "Light Side"],
+      "keywords": ["Jedi", "Light Side", "Freighter"],
       "force": { "value": 1, "recovers": 1 },
       "cost": 4,
       "loadout": 10,
@@ -182,7 +178,8 @@
       ],
       "ability": "While you or a ship in your [Single Turret Arc] defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
       "ffg": 897,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a1ad87f3418ee0b755b42f7afb259858.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a1ad87f3418ee0b755b42f7afb259858.jpg",
+      "epic": true
     },
     {
       "name": "Tápusk",
@@ -204,7 +201,9 @@
       ],
       "ability": "During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge]. If you do, that ship does not recover that [Charge] or [Force].",
       "ffg": 895,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b88cf93a5391d3b1ebd7d619a7aabdf9.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b88cf93a5391d3b1ebd7d619a7aabdf9.jpg",
+      "keywords": ["Freighter"],
+      "epic": true
     }
   ]
 }

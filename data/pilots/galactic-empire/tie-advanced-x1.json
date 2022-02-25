@@ -63,12 +63,21 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Sensor", "Missile", "Modification", "Modification", "Force Power", "Force Power", "Tech"],
+      "slots": [
+        "Sensor",
+        "Missile",
+        "Modification",
+        "Modification",
+        "Force Power",
+        "Force Power",
+        "Tech"
+      ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_93.jpg",
       "ffg": 93,
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "Sith", "TIE"]
+      "keywords": ["Dark Side", "Sith", "TIE"],
+      "epic": true
     },
     {
       "name": "Maarek Stele",
@@ -84,12 +93,20 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Talent", "Talent", "Sensor", "Missile", "Modification", "Modification"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Sensor",
+        "Missile",
+        "Modification",
+        "Modification"
+      ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_94.jpg",
       "ffg": 94,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Storm Squadron Ace",
@@ -109,7 +126,8 @@
       "ffg": 97,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Tempest Squadron Pilot",
@@ -135,7 +153,8 @@
       "ffg": 98,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Ved Foslo",
@@ -151,12 +170,20 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Talent", "Talent", "Sensor", "Missile", "Modification", "Modification"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Sensor",
+        "Missile",
+        "Modification",
+        "Modification"
+      ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_95.jpg",
       "ffg": 95,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Zertik Strom",
@@ -177,7 +204,8 @@
       "ffg": 96,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }

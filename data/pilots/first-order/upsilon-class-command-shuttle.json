@@ -43,8 +43,8 @@
       "caption": "Hypercomms Specialist",
       "initiative": 2,
       "limited": 1,
-      "cost": 73,
-      "loadout": 0,
+      "cost": 9,
+      "loadout": 20,
       "xws": "lieutenantdormitz",
       "ability": "Setup: After you are placed, other friendly ships can be placed anywhere in the play area at range 0-2 of you.",
       "shipAbility": {
@@ -65,15 +65,16 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4505cb1930309673fe5592dbc112d733.jpg",
       "ffg": 412,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Major Stridan",
       "caption": "Stentorian Commander",
       "initiative": 4,
       "limited": 1,
-      "cost": 61,
-      "loadout": 0,
+      "cost": 7,
+      "loadout": 13,
       "xws": "majorstridan",
       "ability": "While you coordinate or resolve the effect of one of your upgrades, you may treat friendly ships at range 2-3 as being at range 0 or range 1.",
       "shipAbility": {
@@ -94,7 +95,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/862f9dcc1ce9809f9a394d8f0b05f268.jpg",
       "ffg": 410,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Petty Officer Thanisson",
@@ -102,8 +104,8 @@
       "caption": "Alert Flight Controller",
       "initiative": 1,
       "limited": 1,
-      "cost": 59,
-      "loadout": 0,
+      "cost": 7,
+      "loadout": 14,
       "charges": { "value": 1, "recovers": 1 },
       "ability": "During the Activation or Engagement Phase, after a ship in your [Front Arc] at range 0-2 gains 1 stress token, you may spend 1 [Charge]. If you do, that ship gains 1 tractor token.",
       "shipAbility": {
@@ -124,15 +126,16 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/24a40f6ec1875bfae9e7531b02252993.jpg",
       "ffg": 458,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Starkiller Base Pilot",
       "xws": "starkillerbasepilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 58,
-      "loadout": 0,
+      "cost": 7,
+      "loadout": 8,
       "text": "The Upsilon-class command shuttle serves as a base of operations for many of the First Order's senior officers and agents. Its powerful sensors and communications equipment allow them to orchestrate the spread of terror across the galaxy.",
       "shipAbility": {
         "name": "Linked Battery",
@@ -152,15 +155,16 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1ea0266ea42691778e8ecff6a5b50e45.jpg",
       "ffg": 413,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Lieutenant Tavson",
       "caption": "Obedient Shuttle Pilot",
       "initiative": 3,
       "limited": 1,
-      "cost": 64,
-      "loadout": 0,
+      "cost": 8,
+      "loadout": 15,
       "xws": "lieutenanttavson",
       "ability": "After you suffer damage, you may spend 1 [Charge] to perform an action.",
       "charges": { "value": 2, "recovers": 1 },
@@ -182,15 +186,16 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/151154b50732a6dd42b411fc312137b9.jpg",
       "ffg": 411,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Captain Cardinal",
       "caption": "Principled Instructor",
       "initiative": 4,
       "limited": 1,
-      "cost": 62,
-      "loadout": 0,
+      "cost": 7,
+      "loadout": 12,
       "xws": "captaincardinal",
       "ability": "While a friendly ship at range 1-2 with lower initiative than you defends or performs an attack, if you have at least 1 [Charge], that ship may reroll 1 [Focus] result. After an enemy ship at range 0-3 is destroyed, lose 1 [Charge].",
       "shipAbility": {
@@ -212,7 +217,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a88822cc408323e561efd9e2acb83f2a.jpg",
       "ffg": 457,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     }
   ]
 }

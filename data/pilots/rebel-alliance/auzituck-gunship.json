@@ -39,8 +39,8 @@
       "name": "Kashyyyk Defender",
       "initiative": 1,
       "limited": 0,
-      "cost": 44,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 6,
       "xws": "kashyyykdefender",
       "text": "Equipped with three wide-range Sureggi twin laser cannons, the Auzituck gunship acts as a powerful deterrent to slaver operations in the Kashyyyk system.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_33.png",
@@ -48,15 +48,16 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_33.jpg",
       "ffg": 33,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Lowhhrick",
       "caption": "Escaped Gladiator",
       "initiative": 3,
       "limited": 1,
-      "cost": 50,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 10,
       "xws": "lowhhrick",
       "ability": "After a friendly ship at range 0-1 becomes the defender, you may spend 1 reinforce token. If you do, that ship gains 1 evade token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_32.png",
@@ -64,15 +65,16 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_32.jpg",
       "ffg": 32,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Wullffwarro",
       "caption": "Wookiee Chief",
       "initiative": 4,
       "limited": 1,
-      "cost": 53,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 11,
       "xws": "wullffwarro",
       "ability": "While you perform a primary attack, if you are damaged, you may roll 1 additional attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_31.png",
@@ -80,7 +82,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_31.jpg",
       "ffg": 31,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     }
   ]
 }

@@ -45,8 +45,8 @@
       "name": "Blade Squadron Veteran",
       "initiative": 3,
       "limited": 0,
-      "cost": 42,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 6,
       "xws": "bladesquadronveteran",
       "text": "A unique gyrostabilization system surrounds the B-wing's cockpit, ensuring that the pilot always remains stationary during flight.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_25.png",
@@ -64,14 +64,15 @@
       "ffg": 25,
       "standard": true,
       "extended": true,
-      "keywords": ["B-wing"]
+      "keywords": ["B-wing"],
+      "epic": true
     },
     {
       "name": "Blue Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 41,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 6,
       "xws": "bluesquadronpilot",
       "text": "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_26.png",
@@ -94,15 +95,16 @@
       "ffg": 26,
       "standard": true,
       "extended": true,
-      "keywords": ["B-wing"]
+      "keywords": ["B-wing"],
+      "epic": true
     },
     {
       "name": "Braylen Stramm",
       "caption": "Blade Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 52,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 18,
       "xws": "braylenstramm",
       "ability": "While you defend or perform an attack, if you are stressed, you may reroll up to 2 of your dice.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_23.png",
@@ -120,15 +122,16 @@
       "ffg": 23,
       "standard": true,
       "extended": true,
-      "keywords": ["B-wing"]
+      "keywords": ["B-wing"],
+      "epic": true
     },
     {
       "name": "Ten Numb",
       "caption": "Blue Five",
       "initiative": 4,
       "limited": 1,
-      "cost": 49,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 20,
       "xws": "tennumb",
       "ability": "While you defend or perform an attack, you may spend 1 stress token to change all of your [Focus] results to [Evade] or [Hit] results.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_24.png",
@@ -146,7 +149,8 @@
       "ffg": 24,
       "standard": true,
       "extended": true,
-      "keywords": ["B-wing"]
+      "keywords": ["B-wing"],
+      "epic": true
     },
     {
       "name": "Gina Moonsong",
@@ -167,12 +171,13 @@
         "Configuration"
       ],
       "ability": "At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2.",
-      "cost": 45,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 11,
       "ffg": 628,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/df07f280040d4284c04c194e18c62c9e.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/0fcceeaf64f96b4870146ffbec529dc2.png",
-      "keywords": ["B-wing"]
+      "keywords": ["B-wing"],
+      "epic": true
     },
     {
       "name": "Hera Syndulla",
@@ -180,11 +185,11 @@
       "initiative": 6,
       "limited": 1,
       "caption": "Phoenix Leader",
-      "standard": false,
+      "standard": true,
       "extended": true,
       "keywords": ["B-wing", "Spectre"],
-      "cost": 48,
-      "loadout": 0,
+      "cost": 6,
+      "loadout": 27,
       "slots": [
         "Talent",
         "Sensor",
@@ -197,7 +202,8 @@
       ],
       "ability": "While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.",
       "ffg": 878,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8a1e9cd504cde297c35d03aa728f5f40.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8a1e9cd504cde297c35d03aa728f5f40.jpg",
+      "epic": true
     },
     {
       "name": "Netrem Pollard",
@@ -205,10 +211,10 @@
       "initiative": 3,
       "limited": 1,
       "caption": "Dagger Leader",
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "cost": 43,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 11,
       "slots": [
         "Talent",
         "Sensor",
@@ -222,7 +228,8 @@
       "ability": "After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.",
       "keywords": ["B-wing"],
       "ffg": 879,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8e8ea8e29324398b455ec7b01bc1622e.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8e8ea8e29324398b455ec7b01bc1622e.jpg",
+      "epic": true
     }
   ]
 }

@@ -20,46 +20,17 @@
   ],
   "faction": "Galactic Republic",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "arc": "Rear Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 9
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "arc": "Rear Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 9 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Reinforce"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Coordinate"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "Red", "type": "Reinforce" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Coordinate" }
   ],
   "pilots": [
     {
@@ -86,9 +57,7 @@
         "Modification",
         "Configuration"
       ],
-      "keywords": [
-        "Mandalorian"
-      ]
+      "keywords": ["Mandalorian"]
     },
     {
       "xws": "niteowlliberator",
@@ -108,9 +77,7 @@
         "Modification",
         "Configuration"
       ],
-      "keywords": [
-        "Mandalorian"
-      ],
+      "keywords": ["Mandalorian"],
       "caption": "Resolute Warrior"
     }
   ]

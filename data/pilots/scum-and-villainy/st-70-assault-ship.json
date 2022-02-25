@@ -46,51 +46,70 @@
       "caption": "Din Djarin",
       "initiative": 5,
       "limited": 1,
-      "cost": "?",
+      "cost": 7,
       "xws": "themandalorian",
       "ability": "While you defend or perform an attack, if you are in the [Front Arc] at range 1-2 of 2 or more enemy ships, you may change 1 of your blank results to a [Focus] result.",
       "image": "https://infinitearenas.com/xw2/images/pilots/themandalorian.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/themandalorian.png",
       "ffg": 106,
-      "hyperspace": false
+      "hyperspace": false,
+      "loadout": 28,
+      "keywords": ["Mandalorian"],
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Q9-0",
       "caption": "Zero",
       "initiative": 5,
       "limited": 1,
-      "cost": "?",
+      "cost": 6,
       "xws": "q90",
       "ability": "After you fully execute an advanced maneuver, you may perform a [calculate] or [barrelroll] action, even while stressed. If you do, gain 1 strain token.",
       "image": "https://infinitearenas.com/xw2/images/pilots/q90.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/q90.png",
       "ffg": 106,
-      "hyperspace": false
+      "hyperspace": false,
+      "loadout": 20,
+      "keywords": ["Droid"],
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Guild Bounty Hunter",
       "caption": "Blaster for Hire",
       "initiative": 3,
       "limited": 2,
-      "cost": "?",
+      "cost": 6,
       "xws": "guildbountyhunter",
       "ability": "While you perform an attack at attack range 1-2, you may spend 1 non-recurring [charge] from 1 of your equipped [illicit] upgrades to change 1 [focus] result to a [crit] result.",
       "image": "https://infinitearenas.com/xw2/images/pilots/guildbountyhunter.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/guildbountyhunter.png",
       "ffg": 106,
-      "hyperspace": false
+      "hyperspace": false,
+      "loadout": 14,
+      "keywords": ["Bounty Hunter"],
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Outer Rim Enforcer",
       "initiative": 2,
       "limited": 0,
-      "cost": "?",
+      "cost": 6,
       "xws": "outerrimenforcer",
       "text": "While you perform an attack at attack range 1-2, you may spend 1 non-recurring [charge] from 1 of your equipped [illicit] upgrades to change 1 [focus] result to a [crit] result.",
       "image": "https://infinitearenas.com/xw2/images/pilots/outerrimenforcer.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimenforcer.png",
       "ffg": 106,
-      "hyperspace": false
+      "hyperspace": false,
+      "loadout": 10,
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

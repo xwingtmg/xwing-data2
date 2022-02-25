@@ -42,7 +42,7 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPunisher.png",
   "pilots": [
     {
-      "name": "\"Deathrain\"",
+      "name": "“Deathrain”",
       "caption": "Dexterous Bombardier",
       "initiative": 4,
       "limited": 1,
@@ -65,10 +65,11 @@
       "ffg": 140,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Redline\"",
+      "name": "“Redline”",
       "caption": "Adrenaline Junkie",
       "initiative": 5,
       "limited": 1,
@@ -91,7 +92,8 @@
       "ffg": 139,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Cutlass Squadron Pilot",
@@ -114,7 +116,8 @@
       "ffg": 141,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }

@@ -17,7 +17,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Contraband Cybernetics",
@@ -36,7 +38,9 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Deadman's Switch",
@@ -54,7 +58,9 @@
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Feedback Array",
@@ -72,7 +78,9 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Inertial Dampeners",
@@ -89,11 +97,10 @@
         "ffg": 290
       }
     ],
-    "cost": {
-      "variable": "initiative",
-      "values": { "0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6 }
-    },
-    "hyperspace": false
+    "cost": { "value": 8 },
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Rigged Cargo Chute",
@@ -118,13 +125,14 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "sizes": ["Medium", "Large"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Coaxium Hyperfuel",
     "limited": 0,
     "xws": "coaxiumhyperfuel",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "You can perform the [SLAM] action even while stressed. If you do, you suffer 1 [Critical Hit] damage unless you expose 1 of your damage cards. After you partially execute a maneuver, you may expose 1 of your damage cards or suffer 1 [Critical Hit] damage to perform a [SLAM] action.",
@@ -136,7 +144,10 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1622f5d9e279b54d4610820f5dd31a95.png"
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 4 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Quick-Release Locks",
@@ -197,7 +208,6 @@
     "name": "False Transponder Codes",
     "limited": 0,
     "xws": "falsetranspondercodes",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "After you acquire a lock on an object or an object acquires a lock on you, if you have 1 active [Charge], lose 1 [Charge] and jam that object, ignoring range restrictions.",
@@ -210,13 +220,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/06d6e39ec52930c4faca371e8dcd3fd6.jpg"
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Babu Frik",
     "limited": 1,
     "xws": "babufrik",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Before you would gain a non-lock red or orange token, you may spend 1 [Charge] to place it on this card instead. During the System Phase, if there are 1 or more tokens on this card, you must spend 1 [Charge]. If you cannot, remove those tokens and gain matching tokens.",
@@ -228,13 +240,15 @@
       }
     ],
     "restrictions": [{ "factions": ["Scum and Villainy", "Resistance"] }],
-    "cost": { "value": 7 }
+    "cost": { "value": 5 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Overtuned Modulators",
     "limited": 0,
     "xws": "overtunedmodulators",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "During the System Phase, if you are not stressed, you may spend 1 [Charge] to gain 3 calculate tokens. During the End Phase, if your [Charge] is inactive, for each green token you remove, gain 1 strain token.",
@@ -247,13 +261,15 @@
         "artwork": "???"
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Tracking Fob",
     "limited": 3,
     "xws": "trackingfob",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "Setup: After placing forces, choose an opponent: they assign the Marked for Elimination condition to 1 of their ships. They must assign it to a limited ship, if able. You ignore range restrictions while acquiring locks on the ship with the Marked for Elimination condition.",
@@ -266,13 +282,15 @@
       }
     ],
     "restrictions": [{ "keyword": ["Bounty Hunter"] }],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Hotshot Tail Blaster",
     "limited": 0,
     "xws": "hotshottailblaster",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "This attack can be performed at range 0. Attack: Spend 1 [Charge].",
@@ -292,7 +310,10 @@
         "artwork": "???"
       }
     ],
-    "restrictions": [{ "sizes": ["Medium","Large"] }],
-    "cost": { "value": 2 }
+    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "cost": { "value": 2 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

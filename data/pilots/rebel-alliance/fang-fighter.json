@@ -25,43 +25,21 @@
   "dialCodes": ["Fng"],
   "faction": "Rebel Alliance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 3
-    },
-    {
-      "type": "hull",
-      "value": 4
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 3 },
+    { "type": "hull", "value": 4 }
   ],
   "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Focus"
-      },
+      "linked": { "difficulty": "Red", "type": "Focus" },
       "type": "Barrel Roll"
     },
     {
       "difficulty": "White",
-      "linked": {
-        "difficulty": "Red",
-        "type": "Focus"
-      },
+      "linked": { "difficulty": "Red", "type": "Focus" },
       "type": "Boost"
     }
   ],
@@ -153,4 +131,3 @@
     }
   ]
 }
-

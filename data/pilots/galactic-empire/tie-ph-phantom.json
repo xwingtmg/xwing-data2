@@ -39,7 +39,7 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPhantom.png",
   "pilots": [
     {
-      "name": "\"Echo\"",
+      "name": "“Echo”",
       "caption": "Slippery Trickster",
       "initiative": 4,
       "limited": 1,
@@ -57,10 +57,11 @@
       "ffg": 132,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Whisper\"",
+      "name": "“Whisper”",
       "caption": "Soft-Spoken Slayer",
       "initiative": 5,
       "limited": 1,
@@ -78,7 +79,8 @@
       "ffg": 131,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Imdaar Test Pilot",
@@ -98,7 +100,8 @@
       "ffg": 134,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Sigma Squadron Ace",
@@ -118,7 +121,8 @@
       "ffg": 133,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }

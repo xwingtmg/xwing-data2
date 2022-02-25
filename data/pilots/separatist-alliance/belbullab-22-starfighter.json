@@ -56,11 +56,12 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9e4a215e799a9e7ad1853d19d149dd20.png",
       "standard": true,
       "extended": true,
-      "cost": 44,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 12,
       "slots": ["Talent", "Modification", "Title", "Tactical Relay"],
       "ffg": 492,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3e4dee70764ead7ebe581246a0d4b85d.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3e4dee70764ead7ebe581246a0d4b85d.jpg",
+      "epic": true
     },
     {
       "name": "Wat Tambor",
@@ -72,11 +73,12 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/68cbd6082683fe17778f829555f23a26.png",
       "standard": true,
       "extended": true,
-      "cost": 42,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 7,
       "slots": ["Talent", "Modification", "Title", "Tactical Relay"],
       "ffg": 493,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/95127fa6d286fe64f3070e742dc64a7c.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/95127fa6d286fe64f3070e742dc64a7c.jpg",
+      "epic": true
     },
     {
       "name": "Feethan Ottraw Autopilot",
@@ -99,14 +101,15 @@
           "type": "Boost"
         }
       ],
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "cost": 35,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 5,
       "slots": ["Modification", "Title", "Tactical Relay"],
       "ffg": 496,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/91052cb8f4ba464f5ac4572a725f757b.jpg",
-      "keywords": ["Droid"]
+      "keywords": ["Droid"],
+      "epic": true
     },
     {
       "name": "Captain Sear",
@@ -118,17 +121,18 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3d3704ab454433a8b4d73ee6bff430b8.png",
       "standard": true,
       "extended": true,
-      "cost": 45,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 15,
       "slots": ["Modification", "Title", "Tactical Relay"],
       "ffg": 494,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/91a7a38482d28f21b2620d058800a8fe.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/91a7a38482d28f21b2620d058800a8fe.jpg",
+      "epic": true
     },
     {
       "name": "Skakoan Ace",
       "xws": "skakoanace",
-      "cost": 38,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 4,
       "slots": ["Talent", "Modification", "Title", "Tactical Relay"],
       "ffg": 495,
       "initiative": 3,
@@ -136,8 +140,9 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/af0e63b7754ef598f1f36ed9a6c4b4ee.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ceb7a3bc406ff17be5dee5de62b39195.png",
       "text": "With its powerful engines, devastating triple laser cannons, and high customizability, the Belbullab-22 is the chosen craft of several elite Separatist Alliance pilots, including the infamous General Grievous.",
-      "standard": false,
-      "extended": true
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ],
   "ffg": 58

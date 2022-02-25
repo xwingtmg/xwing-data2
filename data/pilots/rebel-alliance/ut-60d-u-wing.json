@@ -35,11 +35,11 @@
   "pilots": [
     {
       "name": "Benthic Two Tubes",
-      "caption": "Cavern Angels Marksman",
+      "caption": "Cavern Angels Marks- man",
       "initiative": 2,
       "limited": 1,
-      "cost": 46,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 16,
       "xws": "benthictwotubes",
       "ability": "After you perform a [Focus] action, you may transfer 1 of your focus tokens to a friendly ship at range 1-2.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_58.png",
@@ -53,32 +53,34 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_58.jpg",
       "ffg": 58,
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "keywords": ["Partisan"]
+      "keywords": ["Partisan"],
+      "epic": true
     },
     {
       "name": "Blue Squadron Scout",
       "initiative": 2,
       "limited": 0,
-      "cost": 43,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 6,
       "xws": "bluesquadronscout",
       "text": "Used for deploying troops under the cover of darkness or into the heat of battle, the UT-60D U-wing fulfills the Rebellion's need for a swift and hardy troop transport.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_60.png",
       "slots": ["Sensor", "Crew", "Crew", "Modification", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_60.jpg",
       "ffg": 60,
-      "standard": false,
-      "extended": true
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Bodhi Rook",
       "caption": "Imperial Defector",
       "initiative": 4,
       "limited": 1,
-      "cost": 48,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 10,
       "xws": "bodhirook",
       "ability": "Friendly ships can acquire locks onto objects at range 0-3 of any friendly ship.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_54.png",
@@ -92,16 +94,17 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_54.jpg",
       "ffg": 54,
-      "standard": false,
-      "extended": true
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Cassian Andor",
       "caption": "Raised by the Rebellion",
       "initiative": 3,
       "limited": 1,
-      "cost": 51,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 12,
       "xws": "cassianandor",
       "ability": "At the start of the Activation Phase, you may choose 1 friendly ship at range 1-3. If you do, that ship removes 1 stress token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_56.png",
@@ -115,16 +118,17 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_56.jpg",
       "ffg": 56,
-      "standard": false,
-      "extended": true
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Heff Tobber",
       "caption": "Blue Eight",
       "initiative": 2,
       "limited": 1,
-      "cost": 44,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 9,
       "xws": "hefftobber",
       "ability": "After an enemy ship executes a maneuver, if it is at range 0, you may perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_59.png",
@@ -138,16 +142,17 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_59.jpg",
       "ffg": 59,
-      "standard": false,
-      "extended": true
+      "standard": true,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Magva Yarro",
       "caption": "Cavern Angels Spotter",
       "initiative": 3,
       "limited": 1,
-      "cost": 50,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 14,
       "xws": "magvayarro",
       "ability": "While a friendly ship at range 0-2 defends, the attacker cannot reroll more than 1 attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_57.png",
@@ -162,16 +167,17 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_57.jpg",
       "ffg": 57,
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "keywords": ["Partisan"]
+      "keywords": ["Partisan"],
+      "epic": true
     },
     {
       "name": "Partisan Renegade",
       "initiative": 1,
       "limited": 0,
-      "cost": 43,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 6,
       "xws": "partisanrenegade",
       "text": "Saw Gerrera's partisans were first established to oppose Separatist forces on Onderon during the Clone Wars and continued to wage war against galactic tyranny as the Empire rose to power.",
       "slots": [
@@ -185,17 +191,18 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_61.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_61.jpg",
       "ffg": 61,
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "keywords": ["Partisan"]
+      "keywords": ["Partisan"],
+      "epic": true
     },
     {
       "name": "Saw Gerrera",
       "caption": "Obsessive Outlaw",
       "initiative": 4,
       "limited": 1,
-      "cost": 52,
-      "loadout": 0,
+      "cost": 6,
+      "loadout": 18,
       "xws": "sawgerrera",
       "ability": "While a damaged friendly ship at range 0-3 performs an attack, it may reroll 1 attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_55.png",
@@ -216,9 +223,10 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_55.jpg",
       "ffg": 55,
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "keywords": ["Partisan"]
+      "keywords": ["Partisan"],
+      "epic": true
     },
     {
       "name": "K-2SO",
@@ -240,14 +248,15 @@
         { "difficulty": "White", "type": "Lock" },
         { "difficulty": "Red", "type": "Coordinate" }
       ],
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "cost": 46,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 10,
       "ffg": 629,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/eeb6e9aeefe6f988949aff17e7e7986d.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c65da3d5378ec32bd024325dbd80b3d6.png",
-      "keywords": ["Droid"]
+      "keywords": ["Droid"],
+      "epic": true
     }
   ]
 }

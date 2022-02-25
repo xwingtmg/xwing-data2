@@ -38,7 +38,7 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEReaper.png",
   "pilots": [
     {
-      "name": "\"Vizier\"",
+      "name": "“Vizier”",
       "caption": "Ruthless Tactician",
       "initiative": 2,
       "limited": 1,
@@ -56,7 +56,8 @@
       "ffg": 115,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Captain Feroph",
@@ -77,7 +78,8 @@
       "ffg": 114,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Major Vermeil",
@@ -98,7 +100,8 @@
       "ffg": 113,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Scarif Base Pilot",
@@ -124,7 +127,8 @@
       "ffg": 116,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }

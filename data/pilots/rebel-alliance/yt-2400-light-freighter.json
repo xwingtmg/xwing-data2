@@ -39,12 +39,12 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_YT-2400.png",
   "pilots": [
     {
-      "name": "\"Leebo\"",
+      "name": "“Leebo”",
       "caption": "Dry-Witted Droid",
       "initiative": 3,
       "limited": 1,
-      "cost": 72,
-      "loadout": 0,
+      "cost": 8,
+      "loadout": 16,
       "xws": "leebo",
       "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_78.png",
@@ -70,15 +70,16 @@
       "ffg": 78,
       "standard": false,
       "extended": true,
-      "keywords": ["Droid", "Freighter"]
+      "keywords": ["Droid", "Freighter"],
+      "epic": true
     },
     {
       "name": "Dash Rendar",
       "caption": "Hotshot Mercenary",
       "initiative": 5,
       "limited": 1,
-      "cost": 79,
-      "loadout": 0,
+      "cost": 10,
+      "loadout": 22,
       "xws": "dashrendar",
       "ability": "While you move, you ignore obstacles.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_77.png",
@@ -99,14 +100,15 @@
       "ffg": 77,
       "standard": false,
       "extended": true,
-      "keywords": ["Freighter"]
+      "keywords": ["Freighter"],
+      "epic": true
     },
     {
       "name": "Wild Space Fringer",
       "initiative": 1,
       "limited": 0,
-      "cost": 72,
-      "loadout": 0,
+      "cost": 8,
+      "loadout": 7,
       "xws": "wildspacefringer",
       "text": "Although stock YT-2400 light freighters have plenty of room for cargo, that space is often annexed to support modified weapon systems and oversized engines.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_79.png",
@@ -119,7 +121,8 @@
       "ffg": 79,
       "standard": false,
       "extended": true,
-      "keywords": ["Freighter"]
+      "keywords": ["Freighter"],
+      "epic": true
     }
   ]
 }

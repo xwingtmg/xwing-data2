@@ -14,11 +14,10 @@
         "ffg": 252
       }
     ],
-    "cost": {
-      "variable": "size",
-      "values": { "Small": 13, "Medium": 11, "Large": 9 }
-    },
-    "hyperspace": false
+    "cost": { "value": 12 },
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Collision Detector",
@@ -36,8 +35,10 @@
         "ffg": 253
       }
     ],
-    "cost": { "value": 6 },
-    "hyperspace": false
+    "cost": { "value": 9 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Fire-Control System",
@@ -55,7 +56,9 @@
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Trajectory Simulator",
@@ -73,13 +76,14 @@
       }
     ],
     "cost": { "value": 6 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Passive Sensors",
     "limited": 0,
     "xws": "passivesensors",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Action: Spend 1 [Charge]. You can only perform this action in your Perform Action step. While your [Charge] is inactive, you cannot be coordinated. Before you engage, if your [Charge] is inactive, you may perform a [Calculate] or [Lock] action.",
@@ -92,9 +96,9 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/08a980b359fb73dbcb9a315e94d505f0.png"
       }
     ],
-    "cost": {
-      "variable": "initiative",
-      "values": { "0": 4, "1": 4, "2": 4, "3": 4, "4": 5, "5": 6, "6": 7 }
-    }
+    "cost": { "value": 5 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

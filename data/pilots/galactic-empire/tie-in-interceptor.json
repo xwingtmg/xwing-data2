@@ -55,7 +55,8 @@
       "ffg": 106,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Saber Squadron Ace",
@@ -75,7 +76,8 @@
       "ffg": 105,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Soontir Fel",
@@ -91,12 +93,19 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Talent", "Modification", "Modification", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg",
       "ffg": 103,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Turr Phennir",
@@ -112,12 +121,19 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Talent", "Modification", "Modification", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg",
       "ffg": 104,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Ciena Ree",
@@ -137,7 +153,8 @@
       "ability": "After you perform an attack, if the defender was destroyed, gain 1 stress token. After a friendly ship at range 0-3 is destroyed, remove 1 stress token.",
       "caption": "Look Through My Eyes",
       "ffg": 889,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1e8066a3e41db4df36bbb155feac4c20.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1e8066a3e41db4df36bbb155feac4c20.jpg",
+      "epic": true
     },
     {
       "name": "Gideon Hask",
@@ -157,7 +174,8 @@
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die.",
       "ffg": 892,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f97eca9b805c2e0f8bb833ffce44b033.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f97eca9b805c2e0f8bb833ffce44b033.jpg",
+      "epic": true
     },
     {
       "name": "Vult Skerris",
@@ -178,7 +196,8 @@
       "charges": { "value": 1, "recovers": -1 },
       "keywords": ["TIE"],
       "ffg": 890,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/528647fa86b7a42c3e48992185e422b5.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/528647fa86b7a42c3e48992185e422b5.jpg",
+      "epic": true
     },
     {
       "name": "Commandant Goran",
@@ -198,7 +217,8 @@
       "ability": "After a friendly ship at range 0-3 with a lower initiative than yours partially executes a maneuver, it may perform a red [Focus] action.",
       "keywords": ["TIE"],
       "ffg": 891,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cf15fb0b36550e1066381dbd38eba259.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cf15fb0b36550e1066381dbd38eba259.jpg",
+      "epic": true
     },
     {
       "name": "Lieutenant Lorrir",
@@ -214,11 +234,18 @@
       "extended": true,
       "cost": 4,
       "loadout": 10,
-      "slots": ["Talent", "Modification", "Modification", "Modification", "Configuration"],
+      "slots": [
+        "Talent",
+        "Modification",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
       "ability": "While you barrel roll, you must use the [[Bank Left] or [Bank Right]] template instead of the [[Straight]] template.",
       "keywords": ["TIE"],
       "ffg": 893,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0dc2601a5cdde23815e1d0fc54e7817b.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0dc2601a5cdde23815e1d0fc54e7817b.jpg",
+      "epic": true
     },
     {
       "name": "Nash Windrider",
@@ -239,7 +266,8 @@
       "ability": "During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spend 1 [Charge]. If you do, that ship engages at the current initiative.",
       "keywords": ["TIE"],
       "ffg": 894,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1470ad9f77f0c8ac14d9fa291895ec9a.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1470ad9f77f0c8ac14d9fa291895ec9a.jpg",
+      "epic": true
     }
   ]
 }

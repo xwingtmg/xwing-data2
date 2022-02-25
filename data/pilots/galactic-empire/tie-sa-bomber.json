@@ -41,7 +41,7 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEBomber.png",
   "pilots": [
     {
-      "name": "\"Deathfire\"",
+      "name": "“Deathfire”",
       "caption": "Unflinching Diehard",
       "initiative": 2,
       "limited": 1,
@@ -66,7 +66,8 @@
       "ffg": 110,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Captain Jonus",
@@ -96,7 +97,8 @@
       "ffg": 108,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Gamma Squadron Ace",
@@ -111,18 +113,13 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "slots": [
-        "Torpedo",
-        "Device",
-        "Device",
-        "Modification",
-        "Gunner"
-      ],
+      "slots": ["Torpedo", "Device", "Device", "Modification", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_111.jpg",
       "ffg": 111,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Major Rhymer",
@@ -151,7 +148,8 @@
       "ffg": 109,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Scimitar Squadron Pilot",
@@ -166,18 +164,13 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "slots": [
-        "Missile",
-        "Device",
-        "Device",
-        "Modification",
-        "Gunner"
-      ],
+      "slots": ["Missile", "Device", "Device", "Modification", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_112.jpg",
       "ffg": 112,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Tomax Bren",
@@ -207,7 +200,8 @@
       "ffg": 107,
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }

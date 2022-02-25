@@ -38,12 +38,12 @@
   "pilots": [
     {
       "ffg": 660,
-      "name": "\"Hawk\"",
+      "name": "“Hawk”",
       "xws": "hawk",
       "caption": "Valkyrie 2929",
       "initiative": 4,
-      "cost": 51,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 23,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Talent",
@@ -65,16 +65,17 @@
       "ability": "At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a [Barrel Roll] or [Boost] action.",
       "standard": true,
       "extended": true,
-      "keywords": ["Clone"]
+      "keywords": ["Clone"],
+      "epic": true
     },
     {
       "ffg": 662,
-      "name": "\"Hound\"",
+      "name": "“Hound”",
       "xws": "hound",
       "caption": "Vigilant Tracker",
       "initiative": 2,
-      "cost": 48,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 14,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Missile",
@@ -95,16 +96,17 @@
       "ability": "After a friendly small ship in your [Single Turret Arc] gains a deplete or strain token, if you have no tokens of that type, you may transfer that token to yourself.",
       "standard": true,
       "extended": true,
-      "keywords": ["Clone"]
+      "keywords": ["Clone"],
+      "epic": true
     },
     {
       "ffg": 661,
-      "name": "\"Warthog\"",
+      "name": "“Warthog”",
       "xws": "warthog",
       "caption": "Veteran of Kadavo",
       "initiative": 3,
-      "cost": 52,
-      "loadout": 0,
+      "cost": 6,
+      "loadout": 18,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Missile",
@@ -125,7 +127,8 @@
       "ability": "After you or a friendly non-limited ship at range 0-2 are destroyed during the Engagement Phase, that ship is not removed until the end of that phase.",
       "standard": true,
       "extended": true,
-      "keywords": ["Clone"]
+      "keywords": ["Clone"],
+      "epic": true
     },
     {
       "name": "212th Battalion Pilot",
@@ -133,10 +136,10 @@
       "limited": 0,
       "xws": "212thbattalionpilot",
       "text": "Capable of functioning in space assaults and atmospheric battles alike, the LAAT/i gunship transports Republic troops to battlefronts on planets besieged by the Separatists.",
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "cost": 47,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 7,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Missile",
@@ -154,7 +157,8 @@
         "name": "Fire Convergence",
         "text": "While a friendly ship performs a non-[Single Turret Arc] attack, if the defender is in your [Single Turret Arc], you may spend 1 [Charge]. If you do, the attacker rerolls up to 2 attack dice."
       },
-      "keywords": ["Clone"]
+      "keywords": ["Clone"],
+      "epic": true
     }
   ],
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_LAAT_Republic_Gunship.png"

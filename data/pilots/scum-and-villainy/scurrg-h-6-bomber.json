@@ -60,7 +60,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_204.jpg",
       "ffg": 204,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Lok Revenant",
@@ -71,16 +72,12 @@
       "xws": "lokrevenant",
       "text": "The Nubian Design Collective crafted the Scurrg H-6 Bomber with combat versatility in mind, arming it with powerful shields and a bristling array of destructive weaponry.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_206.png",
-      "slots": [
-        "Turret",
-        "Device",
-        "Device",
-        "Gunner"
-      ],
+      "slots": ["Turret", "Device", "Device", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_206.jpg",
       "ffg": 206,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Sol Sixxa",
@@ -104,7 +101,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_205.jpg",
       "ffg": 205,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     }
   ]
 }

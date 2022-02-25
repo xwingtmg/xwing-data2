@@ -59,7 +59,8 @@
       "ffg": 123,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Countess Ryad",
@@ -75,12 +76,20 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Talent", "Sensor", "Sensor", "Cannon", "Missile", "Configuration"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Sensor",
+        "Cannon",
+        "Missile",
+        "Configuration"
+      ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg",
       "ffg": 124,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Delta Squadron Pilot",
@@ -100,7 +109,8 @@
       "ffg": 126,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Onyx Squadron Ace",
@@ -120,7 +130,8 @@
       "ffg": 125,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Rexler Brath",
@@ -136,12 +147,20 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Missile", "Configuration"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Missile",
+        "Missile",
+        "Configuration"
+      ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg",
       "ffg": 122,
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Vult Skerris",
@@ -157,12 +176,20 @@
       "extended": true,
       "cost": 8,
       "loadout": 13,
-      "slots": ["Talent", "Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Missile",
+        "Configuration"
+      ],
       "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
       "charges": { "value": 1, "recovers": -1 },
       "keywords": ["TIE"],
       "ffg": 887,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b515e5eda1c2df774f598afc4091af09.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b515e5eda1c2df774f598afc4091af09.jpg",
+      "epic": true
     },
     {
       "name": "Darth Vader",
@@ -183,7 +210,8 @@
       "ability": "You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
       "keywords": ["Dark Side", "Sith", "TIE"],
       "ffg": 886,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9c2cfc58582671a7073c6b5339ed3004.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9c2cfc58582671a7073c6b5339ed3004.jpg",
+      "epic": true
     },
     {
       "name": "Captain Dobbs",
@@ -203,7 +231,8 @@
       "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc and are not ionized, you may gain 1 ion token to cancel 1 [Hit] result.",
       "keywords": ["TIE"],
       "ffg": 888,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1dde041cd0f46fb1ca2afe15264a3ad4.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1dde041cd0f46fb1ca2afe15264a3ad4.jpg",
+      "epic": true
     }
   ]
 }

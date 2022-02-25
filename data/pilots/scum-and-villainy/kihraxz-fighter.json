@@ -49,7 +49,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_195.jpg",
       "ffg": 195,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Captain Jostero",
@@ -71,7 +72,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_194.jpg",
       "ffg": 194,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Cartel Marauder",
@@ -82,13 +84,12 @@
       "xws": "cartelmarauder",
       "text": "The versatile Kihraxz was modeled after Incom's popular X-wing starfighter, but an array of after-market modification kits ensure a wide variety of designs.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_196.png",
-      "slots": [
-        "Illicit"
-      ],
+      "slots": ["Illicit"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_196.jpg",
       "ffg": 196,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Graz",
@@ -112,7 +113,8 @@
       "ffg": 192,
       "standard": false,
       "extended": true,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     },
     {
       "name": "Talonbane Cobra",
@@ -135,7 +137,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_191.jpg",
       "ffg": 191,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Viktor Hel",
@@ -159,7 +162,8 @@
       "ffg": 193,
       "standard": false,
       "extended": true,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     }
   ]
 }

@@ -50,13 +50,12 @@
         "name": "Dead to Rights",
         "text": "While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens."
       },
-      "slots": [
-        "Missile"
-      ],
+      "slots": ["Missile"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_209.jpg",
       "ffg": 209,
       "standard": false,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Dalan Oberos",
@@ -85,7 +84,8 @@
       "ffg": 208,
       "standard": false,
       "extended": true,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     },
     {
       "name": "Torani Kulda",
@@ -113,7 +113,8 @@
       "ffg": 207,
       "standard": false,
       "extended": true,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     }
   ]
 }

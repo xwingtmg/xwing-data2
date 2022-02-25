@@ -44,8 +44,8 @@
       "xws": "anakinskywalker-nabooroyaln1starfighter",
       "standard": true,
       "extended": true,
-      "cost": 41,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 20,
       "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "Before you reveal your maneuver, you may spend 1 [Force] to barrel roll (this is not an action).",
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
@@ -57,7 +57,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d9180cc98a1a4384bb2a0e11efbf1311.jpg",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/21e28ea4e8784dce5a554a33888d8be0.png",
       "caption": "Hero of Naboo",
-      "keywords": ["Light Side"]
+      "keywords": ["Light Side"],
+      "epic": true
     },
     {
       "name": "Ric Olié",
@@ -71,13 +72,14 @@
       "caption": "Bravo Leader",
       "standard": true,
       "extended": true,
-      "cost": 44,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 15,
       "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "While you defend or perform a primary attack, if the speed of your revealed maneuver is higher than the enemy ship's, roll 1 additional die.",
       "ffg": 557,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/26080de6b705112c0d7d53de48484bb0.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/87829b7b808c535eb1e2c8314b04971a.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/87829b7b808c535eb1e2c8314b04971a.png",
+      "epic": true
     },
     {
       "name": "Padmé Amidala",
@@ -91,13 +93,14 @@
       "caption": "Aggressive Negotiator",
       "standard": true,
       "extended": true,
-      "cost": 43,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 22,
       "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "While an enemy ship in your [Front Arc] defends or performs an attack, that ship can modify only 1 [Focus] result (other results can still be modified).",
       "ffg": 559,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/254a567fa647e783bcd3fb9c09377e3d.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3bc6bb14d0c80011145a36c132550298.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3bc6bb14d0c80011145a36c132550298.png",
+      "epic": true
     },
     {
       "name": "Dineé Ellberger",
@@ -111,13 +114,14 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 36,
-      "loadout": 0,
+      "cost": 3,
+      "loadout": 9,
       "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship's, that ship's dice cannot be modified.",
       "ffg": 560,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3f71de47ef3b5986a433757a00f4230b.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/06e0863851b95dba4874b211e05661cc.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/06e0863851b95dba4874b211e05661cc.png",
+      "epic": true
     },
     {
       "name": "Bravo Flight Officer",
@@ -129,14 +133,15 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "text": "The volunteer pilots of the Royal Naboo Security Force are dedicated to protecting the people and ideals of their homeworld, and trust their Queen to send them into battle only when all other options have failed.",
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "cost": 33,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 8,
       "slots": ["Sensor", "Torpedo", "Astromech"],
       "ffg": 562,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4e1a2195431b026de73c90f8ce5f7c20.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/274db1f70ed4da939b9440837a30c39a.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/274db1f70ed4da939b9440837a30c39a.png",
+      "epic": true
     },
     {
       "name": "Naboo Handmaiden",
@@ -152,12 +157,13 @@
       "extended": true,
       "conditions": ["decoyed"],
       "ability": "Setup: After placing forces, assign the Decoyed condition to 1 friendly ship other than Naboo Handmaiden.",
-      "cost": 41,
-      "loadout": 0,
+      "cost": 3,
+      "loadout": 10,
       "slots": ["Sensor", "Torpedo", "Astromech"],
       "ffg": 561,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/afe1521a12124eeff41ed4234e7591ac.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4493fe57050175b6a75e3a13e7553b1e.png"
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4493fe57050175b6a75e3a13e7553b1e.png",
+      "epic": true
     }
   ],
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Royal_Naboo_N-1_Starfighter.png"

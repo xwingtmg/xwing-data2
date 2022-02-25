@@ -45,17 +45,13 @@
       "xws": "crymorahgoon",
       "text": "Though far from nimble, the Y-wing's heavy hull, substantial shielding, and turret-mounted cannons make it an excellent patrol craft.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_168.png",
-      "slots": [
-        "Turret",
-        "Device",
-        "Illicit",
-        "Missile"
-      ],
+      "slots": ["Turret", "Device", "Illicit", "Missile"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_168.jpg",
       "ffg": 168,
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
       "name": "Drea Renthal",
@@ -81,7 +77,8 @@
       "ffg": 166,
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
       "name": "Hired Gun",
@@ -92,18 +89,13 @@
       "xws": "hiredgun",
       "text": "Just the mention of Imperial credits can bring a host of less-than-trustworthy individuals to your side.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_167.png",
-      "slots": [
-        "Turret",
-        "Torpedo",
-        "Device",
-        "Illicit",
-        "Missile"
-      ],
+      "slots": ["Turret", "Torpedo", "Device", "Illicit", "Missile"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_167.jpg",
       "ffg": 167,
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
       "name": "Kavil",
@@ -129,7 +121,8 @@
       "ffg": 165,
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
       "name": "Leema Kai",
@@ -153,7 +146,8 @@
       "ability": "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your full front arc.",
       "caption": "Opportunity Knocks",
       "ffg": 898,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4e6423bdaa2b09478f46f795c5328c17.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4e6423bdaa2b09478f46f795c5328c17.jpg",
+      "epic": true
     },
     {
       "name": "Arliz Hadrassian",
@@ -177,7 +171,8 @@
       "ability": "While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, before the Modify Defense Dice step, you must change 1 of your [Focus] results to a blank result.",
       "caption": "Crimson Blade",
       "ffg": 899,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f00b0ed67b0de579c3bc4fdaceb3f3ab.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f00b0ed67b0de579c3bc4fdaceb3f3ab.jpg",
+      "epic": true
     },
     {
       "name": "Amaxine Warrior",
@@ -189,16 +184,11 @@
       "extended": true,
       "cost": 4,
       "loadout": 6,
-      "slots": [
-        "Turret",
-        "Torpedo",
-        "Missile",
-        "Astromech",
-        "Device"
-      ],
+      "slots": ["Turret", "Torpedo", "Missile", "Astromech", "Device"],
       "keywords": ["Y-wing"],
       "ffg": 901,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1a6296a88e63a0896952e7dd4178105b.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1a6296a88e63a0896952e7dd4178105b.jpg",
+      "epic": true
     },
     {
       "name": "Padric",
@@ -223,7 +213,8 @@
       "ability": "After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.",
       "keywords": ["Y-wing"],
       "ffg": 900,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7d5a18e41b8e3caf1d623cdf06acafc8.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7d5a18e41b8e3caf1d623cdf06acafc8.jpg",
+      "epic": true
     },
     {
       "name": "Jinata Security Officer",
@@ -238,7 +229,8 @@
       "slots": ["Turret", "Torpedo", "Missile", "Device"],
       "keywords": ["Y-wing"],
       "ffg": 902,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d1b998eff3b93d5ed05870096aa27817.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d1b998eff3b93d5ed05870096aa27817.jpg",
+      "epic": true
     }
   ]
 }

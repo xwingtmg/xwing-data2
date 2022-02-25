@@ -70,7 +70,8 @@
       "ffg": 149,
       "standard": true,
       "extended": true,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     },
     {
       "name": "Bounty Hunter",
@@ -81,17 +82,13 @@
       "xws": "bountyhunter",
       "text": "The Firespray-class patrol craft is infamous for its association with the deadly bounty hunters Jango Fett and Boba Fett, who packed their craft with countless deadly armaments.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_154.png",
-      "slots": [
-        "Cannon",
-        "Missile",
-        "Device",
-        "Illicit"
-      ],
+      "slots": ["Cannon", "Missile", "Device", "Illicit"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_154.jpg",
       "ffg": 154,
       "standard": true,
       "extended": true,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     },
     {
       "name": "Emon Azzameen",
@@ -116,7 +113,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_150.jpg",
       "ffg": 150,
       "standard": true,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Kath Scarlet",
@@ -141,7 +139,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_151.jpg",
       "ffg": 151,
       "standard": true,
-      "extended": true
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Koshka Frost",
@@ -167,7 +166,8 @@
       "ffg": 152,
       "standard": true,
       "extended": true,
-      "keywords": ["Bounty Hunter"]
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     },
     {
       "name": "Krassis Trelix",
@@ -193,7 +193,8 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_153.jpg",
       "ffg": 153,
       "standard": true,
-      "extended": true
+      "extended": true,
+      "epic": true
     }
   ]
 }

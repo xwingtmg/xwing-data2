@@ -50,8 +50,8 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/14c504c0815213a66010c4013d9296ee.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cb8efd0b723b8ceb0c35b7a64b309bf2.jpg",
-      "cost": 61,
-      "loadout": 0,
+      "cost": 7,
+      "loadout": 25,
       "charges": { "value": 1, "recovers": 1 },
       "slots": [
         "Talent",
@@ -64,7 +64,8 @@
       "ffg": 418,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Poe Dameron",
@@ -77,8 +78,8 @@
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "cost": 55,
-      "loadout": 0,
+      "cost": 6,
+      "loadout": 12,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Talent",
@@ -93,7 +94,8 @@
       "extended": true,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/76/66/76668017-6298-4471-b1cc-d388d5fc11b8/swz68_poe-dameron.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ecefa0fae78bbecdcb598ff36d323d4d.jpg",
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Blue Squadron Rookie",
@@ -107,13 +109,14 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a82a39a4c9baf883fbc6ae353abdd2ec.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8ceeaf3d985f16da8b8d5a1ebc49ea2b.jpg",
-      "cost": 41,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 4,
       "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
       "ffg": 426,
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Red Squadron Expert",
@@ -127,8 +130,8 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/58967d94cfef285c4df2fdbb77fd0502.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0e847453270afe089ea331316f7b7731.jpg",
-      "cost": 43,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 2,
       "slots": [
         "Talent",
         "Astromech",
@@ -138,9 +141,10 @@
         "Tech"
       ],
       "ffg": 425,
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Black Squadron Ace",
@@ -154,8 +158,8 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d2b6a5166b3fd985df5d1941408b58e1.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e75228d8174f7879c51157fdd9b26e61.jpg",
-      "cost": 46,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 10,
       "slots": [
         "Talent",
         "Astromech",
@@ -165,9 +169,10 @@
         "Tech"
       ],
       "ffg": 451,
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Ello Asty",
@@ -180,8 +185,8 @@
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "cost": 53,
-      "loadout": 0,
+      "cost": 6,
+      "loadout": 14,
       "slots": [
         "Talent",
         "Astromech",
@@ -195,7 +200,8 @@
       "ffg": 419,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Joph Seastriker",
@@ -208,8 +214,8 @@
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "cost": 46,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 12,
       "slots": [
         "Talent",
         "Astromech",
@@ -223,10 +229,11 @@
       "ffg": 424,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
-      "name": "Kare Kun",
+      "name": "Karé Kun",
       "caption": "Woman of Action",
       "initiative": 4,
       "limited": 1,
@@ -236,8 +243,8 @@
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "cost": 47,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 13,
       "slots": [
         "Talent",
         "Astromech",
@@ -251,7 +258,8 @@
       "ffg": 421,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Lieutenant Bastian",
@@ -266,13 +274,14 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3f43d6b3c6e87bde6a681e9d4421dec8.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/52f96e7e98dc51c1280052514e303704.jpg",
-      "cost": 47,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 10,
       "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
       "ffg": 449,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Nien Nunb",
@@ -285,8 +294,8 @@
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "cost": 54,
-      "loadout": 0,
+      "cost": 6,
+      "loadout": 13,
       "slots": [
         "Talent",
         "Astromech",
@@ -300,7 +309,8 @@
       "ffg": 420,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Jaycris Tubbs",
@@ -315,13 +325,14 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/5f3abacb9a081f5a3ca42f7a30da0e6c.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8874efb312a64da49889c66f96338f9c.jpg",
-      "cost": 45,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 8,
       "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
       "ffg": 450,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Jessika Pava",
@@ -336,14 +347,15 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/bc26d8864f421f1362473aa4982108ba.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/05c48dc381e54c6951d3ee42d3587577.jpg",
-      "cost": 51,
-      "loadout": 0,
+      "cost": 6,
+      "loadout": 16,
       "charges": { "value": 1, "recovers": 1 },
       "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
       "ffg": 423,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Temmin Wexley",
@@ -358,8 +370,8 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/bb98b7ea3a580542b586a9999fd352c9.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/6acd118b12a34136d4d1df6c765a0deb.jpg",
-      "cost": 49,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 13,
       "slots": [
         "Talent",
         "Astromech",
@@ -371,7 +383,8 @@
       "ffg": 422,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Temmin Wexley",
@@ -384,8 +397,8 @@
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "cost": 53,
-      "loadout": 0,
+      "cost": 6,
+      "loadout": 14,
       "slots": [
         "Talent",
         "Astromech",
@@ -399,10 +412,11 @@
       "extended": true,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/2c/81/2c81e32f-8c0d-4d26-a9b5-e6bfbe9dab0e/swz68_temmin-wexley.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9ff6521bca10294ce8413081a1068ee0.jpg",
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
-      "name": "C'ai Threnalli",
+      "name": "C’ai Threnalli",
       "caption": "Tenacious Survivor",
       "initiative": 4,
       "limited": 1,
@@ -412,8 +426,8 @@
         "name": "Weapon Hardpoint",
         "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
       },
-      "cost": 46,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 7,
       "slots": [
         "Talent",
         "Astromech",
@@ -427,7 +441,8 @@
       "ffg": 699,
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/60/8a/608a4657-6612-417d-bd10-be587c2a208f/swz68_cai-threnalli.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b9ec74da0f0350bdc545aa068ff3f154.jpg",
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Nimi Chireen",
@@ -441,14 +456,15 @@
       "caption": "Hopeful Hero",
       "standard": true,
       "extended": true,
-      "cost": 47,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 10,
       "ffg": 700,
       "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"],
       "ability": "While you perform an attack, if the defender's initiative is higher than yours, you may change 1 blank result to a [Focus] result.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/c1/0e/c10e3900-82d8-4bba-9b2b-9ed2f8ad826b/swz68_nimi-chireen.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8c6284a4820a6c6f83eb60111d4ba978.jpg",
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     }
   ]
 }

@@ -46,17 +46,14 @@
       "loadout": 6,
       "xws": "freightercaptain",
       "text": "Many spacers make a living traveling the Outer Rim, where the difference between smuggler and legitimate merchant is often murky. On the outskirts of civilization, buyers are rarely so discerning to ask where merchandise came from, at least as long as the price is low enough.",
-      "slots": [
-        "Missile",
-        "Illicit",
-        "Gunner"
-      ],
+      "slots": ["Missile", "Illicit", "Gunner"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_225.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_225.jpg",
       "ffg": 225,
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     },
     {
       "name": "Han Solo",
@@ -82,7 +79,8 @@
       "ffg": 222,
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     },
     {
       "name": "L3-37",
@@ -113,7 +111,8 @@
       "ffg": 224,
       "standard": true,
       "extended": true,
-      "keywords": ["Droid", "Freighter", "YT-1300"]
+      "keywords": ["Droid", "Freighter", "YT-1300"],
+      "epic": true
     },
     {
       "name": "Lando Calrissian",
@@ -139,7 +138,8 @@
       "ffg": 223,
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     }
   ]
 }

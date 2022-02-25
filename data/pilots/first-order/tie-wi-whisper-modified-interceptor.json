@@ -63,8 +63,8 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 63,
-      "loadout": 0,
+      "cost": 7,
+      "loadout": 18,
       "slots": [
         "Force Power",
         "Talent",
@@ -78,11 +78,12 @@
       "artwork": "???",
       "image": "???",
       "caption": "Supreme Leader of the First Order",
-      "keywords": ["TIE", "Dark Side", "Light Side"],
-      "force": { "value": 3, "recovers": 1, "side": ["dark", "light"] }
+      "keywords": ["Dark Side", "Light Side", "TIE"],
+      "force": { "value": 3, "recovers": 1, "side": ["dark", "light"] },
+      "epic": true
     },
     {
-      "name": "Wrath",
+      "name": "“Wrath”",
       "xws": "wrath",
       "initiative": 5,
       "limited": 1,
@@ -92,18 +93,19 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 53,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 15,
       "slots": ["Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ability": "After you perform a [Bullseye Arc] attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target.",
       "ffg": 920,
       "artwork": "???",
       "image": "???",
       "caption": "Herald of Destruction",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "Nightfall",
+      "name": "“Nightfall”",
       "xws": "nightfall",
       "initiative": 4,
       "limited": 1,
@@ -113,18 +115,19 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 49,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 10,
       "slots": ["Talent", "Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ability": "After you fully execute a maneuver or perform a [Boost] action, each ship you moved through gains 2 jam tokens.",
       "ffg": 921,
       "artwork": "???",
       "image": "???",
       "caption": "709th Legion Veteran",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "Whirlwind",
+      "name": "“Whirlwind”",
       "xws": "whirlwind",
       "initiative": 3,
       "limited": 1,
@@ -134,15 +137,16 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 47,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 12,
       "slots": ["Talent", "Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ability": "Before you engage, you may remove any number of jam tokens, then you may gain 1 focus token for each enemy ship that has you in its [Front Arc].",
       "ffg": 922,
       "artwork": "???",
       "image": "???",
       "caption": "Reap What You Sow",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "709th Legion Ace",
@@ -156,13 +160,14 @@
       "text": "Commanded by Supreme Leader Kylo Ren, the 709th Legion fights without mercy or remorse to crush the Resistance and bring the galaxy under the First Order's dominion.",
       "standard": true,
       "extended": true,
-      "cost": 47,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 10,
       "slots": ["Talent", "Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ffg": 923,
       "artwork": "???",
       "image": "???",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Red Fury Zealot",
@@ -176,13 +181,14 @@
       "text": "Also called Red Fury, the 709th Legion is charged by Supreme Leader Kylo Ren with rooting out dissenters at Black Spire Outpost.",
       "standard": true,
       "extended": true,
-      "cost": 44,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 3,
       "slots": ["Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ffg": 924,
       "artwork": "???",
       "image": "???",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     }
   ],
   "icon": "???"

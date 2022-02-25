@@ -42,24 +42,25 @@
       "caption": "Red Three",
       "initiative": 3,
       "limited": 1,
-      "cost": 47,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 12,
       "xws": "biggsdarklighter",
       "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Hit] or [Critical Hit] damage to cancel 1 matching result.",
       "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_7.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_7.jpg",
       "ffg": 7,
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Blue Squadron Escort",
       "initiative": 2,
       "limited": 0,
-      "cost": 38,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 4,
       "xws": "bluesquadronescort",
       "text": "Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_11.png",
@@ -74,14 +75,15 @@
       "ffg": 11,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Cavern Angels Zealot",
       "initiative": 1,
       "limited": 0,
-      "cost": 38,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 4,
       "xws": "cavernangelszealot",
       "text": "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha.",
       "slots": [
@@ -94,17 +96,18 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_12.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_12.jpg",
       "ffg": 12,
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "keywords": ["Partisan", "X-wing"]
+      "keywords": ["Partisan", "X-wing"],
+      "epic": true
     },
     {
       "name": "Edrio Two Tubes",
       "caption": "Cavern Angels Veteran",
       "initiative": 2,
       "limited": 1,
-      "cost": 42,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 7,
       "xws": "edriotwotubes",
       "ability": "Before you activate, if you are focused, you may perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_9.png",
@@ -119,15 +122,16 @@
       "ffg": 9,
       "standard": true,
       "extended": true,
-      "keywords": ["Partisan", "X-wing"]
+      "keywords": ["Partisan", "X-wing"],
+      "epic": true
     },
     {
       "name": "Garven Dreis",
       "caption": "Red Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 46,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 10,
       "xws": "garvendreis-t65xwing",
       "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_4.png",
@@ -142,15 +146,16 @@
       "ffg": 4,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Jek Porkins",
       "caption": "Red Six",
       "initiative": 4,
       "limited": 1,
-      "cost": 44,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 7,
       "xws": "jekporkins",
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
       "slots": [
@@ -165,15 +170,16 @@
       "ffg": 5,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Kullbee Sperado",
       "caption": "Enigmatic Gunslinger",
       "initiative": 4,
       "limited": 1,
-      "cost": 43,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 6,
       "xws": "kullbeesperado",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may flip your equipped [Configuration] upgrade card.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_6.png",
@@ -187,17 +193,18 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_6.jpg",
       "ffg": 6,
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "keywords": ["Partisan", "X-wing"]
+      "keywords": ["Partisan", "X-wing"],
+      "epic": true
     },
     {
       "name": "Leevan Tenza",
       "caption": "Rebel Alliance Defector",
       "initiative": 3,
       "limited": 1,
-      "cost": 41,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 6,
       "xws": "leevantenza",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may perform a red [Evade] action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_8.png",
@@ -213,15 +220,16 @@
       "ffg": 8,
       "standard": true,
       "extended": true,
-      "keywords": ["Partisan", "X-wing"]
+      "keywords": ["Partisan", "X-wing"],
+      "epic": true
     },
     {
       "name": "Luke Skywalker",
       "caption": "Red Five",
       "initiative": 5,
       "limited": 1,
-      "cost": 60,
-      "loadout": 0,
+      "cost": 7,
+      "loadout": 28,
       "xws": "lukeskywalker",
       "ability": "After you become the defender (before dice are rolled), you may recover 1 [Force].",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_2.png",
@@ -247,14 +255,15 @@
       "ffg": 2,
       "standard": true,
       "extended": true,
-      "keywords": ["Light Side", "X-wing"]
+      "keywords": ["Light Side", "X-wing"],
+      "epic": true
     },
     {
       "name": "Red Squadron Veteran",
       "initiative": 3,
       "limited": 0,
-      "cost": 40,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 3,
       "xws": "redsquadronveteran",
       "text": "Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.",
       "slots": [
@@ -269,15 +278,16 @@
       "ffg": 10,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Thane Kyrell",
       "caption": "Corona Four",
       "initiative": 5,
       "limited": 1,
-      "cost": 46,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 7,
       "xws": "thanekyrell",
       "ability": "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_3.png",
@@ -292,15 +302,16 @@
       "ffg": 3,
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     },
     {
       "name": "Wedge Antilles",
       "caption": "Red Two",
       "initiative": 6,
       "limited": 1,
-      "cost": 54,
-      "loadout": 0,
+      "cost": 6,
+      "loadout": 20,
       "xws": "wedgeantilles",
       "ability": "While you perform an attack, the defender rolls 1 fewer defense die.",
       "slots": [
@@ -313,9 +324,10 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_1.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_1.jpg",
       "ffg": 1,
-      "standard": false,
+      "standard": true,
       "extended": true,
-      "keywords": ["X-wing"]
+      "keywords": ["X-wing"],
+      "epic": true
     }
   ]
 }
