@@ -44,7 +44,7 @@
       "xws": "stalgasinhiveguard",
       "shipAbility": {
         "name": "Pinpoint Tractor Array",
-        "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
+        "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
       "standard": true,
       "extended": true,
@@ -64,7 +64,7 @@
       "xws": "sunfac",
       "shipAbility": {
         "name": "Pinpoint Tractor Array",
-        "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
+        "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
       "standard": true,
       "extended": true,
@@ -75,7 +75,7 @@
       "cost": 6,
       "loadout": 18,
       "ffg": 604,
-      "slots": ["Talent", "Talent"],
+      "slots": ["Talent", "Talent", "Talent", "Modification"],
       "epic": true
     },
     {
@@ -85,7 +85,7 @@
       "limited": 1,
       "shipAbility": {
         "name": "Pinpoint Tractor Array",
-        "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
+        "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
       "standard": true,
       "extended": true,
@@ -106,7 +106,7 @@
       "limited": 1,
       "shipAbility": {
         "name": "Pinpoint Tractor Array",
-        "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
+        "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
       "standard": true,
       "extended": true,
@@ -132,7 +132,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d2d0764f83a2740f407082e934986ff2.png",
       "shipAbility": {
         "name": "Pinpoint Tractor Array",
-        "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
+        "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
       "ability": "During the System Phase, you may gain 1 disarm token and choose a friendly ship at range 1-2. If you do, it gains 1 tractor token, then repairs 1 of its faceup Ship trait damage cards.",
       "standard": true,
@@ -151,7 +151,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d2d62b6070fdf59b58db79aadb845d54.png",
       "shipAbility": {
         "name": "Pinpoint Tractor Array",
-        "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
+        "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
       },
       "text": "The Petranaki Arena is a massive edifice on Geonosis that was a key site in the first battle of the Clone Wars.",
       "standard": true,

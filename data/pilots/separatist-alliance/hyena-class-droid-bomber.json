@@ -56,7 +56,6 @@
       "loadout": 6,
       "slots": [
         "Torpedo",
-        "Missile",
         "Device",
         "Modification",
         "Configuration"
@@ -84,7 +83,7 @@
       "extended": true,
       "cost": 3,
       "loadout": 8,
-      "slots": ["Sensor", "Device", "Device", "Modification", "Configuration"],
+      "slots": ["Device", "Device", "Modification", "Configuration"],
       "ffg": 565,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/bc5e862af323dbe8db28d0d6bc6be4ad.jpg",
       "keywords": ["Droid"],
@@ -111,7 +110,7 @@
         "Modification",
         "Configuration"
       ],
-      "ability": "You can perform primary attacks at range 0. While you perform an attack at attack range 0-1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage.",
+      "ability": "While you perform an attack at attack range 1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3e647295c7237a5eb36b94d887eb8e56.png",
       "ffg": 563,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fb1f119c8dcd69db43a442fecf25fceb.jpg",
@@ -162,7 +161,6 @@
       "cost": 3,
       "loadout": 4,
       "slots": [
-        "Torpedo",
         "Missile",
         "Device",
         "Modification",
