@@ -140,6 +140,8 @@ const runShips = async () => {
           shipName = "Scavenged YT-1300";
         } else if (shipName === "Xi-class shuttle") {
           shipName = "Xi-class Light Shuttle";
+        } else if (shipName === "Upsilon-class shuttle") {
+          shipName = "Upsilon-class Command Shuttle";
         }
         return;
       }
