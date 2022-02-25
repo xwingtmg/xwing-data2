@@ -72,8 +72,8 @@
       },
       "slots": [
         "Talent",
+        "Talent",
         "Sensor",
-        "Missile",
         "Modification",
         "Gunner",
         "Tech"
@@ -129,7 +129,6 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "slots": [
-        "Talent",
         "Sensor",
         "Missile",
         "Modification",
@@ -156,7 +155,7 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "slots": ["Sensor", "Missile", "Modification", "Gunner", "Tech"],
+      "slots": ["Sensor", "Talent", "Gunner", "Tech"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/848db1993150bda19217e2c14b3c3df6.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/55f72ce4974962db5b2ab3fac316b896.jpg",
       "ffg": 409,
@@ -181,6 +180,7 @@
         "Talent",
         "Sensor",
         "Tech",
+        "Missile",
         "Missile",
         "Gunner",
         "Modification"
@@ -212,6 +212,7 @@
         "Tech",
         "Missile",
         "Gunner",
+        "Modification",
         "Modification"
       ],
       "ability": "While you defend, after the Neutralize Results step, another friendly ship at range 0-1 must suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",

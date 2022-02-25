@@ -62,11 +62,12 @@
       "loadout": 20,
       "slots": [
         "Talent",
+        "Talent",
         "Tech",
+        "Torpedo",
         "Torpedo",
         "Missile",
         "Gunner",
-        "Device",
         "Device",
         "Modification"
       ],
@@ -94,11 +95,11 @@
       "slots": [
         "Talent",
         "Tech",
-        "Torpedo",
         "Missile",
         "Gunner",
         "Device",
         "Device",
+        "Modification",
         "Modification"
       ],
       "ability": "While a friendly ship at range 0-1 performs a primary attack, it may spend 1 [Hit] result. If it does, after defending, the defender gains 1 strain token.",
@@ -154,7 +155,7 @@
       "loadout": 15,
       "slots": [
         "Tech",
-        "Torpedo",
+        "Talent",
         "Missile",
         "Gunner",
         "Device",
@@ -183,7 +184,6 @@
       "cost": 4,
       "loadout": 7,
       "slots": [
-        "Talent",
         "Tech",
         "Torpedo",
         "Missile",
@@ -214,9 +214,8 @@
       "loadout": 8,
       "slots": [
         "Tech",
-        "Torpedo",
+        "Tech",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
         "Modification"
