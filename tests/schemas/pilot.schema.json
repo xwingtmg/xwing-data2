@@ -101,6 +101,7 @@
     "ffg": { "type": "integer" },
     "standard": { "type": "boolean" },
     "extended": { "type": "boolean" },
+    "epic": { "type": "boolean" },
     "alt": {
       "type": "array",
       "minItems": 1,
@@ -183,6 +184,6 @@
       }
     }
   },
-  "required": ["name", "standard", "extended"],
+  "required": ["name", "standard", "extended", "epic"],
   "additionalProperties": false
 }

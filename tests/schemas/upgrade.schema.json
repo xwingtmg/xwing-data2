@@ -82,6 +82,8 @@
     },
     "xws": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "hyperspace": { "type": "boolean" },
+    "extended": { "type": "boolean" },
+    "epic": { "type": "boolean" },
     "restrictions": {
       "type": "array",
       "items": {
@@ -493,6 +495,6 @@
       }
     }
   },
-  "required": ["name", "hyperspace", "limited", "sides"],
+  "required": ["name", "standard", "extended", "epic", "limited", "sides"],
   "additionalProperties": false
 }
