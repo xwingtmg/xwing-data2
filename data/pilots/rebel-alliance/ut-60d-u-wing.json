@@ -44,6 +44,7 @@
       "ability": "After you perform a [Focus] action, you may transfer 1 of your focus tokens to a friendly ship at range 1-2.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_58.png",
       "slots": [
+        "Talent",
         "Sensor",
         "Crew",
         "Crew",
@@ -67,7 +68,7 @@
       "xws": "bluesquadronscout",
       "text": "Used for deploying troops under the cover of darkness or into the heat of battle, the UT-60D U-wing fulfills the Rebellion's need for a swift and hardy troop transport.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_60.png",
-      "slots": ["Sensor", "Crew", "Crew", "Modification", "Configuration"],
+      "slots": ["Modification", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_60.jpg",
       "ffg": 60,
       "standard": true,
@@ -85,7 +86,6 @@
       "ability": "Friendly ships can acquire locks onto objects at range 0-3 of any friendly ship.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_54.png",
       "slots": [
-        "Talent",
         "Sensor",
         "Crew",
         "Crew",
@@ -111,7 +111,6 @@
       "slots": [
         "Talent",
         "Sensor",
-        "Crew",
         "Crew",
         "Modification",
         "Configuration"
@@ -181,11 +180,7 @@
       "xws": "partisanrenegade",
       "text": "Saw Gerrera's partisans were first established to oppose Separatist forces on Onderon during the Clone Wars and continued to wage war against galactic tyranny as the Empire rose to power.",
       "slots": [
-        "Sensor",
-        "Crew",
-        "Crew",
         "Illicit",
-        "Modification",
         "Configuration"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_61.png",
@@ -236,7 +231,6 @@
       "xws": "k2so",
       "ability": "After you gain a stress token, gain 1 calculate token.",
       "slots": [
-        "Talent",
         "Sensor",
         "Crew",
         "Crew",

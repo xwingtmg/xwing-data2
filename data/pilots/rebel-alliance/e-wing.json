@@ -67,6 +67,7 @@
       "slots": [
         "Talent",
         "Sensor",
+        "Sensor",
         "Tech",
         "Torpedo",
         "Astromech",
@@ -119,7 +120,7 @@
         "name": "Experimental Scanners",
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
       },
-      "slots": ["Sensor", "Tech", "Torpedo", "Astromech", "Modification"],
+      "slots": ["Sensor", "Tech", "Astromech", "Modification"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_53.jpg",
       "ffg": 53,
       "standard": false,
@@ -140,9 +141,7 @@
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
       },
       "slots": [
-        "Talent",
         "Sensor",
-        "Tech",
         "Torpedo",
         "Astromech",
         "Modification"

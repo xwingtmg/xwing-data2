@@ -51,13 +51,10 @@
       "text": "A unique gyrostabilization system surrounds the B-wing's cockpit, ensuring that the pilot always remains stationary during flight.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_25.png",
       "slots": [
-        "Talent",
         "Sensor",
         "Cannon",
         "Cannon",
         "Torpedo",
-        "Modification",
-        "Title",
         "Configuration"
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg",
@@ -81,8 +78,6 @@
         "Cannon",
         "Cannon",
         "Torpedo",
-        "Modification",
-        "Title",
         "Configuration"
       ],
       "alt": [
@@ -115,7 +110,7 @@
         "Cannon",
         "Torpedo",
         "Modification",
-        "Title",
+        "Device",
         "Configuration"
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg",
@@ -142,7 +137,7 @@
         "Cannon",
         "Torpedo",
         "Modification",
-        "Title",
+        "Device",
         "Configuration"
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg",
@@ -167,7 +162,7 @@
         "Cannon",
         "Torpedo",
         "Modification",
-        "Title",
+        "Device",
         "Configuration"
       ],
       "ability": "At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2.",
@@ -196,6 +191,8 @@
         "Cannon",
         "Cannon",
         "Torpedo",
+        "Missile",
+        "Device",
         "Modification",
         "Title",
         "Configuration"
@@ -222,7 +219,7 @@
         "Cannon",
         "Torpedo",
         "Modification",
-        "Title",
+        "Device",
         "Configuration"
       ],
       "ability": "After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.",

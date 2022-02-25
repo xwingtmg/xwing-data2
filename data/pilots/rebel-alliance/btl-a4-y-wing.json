@@ -49,8 +49,8 @@
       "slots": [
         "Talent",
         "Turret",
-        "Torpedo",
         "Astromech",
+        "Device",
         "Device",
         "Modification",
         "Missile"
@@ -79,6 +79,7 @@
         "Astromech",
         "Device",
         "Modification",
+        "Modification",
         "Missile"
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_16.jpg",
@@ -98,11 +99,7 @@
       "text": "Commanded by Jon \"Dutch\" Vander, Gold Squadron played an instrumental role in the Battles of Scarif and Yavin.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_17.png",
       "slots": [
-        "Talent",
         "Turret",
-        "Torpedo",
-        "Astromech",
-        "Device",
         "Modification",
         "Missile"
       ],
@@ -129,9 +126,6 @@
       "text": "Long after the Y-wing was phased out by the Galactic Empire, its durability, dependability, and heavy armament help it remain a staple in the Rebel fleet.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_18.png",
       "slots": [
-        "Turret",
-        "Torpedo",
-        "Astromech",
         "Device",
         "Modification",
         "Missile"
@@ -185,8 +179,7 @@
         "Torpedo",
         "Astromech",
         "Device",
-        "Modification",
-        "Missile"
+        "Modification"
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_13.jpg",
       "ffg": 13,

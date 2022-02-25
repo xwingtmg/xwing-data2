@@ -71,7 +71,7 @@
           "source": "X-Wing Second Edition Launch Party"
         }
       ],
-      "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
+      "slots": ["Astromech", "Configuration"],
       "ffg": 11,
       "standard": true,
       "extended": true,
@@ -87,10 +87,8 @@
       "xws": "cavernangelszealot",
       "text": "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha.",
       "slots": [
-        "Torpedo",
         "Astromech",
         "Illicit",
-        "Modification",
         "Configuration"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_12.png",
@@ -113,7 +111,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_9.png",
       "slots": [
         "Torpedo",
-        "Astromech",
+        "Missile",
         "Illicit",
         "Modification",
         "Configuration"
@@ -159,7 +157,6 @@
       "xws": "jekporkins",
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
       "slots": [
-        "Talent",
         "Torpedo",
         "Astromech",
         "Modification",
@@ -185,7 +182,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_6.png",
       "slots": [
         "Talent",
-        "Torpedo",
+        "Missile",
         "Astromech",
         "Illicit",
         "Modification",
@@ -210,7 +207,7 @@
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_8.png",
       "slots": [
         "Talent",
-        "Torpedo",
+        "Missile",
         "Astromech",
         "Illicit",
         "Modification",
@@ -245,6 +242,7 @@
         }
       ],
       "slots": [
+        "Talent",
         "Torpedo",
         "Astromech",
         "Modification",
@@ -268,9 +266,7 @@
       "text": "Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.",
       "slots": [
         "Talent",
-        "Torpedo",
         "Astromech",
-        "Modification",
         "Configuration"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_10.png",
@@ -315,6 +311,7 @@
       "xws": "wedgeantilles",
       "ability": "While you perform an attack, the defender rolls 1 fewer defense die.",
       "slots": [
+        "Talent",
         "Talent",
         "Torpedo",
         "Astromech",
