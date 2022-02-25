@@ -78,6 +78,7 @@
       "loadout": 14,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
+        "Sensor",
         "Missile",
         "Missile",
         "Crew",
@@ -109,7 +110,8 @@
       "loadout": 18,
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
-        "Missile",
+        "Talent",
+        "Torpedo",
         "Missile",
         "Crew",
         "Crew",

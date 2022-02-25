@@ -53,7 +53,6 @@
       "loadout": 4,
       "ffg": 602,
       "slots": [
-        "Talent",
         "Turret",
         "Torpedo",
         "Astromech",
@@ -119,10 +118,11 @@
       "standard": true,
       "extended": true,
       "slots": [
-        "Talent",
+        "Sensor",
         "Turret",
         "Torpedo",
         "Crew",
+        "Device",
         "Device",
         "Modification",
         "Gunner"
@@ -153,8 +153,8 @@
         "Talent",
         "Turret",
         "Torpedo",
+        "Torpedo",
         "Astromech",
-        "Device",
         "Modification",
         "Gunner"
       ],
@@ -240,9 +240,11 @@
       "loadout": 12,
       "ffg": 601,
       "slots": [
+        "Talent",
         "Turret",
-        "Torpedo",
         "Astromech",
+        "Device",
+        "Device",
         "Device",
         "Modification",
         "Gunner"
@@ -272,7 +274,6 @@
         "Torpedo",
         "Astromech",
         "Device",
-        "Modification",
         "Gunner"
       ],
       "keywords": ["Clone", "Y-wing"],

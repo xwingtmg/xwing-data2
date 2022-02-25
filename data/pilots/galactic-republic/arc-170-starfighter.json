@@ -44,7 +44,7 @@
       "xws": "sinker",
       "ability": "While a friendly ship at range 1-2 in your [Left Arc] or [Right Arc] performs a primary attack, it may reroll 1 attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8297fc7d58ec0a5e6068f8dabbbc00f1.png",
-      "slots": ["Torpedo", "Crew", "Astromech", "Modification", "Gunner"],
+      "slots": ["Talent", "Torpedo", "Crew", "Astromech", "Modification", "Gunner", "Gunner"],
       "standard": true,
       "extended": true,
       "cost": 6,
@@ -59,7 +59,7 @@
       "xws": "jag",
       "cost": 5,
       "loadout": 14,
-      "slots": ["Torpedo", "Crew", "Astromech", "Modification", "Gunner"],
+      "slots": ["Torpedo", "Astromech", "Modification", "Modification", "Gunner", "Gunner"],
       "ffg": 525,
       "caption": "CT-55/11-9009",
       "initiative": 3,
@@ -79,10 +79,12 @@
       "loadout": 22,
       "slots": [
         "Talent",
+        "Sensor",
         "Torpedo",
-        "Crew",
+        "Torpedo",
         "Astromech",
         "Modification",
+        "Gunner",
         "Gunner"
       ],
       "ffg": 523,
@@ -105,9 +107,9 @@
       "slots": [
         "Talent",
         "Torpedo",
-        "Crew",
         "Astromech",
         "Modification",
+        "Gunner",
         "Gunner"
       ],
       "ffg": 524,
@@ -128,7 +130,7 @@
       "xws": "104thbattalionpilot",
       "cost": 5,
       "loadout": 8,
-      "slots": ["Torpedo", "Crew", "Astromech", "Modification", "Gunner"],
+      "slots": ["Torpedo", "Astromech", "Modification", "Gunner", "Gunner"],
       "ffg": 528,
       "initiative": 2,
       "limited": 0,
@@ -147,10 +149,9 @@
       "loadout": 10,
       "slots": [
         "Talent",
-        "Torpedo",
-        "Crew",
         "Astromech",
         "Modification",
+        "Gunner",
         "Gunner"
       ],
       "ffg": 527,
