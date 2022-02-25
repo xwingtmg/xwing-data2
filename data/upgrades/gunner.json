@@ -15,7 +15,9 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "BT-1",
@@ -36,7 +38,9 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Bistan",
@@ -55,7 +59,9 @@
     ],
     "cost": { "value": 8 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Bossk",
@@ -72,9 +78,11 @@
         "ffg": 364
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Dengar",
@@ -94,7 +102,9 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Ezra Bridger",
@@ -114,7 +124,9 @@
     ],
     "cost": { "value": 10 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Fifth Brother",
@@ -134,7 +146,9 @@
     ],
     "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Greedo",
@@ -154,7 +168,9 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Han Solo",
@@ -171,9 +187,11 @@
         "ffg": 321
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Han Solo",
@@ -192,7 +210,9 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Hotshot Gunner",
@@ -210,7 +230,9 @@
       }
     ],
     "cost": { "value": 6 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Luke Skywalker",
@@ -228,9 +250,11 @@
         "ffg": 322
       }
     ],
-    "cost": { "value": 26 },
+    "cost": { "value": 16 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Skilled Bombardier",
@@ -248,7 +272,9 @@
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Special Forces Gunner",
@@ -270,7 +296,9 @@
       { "factions": ["First Order"] },
       { "ships": ["tiesffighter"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Veteran Tail Gunner",
@@ -289,7 +317,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "arcs": ["Rear Arc"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Veteran Turret Gunner",
@@ -306,12 +336,11 @@
         "ffg": 281
       }
     ],
-    "cost": {
-      "variable": "size",
-      "values": { "Small": 11, "Medium": 8, "Large": 7 }
-    },
+    "cost": { "value": 8 },
     "restrictions": [{ "action": { "type": "Rotate Arc" } }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Finn",
@@ -330,7 +359,9 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Paige Tico",
@@ -349,7 +380,9 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Rey",
@@ -368,8 +401,10 @@
       }
     ],
     "restrictions": [{ "factions": ["Resistance"] }],
-    "cost": { "value": 10 },
-    "hyperspace": false
+    "cost": { "value": 12 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Seventh Fleet Gunner",
@@ -389,7 +424,9 @@
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
     "cost": { "value": 8 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Clone Commander Cody",
@@ -408,7 +445,9 @@
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
     "cost": { "value": 4 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Ahsoka Tano",
@@ -426,8 +465,10 @@
     ],
     "cost": { "value": 12 },
     "limited": 1,
-    "hyperspace": false,
-    "xws": "ahsokatano"
+    "xws": "ahsokatano",
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -445,7 +486,9 @@
     "cost": { "value": 2 },
     "limited": 1,
     "xws": "clonecaptainrex",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -463,13 +506,14 @@
     "cost": { "value": 7 },
     "limited": 0,
     "xws": "suppressivegunner",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Boba Fett",
     "limited": 1,
     "xws": "bobafett-gunner",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform an attack, if there are no other ships in the attack arc, you may change 1 of your [Focus] results to a [Hit] result.",
@@ -480,13 +524,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d6d9f440cf8d6965a879db163d42d402.jpg"
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Weapons Systems Officer",
     "limited": 0,
     "xws": "weaponssystemsofficer",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "After you perform a special attack with the [Lock] requirement, you may acquire a lock on the defender.",
@@ -497,13 +543,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c10278c132ecd7cf511b29d4a91c597b.jpg"
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Sabine Wren",
     "limited": 1,
     "xws": "sabinewren-gunner",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "After you perform a special attack, you may choose a number of friendly ships at range 0-3 of the defender up to the number of damage cards dealt to the defender during that attack. Each chosen ship may remove 1 strain or stress token.",
@@ -514,7 +562,10 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/239d3285c1e55ae021c63a3f0f19985f.jpg"
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "DT-798",
@@ -531,9 +582,11 @@
         "ffg": 940
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 3 },
     "restrictions": [{ "factions": ["First Order"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "First Order Ordnance Tech",
@@ -562,6 +615,29 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["First Order"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Migs Mayfeld",
+    "limited": 1,
+    "xws": "migsmayfeld",
+    "sides": [
+      {
+        "title": "Migs Mayfeld",
+        "type": "Gunner",
+        "ability": "After you perform a [Front Arc] attack, you may perform a [Rear Arc] or [Single Turret Arc] attack as a bonus attack against a different target with 1 or more red or orange tokens.",
+        "slots": ["Gunner"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/migsmayfeld.png",
+        "artwork": "???",
+        "ffg": 937
+      }
+    ],
+    "cost": { "value": 5 },
+    "restrictions": [{ "factions": ["Galactic Empire", "Scum and Villainy"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

@@ -21,7 +21,9 @@
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Conner Nets",
@@ -45,7 +47,9 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Proton Bombs",
@@ -69,7 +73,9 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Proximity Mines",
@@ -93,7 +99,9 @@
       }
     ],
     "cost": { "value": 6 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Seismic Charges",
@@ -117,7 +125,9 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "DRK-1 Probe Droids",
@@ -148,7 +158,9 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Electro-Proton Bomb",
@@ -171,15 +183,16 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/215f5298b9917bd57db474a38139ba08.jpg"
       }
     ],
-    "hyperspace": false,
     "cost": { "value": 8 },
-    "restrictions": [{ "action": { "type": "Reload", "difficulty": "White" } }]
+    "restrictions": [{ "action": { "type": "Reload", "difficulty": "White" } }],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Cluster Mines",
     "limited": 0,
     "xws": "clustermines",
-    "hyperspace": true,
     "sides": [
       {
         "title": "Cluster Mines",
@@ -197,13 +210,15 @@
         }
       }
     ],
-    "cost": { "value": 7 }
+    "cost": { "value": 5 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Ion Bombs",
     "limited": 0,
     "xws": "ionbombs",
-    "hyperspace": false,
     "sides": [
       {
         "title": "Ion Bombs",
@@ -221,7 +236,10 @@
         }
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -245,13 +263,14 @@
     "cost": { "value": 4 },
     "limited": 0,
     "xws": "concussionbombs",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Thermal Detonators",
     "limited": 0,
     "xws": "thermaldetonators",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Bomb During the System Phase, you may spend up to 2 [Charge] to drop that many Thermal Detonators using the [1 [Straight]] or [2 [Straight]] template. Each must be placed using a different template. When you reload this card, recover 1 additional [Charge].",
@@ -262,13 +281,16 @@
         "ffg": 864,
         "image": "https://images-cdn.fantasyflightgames.com/filer_public/52/bf/52bff580-897d-4af0-9084-5088765babf0/swz80_upgrade_thermal-detonators.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/79c228aa933ae9970641262f6352ac4a.jpg",
-        "device" : {
-          "name" : "Thermal Detonators",
-          "type" : "Bomb",
-          "effect" : "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0–1 rolls 1 attack die. Each ship gains 1 strain token for each [Focus] result, and each ship and remote suffers 1 [Hit]/[Crit] damage for each matching result."
-          }
+        "device": {
+          "name": "Thermal Detonators",
+          "type": "Bomb",
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0–1 rolls 1 attack die. Each ship gains 1 strain token for each [Focus] result, and each ship and remote suffers 1 [Hit]/[Crit] damage for each matching result."
+        }
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

@@ -48,7 +48,7 @@
   ],
   "pilots": [
     {
-      "name": "\"Breach\"",
+      "name": "“Breach”",
       "xws": "breach",
       "initiative": 5,
       "limited": 1,
@@ -56,15 +56,18 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
-      "cost": 36,
+      "standard": true,
+      "extended": true,
+      "cost": 6,
+      "loadout": 20,
       "slots": [
+        "Talent",
         "Talent",
         "Tech",
         "Torpedo",
+        "Torpedo",
         "Missile",
         "Gunner",
-        "Device",
         "Device",
         "Modification"
       ],
@@ -73,10 +76,11 @@
       "artwork": "???",
       "image": "???",
       "caption": "Ordnance Expert",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Scorch\"",
+      "name": "“Scorch”",
       "xws": "scorch-tiesebomber",
       "initiative": 4,
       "limited": 1,
@@ -84,16 +88,18 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
-      "cost": 35,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 10,
       "slots": [
         "Talent",
         "Tech",
-        "Torpedo",
         "Missile",
         "Gunner",
         "Device",
         "Device",
+        "Modification",
         "Modification"
       ],
       "ability": "While a friendly ship at range 0-1 performs a primary attack, it may spend 1 [Hit] result. If it does, after defending, the defender gains 1 strain token.",
@@ -101,10 +107,11 @@
       "artwork": "???",
       "image": "???",
       "caption": "Jad Bean",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Dread\"",
+      "name": "“Dread”",
       "xws": "dread",
       "initiative": 3,
       "limited": 1,
@@ -112,8 +119,10 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
-      "cost": 32,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 12,
       "slots": [
         "Tech",
         "Torpedo",
@@ -128,10 +137,11 @@
       "artwork": "???",
       "image": "???",
       "caption": "Devotee of Devastation",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Grudge\"",
+      "name": "“Grudge”",
       "xws": "grudge",
       "initiative": 2,
       "limited": 1,
@@ -139,11 +149,13 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
-      "cost": 36,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 15,
       "slots": [
         "Tech",
-        "Torpedo",
+        "Talent",
         "Missile",
         "Gunner",
         "Device",
@@ -155,7 +167,8 @@
       "artwork": "???",
       "image": "???",
       "caption": "Hateful Harrier",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "First Order Cadet",
@@ -166,10 +179,11 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
-      "cost": 32,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 7,
       "slots": [
-        "Talent",
         "Tech",
         "Torpedo",
         "Missile",
@@ -182,7 +196,8 @@
       "ffg": 917,
       "artwork": "???",
       "image": "???",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Sienar-Jaemus Test Pilot",
@@ -193,13 +208,14 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
-      "cost": 31,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 8,
       "slots": [
         "Tech",
-        "Torpedo",
+        "Tech",
         "Missile",
-        "Gunner",
         "Device",
         "Device",
         "Modification"
@@ -208,7 +224,8 @@
       "ffg": 918,
       "artwork": "???",
       "image": "???",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     }
   ],
   "icon": "???"

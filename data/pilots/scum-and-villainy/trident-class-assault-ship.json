@@ -42,6 +42,7 @@
       "name": "Lawless Pirates",
       "initiative": 8,
       "cost": 85,
+      "loadout": 0,
       "limited": 0,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/738e8fdd6aaf28620b67efda2e8f63f7.jpg",
       "shipAbility": {
@@ -49,7 +50,9 @@
         "text": "After you perform a Tractor Tentacles attack that hits, the defender gains 1 tractor token."
       },
       "text": "The Separatist Alliance has close ties with certain mercenaries and criminal groups and, as the war rages on, its technology sometimes finds its way into unsavory hands.",
-      "hyperspace": false,
+      "standard": false,
+      "extended": false,
+      "epic": true,
       "engagement": 0,
       "xws": "lawlesspirates",
       "slots": [

@@ -6,6 +6,7 @@
     "engagement": { "type": "integer", "minimum": 0, "maximum": 1 },
     "limited": { "type": "integer", "minimum": 0 },
     "cost": { "type": "integer", "minimum": 0 },
+    "loadout": { "type": "integer", "minimum": 0 },
     "xws": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "ability": { "type": "string" },
     "text": { "type": "string" },
@@ -98,7 +99,9 @@
     "image": { "type": "string" },
     "artwork": { "type": "string" },
     "ffg": { "type": "integer" },
-    "hyperspace": { "type": "boolean" },
+    "standard": { "type": "boolean" },
+    "extended": { "type": "boolean" },
+    "epic": { "type": "boolean" },
     "alt": {
       "type": "array",
       "minItems": 1,
@@ -181,6 +184,6 @@
       }
     }
   },
-  "required": ["name", "hyperspace"],
+  "required": ["name", "standard", "extended", "epic"],
   "additionalProperties": false
 }

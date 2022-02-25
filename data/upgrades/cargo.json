@@ -3,7 +3,9 @@
     "name": "Adaptive Shields",
     "limited": 0,
     "xws": "adaptiveshields",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While another friendly ship at range 0-1 defends, if it is a smaller size than you, you may spend 1 shield or 2 [Energy] to cancel 1 [Hit] or [Critical Hit] result.",
@@ -21,7 +23,9 @@
     "name": "Boosted Scanners",
     "limited": 0,
     "xws": "boostedscanners",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While you lock, coordinate, or jam, you may spend up to 3 [Energy] to increase the range at which you can choose an object by 1 per [Energy] spent this way, to a maximum of range 5.",
@@ -39,7 +43,9 @@
     "name": "Optimized Power Core",
     "limited": 0,
     "xws": "optimizedpowercore",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After you execute a blue maneuver, recover 1 [Energy].",
@@ -57,7 +63,9 @@
     "name": "Tibanna Reserves",
     "limited": 0,
     "xws": "tibannareserves",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Action: Spend 1 [Charge] to recover 2 [Energy].",

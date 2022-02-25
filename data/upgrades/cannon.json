@@ -22,7 +22,9 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Ion Cannon",
@@ -47,7 +49,9 @@
       }
     ],
     "cost": { "value": 6 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Jamming Beam",
@@ -72,7 +76,9 @@
       }
     ],
     "cost": { "value": 0 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Tractor Beam",
@@ -97,14 +103,15 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Autoblasters",
     "limited": 0,
     "xws": "autoblasters",
     "cost": { "value": 4 },
-    "hyperspace": false,
     "sides": [
       {
         "ability": "Attack: If the defender is in your [Bullseye Arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender's [Front Arc], [Evade] results do not cancel [Critical Hit] results.",
@@ -122,7 +129,10 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/dbdad938bd9f4ce64af1d7106dfd5b5e.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/59d4a52e3a534dd090259bd5546e7bab.png"
       }
-    ]
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -147,13 +157,14 @@
     "cost": { "value": 7 },
     "limited": 0,
     "xws": "syncedlasercannons",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Underslung Blaster Cannon",
     "limited": 0,
     "xws": "underslungblastercannon",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "After an enemy ship executes a maneuver, you may perform this attack against it as a bonus attack. Attack ([Lock]):Your dice can be modified only by spending a lock for the default effect.",
@@ -177,6 +188,9 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/734d68b47d976624629d101299719222.jpg"
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

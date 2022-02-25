@@ -39,11 +39,12 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_YT-2400.png",
   "pilots": [
     {
-      "name": "\"Leebo\"",
+      "name": "“Leebo”",
       "caption": "Dry-Witted Droid",
       "initiative": 3,
       "limited": 1,
-      "cost": 72,
+      "cost": 8,
+      "loadout": 16,
       "xws": "leebo",
       "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_78.png",
@@ -67,15 +68,18 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_78.jpg",
       "ffg": 78,
-      "hyperspace": false,
-      "keywords": ["Droid", "Freighter"]
+      "standard": false,
+      "extended": true,
+      "keywords": ["Droid", "Freighter"],
+      "epic": true
     },
     {
       "name": "Dash Rendar",
       "caption": "Hotshot Mercenary",
       "initiative": 5,
       "limited": 1,
-      "cost": 79,
+      "cost": 10,
+      "loadout": 22,
       "xws": "dashrendar",
       "ability": "While you move, you ignore obstacles.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_77.png",
@@ -87,21 +91,24 @@
         "Talent",
         "Missile",
         "Crew",
-        "Crew",
+        "Illicit",
         "Illicit",
         "Modification",
         "Title"
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_77.jpg",
       "ffg": 77,
-      "hyperspace": false,
-      "keywords": ["Freighter"]
+      "standard": false,
+      "extended": true,
+      "keywords": ["Freighter"],
+      "epic": true
     },
     {
       "name": "Wild Space Fringer",
       "initiative": 1,
       "limited": 0,
-      "cost": 72,
+      "cost": 8,
+      "loadout": 7,
       "xws": "wildspacefringer",
       "text": "Although stock YT-2400 light freighters have plenty of room for cargo, that space is often annexed to support modified weapon systems and oversized engines.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_79.png",
@@ -109,11 +116,13 @@
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
       },
-      "slots": ["Missile", "Crew", "Crew", "Illicit", "Modification", "Title"],
+      "slots": ["Missile", "Illicit"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_79.jpg",
       "ffg": 79,
-      "hyperspace": false,
-      "keywords": ["Freighter"]
+      "standard": false,
+      "extended": true,
+      "keywords": ["Freighter"],
+      "epic": true
     }
   ]
 }

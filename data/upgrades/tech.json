@@ -15,7 +15,9 @@
       }
     ],
     "cost": { "value": 5 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Ferrosphere Paint",
@@ -34,7 +36,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Hyperspace Tracking Data",
@@ -53,7 +57,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["First Order"] }, { "sizes": ["Large"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Primed Thrusters",
@@ -70,12 +76,11 @@
         "ffg": 463
       }
     ],
-    "cost": {
-      "variable": "initiative",
-      "values": { "0": 4, "1": 5, "2": 6, "3": 7, "4": 8, "5": 9, "6": 10 }
-    },
+    "cost": { "value": 6 },
     "restrictions": [{ "sizes": ["Small"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Targeting Synchronizer",
@@ -93,7 +98,9 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Pattern Analyzer",
@@ -111,7 +118,9 @@
       }
     ],
     "cost": { "value": 5 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Biohexacrypt Codes",
@@ -133,13 +142,14 @@
       { "factions": ["First Order"] },
       { "action": { "type": "Lock" } }
     ],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Deuterium Power Cells",
     "limited": 0,
     "xws": "deuteriumpowercells",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "During the System Phase, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield. Before you would gain 1 non-lock token, if you are not stressed, you may spend 1 [Charge] to gain 1 stress token instead.",
@@ -152,7 +162,10 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c0e458b69076138e2408664be131f61e.png"
       }
     ],
-    "cost": { "value": 8 }
+    "cost": { "value": 8 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -170,7 +183,9 @@
     "cost": { "value": 1 },
     "limited": 0,
     "xws": "automatedtargetpriority",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -188,7 +203,9 @@
     "cost": { "value": 4 },
     "limited": 1,
     "xws": "sensorbuoysuite",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Sensor Scramblers",
@@ -209,6 +226,8 @@
     "restrictions": [
       { "ships": ["tiewiwhispermodifiedinterceptor", "tievnsilencer"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

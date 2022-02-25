@@ -21,12 +21,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_146.jpg"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Black One",
@@ -50,9 +52,11 @@
         ]
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 0 },
     "restrictions": [{ "factions": ["Resistance"] }, { "ships": ["t70xwing"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Dauntless",
@@ -68,12 +72,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_123.jpg"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "ships": ["vt49decimator"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Ghost",
@@ -94,7 +100,9 @@
       { "factions": ["Rebel Alliance"] },
       { "ships": ["vcx100lightfreighter"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Havoc",
@@ -115,12 +123,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_147.jpg"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["scurrgh6bomber"] }
     ],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Hound's Tooth",
@@ -136,12 +146,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_148.jpg"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["yv666lightfreighter"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "IG-2000",
@@ -157,12 +169,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_149.jpg"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["aggressorassaultfighter"] }
     ],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Lando's Millennium Falcon",
@@ -178,12 +192,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_164.jpg"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["customizedyt1300lightfreighter"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Marauder",
@@ -200,12 +216,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_150.jpg"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Millennium Falcon",
@@ -228,12 +246,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_103.jpg"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["modifiedyt1300lightfreighter"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Mist Hunter",
@@ -257,12 +277,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_151.jpg"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["g1astarfighter"] }
     ],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Moldy Crow",
@@ -281,12 +303,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_104.jpg"
       }
     ],
-    "cost": { "value": 16 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Rebel Alliance", "Scum and Villainy"] },
       { "ships": ["hwk290lightfreighter"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Outrider",
@@ -302,12 +326,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_105.jpg"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["yt2400lightfreighter"] }
     ],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Phantom",
@@ -328,7 +354,9 @@
       { "factions": ["Rebel Alliance"] },
       { "ships": ["attackshuttle", "sheathipedeclassshuttle"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Punishing One",
@@ -348,12 +376,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_152.jpg"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["jumpmaster5000"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "ST-321",
@@ -369,12 +399,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_124.jpg"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "ships": ["lambdaclasst4ashuttle"] }
     ],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Shadow Caster",
@@ -390,12 +422,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_153.jpg"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["lancerclasspursuitcraft"] }
     ],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Slave I",
@@ -412,12 +446,14 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_154.jpg"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "ships": ["firesprayclasspatrolcraft"] }
     ],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Virago",
@@ -438,9 +474,11 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_155.jpg"
       }
     ],
-    "cost": { "value": 7 },
+    "cost": { "value": 0 },
     "restrictions": [{ "ships": ["starviperclassattackplatform"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Rey's Millennium Falcon",
@@ -456,12 +494,14 @@
         "slots": ["Title"]
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Resistance"] },
       { "ships": ["scavengedyt1300"] }
     ],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Soulless One",
@@ -482,8 +522,10 @@
       { "factions": ["Separatist Alliance"] },
       { "ships": ["belbullab22starfighter"] }
     ],
-    "hyperspace": true,
-    "cost": { "value": 6 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Scimitar",
@@ -513,14 +555,18 @@
       { "factions": ["Separatist Alliance"] },
       { "ships": ["sithinfiltrator"] }
     ],
-    "hyperspace": true,
-    "cost": { "value": 3 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Assailer",
     "limited": 1,
     "xws": "assailer",
-    "hyperspace": false,
+    "standard": false,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Gunner] slot. While you defend, if the attack range is 1, you may roll 1 additional defense die.",
@@ -528,9 +574,9 @@
         "type": "Title",
         "slots": ["Title"],
         "grants": [
-              { "type": "stat", "value": "hull", "amount": 2 },
-              { "type": "stat", "value": "shields", "amount": -2 },
-              { "type": "slot", "value": "Gunner", "amount": 1 }
+          { "type": "stat", "value": "hull", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -2 },
+          { "type": "slot", "value": "Gunner", "amount": 1 }
         ],
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/adbdc704e0f66a27d4ae2ecfb2323d2d.jpg"
       }
@@ -541,7 +587,9 @@
     "name": "Blood Crow",
     "limited": 1,
     "xws": "bloodcrow",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Gunner] slot. While you perform an attack at attack range 1-2, you may add 1 [Focus] result.",
@@ -549,9 +597,9 @@
         "type": "Title",
         "slots": ["Title"],
         "grants": [
-              { "type": "stat", "value": "energy", "amount": 2 },
-              { "type": "stat", "value": "shields", "amount": -1 },
-              { "type": "slot", "value": "Gunner", "amount": 1 }
+          { "type": "stat", "value": "energy", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -1 },
+          { "type": "slot", "value": "Gunner", "amount": 1 }
         ],
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7043e25c4bf030ade5b026e5bc8bd43e.jpg"
       }
@@ -562,7 +610,9 @@
     "name": "Bright Hope",
     "limited": 1,
     "xws": "brighthope",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "You can reinforce only your [Full Front Arc]. While you defend, if you are reinforced and the attacker is in your [Full Front Arc], you may roll 1 additional defense die.",
@@ -578,7 +628,9 @@
     "name": "Broken Horn",
     "limited": 1,
     "xws": "brokenhorn",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Crew] and [Illicit] slots. If you are damaged, reduce the difficulty of your speed 3-5 maneuvers.",
@@ -586,8 +638,8 @@
         "type": "Title",
         "slots": ["Title"],
         "grants": [
-              { "type": "slot", "value": "Illicit", "amount": 1 },
-              { "type": "slot", "value": "Crew", "amount": 1 }
+          { "type": "slot", "value": "Illicit", "amount": 1 },
+          { "type": "slot", "value": "Crew", "amount": 1 }
         ],
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b6b2484bd0fc2c17ff2159b1280a2e5d.jpg"
       }
@@ -598,7 +650,9 @@
     "name": "Corvus",
     "limited": 1,
     "xws": "corvus",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "You can dock up to 2 small ships. After you perform a [Calculate] action, gain 1 calculate token.",
@@ -620,7 +674,9 @@
     "name": "Dodonna's Pride",
     "limited": 1,
     "xws": "dodonnaspride",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Team] and [Cargo] slots.",
@@ -657,7 +713,9 @@
     "name": "Impetuous",
     "limited": 1,
     "xws": "impetuous",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Crew] slot. After you perform an attack, if the defender was destroyed, you may perform a [Focus] or [Lock] action.",
@@ -678,7 +736,9 @@
     "name": "Insatiable Worrt",
     "limited": 1,
     "xws": "insatiableworrt",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Cargo] slot. During the End Phase, you may recover 1 additional shield or 1 additional [Energy].",
@@ -690,7 +750,7 @@
           { "type": "stat", "value": "hull", "amount": 3 },
           { "type": "stat", "value": "shields", "amount": -1 },
           { "type": "slot", "value": "Cargo", "amount": 1 }
-       ],
+        ],
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0dc42b21873c86f819f3dd528cdae1ff.jpg"
       }
     ],
@@ -700,16 +760,16 @@
     "name": "Instigator",
     "limited": 1,
     "xws": "instigator",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Team] slot. While you perform an attack, if the defender has an orange or red token, you may reroll up to 2 attack dice.",
         "title": "Instigator",
         "type": "Title",
         "slots": ["Title"],
-        "grants": [
-              { "type": "slot", "value": "Team", "amount": 1 }
-        ],
+        "grants": [{ "type": "slot", "value": "Team", "amount": 1 }],
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/943dfb58136280a8cf1ea781bf7b0c2f.jpg"
       }
     ],
@@ -719,7 +779,9 @@
     "name": "Jaina's Light",
     "limited": 1,
     "xws": "jainaslight",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While a friendly ship at range 0-2 defends, if the attack is obstructed by an obstacle, you may spend 1 [Energy]. If you do, the defender rolls 1 additional defense die.",
@@ -739,7 +801,6 @@
     "name": "Kaz's Fireball",
     "limited": 1,
     "xws": "kazsfireball",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Setup: When you resolve Explosion with Wings, you may search the damage deck and choose a damage card with the Ship trait; you are dealt that card instead. Then, shuffle the damage deck. You can perform actions on damage cards even while ionized.",
@@ -750,22 +811,25 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/793a1b659936801101622a5fc0a71e73.png"
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Liberator",
     "limited": 1,
     "xws": "liberator",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "You can dock up to 2 small ships. After a ship deploys from you, it may perform a [Focus] or [Barrel Roll] action.",
         "title": "Liberator",
         "type": "Title",
         "slots": ["Title"],
-        "grants": [
-          { "type": "stat", "value": "energy", "amount": 1 }
-        ],
+        "grants": [{ "type": "stat", "value": "energy", "amount": 1 }],
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/18bb0bda87c23b452e0c4788136beb30.jpg"
       }
     ],
@@ -775,7 +839,9 @@
     "name": "Luminous",
     "limited": 1,
     "xws": "luminous",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: You are placed in reserve. At the end of setup, you are placed in the play area at range 0-2 of a friendly ship.",
@@ -795,7 +861,9 @@
     "name": "Merchant One",
     "limited": 1,
     "xws": "merchantone",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Turret], [Team], and [Cargo] slots. Bonus Attack: Perform a [Turret] attack.",
@@ -824,7 +892,9 @@
     "name": "Quantum Storm",
     "limited": 1,
     "xws": "quantumstorm",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Team] and [Cargo] slots. After you fully execute a white maneuver, recover 1 [Energy].",
@@ -840,12 +910,14 @@
       }
     ],
     "cost": { "value": 3 }
-  },  
+  },
   {
     "name": "Requiem",
     "limited": 1,
     "xws": "requiem",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After a ship deploys from you, it may acquire a lock on one ship you are locking, ignoring range restrictions.",
@@ -865,7 +937,9 @@
     "name": "Suppressor",
     "limited": 1,
     "xws": "suppressor",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Sensor] slot. After you coordinate a friendly ship, you may spend 1 [Energy] to jam an enemy ship at range 0-2 of that ship, ignoring range restrictions.",
@@ -873,9 +947,9 @@
         "type": "Title",
         "slots": ["Title"],
         "grants": [
-              { "type": "stat", "value": "hull", "amount": -2 },
-              { "type": "stat", "value": "shields", "amount": 2 },
-              { "type": "slot", "value": "Sensor", "amount": 1 }
+          { "type": "stat", "value": "hull", "amount": -2 },
+          { "type": "stat", "value": "shields", "amount": 2 },
+          { "type": "slot", "value": "Sensor", "amount": 1 }
         ],
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/45c68a9c1b84a9ca1a6dd4ed5b618210.jpg"
       }
@@ -886,16 +960,16 @@
     "name": "Tantive IV",
     "limited": 1,
     "xws": "tantiveiv",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add 2 [Crew] slots. While you defend, if the attacker is in your [Rear Arc], you may roll 1 additional defense die.",
         "title": "Tantive IV",
         "type": "Title",
         "slots": ["Title"],
-        "grants": [
-          { "type": "slot", "value": "Crew", "amount": 2 }
-        ],
+        "grants": [{ "type": "slot", "value": "Crew", "amount": 2 }],
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/de2147d3f99347d5c07789917402b470.jpg"
       }
     ],
@@ -905,7 +979,9 @@
     "name": "Thunderstrike",
     "limited": 1,
     "xws": "thunderstrike",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Gunner] slot. While you perform a bonus attack, if you have not attacked the defender this round, you may reroll 1 attack die.",
@@ -926,7 +1002,9 @@
     "name": "Vector",
     "limited": 1,
     "xws": "vector",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Crew] and [Cargo] slots. After a ship deploys from you, it may perform a [Evade] or [Boost] action.",
@@ -946,7 +1024,9 @@
     "name": "Slave I",
     "limited": 1,
     "xws": "slavei-swz82",
-    "hyperspace": true,
+    "standard": true,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
         "ability": "While you perform a [Front Arc] attack, if you are in the defender's [Full Rear Arc], you may change 1 [Hit] result to a [Critical Hit] result. Add [Gunner] slot.",
@@ -967,7 +1047,6 @@
     "name": "B6 Blade Wing Prototype",
     "limited": 1,
     "xws": "b6bladewingprototype",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Add [Gunner] slot.",
@@ -982,13 +1061,18 @@
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
       { "ships": ["asf01bwing"] }
-    ]
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Nautolan's Revenge",
     "limited": 1,
     "xws": "nautolansrevenge",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Before you engage, you may spend up to 2 calculate tokens. If you do, recover that many [Energy].",
@@ -1013,7 +1097,9 @@
     "name": "Grappler",
     "limited": 1,
     "xws": "grappler",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While you perform a Drill Beak attack at range 1, if the defender is tractored, treat it as being range 0 instead.",
@@ -1028,24 +1114,22 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [
-      { "ships": ["tridentclassassaultship"] }
-    ]
+    "restrictions": [{ "ships": ["tridentclassassaultship"] }]
   },
   {
     "name": "Neimoidian Grasp",
     "limited": 1,
     "xws": "neimoidiangrasp",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After you perform an attack, you may perform a red [Evade] action. While you defend, if you are evading, you may roll 1 additional defense die.",
         "title": "Neimoidian Grasp",
         "type": "Title",
         "slots": ["Title"],
-        "grants": [
-          { "type": "stat", "value": "shields", "amount": -2 }
-        ],
+        "grants": [{ "type": "stat", "value": "shields", "amount": -2 }],
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg"
       }
     ],
@@ -1059,16 +1143,16 @@
     "name": "Trident",
     "limited": 1,
     "xws": "trident",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After you overlap a ship or a ship overlaps you, if it is not tractored, you may spend 1 [Energy]. If you do, it gains 3 tractor tokens.",
         "title": "Trident",
         "type": "Title",
         "slots": ["Title"],
-        "grants": [
-          { "type": "stat", "value": "energy", "amount": 1 }
-        ],
+        "grants": [{ "type": "stat", "value": "energy", "amount": 1 }],
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/63b122a7f37720ef1a7d58bacbc70d15.jpg"
       }
     ],
@@ -1077,5 +1161,35 @@
       { "factions": ["Separatist Alliance"] },
       { "ships": ["tridentclassassaultship"] }
     ]
+  },
+  {
+    "name": "Razor Crest",
+    "limited": 1,
+    "xws": "razorcrest",
+    "sides": [
+      {
+        "ability": "Setup: Place 1 non-limited [Illicit] upgrade facedown under this card. During the System Phase, you may reveal that [Illicit] upgrade and equip it as if it were equipped at Setup (without paying its points cost).",
+        "title": "Razor Crest",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Evade",
+              "difficulty": "White",
+              "linked": { "type": "Barrel Roll", "difficulty": "Red" }
+            }
+          }
+        ],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/razorcrest.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/razorcrest.png"
+      }
+    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["st70assaultship"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]
