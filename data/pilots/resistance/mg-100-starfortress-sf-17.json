@@ -48,7 +48,6 @@
       "loadout": 11,
       "slots": [
         "Sensor",
-        "Crew",
         "Device",
         "Device",
         "Modification",
@@ -73,6 +72,7 @@
       "cost": 5,
       "loadout": 7,
       "slots": [
+        "Talent",
         "Sensor",
         "Crew",
         "Device",
@@ -100,13 +100,13 @@
       "loadout": 14,
       "slots": [
         "Sensor",
+        "Torpedo",
         "Crew",
         "Device",
         "Device",
         "Modification",
         "Gunner",
-        "Gunner",
-        "Tech"
+        "Gunner"
       ],
       "ffg": 448,
       "standard": false,
@@ -133,6 +133,7 @@
         "Modification",
         "Gunner",
         "Gunner",
+        "Tech",
         "Tech"
       ],
       "ffg": 432,
@@ -153,6 +154,7 @@
       "loadout": 14,
       "slots": [
         "Sensor",
+        "Cannon",
         "Crew",
         "Device",
         "Device",
@@ -179,6 +181,7 @@
       "loadout": 14,
       "slots": [
         "Sensor",
+        "Missile",
         "Crew",
         "Device",
         "Device",
@@ -206,7 +209,6 @@
         "Sensor",
         "Tech",
         "Crew",
-        "Gunner",
         "Gunner",
         "Device",
         "Device",

@@ -48,12 +48,10 @@
       "cost": 6,
       "loadout": 10,
       "slots": [
+        "Talent",
         "Missile",
-        "Crew",
-        "Crew",
-        "Illicit",
         "Modification",
-        "Title",
+        "Modification",
         "Gunner"
       ],
       "ffg": 430,
@@ -75,9 +73,11 @@
       "loadout": 18,
       "slots": [
         "Talent",
+        "Talent",
         "Missile",
         "Crew",
         "Crew",
+        "Illicit",
         "Illicit",
         "Modification",
         "Title",
@@ -107,7 +107,7 @@
         "Crew",
         "Illicit",
         "Modification",
-        "Title",
+        "Modification",
         "Gunner"
       ],
       "ffg": 427,
@@ -130,6 +130,7 @@
       "loadout": 25,
       "slots": [
         "Missile",
+        "Talent",
         "Crew",
         "Crew",
         "Illicit",

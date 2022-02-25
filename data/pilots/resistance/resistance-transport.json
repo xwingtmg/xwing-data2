@@ -75,6 +75,7 @@
       "cost": 4,
       "loadout": 12,
       "slots": [
+        "Talent",
         "Tech",
         "Cannon",
         "Cannon",
@@ -104,7 +105,7 @@
         "Cannon",
         "Cannon",
         "Torpedo",
-        "Crew",
+        "Missile",
         "Crew",
         "Astromech",
         "Modification"
@@ -127,14 +128,10 @@
       "cost": 4,
       "loadout": 6,
       "slots": [
-        "Tech",
         "Cannon",
-        "Cannon",
-        "Torpedo",
-        "Crew",
         "Crew",
         "Astromech",
-        "Modification"
+        "Astromech"
       ],
       "ffg": 572,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/005545edf9fc1c82464f52edad236b27.jpg",

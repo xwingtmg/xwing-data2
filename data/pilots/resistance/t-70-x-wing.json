@@ -57,6 +57,8 @@
         "Talent",
         "Astromech",
         "Modification",
+        "Modification",
+        "Torpedo",
         "Title",
         "Configuration",
         "Tech"
@@ -83,10 +85,11 @@
       "charges": { "value": 2, "recovers": 1 },
       "slots": [
         "Talent",
+        "Talent",
         "Astromech",
         "Modification",
-        "Title",
         "Configuration",
+        "Tech",
         "Tech"
       ],
       "ffg": 697,
@@ -111,7 +114,7 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8ceeaf3d985f16da8b8d5a1ebc49ea2b.jpg",
       "cost": 5,
       "loadout": 4,
-      "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
+      "slots": ["Astromech", "Modification", "Configuration", "Tech"],
       "ffg": 426,
       "standard": true,
       "extended": true,
@@ -136,7 +139,6 @@
         "Talent",
         "Astromech",
         "Modification",
-        "Title",
         "Configuration",
         "Tech"
       ],
@@ -164,7 +166,6 @@
         "Talent",
         "Astromech",
         "Modification",
-        "Title",
         "Configuration",
         "Tech"
       ],
@@ -189,9 +190,9 @@
       "loadout": 14,
       "slots": [
         "Talent",
+        "Talent",
         "Astromech",
         "Modification",
-        "Title",
         "Configuration",
         "Tech"
       ],
@@ -220,7 +221,6 @@
         "Talent",
         "Astromech",
         "Modification",
-        "Title",
         "Configuration",
         "Tech"
       ],
@@ -249,8 +249,8 @@
         "Talent",
         "Astromech",
         "Modification",
-        "Title",
         "Configuration",
+        "Cannon",
         "Tech"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6edb8ed4cbf882bf6dbe7a37b5981d85.png",
@@ -276,7 +276,7 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/52f96e7e98dc51c1280052514e303704.jpg",
       "cost": 5,
       "loadout": 10,
-      "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
+      "slots": ["Astromech", "Modification", "Configuration", "Tech"],
       "ffg": 449,
       "standard": true,
       "extended": true,
@@ -299,8 +299,8 @@
       "slots": [
         "Talent",
         "Astromech",
+        "Missile",
         "Modification",
-        "Title",
         "Configuration",
         "Tech"
       ],
@@ -327,7 +327,7 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8874efb312a64da49889c66f96338f9c.jpg",
       "cost": 4,
       "loadout": 8,
-      "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
+      "slots": ["Astromech", "Modification", "Configuration", "Tech"],
       "ffg": 450,
       "standard": true,
       "extended": true,
@@ -350,7 +350,7 @@
       "cost": 6,
       "loadout": 16,
       "charges": { "value": 1, "recovers": 1 },
-      "slots": ["Astromech", "Modification", "Title", "Configuration", "Tech"],
+      "slots": ["Astromech", "Modification", "Configuration", "Tech"],
       "ffg": 423,
       "standard": true,
       "extended": true,
@@ -376,7 +376,7 @@
         "Talent",
         "Astromech",
         "Modification",
-        "Title",
+        "Modification",
         "Configuration",
         "Tech"
       ],
@@ -403,8 +403,8 @@
         "Talent",
         "Astromech",
         "Modification",
-        "Title",
         "Configuration",
+        "Tech",
         "Tech"
       ],
       "ffg": 698,
@@ -432,7 +432,6 @@
         "Talent",
         "Astromech",
         "Modification",
-        "Title",
         "Configuration",
         "Tech"
       ],
@@ -459,7 +458,7 @@
       "cost": 5,
       "loadout": 10,
       "ffg": 700,
-      "slots": ["Tech", "Astromech", "Modification", "Configuration", "Title"],
+      "slots": ["Tech", "Astromech", "Modification", "Configuration"],
       "ability": "While you perform an attack, if the defender's initiative is higher than yours, you may change 1 blank result to a [Focus] result.",
       "image": "https://images-cdn.fantasyflightgames.com/filer_public/c1/0e/c10e3900-82d8-4bba-9b2b-9ed2f8ad826b/swz68_nimi-chireen.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8c6284a4820a6c6f83eb60111d4ba978.jpg",

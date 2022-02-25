@@ -50,11 +50,7 @@
       },
       "slots": [
         "Missile",
-        "Astromech",
-        "Illicit",
-        "Modification",
-        "Modification",
-        "Title"
+        "Modification"
       ],
       "standard": true,
       "extended": true,
@@ -78,6 +74,7 @@
       "standard": true,
       "extended": true,
       "slots": [
+        "Talent",
         "Talent",
         "Missile",
         "Astromech",
@@ -136,14 +133,7 @@
       "caption": "Bucket",
       "standard": true,
       "extended": true,
-      "slots": [
-        "Missile",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Modification",
-        "Title"
-      ],
+      "slots": [],
       "ability": "Before you expose 1 of your damage cards, you may look at your facedown damage cards, choose 1, and expose that card instead.",
       "cost": 2,
       "loadout": 0,
