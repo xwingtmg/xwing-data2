@@ -1,0 +1,151 @@
+{
+  "name": "Gauntlet Fighter",
+  "xws": "gauntletfighter",
+  "size": "Large",
+  "dial": [
+    "0OR",
+    "1BB",
+    "1NB",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YR",
+    "4FW"
+  ],
+  "faction": "Scum and Villainy",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Rear Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 9
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    }
+  ],
+  "pilots": [
+    {
+      "xws": "maul",
+      "name": "Maul",
+      "ability": "While you perform a [Coordinate] action, if you choose a ship with an initiative lower than yours, you may spend 1 [Force]. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token.",
+      "force": {
+        "side": [
+          "dark"
+        ],
+        "value": 3,
+        "recovers": 1
+      },
+      "cost": 8,
+      "loadout": 27,
+      "initiative": 5,
+      "limited": 1,
+      "standard": true,
+      "extended": true,
+      "epic": true,
+      "slots": [
+        "Force Power",
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Missile",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Configuration",
+        "Title"
+      ],
+      "keywords": [
+        "Dark Side"
+      ],
+      "caption": "Lord of the Shadow Collective"
+    },
+    {
+      "xws": "rookkast",
+      "name": "Rook Kast",
+      "cost": 7,
+      "loadout": 18,
+      "initiative": 3,
+      "limited": 1,
+      "ability": "Before you engage, you may gain 1 strain token. While you perform a primary attack, if you are strained, you may change 1 of your blank or [Focus] results to a [Hit] result.",
+      "standard": true,
+      "extended": true,
+      "epic": true,
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Missile",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Configuration"
+      ],
+      "keywords": [
+        "Mandalorian"
+      ],
+      "caption": "Stoic Super Commando"
+    },
+    {
+      "xws": "shadowcollectiveoperator",
+      "name": "Shadow Collective Operator",
+      "cost": 7,
+      "loadout": 10,
+      "initiative": 1,
+      "limited": 0,
+      "standard": true,
+      "extended": true,
+      "epic": true,
+      "slots": [
+        "Crew",
+        "Gunner",
+        "Device",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Configuration"
+      ],
+      "keywords": [
+        "Mandalorian"
+      ]
+    }
+  ]
+}
