@@ -40,81 +40,66 @@
       "caption": "Brash Noble",
       "initiative": 3,
       "limited": 1,
-      "cost": 33,
+      "cost": 4,
+      "loadout": 11,
       "xws": "lieutenantkarsabi",
       "ability": "After you gain a disarm token, if you are not stressed, you may gain 1 stress token to remove 1 disarm token.",
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Missile",
-        "Modification",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Sensor", "Missile", "Modification", "Configuration"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_136.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_136.jpg",
       "ffg": 136,
-      "hyperspace": false
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Major Vynder",
       "caption": "Pragmatic Survivor",
       "initiative": 4,
       "limited": 1,
-      "cost": 40,
+      "cost": 6,
+      "loadout": 25,
       "xws": "majorvynder",
       "ability": "While you defend, if you are disarmed, roll 1 additional defense die.",
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Missile",
-        "Modification",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Configuration"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_135.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_135.jpg",
       "ffg": 135,
-      "hyperspace": false
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Nu Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 32,
+      "cost": 4,
+      "loadout": 7,
       "xws": "nusquadronpilot",
       "text": "With a design inspired by other Cygnus Spaceworks vessels, the Alpha-class star wing is a versatile craft assigned to Imperial Navy specialist units that need a starfighter they can outfit for multiple roles.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_138.png",
-      "slots": [
-        "Sensor",
-        "Torpedo",
-        "Missile",
-        "Modification",
-        "Configuration"
-      ],
+      "slots": ["Sensor", "Cannon", "Modification", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_138.jpg",
       "ffg": 138,
-      "hyperspace": false
+      "standard": false,
+      "extended": true,
+      "epic": true
     },
     {
       "name": "Rho Squadron Pilot",
       "initiative": 3,
       "limited": 0,
-      "cost": 34,
+      "cost": 4,
+      "loadout": 9,
       "xws": "rhosquadronpilot",
       "text": "The elite pilots of Rho Squadron instill terror in the Rebellion, using both the Xg-1 assault configuration and Os-1 arsenal loadout of the Alpha-class star wing to devastating effect.",
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Missile",
-        "Modification",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Sensor", "Modification", "Configuration"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_137.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_137.jpg",
       "ffg": 137,
-      "hyperspace": false
+      "standard": false,
+      "extended": true,
+      "epic": true
     }
   ]
 }

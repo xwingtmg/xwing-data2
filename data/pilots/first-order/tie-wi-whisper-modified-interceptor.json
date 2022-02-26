@@ -61,14 +61,18 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": true,
-      "cost": 63,
+      "standard": true,
+      "extended": true,
+      "cost": 7,
+      "loadout": 18,
       "slots": [
+        "Force Power",
         "Force Power",
         "Talent",
         "Missile",
         "Tech",
         "Tech",
+        "Modification",
         "Configuration"
       ],
       "ability": "Before an enemy ship in your [Bullseye Arc] is dealt a facedown damage card, you may spend 1 [Force]. If you do, that damage card is dealt faceup instead.",
@@ -76,11 +80,12 @@
       "artwork": "???",
       "image": "???",
       "caption": "Supreme Leader of the First Order",
-      "keywords": ["TIE", "Dark Side", "Light Side"],
-      "force": { "value": 3, "recovers": 1, "side": ["dark", "light"] }
+      "keywords": ["Dark Side", "Light Side", "TIE"],
+      "force": { "value": 3, "recovers": 1, "side": ["dark", "light"] },
+      "epic": true
     },
     {
-      "name": "Wrath",
+      "name": "“Wrath”",
       "xws": "wrath",
       "initiative": 5,
       "limited": 1,
@@ -88,18 +93,21 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": true,
-      "cost": 53,
-      "slots": ["Talent", "Missile", "Tech", "Tech", "Configuration"],
+      "standard": true,
+      "extended": true,
+      "cost": 5,
+      "loadout": 15,
+      "slots": ["Talent", "Talent", "Tech", "Tech", "Configuration"],
       "ability": "After you perform a [Bullseye Arc] attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target.",
       "ffg": 920,
       "artwork": "???",
       "image": "???",
       "caption": "Herald of Destruction",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "Nightfall",
+      "name": "“Nightfall”",
       "xws": "nightfall",
       "initiative": 4,
       "limited": 1,
@@ -107,18 +115,21 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": true,
-      "cost": 49,
-      "slots": ["Talent", "Talent", "Missile", "Tech", "Tech", "Configuration"],
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 10,
+      "slots": ["Talent", "Missile", "Tech", "Tech", "Tech", "Configuration"],
       "ability": "After you fully execute a maneuver or perform a [Boost] action, each ship you moved through gains 2 jam tokens.",
       "ffg": 921,
       "artwork": "???",
       "image": "???",
       "caption": "709th Legion Veteran",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "Whirlwind",
+      "name": "“Whirlwind”",
       "xws": "whirlwind",
       "initiative": 3,
       "limited": 1,
@@ -126,15 +137,18 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "hyperspace": true,
-      "cost": 47,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 12,
       "slots": ["Talent", "Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ability": "Before you engage, you may remove any number of jam tokens, then you may gain 1 focus token for each enemy ship that has you in its [Front Arc].",
       "ffg": 922,
       "artwork": "???",
       "image": "???",
       "caption": "Reap What You Sow",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "709th Legion Ace",
@@ -146,13 +160,16 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "text": "Commanded by Supreme Leader Kylo Ren, the 709th Legion fights without mercy or remorse to crush the Resistance and bring the galaxy under the First Order's dominion.",
-      "hyperspace": true,
-      "cost": 47,
-      "slots": ["Talent", "Talent", "Missile", "Tech", "Tech", "Configuration"],
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 10,
+      "slots": ["Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ffg": 923,
       "artwork": "???",
       "image": "???",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Red Fury Zealot",
@@ -164,13 +181,16 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "text": "Also called Red Fury, the 709th Legion is charged by Supreme Leader Kylo Ren with rooting out dissenters at Black Spire Outpost.",
-      "hyperspace": true,
-      "cost": 44,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 3,
       "slots": ["Talent", "Missile", "Tech", "Tech", "Configuration"],
       "ffg": 924,
       "artwork": "???",
       "image": "???",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     }
   ],
   "icon": "???"

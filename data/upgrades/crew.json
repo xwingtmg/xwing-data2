@@ -16,7 +16,9 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "\"Zeb\" Orrelios",
@@ -35,7 +37,9 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "0-0-0",
@@ -56,7 +60,9 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
     ],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "4-LOM",
@@ -75,7 +81,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Admiral Sloane",
@@ -94,7 +102,9 @@
     ],
     "cost": { "value": 16 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Agent Kallus",
@@ -114,7 +124,9 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Baze Malbus",
@@ -133,7 +145,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Boba Fett",
@@ -152,7 +166,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "C-3PO",
@@ -176,9 +192,11 @@
         "ffg": 304
       }
     ],
-    "cost": { "value": 7 },
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Cad Bane",
@@ -197,7 +215,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Captain Phasma",
@@ -216,7 +236,9 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["First Order"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Cassian Andor",
@@ -235,7 +257,9 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Chewbacca",
@@ -253,9 +277,11 @@
         "ffg": 306
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Chewbacca",
@@ -274,7 +300,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Ciena Ree",
@@ -296,7 +324,9 @@
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Coordinate" } }
     ],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Cikatro Vizago",
@@ -315,7 +345,9 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Darth Vader",
@@ -335,7 +367,9 @@
     ],
     "cost": { "value": 14 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Death Troopers",
@@ -354,7 +388,9 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Director Krennic",
@@ -387,7 +423,9 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Emperor Palpatine",
@@ -407,7 +445,9 @@
     ],
     "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Freelance Slicer",
@@ -425,7 +465,9 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "General Hux",
@@ -444,7 +486,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["First Order"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "GNK \"Gonk\" Droid",
@@ -463,7 +507,9 @@
       }
     ],
     "cost": { "value": 5 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Grand Inquisitor",
@@ -483,7 +529,9 @@
     ],
     "cost": { "value": 13 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Grand Moff Tarkin",
@@ -506,7 +554,9 @@
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Lock" } }
     ],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Hera Syndulla",
@@ -525,7 +575,9 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "IG-88D",
@@ -551,7 +603,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "ISB Slicer",
@@ -570,7 +624,9 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Informant",
@@ -589,7 +645,9 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Jabba the Hutt",
@@ -609,7 +667,9 @@
     ],
     "cost": { "value": 11 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Jyn Erso",
@@ -626,9 +686,11 @@
         "ffg": 309
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Kanan Jarrus",
@@ -648,7 +710,9 @@
     ],
     "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Ketsu Onyo",
@@ -667,7 +731,9 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Kylo Ren",
@@ -688,7 +754,9 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["First Order"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "L3-37",
@@ -716,7 +784,9 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Lando Calrissian",
@@ -735,7 +805,9 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Lando Calrissian",
@@ -754,7 +826,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Latts Razzi",
@@ -773,7 +847,9 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Leia Organa",
@@ -791,9 +867,11 @@
         "ffg": 312
       }
     ],
-    "cost": { "value": 7 },
+    "cost": { "value": 16 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Magva Yarro",
@@ -812,7 +890,9 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Maul",
@@ -837,7 +917,9 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"], "names": ["Ezra Bridger"] }
     ],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Minister Tua",
@@ -854,9 +936,11 @@
         "ffg": 345
       }
     ],
-    "cost": { "value": 7 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Moff Jerjerrod",
@@ -879,7 +963,9 @@
       { "factions": ["Galactic Empire"] },
       { "action": { "type": "Coordinate" } }
     ],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Nien Nunb",
@@ -898,7 +984,9 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Novice Technician",
@@ -916,7 +1004,9 @@
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Perceptive Copilot",
@@ -934,7 +1024,9 @@
       }
     ],
     "cost": { "value": 8 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Petty Officer Thanisson",
@@ -953,7 +1045,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["First Order"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Qi'ra",
@@ -972,7 +1066,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R2-D2",
@@ -991,7 +1087,9 @@
     ],
     "cost": { "value": 8 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Sabine Wren",
@@ -1010,7 +1108,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Saw Gerrera",
@@ -1029,7 +1129,9 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Seasoned Navigator",
@@ -1046,11 +1148,10 @@
         "ffg": 276
       }
     ],
-    "cost": {
-      "variable": "initiative",
-      "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8 }
-    },
-    "hyperspace": true
+    "cost": { "value": 7 },
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Seventh Sister",
@@ -1070,7 +1171,9 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Supreme Leader Snoke",
@@ -1090,7 +1193,9 @@
     ],
     "cost": { "value": 13 },
     "restrictions": [{ "factions": ["First Order"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Tactical Officer",
@@ -1118,7 +1223,9 @@
     "restrictions": [
       { "action": { "type": "Coordinate", "difficulty": "Red" } }
     ],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Tobias Beckett",
@@ -1137,7 +1244,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": true
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Unkar Plutt",
@@ -1156,7 +1265,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Zuckuss",
@@ -1175,7 +1286,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "C-3PO",
@@ -1204,7 +1317,9 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Han Solo",
@@ -1229,7 +1344,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Chewbacca",
@@ -1249,7 +1366,9 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Rose Tico",
@@ -1268,7 +1387,9 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Palpatine/Sidious",
@@ -1312,7 +1433,9 @@
     "restrictions": [
       { "factions": ["Galactic Republic", "Separatist Alliance"] }
     ],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Count Dooku",
@@ -1332,7 +1455,9 @@
     ],
     "cost": { "value": 14 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "General Grievous",
@@ -1350,15 +1475,16 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3f6a042b2f8acfdcfcd1f05c28419fe3.jpg"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Amilyn Holdo",
     "limited": 1,
     "xws": "amilynholdo",
-    "hyperspace": true,
     "cost": { "value": 8 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
@@ -1371,13 +1497,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/daa4aa8732efd994938dae56b6210ede.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cbe5e849e9daa4f3f968b2ff6e2879b1.png"
       }
-    ]
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "GA-97",
     "limited": 1,
     "xws": "ga97",
-    "hyperspace": false,
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
@@ -1397,13 +1525,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/22b0be31694840d7725790e352fa825d.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3af44c6d32812dc07238b40842d67b47.png"
       }
-    ]
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Kaydel Connix",
     "limited": 1,
     "xws": "kaydelconnix",
-    "hyperspace": false,
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
@@ -1416,13 +1546,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f14db8bb29fcb06dfee758cb33490fbe.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/29a0eb418850a3821c38874daf0a6b0d.png"
       }
-    ]
+    ],
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Korr Sella",
     "limited": 1,
     "xws": "korrsella",
-    "hyperspace": true,
     "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
@@ -1435,13 +1567,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/97aa5ed09744e698d42c2a12a369c786.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/dd102b8e517399d12b17756a863d19ee.png"
       }
-    ]
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Larma D'Acy",
     "limited": 1,
     "xws": "larmadacy",
-    "hyperspace": true,
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
@@ -1454,13 +1588,18 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d147142728d8cc0aa647f97966df3988.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/555a815e60cd7bf4612109c3fd65beaa.png"
       }
-    ]
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Leia Organa",
     "limited": 1,
     "xws": "leiaorgana-resistance",
-    "hyperspace": true,
+    "standard": true,
+    "extended": true,
+    "epic": true,
     "cost": { "value": 16 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
@@ -1486,7 +1625,6 @@
     "name": "PZ-4CO",
     "limited": 1,
     "xws": "pz4co",
-    "hyperspace": true,
     "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
@@ -1505,7 +1643,10 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/219ba43a9fc9c9756a87676551aa7a69.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/11c5bdf18a62dc43bdda0834026dace2.png"
       }
-    ]
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "C-3PO",
@@ -1528,14 +1669,15 @@
     ],
     "cost": { "value": 7 },
     "limited": 1,
-    "hyperspace": true,
+    "standard": true,
+    "extended": true,
+    "epic": true,
     "xws": "c3po-republic"
   },
   {
     "name": "Aayla Secura",
     "limited": 1,
     "xws": "aaylasecura",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While an enemy ship in your [Bullseye Arc] performs an attack, if the defender is friendly and at range 0-2, the defender may change 1 blank result to a [Focus] result.",
@@ -1557,13 +1699,15 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c75b7f3eaadb889b7b94d020c0d81d29.png"
       }
     ],
-    "cost": { "value": 14 }
+    "cost": { "value": 14 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Agent Terex",
     "limited": 1,
     "xws": "agentterex",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup and place 3 calculate tokens on this card. At the start of the Engagement Phase, you may choose a friendly ship at range 0-3 and remove 1 calculate token from this card to have that ship gain a matching token. Then, if there are no calculate tokens on this card, flip it.",
@@ -1584,13 +1728,15 @@
         "ability": "During the System Phase, roll 1 attack die. On a [Hit] or [Critical Hit] result, gain 1 calculate token. Otherwise gain 1 jam token. Action: Transfer 1 calculate token or 1 jam token to a ship at range 0-3."
       }
     ],
-    "cost": { "value": 7 }
+    "cost": { "value": 7 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "K-2SO",
     "limited": 1,
     "xws": "k2so",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "During the System Phase, you may choose a friendly ship at range 0-3. That ship gains 1 calculate and 1 stress token.",
@@ -1600,17 +1746,11 @@
         "grants": [
           {
             "type": "action",
-            "value": {
-              "type": "Calculate",
-              "difficulty": "White"
-            }
+            "value": { "type": "Calculate", "difficulty": "White" }
           },
           {
             "type": "action",
-            "value": {
-              "type": "Jam",
-              "difficulty": "White"
-            }
+            "value": { "type": "Jam", "difficulty": "White" }
           }
         ],
         "ffg": 647,
@@ -1618,13 +1758,15 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/bd3d6c3227984bc0f5daacebdc7d92ad.png"
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Plo Koon",
     "limited": 1,
     "xws": "plokoon",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "At the start of the End Phase, if you are reinforced, you may choose 1 friendly ship at range 0 or in your [Left Arc] or [Right Arc] at range 1. That ship removes 1 deplete or strain token, or repairs 1 faceup damage card.",
@@ -1643,13 +1785,18 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1f07b416e509fa27d4005c8d25452e06.png"
       }
     ],
-    "cost": { "value": 9 }
+    "cost": { "value": 9 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Toryn Farr",
     "limited": 1,
     "xws": "torynfarr",
-    "hyperspace": false,
+    "standard": false,
+    "extended": true,
+    "epic": true,
     "sides": [
       {
         "ability": "After you coordinate a friendly ship, it may acquire a lock on a ship you are locking, ignoring range restrictions.",
@@ -1696,7 +1843,9 @@
     "cost": { "value": 8 },
     "limited": 1,
     "xws": "kitfisto",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -1721,7 +1870,9 @@
     "cost": { "value": 12 },
     "limited": 1,
     "xws": "yoda",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -1739,7 +1890,9 @@
     "cost": { "value": 3 },
     "limited": 1,
     "xws": "fives",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -1757,7 +1910,9 @@
     "cost": { "value": 4 },
     "limited": 1,
     "xws": "wolfpack",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -1781,10 +1936,12 @@
       }
     ],
     "name": "Commander Malarus",
-    "cost": { "value": 6 },
+    "cost": { "value": 3 },
     "limited": 1,
     "xws": "commandermalarus",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -1812,7 +1969,9 @@
     "cost": { "value": 5 },
     "limited": 1,
     "xws": "ghostcompany",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -1830,13 +1989,14 @@
     "cost": { "value": 5 },
     "limited": 1,
     "xws": "commanderpyre",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Hondo Ohnaka",
     "limited": 1,
     "xws": "hondoohnaka",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Action: Choose 2 ships at range 1-3 of you that are friendly to each other. Coordinate one of the chosen ships, then jam the other, ignoring range restrictions.",
@@ -1848,13 +2008,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9345f2eadd69a3f1ea2f44648a17d9b2.jpg"
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Jango Fett",
     "limited": 1,
     "xws": "jangofett",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you defend or perform an attack, you may spend your lock on the enemy ship to change 1 of the enemy ship's [Focus] results to a blank result.",
@@ -1869,13 +2031,15 @@
     "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Scum and Villainy", "Separatist Alliance"] }
-    ]
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Zam Wesell",
     "limited": 1,
     "xws": "zamwesell",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: You Should Thank Me You'd Better Mean Business",
@@ -1892,13 +2056,15 @@
     "cost": { "value": 11 },
     "restrictions": [
       { "factions": ["Scum and Villainy", "Separatist Alliance"] }
-    ]
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Gamut Key",
     "limited": 1,
     "xws": "gamutkey",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose a ship at range 0-1 with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
@@ -1911,13 +2077,15 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Protectorate Gleb",
     "limited": 1,
     "xws": "protectorategleb",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "After you coordinate a friendly ship, you may transfer 1 orange or red token to the ship you coordinated.",
@@ -1937,6 +2105,168 @@
     "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Scum and Villainy", "Galactic Empire", "First Order"] }
-    ]
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "The Mandalorian",
+    "limited": 1,
+    "xws": "themandalorian",
+    "sides": [
+      {
+        "ability": "During the End Phase, if you did not defend this round, recover 1 non-recurring [Force], if able.",
+        "title": "The Mandalorian",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Reinforce", "difficulty": "White" }
+          }
+        ],
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/themandalorian.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      }
+    ],
+    "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "The Child",
+    "limited": 1,
+    "xws": "thechild",
+    "sides": [
+      {
+        "ability": "Setup: After placing forces, choose an opponent; they assign the Merciless Pursuit condition to 2 of their ships. Your [Force] lose the recurring icon. After you defend, if you suffer damage during that attack, recover 1 [Force].",
+        "title": "The Child",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "force": { "value": 2, "recovers": 0 },
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/thechild.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      }
+    ],
+    "cost": { "value": 6 },
+    "restrictions": [
+      { "factions": ["Galactic Empire", "Rebel Alliance", "Scum and Villainy"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "IG-11",
+    "limited": 1,
+    "xws": "ig11",
+    "standard": false,
+    "extended": true,
+    "epic": true,
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. Before you would be dealt a faceup damage card, you must place 1 fuse marker on this card and gain 1 calculate token instead. Then, if there are 2 fuse markers on this card, flip it.",
+        "title": "IG-11",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Calculate", "difficulty": "White" }
+          }
+        ],
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/ig11.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      },
+      {
+        "ability": "During the End Phase, remove 1 fuse marker from this card. Then, if this card has no fuse markers on it, you are destroyed and each other ship at range 0-1 suffers 1 [Critical Hit] damage. Action: Place 1 fuse marker on this card.",
+        "title": "IG-11 (Anti-Capture Protocol)",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/ig11-sideb.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      }
+    ],
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+  },
+  {
+    "name": "Greef Karga",
+    "limited": 1,
+    "xws": "greefkarga",
+    "sides": [
+      {
+        "ability": "You can coordinate allied ships as if they were friendly ships. After you coordinate a ship, it may acquire a lock on an object you have locked.",
+        "title": "Greef Karga",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Coordinate", "difficulty": "Red" }
+          }
+        ],
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/greefkarga.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      }
+    ],
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Kuiil",
+    "limited": 1,
+    "xws": "kuiil",
+    "standard": false,
+    "extended": true,
+    "epic": true,
+    "sides": [
+      {
+        "ability": "Action: Roll 1 attack die for each damage card you have. For each [Hit] result, repair 1 faceup Ship damage card, then for each [Critical Hit] result, repair 1 facedown damage card. For each blank result, remove 1 orange token, then for each [Focus] result, gain 1 focus token.",
+        "title": "Kuiil",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/kuiil.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      }
+    ],
+    "cost": { "value": 4 },
+    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+  },
+  {
+    "name": "Peli Motto",
+    "limited": 1,
+    "xws": "pelimotto",
+    "sides": [
+      {
+        "ability": "During the System Phase, you may perform an action on 1 of your damage cards, even while stressed. After you repair a faceup Ship damage card, you may roll 1 attack die. On a [Hit] result, repair another faceup Ship damage card. On a [Critical Hit] result, expose 1 damage card.",
+        "title": "Peli Motto",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "ffg": 920,
+        "image": "https://infinitearenas.com/xw2/images/upgrades/pelimotto.png",
+        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+      }
+    ],
+    "cost": { "value": 3 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] },
+      { "sizes": ["Medium", "Large"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

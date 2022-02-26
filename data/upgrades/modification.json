@@ -17,7 +17,9 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "sizes": ["Medium", "Large"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Advanced SLAM",
@@ -36,7 +38,9 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "action": { "type": "SLAM", "difficulty": "White" } }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Afterburners",
@@ -54,12 +58,11 @@
         "ffg": 294
       }
     ],
-    "cost": {
-      "variable": "initiative",
-      "values": { "0": 4, "1": 4, "2": 4, "3": 4, "4": 5, "5": 6, "6": 7 }
-    },
+    "cost": { "value": 6 },
     "restrictions": [{ "sizes": ["Small"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Electronic Baffle",
@@ -77,7 +80,9 @@
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Engine Upgrade",
@@ -101,12 +106,11 @@
         "ffg": 296
       }
     ],
-    "cost": {
-      "variable": "size",
-      "values": { "Small": 3, "Medium": 4, "Large": 7 }
-    },
+    "cost": { "value": 3 },
     "restrictions": [{ "action": { "type": "Boost", "difficulty": "Red" } }],
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Hull Upgrade",
@@ -124,11 +128,10 @@
         "ffg": 297
       }
     ],
-    "cost": {
-      "variable": "agility",
-      "values": { "0": 2, "1": 3, "2": 5, "3": 7 }
-    },
-    "hyperspace": true
+    "cost": { "value": 4 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Munitions Failsafe",
@@ -146,7 +149,9 @@
       }
     ],
     "cost": { "value": 1 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Shield Upgrade",
@@ -170,11 +175,10 @@
         "ffg": 299
       }
     ],
-    "cost": {
-      "variable": "agility",
-      "values": { "0": 3, "1": 4, "2": 6, "3": 8 }
-    },
-    "hyperspace": false
+    "cost": { "value": 6 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Static Discharge Vanes",
@@ -192,7 +196,9 @@
       }
     ],
     "cost": { "value": 5 },
-    "hyperspace": false
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Stealth Device",
@@ -210,11 +216,10 @@
         "ffg": 301
       }
     ],
-    "cost": {
-      "variable": "agility",
-      "values": { "0": 3, "1": 4, "2": 6, "3": 8 }
-    },
-    "hyperspace": false
+    "cost": { "value": 6 },
+    "standard": false,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Tactical Scrambler",
@@ -233,7 +238,9 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "sizes": ["Medium", "Large"] }],
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Impervium Plating",
@@ -252,8 +259,10 @@
       }
     ],
     "restrictions": [{ "ships": ["belbullab22starfighter"] }],
-    "hyperspace": true,
-    "cost": { "value": 4 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Synchronized Console",
@@ -274,8 +283,10 @@
       { "factions": ["Galactic Republic"] },
       { "action": { "type": "Lock", "difficulty": "White" } }
     ],
-    "hyperspace": true,
-    "cost": { "value": 1 }
+    "cost": { "value": 1 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Spare Parts Canisters",
@@ -294,8 +305,10 @@
       }
     ],
     "restrictions": [{ "equipped": ["Astromech"] }],
-    "hyperspace": false,
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Delayed Fuses",
@@ -312,18 +325,16 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/453d2de1f5059d0e6eb7884a4bf7986b.jpg"
       }
     ],
-    "hyperspace": false,
-    "cost": { "value": 1 }
+    "cost": { "value": 1 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Angled Deflectors",
     "limited": 0,
     "xws": "angleddeflectors",
-    "hyperspace": true,
-    "cost": {
-      "variable": "agility",
-      "values": { "0": 6, "1": 3, "2": 1, "3": 1 }
-    },
+    "cost": { "value": 4 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "sides": [
       {
@@ -343,7 +354,10 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/691b45548136b6e5fd005e7797ae53d9.jpg",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/41cf9c90abcd8ff5c668bb447967b75c.png"
       }
-    ]
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Targeting Computer",
@@ -366,14 +380,15 @@
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": false,
-    "xws": "targetingcomputer"
+    "xws": "targetingcomputer",
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Independent Calculations",
     "limited": 0,
     "xws": "independentcalculations",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Replace your Networked Calculations ship ability with the following: Independent Calculations: While you perform a white [Calculate] action, you may treat it as red to gain 1 additional calculate token. Other ships cannot spend your calculate tokens using the Networked Calculations ship ability.",
@@ -388,13 +403,15 @@
       { "shipAbility": ["Networked Calculations"] },
       { "standardized": true }
     ],
-    "cost": { "value": 0 }
+    "cost": { "value": 0 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Overdrive Thruster",
     "limited": 1,
     "xws": "overdrivethruster",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform a red [Boost], [Barrel Roll], or [SLAM] action, you must use a template of 1 speed higher, if able.",
@@ -405,16 +422,15 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fb6fef19ae0bf5b42d4da716f4826c26.jpg"
       }
     ],
-    "cost": {
-      "variable": "initiative",
-      "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8 }
-    }
+    "cost": { "value": 5 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Precision Ion Engines",
     "limited": 0,
     "xws": "precisionionengines",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Before you execute a speed 1-3 Koiogran Turn ([Koiogran Turn]) maneuver, you may spend 1 [Charge] to execute that maneuver as a Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuver instead.",
@@ -426,6 +442,76 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fbafd721fa85216ee1d16d305e31e694.jpg"
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Mandalorian Optics",
+    "limited": 0,
+    "xws": "mandalorianoptics",
+    "sides": [
+      {
+        "ability": "During the System Phase, you may spend 1 [Charge] to acquire a lock on an object in your [Front Arc]. While you perform a primary attack, if you have a lock on the defender, ignore obstacles beyond range 0 obstructing the attack.",
+        "title": "Mandalorian Optics",
+        "type": "Modification",
+        "slots": ["Modification"],
+        "charges": { "value": 2, "recovers": 0 },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/mandalorianoptics.png"
+      }
+    ],
+    "cost": { "value": 5 },
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Beskar Reinforced Plating",
+    "limited": 0,
+    "xws": "beskarreinforcedplating",
+    "sides": [
+      {
+        "ability": "While you defend, if the attacker is in your [Front Arc], before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt that card facedown instead, or spend 2 [Charge] to discard it instead.",
+        "title": "Beskar Reinforced Plating",
+        "type": "Modification",
+        "slots": ["Modification"],
+        "charges": { "value": 2, "recovers": 0 },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/beskarreinforcedplating.png"
+      }
+    ],
+    "cost": { "value": 6 },
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Burnout Thrusters",
+    "limited": 0,
+    "xws": "burnoutthrusters",
+    "sides": [
+      {
+        "ability": "After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1 deplete token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [SLAM] action.",
+        "title": "Burnout Thrusters",
+        "type": "Modification",
+        "slots": ["Modification"],
+        "charges": { "value": 1, "recovers": 0 },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/burnoutthrusters.png",
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "SLAM", "difficulty": "White" }
+          }
+        ]
+      }
+    ],
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] },
+      { "sizes": ["Small", "Medium"] }
+    ],
+    "cost": { "value": 6 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

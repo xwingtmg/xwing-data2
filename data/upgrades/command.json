@@ -3,7 +3,9 @@
     "name": "Agent of the Empire",
     "limited": 1,
     "xws": "agentoftheempire",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "You are a wing leader. Your wingmates must be 2, 3, 4, or 5 TIE/ln fighters. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.",
@@ -21,7 +23,9 @@
     "name": "Dreadnought Hunter",
     "limited": 2,
     "xws": "dreadnoughthunter",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While you perform an attack against a huge ship, if the attack deals a faceup damage card to the defender and the defender is in your [Bullseye Arc], you may apply the Precision Shot effect even if you are not in the specified arc.",
@@ -39,7 +43,9 @@
     "name": "First Order Elite",
     "limited": 1,
     "xws": "firstorderelite",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "You are a wing leader. Your wingmates must be 2 or 3 TIE/fo fighters or TIE/sf fighters. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.",
@@ -57,7 +63,9 @@
     "name": "Veteran Wing Leader",
     "limited": 0,
     "xws": "veteranwingleader",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "You are a wing leader. Your wingmates must be 2, 3, 4, or 5 other ships of your ship type. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.",
@@ -75,7 +83,9 @@
     "name": "Admiral Ozzel",
     "limited": 1,
     "xws": "admiralozzel",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "While a friendly large or huge ship at range 0-3 executes a maneuver, it may suffer 1 [Hit] damage to execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
@@ -93,7 +103,9 @@
     "name": "Azmorigan",
     "limited": 1,
     "xws": "azmorigan",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "During the End Phase, you may choose up to 2 friendly ships at range 0-1. If you do, each of these ships does not remove 1 calculate or evade token.",
@@ -111,7 +123,9 @@
     "name": "Captain Needa",
     "limited": 1,
     "xws": "captainneeda",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.",
@@ -130,7 +144,9 @@
     "name": "Carlist Rieekan",
     "limited": 1,
     "xws": "carlistrieekan",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After a friendly ship at range 0-2 is destroyed, you may choose a friendly ship at range 0-2. If you do, it may perform a red [Evade] action.",
@@ -154,7 +170,9 @@
     "name": "Jan Dodonna",
     "limited": 1,
     "xws": "jandodonna",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Friendly ships at range 0-3 can spend your focus and evade tokens.",
@@ -172,7 +190,9 @@
     "name": "Raymus Antilles",
     "limited": 1,
     "xws": "raymusantilles",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After you are destroyed, each friendly ship at range 0-1 gains 1 focus token. After you are destroyed, you are not removed until the end of the End Phase.",
@@ -190,7 +210,9 @@
     "name": "Stalwart Captain",
     "limited": 1,
     "xws": "stalwartcaptain",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After you are destroyed, you are not removed until the end of the End Phase.",
@@ -209,7 +231,9 @@
     "name": "Strategic Commander",
     "limited": 1,
     "xws": "strategiccommander",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.",
@@ -229,7 +253,9 @@
     "name": "Jedi Commander",
     "limited": 0,
     "xws": "jedicommander",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 V-19 Torrents or 2-5 Nimbus-class V-wings. After you are placed, flip this card.",
@@ -259,7 +285,9 @@
     "name": "B6 Blade Wing Prototype",
     "limited": 1,
     "xws": "b6bladewingprototype-command",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Add [Gunner] slot. Attack ([Lock]): Gain 1 ion token to perform this attack. If this attack hits, the defender suffers 1 additional [Hit]/[Critical Hit] damage for each matching uncanceled result after the first.",
@@ -280,7 +308,9 @@
     "name": "Bounty",
     "limited": 0,
     "xws": "bounty",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You can be included in Separatist, Imperial, and First Order squads. After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1 [Charge] on your ship card and each of your upgrade cards. Then flip this card.",
@@ -305,7 +335,9 @@
     "name": "Phoenix Squadron",
     "limited": 1,
     "xws": "phoenixsquadron",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 of the following: 0-1 Attack Shuttle 0-1 Sheathipede-class Shuttle 0-5 RZ-1 A-wings After you are placed, flip this card.",
@@ -330,7 +362,9 @@
     "name": "Shadow Wing",
     "limited": 1,
     "xws": "shadowwing",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 other ships of your type. After you are placed, flip this card.",
@@ -355,7 +389,9 @@
     "name": "Skystrike Academy Class",
     "limited": 2,
     "xws": "skystrikeacademyclass",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 TIE/ln Fighters with initiative lower than yours. After you are placed, flip this card.",
@@ -380,7 +416,9 @@
     "name": "In It For The Money/Rebellion",
     "limited": 0,
     "xws": "initforthemoneyrebellion",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You can be included in Republic, Rebel, and Resistance squads. After an allied limited ship in your squad is destroyed, gain 1 focus token and flip this card.",
@@ -410,7 +448,9 @@
     "name": "Mar Tuuk",
     "limited": 1,
     "xws": "martuuk",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: After placing forces, choose 1 friendly wing of ships with [Calculate] on their action bars and place that wing in reserve. During the End Phase, you may place that wing within your deployment area or beyond range 2 of any enemy shp. Then you may choose 1 enemy ship at range 0-1 of you; each ship in that wing acquires a lock on it.",
@@ -431,7 +471,9 @@
     "name": "Riff Tamson",
     "limited": 1,
     "xws": "rifftamson",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "During the Engagement Phase, at initiative 5, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack. After you perform an attack, if the defender was dealt 1 or more faceup damage cards, it gains 2 strain tokens.",
@@ -452,7 +494,9 @@
     "name": "Asajj Ventress",
     "limited": 1,
     "xws": "asajjventresscommand",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "During the System Phase, you may spend 1 [Force]. IF you do, each enemy ship in your [Front Arc] at range 0-1 gains 1 strain token unless it chooses to gain 1 jam token.",
@@ -484,7 +528,9 @@
     "name": "Zealous Captain",
     "limited": 1,
     "xws": "zealouscaptain",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "During the Engagement Phase, at initiative 4, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack.",
@@ -502,7 +548,9 @@
     "name": "Hondo Ohnaka",
     "limited": 1,
     "xws": "hondoohnakacommand",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "During the System Phase, you may spend 1 [Charge] and choose 1 friendly ship at range 0-1. Move 1 Victory Token or Objective Token from its ship card to your ship card, or from your ship card to its ship card.",
@@ -533,7 +581,9 @@
     "name": "General Grievous",
     "limited": 1,
     "xws": "generalgrievouscommand",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "During the Engagement Phase, at initiative 4, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack. You can perform attacks against friendly ships. After you perform an attack, if the defender was destroyed, each friendly ship at range 0-2 of it may perform a [Calculate] action.",

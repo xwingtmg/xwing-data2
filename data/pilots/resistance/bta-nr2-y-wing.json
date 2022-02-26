@@ -44,14 +44,17 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": true,
-      "cost": 40,
+      "standard": true,
+      "extended": true,
+      "cost": 5,
+      "loadout": 20,
       "slots": [
         "Talent",
         "Tech",
         "Turret",
         "Astromech",
         "Device",
+        "Modification",
         "Modification",
         "Illicit",
         "Configuration"
@@ -62,7 +65,8 @@
       "charges": { "value": 1, "recovers": 1 },
       "image": "???",
       "caption": "Corsair of Kijimi",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
       "name": "Teza Nasz",
@@ -73,14 +77,17 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": true,
-      "cost": 37,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 11,
       "slots": [
         "Talent",
         "Tech",
         "Turret",
         "Astromech",
         "Device",
+        "Modification",
         "Modification",
         "Modification",
         "Configuration"
@@ -90,7 +97,8 @@
       "artwork": "???",
       "image": "???",
       "caption": "Old Soldier",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
       "name": "Wilsa Teshlo",
@@ -101,13 +109,17 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": true,
-      "cost": 34,
+      "standard": true,
+      "extended": true,
+      "cost": 3,
+      "loadout": 8,
       "slots": [
         "Tech",
         "Turret",
         "Astromech",
         "Device",
+        "Device",
+        "Modification",
         "Modification",
         "Modification",
         "Configuration"
@@ -117,7 +129,8 @@
       "artwork": "???",
       "image": "???",
       "caption": "Veiled Sorority Privateer",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
       "name": "Shasa Zaro",
@@ -128,13 +141,17 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": false,
-      "cost": 33,
+      "standard": true,
+      "extended": true,
+      "cost": 3,
+      "loadout": 7,
       "slots": [
+        "Talent",
         "Tech",
         "Turret",
         "Astromech",
         "Device",
+        "Modification",
         "Modification",
         "Modification",
         "Configuration"
@@ -144,7 +161,8 @@
       "artwork": "???",
       "image": "???",
       "caption": "Artistic Ace",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
       "name": "Lega Fossang",
@@ -155,12 +173,15 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": true,
-      "cost": 33,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 13,
       "slots": [
         "Talent",
         "Tech",
         "Turret",
+        "Missile",
         "Astromech",
         "Device",
         "Modification",
@@ -172,7 +193,8 @@
       "artwork": "???",
       "image": "???",
       "caption": "Hero of Humbarine",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
       "name": "Aftab Ackbar",
@@ -183,9 +205,12 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": true,
-      "cost": 34,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 12,
       "slots": [
+        "Talent",
         "Talent",
         "Tech",
         "Turret",
@@ -199,8 +224,9 @@
       "ffg": 908,
       "artwork": "???",
       "image": "???",
-      "caption": "Junior",
-      "keywords": ["Y-wing"]
+      "caption": "“Junior”",
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
       "name": "Corus Kapellim",
@@ -211,13 +237,16 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": true,
-      "cost": 33,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 14,
       "slots": [
         "Tech",
         "Turret",
         "Astromech",
         "Device",
+        "Modification",
         "Modification",
         "Illicit",
         "Configuration"
@@ -226,11 +255,12 @@
       "ffg": 909,
       "artwork": "???",
       "image": "???",
-      "caption": "Gentleman Flyer",
-      "keywords": ["Y-wing"]
+      "caption": "“Gentleman Flyer”",
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
-      "name": "C'ai Threnalli",
+      "name": "C’ai Threnalli",
       "xws": "caithrenalli-btanr2ywing",
       "initiative": 2,
       "limited": 1,
@@ -238,14 +268,17 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": true,
-      "cost": 34,
+      "standard": true,
+      "extended": true,
+      "cost": 3,
+      "loadout": 9,
       "slots": [
         "Talent",
         "Tech",
         "Turret",
         "Astromech",
         "Device",
+        "Modification",
         "Modification",
         "Modification",
         "Configuration"
@@ -255,7 +288,8 @@
       "artwork": "???",
       "image": "???",
       "caption": "Tenacious Survivor",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
       "name": "New Republic Patrol",
@@ -266,8 +300,10 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": true,
-      "cost": 32,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 7,
       "slots": [
         "Talent",
         "Tech",
@@ -282,7 +318,8 @@
       "ffg": 911,
       "artwork": "???",
       "image": "???",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "epic": true
     },
     {
       "name": "Kijimi Spice Runner",
@@ -293,13 +330,16 @@
         "name": "Intuitive Interface",
         "text": "After you perform an action added to your action bar by a [Talent], [Illicit], or [Modification] upgrade, you may perform a [Calculate] action."
       },
-      "hyperspace": true,
-      "cost": 31,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 4,
       "slots": [
         "Tech",
         "Turret",
         "Astromech",
         "Device",
+        "Modification",
         "Modification",
         "Illicit",
         "Configuration"
@@ -308,7 +348,8 @@
       "ffg": 912,
       "artwork": "???",
       "image": "???",
-      "keywords": ["Y-wing"]
+      "keywords": ["Y-wing"],
+      "epic": true
     }
   ],
   "icon": "???"

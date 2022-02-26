@@ -3,7 +3,9 @@
     "name": "Ion Cannon Battery",
     "limited": 0,
     "xws": "ioncannonbattery",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. Bonus Attack: Spend 1 [Energy]. If this attack hits, the defender suffers 1 [Critical Hit] damage, and all [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
@@ -41,7 +43,9 @@
     "name": "Ordnance Tubes",
     "limited": 0,
     "xws": "ordnancetubes",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You can perform [Torpedo] and [Missile] attacks only as bonus attacks. You must treat the [Front Arc] requirement of your equipped [Torpedo] and [Missile] upgrades as [Full Front Arc]. Bonus Attack: Perform a [Torpedo] attack. Bonus Attack: Perform a [Missile] attack.",
@@ -66,7 +70,9 @@
     "name": "Point-Defense Battery",
     "limited": 0,
     "xws": "pointdefensebattery",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy].",
@@ -104,7 +110,9 @@
     "name": "Targeting Battery",
     "limited": 0,
     "xws": "targetingbattery",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. Bonus Attack: Spend 1 [Energy]. After you perform this attack, you may acquire a lock on the defender.",
@@ -142,7 +150,9 @@
     "name": "Turbolaser Battery",
     "limited": 0,
     "xws": "turbolaserbattery",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. Bonus Attack ([Lock]): Spend 3 [Energy]. If this attack hits, add 3 [Hit] results.",
@@ -180,7 +190,9 @@
     "name": "Tractor Tentacles",
     "limited": 0,
     "xws": "tractortentacles",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "restrictions": [
       { "sizes": ["Huge"] },
       { "ships": ["tridentclassassaultship"] }
@@ -216,7 +228,9 @@
     "name": "Proton Cannon Battery",
     "limited": 0,
     "xws": "protoncannonbattery",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. Bonus Attack: Change 1 [Hit] result to a [Critical Hit] result. Bonus Attack: Spend 1 [Energy]. Change 1 [Hit] result to a [Critical Hit] result.",
@@ -248,7 +262,9 @@
     "name": "Enhanced Propulsion",
     "limited": 0,
     "xws": "enhancedpropulsion",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. At the start of the End Phase, you may spend 2 [Energy] to execute a white [2 [Straight]], [1 [Bank Left]], or [1 [Bank Right]] maneuver.",
@@ -277,7 +293,9 @@
     "name": "Drill Beak",
     "limited": 0,
     "xws": "drillbeak",
-    "hyperspace": false,
+    "standard": false,
+    "extended": false,
+    "epic": true,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You can perform this attack at range 0. Bonus Attack: Spend 1 [Energy]. If the attack range is 0, change all [Hit] results to [Critical Hit] results.",

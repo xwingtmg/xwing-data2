@@ -41,7 +41,8 @@
       "name": "Alpha Squadron Pilot",
       "initiative": 1,
       "limited": 0,
-      "cost": 32,
+      "cost": 3,
+      "loadout": 2,
       "xws": "alphasquadronpilot",
       "text": "Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_106.png",
@@ -49,17 +50,20 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Modification", "Modification", "Configuration"],
+      "slots": ["Talent", "Modification", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg",
       "ffg": 106,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Saber Squadron Ace",
       "initiative": 4,
       "limited": 0,
-      "cost": 36,
+      "cost": 4,
+      "loadout": 7,
       "xws": "sabersquadronace",
       "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_105.png",
@@ -67,18 +71,21 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Modification", "Modification", "Configuration"],
+      "slots": ["Talent", "Missile", "Modification", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg",
       "ffg": 105,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Soontir Fel",
       "caption": "Ace of Legend",
       "initiative": 6,
       "limited": 1,
-      "cost": 53,
+      "cost": 6,
+      "loadout": 12,
       "xws": "soontirfel",
       "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain 1 focus token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_103.png",
@@ -86,18 +93,27 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Modification", "Modification", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg",
       "ffg": 103,
-      "hyperspace": true,
-      "keywords": ["TIE"]
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Turr Phennir",
       "caption": "Ambitious Ace",
       "initiative": 4,
       "limited": 1,
-      "cost": 42,
+      "cost": 4,
+      "loadout": 9,
       "xws": "turrphennir",
       "ability": "After you perform an attack, you may perform a [Barrel Roll] or [Boost] action, even if you are stressed.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_104.png",
@@ -105,11 +121,19 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Modification", "Modification", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg",
       "ffg": 104,
-      "hyperspace": true,
-      "keywords": ["TIE"]
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Ciena Ree",
@@ -120,14 +144,17 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["TIE"],
-      "cost": 48,
-      "slots": ["Talent", "Modification", "Modification", "Configuration"],
+      "cost": 5,
+      "loadout": 10,
+      "slots": ["Talent", "Talent", "Modification", "Configuration"],
       "ability": "After you perform an attack, if the defender was destroyed, gain 1 stress token. After a friendly ship at range 0-3 is destroyed, remove 1 stress token.",
       "caption": "Look Through My Eyes",
       "ffg": 889,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1e8066a3e41db4df36bbb155feac4c20.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1e8066a3e41db4df36bbb155feac4c20.jpg",
+      "epic": true
     },
     {
       "name": "Gideon Hask",
@@ -139,13 +166,16 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "caption": "Inferno Two",
-      "hyperspace": true,
+      "standard": true,
+      "extended": true,
       "keywords": ["TIE"],
-      "cost": 48,
+      "cost": 5,
+      "loadout": 8,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die.",
       "ffg": 892,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f97eca9b805c2e0f8bb833ffce44b033.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f97eca9b805c2e0f8bb833ffce44b033.jpg",
+      "epic": true
     },
     {
       "name": "Vult Skerris",
@@ -157,14 +187,17 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "caption": "Arrogant Ace",
-      "hyperspace": true,
-      "cost": 43,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 6,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
       "charges": { "value": 1, "recovers": -1 },
       "keywords": ["TIE"],
       "ffg": 890,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/528647fa86b7a42c3e48992185e422b5.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/528647fa86b7a42c3e48992185e422b5.jpg",
+      "epic": true
     },
     {
       "name": "Commandant Goran",
@@ -173,16 +206,19 @@
       "limited": 1,
       "shipAbility": {
         "name": "Autothrusters",
-        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+        "text": "At the start of the Engagement Phase, shoose a friendly ship at range 0-3 with a lower initiative than yours. The chosen ship gains 1 evade token and removes 1 non-stress red token."
       },
       "caption": "Skystrike Superintendent",
-      "hyperspace": true,
-      "cost": 43,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 8,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "ability": "After a friendly ship at range 0-3 with a lower initiative than yours partially executes a maneuver, it may perform a red [Focus] action.",
       "keywords": ["TIE"],
       "ffg": 891,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cf15fb0b36550e1066381dbd38eba259.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cf15fb0b36550e1066381dbd38eba259.jpg",
+      "epic": true
     },
     {
       "name": "Lieutenant Lorrir",
@@ -194,13 +230,22 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "caption": "Requiem for Brentaal",
-      "hyperspace": true,
-      "cost": 39,
-      "slots": ["Talent", "Modification", "Modification", "Configuration"],
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 10,
+      "slots": [
+        "Talent",
+        "Modification",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
       "ability": "While you barrel roll, you must use the [[Bank Left] or [Bank Right]] template instead of the [[Straight]] template.",
       "keywords": ["TIE"],
       "ffg": 893,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0dc2601a5cdde23815e1d0fc54e7817b.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0dc2601a5cdde23815e1d0fc54e7817b.jpg",
+      "epic": true
     },
     {
       "name": "Nash Windrider",
@@ -212,13 +257,17 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "caption": "Alderaanian Zealot",
-      "hyperspace": true,
-      "cost": 41,
-      "slots": ["Talent", "Modification", "Modification", "Configuration"],
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 6,
+      "charges": { "value": 1, "recovers": 1 },
+      "slots": ["Missile", "Modification", "Modification", "Configuration"],
       "ability": "During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spend 1 [Charge]. If you do, that ship engages at the current initiative.",
       "keywords": ["TIE"],
       "ffg": 894,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1470ad9f77f0c8ac14d9fa291895ec9a.jpg"
+      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1470ad9f77f0c8ac14d9fa291895ec9a.jpg",
+      "epic": true
     }
   ]
 }

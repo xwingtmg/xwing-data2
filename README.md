@@ -1,6 +1,6 @@
 # X-Wing Data 2
 
-An easy-to-use collection of all data from [X-Wing: The Miniatures Game (Second Edition)](https://www.fantasyflightgames.com/en/products/x-wing-second-edition/) by [Fantasy Flight Games](http://fantasyflightgames.com/).
+An easy-to-use collection of all data from [X-Wing: The Miniatures Game (Second Edition)](https://www.atomicmassgames.com/xwing-documents) by [Atomic Mass Games](https://www.atomicmassgames.com/).
 
 If you're looking for data and images of X-Wing First Edition, you can find that here: [xwing-data](https://github.com/guidokessels/xwing-data).
 
@@ -27,18 +27,16 @@ XWS ids have to be unique per type (pilot/upgrade/condition/etc) and do not coll
 
 There are a few scripts that make it easier to work on the data.
 
-You can run these scripts using `npm` or `yarn`. For example:
-
-- `npm run hyperspace`
-- `yarn run hyperspace`
+You can run these scripts using `npm` or `yarn`.
 
 ### Scripts to update data
 
 | Script                | Description                                                                                                         |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| `yarn run hyperspace` | Syncs the `hyperspace` status of all cards with the FFG squadbuilder                                                |
-| `yarn run ffgscrape`  | Syncs all data with the FFG squadbuilder (and alerts on missing cards)                                              |
-| `yarn run ffg2xws`    | Generates the [`data/ffg-xws.json`](https://github.com/guidokessels/xwing-data2/blob/master/data/ffg-xws.json) file |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `yarn ts-node ./scripts/amg/parser.ts` | Scrape ship_points.xlsx and upgrade_points.xlsx for points and format legality                                      |
+| `yarn run hyperspace` | Syncs the `hyperspace` status of all cards with the FFG squadbuilder (obsolete)                                                      |
+| `yarn run ffgscrape`  | Syncs all data with the FFG squadbuilder (and alerts on missing cards) (obsolete)                                                    |
+| `yarn run ffg2xws`    | Generates the [`data/ffg-xws.json`](https://github.com/guidokessels/xwing-data2/blob/master/data/ffg-xws.json) file (obsolete)       |
 
 ### Scripts to work with the repository
 
@@ -49,6 +47,15 @@ You can run these scripts using `npm` or `yarn`. For example:
 | `yarn run validate:json`        | Validate that all `.json` files contain valid JSON                                                                                                          |
 | `yarn run validate:tests`       | Run all unit tests                                                                                                                                          |
 | `yarn run validate:tests:watch` | Run all unit tests in watch mode                                                                                                                            |
+
+## Creating a pull request
+
+Before opening a pull request, see the following checklist:
+
+1. Use sensible commit messages. Good: `add rebel fangs`. Bad: `create fang-fighter.json`
+1. Ensure there are no merge conflicts with `master` (rebase on top of `master` or merge it into your branch)
+1. Ensure tests pass: `yarn run validate:tests`
+1. Use a sensible PR message, eg `add pride of mandalore rebel content`. PR messages can be the same as commit messages for single-commit PRs.
 
 ## Creating a release
 

@@ -39,6 +39,7 @@
       "name": "New Republic Volunteers",
       "initiative": 7,
       "cost": 65,
+      "loadout": 0,
       "limited": 0,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/5c7cf19b2300729a88d9d58ca60ef3df.jpg",
       "shipAbility": {
@@ -46,7 +47,9 @@
         "text": "After another friendly ship at range 0-1 performs an action, you may spend 1 [Energy]. If you do, it removes 1 orange or red token, or recovers 1 shield."
       },
       "text": "In use since the Galactic Civil War, groups within the New Republic still utilize the GR-75 medium transport for supply and aid missions.",
-      "hyperspace": false,
+      "standard": false,
+      "extended": false,
+      "epic": true,
       "ability": "In use since the Galactic Civil War, groups within the New Republic still utilize the GR-75 medium transport for supply and aid missions.",
       "engagement": 1,
       "xws": "newrepublicvolunteers",

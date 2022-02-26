@@ -51,12 +51,15 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/13d08d0d1131e7a11f6d10fd1626bff9.png",
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
-      "hyperspace": true,
-      "cost": 36,
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 3,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
       "ffg": 515,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d3bf6f2f5482c2b68a4d3d02cd758a68.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Obi-Wan Kenobi",
@@ -71,12 +74,15 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/fcf515534a722b581bc2f85f36cb5c30.png",
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
-      "cost": 47,
-      "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
+      "standard": true,
+      "extended": true,
+      "cost": 5,
+      "loadout": 10,
+      "slots": ["Astromech", "Modification", "Force Power", "Force Power", "Missile", "Configuration"],
       "ffg": 511,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f449693ccfd6529244ea7765eed2f83f.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Plo Koon",
@@ -91,12 +97,15 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c0936c57c897ea7bacadf723cfcbd0b6.png",
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
-      "cost": 43,
-      "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
+      "standard": true,
+      "extended": true,
+      "cost": 5,
+      "loadout": 12,
+      "slots": ["Astromech", "Modification", "Force Power", "Talent", "Missile", "Configuration"],
       "ffg": 513,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a4f58c67ecedcb9fcfa6ee45613c002e.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Saesee Tiin",
@@ -111,12 +120,15 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e0fdedf1af8fd1e5b36c2fba17b4f6b0.png",
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
-      "cost": 40,
+      "standard": false,
+      "extended": true,
+      "cost": 4,
+      "loadout": 8,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
       "ffg": 514,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e36d5e616e0b0135b0faa1c9f46992a1.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Mace Windu",
@@ -131,12 +143,15 @@
       },
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f0c905f162de8d77dd78c3d49cca77f1.png",
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
-      "cost": 44,
-      "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 7,
+      "slots": ["Astromech", "Modification", "Force Power", "Force Power", "Configuration"],
       "ffg": 512,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ba6c851af3b8f650d8dcb865a05636f2.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Anakin Skywalker",
@@ -150,17 +165,20 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
+      "standard": true,
+      "extended": true,
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d60f4eca355471465ca3f6b99fb98e56.png",
-      "cost": 59,
-      "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
+      "cost": 6,
+      "loadout": 10,
+      "slots": ["Astromech", "Modification", "Force Power", "Force Power", "Missile", "Configuration"],
       "ffg": 507,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/dc121e1b285f30e4708bda6c0594b55f.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Ahsoka Tano",
-      "caption": "\"Snips\"",
+      "caption": "“Snips\"",
       "initiative": 3,
       "limited": 1,
       "xws": "ahsokatano",
@@ -170,13 +188,16 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
+      "standard": true,
+      "extended": true,
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/15f6bf84f63970c982dd722a5473217f.png",
-      "cost": 41,
+      "cost": 4,
+      "loadout": 9,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
       "ffg": 510,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0fc229b9b79c9f6c750a587614729293.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Barriss Offee",
@@ -190,13 +211,16 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
+      "standard": true,
+      "extended": true,
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f8f58005da18d7041b1ec2374701465c.png",
-      "cost": 36,
-      "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
+      "cost": 3,
+      "loadout": 7,
+      "slots": ["Astromech", "Modification", "Force Power", "Missile", "Configuration"],
       "ffg": 509,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/6eb248dfda52dc29a8aa4fda7e414eab.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Luminara Unduli",
@@ -210,13 +234,16 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
+      "standard": true,
+      "extended": true,
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/7f87b6c12631687bedf75a18582af0b0.png",
-      "cost": 40,
+      "cost": 4,
+      "loadout": 7,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
       "ffg": 508,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/22519908330c72696863815565a2beda.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     }
   ],
   "ffg": 61

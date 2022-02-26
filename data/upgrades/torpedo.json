@@ -22,8 +22,10 @@
         "ffg": 262
       }
     ],
-    "cost": { "value": 5 },
-    "hyperspace": true
+    "cost": { "value": 8 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Ion Torpedoes",
@@ -49,7 +51,9 @@
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Proton Torpedoes",
@@ -75,13 +79,14 @@
       }
     ],
     "cost": { "value": 12 },
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Plasma Torpedoes",
     "limited": 0,
     "xws": "plasmatorpedoes",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "Attack ([Lock]): Spend 1 [Charge]. During the Neutralize Results step, [Critical Hit] results are canceled before [Hit] results. After this attack hits, the defender loses 1 shield.",
@@ -101,7 +106,10 @@
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/60fb85c3782c235904678bac8a106150.png"
       }
     ],
-    "cost": { "value": 7 }
+    "cost": { "value": 7 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "Tracking Torpedoes",
@@ -120,6 +128,8 @@
     ],
     "cost": { "value": 8 },
     "restrictions": [{ "sizes": ["Huge"] }],
-    "hyperspace": false
+    "standard": false,
+    "extended": false,
+    "epic": true
   }
 ]

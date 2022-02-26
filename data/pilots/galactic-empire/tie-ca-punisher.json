@@ -42,18 +42,19 @@
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPunisher.png",
   "pilots": [
     {
-      "name": "\"Deathrain\"",
+      "name": "“Deathrain”",
       "caption": "Dexterous Bombardier",
       "initiative": 4,
       "limited": 1,
-      "cost": 43,
+      "cost": 6,
+      "loadout": 20,
       "xws": "deathrain",
       "ability": "After you drop or launch a device, you may perform an action.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_140.png",
       "slots": [
+        "Talent",
         "Sensor",
         "Torpedo",
-        "Missile",
         "Missile",
         "Device",
         "Device",
@@ -62,15 +63,18 @@
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_140.jpg",
       "ffg": 140,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "standard": false,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Redline\"",
+      "name": "“Redline”",
       "caption": "Adrenaline Junkie",
       "initiative": 5,
       "limited": 1,
-      "cost": 51,
+      "cost": 7,
+      "loadout": 25,
       "xws": "redline",
       "ability": "You can maintain up to 2 locks. After you perform an action, you may acquire a lock.",
       "slots": [
@@ -79,21 +83,24 @@
         "Missile",
         "Missile",
         "Device",
-        "Device",
+        "Modification",
         "Modification",
         "Gunner"
       ],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_139.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_139.jpg",
       "ffg": 139,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "standard": false,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Cutlass Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 35,
+      "cost": 5,
+      "loadout": 6,
       "xws": "cutlasssquadronpilot",
       "text": "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_141.png",
@@ -101,16 +108,16 @@
         "Sensor",
         "Torpedo",
         "Missile",
-        "Missile",
-        "Device",
         "Device",
         "Modification",
         "Gunner"
       ],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_141.jpg",
       "ffg": 141,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "standard": false,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }

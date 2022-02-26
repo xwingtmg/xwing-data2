@@ -39,6 +39,7 @@
       "name": "First Order Sympathizers",
       "initiative": 7,
       "cost": 67,
+      "loadout": 0,
       "limited": 0,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/99965cf5c4a2611773c6e7f4ecb6608f.jpg",
       "shipAbility": {
@@ -46,7 +47,9 @@
         "text": "You can dock up to 4 small ships."
       },
       "text": "The First Order's swift rise to power rests upon ruthless innovation. However, sympathizers often repurpose Imperial designs, like the venerable Gozanti-class cruiser, in surveillance and patrol operations.",
-      "hyperspace": false,
+      "standard": false,
+      "extended": false,
+      "epic": true,
       "engagement": 1,
       "xws": "firstordersympathizers",
       "slots": [

@@ -24,8 +24,10 @@
       { "factions": ["Separatist Alliance"] },
       { "solitary": true }
     ],
-    "hyperspace": true,
-    "cost": { "value": 10 }
+    "cost": { "value": 10 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "TV-94",
@@ -47,7 +49,9 @@
       { "solitary": true }
     ],
     "cost": { "value": 5 },
-    "hyperspace": false
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "K2-B4",
@@ -68,8 +72,10 @@
       { "factions": ["Separatist Alliance"] },
       { "solitary": true }
     ],
-    "cost": { "value": 5 },
-    "hyperspace": true
+    "cost": { "value": 6 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "TA-175",
@@ -90,8 +96,10 @@
       { "factions": ["Separatist Alliance"] },
       { "solitary": true }
     ],
-    "cost": { "value": 11 },
-    "hyperspace": false
+    "cost": { "value": 10 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "sides": [
@@ -116,6 +124,8 @@
     "cost": { "value": 5 },
     "limited": 1,
     "xws": "kalani",
-    "hyperspace": true
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]
