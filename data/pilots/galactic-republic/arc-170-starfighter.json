@@ -44,7 +44,15 @@
       "xws": "sinker",
       "ability": "While a friendly ship at range 1-2 in your [Left Arc] or [Right Arc] performs a primary attack, it may reroll 1 attack die.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/8297fc7d58ec0a5e6068f8dabbbc00f1.png",
-      "slots": ["Talent", "Torpedo", "Crew", "Astromech", "Modification", "Gunner", "Gunner"],
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Crew",
+        "Astromech",
+        "Modification",
+        "Gunner",
+        "Gunner"
+      ],
       "standard": true,
       "extended": true,
       "cost": 6,
@@ -59,7 +67,14 @@
       "xws": "jag",
       "cost": 5,
       "loadout": 14,
-      "slots": ["Torpedo", "Astromech", "Modification", "Modification", "Gunner", "Gunner"],
+      "slots": [
+        "Torpedo",
+        "Astromech",
+        "Modification",
+        "Modification",
+        "Gunner",
+        "Gunner"
+      ],
       "ffg": 525,
       "caption": "CT-55/11-9009",
       "initiative": 3,
@@ -147,13 +162,7 @@
       "xws": "squadsevenveteran",
       "cost": 5,
       "loadout": 10,
-      "slots": [
-        "Talent",
-        "Astromech",
-        "Modification",
-        "Gunner",
-        "Gunner"
-      ],
+      "slots": ["Talent", "Astromech", "Modification", "Gunner", "Gunner"],
       "ffg": 527,
       "initiative": 3,
       "limited": 0,
