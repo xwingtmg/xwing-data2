@@ -28,7 +28,7 @@
       {
         "title": "\"Zeb\" Orrelios",
         "type": "Crew",
-        "ability": "You can perform primary attacks at range 0. Enemy ships at range 0 can perform primary attacks against you.",
+        "ability": "While you perform an attack at attack range 0, you may spend focus tokens for their default effect to modify results. While defending at attack range 0, the attacker may spend focus tokens for their default effect to modify results.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_94.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_94.jpg",
@@ -1445,7 +1445,7 @@
       {
         "title": "Count Dooku",
         "type": "Crew",
-        "ability": "Before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
+        "ability": "During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a1920988dd8634d9780c6363e3f36f6e.png",
         "force": { "value": 1, "recovers": 1 },
         "slots": ["Crew"],
@@ -1604,7 +1604,7 @@
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
-        "ability": "After a friendly ship reveals its dial, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.",
+        "ability": "After a friendly ship reveals a non-[0 [Stationary]] maneuver, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.",
         "title": "Leia Organa",
         "type": "Crew",
         "slots": ["Crew", "Crew"],
