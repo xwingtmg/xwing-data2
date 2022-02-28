@@ -467,6 +467,24 @@
     "epic": true
   },
   {
+    "name": "Drop-Seat bay",
+    "limited": 0,
+    "xws": "dropseatbay",
+    "sides": [
+      {
+        "ability": "",
+        "title": "Drop-Seat bay",
+        "type": "Modification",
+        "slots": ["Modification"]
+      }
+    ],
+    "restrictions": [{ "ships": ["gauntletfighter"] }],
+    "cost": { "value": 1 },
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
     "name": "Beskar Reinforced Plating",
     "limited": 0,
     "xws": "beskarreinforcedplating",

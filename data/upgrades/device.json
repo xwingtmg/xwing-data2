@@ -26,6 +26,29 @@
     "epic": true
   },
   {
+    "name": "Blazer Bomb",
+    "limited": 0,
+    "xws": "blazerbomb",
+    "sides": [
+      {
+        "title": "Blazer Bomb",
+        "type": "Device",
+        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Blazer Bomb using the [1 [Straight]] template.",
+        "slots": ["Device"],
+        "charges": { "value": 1, "recovers": 0 },
+        "device": {
+          "name": "Blazer Bomb",
+          "type": "Bomb",
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 1 attack die. Each ship or remote suffers 1 [Hit] damage for each [Hit]/[Critical Hit] result. After this device detonates, place a Blaze by aligning the Blaze's guides to the device's tab. A Blaze is an obstacle. After this obstacle is placed, place a fuse marker on it. During the End Phase, remove each Blaze with no fuse markers, then remove one fuse marker from each Blaze."
+        }
+      }
+    ],
+    "cost": { "value": 4 },
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
     "name": "Conner Nets",
     "limited": 0,
     "xws": "connernets",

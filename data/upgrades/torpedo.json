@@ -1,5 +1,24 @@
 [
   {
+    "name": "Homing Torpedoes",
+    "limited": 0,
+    "xws": "homingtorpedoes",
+    "sides": [
+      {
+        "title": "Homing Torpedoes",
+        "type": "Torpedo",
+        "ability": "",
+        "slots": ["Torpedo"],
+        "charges": { "value": 0, "recovers": 0 },
+        "attack": {}
+      }
+    ],
+    "cost": { "value": 5 },
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
     "name": "Adv. Proton Torpedoes",
     "limited": 0,
     "xws": "advprotontorpedoes",

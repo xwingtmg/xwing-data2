@@ -107,13 +107,15 @@
         "title": "Swivel Wing (Down)",
         "type": "Configuration",
         "ability": "After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90° or 180°. If you do, you must flip this card.",
-        "slots": ["Configuration"]
+        "slots": ["Configuration"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/swivelwing.png"
       },
       {
         "title": "Swivel Wing (Up)",
         "type": "Configuration",
         "ability": "While you defend, roll 1 fewer defense die. After you fully execute a non-stationary ([Stationary]) maneuver, you may flip this card.",
-        "slots": ["Configuration"]
+        "slots": ["Configuration"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/swivelwing-sideb.png"
       }
     ],
     "cost": { "value": 0 },
