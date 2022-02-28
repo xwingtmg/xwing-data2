@@ -222,13 +222,10 @@
         "text": "The Delta-7B was designed as a heavier variant of the Delta-7 Aethersprite-class Interceptor, identifiable by the repositioned astromech slot. Many Jedi Generals favor this craft's greater firepower and durability."
       }
     ],
-    "cost": {
-      "variable": "initiative",
-      "values": { "0": 6, "1": 6, "2": 10, "3": 14, "4": 17, "5": 20, "6": 24 }
-    },
+    "cost": { "value": 20 },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],
-    "standard": true,
-    "extended": true,
+    "standard": false,
+    "extended": false,
     "epic": true
   },
   {
