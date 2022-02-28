@@ -99,6 +99,30 @@
     "epic": true
   },
   {
+    "name": "Swivel Wing",
+    "limited": 0,
+    "xws": "swivelwing",
+    "sides": [
+      {
+        "title": "Swivel Wing (Down)",
+        "type": "Configuration",
+        "ability": "After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90° or 180°. If you do, you must flip this card.",
+        "slots": ["Configuration"]
+      },
+      {
+        "title": "Swivel Wing (Up)",
+        "type": "Configuration",
+        "ability": "While you defend, roll 1 fewer defense die. After you fully execute a non-stationary ([Stationary]) maneuver, you may flip this card.",
+        "slots": ["Configuration"]
+      }
+    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["gauntletfighter"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
     "name": "Servomotor S-foils",
     "limited": 0,
     "xws": "servomotorsfoils",
@@ -222,14 +246,11 @@
         "text": "The Delta-7B was designed as a heavier variant of the Delta-7 Aethersprite-class Interceptor, identifiable by the repositioned astromech slot. Many Jedi Generals favor this craft's greater firepower and durability."
       }
     ],
-    "cost": {
-      "variable": "initiative",
-      "values": { "0": 6, "1": 6, "2": 10, "3": 14, "4": 17, "5": 20, "6": 24 }
-    },
+    "cost": { "value": "???" },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],
-    "standard": true,
-    "extended": true,
-    "epic": true
+    "standard": false,
+    "extended": false,
+    "epic": false
   },
   {
     "name": "Calibrated Laser Targeting",
