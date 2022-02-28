@@ -162,6 +162,24 @@
     "epic": true
   },
   {
+    "name": "Proton Cannon",
+    "limited": 0,
+    "xws": "protoncannon",
+    "sides": [
+      {
+        "ability": "",
+        "title": "Proton Cannon",
+        "type": "Cannon",
+        "slots": ["Cannon", "Cannon"],
+        "attack": {}
+      }
+    ],
+    "cost": { "value": 3 },
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
     "name": "Underslung Blaster Cannon",
     "limited": 0,
     "xws": "underslungblastercannon",
