@@ -620,6 +620,70 @@
     "epic": true
   },
   {
+    "name": "Gar Saxon",
+    "limited": 1,
+    "xws": "garsaxon-gunner",
+    "sides": [
+      {
+        "title": "Gar Saxon",
+        "type": "Gunner",
+        "ability": "While you perform the [Lock] action, you can only choose an object in your [Front Arc] or [Rear Arc]. While you perform a primary attack, if the defender is in your [Front Arc] or [Rear Arc], you may remove 1 orange or red token from the defender to roll 1 additional die, to a maximum of 4.",
+        "slots": ["Gunner"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/garsaxon-gunner.png",
+        "artwork": "???"
+      }
+    ],
+    "cost": { "value": 9 },
+    "restrictions": [
+      { "sizes": ["Large", "Huge"] },
+      { "factions": ["Scum and Villainy"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Tiber Saxon",
+    "limited": 1,
+    "xws": "tibersaxon",
+    "sides": [
+      {
+        "title": "Tiber Saxon",
+        "type": "Gunner",
+        "ability": "After you perform an attack at attack range 1-2 that hits, if the defender has no faceup damage cards, you may spend 1 or more [Charge]. For each [Charge] you spend, the defender gains 1 strain token.",
+        "slots": ["Gunner"],
+        "charges": { "value": 2, "recovers": 1 },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/tibersaxon.png",
+        "artwork": "???"
+      }
+    ],
+    "cost": { "value": 4 },
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Ursa Wren",
+    "limited": 1,
+    "xws": "ursawren-gunner",
+    "sides": [
+      {
+        "title": "Ursa Wren",
+        "type": "Gunner",
+        "ability": "After you acquire a lock on an enemy unit beyond range 2, if there are no friendly units at range 0-1 of the locked unit, gain 1 calculate token.",
+        "slots": ["Gunner"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/ursawren-gunner.png",
+        "artwork": "???"
+      }
+    ],
+    "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["Galactic Republic", "Separatist Alliance"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
     "name": "Migs Mayfeld",
     "limited": 1,
     "xws": "migsmayfeld",
