@@ -2675,5 +2675,220 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Clan Wren Commando Team",
+    "limited": 1,
+    "xws": "clanwrencommandoteam",
+    "sides": [
+      {
+        "title": "Clan Wren Commando Team",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        "slots": ["Crew", "Crew"],
+        "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Clan Wren Commandos",
+          "type": "Remote",
+          "image": "https://infinitearenas.com/xw2/images/remotes/clanwrencommandos.png",
+          "effect": "After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.",
+          "initiative": 2,
+          "charges": { "value": 2, "recovers": 0 },
+          "stats": [
+            {
+              "type": "attack",
+              "arc": "Front Arc",
+              "value": 2,
+              "minrange": 1,
+              "maxrange": 2,
+              "ordnance": true
+            },
+            { "type": "agility", "value": 2 },
+            { "type": "hull", "value": 2 }
+          ]
+        },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/clanwrencommandoteam.png"
+      }
+    ],
+    "cost": { "value": 7 },
+    "restrictions": [
+      { "factions": ["Rebel Alliance"] },
+      { "sizes": ["Medium", "Large", "Huge"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Imperial Super Commando Team",
+    "limited": 1,
+    "xws": "imperialsupercommandoteam",
+    "sides": [
+      {
+        "title": "Imperial Super Commando Team",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        "slots": ["Crew", "Crew"],
+        "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Imperial Super Commandos",
+          "type": "Remote",
+          "image": "https://infinitearenas.com/xw2/images/remotes/imperialsupercommandos.png",
+          "effect": "After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.",
+          "initiative": 2,
+          "charges": { "value": 2, "recovers": 0 },
+          "stats": [
+            {
+              "type": "attack",
+              "arc": "Front Arc",
+              "value": 2,
+              "minrange": 1,
+              "maxrange": 2,
+              "ordnance": true
+            },
+            { "type": "agility", "value": 2 },
+            { "type": "hull", "value": 2 }
+          ]
+        },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/imperialsupercommandoteam.png"
+      }
+    ],
+    "cost": { "value": 7 },
+    "restrictions": [
+      { "factions": ["Galactic Empire"] },
+      { "sizes": ["Medium", "Large", "Huge"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Mandalorian Super Commando Team",
+    "limited": 1,
+    "xws": "mandaloriansupercommandoteam",
+    "sides": [
+      {
+        "title": "Mandalorian Super Commando Team",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        "slots": ["Crew", "Crew"],
+        "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Mandalorian Super Commandos",
+          "type": "Remote",
+          "image": "https://infinitearenas.com/xw2/images/remotes/mandaloriansupercommandos.png",
+          "effect": "After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.",
+          "initiative": 2,
+          "charges": { "value": 2, "recovers": 0 },
+          "stats": [
+            {
+              "type": "attack",
+              "arc": "Front Arc",
+              "value": 2,
+              "minrange": 1,
+              "maxrange": 2,
+              "ordnance": true
+            },
+            { "type": "agility", "value": 2 },
+            { "type": "hull", "value": 2 }
+          ]
+        },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/mandaloriansupercommandoteam.png"
+      }
+    ],
+    "cost": { "value": 7 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] },
+      { "sizes": ["Medium", "Large", "Huge"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Nite Owl Commando Team",
+    "limited": 1,
+    "xws": "niteowlcommandoteam",
+    "sides": [
+      {
+        "title": "Nite Owl Commando Team",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        "slots": ["Crew", "Crew"],
+        "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Nite Owl Commandos",
+          "type": "Remote",
+          "image": "https://infinitearenas.com/xw2/images/remotes/niteowlcommandos.png",
+          "effect": "After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.",
+          "initiative": 2,
+          "charges": { "value": 2, "recovers": 0 },
+          "stats": [
+            {
+              "type": "attack",
+              "arc": "Front Arc",
+              "value": 2,
+              "minrange": 1,
+              "maxrange": 2,
+              "ordnance": true
+            },
+            { "type": "agility", "value": 2 },
+            { "type": "hull", "value": 2 }
+          ]
+        },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/niteowlcommandoteam.png"
+      }
+    ],
+    "cost": { "value": 7 },
+    "restrictions": [
+      { "factions": ["Galactic Republic"] },
+      { "sizes": ["Medium", "Large", "Huge"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Death Watch Commando Team",
+    "limited": 1,
+    "xws": "deathwatchcommandoteam",
+    "sides": [
+      {
+        "title": "Death Watch Commando Team",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        "slots": ["Crew", "Crew"],
+        "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Death Watch Commandos",
+          "type": "Remote",
+          "image": "https://infinitearenas.com/xw2/images/remotes/deathwatchcommandos.png",
+          "effect": "After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.",
+          "initiative": 2,
+          "charges": { "value": 2, "recovers": 0 },
+          "stats": [
+            {
+              "type": "attack",
+              "arc": "Front Arc",
+              "value": 2,
+              "minrange": 1,
+              "maxrange": 2,
+              "ordnance": true
+            },
+            { "type": "agility", "value": 2 },
+            { "type": "hull", "value": 2 }
+          ]
+        },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/deathwatchcommandoteam.png"
+      }
+    ],
+    "cost": { "value": 7 },
+    "restrictions": [
+      { "factions": ["Separatist Alliance"] },
+      { "sizes": ["Medium", "Large", "Huge"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

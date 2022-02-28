@@ -465,6 +465,15 @@
                 "minimum": 0,
                 "maximum": 6
               },
+              "charges": {
+                "type": "object",
+                "properties": {
+                  "value": { "type": "integer", "minimum": 0 },
+                  "recovers": { "type": "integer", "minimum": -1, "maximum": 2 }
+                },
+                "required": ["value", "recovers"],
+                "additionalProperties": false
+              },
               "stats": {
                 "type": "array",
                 "items": {
@@ -505,6 +514,17 @@
                         "value": {
                           "type": "integer",
                           "minimum": 1
+                        },
+                        "ordnance": {
+                          "type": "boolean"
+                        },
+                        "minrange": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "maxrange": {
+                          "type": "integer",
+                          "minimum": 0
                         }
                       },
                       "required": ["type", "value", "arc"],
