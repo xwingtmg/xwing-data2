@@ -36,6 +36,7 @@
     {
       "xws": "maul-gauntletfighter",
       "name": "Maul",
+      "image": "https://infinitearenas.com/xw2/images/pilots/maul.png",
       "ability": "While you perform a [Coordinate] action, if you choose a ship with an initiative lower than yours, you may spend 1 [Force]. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token.",
       "force": { "side": ["dark"], "value": 3, "recovers": 1 },
       "cost": 8,
@@ -64,6 +65,7 @@
     {
       "xws": "rookkast",
       "name": "Rook Kast",
+      "image": "https://infinitearenas.com/xw2/images/pilots/rookkast.png",
       "cost": 7,
       "loadout": 18,
       "initiative": 3,
@@ -88,6 +90,7 @@
     {
       "xws": "shadowcollectiveoperator",
       "name": "Shadow Collective Operator",
+      "image": "https://infinitearenas.com/xw2/images/pilots/shadowcollectiveoperator.png",
       "cost": 7,
       "loadout": 10,
       "initiative": 1,
