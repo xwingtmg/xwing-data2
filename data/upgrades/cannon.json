@@ -171,7 +171,13 @@
         "title": "Proton Cannon",
         "type": "Cannon",
         "slots": ["Cannon", "Cannon"],
-        "attack": {}
+        "attack": {
+          "arc": "Front Arc",
+          "value": 1,
+          "minrange": 1,
+          "maxrange": 1,
+          "ordnance": false
+        }
       }
     ],
     "cost": { "value": 3 },
