@@ -160,7 +160,15 @@
       "keywords": ["A-wing", "Mandalorian"],
       "cost": 4,
       "loadout": 15,
-      "slots": ["Talent", "Talent", "Missile", "Torpedo", "Modification", "Modification", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Torpedo",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
       "ability": "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result.",
       "caption": "Daughter of Mandalore",
       "ffg": 885,
@@ -181,7 +189,14 @@
       "extended": true,
       "cost": 5,
       "loadout": 14,
-      "slots": ["Talent", "Talent", "Missile", "Sensor", "Modification", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Sensor",
+        "Modification",
+        "Configuration"
+      ],
       "ability": "While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.",
       "keywords": ["A-wing", "Spectre"],
       "ffg": 880,
@@ -203,7 +218,14 @@
       "force": { "value": 3, "recovers": 1 },
       "cost": 6,
       "loadout": 20,
-      "slots": ["Force Power", "Force Power", "Talent", "Missile", "Modification", "Configuration"],
+      "slots": [
+        "Force Power",
+        "Force Power",
+        "Talent",
+        "Missile",
+        "Modification",
+        "Configuration"
+      ],
       "ability": "After you fully execute a maneuver, you may choose a friendly ship at range 1-2 and spend 2 [Force]. That ship may perform an action, even while stressed.",
       "keywords": ["A-wing", "Light Side"],
       "ffg": 881,

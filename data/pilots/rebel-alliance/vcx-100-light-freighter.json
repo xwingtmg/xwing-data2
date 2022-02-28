@@ -151,11 +151,7 @@
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
       },
-      "slots": [
-        "Turret",
-        "Torpedo",
-        "Gunner"
-      ],
+      "slots": ["Turret", "Torpedo", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_76.jpg",
       "ffg": 76,
       "standard": true,

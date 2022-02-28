@@ -99,6 +99,32 @@
     "epic": true
   },
   {
+    "name": "Swivel Wing",
+    "limited": 0,
+    "xws": "swivelwing",
+    "sides": [
+      {
+        "title": "Swivel Wing (Down)",
+        "type": "Configuration",
+        "ability": "After you execute a [0 [Stationary]] maneuver, you may rotate your ship 90° or 180°. If you do, you must flip this card.",
+        "slots": ["Configuration"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/swivelwing.png"
+      },
+      {
+        "title": "Swivel Wing (Up)",
+        "type": "Configuration",
+        "ability": "While you defend, roll 1 fewer defense die. After you fully execute a non-stationary ([Stationary]) maneuver, you may flip this card.",
+        "slots": ["Configuration"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/swivelwing-sideb.png"
+      }
+    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["gauntletfighter"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
     "name": "Servomotor S-foils",
     "limited": 0,
     "xws": "servomotorsfoils",
@@ -180,7 +206,7 @@
       {
         "title": "Grappling Struts (Closed)",
         "type": "Configuration",
-        "ability": "Setup: Equip this side faceup. While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.",
+        "ability": "Setup: Equip this side faceup. After you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card. If you do, you do not suffer the effects of overlapping the asteroid or debris cloud.",
         "slots": ["Configuration"],
         "ffg": 555,
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ca74271f47c42b390ca0ba0b389144a5.png",
@@ -189,7 +215,7 @@
       {
         "title": "Grappling Struts (Open)",
         "type": "Configuration",
-        "ability": "You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.",
+        "ability": "You ignore obstacles at range 0. You cannot perform [Barrel Roll] actions. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.",
         "slots": ["Configuration"],
         "ffg": 535,
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/be82da17cfd39003fda380bead210eb9.png",
@@ -222,14 +248,11 @@
         "text": "The Delta-7B was designed as a heavier variant of the Delta-7 Aethersprite-class Interceptor, identifiable by the repositioned astromech slot. Many Jedi Generals favor this craft's greater firepower and durability."
       }
     ],
-    "cost": {
-      "variable": "initiative",
-      "values": { "0": 6, "1": 6, "2": 10, "3": 14, "4": 17, "5": 20, "6": 24 }
-    },
+    "cost": { "value": "???" },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],
-    "standard": true,
-    "extended": true,
-    "epic": true
+    "standard": false,
+    "extended": false,
+    "epic": false
   },
   {
     "name": "Calibrated Laser Targeting",
@@ -260,7 +283,7 @@
       {
         "title": "Landing Struts (Closed)",
         "type": "Configuration",
-        "ability": "Setup: Equip this side faceup. While you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card.",
+        "ability": "Setup: Equip this side faceup. After you execute a maneuver, if you overlap an asteroid or debris cloud and there are 1 or fewer other friendly ships at range 0 of that obstacle, you may flip this card. If you do, you do not suffer the effects of overlapping the asteroid or debris cloud.",
         "slots": ["Configuration"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c23a0130bad7330c0abb6218745910aa.png",
         "ffg": 594,
@@ -269,7 +292,7 @@
       {
         "title": "Landing Struts (Open)",
         "type": "Configuration",
-        "ability": "You ignore obstacles at range 0 and while you move through them. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.",
+        "ability": "You ignore obstacles at range 0. You cannot perform [Barrel Roll] actions. After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]] and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver step and remove 1 stress token; if you revealed a right or left maneuver, rotate your ship 90° in that direction. After you execute a maneuver, flip this card.",
         "slots": ["Configuration"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/aba79159308e850b635f6c43721ccdee.png",
         "ffg": 595,

@@ -1163,6 +1163,60 @@
     ]
   },
   {
+    "name": "Nightbrother",
+    "limited": 1,
+    "xws": "nightbrother",
+    "sides": [
+      {
+        "ability": "After you reveal a non-blue maneuver, if you are stressed, you may spend 2 [Charge] to gain 1 focus or evade token. Add [Crew] slot.",
+        "title": "Nightbrother",
+        "type": "Title",
+        "slots": ["Title", "Modification"],
+        "charges": { "value": 2, "recovers": 1 },
+        "grants": [
+          { "type": "slot", "value": "Crew", "amount": 1 }
+        ],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/nightbrother.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/nightbrother.png"
+      }
+    ],
+    "cost": { "value": 0 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy", "Rebel Alliance"] },
+      { "ships": ["gauntletfighter"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Gauntlet",
+    "limited": 1,
+    "xws": "gauntlet",
+    "sides": [
+      {
+        "ability": "During the System Phase, you may spend 1 [Charge] to repair 1 faceup ship damage card. Add [Crew] slot.",
+        "title": "Gauntlet",
+        "type": "Title",
+        "slots": ["Title", "Modification"],
+        "charges": { "value": 2, "recovers": 0 },
+        "grants": [
+          { "type": "slot", "value": "Crew", "amount": -1 }
+        ],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/gauntlet.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/gauntlet.png"
+      }
+    ],
+    "cost": { "value": 0 },
+    "restrictions": [
+      { "factions": ["Galactic Republic", "Separatist Alliance"] },
+      { "ships": ["gauntletfighter"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
     "name": "Razor Crest",
     "limited": 1,
     "xws": "razorcrest",

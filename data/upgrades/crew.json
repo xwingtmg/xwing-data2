@@ -28,7 +28,7 @@
       {
         "title": "\"Zeb\" Orrelios",
         "type": "Crew",
-        "ability": "You can perform primary attacks at range 0. Enemy ships at range 0 can perform primary attacks against you.",
+        "ability": "While you perform an attack at attack range 0, you may spend focus tokens for their default effect to modify results. While defending at attack range 0, the attacker may spend focus tokens for their default effect to modify results.",
         "slots": ["Crew"],
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_94.png",
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_94.jpg",
@@ -1445,7 +1445,7 @@
       {
         "title": "Count Dooku",
         "type": "Crew",
-        "ability": "Before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
+        "ability": "During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
         "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/a1920988dd8634d9780c6363e3f36f6e.png",
         "force": { "value": 1, "recovers": 1 },
         "slots": ["Crew"],
@@ -1604,7 +1604,7 @@
     "restrictions": [{ "factions": ["Resistance"] }],
     "sides": [
       {
-        "ability": "After a friendly ship reveals its dial, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.",
+        "ability": "After a friendly ship reveals a non-[0 [Stationary]] maneuver, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.",
         "title": "Leia Organa",
         "type": "Crew",
         "slots": ["Crew", "Crew"],
@@ -2182,7 +2182,7 @@
         ],
         "ffg": 920,
         "image": "https://infinitearenas.com/xw2/images/upgrades/ig11.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+        "artwork": "?"
       },
       {
         "ability": "During the End Phase, remove 1 fuse marker from this card. Then, if this card has no fuse markers on it, you are destroyed and each other ship at range 0-1 suffers 1 [Critical Hit] damage. Action: Place 1 fuse marker on this card.",
@@ -2191,7 +2191,7 @@
         "slots": ["Crew"],
         "ffg": 920,
         "image": "https://infinitearenas.com/xw2/images/upgrades/ig11-sideb.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
+        "artwork": "?"
       }
     ],
     "cost": { "value": 6 },
@@ -2264,6 +2264,628 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "sizes": ["Medium", "Large"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Prime Minister Almec",
+    "limited": 1,
+    "xws": "primeministeralmec",
+    "sides": [
+      {
+        "ability": "Setup: Equip this side faceup. After a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token. During the End Phase, if you have 2 or more stress tokens, flip this card. ",
+        "title": "Prime Minister Almec",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/primeministeralmec.png"
+      },
+      {
+        "ability": "After a friendly ship at range 0-2 fully executes a maneuver, that ship may perform a [Focus] or [Calculate] action on its action bar, even while stressed.",
+        "title": "Almec, Maul's Puppet",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/primeministeralmec-sideb.png"
+      }
+    ],
+    "cost": { "value": 9 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy", "Galactic Republic"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Rook Kast",
+    "limited": 1,
+    "xws": "rookkast-crew",
+    "sides": [
+      {
+        "ability": "After you perform a red action, you may gain 1 strain token. While you perform an attack, if you are strained, you may change 1 of your blank or [Focus] results to a result.",
+        "title": "Rook Kast",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/rookkast.png",
+        "grants": [
+          {
+            "type": "action",
+            "value": { "type": "Lock", "difficulty": "Red" }
+          }
+        ]
+      }
+    ],
+    "cost": { "value": 11 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Obi-Wan Kenobi",
+    "limited": 1,
+    "xws": "obiwankenobi-crew",
+    "sides": [
+      {
+        "ability": "After a friendly ship at range 0-2 spends a focus or evade token, you may spend 1 [Force]. If you do, that ship gains 1 focus token.",
+        "title": "Obi-wan Kenobi",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "force": { "value": 1, "recovers": 1 },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/obiwankenobi.png"
+      }
+    ],
+    "cost": { "value": 0 },
+    "restrictions": [
+      { "factions": ["Galactic Republic"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Bo-Katan Kryze",
+    "limited": 1,
+    "xws": "bokatankryze-crew",
+    "sides": [
+      {
+        "ability": "While you perform an attack, if you are at range 0-1 of the defender, you may reroll 1 attack die.",
+        "title": "Bo-Katan Kryze",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/bokatankryze.png"
+      }
+    ],
+    "cost": { "value": 8 },
+    "restrictions": [
+      { "factions": ["Galactic Republic", "Separatist Alliance"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Bo-Katan Kryze",
+    "limited": 1,
+    "xws": "bokatankryze-rebel-scum",
+    "sides": [
+      {
+        "ability": "After you perform an attack, if the defender was destroyed, each friendly ship at range 0-2 may remove 1 red or orange token.",
+        "title": "Bo-Katan Kryze",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/bokatankryze-rebel-scum.png"
+      }
+    ],
+    "cost": { "value": 4 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy", "Rebel Alliance"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Korkie Kryze",
+    "xws": "korkiekryze",
+    "limited": 1,
+    "cost": { "value": 5 },
+    "sides": [
+      {
+        "ability":
+          "After a friendly ship in your [Full Front Arc] at range 1-2 becomes the defender, you may transfer 1 green token to it. \n\nWhile a friendly ship in your [Full Rear Arc] at range 1-2 defends, if you obstruct the attack, the defender rolls 1 additional defense die.",
+        "title": "Korkie Kryze",
+        "type": "Crew",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/korkiekryze.png",
+        "slots": ["Crew"]
+      }
+    ],
+    "standard": true,
+    "epic": true,
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "extended": true
+  },
+  {
+    "name": "Satine Kryze",
+    "limited": 1,
+    "xws": "satinekryze",
+    "sides": [
+      {
+        "ability": "At the start of the Engagement Phase, you may spend 2 [Charge]. If you do, each friendly ship may choose to gain 1 deplete token and 1 focus tokken or to gain 1 disarm token and 1 evade token.",
+        "title": "Satine Kryze",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "charges": { "value": 2, "recovers": 1 },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/satinekryze"
+      }
+    ],
+    "cost": { "value": 10 },
+    "restrictions": [
+      { "factions": ["Galactic Republic"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Kuill",
+    "limited": 1,
+    "xws": "kuill",
+    "sides": [
+      {
+        "ability": "Action: Roll 1 attack die for each damage card you have. For each [Hit] result, repair 1 faceup Ship damage card, then for each [Critical Hit] result, repair 1 facedown damage card. For each blank result, remove 1 orange token, then for each [Focus] result, gain 1 focus token.",
+        "title": "Kuill",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/kuill"
+      }
+    ],
+    "cost": { "value": 4 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Tal Merrik",
+    "limited": 1,
+    "xws": "talmerrik",
+    "sides": [
+      {
+        "ability": "Setup: Before placing forces, choose 1 enemy ship and assign the False Friend condition to it. Action: If the False Friend condition is not assigned to an enemy ship, assign it to an enemy ship in your [Front Arc] at range 0-2.",
+        "title": "Tal Merrik",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/talmerrik"
+      }
+    ],
+    "cost": { "value": 10 },
+    "restrictions": [
+      { "factions": ["Separatist Alliance"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Savage Opress",
+    "limited": 1,
+    "xws": "savageopress",
+    "sides": [
+      {
+        "ability": "After a friendly ship in your [Front Arc] at range 1-2 gains a stress of strain token, you may spend 1 [Force]. If you do, that ship gains 1 focus token.",
+        "title": "Savage Opress",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "force": { "value": 1, "recovers": 1 },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/savageopress.png"
+      }
+    ],
+    "cost": { "value": 10 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy", "Separatist Alliance"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Fenn Rau",
+    "limited": 1,
+    "xws": "fennrau",
+    "sides": [
+      {
+        "ability": "Before a friendly ship at range 0-2 engages, if its revealed maneuver is 1 speed or higher and there is an enemy ship in its [Front Arc] at range 1, that friendly ship may remove 1 non-lock red token.",
+        "title": "Fenn Rau",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/fennrau"
+      }
+    ],
+    "cost": { "value": 6 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy", "Rebel Alliance"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Gar Saxon",
+    "limited": 1,
+    "xws": "garsaxon-crew",
+    "sides": [
+      {
+        "ability": "While a friendly ship at range 1-3 with an initiative of 4 or lower performs an attack against a defender you have locked, the attacker may change 1 [Focus] result to a [Hit] result.",
+        "title": "Gar Saxon",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/garsaxon"
+      }
+    ],
+    "cost": { "value": 8 },
+    "restrictions": [
+      { "factions": ["Galactic Empire"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Pre Vizsla",
+    "limited": 1,
+    "xws": "previzsla-crew",
+    "sides": [
+      {
+        "ability": "While you perform a [Coordinate] action, you can choose a friendly [Crew] remote instead of another friendly ship. Instead of performing an action, that remote relocates forward using a [1 [Turn Left]], [1 [Turn Right]], or [2 [Straight]] template.",
+        "title": "Pre Vizsla",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "grants": [
+          {
+            "type": "action", "value": { "type": "Coordinate", "difficulty": "White" }
+          }
+        ],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/previzsla"
+      }
+    ],
+    "cost": { "value": 10 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy", "Separatist Alliance"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Tristan Wren",
+    "limited": 1,
+    "xws": "tristanwren",
+    "sides": [
+      {
+        "ability": "While a friendy unit at range 0-3 performs a [Ordnance] attack, you may spend 1 [Charge]. If you do, the attacker may change 1 [Hit] result to a [Critical Hit] result.",
+        "title": "Tristan Wren",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/tristanwren"
+      }
+    ],
+    "cost": { "value": 4 },
+    "restrictions": [
+      { "factions": ["Rebel Alliance"], "names": ["Gar Saxon"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Ursa Wren",
+    "limited": 1,
+    "xws": "ursawren",
+    "sides": [
+      {
+        "ability": "You can maintain up to 2 locks. Each lock must be on a different object. After a friendly ship at range 0-3 is locked, you may acquire a lock on an enemy ship.",
+        "title": "Ursa Wren",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/ursawren"
+      }
+    ],
+    "cost": { "value": 6 },
+    "restrictions": [
+      { "factions": ["Rebel Alliance"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Captain Hark",
+    "limited": 1,
+    "xws": "captainhark-crew",
+    "sides": [
+      {
+        "ability": "After you fully execute a red maneuver, if you are not focused, you may spend 1 [Charge] to gain 1 focus token.",
+        "title": "Captain Hark",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "charges": { "value": 2, "recovers": 0 },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/captainhark.png"
+      }
+    ],
+    "cost": { "value": 3 },
+    "restrictions": [
+      { "factions": ["Galactic Empire"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Ahsoka Tano",
+    "limited": 1,
+    "xws": "ahsokatano-crew",
+    "sides": [
+      {
+        "ability": "After you fully execute a maneuver, you may spend 1 [Force] to choose 1 friendly ship in your [Full Rear Arc] at range 1-2. If you do, that ship may perform a red [Focus] action, even while stressed.",
+        "title": "Ahsoka Tano",
+        "type": "Crew",
+        "slots": ["Crew"],
+        "force": { "value": 1, "recovers": 1 },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/ahsokatano-crew"
+      }
+    ],
+    "cost": { "value": 9 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy", "Galactic Republic"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Maul",
+    "limited": 1,
+    "xws": "maul-crew",
+    "sides": [
+      {
+        "title": "Maul",
+        "type": "Crew",
+        "ability": "Add [Illicit] slot.",
+        "slots": ["Crew", "Crew"],
+        "force": { "value": 1, "recovers": 1 },
+        "grants": [
+          {
+            "type": "action", "value": { "type": "Coordinate", "difficulty": "Purple" }
+          },
+          {
+            "type": "slot", "value": "Illicit", "amount": 1
+          }
+        ],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/maul-doublecrew.png"
+      }
+    ],
+    "cost": { "value": 10 },
+    "restrictions": [ { "factions": ["Scum and Villainy"]} ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Clan Wren Commando Team",
+    "limited": 1,
+    "xws": "clanwrencommandoteam",
+    "sides": [
+      {
+        "title": "Clan Wren Commando Team",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        "slots": ["Crew", "Crew"],
+        "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Clan Wren Commandos",
+          "type": "Remote",
+          "image": "https://infinitearenas.com/xw2/images/remotes/clanwrencommandos.png",
+          "effect": "After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.",
+          "initiative": 2,
+          "charges": { "value": 2, "recovers": 0 },
+          "stats": [
+            {
+              "type": "attack",
+              "arc": "Front Arc",
+              "value": 2,
+              "minrange": 1,
+              "maxrange": 2,
+              "ordnance": true
+            },
+            { "type": "agility", "value": 2 },
+            { "type": "hull", "value": 2 }
+          ]
+        },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/clanwrencommandoteam.png"
+      }
+    ],
+    "cost": { "value": 7 },
+    "restrictions": [
+      { "factions": ["Rebel Alliance"] },
+      { "sizes": ["Medium", "Large", "Huge"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Imperial Super Commando Team",
+    "limited": 1,
+    "xws": "imperialsupercommandoteam",
+    "sides": [
+      {
+        "title": "Imperial Super Commando Team",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        "slots": ["Crew", "Crew"],
+        "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Imperial Super Commandos",
+          "type": "Remote",
+          "image": "https://infinitearenas.com/xw2/images/remotes/imperialsupercommandos.png",
+          "effect": "After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.",
+          "initiative": 2,
+          "charges": { "value": 2, "recovers": 0 },
+          "stats": [
+            {
+              "type": "attack",
+              "arc": "Front Arc",
+              "value": 2,
+              "minrange": 1,
+              "maxrange": 2,
+              "ordnance": true
+            },
+            { "type": "agility", "value": 2 },
+            { "type": "hull", "value": 2 }
+          ]
+        },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/imperialsupercommandoteam.png"
+      }
+    ],
+    "cost": { "value": 7 },
+    "restrictions": [
+      { "factions": ["Galactic Empire"] },
+      { "sizes": ["Medium", "Large", "Huge"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Mandalorian Super Commando Team",
+    "limited": 1,
+    "xws": "mandaloriansupercommandoteam",
+    "sides": [
+      {
+        "title": "Mandalorian Super Commando Team",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        "slots": ["Crew", "Crew"],
+        "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Mandalorian Super Commandos",
+          "type": "Remote",
+          "image": "https://infinitearenas.com/xw2/images/remotes/mandaloriansupercommandos.png",
+          "effect": "After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.",
+          "initiative": 2,
+          "charges": { "value": 2, "recovers": 0 },
+          "stats": [
+            {
+              "type": "attack",
+              "arc": "Front Arc",
+              "value": 2,
+              "minrange": 1,
+              "maxrange": 2,
+              "ordnance": true
+            },
+            { "type": "agility", "value": 2 },
+            { "type": "hull", "value": 2 }
+          ]
+        },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/mandaloriansupercommandoteam.png"
+      }
+    ],
+    "cost": { "value": 7 },
+    "restrictions": [
+      { "factions": ["Scum and Villainy"] },
+      { "sizes": ["Medium", "Large", "Huge"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Nite Owl Commando Team",
+    "limited": 1,
+    "xws": "niteowlcommandoteam",
+    "sides": [
+      {
+        "title": "Nite Owl Commando Team",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        "slots": ["Crew", "Crew"],
+        "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Nite Owl Commandos",
+          "type": "Remote",
+          "image": "https://infinitearenas.com/xw2/images/remotes/niteowlcommandos.png",
+          "effect": "After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.",
+          "initiative": 2,
+          "charges": { "value": 2, "recovers": 0 },
+          "stats": [
+            {
+              "type": "attack",
+              "arc": "Front Arc",
+              "value": 2,
+              "minrange": 1,
+              "maxrange": 2,
+              "ordnance": true
+            },
+            { "type": "agility", "value": 2 },
+            { "type": "hull", "value": 2 }
+          ]
+        },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/niteowlcommandoteam.png"
+      }
+    ],
+    "cost": { "value": 7 },
+    "restrictions": [
+      { "factions": ["Galactic Republic"] },
+      { "sizes": ["Medium", "Large", "Huge"] }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
+  },
+  {
+    "name": "Death Watch Commando Team",
+    "limited": 1,
+    "xws": "deathwatchcommandoteam",
+    "sides": [
+      {
+        "title": "Death Watch Commando Team",
+        "type": "Crew",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
+        "slots": ["Crew", "Crew"],
+        "charges": { "value": 2, "recovers": 0 },
+        "device": {
+          "name": "Death Watch Commandos",
+          "type": "Remote",
+          "image": "https://infinitearenas.com/xw2/images/remotes/deathwatchcommandos.png",
+          "effect": "After an enemy ship overlaps you, it gains 1 strain token. Activation Phase: At the start of this phase, you may relocate forward using a [1 [Turn Left]], [2 [Straight]] or [1 [Turn Right]] template. Engagement Phase: You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 [Charge]. While you perform an attack, you may change 1 [Focus] result to a [Hit] result.",
+          "initiative": 2,
+          "charges": { "value": 2, "recovers": 0 },
+          "stats": [
+            {
+              "type": "attack",
+              "arc": "Front Arc",
+              "value": 2,
+              "minrange": 1,
+              "maxrange": 2,
+              "ordnance": true
+            },
+            { "type": "agility", "value": 2 },
+            { "type": "hull", "value": 2 }
+          ]
+        },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/deathwatchcommandoteam.png"
+      }
+    ],
+    "cost": { "value": 7 },
+    "restrictions": [
+      { "factions": ["Separatist Alliance"] },
+      { "sizes": ["Medium", "Large", "Huge"] }
     ],
     "standard": true,
     "extended": true,
