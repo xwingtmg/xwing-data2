@@ -2224,27 +2224,29 @@
     "extended": true,
     "epic": true
   },
+
   {
-    "name": "Kuiil",
-    "limited": 1,
-    "xws": "kuiil",
-    "standard": false,
-    "extended": true,
-    "epic": true,
-    "sides": [
-      {
-        "ability": "Action: Roll 1 attack die for each damage card you have. For each [Hit] result, repair 1 faceup Ship damage card, then for each [Critical Hit] result, repair 1 facedown damage card. For each blank result, remove 1 orange token, then for each [Focus] result, gain 1 focus token.",
-        "title": "Kuiil",
-        "type": "Crew",
-        "slots": ["Crew"],
-        "ffg": 920,
-        "image": "https://infinitearenas.com/xw2/images/upgrades/kuiil.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
-      }
-    ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
-  },
+  "name": "Kuiil",
+  "limited": 1,
+  "xws": "kuiil",
+  "sides": [
+    {
+      "ability": "Action: Roll 1 attack die for each damage card you have. For each [Hit] result, repair 1 faceup Ship damage card, then for each [Critical Hit] result, repair 1 facedown damage card. For each blank result, remove 1 orange token, then for each [Focus] result, gain 1 focus token.",
+      "title": "Kuiil",
+      "type": "Crew",
+      "slots": ["Crew"],
+      "image": "https://infinitearenas.com/xw2/images/upgrades/kuiil.png",
+    }
+  ],
+  "cost": { "value": 4 },
+  "restrictions": [
+    { "factions": ["Scum and Villainy"] }
+  ],
+  "standard": true,
+  "extended": true,
+  "epic": true
+},
+
   {
     "name": "Peli Motto",
     "limited": 1,
@@ -2425,27 +2427,6 @@
     "cost": { "value": 10 },
     "restrictions": [
       { "factions": ["Galactic Republic"] }
-    ],
-    "standard": true,
-    "extended": true,
-    "epic": true
-  },
-  {
-    "name": "Kuill",
-    "limited": 1,
-    "xws": "kuill",
-    "sides": [
-      {
-        "ability": "Action: Roll 1 attack die for each damage card you have. For each [Hit] result, repair 1 faceup Ship damage card, then for each [Critical Hit] result, repair 1 facedown damage card. For each blank result, remove 1 orange token, then for each [Focus] result, gain 1 focus token.",
-        "title": "Kuill",
-        "type": "Crew",
-        "slots": ["Crew"],
-        "image": "https://infinitearenas.com/xw2/images/upgrades/kuill"
-      }
-    ],
-    "cost": { "value": 4 },
-    "restrictions": [
-      { "factions": ["Scum and Villainy"] }
     ],
     "standard": true,
     "extended": true,
