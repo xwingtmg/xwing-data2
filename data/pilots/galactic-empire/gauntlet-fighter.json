@@ -36,6 +36,7 @@
     {
       "xws": "captainhark",
       "name": "Captain Hark",
+      "image": "https://infinitearenas.com/xw2/images/pilots/captainhark.png",
       "ability": "After you reveal a [0 [Stationary]] maneuver, if you are equipped with Swivel Wings (Down), you must execute a [1 [Bank Left]] or [1 [Bank Right]] sideslip maneuver of the same difficulty instead. After you execute that maneuver, you must flip Swivel Wings (Down).",
       "cost": 7,
       "loadout": 15,
@@ -58,6 +59,9 @@
     {
       "xws": "garsaxon",
       "name": "Gar Saxon",
+      "image": "https://infinitearenas.com/xw2/images/pilots/garsaxon.png",
+      "ability": "When a friendly unit at range 0-2 performs a primary attack, if the attacker is in the defender's [Rear Arc], you may spend 1 [Charge]. If you do, the attacker rolls 1 additional die.",
+      "charges": { "value": 2, "recovers": 1 },
       "cost": 8,
       "loadout": 20,
       "initiative": 3,
@@ -80,6 +84,7 @@
     {
       "xws": "imperialsupercommando",
       "name": "Imperial Super Commando",
+      "image": "?",
       "cost": 7,
       "loadout": 10,
       "initiative": 2,

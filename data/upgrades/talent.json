@@ -505,7 +505,7 @@
     ],
     "restrictions": [
       { "factions": ["Galactic Republic"] },
-      { "non-limited": true }
+      { "keywords": ["Clone"] }
     ],
     "cost": { "value": 1 },
     "standard": true,
@@ -662,7 +662,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/babf3b90df6a73d026d4ab7670306ab7.jpg"
       }
     ],
-    "restrictions": [{ "names": ["TIE"] }],
+    "restrictions": [{ "keywords": ["TIE"] }],
     "cost": { "value": 2 },
     "standard": true,
     "extended": true,
@@ -818,7 +818,7 @@
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [{ "action": { "type": "Reload" } }, { "names": ["TIE"] }],
+    "restrictions": [{ "action": { "type": "Reload" } }, { "keywords": ["TIE"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -838,7 +838,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "names": ["Mandalorian"] }],
+    "restrictions": [{ "keywords": ["Mandalorian"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -879,7 +879,6 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "names": ["Mandalorian"] }],
     "standard": true,
     "extended": true,
     "epic": true

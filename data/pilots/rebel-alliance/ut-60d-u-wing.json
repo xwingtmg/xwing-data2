@@ -85,13 +85,7 @@
       "xws": "bodhirook",
       "ability": "Friendly ships can acquire locks onto objects at range 0-3 of any friendly ship.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_54.png",
-      "slots": [
-        "Sensor",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Configuration"
-      ],
+      "slots": ["Sensor", "Crew", "Crew", "Modification", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_54.jpg",
       "ffg": 54,
       "standard": true,
@@ -108,13 +102,7 @@
       "xws": "cassianandor",
       "ability": "At the start of the Activation Phase, you may choose 1 friendly ship at range 1-3. If you do, that ship removes 1 stress token.",
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_56.png",
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Crew",
-        "Modification",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Sensor", "Crew", "Modification", "Configuration"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_56.jpg",
       "ffg": 56,
       "standard": true,
@@ -179,10 +167,7 @@
       "loadout": 6,
       "xws": "partisanrenegade",
       "text": "Saw Gerrera's partisans were first established to oppose Separatist forces on Onderon during the Clone Wars and continued to wage war against galactic tyranny as the Empire rose to power.",
-      "slots": [
-        "Illicit",
-        "Configuration"
-      ],
+      "slots": ["Illicit", "Configuration"],
       "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_61.png",
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_61.jpg",
       "ffg": 61,
@@ -230,13 +215,7 @@
       "limited": 1,
       "xws": "k2so",
       "ability": "After you gain a stress token, gain 1 calculate token.",
-      "slots": [
-        "Sensor",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Configuration"
-      ],
+      "slots": ["Sensor", "Crew", "Crew", "Modification", "Configuration"],
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
         { "difficulty": "White", "type": "Lock" },

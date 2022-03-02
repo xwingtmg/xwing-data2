@@ -66,7 +66,8 @@ const MISC = [
   "Force",
   "Hit",
   "Shield",
-  "Energy"
+  "Energy",
+  "Ordnance"
 ];
 
 const SIZES = ["Small", "Large", "Medium"];
