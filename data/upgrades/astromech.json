@@ -518,8 +518,7 @@
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
     "cost": {
-      "variable": "agility",
-      "values": { "0": 4, "1": 6, "2": 8, "3": 10 }
+      "cost": { "value": 8 }
     }
   },
   {
