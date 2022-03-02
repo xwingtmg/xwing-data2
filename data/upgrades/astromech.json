@@ -502,9 +502,6 @@
     "name": "R2-D2",
     "limited": 1,
     "xws": "r2d2-republic",
-    "standard": true,
-    "extended": true,
-    "epic": true,
     "sides": [
       {
         "ability": "After you activate, you may spend 1 [Charge] and gain 1 deplete token to repair 1 damage card, recover 1 shield, or remove 1 device at range 0-1.",
@@ -517,7 +514,10 @@
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "cost": { "value": 8 }
+    "cost": { "value": 8 },
+    "standard": true,
+    "extended": true,
+    "epic": true
   },
   {
     "name": "R2-D2",
