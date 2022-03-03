@@ -45,7 +45,7 @@
       "loadout": 8,
       "xws": "zeborrelios-sheathipedeclassshuttle",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_40.png",
+      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_40.png",
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
@@ -67,7 +67,7 @@
       "loadout": 8,
       "xws": "ap5",
       "ability": "While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_41.png",
+      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_41.png",
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
         { "difficulty": "White", "type": "Coordinate" }
@@ -93,7 +93,7 @@
       "loadout": 11,
       "xws": "ezrabridger-sheathipedeclassshuttle",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade]/[Hit] results.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_39.png",
+      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_39.png",
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "shipAbility": {
         "name": "Comms Shuttle",
@@ -116,7 +116,7 @@
       "loadout": 15,
       "xws": "fennrau-sheathipedeclassshuttle",
       "ability": "Before an enemy ship in your firing arc engages, if you are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/43140025bc61b3e64ef6831987cafb2c.png",
+      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/43140025bc61b3e64ef6831987cafb2c.png",
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
