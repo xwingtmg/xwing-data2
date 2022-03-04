@@ -851,11 +851,7 @@
         "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/793a1b659936801101622a5fc0a71e73.png"
       }
     ],
-
-    "restrictions": [
-      { "factions": ["Resistance"] },
-      { "ships": ["fireball"] }
-    ],
+    "restrictions": [{ "factions": ["Resistance"] }, { "ships": ["fireball"] }],
     "cost": { "value": 0 },
     "standard": true,
     "extended": true,
@@ -1254,9 +1250,7 @@
         "type": "Title",
         "slots": ["Title", "Modification"],
         "charges": { "value": 2, "recovers": 1 },
-        "grants": [
-          { "type": "slot", "value": "Crew", "amount": 1 }
-        ],
+        "grants": [{ "type": "slot", "value": "Crew", "amount": 1 }],
         "image": "https://infinitearenas.com/xw2/images/upgrades/nightbrother.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/nightbrother.png"
       }
@@ -1281,9 +1275,7 @@
         "type": "Title",
         "slots": ["Title", "Modification"],
         "charges": { "value": 2, "recovers": 0 },
-        "grants": [
-          { "type": "slot", "value": "Crew", "amount": -1 }
-        ],
+        "grants": [{ "type": "slot", "value": "Crew", "amount": -1 }],
         "image": "https://infinitearenas.com/xw2/images/upgrades/gauntlet.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/gauntlet.png"
       }

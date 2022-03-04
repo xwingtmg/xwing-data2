@@ -678,7 +678,9 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Galactic Republic", "Separatist Alliance"] }],
+    "restrictions": [
+      { "factions": ["Galactic Republic", "Separatist Alliance"] }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
