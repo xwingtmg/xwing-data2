@@ -187,7 +187,7 @@
         "ffg": 321
       }
     ],
-    "cost": { "value": 9 },
+    "cost": { "value": 10 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "standard": true,
     "extended": true,
@@ -210,7 +210,7 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "standard": false,
+    "standard": true,
     "extended": true,
     "epic": true
   },
