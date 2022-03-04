@@ -187,13 +187,34 @@ const runShips = async () => {
   });
 };
 
-const findUpgrade = (name: string, type: string) => {
+const matchUpgrade = (name: string, faction: string, upgrade: any) => {
+  if (upgrade.sides[0].title.trimName() === name.trimName()) {
+    if (faction === 'Generic' || !('restrictions' in upgrade)) {
+      return true;
+    } else {
+      for (const r of upgrade.restrictions) {
+        if ('factions' in r) {
+          for (const f of r.factions) {
+            if (f === faction) {
+              return true;
+            }
+          }
+          return false;
+        }
+      }
+    return true;
+    }
+  }
+  return false;
+}
+
+const findUpgrade = (name: string, type: string, faction: string) => {
   const path = `./data/upgrades/${type.toLowerCase()}.json`;
   const file = fs.readFileSync(path).toString();
   const upgrades = JSON.parse(file);
 
   const upgrade = upgrades.find(
-    (u: any) => u.sides[0].title.trimName() === name.trimName()
+    (u: any) => matchUpgrade(name, faction, u)
   );
   if (upgrade) {
     return { upgrade, path, file: upgrades };
@@ -207,6 +228,22 @@ const runUpgrades = async () => {
   // Read lists
 
   wb.worksheets.forEach(ws => {
+    let faction = ws.getCell('A2').text.toLowerCase();
+    if (faction === "separatist") {
+      faction = "Separatist Alliance";
+    } else if (faction === "republic") {
+      faction = "Galactic Republic";
+    } else if (faction === "imperial" || faction.startsWith("upgrade points document")) {
+      faction = "Galactic Empire";
+    } else if (faction === "rebel") {
+      faction = "Rebel Alliance";
+    } else if (faction === "scum and villainy") {
+      faction = "Scum and Villainy";
+    } else if (faction === "first order") {
+      faction = "First Order";
+    } else if (faction === "resistance") {
+      faction = "Resistance";
+    }
     ws.eachRow(row => {
       if (row.cellCount === 6 && row.getCell(1).text !== "Upgrade Name") {
         const name = row
@@ -230,8 +267,7 @@ const runUpgrades = async () => {
           type = "tactical-relay";
         }
 
-        // console.log(type);
-        const item = findUpgrade(name, type);
+        const item = findUpgrade(name, type, faction);
         if (!item || name === "Delta-7B") {
           console.log(`Not found ${name} ${type} ${cost} ${std} ${ext}`);
           return;
