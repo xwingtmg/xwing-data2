@@ -192,7 +192,7 @@
         "ffg": 304
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "standard": true,
     "extended": true,
@@ -277,7 +277,7 @@
         "ffg": 306
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "standard": true,
     "extended": true,
@@ -300,7 +300,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
-    "standard": false,
+    "standard": true,
     "extended": true,
     "epic": true
   },
@@ -826,7 +826,7 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "standard": false,
+    "standard": true,
     "extended": true,
     "epic": true
   },
@@ -1315,7 +1315,7 @@
         "ffg": 472
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 7 },
     "restrictions": [{ "factions": ["Resistance"] }],
     "standard": true,
     "extended": true,
@@ -1366,7 +1366,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Resistance"] }],
-    "standard": false,
+    "standard": true,
     "extended": true,
     "epic": true
   },
@@ -2165,7 +2165,7 @@
     "name": "IG-11",
     "limited": 1,
     "xws": "ig11",
-    "standard": false,
+    "standard": true,
     "extended": true,
     "epic": true,
     "sides": [
@@ -2228,7 +2228,7 @@
     "name": "Kuiil",
     "limited": 1,
     "xws": "kuiil",
-    "standard": false,
+    "standard": true,
     "extended": true,
     "epic": true,
     "sides": [
@@ -2308,17 +2308,12 @@
         "slots": ["Crew"],
         "image": "https://infinitearenas.com/xw2/images/upgrades/rookkast.png",
         "grants": [
-          {
-            "type": "action",
-            "value": { "type": "Lock", "difficulty": "Red" }
-          }
+          { "type": "action", "value": { "type": "Lock", "difficulty": "Red" } }
         ]
       }
     ],
     "cost": { "value": 11 },
-    "restrictions": [
-      { "factions": ["Scum and Villainy"] }
-    ],
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2337,10 +2332,8 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/obiwankenobi.png"
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [
-      { "factions": ["Galactic Republic"] }
-    ],
+    "cost": { "value": 11 },
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2380,9 +2373,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [
-      { "factions": ["Scum and Villainy", "Rebel Alliance"] }
-    ],
+    "restrictions": [{ "factions": ["Scum and Villainy", "Rebel Alliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2394,8 +2385,7 @@
     "cost": { "value": 5 },
     "sides": [
       {
-        "ability":
-          "After a friendly ship in your [Full Front Arc] at range 1-2 becomes the defender, you may transfer 1 green token to it. \n\nWhile a friendly ship in your [Full Front Arc] at range 1-2 defends, if you obstruct the attack, the defender rolls 1 additional defense die.",
+        "ability": "After a friendly ship in your [Full Front Arc] at range 1-2 becomes the defender, you may transfer 1 green token to it. \n\nWhile a friendly ship in your [Full Front Arc] at range 1-2 defends, if you obstruct the attack, the defender rolls 1 additional defense die.",
         "title": "Korkie Kryze",
         "type": "Crew",
         "image": "https://infinitearenas.com/xw2/images/upgrades/korkiekryze.png",
@@ -2422,9 +2412,7 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [
-      { "factions": ["Galactic Republic"] }
-    ],
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2442,11 +2430,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/talmerrik"
       }
     ],
-    "cost": { "value": 10 },
-    "restrictions": [
-      { "factions": ["Separatist Alliance"] }
-    ],
-    "standard": true,
+    "cost": { "value": 7 },
+    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "standard": false,
     "extended": true,
     "epic": true
   },
@@ -2486,9 +2472,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [
-      { "factions": ["Scum and Villainy", "Rebel Alliance"] }
-    ],
+    "restrictions": [{ "factions": ["Scum and Villainy", "Rebel Alliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2507,9 +2491,7 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [
-      { "factions": ["Galactic Empire"] }
-    ],
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2526,13 +2508,14 @@
         "slots": ["Crew"],
         "grants": [
           {
-            "type": "action", "value": { "type": "Coordinate", "difficulty": "White" }
+            "type": "action",
+            "value": { "type": "Coordinate", "difficulty": "White" }
           }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/previzsla"
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 9 },
     "restrictions": [
       { "factions": ["Scum and Villainy", "Separatist Alliance"] }
     ],
@@ -2553,7 +2536,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/tristanwren"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Rebel Alliance"], "names": ["Gar Saxon"] }
     ],
@@ -2575,9 +2558,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [
-      { "factions": ["Rebel Alliance"] }
-    ],
+    "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2597,9 +2578,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [
-      { "factions": ["Galactic Empire"] }
-    ],
+    "restrictions": [{ "factions": ["Galactic Empire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2639,17 +2618,16 @@
         "force": { "value": 1, "recovers": 1 },
         "grants": [
           {
-            "type": "action", "value": { "type": "Coordinate", "difficulty": "Purple" }
+            "type": "action",
+            "value": { "type": "Coordinate", "difficulty": "Purple" }
           },
-          {
-            "type": "slot", "value": "Illicit", "amount": 1
-          }
+          { "type": "slot", "value": "Illicit", "amount": 1 }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/maul-doublecrew.png"
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [ { "factions": ["Scum and Villainy"]} ],
+    "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
