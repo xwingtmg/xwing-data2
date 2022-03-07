@@ -2299,7 +2299,7 @@
   {
     "name": "Rook Kast",
     "limited": 1,
-    "xws": "rookkast-crew",
+    "xws": "rookkast",
     "sides": [
       {
         "ability": "After you perform a red action, you may gain 1 strain token. While you perform an attack, if you are strained, you may change 1 of your blank or [Focus] results to a result.",
@@ -2321,7 +2321,7 @@
   {
     "name": "Obi-Wan Kenobi",
     "limited": 1,
-    "xws": "obiwankenobi-crew",
+    "xws": "obiwankenobi",
     "sides": [
       {
         "ability": "After a friendly ship at range 0-2 spends a focus or evade token, you may spend 1 [Force]. If you do, that ship gains 1 focus token.",
@@ -2341,7 +2341,7 @@
   {
     "name": "Bo-Katan Kryze",
     "limited": 1,
-    "xws": "bokatankryze-crew",
+    "xws": "bokatankryze",
     "sides": [
       {
         "ability": "While you perform an attack, if you are at range 0-1 of the defender, you may reroll 1 attack die.",
@@ -2362,7 +2362,7 @@
   {
     "name": "Bo-Katan Kryze",
     "limited": 1,
-    "xws": "bokatankryze-rebel-scum",
+    "xws": "bokatankryze-crew",
     "sides": [
       {
         "ability": "After you perform an attack, if the defender was destroyed, each friendly ship at range 0-2 may remove 1 red or orange token.",
@@ -2480,7 +2480,7 @@
   {
     "name": "Gar Saxon",
     "limited": 1,
-    "xws": "garsaxon-crew",
+    "xws": "garsaxon",
     "sides": [
       {
         "ability": "While a friendly ship at range 1-3 with an initiative of 4 or lower performs an attack against a defender you have locked, the attacker may change 1 [Focus] result to a [Hit] result.",
@@ -2499,7 +2499,7 @@
   {
     "name": "Pre Vizsla",
     "limited": 1,
-    "xws": "previzsla-crew",
+    "xws": "previzsla",
     "sides": [
       {
         "ability": "While you perform a [Coordinate] action, you can choose a friendly [Crew] remote instead of another friendly ship. Instead of performing an action, that remote relocates forward using a [1 [Turn Left]], [1 [Turn Right]], or [2 [Straight]] template.",
@@ -2566,7 +2566,7 @@
   {
     "name": "Captain Hark",
     "limited": 1,
-    "xws": "captainhark-crew",
+    "xws": "captainhark",
     "sides": [
       {
         "ability": "After you fully execute a red maneuver, if you are not focused, you may spend 1 [Charge] to gain 1 focus token.",
@@ -2633,12 +2633,12 @@
     "epic": true
   },
   {
-    "name": "Clan Wren Commando Team",
+    "name": "Clan Wren Commandos",
     "limited": 1,
-    "xws": "clanwrencommandoteam",
+    "xws": "clanwrencommandos",
     "sides": [
       {
-        "title": "Clan Wren Commando Team",
+        "title": "Clan Wren Commandos",
         "type": "Crew",
         "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
         "slots": ["Crew", "Crew"],
@@ -2663,7 +2663,7 @@
             { "type": "hull", "value": 2 }
           ]
         },
-        "image": "https://infinitearenas.com/xw2/images/upgrades/clanwrencommandoteam.png"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/clanwrencommandos.png"
       }
     ],
     "cost": { "value": 7 },
@@ -2676,12 +2676,12 @@
     "epic": true
   },
   {
-    "name": "Imperial Super Commando Team",
+    "name": "Imperial Super Commandos",
     "limited": 1,
-    "xws": "imperialsupercommandoteam",
+    "xws": "imperialsupercommandos",
     "sides": [
       {
-        "title": "Imperial Super Commando Team",
+        "title": "Imperial Super Commandos",
         "type": "Crew",
         "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
         "slots": ["Crew", "Crew"],
@@ -2706,7 +2706,7 @@
             { "type": "hull", "value": 2 }
           ]
         },
-        "image": "https://infinitearenas.com/xw2/images/upgrades/imperialsupercommandoteam.png"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/imperialsupercommandos.png"
       }
     ],
     "cost": { "value": 7 },
@@ -2719,12 +2719,12 @@
     "epic": true
   },
   {
-    "name": "Mandalorian Super Commando Team",
+    "name": "Mandalorian Super Commandos",
     "limited": 1,
-    "xws": "mandaloriansupercommandoteam",
+    "xws": "mandaloriansupercommandos",
     "sides": [
       {
-        "title": "Mandalorian Super Commando Team",
+        "title": "Mandalorian Super Commandos",
         "type": "Crew",
         "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
         "slots": ["Crew", "Crew"],
@@ -2749,7 +2749,7 @@
             { "type": "hull", "value": 2 }
           ]
         },
-        "image": "https://infinitearenas.com/xw2/images/upgrades/mandaloriansupercommandoteam.png"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/mandaloriansupercommandos.png"
       }
     ],
     "cost": { "value": 7 },
@@ -2762,12 +2762,12 @@
     "epic": true
   },
   {
-    "name": "Nite Owl Commando Team",
+    "name": "Nite Owl Commandos",
     "limited": 1,
-    "xws": "niteowlcommandoteam",
+    "xws": "niteowlcommandos",
     "sides": [
       {
-        "title": "Nite Owl Commando Team",
+        "title": "Nite Owl Commandos",
         "type": "Crew",
         "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
         "slots": ["Crew", "Crew"],
@@ -2792,7 +2792,7 @@
             { "type": "hull", "value": 2 }
           ]
         },
-        "image": "https://infinitearenas.com/xw2/images/upgrades/niteowlcommandoteam.png"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/niteowlcommandos.png"
       }
     ],
     "cost": { "value": 7 },
@@ -2805,12 +2805,12 @@
     "epic": true
   },
   {
-    "name": "Death Watch Commando Team",
+    "name": "Death Watch Commandos",
     "limited": 1,
-    "xws": "deathwatchcommandoteam",
+    "xws": "deathwatchcommandos",
     "sides": [
       {
-        "title": "Death Watch Commando Team",
+        "title": "Death Watch Commandos",
         "type": "Crew",
         "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
         "slots": ["Crew", "Crew"],
@@ -2835,7 +2835,7 @@
             { "type": "hull", "value": 2 }
           ]
         },
-        "image": "https://infinitearenas.com/xw2/images/upgrades/deathwatchcommandoteam.png"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/deathwatchcommandos.png"
       }
     ],
     "cost": { "value": 7 },
