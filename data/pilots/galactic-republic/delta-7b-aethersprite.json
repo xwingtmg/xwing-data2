@@ -22,6 +22,7 @@
     "5FW",
     "5KR"
   ],
+  "dialCodes": ["D7A"],
   "faction": "Galactic Republic",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
@@ -36,10 +37,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "ability": {
-    "name": "Fine-tuned Controls",
-    "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
-  },
+  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Delta-7.png",
   "pilots": [
     {
       "name": "Jedi Knight",
@@ -47,6 +45,10 @@
       "limited": 0,
       "xws": "jediknight-delta7baethersprite",
       "text": "When the Clone Wars began, the Jedi Knights rallied to the cause of preserving the Republic, assuming command of legions of clone troopers and leading them in battle.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
@@ -64,6 +66,10 @@
       "limited": 1,
       "xws": "obiwankenobi-delta7baethersprite",
       "ability": "After a friendly ship at range 0-2 spends a focus token, you may spend 1 [Force]. If you do, that ship gains 1 focus token.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
@@ -87,6 +93,10 @@
       "limited": 1,
       "xws": "plokoon-delta7baethersprite",
       "ability": "At the start of the Engagement Phase, you may spend 1 [Force] and choose another friendly ship at range 0-2. If you do, you may transfer 1 green token to it or transfer one orange token from it to yourself.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
@@ -110,6 +120,10 @@
       "limited": 1,
       "xws": "saeseetiin-delta7baethersprite",
       "ability": "After a friendly ship at range 0-2 reveals its dial, you may spend 1 [Force]. If you do, set its dial to another maneuver of the same speed and difficulty.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "standard": false,
       "epic": true,
@@ -127,6 +141,10 @@
       "limited": 1,
       "xws": "macewindu-delta7baethersprite",
       "ability": "After you fully execute a red maneuver, recover 1 [Force].",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
@@ -144,6 +162,10 @@
       "limited": 1,
       "xws": "anakinskywalker-delta7baethersprite",
       "ability": "After you fully execute a maneuver, if there is an enemy ship in your [Front Arc] at range 0-1 or in your [Bullseye Arc], you may spend 1 [Force] to remove 1 stress token.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
@@ -167,6 +189,10 @@
       "limited": 1,
       "xws": "ahsokatano-delta7baethersprite",
       "ability": "After you fully execute a maneuver, you may choose a friendly ship at range 0-1 and spend 1 [Force]. That ship may perform an action, even if it is stressed.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
@@ -184,6 +210,10 @@
       "limited": 1,
       "xws": "barrissoffee-delta7baethersprite",
       "ability": "While a friendly ship at range 0-2 performs an attack, if the defender is in its [Bullseye Arc], you may spend 1 [Force] to change 1 [Focus] result to a [Hit] result or 1 [Hit] result to a [Critical Hit] result.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
@@ -201,6 +231,10 @@
       "limited": 1,
       "xws": "luminaraunduli-delta7baethersprite",
       "ability": "While a friendly ship at range 0-2 defends, if it is not in the attacker's [Bullseye Arc], you may spend 1 [Force]. If you do, change 1 [Critical Hit] result to a [Hit] result or 1 [Hit] result to a [Focus] result.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "standard": true,
       "epic": true,
@@ -212,6 +246,5 @@
       "extended": true
     }
   ],
-  "ffg": 61,
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Delta-7.png"
+  "ffg": 61
 }
