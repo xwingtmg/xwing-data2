@@ -599,5 +599,26 @@
       { "sizes": ["Huge"] },
       { "factions": ["Separatist Alliance"] }
     ]
+  },
+  {
+    "name": "Combat Boarding Tube",
+    "limited": 0,
+    "xws": "combatboardingtube",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "sides": [
+      {
+        "ability": "During the System Phase, if you would drop a [Crew] remote and there is an enemy medium, large, or huge ship at range 0-1 in your [Rear Arc], you may place that device in the play area in your [Rear Arc] at range 0-1 so that it is at range 0 of that enemy ship instead. Then, that enemy ship gains 1 deplete, strain, or stress token of your choice.",
+        "title": "Combat Boarding Tube",
+        "type": "Command",
+        "slots": ["Command", "Configuration"],
+        "artwork": "https://infinitearenas.com/xw2/images/upgrades/combatboardingtube.png"
+      }
+    ],
+    "cost": { "value": "?" },
+    "restrictions": [
+      { "ships": ["gauntletfighter"] }
+    ]
   }
 ]
