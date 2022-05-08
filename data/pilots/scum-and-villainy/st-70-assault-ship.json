@@ -73,6 +73,12 @@
       "ffg": 106,
       "loadout": 20,
       "keywords": ["Droid"],
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Barrel Roll" }
+      ],
       "standard": true,
       "extended": true,
       "epic": true
@@ -91,12 +97,6 @@
       "ffg": 106,
       "loadout": 14,
       "keywords": ["Bounty Hunter"],
-      "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Evade" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Barrel Roll" }
-      ],
       "standard": true,
       "extended": true,
       "epic": true
