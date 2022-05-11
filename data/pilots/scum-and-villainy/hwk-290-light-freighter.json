@@ -151,6 +151,7 @@
         "Modification"
       ],
       "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship in your [Single Turret Arc] with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
+      "charges": { "value": 2, "recovers": 1 },
       "caption": "Collaborationist Governor",
       "ffg": 896,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c505641a8f7b883897b41fd07809d37d.jpg",
