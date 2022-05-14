@@ -1318,5 +1318,36 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Xanadu Blood",
+    "limited": 1,
+    "xws": "xanadublood",
+    "sides": [
+      {
+        "ability": "Add [Crew] and [Device] slots.",
+        "title": "Xanadu Blood",
+        "type": "Title",
+        "slots": ["Title"],
+        "grants": [
+          { "type": "slot", "value": "Crew", "amount": 1 },
+          { "type": "slot", "value": "Device", "amount": 1 },
+          {
+            "type": "action",
+            "value": {
+              "type": "Cloak",
+              "difficulty": "Red"
+            }
+          }
+        ],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/xanadublood.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/xanadublood.png"
+      }
+    ],
+    "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["rogueclassstarfighter"] }],
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]
