@@ -162,20 +162,22 @@
     "epic": true
   },
   {
-    "name": "Proton Cannon",
+    "name": "Proton Cannons",
     "limited": 0,
-    "xws": "protoncannon",
+    "xws": "protoncannons",
     "sides": [
       {
-        "ability": "",
-        "title": "Proton Cannon",
+        "ability": "Attack: Spend 2 [Charge]. Change 1 [Focus] or [Hit] result to a [Critical Hit] result.",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/protoncannons.png",
+        "charges": { "value": 2, "recovers": 1 },
+        "title": "Proton Cannons",
         "type": "Cannon",
         "slots": ["Cannon", "Cannon"],
         "attack": {
-          "arc": "Front Arc",
-          "value": 1,
-          "minrange": 1,
-          "maxrange": 1,
+          "arc": "Bullseye Arc",
+          "value": 4,
+          "minrange": 2,
+          "maxrange": 3,
           "ordnance": false
         }
       }
