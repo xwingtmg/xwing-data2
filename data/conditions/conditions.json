@@ -75,5 +75,10 @@
     "name": "Marked for Elimination",
     "ability": "While you defend, if the attacker is equipped with Tracking Fob and has a lock on you, you cannot spend green tokens.",
     "xws": "markedforelimination"
+  },
+  {
+    "name": "Guarded",
+    "ability": "While you defend, if you are not in the attacker's [Bullseye Arc], roll 1 additional defense die for each friendly calculating or evading MagnaGuard Protector in the attack arc.",
+    "xws": "guarded"
   }
 ]

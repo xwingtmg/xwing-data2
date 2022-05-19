@@ -3,6 +3,25 @@
   "xws": "rogueclassstarfighter",
   "size": "Small",
   "dial": [
+    "1TW",
+    "1BB",
+    "1NB",
+    "1YW",
+    "2ER",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "2RR",
+    "3TR",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YR",
+    "4FB",
+    "5FW",
+    "5KR"
   ],
   "dialCodes": [],
   "faction": "Scum and Villainy",
@@ -90,6 +109,85 @@
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/ig101.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ig101.png",
+      "keywords": ["Droid"],
+      "standard": true,
+      "extended": true,
+      "epic": true
+    },
+    {
+      "name": "MagnaGuard Executioner",
+      "initiative": 3,
+      "limited": 0,
+      "cost": 0,
+      "loadout": 0,
+      "xws": "magnaguardexecutioner",
+      "slots": [],
+      "text": "In addition to guarding Separatist leaders, MagneGuard droids are sometimes dispatched in swift Rogue-class Starfighters to eliminate their enemies.",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "linked": { "difficulty": "Red", "type": "Boost" },
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "type": "Evade"
+        },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Boost" }
+      ],
+      "image": "https://infinitearenas.com/xw2/images/pilots/ig102.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ig102.png",
+      "keywords": ["Droid"],
+      "standard": true,
+      "extended": true,
+      "epic": true
+    },
+    {
+      "name": "MagnaGuard Protector",
+      "caption": "Implacable Escort",
+      "initiative": 4,
+      "limited": 2,
+      "cost": 0,
+      "loadout": 0,
+      "xws": "magnaguardprotector",
+      "slots": [],
+      "ability": "After placing forces, assign the Guarded condition to 1 friendly ship other than MagnaGuard Protector.",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "linked": { "difficulty": "Red", "type": "Boost" },
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "type": "Evade"
+        },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "Red", "type": "Boost" }
+      ],
+      "image": "https://infinitearenas.com/xw2/images/pilots/ig102.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ig102.png",
       "keywords": ["Droid"],
       "standard": true,
       "extended": true,
