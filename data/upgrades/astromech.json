@@ -58,7 +58,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "standard": true,
+    "standard": false,
     "extended": true,
     "epic": true
   },
@@ -142,7 +142,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "standard": true,
+    "standard": false,
     "extended": true,
     "epic": true
   },
@@ -379,7 +379,7 @@
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "cost": { "value": 5 },
+    "cost": { "value": 4 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -400,7 +400,7 @@
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "cost": { "value": 3 },
+    "cost": { "value": 2 },
     "standard": true,
     "extended": true,
     "epic": true
