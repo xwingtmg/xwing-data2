@@ -79,7 +79,7 @@
         "ffg": 353
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "standard": true,
     "extended": true,
@@ -102,7 +102,7 @@
     ],
     "cost": { "value": 16 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
-    "standard": true,
+    "standard": false,
     "extended": true,
     "epic": true
   },
@@ -143,7 +143,7 @@
         "ffg": 303
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 5 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "standard": true,
     "extended": true,
@@ -803,7 +803,7 @@
         "ffg": 385
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "standard": true,
     "extended": true,
@@ -1108,7 +1108,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
-    "standard": true,
+    "standard": false,
     "extended": true,
     "epic": true
   },
@@ -1936,7 +1936,7 @@
       }
     ],
     "name": "Commander Malarus",
-    "cost": { "value": 3 },
+    "cost": { "value": 2 },
     "limited": 1,
     "xws": "commandermalarus",
     "standard": true,
@@ -1989,7 +1989,7 @@
     "cost": { "value": 5 },
     "limited": 1,
     "xws": "commanderpyre",
-    "standard": true,
+    "standard": false,
     "extended": true,
     "epic": true
   },
@@ -2153,7 +2153,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70c7a4a5786d2067e293d182d1fc44b2.jpg"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 7 },
     "restrictions": [
       { "factions": ["Galactic Empire", "Rebel Alliance", "Scum and Villainy"] }
     ],
@@ -2288,7 +2288,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/primeministeralmec-sideb.png"
       }
     ],
-    "cost": { "value": 9 },
+    "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Scum and Villainy", "Galactic Republic"] }
     ],
@@ -2312,7 +2312,7 @@
         ]
       }
     ],
-    "cost": { "value": 11 },
+    "cost": { "value": 8 },
     "restrictions": [{ "factions": ["Scum and Villainy"] }],
     "standard": true,
     "extended": true,
@@ -2351,7 +2351,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/bokatankryze.png"
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Galactic Republic", "Separatist Alliance"] }
     ],
@@ -2471,7 +2471,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/fennrau"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Scum and Villainy", "Rebel Alliance"] }],
     "standard": true,
     "extended": true,
@@ -2490,7 +2490,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/garsaxon"
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "standard": true,
     "extended": true,
@@ -2550,7 +2550,7 @@
     "xws": "ursawren",
     "sides": [
       {
-        "ability": "You can maintain up to 2 locks. Each lock must be on a different object. After a friendly ship at range 0-3 is locked, you may acquire a lock on an enemy ship.",
+        "ability": "You can maintain up to 2 locks. Each lock must be on a different object. After a friendly ship at range 0-3 is locked by an enemy ship, you may perform a [Lock] action.",
         "title": "Ursa Wren",
         "type": "Crew",
         "slots": ["Crew"],

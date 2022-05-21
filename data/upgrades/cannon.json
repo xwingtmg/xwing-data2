@@ -111,7 +111,7 @@
     "name": "Autoblasters",
     "limited": 0,
     "xws": "autoblasters",
-    "cost": { "value": 4 },
+    "cost": { "value": 7 },
     "sides": [
       {
         "ability": "Attack: If the defender is in your [Bullseye Arc], roll 1 additional die. During the Neutralize Results step, if you are not in the defender's [Front Arc], [Evade] results do not cancel [Critical Hit] results.",
@@ -130,7 +130,7 @@
         "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/59d4a52e3a534dd090259bd5546e7bab.png"
       }
     ],
-    "standard": true,
+    "standard": false,
     "extended": true,
     "epic": true
   },
@@ -154,7 +154,7 @@
       }
     ],
     "name": "Synced Laser Cannons",
-    "cost": { "value": 7 },
+    "cost": { "value": 8 },
     "limited": 0,
     "xws": "syncedlasercannons",
     "standard": true,
@@ -162,25 +162,27 @@
     "epic": true
   },
   {
-    "name": "Proton Cannon",
+    "name": "Proton Cannons",
     "limited": 0,
-    "xws": "protoncannon",
+    "xws": "protoncannons",
     "sides": [
       {
-        "ability": "",
-        "title": "Proton Cannon",
+        "ability": "Attack: Spend 2 [Charge]. Change 1 [Focus] or [Hit] result to a [Critical Hit] result.",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/protoncannons.png",
+        "charges": { "value": 2, "recovers": 1 },
+        "title": "Proton Cannons",
         "type": "Cannon",
         "slots": ["Cannon", "Cannon"],
         "attack": {
-          "arc": "Front Arc",
-          "value": 1,
-          "minrange": 1,
-          "maxrange": 1,
+          "arc": "Bullseye Arc",
+          "value": 4,
+          "minrange": 2,
+          "maxrange": 3,
           "ordnance": false
         }
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 4 },
     "standard": true,
     "extended": true,
     "epic": true

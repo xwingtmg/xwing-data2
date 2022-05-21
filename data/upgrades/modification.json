@@ -58,7 +58,7 @@
         "ffg": 294
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 10 },
     "restrictions": [{ "sizes": ["Small"] }],
     "standard": true,
     "extended": true,
@@ -128,8 +128,8 @@
         "ffg": 297
       }
     ],
-    "cost": { "value": 4 },
-    "standard": true,
+    "cost": { "value": 6 },
+    "standard": false,
     "extended": true,
     "epic": true
   },
@@ -175,7 +175,7 @@
         "ffg": 299
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 8 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -216,7 +216,7 @@
         "ffg": 301
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 8 },
     "standard": false,
     "extended": true,
     "epic": true
@@ -379,7 +379,7 @@
         ]
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 1 },
     "xws": "targetingcomputer",
     "standard": true,
     "extended": true,

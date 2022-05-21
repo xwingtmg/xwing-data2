@@ -7,14 +7,15 @@
       {
         "title": "Homing Torpedoes",
         "type": "Torpedo",
-        "ability": "",
+        "ability": "Attack ([Lock]): Spend 1 [Charge]. After you declare the defender, the defender may choose to suffer 1 [Critical Hit] damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting.",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/homingtorpedoes.png",
         "slots": ["Torpedo"],
-        "charges": { "value": 0, "recovers": 0 },
+        "charges": { "value": 2, "recovers": 0 },
         "attack": {
           "arc": "Front Arc",
-          "value": 1,
+          "value": 4,
           "minrange": 1,
-          "maxrange": 1,
+          "maxrange": 2,
           "ordnance": true
         }
       }

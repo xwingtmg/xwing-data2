@@ -40,14 +40,14 @@
       "caption": "Death Defier",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
-      "loadout": 15,
+      "cost": 4,
+      "loadout": 8,
       "xws": "countdown",
       "ability": "While you defend, after the Neutralize Results step, if you are not stressed, you may suffer 1 [Hit] damage and gain 1 stress token. If you do, cancel all dice results.",
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_118.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
+        "text": "Before you reveal your dial, if you are not stressed, you must boost."
       },
       "slots": ["Talent", "Talent", "Device", "Modification", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_118.jpg",
@@ -63,13 +63,13 @@
       "initiative": 5,
       "limited": 1,
       "cost": 5,
-      "loadout": 10,
+      "loadout": 15,
       "xws": "duchess",
       "ability": "You may choose not to use your Adaptive Ailerons. You may use your Adaptive Ailerons even while stressed.",
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_117.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
+        "text": "Before you reveal your dial, if you are not stressed, you must boost."
       },
       "slots": [
         "Talent",
@@ -92,13 +92,13 @@
       "initiative": 4,
       "limited": 1,
       "cost": 4,
-      "loadout": 11,
+      "loadout": 7,
       "xws": "puresabacc",
       "ability": "While you perform an attack, if you have 1 or fewer damage cards, you may roll 1 additional attack die.",
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_119.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
+        "text": "Before you reveal your dial, if you are not stressed, you must boost."
       },
       "slots": ["Talent", "Device", "Modification", "Modification", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_119.jpg",
@@ -119,7 +119,7 @@
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_120.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
+        "text": "Before you reveal your dial, if you are not stressed, you must boost."
       },
       "slots": ["Talent", "Device", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_120.jpg",
@@ -140,7 +140,7 @@
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_121.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
+        "text": "Before you reveal your dial, if you are not stressed, you must boost."
       },
       "slots": ["Device", "Modification", "Gunner"],
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_121.jpg",
@@ -157,7 +157,7 @@
       "limited": 1,
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
+        "text": "Before you reveal your dial, if you are not stressed, you must boost."
       },
       "caption": "Destitute Demolitionist",
       "standard": true,

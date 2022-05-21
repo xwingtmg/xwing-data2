@@ -1,5 +1,5 @@
 {
-  "version": "3.2.2",
+  "version": "3.3.0",
   "damagedecks": ["data/damage-decks/core.json"],
   "factions": ["data/factions/factions.json"],
   "stats": ["data/stats/stats.json"],
@@ -51,6 +51,7 @@
         "data/pilots/scum-and-villainy/m3-a-interceptor.json",
         "data/pilots/scum-and-villainy/modified-tie-ln-fighter.json",
         "data/pilots/scum-and-villainy/quadrijet-transfer-spacetug.json",
+        "data/pilots/scum-and-villainy/rogue-class-starfighter.json",
         "data/pilots/scum-and-villainy/scurrg-h-6-bomber.json",
         "data/pilots/scum-and-villainy/st-70-assault-ship.json",
         "data/pilots/scum-and-villainy/starviper-class-attack-platform.json",
@@ -124,6 +125,7 @@
         "data/pilots/separatist-alliance/hmp-droid-gunship.json",
         "data/pilots/separatist-alliance/trident-class-assault-ship.json",
         "data/pilots/separatist-alliance/firespray-class-patrol-craft.json",
+        "data/pilots/separatist-alliance/rogue-class-starfighter.json",
         "data/pilots/separatist-alliance/gauntlet-fighter.json"
       ]
     },
@@ -140,7 +142,8 @@
         "data/pilots/galactic-republic/eta-2-actis.json",
         "data/pilots/galactic-republic/gauntlet-fighter.json",
         "data/pilots/galactic-republic/laat-i-gunship.json",
-        "data/pilots/galactic-republic/nimbus-class-v-wing.json"
+        "data/pilots/galactic-republic/nimbus-class-v-wing.json",
+        "data/pilots/galactic-republic/clone-z-95-headhunter.json"
       ]
     }
   ],

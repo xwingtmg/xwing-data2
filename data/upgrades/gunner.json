@@ -250,7 +250,7 @@
         "ffg": 322
       }
     ],
-    "cost": { "value": 16 },
+    "cost": { "value": 12 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "standard": true,
     "extended": true,
@@ -291,7 +291,7 @@
         "ffg": 470
       }
     ],
-    "cost": { "value": 9 },
+    "cost": { "value": 5 },
     "restrictions": [
       { "factions": ["First Order"] },
       { "ships": ["tiesffighter"] }
@@ -315,7 +315,7 @@
         "ffg": 280
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 3 },
     "restrictions": [{ "arcs": ["Rear Arc"] }],
     "standard": true,
     "extended": true,
@@ -336,7 +336,7 @@
         "ffg": 281
       }
     ],
-    "cost": { "value": 8 },
+    "cost": { "value": 5 },
     "restrictions": [{ "action": { "type": "Rotate Arc" } }],
     "standard": true,
     "extended": true,
@@ -524,7 +524,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d6d9f440cf8d6965a879db163d42d402.jpg"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 2 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -633,7 +633,7 @@
         "artwork": "???"
       }
     ],
-    "cost": { "value": 9 },
+    "cost": { "value": 6 },
     "restrictions": [
       { "sizes": ["Large", "Huge"] },
       { "factions": ["Scum and Villainy"] }
@@ -677,7 +677,7 @@
         "artwork": "???"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Galactic Republic", "Separatist Alliance"] }
     ],
@@ -700,7 +700,7 @@
         "ffg": 937
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Galactic Empire", "Scum and Villainy"] }],
     "standard": true,
     "extended": true,
