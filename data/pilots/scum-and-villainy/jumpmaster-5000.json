@@ -99,8 +99,8 @@
       "caption": "Graceful Aruzan",
       "initiative": 3,
       "limited": 1,
-      "cost": 4,
-      "loadout": 9,
+      "cost": 5,
+      "loadout": 15,
       "xws": "manaroo",
       "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.",
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_215.png",
@@ -135,6 +135,7 @@
       "slots": [
         "Talent",
         "Cannon",
+        "Cannon",
         "Torpedo",
         "Crew",
         "Gunner",
@@ -156,6 +157,7 @@
       "standard": true,
       "extended": true,
       "slots": [
+        "Cannon",
         "Cannon",
         "Torpedo",
         "Crew",
