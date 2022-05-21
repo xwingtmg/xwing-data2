@@ -2550,7 +2550,7 @@
     "xws": "ursawren",
     "sides": [
       {
-        "ability": "You can maintain up to 2 locks. Each lock must be on a different object. After a friendly ship at range 0-3 is locked, you may acquire a lock on an enemy ship.",
+        "ability": "You can maintain up to 2 locks. Each lock must be on a different object. After a friendly ship at range 0-3 is locked by an enemy ship, you may perform a [Lock] action.",
         "title": "Ursa Wren",
         "type": "Crew",
         "slots": ["Crew"],
