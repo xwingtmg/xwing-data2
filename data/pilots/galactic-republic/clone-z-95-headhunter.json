@@ -135,6 +135,31 @@
       "epic": true
     },
     {
+      "name": "\"Knack\"",
+      "caption": "Incautious Instructor",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 3,
+      "loadout": 7,
+      "xws": "knack",
+      "ability": "After you are destroyed, you may choose a friendly non-limited ship and assign 1 of your equipped [Talent] upgrades to it. End of Game: Return all [Talent] upgrades to their original ships.",
+      "shipAbility": {
+        "name": "Versatile Frame",
+        "text": "You can equip 1 [Torpedo] or [Missile] upgrade. While your revealed maneuver is blue, add white [Boost] to your action bar."
+      },
+      "image": "https://infinitearenas.com/xw2/images/pilots/knack.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/knack.png",
+      "slots": [
+        "Talent",
+        "Talent",
+        "Sensor",
+        "Modification"
+      ],
+      "standard": true,
+      "extended": true,
+      "epic": true
+    },
+    {
       "name": "\"Hawk\"",
       "caption": "Valkyrie 2929",
       "initiative": 4,
