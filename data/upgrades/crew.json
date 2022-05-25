@@ -1669,6 +1669,7 @@
     ],
     "cost": { "value": 6 },
     "limited": 1,
+    "restrictions": [{ "factions": ["Galactic Republic"] }],
     "standard": true,
     "extended": true,
     "epic": true,
