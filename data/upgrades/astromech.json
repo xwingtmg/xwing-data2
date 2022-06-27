@@ -637,9 +637,9 @@
             "type": "action",
             "value": {
               "type": "Rotate Arc",
+              "difficulty": "White",
               "linked": { "type": "Calculate", "difficulty": "White" }
-            },
-            "difficulty": "White"
+            }
           }
         ]
       }
