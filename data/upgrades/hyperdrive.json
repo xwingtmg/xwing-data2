@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Syliure-31 Hyperdrive",
+    "limited": 0,
+    "xws": "syliure31hyperdrive",
+    "sides": [
+      {
+        "title": "Syliure-31 Hyperdrive",
+        "type": "Hyperdrive",
+        "slots": ["Hyperdrive"],
+        "ability": "Setup: You can be placed anywhere in the play area beyond range 1 of obstacles, beyond range 3 of enemy ships, and beyond range 3 of the enemy table edge.",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/syliure31hyperdrive.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/syliure31hyperdrive.png"
+      }
+    ],
+    "cost": { "value": 3 },
+    "restrictions": [{ "ships": ["syliureclasshyperspacering"] }],
+    "standard": false,
+    "extended": false,
+    "epic": true
+  }
+]
