@@ -651,5 +651,129 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "R2-A3",
+    "limited": 1,
+    "xws": "r2a3-battleofyavin",
+    "sides": [
+      {
+        "title": "R2-A3",
+        "type": "Astromech",
+        "ability": "After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield.",
+        "slots": ["Astromech"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "R2-D2",
+    "limited": 1,
+    "xws": "r2d2-battleofyavin",
+    "sides": [
+      {
+        "title": "R2-D2",
+        "type": "Astromech",
+        "ability": "After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield.",
+        "slots": ["Astromech"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "R2-F2",
+    "limited": 1,
+    "xws": "r2f2-battleofyavin",
+    "sides": [
+      {
+        "title": "R2-F2",
+        "type": "Astromech",
+        "ability": "After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token to recover 1 shield.",
+        "slots": ["Astromech"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "R5-D8",
+    "limited": 0,
+    "xws": "r5d8-battleofyavin",
+    "sides": [
+      {
+        "title": "R5-D8",
+        "type": "Astromech",
+        "ability": "Action: Spend 1 [Charge] to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.",
+        "slots": ["Astromech"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "R5-K6",
+    "limited": 0,
+    "xws": "r5k6-battleofyavin",
+    "sides": [
+      {
+        "title": "R5-K6",
+        "type": "Astromech",
+        "ability": "Action: Spend 1 [Charge] to repair 1 facedown damage card. Action: Repair 1 faceup Ship damage card.",
+        "slots": ["Astromech"],
+        "charges": { "value": 2, "recovers": 0 }
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Precise Astromech",
+    "limited": 0,
+    "xws": "preciseastromech-battleofyavin",
+    "sides": [
+      {
+        "ability": "After you perform an action, you may spend 1 [Charge] to perform a red [Lock] action.",
+        "title": "Precise Astromech",
+        "type": "Astromech",
+        "slots": ["Astromech"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": "true"
+  },
+  {
+    "name": "Targeting Astromech",
+    "limited": 0,
+    "xws": "targetingastromech-battleofyavin",
+    "sides": [
+      {
+        "ability": "After you perform a [Lock] action, you may perform a red [Rotate] action.",
+        "title": "Targeting Astromech",
+        "type": "Astromech",
+        "slots": ["Astromech"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": "true"
   }
 ]

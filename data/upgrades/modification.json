@@ -535,5 +535,24 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Unstable Sublight Engines",
+    "limited": 0,
+    "xws": "unstablesublightengines",
+    "sides": [
+      {
+        "ability": "After you are destroyed, you must execute a [1 [Straight]] maneuver, then each other ship at range 0-1 suffers 1 [Hit] damage.",
+        "title": "Unstable Sublight Engines",
+        "type": "Modification",
+        "slots": ["Modification"],
+        "charges": { "value": 1, "recovers": 0 }
+      }
+    ],
+    "cost": { "value": 6 },
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]

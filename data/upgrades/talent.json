@@ -886,5 +886,19 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Attack Speed",
+    "limited": 0,
+    "xws": "attackspeed",
+    "sides" : [
+      {
+        "title": "Attack Speed",
+        "type": "Talent",
+        "ability": "After you fully execute a [3 [Straight]] or [4 [Straight]] maneuver, you may perform a boost using the [1 [Straight]] template. (This is not an action).",
+        "slots": ["Talent"]
+      }
+    ],
+    "standardLoadoutOnly": true
   }
 ]
