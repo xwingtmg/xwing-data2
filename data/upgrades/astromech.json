@@ -757,7 +757,7 @@
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": "true"
+    "standardLoadoutOnly": true
   },
   {
     "name": "Targeting Astromech",
@@ -765,7 +765,7 @@
     "xws": "targetingastromech-battleofyavin",
     "sides": [
       {
-        "ability": "After you perform a [Lock] action, you may perform a red [Rotate] action.",
+        "ability": "After you perform a [Lock] action, you may perform a red [Rotate Arc] action.",
         "title": "Targeting Astromech",
         "type": "Astromech",
         "slots": ["Astromech"]
@@ -774,6 +774,6 @@
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": "true"
+    "standardLoadoutOnly": true
   }
 ]

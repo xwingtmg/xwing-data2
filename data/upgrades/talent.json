@@ -890,7 +890,7 @@
   {
     "name": "Attack Speed",
     "limited": 0,
-    "xws": "attackspeed",
+    "xws": "attackspeed-battleofyavin",
     "sides" : [
       {
         "title": "Attack Speed",
@@ -899,6 +899,9 @@
         "slots": ["Talent"]
       }
     ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
     "standardLoadoutOnly": true
   }
 ]
