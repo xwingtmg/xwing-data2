@@ -903,5 +903,39 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Fanatic",
+    "limited": 0,
+    "xws": "fanatic-battleofyavin",
+    "sides" : [
+      {
+        "title": "Fanatic",
+        "type": "Talent",
+        "ability": "While you perform a primary attack, if you are damaged, you may change 1 [Focus] result to a [Hit] result.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Vengeful",
+    "limited": 0,
+    "xws": "vengeful-battleofyavin",
+    "sides" : [
+      {
+        "title": "Vengeful",
+        "type": "Talent",
+        "ability": "After a friendly ship at range 0-3 is destroyed, if that ship is limited, you may remove 1 of your red tokens or recover 1 recurring charge on your ship card.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]

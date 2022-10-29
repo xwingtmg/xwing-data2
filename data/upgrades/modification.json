@@ -545,11 +545,26 @@
         "ability": "After you are destroyed, you must execute a [1 [Straight]] maneuver, then each other ship at range 0-1 suffers 1 [Hit] damage.",
         "title": "Unstable Sublight Engines",
         "type": "Modification",
-        "slots": ["Modification"],
-        "charges": { "value": 1, "recovers": 0 }
+        "slots": ["Modification"]
       }
     ],
-    "cost": { "value": 6 },
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Sensor Jammer",
+    "limited": 0,
+    "xws": "sensorjammer-battleofyavin",
+    "sides": [
+      {
+        "ability": "While defending, if there is a friendly lock on the attacker, you may change 1 of the attacker's [Hit] results to a [Focus] result.",
+        "title": "Sensor Jammer",
+        "type": "Modification",
+        "slots": ["Modification"]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true,

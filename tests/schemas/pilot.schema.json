@@ -132,6 +132,75 @@
       "required": ["name", "text"],
       "additionalProperties": false
     },
+    "shipStats": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["agility", "hull", "shields"]
+              },
+              "value": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "required": ["type", "value"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["agility", "hull", "shields", "energy"]
+              },
+              "value": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "recovers": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "required": ["type", "value", "recovers"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["attack"]
+              },
+              "arc": {
+                "type": "string",
+                "enum": [
+                  "Double Turret Arc",
+                  "Full Front Arc",
+                  "Front Arc",
+                  "Bullseye Arc",
+                  "Single Turret Arc",
+                  "Rear Arc",
+                  "Left Arc",
+                  "Right Arc"
+                ]
+              },
+              "value": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": ["type", "value", "arc"],
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
     "shipActions": {
       "type": "array",
       "items": {

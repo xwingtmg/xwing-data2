@@ -204,6 +204,31 @@
       "extended": true,
       "keywords": ["TIE"],
       "epic": true
+    },
+    {
+      "name": "Darth Vader",
+      "caption": "Battle of Yavin",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 6,
+      "xws": "darthvader-battleofyavin",
+      "standardLoadout": true,
+      "ability": "While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/darthvader-battleofyavin.png",
+      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "shipAbility": {
+        "name": "Advanced Targeting Computer",
+        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+      },
+      "shipStats": [
+        { "type": "shields", "value": 3 }
+      ],
+      "upgrades": ["marksmanship", "hate", "afterburners"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Dark Side", "Sith", "TIE"],
+      "epic": true
     }
   ]
 }

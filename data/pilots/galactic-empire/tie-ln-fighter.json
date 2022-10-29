@@ -330,6 +330,87 @@
       "extended": true,
       "keywords": ["TIE"],
       "epic": true
+    },
+    {
+      "name": "“Backstabber”",
+      "caption": "Battle of Yavin",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 4,
+      "xws": "backstabber-battleofyavin",
+      "standardLoadout": true,
+      "ability": "While you perform a primary attack, if a friendly Darth Vader or “Mauler” Mithel is in your [Left Arc] or [Right Arc] at range 0-1, roll 1 additional attack die.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/backstabber-battleofyavin.png",
+      "shipStats": [
+        { "type": "hull", "value": 4 }
+      ],
+      "upgrades": ["crackshot", "disciplined", "afterburners"],
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "“Dark Curse”",
+      "caption": "Battle of Yavin",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 4,
+      "xws": "darkcurse-battleofyavin",
+      "standardLoadout": true,
+      "ability": "While you defend, the attacker's dice cannot be modified.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/darkcurse-battleofyavin.png",
+      "shipStats": [
+        { "type": "hull", "value": 4 }
+      ],
+      "upgrades": ["ruthless", "precisionionengines"],
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "“Mauler” Mithel",
+      "caption": "Battle of Yavin",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 3,
+      "xws": "maulermithel-battleofyavin",
+      "standardLoadout": true,
+      "ability": "While you perform a primary attack, if a friendly Darth Vader or “Backstabber” is in your [Left Arc] or [Right Arc] at range 0-1, roll 1 additional attack die.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/maulermithel-battleofyavin.png",
+      "shipStats": [
+        { "type": "hull", "value": 4 }
+      ],
+      "upgrades": ["ruthless", "precisionionengines"],
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "“Wampa”",
+      "caption": "Battle of Yavin",
+      "initiative": 1,
+      "limited": 1,
+      "cost": 3,
+      "xws": "wampa-battleofyavin",
+      "standardLoadout": true,
+      "ability": "While you perform a primary attack, if a friendly Darth Vader or “Backstabber” is in your [Left Arc] or [Right Arc] at range 0-1, roll 1 additional attack die.",
+      "charges": { "value": 1, "recovers": 1 },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/wampa-battleofyavin.png",
+      "shipStats": [
+        { "type": "hull", "value": 4 }
+      ],
+      "upgrades": ["elusive", "vengeful-battleofyavin"],
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }
