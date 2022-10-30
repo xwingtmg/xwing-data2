@@ -212,7 +212,6 @@
       "limited": 1,
       "cost": 6,
       "xws": "darthvader-battleofyavin",
-      "standardLoadout": true,
       "ability": "While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/darthvader-battleofyavin.png",
       "force": { "value": 3, "recovers": 1, "side": ["dark"] },
@@ -221,9 +220,12 @@
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
       "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 3 },
         { "type": "shields", "value": 3 }
       ],
-      "upgrades": ["marksmanship", "hate", "afterburners"],
+      "standardLoadout": ["marksmanship", "hate", "afterburners"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
       "standard": true,
       "extended": true,

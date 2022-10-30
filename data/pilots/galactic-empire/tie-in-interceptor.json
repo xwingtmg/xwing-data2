@@ -271,7 +271,6 @@
       "xws": "idenversio-battleofyavin",
       "initiative": 4,
       "limited": 1,
-      "standardLoadout": true,
       "shipAbility": {
         "name": "Sensitive Controls",
         "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
@@ -281,9 +280,12 @@
       "cost": 6,
       "charges": { "value": 2, "recovers": 1 },
       "shipStats": [
-        { "type": "hull", "value": 4 }
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 3 },
+        { "type": "shields", "value": 1 }
       ],
-      "upgrades": ["predator", "fanatic-battleofyavin"],
+      "standardLoadout": ["predator", "fanatic-battleofyavin"],
       "ability": "Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 [Charge]. If you do, prevent 1 damage.",
       "keywords": ["TIE"],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/darthvader-battleofyavin.png",
@@ -295,7 +297,6 @@
       "xws": "sigma4-battleofyavin",
       "initiative": 4,
       "limited": 1,
-      "standardLoadout": true,
       "shipAbility": {
         "name": "Sensitive Controls",
         "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
@@ -305,9 +306,11 @@
       "cost": 4,
       "charges": { "value": 2, "recovers": 0 },
       "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
         { "type": "hull", "value": 4 }
       ],
-      "upgrades": ["disciplined", "primedthrusters"],
+      "standardLoadout": ["disciplined", "primedthrusters"],
       "ability": "After you perform a [Barrel Roll] action, you may spend 1 [Charge] to perform a [Boost] action.",
       "keywords": ["TIE"],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma4-battleofyavin.png",
@@ -319,7 +322,6 @@
       "xws": "sigma5-battleofyavin",
       "initiative": 4,
       "limited": 1,
-      "standardLoadout": true,
       "shipAbility": {
         "name": "Sensitive Controls",
         "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
@@ -329,9 +331,11 @@
       "cost": 4,
       "charges": { "value": 2, "recovers": 0 },
       "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
         { "type": "hull", "value": 4 }
       ],
-      "upgrades": ["sensorjammer-battleofyavin", "elusive"],
+      "standardLoadout": ["sensorjammer-battleofyavin", "elusive"],
       "ability": "After you perform an attack that hits, you may spend 1 [Charge] to perform an [Evade] action.",
       "keywords": ["TIE"],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma5-battleofyavin.png",
@@ -343,7 +347,6 @@
       "xws": "sigma6-battleofyavin",
       "initiative": 4,
       "limited": 1,
-      "standardLoadout": true,
       "shipAbility": {
         "name": "Sensitive Controls",
         "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
@@ -353,9 +356,11 @@
       "cost": 4,
       "charges": { "value": 2, "recovers": 0 },
       "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
         { "type": "hull", "value": 4 }
       ],
-      "upgrades": ["daredevil", "afterburners"],
+      "standardLoadout": ["daredevil", "afterburners"],
       "ability": "After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [SLAM] action.",
       "keywords": ["TIE"],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma6-battleofyavin.png",
@@ -367,7 +372,6 @@
       "xws": "sigma7-battleofyavin",
       "initiative": 4,
       "limited": 1,
-      "standardLoadout": true,
       "shipAbility": {
         "name": "Sensitive Controls",
         "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
@@ -377,9 +381,11 @@
       "cost": 4,
       "charges": { "value": 2, "recovers": 0 },
       "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
         { "type": "hull", "value": 4 }
       ],
-      "upgrades": ["marksmanship", "firecontrolsystem"],
+      "standardLoadout": ["marksmanship", "firecontrolsystem"],
       "ability": "During the System Phase, you may spend 1 [Charge] to acquire a lock on an enemy ship at range 0-1.",
       "keywords": ["TIE"],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma7-battleofyavin.png",

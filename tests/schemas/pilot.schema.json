@@ -10,11 +10,11 @@
     "xws": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "ability": { "type": "string" },
     "text": { "type": "string" },
-    "standardLoadout": { "type": "boolean"},
-    "upgrades": {
+    "standardLoadout": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
       }
     },
     "conditions": {
@@ -262,5 +262,9 @@
     }
   },
   "required": ["name", "standard", "extended", "epic"],
+  "oneOf": [
+    {"required": ["slots"]},
+    {"required": ["standardLoadout"]}
+  ],
   "additionalProperties": false
 }
