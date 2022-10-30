@@ -288,7 +288,7 @@
       "standardLoadout": ["predator", "fanatic-battleofyavin"],
       "ability": "Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 [Charge]. If you do, prevent 1 damage.",
       "keywords": ["TIE"],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/darthvader-battleofyavin.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/idenversio-battleofyavin.png",
       "epic": true
     },
     {
@@ -384,6 +384,13 @@
         { "arc": "Front Arc", "type": "attack", "value": 3 },
         { "type": "agility", "value": 3 },
         { "type": "hull", "value": 4 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Boost" },
+        { "difficulty": "White", "type": "Lock" }
       ],
       "standardLoadout": ["marksmanship", "firecontrolsystem"],
       "ability": "During the System Phase, you may spend 1 [Charge] to acquire a lock on an enemy ship at range 0-1.",
