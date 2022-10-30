@@ -167,6 +167,26 @@
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/677d75036109127dc27d524b902b35ae.png",
       "keywords": ["Freighter", "YT-1300", "Light Side"],
       "epic": true
+    },
+    {
+      "name": "Han Solo",
+      "caption": "Battle of Yavin",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 7,
+      "xws": "hansolo-battleofyavin",
+      "ability": "After performing an attack that hits, you may spend 1 [Charge] to perform a [Coordinate] action.",
+      "shipAbility": {
+        "name": "Solo",
+        "text": "While you defend or perform an attack, if there are no other friendly ships at range 0-1, you may spend 1 [Charge] to reroll one of your dice."
+      },
+      "standardLoadout": ["chewbacca-battleofyavin", "riggedcargochute", "millenniumfalcon", "l337sprogramming-battleofyavin"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/hansolo-battleofyavin.png",
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     }
   ]
 }

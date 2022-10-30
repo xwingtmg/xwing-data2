@@ -84,6 +84,7 @@
     "standard": { "type": "boolean" },
     "extended": { "type": "boolean" },
     "epic": { "type": "boolean" },
+    "standardLoadoutOnly": { "type": "boolean" },
     "restrictions": {
       "type": "array",
       "items": {

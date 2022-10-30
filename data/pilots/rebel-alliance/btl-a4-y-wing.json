@@ -180,6 +180,86 @@
       "extended": true,
       "keywords": ["Y-wing"],
       "epic": true
+    },
+    {
+      "name": "Dex Tiree",
+      "caption": "Battle of Yavin",
+      "initiative": 2,
+      "limited": 1,
+      "cost": 4,
+      "xws": "dextiree-battleofyavin",
+      "ability": "While you defend, if there is at least 1 other friendly ship at range 0-1, you may roll 1 additional defense die.",
+      "shipAbility": {
+        "name": "Hope",
+        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+      },
+      "standardLoadout": ["dorsalturret", "advprotontorpedoes", "r4astromech"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/dextiree-battleofyavin.png",
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Y-wing"],
+      "epic": true
+    },
+    {
+      "name": "“Dutch” Vander",
+      "caption": "Battle of Yavin",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 4,
+      "xws": "dutchvander-battleofyavin",
+      "ability": "After you spend a lock during an attack, choose a friendly ship at range 1-3. The chosen ship may acquire a lock on the defender.",
+      "shipAbility": {
+        "name": "Hope",
+        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+      },
+      "standardLoadout": ["ioncannonturret", "advprotontorpedoes", "targetingastromech"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/dutchvander-battleofyavin.png",
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Y-wing"],
+      "epic": true
+    },
+    {
+      "name": "Hol Okand",
+      "caption": "Battle of Yavin",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 4,
+      "xws": "holokand-battleofyavin",
+      "ability": "During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 [Charge] on any upgrade.",
+      "shipAbility": {
+        "name": "Hope",
+        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+      },
+      "standardLoadout": ["dorsalturret", "advprotontorpedoes", "preciseastromech"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/holokand-battleofyavin.png",
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Y-wing"],
+      "epic": true
+    },
+    {
+      "name": "“Pops” Krail",
+      "caption": "Battle of Yavin",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 4,
+      "xws": "popskrail-battleofyavin",
+      "ability": "While you perform a [Single Turret Arc] attack, you may reroll up to 2 attack dice.",
+      "shipAbility": {
+        "name": "Hope",
+        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+      },
+      "standardLoadout": ["ioncannonturret", "advprotontorpedoes", "r4astromech"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/popskrail-battleofyavin.png",
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Y-wing"],
+      "epic": true
     }
   ]
 }
