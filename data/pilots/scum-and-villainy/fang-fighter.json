@@ -196,6 +196,27 @@
       "keywords": ["Mandalorian"],
       "caption": "Selfless Protector",
       "epic": true
+    },
+    {
+      "name": "Tor Phun",
+      "caption": "Direct Pressure",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 0,
+      "loadout": 0,
+      "xws": "torphun",
+      "ability": "After you perform an attack, if the defender was destroyed, you may perform an action, even while stressed. Then you may gain 2 strain tokens to perform a bonus attack.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/torphun.png",
+      "shipAbility": {
+        "name": "Concordia Faceoff",
+        "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
+      },
+      "slots": [
+      ],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Mandalorian"],
+      "epic": true
     }
   ]
 }

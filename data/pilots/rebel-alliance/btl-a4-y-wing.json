@@ -260,6 +260,23 @@
       "extended": true,
       "keywords": ["Y-wing"],
       "epic": true
+    },
+    {
+      "name": "“Pops” Krail",
+      "caption": "Gold Five",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 0,
+      "loadout": 0,
+      "xws": "popskrail",
+      "ability": "After you fully execute a white maneuver, you may choose a friendly ship at range 0-1. If you do, it may perform a [Focus] action.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/popskrail.png",
+      "slots": [
+      ],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Y-wing"],
+      "epic": true
     }
   ]
 }

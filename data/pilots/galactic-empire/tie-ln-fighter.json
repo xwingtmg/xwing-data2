@@ -415,6 +415,40 @@
       "extended": true,
       "keywords": ["TIE"],
       "epic": true
+    },
+    {
+      "name": "Magna Tolvan",
+      "caption": "Cold Tyrant",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 0,
+      "loadout": 0,
+      "xws": "magnatolvan",
+      "ability": "While you have 2 or fewer stress tokens, you can perform white actions, even while stressed. After you gain a stress token, you may perform a white action, if able.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/magnatolvan.png",
+      "slots": [
+      ],
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Yrica Quell",
+      "caption": "Consumed by Duty",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 0,
+      "loadout": 0,
+      "xws": "yricaquell",
+      "ability": "After you fully execute a maneuver, you may acquire a lock on an enemy ship in your [Bullseye Arc].",
+      "image": "https://infinitearenas.com/xw2/images/pilots/yricaquell.png",
+      "slots": [
+      ],
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }
