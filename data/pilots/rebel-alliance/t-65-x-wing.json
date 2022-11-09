@@ -407,6 +407,43 @@
       "extended": true,
       "keywords": ["X-wing"],
       "epic": true
+    },
+    {
+      "name": "Corran Horn",
+      "caption": "Rogue Nine",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 0,
+      "loadout": 0,
+      "xws": "corranhorn-t65xwing",
+      "ability": "After you declare the defender of an attack, if you have a lock on the defender, a friendly ship may transfer their lock token from you to the defender.",
+      "slots": [
+      ],
+      "image": "https://infinitearenas.com/xw2/images/pilots/corranhorn-t65xwing.png",
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["X-wing"],
+      "epic": true
+    },
+    {
+      "name": "Wes Janson",
+      "caption": "Wisecracking Wingman",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 0,
+      "loadout": 0,
+      "xws": "wesjanson",
+      "ability": "After you perform an attack, you may spend 1 [Charge] to assign the defender 1 jam token. After you defend, you may spend 1 [Charge] to assign the attacker 1 jam token.",
+      "charges": { "value": 1, "recovers": 1 },
+      "slots": [
+      ],
+      "image": "https://infinitearenas.com/xw2/images/pilots/wesjanson.png",
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["X-wing"],
+      "epic": true
     }
   ]
 }

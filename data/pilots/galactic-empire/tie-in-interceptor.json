@@ -204,7 +204,7 @@
       "limited": 1,
       "shipAbility": {
         "name": "Autothrusters",
-        "text": "At the start of the Engagement Phase, shoose a friendly ship at range 0-3 with a lower initiative than yours. The chosen ship gains 1 evade token and removes 1 non-stress red token."
+        "text": "At the start of the Engagement Phase, choose a friendly ship at range 0-3 with a lower initiative than yours. The chosen ship gains 1 evade token and removes 1 non-stress red token."
       },
       "caption": "Skystrike Superintendent",
       "standard": true,
@@ -401,6 +401,28 @@
       "keywords": ["TIE"],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma7-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sigma7.png",
+      "epic": true
+    },
+    {
+      "name": "Second Sister",
+      "xws": "secondsister",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "caption": "Manipulative Monster",
+      "standard": true,
+      "extended": true,
+      "cost": 0,
+      "loadout": 0,
+      "slots": [
+      ],
+      "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force]. If you do, change all of your [Hit] results to [Critical Hit] results.",
+      "force": { "value": 2, "recovers": 1 },
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/pilots/secondsister.png",
       "epic": true
     }
   ]

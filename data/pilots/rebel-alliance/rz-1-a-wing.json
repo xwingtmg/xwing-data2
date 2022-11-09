@@ -270,6 +270,49 @@
       "ffg": 884,
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ab937640d11798db7513aecc3de53a16.jpg",
       "epic": true
+    },
+    {
+      "name": "Keo Venzee",
+      "xws": "keovenzee",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "caption": "Auspicious Ace",
+      "standard": true,
+      "extended": true,
+      "cost": 0,
+      "loadout": 0,
+      "force": { "value": 1, "recovers": 0 },
+      "slots": [
+      ],
+      "ability": "If you have no active [Force], after you reveal a bank [[Bank Left] or [Bank Right]] or turn [[Turn Left] or [Turn Right]] maneuver, you may increase the difficulty of the maneuver. If you do, perform that maneuver as a sideslip and recover 1 [Force].",
+      "keywords": ["A-wing"],
+      "image": "https://infinitearenas.com/xw2/images/pilots/keovenzee.png",
+      "epic": true
+    },
+    {
+      "name": "Tycho Celchu",
+      "xws": "tychocelchu",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "caption": "Son of Alderaan",
+      "standard": true,
+      "extended": true,
+      "cost": 0,
+      "loadout": 0,
+      "slots": [
+      ],
+      "ability": "While you have 2 or fewer stress tokens, you may perform actions, even while stressed.",
+      "keywords": ["A-wing"],
+      "image": "https://infinitearenas.com/xw2/images/pilots/tychocelchu.png",
+      "epic": true
     }
   ]
 }
