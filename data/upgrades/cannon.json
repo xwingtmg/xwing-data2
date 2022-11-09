@@ -218,5 +218,23 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Ancillary Ion Weapons",
+    "limited": 0,
+    "xws": "ancillaryionweapons-siegeofcoruscant",
+    "sides": [
+      {
+        "ability": "While you perform a primary attack, before rolling attack dice, you may spend 2 [Charge]. If you do, your [Critical Hit] results inflict ion tokens instead of damage.",
+        "title": "Ancillary Ion Weapons",
+        "type": "Cannon",
+        "slots": ["Cannon"],
+        "charges": { "value": 2, "recovers": 1 }
+      }
+    ],
+    "standardLoadoutOnly": true,
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

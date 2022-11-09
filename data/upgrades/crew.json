@@ -2864,5 +2864,22 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Wolfpack",
+    "limited": 1,
+    "xws": "wolfpack-siegeofcoruscant",
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "title": "Wolfpack",
+        "type": "Crew",
+        "slots": ["Crew", "Gunner"],
+        "ability": "While you perform an attack, you may spend a lock belonging to a friendly Plo Koon ship or ship with the Born for This ability that is on the defender to reroll any number of attack dice."
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

@@ -163,6 +163,56 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e4ba0b540259e9026142e6fa5e837685.jpg",
       "keywords": ["Clone"],
       "epic": true
+    },
+    {
+      "name": "“Kickback”",
+      "caption": "Siege of Coruscant",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Born for This",
+        "text": "While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."
+      },
+      "cost": 3,
+      "xws": "kickback-siegeofcoruscant",
+      "ability": "After you perform a [Barrel Roll] action, you may perform a red [Lock] action. If you do, before you perfrom the [Lock] action, you may gain 1 strain to treat it as white.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/kickback-siegeofcoruscant.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kickback.png",
+      "standardLoadout": ["diamondboronmissiles", "munitionsfailsafe"],
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 2 },
+        { "type": "hull", "value": 6 }
+      ],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Clone"],
+      "epic": true
+    },
+    {
+      "name": "“Axe”",
+      "caption": "Siege of Coruscant",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Born for This",
+        "text": "While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."
+      },
+      "cost": 3,
+      "xws": "axe-siegeofcoruscant",
+      "ability": "After you perform an attack, you may choose another friendly ship with the Born for This ability at range 0-2 in your [Left Arc] or [Right Arc]. The chosen ship gains a lock on the defender.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/axe-siegeofcoruscant.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/axe.png",
+      "standardLoadout": ["deadeyeshot", "barragerockets"],
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 2 },
+        { "type": "hull", "value": 6 }
+      ],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Clone"],
+      "epic": true
     }
   ],
   "ffg": 62

@@ -188,6 +188,69 @@
       ],
       "keywords": ["Jedi", "Light Side"],
       "epic": true
+    },
+    {
+      "name": "Anakin Skywalker",
+      "caption": "Siege of Coruscant",
+      "initiative": 6,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Controls",
+        "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
+      },
+      "cost": 5,
+      "xws": "anakinskywalker-siegeofcoruscant",
+      "ability": "After you or a friendly Obi-Wan Kenobi ship at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship may perform a [Barrel Roll] action.",
+      "force": { "value": 3, "recovers": 1 },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/anakinskywalker-siegeofcoruscant.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-eta2actis.png",
+      "standardLoadout": ["malice", "ancillaryionweapons-siegeofcoruscant",  "r2d2-republic"],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Dark Side", "Jedi", "Light Side"],
+      "epic": true
+    },
+    {
+      "name": "Obi-Wan Kenobi",
+      "caption": "Siege of Coruscant",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Controls",
+        "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
+      },
+      "cost": 4,
+      "xws": "obiwankenobi-siegeofcoruscant",
+      "ability": "After you or a friendly Anakin Skywalker at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship may perform a [Boost] action.",
+      "force": { "value": 3, "recovers": 1 },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/obiwankenobi-siegeofcoruscant.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/obiwankenobi-eta2actis.png",
+      "standardLoadout": ["patience", "ancillaryionweapons-siegeofcoruscant",  "r4p17-siegeofcoruscant"],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
+    },
+    {
+      "name": "Shaak Ti",
+      "caption": "Siege of Coruscant",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Controls",
+        "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
+      },
+      "cost": 4,
+      "xws": "shaakti-siegeofcoruscant",
+      "ability": "After you or a friendly Anakin Skywalker at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship may perform a [Boost] action.",
+      "force": { "value": 2, "recovers": 1 },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/shaakti-siegeofcoruscant.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shaakti-eta2actis.png",
+      "standardLoadout": ["marksmanship", "brilliantevasion", "ancillaryionweapons-siegeofcoruscant",  "r4pastromech"],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     }
   ],
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Eta-2_Actis.png"

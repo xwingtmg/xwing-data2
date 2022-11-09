@@ -173,6 +173,74 @@
       "extended": true,
       "keywords": ["Clone"],
       "epic": true
+    },
+    {
+      "name": "“Odd Ball”",
+      "caption": "Siege of Coruscant",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Born for This",
+        "text": "While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."
+      },
+      "cost": 5,
+      "xws": "oddball-siegeofcoruscant",
+      "ability": "After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/oddball-siegeofcoruscant.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/oddball-arc170starfighter.png",
+      "standardLoadout": ["selfless", "veterantailgunner", "r4pastromech"],
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "arc": "Rear Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 1 },
+        { "type": "hull", "value": 6 },
+        { "type": "shields", "value": 4 }
+      ],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Clone"],
+      "epic": true
+    },
+    {
+      "name": "“Wolffe”",
+      "caption": "Siege of Coruscant",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Born for This",
+        "text": "While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."
+      },
+      "cost": 4,
+      "xws": "wolffe-siegeofcoruscant",
+      "ability": "While you perform a primary [Front Arc] attack, you may spend 1 [Charge] to reroll 1 attack die. While you perform a primary [Rear Arc] attack, you may recover 1 [Charge] to roll 1 additional attack die.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/wolffe-siegeofcoruscant.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wolffe.png",
+      "charges": { "value": 1, "recovers": 0 },
+      "standardLoadout": ["wolfpack-siegeofcoruscant", "veterantailgunner", "q7astromech"],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Clone"],
+      "epic": true
+    },
+    {
+      "name": "“Jag”",
+      "caption": "Siege of Coruscant",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Born for This",
+        "text": "While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."
+      },
+      "cost": 4,
+      "xws": "jag-siegeofcoruscant",
+      "ability": "After a friendly ship at range 0-2 in your [Left Arc] or [Right Arc} performs an attack, if you are not strained, you may acquire a lock on the defender.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/jag-siegeofcoruscant.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jag.png",
+      "standardLoadout": ["veterantailgunner", "r4pastromech", "synchronizedconsole"],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Clone"],
+      "epic": true
     }
   ]
 }
