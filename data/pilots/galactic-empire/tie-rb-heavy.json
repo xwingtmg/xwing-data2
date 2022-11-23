@@ -145,11 +145,18 @@
     {
       "name": "Flight Leader Ubbel",
       "caption": "Onyx Leader",
-      "cost": 0,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 15,
       "initiative": 5,
       "limited": 1,
       "slots": [
+        "Talent",
+        "Cannon",
+        "Cannon",
+        "Gunner",
+        "Modification",
+        "Modification",
+        "Configuration"
       ],
       "xws": "flightleaderubbel",
       "ability": "After a friendly ship at range 0-2 defends, if it was dealt a damage card, you may perform a bonus attack against the attacker.",

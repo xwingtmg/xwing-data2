@@ -126,6 +126,32 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f0cc7ebb6dc5f2e0d15fd681655777b3.jpg",
       "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/21d545f09d9d98f9713b80d5551c4e0b.png",
       "epic": true
+    },
+    {
+      "name": "Agent Tierny",
+      "caption": "Persuasive Recruiter",
+      "initiative": 3,
+      "limited": 1,
+      "xws": "agenttierny",
+      "ability": "Setup: After placing forces, you must assign the Broken Trust condition to an enemy ship.",
+      "condition": "brokentrust",
+      "standard": true,
+      "extended": true,
+      "cost": 5,
+      "loadout": 15,
+      "slots": [
+        "Talent",
+        "Talent",
+        "Tech",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Modification"
+      ],
+      "ffg": 657,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/agenttierny.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/agenttierny.png",
+      "epic": true
     }
   ],
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Xi-class_Shuttle.png"

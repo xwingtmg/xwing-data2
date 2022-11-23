@@ -414,7 +414,6 @@
         { "type": "hull", "value": 4 }
       ],
       "standardLoadout": ["elusive", "vengeful-battleofyavin"],
-      "artwork": "",
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -425,12 +424,15 @@
       "caption": "Cold Tyrant",
       "initiative": 3,
       "limited": 1,
-      "cost": 0,
-      "loadout": 0,
+      "cost": 3,
+      "loadout": 10,
       "xws": "magnatolvan",
       "ability": "While you have 2 or fewer stress tokens, you can perform white actions, even while stressed. After you gain a stress token, you may perform a white action, if able.",
       "image": "https://infinitearenas.com/xw2/images/pilots/magnatolvan.png",
       "slots": [
+        "Talent",
+        "Cannon",
+        "Modification"
       ],
       "standard": true,
       "extended": true,
@@ -442,12 +444,15 @@
       "caption": "Consumed by Duty",
       "initiative": 3,
       "limited": 1,
-      "cost": 0,
-      "loadout": 0,
+      "cost": 3,
+      "loadout": 9,
       "xws": "yricaquell",
       "ability": "After you fully execute a maneuver, you may acquire a lock on an enemy ship in your [Bullseye Arc].",
       "image": "https://infinitearenas.com/xw2/images/pilots/yricaquell.png",
       "slots": [
+        "Talent",
+        "Missile",
+        "Modification"
       ],
       "standard": true,
       "extended": true,

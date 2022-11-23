@@ -236,6 +236,42 @@
       "extended": true,
       "keywords": ["Droid"],
       "epic": true
+    },
+    {
+      "name": "Volan Das",
+      "xws": "volandas",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Modified for Organics",
+        "text": "This ship is not affected by the Standardized restriction. Reduce the difficulty of your speed 2 and 3 bank [[Bank Left] or [Bank Right]] maneuvers. Increase the difficulty of your speed 3 turn [[Turn Left] or [Turn Right]] maneuvers."
+      },
+      "actions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Lock" },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll",
+          "linked": { "difficulty": "Red", "type": "Evade" }
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost",
+          "linked": { "difficulty": "Red", "type": "Focus" }
+        }
+      ],
+      "caption": "Impatient Invader",
+      "standard": true,
+      "extended": true,
+      "ability": "After you fully execute a red maneuver, you may chose an enemy ship at range 1. The chosen ship gains 1 strain token and you may remove 1 stress token.",
+      "cost": 4,
+      "loadout": 12,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/volandas.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/volandas.png",
+      "slots": ["Talent", "Missile", "Illicit", "Modification"],
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     }
   ],
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Droid_Tri-Fighter.png"

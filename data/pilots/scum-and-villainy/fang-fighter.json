@@ -202,8 +202,8 @@
       "caption": "Direct Pressure",
       "initiative": 3,
       "limited": 1,
-      "cost": 0,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 7,
       "xws": "torphun",
       "ability": "After you perform an attack, if the defender was destroyed, you may perform an action, even while stressed. Then you may gain 2 strain tokens to perform a bonus attack.",
       "image": "https://infinitearenas.com/xw2/images/pilots/torphun.png",
@@ -212,6 +212,10 @@
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
       "slots": [
+        "Talent",
+        "Missile",
+        "Modification",
+        "Modification"
       ],
       "standard": true,
       "extended": true,

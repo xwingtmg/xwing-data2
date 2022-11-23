@@ -138,6 +138,63 @@
       "extended": true,
       "keywords": ["Freighter", "Light Side", "YT-1300"],
       "epic": true
+    },
+    {
+      "name": "Poe Dameron",
+      "caption": "A Difficult Man",
+      "initiative": 6,
+      "limited": 1,
+      "xws": "poedameron-scavengedyt1300",
+      "ability": "Before you execute a maneuver, you may spend 1 [Charge]. If you do, ignore obstacles during that maneuver. After you fully execute a maneuver, you may spend 2 [Charge] to perform a white [Boost] or red [Barrel Roll] action. Then if you performed a red [Barrel Roll] action, expose 1 damage card, if able.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/poedameron-scavengedyt1300.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/poedameron-scavengedyt1300.png",
+      "charges": { "value": 2, "recovers": 1 },
+      "cost": 7,
+      "loadout": 25,
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Talent",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Title",
+        "Gunner"
+      ],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
+    },
+    {
+      "name": "Lando Calrissian",
+      "caption": "Old General",
+      "initiative": 5,
+      "limited": 1,
+      "xws": "landocalrissian-scavengedyt1300",
+      "ability": "After you fully execute a red maneuver or perform a red action, you may spend any number of [Charge] to choose that many friendly ships at range 0-2. The chosen ships may perform an action, even while stressed.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/landocalrissian-scavengedyt1300.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-scavengedyt1300.png",
+      "charges": { "value": 3, "recovers": 1 },
+      "cost": 8,
+      "loadout": 20,
+      "slots": [
+        "Talent",
+        "Missile",
+        "Talent",
+        "Crew",
+        "Crew",
+        "Illicit",
+        "Illicit",
+        "Modification",
+        "Title",
+        "Gunner"
+      ],
+      "standard": true,
+      "extended": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     }
   ]
 }

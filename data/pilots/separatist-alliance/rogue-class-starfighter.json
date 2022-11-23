@@ -305,6 +305,35 @@
       "standard": true,
       "extended": true,
       "epic": true
+    },
+    {
+      "name": "Durge",
+      "caption": "On His Own Time",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 4,
+      "loadout": 10,
+      "xws": "durge-separatistalliance",
+      "slots": [
+        "Talent",
+        "Cannon",
+        "Cannon",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Title"
+      ],
+      "ability": "When you would be destroyed, you may spend 1 [Charge] to reveal all of your facedown damage cards. If you do, discard each Direct Hit! and each of your damage cards with the Pilot trait, then repair all of your faceup damage cards.",
+      "shipAbility": {
+        "name": "Dead to Rights",
+        "text": "While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens."
+      },
+      "image": "https://infinitearenas.com/xw2/images/pilots/durge-separatistalliance.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/durge-separatistalliance.png",
+      "keywords": ["Bounty Hunter"],
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }

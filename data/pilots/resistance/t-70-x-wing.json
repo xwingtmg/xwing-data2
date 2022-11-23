@@ -440,6 +440,62 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8c6284a4820a6c6f83eb60111d4ba978.jpg",
       "keywords": ["X-wing"],
       "epic": true
+    },
+    {
+      "name": "Venisa Doza",
+      "xws": "venisadoza",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "caption": "Jade Leader",
+      "standard": true,
+      "extended": true,
+      "cost": 5,
+      "loadout": 13,
+      "slots": [
+        "Talent",
+        "Tech", 
+        "Missile",
+        "Missile",
+        "Astromech", 
+        "Modification",
+        "Modification", 
+        "Configuration"],
+      "ability": "While you perform a [Torpedo] or [Missile] attack, you may treat the [Front Arc] requirement as [Rear Arc] for that attack. If you do, treat the range requirement as 1-2.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/venisadoza.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/venisadoza.png",
+      "keywords": ["X-wing"],
+      "epic": true
+    },
+    {
+      "name": "Zay Versio",
+      "xws": "zayversio",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Weapon Hardpoint",
+        "text": "You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade."
+      },
+      "caption": "Her Father's Daughter",
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "loadout": 7,
+      "slots": [
+        "Talent",
+        "Talent",
+        "Tech", 
+        "Astromech", 
+        "Modification", 
+        "Configuration"],
+      "ability": "While you defend, if the attacker is damaged, you may reroll 1 defense die.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/zayversio.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zayversio.png",
+      "keywords": ["X-wing"],
+      "epic": true
     }
   ]
 }

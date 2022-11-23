@@ -415,9 +415,14 @@
       "caption": "Manipulative Monster",
       "standard": true,
       "extended": true,
-      "cost": 0,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 14,
       "slots": [
+        "Force Power",
+        "Talent",
+        "Missile",
+        "Modification",
+        "Configuration"
       ],
       "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force]. If you do, change all of your [Hit] results to [Critical Hit] results.",
       "force": { "value": 2, "recovers": 1 },
