@@ -246,7 +246,7 @@
         "name": "Modified for Organics",
         "text": "This ship is not affected by the Standardized restriction. Reduce the difficulty of your speed 2 and 3 bank [[Bank Left] or [Bank Right]] maneuvers. Increase the difficulty of your speed 3 turn [[Turn Left] or [Turn Right]] maneuvers."
       },
-      "actions": [
+      "shipActions": [
         { "difficulty": "White", "type": "Focus" },
         { "difficulty": "White", "type": "Evade" },
         { "difficulty": "White", "type": "Lock" },

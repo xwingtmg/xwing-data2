@@ -134,7 +134,7 @@
       "limited": 1,
       "xws": "agenttierny",
       "ability": "Setup: After placing forces, you must assign the Broken Trust condition to an enemy ship.",
-      "condition": "brokentrust",
+      "conditions": ["brokentrust"],
       "standard": true,
       "extended": true,
       "cost": 5,

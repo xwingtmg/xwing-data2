@@ -188,7 +188,7 @@
         "text": "While a friendly ship performs a non-[Single Turret Arc] attack, if the defender is in your [Single Turret Arc], you may spend 1 [Charge]. If you do, the attacker rerolls up to 2 attack dice."
       },
       "ability": "After you execute a basic maneuver, you may assign the Sickening Maneuver condition to yourself.",
-      "condition": "sickeningmaneuver",
+      "conditions": ["sickeningmaneuver"],
       "standard": true,
       "extended": true,
       "keywords": ["Clone"],
