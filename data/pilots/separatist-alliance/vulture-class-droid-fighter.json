@@ -246,6 +246,7 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/theironassembler.png",
       "cost": 2,
       "loadout": 5,
+      "charges": { "value": 3, "recovers": 0 },
       "slots": ["Missile", "Modification", "Modification", "Configuration"],
       "keywords": ["Droid"],
       "epic": true
