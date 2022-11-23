@@ -168,6 +168,66 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/5fb72145f183eeddd8d37ce1a4d114f7.jpg",
       "keywords": ["Droid"],
       "epic": true
+    },
+    {
+      "name": "DFS-081",
+      "caption": "Siege of Coruscant",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 2,
+      "xws": "dfs081-siegeofcoruscant",
+      "ability": "While defending, you may spend 1 [Charge] and 1 calculate token to cancel 1 [Critical Hit] result.",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/dfs081-siegeofcoruscant.png",
+      "standardLoadout": ["discordmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dfs081.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Droid"],
+      "epic": true
+    },
+    {
+      "name": "DFS-311",
+      "caption": "Siege of Coruscant",
+      "initiative": 1,
+      "limited": 1,
+      "cost": 3,
+      "xws": "dfs311-siegeofcoruscant",
+      "ability": "While defending, you may spend 1 [Charge] and 1 calculate token to cancel 1 [Critical Hit] result.",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/dfs311-siegeofcoruscant.png",
+      "standardLoadout": ["discordmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dfs311.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Droid"],
+      "epic": true
+    },
+    {
+      "name": "Haor Chall Prototype",
+      "caption": "Siege of Coruscant",
+      "initiative": 1,
+      "limited": 1,
+      "cost": 2,
+      "xws": "haorchallprototype-siegeofcoruscant",
+      "ability": "After an enemy ship in your [Bullseye Arc] at range 0-2 declares a scenario feature or another friendly ship as the defender, you may perform a [Calculate] or [Lock] action.",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/haorchallprototype-siegeofcoruscant.png",
+      "standardLoadout": ["ionmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/haorchallprototype.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Droid"],
+      "epic": true
     }
   ],
   "ffg": 59
