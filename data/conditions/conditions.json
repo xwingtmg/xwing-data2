@@ -85,5 +85,24 @@
     "name": "Trials of the Darksaber",
     "ability": "While you perform an attack at attack range 0-2, you may spend 1 [Critical Hit] result. If you do, if the defending ship's player has more scored [Victory] than you, they lose 1 scored [Victory]. Place that [Victory] on this card. After you defend, if you are destroyed by an enemy ship at attack range 0-2, assign the Trials Of The Darksaber condition to the attacker (all [Victory] remain on this card). At the end of the game, this ship scores all [Victory] on this card.",
     "xws": "trialsofthedarksaber"
+  },
+  {
+    "name": "Primed for Speed",
+    "ability": "Add a white [SLAM] action to your action bar. After you perform a [SLAM] action, you must suffer 1 [Hit] damage to remove 1 disarm token.",
+    "xws": "primedforspeed"
+  },
+  {
+    "name": "Broken Trust",
+    "ability": "Treat friendly ships as allied. Non-enemy ships treat you as allied. While performing an attack, before declaring the defender, each allied ship in the attack arc that is not stressed gains 1 stress token. After you defend or perform an attack, if the defender was dealt at least 1 faceup damage card, or was destroyed, remove this condition.",
+    "xws": "brokentrust"
+  },
+  {
+    "name": "Sickening Maneuver",
+    "ability": "You can execute red maneuvers even while stressed. After you reveal a bank [[Bank Left] or [Bank Right]] or turn [[Turn Left] or [Turn Right]] maneuver, you must gain 1 strain and execute the maneuver as a slideslip. After you reveal a straight [[Straight]] maneuver, you must execute that maneuver as a red koiogran turn [[Koiogran Turn]]. After you execute a maneuver, remove this condition.",
+    "xws": "sickeningmaneuver"
   }
+
+
+
+  
 ]

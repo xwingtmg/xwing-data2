@@ -413,11 +413,15 @@
       "caption": "Rogue Nine",
       "initiative": 5,
       "limited": 1,
-      "cost": 0,
-      "loadout": 0,
+      "cost": 5,
+      "loadout": 18,
       "xws": "corranhorn-t65xwing",
       "ability": "After you declare the defender of an attack, if you have a lock on the defender, a friendly ship may transfer their lock token from you to the defender.",
       "slots": [
+        "Talent",
+        "Torpedo",
+        "Astromech",
+        "Configuration"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/corranhorn-t65xwing.png",
       "artwork": "",
@@ -437,6 +441,11 @@
       "ability": "After you perform an attack, you may spend 1 [Charge] to assign the defender 1 jam token. After you defend, you may spend 1 [Charge] to assign the attacker 1 jam token.",
       "charges": { "value": 1, "recovers": 1 },
       "slots": [
+        "Talent",
+        "Torpedo",
+        "Astromech",
+        "Modification",
+        "Configuration"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/wesjanson.png",
       "artwork": "",

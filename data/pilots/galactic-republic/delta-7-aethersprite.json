@@ -276,6 +276,28 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/22519908330c72696863815565a2beda.jpg",
       "keywords": ["Jedi", "Light Side"],
       "epic": true
+    },
+    {
+      "name": "Adi Gallia",
+      "caption": "Shooting Star",
+      "initiative": 5,
+      "limited": 1,
+      "xws": "adigallia",
+      "ability": "While you defend at attack range 1, you may spend 1 [Force]. If you do, the attacker cannot apply the range bonus. While you perform an attack against a defender at attack range 3, you may spend 1 [Force]. If you do, the defender cannot apply the range bonus.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "standard": true,
+      "extended": true,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/adigallia.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/adigallia.png",
+      "cost": 5,
+      "loadout": 12,
+      "slots": ["Force Power", "Talent", "Astromech", "Configuration", "Modification"],
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     }
   ],
   "ffg": 61

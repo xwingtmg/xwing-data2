@@ -251,6 +251,34 @@
       "extended": true,
       "keywords": ["Jedi", "Light Side"],
       "epic": true
+    },
+    {
+      "name": "Kit Fisto",
+      "xws": "kitfisto",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Intuitive Controls",
+        "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
+      },
+      "caption": "Enthusiastic Exemplar",
+      "standard": true,
+      "extended": true,
+      "force": { "value": 2, "recovers": 1 },
+      "ability": "While another friendly ship defends, if the attacker is in its [Bullseye Arc], you may spend 1 [Force] to change 1 of the defender's blank results to a [Focus] result.",
+      "cost": 4,
+      "loadout": 8,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kitfisto.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/kitfisto.png",
+      "slots": [
+        "Force Power",
+        "Force Power",
+        "Talent",
+        "Astromech",
+        "Modification"
+      ],
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     }
   ],
   "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Eta-2_Actis.png"

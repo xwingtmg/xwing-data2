@@ -136,6 +136,32 @@
       "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fd061204d3235827f2457d5be76cc18b.jpg",
       "slots": ["Cannon", "Missile", "Device"],
       "epic": true
+    },
+    {
+      "name": "Aurra Sing",
+      "xws": "aurrasing",
+      "initiative": 4,
+      "limited": 1,
+      "caption": "Bane of the Jedi",
+      "standard": true,
+      "extended": true,
+      "ability": "Before you engage, you may spend 1 [Force] to choose 2 enemy ships at range 0-1. Transfer any number of orange and red tokens between those two ships.",
+      "force": { "value": 1, "recovers": 1 },
+      "cost": 8,
+      "loadout": 18,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/aurrasing.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/aurrasing.png",
+      "slots": [
+        "Talent",
+        "Cannon",
+        "Cannon",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Title"
+      ],
+      "keywords": ["Dark Side", "Bounty Hunter"],
+      "epic": true
     }
   ]
 }

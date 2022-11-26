@@ -751,5 +751,23 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Strut-Lock Override",
+    "limited": 0,
+    "xws": "strutlockoverride-siegeofcoruscant",
+    "sides": [
+      {
+        "title": "strutlockoverride-siegeofcoruscant",
+        "type": "Configuration",
+        "ability": "At the start of your activation, you may spend 1 [Charge]. If you do, ignore obstacles while you move through them this round.",
+        "charges": { "value": 2, "recovers": 0 },
+        "slots": ["Configuration"]
+      }
+    ],
+    "standardLoadoutOnly": true,
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]

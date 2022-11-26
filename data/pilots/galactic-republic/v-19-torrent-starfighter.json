@@ -213,6 +213,24 @@
       "extended": true,
       "keywords": ["Clone"],
       "epic": true
+    },
+    {
+      "name": "“Slammer”",
+      "caption": "Blue Three",
+      "xws": "slammer",
+      "initiative": 1,
+      "limited": 1,
+      "ability": "After you fully execute a maneuver, you may spend 2 [Charge] to peform a [SLAM] action, even while stressed.",
+      "charges": { "value": 2, "recovers": 1 },
+      "standard": true,
+      "extended": true,
+      "cost": 3,
+      "loadout": 7,
+      "slots": ["Talent", "Missile", "Missile", "Modification"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/slammer.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/slammer.png",
+      "keywords": ["Clone"],
+      "epic": true
     }
   ],
   "ffg": 62

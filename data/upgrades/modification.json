@@ -569,5 +569,39 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Contingency Protocol",
+    "limited": 0,
+    "xws": "contingencyprotocol-siegeofcoruscant",
+    "sides": [
+      {
+        "ability": "After this ship is destroyed, another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.",
+        "title": "Contingency Protocol",
+        "type": "Modification",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Evasion Sequence 7",
+    "limited": 0,
+    "xws": "evasionsequence7-siegeofcoruscant",
+    "sides": [
+      {
+        "ability": "While you perform a red [Evade] action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.",
+        "title": "Contingency Protocol",
+        "type": "Modification",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]

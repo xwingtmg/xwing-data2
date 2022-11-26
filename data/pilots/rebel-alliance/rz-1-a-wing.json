@@ -283,10 +283,13 @@
       "caption": "Auspicious Ace",
       "standard": true,
       "extended": true,
-      "cost": 0,
-      "loadout": 0,
+      "cost": 3,
+      "loadout": 8,
       "force": { "value": 1, "recovers": 0 },
       "slots": [
+        "Talent",
+        "Missile",
+        "Configuration"
       ],
       "ability": "If you have no active [Force], after you reveal a bank [[Bank Left] or [Bank Right]] or turn [[Turn Left] or [Turn Right]] maneuver, you may increase the difficulty of the maneuver. If you do, perform that maneuver as a sideslip and recover 1 [Force].",
       "keywords": ["A-wing"],
@@ -305,9 +308,14 @@
       "caption": "Son of Alderaan",
       "standard": true,
       "extended": true,
-      "cost": 0,
-      "loadout": 0,
+      "cost": 4,
+      "loadout": 14,
       "slots": [
+        "Talent",
+        "Talent",
+        "Cannon",
+        "Missile",
+        "Configuration"
       ],
       "ability": "While you have 2 or fewer stress tokens, you may perform actions, even while stressed.",
       "keywords": ["A-wing"],
