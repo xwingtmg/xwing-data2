@@ -7,7 +7,7 @@
       {
         "title": "Bomblet Generator",
         "type": "Device",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
         "slots": ["Device", "Device"],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
@@ -33,7 +33,7 @@
       {
         "title": "Blazer Bomb",
         "type": "Device",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Blazer Bomb using the [1 [Straight]] template.",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Blazer Bomb using the [1 [Straight]] template.",
         "slots": ["Device"],
         "charges": { "value": 1, "recovers": 0 },
         "device": {
@@ -56,7 +56,7 @@
       {
         "title": "Conner Nets",
         "type": "Device",
-        "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": ["Device"],
         "charges": { "value": 1, "recovers": 0 },
         "device": {
@@ -82,7 +82,7 @@
       {
         "title": "Proton Bombs",
         "type": "Device",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb using the [1 [Straight]] template.",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb using the [1 [Straight]] template.",
         "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_65.png",
         "slots": ["Device"],
         "charges": { "value": 2, "recovers": 0 },
@@ -108,7 +108,7 @@
       {
         "title": "Proximity Mines",
         "type": "Device",
-        "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": ["Device"],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
@@ -134,7 +134,7 @@
       {
         "title": "Seismic Charges",
         "type": "Device",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge with the [1 [Straight]] template.",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge with the [1 [Straight]] template.",
         "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_67.png",
         "slots": ["Device"],
         "charges": { "value": 2, "recovers": 0 },
@@ -193,7 +193,7 @@
       {
         "title": "Electro-Proton Bomb",
         "type": "Device",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop an Electro-Proton Bomb with the [1 [Straight]] template. Then place 1 fuse marker on that device. This card's [Charge] cannot be recovered.",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop an Electro-Proton Bomb with the [1 [Straight]] template. Then place 1 fuse marker on that device. This card's [Charge] cannot be recovered.",
         "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/0f76484cc390fc97d1fe2f863d75944b.png",
         "slots": ["Device", "Modification"],
         "charges": { "value": 1, "recovers": 0 },
@@ -224,7 +224,7 @@
         "ffg": 648,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/aea6bdafa5066a040a8929d6eb46499a.jpg",
         "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/c27f0dcda78915239450bedf5b931d86.png",
-        "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Cluster Mine set using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Cluster Mine set using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "charges": { "value": 1, "recovers": 0 },
         "device": {
           "name": "Cluster Mine",
@@ -250,7 +250,7 @@
         "ffg": 649,
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f69c5ecaca9ab01380f6329e49970ddf.jpg",
         "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/e4c43791c16aea639f2e811c16d1dbcf.png",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the [1 [Straight]] template.",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the [1 [Straight]] template.",
         "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Ion Bomb",
@@ -296,7 +296,7 @@
     "xws": "thermaldetonators",
     "sides": [
       {
-        "ability": "Bomb During the System Phase, you may spend up to 2 [Charge] to drop that many Thermal Detonators using the [1 [Straight]] or [2 [Straight]] template. Each must be placed using a different template. When you reload this card, recover 1 additional [Charge].",
+        "ability": "During the System Phase, you may spend up to 2 [Charge] to drop that many Thermal Detonators using the [1 [Straight]] or [2 [Straight]] template. Each must be placed using a different template. When you reload this card, recover 1 additional [Charge].",
         "title": "Thermal Detonators",
         "type": "Device",
         "slots": ["Device"],
