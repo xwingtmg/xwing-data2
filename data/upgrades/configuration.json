@@ -331,6 +331,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1ee2df3c1a0ce5aa60439927e2d1e9ca.jpg"
       }
     ],
+    "restrictions": [{ "ships": ["croccruiser"] }],
     "cost": { "value": 6 }
   },
   {
@@ -381,6 +382,7 @@
         "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/f03c2baf5b0a095e28948f03468cc5d2.png"
       }
     ],
+    "restrictions": [{ "ships": ["asf01bwing"] }],
     "cost": { "value": 0 },
     "standard": true,
     "extended": true,
@@ -408,6 +410,7 @@
       }
     ],
     "name": "Repulsorlift Stabilizers",
+    "restrictions": [{ "ships": ["hmpdroidgunship"] }],
     "cost": { "value": 0 },
     "limited": 0,
     "xws": "repulsorliftstabilizers",
@@ -429,6 +432,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2e6d4fc53253cdf04086649b7eaf917a.jpg"
       }
     ],
+    "restrictions": [{ "ships": ["nimbusclassvwing"] }],
     "cost": { "value": 0 },
     "standard": true,
     "extended": true,
@@ -449,6 +453,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/678c7a36aacdd1cc20b61287df2fc0d9.jpg"
       }
     ],
+    "restrictions": [{ "ships": ["nimbusclassvwing"] }],
     "cost": { "value": 0 },
     "standard": true,
     "extended": true,
@@ -487,6 +492,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1c125de5b479dbc58f1a0bc2ec770ed3.jpg"
       }
     ],
+    "restrictions": [{ "ships": ["droidtrifighter"] }],
     "cost": { "value": 0 },
     "standard": true,
     "extended": true,
@@ -520,6 +526,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b7bc25a4c99fafd0c61ac6efb1129ae.jpg"
       }
     ],
+    "restrictions": [{ "ships": ["tierbheavy"] }],
     "cost": { "value": 0 },
     "standard": true,
     "extended": true,
@@ -553,6 +560,7 @@
         "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/954401c2bc0cc705693553362d078536.jpg"
       }
     ],
+    "restrictions": [{ "ships": ["tierbheavy"] }],
     "cost": { "value": 0 },
     "standard": true,
     "extended": true,
@@ -660,7 +668,7 @@
         "ability": "Gain 1 [Torpedo] slot and 1 [Missile] slot. Replace your ship ability with the following:",
         "shipAbility": {
           "name": "Devastating Barrage",
-          "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannont be canceled by [Evade] results."
+          "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannot be canceled by [Evade] results."
         },
         "grants": [
           {
