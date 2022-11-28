@@ -1515,6 +1515,7 @@
         "title": "GA-97",
         "type": "Crew",
         "slots": ["Crew"],
+        "charges": { "value": 5, "recovers": 1 },
         "grants": [
           {
             "type": "action",
