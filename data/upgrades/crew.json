@@ -2535,7 +2535,8 @@
         "title": "Tristan Wren",
         "type": "Crew",
         "slots": ["Crew"],
-        "image": "https://infinitearenas.com/xw2/images/upgrades/tristanwren"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/tristanwren.png",
+        "charges": { "value": 1, "recovers": 1 }
       }
     ],
     "cost": { "value": 2 },
