@@ -376,6 +376,7 @@
       "cost": 6,
       "xws": "lukeskywalker-battleofyavin",
       "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "shipAbility": {
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
