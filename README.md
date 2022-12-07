@@ -6,20 +6,21 @@ If you're looking for data and images of X-Wing First Edition, you can find that
 
 ## XWS ids
 
-Every ship, pilot, upgrade, etc. has a `xws` field that contains an unique id. These ids are used in the [X-Wing Squadron Specification (or `XWS`)](https://github.com/elistevens/xws-spec/).
+Every ship, pilot, upgrade, etc. has a `xws` field that contains a unique id. These ids are used in the [X-Wing Squadron Specification (or `XWS`)](https://github.com/elistevens/xws-spec/). Note that ids are only unique per card type (as explained below): a pilot can safely have the same id as an upgrade, for example.
 
 New XWS ids are generated using the following steps:
 
 1. Take the English-language name as printed on the card
-2. Lowercase the name
-3. Convert non-ASCII characters to closest ASCII equivalent (to remove umlauts, etc.)
-4. Remove non-alphanumeric characters
-5. Check for collisions, and add expansion suffixes until there is no more collision
+1. Lowercase the name
+1. Convert non-ASCII characters to closest ASCII equivalent (to remove umlauts, etc.)
+1. Remove non-alphanumeric characters
+1. If the pilot has a standardized loadout, add the expansion name as a suffix (eg wampa-battleofyavin)
+1. Check for collisions with other ids of the same type, and add expansion suffixes until there is no more collision
 
 Expansion suffixes per type:
-Pilots: `pilotname-shipname-factionname-productsku`
-Upgrades: `upgradename-slotname-productsku`
-Conditions: `conditionname-productsku`
+Pilots: `pilotname-shipname-factionname-expansionname-productsku`
+Upgrades: `upgradename-slotname-expansionname-productsku`
+Conditions: `conditionname-expansionname-productsku`
 
 XWS ids have to be unique per type (pilot/upgrade/condition/etc) and do not collide with ids of other types. So there can be a `hansolo` _pilot_ and a `hansolo` _upgrade_, but there cannot be two upgrades with the `hansolo` xws id (regardless of the slot of those upgrades). One of those cards would get the `-slotname` suffix (for example: `hansolo-gunner`).
 
