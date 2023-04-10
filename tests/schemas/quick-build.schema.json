@@ -21,7 +21,7 @@
             "type": "object",
             "additionalProperties": false,
             "patternProperties": {
-              "^(astromech|cannon|configuration|crew|device|force-power|gunner|illicit|missile|modification|sensor|tactical-relay|talent|tech|title|torpedo|turret)$": {
+              "^(astromech|cannon|configuration|crew|device|force-power|gunner|illicit|missile|modification|sensor|tactical-relay|talent|tech|title|torpedo|turret|command|hardpoint|team|cargo)$": {
                 "type": "array",
                 "minLength": 1,
                 "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
