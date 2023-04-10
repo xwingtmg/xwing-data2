@@ -12,6 +12,7 @@ const mapSlotXWSToName = {
   "force-power": "Force Power",
   gunner: "Gunner",
   hardpoint: "Hardpoint",
+  hyperdrive: "Hyperdrive",
   illicit: "Illicit",
   missile: "Missile",
   modification: "Modification",
