@@ -51,7 +51,8 @@
           "id": "idenversio",
           "upgrades": {
             "talent": ["lonewolf"],
-            "torpedo": ["protontorpedoes"]
+            "torpedo": ["protontorpedoes"],
+			"modification": ["targetingcomputer"]
           }
         }
       ]
@@ -1118,6 +1119,547 @@
             "device": ["proximitymines"],
             "crew": ["gnkgonkdroid"],
             "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "baronoftheempire",
+          "upgrades": {
+            "talent": ["elusive", "outmaneuver"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "inquisitor",
+          "upgrades": {
+            "force-power": ["heightenedperception"],
+            "missile": ["protonrockets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "grandinquisitor",
+          "upgrades": {
+            "force-power": ["hate"],
+            "modification": ["shieldupgrade"],
+			"missile": ["protonrockets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "seventhsister",
+          "upgrades": {
+            "force-power": ["predictiveshot"],
+            "modification": ["afterburners", "hullupgrade"],
+			"missile": ["protonrockets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "captaindobbs",
+          "upgrades": {
+            "talent": ["disciplined"],
+            "cannon": ["tractorbeam"],
+			"configuration": ["tiedefenderelite"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "deltasquadronpilot",
+          "upgrades": {
+            "missile": ["ionmissiles"],
+            "cannon": ["tractorbeam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "deltasquadronpilot",
+          "upgrades": {
+            "cannon": ["autoblasters"],
+            "configuration": ["tiedefenderelite"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "onyxsquadronace",
+          "upgrades": {
+            "talent": ["interloperturn"],
+            "cannon": ["tractorbeam"],
+			"configuration": ["tiedefenderelite"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "colonelvessery",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "modification": ["hullupgrade"],
+			"cannon": ["tractorbeam"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "countessryad",
+          "upgrades": {
+            "talent": ["predator"],
+            "sensor": ["advancedsensors"],
+			"cannon": ["tractorbeam"],
+			"missile": ["ionmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "onyxsquadronace",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "modification": ["shieldupgrade"],
+			"sensor": ["advancedsensors"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "rexlerbrath",
+          "upgrades": {
+            "talent": ["elusive"],
+            "sensor": ["advancedsensors"],
+			"missile": ["ionmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "vultskerris",
+          "upgrades": {
+            "talent": ["daredevil", "predator"],
+            "missile": ["magpulsewarheads"],
+			"configuration": ["tiedefenderelite"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "darthvader-tieddefender",
+          "upgrades": {
+            "force-power": ["sense"],
+            "missile": ["magpulsewarheads"],
+			"configuration": ["tiedefenderelite"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "alphasquadronpilot",
+          "upgrades": {
+            "modification": ["hullupgrade", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "alphasquadronpilot",
+          "upgrades": {
+            "talent": ["disciplined"],
+            "configuration": ["sensitivecontrols"],
+			"modification": ["staticdischargevanes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "alphasquadronpilot",
+          "upgrades": {
+            "configuration": ["sensitivecontrols"],
+            "modification": ["shieldupgrade", "targetingcomputer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "cienaree",
+          "upgrades": {
+            "talent": ["disciplined"],
+            "configuration": ["sensitivecontrols"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "commandantgoran",
+          "upgrades": {
+            "talent": ["disciplined", "margsablclosure"],
+            "configuration": ["sensitivecontrols"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "lieutenantlorrir",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "configuration": ["sensitivecontrols"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "nashwindrider",
+          "upgrades": {
+            "talent": ["daredevil"],
+            "configuration": ["sensitivecontrols"],
+			"modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sabersquadronace",
+          "upgrades": {
+            "talent": ["predator"],
+			"modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sabersquadronace",
+          "upgrades": {
+            "talent": ["daredevil"],
+            "configuration": ["sensitivecontrols"],
+			"modification": ["targetingcomputer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "turrphennir",
+          "upgrades": {
+            "talent": ["outmaneuver"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "gideonhask-tieininterceptor",
+          "upgrades": {
+            "talent": ["disciplined", "elusive"],
+            "configuration": ["sensitivecontrols"],
+			"modification": ["shieldupgrade", "targetingcomputer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "soontirfel",
+          "upgrades": {
+            "talent": ["daredevil", "predator"],
+			"modification": ["afterburners", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "vultskerris-tieininterceptor",
+          "upgrades": {
+            "talent": ["daredevil", "elusive", "predator"],
+            "configuration": ["sensitivecontrols"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "caridaacademycadet",
+          "upgrades": {
+            "talent": ["snapshot"],
+            "configuration": ["maneuverassistmgk300"],
+		    "cannon": ["syncedlasercannons"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "lyttandree",
+          "upgrades": {
+            "talent": ["deadeyeshot"],
+            "configuration": ["maneuverassistmgk300"],
+		    "cannon": ["ioncannon", "heavylasercannon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "onyxsquadronsentry",
+          "upgrades": {
+            "talent": ["ionlimiteroverride"],
+            "configuration": ["maneuverassistmgk300"],
+		    "cannon": ["heavylasercannon"],
+			"modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "rampage",
+          "upgrades": {
+            "talent": ["predator"],
+            "configuration": ["maneuverassistmgk300"],
+		    "cannon": ["syncedlasercannons"],
+			"modification": ["afterburners", "ablativeplating"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "captainoicunn",
+          "upgrades": {
+            "modification": ["tacticalscrambler"],
+            "crew": ["agentkallus"],
+		    "title": ["dauntless"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "patrolleader",
+          "upgrades": {
+            "crew": ["darthvader", "000"],
+            "gunner": ["bt1"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "rearadmiralchiraneau",
+          "upgrades": {
+            "torpedo": ["protontorpedoes"],
+            "gunner": ["veteranturretgunner"],
+		    "crew": ["gnkgonkdroid"],
+			"device": ["proximitymines"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "patrolleader",
+          "upgrades": {
+            "talent": ["lonewolf"],
+            "crew": ["grandinquisitor", "seventhsister"],
+		    "gunner": ["fifthbrother"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "outerrimgarrison",
+          "upgrades": {
+            "command": ["strategiccommander"],
+            "turret": ["dorsalturret"],
+		    "team": ["commsteam", "sensorexperts"],
+			"cargo": ["boostedscanners", "optimizedpowercore"],
+			"title": ["requiem"],
+			"hardpoint": ["targetingbattery"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 9,
+      "pilots": [
+        {
+          "id": "outerrimpatrol",
+          "upgrades": {
+            "command": ["captainneeda"],
+            "torpedo": ["advprotontorpedoes"],
+		    "team": ["ordnanceteam", "bombardmentspecialists"],
+			"cargo": ["boostedscanners"],
+			"title": ["impetuous"],
+			"hardpoint": ["ordnancetubes", "turbolaserbattery"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "moffgideon",
+          "upgrades": {
+            "talent": ["deadeyeshot", "outmaneuver"],
+            "modification": ["hullupgrade"],
+            "illicit": ["overtunedmodulators"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "isbjingoist",
+          "upgrades": {
+            "talent": ["ionlimiteroverride"],
+            "modification": ["afterburners", "shieldupgrade"],
+            "illicit": ["falsetranspondercodes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "garsaxon",
+          "upgrades": {
+            "crew": ["imperialsupercommandos"],
+            "modification": ["dropseatbay", "shieldupgrade", "hullupgrade"],
+			"configuration": ["swivelwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "captainhark",
+          "upgrades": {
+            "configuration": ["combatboardingtubes"],
+            "crew": ["imperialsupercommandos"],
+			"configuration": ["swivelwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "imperialsupercommando",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "device": ["concussionbombs"],
+            "gunner": ["veterantailgunner"],
+            "modification": ["hullupgrade"]
           }
         }
       ]
