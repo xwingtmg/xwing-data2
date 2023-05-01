@@ -1,7 +1,6 @@
 {
   "name": "VT-49 Decimator",
   "xws": "vt49decimator",
-  "ffg": 28,
   "size": "Large",
   "dial": [
     "1TR",
@@ -36,7 +35,7 @@
     { "difficulty": "White", "type": "Rotate Arc" },
     { "difficulty": "Red", "type": "Coordinate" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Decimator.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Decimator.png",
   "pilots": [
     {
       "name": "Captain Oicunn",
@@ -60,7 +59,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainoicunn.png",
-      "ffg": 146,
       "standard": true,
       "extended": true,
       "epic": true
@@ -76,7 +74,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/patrolleader.png",
       "slots": ["Torpedo", "Crew", "Device", "Modification", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/patrolleader.png",
-      "ffg": 148,
       "standard": true,
       "extended": true,
       "epic": true
@@ -103,7 +100,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rearadmiralchiraneau.png",
-      "ffg": 147,
       "standard": true,
       "extended": true,
       "epic": true
@@ -131,7 +127,6 @@
       "ability": "During the End Phase, you may spend 1 [Charge] to flip 1 of your reinforce tokens to your other full arc instead of removing it.",
       "cost": 7,
       "loadout": 22,
-      "ffg": 634,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mornakee.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/mornakee.png",
       "epic": true

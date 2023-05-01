@@ -1,7 +1,6 @@
 {
   "name": "Modified TIE/ln Fighter",
   "xws": "modifiedtielnfighter",
-  "ffg": 56,
   "size": "Small",
   "dial": [
     "1TW",
@@ -32,7 +31,7 @@
     { "difficulty": "White", "type": "Evade" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_MiningGuild_TIE.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_MiningGuild_TIE.png",
   "pilots": [
     {
       "name": "Ahhav",
@@ -50,7 +49,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/ahhav.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ahhav.png",
       "slots": ["Talent", "Illicit", "Illicit", "Modification"],
-      "ffg": 442,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -73,7 +71,6 @@
         "text": "While you move, you ignore asteroids."
       },
       "slots": ["Talent", "Cannon", "Missile", "Modification"],
-      "ffg": 443,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -95,7 +92,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/foremanproach.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/foremanproach.png",
       "slots": ["Talent", "Talent", "Modification"],
-      "ffg": 441,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -116,7 +112,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/miningguildsurveyor.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/miningguildsurveyor.png",
       "slots": ["Talent"],
-      "ffg": 445,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -139,7 +134,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/overseeryushyn.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/overseeryushyn.png",
       "slots": ["Talent", "Modification"],
-      "ffg": 444,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -160,7 +154,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/miningguildsentry.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/miningguildsentry.png",
       "slots": ["Illicit"],
-      "ffg": 446,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],

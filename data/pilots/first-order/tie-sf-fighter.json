@@ -1,7 +1,6 @@
 {
   "name": "TIE/sf Fighter",
   "xws": "tiesffighter",
-  "ffg": 50,
   "size": "Small",
   "dial": [
     "1TR",
@@ -55,7 +54,7 @@
       "type": "Barrel Roll"
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEsf.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_TIEsf.png",
   "pilots": [
     {
       "name": "“Quickdraw”",
@@ -74,7 +73,6 @@
       "charges": { "value": 1, "recovers": 1 },
       "image": "https://infinitearenas.com/xw2/images/pilots/quickdraw.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/quickdraw.png",
-      "ffg": 406,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -103,7 +101,6 @@
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/backdraft.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/backdraft.png",
-      "ffg": 407,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -124,7 +121,6 @@
       "slots": ["Sensor", "Missile", "Modification", "Gunner", "Tech"],
       "image": "https://infinitearenas.com/xw2/images/pilots/omegasquadronexpert.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/omegasquadronexpert.png",
-      "ffg": 408,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -145,7 +141,6 @@
       "slots": ["Sensor", "Talent", "Gunner", "Tech"],
       "image": "https://infinitearenas.com/xw2/images/pilots/zetasquadronsurvivor.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zetasquadronsurvivor.png",
-      "ffg": 409,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -175,7 +170,6 @@
       "ability": "While you perform an attack, you may spend another friendly ship's lock on the defender to reroll any number of your results.",
       "cost": 5,
       "loadout": 18,
-      "ffg": 641,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantlehuse.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/lieutenantlehuse.png",
       "keywords": ["TIE"],
@@ -205,7 +199,6 @@
       "ability": "While you defend, after the Neutralize Results step, another friendly ship at range 0-1 must suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
       "cost": 4,
       "loadout": 14,
-      "ffg": 642,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainphasma.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/captainphasma.png",
       "keywords": ["TIE"],

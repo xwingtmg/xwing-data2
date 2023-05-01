@@ -1,7 +1,6 @@
 {
   "name": "Scavenged YT-1300",
   "xws": "scavengedyt1300",
-  "ffg": 57,
   "size": "Large",
   "dial": [
     "1BW",
@@ -35,7 +34,7 @@
     { "difficulty": "Red", "type": "Boost" },
     { "difficulty": "Red", "type": "Rotate Arc" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Falcon_Resistance.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_Falcon_Resistance.png",
   "pilots": [
     {
       "name": "Resistance Sympathizer",
@@ -48,7 +47,6 @@
       "cost": 6,
       "loadout": 10,
       "slots": ["Talent", "Missile", "Modification", "Modification", "Gunner"],
-      "ffg": 430,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -77,7 +75,6 @@
         "Title",
         "Gunner"
       ],
-      "ffg": 429,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -105,7 +102,6 @@
         "Modification",
         "Gunner"
       ],
-      "ffg": 427,
       "standard": false,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -134,7 +130,6 @@
         "Gunner",
         "Force Power"
       ],
-      "ffg": 428,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "Light Side", "YT-1300"],

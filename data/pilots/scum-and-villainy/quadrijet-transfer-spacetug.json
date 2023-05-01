@@ -1,7 +1,6 @@
 {
   "name": "Quadrijet Transfer Spacetug",
   "xws": "quadrijettransferspacetug",
-  "ffg": 9,
   "size": "Small",
   "dial": [
     "1AR",
@@ -35,7 +34,7 @@
     { "difficulty": "Red", "type": "Evade" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Quadjumper.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Quadjumper.png",
   "pilots": [
     {
       "name": "Constable Zuvio",
@@ -60,7 +59,6 @@
         "Tech"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/constablezuvio.png",
-      "ffg": 161,
       "standard": false,
       "extended": true,
       "epic": true
@@ -80,7 +78,6 @@
       },
       "slots": ["Device", "Illicit"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jakkugunrunner.png",
-      "ffg": 164,
       "standard": false,
       "extended": true,
       "epic": true
@@ -101,7 +98,6 @@
       },
       "slots": ["Crew", "Device", "Illicit", "Illicit", "Modification", "Tech"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sarcoplank.png",
-      "ffg": 162,
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter"],
@@ -123,7 +119,6 @@
       },
       "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/unkarplutt.png",
-      "ffg": 163,
       "standard": false,
       "extended": true,
       "epic": true

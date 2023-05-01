@@ -2,7 +2,6 @@
   "name": "Resistance Transport",
   "xws": "resistancetransport",
   "size": "Small",
-  "ffg": 63,
   "dial": [
     "0OR",
     "1AR",
@@ -58,7 +57,6 @@
         "Modification"
       ],
       "ability": "While you defend or perform a primary attack, if your revealed maneuver is red, roll 1 additional die.",
-      "ffg": 569,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/covanell.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/covanell.png",
       "caption": "Evacuation Escort",
@@ -86,7 +84,6 @@
         "Modification"
       ],
       "ability": "While you have 2 or fewer stress tokens, you may execute red maneuvers even while stressed.",
-      "ffg": 570,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/pammichnerrogoode.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/pammichnerrogoode.png",
       "epic": true
@@ -111,7 +108,6 @@
         "Modification"
       ],
       "ability": "After you coordinate or are coordinated, if you have 2 or fewer stress tokens, you may perform 1 action on your action bar as a red action, even if you are stressed.",
-      "ffg": 571,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nodinchavdri.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/nodinchavdri.png",
       "caption": "Insubordinate Insurgent",
@@ -128,7 +124,6 @@
       "cost": 4,
       "loadout": 6,
       "slots": ["Cannon", "Crew", "Astromech", "Astromech"],
-      "ffg": 572,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/logisticsdivisionpilot.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/logisticsdivisionpilot.png",
       "epic": true
@@ -159,5 +154,5 @@
     "epic": true
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Resistance_Transport.png"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_Resistance_Transport.png"
 }

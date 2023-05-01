@@ -1,7 +1,6 @@
 {
   "name": "HWK-290 Light Freighter",
   "xws": "hwk290lightfreighter",
-  "ffg": 34,
   "size": "Small",
   "dial": [
     "0OR",
@@ -43,7 +42,7 @@
     { "difficulty": "White", "type": "Rotate Arc" },
     { "difficulty": "Red", "type": "Jam" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_HWK-290.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_HWK-290.png",
   "pilots": [
     {
       "name": "Jan Ors",
@@ -65,7 +64,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/janors.png",
-      "ffg": 42,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter"],
@@ -83,7 +81,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/kylekatarn.png",
       "slots": ["Talent", "Talent", "Crew", "Device", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kylekatarn.png",
-      "ffg": 43,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter"],
@@ -100,7 +97,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/rebelscout.png",
       "slots": ["Device", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rebelscout.png",
-      "ffg": 45,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter"],
@@ -125,7 +121,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/roarkgarnet.png",
-      "ffg": 44,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter"],

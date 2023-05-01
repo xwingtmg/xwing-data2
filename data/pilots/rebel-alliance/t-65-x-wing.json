@@ -1,7 +1,6 @@
 {
   "name": "T-65 X-wing",
   "xws": "t65xwing",
-  "ffg": 33,
   "size": "Small",
   "dial": [
     "1BB",
@@ -35,7 +34,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_X-wing-T65.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_X-wing-T65.png",
   "pilots": [
     {
       "name": "Biggs Darklighter",
@@ -49,7 +48,6 @@
       "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/biggsdarklighter.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/biggsdarklighter.png",
-      "ffg": 7,
       "standard": true,
       "extended": true,
       "keywords": ["X-wing"],
@@ -65,14 +63,7 @@
       "text": "Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.",
       "image": "https://infinitearenas.com/xw2/images/pilots/bluesquadronescort.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronescort.png",
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/1a/9c1ad7ef-dfb1-427c-b700-747d857f53fc/op066-blue-squadron-pilot.png",
-          "source": "X-Wing Second Edition Launch Party"
-        }
-      ],
       "slots": ["Astromech", "Configuration"],
-      "ffg": 11,
       "standard": true,
       "extended": true,
       "keywords": ["X-wing"],
@@ -89,7 +80,6 @@
       "slots": ["Astromech", "Illicit", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/cavernangelszealot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cavernangelszealot.png",
-      "ffg": 12,
       "standard": true,
       "extended": true,
       "keywords": ["Partisan", "X-wing"],
@@ -111,7 +101,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/edriotwotubes.png",
-      "ffg": 9,
       "standard": true,
       "extended": true,
       "keywords": ["Partisan", "X-wing"],
@@ -135,7 +124,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/garvendreis-t65xwing.png",
-      "ffg": 4,
       "standard": true,
       "extended": true,
       "keywords": ["X-wing"],
@@ -153,7 +141,6 @@
       "slots": ["Torpedo", "Astromech", "Talent", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/jekporkins.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jekporkins.png",
-      "ffg": 5,
       "standard": true,
       "extended": true,
       "keywords": ["X-wing"],
@@ -177,7 +164,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kullbeesperado.png",
-      "ffg": 6,
       "standard": true,
       "extended": true,
       "keywords": ["Partisan", "X-wing"],
@@ -201,7 +187,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leevantenza.png",
-      "ffg": 8,
       "standard": true,
       "extended": true,
       "keywords": ["Partisan", "X-wing"],
@@ -218,16 +203,6 @@
       "ability": "After you become the defender (before dice are rolled), you may recover 1 [Force].",
       "image": "https://infinitearenas.com/xw2/images/pilots/lukeskywalker.png",
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/5b/aa/5baa3742-b7b2-47d7-9bec-07f02fafaf1c/op066-luke-skywalker.png",
-          "source": "X-Wing Second Edition Launch Party"
-        },
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/ab/5d/ab5d5131-0043-4b74-9549-5e959aaaf47a/op086-luke-skywalker.png",
-          "source": "Gen Con Indy 2018"
-        }
-      ],
       "slots": [
         "Talent",
         "Torpedo",
@@ -237,7 +212,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lukeskywalker.png",
-      "ffg": 2,
       "standard": true,
       "extended": true,
       "keywords": ["Light Side", "X-wing"],
@@ -254,7 +228,6 @@
       "slots": ["Talent", "Astromech", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/redsquadronveteran.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redsquadronveteran.png",
-      "ffg": 10,
       "standard": true,
       "extended": true,
       "keywords": ["X-wing"],
@@ -277,7 +250,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/thanekyrell.png",
-      "ffg": 3,
       "standard": true,
       "extended": true,
       "keywords": ["X-wing"],
@@ -302,7 +274,6 @@
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/wedgeantilles.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles.png",
-      "ffg": 1,
       "standard": true,
       "extended": true,
       "keywords": ["X-wing"],

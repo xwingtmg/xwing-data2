@@ -1,7 +1,6 @@
 {
   "name": "Xi-class Light Shuttle",
   "xws": "xiclasslightshuttle",
-  "ffg": 73,
   "size": "Medium",
   "dial": [
     "0OR",
@@ -36,7 +35,6 @@
   ],
   "pilots": [
     {
-      "ffg": 658,
       "name": "Agent Terex",
       "caption": "Devious Provocateur",
       "xws": "agentterex",
@@ -62,7 +60,6 @@
       "epic": true
     },
     {
-      "ffg": 656,
       "name": "Commander Malarus",
       "caption": "Vindictive Taskmaster",
       "xws": "commandermalarus-xiclasslightshuttle",
@@ -87,7 +84,6 @@
       "epic": true
     },
     {
-      "ffg": 659,
       "name": "First Order Courier",
       "xws": "firstordercourier",
       "initiative": 2,
@@ -122,7 +118,6 @@
         "Tech",
         "Tech"
       ],
-      "ffg": 657,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gideonhask-xiclasslightshuttle.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/gideonhask-xiclasslightshuttle.png",
       "epic": true
@@ -153,5 +148,5 @@
       "epic": true
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Xi-class_Shuttle.png"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_Xi-class_Shuttle.png"
 }

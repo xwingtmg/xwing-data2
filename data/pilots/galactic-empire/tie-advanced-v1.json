@@ -1,7 +1,6 @@
 {
   "name": "TIE Advanced v1",
   "xws": "tieadvancedv1",
-  "ffg": 25,
   "size": "Small",
   "dial": [
     "1TB",
@@ -47,7 +46,7 @@
       "type": "Boost"
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAdvancedPrototype.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEAdvancedPrototype.png",
   "pilots": [
     {
       "name": "Baron of the Empire",
@@ -60,7 +59,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/baronoftheempire.png",
       "slots": ["Talent", "Sensor", "Missile"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/baronoftheempire.png",
-      "ffg": 101,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -79,7 +77,6 @@
       "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "slots": ["Sensor", "Missile", "Force Power", "Force Power", "Talent"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/grandinquisitor.png",
-      "ffg": 99,
       "standard": true,
       "extended": true,
       "keywords": ["Dark Side", "TIE"],
@@ -97,7 +94,6 @@
       "force": { "value": 1, "recovers": 1, "side": ["dark"] },
       "slots": ["Sensor", "Force Power"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/inquisitor.png",
-      "ffg": 102,
       "standard": true,
       "extended": true,
       "keywords": ["Dark Side", "TIE"],
@@ -116,7 +112,6 @@
       "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "slots": ["Sensor", "Missile", "Force Power", "Talent", "Talent"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/seventhsister.png",
-      "ffg": 100,
       "standard": true,
       "extended": true,
       "keywords": ["Dark Side", "TIE"],
@@ -135,7 +130,6 @@
       "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force] to add 1 [Critical Hit] result.",
       "cost": 5,
       "loadout": 10,
-      "ffg": 632,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/fifthbrother.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/fifthbrother.png",
       "keywords": ["Dark Side", "TIE"],

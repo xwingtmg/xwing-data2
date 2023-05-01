@@ -1,7 +1,6 @@
 {
   "name": "Scurrg H-6 bomber",
   "xws": "scurrgh6bomber",
-  "ffg": 4,
   "size": "Medium",
   "dial": [
     "1BB",
@@ -34,7 +33,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Scurrg.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Scurrg.png",
   "pilots": [
     {
       "name": "Captain Nym",
@@ -58,7 +57,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainnym.png",
-      "ffg": 204,
       "standard": false,
       "extended": true,
       "epic": true
@@ -74,7 +72,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/lokrevenant.png",
       "slots": ["Turret", "Device", "Device", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lokrevenant.png",
-      "ffg": 206,
       "standard": false,
       "extended": true,
       "epic": true
@@ -99,7 +96,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/solsixxa.png",
-      "ffg": 205,
       "standard": false,
       "extended": true,
       "epic": true

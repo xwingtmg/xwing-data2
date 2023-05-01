@@ -1,7 +1,6 @@
 {
   "name": "TIE/ba Interceptor",
   "xws": "tiebainterceptor",
-  "ffg": 70,
   "size": "Small",
   "dial": [
     "1TB",
@@ -39,7 +38,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Vonregs-First-Order-TIE-Interceptor.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_Vonregs-First-Order-TIE-Interceptor.png",
   "pilots": [
     {
       "name": "Major Vonreg",
@@ -64,7 +63,6 @@
       ],
       "standard": true,
       "extended": true,
-      "ffg": 624,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorvonreg.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/majorvonreg.png",
       "keywords": ["TIE"],
@@ -86,7 +84,6 @@
       "slots": ["Talent", "Tech", "Missile", "Modification", "Modification"],
       "standard": true,
       "extended": true,
-      "ffg": 625,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/holo.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/holo.png",
       "keywords": ["TIE"],
@@ -108,7 +105,6 @@
       "slots": ["Talent", "Talent", "Tech", "Missile", "Modification"],
       "standard": true,
       "extended": true,
-      "ffg": 626,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ember.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/ember.png",
       "keywords": ["TIE"],
@@ -129,7 +125,6 @@
       "slots": ["Talent", "Tech", "Modification"],
       "standard": true,
       "extended": true,
-      "ffg": 627,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/firstorderprovocateur.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/firstorderprovocateur.png",
       "keywords": ["TIE"],

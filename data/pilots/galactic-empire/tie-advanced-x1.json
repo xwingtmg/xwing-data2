@@ -1,7 +1,6 @@
 {
   "name": "TIE Advanced x1",
   "xws": "tieadvancedx1",
-  "ffg": 13,
   "size": "Small",
   "dial": [
     "1BB",
@@ -40,7 +39,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAdvanced.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEAdvanced.png",
   "pilots": [
     {
       "name": "Darth Vader",
@@ -52,12 +51,6 @@
       "xws": "darthvader",
       "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
       "image": "https://infinitearenas.com/xw2/images/pilots/darthvader.png",
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/24/0a/240a5d21-309c-4d3d-aef9-5dab25564b7b/op18xu_card_altart2.png",
-          "source": "European and North American Championship 2018"
-        }
-      ],
       "force": { "value": 3, "recovers": 1, "side": ["dark"] },
       "shipAbility": {
         "name": "Advanced Targeting Computer",
@@ -74,7 +67,6 @@
         "Tech"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
-      "ffg": 93,
       "standard": true,
       "extended": true,
       "keywords": ["Dark Side", "Sith", "TIE"],
@@ -102,7 +94,6 @@
         "Modification"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png",
-      "ffg": 94,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -123,7 +114,6 @@
       },
       "slots": ["Sensor", "Talent", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/stormsquadronace.png",
-      "ffg": 97,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -137,12 +127,6 @@
       "loadout": 4,
       "xws": "tempestsquadronpilot",
       "text": "The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.",
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/19/d5/19d5865e-09d1-4bad-b8ac-8e0c5124745a/op18xu_card_plastic2.png",
-          "source": "European and North American Championship 2018"
-        }
-      ],
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
@@ -150,7 +134,6 @@
       "slots": ["Sensor", "Modification"],
       "image": "https://infinitearenas.com/xw2/images/pilots/tempestsquadronpilot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tempestsquadronpilot.png",
-      "ffg": 98,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -177,7 +160,6 @@
         "Modification"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vedfoslo.png",
-      "ffg": 95,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -199,7 +181,6 @@
       },
       "slots": ["Sensor", "Missile", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zertikstrom.png",
-      "ffg": 96,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],

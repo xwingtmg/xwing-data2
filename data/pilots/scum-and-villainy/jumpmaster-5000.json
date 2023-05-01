@@ -1,7 +1,6 @@
 {
   "name": "JumpMaster 5000",
   "xws": "jumpmaster5000",
-  "ffg": 45,
   "size": "Large",
   "dial": [
     "1TW",
@@ -42,7 +41,7 @@
     },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Jumpmaster.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Jumpmaster.png",
   "pilots": [
     {
       "name": "Contracted Scout",
@@ -55,7 +54,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/contractedscout.png",
       "slots": ["Cannon", "Torpedo", "Illicit"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/contractedscout.png",
-      "ffg": 217,
       "standard": true,
       "extended": true,
       "epic": true
@@ -70,12 +68,6 @@
       "xws": "dengar",
       "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
       "image": "https://infinitearenas.com/xw2/images/pilots/dengar.png",
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/fe/da/feda9a2c-38f4-447a-8b0c-af7e04ace137/op067_dengar.png",
-          "source": "Coruscant Invitational 2018"
-        }
-      ],
       "charges": { "value": 1, "recovers": 1 },
       "slots": [
         "Talent",
@@ -88,7 +80,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dengar.png",
-      "ffg": 214,
       "standard": true,
       "extended": true,
       "keywords": ["Bounty Hunter"],
@@ -115,7 +106,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/manaroo.png",
-      "ffg": 215,
       "standard": true,
       "extended": true,
       "keywords": ["Bounty Hunter"],
@@ -143,7 +133,6 @@
         "Modification"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/teltrevura.png",
-      "ffg": 216,
       "standard": true,
       "extended": true,
       "epic": true
@@ -168,7 +157,6 @@
       "ability": "After you become the defender, if the attacker is not in your [Single Turret Arc], you must rotate your [Single Turret Arc] indicator to a standard arc the attacker is in.",
       "cost": 5,
       "loadout": 11,
-      "ffg": 637,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nomlumb.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/nomlumb.png",
       "keywords": ["Bounty Hunter"],

@@ -1,7 +1,6 @@
 {
   "name": "Aggressor Assault Fighter",
   "xws": "aggressorassaultfighter",
-  "ffg": 21,
   "size": "Medium",
   "dial": [
     "1TW",
@@ -36,7 +35,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_IG-2000.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_IG-2000.png",
   "pilots": [
     {
       "name": "IG-88A",
@@ -63,7 +62,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ig88a.png",
-      "ffg": 197,
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter", "Droid"],
@@ -79,12 +77,6 @@
       "xws": "ig88b",
       "ability": "After you perform an attack that misses, you may perform a bonus [Cannon] attack.",
       "image": "https://infinitearenas.com/xw2/images/pilots/ig88b.png",
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/26/e9/26e959b8-34a2-4d0d-93b1-2efad56cd573/op067_ig-88d.png",
-          "source": "Coruscant Invitational 2018"
-        }
-      ],
       "shipAbility": {
         "name": "Advanced Droid Brain",
         "text": "After you perform a [Calculate] action, gain 1 calculate token."
@@ -100,7 +92,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ig88b.png",
-      "ffg": 198,
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter", "Droid"],
@@ -131,7 +122,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ig88c.png",
-      "ffg": 199,
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter", "Droid"],
@@ -162,7 +152,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ig88d.png",
-      "ffg": 200,
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter", "Droid"],

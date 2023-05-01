@@ -2,7 +2,6 @@
   "name": "Naboo Royal N-1 Starfighter",
   "xws": "nabooroyaln1starfighter",
   "size": "Small",
-  "ffg": 66,
   "dial": [
     "1BW",
     "1FW",
@@ -53,7 +52,6 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "ffg": 558,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-nabooroyaln1starfighter.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/anakinskywalker-nabooroyaln1starfighter.png",
       "caption": "Hero of Naboo",
@@ -76,7 +74,6 @@
       "loadout": 15,
       "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "While you defend or perform a primary attack, if the speed of your revealed maneuver is higher than the enemy ship's, roll 1 additional die.",
-      "ffg": 557,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ricolie.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/ricolie.png",
       "epic": true
@@ -97,7 +94,6 @@
       "loadout": 22,
       "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "While an enemy ship in your [Front Arc] defends or performs an attack, that ship can modify only 1 [Focus] result (other results can still be modified).",
-      "ffg": 559,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/padmeamidala.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/padmeamidala.png",
       "epic": true
@@ -118,7 +114,6 @@
       "loadout": 14,
       "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
       "ability": "While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship's, that ship's dice cannot be modified.",
-      "ffg": 560,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dineeellberger.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/dineeellberger.png",
       "epic": true
@@ -138,7 +133,6 @@
       "cost": 4,
       "loadout": 8,
       "slots": ["Sensor", "Torpedo", "Astromech"],
-      "ffg": 562,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bravoflightofficer.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/bravoflightofficer.png",
       "epic": true
@@ -160,7 +154,6 @@
       "cost": 4,
       "loadout": 8,
       "slots": ["Sensor", "Modification", "Astromech"],
-      "ffg": 561,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/naboohandmaiden.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/naboohandmaiden.png",
       "epic": true
@@ -186,5 +179,5 @@
       "epic": true
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Royal_Naboo_N-1_Starfighter.png"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Royal_Naboo_N-1_Starfighter.png"
 }

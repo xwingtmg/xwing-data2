@@ -1,7 +1,6 @@
 {
   "name": "BTL-S8 K-wing",
   "xws": "btls8kwing",
-  "ffg": 30,
   "size": "Medium",
   "dial": [
     "1BB",
@@ -31,7 +30,7 @@
     { "difficulty": "White", "type": "Rotate Arc" },
     { "difficulty": "White", "type": "Reload" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_K-wing.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_K-wing.png",
   "pilots": [
     {
       "name": "Esege Tuketu",
@@ -53,7 +52,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/esegetuketu.png",
-      "ffg": 63,
       "standard": false,
       "extended": true,
       "epic": true
@@ -78,7 +76,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mirandadoni.png",
-      "ffg": 62,
       "standard": false,
       "extended": true,
       "epic": true
@@ -94,7 +91,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/wardensquadronpilot.png",
       "slots": ["Torpedo", "Missile", "Device", "Device", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wardensquadronpilot.png",
-      "ffg": 64,
       "standard": false,
       "extended": true,
       "epic": true

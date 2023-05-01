@@ -1,7 +1,6 @@
 {
   "name": "M12-L Kimogila Fighter",
   "xws": "m12lkimogilafighter",
-  "ffg": 39,
   "size": "Medium",
   "dial": [
     "1TR",
@@ -35,7 +34,7 @@
     { "difficulty": "Red", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Reload" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Kimogila.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Kimogila.png",
   "pilots": [
     {
       "name": "Cartel Executioner",
@@ -52,7 +51,6 @@
       },
       "slots": ["Missile"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cartelexecutioner.png",
-      "ffg": 209,
       "standard": false,
       "extended": true,
       "epic": true
@@ -81,7 +79,6 @@
         "Modification"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dalanoberos.png",
-      "ffg": 208,
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter"],
@@ -110,7 +107,6 @@
         "Modification"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/toranikulda.png",
-      "ffg": 207,
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter"],

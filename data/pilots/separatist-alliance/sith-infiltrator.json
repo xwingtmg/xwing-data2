@@ -36,7 +36,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_SithInfiltrator.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_SithInfiltrator.png",
   "pilots": [
     {
       "name": "Darth Maul",
@@ -63,7 +63,6 @@
         "Force Power",
         "Tactical Relay"
       ],
-      "ffg": 503,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthmaul.png",
       "keywords": ["Dark Side", "Sith"],
       "epic": true
@@ -92,7 +91,6 @@
         "Force Power",
         "Tactical Relay"
       ],
-      "ffg": 504,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
       "keywords": ["Dark Side", "Sith"],
       "epic": true
@@ -109,7 +107,6 @@
       "cost": 6,
       "loadout": 9,
       "slots": ["Cannon", "Torpedo", "Device", "Modification"],
-      "ffg": 506,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darkcourier.png",
       "epic": true
     },
@@ -126,7 +123,6 @@
         "Device",
         "Modification"
       ],
-      "ffg": 505,
       "caption": "Sinister Automaton",
       "initiative": 3,
       "limited": 1,
@@ -167,6 +163,5 @@
       "keywords": ["Dark Side", "Sith"],
       "epic": true
     }
-  ],
-  "ffg": 60
+  ]
 }

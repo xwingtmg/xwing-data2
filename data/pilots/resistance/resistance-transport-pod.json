@@ -2,7 +2,6 @@
   "name": "Resistance Transport Pod",
   "xws": "resistancetransportpod",
   "size": "Small",
-  "ffg": 65,
   "dial": [
     "1TR",
     "1BB",
@@ -46,7 +45,6 @@
       "loadout": 4,
       "slots": ["Tech", "Tech", "Crew", "Modification"],
       "ability": "During the System Phase, you may perform a red [Barrel Roll] or [Boost] action.",
-      "ffg": 573,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bb8.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/bb8.png",
       "shipActions": [
@@ -71,7 +69,6 @@
       "loadout": 8,
       "slots": ["Talent", "Tech", "Crew", "Modification", "Modification"],
       "ability": "While you defend or perform an attack, you may reroll up to 1 of your results for each other friendly ship in the attack arc.",
-      "ffg": 574,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rosetico.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/rosetico.png",
       "epic": true
@@ -89,7 +86,6 @@
       "slots": ["Tech", "Crew", "Modification"],
       "ability": "Setup: After placing forces, assign the Compromising Intel condition to 1 enemy ship.",
       "conditions": ["compromisingintel"],
-      "ffg": 576,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vimoradi.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/vimoradi.png",
       "epic": true
@@ -106,11 +102,10 @@
       "loadout": 12,
       "slots": ["Talent", "Talent", "Tech", "Crew", "Modification"],
       "ability": "While you defend or perform an attack, you may add 1 blank result, or you may gain 1 strain token to add 1 focus result instead.",
-      "ffg": 575,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/finn.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/finn.png",
       "epic": true
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Resistance_Transport_Cockpit_Pod.png"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_Resistance_Transport_Cockpit_Pod.png"
 }

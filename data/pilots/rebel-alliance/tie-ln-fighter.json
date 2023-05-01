@@ -1,7 +1,6 @@
 {
   "name": "TIE/ln Fighter",
   "xws": "tielnfighter",
-  "ffg": 11,
   "size": "Small",
   "dial": [
     "1TW",
@@ -33,7 +32,7 @@
     { "difficulty": "White", "type": "Evade" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEFighter.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_TIEFighter.png",
   "pilots": [
     {
       "name": "“Zeb” Orrelios",
@@ -47,7 +46,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/zeborrelios-tielnfighter.png",
       "slots": ["Crew", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zeborrelios-tielnfighter.png",
-      "ffg": 49,
       "standard": true,
       "extended": true,
       "keywords": ["TIE", "Spectre"],
@@ -66,7 +64,6 @@
       "conditions": ["suppressivefire"],
       "slots": ["Talent", "Talent", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainrex.png",
-      "ffg": 48,
       "standard": true,
       "extended": true,
       "keywords": ["Clone", "TIE"],
@@ -85,7 +82,6 @@
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "slots": ["Modification", "Crew", "Force Power"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ezrabridger-tielnfighter.png",
-      "ffg": 46,
       "standard": true,
       "extended": true,
       "keywords": ["Light Side", "Spectre", "TIE"],
@@ -103,7 +99,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/sabinewren-tielnfighter.png",
       "slots": ["Talent", "Missile", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sabinewren-tielnfighter.png",
-      "ffg": 47,
       "standard": true,
       "extended": true,
       "keywords": ["Mandalorian", "TIE", "Spectre"],

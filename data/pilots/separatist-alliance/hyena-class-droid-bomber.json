@@ -2,7 +2,6 @@
   "name": "Hyena-class Droid Bomber",
   "xws": "hyenaclassdroidbomber",
   "size": "Small",
-  "ffg": 64,
   "dial": [
     "1TW",
     "1BR",
@@ -57,7 +56,6 @@
       "slots": ["Torpedo", "Device", "Modification", "Configuration"],
       "text": "Baktoid Armor Workshop developed the Hyena as a strike craft compatible with Trade Federation Vulture swarm tactics.",
       "image": "https://infinitearenas.com/xw2/images/pilots/technounionbomber.png",
-      "ffg": 568,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/technounionbomber.png",
       "keywords": ["Droid"],
       "epic": true
@@ -79,7 +77,6 @@
       "cost": 3,
       "loadout": 8,
       "slots": ["Device", "Device", "Modification", "Configuration"],
-      "ffg": 565,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bombardmentdrone.png",
       "keywords": ["Droid"],
       "epic": true
@@ -107,7 +104,6 @@
       ],
       "ability": "While you perform an attack at attack range 1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage.",
       "image": "https://infinitearenas.com/xw2/images/pilots/dbs404.png",
-      "ffg": 563,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dbs404.png",
       "keywords": ["Droid"],
       "epic": true
@@ -135,7 +131,6 @@
         "Modification",
         "Configuration"
       ],
-      "ffg": 566,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/baktoidprototype.png",
       "keywords": ["Droid"],
       "epic": true
@@ -156,7 +151,6 @@
       "cost": 3,
       "loadout": 4,
       "slots": ["Missile", "Device", "Modification", "Configuration"],
-      "ffg": 567,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/separatistbomber.png",
       "keywords": ["Droid"],
       "epic": true
@@ -188,7 +182,6 @@
       "cost": 4,
       "loadout": 16,
       "slots": ["Sensor", "Tactical Relay", "Modification", "Configuration"],
-      "ffg": 564,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dbs32c.png",
       "keywords": ["Droid"],
       "epic": true
@@ -265,5 +258,5 @@
       "epic": true
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Hyena.png"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_Hyena.png"
 }

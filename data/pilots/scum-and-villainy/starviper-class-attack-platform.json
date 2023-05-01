@@ -1,7 +1,6 @@
 {
   "name": "StarViper-class Attack Platform",
   "xws": "starviperclassattackplatform",
-  "ffg": 3,
   "size": "Small",
   "dial": [
     "1TW",
@@ -43,7 +42,7 @@
       "type": "Boost"
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_StarViper.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_StarViper.png",
   "pilots": [
     {
       "name": "Black Sun Assassin",
@@ -60,7 +59,6 @@
       },
       "slots": ["Tech"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksunassassin.png",
-      "ffg": 181,
       "standard": false,
       "extended": true,
       "epic": true
@@ -80,7 +78,6 @@
       },
       "slots": ["Tech"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksunenforcer.png",
-      "ffg": 182,
       "standard": false,
       "extended": true,
       "epic": true
@@ -101,7 +98,6 @@
       },
       "slots": ["Talent", "Tech", "Torpedo", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dalanoberos-starviperclassattackplatform.png",
-      "ffg": 179,
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter"],
@@ -137,7 +133,6 @@
       },
       "slots": ["Talent", "Tech", "Torpedo", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/guri.png",
-      "ffg": 178,
       "standard": false,
       "extended": true,
       "keywords": ["Droid"],
@@ -159,7 +154,6 @@
       },
       "slots": ["Talent", "Tech", "Torpedo", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/princexizor.png",
-      "ffg": 180,
       "standard": false,
       "extended": true,
       "epic": true

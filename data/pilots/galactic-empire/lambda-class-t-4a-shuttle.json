@@ -1,7 +1,6 @@
 {
   "name": "Lambda-class T-4a Shuttle",
   "xws": "lambdaclasst4ashuttle",
-  "ffg": 26,
   "size": "Large",
   "dial": [
     "0OR",
@@ -32,7 +31,7 @@
     { "difficulty": "White", "type": "Coordinate" },
     { "difficulty": "Red", "type": "Jam" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Lambda.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Lambda.png",
   "pilots": [
     {
       "name": "Captain Kagi",
@@ -46,7 +45,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/captainkagi.png",
       "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainkagi.png",
-      "ffg": 142,
       "standard": false,
       "extended": true,
       "epic": true
@@ -64,7 +62,6 @@
       "charges": { "value": 2, "recovers": 0 },
       "slots": ["Sensor", "Cannon", "Cannon", "Crew", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/coloneljendon.png",
-      "ffg": 143,
       "standard": false,
       "extended": true,
       "epic": true
@@ -81,7 +78,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/lieutenantsai.png",
       "slots": ["Sensor", "Cannon", "Crew", "Crew", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantsai.png",
-      "ffg": 144,
       "standard": false,
       "extended": true,
       "epic": true
@@ -97,7 +93,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/omicrongrouppilot.png",
       "slots": ["Sensor", "Cannon", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/omicrongrouppilot.png",
-      "ffg": 145,
       "standard": false,
       "extended": true,
       "epic": true

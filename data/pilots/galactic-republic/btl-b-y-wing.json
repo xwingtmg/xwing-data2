@@ -2,7 +2,6 @@
   "name": "BTL-B Y-wing",
   "xws": "btlbywing",
   "size": "Small",
-  "ffg": 68,
   "dial": [
     "1BW",
     "1FB",
@@ -51,7 +50,6 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shadowsquadronveteran.png",
       "cost": 4,
       "loadout": 4,
-      "ffg": 602,
       "slots": [
         "Turret",
         "Torpedo",
@@ -81,7 +79,6 @@
       "ability": "After you fully execute a maneuver, if there is an enemy ship in your [Front Arc] at range 0-1 or in your [Bullseye Arc], you may spend 1 [Force] to remove 1 stress token.",
       "cost": 6,
       "loadout": 23,
-      "ffg": 596,
       "slots": [
         "Turret",
         "Torpedo",
@@ -100,7 +97,6 @@
       "caption": "Bucket of Bolts",
       "cost": 4,
       "loadout": 14,
-      "ffg": 600,
       "limited": 1,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/r2d2.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/r2d2.png",
@@ -145,7 +141,6 @@
       "extended": true,
       "cost": 4,
       "loadout": 15,
-      "ffg": 597,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/oddball-btlbywing.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/oddball-btlbywing.png",
       "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
@@ -178,7 +173,6 @@
       "ability": "While you perform a primary or [Single Turret Arc] attack, you may reroll 1 attack die for each red token you have.",
       "cost": 5,
       "loadout": 18,
-      "ffg": 598,
       "slots": [
         "Talent",
         "Turret",
@@ -208,7 +202,6 @@
       "ability": "While you perform a [Single Turret Arc] attack, if your [Single Turret Arc] indicator is in your [Left Arc] or [Right Arc], you may change 1 blank result to a [Focus] result.",
       "cost": 4,
       "loadout": 13,
-      "ffg": 599,
       "slots": [
         "Talent",
         "Turret",
@@ -238,7 +231,6 @@
       "ability": "While a friendly ship at range 0-3 defends, it may roll 1 additional defense die for each friendly bomb at range 0-1 of it.",
       "cost": 4,
       "loadout": 12,
-      "ffg": 601,
       "slots": [
         "Talent",
         "Turret",
@@ -268,11 +260,10 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/redsquadronbomber.png",
       "cost": 4,
       "loadout": 6,
-      "ffg": 603,
       "slots": ["Turret", "Torpedo", "Astromech", "Device", "Gunner"],
       "keywords": ["Clone", "Y-wing"],
       "epic": true
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_BTL-B_Ywing.png"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_BTL-B_Ywing.png"
 }

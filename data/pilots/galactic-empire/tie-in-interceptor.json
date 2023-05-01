@@ -1,7 +1,6 @@
 {
   "name": "TIE/in Interceptor",
   "xws": "tieininterceptor",
-  "ffg": 41,
   "size": "Small",
   "dial": [
     "1TW",
@@ -35,7 +34,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEInterceptor.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEInterceptor.png",
   "pilots": [
     {
       "name": "Alpha Squadron Pilot",
@@ -52,7 +51,6 @@
       },
       "slots": ["Talent", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/alphasquadronpilot.png",
-      "ffg": 106,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -73,7 +71,6 @@
       },
       "slots": ["Talent", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sabersquadronace.png",
-      "ffg": 105,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -100,7 +97,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/soontirfel.png",
-      "ffg": 103,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -127,7 +123,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/turrphennir.png",
-      "ffg": 104,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -150,7 +145,6 @@
       "slots": ["Talent", "Talent", "Modification", "Configuration"],
       "ability": "After you perform an attack, if the defender was destroyed, gain 1 stress token. After a friendly ship at range 0-3 is destroyed, remove 1 stress token.",
       "caption": "Look Through My Eyes",
-      "ffg": 889,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cienaree.png",
       "epic": true
     },
@@ -171,7 +165,6 @@
       "loadout": 12,
       "slots": ["Talent", "Talent", "Missile", "Modification", "Configuration"],
       "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die.",
-      "ffg": 892,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cienaree.png",
       "epic": true
     },
@@ -193,7 +186,6 @@
       "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
       "charges": { "value": 1, "recovers": -1 },
       "keywords": ["TIE"],
-      "ffg": 890,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vultskerris-tieininterceptor.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/vultskerris-tieininterceptor.png",
       "epic": true
@@ -215,7 +207,6 @@
       "slots": ["Talent", "Modification", "Configuration"],
       "ability": "After a friendly ship at range 0-3 with a lower initiative than yours partially executes a maneuver, it may perform a red [Focus] action.",
       "keywords": ["TIE"],
-      "ffg": 891,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/commandantgoran.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/commandantgoran.png",
       "epic": true
@@ -241,7 +232,6 @@
       ],
       "ability": "While you barrel roll, you must use the [[Bank Left] or [Bank Right]] template instead of the [[Straight]] template.",
       "keywords": ["TIE"],
-      "ffg": 893,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantlorrir.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/lieutenantlorrir.png",
       "epic": true
@@ -264,7 +254,6 @@
       "slots": ["Missile", "Modification", "Configuration"],
       "ability": "During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spend 1 [Charge]. If you do, that ship engages at the current initiative.",
       "keywords": ["TIE"],
-      "ffg": 894,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nashwindrider.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/nashwindrider.png",
       "epic": true

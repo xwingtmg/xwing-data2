@@ -1,7 +1,6 @@
 {
   "name": "UT-60D U-wing",
   "xws": "ut60duwing",
-  "ffg": 15,
   "size": "Medium",
   "dial": [
     "0OR",
@@ -31,7 +30,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "Red", "type": "Coordinate" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_U-wing.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_U-wing.png",
   "pilots": [
     {
       "name": "Benthic Two Tubes",
@@ -53,7 +52,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/benthictwotubes.png",
-      "ffg": 58,
       "standard": true,
       "extended": true,
       "keywords": ["Partisan"],
@@ -70,7 +68,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/bluesquadronscout.png",
       "slots": ["Modification", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronscout.png",
-      "ffg": 60,
       "standard": true,
       "extended": true,
       "epic": true
@@ -87,7 +84,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/bodhirook.png",
       "slots": ["Sensor", "Crew", "Crew", "Modification", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bodhirook.png",
-      "ffg": 54,
       "standard": true,
       "extended": true,
       "epic": true
@@ -104,7 +100,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/cassianandor.png",
       "slots": ["Talent", "Sensor", "Crew", "Modification", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cassianandor.png",
-      "ffg": 56,
       "standard": true,
       "extended": true,
       "epic": true
@@ -128,7 +123,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hefftobber.png",
-      "ffg": 59,
       "standard": true,
       "extended": true,
       "epic": true
@@ -153,7 +147,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/magvayarro.png",
-      "ffg": 57,
       "standard": true,
       "extended": true,
       "keywords": ["Partisan"],
@@ -170,7 +163,6 @@
       "slots": ["Illicit", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/partisanrenegade.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/partisanrenegade.png",
-      "ffg": 61,
       "standard": true,
       "extended": true,
       "keywords": ["Partisan"],
@@ -195,14 +187,7 @@
         "Modification",
         "Configuration"
       ],
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/fe/0c/fe0cdda5-8529-4331-a508-bde68b627e65/g18x2-saw-gerrera-2.png",
-          "source": "Season Two 2018"
-        }
-      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sawgerrera.png",
-      "ffg": 55,
       "standard": true,
       "extended": true,
       "keywords": ["Partisan"],
@@ -225,7 +210,6 @@
       "extended": true,
       "cost": 5,
       "loadout": 10,
-      "ffg": 629,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/k2so.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/k2so.png",
       "keywords": ["Droid"],

@@ -1,7 +1,6 @@
 {
   "name": "TIE/D Defender",
   "xws": "tieddefender",
-  "ffg": 18,
   "size": "Small",
   "dial": [
     "1TR",
@@ -38,7 +37,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEDefender.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEDefender.png",
   "pilots": [
     {
       "name": "Colonel Vessery",
@@ -56,7 +55,6 @@
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/colonelvessery.png",
-      "ffg": 123,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -85,7 +83,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countessryad.png",
-      "ffg": 124,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -106,7 +103,6 @@
       },
       "slots": ["Sensor", "Cannon", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deltasquadronpilot.png",
-      "ffg": 126,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -127,7 +123,6 @@
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronace.png",
-      "ffg": 125,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -156,7 +151,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rexlerbrath.png",
-      "ffg": 122,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -187,7 +181,6 @@
       "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
       "charges": { "value": 1, "recovers": -1 },
       "keywords": ["TIE"],
-      "ffg": 887,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vultskerris.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/vultskerris.png",
       "epic": true
@@ -210,7 +203,6 @@
       "slots": ["Talent", "Force Power", "Tech", "Cannon", "Missile", "Configuration"],
       "ability": "You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
       "keywords": ["Dark Side", "Sith", "TIE"],
-      "ffg": 886,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader-tieddefender.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/darthvader-tieddefender.png",
       "epic": true
@@ -232,7 +224,6 @@
       "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
       "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc and are not ionized, you may gain 1 ion token to cancel 1 [Hit] result.",
       "keywords": ["TIE"],
-      "ffg": 888,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captaindobbs.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/captaindobbs.png",
       "epic": true

@@ -1,7 +1,6 @@
 {
   "name": "M3-A Interceptor",
   "xws": "m3ainterceptor",
-  "ffg": 44,
   "size": "Small",
   "dial": [
     "1TW",
@@ -35,7 +34,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Scyk.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Scyk.png",
   "pilots": [
     {
       "name": "Cartel Spacer",
@@ -52,7 +51,6 @@
       },
       "slots": ["Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cartelspacer.png",
-      "ffg": 190,
       "standard": true,
       "extended": true,
       "epic": true
@@ -73,7 +71,6 @@
       },
       "slots": ["Talent", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/genesisred.png",
-      "ffg": 184,
       "standard": true,
       "extended": true,
       "epic": true
@@ -94,7 +91,6 @@
       },
       "slots": ["Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/inaldra.png",
-      "ffg": 187,
       "standard": true,
       "extended": true,
       "epic": true
@@ -115,7 +111,6 @@
       },
       "slots": ["Talent", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/laetinashera.png",
-      "ffg": 185,
       "standard": true,
       "extended": true,
       "epic": true
@@ -136,7 +131,6 @@
       },
       "slots": ["Talent", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/quinnjast.png",
-      "ffg": 186,
       "standard": true,
       "extended": true,
       "keywords": ["Bounty Hunter"],
@@ -158,7 +152,6 @@
       },
       "slots": ["Talent", "Talent", "Modification", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/serissu.png",
-      "ffg": 183,
       "standard": true,
       "extended": true,
       "epic": true
@@ -179,7 +172,6 @@
       },
       "slots": ["Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sunnybounder.png",
-      "ffg": 188,
       "standard": true,
       "extended": true,
       "epic": true
@@ -199,7 +191,6 @@
       },
       "slots": ["Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tansariipointveteran.png",
-      "ffg": 189,
       "standard": true,
       "extended": true,
       "epic": true
@@ -220,7 +211,6 @@
       "ability": "After you defend, each other ship at range 0 suffers 1 [Critical Hit] damage.",
       "cost": 3,
       "loadout": 6,
-      "ffg": 636,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/g4rgorvm.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/g4rgorvm.png",
       "shipActions": [
