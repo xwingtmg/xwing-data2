@@ -10,9 +10,7 @@
     "validate:tests:watch": "jest --watch tests/**.test.js",
     "format": "prettier --loglevel warn --write \"data/**/*.json\"",
     "changelog": "git log --pretty=format:'- %s (%h)' --no-merges",
-    "ffg2xws": "node scripts/ffg2xws.js && prettier --write data/ffg-xws.json",
     "hyperspace": "node scripts/hyperspace.js && yarn format",
-    "ffgscrape": "node scripts/ffgscrape.js && node scripts/ffgprocess.js && node scripts/ffgtranslations.js && yarn format"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
