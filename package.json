@@ -9,8 +9,7 @@
     "validate:tests": "jest tests/**.test.js",
     "validate:tests:watch": "jest --watch tests/**.test.js",
     "format": "prettier --loglevel warn --write \"data/**/*.json\"",
-    "changelog": "git log --pretty=format:'- %s (%h)' --no-merges",
-    "hyperspace": "node scripts/hyperspace.js && yarn format"
+    "changelog": "git log --pretty=format:'- %s (%h)' --no-merges"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
