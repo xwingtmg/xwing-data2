@@ -1,7 +1,6 @@
 {
   "name": "RZ-1 A-wing",
   "xws": "rz1awing",
-  "ffg": 35,
   "size": "Small",
   "dial": [
     "1TW",
@@ -37,7 +36,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_A-wing.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_A-wing.png",
   "pilots": [
     {
       "name": "Arvel Crynyd",
@@ -55,7 +54,6 @@
       },
       "slots": ["Talent", "Talent", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/arvelcrynyd.png",
-      "ffg": 20,
       "standard": true,
       "extended": true,
       "keywords": ["A-wing"],
@@ -76,7 +74,6 @@
       },
       "slots": ["Talent", "Talent", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/greensquadronpilot.png",
-      "ffg": 21,
       "standard": true,
       "extended": true,
       "keywords": ["A-wing"],
@@ -98,7 +95,6 @@
       },
       "slots": ["Talent", "Talent", "Missile", "Modification", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jakefarrell.png",
-      "ffg": 19,
       "standard": true,
       "extended": true,
       "keywords": ["A-wing"],
@@ -119,7 +115,6 @@
       },
       "slots": ["Talent", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/phoenixsquadronpilot.png",
-      "ffg": 22,
       "standard": true,
       "extended": true,
       "keywords": ["A-wing"],
@@ -142,7 +137,6 @@
       "slots": ["Talent", "Talent", "Missile", "Modification", "Configuration"],
       "ability": "While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.",
       "caption": "Promising Pilot",
-      "ffg": 883,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles-rz1awing.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/wedgeantilles-rz1awing.png",
       "epic": true
@@ -169,7 +163,6 @@
       ],
       "ability": "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result.",
       "caption": "Daughter of Mandalore",
-      "ffg": 885,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sabinewren-rz1awing.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/sabinewren-rz1awing.png",
       "epic": true
@@ -198,7 +191,6 @@
       ],
       "ability": "While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.",
       "keywords": ["A-wing", "Spectre"],
-      "ffg": 880,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla-rz1awing.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/herasyndulla-rz1awing.png",
       "epic": true
@@ -228,7 +220,6 @@
       ],
       "ability": "After you fully execute a maneuver, you may choose a friendly ship at range 1-2 and spend 2 [Force]. That ship may perform an action, even while stressed.",
       "keywords": ["A-wing", "Light Side"],
-      "ffg": 881,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ahsokatano-rz1awing.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/ahsokatano-rz1awing.png",
       "epic": true
@@ -250,7 +241,6 @@
       "slots": ["Talent", "Missile", "Configuration"],
       "ability": "While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.",
       "keywords": ["A-wing"],
-      "ffg": 882,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sharabey-rz1awing.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/sharabey-rz1awing.png",
       "epic": true
@@ -272,7 +262,6 @@
       "slots": ["Talent", "Missile", "Configuration"],
       "ability": "After you acquire or spend a lock, you may remove 1 red token from yourself.",
       "keywords": ["A-wing"],
-      "ffg": 884,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/derekklivian.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/derekklivian.png",
       "epic": true

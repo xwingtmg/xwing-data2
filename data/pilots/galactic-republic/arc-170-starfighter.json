@@ -2,7 +2,6 @@
   "name": "ARC-170 Starfighter",
   "xws": "arc170starfighter",
   "size": "Medium",
-  "ffg": 31,
   "dial": [
     "1BB",
     "1FB",
@@ -34,7 +33,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Arc-170.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Arc-170.png",
   "pilots": [
     {
       "name": "“Sinker”",
@@ -57,7 +56,6 @@
       "extended": true,
       "cost": 6,
       "loadout": 18,
-      "ffg": 526,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sinker.png",
       "keywords": ["Clone"],
       "epic": true
@@ -76,7 +74,6 @@
         "Gunner",
         "Talent"
       ],
-      "ffg": 525,
       "caption": "CT-55/11-9009",
       "initiative": 3,
       "limited": 1,
@@ -103,7 +100,6 @@
         "Gunner",
         "Gunner"
       ],
-      "ffg": 523,
       "caption": "CC-2237",
       "initiative": 5,
       "limited": 1,
@@ -128,7 +124,6 @@
         "Gunner",
         "Gunner"
       ],
-      "ffg": 524,
       "caption": "CC-3636",
       "initiative": 4,
       "limited": 1,
@@ -147,7 +142,6 @@
       "cost": 5,
       "loadout": 8,
       "slots": ["Torpedo", "Astromech", "Modification", "Gunner", "Gunner"],
-      "ffg": 528,
       "initiative": 2,
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/104thbattalionpilot.png",
@@ -164,7 +158,6 @@
       "cost": 5,
       "loadout": 10,
       "slots": ["Talent", "Astromech", "Modification", "Gunner", "Gunner"],
-      "ffg": 527,
       "initiative": 3,
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/squadsevenveteran.png",

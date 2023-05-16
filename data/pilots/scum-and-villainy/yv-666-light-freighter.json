@@ -1,7 +1,6 @@
 {
   "name": "YV-666 Light Freighter",
   "xws": "yv666lightfreighter",
-  "ffg": 24,
   "size": "Large",
   "dial": [
     "0OR",
@@ -33,7 +32,7 @@
     { "difficulty": "White", "type": "Reinforce" },
     { "difficulty": "White", "type": "Lock" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_YV-666.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_YV-666.png",
   "pilots": [
     {
       "name": "Bossk",
@@ -56,14 +55,7 @@
         "Title",
         "Gunner"
       ],
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/f7/65/f765febe-2e28-4f9f-8ee0-1dbc4c013ef3/op067_bossk.png",
-          "source": "Coruscant Invitational 2018"
-        }
-      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bossk.png",
-      "ffg": 210,
       "standard": true,
       "extended": true,
       "keywords": ["Bounty Hunter", "Freighter"],
@@ -91,7 +83,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lattsrazzi.png",
-      "ffg": 212,
       "standard": true,
       "extended": true,
       "keywords": ["Bounty Hunter", "Freighter"],
@@ -119,7 +110,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/moraloeval.png",
-      "ffg": 211,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter"],
@@ -136,7 +126,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/trandoshanslaver.png",
       "slots": ["Cannon", "Missile", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/trandoshanslaver.png",
-      "ffg": 213,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter"],

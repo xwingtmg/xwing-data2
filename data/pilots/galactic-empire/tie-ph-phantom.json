@@ -1,7 +1,6 @@
 {
   "name": "TIE/ph Phantom",
   "xws": "tiephphantom",
-  "ffg": 27,
   "size": "Small",
   "dial": [
     "1TW",
@@ -36,7 +35,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Cloak" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPhantom.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEPhantom.png",
   "pilots": [
     {
       "name": "“Echo”",
@@ -54,7 +53,6 @@
       },
       "slots": ["Talent", "Talent", "Sensor", "Modification", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/echo.png",
-      "ffg": 132,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -76,7 +74,6 @@
       },
       "slots": ["Talent", "Sensor", "Modification", "Modification", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/whisper.png",
-      "ffg": 131,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -97,7 +94,6 @@
       },
       "slots": ["Sensor", "Modification", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/imdaartestpilot.png",
-      "ffg": 134,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -118,7 +114,6 @@
       },
       "slots": ["Talent", "Sensor", "Modification", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sigmasquadronace.png",
-      "ffg": 133,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],

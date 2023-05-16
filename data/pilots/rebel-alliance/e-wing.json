@@ -1,7 +1,6 @@
 {
   "name": "E-wing",
   "xws": "ewing",
-  "ffg": 40,
   "size": "Small",
   "dial": [
     "1TR",
@@ -48,7 +47,7 @@
       "type": "Boost"
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_E-wing.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_E-wing.png",
   "pilots": [
     {
       "name": "Corran Horn",
@@ -74,7 +73,6 @@
         "Modification"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/corranhorn.png",
-      "ffg": 50,
       "standard": false,
       "extended": true,
       "epic": true
@@ -102,7 +100,6 @@
         "Modification"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gavindarklighter.png",
-      "ffg": 51,
       "standard": false,
       "extended": true,
       "epic": true
@@ -122,7 +119,6 @@
       },
       "slots": ["Sensor", "Tech", "Astromech", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/knavesquadronescort.png",
-      "ffg": 53,
       "standard": false,
       "extended": true,
       "epic": true
@@ -142,7 +138,6 @@
       },
       "slots": ["Sensor", "Torpedo", "Astromech", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/roguesquadronescort.png",
-      "ffg": 52,
       "standard": false,
       "extended": true,
       "epic": true

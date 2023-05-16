@@ -1,7 +1,6 @@
 {
   "name": "TIE/vn Silencer",
   "xws": "tievnsilencer",
-  "ffg": 52,
   "size": "Small",
   "dial": [
     "1TW",
@@ -36,7 +35,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIESilencer.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_TIESilencer.png",
   "pilots": [
     {
       "name": "“Blackout”",
@@ -61,7 +60,6 @@
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/blackout.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blackout.png",
-      "ffg": 415,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -85,7 +83,6 @@
       "slots": ["Torpedo", "Missile", "Force Power", "Tech", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/kyloren.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kyloren.png",
-      "ffg": 414,
       "standard": true,
       "extended": true,
       "keywords": ["Dark Side", "TIE"],
@@ -106,7 +103,6 @@
       "slots": ["Talent", "Torpedo", "Missile", "Tech", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/firstordertestpilot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/firstordertestpilot.png",
-      "ffg": 416,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -128,7 +124,6 @@
       "slots": ["Talent", "Torpedo", "Missile", "Tech", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/recoil.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/recoil.png",
-      "ffg": 455,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -150,7 +145,6 @@
       "slots": ["Talent", "Torpedo", "Missile", "Tech", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/avenger.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/avenger.png",
-      "ffg": 456,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -171,7 +165,6 @@
       "slots": ["Tech", "Torpedo", "Missile", "Modification", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/sienarjaemusengineer.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sienarjaemusengineer.png",
-      "ffg": 417,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -193,7 +186,6 @@
       "ability": "While you are damaged, treat your initiative as 6.",
       "cost": 5,
       "loadout": 7,
-      "ffg": 643,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rush.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/rush.png",
       "keywords": ["TIE"],

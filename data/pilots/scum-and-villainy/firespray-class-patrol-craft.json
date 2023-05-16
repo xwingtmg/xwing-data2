@@ -1,7 +1,6 @@
 {
   "name": "Firespray-class Patrol Craft",
   "xws": "firesprayclasspatrolcraft",
-  "ffg": 10,
   "size": "Medium",
   "dial": [
     "1TW",
@@ -37,7 +36,7 @@
     { "difficulty": "Red", "type": "Reinforce" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_FIrespray.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_FIrespray.png",
   "pilots": [
     {
       "name": "Boba Fett",
@@ -60,14 +59,7 @@
         "Modification",
         "Title"
       ],
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/bd/38/bd388799-287f-455e-9624-8078e676fed0/op067_boba-fett.png",
-          "source": "Coruscant Invitational 2018"
-        }
-      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bobafett.png",
-      "ffg": 149,
       "standard": true,
       "extended": true,
       "keywords": ["Bounty Hunter"],
@@ -84,7 +76,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/bountyhunter.png",
       "slots": ["Cannon", "Missile", "Device", "Illicit"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bountyhunter.png",
-      "ffg": 154,
       "standard": true,
       "extended": true,
       "keywords": ["Bounty Hunter"],
@@ -111,7 +102,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/emonazzameen.png",
-      "ffg": 150,
       "standard": true,
       "extended": true,
       "epic": true
@@ -137,7 +127,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kathscarlet.png",
-      "ffg": 151,
       "standard": true,
       "extended": true,
       "epic": true
@@ -163,7 +152,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/koshkafrost.png",
-      "ffg": 152,
       "standard": true,
       "extended": true,
       "keywords": ["Bounty Hunter"],
@@ -191,7 +179,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/krassistrelix.png",
-      "ffg": 153,
       "standard": true,
       "extended": true,
       "epic": true

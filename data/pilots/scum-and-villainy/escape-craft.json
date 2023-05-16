@@ -1,7 +1,6 @@
 {
   "name": "Escape Craft",
   "xws": "escapecraft",
-  "ffg": 85,
   "size": "Small",
   "dial": [
     "0OR",
@@ -31,7 +30,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "Red", "type": "Coordinate" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_EscapeShuttle.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_EscapeShuttle.png",
   "pilots": [
     {
       "name": "Autopilot Drone",
@@ -55,7 +54,6 @@
       },
       "slots": [],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/autopilotdrone.png",
-      "ffg": 229,
       "standard": true,
       "extended": true,
       "keywords": ["Droid"],
@@ -82,7 +80,6 @@
       },
       "slots": ["Talent", "Crew", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/l337-escapecraft.png",
-      "ffg": 228,
       "standard": true,
       "extended": true,
       "keywords": ["Droid"],
@@ -104,7 +101,6 @@
       "slots": ["Talent", "Crew", "Modification"],
       "image": "https://infinitearenas.com/xw2/images/pilots/landocalrissian-escapecraft.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-escapecraft.png",
-      "ffg": 226,
       "standard": true,
       "extended": true,
       "epic": true
@@ -125,7 +121,6 @@
       },
       "slots": ["Talent", "Crew", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimpioneer.png",
-      "ffg": 227,
       "standard": true,
       "extended": true,
       "epic": true

@@ -1,7 +1,6 @@
 {
   "name": "Alpha-class Star Wing",
   "xws": "alphaclassstarwing",
-  "ffg": 14,
   "size": "Small",
   "dial": [
     "1BW",
@@ -33,7 +32,7 @@
     { "difficulty": "White", "type": "SLAM" },
     { "difficulty": "White", "type": "Reload" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_AlphaStarwing.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_AlphaStarwing.png",
   "pilots": [
     {
       "name": "Lieutenant Karsabi",
@@ -47,7 +46,6 @@
       "slots": ["Talent", "Sensor", "Missile", "Modification", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/lieutenantkarsabi.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantkarsabi.png",
-      "ffg": 136,
       "standard": false,
       "extended": true,
       "epic": true
@@ -64,7 +62,6 @@
       "slots": ["Talent", "Sensor", "Torpedo", "Modification", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/majorvynder.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorvynder.png",
-      "ffg": 135,
       "standard": false,
       "extended": true,
       "epic": true
@@ -80,7 +77,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/nusquadronpilot.png",
       "slots": ["Sensor", "Cannon", "Modification", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nusquadronpilot.png",
-      "ffg": 138,
       "standard": false,
       "extended": true,
       "epic": true
@@ -96,7 +92,6 @@
       "slots": ["Talent", "Sensor", "Modification", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/rhosquadronpilot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rhosquadronpilot.png",
-      "ffg": 137,
       "standard": false,
       "extended": true,
       "epic": true

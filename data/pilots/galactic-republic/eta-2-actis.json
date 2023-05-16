@@ -2,7 +2,6 @@
   "name": "Eta-2 Actis",
   "xws": "eta2actis",
   "size": "Small",
-  "ffg": 76,
   "dial": [
     "1TW",
     "1YW",
@@ -54,7 +53,6 @@
       },
       "cost": 6,
       "loadout": 20,
-      "ffg": 781,
       "image": "https://infinitearenas.com/xw2/images/pilots/anakinskywalker-eta2actis.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-eta2actis.png",
       "slots": [
@@ -84,7 +82,6 @@
       "ability": "After you or a friendly Anakin Skywalker ship at range 0-3 executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship gains 1 focus token.",
       "cost": 5,
       "loadout": 15,
-      "ffg": 782,
       "image": "https://infinitearenas.com/xw2/images/pilots/obiwankenobi-eta2actis.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/obiwankenobi-eta2actis.png",
       "slots": ["Talent", "Force Power", "Force Power", "Astromech", "Modification", "Cannon"],
@@ -107,7 +104,6 @@
       "ability": "While an enemy ship in your [Front Arc] at range 0-1 performs an attack, the defender may change 1 blank result to a [Focus] result.",
       "cost": 5,
       "loadout": 15,
-      "ffg": 783,
       "image": "https://infinitearenas.com/xw2/images/pilots/aaylasecura.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/aaylasecura.png",
       "slots": ["Talent", "Force Power", "Force Power", "Astromech", "Modification", "Cannon"],
@@ -130,7 +126,6 @@
       "ability": "At the start of the End Phase, you may spend any number of [Force] to choose that many friendly ships at range 0-2. Each chosen ship does not remove 1 focus or evade token during this End Phase.",
       "cost": 5,
       "loadout": 18,
-      "ffg": 784,
       "image": "https://infinitearenas.com/xw2/images/pilots/shaakti.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shaakti.png",
       "slots": ["Talent", "Force Power", "Force Power", "Astromech", "Modification", "Cannon"],
@@ -152,7 +147,6 @@
       "force": { "value": 2, "recovers": 1 },
       "cost": 5,
       "loadout": 4,
-      "ffg": 786,
       "image": "https://infinitearenas.com/xw2/images/pilots/jedigeneral.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jedigeneral.png",
       "slots": ["Force Power", "Astromech", "Modification", "Cannon"],
@@ -175,7 +169,6 @@
       "ability": "After another friendly ship at range 0-3 spends 1 or more [Force], you may spend 1 [Force]. If you do, that ship recovers 1 [Force].",
       "cost": 5,
       "loadout": 16,
-      "ffg": 785,
       "image": "https://infinitearenas.com/xw2/images/pilots/yoda.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/yoda.png",
       "slots": [
@@ -244,7 +237,7 @@
       "ability": "At the start of the End Phase, you may perfrom a purple [Coordinate] action, even while stressed. After you perform a [Coordinate] action, if the chosen ship has the Born for This ship ability, you may coordinate 1 additional ship.",
       "force": { "value": 2, "recovers": 1 },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/shaakti-siegeofcoruscant.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shaakti-eta2actis.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shaakti.png",
       "standardLoadout": ["marksmanship", "brilliantevasion", "ancillaryionweapons-siegeofcoruscant",  "r4pastromech"],
       "standard": true,
       "extended": true,
@@ -280,5 +273,5 @@
       "epic": true
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Eta-2_Actis.png"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Eta-2_Actis.png"
 }

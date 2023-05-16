@@ -1,7 +1,6 @@
 {
   "name": "A/SF-01 B-wing",
   "xws": "asf01bwing",
-  "ffg": 17,
   "size": "Small",
   "dial": [
     "1ER",
@@ -39,7 +38,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_B-wing.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_B-wing.png",
   "pilots": [
     {
       "name": "Blade Squadron Veteran",
@@ -52,7 +51,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/bladesquadronveteran.png",
       "slots": ["Sensor", "Cannon", "Cannon", "Torpedo", "Configuration"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bladesquadronveteran.png",
-      "ffg": 25,
       "standard": true,
       "extended": true,
       "keywords": ["B-wing"],
@@ -68,14 +66,7 @@
       "text": "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter.",
       "image": "https://infinitearenas.com/xw2/images/pilots/bluesquadronpilot.png",
       "slots": ["Sensor", "Cannon", "Cannon", "Device", "Configuration"],
-      "alt": [
-        {
-          "image": "https://infinitearenas.com/xw2/images/pilots/bluesquadronpilot.png",
-          "source": "Season Three 2018"
-        }
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/.png",
-      "ffg": 26,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronpilot.png",
       "standard": true,
       "extended": true,
       "keywords": ["B-wing"],
@@ -102,7 +93,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/braylenstramm.png",
-      "ffg": 23,
       "standard": true,
       "extended": true,
       "keywords": ["B-wing"],
@@ -129,7 +119,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tennumb.png",
-      "ffg": 24,
       "standard": true,
       "extended": true,
       "keywords": ["B-wing"],
@@ -156,7 +145,6 @@
       "ability": "At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2.",
       "cost": 5,
       "loadout": 16,
-      "ffg": 628,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ginamoonsong.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/ginamoonsong.png",
       "keywords": ["B-wing"],
@@ -186,7 +174,6 @@
         "Configuration"
       ],
       "ability": "While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.",
-      "ffg": 878,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla-asf01bwing.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/herasyndulla-asf01bwing.png",
       "epic": true
@@ -213,7 +200,6 @@
       ],
       "ability": "After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.",
       "keywords": ["B-wing"],
-      "ffg": 879,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/netrempollard.png",
       "epic": true

@@ -44,7 +44,7 @@
       "type": "Boost"
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Belbullab-22.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_Belbullab-22.png",
   "pilots": [
     {
       "name": "General Grievous",
@@ -59,7 +59,6 @@
       "cost": 5,
       "loadout": 12,
       "slots": ["Talent", "Modification", "Modification", "Missile", "Title"],
-      "ffg": 492,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/generalgrievous.png",
       "epic": true
     },
@@ -76,7 +75,6 @@
       "cost": 4,
       "loadout": 7,
       "slots": ["Talent", "Modification", "Modification", "Tactical Relay"],
-      "ffg": 493,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wattambor.png",
       "epic": true
     },
@@ -106,7 +104,6 @@
       "cost": 4,
       "loadout": 5,
       "slots": ["Modification", "Tactical Relay"],
-      "ffg": 496,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/feethanottrawautopilot.png",
       "keywords": ["Droid"],
       "epic": true
@@ -124,7 +121,6 @@
       "cost": 5,
       "loadout": 15,
       "slots": ["Modification", "Modification", "Tactical Relay"],
-      "ffg": 494,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainsear.png",
       "epic": true
     },
@@ -134,7 +130,6 @@
       "cost": 4,
       "loadout": 4,
       "slots": ["Talent", "Modification", "Modification"],
-      "ffg": 495,
       "initiative": 3,
       "limited": 0,
       "image": "https://infinitearenas.com/xw2/images/pilots/skakoanace.png",
@@ -144,6 +139,5 @@
       "extended": true,
       "epic": true
     }
-  ],
-  "ffg": 58
+  ]
 }

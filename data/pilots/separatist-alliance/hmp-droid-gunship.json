@@ -1,7 +1,6 @@
 {
   "name": "HMP Droid Gunship",
   "xws": "hmpdroidgunship",
-  "ffg": 75,
   "size": "Small",
   "dial": [
     "0OR",
@@ -41,7 +40,6 @@
   ],
   "pilots": [
     {
-      "ffg": 666,
       "name": "DGS-047",
       "xws": "dgs047",
       "caption": "Adaptive Intelligence",
@@ -71,7 +69,6 @@
       "epic": true
     },
     {
-      "ffg": 669,
       "name": "Baktoid Drone",
       "xws": "baktoiddrone",
       "initiative": 1,
@@ -92,7 +89,6 @@
       "epic": true
     },
     {
-      "ffg": 668,
       "name": "Geonosian Prototype",
       "xws": "geonosianprototype",
       "caption": "Devastation Protocols",
@@ -122,7 +118,6 @@
       "epic": true
     },
     {
-      "ffg": 664,
       "name": "DGS-286",
       "xws": "dgs286",
       "caption": "Ambush Protocols",
@@ -152,7 +147,6 @@
       "epic": true
     },
     {
-      "ffg": 665,
       "name": "Onderon Oppressor",
       "xws": "onderonoppressor",
       "caption": "Atmospheric Attack Module",
@@ -194,12 +188,11 @@
         "Modification",
         "Configuration"
       ],
-      "ffg": 667,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/separatistpredator.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/separatistpredator.png",
       "keywords": ["Droid"],
       "epic": true
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_HMP_Droid_Gunship.png"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_HMP_Droid_Gunship.png"
 }

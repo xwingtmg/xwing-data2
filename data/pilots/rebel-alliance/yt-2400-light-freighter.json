@@ -1,7 +1,6 @@
 {
   "name": "YT-2400 Light Freighter",
   "xws": "yt2400lightfreighter",
-  "ffg": 5,
   "size": "Large",
   "dial": [
     "1TW",
@@ -36,7 +35,7 @@
     { "difficulty": "Red", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Rotate Arc" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_YT-2400.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_YT-2400.png",
   "pilots": [
     {
       "name": "“Leebo”",
@@ -67,7 +66,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leebo.png",
-      "ffg": 78,
       "standard": false,
       "extended": true,
       "keywords": ["Droid", "Freighter"],
@@ -97,7 +95,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dashrendar.png",
-      "ffg": 77,
       "standard": false,
       "extended": true,
       "keywords": ["Freighter"],
@@ -118,7 +115,6 @@
       },
       "slots": ["Missile", "Illicit"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wildspacefringer.png",
-      "ffg": 79,
       "standard": false,
       "extended": true,
       "keywords": ["Freighter"],

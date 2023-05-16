@@ -1,7 +1,6 @@
 {
   "name": "HWK-290 Light Freighter",
   "xws": "hwk290lightfreighter",
-  "ffg": 34,
   "size": "Small",
   "dial": [
     "0OR",
@@ -43,7 +42,7 @@
     { "difficulty": "White", "type": "Rotate Arc" },
     { "difficulty": "Red", "type": "Jam" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_HWK-290.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_HWK-290.png",
   "pilots": [
     {
       "name": "Dace Bonearm",
@@ -66,7 +65,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dacebonearm.png",
-      "ffg": 174,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter"],
@@ -92,7 +90,6 @@
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/palobgodalhi.png",
-      "ffg": 175,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter"],
@@ -109,7 +106,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/spicerunner.png",
       "slots": ["Device", "Illicit"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/spicerunner.png",
-      "ffg": 177,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter"],
@@ -127,7 +123,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/torkilmux.png",
       "slots": ["Crew", "Device", "Illicit", "Modification", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/torkilmux.png",
-      "ffg": 176,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter"],
@@ -154,7 +149,6 @@
       "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship in your [Single Turret Arc] with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
       "charges": { "value": 2, "recovers": 1 },
       "caption": "Collaborationist Governor",
-      "ffg": 896,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gamutkey.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/gamutkey.png",
       "epic": true
@@ -180,7 +174,6 @@
         "Modification"
       ],
       "ability": "While you or a ship in your [Single Turret Arc] defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
-      "ffg": 897,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kananjarrus-hwk290lightfreighter.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/kananjarrus-hwk290lightfreighter.png",
       "epic": true
@@ -204,7 +197,6 @@
         "Modification"
       ],
       "ability": "During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge]. If you do, that ship does not recover that [Charge] or [Force].",
-      "ffg": 895,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tapusk.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/tapusk.png",
       "keywords": ["Freighter"],

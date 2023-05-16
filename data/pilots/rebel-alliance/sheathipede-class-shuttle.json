@@ -1,7 +1,6 @@
 {
   "name": "Sheathipede-class Shuttle",
   "xws": "sheathipedeclassshuttle",
-  "ffg": 8,
   "size": "Small",
   "dial": [
     "1SR",
@@ -34,7 +33,7 @@
     { "difficulty": "White", "type": "Focus" },
     { "difficulty": "White", "type": "Coordinate" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Sheathipede.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Sheathipede.png",
   "pilots": [
     {
       "name": "“Zeb” Orrelios",
@@ -52,7 +51,6 @@
       },
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zeborrelios-sheathipedeclassshuttle.png",
-      "ffg": 40,
       "standard": true,
       "extended": true,
       "keywords": ["Spectre"],
@@ -78,7 +76,6 @@
       },
       "slots": ["Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ap5.png",
-      "ffg": 41,
       "standard": true,
       "extended": true,
       "keywords": ["Droid", "Spectre"],
@@ -101,7 +98,6 @@
       },
       "slots": ["Crew", "Astromech", "Modification", "Title", "Force Power"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ezrabridger-sheathipedeclassshuttle.png",
-      "ffg": 39,
       "standard": true,
       "extended": true,
       "keywords": ["Light Side", "Spectre"],
@@ -123,7 +119,6 @@
       },
       "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/fennrau-sheathipedeclassshuttle.png",
-      "ffg": 38,
       "standard": true,
       "extended": true,
       "keywords": ["Mandalorian", "Spectre"],

@@ -1,7 +1,6 @@
 {
   "name": "TIE/ca Punisher",
   "xws": "tiecapunisher",
-  "ffg": 20,
   "size": "Medium",
   "dial": [
     "0OR",
@@ -39,7 +38,7 @@
     },
     { "difficulty": "White", "type": "Reload" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPunisher.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEPunisher.png",
   "pilots": [
     {
       "name": "“Deathrain”",
@@ -62,7 +61,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathrain.png",
-      "ffg": 140,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -89,7 +87,6 @@
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/redline.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redline.png",
-      "ffg": 139,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -113,7 +110,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cutlasssquadronpilot.png",
-      "ffg": 141,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],

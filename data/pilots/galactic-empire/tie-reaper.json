@@ -1,7 +1,6 @@
 {
   "name": "TIE Reaper",
   "xws": "tiereaper",
-  "ffg": 43,
   "size": "Medium",
   "dial": [
     "0OR",
@@ -35,7 +34,7 @@
     { "difficulty": "Red", "type": "Coordinate" },
     { "difficulty": "White", "type": "Jam" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEReaper.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEReaper.png",
   "pilots": [
     {
       "name": "“Vizier”",
@@ -53,7 +52,6 @@
       },
       "slots": ["Crew", "Crew", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vizier.png",
-      "ffg": 115,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -75,7 +73,6 @@
       },
       "slots": ["Talent", "Crew", "Modification", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainferoph.png",
-      "ffg": 114,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -97,7 +94,6 @@
       },
       "slots": ["Talent", "Crew", "Crew", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorvermeil.png",
-      "ffg": 113,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -112,19 +108,12 @@
       "xws": "scarifbasepilot",
       "text": "The TIE reaper was designed to ferry elite troops to flashpoints on the battlefield, notably carrying Director Krennic's dreaded death troopers at the Battle of Scarif.",
       "image": "https://infinitearenas.com/xw2/images/pilots/scarifbasepilot.png",
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/d3/22/d3220543-7735-44fc-80a8-90507ca363c8/g18x2-scarif-base-pilot-2.png",
-          "source": "Season Two 2018"
-        }
-      ],
       "shipAbility": {
         "name": "Controlled Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you may boost."
       },
       "slots": ["Crew", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scarifbasepilot.png",
-      "ffg": 116,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],

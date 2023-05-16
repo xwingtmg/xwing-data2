@@ -1,7 +1,6 @@
 {
   "name": "TIE/ln Fighter",
   "xws": "tielnfighter",
-  "ffg": 11,
   "size": "Small",
   "dial": [
     "1TW",
@@ -33,7 +32,7 @@
     { "difficulty": "White", "type": "Evade" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEFighter.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEFighter.png",
   "pilots": [
     {
       "name": "“Howlrunner”",
@@ -51,7 +50,6 @@
         "Modification"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/howlrunner.png",
-      "ffg": 81,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -69,7 +67,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/maulermithel.png",
       "slots": ["Talent", "Cannon"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maulermithel.png",
-      "ffg": 80,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -87,7 +84,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/nightbeast.png",
       "slots": ["Talent", "Talent"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nightbeast.png",
-      "ffg": 88,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -105,7 +101,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/scourgeskutu.png",
       "slots": ["Talent"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scourgeskutu.png",
-      "ffg": 82,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -124,7 +119,6 @@
       "charges": { "value": 1, "recovers": 1 },
       "slots": ["Talent", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wampa.png",
-      "ffg": 89,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -139,15 +133,8 @@
       "xws": "academypilot",
       "text": "The Galactic Empire uses the fast and agile TIE/ln, developed by Sienar Fleet Systems and produced in staggering quantity, as its primary starfighter.",
       "image": "https://infinitearenas.com/xw2/images/pilots/academypilot.png",
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/c9/4e/c94efa45-9cf7-4167-8e41-50d27d300f12/op066-academy-pilot.png",
-          "source": "X-Wing Second Edition Launch Party"
-        }
-      ],
       "slots": [],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/academypilot.png",
-      "ffg": 92,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -163,14 +150,7 @@
       "text": "The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.",
       "image": "https://infinitearenas.com/xw2/images/pilots/blacksquadronace.png",
       "slots": [],
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/fe/2b/fe2b0b19-b983-4665-aa8a-769fc2e03f64/op086-obsidian-squadron-pilot.png",
-          "source": "Gen Con Indy 2018"
-        }
-      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksquadronace.png",
-      "ffg": 90,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -188,7 +168,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/delmeeko.png",
       "slots": ["Cannon", "Talent"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/delmeeko.png",
-      "ffg": 85,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -206,7 +185,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/gideonhask.png",
       "slots": ["Talent", "Talent", "Missile", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gideonhask.png",
-      "ffg": 84,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -231,7 +209,6 @@
         "Modification"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/idenversio.png",
-      "ffg": 83,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -246,15 +223,8 @@
       "xws": "obsidiansquadronpilot",
       "text": "The TIE fighter's Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass-produced.",
       "image": "https://infinitearenas.com/xw2/images/pilots/obsidiansquadronpilot.png",
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/12/55/12552f53-decc-49ff-8fe2-e4285d4ff31e/op066-obsidian-squadron-pilot.png",
-          "source": "X-Wing Second Edition Launch Party"
-        }
-      ],
       "slots": [],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/obsidiansquadronpilot.png",
-      "ffg": 91,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -272,7 +242,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/seynmarana.png",
       "slots": ["Talent", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/seynmarana.png",
-      "ffg": 86,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -290,7 +259,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/valenrudor.png",
       "slots": ["Talent", "Talent"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/valenrudor.png",
-      "ffg": 87,
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],

@@ -1,7 +1,6 @@
 {
   "name": "Auzituck Gunship",
   "xws": "auzituckgunship",
-  "ffg": 6,
   "size": "Small",
   "dial": [
     "0OR",
@@ -33,7 +32,7 @@
     { "difficulty": "White", "type": "Reinforce" },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Auzituck.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Auzituck.png",
   "pilots": [
     {
       "name": "Kashyyyk Defender",
@@ -46,7 +45,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/kashyyykdefender.png",
       "slots": ["Crew", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kashyyykdefender.png",
-      "ffg": 33,
       "standard": false,
       "extended": true,
       "epic": true
@@ -63,7 +61,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/lowhhrick.png",
       "slots": ["Talent", "Crew", "Crew", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lowhhrick.png",
-      "ffg": 32,
       "standard": false,
       "extended": true,
       "epic": true
@@ -80,7 +77,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/wullffwarro.png",
       "slots": ["Talent", "Crew", "Crew", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wullffwarro.png",
-      "ffg": 31,
       "standard": false,
       "extended": true,
       "epic": true

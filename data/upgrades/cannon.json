@@ -16,9 +16,8 @@
           "maxrange": 3,
           "ordnance": false
         },
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_27.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_27.jpg",
-        "ffg": 256
+        "image": "https://infinitearenas.com/xw2/images/upgrades/heavylasercannon.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/heavylasercannon.png"
       }
     ],
     "cost": { "value": 4 },
@@ -43,9 +42,8 @@
           "maxrange": 3,
           "ordnance": false
         },
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_28.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_28.jpg",
-        "ffg": 257
+        "image": "https://infinitearenas.com/xw2/images/upgrades/ioncannon.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ioncannon.png"
       }
     ],
     "cost": { "value": 6 },
@@ -70,9 +68,8 @@
           "maxrange": 2,
           "ordnance": false
         },
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_29.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_29.jpg",
-        "ffg": 258
+        "image": "https://infinitearenas.com/xw2/images/upgrades/jammingbeam.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/jammingbeam.png"
       }
     ],
     "cost": { "value": 0 },
@@ -97,9 +94,8 @@
           "maxrange": 3,
           "ordnance": false
         },
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_30.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_30.jpg",
-        "ffg": 259
+        "image": "https://infinitearenas.com/xw2/images/upgrades/tractorbeam.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/tractorbeam.png"
       }
     ],
     "cost": { "value": 4 },
@@ -125,9 +121,8 @@
           "maxrange": 2,
           "ordnance": false
         },
-        "ffg": 578,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/dbdad938bd9f4ce64af1d7106dfd5b5e.jpg",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/59d4a52e3a534dd090259bd5546e7bab.png"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/autoblasters.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/autoblasters.png"
       }
     ],
     "standard": false,
@@ -137,7 +132,6 @@
   {
     "sides": [
       {
-        "ffg": 674,
         "title": "Synced Laser Cannons",
         "type": "Cannon",
         "slots": ["Cannon", "Cannon"],
@@ -148,8 +142,8 @@
           "maxrange": 3,
           "ordnance": false
         },
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/70d44704aaa8bb8d1f1e2bc904b18c77.jpg",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/6927e82e460670044786cd46327cb891.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/syncedlasercannons.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/syncedlasercannons.png",
         "ability": "Attack: If you are calculating, the defender does not apply the range bonus."
       }
     ],
@@ -168,6 +162,7 @@
     "sides": [
       {
         "ability": "Attack: Spend 2 [Charge]. Change 1 [Focus] or [Hit] result to a [Critical Hit] result.",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/protoncannons.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/protoncannons.png",
         "charges": { "value": 2, "recovers": 1 },
         "title": "Proton Cannons",
@@ -210,8 +205,8 @@
             "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
         ],
-        "ffg": 718,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/734d68b47d976624629d101299719222.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/underslungblastercannon.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/underslungblastercannon.png"
       }
     ],
     "cost": { "value": 2 },

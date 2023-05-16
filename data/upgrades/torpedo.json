@@ -9,6 +9,7 @@
         "type": "Torpedo",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After you declare the defender, the defender may choose to suffer 1 [Critical Hit] damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/homingtorpedoes.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/homingtorpedoes.png",
         "slots": ["Torpedo"],
         "charges": { "value": 2, "recovers": 0 },
         "attack": {
@@ -43,9 +44,8 @@
           "maxrange": 1,
           "ordnance": true
         },
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_33.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_33.jpg",
-        "ffg": 262
+        "image": "https://infinitearenas.com/xw2/images/upgrades/advprotontorpedoes.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/advprotontorpedoes.png"
       }
     ],
     "cost": { "value": 8 },
@@ -71,9 +71,8 @@
           "maxrange": 3,
           "ordnance": true
         },
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_34.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_34.jpg",
-        "ffg": 263
+        "image": "https://infinitearenas.com/xw2/images/upgrades/iontorpedoes.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/iontorpedoes.png"
       }
     ],
     "cost": { "value": 4 },
@@ -90,7 +89,7 @@
         "title": "Proton Torpedoes",
         "type": "Torpedo",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_35.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/protontorpedoes.png",
         "slots": ["Torpedo"],
         "charges": { "value": 2, "recovers": 0 },
         "attack": {
@@ -100,8 +99,7 @@
           "maxrange": 3,
           "ordnance": true
         },
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_35.jpg",
-        "ffg": 264
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/protontorpedoes.png"
       }
     ],
     "cost": { "value": 12 },
@@ -127,9 +125,8 @@
           "maxrange": 3,
           "ordnance": true
         },
-        "ffg": 579,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4123de29aa73a40eca130e1e75d9353b.jpg",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/60fb85c3782c235904678bac8a106150.png"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/plasmatorpedoes.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/plasmatorpedoes.png"
       }
     ],
     "cost": { "value": 7 },
@@ -148,8 +145,8 @@
         "ability": "During the System Phase, you may spend up to 3 [Charge] to launch that many tracking torpedoes using the [3 [Bank Left]], [4 [Straight]], and [3 [Bank Right]] templates. Each device must use a seperate template. Then each device may acquire a lock on an object you have locked, ignoring range restrictions. This card's [Charge] cannot be recovered.",
         "slots": ["Torpedo"],
         "charges": { "value": 3, "recovers": 0 },
-        "artwork": "???",
-        "ffg": 123
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/trackingtorpedoes.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/trackingtorpedoes.png"
       }
     ],
     "cost": { "value": 8 },

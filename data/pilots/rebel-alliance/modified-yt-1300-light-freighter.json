@@ -1,7 +1,6 @@
 {
   "name": "Modified YT-1300 Light Freighter",
   "xws": "modifiedyt1300lightfreighter",
-  "ffg": 1,
   "size": "Large",
   "dial": [
     "1BW",
@@ -36,7 +35,7 @@
     { "difficulty": "Red", "type": "Boost" },
     { "difficulty": "White", "type": "Rotate Arc" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Falcon.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Falcon.png",
   "pilots": [
     {
       "name": "Chewbacca",
@@ -61,7 +60,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/chewbacca.png",
-      "ffg": 71,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -89,7 +87,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-modifiedyt1300lightfreighter.png",
-      "ffg": 69,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -117,7 +114,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-modifiedyt1300lightfreighter.png",
-      "ffg": 70,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -134,7 +130,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/outerrimsmuggler.png",
       "slots": ["Missile", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimsmuggler.png",
-      "ffg": 72,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -162,7 +157,6 @@
       "ability": "After a friendly ship fully executes a red maneuver, if it is at range 0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or recovers 1 [Force].",
       "cost": 8,
       "loadout": 24,
-      "ffg": 630,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leiaorgana.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/leiaorgana.png",
       "keywords": ["Freighter", "YT-1300", "Light Side"],
@@ -182,7 +176,7 @@
       },
       "standardLoadout": ["chewbacca-battleofyavin", "riggedcargochute", "millenniumfalcon", "l337sprogramming-battleofyavin"],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/hansolo-battleofyavin.png",
-      "artwork": "",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-battleofyavin.png",
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],

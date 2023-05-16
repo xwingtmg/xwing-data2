@@ -1,7 +1,6 @@
 {
   "name": "Z-95-AF4 Headhunter",
   "xws": "z95af4headhunter",
-  "ffg": 38,
   "size": "Small",
   "dial": [
     "1BW",
@@ -34,7 +33,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Z-95.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Z-95.png",
   "pilots": [
     {
       "name": "Airen Cracken",
@@ -48,7 +47,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/airencracken.png",
       "slots": ["Talent", "Torpedo", "Sensor", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/airencracken.png",
-      "ffg": 27,
       "standard": true,
       "extended": true,
       "epic": true
@@ -64,7 +62,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/banditsquadronpilot.png",
       "slots": ["Missile", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/banditsquadronpilot.png",
-      "ffg": 30,
       "standard": true,
       "extended": true,
       "epic": true
@@ -81,7 +78,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/lieutenantblount.png",
       "slots": ["Talent", "Talent", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantblount.png",
-      "ffg": 28,
       "standard": true,
       "extended": true,
       "epic": true
@@ -97,7 +93,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/talasquadronpilot.png",
       "slots": ["Talent", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/talasquadronpilot.png",
-      "ffg": 29,
       "standard": true,
       "extended": true,
       "epic": true

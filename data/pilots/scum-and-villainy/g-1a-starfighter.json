@@ -1,7 +1,6 @@
 {
   "name": "G-1A Starfighter",
   "xws": "g1astarfighter",
-  "ffg": 22,
   "size": "Medium",
   "dial": [
     "0OR",
@@ -35,7 +34,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Jam" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_MistHunter.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_MistHunter.png",
   "pilots": [
     {
       "name": "4-LOM",
@@ -54,7 +53,6 @@
         { "difficulty": "White", "type": "Jam" }
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/4lom.png",
-      "ffg": 201,
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter", "Droid"],
@@ -71,7 +69,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/gandfindsman.png",
       "slots": ["Illicit"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gandfindsman.png",
-      "ffg": 203,
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter"],
@@ -87,15 +84,8 @@
       "xws": "zuckuss",
       "ability": "While you perform a primary attack, you may roll 1 additional attack die. If you do, the defender rolls 1 additional defense die.",
       "image": "https://infinitearenas.com/xw2/images/pilots/zuckuss.png",
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/62/69/6269d549-8a5b-40f6-84cb-6ef6fa47212f/op067_zuckuss.png",
-          "source": "Coruscant Invitational 2018"
-        }
-      ],
       "slots": ["Talent", "Sensor", "Crew", "Illicit", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zuckuss.png",
-      "ffg": 202,
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter"],

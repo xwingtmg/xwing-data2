@@ -1,7 +1,6 @@
 {
   "name": "BTL-A4 Y-wing",
   "xws": "btla4ywing",
-  "ffg": 12,
   "size": "Small",
   "dial": [
     "1BB",
@@ -34,7 +33,7 @@
     { "difficulty": "Red", "type": "Barrel Roll" },
     { "difficulty": "Red", "type": "Reload" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Y-wing.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Y-wing.png",
   "pilots": [
     {
       "name": "Crymorah Goon",
@@ -47,7 +46,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/crymorahgoon.png",
       "slots": ["Turret", "Device", "Illicit", "Missile"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/crymorahgoon.png",
-      "ffg": 168,
       "standard": true,
       "extended": true,
       "keywords": ["Y-wing"],
@@ -74,7 +72,6 @@
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/drearenthal.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/drearenthal.png",
-      "ffg": 166,
       "standard": true,
       "extended": true,
       "keywords": ["Y-wing"],
@@ -91,7 +88,6 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/hiredgun.png",
       "slots": ["Turret", "Torpedo", "Device", "Illicit", "Missile"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hiredgun.png",
-      "ffg": 167,
       "standard": true,
       "extended": true,
       "keywords": ["Y-wing"],
@@ -118,7 +114,6 @@
         "Missile"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kavil.png",
-      "ffg": 165,
       "standard": true,
       "extended": true,
       "keywords": ["Y-wing"],
@@ -145,7 +140,6 @@
       ],
       "ability": "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your full front arc.",
       "caption": "Opportunity Knocks",
-      "ffg": 898,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leemakai.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/leemakai.png",
       "epic": true
@@ -171,7 +165,6 @@
       ],
       "ability": "While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, before the Modify Defense Dice step, you must change 1 of your [Focus] results to a blank result.",
       "caption": "Crimson Blade",
-      "ffg": 899,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/arlizhadrassian.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/arlizhadrassian.png",
       "epic": true
@@ -188,7 +181,6 @@
       "loadout": 6,
       "slots": ["Turret", "Torpedo", "Missile", "Astromech", "Device"],
       "keywords": ["Y-wing"],
-      "ffg": 901,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/amaxinewarrior.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/amaxinewarrior.png",
       "epic": true
@@ -215,7 +207,6 @@
       ],
       "ability": "After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.",
       "keywords": ["Y-wing"],
-      "ffg": 900,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/padric.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/padric.png",
       "epic": true
@@ -232,7 +223,6 @@
       "loadout": 5,
       "slots": ["Turret", "Torpedo", "Missile", "Device"],
       "keywords": ["Y-wing"],
-      "ffg": 902,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jinatasecurityofficer.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/jinatasecurityofficer.png",
       "epic": true

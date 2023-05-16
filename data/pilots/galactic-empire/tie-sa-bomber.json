@@ -1,7 +1,6 @@
 {
   "name": "TIE/sa Bomber",
   "xws": "tiesabomber",
-  "ffg": 19,
   "size": "Small",
   "dial": [
     "1BW",
@@ -38,7 +37,7 @@
     },
     { "difficulty": "Red", "type": "Reload" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEBomber.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEBomber.png",
   "pilots": [
     {
       "name": "“Deathfire”",
@@ -63,7 +62,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathfire.png",
-      "ffg": 110,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -94,7 +92,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png",
-      "ffg": 108,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -115,7 +112,6 @@
       },
       "slots": ["Torpedo", "Device", "Device", "Modification", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gammasquadronace.png",
-      "ffg": 111,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -145,7 +141,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorrhymer.png",
-      "ffg": 109,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -166,7 +161,6 @@
       },
       "slots": ["Missile", "Device", "Device", "Modification", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scimitarsquadronpilot.png",
-      "ffg": 112,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -197,7 +191,6 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png",
-      "ffg": 107,
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],

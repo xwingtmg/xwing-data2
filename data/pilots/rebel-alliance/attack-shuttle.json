@@ -1,7 +1,6 @@
 {
   "name": "Attack Shuttle",
   "xws": "attackshuttle",
-  "ffg": 32,
   "size": "Small",
   "dial": [
     "1TR",
@@ -39,7 +38,7 @@
       "type": "Barrel Roll"
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_AttackShuttle.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_AttackShuttle.png",
   "pilots": [
     {
       "name": "“Zeb” Orrelios",
@@ -57,7 +56,6 @@
       },
       "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zeborrelios.png",
-      "ffg": 37,
       "standard": false,
       "extended": true,
       "keywords": ["Spectre"],
@@ -80,7 +78,6 @@
       },
       "slots": ["Turret", "Crew", "Modification", "Title", "Force Power"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ezrabridger.png",
-      "ffg": 36,
       "standard": false,
       "extended": true,
       "keywords": ["Light Side", "Spectre"],
@@ -102,7 +99,6 @@
       },
       "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla.png",
-      "ffg": 34,
       "standard": false,
       "extended": true,
       "keywords": ["Spectre"],
@@ -124,7 +120,6 @@
       },
       "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sabinewren.png",
-      "ffg": 35,
       "standard": false,
       "extended": true,
       "keywords": ["Mandalorian", "Spectre"],
