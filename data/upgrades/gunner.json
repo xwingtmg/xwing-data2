@@ -13,7 +13,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/agilegunner.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 1 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -116,7 +116,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ezrabridger.png"
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 9 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "standard": true,
     "extended": true,
@@ -277,7 +277,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/specialforcesgunner.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["First Order"] },
       { "ships": ["tiesffighter"] }
@@ -300,7 +300,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/veterantailgunner.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 5 },
     "restrictions": [{ "arcs": ["Rear Arc"] }],
     "standard": true,
     "extended": true,
@@ -320,7 +320,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/veteranturretgunner.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 3 },
     "restrictions": [{ "action": { "type": "Rotate Arc" } }],
     "standard": true,
     "extended": true,
@@ -382,7 +382,7 @@
       }
     ],
     "restrictions": [{ "factions": ["Resistance"] }],
-    "cost": { "value": 12 },
+    "cost": { "value": 10 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -403,7 +403,7 @@
       }
     ],
     "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "cost": { "value": 8 },
+    "cost": { "value": 13 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -631,7 +631,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/tibersaxon.png"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 6 },
     "restrictions": [{ "factions": ["Galactic Empire"] }],
     "standard": true,
     "extended": true,

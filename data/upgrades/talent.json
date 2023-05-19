@@ -15,7 +15,7 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [{ "action": { "type": "Focus" } }],
-    "standard": true,
+    "standard": false,
     "extended": true,
     "epic": true
   },
@@ -34,7 +34,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/crackshot.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 4 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -53,7 +53,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/daredevil.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 5 },
     "restrictions": [
       { "sizes": ["Small"] },
       { "action": { "type": "Boost", "difficulty": "White" } }
@@ -83,7 +83,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/debrisgambit.png"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "standard": true,
     "extended": true,
@@ -104,7 +104,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/elusive.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 4 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "standard": true,
     "extended": true,
@@ -153,7 +153,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/fanatical.png"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": { "value": 2 },
     "restrictions": [{ "factions": ["First Order"] }],
     "standard": true,
     "extended": true,
@@ -232,7 +232,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/juke.png"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 7 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "standard": true,
     "extended": true,
@@ -253,7 +253,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/lonewolf.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -310,7 +310,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/predator.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -349,7 +349,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/saturationsalvo.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 2 },
     "restrictions": [{ "action": { "type": "Reload" } }],
     "standard": true,
     "extended": true,
@@ -369,7 +369,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/selfless.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 4 },
     "restrictions": [{ "factions": ["Rebel Alliance"] }],
     "standard": true,
     "extended": true,
@@ -455,7 +455,7 @@
       }
     ],
     "restrictions": [{ "factions": ["Separatist Alliance"] }],
-    "cost": { "value": 2 },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -478,7 +478,7 @@
       { "factions": ["Galactic Republic"] },
       { "keywords": ["Clone"] }
     ],
-    "cost": { "value": 1 },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -762,7 +762,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/tierfonbellyrun.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": { "value": 1 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -805,7 +805,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/clantraining.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 1 },
     "restrictions": [{ "keywords": ["Mandalorian"] }],
     "standard": true,
     "extended": true,
@@ -826,7 +826,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/notorious.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 7 },
     "restrictions": [{ "equipped": ["Illicit"] }],
     "standard": true,
     "extended": true,
@@ -855,7 +855,7 @@
     "name": "Attack Speed",
     "limited": 0,
     "xws": "attackspeed-battleofyavin",
-    "sides" : [
+    "sides": [
       {
         "title": "Attack Speed",
         "type": "Talent",
@@ -872,7 +872,7 @@
     "name": "Fanatic",
     "limited": 0,
     "xws": "fanatic-battleofyavin",
-    "sides" : [
+    "sides": [
       {
         "title": "Fanatic",
         "type": "Talent",
@@ -889,7 +889,7 @@
     "name": "Vengeful",
     "limited": 0,
     "xws": "vengeful-battleofyavin",
-    "sides" : [
+    "sides": [
       {
         "title": "Vengeful",
         "type": "Talent",

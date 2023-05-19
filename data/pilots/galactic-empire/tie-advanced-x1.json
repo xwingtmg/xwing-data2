@@ -77,8 +77,8 @@
       "caption": "Servant of the Empire",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
-      "loadout": 14,
+      "cost": 4,
+      "loadout": 10,
       "xws": "maarekstele",
       "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
       "image": "https://infinitearenas.com/xw2/images/pilots/maarekstele.png",
@@ -86,13 +86,7 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": [
-        "Talent",
-        "Talent",
-        "Sensor",
-        "Missile",
-        "Modification"
-      ],
+      "slots": ["Talent", "Talent", "Sensor", "Missile", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png",
       "standard": true,
       "extended": true,
@@ -153,12 +147,7 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Missile",
-        "Modification"
-      ],
+      "slots": ["Talent", "Sensor", "Missile", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vedfoslo.png",
       "standard": false,
       "extended": true,
@@ -171,7 +160,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 4,
-      "loadout": 6,
+      "loadout": 14,
       "xws": "zertikstrom",
       "ability": "During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship's damage cards.",
       "image": "https://infinitearenas.com/xw2/images/pilots/zertikstrom.png",
@@ -228,13 +217,54 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": [
-        "Talent",
-        "Tech",
-        "Sensor",
-        "Missile",
-        "Modification"
+      "slots": ["Talent", "Tech", "Sensor", "Missile", "Modification"],
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Darth Vader",
+      "caption": "Black Leader",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 6,
+      "xws": "darthvader-swz105",
+      "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
+      "image": "",
+      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "shipAbility": {
+        "name": "Advanced Targeting Computer",
+        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 3 },
+        { "type": "shields", "value": 3 }
       ],
+      "standardLoadout": ["hate", "ionmissiles", "afterburners"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Dark Side", "Sith", "TIE"],
+      "epic": true
+    },
+    {
+      "name": "Maarek Stele",
+      "caption": "Servant of the Empire",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 5,
+      "standardLoadout": ["elusive", "outmaneuver", "afterburners"],
+      "xws": "maarekstele-swz105",
+      "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
+      "image": "",
+      "shipAbility": {
+        "name": "Advanced Targeting Computer",
+        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+      },
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png",
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],

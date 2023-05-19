@@ -54,8 +54,8 @@
       ],
       "standard": true,
       "extended": true,
-      "cost": 6,
-      "loadout": 18,
+      "cost": 5,
+      "loadout": 15,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sinker.png",
       "keywords": ["Clone"],
       "epic": true
@@ -63,8 +63,8 @@
     {
       "name": "“Jag”",
       "xws": "jag",
-      "cost": 5,
-      "loadout": 14,
+      "cost": 4,
+      "loadout": 9,
       "slots": [
         "Torpedo",
         "Astromech",
@@ -88,8 +88,8 @@
     {
       "name": "“Odd Ball”",
       "xws": "oddball-arc170starfighter",
-      "cost": 5,
-      "loadout": 15,
+      "cost": 4,
+      "loadout": 7,
       "slots": [
         "Talent",
         "Sensor",
@@ -114,8 +114,8 @@
     {
       "name": "“Wolffe”",
       "xws": "wolffe",
-      "cost": 5,
-      "loadout": 12,
+      "cost": 4,
+      "loadout": 9,
       "slots": [
         "Talent",
         "Torpedo",
@@ -177,7 +177,7 @@
         "name": "Born for This",
         "text": "While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."
       },
-      "cost": 5,
+      "cost": 4,
       "xws": "oddball-siegeofcoruscant",
       "ability": "After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/oddball-siegeofcoruscant.png",

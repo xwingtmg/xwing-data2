@@ -43,8 +43,8 @@
       "caption": "Ill-Fated Test Pilot",
       "initiative": 5,
       "limited": 1,
-      "cost": 6,
-      "loadout": 20,
+      "cost": 5,
+      "loadout": 12,
       "ability": "While you perform an attack, if the attack is obstructed by an obstacle, the defender rolls 2 fewer defense dice.",
       "shipAbility": {
         "name": "Autothrusters",
@@ -72,7 +72,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 7,
-      "loadout": 16,
+      "loadout": 22,
       "ability": "After you defend, you may spend 1 [Force] to assign the I'll Show You the Dark Side condition to the attacker.",
       "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "shipAbility": {
@@ -80,7 +80,7 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "conditions": ["illshowyouthedarkside"],
-      "slots": ["Torpedo", "Missile", "Force Power", "Tech", "Configuration"],
+      "slots": ["Torpedo", "Missile", "Force Power", "Talent", "Tech", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/kyloren.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kyloren.png",
       "standard": true,
@@ -115,7 +115,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 5,
-      "loadout": 6,
+      "loadout": 10,
       "ability": "While you are stressed, you may treat enemy ships in your [Front Arc] at range 0-1 as being in your [Bullseye Arc].",
       "shipAbility": {
         "name": "Autothrusters",
@@ -136,7 +136,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 5,
-      "loadout": 6,
+      "loadout": 10,
       "ability": "After another friendly ship is destroyed, you may perform an action, even while stressed.",
       "shipAbility": {
         "name": "Autothrusters",
@@ -185,7 +185,7 @@
       "slots": ["Tech", "Talent", "Talent", "Missile", "Configuration"],
       "ability": "While you are damaged, treat your initiative as 6.",
       "cost": 5,
-      "loadout": 7,
+      "loadout": 11,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rush.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/rush.png",
       "keywords": ["TIE"],

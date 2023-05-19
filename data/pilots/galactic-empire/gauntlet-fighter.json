@@ -39,8 +39,8 @@
       "name": "Captain Hark",
       "image": "https://infinitearenas.com/xw2/images/pilots/captainhark.png",
       "ability": "After you reveal a [0 [Stationary]] maneuver, if you are equipped with Swivel Wings (Down), you must execute a [1 [Bank Left]] or [1 [Bank Right]] sideslip maneuver of the same difficulty instead. After you execute that maneuver, you must flip Swivel Wings (Down).",
-      "cost": 7,
-      "loadout": 15,
+      "cost": 6,
+      "loadout": 14,
       "initiative": 3,
       "limited": 1,
       "standard": true,
@@ -52,10 +52,10 @@
         "Gunner",
         "Device",
         "Modification",
+        "Illicit",
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainhark.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/captainhark.png",
       "keywords": ["Mandalorian"],
       "caption": "Obedient Underling"
     },
@@ -65,7 +65,7 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/garsaxon.png",
       "ability": "When a friendly unit at range 0-2 performs a primary attack, if the attacker is in the defender's [Rear Arc], you may spend 1 [Charge]. If you do, the attacker rolls 1 additional die.",
       "charges": { "value": 2, "recovers": 1 },
-      "cost": 8,
+      "cost": 7,
       "loadout": 18,
       "initiative": 3,
       "limited": 1,
@@ -79,17 +79,17 @@
         "Gunner",
         "Device",
         "Modification",
+        "Illicit",
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/garsaxon.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/garsaxon.png",
       "keywords": ["Mandalorian"],
       "caption": "Treacherous Viceroy"
     },
     {
       "xws": "imperialsupercommando",
       "name": "Imperial Super Commando",
-      "image": "?",
+      "image": "https://infinitearenas.com/xw2/images/pilots/imperialsupercommando.png",
       "cost": 7,
       "loadout": 10,
       "initiative": 2,
@@ -107,7 +107,6 @@
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/imperialsupercommando.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/imperialsupercommando.png",
       "keywords": ["Mandalorian"]
     }
   ]

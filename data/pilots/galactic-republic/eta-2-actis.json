@@ -51,8 +51,8 @@
         "name": "Intuitive Controls",
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
       },
-      "cost": 6,
-      "loadout": 20,
+      "cost": 5,
+      "loadout": 15,
       "image": "https://infinitearenas.com/xw2/images/pilots/anakinskywalker-eta2actis.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-eta2actis.png",
       "slots": [
@@ -124,8 +124,8 @@
       "extended": true,
       "force": { "value": 2, "recovers": 1 },
       "ability": "At the start of the End Phase, you may spend any number of [Force] to choose that many friendly ships at range 0-2. Each chosen ship does not remove 1 focus or evade token during this End Phase.",
-      "cost": 5,
-      "loadout": 18,
+      "cost": 4,
+      "loadout": 10,
       "image": "https://infinitearenas.com/xw2/images/pilots/shaakti.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shaakti.png",
       "slots": ["Talent", "Force Power", "Force Power", "Astromech", "Modification", "Cannon"],
@@ -167,8 +167,8 @@
       "extended": true,
       "force": { "value": 3, "recovers": 1 },
       "ability": "After another friendly ship at range 0-3 spends 1 or more [Force], you may spend 1 [Force]. If you do, that ship recovers 1 [Force].",
-      "cost": 5,
-      "loadout": 16,
+      "cost": 4,
+      "loadout": 12,
       "image": "https://infinitearenas.com/xw2/images/pilots/yoda.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/yoda.png",
       "slots": [
@@ -190,7 +190,7 @@
         "name": "Intuitive Controls",
         "text": "During the System Phase, you may perform a purple [Barrel Roll] or purple [Boost] action."
       },
-      "cost": 5,
+      "cost": 4,
       "xws": "anakinskywalker-siegeofcoruscant",
       "ability": "After you or a friendly Obi-Wan Kenobi ship at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 [Force]. If you do, that ship may perform a [Barrel Roll] action.",
       "force": { "value": 3, "recovers": 1 },
@@ -259,7 +259,7 @@
       "force": { "value": 2, "recovers": 1 },
       "ability": "While another friendly ship defends, if the attacker is in its [Bullseye Arc], you may spend 1 [Force] to change 1 of the defender's blank results to a [Focus] result.",
       "cost": 4,
-      "loadout": 8,
+      "loadout": 11,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kitfisto.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/kitfisto.png",
       "slots": [
@@ -267,7 +267,8 @@
         "Force Power",
         "Talent",
         "Astromech",
-        "Modification"
+        "Modification",
+        "Cannon"
       ],
       "keywords": ["Jedi", "Light Side"],
       "epic": true
