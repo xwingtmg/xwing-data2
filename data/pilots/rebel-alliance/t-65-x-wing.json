@@ -425,6 +425,39 @@
       "extended": true,
       "keywords": ["X-wing"],
       "epic": true
+    },
+    {
+      "name": "Luke Skywalker",
+      "caption": "Red Five",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 6,
+      "xws": "lukeskywalker-swz106",
+      "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "standardLoadout": ["instictiveaim", "protontorpedoes", "r2d2"],
+      "image": "",
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["X-wing"],
+      "epic": true
+    },
+    {
+      "name": "Jek Porkins",
+      "caption": "Red Six",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 5,
+      "xws": "jekporkins-swz106",
+      "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
+      "standardLoadout": ["predate", "protontorpedoes", "r5d8-battleofyavin"],
+      "image": "",
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["X-wing"],
+      "epic": true
     }
   ]
 }
