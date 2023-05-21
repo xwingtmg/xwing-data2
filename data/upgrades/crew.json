@@ -307,8 +307,7 @@
     "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "action": { "type": "Coordinate" } }
-    ],
+      { "action": { "type": "Coordinate" } }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -363,7 +362,10 @@
         "title": "Death Troopers",
         "type": "Crew",
         "ability": "During the Activation Phase, enemy ships at range 0-1 cannot remove stress tokens.",
-        "slots": ["Crew", "Crew"],
+        "slots": [
+          "Crew",
+          "Crew"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/deathtroopers.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/deathtroopers.png"
       }
@@ -412,7 +414,10 @@
         "type": "Crew",
         "ability": "While another friendly ship defends or performs an attack, you may spend 1 [Force] to modify 1 of its dice as though that ship had spent 1 [Force].",
         "image": "https://infinitearenas.com/xw2/images/upgrades/emperorpalpatine.png",
-        "slots": ["Crew", "Crew"],
+        "slots": [
+          "Crew",
+          "Crew"
+        ],
         "force": { "value": 1, "recovers": 1 },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/emperorpalpatine.png"
       }
@@ -521,8 +526,7 @@
     "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "action": { "type": "Lock" } }
-    ],
+      { "action": { "type": "Lock" } }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -624,7 +628,10 @@
         "type": "Crew",
         "ability": "During the End Phase, you may choose 1 friendly ship at range 0-2 and spend 1 [Charge]. If you do, that ship recovers 1 [Charge] on 1 of its equipped [Illicit] upgrades.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/jabbathehutt.png",
-        "slots": ["Crew", "Crew"],
+        "slots": [
+          "Crew",
+          "Crew"
+        ],
         "charges": { "value": 4, "recovers": 0 },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/jabbathehutt.png"
       }
@@ -911,8 +918,7 @@
     "cost": { "value": 7 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "action": { "type": "Coordinate" } }
-    ],
+      { "action": { "type": "Coordinate" } }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1124,7 +1130,10 @@
         "title": "Supreme Leader Snoke",
         "type": "Crew",
         "ability": "During the System Phase, you may choose any number of enemy ships beyond range 1. If you do, spend that many [Force] to flip each chosen ship's dial faceup.",
-        "slots": ["Crew", "Crew"],
+        "slots": [
+          "Crew",
+          "Crew"
+        ],
         "force": { "value": 1, "recovers": 1 },
         "image": "https://infinitearenas.com/xw2/images/upgrades/supremeleadersnoke.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/supremeleadersnoke.png"
@@ -1359,9 +1368,10 @@
       }
     ],
     "cost": { "value": 14 },
-    "restrictions": [
-      { "factions": ["Galactic Republic", "Separatist Alliance"] }
-    ],
+    "restrictions": [{ "factions": [
+          "Galactic Republic",
+          "Separatist Alliance"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1530,7 +1540,10 @@
         "ability": "After a friendly ship reveals a non-[0 [Stationary]] maneuver, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.",
         "title": "Leia Organa",
         "type": "Crew",
-        "slots": ["Crew", "Crew"],
+        "slots": [
+          "Crew",
+          "Crew"
+        ],
         "force": { "value": 1, "recovers": 1 },
         "grants": [
           {
@@ -1811,7 +1824,10 @@
       {
         "title": "Wolfpack",
         "type": "Crew",
-        "slots": ["Crew", "Gunner"],
+        "slots": [
+          "Crew",
+          "Gunner"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/wolfpack.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/wolfpack.png",
         "ability": "After a friendly ship at range 0-3 defends, if the attacker is in your firing arc, the defender may gain 1 strain token to acquire a lock on the attacker."
@@ -1857,7 +1873,10 @@
       {
         "title": "Ghost Company",
         "type": "Crew",
-        "slots": ["Crew", "Gunner"],
+        "slots": [
+          "Crew",
+          "Gunner"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ghostcompany.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/ghostcompany.png",
         "ability": "After you perform a primary attack, if you are focused, you may perform a [Single Turret Arc] attack against a ship you have not attacked this round as a bonus attack.",
@@ -1934,9 +1953,10 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [
-      { "factions": ["Scum and Villainy", "Separatist Alliance"] }
-    ],
+    "restrictions": [{ "factions": [
+          "Scum and Villainy",
+          "Separatist Alliance"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1951,16 +1971,20 @@
         "title": "Zam Wesell",
         "type": "Crew",
         "slots": ["Crew"],
-        "conditions": ["youdbettermeanbusiness", "youshouldthankme"],
+        "conditions": [
+          "youdbettermeanbusiness",
+          "youshouldthankme"
+        ],
         "charges": { "value": 2, "recovers": 0 },
         "image": "https://infinitearenas.com/xw2/images/upgrades/zamwesell.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/zamwesell.png"
       }
     ],
     "cost": { "value": 11 },
-    "restrictions": [
-      { "factions": ["Scum and Villainy", "Separatist Alliance"] }
-    ],
+    "restrictions": [{ "factions": [
+          "Scum and Villainy",
+          "Separatist Alliance"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2007,9 +2031,11 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [
-      { "factions": ["Scum and Villainy", "Galactic Empire", "First Order"] }
-    ],
+    "restrictions": [{ "factions": [
+          "Scum and Villainy",
+          "Galactic Empire",
+          "First Order"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2056,9 +2082,11 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [
-      { "factions": ["Galactic Empire", "Rebel Alliance", "Scum and Villainy"] }
-    ],
+    "restrictions": [{ "factions": [
+          "Galactic Empire",
+          "Rebel Alliance",
+          "Scum and Villainy"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2160,8 +2188,10 @@
     "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "sizes": ["Medium", "Large"] }
-    ],
+      { "sizes": [
+          "Medium",
+          "Large"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2189,9 +2219,10 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [
-      { "factions": ["Scum and Villainy", "Galactic Republic"] }
-    ],
+    "restrictions": [{ "factions": [
+          "Scum and Villainy",
+          "Galactic Republic"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2255,9 +2286,10 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [
-      { "factions": ["Galactic Republic", "Separatist Alliance"] }
-    ],
+    "restrictions": [{ "factions": [
+          "Galactic Republic",
+          "Separatist Alliance"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2277,7 +2309,10 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy", "Rebel Alliance"] }],
+    "restrictions": [{ "factions": [
+          "Scum and Villainy",
+          "Rebel Alliance"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2359,9 +2394,10 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [
-      { "factions": ["Scum and Villainy", "Separatist Alliance"] }
-    ],
+    "restrictions": [{ "factions": [
+          "Scum and Villainy",
+          "Separatist Alliance"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2381,7 +2417,10 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Scum and Villainy", "Rebel Alliance"] }],
+    "restrictions": [{ "factions": [
+          "Scum and Villainy",
+          "Rebel Alliance"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2427,9 +2466,10 @@
       }
     ],
     "cost": { "value": 9 },
-    "restrictions": [
-      { "factions": ["Scum and Villainy", "Separatist Alliance"] }
-    ],
+    "restrictions": [{ "factions": [
+          "Scum and Villainy",
+          "Separatist Alliance"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2514,9 +2554,10 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [
-      { "factions": ["Scum and Villainy", "Galactic Republic"] }
-    ],
+    "restrictions": [{ "factions": [
+          "Scum and Villainy",
+          "Galactic Republic"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2530,7 +2571,10 @@
         "title": "Maul",
         "type": "Crew",
         "ability": "Add [Illicit] slot.",
-        "slots": ["Crew", "Crew"],
+        "slots": [
+          "Crew",
+          "Crew"
+        ],
         "force": { "value": 1, "recovers": 1 },
         "grants": [
           {
@@ -2558,7 +2602,10 @@
         "title": "Clan Wren Commandos",
         "type": "Crew",
         "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
-        "slots": ["Crew", "Crew"],
+        "slots": [
+          "Crew",
+          "Crew"
+        ],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Clan Wren Commandos",
@@ -2587,8 +2634,11 @@
     "cost": { "value": 8 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "sizes": ["Medium", "Large", "Huge"] }
-    ],
+      { "sizes": [
+          "Medium",
+          "Large",
+          "Huge"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2602,7 +2652,10 @@
         "title": "Imperial Super Commandos",
         "type": "Crew",
         "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
-        "slots": ["Crew", "Crew"],
+        "slots": [
+          "Crew",
+          "Crew"
+        ],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Imperial Super Commandos",
@@ -2631,8 +2684,11 @@
     "cost": { "value": 8 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "sizes": ["Medium", "Large", "Huge"] }
-    ],
+      { "sizes": [
+          "Medium",
+          "Large",
+          "Huge"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2646,7 +2702,10 @@
         "title": "Mandalorian Super Commandos",
         "type": "Crew",
         "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
-        "slots": ["Crew", "Crew"],
+        "slots": [
+          "Crew",
+          "Crew"
+        ],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Mandalorian Super Commandos",
@@ -2675,8 +2734,11 @@
     "cost": { "value": 8 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "sizes": ["Medium", "Large", "Huge"] }
-    ],
+      { "sizes": [
+          "Medium",
+          "Large",
+          "Huge"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2690,7 +2752,10 @@
         "title": "Nite Owl Commandos",
         "type": "Crew",
         "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
-        "slots": ["Crew", "Crew"],
+        "slots": [
+          "Crew",
+          "Crew"
+        ],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Nite Owl Commandos",
@@ -2719,8 +2784,11 @@
     "cost": { "value": 8 },
     "restrictions": [
       { "factions": ["Galactic Republic"] },
-      { "sizes": ["Medium", "Large", "Huge"] }
-    ],
+      { "sizes": [
+          "Medium",
+          "Large",
+          "Huge"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2734,7 +2802,10 @@
         "title": "Death Watch Commandos",
         "type": "Crew",
         "ability": "During the System Phase, you may spend 1 [Charge] to drop a Commando Team remote using the [1 [Straight]] template. You can place that device using its front or rear guides. This card's [Charge] cannot be recovered.",
-        "slots": ["Crew", "Crew"],
+        "slots": [
+          "Crew",
+          "Crew"
+        ],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Death Watch Commandos",
@@ -2763,8 +2834,11 @@
     "cost": { "value": 8 },
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
-      { "sizes": ["Medium", "Large", "Huge"] }
-    ],
+      { "sizes": [
+          "Medium",
+          "Large",
+          "Huge"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2795,7 +2869,10 @@
       {
         "title": "Wolfpack",
         "type": "Crew",
-        "slots": ["Crew", "Gunner"],
+        "slots": [
+          "Crew",
+          "Gunner"
+        ],
         "ability": "While you perform an attack, you may spend a lock belonging to a friendly Plo Koon ship or ship with the Born for This ability that is on the defender to reroll any number of attack dice."
       }
     ],

@@ -109,7 +109,13 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "slots": ["Torpedo", "Device", "Device", "Modification", "Gunner"],
+      "slots": [
+        "Torpedo",
+        "Device",
+        "Device",
+        "Modification",
+        "Gunner"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gammasquadronace.png",
       "standard": true,
       "extended": true,
@@ -157,7 +163,13 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "slots": ["Missile", "Device", "Device", "Modification", "Gunner"],
+      "slots": [
+        "Missile",
+        "Device",
+        "Device",
+        "Modification",
+        "Gunner"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scimitarsquadronpilot.png",
       "standard": true,
       "extended": true,
@@ -207,7 +219,11 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "standardLoadout": ["feedbackping", "plasmatorpedoes", "protonbombs"],
+      "standardLoadout": [
+        "feedbackping",
+        "plasmatorpedoes",
+        "protonbombs"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png",
       "standard": true,
       "extended": true,
@@ -227,7 +243,11 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "standardLoadout": ["elusive", "barragerockets", "proximitymines"],
+      "standardLoadout": [
+        "elusive",
+        "barragerockets",
+        "proximitymines"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png",
       "standard": true,
       "extended": true,

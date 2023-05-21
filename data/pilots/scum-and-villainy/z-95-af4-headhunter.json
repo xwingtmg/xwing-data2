@@ -59,7 +59,10 @@
       "xws": "blacksunsoldier",
       "text": "The vast and influential Black Sun crime syndicate can always find a use for talented pilots, provided they aren't particular about how they earn their credits.",
       "image": "https://infinitearenas.com/xw2/images/pilots/blacksunsoldier.png",
-      "slots": ["Illicit", "Modification"],
+      "slots": [
+        "Illicit",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksunsoldier.png",
       "standard": true,
       "extended": true,
@@ -75,7 +78,12 @@
       "xws": "kaatoleeachos",
       "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
       "image": "https://infinitearenas.com/xw2/images/pilots/kaatoleeachos.png",
-      "slots": ["Talent", "Missile", "Illicit", "Modification"],
+      "slots": [
+        "Talent",
+        "Missile",
+        "Illicit",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kaatoleeachos.png",
       "standard": true,
       "extended": true,
@@ -134,7 +142,13 @@
         "name": "Pursuit Craft",
         "text": "After you deploy, you may acquire a lock on a ship the friendly Hound's Tooth has locked."
       },
-      "slots": ["Talent", "Talent", "Missile", "Illicit", "Modification"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Illicit",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "cost": 2,

@@ -89,7 +89,13 @@
       "xws": "wardensquadronpilot",
       "text": "Koensayr Manufacturing's K-wing boasts an advanced SubLight Acceleration Motor and an unprecedented 18 hard points, granting it unrivaled speed and firepower.",
       "image": "https://infinitearenas.com/xw2/images/pilots/wardensquadronpilot.png",
-      "slots": ["Torpedo", "Missile", "Device", "Device", "Gunner"],
+      "slots": [
+        "Torpedo",
+        "Missile",
+        "Device",
+        "Device",
+        "Gunner"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wardensquadronpilot.png",
       "standard": false,
       "extended": true,

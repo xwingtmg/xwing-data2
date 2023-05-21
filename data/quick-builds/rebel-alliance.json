@@ -34,7 +34,10 @@
           "id": "jekporkins",
           "upgrades": {
             "talent": ["outmaneuver"],
-            "modification": ["afterburners", "hullupgrade"],
+            "modification": [
+              "afterburners",
+              "hullupgrade"
+            ],
             "astromech": ["r5d8"],
             "configuration": ["servomotorsfoils"]
           }
@@ -89,7 +92,10 @@
           "upgrades": {
             "talent": ["elusive"],
             "torpedo": ["iontorpedoes"],
-            "modification": ["afterburners", "hullupgrade"],
+            "modification": [
+              "afterburners",
+              "hullupgrade"
+            ],
             "astromech": ["r2astromech"],
             "configuration": ["servomotorsfoils"]
           }
@@ -206,7 +212,10 @@
           "upgrades": {
             "sensor": ["trajectorysimulator"],
             "missile": ["ionmissiles"],
-            "device": ["protonbombs", "connernets"],
+            "device": [
+              "protonbombs",
+              "connernets"
+            ],
             "modification": ["advancedslam"],
             "crew": ["perceptivecopilot"]
           }
@@ -271,7 +280,10 @@
           "id": "bladesquadronveteran",
           "upgrades": {
             "talent": ["predator"],
-            "cannon": ["ioncannon", "jammingbeam"]
+            "cannon": [
+              "ioncannon",
+              "jammingbeam"
+            ]
           }
         }
       ]
@@ -331,7 +343,10 @@
           "id": "braylenstramm",
           "upgrades": {
             "talent": ["squadleader"],
-            "cannon": ["jammingbeam", "heavylasercannon"],
+            "cannon": [
+              "jammingbeam",
+              "heavylasercannon"
+            ],
             "modification": ["electronicbaffle"]
           }
         }
@@ -373,7 +388,10 @@
             "crew": ["seasonednavigator"],
             "gunner": ["veterantailgunner"],
             "astromech": ["r3astromech"],
-            "modification": ["ablativeplating", "hullupgrade"]
+            "modification": [
+              "ablativeplating",
+              "hullupgrade"
+            ]
           }
         }
       ]
@@ -424,7 +442,10 @@
           "id": "wullffwarro",
           "upgrades": {
             "talent": ["selfless"],
-            "crew": ["gnkgonkdroid", "novicetechnician"],
+            "crew": [
+              "gnkgonkdroid",
+              "novicetechnician"
+            ],
             "modification": ["hullupgrade"]
           }
         }
@@ -524,7 +545,10 @@
           "upgrades": {
             "talent": ["elusive"],
             "device": ["seismiccharges"],
-            "modification": ["hullupgrade", "shieldupgrade"]
+            "modification": [
+              "hullupgrade",
+              "shieldupgrade"
+            ]
           }
         }
       ]
@@ -547,7 +571,10 @@
           "id": "rebelscout",
           "upgrades": {
             "crew": ["sabinewren"],
-            "device": ["seismiccharges", "protonbombs"],
+            "device": [
+              "seismiccharges",
+              "protonbombs"
+            ],
             "modification": ["engineupgrade"]
           }
         }
@@ -643,7 +670,10 @@
         {
           "id": "captainrex",
           "upgrades": {
-            "talent": ["elusive", "juke"],
+            "talent": [
+              "elusive",
+              "juke"
+            ],
             "modification": ["stealthdevice"]
           }
         }
@@ -690,7 +720,10 @@
           "id": "cassianandor",
           "upgrades": {
             "sensor": ["firecontrolsystem"],
-            "crew": ["jynerso", "bazemalbus"],
+            "crew": [
+              "jynerso",
+              "bazemalbus"
+            ],
             "configuration": ["pivotwing"]
           }
         }
@@ -756,8 +789,15 @@
           "id": "chewbacca",
           "upgrades": {
             "talent": ["predator"],
-            "crew": ["leiaorgana", "c3po", "r2d2-crew"],
-            "gunner": ["hansolo", "lukeskywalker"],
+            "crew": [
+              "leiaorgana",
+              "c3po",
+              "r2d2-crew"
+            ],
+            "gunner": [
+              "hansolo",
+              "lukeskywalker"
+            ],
             "modification": ["engineupgrade"],
             "title": ["millenniumfalcon"]
           }
@@ -883,7 +923,10 @@
         {
           "id": "dashrendar",
           "upgrades": {
-            "talent": ["experthandling", "trickshot"],
+            "talent": [
+              "experthandling",
+              "trickshot"
+            ],
             "illicit": ["riggedcargochute"],
             "crew": ["perceptivecopilot"],
             "title": ["outrider"]
@@ -974,7 +1017,10 @@
         {
           "id": "partisanrenegade",
           "upgrades": {
-            "crew": ["magvayarro", "sawgerrera"],
+            "crew": [
+              "magvayarro",
+              "sawgerrera"
+            ],
             "illicit": ["deadmansswitch"],
             "configuration": ["pivotwing"]
           }
@@ -990,7 +1036,10 @@
             "talent": ["outmaneuver"],
             "astromech": ["r2astromech"],
             "illicit": ["deadmansswitch"],
-            "modification": ["afterburners", "hullupgrade"],
+            "modification": [
+              "afterburners",
+              "hullupgrade"
+            ],
             "configuration": ["servomotorsfoils"]
           }
         }
@@ -1019,7 +1068,10 @@
             "talent": ["elusive"],
             "astromech": ["r2astromech"],
             "illicit": ["deadmansswitch"],
-            "modification": ["afterburners", "shieldupgrade"],
+            "modification": [
+              "afterburners",
+              "shieldupgrade"
+            ],
             "configuration": ["servomotorsfoils"]
           }
         }
@@ -1044,7 +1096,10 @@
         {
           "id": "kananjarrus",
           "upgrades": {
-            "crew": ["chopper-crew", "herasyndulla"],
+            "crew": [
+              "chopper-crew",
+              "herasyndulla"
+            ],
             "gunner": ["ezrabridger"],
             "turret": ["ioncannonturret"],
             "title": ["ghost"]
@@ -1170,7 +1225,10 @@
           "upgrades": {
             "talent": ["trickshot"],
             "sensor": ["passivesensors"],
-            "modification": ["hullupgrade", "angleddeflectors"],
+            "modification": [
+              "hullupgrade",
+              "angleddeflectors"
+            ],
             "configuration": ["pivotwing"]
           }
         }
@@ -1182,7 +1240,11 @@
         {
           "id": "leiaorgana",
           "upgrades": {
-            "crew": ["landocalrissian", "chewbacca", "r2d2-crew"],
+            "crew": [
+              "landocalrissian",
+              "chewbacca",
+              "r2d2-crew"
+            ],
             "modification": ["engineupgrade"],
             "title": ["millenniumfalcon"]
           }
@@ -1224,9 +1286,9 @@
             "talent": ["saturationsalvo"],
             "modification": ["shieldupgrade"],
             "cannon": ["syncedlasercannons"],
-			"configuration": ["stabilizedsfoils"],
-			"torpedo": ["plasmatorpedoes"],
-			"sensor": ["passivesensors"]
+            "configuration": ["stabilizedsfoils"],
+            "torpedo": ["plasmatorpedoes"],
+            "sensor": ["passivesensors"]
           }
         }
       ]
@@ -1240,7 +1302,7 @@
             "command": ["b6bladewingprototype-command"],
             "talent": ["deadeyeshot"],
             "sensor": ["passivesensors"],
-			"gunner": ["sabinewren-gunner"]
+            "gunner": ["sabinewren-gunner"]
           }
         }
       ]
@@ -1251,7 +1313,10 @@
         {
           "id": "outerrimsmuggler",
           "upgrades": {
-            "crew": ["landocalrissian", "informant"],
+            "crew": [
+              "landocalrissian",
+              "informant"
+            ],
             "modification": ["engineupgrade"],
             "illicit": ["riggedcargochute"]
           }
@@ -1264,7 +1329,11 @@
         {
           "id": "hansolo-modifiedyt1300lightfreighter",
           "upgrades": {
-            "crew": ["c3po", "chewbacca", "leiaorgana"],
+            "crew": [
+              "c3po",
+              "chewbacca",
+              "leiaorgana"
+            ],
             "illicit": ["riggedcargochute"],
             "title": ["millenniumfalcon"]
           }
@@ -1277,12 +1346,15 @@
         {
           "id": "landocalrissian-modifiedyt1300lightfreighter",
           "upgrades": {
-			"talent": ["swarmtactics"],
+            "talent": ["swarmtactics"],
             "crew": ["niennunb"],
-            "modification": ["engineupgrade", "hullupgrade"],
+            "modification": [
+              "engineupgrade",
+              "hullupgrade"
+            ],
             "title": ["millenniumfalcon"],
-			"missile": ["homingmissiles"],
-			"astromech": ["r3astromech"]
+            "missile": ["homingmissiles"],
+            "astromech": ["r3astromech"]
           }
         }
       ]
@@ -1293,8 +1365,15 @@
         {
           "id": "chewbacca",
           "upgrades": {
-            "crew": ["c3po", "leiaorgana", "r2d2-crew"],
-            "gunner": ["hansolo", "lukeskywalker"],
+            "crew": [
+              "c3po",
+              "leiaorgana",
+              "r2d2-crew"
+            ],
+            "gunner": [
+              "hansolo",
+              "lukeskywalker"
+            ],
             "title": ["millenniumfalcon"]
           }
         }
@@ -1340,7 +1419,10 @@
           "id": "ahsokatano-rz1awing",
           "upgrades": {
             "talent": ["margsablclosure"],
-            "force-power": ["patience", "sense"]
+            "force-power": [
+              "patience",
+              "sense"
+            ]
           }
         }
       ]
@@ -1351,7 +1433,10 @@
         {
           "id": "arvelcrynyd",
           "upgrades": {
-            "talent": ["intimidation", "juke"],
+            "talent": [
+              "intimidation",
+              "juke"
+            ],
             "missile": ["concussionmissiles"]
           }
         }
@@ -1375,7 +1460,10 @@
         {
           "id": "greensquadronpilot",
           "upgrades": {
-            "talent": ["juke", "outmaneuver"],
+            "talent": [
+              "juke",
+              "outmaneuver"
+            ],
             "modification": ["hullupgrade"]
           }
         }
@@ -1411,7 +1499,10 @@
         {
           "id": "jakefarrell",
           "upgrades": {
-            "talent": ["daredevil", "juke"],
+            "talent": [
+              "daredevil",
+              "juke"
+            ],
             "missile": ["protonrockets"]
           }
         }
@@ -1447,7 +1538,10 @@
         {
           "id": "sharabey-rz1awing",
           "upgrades": {
-            "talent": ["starbirdslash", "margsablclosure"],
+            "talent": [
+              "starbirdslash",
+              "margsablclosure"
+            ],
             "configuration": ["vectoredcannonsrz1"]
           }
         }
@@ -1472,7 +1566,10 @@
           "id": "ap5",
           "upgrades": {
             "astromech": ["chopper"],
-            "modification": ["shieldupgrade", "afterburners"],
+            "modification": [
+              "shieldupgrade",
+              "afterburners"
+            ],
             "title": ["phantom"]
           }
         }
@@ -1485,10 +1582,10 @@
           "id": "ezrabridger-sheathipedeclassshuttle",
           "upgrades": {
             "force-power": ["hate"],
-			"crew": ["maul"],
+            "crew": ["maul"],
             "modification": ["hullupgrade"],
             "title": ["phantom"],
-			"astromech": ["r5astromech"]
+            "astromech": ["r5astromech"]
           }
         }
       ]
@@ -1501,7 +1598,7 @@
           "upgrades": {
             "crew": ["kananjarrus"],
             "talent": ["elusive"],
-			"astromech": ["r2astromech"],
+            "astromech": ["r2astromech"],
             "title": ["phantom"]
           }
         }
@@ -1514,7 +1611,7 @@
           "id": "zeborrelios-sheathipedeclassshuttle",
           "upgrades": {
             "crew": ["herasyndulla"],
-			"talent": ["outmaneuver"],
+            "talent": ["outmaneuver"],
             "modification": ["hullupgrade"],
             "title": ["phantom"]
           }
@@ -1527,7 +1624,10 @@
         {
           "id": "chopper",
           "upgrades": {
-            "crew": ["herasyndulla", "zeborrelios"],
+            "crew": [
+              "herasyndulla",
+              "zeborrelios"
+            ],
             "title": ["ghost"]
           }
         }
@@ -1551,11 +1651,14 @@
         {
           "id": "herasyndulla-vcx100lightfreighter",
           "upgrades": {
-            "crew": ["chopper-crew", "kananjarrus"],
+            "crew": [
+              "chopper-crew",
+              "kananjarrus"
+            ],
             "talent": ["outmaneuver"],
             "title": ["ghost"],
-			"sensor": ["collisiondetector"],
-			"turret": ["dorsalturret"]
+            "sensor": ["collisiondetector"],
+            "turret": ["dorsalturret"]
           }
         }
       ]
@@ -1567,8 +1670,11 @@
           "id": "kananjarrus",
           "upgrades": {
             "force-power": ["sense"],
-			"turret": ["dorsalturret"],
-            "modification": ["hullupgrade", "tacticalscrambler"],
+            "turret": ["dorsalturret"],
+            "modification": [
+              "hullupgrade",
+              "tacticalscrambler"
+            ],
             "title": ["ghost"]
           }
         }
@@ -1583,9 +1689,15 @@
             "command": ["jandodonna"],
             "crew": ["torynfarr"],
             "cargo": ["boostedscanners"],
-			"hardpoint": ["ioncannonbattery", "turbolaserbattery"],
-			"team": ["commsteam", "sensorexperts"],
-			"title": ["dodonnaspride"]
+            "hardpoint": [
+              "ioncannonbattery",
+              "turbolaserbattery"
+            ],
+            "team": [
+              "commsteam",
+              "sensorexperts"
+            ],
+            "title": ["dodonnaspride"]
           }
         }
       ]
@@ -1599,9 +1711,12 @@
             "command": ["carlistrieekan"],
             "hardpoint": ["pointdefensebattery"],
             "crew": ["novicetechnician"],
-			"team": ["commsteam"],
-			"cargo": ["adaptiveshields", "optimizedpowercore"],
-			"title": ["brighthope"]
+            "team": ["commsteam"],
+            "cargo": [
+              "adaptiveshields",
+              "optimizedpowercore"
+            ],
+            "title": ["brighthope"]
           }
         }
       ]
@@ -1637,7 +1752,10 @@
           "id": "bodicavenj",
           "upgrades": {
             "talent": ["outmaneuver"],
-            "modification": ["beskarreinforcedplating", "mandalorianoptics"]
+            "modification": [
+              "beskarreinforcedplating",
+              "mandalorianoptics"
+            ]
           }
         }
       ]
@@ -1650,7 +1768,10 @@
           "upgrades": {
             "talent": ["clantraining"],
             "torpedo": ["protontorpedoes"],
-            "modification": ["hullupgrade", "mandalorianoptics"]
+            "modification": [
+              "hullupgrade",
+              "mandalorianoptics"
+            ]
           }
         }
       ]
@@ -1665,7 +1786,7 @@
             "crew": ["clanwrencommandos"],
             "title": ["nightbrother"],
             "modification": ["shieldupgrade"],
-			"configuration": ["swivelwing"]
+            "configuration": ["swivelwing"]
           }
         }
       ]
@@ -1679,8 +1800,8 @@
             "talent": ["predator"],
             "gunner": ["veterantailgunner"],
             "modification": ["hullupgrade"],
-			"title": ["nightbrother"],
-			"configuration": ["swivelwing"]
+            "title": ["nightbrother"],
+            "configuration": ["swivelwing"]
           }
         }
       ]
@@ -1693,7 +1814,7 @@
           "upgrades": {
             "talent": ["enduring"],
             "crew": ["clanwrencommandos"],
-			"configuration": ["swivelwing"]
+            "configuration": ["swivelwing"]
           }
         }
       ]

@@ -134,7 +134,10 @@
       {
         "title": "Synced Laser Cannons",
         "type": "Cannon",
-        "slots": ["Cannon", "Cannon"],
+        "slots": [
+          "Cannon",
+          "Cannon"
+        ],
         "attack": {
           "arc": "Front Arc",
           "value": 3,
@@ -167,7 +170,10 @@
         "charges": { "value": 2, "recovers": 1 },
         "title": "Proton Cannons",
         "type": "Cannon",
-        "slots": ["Cannon", "Cannon"],
+        "slots": [
+          "Cannon",
+          "Cannon"
+        ],
         "attack": {
           "arc": "Bullseye Arc",
           "value": 4,

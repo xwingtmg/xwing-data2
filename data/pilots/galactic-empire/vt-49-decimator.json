@@ -72,7 +72,13 @@
       "xws": "patrolleader",
       "text": "To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.",
       "image": "https://infinitearenas.com/xw2/images/pilots/patrolleader.png",
-      "slots": ["Torpedo", "Crew", "Device", "Modification", "Gunner"],
+      "slots": [
+        "Torpedo",
+        "Crew",
+        "Device",
+        "Modification",
+        "Gunner"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/patrolleader.png",
       "standard": true,
       "extended": true,

@@ -80,12 +80,22 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "conditions": ["illshowyouthedarkside"],
-      "slots": ["Torpedo", "Missile", "Force Power", "Talent", "Tech", "Configuration"],
+      "slots": [
+        "Torpedo",
+        "Missile",
+        "Force Power",
+        "Talent",
+        "Tech",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/kyloren.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kyloren.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "TIE"],
+      "keywords": [
+        "Dark Side",
+        "TIE"
+      ],
       "epic": true
     },
     {
@@ -100,7 +110,13 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Torpedo", "Missile", "Tech", "Configuration"],
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Missile",
+        "Tech",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/firstordertestpilot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/firstordertestpilot.png",
       "standard": true,
@@ -121,7 +137,13 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Torpedo", "Missile", "Tech", "Configuration"],
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Missile",
+        "Tech",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/recoil.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/recoil.png",
       "standard": true,
@@ -142,7 +164,13 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Torpedo", "Missile", "Tech", "Configuration"],
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Missile",
+        "Tech",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/avenger.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/avenger.png",
       "standard": true,
@@ -162,7 +190,13 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Tech", "Torpedo", "Missile", "Modification", "Configuration"],
+      "slots": [
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Modification",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/sienarjaemusengineer.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sienarjaemusengineer.png",
       "standard": true,
@@ -182,7 +216,13 @@
       "caption": "Adrenaline Junkie",
       "standard": true,
       "extended": true,
-      "slots": ["Tech", "Talent", "Talent", "Missile", "Configuration"],
+      "slots": [
+        "Tech",
+        "Talent",
+        "Talent",
+        "Missile",
+        "Configuration"
+      ],
       "ability": "While you are damaged, treat your initiative as 6.",
       "cost": 5,
       "loadout": 11,

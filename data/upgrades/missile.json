@@ -8,7 +8,10 @@
         "title": "Barrage Rockets",
         "type": "Missile",
         "ability": "Attack ([Focus]): Spend 1 [Charge]. If the defender is in your [Bullseye Arc], you may spend 1 or more [Charge] to reroll that many attack dice.",
-        "slots": ["Missile", "Missile"],
+        "slots": [
+          "Missile",
+          "Missile"
+        ],
         "charges": { "value": 5, "recovers": 0 },
         "attack": {
           "arc": "Front Arc",
@@ -185,8 +188,7 @@
     ],
     "restrictions": [
       { "action": { "type": "Calculate", "difficulty": "White" } },
-      { "factions": ["Separatist Alliance"] }
-    ],
+      { "factions": ["Separatist Alliance"] }],
     "cost": { "value": 4 },
     "standard": true,
     "extended": true,
@@ -231,7 +233,10 @@
       {
         "title": "Diamond-Boron Missiles",
         "type": "Missile",
-        "slots": ["Missile", "Missile"],
+        "slots": [
+          "Missile",
+          "Missile"
+        ],
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After this attack hits, you may spend 1 [Charge]. If you do, each ship at range 0-1 of the defender with agility equal to or less than the defender's rolls 1 attack die and suffers 1 [Hit]/[Critical Hit] damage for each matching result.",
         "charges": { "value": 3, "recovers": 0 },
         "attack": {
@@ -287,7 +292,10 @@
         "charges": { "value": 1, "recovers": 0 },
         "title": "Electro-Chaff Missiles",
         "type": "Missile",
-        "slots": ["Missile", "Device"],
+        "slots": [
+          "Missile",
+          "Device"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/electrochaffmissiles.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/electrochaffmissiles.png"
       }
@@ -314,7 +322,10 @@
         "charges": { "value": 5, "recovers": 0 },
         "title": "Multi-Missile Pods",
         "type": "Missile",
-        "slots": ["Missile", "Missile"],
+        "slots": [
+          "Missile",
+          "Missile"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/multimissilepods.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/multimissilepods.png"
       }

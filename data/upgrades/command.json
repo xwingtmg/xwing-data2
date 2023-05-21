@@ -87,7 +87,10 @@
         "ability": "While a friendly large or huge ship at range 0-3 executes a maneuver, it may suffer 1 [Hit] damage to execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
         "title": "Admiral Ozzel",
         "type": "Command",
-        "slots": ["Command", "Crew"],
+        "slots": [
+          "Command",
+          "Crew"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/admiralozzel.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/admiralozzel.png"
       }
@@ -106,7 +109,10 @@
         "ability": "During the End Phase, you may choose up to 2 friendly ships at range 0-1. If you do, each of these ships does not remove 1 calculate or evade token.",
         "title": "Azmorigan",
         "type": "Command",
-        "slots": ["Command", "Crew"],
+        "slots": [
+          "Command",
+          "Crew"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/azmorigan.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/azmorigan.png"
       }
@@ -125,7 +131,10 @@
         "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.",
         "title": "Captain Needa",
         "type": "Command",
-        "slots": ["Command", "Crew"],
+        "slots": [
+          "Command",
+          "Crew"
+        ],
         "charges": { "value": 4, "recovers": 0 },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/captainneeda.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/captainneeda.png"
@@ -145,7 +154,10 @@
         "ability": "After a friendly ship at range 0-2 is destroyed, you may choose a friendly ship at range 0-2. If you do, it may perform a red [Evade] action.",
         "title": "Carlist Rieekan",
         "type": "Command",
-        "slots": ["Command", "Crew"],
+        "slots": [
+          "Command",
+          "Crew"
+        ],
         "grants": [
           {
             "type": "action",
@@ -170,7 +182,10 @@
         "ability": "Friendly ships at range 0-3 can spend your focus and evade tokens.",
         "title": "Jan Dodonna",
         "type": "Command",
-        "slots": ["Command", "Crew"],
+        "slots": [
+          "Command",
+          "Crew"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/jandodonna.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/jandodonna.png"
       }
@@ -189,7 +204,10 @@
         "ability": "After you are destroyed, each friendly ship at range 0-1 gains 1 focus token. After you are destroyed, you are not removed until the end of the End Phase.",
         "title": "Raymus Antilles",
         "type": "Command",
-        "slots": ["Command", "Crew"],
+        "slots": [
+          "Command",
+          "Crew"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/raymusantilles.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/raymusantilles.png"
       }
@@ -208,7 +226,10 @@
         "ability": "After you are destroyed, you are not removed until the end of the End Phase.",
         "title": "Stalwart Captain",
         "type": "Command",
-        "slots": ["Command", "Crew"],
+        "slots": [
+          "Command",
+          "Crew"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/stalwartcaptain.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/stalwartcaptain.png"
       }
@@ -228,7 +249,10 @@
         "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.",
         "title": "Strategic Commander",
         "type": "Command",
-        "slots": ["Command", "Crew"],
+        "slots": [
+          "Command",
+          "Crew"
+        ],
         "charges": { "value": 3, "recovers": 0 },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/strategiccommander.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/strategiccommander.png"
@@ -265,8 +289,10 @@
     "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Galactic Republic"] },
-      { "ships": ["delta7aethersprite", "eta2actis"] }
-    ]
+      { "ships": [
+          "delta7aethersprite",
+          "eta2actis"
+        ] }]
   },
   {
     "name": "B6 Blade Wing Prototype",
@@ -280,7 +306,10 @@
         "ability": "Add [Gunner] slot. Attack ([Lock]): Gain 1 ion token to perform this attack. If this attack hits, the defender suffers 1 additional [Hit]/[Critical Hit] damage for each matching uncanceled result after the first.",
         "title": "B6 Blade Wing Prototype",
         "type": "Command",
-        "slots": ["Command", "Title"],
+        "slots": [
+          "Command",
+          "Title"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/b6bladewingprototype-command.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/b6bladewingprototype-command.png"
       }
@@ -288,8 +317,7 @@
     "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["asf01bwing"] }
-    ]
+      { "ships": ["asf01bwing"] }]
   },
   {
     "name": "Bounty",
@@ -428,8 +456,7 @@
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
       { "standardized": true },
-      { "non-limited": false }
-    ]
+      { "non-limited": false }]
   },
   {
     "name": "Mar Tuuk",
@@ -443,7 +470,10 @@
         "ability": "Setup: After placing forces, choose 1 friendly wing of ships with [Calculate] on their action bars and place that wing in reserve. During the End Phase, you may place that wing within your deployment area or beyond range 2 of any enemy shp. Then you may choose 1 enemy ship at range 0-1 of you; each ship in that wing acquires a lock on it.",
         "title": "Mar Tuuk",
         "type": "Command",
-        "slots": ["Command", "Crew"],
+        "slots": [
+          "Command",
+          "Crew"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/martuuk.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/martuuk.png"
       }
@@ -451,8 +481,7 @@
     "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
-      { "sizes": ["Huge"] }
-    ]
+      { "sizes": ["Huge"] }]
   },
   {
     "name": "Riff Tamson",
@@ -466,7 +495,10 @@
         "ability": "During the Engagement Phase, at initiative 5, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack. After you perform an attack, if the defender was dealt 1 or more faceup damage cards, it gains 2 strain tokens.",
         "title": "Riff Tamson",
         "type": "Command",
-        "slots": ["Command", "Crew"],
+        "slots": [
+          "Command",
+          "Crew"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/rifftamson.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/rifftamson.png"
       }
@@ -474,8 +506,7 @@
     "cost": { "value": 6 },
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
-      { "sizes": ["Huge"] }
-    ]
+      { "sizes": ["Huge"] }]
   },
   {
     "name": "Asajj Ventress",
@@ -489,8 +520,11 @@
         "ability": "During the System Phase, you may spend 1 [Force]. IF you do, each enemy ship in your [Front Arc] at range 0-1 gains 1 strain token unless it chooses to gain 1 jam token.",
         "title": "Asajj Ventress",
         "type": "Command",
-        "slots": ["Command", "Crew"],
-        "grants" : [
+        "slots": [
+          "Command",
+          "Crew"
+        ],
+        "grants": [
           {
             "type": "action",
             "value": {
@@ -507,9 +541,11 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [
-      { "factions": ["Separatist Alliance", "Scum and Villainy"] },
-      { "sizes": ["Huge"] }
-    ]
+      { "factions": [
+          "Separatist Alliance",
+          "Scum and Villainy"
+        ] },
+      { "sizes": ["Huge"] }]
   },
   {
     "name": "Zealous Captain",
@@ -523,7 +559,10 @@
         "ability": "During the Engagement Phase, at initiative 4, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack.",
         "title": "Zealous Captain",
         "type": "Command",
-        "slots": ["Command", "Crew"],
+        "slots": [
+          "Command",
+          "Crew"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/zealouscaptain.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/zealouscaptain.png"
       }
@@ -544,8 +583,11 @@
         "charges": { "value": 2, "recovers": 0 },
         "title": "Hondo Ohnaka",
         "type": "Command",
-        "slots": ["Command", "Crew"],
-        "grants" : [
+        "slots": [
+          "Command",
+          "Crew"
+        ],
+        "grants": [
           {
             "type": "action",
             "value": {
@@ -560,9 +602,7 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [
-      { "sizes": ["Huge"] }
-    ]
+    "restrictions": [{ "sizes": ["Huge"] }]
   },
   {
     "name": "General Grievous",
@@ -576,7 +616,10 @@
         "ability": "During the Engagement Phase, at initiative 4, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack. You can perform attacks against friendly ships. After you perform an attack, if the defender was destroyed, each friendly ship at range 0-2 of it may perform a [Calculate] action.",
         "title": "General Grievous",
         "type": "Command",
-        "slots": ["Command", "Crew"],
+        "slots": [
+          "Command",
+          "Crew"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/generalgrievouscommand.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/generalgrievouscommand.png"
       }
@@ -584,8 +627,7 @@
     "cost": { "value": 5 },
     "restrictions": [
       { "sizes": ["Huge"] },
-      { "factions": ["Separatist Alliance"] }
-    ]
+      { "factions": ["Separatist Alliance"] }]
   },
   {
     "name": "Combat Boarding Tube",
@@ -599,14 +641,15 @@
         "ability": "During the System Phase, if you would drop a [Crew] remote and there is an enemy medium, large, or huge ship at range 0-1 in your [Rear Arc], you may place that device in the play area in your [Rear Arc] at range 0-1 so that it is at range 0 of that enemy ship instead. Then, that enemy ship gains 1 deplete, strain, or stress token of your choice.",
         "title": "Combat Boarding Tube",
         "type": "Command",
-        "slots": ["Command", "Configuration"],
+        "slots": [
+          "Command",
+          "Configuration"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/combatboardingtube.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/combatboardingtube.png"
       }
     ],
     "cost": { "value": "?" },
-    "restrictions": [
-      { "ships": ["gauntletfighter"] }
-    ]
+    "restrictions": [{ "ships": ["gauntletfighter"] }]
   }
 ]

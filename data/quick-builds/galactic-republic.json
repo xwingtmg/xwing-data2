@@ -178,7 +178,10 @@
             "force-power": ["supernaturalreflexes"],
             "astromech": ["r2astromech"],
             "configuration": ["delta7b"],
-            "modification": ["afterburners", "shieldupgrade"]
+            "modification": [
+              "afterburners",
+              "shieldupgrade"
+            ]
           }
         }
       ]
@@ -189,7 +192,10 @@
         {
           "id": "plokoon",
           "upgrades": {
-            "force-power": ["battlemeditation", "sense"],
+            "force-power": [
+              "battlemeditation",
+              "sense"
+            ],
             "astromech": ["r4pastromech"],
             "modification": ["shieldupgrade"]
           }
@@ -253,7 +259,10 @@
           "upgrades": {
             "talent": ["saturationsalvo"],
             "missile": ["clustermissiles"],
-            "modification": ["afterburners", "munitionsfailsafe"]
+            "modification": [
+              "afterburners",
+              "munitionsfailsafe"
+            ]
           }
         }
       ]
@@ -426,7 +435,10 @@
             "talent": ["elusive"],
             "device": ["protonbombs"],
             "turret": ["ioncannonturret"],
-            "modification": ["delayedfuses", "shieldupgrade"],
+            "modification": [
+              "delayedfuses",
+              "shieldupgrade"
+            ],
             "astromech": ["r2astromech"]
           }
         }
@@ -504,7 +516,7 @@
           "upgrades": {
             "talent": ["predator"],
             "force-power": ["supernaturalreflexes"],
-			"astromech": ["r3astromech"]
+            "astromech": ["r3astromech"]
           }
         }
       ]
@@ -517,17 +529,17 @@
           "upgrades": {
             "talent": ["margsablclosure"],
             "force-power": ["patience"],
-			"astromech": ["r5astromech"],
-			"modification": ["hullupgrade"]
+            "astromech": ["r5astromech"],
+            "modification": ["hullupgrade"]
           }
         },
-		{
-		  "id": "transgalmegcontrollink",
-		  "upgrades": {
-			"hyperdrive": ["syliure31hyperdrive"],
-			"modification": ["shieldupgrade"]
-		  }
-		}
+        {
+          "id": "transgalmegcontrollink",
+          "upgrades": {
+            "hyperdrive": ["syliure31hyperdrive"],
+            "modification": ["shieldupgrade"]
+          }
+        }
       ]
     },
     {
@@ -536,8 +548,12 @@
         {
           "id": "yoda",
           "upgrades": {
-            "force-power": ["heightenedperception", "sense", "patience"],
-			"astromech": ["r2d2-republic"]
+            "force-power": [
+              "heightenedperception",
+              "sense",
+              "patience"
+            ],
+            "astromech": ["r2d2-republic"]
           }
         }
       ]
@@ -550,8 +566,11 @@
           "upgrades": {
             "talent": ["margsablclosure"],
             "force-power": ["extrememaneuvers"],
-			"astromech": ["r2d2-republic"],
-			"modification": ["afterburners", "shieldupgrade"]
+            "astromech": ["r2d2-republic"],
+            "modification": [
+              "afterburners",
+              "shieldupgrade"
+            ]
           }
         }
       ]
@@ -564,8 +583,8 @@
           "upgrades": {
             "missile": ["multimissilepods"],
             "gunner": ["suppressivegunner"],
-			"crew": ["ghostcompany"],
-			"modification": ["shieldupgrade"]
+            "crew": ["ghostcompany"],
+            "modification": ["shieldupgrade"]
           }
         }
       ]
@@ -576,10 +595,13 @@
         {
           "id": "hawk",
           "upgrades": {
-			"talent": ["deadeyeshot"],
+            "talent": ["deadeyeshot"],
             "missile": ["ionmissiles"],
             "gunner": ["clonecaptainrex"],
-			"crew": ["fives", "yoda"]
+            "crew": [
+              "fives",
+              "yoda"
+            ]
           }
         }
       ]
@@ -592,8 +614,11 @@
           "upgrades": {
             "missile": ["multimissilepods"],
             "gunner": ["suppressivegunner"],
-			"crew": ["plokoon", "wolfpack"],
-			"modification": ["shieldupgrade"]
+            "crew": [
+              "plokoon",
+              "wolfpack"
+            ],
+            "modification": ["shieldupgrade"]
           }
         }
       ]
@@ -605,9 +630,15 @@
           "id": "hound",
           "upgrades": {
             "missile": ["concussionmissiles"],
-            "gunner": ["suppressivegunner", "agilegunner"],
-			"crew": ["aaylasecura", "kitfisto"],
-			"modification": ["hullupgrade"]
+            "gunner": [
+              "suppressivegunner",
+              "agilegunner"
+            ],
+            "crew": [
+              "aaylasecura",
+              "kitfisto"
+            ],
+            "modification": ["hullupgrade"]
           }
         }
       ]
@@ -628,7 +659,7 @@
           "upgrades": {
             "talent": ["ionlimiteroverride"],
             "astromech": ["r7a7"],
-			"modification": ["precisionionengines"]
+            "modification": ["precisionionengines"]
           }
         }
       ]
@@ -641,7 +672,7 @@
           "upgrades": {
             "device": ["thermaldetonators"],
             "astromech": ["r3astromech"],
-			"configuration": ["alpha3bbesh"]
+            "configuration": ["alpha3bbesh"]
           }
         }
       ]
@@ -652,9 +683,12 @@
         {
           "id": "oddball-nimbusclassvwing",
           "upgrades": {
-            "talent": ["elusive", "ionlimiteroverride"],
+            "talent": [
+              "elusive",
+              "ionlimiteroverride"
+            ],
             "astromech": ["q7astromech"],
-			"modification": ["precisionionengines"]
+            "modification": ["precisionionengines"]
           }
         }
       ]
@@ -667,7 +701,7 @@
           "upgrades": {
             "talent": ["outmaneuver"],
             "astromech": ["r2astromech"],
-			"configuration": ["alpha3eesk"]
+            "configuration": ["alpha3eesk"]
           }
         }
       ]
@@ -679,7 +713,7 @@
           "id": "wilhufftarkin",
           "upgrades": {
             "astromech": ["r3astromech"],
-			"configuration": ["alpha3eesk"]
+            "configuration": ["alpha3eesk"]
           }
         }
       ]
@@ -691,11 +725,17 @@
           "id": "republicjudiciary",
           "upgrades": {
             "command": ["strategiccommander"],
-            "hardpoint": ["targetingbattery", "turbolaserbattery"],
+            "hardpoint": [
+              "targetingbattery",
+              "turbolaserbattery"
+            ],
             "crew": ["seasonednavigator"],
             "gunner": ["agilegunner"],
-			"team": ["damagecontrolteam", "gunneryspecialists"],
-			"cargo": ["boostedscanners"]
+            "team": [
+              "damagecontrolteam",
+              "gunneryspecialists"
+            ],
+            "cargo": ["boostedscanners"]
           }
         }
       ]
@@ -707,8 +747,11 @@
           "id": "slider",
           "upgrades": {
             "talent": ["outmaneuver"],
-			"torpedo": ["protontorpedoes"],
-			"modification": ["afterburners", "shieldupgrade"]
+            "torpedo": ["protontorpedoes"],
+            "modification": [
+              "afterburners",
+              "shieldupgrade"
+            ]
           }
         }
       ]
@@ -719,8 +762,8 @@
         {
           "id": "killer",
           "upgrades": {
-			"torpedo": ["protontorpedoes"],
-			"modification": ["afterburners"]
+            "torpedo": ["protontorpedoes"],
+            "modification": ["afterburners"]
           }
         }
       ]
@@ -732,7 +775,7 @@
           "id": "warthog-clonez95headhunter",
           "upgrades": {
             "talent": ["elusive"],
-			"torpedo": ["protontorpedoes"]
+            "torpedo": ["protontorpedoes"]
           }
         }
       ]
@@ -744,8 +787,8 @@
           "id": "boost",
           "upgrades": {
             "talent": ["enduring"],
-			"torpedo": ["homingtorpedoes"],
-			"modification": ["hullupgrade"]
+            "torpedo": ["homingtorpedoes"],
+            "modification": ["hullupgrade"]
           }
         }
       ]
@@ -757,8 +800,8 @@
           "id": "drift",
           "upgrades": {
             "talent": ["elusive"],
-			"torpedo": ["homingtorpedoes"],
-			"modification": ["afterburners"]
+            "torpedo": ["homingtorpedoes"],
+            "modification": ["afterburners"]
           }
         }
       ]
@@ -770,8 +813,8 @@
           "id": "hawk-clonez95headhunter",
           "upgrades": {
             "talent": ["outmaneuver"],
-			"missile": ["magpulsewarheads"],
-			"modification": ["afterburners"]
+            "missile": ["magpulsewarheads"],
+            "modification": ["afterburners"]
           }
         }
       ]
@@ -783,8 +826,8 @@
           "id": "stub",
           "upgrades": {
             "talent": ["elusive"],
-			"torpedo": ["protontorpedoes"],
-			"modification": ["afterburners"]
+            "torpedo": ["protontorpedoes"],
+            "modification": ["afterburners"]
           }
         }
       ]
@@ -795,7 +838,7 @@
         {
           "id": "7thskycorpspilot",
           "upgrades": {
-			"modification": ["angleddeflectors"]
+            "modification": ["angleddeflectors"]
           }
         }
       ]
@@ -806,8 +849,11 @@
         {
           "id": "knack",
           "upgrades": {
-            "talent": ["outmaneuver", "predator"],
-			"torpedo": ["protontorpedoes"]
+            "talent": [
+              "outmaneuver",
+              "predator"
+            ],
+            "torpedo": ["protontorpedoes"]
           }
         }
       ]
@@ -819,9 +865,9 @@
           "id": "reapersquadronscout",
           "upgrades": {
             "talent": ["outmaneuver"],
-			"missile": ["magpulsewarheads"],
-			"modification": ["shieldupgrade"],
-			"sensor": ["firecontrolsystem"]
+            "missile": ["magpulsewarheads"],
+            "modification": ["shieldupgrade"],
+            "sensor": ["firecontrolsystem"]
           }
         }
       ]
@@ -836,8 +882,11 @@
             "crew": ["niteowlcommandos"],
             "gunner": ["veterantailgunner"],
             "title": ["gauntlet"],
-            "modification": ["dropseatbay", "hullupgrade"],
-			"configuration": ["swivelwing"]
+            "modification": [
+              "dropseatbay",
+              "hullupgrade"
+            ],
+            "configuration": ["swivelwing"]
           }
         }
       ]
@@ -852,7 +901,7 @@
             "device": ["concussionbombs"],
             "gunner": ["veterantailgunner"],
             "modification": ["hullupgrade"],
-			"configuration": ["swivelwing"]
+            "configuration": ["swivelwing"]
           }
         }
       ]

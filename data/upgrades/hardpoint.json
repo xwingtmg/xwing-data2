@@ -185,8 +185,7 @@
     "epic": true,
     "restrictions": [
       { "sizes": ["Huge"] },
-      { "ships": ["tridentclassassaultship"] }
-    ],
+      { "ships": ["tridentclassassaultship"] }],
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. Bonus Attack. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy]. Bonus Attack: Spend 1 [Energy].",
@@ -224,7 +223,10 @@
         "ability": "Setup: Equip this side faceup. Bonus Attack: Change 1 [Hit] result to a [Critical Hit] result. Bonus Attack: Spend 1 [Energy]. Change 1 [Hit] result to a [Critical Hit] result.",
         "title": "Proton Cannon Battery",
         "type": "Hardpoint",
-        "slots": ["Hardpoint", "Cargo"],
+        "slots": [
+          "Hardpoint",
+          "Cargo"
+        ],
         "attack": {
           "arc": "Bullseye Arc",
           "value": 4,
@@ -238,7 +240,10 @@
         "ability": "Action: Spend 1 [Energy] to repair this card.",
         "title": "Proton Cannon Battery (Offline)",
         "type": "Hardpoint",
-        "slots": ["Hardpoint", "Cargo"],
+        "slots": [
+          "Hardpoint",
+          "Cargo"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       }
     ],
@@ -256,22 +261,27 @@
         "ability": "Setup: Equip this side faceup. At the start of the End Phase, you may spend 2 [Energy] to execute a white [2 [Straight]], [1 [Bank Left]], or [1 [Bank Right]] maneuver.",
         "title": "Enhanced Propulsion",
         "type": "Hardpoint",
-        "slots": ["Hardpoint", "Cargo"],
+        "slots": [
+          "Hardpoint",
+          "Cargo"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       },
       {
         "ability": "Action: Spend 1 [Energy] to repair this card.",
         "title": "Enhanced Propulsion (Offline)",
         "type": "Hardpoint",
-        "slots": ["Hardpoint", "Cargo"],
+        "slots": [
+          "Hardpoint",
+          "Cargo"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       }
     ],
     "cost": { "value": 6 },
     "restrictions": [
       { "sizes": ["Huge"] },
-      { "ships": ["tridentclassassaultship"] }
-    ]
+      { "ships": ["tridentclassassaultship"] }]
   },
   {
     "name": "Drill Beak",
@@ -285,7 +295,10 @@
         "ability": "Setup: Equip this side faceup. You can perform this attack at range 0. Bonus Attack: Spend 1 [Energy]. If the attack range is 0, change all [Hit] results to [Critical Hit] results.",
         "title": "Drill Beak",
         "type": "Hardpoint",
-        "slots": ["Hardpoint", "Cargo"],
+        "slots": [
+          "Hardpoint",
+          "Cargo"
+        ],
         "attack": {
           "arc": "Rear Arc",
           "value": 3,
@@ -299,14 +312,16 @@
         "ability": "Action: Spend 1 [Energy] to repair this card.",
         "title": "Drill Beak (Offline)",
         "type": "Hardpoint",
-        "slots": ["Hardpoint", "Cargo"],
+        "slots": [
+          "Hardpoint",
+          "Cargo"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
       }
     ],
     "cost": { "value": 4 },
     "restrictions": [
       { "sizes": ["Huge"] },
-      { "ships": ["tridentclassassaultship"] }
-    ]
+      { "ships": ["tridentclassassaultship"] }]
   }
 ]

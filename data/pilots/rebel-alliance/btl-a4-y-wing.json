@@ -95,7 +95,11 @@
       "xws": "goldsquadronveteran",
       "text": "Commanded by Jon “Dutch” Vander, Gold Squadron played an instrumental role in the Battles of Scarif and Yavin.",
       "image": "https://infinitearenas.com/xw2/images/pilots/goldsquadronveteran.png",
-      "slots": ["Turret", "Modification", "Missile"],
+      "slots": [
+        "Turret",
+        "Modification",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/goldsquadronveteran.png",
       "standard": true,
       "extended": true,
@@ -111,7 +115,11 @@
       "xws": "graysquadronbomber",
       "text": "Long after the Y-wing was phased out by the Galactic Empire, its durability, dependability, and heavy armament help it remain a staple in the Rebel fleet.",
       "image": "https://infinitearenas.com/xw2/images/pilots/graysquadronbomber.png",
-      "slots": ["Device", "Modification", "Missile"],
+      "slots": [
+        "Device",
+        "Modification",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/graysquadronbomber.png",
       "standard": true,
       "extended": true,
@@ -178,7 +186,11 @@
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["dorsalturret", "advprotontorpedoes", "r4astromech"],
+      "standardLoadout": [
+        "dorsalturret",
+        "advprotontorpedoes",
+        "r4astromech"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dextiree-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dextiree-battleofyavin.png",
       "standard": true,
@@ -198,7 +210,11 @@
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["ioncannonturret", "advprotontorpedoes", "targetingastromech"],
+      "standardLoadout": [
+        "ioncannonturret",
+        "advprotontorpedoes",
+        "targetingastromech"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dutchvander-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dutchvander.png",
       "standard": true,
@@ -218,7 +234,11 @@
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["dorsalturret", "advprotontorpedoes", "preciseastromech"],
+      "standardLoadout": [
+        "dorsalturret",
+        "advprotontorpedoes",
+        "preciseastromech"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/holokand-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/holokand-battleofyavin.png",
       "standard": true,
@@ -238,7 +258,11 @@
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["ioncannonturret", "advprotontorpedoes", "r4astromech"],
+      "standardLoadout": [
+        "ioncannonturret",
+        "advprotontorpedoes",
+        "r4astromech"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/popskrail-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/popskrail-battleofyavin.png",
       "standard": true,
@@ -279,7 +303,10 @@
       "cost": 4,
       "xws": "dutchvander-swz106",
       "ability": "After you perform the [Lock] action, you may choose 1 friendly ship at range 1-3. That ship may acquire a lock on the object you locked, ignoring range restrictions.",
-      "standardLoadout": ["ioncannonturret", "protonbombs"],
+      "standardLoadout": [
+        "ioncannonturret",
+        "protonbombs"
+      ],
       "image": "",
       "artwork": "",
       "standard": true,
@@ -295,7 +322,10 @@
       "cost": 4,
       "xws": "hortonsalm-swz106",
       "ability": "While you perform an attack, you may reroll 1 attack die for each other friendly ship at range 0-1 of the defender.",
-      "standardLoadout": ["ioncannonturret", "proximitymines"],
+      "standardLoadout": [
+        "ioncannonturret",
+        "proximitymines"
+      ],
       "image": "",
       "artwork": "",
       "standard": true,

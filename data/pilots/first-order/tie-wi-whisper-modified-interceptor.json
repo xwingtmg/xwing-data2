@@ -78,8 +78,15 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kyloren-tiewiwhispermodifiedinterceptor.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/kyloren-tiewiwhispermodifiedinterceptor.png",
       "caption": "Supreme Leader of the First Order",
-      "keywords": ["Dark Side", "Light Side", "TIE"],
-      "force": { "value": 3, "recovers": 1, "side": ["dark", "light"] },
+      "keywords": [
+        "Dark Side",
+        "Light Side",
+        "TIE"
+      ],
+      "force": { "value": 3, "recovers": 1, "side": [
+          "dark",
+          "light"
+        ] },
       "epic": true
     },
     {
@@ -95,7 +102,14 @@
       "extended": true,
       "cost": 5,
       "loadout": 15,
-      "slots": ["Talent", "Talent", "Cannon", "Tech", "Tech", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Cannon",
+        "Tech",
+        "Tech",
+        "Configuration"
+      ],
       "ability": "After you perform a [Bullseye Arc] attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wrath.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/wrath.png",
@@ -116,7 +130,13 @@
       "extended": true,
       "cost": 4,
       "loadout": 10,
-      "slots": ["Talent", "Missile", "Tech", "Tech", "Configuration"],
+      "slots": [
+        "Talent",
+        "Missile",
+        "Tech",
+        "Tech",
+        "Configuration"
+      ],
       "ability": "After you fully execute a maneuver or perform a [Boost] action, each ship you moved through gains 2 jam tokens.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nightfall.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/nightfall.png",
@@ -137,7 +157,14 @@
       "extended": true,
       "cost": 4,
       "loadout": 12,
-      "slots": ["Talent", "Talent", "Missile", "Tech", "Tech", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Tech",
+        "Tech",
+        "Configuration"
+      ],
       "ability": "Before you engage, you may remove any number of jam tokens, then you may gain 1 focus token for each enemy ship that has you in its [Front Arc].",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/whirlwind.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/whirlwind.png",
@@ -159,7 +186,13 @@
       "extended": true,
       "cost": 4,
       "loadout": 10,
-      "slots": ["Talent", "Missile", "Tech", "Tech", "Configuration"],
+      "slots": [
+        "Talent",
+        "Missile",
+        "Tech",
+        "Tech",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/709thlegionace.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/709thlegionace.png",
       "keywords": ["TIE"],
@@ -179,7 +212,12 @@
       "extended": true,
       "cost": 4,
       "loadout": 3,
-      "slots": ["Talent", "Tech", "Tech", "Configuration"],
+      "slots": [
+        "Talent",
+        "Tech",
+        "Tech",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redfuryzealot.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/redfuryzealot.png",
       "keywords": ["TIE"],

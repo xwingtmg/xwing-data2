@@ -240,7 +240,10 @@
           "id": "bluesquadronrecruit",
           "upgrades": {
             "tech": ["primedthrusters"],
-            "talent": ["composure", "snapshot"]
+            "talent": [
+              "composure",
+              "snapshot"
+            ]
           }
         }
       ]
@@ -294,7 +297,10 @@
             "tech": ["patternanalyzer"],
             "gunner": ["skilledbombardier"],
             "crew": ["seasonednavigator"],
-            "device": ["protonbombs", "connernets"]
+            "device": [
+              "protonbombs",
+              "connernets"
+            ]
           }
         }
       ]
@@ -319,7 +325,10 @@
         {
           "id": "benteene",
           "upgrades": {
-            "device": ["protonbombs", "connernets"]
+            "device": [
+              "protonbombs",
+              "connernets"
+            ]
           }
         }
       ]
@@ -332,7 +341,10 @@
           "upgrades": {
             "tech": ["advancedoptics"],
             "gunner": ["paigetico"],
-            "modification": ["hullupgrade", "ablativeplating"],
+            "modification": [
+              "hullupgrade",
+              "ablativeplating"
+            ],
             "device": ["protonbombs"]
           }
         }
@@ -383,7 +395,11 @@
         {
           "id": "resistancesympathizer",
           "upgrades": {
-            "crew": ["chewbacca-crew-swz19", "hansolo-crew", "c3po-crew"],
+            "crew": [
+              "chewbacca-crew-swz19",
+              "hansolo-crew",
+              "c3po-crew"
+            ],
             "talent": ["debrisgambit"]
           }
         }
@@ -440,7 +456,10 @@
         {
           "id": "covanell",
           "upgrades": {
-            "crew": ["leiaorgana-resistance", "korrsella"],
+            "crew": [
+              "leiaorgana-resistance",
+              "korrsella"
+            ],
             "talent": ["composure"]
           }
         }
@@ -479,7 +498,10 @@
         {
           "id": "logisticsdivisionpilot",
           "upgrades": {
-            "crew": ["amilynholdo", "larmadacy"],
+            "crew": [
+              "amilynholdo",
+              "larmadacy"
+            ],
             "torpedo": ["protontorpedoes"]
           }
         }
@@ -504,7 +526,10 @@
         {
           "id": "zizitlo",
           "upgrades": {
-            "talent": ["elusive", "snapshot"],
+            "talent": [
+              "elusive",
+              "snapshot"
+            ],
             "tech": ["advancedoptics"],
             "modification": ["afterburners"]
           }
@@ -543,7 +568,10 @@
           "upgrades": {
             "talent": ["elusive"],
             "missile": ["magpulsewarheads"],
-            "modification": ["advancedslam", "targetingcomputer"]
+            "modification": [
+              "advancedslam",
+              "targetingcomputer"
+            ]
           }
         }
       ]
@@ -571,7 +599,10 @@
           "upgrades": {
             "illicit": ["coaxiumhyperfuel"],
             "missile": ["magpulsewarheads"],
-            "modification": ["afterburners", "targetingcomputer"]
+            "modification": [
+              "afterburners",
+              "targetingcomputer"
+            ]
           }
         }
       ]
@@ -597,7 +628,11 @@
           "upgrades": {
             "talent": ["experthandling"],
             "astromech": ["r2astromech"],
-            "modification": ["engineupgrade", "hullupgrade", "targetingcomputer"]
+            "modification": [
+              "engineupgrade",
+              "hullupgrade",
+              "targetingcomputer"
+            ]
           }
         }
       ]
@@ -610,7 +645,10 @@
           "upgrades": {
             "turret": ["ioncannonturret"],
             "illicit": ["overtunedmodulators"],
-            "modification": ["engineupgrade", "targetingcomputer"]
+            "modification": [
+              "engineupgrade",
+              "targetingcomputer"
+            ]
           }
         }
       ]
@@ -623,8 +661,11 @@
           "upgrades": {
             "talent": ["tierfonbellyrun"],
             "turret": ["ioncannonturret"],
-			"illicit": ["overtunedmodulators"],
-            "modification": ["engineupgrade", "targetingcomputer"]
+            "illicit": ["overtunedmodulators"],
+            "modification": [
+              "engineupgrade",
+              "targetingcomputer"
+            ]
           }
         }
       ]
@@ -650,8 +691,11 @@
           "upgrades": {
             "talent": ["outmaneuver"],
             "turret": ["ioncannonturret"],
-			"astromech": ["r3astromech"],
-            "modification": ["shieldupgrade", "targetingcomputer"]
+            "astromech": ["r3astromech"],
+            "modification": [
+              "shieldupgrade",
+              "targetingcomputer"
+            ]
           }
         }
       ]
@@ -663,7 +707,7 @@
           "id": "shasazaro",
           "upgrades": {
             "turret": ["ioncannonturret"],
-			"astromech": ["watchfulastromech"],
+            "astromech": ["watchfulastromech"],
             "device": ["concussionbombs"],
             "configuration": ["wartimeloadout"]
           }
@@ -679,8 +723,11 @@
             "talent": ["experthandling"],
             "astromech": ["r2astromech"],
             "turret": ["ioncannonturret"],
-			"modification": ["delayedfuses", "engineupgrade"],
-			"device": ["concussionbombs"]
+            "modification": [
+              "delayedfuses",
+              "engineupgrade"
+            ],
+            "device": ["concussionbombs"]
           }
         }
       ]
@@ -693,8 +740,11 @@
           "upgrades": {
             "talent": ["predator"],
             "astromech": ["r3astromech"],
-			"turret": ["ioncannonturret"],
-            "modification": ["engineupgrade", "targetingcomputer"]
+            "turret": ["ioncannonturret"],
+            "modification": [
+              "engineupgrade",
+              "targetingcomputer"
+            ]
           }
         }
       ]
@@ -707,8 +757,8 @@
           "upgrades": {
             "talent": ["outmaneuver"],
             "torpedo": ["protontorpedoes"],
-			"astromech": ["r3astromech"],
-			"illicit": ["babufrik"],
+            "astromech": ["r3astromech"],
+            "illicit": ["babufrik"],
             "configuration": ["wartimeloadout"]
           }
         }
@@ -746,7 +796,10 @@
         {
           "id": "merlcobben",
           "upgrades": {
-            "talent": ["predator", "deadeyeshot"],
+            "talent": [
+              "predator",
+              "deadeyeshot"
+            ],
             "tech": ["automatedtargetpriority"],
             "modification": ["shieldupgrade"]
           }
@@ -759,7 +812,10 @@
         {
           "id": "seftinvanik",
           "upgrades": {
-            "talent": ["daredevil", "snapshot"],
+            "talent": [
+              "daredevil",
+              "snapshot"
+            ],
             "modification": ["hullupgrade"]
           }
         }
@@ -771,7 +827,10 @@
         {
           "id": "suralindajavos",
           "upgrades": {
-            "talent": ["snapshot", "starbirdslash"],
+            "talent": [
+              "snapshot",
+              "starbirdslash"
+            ],
             "missile": ["ionmissiles"],
             "modification": ["shieldupgrade"]
           }
@@ -784,7 +843,10 @@
         {
           "id": "wrobietyce",
           "upgrades": {
-            "talent": ["elusive", "starbirdslash"],
+            "talent": [
+              "elusive",
+              "starbirdslash"
+            ],
             "missile": ["concussionmissiles"]
           }
         }
@@ -836,11 +898,11 @@
           "id": "blacksquadronace-t70xwing",
           "upgrades": {
             "tech": ["primedthrusters"],
-			"talent": ["deadeyeshot"],
-			"torpedo": ["protontorpedoes"],
+            "talent": ["deadeyeshot"],
+            "torpedo": ["protontorpedoes"],
             "configuration": ["integratedsfoils"],
             "astromech": ["r3astromech"],
-			"modification": ["afterburners"]
+            "modification": ["afterburners"]
           }
         }
       ]
@@ -852,10 +914,10 @@
           "id": "caithrenalli",
           "upgrades": {
             "tech": ["primedthrusters"],
-			"talent": ["backwardstailslide"],
+            "talent": ["backwardstailslide"],
             "configuration": ["integratedsfoils"],
             "astromech": ["r4astromech"],
-			"torpedo": ["protontorpedoes"]
+            "torpedo": ["protontorpedoes"]
           }
         }
       ]
@@ -866,11 +928,14 @@
         {
           "id": "poedameron-swz68",
           "upgrades": {
-            "talent": ["backwardstailslide", "daredevil"],
+            "talent": [
+              "backwardstailslide",
+              "daredevil"
+            ],
             "configuration": ["integratedsfoils"],
             "astromech": ["r2d2-resistance"],
-			"modification": ["overdrivethruster"],
-			"title": ["blackone"]
+            "modification": ["overdrivethruster"],
+            "title": ["blackone"]
           }
         }
       ]
@@ -884,8 +949,8 @@
             "talent": ["snapshot"],
             "configuration": ["integratedsfoils"],
             "astromech": ["r6d8"],
-			"cannon": ["underslungblastercannon"],
-			"modification": ["hullupgrade"]
+            "cannon": ["underslungblastercannon"],
+            "modification": ["hullupgrade"]
           }
         }
       ]
@@ -899,8 +964,11 @@
             "command": ["stalwartcaptain"],
             "hardpoint": ["ioncannonbattery"],
             "turret": ["dorsalturret"],
-			"team": ["sensorexperts"],
-			"cargo": ["boostedscanners", "tibannareserves"]
+            "team": ["sensorexperts"],
+            "cargo": [
+              "boostedscanners",
+              "tibannareserves"
+            ]
           }
         }
       ]

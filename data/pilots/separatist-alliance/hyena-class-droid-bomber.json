@@ -53,7 +53,12 @@
       "extended": true,
       "cost": 3,
       "loadout": 6,
-      "slots": ["Torpedo", "Device", "Modification", "Configuration"],
+      "slots": [
+        "Torpedo",
+        "Device",
+        "Modification",
+        "Configuration"
+      ],
       "text": "Baktoid Armor Workshop developed the Hyena as a strike craft compatible with Trade Federation Vulture swarm tactics.",
       "image": "https://infinitearenas.com/xw2/images/pilots/technounionbomber.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/technounionbomber.png",
@@ -76,7 +81,12 @@
       "extended": true,
       "cost": 3,
       "loadout": 8,
-      "slots": ["Device", "Device", "Modification", "Configuration"],
+      "slots": [
+        "Device",
+        "Device",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bombardmentdrone.png",
       "keywords": ["Droid"],
       "epic": true
@@ -150,7 +160,12 @@
       "extended": true,
       "cost": 3,
       "loadout": 4,
-      "slots": ["Missile", "Device", "Modification", "Configuration"],
+      "slots": [
+        "Missile",
+        "Device",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/separatistbomber.png",
       "keywords": ["Droid"],
       "epic": true
@@ -181,7 +196,12 @@
       "extended": true,
       "cost": 4,
       "loadout": 16,
-      "slots": ["Sensor", "Tactical Relay", "Modification", "Configuration"],
+      "slots": [
+        "Sensor",
+        "Tactical Relay",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dbs32c.png",
       "keywords": ["Droid"],
       "epic": true
@@ -210,7 +230,11 @@
         { "difficulty": "Red", "type": "Jam" }
       ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dbs32c-siegeofcoruscant.png",
-      "standardLoadout": ["plasmatorpedoes", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "plasmatorpedoes",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dbs32c.png",
       "standard": true,
       "extended": true,
@@ -230,7 +254,11 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dbs404-siegeofcoruscant.png",
-      "standardLoadout": ["advprotontorpedoes", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "advprotontorpedoes",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dbs404.png",
       "standard": true,
       "extended": true,
@@ -250,7 +278,11 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/baktoidprototype-siegeofcoruscant.png",
-      "standardLoadout": ["homingmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "homingmissiles",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/baktoidprototype.png",
       "standard": true,
       "extended": true,

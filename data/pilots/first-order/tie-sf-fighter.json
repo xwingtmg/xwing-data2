@@ -69,7 +69,14 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "slots": ["Talent", "Talent", "Sensor", "Modification", "Gunner", "Tech"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Sensor",
+        "Modification",
+        "Gunner",
+        "Tech"
+      ],
       "charges": { "value": 1, "recovers": 1 },
       "image": "https://infinitearenas.com/xw2/images/pilots/quickdraw.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/quickdraw.png",
@@ -118,7 +125,13 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "slots": ["Sensor", "Missile", "Modification", "Gunner", "Tech"],
+      "slots": [
+        "Sensor",
+        "Missile",
+        "Modification",
+        "Gunner",
+        "Tech"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/omegasquadronexpert.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/omegasquadronexpert.png",
       "standard": true,
@@ -138,7 +151,12 @@
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "slots": ["Sensor", "Talent", "Gunner", "Tech"],
+      "slots": [
+        "Sensor",
+        "Talent",
+        "Gunner",
+        "Tech"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/zetasquadronsurvivor.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zetasquadronsurvivor.png",
       "standard": true,

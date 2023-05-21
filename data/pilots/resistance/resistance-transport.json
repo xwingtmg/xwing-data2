@@ -123,7 +123,12 @@
       "extended": true,
       "cost": 4,
       "loadout": 6,
-      "slots": ["Cannon", "Crew", "Astromech", "Astromech"],
+      "slots": [
+        "Cannon",
+        "Crew",
+        "Astromech",
+        "Astromech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/logisticsdivisionpilot.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/logisticsdivisionpilot.png",
       "epic": true
@@ -144,14 +149,14 @@
         "Tech",
         "Cannon",
         "Cannon",
-        "Torpedo", 
+        "Torpedo",
         "Astromech",
         "Illicit",
         "Modification"
-    ],
-    "image": "https://infinitearenas.com/xw2/images/pilots/takajamoreesa.png",
-    "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/takajamoreesa.png",
-    "epic": true
+      ],
+      "image": "https://infinitearenas.com/xw2/images/pilots/takajamoreesa.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/takajamoreesa.png",
+      "epic": true
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_Resistance_Transport.png"

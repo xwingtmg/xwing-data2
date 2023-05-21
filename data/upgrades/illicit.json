@@ -15,7 +15,10 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "restrictions": [{ "sizes": [
+          "Small",
+          "Medium"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -118,7 +121,10 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "restrictions": [{ "sizes": [
+          "Medium",
+          "Large"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -235,7 +241,10 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/babufrik.png"
       }
     ],
-    "restrictions": [{ "factions": ["Scum and Villainy", "Resistance"] }],
+    "restrictions": [{ "factions": [
+          "Scum and Villainy",
+          "Resistance"
+        ] }],
     "cost": { "value": 5 },
     "standard": true,
     "extended": true,
@@ -303,7 +312,10 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/hotshottailblaster.png"
       }
     ],
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "restrictions": [{ "sizes": [
+          "Medium",
+          "Large"
+        ] }],
     "cost": { "value": 2 },
     "standard": true,
     "extended": true,

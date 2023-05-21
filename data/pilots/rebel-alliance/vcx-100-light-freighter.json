@@ -68,7 +68,11 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/chopper.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid", "Freighter", "Spectre"],
+      "keywords": [
+        "Droid",
+        "Freighter",
+        "Spectre"
+      ],
       "epic": true
     },
     {
@@ -99,7 +103,10 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla-vcx100lightfreighter.png",
       "standard": false,
       "extended": true,
-      "keywords": ["Freighter", "Spectre"],
+      "keywords": [
+        "Freighter",
+        "Spectre"
+      ],
       "epic": true
     },
     {
@@ -131,7 +138,12 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kananjarrus.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter", "Jedi", "Light Side", "Spectre"],
+      "keywords": [
+        "Freighter",
+        "Jedi",
+        "Light Side",
+        "Spectre"
+      ],
       "epic": true
     },
     {
@@ -147,7 +159,11 @@
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
       },
-      "slots": ["Turret", "Torpedo", "Gunner"],
+      "slots": [
+        "Turret",
+        "Torpedo",
+        "Gunner"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lothalrebel.png",
       "standard": true,
       "extended": true,
@@ -182,7 +198,10 @@
       "loadout": 16,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/alexsandrkallus.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/alexsandrkallus.png",
-      "keywords": ["Freighter", "Spectre"],
+      "keywords": [
+        "Freighter",
+        "Spectre"
+      ],
       "epic": true
     }
   ]

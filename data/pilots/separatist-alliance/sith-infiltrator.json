@@ -64,7 +64,10 @@
         "Tactical Relay"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthmaul.png",
-      "keywords": ["Dark Side", "Sith"],
+      "keywords": [
+        "Dark Side",
+        "Sith"
+      ],
       "epic": true
     },
     {
@@ -92,7 +95,10 @@
         "Tactical Relay"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
-      "keywords": ["Dark Side", "Sith"],
+      "keywords": [
+        "Dark Side",
+        "Sith"
+      ],
       "epic": true
     },
     {
@@ -106,7 +112,12 @@
       "extended": true,
       "cost": 6,
       "loadout": 9,
-      "slots": ["Cannon", "Torpedo", "Device", "Modification"],
+      "slots": [
+        "Cannon",
+        "Torpedo",
+        "Device",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darkcourier.png",
       "epic": true
     },
@@ -156,11 +167,18 @@
       ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/countdooku-siegeofcoruscant.png",
       "force": { "value": 3, "recovers": 1, "side": ["dark"] },
-      "standardLoadout": ["malice", "roilinganger-siegeofcoruscant", "scimitar"],
+      "standardLoadout": [
+        "malice",
+        "roilinganger-siegeofcoruscant",
+        "scimitar"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "Sith"],
+      "keywords": [
+        "Dark Side",
+        "Sith"
+      ],
       "epic": true
     }
   ]

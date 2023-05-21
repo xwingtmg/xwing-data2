@@ -19,7 +19,10 @@
           "id": "blacksquadronace",
           "upgrades": {
             "talent": ["outmaneuver"],
-            "modification": ["afterburners", "shieldupgrade"]
+            "modification": [
+              "afterburners",
+              "shieldupgrade"
+            ]
           }
         }
       ]
@@ -52,7 +55,7 @@
           "upgrades": {
             "talent": ["lonewolf"],
             "torpedo": ["protontorpedoes"],
-			"modification": ["targetingcomputer"]
+            "modification": ["targetingcomputer"]
           }
         }
       ]
@@ -64,7 +67,10 @@
           "id": "nightbeast",
           "upgrades": {
             "talent": ["predator"],
-            "modification": ["hullupgrade", "shieldupgrade"]
+            "modification": [
+              "hullupgrade",
+              "shieldupgrade"
+            ]
           }
         }
       ]
@@ -96,7 +102,10 @@
           "id": "wampa",
           "upgrades": {
             "talent": ["crackshot"],
-            "modification": ["hullupgrade", "stealthdevice"]
+            "modification": [
+              "hullupgrade",
+              "stealthdevice"
+            ]
           }
         }
       ]
@@ -108,7 +117,10 @@
           "id": "blacksquadronace",
           "upgrades": {
             "talent": ["crackshot"],
-            "modification": ["afterburners", "shieldupgrade"]
+            "modification": [
+              "afterburners",
+              "shieldupgrade"
+            ]
           }
         }
       ]
@@ -219,7 +231,10 @@
             "force-power": ["supernaturalreflexes"],
             "missile": ["clustermissiles"],
             "sensor": ["firecontrolsystem"],
-            "modification": ["afterburners", "shieldupgrade"]
+            "modification": [
+              "afterburners",
+              "shieldupgrade"
+            ]
           }
         }
       ]
@@ -297,7 +312,10 @@
             "title": ["st321"],
             "cannon": ["ioncannon"],
             "sensor": ["collisiondetector"],
-            "crew": ["darthvader", "freelanceslicer"]
+            "crew": [
+              "darthvader",
+              "freelanceslicer"
+            ]
           }
         }
       ]
@@ -311,7 +329,10 @@
             "cannon": ["tractorbeam"],
             "sensor": ["collisiondetector"],
             "crew": ["emperorpalpatine"],
-            "modification": ["shieldupgrade", "staticdischargevanes"]
+            "modification": [
+              "shieldupgrade",
+              "staticdischargevanes"
+            ]
           }
         }
       ]
@@ -324,7 +345,10 @@
           "upgrades": {
             "cannon": ["jammingbeam"],
             "sensor": ["advancedsensors"],
-            "crew": ["cienaree", "gnkgonkdroid"]
+            "crew": [
+              "cienaree",
+              "gnkgonkdroid"
+            ]
           }
         }
       ]
@@ -454,7 +478,10 @@
           "upgrades": {
             "talent": ["outmaneuver"],
             "device": ["connernets"],
-            "modification": ["afterburners", "hullupgrade"]
+            "modification": [
+              "afterburners",
+              "hullupgrade"
+            ]
           }
         }
       ]
@@ -689,7 +716,10 @@
           "upgrades": {
             "missile": ["clustermissiles"],
             "gunner": ["skilledbombardier"],
-            "device": ["seismiccharges", "proximitymines"],
+            "device": [
+              "seismiccharges",
+              "proximitymines"
+            ],
             "modification": ["electronicbaffle"]
           }
         }
@@ -833,7 +863,10 @@
           "id": "soontirfel",
           "upgrades": {
             "talent": ["outmaneuver"],
-            "modification": ["afterburners", "stealthdevice"]
+            "modification": [
+              "afterburners",
+              "stealthdevice"
+            ]
           }
         }
       ]
@@ -1009,7 +1042,10 @@
           "id": "rearadmiralchiraneau",
           "upgrades": {
             "talent": ["swarmtactics"],
-            "crew": ["ministertua", "tacticalofficer"]
+            "crew": [
+              "ministertua",
+              "tacticalofficer"
+            ]
           }
         }
       ]
@@ -1021,7 +1057,10 @@
           "id": "patrolleader",
           "upgrades": {
             "gunner": ["fifthbrother"],
-            "crew": ["informant", "seventhsister"]
+            "crew": [
+              "informant",
+              "seventhsister"
+            ]
           }
         }
       ]
@@ -1032,7 +1071,10 @@
         {
           "id": "patrolleader",
           "upgrades": {
-            "modification": ["hullupgrade", "tacticalscrambler"]
+            "modification": [
+              "hullupgrade",
+              "tacticalscrambler"
+            ]
           }
         }
       ]
@@ -1129,7 +1171,10 @@
         {
           "id": "baronoftheempire",
           "upgrades": {
-            "talent": ["elusive", "outmaneuver"],
+            "talent": [
+              "elusive",
+              "outmaneuver"
+            ],
             "modification": ["afterburners"]
           }
         }
@@ -1155,7 +1200,7 @@
           "upgrades": {
             "force-power": ["hate"],
             "modification": ["shieldupgrade"],
-			"missile": ["protonrockets"]
+            "missile": ["protonrockets"]
           }
         }
       ]
@@ -1167,8 +1212,11 @@
           "id": "seventhsister",
           "upgrades": {
             "force-power": ["predictiveshot"],
-            "modification": ["afterburners", "hullupgrade"],
-			"missile": ["protonrockets"]
+            "modification": [
+              "afterburners",
+              "hullupgrade"
+            ],
+            "missile": ["protonrockets"]
           }
         }
       ]
@@ -1181,7 +1229,7 @@
           "upgrades": {
             "talent": ["disciplined"],
             "cannon": ["tractorbeam"],
-			"configuration": ["tiedefenderelite"]
+            "configuration": ["tiedefenderelite"]
           }
         }
       ]
@@ -1218,7 +1266,7 @@
           "upgrades": {
             "talent": ["interloperturn"],
             "cannon": ["tractorbeam"],
-			"configuration": ["tiedefenderelite"]
+            "configuration": ["tiedefenderelite"]
           }
         }
       ]
@@ -1231,7 +1279,7 @@
           "upgrades": {
             "talent": ["outmaneuver"],
             "modification": ["hullupgrade"],
-			"cannon": ["tractorbeam"]
+            "cannon": ["tractorbeam"]
           }
         }
       ]
@@ -1244,8 +1292,8 @@
           "upgrades": {
             "talent": ["predator"],
             "sensor": ["advancedsensors"],
-			"cannon": ["tractorbeam"],
-			"missile": ["ionmissiles"]
+            "cannon": ["tractorbeam"],
+            "missile": ["ionmissiles"]
           }
         }
       ]
@@ -1258,7 +1306,7 @@
           "upgrades": {
             "talent": ["outmaneuver"],
             "modification": ["shieldupgrade"],
-			"sensor": ["advancedsensors"]
+            "sensor": ["advancedsensors"]
           }
         }
       ]
@@ -1271,7 +1319,7 @@
           "upgrades": {
             "talent": ["elusive"],
             "sensor": ["advancedsensors"],
-			"missile": ["ionmissiles"]
+            "missile": ["ionmissiles"]
           }
         }
       ]
@@ -1282,9 +1330,12 @@
         {
           "id": "vultskerris",
           "upgrades": {
-            "talent": ["daredevil", "predator"],
+            "talent": [
+              "daredevil",
+              "predator"
+            ],
             "missile": ["magpulsewarheads"],
-			"configuration": ["tiedefenderelite"]
+            "configuration": ["tiedefenderelite"]
           }
         }
       ]
@@ -1297,7 +1348,7 @@
           "upgrades": {
             "force-power": ["sense"],
             "missile": ["magpulsewarheads"],
-			"configuration": ["tiedefenderelite"]
+            "configuration": ["tiedefenderelite"]
           }
         }
       ]
@@ -1308,7 +1359,10 @@
         {
           "id": "alphasquadronpilot",
           "upgrades": {
-            "modification": ["hullupgrade", "shieldupgrade"]
+            "modification": [
+              "hullupgrade",
+              "shieldupgrade"
+            ]
           }
         }
       ]
@@ -1321,7 +1375,7 @@
           "upgrades": {
             "talent": ["disciplined"],
             "configuration": ["sensitivecontrols"],
-			"modification": ["staticdischargevanes"]
+            "modification": ["staticdischargevanes"]
           }
         }
       ]
@@ -1333,7 +1387,10 @@
           "id": "alphasquadronpilot",
           "upgrades": {
             "configuration": ["sensitivecontrols"],
-            "modification": ["shieldupgrade", "targetingcomputer"]
+            "modification": [
+              "shieldupgrade",
+              "targetingcomputer"
+            ]
           }
         }
       ]
@@ -1356,7 +1413,10 @@
         {
           "id": "commandantgoran",
           "upgrades": {
-            "talent": ["disciplined", "margsablclosure"],
+            "talent": [
+              "disciplined",
+              "margsablclosure"
+            ],
             "configuration": ["sensitivecontrols"]
           }
         }
@@ -1382,7 +1442,7 @@
           "upgrades": {
             "talent": ["daredevil"],
             "configuration": ["sensitivecontrols"],
-			"modification": ["shieldupgrade"]
+            "modification": ["shieldupgrade"]
           }
         }
       ]
@@ -1394,7 +1454,7 @@
           "id": "sabersquadronace",
           "upgrades": {
             "talent": ["predator"],
-			"modification": ["shieldupgrade"]
+            "modification": ["shieldupgrade"]
           }
         }
       ]
@@ -1407,7 +1467,7 @@
           "upgrades": {
             "talent": ["daredevil"],
             "configuration": ["sensitivecontrols"],
-			"modification": ["targetingcomputer"]
+            "modification": ["targetingcomputer"]
           }
         }
       ]
@@ -1429,9 +1489,15 @@
         {
           "id": "gideonhask-tieininterceptor",
           "upgrades": {
-            "talent": ["disciplined", "elusive"],
+            "talent": [
+              "disciplined",
+              "elusive"
+            ],
             "configuration": ["sensitivecontrols"],
-			"modification": ["shieldupgrade", "targetingcomputer"]
+            "modification": [
+              "shieldupgrade",
+              "targetingcomputer"
+            ]
           }
         }
       ]
@@ -1442,8 +1508,14 @@
         {
           "id": "soontirfel",
           "upgrades": {
-            "talent": ["daredevil", "predator"],
-			"modification": ["afterburners", "shieldupgrade"]
+            "talent": [
+              "daredevil",
+              "predator"
+            ],
+            "modification": [
+              "afterburners",
+              "shieldupgrade"
+            ]
           }
         }
       ]
@@ -1454,7 +1526,11 @@
         {
           "id": "vultskerris-tieininterceptor",
           "upgrades": {
-            "talent": ["daredevil", "elusive", "predator"],
+            "talent": [
+              "daredevil",
+              "elusive",
+              "predator"
+            ],
             "configuration": ["sensitivecontrols"]
           }
         }
@@ -1468,7 +1544,7 @@
           "upgrades": {
             "talent": ["snapshot"],
             "configuration": ["maneuverassistmgk300"],
-		    "cannon": ["syncedlasercannons"]
+            "cannon": ["syncedlasercannons"]
           }
         }
       ]
@@ -1481,7 +1557,10 @@
           "upgrades": {
             "talent": ["deadeyeshot"],
             "configuration": ["maneuverassistmgk300"],
-		    "cannon": ["ioncannon", "heavylasercannon"]
+            "cannon": [
+              "ioncannon",
+              "heavylasercannon"
+            ]
           }
         }
       ]
@@ -1494,8 +1573,8 @@
           "upgrades": {
             "talent": ["ionlimiteroverride"],
             "configuration": ["maneuverassistmgk300"],
-		    "cannon": ["heavylasercannon"],
-			"modification": ["shieldupgrade"]
+            "cannon": ["heavylasercannon"],
+            "modification": ["shieldupgrade"]
           }
         }
       ]
@@ -1508,8 +1587,11 @@
           "upgrades": {
             "talent": ["predator"],
             "configuration": ["maneuverassistmgk300"],
-		    "cannon": ["syncedlasercannons"],
-			"modification": ["afterburners", "ablativeplating"]
+            "cannon": ["syncedlasercannons"],
+            "modification": [
+              "afterburners",
+              "ablativeplating"
+            ]
           }
         }
       ]
@@ -1522,7 +1604,7 @@
           "upgrades": {
             "modification": ["tacticalscrambler"],
             "crew": ["agentkallus"],
-		    "title": ["dauntless"]
+            "title": ["dauntless"]
           }
         }
       ]
@@ -1533,7 +1615,10 @@
         {
           "id": "patrolleader",
           "upgrades": {
-            "crew": ["darthvader", "000"],
+            "crew": [
+              "darthvader",
+              "000"
+            ],
             "gunner": ["bt1"]
           }
         }
@@ -1547,8 +1632,8 @@
           "upgrades": {
             "torpedo": ["protontorpedoes"],
             "gunner": ["veteranturretgunner"],
-		    "crew": ["gnkgonkdroid"],
-			"device": ["proximitymines"]
+            "crew": ["gnkgonkdroid"],
+            "device": ["proximitymines"]
           }
         }
       ]
@@ -1560,8 +1645,11 @@
           "id": "patrolleader",
           "upgrades": {
             "talent": ["lonewolf"],
-            "crew": ["grandinquisitor", "seventhsister"],
-		    "gunner": ["fifthbrother"]
+            "crew": [
+              "grandinquisitor",
+              "seventhsister"
+            ],
+            "gunner": ["fifthbrother"]
           }
         }
       ]
@@ -1574,10 +1662,16 @@
           "upgrades": {
             "command": ["strategiccommander"],
             "turret": ["dorsalturret"],
-		    "team": ["commsteam", "sensorexperts"],
-			"cargo": ["boostedscanners", "optimizedpowercore"],
-			"title": ["requiem"],
-			"hardpoint": ["targetingbattery"]
+            "team": [
+              "commsteam",
+              "sensorexperts"
+            ],
+            "cargo": [
+              "boostedscanners",
+              "optimizedpowercore"
+            ],
+            "title": ["requiem"],
+            "hardpoint": ["targetingbattery"]
           }
         }
       ]
@@ -1590,10 +1684,16 @@
           "upgrades": {
             "command": ["captainneeda"],
             "torpedo": ["advprotontorpedoes"],
-		    "team": ["ordnanceteam", "bombardmentspecialists"],
-			"cargo": ["boostedscanners"],
-			"title": ["impetuous"],
-			"hardpoint": ["ordnancetubes", "turbolaserbattery"]
+            "team": [
+              "ordnanceteam",
+              "bombardmentspecialists"
+            ],
+            "cargo": ["boostedscanners"],
+            "title": ["impetuous"],
+            "hardpoint": [
+              "ordnancetubes",
+              "turbolaserbattery"
+            ]
           }
         }
       ]
@@ -1604,7 +1704,10 @@
         {
           "id": "moffgideon",
           "upgrades": {
-            "talent": ["deadeyeshot", "outmaneuver"],
+            "talent": [
+              "deadeyeshot",
+              "outmaneuver"
+            ],
             "modification": ["hullupgrade"],
             "illicit": ["overtunedmodulators"]
           }
@@ -1618,7 +1721,10 @@
           "id": "isbjingoist",
           "upgrades": {
             "talent": ["ionlimiteroverride"],
-            "modification": ["afterburners", "shieldupgrade"],
+            "modification": [
+              "afterburners",
+              "shieldupgrade"
+            ],
             "illicit": ["falsetranspondercodes"]
           }
         }
@@ -1631,8 +1737,12 @@
           "id": "garsaxon",
           "upgrades": {
             "crew": ["imperialsupercommandos"],
-            "modification": ["dropseatbay", "shieldupgrade", "hullupgrade"],
-			"configuration": ["swivelwing"]
+            "modification": [
+              "dropseatbay",
+              "shieldupgrade",
+              "hullupgrade"
+            ],
+            "configuration": ["swivelwing"]
           }
         }
       ]
@@ -1645,7 +1755,7 @@
           "upgrades": {
             "configuration": ["combatboardingtubes"],
             "crew": ["imperialsupercommandos"],
-			"configuration": ["swivelwing"]
+            "configuration": ["swivelwing"]
           }
         }
       ]

@@ -104,7 +104,10 @@
       "xws": "spicerunner",
       "text": "Though its cargo space is limited compared to other light freighters, the small, swift HWK-290 is a favorite choice of smugglers who specialize in discreetly transporting precious goods.",
       "image": "https://infinitearenas.com/xw2/images/pilots/spicerunner.png",
-      "slots": ["Device", "Illicit"],
+      "slots": [
+        "Device",
+        "Illicit"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/spicerunner.png",
       "standard": true,
       "extended": true,
@@ -121,7 +124,13 @@
       "xws": "torkilmux",
       "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.",
       "image": "https://infinitearenas.com/xw2/images/pilots/torkilmux.png",
-      "slots": ["Crew", "Device", "Illicit", "Modification", "Modification"],
+      "slots": [
+        "Crew",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/torkilmux.png",
       "standard": true,
       "extended": true,
@@ -161,7 +170,11 @@
       "caption": "Lost Padawan",
       "standard": true,
       "extended": true,
-      "keywords": ["Jedi", "Light Side", "Freighter"],
+      "keywords": [
+        "Jedi",
+        "Light Side",
+        "Freighter"
+      ],
       "force": { "value": 1, "recovers": 1 },
       "cost": 4,
       "loadout": 6,

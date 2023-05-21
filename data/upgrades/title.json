@@ -24,8 +24,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["firesprayclasspatrolcraft"] }
-    ],
+      { "ships": ["firesprayclasspatrolcraft"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -53,7 +52,9 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "factions": ["Resistance"] }, { "ships": ["t70xwing"] }],
+    "restrictions": [
+      { "factions": ["Resistance"] },
+      { "ships": ["t70xwing"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -75,8 +76,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "ships": ["vt49decimator"] }
-    ],
+      { "ships": ["vt49decimator"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -98,8 +98,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["vcx100lightfreighter"] }
-    ],
+      { "ships": ["vcx100lightfreighter"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -126,8 +125,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["scurrgh6bomber"] }
-    ],
+      { "ships": ["scurrgh6bomber"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -149,8 +147,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["yv666lightfreighter"] }
-    ],
+      { "ships": ["yv666lightfreighter"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -172,8 +169,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["aggressorassaultfighter"] }
-    ],
+      { "ships": ["aggressorassaultfighter"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -195,8 +191,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["customizedyt1300lightfreighter"] }
-    ],
+      { "ships": ["customizedyt1300lightfreighter"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -219,8 +214,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["firesprayclasspatrolcraft"] }
-    ],
+      { "ships": ["firesprayclasspatrolcraft"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -249,8 +243,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["modifiedyt1300lightfreighter"] }
-    ],
+      { "ships": ["modifiedyt1300lightfreighter"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -280,8 +273,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["g1astarfighter"] }
-    ],
+      { "ships": ["g1astarfighter"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -305,9 +297,11 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [
-      { "factions": ["Rebel Alliance", "Scum and Villainy"] },
-      { "ships": ["hwk290lightfreighter"] }
-    ],
+      { "factions": [
+          "Rebel Alliance",
+          "Scum and Villainy"
+        ] },
+      { "ships": ["hwk290lightfreighter"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -329,8 +323,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["yt2400lightfreighter"] }
-    ],
+      { "ships": ["yt2400lightfreighter"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -352,8 +345,10 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["attackshuttle", "sheathipedeclassshuttle"] }
-    ],
+      { "ships": [
+          "attackshuttle",
+          "sheathipedeclassshuttle"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -379,8 +374,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["jumpmaster5000"] }
-    ],
+      { "ships": ["jumpmaster5000"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -402,8 +396,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "ships": ["lambdaclasst4ashuttle"] }
-    ],
+      { "ships": ["lambdaclasst4ashuttle"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -425,8 +418,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["lancerclasspursuitcraft"] }
-    ],
+      { "ships": ["lancerclasspursuitcraft"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -449,8 +441,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["firesprayclasspatrolcraft"] }
-    ],
+      { "ships": ["firesprayclasspatrolcraft"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -497,8 +488,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Resistance"] },
-      { "ships": ["scavengedyt1300"] }
-    ],
+      { "ships": ["scavengedyt1300"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -520,8 +510,7 @@
     ],
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
-      { "ships": ["belbullab22starfighter"] }
-    ],
+      { "ships": ["belbullab22starfighter"] }],
     "cost": { "value": 0 },
     "standard": true,
     "extended": true,
@@ -553,8 +542,7 @@
     ],
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
-      { "ships": ["sithinfiltrator"] }
-    ],
+      { "ships": ["sithinfiltrator"] }],
     "cost": { "value": 0 },
     "standard": true,
     "extended": true,
@@ -584,8 +572,7 @@
     ],
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "ships": ["raiderclasscorvette"] }
-    ],
+      { "ships": ["raiderclasscorvette"] }],
     "cost": { "value": 5 }
   },
   {
@@ -612,8 +599,7 @@
     ],
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "ships": ["gozanticlasscruiser"] }
-    ],
+      { "ships": ["gozanticlasscruiser"] }],
     "cost": { "value": 8 }
   },
   {
@@ -635,8 +621,7 @@
     ],
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["gr75mediumtransport"] }
-    ],
+      { "ships": ["gr75mediumtransport"] }],
     "cost": { "value": 5 }
   },
   {
@@ -662,8 +647,7 @@
     ],
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["croccruiser"] }
-    ],
+      { "ships": ["croccruiser"] }],
     "cost": { "value": 4 }
   },
   {
@@ -691,8 +675,7 @@
     ],
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "ships": ["raiderclasscorvette"] }
-    ],
+      { "ships": ["raiderclasscorvette"] }],
     "cost": { "value": 3 }
   },
   {
@@ -735,8 +718,7 @@
     ],
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["cr90corelliancorvette"] }
-    ],
+      { "ships": ["cr90corelliancorvette"] }],
     "cost": { "value": 4 }
   },
   {
@@ -763,8 +745,7 @@
     ],
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "ships": ["raiderclasscorvette"] }
-    ],
+      { "ships": ["raiderclasscorvette"] }],
     "cost": { "value": 4 }
   },
   {
@@ -792,8 +773,7 @@
     ],
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["croccruiser"] }
-    ],
+      { "ships": ["croccruiser"] }],
     "cost": { "value": 7 }
   },
   {
@@ -816,8 +796,7 @@
     ],
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "ships": ["raiderclasscorvette"] }
-    ],
+      { "ships": ["raiderclasscorvette"] }],
     "cost": { "value": 6 }
   },
   {
@@ -843,8 +822,7 @@
     ],
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["cr90corelliancorvette"] }
-    ],
+      { "ships": ["cr90corelliancorvette"] }],
     "cost": { "value": 4 }
   },
   {
@@ -861,7 +839,9 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/kazsfireball.png"
       }
     ],
-    "restrictions": [{ "factions": ["Resistance"] }, { "ships": ["fireball"] }],
+    "restrictions": [
+      { "factions": ["Resistance"] },
+      { "ships": ["fireball"] }],
     "cost": { "value": 0 },
     "standard": true,
     "extended": true,
@@ -887,8 +867,7 @@
     ],
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["cr90corelliancorvette"] }
-    ],
+      { "ships": ["cr90corelliancorvette"] }],
     "cost": { "value": 5 }
   },
   {
@@ -914,8 +893,7 @@
     ],
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["gr75mediumtransport"] }
-    ],
+      { "ships": ["gr75mediumtransport"] }],
     "cost": { "value": 12 }
   },
   {
@@ -950,8 +928,7 @@
     ],
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["croccruiser"] }
-    ],
+      { "ships": ["croccruiser"] }],
     "cost": { "value": 8 }
   },
   {
@@ -978,8 +955,7 @@
     ],
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["gr75mediumtransport"] }
-    ],
+      { "ships": ["gr75mediumtransport"] }],
     "cost": { "value": 3 }
   },
   {
@@ -1001,8 +977,7 @@
     ],
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "ships": ["gozanticlasscruiser"] }
-    ],
+      { "ships": ["gozanticlasscruiser"] }],
     "cost": { "value": 7 }
   },
   {
@@ -1029,8 +1004,7 @@
     ],
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "ships": ["gozanticlasscruiser"] }
-    ],
+      { "ships": ["gozanticlasscruiser"] }],
     "cost": { "value": 6 }
   },
   {
@@ -1053,8 +1027,7 @@
     ],
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["cr90corelliancorvette"] }
-    ],
+      { "ships": ["cr90corelliancorvette"] }],
     "cost": { "value": 5 }
   },
   {
@@ -1081,8 +1054,7 @@
     ],
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["cr90corelliancorvette"] }
-    ],
+      { "ships": ["cr90corelliancorvette"] }],
     "cost": { "value": 4 }
   },
   {
@@ -1108,8 +1080,7 @@
     ],
     "restrictions": [
       { "factions": ["Galactic Empire"] },
-      { "ships": ["gozanticlasscruiser"] }
-    ],
+      { "ships": ["gozanticlasscruiser"] }],
     "cost": { "value": 7 }
   },
   {
@@ -1131,9 +1102,11 @@
       }
     ],
     "restrictions": [
-      { "factions": ["Scum and Villainy", "Separatist Alliance"] },
-      { "ships": ["firesprayclasspatrolcraft"] }
-    ],
+      { "factions": [
+          "Scum and Villainy",
+          "Separatist Alliance"
+        ] },
+      { "ships": ["firesprayclasspatrolcraft"] }],
     "cost": { "value": 0 }
   },
   {
@@ -1154,8 +1127,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["Rebel Alliance"] },
-      { "ships": ["asf01bwing"] }
-    ],
+      { "ships": ["asf01bwing"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1185,8 +1157,7 @@
     "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "ships": ["tridentclassassaultship"] }
-    ]
+      { "ships": ["tridentclassassaultship"] }]
   },
   {
     "name": "Grappler",
@@ -1233,8 +1204,7 @@
     "cost": { "value": 5 },
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
-      { "ships": ["tridentclassassaultship"] }
-    ]
+      { "ships": ["tridentclassassaultship"] }]
   },
   {
     "name": "Trident",
@@ -1257,8 +1227,7 @@
     "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["Separatist Alliance"] },
-      { "ships": ["tridentclassassaultship"] }
-    ]
+      { "ships": ["tridentclassassaultship"] }]
   },
   {
     "name": "Nightbrother",
@@ -1269,7 +1238,10 @@
         "ability": "After you reveal a non-blue maneuver, if you are stressed, you may spend 2 [Charge] to gain 1 focus or evade token. Add [Crew] slot.",
         "title": "Nightbrother",
         "type": "Title",
-        "slots": ["Title", "Modification"],
+        "slots": [
+          "Title",
+          "Modification"
+        ],
         "charges": { "value": 2, "recovers": 1 },
         "grants": [{ "type": "slot", "value": "Crew", "amount": 1 }],
         "image": "https://infinitearenas.com/xw2/images/upgrades/nightbrother.png",
@@ -1278,9 +1250,11 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [
-      { "factions": ["Scum and Villainy", "Rebel Alliance"] },
-      { "ships": ["gauntletfighter"] }
-    ],
+      { "factions": [
+          "Scum and Villainy",
+          "Rebel Alliance"
+        ] },
+      { "ships": ["gauntletfighter"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1294,7 +1268,10 @@
         "ability": "During the System Phase, you may spend 1 [Charge] to repair 1 faceup ship damage card. Add [Crew] slot.",
         "title": "Gauntlet",
         "type": "Title",
-        "slots": ["Title", "Modification"],
+        "slots": [
+          "Title",
+          "Modification"
+        ],
         "charges": { "value": 2, "recovers": 0 },
         "grants": [{ "type": "slot", "value": "Crew", "amount": -1 }],
         "image": "https://infinitearenas.com/xw2/images/upgrades/gauntlet.png",
@@ -1303,9 +1280,11 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [
-      { "factions": ["Galactic Republic", "Separatist Alliance"] },
-      { "ships": ["gauntletfighter"] }
-    ],
+      { "factions": [
+          "Galactic Republic",
+          "Separatist Alliance"
+        ] },
+      { "ships": ["gauntletfighter"] }],
     "standard": true,
     "extended": true,
     "epic": true

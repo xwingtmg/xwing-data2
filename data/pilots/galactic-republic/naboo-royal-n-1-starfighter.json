@@ -45,7 +45,12 @@
       "extended": true,
       "cost": 5,
       "loadout": 20,
-      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Torpedo",
+        "Astromech"
+      ],
       "ability": "Before you reveal your maneuver, you may spend 1 [Force] to barrel roll (this is not an action).",
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "shipAbility": {
@@ -72,7 +77,13 @@
       "extended": true,
       "cost": 4,
       "loadout": 12,
-      "slots": ["Talent", "Talent", "Sensor", "Torpedo", "Astromech"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Sensor",
+        "Torpedo",
+        "Astromech"
+      ],
       "ability": "While you defend or perform a primary attack, if the speed of your revealed maneuver is higher than the enemy ship's, roll 1 additional die.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ricolie.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/ricolie.png",
@@ -92,7 +103,12 @@
       "extended": true,
       "cost": 4,
       "loadout": 18,
-      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Torpedo",
+        "Astromech"
+      ],
       "ability": "While an enemy ship in your [Front Arc] defends or performs an attack, that ship can modify only 1 [Focus] result (other results can still be modified).",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/padmeamidala.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/padmeamidala.png",
@@ -112,7 +128,12 @@
       "extended": true,
       "cost": 4,
       "loadout": 14,
-      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Torpedo",
+        "Astromech"
+      ],
       "ability": "While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship's, that ship's dice cannot be modified.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dineeellberger.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/dineeellberger.png",
@@ -132,7 +153,11 @@
       "extended": true,
       "cost": 4,
       "loadout": 8,
-      "slots": ["Sensor", "Torpedo", "Astromech"],
+      "slots": [
+        "Sensor",
+        "Torpedo",
+        "Astromech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bravoflightofficer.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/bravoflightofficer.png",
       "epic": true
@@ -153,7 +178,11 @@
       "ability": "Setup: After placing forces, assign the Decoyed condition to 1 friendly ship other than Naboo Handmaiden.",
       "cost": 4,
       "loadout": 8,
-      "slots": ["Sensor", "Modification", "Astromech"],
+      "slots": [
+        "Sensor",
+        "Modification",
+        "Astromech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/naboohandmaiden.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/naboohandmaiden.png",
       "epic": true
@@ -172,7 +201,13 @@
       "extended": true,
       "cost": 4,
       "loadout": 16,
-      "slots": ["Talent", "Sensor", "Torpedo", "Astromech", "Modification"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Torpedo",
+        "Astromech",
+        "Modification"
+      ],
       "ability": "While you defend or perform an attack, if the speed of your revealed maneuver is greater than the enemy ship's, you may reroll your blank results.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gavynsykes.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/gavynsykes.png",

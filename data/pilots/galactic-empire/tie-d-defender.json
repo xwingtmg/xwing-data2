@@ -53,7 +53,13 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Missile",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/colonelvessery.png",
       "standard": true,
       "extended": true,
@@ -101,7 +107,11 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Sensor", "Cannon", "Configuration"],
+      "slots": [
+        "Sensor",
+        "Cannon",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deltasquadronpilot.png",
       "standard": true,
       "extended": true,
@@ -121,7 +131,13 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Missile",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronace.png",
       "standard": true,
       "extended": true,
@@ -200,9 +216,19 @@
       "force": { "value": 3, "recovers": 1 },
       "cost": 9,
       "loadout": 10,
-      "slots": ["Force Power", "Tech", "Cannon", "Missile", "Configuration"],
+      "slots": [
+        "Force Power",
+        "Tech",
+        "Cannon",
+        "Missile",
+        "Configuration"
+      ],
       "ability": "You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
-      "keywords": ["Dark Side", "Sith", "TIE"],
+      "keywords": [
+        "Dark Side",
+        "Sith",
+        "TIE"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader-tieddefender.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/darthvader-tieddefender.png",
       "epic": true
@@ -221,7 +247,13 @@
       "extended": true,
       "cost": 7,
       "loadout": 15,
-      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Missile",
+        "Configuration"
+      ],
       "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc and are not ionized, you may gain 1 ion token to cancel 1 [Hit] result.",
       "keywords": ["TIE"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captaindobbs.png",

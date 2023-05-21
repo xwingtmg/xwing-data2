@@ -76,7 +76,10 @@
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
-      "slots": ["Device", "Illicit"],
+      "slots": [
+        "Device",
+        "Illicit"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jakkugunrunner.png",
       "standard": false,
       "extended": true,
@@ -96,7 +99,14 @@
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
-      "slots": ["Crew", "Device", "Illicit", "Illicit", "Modification", "Tech"],
+      "slots": [
+        "Crew",
+        "Device",
+        "Illicit",
+        "Illicit",
+        "Modification",
+        "Tech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sarcoplank.png",
       "standard": false,
       "extended": true,
@@ -117,7 +127,13 @@
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
-      "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
+      "slots": [
+        "Crew",
+        "Device",
+        "Illicit",
+        "Modification",
+        "Tech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/unkarplutt.png",
       "standard": false,
       "extended": true,

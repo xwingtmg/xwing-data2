@@ -280,8 +280,7 @@
     "cost": { "value": 0 },
     "restrictions": [
       { "factions": ["First Order"] },
-      { "ships": ["tiesffighter"] }
-    ],
+      { "ships": ["tiesffighter"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -609,9 +608,11 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [
-      { "sizes": ["Large", "Huge"] },
-      { "factions": ["Scum and Villainy"] }
-    ],
+      { "sizes": [
+          "Large",
+          "Huge"
+        ] },
+      { "factions": ["Scum and Villainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -652,9 +653,10 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [
-      { "factions": ["Galactic Republic", "Separatist Alliance"] }
-    ],
+    "restrictions": [{ "factions": [
+          "Galactic Republic",
+          "Separatist Alliance"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -674,7 +676,10 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Galactic Empire", "Scum and Villainy"] }],
+    "restrictions": [{ "factions": [
+          "Galactic Empire",
+          "Scum and Villainy"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true

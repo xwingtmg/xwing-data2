@@ -53,7 +53,9 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["First Order"] }, { "sizes": ["Large"] }],
+    "restrictions": [
+      { "factions": ["First Order"] },
+      { "sizes": ["Large"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -133,8 +135,7 @@
     "cost": { "value": 1 },
     "restrictions": [
       { "factions": ["First Order"] },
-      { "action": { "type": "Lock" } }
-    ],
+      { "action": { "type": "Lock" } }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -149,7 +150,10 @@
         "charges": { "value": 2, "recovers": 0 },
         "title": "Deuterium Power Cells",
         "type": "Tech",
-        "slots": ["Tech", "Modification"],
+        "slots": [
+          "Tech",
+          "Modification"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/deuteriumpowercells.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/deuteriumpowercells.png"
       }
@@ -223,9 +227,10 @@
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [
-      { "ships": ["tiewiwhispermodifiedinterceptor", "tievnsilencer"] }
-    ],
+    "restrictions": [{ "ships": [
+          "tiewiwhispermodifiedinterceptor",
+          "tievnsilencer"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true

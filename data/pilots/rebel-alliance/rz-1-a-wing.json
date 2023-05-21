@@ -52,7 +52,11 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "slots": ["Talent", "Talent", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/arvelcrynyd.png",
       "standard": true,
       "extended": true,
@@ -72,7 +76,11 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "slots": ["Talent", "Talent", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/greensquadronpilot.png",
       "standard": true,
       "extended": true,
@@ -93,7 +101,13 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "slots": ["Talent", "Talent", "Missile", "Modification", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jakefarrell.png",
       "standard": true,
       "extended": true,
@@ -113,7 +127,10 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "slots": ["Talent", "Configuration"],
+      "slots": [
+        "Talent",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/phoenixsquadronpilot.png",
       "standard": true,
       "extended": true,
@@ -134,7 +151,12 @@
       "keywords": ["A-wing"],
       "cost": 3,
       "loadout": 7,
-      "slots": ["Talent", "Talent", "Modification", "Configuration"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Modification",
+        "Configuration"
+      ],
       "ability": "While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.",
       "caption": "Promising Pilot",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles-rz1awing.png",
@@ -152,7 +174,10 @@
       },
       "standard": true,
       "extended": true,
-      "keywords": ["A-wing", "Mandalorian"],
+      "keywords": [
+        "A-wing",
+        "Mandalorian"
+      ],
       "cost": 3,
       "loadout": 7,
       "slots": [
@@ -190,7 +215,10 @@
         "Configuration"
       ],
       "ability": "While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.",
-      "keywords": ["A-wing", "Spectre"],
+      "keywords": [
+        "A-wing",
+        "Spectre"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla-rz1awing.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/herasyndulla-rz1awing.png",
       "epic": true
@@ -219,7 +247,10 @@
         "Configuration"
       ],
       "ability": "After you fully execute a maneuver, you may choose a friendly ship at range 1-2 and spend 2 [Force]. That ship may perform an action, even while stressed.",
-      "keywords": ["A-wing", "Light Side"],
+      "keywords": [
+        "A-wing",
+        "Light Side"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ahsokatano-rz1awing.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/ahsokatano-rz1awing.png",
       "epic": true
@@ -238,7 +269,11 @@
       "extended": true,
       "cost": 4,
       "loadout": 7,
-      "slots": ["Talent", "Missile", "Configuration"],
+      "slots": [
+        "Talent",
+        "Missile",
+        "Configuration"
+      ],
       "ability": "While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.",
       "keywords": ["A-wing"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sharabey-rz1awing.png",
@@ -259,7 +294,11 @@
       "extended": true,
       "cost": 3,
       "loadout": 6,
-      "slots": ["Talent", "Missile", "Configuration"],
+      "slots": [
+        "Talent",
+        "Missile",
+        "Configuration"
+      ],
       "ability": "After you acquire or spend a lock, you may remove 1 red token from yourself.",
       "keywords": ["A-wing"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/derekklivian.png",
@@ -332,7 +371,10 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "standardLoadout": ["predator", "afterburners"],
+      "standardLoadout": [
+        "predator",
+        "afterburners"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/arvelcrynyd.png",
       "standard": true,
       "extended": true,
@@ -352,7 +394,11 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "standardLoadout": ["elusive", "outmaneuver", "ionmissiles"],
+      "standardLoadout": [
+        "elusive",
+        "outmaneuver",
+        "ionmissiles"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jakefarrell.png",
       "standard": true,
       "extended": true,
@@ -372,7 +418,10 @@
       "standard": true,
       "extended": true,
       "cost": 4,
-      "standardLoadout": ["hopeful", "concussionmissiles"],
+      "standardLoadout": [
+        "hopeful",
+        "concussionmissiles"
+      ],
       "ability": "While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.",
       "keywords": ["A-wing"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sharabey-rz1awing.png",

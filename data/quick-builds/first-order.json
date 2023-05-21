@@ -51,7 +51,10 @@
         {
           "id": "longshot",
           "upgrades": {
-            "talent": ["elusive", "predator"]
+            "talent": [
+              "elusive",
+              "predator"
+            ]
           }
         }
       ]
@@ -62,7 +65,10 @@
         {
           "id": "omegasquadronace",
           "upgrades": {
-            "talent": ["elusive", "fanatical"],
+            "talent": [
+              "elusive",
+              "fanatical"
+            ],
             "modification": ["hullupgrade"]
           }
         }
@@ -131,7 +137,10 @@
           "id": "null",
           "upgrades": {
             "talent": ["swarmtactics"],
-            "modification": ["afterburners", "shieldupgrade"]
+            "modification": [
+              "afterburners",
+              "shieldupgrade"
+            ]
           }
         }
       ]
@@ -145,7 +154,10 @@
             "talent": ["juke"],
             "sensor": ["collisiondetector"],
             "gunner": ["hotshotgunner"],
-            "modification": ["afterburners", "shieldupgrade"]
+            "modification": [
+              "afterburners",
+              "shieldupgrade"
+            ]
           }
         }
       ]
@@ -209,7 +221,10 @@
         {
           "id": "kyloren",
           "upgrades": {
-            "force-power": ["hate", "predictiveshot"],
+            "force-power": [
+              "hate",
+              "predictiveshot"
+            ],
             "tech": ["primedthrusters"],
             "torpedo": ["advprotontorpedoes"]
           }
@@ -318,7 +333,10 @@
           "upgrades": {
             "sensor": ["advancedsensors"],
             "cannon": ["ioncannon"],
-            "crew": ["kyloren", "supremeleadersnoke"],
+            "crew": [
+              "kyloren",
+              "supremeleadersnoke"
+            ],
             "modification": ["shieldupgrade"]
           }
         }
@@ -330,7 +348,10 @@
         {
           "id": "lieutenantdormitz",
           "upgrades": {
-            "tech": ["biohexacryptcodes", "hyperspacetrackingdata"],
+            "tech": [
+              "biohexacryptcodes",
+              "hyperspacetrackingdata"
+            ],
             "cannon": ["tractorbeam"]
           }
         }
@@ -350,8 +371,14 @@
         {
           "id": "majorstridan",
           "upgrades": {
-            "tech": ["biohexacryptcodes", "patternanalyzer"],
-            "crew": ["captainphasma", "generalhux"],
+            "tech": [
+              "biohexacryptcodes",
+              "patternanalyzer"
+            ],
+            "crew": [
+              "captainphasma",
+              "generalhux"
+            ],
             "cannon": ["tractorbeam"]
           }
         }
@@ -439,7 +466,10 @@
         {
           "id": "ember",
           "upgrades": {
-            "talent": ["predator", "elusive"],
+            "talent": [
+              "predator",
+              "elusive"
+            ],
             "missile": ["concussionmissiles"],
             "modification": ["afterburners"]
           }
@@ -454,7 +484,10 @@
           "upgrades": {
             "talent": ["proudtradition"],
             "missile": ["magpulsewarheads"],
-            "modification": ["hullupgrade", "munitionsfailsafe"]
+            "modification": [
+              "hullupgrade",
+              "munitionsfailsafe"
+            ]
           }
         }
       ]
@@ -506,7 +539,7 @@
             "talent": ["elusive"],
             "torpedo": ["protontorpedoes"],
             "tech": ["advancedoptics"],
-			"modification": ["engineupgrade"]
+            "modification": ["engineupgrade"]
           }
         }
       ]
@@ -520,8 +553,8 @@
             "talent": ["feedbackping"],
             "device": ["concussionbombs"],
             "tech": ["primedthrusters"],
-			"modification": ["delayedfuses"],
-			"gunner": ["dt798"]
+            "modification": ["delayedfuses"],
+            "gunner": ["dt798"]
           }
         }
       ]
@@ -535,7 +568,7 @@
             "talent": ["outmaneuver"],
             "missile": ["protonrockets"],
             "torpedo": ["iontorpedoes"],
-			"modification": ["engineupgrade"]
+            "modification": ["engineupgrade"]
           }
         }
       ]
@@ -549,7 +582,7 @@
             "talent": ["predator"],
             "missile": ["electrochaffmissiles"],
             "gunner": ["suppressivegunner"],
-			"modification": ["shieldupgrade"]
+            "modification": ["shieldupgrade"]
           }
         }
       ]
@@ -600,7 +633,7 @@
             "talent": ["predator"],
             "force-power": ["malice"],
             "configuration": ["enhancedjammingsuite"],
-			"missile": ["clustermissiles"]
+            "missile": ["clustermissiles"]
           }
         }
       ]
@@ -611,10 +644,13 @@
         {
           "id": "whirlwind",
           "upgrades": {
-            "talent": ["elusive", "ionlimiteroverride"],
+            "talent": [
+              "elusive",
+              "ionlimiteroverride"
+            ],
             "tech": ["sensorscramblers"],
             "missile": ["protonrockets"],
-			"modification": ["hullupgrade"]
+            "modification": ["hullupgrade"]
           }
         }
       ]
@@ -639,7 +675,11 @@
           "id": "agentterex",
           "upgrades": {
             "crew": ["commandermalarus"],
-            "illicit": ["deadmansswitch", "contrabandcybernetics", "inertialdampeners"]
+            "illicit": [
+              "deadmansswitch",
+              "contrabandcybernetics",
+              "inertialdampeners"
+            ]
           }
         }
       ]
@@ -652,8 +692,8 @@
           "upgrades": {
             "talent": ["snapshot"],
             "crew": ["agentterex"],
-			"tech": ["sensorbuoysuite"],
-			"modification": ["hullupgrade"]
+            "tech": ["sensorbuoysuite"],
+            "modification": ["hullupgrade"]
           }
         }
       ]
@@ -666,8 +706,8 @@
           "upgrades": {
             "talent": ["deadeyeshot"],
             "tech": ["sensorbuoysuite"],
-			"crew": ["commanderpyre"],
-			"illicit": ["riggedcargochute"]
+            "crew": ["commanderpyre"],
+            "illicit": ["riggedcargochute"]
           }
         }
       ]
@@ -680,7 +720,7 @@
           "upgrades": {
             "crew": ["tacticalofficer"],
             "tech": ["automatedtargetpriority"],
-			"modification": ["shieldupgrade"]
+            "modification": ["shieldupgrade"]
           }
         }
       ]
@@ -693,8 +733,11 @@
           "upgrades": {
             "command": ["strategiccommander"],
             "hardpoint": ["pointdefensebattery"],
-			"team": ["damagecontrolteam", "gunneryspecialists"],
-			"cargo": ["adaptiveshields"]
+            "team": [
+              "damagecontrolteam",
+              "gunneryspecialists"
+            ],
+            "cargo": ["adaptiveshields"]
           }
         }
       ]
@@ -706,10 +749,16 @@
           "id": "firstordercollaborators",
           "upgrades": {
             "command": ["stalwartcaptain"],
-            "hardpoint": ["ioncannonbattery", "pointdefensebattery"],
-			"crew": ["novicetechnician"],
-			"team": ["bombardmentspecialists", "commsteam"],
-			"cargo": ["boostedscanners"]
+            "hardpoint": [
+              "ioncannonbattery",
+              "pointdefensebattery"
+            ],
+            "crew": ["novicetechnician"],
+            "team": [
+              "bombardmentspecialists",
+              "commsteam"
+            ],
+            "cargo": ["boostedscanners"]
           }
         }
       ]

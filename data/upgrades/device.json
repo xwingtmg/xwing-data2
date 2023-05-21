@@ -8,7 +8,10 @@
         "title": "Bomblet Generator",
         "type": "Device",
         "ability": "During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
-        "slots": ["Device", "Device"],
+        "slots": [
+          "Device",
+          "Device"
+        ],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Bomblet",
@@ -191,7 +194,10 @@
         "type": "Device",
         "ability": "During the System Phase, you may spend 1 [Charge] to drop an Electro-Proton Bomb with the [1 [Straight]] template. Then place 1 fuse marker on that device. This card's [Charge] cannot be recovered.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/electroprotonbomb.png",
-        "slots": ["Device", "Modification"],
+        "slots": [
+          "Device",
+          "Modification"
+        ],
         "charges": { "value": 1, "recovers": 0 },
         "device": {
           "name": "Electro-Proton Bomb",

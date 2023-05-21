@@ -71,7 +71,13 @@
       "ability": "At the start of the Engagement Phase, you may spend 1 [Charge] and gain 1 stress token. If you do, until the end of the round, while you defend or perform an attack, you may change all of your [Focus] results to [Evade] or [Hit] results.",
       "image": "https://infinitearenas.com/xw2/images/pilots/commandermalarus.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/commandermalarus.png",
-      "slots": ["Talent", "Talent", "Missile", "Modification", "Tech"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Modification",
+        "Tech"
+      ],
       "charges": { "value": 2, "recovers": 0 },
       "standard": true,
       "extended": true,
@@ -89,7 +95,12 @@
       "ability": "While you perform a primary attack, if you are not stressed, you may gain 1 stress token to roll 1 additional attack die.",
       "image": "https://infinitearenas.com/xw2/images/pilots/scorch.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scorch.png",
-      "slots": ["Talent", "Talent", "Modification", "Tech"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Modification",
+        "Tech"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -106,7 +117,13 @@
       "ability": "While you perform a primary attack, you may spend your lock on the defender and a focus token to change all of your results to [Critical Hit] results.",
       "image": "https://infinitearenas.com/xw2/images/pilots/static.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/static.png",
-      "slots": ["Talent", "Talent", "Cannon", "Modification", "Tech"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Cannon",
+        "Modification",
+        "Tech"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -123,7 +140,12 @@
       "ability": "While you perform a primary attack at attack range 3, roll 1 additional attack die.",
       "image": "https://infinitearenas.com/xw2/images/pilots/longshot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/longshot.png",
-      "slots": ["Talent", "Modification", "Tech", "Tech"],
+      "slots": [
+        "Talent",
+        "Modification",
+        "Tech",
+        "Tech"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -139,7 +161,12 @@
       "text": "Only pilots who have demonstrated both exceptional skill and unwavering dedication are rewarded with coveted positions in the First Order squadrons operating secretly against the New Republic during the Cold War.",
       "image": "https://infinitearenas.com/xw2/images/pilots/omegasquadronace.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/omegasquadronace.png",
-      "slots": ["Talent", "Modification", "Modification", "Tech"],
+      "slots": [
+        "Talent",
+        "Modification",
+        "Modification",
+        "Tech"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -156,7 +183,10 @@
       "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, that ship removes 1 stress token.",
       "image": "https://infinitearenas.com/xw2/images/pilots/muse.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/muse.png",
-      "slots": ["Modification", "Tech"],
+      "slots": [
+        "Modification",
+        "Tech"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -173,7 +203,10 @@
       "ability": "While another friendly ship performs an attack, if you are at range 0-1 of the defender, you may suffer 1 [Critical Hit] damage to change 1 of the attacker's results to a [Critical Hit] result.",
       "image": "https://infinitearenas.com/xw2/images/pilots/tn3465.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tn3465.png",
-      "slots": ["Modification", "Tech"],
+      "slots": [
+        "Modification",
+        "Tech"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -189,7 +222,10 @@
       "text": "Unhampered by a cumbersome galactic bureaucracy, technologies originally researched by the Empire's TIE Advanced program are now mass-produced on First Order starfighters. As a result, TIE/fo pilots enjoy higher survival rates than their predecessors in the Galactic Empire.",
       "image": "https://infinitearenas.com/xw2/images/pilots/zetasquadronpilot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zetasquadronpilot.png",
-      "slots": ["Modification", "Tech"],
+      "slots": [
+        "Modification",
+        "Tech"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -222,7 +258,11 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/lieutenantrivas.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantrivas.png",
       "ability": "After a ship at range 1-2 gains a red or orange token, if you do not have that ship locked, you may acquire a lock on that ship.",
-      "slots": ["Talent", "Tech", "Modification"],
+      "slots": [
+        "Talent",
+        "Tech",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -239,7 +279,12 @@
       "ability": "While you are not damaged, treat your initiative value as 7.",
       "image": "https://infinitearenas.com/xw2/images/pilots/null.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/null.png",
-      "slots": ["Talent", "Talent", "Tech", "Tech"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Tech",
+        "Tech"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -256,7 +301,13 @@
       "ability": "After another friendly ship at range 0-2 is destroyed, you may perform a [Coordinate] action, even while stressed. While you coordinate, the ship you choose can perform an action only if that action is also on your action bar.",
       "image": "https://infinitearenas.com/xw2/images/pilots/lieutenantgalek.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantgalek.png",
-      "slots": ["Talent", "Tech", "Tech", "Cannon", "Modification"],
+      "slots": [
+        "Talent",
+        "Tech",
+        "Tech",
+        "Cannon",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -273,7 +324,12 @@
       "ability": "While you perform a primary attack, if you are not strained, you may gain 1 strain token to roll 1 additional die.",
       "image": "https://infinitearenas.com/xw2/images/pilots/dt798.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dt798.png",
-      "slots": ["Talent", "Tech", "Modification", "Modification"],
+      "slots": [
+        "Talent",
+        "Tech",
+        "Modification",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -291,7 +347,12 @@
       "conditions": ["primedforspeed"],
       "image": "https://infinitearenas.com/xw2/images/pilots/lingaava.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lingaava.png",
-      "slots": ["Talent", "Talent", "Tech", "Modification"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Tech",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],

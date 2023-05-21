@@ -117,7 +117,12 @@
         "name": "Experimental Scanners",
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
       },
-      "slots": ["Sensor", "Tech", "Astromech", "Modification"],
+      "slots": [
+        "Sensor",
+        "Tech",
+        "Astromech",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/knavesquadronescort.png",
       "standard": false,
       "extended": true,
@@ -136,7 +141,12 @@
         "name": "Experimental Scanners",
         "text": "You can acquire locks beyond range 3. You cannot acquire locks at range 1."
       },
-      "slots": ["Sensor", "Torpedo", "Astromech", "Modification"],
+      "slots": [
+        "Sensor",
+        "Torpedo",
+        "Astromech",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/roguesquadronescort.png",
       "standard": false,
       "extended": true,

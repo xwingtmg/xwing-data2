@@ -48,7 +48,12 @@
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/ahhav.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ahhav.png",
-      "slots": ["Talent", "Illicit", "Illicit", "Modification"],
+      "slots": [
+        "Talent",
+        "Illicit",
+        "Illicit",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -70,7 +75,11 @@
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
-      "slots": ["Talent", "Missile", "Modification"],
+      "slots": [
+        "Talent",
+        "Missile",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -91,7 +100,11 @@
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/foremanproach.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/foremanproach.png",
-      "slots": ["Talent", "Talent", "Modification"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -133,7 +146,10 @@
       "charges": { "value": 1, "recovers": 1 },
       "image": "https://infinitearenas.com/xw2/images/pilots/overseeryushyn.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/overseeryushyn.png",
-      "slots": ["Talent", "Modification"],
+      "slots": [
+        "Talent",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],

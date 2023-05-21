@@ -46,7 +46,14 @@
       "xws": "4lom",
       "ability": "After you fully execute a red maneuver, gain 1 calculate token. At the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship.",
       "image": "https://infinitearenas.com/xw2/images/pilots/4lom.png",
-      "slots": ["Talent", "Sensor", "Crew", "Illicit", "Modification", "Title"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Title"
+      ],
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
         { "difficulty": "White", "type": "Lock" },
@@ -55,7 +62,10 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/4lom.png",
       "standard": false,
       "extended": true,
-      "keywords": ["Bounty Hunter", "Droid"],
+      "keywords": [
+        "Bounty Hunter",
+        "Droid"
+      ],
       "epic": true
     },
     {
@@ -84,7 +94,14 @@
       "xws": "zuckuss",
       "ability": "While you perform a primary attack, you may roll 1 additional attack die. If you do, the defender rolls 1 additional defense die.",
       "image": "https://infinitearenas.com/xw2/images/pilots/zuckuss.png",
-      "slots": ["Talent", "Sensor", "Crew", "Illicit", "Modification", "Title"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Title"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zuckuss.png",
       "standard": false,
       "extended": true,

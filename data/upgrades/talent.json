@@ -56,8 +56,7 @@
     "cost": { "value": 5 },
     "restrictions": [
       { "sizes": ["Small"] },
-      { "action": { "type": "Boost", "difficulty": "White" } }
-    ],
+      { "action": { "type": "Boost", "difficulty": "White" } }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -84,7 +83,10 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "restrictions": [{ "sizes": [
+          "Small",
+          "Medium"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -105,7 +107,10 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "restrictions": [{ "sizes": [
+          "Small",
+          "Medium"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -233,7 +238,10 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "restrictions": [{ "sizes": [
+          "Small",
+          "Medium"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -476,8 +484,7 @@
     ],
     "restrictions": [
       { "factions": ["Galactic Republic"] },
-      { "keywords": ["Clone"] }
-    ],
+      { "keywords": ["Clone"] }],
     "cost": { "value": 3 },
     "standard": true,
     "extended": true,
@@ -784,8 +791,7 @@
     "cost": { "value": 1 },
     "restrictions": [
       { "action": { "type": "Reload" } },
-      { "keywords": ["TIE"] }
-    ],
+      { "keywords": ["TIE"] }],
     "standard": true,
     "extended": true,
     "epic": true

@@ -81,7 +81,13 @@
         "name": "Fine-Tuned Thrusters",
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
-      "slots": ["Talent", "Tech", "Missile", "Modification", "Modification"],
+      "slots": [
+        "Talent",
+        "Tech",
+        "Missile",
+        "Modification",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/holo.png",
@@ -102,7 +108,13 @@
         "name": "Fine-Tuned Thrusters",
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
-      "slots": ["Talent", "Talent", "Tech", "Missile", "Modification"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Tech",
+        "Missile",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ember.png",
@@ -122,7 +134,11 @@
         "name": "Fine-Tuned Thrusters",
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
-      "slots": ["Talent", "Tech", "Modification"],
+      "slots": [
+        "Talent",
+        "Tech",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/firstorderprovocateur.png",

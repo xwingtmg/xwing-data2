@@ -69,7 +69,11 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "Sith", "TIE"],
+      "keywords": [
+        "Dark Side",
+        "Sith",
+        "TIE"
+      ],
       "epic": true
     },
     {
@@ -86,7 +90,13 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Talent", "Talent", "Sensor", "Missile", "Modification"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Sensor",
+        "Missile",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png",
       "standard": true,
       "extended": true,
@@ -106,7 +116,11 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Sensor", "Talent", "Modification"],
+      "slots": [
+        "Sensor",
+        "Talent",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/stormsquadronace.png",
       "standard": true,
       "extended": true,
@@ -125,7 +139,10 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Sensor", "Modification"],
+      "slots": [
+        "Sensor",
+        "Modification"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/tempestsquadronpilot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tempestsquadronpilot.png",
       "standard": true,
@@ -147,7 +164,12 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Talent", "Sensor", "Missile", "Modification"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Missile",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vedfoslo.png",
       "standard": false,
       "extended": true,
@@ -168,7 +190,11 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Sensor", "Missile", "Modification"],
+      "slots": [
+        "Sensor",
+        "Missile",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zertikstrom.png",
       "standard": true,
       "extended": true,
@@ -195,11 +221,19 @@
         { "type": "hull", "value": 3 },
         { "type": "shields", "value": 3 }
       ],
-      "standardLoadout": ["marksmanship", "hate", "afterburners"],
+      "standardLoadout": [
+        "marksmanship",
+        "hate",
+        "afterburners"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "Sith", "TIE"],
+      "keywords": [
+        "Dark Side",
+        "Sith",
+        "TIE"
+      ],
       "epic": true
     },
     {
@@ -217,7 +251,13 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Talent", "Tech", "Sensor", "Missile", "Modification"],
+      "slots": [
+        "Talent",
+        "Tech",
+        "Sensor",
+        "Missile",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -243,11 +283,19 @@
         { "type": "hull", "value": 3 },
         { "type": "shields", "value": 3 }
       ],
-      "standardLoadout": ["hate", "ionmissiles", "afterburners"],
+      "standardLoadout": [
+        "hate",
+        "ionmissiles",
+        "afterburners"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "Sith", "TIE"],
+      "keywords": [
+        "Dark Side",
+        "Sith",
+        "TIE"
+      ],
       "epic": true
     },
     {
@@ -256,7 +304,11 @@
       "initiative": 5,
       "limited": 1,
       "cost": 5,
-      "standardLoadout": ["elusive", "outmaneuver", "afterburners"],
+      "standardLoadout": [
+        "elusive",
+        "outmaneuver",
+        "afterburners"
+      ],
       "xws": "maarekstele-swz105",
       "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
       "image": "",

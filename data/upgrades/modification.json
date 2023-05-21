@@ -15,7 +15,10 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "restrictions": [{ "sizes": [
+          "Medium",
+          "Large"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -220,7 +223,10 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "restrictions": [{ "sizes": [
+          "Medium",
+          "Large"
+        ] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -262,8 +268,7 @@
     ],
     "restrictions": [
       { "factions": ["Galactic Republic"] },
-      { "action": { "type": "Lock", "difficulty": "White" } }
-    ],
+      { "action": { "type": "Lock", "difficulty": "White" } }],
     "cost": { "value": 1 },
     "standard": true,
     "extended": true,
@@ -314,14 +319,20 @@
     "limited": 0,
     "xws": "angleddeflectors",
     "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "restrictions": [{ "sizes": [
+          "Small",
+          "Medium"
+        ] }],
     "sides": [
       {
         "text": "Starfighter shields often have manual overrides that allow them to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",
         "title": "Angled Deflectors",
         "type": "Modification",
         "slots": ["Modification"],
-        "restrictions": [{ "sizes": ["Small", "Medium"] }],
+        "restrictions": [{ "sizes": [
+              "Small",
+              "Medium"
+            ] }],
         "grants": [
           { "type": "stat", "value": "shields", "amount": -1 },
           {
@@ -378,8 +389,7 @@
     ],
     "restrictions": [
       { "shipAbility": ["Networked Calculations"] },
-      { "standardized": true }
-    ],
+      { "standardized": true }],
     "cost": { "value": 2 },
     "standard": true,
     "extended": true,
@@ -511,8 +521,10 @@
     ],
     "restrictions": [
       { "factions": ["Scum and Villainy"] },
-      { "sizes": ["Small", "Medium"] }
-    ],
+      { "sizes": [
+          "Small",
+          "Medium"
+        ] }],
     "cost": { "value": 6 },
     "standard": true,
     "extended": true,

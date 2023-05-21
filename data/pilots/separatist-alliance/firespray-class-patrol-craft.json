@@ -71,7 +71,10 @@
       "initiative": 5,
       "limited": 1,
       "caption": "Clawdite Changeling",
-      "conditions": ["youdbettermeanbusiness", "youshouldthankme"],
+      "conditions": [
+        "youdbettermeanbusiness",
+        "youshouldthankme"
+      ],
       "standard": true,
       "extended": true,
       "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: “You Should Thank Me” or “You'd Better Mean Business”",
@@ -129,7 +132,11 @@
       "loadout": 10,
       "image": "https://infinitearenas.com/xw2/images/pilots/separatistracketeer.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/separatistracketeer.png",
-      "slots": ["Cannon", "Missile", "Device"],
+      "slots": [
+        "Cannon",
+        "Missile",
+        "Device"
+      ],
       "epic": true
     },
     {
@@ -155,7 +162,10 @@
         "Modification",
         "Title"
       ],
-      "keywords": ["Dark Side", "Bounty Hunter"],
+      "keywords": [
+        "Dark Side",
+        "Bounty Hunter"
+      ],
       "epic": true
     }
   ]

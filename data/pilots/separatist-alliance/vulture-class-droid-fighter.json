@@ -54,7 +54,10 @@
       "extended": true,
       "cost": 2,
       "loadout": 0,
-      "slots": ["Modification", "Configuration"],
+      "slots": [
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tradefederationdrone.png",
       "keywords": ["Droid"],
       "epic": true
@@ -75,7 +78,11 @@
       "extended": true,
       "cost": 3,
       "loadout": 8,
-      "slots": ["Cannon", "Modification", "Configuration"],
+      "slots": [
+        "Cannon",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/precisehunter.png",
       "keywords": ["Droid"],
       "epic": true
@@ -96,7 +103,11 @@
       "extended": true,
       "cost": 2,
       "loadout": 4,
-      "slots": ["Missile", "Modification", "Configuration"],
+      "slots": [
+        "Missile",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/haorchallprototype.png",
       "keywords": ["Droid"],
       "epic": true
@@ -117,7 +128,11 @@
       "extended": true,
       "cost": 2,
       "loadout": 7,
-      "slots": ["Missile", "Modification", "Configuration"],
+      "slots": [
+        "Missile",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dfs081.png",
       "keywords": ["Droid"],
       "epic": true
@@ -137,7 +152,11 @@
       "extended": true,
       "cost": 2,
       "loadout": 3,
-      "slots": ["Missile", "Modification", "Configuration"],
+      "slots": [
+        "Missile",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/separatistdrone.png",
       "keywords": ["Droid"],
       "epic": true
@@ -158,7 +177,12 @@
       "extended": true,
       "cost": 3,
       "loadout": 10,
-      "slots": ["Missile", "Modification", "Modification", "Configuration"],
+      "slots": [
+        "Missile",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dfs311.png",
       "keywords": ["Droid"],
       "epic": true
@@ -177,7 +201,11 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dfs081-siegeofcoruscant.png",
-      "standardLoadout": ["discordmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "discordmissiles",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dfs081.png",
       "standard": true,
       "extended": true,
@@ -197,7 +225,11 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dfs311-siegeofcoruscant.png",
-      "standardLoadout": ["discordmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "discordmissiles",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dfs311.png",
       "standard": true,
       "extended": true,
@@ -217,7 +249,11 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/haorchallprototype-siegeofcoruscant.png",
-      "standardLoadout": ["ionmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "ionmissiles",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/haorchallprototype.png",
       "standard": true,
       "extended": true,
@@ -242,7 +278,12 @@
       "cost": 2,
       "loadout": 5,
       "charges": { "value": 3, "recovers": 0 },
-      "slots": ["Missile", "Modification", "Modification", "Configuration"],
+      "slots": [
+        "Missile",
+        "Modification",
+        "Modification",
+        "Configuration"
+      ],
       "keywords": ["Droid"],
       "epic": true
     },
@@ -272,7 +313,11 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kelrodoaiholdout.png",
       "cost": 2,
       "loadout": 7,
-      "slots": ["Talent", "Missile", "Modification"],
+      "slots": [
+        "Talent",
+        "Missile",
+        "Modification"
+      ],
       "epic": true
     }
   ]

@@ -21,7 +21,10 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": ["XW", "T65"],
+  "dialCodes": [
+    "XW",
+    "T65"
+  ],
   "faction": "Rebel Alliance",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
@@ -45,7 +48,12 @@
       "loadout": 18,
       "xws": "biggsdarklighter",
       "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Hit] or [Critical Hit] damage to cancel 1 matching result.",
-      "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
+      "slots": [
+        "Torpedo",
+        "Astromech",
+        "Modification",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/biggsdarklighter.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/biggsdarklighter.png",
       "standard": true,
@@ -63,7 +71,10 @@
       "text": "Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.",
       "image": "https://infinitearenas.com/xw2/images/pilots/bluesquadronescort.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronescort.png",
-      "slots": ["Astromech", "Configuration"],
+      "slots": [
+        "Astromech",
+        "Configuration"
+      ],
       "standard": true,
       "extended": true,
       "keywords": ["X-wing"],
@@ -77,12 +88,19 @@
       "loadout": 4,
       "xws": "cavernangelszealot",
       "text": "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha.",
-      "slots": ["Astromech", "Illicit", "Configuration"],
+      "slots": [
+        "Astromech",
+        "Illicit",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/cavernangelszealot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cavernangelszealot.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Partisan", "X-wing"],
+      "keywords": [
+        "Partisan",
+        "X-wing"
+      ],
       "epic": true
     },
     {
@@ -103,7 +121,10 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/edriotwotubes.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Partisan", "X-wing"],
+      "keywords": [
+        "Partisan",
+        "X-wing"
+      ],
       "epic": true
     },
     {
@@ -138,7 +159,12 @@
       "loadout": 15,
       "xws": "jekporkins",
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
-      "slots": ["Torpedo", "Astromech", "Talent", "Configuration"],
+      "slots": [
+        "Torpedo",
+        "Astromech",
+        "Talent",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/jekporkins.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jekporkins.png",
       "standard": true,
@@ -166,7 +192,10 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kullbeesperado.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Partisan", "X-wing"],
+      "keywords": [
+        "Partisan",
+        "X-wing"
+      ],
       "epic": true
     },
     {
@@ -189,7 +218,10 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leevantenza.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Partisan", "X-wing"],
+      "keywords": [
+        "Partisan",
+        "X-wing"
+      ],
       "epic": true
     },
     {
@@ -214,7 +246,10 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lukeskywalker.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Light Side", "X-wing"],
+      "keywords": [
+        "Light Side",
+        "X-wing"
+      ],
       "epic": true
     },
     {
@@ -225,7 +260,11 @@
       "loadout": 3,
       "xws": "redsquadronveteran",
       "text": "Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.",
-      "slots": ["Talent", "Astromech", "Configuration"],
+      "slots": [
+        "Talent",
+        "Astromech",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/redsquadronveteran.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redsquadronveteran.png",
       "standard": true,
@@ -291,7 +330,12 @@
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["attackspeed-battleofyavin", "selfless", "protontorpedoes", "r2f2-battleofyavin"],
+      "standardLoadout": [
+        "attackspeed-battleofyavin",
+        "selfless",
+        "protontorpedoes",
+        "r2f2-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/biggsdarklighter-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/biggsdarklighter.png",
       "standard": true,
@@ -311,7 +355,10 @@
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["advprotontorpedoes", "r5k6-battleofyavin"],
+      "standardLoadout": [
+        "advprotontorpedoes",
+        "r5k6-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/garvendreis-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/garvendreis-t65xwing.png",
       "standard": true,
@@ -331,7 +378,11 @@
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["advprotontorpedoes", "r5d8-battleofyavin", "unstablesublightengines-battleofyavin"],
+      "standardLoadout": [
+        "advprotontorpedoes",
+        "r5d8-battleofyavin",
+        "unstablesublightengines-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/jekporkins-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jekporkins.png",
       "standard": true,
@@ -352,7 +403,12 @@
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["attackspeed-battleofyavin", "instictiveaim", "protontorpedoes", "r2d2-battleofyavin"],
+      "standardLoadout": [
+        "attackspeed-battleofyavin",
+        "instictiveaim",
+        "protontorpedoes",
+        "r2d2-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/lukeskywalker-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lukeskywalker.png",
       "standard": true,
@@ -372,7 +428,12 @@
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["attackspeed-battleofyavin", "marksmanship", "protontorpedoes", "r2a3-battleofyavin"],
+      "standardLoadout": [
+        "attackspeed-battleofyavin",
+        "marksmanship",
+        "protontorpedoes",
+        "r2a3-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/wedgeantilles-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles.png",
       "standard": true,
@@ -435,7 +496,11 @@
       "xws": "lukeskywalker-swz106",
       "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "standardLoadout": ["instictiveaim", "protontorpedoes", "r2d2"],
+      "standardLoadout": [
+        "instictiveaim",
+        "protontorpedoes",
+        "r2d2"
+      ],
       "image": "",
       "artwork": "",
       "standard": true,
@@ -451,7 +516,11 @@
       "cost": 5,
       "xws": "jekporkins-swz106",
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
-      "standardLoadout": ["predate", "protontorpedoes", "r5d8-battleofyavin"],
+      "standardLoadout": [
+        "predate",
+        "protontorpedoes",
+        "r5d8-battleofyavin"
+      ],
       "image": "",
       "artwork": "",
       "standard": true,

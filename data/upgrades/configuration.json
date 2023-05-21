@@ -252,7 +252,10 @@
       {
         "title": "Calibrated Laser Targeting",
         "type": "Configuration",
-        "slots": ["Configuration", "Modification"],
+        "slots": [
+          "Configuration",
+          "Modification"
+        ],
         "ability": "While you perform a primary attack, if the defender is in your [Bullseye Arc], add 1 [Focus] result.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/calibratedlasertargeting.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/calibratedlasertargeting.png"
@@ -560,8 +563,7 @@
     ],
     "restrictions": [
       { "shipAbility": ["Autothrusters"] },
-      { "standardized": true }
-    ],
+      { "standardized": true }],
     "cost": { "value": 0 },
     "standard": true,
     "extended": true,
@@ -588,8 +590,7 @@
     "restrictions": [
       { "factions": ["Galactic Empire"] },
       { "ships": ["tieddefender"] },
-      { "standardized": true }
-    ],
+      { "standardized": true }],
     "cost": { "value": 0 },
     "standard": true,
     "extended": true,
@@ -626,8 +627,7 @@
     ],
     "restrictions": [
       { "shipAbility": ["Vectored Thrusters"] },
-      { "standardized": true }
-    ],
+      { "standardized": true }],
     "cost": { "value": 0 }
   },
   {
@@ -638,7 +638,10 @@
       {
         "title": "Wartime Loadout",
         "type": "Configuration",
-        "slots": ["Configuration", "Modification"],
+        "slots": [
+          "Configuration",
+          "Modification"
+        ],
         "ability": "Gain 1 [Torpedo] slot and 1 [Missile] slot. Replace your ship ability with the following:",
         "shipAbility": {
           "name": "Devastating Barrage",
@@ -660,7 +663,9 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "ships": ["btanr2ywing"] }, { "standardized": true }],
+    "restrictions": [
+      { "ships": ["btanr2ywing"] },
+      { "standardized": true }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -673,7 +678,10 @@
       {
         "title": "Enhanced Jamming Suite",
         "type": "Configuration",
-        "slots": ["Configuration", "Tech"],
+        "slots": [
+          "Configuration",
+          "Tech"
+        ],
         "ability": "While you jam, you can choose yourself or another friendly ship. While you defend, if the attacker has no green tokens or there is a jammed ship in the attack arc, you may roll 1 additional defense die.",
         "grants": [
           {

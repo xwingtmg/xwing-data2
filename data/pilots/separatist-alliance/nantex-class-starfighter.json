@@ -72,7 +72,12 @@
       "ability": "While you perform a primary attack, if the defender is tractored, roll 1 additional attack die.",
       "cost": 5,
       "loadout": 15,
-      "slots": ["Talent", "Talent", "Talent", "Modification"],
+      "slots": [
+        "Talent",
+        "Talent",
+        "Talent",
+        "Modification"
+      ],
       "epic": true
     },
     {
@@ -92,7 +97,10 @@
       "ability": "After you perform an attack that hits, each friendly ship with [Calculate] on its action bar and a lock on the defender may perform a red [Calculate] action.",
       "cost": 4,
       "loadout": 7,
-      "slots": ["Talent", "Talent"],
+      "slots": [
+        "Talent",
+        "Talent"
+      ],
       "epic": true
     },
     {
@@ -112,7 +120,10 @@
       "ability": "While you perform a primary attack, if the defender is tractored, you may reroll up to 2 attack dice.",
       "cost": 4,
       "loadout": 10,
-      "slots": ["Talent", "Talent"],
+      "slots": [
+        "Talent",
+        "Talent"
+      ],
       "epic": true
     },
     {
@@ -131,7 +142,10 @@
       "ability": "During the System Phase, you may gain 1 disarm token and choose a friendly ship at range 1-2. If you do, it gains 1 tractor token, then repairs 1 of its faceup Ship trait damage cards.",
       "standard": true,
       "extended": true,
-      "slots": ["Talent", "Modification"],
+      "slots": [
+        "Talent",
+        "Modification"
+      ],
       "xws": "gorgol",
       "epic": true
     },
@@ -150,7 +164,10 @@
       "standard": true,
       "extended": true,
       "limited": 0,
-      "slots": ["Talent", "Talent"],
+      "slots": [
+        "Talent",
+        "Talent"
+      ],
       "xws": "petranakiarenaace",
       "epic": true
     }

@@ -66,7 +66,10 @@
       "xws": "bluesquadronscout",
       "text": "Used for deploying troops under the cover of darkness or into the heat of battle, the UT-60D U-wing fulfills the Rebellion's need for a swift and hardy troop transport.",
       "image": "https://infinitearenas.com/xw2/images/pilots/bluesquadronscout.png",
-      "slots": ["Modification", "Configuration"],
+      "slots": [
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronscout.png",
       "standard": true,
       "extended": true,
@@ -82,7 +85,13 @@
       "xws": "bodhirook",
       "ability": "Friendly ships can acquire locks onto objects at range 0-3 of any friendly ship.",
       "image": "https://infinitearenas.com/xw2/images/pilots/bodhirook.png",
-      "slots": ["Sensor", "Crew", "Crew", "Modification", "Configuration"],
+      "slots": [
+        "Sensor",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bodhirook.png",
       "standard": true,
       "extended": true,
@@ -98,7 +107,13 @@
       "xws": "cassianandor",
       "ability": "At the start of the Activation Phase, you may choose 1 friendly ship at range 1-3. If you do, that ship removes 1 stress token.",
       "image": "https://infinitearenas.com/xw2/images/pilots/cassianandor.png",
-      "slots": ["Talent", "Sensor", "Crew", "Modification", "Configuration"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Crew",
+        "Modification",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cassianandor.png",
       "standard": true,
       "extended": true,
@@ -160,7 +175,10 @@
       "loadout": 6,
       "xws": "partisanrenegade",
       "text": "Saw Gerrera's partisans were first established to oppose Separatist forces on Onderon during the Clone Wars and continued to wage war against galactic tyranny as the Empire rose to power.",
-      "slots": ["Illicit", "Configuration"],
+      "slots": [
+        "Illicit",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/partisanrenegade.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/partisanrenegade.png",
       "standard": true,
@@ -200,7 +218,13 @@
       "limited": 1,
       "xws": "k2so",
       "ability": "After you gain a stress token, gain 1 calculate token.",
-      "slots": ["Sensor", "Crew", "Crew", "Modification", "Configuration"],
+      "slots": [
+        "Sensor",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Configuration"
+      ],
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
         { "difficulty": "White", "type": "Lock" },
