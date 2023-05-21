@@ -85,7 +85,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 4,
-      "loadout": 8,
+      "loadout": 11,
       "xws": "jakefarrell",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may choose a friendly ship at range 0-1. That ship may perform a [Focus] action.",
       "image": "https://infinitearenas.com/xw2/images/pilots/jakefarrell.png",
@@ -132,9 +132,9 @@
       "standard": true,
       "extended": true,
       "keywords": ["A-wing"],
-      "cost": 4,
-      "loadout": 10,
-      "slots": ["Talent", "Talent", "Missile", "Modification", "Configuration"],
+      "cost": 3,
+      "loadout": 7,
+      "slots": ["Talent", "Talent", "Modification", "Configuration"],
       "ability": "While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.",
       "caption": "Promising Pilot",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles-rz1awing.png",
@@ -153,11 +153,11 @@
       "standard": true,
       "extended": true,
       "keywords": ["A-wing", "Mandalorian"],
-      "cost": 4,
-      "loadout": 11,
+      "cost": 3,
+      "loadout": 7,
       "slots": [
         "Talent",
-        "Torpedo",
+        "Modification",
         "Modification",
         "Configuration"
       ],
@@ -179,8 +179,8 @@
       "caption": "Phoenix Leader",
       "standard": true,
       "extended": true,
-      "cost": 5,
-      "loadout": 14,
+      "cost": 4,
+      "loadout": 4,
       "slots": [
         "Talent",
         "Talent",
@@ -317,6 +317,66 @@
       "keywords": ["A-wing"],
       "image": "https://infinitearenas.com/xw2/images/pilots/tychocelchu.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tychocelchu.png",
+      "epic": true
+    },
+    {
+      "name": "Arvel Crynyd",
+      "caption": "Green Leader",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 4,
+      "xws": "arvelcrynyd-swz106",
+      "ability": "If you would fail a [Boost] action by overlapping another ship, you may resolve it as though you were partially executing a maneuver instead. While you perform an attack at attack range 0, treat it as an attack at attack range 1.",
+      "image": "",
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "standardLoadout": ["predator", "afterburners"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/arvelcrynyd.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["A-wing"],
+      "epic": true
+    },
+    {
+      "name": "Jake Farrell",
+      "caption": "Sage Instructor",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 5,
+      "xws": "jakefarrell-swz106",
+      "ability": "After you perform a [Barrel Roll] or [Boost] action, you may choose a friendly ship at range 0-1. That ship may perform a [Focus] action.",
+      "image": "",
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "standardLoadout": ["elusive", "outmaneuver", "ionmissiles"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jakefarrell.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["A-wing"],
+      "epic": true
+    },
+    {
+      "name": "Shara Bey",
+      "xws": "sharabey-swz106",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "caption": "Green Four",
+      "standard": true,
+      "extended": true,
+      "cost": 4,
+      "standardLoadout": ["hopeful", "concussionmissiles"],
+      "ability": "While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.",
+      "keywords": ["A-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sharabey-rz1awing.png",
+      "image": "",
       "epic": true
     }
   ]

@@ -44,7 +44,7 @@
       "caption": "Unflinching Diehard",
       "initiative": 2,
       "limited": 1,
-      "cost": 4,
+      "cost": 3,
       "loadout": 11,
       "xws": "deathfire",
       "ability": "After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device.",
@@ -55,14 +55,13 @@
       },
       "slots": [
         "Torpedo",
-        "Torpedo",
         "Missile",
         "Device",
         "Modification",
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathfire.png",
-      "standard": false,
+      "standard": true,
       "extended": true,
       "keywords": ["TIE"],
       "epic": true
@@ -72,7 +71,7 @@
       "caption": "Disciplined Instructor",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
+      "cost": 4,
       "loadout": 10,
       "xws": "captainjonus",
       "ability": "While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.",
@@ -92,7 +91,7 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png",
-      "standard": false,
+      "standard": true,
       "extended": true,
       "keywords": ["TIE"],
       "epic": true
@@ -112,7 +111,7 @@
       },
       "slots": ["Torpedo", "Device", "Device", "Modification", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gammasquadronace.png",
-      "standard": false,
+      "standard": true,
       "extended": true,
       "keywords": ["TIE"],
       "epic": true
@@ -122,8 +121,7 @@
       "caption": "Scimitar Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
-      "loadout": 12,
+      "cost": 3,
       "xws": "majorrhymer",
       "ability": "While you perform a [Torpedo] or [Missile] attack, you may increase or decrease the range requirement by 1, to a limit of 0-3.",
       "image": "https://infinitearenas.com/xw2/images/pilots/majorrhymer.png",
@@ -141,7 +139,7 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorrhymer.png",
-      "standard": false,
+      "standard": true,
       "extended": true,
       "keywords": ["TIE"],
       "epic": true
@@ -161,7 +159,7 @@
       },
       "slots": ["Missile", "Device", "Device", "Modification", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scimitarsquadronpilot.png",
-      "standard": false,
+      "standard": true,
       "extended": true,
       "keywords": ["TIE"],
       "epic": true
@@ -171,7 +169,7 @@
       "caption": "Brash Maverick",
       "initiative": 5,
       "limited": 1,
-      "cost": 4,
+      "cost": 3,
       "loadout": 10,
       "xws": "tomaxbren",
       "ability": "After you perform a [Reload] action, you may recover 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.",
@@ -191,7 +189,47 @@
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png",
-      "standard": false,
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Captain Jonus",
+      "caption": "Disciplined Instructor",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 4,
+      "xws": "captainjonus-swz105",
+      "ability": "While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.",
+      "image": "",
+      "shipAbility": {
+        "name": "Nimble Bomber",
+        "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+      },
+      "standardLoadout": ["feedbackping", "plasmatorpedoes", "protonbombs"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Tomax Bren",
+      "caption": "Brash Maverick",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 5,
+      "xws": "tomaxbren-swz105",
+      "ability": "After you perform a [Reload] action, you may recover 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.",
+      "image": "",
+      "shipAbility": {
+        "name": "Nimble Bomber",
+        "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+      },
+      "standardLoadout": ["elusive", "barragerockets", "proximitymines"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png",
+      "standard": true,
       "extended": true,
       "keywords": ["TIE"],
       "epic": true

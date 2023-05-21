@@ -40,8 +40,8 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/bokatankryze-galactic-republic.png",
       "caption": "Nite Owl Commander",
       "ability": "After you fully execute a maneuver, you may gain 1 deplete token to choose an object in your [Front Arc] at range 1-2. If you do, another friendly ship may perform a [Lock] action to lock that object.",
-      "cost": 7,
-      "loadout": 20,
+      "cost": 6,
+      "loadout": 12,
       "initiative": 4,
       "limited": 1,
       "standard": true,
@@ -52,16 +52,14 @@
         "Crew",
         "Gunner",
         "Torpedo",
-        "Missile",
-        "Missile",
         "Device",
+        "Illicit",
         "Modification",
         "Modification",
         "Configuration",
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bokatankryze-galactic-republic.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/bokatankryze-galactic-republic.png",
       "keywords": ["Mandalorian"]
     },
     {
@@ -69,7 +67,7 @@
       "name": "Nite Owl Liberator",
       "image": "https://infinitearenas.com/xw2/images/pilots/niteowlliberator.png",
       "cost": 7,
-      "loadout": 16,
+      "loadout": 12,
       "initiative": 2,
       "limited": 1,
       "standard": true,
@@ -80,11 +78,11 @@
         "Crew",
         "Gunner",
         "Device",
+        "Illicit",
         "Modification",
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/niteowlliberator.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/niteowlliberator.png",
       "keywords": ["Mandalorian"],
       "caption": "Resolute Warrior"
     }
