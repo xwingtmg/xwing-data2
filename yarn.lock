@@ -10,6 +10,13 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@augment-vir/common@^8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@augment-vir/common/-/common-8.1.0.tgz#78c2aaff0ef512501a1101f05d5155f0094ee05a"
+  integrity sha512-mVE9upO/BIHdRIH/HoJAHDaHk57AxtQ3BvmI0B2o2xMvripDxuPf7jhxL793uyJtprLF2X6yE0BhG/rgLeHLbw==
+  dependencies:
+    type-fest "^3.5.1"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.18.6", "@babel/code-frame@^7.21.4":
   version "7.21.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.21.4.tgz#d0fa9e4413aca81f2b23b9442797bda1826edb39"
@@ -3102,10 +3109,17 @@ please-upgrade-node@^3.2.0:
   dependencies:
     semver-compare "^1.0.0"
 
-prettier@^1.19.1:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
-  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
+prettier-plugin-multiline-arrays@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-multiline-arrays/-/prettier-plugin-multiline-arrays-1.1.3.tgz#667bc65c3c2e5d00548bcde2cf78b188b8fe74f3"
+  integrity sha512-8I4FWatPhZXAsPMKM5E6h92ZRLAniJDdl9Uyy5aBvz9jJxc27CYQJIKBXdRW1SHrgKjEeWchmsAkLVyORIEOqw==
+  dependencies:
+    "@augment-vir/common" "^8.1.0"
+
+prettier@^2.8.8:
+  version "2.8.8"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
+  integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
 pretty-format@^24.9.0:
   version "24.9.0"
@@ -3698,6 +3712,11 @@ type-fest@^0.21.3:
   version "0.21.3"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.21.3.tgz#d260a24b0198436e133fa26a524a6d65fa3b2e37"
   integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
+
+type-fest@^3.5.1:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.11.0.tgz#e78ea6b50d6a6b1e4609035fb9ea8f1e3c328194"
+  integrity sha512-JaPw5U9ixP0XcpUbQoVSbxSDcK/K4nww20C3kjm9yE6cDRRhptU28AH60VWf9ltXmCrIfIbtt9J+2OUk2Uqiaw==
 
 typescript@^4.5.5:
   version "4.9.5"
