@@ -270,6 +270,483 @@
           }
         }
       ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "colicoidinterceptor",
+          "upgrades": {
+            "modification": ["hullupgrade", "independentcalculations"],
+            "sensor": ["firecontrolsystem"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "dis347",
+          "upgrades": {
+            "talent": ["elusive"],
+            "modification": ["independentcalculations"],
+            "sensor": ["firecontrolsystem"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "dist81",
+          "upgrades": {
+            "talent": ["margsablclosure"],
+            "missile": ["discordmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "fearsomepredator",
+          "upgrades": {
+            "sensor": ["firecontrolsystem"],
+            "configuration": ["interceptbooster"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "phlacarphoccprototype",
+          "upgrades": {
+            "missile": ["xx23sthreadtracers"],
+            "configuration": ["interceptbooster"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "separatistinterceptor",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "missile": ["discordmissiles"],
+            "configuration": ["interceptbooster"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "bobafett-separatistalliance",
+          "upgrades": {
+            "talent": ["debrisgambit"],
+            "crew": ["hondoohnaka"],
+            "title": ["slavei-swz82"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "separatistracketeer",
+          "upgrades": {
+            "cannon": ["jammingbeam"],
+            "device": ["thermaldetonators"],
+            "gunner": ["suppressivegunner"],
+			"modification": ["ablativeplating"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "jangofett",
+          "upgrades": {
+            "illicit": ["falsetranspondercodes"],
+            "crew": ["zamwesell"],
+			"gunner": ["bobafett-gunner"],
+            "title": ["slavei-swz82"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "zamwesell",
+          "upgrades": {
+            "talent": ["deadeyeshot"],
+			"illicit": ["falsetranspondercodes"],
+            "crew": ["jangofett"],
+			"gunner": ["hotshotgunner"],
+            "title": ["slavei-swz82"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "baktoiddrone",
+          "upgrades": {
+            "missile": ["ionmissiles"],
+            "device": ["concussionbombs"],
+            "modification": ["delayedfuses"],
+			"configuration": ["repulsorliftstabilizers"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "dgs047",
+          "upgrades": {
+            "missile": ["ionmissiles"],
+            "device": ["concussionbombs"],
+            "modification": ["delayedfuses"],
+			"configuration": ["repulsorliftstabilizers"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "geonosianprototype",
+          "upgrades": {
+            "missile": ["ionmissiles"],
+            "cannon": ["syncedlasercannons"],
+			"configuration": ["repulsorliftstabilizers"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "onderonoppressor",
+          "upgrades": {
+            "missile": ["multimissilepods"],
+			"configuration": ["repulsorliftstabilizers"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "separatistpredator",
+          "upgrades": {
+            "missile": ["multimissilepods"],
+            "device": ["concussionbombs"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "dgs286",
+          "upgrades": {
+            "missile": ["multimissilepods"],
+			"tactical-relay": ["kalani"],
+            "device": ["concussionbombs"],
+            "modification": ["afterburners", "shieldupgrade"],
+			"configuration": ["repulsorliftstabilizers"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "berwerkret",
+          "upgrades": {
+            "talent": ["ensnare", "snapshot"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "chertek",
+          "upgrades": {
+            "talent": ["graviticdeflection", "juke"],
+            "modification": ["targetingcomputer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "gorgol",
+          "upgrades": {
+            "talent": ["graviticdeflection"],
+            "modification": ["shieldupgrade", "stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "petranakiarenaace",
+          "upgrades": {
+            "talent": ["ensnare", "snapshot"],
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "stalgasinhiveguard",
+          "upgrades": {
+            "talent": ["ensnare", "graviticdeflection"],
+            "modification": ["targetingcomputer"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "sunfac",
+          "upgrades": {
+            "talent": ["ensnare", "predator"],
+            "modification": ["afterburners", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "haorchallprototype",
+          "upgrades": {
+            "missile": ["discordmissiles", "energyshellcharges"],
+            "modification": ["stealthdevice"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 6,
+      "pilots": [
+        {
+          "id": "separatistprivateers",
+          "upgrades": {
+            "command": ["stalwartcaptain"],
+            "hardpoint": ["turbolaserbattery"],
+            "cannon": ["heavylasercannon"],
+			"turret": ["dorsalturret"],
+			"missile": ["clustermissiles"],
+			"team": ["bombardmentspecialists"],
+			"cargo": ["boostedscanners", "tibannareserves"],
+			"configuration": ["corsairrefit"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 8,
+      "pilots": [
+        {
+          "id": "colicoiddestroyer",
+          "upgrades": {
+            "hardpoint": ["tractortentacles", "drillbeak"],
+			"cargo": ["optimizedpowercore"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 9,
+      "pilots": [
+        {
+          "id": "colicoiddestroyer",
+          "upgrades": {
+            "command": ["asajjventresscommand"],
+            "hardpoint": ["tractortentacles", "enhancedpropulsion"],
+            "crew": ["seasonednavigator"],
+			"team": ["droidcrew", "tractortechnicians"],
+			"title": ["trident"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 10,
+      "pilots": [
+        {
+          "id": "colicoiddestroyer",
+          "upgrades": {
+            "command": ["rifftamson"],
+            "hardpoint": ["tractortentacles", "protoncannonbattery"],
+			"torpedo": ["protontorpedoes"],
+            "crew": ["novicetechnician"],
+			"gunner": ["hotshotgunner"],
+			"team": ["droidcrew", "gunneryspecialists"],
+			"cargo": ["tibannareserves"],
+			"title": ["neimoidiangrasp"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ig111",
+          "upgrades": {
+            "talent": ["predator"],
+			"cannon": ["protoncannons"],
+            "modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "magnaguardprotector",
+          "upgrades": {
+            "talent": ["enduring"],
+			"cannon": ["protoncannons"],
+            "modification": ["independentcalculations"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "magnaguardexecutioner",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+			"cannon": ["protoncannons"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "cadbane-separatistalliance",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+			"cannon": ["syncedlasercannons"],
+            "modification": ["afterburners"],
+			"crew": ["freelanceslicer"],
+			"title": ["xanadublood"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ig101",
+          "upgrades": {
+            "talent": ["enduring"],
+			"cannon": ["protoncannons"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ig102",
+          "upgrades": {
+            "talent": ["elusive"],
+			"cannon": ["syncedlasercannons"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "previzsla",
+          "upgrades": {
+            "talent": ["predator"],
+            "device": ["blazerbomb"],
+            "crew": ["deathwatchcommandos"],
+            "modification": ["shieldupgrade"],
+			"configuration": ["swivelwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "bokatankryze-separatistalliance",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "gunner": ["veterantailgunner"],
+			"configuration": ["swivelwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "deathwatchwarrior",
+          "upgrades": {
+            "device": ["concussionbombs"],
+            "modification": ["hullupgrade", "shieldupgrade"],
+			"configuration": ["swivelwing"]
+          }
+        }
+      ]
     }
   ]
 }

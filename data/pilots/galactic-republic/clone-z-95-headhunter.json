@@ -59,7 +59,8 @@
       ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "keywords": ["Clone"]
     },
     {
       "name": "“Drift”",
@@ -83,15 +84,16 @@
       ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "keywords": ["Clone"]
     },
     {
       "name": "“Boost”",
-      "caption": "CT4860",
+      "caption": "CT-4860",
       "initiative": 3,
       "limited": 1,
-      "cost": 3,
-      "loadout": 8,
+      "cost": 2,
+      "loadout": 3,
       "xws": "boost",
       "ability": "At the start of the Engagement Phase, if there is a friendly ship at range 0-1 whose revealed maneuver is blue, you may perform a [Boost] action.",
       "shipAbility": {
@@ -108,7 +110,8 @@
       ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "keywords": ["Clone"]
     },
     {
       "name": "“Stub”",
@@ -125,14 +128,11 @@
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/stub.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/stub.png",
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Modification"
-      ],
+      "slots": ["Talent", "Sensor", "Modification"],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "keywords": ["Clone"]
     },
     {
       "name": "“Knack”",
@@ -157,7 +157,8 @@
       ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "keywords": ["Clone"]
     },
     {
       "name": "“Hawk”",
@@ -182,7 +183,8 @@
       ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "keywords": ["Clone"]
     },
     {
       "name": "7th Sky Corps Pilot",
@@ -204,7 +206,8 @@
       ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "keywords": ["Clone"]
     },
     {
       "name": "Reaper Squadron Scout",
@@ -226,15 +229,16 @@
       ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "keywords": ["Clone"]
     },
     {
       "name": "“Slider”",
       "caption": "Evasive Aviator",
       "initiative": 4,
       "limited": 1,
-      "cost": 3,
-      "loadout": 8,
+      "cost": 2,
+      "loadout": 3,
       "xws": "slider",
       "ability": "When you reveal a [2 [Bank Left]] or [2 [Bank Right]] maneuver, you may spend 2 [Charge] to execute it as a sideslip.",
       "charges": { "value": 2, "recovers": 1 },
@@ -253,7 +257,8 @@
       ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "keywords": ["Clone"]
     },
     {
       "name": "“Warthog”",
@@ -277,7 +282,8 @@
       ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "keywords": ["Clone"]
     }
   ]
 }

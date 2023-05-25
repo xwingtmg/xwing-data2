@@ -471,6 +471,391 @@
           }
         }
       ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "jedigeneral",
+          "upgrades": {
+            "talent": ["margsablclosure"],
+            "force-power": ["extrememaneuvers"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "shaakti",
+          "upgrades": {
+            "talent": ["elusive"],
+            "force-power": ["patience"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "aaylasecura",
+          "upgrades": {
+            "talent": ["predator"],
+            "force-power": ["supernaturalreflexes"],
+			"astromech": ["r3astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "obiwankenobi-eta2actis",
+          "upgrades": {
+            "talent": ["margsablclosure"],
+            "force-power": ["patience"],
+			"astromech": ["r5astromech"],
+			"modification": ["hullupgrade"]
+          }
+        },
+		{
+		  "id": "transgalmegcontrollink",
+		  "upgrades": {
+			"hyperdrive": ["syliure31hyperdrive"],
+			"modification": ["shieldupgrade"]
+		  }
+		}
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "yoda",
+          "upgrades": {
+            "force-power": ["heightenedperception", "sense", "patience"],
+			"astromech": ["r2d2-republic"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "anakinskywalker-eta2actis",
+          "upgrades": {
+            "talent": ["margsablclosure"],
+            "force-power": ["extrememaneuvers"],
+			"astromech": ["r2d2-republic"],
+			"modification": ["afterburners", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "212thbattalionpilot",
+          "upgrades": {
+            "missile": ["multimissilepods"],
+            "gunner": ["suppressivegunner"],
+			"crew": ["ghostcompany"],
+			"modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "hawk",
+          "upgrades": {
+			"talent": ["deadeyeshot"],
+            "missile": ["ionmissiles"],
+            "gunner": ["clonecaptainrex"],
+			"crew": ["fives", "yoda"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "warthog",
+          "upgrades": {
+            "missile": ["multimissilepods"],
+            "gunner": ["suppressivegunner"],
+			"crew": ["plokoon", "wolfpack"],
+			"modification": ["shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "hound",
+          "upgrades": {
+            "missile": ["concussionmissiles"],
+            "gunner": ["suppressivegunner", "agilegunner"],
+			"crew": ["aaylasecura", "kitfisto"],
+			"modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "loyalistvolunteer"
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "contrail",
+          "upgrades": {
+            "talent": ["ionlimiteroverride"],
+            "astromech": ["r7a7"],
+			"modification": ["precisionionengines"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "klick",
+          "upgrades": {
+            "device": ["thermaldetonators"],
+            "astromech": ["r3astromech"],
+			"configuration": ["alpha3bbesh"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "oddball-nimbusclassvwing",
+          "upgrades": {
+            "talent": ["elusive", "ionlimiteroverride"],
+            "astromech": ["q7astromech"],
+			"modification": ["precisionionengines"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "shadowsquadronescort",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "astromech": ["r2astromech"],
+			"configuration": ["alpha3eesk"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "wilhufftarkin",
+          "upgrades": {
+            "astromech": ["r3astromech"],
+			"configuration": ["alpha3eesk"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 9,
+      "pilots": [
+        {
+          "id": "republicjudiciary",
+          "upgrades": {
+            "command": ["strategiccommander"],
+            "hardpoint": ["targetingbattery", "turbolaserbattery"],
+            "crew": ["seasonednavigator"],
+            "gunner": ["agilegunner"],
+			"team": ["damagecontrolteam", "gunneryspecialists"],
+			"cargo": ["boostedscanners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "slider",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+			"torpedo": ["protontorpedoes"],
+			"modification": ["afterburners", "shieldupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "killer",
+          "upgrades": {
+			"torpedo": ["protontorpedoes"],
+			"modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "warthog-clonez95headhunter",
+          "upgrades": {
+            "talent": ["elusive"],
+			"torpedo": ["protontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "boost",
+          "upgrades": {
+            "talent": ["enduring"],
+			"torpedo": ["homingtorpedoes"],
+			"modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "drift",
+          "upgrades": {
+            "talent": ["elusive"],
+			"torpedo": ["homingtorpedoes"],
+			"modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "hawk-clonez95headhunter",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+			"missile": ["magpulsewarheads"],
+			"modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "stub",
+          "upgrades": {
+            "talent": ["elusive"],
+			"torpedo": ["protontorpedoes"],
+			"modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "7thskycorpspilot",
+          "upgrades": {
+			"modification": ["angleddeflectors"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "knack",
+          "upgrades": {
+            "talent": ["outmaneuver", "predator"],
+			"torpedo": ["protontorpedoes"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "reapersquadronscout",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+			"missile": ["magpulsewarheads"],
+			"modification": ["shieldupgrade"],
+			"sensor": ["firecontrolsystem"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "bokatankryze",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "crew": ["niteowlcommandos"],
+            "gunner": ["veterantailgunner"],
+            "title": ["gauntlet"],
+            "modification": ["dropseatbay", "hullupgrade"],
+			"configuration": ["swivelwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "niteowlliberator",
+          "upgrades": {
+            "talent": ["enduring"],
+            "device": ["concussionbombs"],
+            "gunner": ["veterantailgunner"],
+            "modification": ["hullupgrade"],
+			"configuration": ["swivelwing"]
+          }
+        }
+      ]
     }
   ]
 }

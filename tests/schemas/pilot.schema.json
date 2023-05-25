@@ -106,23 +106,9 @@
     },
     "image": { "type": "string" },
     "artwork": { "type": "string" },
-    "ffg": { "type": "integer" },
     "standard": { "type": "boolean" },
     "extended": { "type": "boolean" },
     "epic": { "type": "boolean" },
-    "alt": {
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "object",
-        "properties": {
-          "image": { "type": "string" },
-          "source": { "type": "string" }
-        },
-        "required": ["image", "source"],
-        "additionalProperties": false
-      }
-    },
     "shipAbility": {
       "type": "object",
       "properties": {

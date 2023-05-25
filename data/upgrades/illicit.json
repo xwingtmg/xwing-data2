@@ -8,14 +8,13 @@
         "title": "Cloaking Device",
         "type": "Illicit",
         "ability": "Action: Spend 1 [Charge] to perform a [Cloak] action. At the start of the Planning Phase, roll 1 attack die. On a [Focus] result, decloak or discard your cloak token.",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_57.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/cloakingdevice.png",
         "slots": ["Illicit"],
         "charges": { "value": 2, "recovers": 0 },
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_57.jpg",
-        "ffg": 286
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/cloakingdevice.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 8 },
     "restrictions": [{ "sizes": ["Small", "Medium"] }],
     "standard": true,
     "extended": true,
@@ -30,11 +29,10 @@
         "title": "Contraband Cybernetics",
         "type": "Illicit",
         "ability": "Before you activate, you may spend 1 [Charge]. If you do, until the end of the round, you can perform actions and execute red maneuvers, even while stressed. This card's [Charge] cannot be recovered.",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_58.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/contrabandcybernetics.png",
         "slots": ["Illicit"],
         "charges": { "value": 1, "recovers": 0 },
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_58.jpg",
-        "ffg": 287
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/contrabandcybernetics.png"
       }
     ],
     "cost": { "value": 3 },
@@ -51,10 +49,9 @@
         "title": "Deadman's Switch",
         "type": "Illicit",
         "ability": "After you are destroyed, each other ship at range 0-1 suffers 1 [Hit] damage.",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_59.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/deadmansswitch.png",
         "slots": ["Illicit"],
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_59.jpg",
-        "ffg": 288
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/deadmansswitch.png"
       }
     ],
     "cost": { "value": 2 },
@@ -71,10 +68,9 @@
         "title": "Feedback Array",
         "type": "Illicit",
         "ability": "Before you engage, you may gain 1 ion token and 1 disarm token. If you do, each ship at range 0 suffers 1 [Hit] damage.",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_60.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/feedbackarray.png",
         "slots": ["Illicit"],
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_60.jpg",
-        "ffg": 289
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/feedbackarray.png"
       }
     ],
     "cost": { "value": 4 },
@@ -91,10 +87,9 @@
         "title": "Inertial Dampeners",
         "type": "Illicit",
         "ability": "Before you would execute a maneuver, you may spend 1 shield. If you do, execute a white [0 [Stationary]] instead of the maneuver you revealed, then gain 1 stress token.",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_61.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/inertialdampeners.png",
         "slots": ["Illicit"],
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_61.jpg",
-        "ffg": 290
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/inertialdampeners.png"
       }
     ],
     "cost": { "value": 8 },
@@ -111,7 +106,7 @@
         "title": "Rigged Cargo Chute",
         "type": "Illicit",
         "ability": "Action: Spend 1 [Charge]. Drop 1 loose cargo using the [1 [Straight]] template.",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_62.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/riggedcargochute.png",
         "slots": ["Illicit"],
         "charges": { "value": 1, "recovers": 0 },
         "device": {
@@ -119,11 +114,10 @@
           "type": "Obstacle",
           "effect": "Loose cargo is a debris cloud."
         },
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_62.jpg",
-        "ffg": 291
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/riggedcargochute.png"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [{ "sizes": ["Medium", "Large"] }],
     "standard": true,
     "extended": true,
@@ -139,9 +133,8 @@
         "title": "Coaxium Hyperfuel",
         "type": "Illicit",
         "slots": ["Illicit"],
-        "ffg": 650,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/791981d898356ad13e463b8699975155.jpg",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/1622f5d9e279b54d4610820f5dd31a95.png"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/coaxiumhyperfuel.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/coaxiumhyperfuel.png"
       }
     ],
     "cost": { "value": 4 },
@@ -163,9 +156,8 @@
         "type": "Illicit",
         "slots": ["Illicit"],
         "charges": { "value": 2, "recovers": 0 },
-        "ffg": 753,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/af/19/af197066-3d72-45aa-acbc-68c50abd20ef/swz55_quick-release-locks_card.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/836fa300919eafe8e7ac5fbc47b8c0c6.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/quickreleaselocks.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/quickreleaselocks.png"
       }
     ],
     "cost": { "value": 5 }
@@ -183,9 +175,8 @@
         "title": "Saboteur's Map",
         "type": "Illicit",
         "slots": ["Illicit"],
-        "ffg": 754,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/db/b6/dbb6b484-2d70-46ac-b2cd-49f1a300e0bf/swz55_saboteurs-map_card.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/46a2b1477a848a09c56dbcd49ab6f9f4.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/saboteursmap.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/saboteursmap.png"
       }
     ],
     "cost": { "value": 3 }
@@ -203,9 +194,8 @@
         "title": "Scanner Baffler",
         "type": "Illicit",
         "slots": ["Illicit"],
-        "ffg": 755,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/3d/58/3d58ccbe-3a8b-410e-bbf6-5ffadb2230c9/swz55_scanner-baffler_card.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c4749e45f352215cb96d6b1125c09a91.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/scannerbaffler.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/scannerbaffler.png"
       }
     ],
     "cost": { "value": 8 }
@@ -221,12 +211,11 @@
         "type": "Illicit",
         "slots": ["Illicit"],
         "charges": { "value": 1, "recovers": 0 },
-        "ffg": 877,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/de/d4/ded4b0e6-683b-4caa-b642-41fdd09f7ed6/swz82_a1_upgrade_false-codes.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/06d6e39ec52930c4faca371e8dcd3fd6.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/falsetranspondercodes.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/falsetranspondercodes.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 5 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -242,7 +231,8 @@
         "type": "Illicit",
         "slots": ["Illicit"],
         "charges": { "value": 3, "recovers": 0 },
-        "ffg": 930
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/babufrik.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/babufrik.png"
       }
     ],
     "restrictions": [{ "factions": ["Scum and Villainy", "Resistance"] }],
@@ -262,9 +252,8 @@
         "type": "Illicit",
         "slots": ["Illicit"],
         "charges": { "value": 1, "recovers": 0 },
-        "ffg": 931,
-        "image": "???",
-        "artwork": "???"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/overtunedmodulators.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/overtunedmodulators.png"
       }
     ],
     "cost": { "value": 3 },
@@ -282,13 +271,12 @@
         "title": "Tracking Fob",
         "type": "Illicit",
         "slots": ["Illicit"],
-        "ffg": 931,
-        "image": "https://infinitearenas.com/xw2/images/upgrades/trackingfob.png",
-        "artwork": "???"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/trackingfob.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/trackingfob.png"
       }
     ],
     "restrictions": [{ "keywords": ["Bounty Hunter"] }],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -311,9 +299,8 @@
           "maxrange": 1,
           "ordnance": true
         },
-        "ffg": 931,
-        "image": "https://infinitearenas.com/xw2/images/upgrades/hotshottailblaster.png",
-        "artwork": "???"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/hotshottailblaster.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/hotshottailblaster.png"
       }
     ],
     "restrictions": [{ "sizes": ["Medium", "Large"] }],

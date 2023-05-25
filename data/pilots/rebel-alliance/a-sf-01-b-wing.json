@@ -1,7 +1,6 @@
 {
   "name": "A/SF-01 B-wing",
   "xws": "asf01bwing",
-  "ffg": 17,
   "size": "Small",
   "dial": [
     "1ER",
@@ -39,7 +38,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_B-wing.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_B-wing.png",
   "pilots": [
     {
       "name": "Blade Squadron Veteran",
@@ -49,10 +48,9 @@
       "loadout": 6,
       "xws": "bladesquadronveteran",
       "text": "A unique gyrostabilization system surrounds the B-wing's cockpit, ensuring that the pilot always remains stationary during flight.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_25.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/bladesquadronveteran.png",
       "slots": ["Sensor", "Cannon", "Cannon", "Torpedo", "Configuration"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg",
-      "ffg": 25,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bladesquadronveteran.png",
       "standard": true,
       "extended": true,
       "keywords": ["B-wing"],
@@ -66,16 +64,9 @@
       "loadout": 6,
       "xws": "bluesquadronpilot",
       "text": "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_26.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/bluesquadronpilot.png",
       "slots": ["Sensor", "Cannon", "Cannon", "Device", "Configuration"],
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/a4/a6/a4a6943b-6af3-4d33-9a04-bff98190d3ee/g18x3-blue-squadron-pilot-2.png",
-          "source": "Season Three 2018"
-        }
-      ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_26.jpg",
-      "ffg": 26,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronpilot.png",
       "standard": true,
       "extended": true,
       "keywords": ["B-wing"],
@@ -90,7 +81,7 @@
       "loadout": 12,
       "xws": "braylenstramm",
       "ability": "While you defend or perform an attack, if you are stressed, you may reroll up to 2 of your dice.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_23.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/braylenstramm.png",
       "slots": [
         "Talent",
         "Sensor",
@@ -101,8 +92,7 @@
         "Device",
         "Configuration"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg",
-      "ffg": 23,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/braylenstramm.png",
       "standard": true,
       "extended": true,
       "keywords": ["B-wing"],
@@ -117,7 +107,7 @@
       "loadout": 14,
       "xws": "tennumb",
       "ability": "While you defend or perform an attack, you may spend 1 stress token to change all of your [Focus] results to [Evade] or [Hit] results.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_24.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/tennumb.png",
       "slots": [
         "Talent",
         "Sensor",
@@ -128,8 +118,7 @@
         "Device",
         "Configuration"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg",
-      "ffg": 24,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tennumb.png",
       "standard": true,
       "extended": true,
       "keywords": ["B-wing"],
@@ -154,11 +143,10 @@
         "Configuration"
       ],
       "ability": "At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2.",
-      "cost": 5,
-      "loadout": 16,
-      "ffg": 628,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/df07f280040d4284c04c194e18c62c9e.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/0fcceeaf64f96b4870146ffbec529dc2.png",
+      "cost": 4,
+      "loadout": 11,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ginamoonsong.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/ginamoonsong.png",
       "keywords": ["B-wing"],
       "epic": true
     },
@@ -171,8 +159,8 @@
       "standard": true,
       "extended": true,
       "keywords": ["B-wing", "Spectre"],
-      "cost": 6,
-      "loadout": 20,
+      "cost": 5,
+      "loadout": 14,
       "slots": [
         "Talent",
         "Sensor",
@@ -186,8 +174,8 @@
         "Configuration"
       ],
       "ability": "While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.",
-      "ffg": 878,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8a1e9cd504cde297c35d03aa728f5f40.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla-asf01bwing.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/herasyndulla-asf01bwing.png",
       "epic": true
     },
     {
@@ -198,8 +186,8 @@
       "caption": "Dagger Leader",
       "standard": true,
       "extended": true,
-      "cost": 5,
-      "loadout": 18,
+      "cost": 4,
+      "loadout": 10,
       "slots": [
         "Talent",
         "Sensor",
@@ -212,8 +200,8 @@
       ],
       "ability": "After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.",
       "keywords": ["B-wing"],
-      "ffg": 879,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8e8ea8e29324398b455ec7b01bc1622e.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/netrempollard.png",
       "epic": true
     }
   ]

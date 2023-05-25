@@ -1,9 +1,8 @@
 {
   "name": "Gozanti-class Cruiser",
   "xws": "gozanticlasscruiser",
-  "ffg": 81,
   "faction": "First Order",
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Gozanti.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Gozanti.png",
   "size": "Huge",
   "dial": [
     "0BR",
@@ -35,13 +34,13 @@
   ],
   "pilots": [
     {
-      "ffg": 712,
       "name": "First Order Sympathizers",
       "initiative": 7,
       "cost": 67,
       "loadout": 0,
       "limited": 0,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/99965cf5c4a2611773c6e7f4ecb6608f.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/firstordersympathizers.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/firstordersympathizers.png",
       "shipAbility": {
         "name": "Docking Clamps",
         "text": "You can dock up to 4 small ships."

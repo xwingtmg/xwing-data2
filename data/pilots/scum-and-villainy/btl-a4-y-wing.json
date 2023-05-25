@@ -1,7 +1,6 @@
 {
   "name": "BTL-A4 Y-wing",
   "xws": "btla4ywing",
-  "ffg": 12,
   "size": "Small",
   "dial": [
     "1BB",
@@ -34,7 +33,7 @@
     { "difficulty": "Red", "type": "Barrel Roll" },
     { "difficulty": "Red", "type": "Reload" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Y-wing.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Y-wing.png",
   "pilots": [
     {
       "name": "Crymorah Goon",
@@ -44,10 +43,9 @@
       "loadout": 4,
       "xws": "crymorahgoon",
       "text": "Though far from nimble, the Y-wing's heavy hull, substantial shielding, and turret-mounted cannons make it an excellent patrol craft.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_168.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/crymorahgoon.png",
       "slots": ["Turret", "Device", "Illicit", "Missile"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_168.jpg",
-      "ffg": 168,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/crymorahgoon.png",
       "standard": true,
       "extended": true,
       "keywords": ["Y-wing"],
@@ -58,7 +56,7 @@
       "caption": "Pirate Lord",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
+      "cost": 4,
       "loadout": 10,
       "xws": "drearenthal",
       "ability": "While a friendly non-limited ship performs an attack, if the defender is in your firing arc, the attacker may reroll 1 attack die.",
@@ -72,9 +70,8 @@
         "Modification",
         "Missile"
       ],
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_166.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_166.jpg",
-      "ffg": 166,
+      "image": "https://infinitearenas.com/xw2/images/pilots/drearenthal.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/drearenthal.png",
       "standard": true,
       "extended": true,
       "keywords": ["Y-wing"],
@@ -88,10 +85,9 @@
       "loadout": 6,
       "xws": "hiredgun",
       "text": "Just the mention of Imperial credits can bring a host of less-than-trustworthy individuals to your side.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_167.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/hiredgun.png",
       "slots": ["Turret", "Torpedo", "Device", "Illicit", "Missile"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_167.jpg",
-      "ffg": 167,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hiredgun.png",
       "standard": true,
       "extended": true,
       "keywords": ["Y-wing"],
@@ -102,11 +98,11 @@
       "caption": "Callous Corsair",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
-      "loadout": 18,
+      "cost": 4,
+      "loadout": 7,
       "xws": "kavil",
       "ability": "While you perform a non-[Front Arc] attack, roll 1 additional attack die.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_165.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/kavil.png",
       "slots": [
         "Talent",
         "Turret",
@@ -117,8 +113,7 @@
         "Modification",
         "Missile"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_165.jpg",
-      "ffg": 165,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kavil.png",
       "standard": true,
       "extended": true,
       "keywords": ["Y-wing"],
@@ -132,8 +127,8 @@
       "standard": true,
       "extended": true,
       "keywords": ["Y-wing"],
-      "cost": 4,
-      "loadout": 14,
+      "cost": 3,
+      "loadout": 8,
       "slots": [
         "Talent",
         "Tech",
@@ -145,8 +140,8 @@
       ],
       "ability": "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your full front arc.",
       "caption": "Opportunity Knocks",
-      "ffg": 898,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4e6423bdaa2b09478f46f795c5328c17.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leemakai.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/leemakai.png",
       "epic": true
     },
     {
@@ -157,8 +152,8 @@
       "standard": true,
       "extended": true,
       "keywords": ["Y-wing"],
-      "cost": 4,
-      "loadout": 13,
+      "cost": 3,
+      "loadout": 10,
       "slots": [
         "Talent",
         "Tech",
@@ -170,8 +165,8 @@
       ],
       "ability": "While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, before the Modify Defense Dice step, you must change 1 of your [Focus] results to a blank result.",
       "caption": "Crimson Blade",
-      "ffg": 899,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f00b0ed67b0de579c3bc4fdaceb3f3ab.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/arlizhadrassian.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/arlizhadrassian.png",
       "epic": true
     },
     {
@@ -186,8 +181,8 @@
       "loadout": 6,
       "slots": ["Turret", "Torpedo", "Missile", "Astromech", "Device"],
       "keywords": ["Y-wing"],
-      "ffg": 901,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1a6296a88e63a0896952e7dd4178105b.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/amaxinewarrior.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/amaxinewarrior.png",
       "epic": true
     },
     {
@@ -212,8 +207,8 @@
       ],
       "ability": "After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.",
       "keywords": ["Y-wing"],
-      "ffg": 900,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7d5a18e41b8e3caf1d623cdf06acafc8.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/padric.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/padric.png",
       "epic": true
     },
     {
@@ -228,8 +223,8 @@
       "loadout": 5,
       "slots": ["Turret", "Torpedo", "Missile", "Device"],
       "keywords": ["Y-wing"],
-      "ffg": 902,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d1b998eff3b93d5ed05870096aa27817.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jinatasecurityofficer.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/jinatasecurityofficer.png",
       "epic": true
     }
   ]

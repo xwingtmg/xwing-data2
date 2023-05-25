@@ -271,8 +271,7 @@
           "id": "bladesquadronveteran",
           "upgrades": {
             "talent": ["predator"],
-            "cannon": ["ioncannon"],
-            "cannon": ["jammingbeam"]
+            "cannon": ["ioncannon", "jammingbeam"]
           }
         }
       ]
@@ -332,8 +331,7 @@
           "id": "braylenstramm",
           "upgrades": {
             "talent": ["squadleader"],
-            "cannon": ["jammingbeam"],
-            "cannon": ["heavylasercannon"],
+            "cannon": ["jammingbeam", "heavylasercannon"],
             "modification": ["electronicbaffle"]
           }
         }
@@ -758,7 +756,7 @@
           "id": "chewbacca",
           "upgrades": {
             "talent": ["predator"],
-            "crew": ["leiaorgana", "c3po-crew", "r2d2-crew"],
+            "crew": ["leiaorgana", "c3po", "r2d2-crew"],
             "gunner": ["hansolo", "lukeskywalker"],
             "modification": ["engineupgrade"],
             "title": ["millenniumfalcon"]
@@ -1187,6 +1185,515 @@
             "crew": ["landocalrissian", "chewbacca", "r2d2-crew"],
             "modification": ["engineupgrade"],
             "title": ["millenniumfalcon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "bluesquadronpilot",
+          "upgrades": {
+            "sensor": ["passivesensors"],
+            "cannon": ["autoblasters"],
+            "configuration": ["stabilizedsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "netrempollard",
+          "upgrades": {
+            "talent": ["debrisgambit"],
+            "cannon": ["autoblasters"],
+            "configuration": ["stabilizedsfoils"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "bladesquadronveteran",
+          "upgrades": {
+            "talent": ["saturationsalvo"],
+            "modification": ["shieldupgrade"],
+            "cannon": ["syncedlasercannons"],
+			"configuration": ["stabilizedsfoils"],
+			"torpedo": ["plasmatorpedoes"],
+			"sensor": ["passivesensors"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "herasyndulla-asf01bwing",
+          "upgrades": {
+            "command": ["b6bladewingprototype-command"],
+            "talent": ["deadeyeshot"],
+            "sensor": ["passivesensors"],
+			"gunner": ["sabinewren-gunner"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "outerrimsmuggler",
+          "upgrades": {
+            "crew": ["landocalrissian", "informant"],
+            "modification": ["engineupgrade"],
+            "illicit": ["riggedcargochute"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "hansolo-modifiedyt1300lightfreighter",
+          "upgrades": {
+            "crew": ["c3po", "chewbacca", "leiaorgana"],
+            "illicit": ["riggedcargochute"],
+            "title": ["millenniumfalcon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 5,
+      "pilots": [
+        {
+          "id": "landocalrissian-modifiedyt1300lightfreighter",
+          "upgrades": {
+			"talent": ["swarmtactics"],
+            "crew": ["niennunb"],
+            "modification": ["engineupgrade", "hullupgrade"],
+            "title": ["millenniumfalcon"],
+			"missile": ["homingmissiles"],
+			"astromech": ["r3astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 6,
+      "pilots": [
+        {
+          "id": "chewbacca",
+          "upgrades": {
+            "crew": ["c3po", "leiaorgana", "r2d2-crew"],
+            "gunner": ["hansolo", "lukeskywalker"],
+            "title": ["millenniumfalcon"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "phoenixsquadronpilot",
+          "upgrades": {
+            "talent": ["hopeful"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "phoenixsquadronpilot",
+          "upgrades": {
+            "talent": ["elusive"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 1,
+      "pilots": [
+        {
+          "id": "phoenixsquadronpilot",
+          "upgrades": {
+            "talent": ["margsablclosure"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ahsokatano-rz1awing",
+          "upgrades": {
+            "talent": ["margsablclosure"],
+            "force-power": ["patience", "sense"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "arvelcrynyd",
+          "upgrades": {
+            "talent": ["intimidation", "juke"],
+            "missile": ["concussionmissiles"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "derekklivian",
+          "upgrades": {
+            "talent": ["elusive"],
+            "missile": ["magpulsewarheads"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "greensquadronpilot",
+          "upgrades": {
+            "talent": ["juke", "outmaneuver"],
+            "modification": ["hullupgrade"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "greensquadronpilot",
+          "upgrades": {
+            "talent": ["starbirdslash"],
+            "configuration": ["vectoredcannonsrz1"],
+            "missile": ["magpulsewarheads"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "herasyndulla-rz1awing",
+          "upgrades": {
+            "talent": ["hopeful"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "jakefarrell",
+          "upgrades": {
+            "talent": ["daredevil", "juke"],
+            "missile": ["protonrockets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "phoenixsquadronpilot",
+          "upgrades": {
+            "talent": ["daredevil"],
+            "modification": ["afterburners"],
+            "missile": ["protonrockets"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sabinewren-rz1awing",
+          "upgrades": {
+            "talent": ["outmaneuver"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "sharabey-rz1awing",
+          "upgrades": {
+            "talent": ["starbirdslash", "margsablclosure"],
+            "configuration": ["vectoredcannonsrz1"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "wedgeantilles-rz1awing",
+          "upgrades": {
+            "talent": ["deadeyeshot"],
+            "missile": ["xx23sthreadtracers"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "ap5",
+          "upgrades": {
+            "astromech": ["chopper"],
+            "modification": ["shieldupgrade", "afterburners"],
+            "title": ["phantom"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "ezrabridger-sheathipedeclassshuttle",
+          "upgrades": {
+            "force-power": ["hate"],
+			"crew": ["maul"],
+            "modification": ["hullupgrade"],
+            "title": ["phantom"],
+			"astromech": ["r5astromech"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "fennrau-sheathipedeclassshuttle",
+          "upgrades": {
+            "crew": ["kananjarrus"],
+            "talent": ["elusive"],
+			"astromech": ["r2astromech"],
+            "title": ["phantom"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "zeborrelios-sheathipedeclassshuttle",
+          "upgrades": {
+            "crew": ["herasyndulla"],
+			"talent": ["outmaneuver"],
+            "modification": ["hullupgrade"],
+            "title": ["phantom"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "chopper",
+          "upgrades": {
+            "crew": ["herasyndulla", "zeborrelios"],
+            "title": ["ghost"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "lothalrebel",
+          "upgrades": {
+            "turret": ["dorsalturret"],
+            "gunner": ["agilegunner"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "herasyndulla-vcx100lightfreighter",
+          "upgrades": {
+            "crew": ["chopper-crew", "kananjarrus"],
+            "talent": ["outmaneuver"],
+            "title": ["ghost"],
+			"sensor": ["collisiondetector"],
+			"turret": ["dorsalturret"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "kananjarrus",
+          "upgrades": {
+            "force-power": ["sense"],
+			"turret": ["dorsalturret"],
+            "modification": ["hullupgrade", "tacticalscrambler"],
+            "title": ["ghost"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 9,
+      "pilots": [
+        {
+          "id": "alderaanianguard",
+          "upgrades": {
+            "command": ["jandodonna"],
+            "crew": ["torynfarr"],
+            "cargo": ["boostedscanners"],
+			"hardpoint": ["ioncannonbattery", "turbolaserbattery"],
+			"team": ["commsteam", "sensorexperts"],
+			"title": ["dodonnaspride"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "echobaseevacuees",
+          "upgrades": {
+            "command": ["carlistrieekan"],
+            "hardpoint": ["pointdefensebattery"],
+            "crew": ["novicetechnician"],
+			"team": ["commsteam"],
+			"cargo": ["adaptiveshields", "optimizedpowercore"],
+			"title": ["brighthope"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "fennrau-rebel-fang",
+          "upgrades": {
+            "talent": ["clantraining"],
+            "torpedo": ["iontorpedoes"],
+            "modification": ["afterburners"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 2,
+      "pilots": [
+        {
+          "id": "clanwrenvolunteer",
+          "upgrades": {
+            "talent": ["predator"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "bodicavenj",
+          "upgrades": {
+            "talent": ["outmaneuver"],
+            "modification": ["beskarreinforcedplating", "mandalorianoptics"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "dirkullodin",
+          "upgrades": {
+            "talent": ["clantraining"],
+            "torpedo": ["protontorpedoes"],
+            "modification": ["hullupgrade", "mandalorianoptics"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 4,
+      "pilots": [
+        {
+          "id": "ezrabridger-gauntletfighter",
+          "upgrades": {
+            "force-power": ["shatteringshot"],
+            "crew": ["clanwrencommandos"],
+            "title": ["nightbrother"],
+            "modification": ["shieldupgrade"],
+			"configuration": ["swivelwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "chopper-gauntletfighter",
+          "upgrades": {
+            "talent": ["predator"],
+            "gunner": ["veterantailgunner"],
+            "modification": ["hullupgrade"],
+			"title": ["nightbrother"],
+			"configuration": ["swivelwing"]
+          }
+        }
+      ]
+    },
+    {
+      "threat": 3,
+      "pilots": [
+        {
+          "id": "mandalorianresistancepilot",
+          "upgrades": {
+            "talent": ["enduring"],
+            "crew": ["clanwrencommandos"],
+			"configuration": ["swivelwing"]
           }
         }
       ]

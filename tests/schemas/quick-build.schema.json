@@ -6,7 +6,7 @@
     "threat": {
       "type": "integer",
       "minimum": 1,
-      "maximum": 6
+      "maximum": 10
     },
     "pilots": {
       "type": "array",
@@ -21,7 +21,7 @@
             "type": "object",
             "additionalProperties": false,
             "patternProperties": {
-              "^(astromech|cannon|configuration|crew|device|force-power|gunner|illicit|missile|modification|sensor|tactical-relay|talent|tech|title|torpedo|turret)$": {
+              "^(astromech|cannon|configuration|crew|device|force-power|gunner|illicit|missile|modification|sensor|tactical-relay|talent|tech|title|torpedo|turret|command|hardpoint|team|cargo|hyperdrive)$": {
                 "type": "array",
                 "minLength": 1,
                 "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }

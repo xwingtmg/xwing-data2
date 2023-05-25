@@ -57,8 +57,8 @@
       "caption": "Needs No Introduction",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
-      "loadout": 18,
+      "cost": 4,
+      "loadout": 13,
       "xws": "cadbane-separatistalliance",
       "slots": [
         "Cannon",
@@ -88,15 +88,10 @@
       "caption": "Tenacious Bodyguard",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
-      "loadout": 19,
+      "cost": 4,
+      "loadout": 11,
       "xws": "ig101",
-      "slots": [
-        "Cannon",
-        "Cannon",
-        "Modification",
-        "Modification"
-      ],
+      "slots": ["Cannon", "Cannon", "Modification", "Modification"],
       "ability": "At the start of the System Phase, you may repair 1 faceup damage card.",
       "shipAbility": {
         "name": "Networked Calculations",
@@ -133,13 +128,9 @@
       "initiative": 3,
       "limited": 0,
       "cost": 4,
-      "loadout": 4,
+      "loadout": 6,
       "xws": "magnaguardexecutioner",
-      "slots": [
-        "Cannon",
-        "Cannon",
-        "Modification"
-      ],
+      "slots": ["Cannon", "Cannon", "Modification"],
       "text": "In addition to guarding Separatist leaders, MagneGuard droids are sometimes dispatched in swift Rogue-class Starfighters to eliminate their enemies.",
       "shipAbility": {
         "name": "Networked Calculations",
@@ -176,15 +167,10 @@
       "caption": "Implacable Escort",
       "initiative": 4,
       "limited": 2,
-      "cost": 5,
-      "loadout": 18,
+      "cost": 4,
+      "loadout": 10,
       "xws": "magnaguardprotector",
-      "slots": [
-        "Cannon",
-        "Cannon",
-        "Modification",
-        "Missile"
-      ],
+      "slots": ["Cannon", "Cannon", "Modification", "Missile"],
       "ability": "After placing forces, assign the Guarded condition to 1 friendly ship other than MagnaGuard Protector.",
       "shipAbility": {
         "name": "Networked Calculations",
@@ -221,15 +207,10 @@
       "caption": "Dueling Droid",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
-      "loadout": 19,
+      "cost": 4,
+      "loadout": 11,
       "xws": "ig102",
-      "slots": [
-        "Cannon",
-        "Cannon",
-        "Modification",
-        "Modification"
-      ],
+      "slots": ["Cannon", "Cannon", "Modification", "Modification"],
       "ability": "While you defend, if the attacker's initiative is equal to or greater than yours, you may change 1 blank result to a [Focus] result.",
       "shipAbility": {
         "name": "Networked Calculations",
@@ -266,15 +247,10 @@
       "caption": "One Eye",
       "initiative": 1,
       "limited": 1,
-      "cost": 5,
-      "loadout": 21,
+      "cost": 4,
+      "loadout": 12,
       "xws": "ig111",
-      "slots": [
-        "Cannon",
-        "Cannon",
-        "Modification",
-        "Modification"
-      ],
+      "slots": ["Cannon", "Cannon", "Modification", "Modification"],
       "ability": "After you perform an attack that missed, you may choose 1 enemy ship in your [Bullseye Arc] and gain 1 deplete token. If you do, that ship suffers 1 [Hit] damage.",
       "shipAbility": {
         "name": "Networked Calculations",

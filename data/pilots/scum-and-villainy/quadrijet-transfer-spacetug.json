@@ -1,7 +1,6 @@
 {
   "name": "Quadrijet Transfer Spacetug",
   "xws": "quadrijettransferspacetug",
-  "ffg": 9,
   "size": "Small",
   "dial": [
     "1AR",
@@ -35,7 +34,7 @@
     { "difficulty": "Red", "type": "Evade" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Quadjumper.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Quadjumper.png",
   "pilots": [
     {
       "name": "Constable Zuvio",
@@ -46,7 +45,7 @@
       "loadout": 13,
       "xws": "constablezuvio",
       "ability": "If you would drop a device, you may launch it using a [1 [Straight]] template instead.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_161.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/constablezuvio.png",
       "shipAbility": {
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
@@ -59,8 +58,7 @@
         "Modification",
         "Tech"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_161.jpg",
-      "ffg": 161,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/constablezuvio.png",
       "standard": false,
       "extended": true,
       "epic": true
@@ -73,14 +71,13 @@
       "loadout": 4,
       "xws": "jakkugunrunner",
       "text": "The Quadrijet transfer spacetug, commonly called a “Quadjumper,” is nimble in space and atmosphere alike, making it popular among both smugglers and explorers.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_164.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/jakkugunrunner.png",
       "shipAbility": {
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
       "slots": ["Device", "Illicit"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_164.jpg",
-      "ffg": 164,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jakkugunrunner.png",
       "standard": false,
       "extended": true,
       "epic": true
@@ -94,14 +91,13 @@
       "loadout": 6,
       "xws": "sarcoplank",
       "ability": "While you defend, you may treat your agility value as equal to the speed of the maneuver you executed this round.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_162.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/sarcoplank.png",
       "shipAbility": {
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
       "slots": ["Crew", "Device", "Illicit", "Illicit", "Modification", "Tech"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_162.jpg",
-      "ffg": 162,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sarcoplank.png",
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter"],
@@ -116,14 +112,13 @@
       "loadout": 7,
       "xws": "unkarplutt",
       "ability": "At the start of the Engagement Phase, if there are one or more other ships at range 0, you and each other ship at range 0 gain 1 tractor token.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_163.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/unkarplutt.png",
       "shipAbility": {
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
       "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_163.jpg",
-      "ffg": 163,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/unkarplutt.png",
       "standard": false,
       "extended": true,
       "epic": true

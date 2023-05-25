@@ -412,7 +412,6 @@
           },
           "image": { "type": "string" },
           "artwork": { "type": "string" },
-          "ffg": { "type": "integer" },
           "attack": {
             "type": "object",
             "additionalProperties": false,
@@ -450,19 +449,6 @@
               }
             }
           },
-          "alt": {
-            "type": "array",
-            "minItems": 1,
-            "items": {
-              "type": "object",
-              "properties": {
-                "image": { "type": "string" },
-                "source": { "type": "string" }
-              },
-              "required": ["image", "source"],
-              "additionalProperties": false
-            }
-          },
           "device": {
             "type": "object",
             "properties": {
@@ -472,6 +458,7 @@
                 "enum": ["Bomb", "Mine", "Obstacle", "Remote"]
               },
               "effect": { "type": "string" },
+              "text": { "type": "string" },
               "initiative": {
                 "type": "integer",
                 "minimum": 0,
@@ -548,7 +535,7 @@
               "image": { "type": "string" },
               "artwork": { "type": "string" }
             },
-            "required": ["name", "type", "effect"],
+            "required": ["name", "type"],
             "additionalProperties": false
           }
         }

@@ -10,9 +10,8 @@
         "ability": "Before you would suffer damage from an obstacle or from a friendly bomb detonating, you may spend 1 [Charge]. If you do, prevent 1 damage.",
         "slots": ["Modification"],
         "charges": { "value": 2, "recovers": 0 },
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_68.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_68.jpg",
-        "ffg": 292
+        "image": "https://infinitearenas.com/xw2/images/upgrades/ablativeplating.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ablativeplating.png"
       }
     ],
     "cost": { "value": 4 },
@@ -31,9 +30,8 @@
         "type": "Modification",
         "ability": "After you perform a [SLAM] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.",
         "slots": ["Modification"],
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_69.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_69.jpg",
-        "ffg": 293
+        "image": "https://infinitearenas.com/xw2/images/upgrades/advancedslam.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/advancedslam.png"
       }
     ],
     "cost": { "value": 3 },
@@ -53,12 +51,11 @@
         "ability": "After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.",
         "slots": ["Modification"],
         "charges": { "value": 2, "recovers": 0 },
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_70.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_70.jpg",
-        "ffg": 294
+        "image": "https://infinitearenas.com/xw2/images/upgrades/afterburners.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/afterburners.png"
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 8 },
     "restrictions": [{ "sizes": ["Small"] }],
     "standard": true,
     "extended": true,
@@ -74,9 +71,8 @@
         "type": "Modification",
         "ability": "During the End Phase, you may suffer 1 [Hit] damage to remove 1 red token.",
         "slots": ["Modification"],
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_71.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_71.jpg",
-        "ffg": 295
+        "image": "https://infinitearenas.com/xw2/images/upgrades/electronicbaffle.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/electronicbaffle.png"
       }
     ],
     "cost": { "value": 2 },
@@ -101,9 +97,8 @@
             "value": { "type": "Boost", "difficulty": "White" }
           }
         ],
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_72.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_72.jpg",
-        "ffg": 296
+        "image": "https://infinitearenas.com/xw2/images/upgrades/engineupgrade.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/engineupgrade.png"
       }
     ],
     "cost": { "value": 3 },
@@ -123,9 +118,8 @@
         "text": "For those who cannot afford an enhanced shield generator, bolting additional plates onto the hull of a ship can serve as an adequate substitute.",
         "slots": ["Modification"],
         "grants": [{ "type": "stat", "value": "hull", "amount": 1 }],
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_73.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_73.jpg",
-        "ffg": 297
+        "image": "https://infinitearenas.com/xw2/images/upgrades/hullupgrade.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/hullupgrade.png"
       }
     ],
     "cost": { "value": 6 },
@@ -143,9 +137,8 @@
         "type": "Modification",
         "ability": "While you perform a [Torpedo] or [Missile] attack, after rolling attack dice, you may cancel all dice results to recover 1 [Charge] you spent as a cost for the attack.",
         "slots": ["Modification"],
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_74.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_74.jpg",
-        "ffg": 298
+        "image": "https://infinitearenas.com/xw2/images/upgrades/munitionsfailsafe.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/munitionsfailsafe.png"
       }
     ],
     "cost": { "value": 1 },
@@ -162,17 +155,10 @@
         "title": "Shield Upgrade",
         "type": "Modification",
         "text": "Deflector shields are a substantial line of defense on most starships beyond the lightest fighters. While enhancing a ship's shield capacity can be costly, all but the most confident or reckless pilots see the value in this sort of investment.",
-        "alt": [
-          {
-            "image": "https://images-cdn.fantasyflightgames.com/filer_public/2a/c1/2ac1eae4-dd25-4807-b09e-df97786a2093/g18x3-shield-upgrade-2.png",
-            "source": "Season Three 2018"
-          }
-        ],
         "slots": ["Modification"],
         "grants": [{ "type": "stat", "value": "shields", "amount": 1 }],
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_75.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_75.jpg",
-        "ffg": 299
+        "image": "https://infinitearenas.com/xw2/images/upgrades/shieldupgrade.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/shieldupgrade.png"
       }
     ],
     "cost": { "value": 8 },
@@ -190,9 +176,8 @@
         "type": "Modification",
         "ability": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead, then you suffer 1 [Hit] damage.",
         "slots": ["Modification"],
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/9c42b09b923d60ac8504e52bd0cbaf25.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_76.jpg",
-        "ffg": 300
+        "image": "https://infinitearenas.com/xw2/images/upgrades/staticdischargevanes.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/staticdischargevanes.png"
       }
     ],
     "cost": { "value": 5 },
@@ -211,9 +196,8 @@
         "ability": "While you defend, if your [Charge] is active, roll 1 additional defense die. After you suffer damage, lose 1 [Charge].",
         "slots": ["Modification"],
         "charges": { "value": 1, "recovers": 0 },
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_77.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_77.jpg",
-        "ffg": 301
+        "image": "https://infinitearenas.com/xw2/images/upgrades/stealthdevice.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/stealthdevice.png"
       }
     ],
     "cost": { "value": 8 },
@@ -231,9 +215,8 @@
         "type": "Modification",
         "ability": "While you obstruct an enemy ship's attack, the defender rolls 1 additional defense die.",
         "slots": ["Modification"],
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Upgrade_78.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_78.jpg",
-        "ffg": 302
+        "image": "https://infinitearenas.com/xw2/images/upgrades/tacticalscrambler.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/tacticalscrambler.png"
       }
     ],
     "cost": { "value": 2 },
@@ -253,13 +236,12 @@
         "ability": "Before you would be dealt a faceup Ship damage card, you may spend 1 [Charge] to discard it instead.",
         "charges": { "value": 2, "recovers": 0 },
         "slots": ["Modification"],
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/93e0fe1b2931944d128126b854c4ad33.png",
-        "ffg": 534,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/20769de45863e2bbb180f05e6ed1e0e3.jpg"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/imperviumplating.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/imperviumplating.png"
       }
     ],
     "restrictions": [{ "ships": ["belbullab22starfighter"] }],
-    "cost": { "value": 0 },
+    "cost": { "value": 2 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -274,9 +256,8 @@
         "type": "Modification",
         "ability": "After you perform an attack, you may choose a friendly ship at range 1 or a friendly ship with the Synchronized Console upgrade at range 1-3 and spend a lock you have on the defender. If you do, the friendly ship you chose may acquire a lock on the defender.",
         "slots": ["Modification"],
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/e3e5bd38f39f904fbaaa75293e56fb38.png",
-        "ffg": 554,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f105bb42b6d3500c300e48ab695c1647.jpg"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/synchronizedconsole.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/synchronizedconsole.png"
       }
     ],
     "restrictions": [
@@ -299,9 +280,8 @@
         "ability": "Action: Spend 1 [Charge] to recover 1 charge on one of your equipped [Astromech] upgrades. Action: Spend 1 [Charge] to drop 1 spare parts, then break all locks assigned to you.",
         "charges": { "value": 1, "recovers": 0 },
         "slots": ["Modification"],
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/79d9f2b2bc32bd78ab67dc82eece696a.png",
-        "ffg": 550,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a61b812e2e74fab5435c9684462cd9d7.jpg"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/sparepartscanisters.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/sparepartscanisters.png"
       }
     ],
     "restrictions": [{ "equipped": ["Astromech"] }],
@@ -320,9 +300,8 @@
         "type": "Modification",
         "ability": "After you drop, launch, or place a bomb or mine, you may place 1 fuse marker on that device.",
         "slots": ["Modification"],
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/4572ece39224eeaf2dfce2770b96f919.png",
-        "ffg": 592,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/453d2de1f5059d0e6eb7884a4bf7986b.jpg"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/delayedfuses.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/delayedfuses.png"
       }
     ],
     "cost": { "value": 1 },
@@ -350,9 +329,8 @@
             "value": { "type": "Reinforce", "difficulty": "White" }
           }
         ],
-        "ffg": 593,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/691b45548136b6e5fd005e7797ae53d9.jpg",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/41cf9c90abcd8ff5c668bb447967b75c.png"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/angleddeflectors.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/angleddeflectors.png"
       }
     ],
     "standard": true,
@@ -364,10 +342,9 @@
     "limited": 0,
     "sides": [
       {
-        "ffg": 619,
         "title": "Targeting Computer",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2e8e6572a5802967220296ec22e5d8cb.jpg",
-        "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/619d3d56eadaada29c6602cc7cd00148.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/targetingcomputer.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/targetingcomputer.png",
         "text": "Targeting computers are standard features on many vessels, especially those designed to deliver ordnance. Some light starfighters and transport craft lack such weapons guidance, though it can be installed as an after-market modification.",
         "slots": ["Modification"],
         "type": "Modification",
@@ -395,15 +372,15 @@
         "title": "Independent Calculations",
         "type": "Modification",
         "slots": ["Modification"],
-        "ffg": 866,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/327275e06ddaac1afbe7b8209883aa4b.jpg"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/independentcalculations.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/independentcalculations.png"
       }
     ],
     "restrictions": [
       { "shipAbility": ["Networked Calculations"] },
       { "standardized": true }
     ],
-    "cost": { "value": 0 },
+    "cost": { "value": 2 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -418,8 +395,8 @@
         "title": "Overdrive Thruster",
         "type": "Modification",
         "slots": ["Modification"],
-        "ffg": 721,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fb6fef19ae0bf5b42d4da716f4826c26.jpg"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/overdrivethruster.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/overdrivethruster.png"
       }
     ],
     "cost": { "value": 5 },
@@ -438,8 +415,8 @@
         "type": "Modification",
         "slots": ["Modification"],
         "charges": { "value": 2, "recovers": 0 },
-        "ffg": 867,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fbafd721fa85216ee1d16d305e31e694.jpg"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/precisionionengines.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/precisionionengines.png"
       }
     ],
     "cost": { "value": 2 },
@@ -458,10 +435,11 @@
         "type": "Modification",
         "slots": ["Modification"],
         "charges": { "value": 2, "recovers": 0 },
-        "image": "https://infinitearenas.com/xw2/images/upgrades/mandalorianoptics.png"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/mandalorianoptics.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/mandalorianoptics.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -479,11 +457,13 @@
           { "type": "slot", "value": "Crew", "amount": 2 },
           { "type": "slot", "value": "Device", "amount": -1 }
         ],
-        "slots": ["Modification"]
+        "slots": ["Modification"],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/dropseatbay.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/dropseatbay.png"
       }
     ],
     "restrictions": [{ "ships": ["gauntletfighter"] }],
-    "cost": { "value": 1 },
+    "cost": { "value": 5 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -499,7 +479,8 @@
         "type": "Modification",
         "slots": ["Modification"],
         "charges": { "value": 2, "recovers": 0 },
-        "image": "https://infinitearenas.com/xw2/images/upgrades/beskarreinforcedplating.png"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/beskarreinforcedplating.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/beskarreinforcedplating.png"
       }
     ],
     "cost": { "value": 6 },
@@ -519,6 +500,7 @@
         "slots": ["Modification"],
         "charges": { "value": 1, "recovers": 0 },
         "image": "https://infinitearenas.com/xw2/images/upgrades/burnoutthrusters.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/burnoutthrusters.png",
         "grants": [
           {
             "type": "action",

@@ -2,7 +2,6 @@
   "name": "Nantex-class Starfighter",
   "xws": "nantexclassstarfighter",
   "size": "Small",
-  "ffg": 67,
   "dial": [
     "1TW",
     "1BB",
@@ -49,11 +48,10 @@
       "standard": true,
       "extended": true,
       "text": "Designed for the unique physiology of Geonosian pilots, Nantex-class starfighters are capable of maneuvers that would rip most ships—and pilots—apart.",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/62c29b8b7f82e37980d58b39023a800a.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/e97a0ae22847e0b71d920a0df9dfcfab.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/stalgasinhiveguard.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/stalgasinhiveguard.png",
       "cost": 4,
       "loadout": 4,
-      "ffg": 609,
       "slots": ["Talent"],
       "epic": true
     },
@@ -69,12 +67,11 @@
       "standard": true,
       "extended": true,
       "caption": "Archduke’s Enforcer",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ace32f2bdd974de54020be34bfb85a76.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/42265df53c90026a58ac96b0acd3c1f8.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sunfac.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/sunfac.png",
       "ability": "While you perform a primary attack, if the defender is tractored, roll 1 additional attack die.",
-      "cost": 6,
-      "loadout": 18,
-      "ffg": 604,
+      "cost": 5,
+      "loadout": 15,
       "slots": ["Talent", "Talent", "Talent", "Modification"],
       "epic": true
     },
@@ -90,12 +87,11 @@
       "standard": true,
       "extended": true,
       "caption": "Hive Guard Captain",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8466283eeb7d476744913f5d9d69e745.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/f1c76ce6ff266c23099686392efef565.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/berwerkret.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/berwerkret.png",
       "ability": "After you perform an attack that hits, each friendly ship with [Calculate] on its action bar and a lock on the defender may perform a red [Calculate] action.",
       "cost": 4,
       "loadout": 7,
-      "ffg": 605,
       "slots": ["Talent", "Talent"],
       "epic": true
     },
@@ -111,12 +107,11 @@
       "standard": true,
       "extended": true,
       "caption": "Opportunistic Ace",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fc7fff6c1e6eb73ff6ae10768f5491a7.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/07504533be45d13cb82d71ea11d234f7.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/chertek.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/chertek.png",
       "ability": "While you perform a primary attack, if the defender is tractored, you may reroll up to 2 attack dice.",
-      "cost": 5,
-      "loadout": 15,
-      "ffg": 606,
+      "cost": 4,
+      "loadout": 10,
       "slots": ["Talent", "Talent"],
       "epic": true
     },
@@ -125,11 +120,10 @@
       "caption": "Handy Engineer",
       "cost": 4,
       "loadout": 9,
-      "ffg": 607,
       "limited": 1,
       "initiative": 2,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8749f3b0f17a7c517e8633cc2558792f.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/d2d0764f83a2740f407082e934986ff2.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gorgol.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/gorgol.png",
       "shipAbility": {
         "name": "Pinpoint Tractor Array",
         "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
@@ -145,10 +139,9 @@
       "name": "Petranaki Arena Ace",
       "cost": 4,
       "loadout": 6,
-      "ffg": 608,
       "initiative": 4,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/5c32b5d481ad922be7a0ec4a3743d1d6.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/d2d62b6070fdf59b58db79aadb845d54.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/petranakiarenaace.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/petranakiarenaace.png",
       "shipAbility": {
         "name": "Pinpoint Tractor Array",
         "text": "You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you fully execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action."
@@ -162,5 +155,5 @@
       "epic": true
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Nantex_Class_Starfighter.png"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_Nantex_Class_Starfighter.png"
 }

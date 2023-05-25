@@ -1,7 +1,6 @@
 {
   "name": "TIE/ca Punisher",
   "xws": "tiecapunisher",
-  "ffg": 20,
   "size": "Medium",
   "dial": [
     "0OR",
@@ -39,7 +38,7 @@
     },
     { "difficulty": "White", "type": "Reload" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPunisher.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEPunisher.png",
   "pilots": [
     {
       "name": "“Deathrain”",
@@ -50,7 +49,7 @@
       "loadout": 20,
       "xws": "deathrain",
       "ability": "After you drop or launch a device, you may perform an action.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_140.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/deathrain.png",
       "slots": [
         "Talent",
         "Sensor",
@@ -61,8 +60,7 @@
         "Modification",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_140.jpg",
-      "ffg": 140,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathrain.png",
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -87,9 +85,8 @@
         "Modification",
         "Gunner"
       ],
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_139.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_139.jpg",
-      "ffg": 139,
+      "image": "https://infinitearenas.com/xw2/images/pilots/redline.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redline.png",
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -103,7 +100,7 @@
       "loadout": 6,
       "xws": "cutlasssquadronpilot",
       "text": "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_141.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/cutlasssquadronpilot.png",
       "slots": [
         "Sensor",
         "Torpedo",
@@ -112,8 +109,7 @@
         "Modification",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_141.jpg",
-      "ffg": 141,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cutlasssquadronpilot.png",
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],

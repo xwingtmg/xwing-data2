@@ -2,7 +2,6 @@
   "properties": {
     "name": { "type": "string" },
     "xws": { "type": "string", "pattern": "^[a-z0-9-]+$" },
-    "ffg": { "type": "integer", "minimum": 0 },
     "cost": { "type": "integer", "minimum": 0 },
     "faction": {
       "type": "string",
