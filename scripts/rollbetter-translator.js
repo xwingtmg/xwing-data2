@@ -1,3 +1,5 @@
+// run this script with 
+
 const prettier = require ("prettier")
 const fs = require("fs");
 
