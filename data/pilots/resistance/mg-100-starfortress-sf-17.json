@@ -1,7 +1,6 @@
 {
   "name": "MG-100 StarFortress",
   "xws": "mg100starfortress",
-  "ffg": 55,
   "size": "Large",
   "dial": [
     "0OR",
@@ -34,7 +33,7 @@
     { "difficulty": "White", "type": "Rotate Arc" },
     { "difficulty": "White", "type": "Reload" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_StarFortress.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_StarFortress.png",
   "pilots": [
     {
       "name": "Cobalt Squadron Bomber",
@@ -42,10 +41,10 @@
       "limited": 0,
       "xws": "cobaltsquadronbomber",
       "text": "Whether the ordnance silos of their StarFortresses are loaded with proton bombs or relief supplies, the heroic crews of Cobalt Squadron dedicate their lives to making a difference in the galaxy.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/6b6a3bb8049699e2d66fe09531e8bc00.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/514351d5c41a8341ea5da5673269d917.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/cobaltsquadronbomber.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cobaltsquadronbomber.png",
       "cost": 6,
-      "loadout": 11,
+      "loadout": 12,
       "slots": [
         "Sensor",
         "Device",
@@ -55,7 +54,6 @@
         "Gunner",
         "Tech"
       ],
-      "ffg": 434,
       "standard": false,
       "extended": true,
       "epic": true
@@ -67,10 +65,10 @@
       "limited": 1,
       "xws": "cat",
       "ability": "While you perform a primary attack, if the defender is at range 0-1 of at least 1 friendly device, roll 1 additional die.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/b386dc25736682ebc785b15551de903b.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d927ccf08a9444340378449fe71e9f70.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/cat.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cat.png",
       "cost": 5,
-      "loadout": 7,
+      "loadout": 17,
       "slots": [
         "Talent",
         "Sensor",
@@ -82,7 +80,6 @@
         "Gunner",
         "Tech"
       ],
-      "ffg": 433,
       "standard": false,
       "extended": true,
       "epic": true
@@ -94,10 +91,10 @@
       "limited": 1,
       "xws": "vennie",
       "ability": "While you defend, if the attacker is in a friendly ship's [Single Turret Arc], you may add 1 [Focus] result to your roll.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/0d494986a24e6c55efae066a43161b0d.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/511b878f719e9fa59a50cdf980d10ead.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/vennie.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vennie.png",
       "cost": 6,
-      "loadout": 14,
+      "loadout": 18,
       "slots": [
         "Sensor",
         "Torpedo",
@@ -108,7 +105,6 @@
         "Gunner",
         "Gunner"
       ],
-      "ffg": 448,
       "standard": false,
       "extended": true,
       "epic": true
@@ -120,10 +116,10 @@
       "limited": 1,
       "xws": "benteene",
       "ability": "After you perform an attack, if the defender is in your [Single Turret Arc], assign the Rattled condition to the defender.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/c9189c7e510b4d734d4d78c4f595010f.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/74ca7444aec38cb0034b67b04f6aaa76.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/benteene.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/benteene.png",
       "cost": 5,
-      "loadout": 9,
+      "loadout": 19,
       "conditions": ["rattled"],
       "slots": [
         "Sensor",
@@ -136,7 +132,6 @@
         "Tech",
         "Tech"
       ],
-      "ffg": 432,
       "standard": false,
       "extended": true,
       "epic": true
@@ -148,10 +143,10 @@
       "limited": 1,
       "xws": "edonkappehl",
       "ability": "After you fully execute a blue or white maneuver, if you have not dropped or launched a device this round, you may drop 1 device.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/f58fe0b57dc4a9c878627f0fea9cf1ef.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/bbac51ca4ba44f26d90a53b6c5db5e2c.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/edonkappehl.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/edonkappehl.png",
       "cost": 6,
-      "loadout": 14,
+      "loadout": 22,
       "slots": [
         "Sensor",
         "Cannon",
@@ -163,7 +158,6 @@
         "Gunner",
         "Tech"
       ],
-      "ffg": 447,
       "standard": false,
       "extended": true,
       "epic": true
@@ -175,10 +169,10 @@
       "limited": 1,
       "xws": "finchdallow",
       "ability": "Before you would drop a bomb, you may place it in the play area touching you instead.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/43d9a0555f719a4cbe1ffe905fd38c46.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/dafd2937accc362f766ca0da3308ccbc.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/finchdallow.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/finchdallow.png",
       "cost": 6,
-      "loadout": 14,
+      "loadout": 22,
       "slots": [
         "Sensor",
         "Missile",
@@ -190,7 +184,6 @@
         "Gunner",
         "Tech"
       ],
-      "ffg": 431,
       "standard": false,
       "extended": true,
       "epic": true
@@ -216,10 +209,9 @@
       ],
       "ability": "After you drop a device, you may spend 1 [Charge] to drop an additional device.",
       "cost": 6,
-      "loadout": 15,
-      "ffg": 640,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2bd70a86ef09e15aa93b165a56f32834.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/fab73e7af97d9d6169f0f504b60d34c2.png",
+      "loadout": 23,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/paigetico.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/paigetico.png",
       "epic": true
     }
   ]

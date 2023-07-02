@@ -1,7 +1,6 @@
 {
   "name": "Scavenged YT-1300",
   "xws": "scavengedyt1300",
-  "ffg": 57,
   "size": "Large",
   "dial": [
     "1BW",
@@ -35,7 +34,7 @@
     { "difficulty": "Red", "type": "Boost" },
     { "difficulty": "Red", "type": "Rotate Arc" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Falcon_Resistance.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_Falcon_Resistance.png",
   "pilots": [
     {
       "name": "Resistance Sympathizer",
@@ -43,12 +42,11 @@
       "limited": 0,
       "xws": "resistancesympathizer",
       "text": "After witnessing the Hosnian Cataclysm, some spacers willingly aided the Resistance with whatever ships they had.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/28411b84c1b15f0bfa9928f2206e44f5.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3e567923957881e9a4dbef46789c7fbf.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/resistancesympathizer.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/resistancesympathizer.png",
       "cost": 6,
       "loadout": 10,
       "slots": ["Talent", "Missile", "Modification", "Modification", "Gunner"],
-      "ffg": 430,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -61,9 +59,9 @@
       "limited": 1,
       "xws": "chewbacca-scavengedyt1300",
       "ability": "After a friendly ship at range 0-3 is destroyed, before that ship is removed, you may perform an action. Then you may perform a bonus attack.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/209a8dece475a265aaf1b5318ba7f08a.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c40ec30b7df138c4510b08f4f02d54b5.jpg",
-      "cost": 7,
+      "image": "https://infinitearenas.com/xw2/images/pilots/chewbacca-scavengedyt1300.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/chewbacca-scavengedyt1300.png",
+      "cost": 6,
       "loadout": 18,
       "slots": [
         "Talent",
@@ -77,7 +75,6 @@
         "Title",
         "Gunner"
       ],
-      "ffg": 429,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -90,8 +87,8 @@
       "limited": 1,
       "xws": "hansolo-scavengedyt1300",
       "ability": "Setup: You can be placed anywhere in the play area beyond range 3 of enemy ships.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/5816bd53c272ed50096e22ae1af2b38a.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/15263defc98e4a54d76ae9224534dacf.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/hansolo-scavengedyt1300.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-scavengedyt1300.png",
       "cost": 6,
       "loadout": 15,
       "slots": [
@@ -100,12 +97,11 @@
         "Crew",
         "Crew",
         "Illicit",
-        "Illicit", 
+        "Illicit",
         "Modification",
         "Modification",
         "Gunner"
       ],
-      "ffg": 427,
       "standard": false,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -118,10 +114,10 @@
       "limited": 1,
       "xws": "rey",
       "ability": "While you defend or perform an attack, if the enemy ship is in your [Front Arc], you may spend 1 [Force] to change 1 of your blank results to an [Evade] or [Hit] result.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/0ee7006e6cc51d8c08b784c9b770f1b0.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1ff06aeff0d74773e9c9f3846b38b75d.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/rey.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rey.png",
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "cost": 8,
+      "cost": 7,
       "loadout": 25,
       "slots": [
         "Missile",
@@ -134,7 +130,6 @@
         "Gunner",
         "Force Power"
       ],
-      "ffg": 428,
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "Light Side", "YT-1300"],
@@ -177,7 +172,7 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/landocalrissian-scavengedyt1300.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-scavengedyt1300.png",
       "charges": { "value": 3, "recovers": 1 },
-      "cost": 8,
+      "cost": 7,
       "loadout": 20,
       "slots": [
         "Talent",

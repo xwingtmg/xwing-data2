@@ -2,7 +2,6 @@
   "name": "TIE/rb Heavy",
   "xws": "tierbheavy",
   "size": "Medium",
-  "ffg": 72,
   "dial": [
     "1TR",
     "1BW",
@@ -56,10 +55,9 @@
       "standard": true,
       "extended": true,
       "text": "At Carida Academy, Imperial Navy cadets are taught to be ruthless and loyal, prioritizing victory over the lives of their comrades.",
-      "ffg": 696,
       "limited": 0,
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/43/2d/432db246-0a8d-42de-9711-a893c825b9b3/swz67_carida-cadet.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/89c60dc2a00750df2606c5b6e24f60c3.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/caridaacademycadet.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/caridaacademycadet.png",
       "keywords": ["TIE"],
       "epic": true
     },
@@ -77,18 +75,17 @@
       "standard": true,
       "extended": true,
       "text": "The TIE/rb heavy, sometimes called the “brute”, is designed for operational flexibility. Its heavy armor and capacity to house an integrated MGK-300 droid co-pilot make it an excellent patrol craft.",
-      "ffg": 695,
       "limited": 0,
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/3d/7c/3d7ca1c1-9e57-4085-a9a6-e82a3d92c6df/swz67_onyx-sentry.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9431b36aeec89d1dbf988375a3ce8a5b.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/onyxsquadronsentry.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronsentry.png",
       "keywords": ["TIE"],
       "epic": true
     },
     {
       "name": "“Rampage”",
       "caption": "Implacable Pursuer",
-      "cost": 5,
-      "loadout": 16,
+      "cost": 4,
+      "loadout": 10,
       "initiative": 4,
       "limited": 1,
       "slots": [
@@ -107,9 +104,8 @@
       },
       "standard": true,
       "extended": true,
-      "ffg": 693,
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/ee/88/ee888bad-fa08-42e2-a558-cbf9a6f2da62/swz67_rampage.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/af083fe92dc1b51c2602dad42301d033.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/rampage.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rampage.png",
       "keywords": ["TIE"],
       "epic": true
     },
@@ -136,9 +132,8 @@
       },
       "standard": true,
       "extended": true,
-      "ffg": 694,
-      "image": "https://images-cdn.fantasyflightgames.com/filer_public/6f/37/6f375dcd-61b2-407d-bb3f-0c01cf9491ae/swz67_lyttan-dree.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/lyttandree.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lyttandree.png",
       "keywords": ["TIE"],
       "epic": true
     },
@@ -146,7 +141,7 @@
       "name": "Flight Leader Ubbel",
       "caption": "Onyx Leader",
       "cost": 5,
-      "loadout": 15,
+      "loadout": 12,
       "initiative": 5,
       "limited": 1,
       "slots": [
@@ -167,10 +162,10 @@
       "standard": true,
       "extended": true,
       "image": "https://infinitearenas.com/xw2/images/pilots/flightleaderubbel.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d8bce1a532475fe05a10f9d219a67969.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/flightleaderubbel.png",
       "keywords": ["TIE"],
       "epic": true
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIE_Brute.png"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIE_Brute.png"
 }

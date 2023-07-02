@@ -1,9 +1,8 @@
 {
   "name": "Trident-Class Assault Ship",
   "xws": "tridentclassassaultship",
-  "ffg": 83,
   "faction": "Scum and Villainy",
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Trident.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Trident.png",
   "size": "Huge",
   "dial": [
     "0BR",
@@ -38,13 +37,13 @@
   ],
   "pilots": [
     {
-      "ffg": 715,
       "name": "Lawless Pirates",
       "initiative": 8,
       "cost": 85,
       "loadout": 0,
       "limited": 0,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/738e8fdd6aaf28620b67efda2e8f63f7.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lawlesspirates.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/lawlesspirates.png",
       "shipAbility": {
         "name": "Tractor Grasp",
         "text": "After you perform a Tractor Tentacles attack that hits, the defender gains 1 tractor token."

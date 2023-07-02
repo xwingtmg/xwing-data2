@@ -1,7 +1,6 @@
 {
   "name": "TIE Advanced x1",
   "xws": "tieadvancedx1",
-  "ffg": 13,
   "size": "Small",
   "dial": [
     "1BB",
@@ -40,7 +39,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAdvanced.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEAdvanced.png",
   "pilots": [
     {
       "name": "Darth Vader",
@@ -51,13 +50,7 @@
       "loadout": 21,
       "xws": "darthvader",
       "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_93.png",
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/24/0a/240a5d21-309c-4d3d-aef9-5dab25564b7b/op18xu_card_altart2.png",
-          "source": "European and North American Championship 2018"
-        }
-      ],
+      "image": "https://infinitearenas.com/xw2/images/pilots/darthvader.png",
       "force": { "value": 3, "recovers": 1, "side": ["dark"] },
       "shipAbility": {
         "name": "Advanced Targeting Computer",
@@ -73,8 +66,7 @@
         "Talent",
         "Tech"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_93.jpg",
-      "ffg": 93,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
       "standard": true,
       "extended": true,
       "keywords": ["Dark Side", "Sith", "TIE"],
@@ -85,24 +77,17 @@
       "caption": "Servant of the Empire",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
-      "loadout": 14,
+      "cost": 4,
+      "loadout": 10,
       "xws": "maarekstele",
       "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_94.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/maarekstele.png",
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": [
-        "Talent",
-        "Talent",
-        "Sensor",
-        "Missile",
-        "Modification"
-      ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_94.jpg",
-      "ffg": 94,
+      "slots": ["Talent", "Talent", "Sensor", "Missile", "Modification"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png",
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -116,14 +101,13 @@
       "loadout": 2,
       "xws": "stormsquadronace",
       "text": "The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_97.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/stormsquadronace.png",
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
       "slots": ["Sensor", "Talent", "Modification"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_97.jpg",
-      "ffg": 97,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/stormsquadronace.png",
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -137,20 +121,13 @@
       "loadout": 4,
       "xws": "tempestsquadronpilot",
       "text": "The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.",
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/19/d5/19d5865e-09d1-4bad-b8ac-8e0c5124745a/op18xu_card_plastic2.png",
-          "source": "European and North American Championship 2018"
-        }
-      ],
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
       "slots": ["Sensor", "Modification"],
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_98.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_98.jpg",
-      "ffg": 98,
+      "image": "https://infinitearenas.com/xw2/images/pilots/tempestsquadronpilot.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tempestsquadronpilot.png",
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -165,19 +142,13 @@
       "loadout": 8,
       "xws": "vedfoslo",
       "ability": "While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_95.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/vedfoslo.png",
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Missile",
-        "Modification"
-      ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_95.jpg",
-      "ffg": 95,
+      "slots": ["Talent", "Sensor", "Missile", "Modification"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vedfoslo.png",
       "standard": false,
       "extended": true,
       "keywords": ["TIE"],
@@ -189,17 +160,16 @@
       "initiative": 3,
       "limited": 1,
       "cost": 4,
-      "loadout": 6,
+      "loadout": 14,
       "xws": "zertikstrom",
       "ability": "During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship's damage cards.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_96.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/zertikstrom.png",
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
       "slots": ["Sensor", "Missile", "Modification"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_96.jpg",
-      "ffg": 96,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zertikstrom.png",
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
@@ -242,17 +212,59 @@
       "xws": "junoeclipse",
       "ability": "After you perform an action, you may perform a red [Boost] action.",
       "image": "https://infinitearenas.com/xw2/images/pilots/junoeclipse.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/junoeclipse.png",
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": [
-        "Talent",
-        "Tech",
-        "Sensor",
-        "Missile",
-        "Modification"
+      "slots": ["Talent", "Tech", "Sensor", "Missile", "Modification"],
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Darth Vader",
+      "caption": "Black Leader",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 6,
+      "xws": "darthvader-swz105",
+      "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
+      "image": "",
+      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "shipAbility": {
+        "name": "Advanced Targeting Computer",
+        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 3 },
+        { "type": "shields", "value": 3 }
       ],
+      "standardLoadout": ["hate", "ionmissiles", "afterburners"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Dark Side", "Sith", "TIE"],
+      "epic": true
+    },
+    {
+      "name": "Maarek Stele",
+      "caption": "Servant of the Empire",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 5,
+      "standardLoadout": ["elusive", "outmaneuver", "afterburners"],
+      "xws": "maarekstele-swz105",
+      "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
+      "image": "",
+      "shipAbility": {
+        "name": "Advanced Targeting Computer",
+        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+      },
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png",
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],

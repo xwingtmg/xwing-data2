@@ -1,7 +1,6 @@
 {
   "name": "YT-2400 Light Freighter",
   "xws": "yt2400lightfreighter",
-  "ffg": 5,
   "size": "Large",
   "dial": [
     "1TW",
@@ -36,7 +35,7 @@
     { "difficulty": "Red", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Rotate Arc" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_YT-2400.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_YT-2400.png",
   "pilots": [
     {
       "name": "“Leebo”",
@@ -47,7 +46,7 @@
       "loadout": 16,
       "xws": "leebo",
       "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_78.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/leebo.png",
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
         { "difficulty": "White", "type": "Lock" },
@@ -66,8 +65,7 @@
         "Modification",
         "Title"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_78.jpg",
-      "ffg": 78,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leebo.png",
       "standard": false,
       "extended": true,
       "keywords": ["Droid", "Freighter"],
@@ -82,7 +80,7 @@
       "loadout": 22,
       "xws": "dashrendar",
       "ability": "While you move, you ignore obstacles.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_77.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/dashrendar.png",
       "shipAbility": {
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
@@ -96,8 +94,7 @@
         "Modification",
         "Title"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_77.jpg",
-      "ffg": 77,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dashrendar.png",
       "standard": false,
       "extended": true,
       "keywords": ["Freighter"],
@@ -111,14 +108,13 @@
       "loadout": 7,
       "xws": "wildspacefringer",
       "text": "Although stock YT-2400 light freighters have plenty of room for cargo, that space is often annexed to support modified weapon systems and oversized engines.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_79.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/wildspacefringer.png",
       "shipAbility": {
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
       },
       "slots": ["Missile", "Illicit"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_79.jpg",
-      "ffg": 79,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wildspacefringer.png",
       "standard": false,
       "extended": true,
       "keywords": ["Freighter"],

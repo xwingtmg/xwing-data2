@@ -1,7 +1,6 @@
 {
   "name": "Modified YT-1300 Light Freighter",
   "xws": "modifiedyt1300lightfreighter",
-  "ffg": 1,
   "size": "Large",
   "dial": [
     "1BW",
@@ -36,7 +35,7 @@
     { "difficulty": "Red", "type": "Boost" },
     { "difficulty": "White", "type": "Rotate Arc" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Falcon.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Falcon.png",
   "pilots": [
     {
       "name": "Chewbacca",
@@ -47,7 +46,7 @@
       "loadout": 18,
       "xws": "chewbacca",
       "ability": "Before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt the card facedown instead.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_71.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/chewbacca.png",
       "charges": { "value": 1, "recovers": 1 },
       "slots": [
         "Talent",
@@ -60,8 +59,7 @@
         "Illicit",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_71.jpg",
-      "ffg": 71,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/chewbacca.png",
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -72,11 +70,11 @@
       "caption": "Scoundrel for Hire",
       "initiative": 6,
       "limited": 1,
-      "cost": 8,
+      "cost": 7,
       "loadout": 20,
       "xws": "hansolo-modifiedyt1300lightfreighter",
       "ability": "After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_69.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/hansolo-modifiedyt1300lightfreighter.png",
       "slots": [
         "Talent",
         "Missile",
@@ -88,8 +86,7 @@
         "Illicit",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_69.jpg",
-      "ffg": 69,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-modifiedyt1300lightfreighter.png",
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -100,11 +97,11 @@
       "caption": "General of the Alliance",
       "initiative": 5,
       "limited": 1,
-      "cost": 8,
+      "cost": 78,
       "loadout": 21,
       "xws": "landocalrissian-modifiedyt1300lightfreighter",
       "ability": "After you fully execute a blue maneuver, you may choose a friendly ship at range 0-3. That ship may perform an action.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_70.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/landocalrissian-modifiedyt1300lightfreighter.png",
       "slots": [
         "Talent",
         "Missile",
@@ -116,8 +113,7 @@
         "Illicit",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_70.jpg",
-      "ffg": 70,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-modifiedyt1300lightfreighter.png",
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -131,10 +127,9 @@
       "loadout": 6,
       "xws": "outerrimsmuggler",
       "text": "Known for its durability and modular design, the YT-1300 is one of the most popular, widely used, and extensively customized freighters in the galaxy.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_72.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/outerrimsmuggler.png",
       "slots": ["Missile", "Gunner"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_72.jpg",
-      "ffg": 72,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimsmuggler.png",
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],
@@ -160,11 +155,10 @@
         "Title"
       ],
       "ability": "After a friendly ship fully executes a red maneuver, if it is at range 0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or recovers 1 [Force].",
-      "cost": 8,
+      "cost": 7,
       "loadout": 24,
-      "ffg": 630,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/dc207b5c5f00a98e0fad8dc3905373f9.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/677d75036109127dc27d524b902b35ae.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leiaorgana.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/leiaorgana.png",
       "keywords": ["Freighter", "YT-1300", "Light Side"],
       "epic": true
     },
@@ -182,7 +176,7 @@
       },
       "standardLoadout": ["chewbacca-battleofyavin", "riggedcargochute", "millenniumfalcon", "l337sprogramming-battleofyavin"],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/hansolo-battleofyavin.png",
-      "artwork": "",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-battleofyavin.png",
       "standard": true,
       "extended": true,
       "keywords": ["Freighter", "YT-1300"],

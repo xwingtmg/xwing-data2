@@ -1,7 +1,6 @@
 {
   "name": "StarViper-class Attack Platform",
   "xws": "starviperclassattackplatform",
-  "ffg": 3,
   "size": "Small",
   "dial": [
     "1TW",
@@ -43,7 +42,7 @@
       "type": "Boost"
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_StarViper.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_StarViper.png",
   "pilots": [
     {
       "name": "Black Sun Assassin",
@@ -53,14 +52,13 @@
       "loadout": 6,
       "xws": "blacksunassassin",
       "text": "Although assassinations can be handled with a shot in the dark or a dire substance added to a drink, a flaming shuttle tumbling from the sky sends a special kind of message.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_181.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/blacksunassassin.png",
       "shipAbility": {
         "name": "Microthrusters",
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
       "slots": ["Tech"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_181.jpg",
-      "ffg": 181,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksunassassin.png",
       "standard": false,
       "extended": true,
       "epic": true
@@ -73,14 +71,13 @@
       "loadout": 6,
       "xws": "blacksunenforcer",
       "text": "Prince Xizor himself collaborated with MandalMotors to design the StarViper-class attack platform, one of the most formidable starfighters in the galaxy.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_182.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/blacksunenforcer.png",
       "shipAbility": {
         "name": "Microthrusters",
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
       "slots": ["Tech"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_182.jpg",
-      "ffg": 182,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksunenforcer.png",
       "standard": false,
       "extended": true,
       "epic": true
@@ -94,14 +91,13 @@
       "loadout": 10,
       "xws": "dalanoberos-starviperclassattackplatform",
       "ability": "After you fully execute a maneuver, you may gain 1 stress token to rotate your ship 90°.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_179.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/dalanoberos-starviperclassattackplatform.png",
       "shipAbility": {
         "name": "Microthrusters",
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
       "slots": ["Talent", "Tech", "Torpedo", "Modification"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_179.jpg",
-      "ffg": 179,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dalanoberos-starviperclassattackplatform.png",
       "standard": false,
       "extended": true,
       "keywords": ["Bounty Hunter"],
@@ -116,7 +112,7 @@
       "loadout": 20,
       "xws": "guri",
       "ability": "At the start of the Engagement Phase, if there is at least 1 enemy ship at range 0-1, you may gain 1 focus token.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_178.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/guri.png",
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
         { "difficulty": "White", "type": "Lock" },
@@ -136,8 +132,7 @@
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
       "slots": ["Talent", "Tech", "Torpedo", "Modification", "Title"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_178.jpg",
-      "ffg": 178,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/guri.png",
       "standard": false,
       "extended": true,
       "keywords": ["Droid"],
@@ -152,14 +147,13 @@
       "loadout": 7,
       "xws": "princexizor",
       "ability": "While you defend, after the Neutralize Results step, another friendly ship at range 0-1 and in the attack arc may suffer 1 [Hit] or [Critical Hit] damage. If it does, cancel 1 matching result.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/Card_Pilot_180.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/princexizor.png",
       "shipAbility": {
         "name": "Microthrusters",
         "text": "While you perform a barrel roll, you must use the [Bank Left] or [Bank Right] template instead of the [Straight] template."
       },
       "slots": ["Talent", "Tech", "Torpedo", "Modification", "Title"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_180.jpg",
-      "ffg": 180,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/princexizor.png",
       "standard": false,
       "extended": true,
       "epic": true

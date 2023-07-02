@@ -1,9 +1,8 @@
 {
   "name": "Raider-class Corvette",
   "xws": "raiderclasscorvette",
-  "ffg": 79,
   "faction": "First Order",
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Raider.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Raider.png",
   "size": "Huge",
   "dial": [
     "0BR",
@@ -38,13 +37,13 @@
   ],
   "pilots": [
     {
-      "ffg": 708,
       "name": "First Order Collaborators",
       "initiative": 8,
       "cost": 131,
       "loadout": 0,
       "limited": 0,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b9a9671d88e370fd473ec5d87491ad65.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/firstordercollaborators.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/firstordercollaborators.png",
       "shipAbility": {
         "name": "Concentrated Batteries",
         "text": "While you perform a primary, [Torpedo], or [Missile] attack, if the defender is in your [Bullseye Arc], roll 1 additional die."

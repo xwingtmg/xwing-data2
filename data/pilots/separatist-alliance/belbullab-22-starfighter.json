@@ -44,7 +44,7 @@
       "type": "Boost"
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Belbullab-22.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_Belbullab-22.png",
   "pilots": [
     {
       "name": "General Grievous",
@@ -53,14 +53,13 @@
       "limited": 1,
       "xws": "generalgrievous",
       "ability": "While you perform a primary attack, if you are not in the defender's firing arc, you may reroll up to 2 attack dice.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/9e4a215e799a9e7ad1853d19d149dd20.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/generalgrievous.png",
       "standard": true,
       "extended": true,
       "cost": 5,
-      "loadout": 12,
+      "loadout": 11,
       "slots": ["Talent", "Modification", "Modification", "Missile", "Title"],
-      "ffg": 492,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3e4dee70764ead7ebe581246a0d4b85d.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/generalgrievous.png",
       "epic": true
     },
     {
@@ -70,14 +69,13 @@
       "limited": 1,
       "xws": "wattambor",
       "ability": "While you perform a primary attack, you may reroll 1 attack die for each calculating friendly ship at range 1 of the defender.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/68cbd6082683fe17778f829555f23a26.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/wattambor.png",
       "standard": true,
       "extended": true,
       "cost": 4,
-      "loadout": 7,
+      "loadout": 9,
       "slots": ["Talent", "Modification", "Modification", "Tactical Relay"],
-      "ffg": 493,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/95127fa6d286fe64f3070e742dc64a7c.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wattambor.png",
       "epic": true
     },
     {
@@ -86,7 +84,7 @@
       "initiative": 1,
       "xws": "feethanottrawautopilot",
       "text": "Unlike the more disposable fighters it also built for the Separatists, Feethan Ottraw Scalable Assemblies designed the Belbullab-22 with a solid mix of firepower, durability, and speed.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/538c4833605af80b226da9e5f800e6ef.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/feethanottrawautopilot.png",
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
         { "difficulty": "White", "type": "Lock" },
@@ -106,8 +104,7 @@
       "cost": 4,
       "loadout": 5,
       "slots": ["Modification", "Tactical Relay"],
-      "ffg": 496,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/91052cb8f4ba464f5ac4572a725f757b.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/feethanottrawautopilot.png",
       "keywords": ["Droid"],
       "epic": true
     },
@@ -118,14 +115,13 @@
       "initiative": 2,
       "xws": "captainsear",
       "ability": "While a friendly ship at range 0-3 performs a primary attack, if the defender is in its [Bullseye Arc], before the Neutralize Results step, the friendly ship may spend 1 calculate token to cancel 1 [Evade] result.",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/3d3704ab454433a8b4d73ee6bff430b8.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/captainsear.png",
       "standard": true,
       "extended": true,
       "cost": 5,
-      "loadout": 15,
+      "loadout": 17,
       "slots": ["Modification", "Modification", "Tactical Relay"],
-      "ffg": 494,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/91a7a38482d28f21b2620d058800a8fe.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainsear.png",
       "epic": true
     },
     {
@@ -134,16 +130,14 @@
       "cost": 4,
       "loadout": 4,
       "slots": ["Talent", "Modification", "Modification"],
-      "ffg": 495,
       "initiative": 3,
       "limited": 0,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/af0e63b7754ef598f1f36ed9a6c4b4ee.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/ceb7a3bc406ff17be5dee5de62b39195.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/skakoanace.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/skakoanace.png",
       "text": "With its powerful engines, devastating triple laser cannons, and high customizability, the Belbullab-22 is the chosen craft of several elite Separatist Alliance pilots, including the infamous General Grievous.",
       "standard": true,
       "extended": true,
       "epic": true
     }
-  ],
-  "ffg": 58
+  ]
 }

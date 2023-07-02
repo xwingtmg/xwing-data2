@@ -1,7 +1,6 @@
 {
   "name": "HMP Droid Gunship",
   "xws": "hmpdroidgunship",
-  "ffg": 75,
   "size": "Small",
   "dial": [
     "0OR",
@@ -41,13 +40,12 @@
   ],
   "pilots": [
     {
-      "ffg": 666,
       "name": "DGS-047",
       "xws": "dgs047",
       "caption": "Adaptive Intelligence",
       "initiative": 1,
-      "cost": 5,
-      "loadout": 14,
+      "cost": 3,
+      "loadout": 8,
       "slots": [
         "Missile",
         "Missile",
@@ -58,8 +56,8 @@
         "Tactical Relay"
       ],
       "limited": 1,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1cd30a5d258ff70472e785c816139d1f.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/49791d2bcd4e67bc66e97c83f17dad24.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dgs047.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/dgs047.png",
       "shipAbility": {
         "name": "Networked Aim",
         "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
@@ -71,16 +69,15 @@
       "epic": true
     },
     {
-      "ffg": 669,
       "name": "Baktoid Drone",
       "xws": "baktoiddrone",
       "initiative": 1,
-      "cost": 5,
-      "loadout": 10,
+      "cost": 4,
+      "loadout": 8,
       "slots": ["Missile", "Device", "Modification", "Configuration"],
       "limited": 0,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8117e7b2349219b237157bfeda3028d0.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/3af13c610ba1544ae93383b2c8b10f90.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/baktoiddrone.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/baktoiddrone.png",
       "shipAbility": {
         "name": "Networked Aim",
         "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
@@ -92,13 +89,12 @@
       "epic": true
     },
     {
-      "ffg": 668,
       "name": "Geonosian Prototype",
       "xws": "geonosianprototype",
       "caption": "Devastation Protocols",
       "initiative": 2,
-      "cost": 5,
-      "loadout": 18,
+      "cost": 4,
+      "loadout": 12,
       "slots": [
         "Cannon",
         "Cannon",
@@ -109,8 +105,8 @@
         "Tactical Relay"
       ],
       "limited": 2,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3a95eb82b3cf0420376c75f649d436ee.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/1352254ba28a6191adfdea1273cedb8d.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/geonosianprototype.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/geonosianprototype.png",
       "shipAbility": {
         "name": "Networked Aim",
         "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
@@ -122,16 +118,15 @@
       "epic": true
     },
     {
-      "ffg": 664,
       "name": "DGS-286",
       "xws": "dgs286",
       "caption": "Ambush Protocols",
       "initiative": 3,
-      "cost": 5,
-      "loadout": 20,
+      "cost": 3,
+      "loadout": 7,
       "slots": [
-        "Torpedo",
-        "Torpedo",
+        "Missile",
+        "Missile",
         "Crew",
         "Device",
         "Modification",
@@ -139,8 +134,8 @@
         "Tactical Relay"
       ],
       "limited": 1,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/20ce8cad5b251ad3ea16d849297e82db.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/b0d0b99b3b18b330f2c37221fb2696f9.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dgs286.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/dgs286.png",
       "shipAbility": {
         "name": "Networked Aim",
         "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
@@ -152,17 +147,16 @@
       "epic": true
     },
     {
-      "ffg": 665,
       "name": "Onderon Oppressor",
       "xws": "onderonoppressor",
       "caption": "Atmospheric Attack Module",
       "initiative": 3,
       "cost": 4,
-      "loadout": 7,
-      "slots": ["Missile", "Crew", "Device", "Modification", "Configuration"],
+      "loadout": 15,
+      "slots": ["Missile", "Missile", "Crew", "Device", "Modification", "Configuration"],
       "limited": 2,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ba5a6c72eb21bd7bd58c9f7072dd0fdd.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/41b07fdfd2fc8af5d662796905266c6a.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onderonoppressor.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/onderonoppressor.png",
       "shipAbility": {
         "name": "Networked Aim",
         "text": "You cannot spend your locks to reroll attack dice. While you perform an attack, you may reroll a number of attack dice up to the number of friendly locks on the defender."
@@ -185,8 +179,8 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 5,
-      "loadout": 8,
+      "cost": 4,
+      "loadout": 9,
       "slots": [
         "Missile",
         "Missile",
@@ -194,12 +188,11 @@
         "Modification",
         "Configuration"
       ],
-      "ffg": 667,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/af4f7665df100530f6dc8e3cf80a52d4.jpg",
-      "image": "https://squadbuilder.fantasyflightgames.com/card_images/en/d8cba72d59f876f9849a4ef42740bf40.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/separatistpredator.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/separatistpredator.png",
       "keywords": ["Droid"],
       "epic": true
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_HMP_Droid_Gunship.png"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_HMP_Droid_Gunship.png"
 }

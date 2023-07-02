@@ -1,9 +1,8 @@
 {
   "name": "CR90 Corellian Corvette",
   "xws": "cr90corelliancorvette",
-  "ffg": 78,
   "faction": "Galactic Republic",
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_CR90.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_CR90.png",
   "size": "Huge",
   "dial": [
     "0BR",
@@ -39,13 +38,13 @@
   ],
   "pilots": [
     {
-      "ffg": 705,
       "name": "Republic Judiciary",
       "initiative": 8,
       "cost": 131,
       "loadout": 0,
       "limited": 0,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a04b07c3b0b3dbe1bfac935ca3a9f0d4.jpg",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/republicjudiciary.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/republicjudiciary.png",
       "shipAbility": {
         "name": "Broadside Batteries",
         "text": "You can acquire locks and perform primary attacks at range 1-4."

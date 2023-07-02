@@ -57,8 +57,8 @@
       "caption": "Infamous Bounty Hunter",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
-      "loadout": 18,
+      "cost": 4,
+      "loadout": 13,
       "xws": "cadbane",
       "slots": [
         "Talent",
@@ -88,8 +88,8 @@
       "caption": "Storied Bounty Hunter",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
-      "loadout": 16,
+      "cost": 4,
+      "loadout": 11,
       "xws": "viktorhel-rogueclassstarfighter",
       "slots": [
         "Talent",
@@ -116,8 +116,8 @@
       "caption": "Laughing Bandit",
       "initiative": 1,
       "limited": 1,
-      "cost": 5,
-      "loadout": 19,
+      "cost": 4,
+      "loadout": 11,
       "xws": "nomlumb-rogueclassstarfighter",
       "slots": [
         "Talent",
@@ -135,7 +135,7 @@
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/nomlumb-rogueclassstarfighter.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nomlumb-rogueclassstarfighter.png",
-      "keywords": [],
+      "keywords": ["Bounty Hunter"],
       "standard": true,
       "extended": true,
       "epic": true
@@ -144,8 +144,8 @@
       "name": "Outer Rim Hunter",
       "initiative": 3,
       "limited": 0,
-      "cost": 5,
-      "loadout": 4,
+      "cost": 4,
+      "loadout": 5,
       "xws": "outerrimhunter",
       "slots": [
         "Cannon",
@@ -160,7 +160,6 @@
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/outerrimhunter.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimhunter.png",
-      "keywords": ["Bounty Hunter"],
       "standard": true,
       "extended": true,
       "epic": true
@@ -187,6 +186,7 @@
         "text": "While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens."
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/durge.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/durge.png",
       "keywords": ["Bounty Hunter"],
       "standard": true,
       "extended": true,
