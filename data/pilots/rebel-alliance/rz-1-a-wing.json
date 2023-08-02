@@ -133,7 +133,7 @@
       "extended": true,
       "keywords": ["A-wing"],
       "cost": 3,
-      "loadout": 7,
+      "loadout": 5,
       "slots": ["Talent", "Talent", "Modification", "Configuration"],
       "ability": "While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.",
       "caption": "Promising Pilot",
@@ -180,7 +180,7 @@
       "standard": true,
       "extended": true,
       "cost": 4,
-      "loadout": 4,
+      "loadout": 5,
       "slots": [
         "Talent",
         "Talent",
@@ -325,7 +325,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 4,
-      "xws": "arvelcrynyd-swz106",
+      "xws": "arvelcrynydssp",
       "ability": "If you would fail a [Boost] action by overlapping another ship, you may resolve it as though you were partially executing a maneuver instead. While you perform an attack at attack range 0, treat it as an attack at attack range 1.",
       "image": "",
       "shipAbility": {
@@ -345,7 +345,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 5,
-      "xws": "jakefarrell-swz106",
+      "xws": "jakefarrellssp",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may choose a friendly ship at range 0-1. That ship may perform a [Focus] action.",
       "image": "",
       "shipAbility": {
@@ -361,7 +361,7 @@
     },
     {
       "name": "Shara Bey",
-      "xws": "sharabey-swz106",
+      "xws": "sharabeyssp",
       "initiative": 4,
       "limited": 1,
       "shipAbility": {
