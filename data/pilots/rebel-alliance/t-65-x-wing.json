@@ -285,7 +285,7 @@
       "initiative": 3,
       "limited": 1,
       "cost": 5,
-      "xws": "biggsdarklighter-battleofyavin",
+      "xws": "biggsdarklighterboy",
       "ability": "During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase.",
       "shipAbility": {
         "name": "Hope",
@@ -305,7 +305,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 4,
-      "xws": "garvendreis-battleofyavin",
+      "xws": "garvendreisboy",
       "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
       "shipAbility": {
         "name": "Hope",
@@ -325,7 +325,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 4,
-      "xws": "jekporkins-battleofyavin",
+      "xws": "jekporkinsboy",
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
       "shipAbility": {
         "name": "Hope",
@@ -345,7 +345,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 5,
-      "xws": "lukeskywalker-battleofyavin",
+      "xws": "lukeskywalkerboy",
       "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "shipAbility": {
@@ -366,7 +366,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 5,
-      "xws": "wedgeantilles-battleofyavin",
+      "xws": "wedgeantillesboy",
       "ability": "While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 less defense dice.",
       "shipAbility": {
         "name": "Hope",
@@ -432,7 +432,7 @@
       "initiative": 5,
       "limited": 1,
       "cost": 6,
-      "xws": "lukeskywalker-swz106",
+      "xws": "lukeskywalkerssp",
       "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
       "standardLoadout": ["instinctiveaim", "protontorpedoes", "r2d2"],
@@ -449,7 +449,7 @@
       "initiative": 4,
       "limited": 1,
       "cost": 5,
-      "xws": "jekporkins-swz106",
+      "xws": "jekporkinsssp",
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
       "standardLoadout": ["predator", "protontorpedoes", "r5d8-battleofyavin"],
       "image": "",
