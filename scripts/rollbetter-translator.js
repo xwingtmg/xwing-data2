@@ -1,4 +1,4 @@
-// run this script with 
+// run this script with `node .\scripts\rollbetter-translator.js`
 
 const prettier = require ("prettier")
 const fs = require("fs");
