@@ -1012,6 +1012,13 @@
     "cost": {
       "value": 1
     },
+    "restrictions": [
+      {
+        "factions": [
+          "Rebel Alliance"
+        ]
+      }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
