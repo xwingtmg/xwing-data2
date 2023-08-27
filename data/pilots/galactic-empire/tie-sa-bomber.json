@@ -202,7 +202,7 @@
       "cost": 4,
       "xws": "captainjonus-swz105",
       "ability": "While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.",
-      "image": "",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/captainjonus-swz105.png",
       "shipAbility": {
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
@@ -222,7 +222,7 @@
       "cost": 5,
       "xws": "tomaxbren-swz105",
       "ability": "After you perform a [Reload] action, you may recover 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.",
-      "image": "",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/tomaxbren-swz105.png",
       "shipAbility": {
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
@@ -233,6 +233,87 @@
       "extended": true,
       "keywords": ["TIE"],
       "epic": true
+    },
+    {
+      "name": "Deathfire",
+      "caption": "Destinate Bombardier",
+      "initiative": 2,
+      "limited": 1,
+      "cost": 3,
+      "xws": "deathfire-swz98",
+      "ability": "After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 [Charge] to drop or launch a domb using the [3 [Straight]] template",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/deathfire-tiesabomber.png",
+      "shipAbility": {
+        "name": "Nimble Bomber",
+        "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+      },
+      "standardLoadout": ["swiftapproach-swz98", "connernets", "protonbombs"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathfire.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Captain Jonus",
+      "caption": "Top Cover",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 5,
+      "xws": "captainjonus-swz98",
+      "ability": "After you drop or launch a device, gain an evade token.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/tomaxbren-tiesabomber.png",
+      "shipAbility": {
+        "name": "Nimble Bomber",
+        "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+      },
+      "standardLoadout": ["topcover-swz98", "barragerockets", "protonbombs"],
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Major Rhymer",
+      "caption": "Precision Destruction",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 4,
+      "xws": "majorrhymer-swz98",
+      "ability": "While you perform a [Torpedo] attack, if the defender is in your [Bullseye], change 1 [Focus] result to a [Crititcal Hit] result.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/majorrhymer-tiesabomber.png",
+      "shipAbility": {
+        "name": "Nimble Bomber",
+        "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+      },
+      "standardLoadout": ["advprotontorpedoes", "automatedloaders-swz98", "afterburners"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorrhymer.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Tomax Bren",
+      "caption": "Scimitar Veteran",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 3,
+      "xws": "tomaxbren-swz98",
+      "ability": "After you perform a [Barrel Roll] action, you may spend 2 [Charge]. If you do, gain a focus token.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/tomaxbren-tiesabomber.png",
+      "shipAbility": {
+        "name": "Nimble Bomber",
+        "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+      },
+      "standardLoadout": ["truegrit-swz98", "plasmatorpedoes", "ionbombs"],
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "keywords": ["TIE"],
+      "epic": true
     }
+  ]
   ]
 }

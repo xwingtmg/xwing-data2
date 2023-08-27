@@ -585,5 +585,23 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Automated Loaders",
+    "limited": 0,
+    "xws": "automatedloaders-swz98",
+    "sides": [
+      {
+        "ability": "After you perform a primary attack, you may spend 1 [Charge] to perform a [Reload] action.",
+        "title": "Automated Loaders",
+        "type": "Modification",
+        "slots": ["Modification"],
+        "charges": { "value": 1, "recovers": 0 }
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]

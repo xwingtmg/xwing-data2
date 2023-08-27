@@ -901,5 +901,90 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Efficient Processing",
+    "limited": 0,
+    "xws": "efficientprocessing-swz103",
+    "sides": [
+      {
+        "title": "Efficient Processing",
+        "type": "Talent",
+        "ability": "After you perform a [Calculate] action, gain one calculate token.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Mercenary",
+    "limited": 0,
+    "xws": "mercenary-swz103",
+    "sides": [
+      {
+        "title": "Mercenary",
+        "type": "Talent",
+        "ability": "After another friendly ship at range 0-2 is destroyed, before it is removed from the play area, transfer one of its green tokens to yourself.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Swift Approach",
+    "limited": 0,
+    "xws": "swiftapproach-swz98",
+    "sides": [
+      {
+        "title": "Swift Approach",
+        "type": "Talent",
+        "ability": "During the System Phase, after you drop or launch a device, you may perform a white [Barrel Roll] or [Boost] action, even while stressed.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Top Cover",
+    "limited": 0,
+    "xws": "topcover-swz98",
+    "sides": [
+      {
+        "title": "Top Cover",
+        "type": "Talent",
+        "ability": "After a friendly ship at range 0-1 defenders, if you have not dropped or launched a device this round, you may launch a device using the [3 [Bank Left]], [3 [Straight]], or [3 [Bank Right]] template. You ignore the effects of friendly devices.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "True Grit",
+    "limited": 0,
+    "xws": "truegrit-swz98",
+    "sides": [
+      {
+        "title": "True Grit",
+        "type": "Talent",
+        "ability": "After a friendly ship at range 0-1 defenders, if you have not dropped or launched a device this round, you may launch a device using the [3 [Bank Left]], [3 [Straight]], or [3 [Bank Right]] template. You ignore the effects of friendly devices.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]
