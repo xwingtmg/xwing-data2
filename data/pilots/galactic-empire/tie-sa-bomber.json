@@ -53,13 +53,7 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "slots": [
-        "Torpedo",
-        "Missile",
-        "Device",
-        "Modification",
-        "Gunner"
-      ],
+      "slots": ["Torpedo", "Missile", "Device", "Modification", "Gunner"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathfire.png",
       "standard": true,
       "extended": true,
@@ -310,13 +304,16 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "standardLoadout": ["advprotontorpedoes", "automatedloaders-swz98", "afterburners"],
+      "standardLoadout": [
+        "advprotontorpedoes",
+        "automatedloaders-swz98",
+        "afterburners"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorrhymer.png",
       "standard": true,
       "extended": true,
       "keywords": ["TIE"],
       "epic": true
     }
-  ]
   ]
 }
