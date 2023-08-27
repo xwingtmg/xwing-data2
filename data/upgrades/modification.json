@@ -483,7 +483,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/beskarreinforcedplating.png"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 3 },
     "standard": true,
     "extended": true,
     "epic": true
@@ -576,8 +576,26 @@
     "sides": [
       {
         "ability": "While you perform a red [Evade] action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.",
-        "title": "Contingency Protocol",
+        "title": "Evasion Sequence 7",
         "type": "Modification",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Automated Loaders",
+    "limited": 0,
+    "xws": "automatedloaders-swz98",
+    "sides": [
+      {
+        "title": "Automated Loaders",
+        "charges": { "value": 1, "recovers": 0 },
+        "type": "Modification",
+        "ability": "After you perform a primary attack, you may spend 1 [Charge] to perform a [Reload] action.",
         "slots": ["Modification"]
       }
     ],
