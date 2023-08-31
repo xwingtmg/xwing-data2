@@ -24,7 +24,7 @@
   "dialCodes": ["YT24"],
   "faction": "Rebel Alliance",
   "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 4 },
+    { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
     { "type": "agility", "value": 2 },
     { "type": "hull", "value": 6 },
     { "type": "shields", "value": 4 }
@@ -57,6 +57,12 @@
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
       },
+      "shipStats" : [
+        { "arc": "Double Turret Arc", "type": "attack", "value": 4 },
+        { "type": "agility", "value": 2 },
+        { "type": "hull", "value": 6 },
+        { "type": "shields", "value": 4 }
+      ],
       "slots": [
         "Talent",
         "Missile",
@@ -85,6 +91,12 @@
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
       },
+      "shipStats" : [
+        { "arc": "Double Turret Arc", "type": "attack", "value": 4 },
+        { "type": "agility", "value": 2 },
+        { "type": "hull", "value": 6 },
+        { "type": "shields", "value": 4 }
+      ],
       "slots": [
         "Talent",
         "Missile",
@@ -118,6 +130,123 @@
       "standard": false,
       "extended": true,
       "keywords": ["Freighter"],
+      "epic": true
+    },
+    {
+      "name": "“Leebo”",
+      "caption": "Wisdom of Ages",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 6,
+      "loadout": 16,
+      "xws": "leebo-swz103",
+      "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        {
+          "difficulty": "White",
+          "linked": { "difficulty": "Red", "type": "Rotate Arc" },
+          "type": "Lock"
+        },
+        { "difficulty": "Red", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Rotate Arc" }
+      ],
+      "shipAbility": {
+        "name": "Sensor Blindspot",
+        "text": "While you perform a primary attack at attack range 0-1, you roll 1 less attack die. While you defend at range 1, you roll 1 less defense die."
+      },
+      "slots": [
+        "Talent",
+        "Missile",
+        "Illicit",
+        "Illicit",
+        "Modification",
+        "Title"
+      ],
+      "artwork": "",
+      "image": "https://infinitearenas.com/xw2/images/pilots/leebo-wisdomofages.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Droid", "Freighter"],
+      "epic": true
+    },
+    {
+      "name": "Dash Rendar",
+      "caption": "Freighter for Hire",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 7,
+      "loadout": 20,
+      "xws": "dashrendar-swz103",
+      "ability": "During the Engagement Phase, you ignore the effects of obstacles that you are overlapping.",
+      "shipAbility": {
+        "name": "Sensor Blindspot",
+        "text": "While you perform a primary attack at attack range 0-1, you roll 1 fewer attack die. While you defend at range 1, you roll 1 fewer defense die."
+      },
+      "slots": [
+        "Talent",
+        "Missile",
+        "Crew",
+        "Illicit",
+        "Illicit",
+        "Modification",
+        "Title"
+      ],
+      "artwork": "",
+      "image": "https://infinitearenas.com/xw2/images/pilots/dashrendar-freighterforhire.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Freighter"],
+      "epic": true
+    },
+    {
+      "name": "“Leebo”",
+      "caption": "He Thinks He's Funny",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 6,
+      "xws": "leebo-swz103-sl-rebelalliance",
+      "ability": "At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3.",
+      "shipActions": [
+        { "difficulty": "White", "type": "Calculate" },
+        {
+          "difficulty": "White",
+          "linked": { "difficulty": "Red", "type": "Rotate Arc" },
+          "type": "Lock"
+        },
+        { "difficulty": "Red", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Rotate Arc" }
+      ],
+      "shipAbility": {
+        "name": "Sensor Blindspot",
+        "text": "While you perform a primary attack at attack range 0-1, you roll 1 fewer die. While you defend at range 1, you roll 1 fewer defense die."
+      },
+      "standardLoadout": ["efficientprocessing-swz103", "seekermissiles-swz103", "outrider"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leebo.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/leebo-hethinkshesfunny-rebelalliance.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Droid", "Freighter"],
+      "epic": true
+    },
+    {
+      "name": "Dash Rendar",
+      "caption": "In it for Himself",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 7,
+      "xws": "dashrendar-swz103-sl-rebelalliance",
+      "ability": "After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1.",
+      "shipAbility": {
+        "name": "Sensor Blindspot",
+        "text": "While you perform a primary attack at attack range 0-1, you roll 1 fewer die. While you defend at range 1, you roll 1 fewer defense die."
+      },
+      "standardLoadout": ["mercenary-swz103", "seekermissiles-swz103", "leebo-swz103", "outrider"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dashrendar.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/dashrendar-initforhimself-rebelalliance.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["Droid", "Freighter"],
       "epic": true
     }
   ]

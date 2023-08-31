@@ -592,11 +592,11 @@
     "xws": "automatedloaders-swz98",
     "sides": [
       {
-        "title": "Automated Loaders",
-        "charges": { "value": 1, "recovers": 0 },
-        "type": "Modification",
         "ability": "After you perform a primary attack, you may spend 1 [Charge] to perform a [Reload] action.",
-        "slots": ["Modification"]
+        "title": "Automated Loaders",
+        "type": "Modification",
+        "slots": ["Modification"],
+        "charges": { "value": 1, "recovers": 0 }
       }
     ],
     "standard": true,
