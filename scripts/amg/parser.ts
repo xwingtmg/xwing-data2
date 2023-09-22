@@ -237,7 +237,7 @@ const runUpgrades = async () => {
       faction = "galacticempire";
     } else if (faction === "rebel") {
       faction = "rebelalliance";
-    } else if (faction === "scumandvillainy") {
+    } else if (faction === "scum and villainy") {
       faction = "scumandvillainy";
     } else if (faction === "first order") {
       faction = "firstorder";
