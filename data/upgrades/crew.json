@@ -14,7 +14,7 @@
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -34,7 +34,7 @@
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -55,7 +55,7 @@
     ],
     "cost": { "value": 5 },
     "restrictions": [
-      { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
+      { "factions": ["scumandvillainy"], "names": ["Darth Vader"] }
     ],
     "standard": true,
     "extended": true,
@@ -76,7 +76,7 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -96,7 +96,7 @@
       }
     ],
     "cost": { "value": 16 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -117,7 +117,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -137,7 +137,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -157,7 +157,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -184,7 +184,7 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -204,7 +204,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -224,7 +224,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["First Order"] }],
+    "restrictions": [{ "factions": ["firstorder"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -244,7 +244,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -265,7 +265,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -285,7 +285,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -306,7 +306,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [
-      { "factions": ["Galactic Empire"] },
+      { "factions": ["galacticempire"] },
       { "action": { "type": "Coordinate" } }
     ],
     "standard": true,
@@ -328,7 +328,7 @@
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -349,7 +349,7 @@
       }
     ],
     "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -369,7 +369,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -397,7 +397,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -418,7 +418,7 @@
       }
     ],
     "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -457,7 +457,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["First Order"] }],
+    "restrictions": [{ "factions": ["firstorder"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -498,7 +498,7 @@
       }
     ],
     "cost": { "value": 15 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -520,7 +520,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [
-      { "factions": ["Galactic Empire"] },
+      { "factions": ["galacticempire"] },
       { "action": { "type": "Lock" } }
     ],
     "standard": true,
@@ -542,7 +542,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -569,7 +569,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -589,7 +589,7 @@
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -630,7 +630,7 @@
       }
     ],
     "cost": { "value": 11 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -650,7 +650,7 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -671,7 +671,7 @@
       }
     ],
     "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -691,7 +691,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -713,7 +713,7 @@
       }
     ],
     "cost": { "value": 9 },
-    "restrictions": [{ "factions": ["First Order"] }],
+    "restrictions": [{ "factions": ["firstorder"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -741,7 +741,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -761,7 +761,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -781,7 +781,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -801,7 +801,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -822,7 +822,7 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -842,7 +842,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -867,7 +867,7 @@
     ],
     "cost": { "value": 12 },
     "restrictions": [
-      { "factions": ["Scum and Villainy"], "names": ["Ezra Bridger"] }
+      { "factions": ["scumandvillainy"], "names": ["Ezra Bridger"] }
     ],
     "standard": true,
     "extended": true,
@@ -888,7 +888,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -910,7 +910,7 @@
     ],
     "cost": { "value": 7 },
     "restrictions": [
-      { "factions": ["Galactic Empire"] },
+      { "factions": ["galacticempire"] },
       { "action": { "type": "Coordinate" } }
     ],
     "standard": true,
@@ -932,7 +932,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -990,7 +990,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["First Order"] }],
+    "restrictions": [{ "factions": ["firstorder"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1010,7 +1010,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1030,7 +1030,7 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1050,7 +1050,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -1070,7 +1070,7 @@
       }
     ],
     "cost": { "value": 9 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1110,7 +1110,7 @@
       }
     ],
     "cost": { "value": 9 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1131,7 +1131,7 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [{ "factions": ["First Order"] }],
+    "restrictions": [{ "factions": ["firstorder"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -1180,7 +1180,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -1200,7 +1200,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1220,7 +1220,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1250,7 +1250,7 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1276,7 +1276,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1297,7 +1297,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1317,7 +1317,7 @@
       }
     ],
     "cost": { "value": 9 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1360,7 +1360,7 @@
     ],
     "cost": { "value": 14 },
     "restrictions": [
-      { "factions": ["Galactic Republic", "Separatist Alliance"] }
+      { "factions": ["galacticrepublic", "separatistalliance"] }
     ],
     "standard": true,
     "extended": true,
@@ -1382,7 +1382,7 @@
       }
     ],
     "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "restrictions": [{ "factions": ["separatistalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1403,7 +1403,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "restrictions": [{ "factions": ["separatistalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1413,7 +1413,7 @@
     "limited": 1,
     "xws": "amilynholdo",
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "sides": [
       {
         "ability": "Before you engage, you may choose another friendly ship at range 1-2. You may transfer to that ship 1 token of a type that ship does not have. That ship may transfer 1 token to you of a type you do not have.",
@@ -1433,7 +1433,7 @@
     "limited": 1,
     "xws": "ga97",
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "sides": [
       {
         "ability": "Setup: Before placing forces, you may spend 3-5 [Charge]. If you do, choose another friendly ship and assign the It's the Resistance condition to it.",
@@ -1461,7 +1461,7 @@
     "limited": 1,
     "xws": "kaydelconnix",
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "sides": [
       {
         "ability": "After you reveal your dial, you may set your dial to a basic maneuver of the next higher speed. While you execute that maneuver, increase its difficulty.",
@@ -1481,7 +1481,7 @@
     "limited": 1,
     "xws": "korrsella",
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "sides": [
       {
         "ability": "After you fully execute a blue maneuver, remove all of your stress tokens.",
@@ -1501,7 +1501,7 @@
     "limited": 1,
     "xws": "larmadacy",
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "sides": [
       {
         "ability": "While you have 2 or fewer stress tokens, you can perform [Reinforce], [Coordinate], and [Jam] actions, even while stressed. While you perform a white [Reinforce], [Coordinate], or [Jam] action, if you are stressed, treat that action as red.",
@@ -1524,7 +1524,7 @@
     "extended": true,
     "epic": true,
     "cost": { "value": 14 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "sides": [
       {
         "ability": "After a friendly ship reveals a non-[0 [Stationary]] maneuver, you may spend 1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.",
@@ -1548,7 +1548,7 @@
     "limited": 1,
     "xws": "pz4co",
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "sides": [
       {
         "ability": "At the end of the Activation Phase, you may choose 1 friendly ship at range 1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver is blue, you may transfer 1 focus token instead.",
@@ -1589,7 +1589,7 @@
     ],
     "cost": { "value": 6 },
     "limited": 1,
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "standard": true,
     "extended": true,
     "epic": true,
@@ -1936,7 +1936,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [
-      { "factions": ["Scum and Villainy", "Separatist Alliance"] }
+      { "factions": ["scumandvillainy", "separatistalliance"] }
     ],
     "standard": true,
     "extended": true,
@@ -1960,7 +1960,7 @@
     ],
     "cost": { "value": 11 },
     "restrictions": [
-      { "factions": ["Scum and Villainy", "Separatist Alliance"] }
+      { "factions": ["scumandvillainy", "separatistalliance"] }
     ],
     "standard": true,
     "extended": true,
@@ -1982,7 +1982,7 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2009,7 +2009,7 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [
-      { "factions": ["Scum and Villainy", "Galactic Empire", "First Order"] }
+      { "factions": ["scumandvillainy", "galacticempire", "firstorder"] }
     ],
     "standard": true,
     "extended": true,
@@ -2036,7 +2036,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2058,7 +2058,7 @@
     ],
     "cost": { "value": 7 },
     "restrictions": [
-      { "factions": ["Galactic Empire", "Rebel Alliance", "Scum and Villainy"] }
+      { "factions": ["galacticempire", "rebelalliance", "scumandvillainy"] }
     ],
     "standard": true,
     "extended": true,
@@ -2096,7 +2096,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["scumandvillainy"] }]
   },
   {
     "name": "Greef Karga",
@@ -2119,7 +2119,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2142,7 +2142,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }]
+    "restrictions": [{ "factions": ["scumandvillainy"] }]
   },
   {
     "name": "Peli Motto",
@@ -2160,7 +2160,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [
-      { "factions": ["Scum and Villainy"] },
+      { "factions": ["scumandvillainy"] },
       { "sizes": ["Medium", "Large"] }
     ],
     "standard": true,
@@ -2191,7 +2191,7 @@
     ],
     "cost": { "value": 7 },
     "restrictions": [
-      { "factions": ["Scum and Villainy", "Galactic Republic"] }
+      { "factions": ["scumandvillainy", "galacticrepublic"] }
     ],
     "standard": true,
     "extended": true,
@@ -2215,7 +2215,7 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2236,7 +2236,7 @@
       }
     ],
     "cost": { "value": 11 },
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2257,7 +2257,7 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [
-      { "factions": ["Galactic Republic", "Separatist Alliance"] }
+      { "factions": ["galacticrepublic", "separatistalliance"] }
     ],
     "standard": true,
     "extended": true,
@@ -2278,7 +2278,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy", "Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["scumandvillainy", "rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2300,7 +2300,7 @@
     ],
     "standard": true,
     "epic": true,
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "extended": true
   },
   {
@@ -2319,7 +2319,7 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2339,7 +2339,7 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "restrictions": [{ "factions": ["separatistalliance"] }],
     "standard": false,
     "extended": true,
     "epic": true
@@ -2361,7 +2361,7 @@
     ],
     "cost": { "value": 10 },
     "restrictions": [
-      { "factions": ["Scum and Villainy", "Separatist Alliance"] }
+      { "factions": ["scumandvillainy", "separatistalliance"] }
     ],
     "standard": true,
     "extended": true,
@@ -2382,7 +2382,7 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [{ "factions": ["Scum and Villainy", "Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["scumandvillainy", "rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2402,7 +2402,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2429,7 +2429,7 @@
     ],
     "cost": { "value": 9 },
     "restrictions": [
-      { "factions": ["Scum and Villainy", "Separatist Alliance"] }
+      { "factions": ["scumandvillainy", "separatistalliance"] }
     ],
     "standard": true,
     "extended": true,
@@ -2452,7 +2452,7 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [
-      { "factions": ["Rebel Alliance"], "names": ["Gar Saxon"] }
+      { "factions": ["rebelalliance"], "names": ["Gar Saxon"] }
     ],
     "standard": true,
     "extended": true,
@@ -2473,7 +2473,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2494,7 +2494,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2516,7 +2516,7 @@
     ],
     "cost": { "value": 10 },
     "restrictions": [
-      { "factions": ["Scum and Villainy", "Galactic Republic"] }
+      { "factions": ["scumandvillainy", "galacticrepublic"] }
     ],
     "standard": true,
     "extended": true,
@@ -2545,7 +2545,7 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -2587,7 +2587,7 @@
     ],
     "cost": { "value": 8 },
     "restrictions": [
-      { "factions": ["Rebel Alliance"] },
+      { "factions": ["rebelalliance"] },
       { "sizes": ["Medium", "Large", "Huge"] }
     ],
     "standard": true,
@@ -2631,7 +2631,7 @@
     ],
     "cost": { "value": 8 },
     "restrictions": [
-      { "factions": ["Galactic Empire"] },
+      { "factions": ["galacticempire"] },
       { "sizes": ["Medium", "Large", "Huge"] }
     ],
     "standard": true,
@@ -2675,7 +2675,7 @@
     ],
     "cost": { "value": 8 },
     "restrictions": [
-      { "factions": ["Scum and Villainy"] },
+      { "factions": ["scumandvillainy"] },
       { "sizes": ["Medium", "Large", "Huge"] }
     ],
     "standard": true,
@@ -2719,7 +2719,7 @@
     ],
     "cost": { "value": 8 },
     "restrictions": [
-      { "factions": ["Galactic Republic"] },
+      { "factions": ["galacticrepublic"] },
       { "sizes": ["Medium", "Large", "Huge"] }
     ],
     "standard": true,
@@ -2763,7 +2763,7 @@
     ],
     "cost": { "value": 8 },
     "restrictions": [
-      { "factions": ["Separatist Alliance"] },
+      { "factions": ["separatistalliance"] },
       { "sizes": ["Medium", "Large", "Huge"] }
     ],
     "standard": true,

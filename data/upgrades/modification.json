@@ -261,7 +261,7 @@
       }
     ],
     "restrictions": [
-      { "factions": ["Galactic Republic"] },
+      { "factions": ["galacticrepublic"] },
       { "action": { "type": "Lock", "difficulty": "White" } }
     ],
     "cost": { "value": 1 },
@@ -510,7 +510,7 @@
       }
     ],
     "restrictions": [
-      { "factions": ["Scum and Villainy"] },
+      { "factions": ["scumandvillainy"] },
       { "sizes": ["Small", "Medium"] }
     ],
     "cost": { "value": 6 },

@@ -264,7 +264,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [
-      { "factions": ["Galactic Republic"] },
+      { "factions": ["galacticrepublic"] },
       { "ships": ["delta7aethersprite", "eta2actis"] }
     ]
   },
@@ -287,7 +287,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [
-      { "factions": ["Rebel Alliance"] },
+      { "factions": ["rebelalliance"] },
       { "ships": ["asf01bwing"] }
     ]
   },
@@ -426,7 +426,7 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [
-      { "factions": ["Scum and Villainy"] },
+      { "factions": ["scumandvillainy"] },
       { "standardized": true },
       { "non-limited": false }
     ]
@@ -450,7 +450,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [
-      { "factions": ["Separatist Alliance"] },
+      { "factions": ["separatistalliance"] },
       { "sizes": ["Huge"] }
     ]
   },
@@ -473,7 +473,7 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [
-      { "factions": ["Separatist Alliance"] },
+      { "factions": ["separatistalliance"] },
       { "sizes": ["Huge"] }
     ]
   },
@@ -507,7 +507,7 @@
     ],
     "cost": { "value": 6 },
     "restrictions": [
-      { "factions": ["Separatist Alliance", "Scum and Villainy"] },
+      { "factions": ["separatistalliance", "scumandvillainy"] },
       { "sizes": ["Huge"] }
     ]
   },
@@ -584,7 +584,7 @@
     "cost": { "value": 5 },
     "restrictions": [
       { "sizes": ["Huge"] },
-      { "factions": ["Separatist Alliance"] }
+      { "factions": ["separatistalliance"] }
     ]
   },
   {

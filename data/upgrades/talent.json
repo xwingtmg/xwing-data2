@@ -154,7 +154,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["First Order"] }],
+    "restrictions": [{ "factions": ["firstorder"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -174,7 +174,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -194,7 +194,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -330,7 +330,7 @@
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -370,7 +370,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -454,7 +454,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/treacherous.png"
       }
     ],
-    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "restrictions": [{ "factions": ["separatistalliance"] }],
     "cost": { "value": 3 },
     "standard": true,
     "extended": true,
@@ -475,7 +475,7 @@
       }
     ],
     "restrictions": [
-      { "factions": ["Galactic Republic"] },
+      { "factions": ["galacticrepublic"] },
       { "keywords": ["Clone"] }
     ],
     "cost": { "value": 3 },

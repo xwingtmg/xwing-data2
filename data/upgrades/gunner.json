@@ -34,7 +34,7 @@
     ],
     "cost": { "value": 2 },
     "restrictions": [
-      { "factions": ["Scum and Villainy"], "names": ["Darth Vader"] }
+      { "factions": ["scumandvillainy"], "names": ["Darth Vader"] }
     ],
     "standard": true,
     "extended": true,
@@ -55,7 +55,7 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -75,7 +75,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -96,7 +96,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -117,7 +117,7 @@
       }
     ],
     "cost": { "value": 9 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -138,7 +138,7 @@
       }
     ],
     "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -159,7 +159,7 @@
       }
     ],
     "cost": { "value": 1 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -179,7 +179,7 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -199,7 +199,7 @@
       }
     ],
     "cost": { "value": 9 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -239,7 +239,7 @@
       }
     ],
     "cost": { "value": 12 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -279,7 +279,7 @@
     ],
     "cost": { "value": 0 },
     "restrictions": [
-      { "factions": ["First Order"] },
+      { "factions": ["firstorder"] },
       { "ships": ["tiesffighter"] }
     ],
     "standard": true,
@@ -341,7 +341,7 @@
       }
     ],
     "cost": { "value": 9 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -361,7 +361,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -381,7 +381,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/rey-gunner.png"
       }
     ],
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "cost": { "value": 10 },
     "standard": true,
     "extended": true,
@@ -402,7 +402,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/seventhfleetgunner.png"
       }
     ],
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "cost": { "value": 13 },
     "standard": true,
     "extended": true,
@@ -422,7 +422,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/clonecommandercody.png"
       }
     ],
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "cost": { "value": 4 },
     "standard": true,
     "extended": true,
@@ -558,7 +558,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["First Order"] }],
+    "restrictions": [{ "factions": ["firstorder"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -588,7 +588,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["First Order"] }],
+    "restrictions": [{ "factions": ["firstorder"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -610,7 +610,7 @@
     "cost": { "value": 6 },
     "restrictions": [
       { "sizes": ["Large", "Huge"] },
-      { "factions": ["Scum and Villainy"] }
+      { "factions": ["scumandvillainy"] }
     ],
     "standard": true,
     "extended": true,
@@ -632,7 +632,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Galactic Empire"] }],
+    "restrictions": [{ "factions": ["galacticempire"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -653,7 +653,7 @@
     ],
     "cost": { "value": 4 },
     "restrictions": [
-      { "factions": ["Galactic Republic", "Separatist Alliance"] }
+      { "factions": ["galacticrepublic", "separatistalliance"] }
     ],
     "standard": true,
     "extended": true,
@@ -674,7 +674,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Galactic Empire", "Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["galacticempire", "scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true

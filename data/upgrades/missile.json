@@ -185,7 +185,7 @@
     ],
     "restrictions": [
       { "action": { "type": "Calculate", "difficulty": "White" } },
-      { "factions": ["Separatist Alliance"] }
+      { "factions": ["separatistalliance"] }
     ],
     "cost": { "value": 4 },
     "standard": true,
@@ -218,7 +218,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "restrictions": [{ "factions": ["separatistalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
