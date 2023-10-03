@@ -32,14 +32,6 @@ You can run these scripts using `npm` or `yarn`. For example:
 - `npm run hyperspace`
 - `yarn run hyperspace`
 
-### Scripts to update data
-
-| Script                | Description                                                                                                         |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| `yarn run hyperspace` | Syncs the `hyperspace` status of all cards with the FFG squadbuilder                                                |
-| `yarn run ffgscrape`  | Syncs all data with the FFG squadbuilder (and alerts on missing cards)                                              |
-| `yarn run ffg2xws`    | Generates the [`data/ffg-xws.json`](https://github.com/guidokessels/xwing-data2/blob/master/data/ffg-xws.json) file |
-
 ### Scripts to work with the repository
 
 | Script                          | Description                                                                                                                                                 |

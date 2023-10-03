@@ -1,0 +1,147 @@
+{
+    "name": "ST-70 Assault Ship",
+    "xws": "st70assaultship",
+    "size": "Medium",
+    "dial": [
+      "0OR",
+      "1TR",
+      "1BW",
+      "1FB",
+      "1NW",
+      "1YR",
+      "2ER",
+      "2TW",
+      "2BW",
+      "2FB",
+      "2NW",
+      "2YW",
+      "2RR",
+      "3TR",
+      "3BW",
+      "3FB",
+      "3NW",
+      "3YR",
+      "4FB",
+      "5KR"
+    ],
+    "dialCodes": ["ST70"],
+    "faction": "scumandvillainy",
+    "stats": [
+      { "arc": "Front Arc", "type": "attack", "value": 3 },
+      { "type": "agility", "value": 2 },
+      { "type": "hull", "value": 7 },
+      { "type": "shields", "value": 2 }
+    ],
+    "actions": [
+      { "difficulty": "White", "type": "Focus" },
+      { "difficulty": "White", "type": "Evade" },
+      { "difficulty": "White", "type": "Lock" },
+      { "difficulty": "Red", "type": "Barrel Roll" }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_ST-70.png",
+    "pilots": [
+      {
+        "name": "The Mandalorian",
+        "caption": "Din Djarin",
+        "initiative": 5,
+        "limited": 1,
+        "cost": 52,
+        "xws": "themandalorian",
+        "slots": [
+          "Talent",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "ability": "While you defend or perform an attack, if you are in the [Front Arc] at range 1-2 of 2 or more enemy ships, you may change 1 of your blank results to a [Focus] result.",
+        "image": "https://infinitearenas.com/xw2/images/pilots/themandalorian.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/themandalorian.png",
+        "keywords": ["Mandalorian", "Bounty Hunter"],
+        "standard": true,
+        "wildspace": true,
+        "epic": true
+      },
+      {
+        "name": "Q9-0",
+        "caption": "Zero",
+        "initiative": 5,
+        "limited": 1,
+        "cost": 52,
+        "xws": "q90",
+        "slots": [
+          "Talent",
+          "Crew",
+          "Crew",
+          "Gunner",
+          "Illicit",
+          "Illicit",
+          "Modification",
+          "Title"
+        ],
+        "ability": "After you fully execute an advanced maneuver, you may perform a [Calculate] or [Barrel Roll] action, even while stressed. If you do, gain 1 strain token.",
+        "image": "https://infinitearenas.com/xw2/images/pilots/q90.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/q90.png",
+        "keywords": ["Droid"],
+        "shipActions": [
+          { "difficulty": "White", "type": "Calculate" },
+          { "difficulty": "White", "type": "Evade" },
+          { "difficulty": "White", "type": "Lock" },
+          { "difficulty": "Red", "type": "Barrel Roll" }
+        ],
+        "standard": true,
+        "wildspace": true,
+        "epic": true
+      },
+      {
+        "name": "Guild Bounty Hunter",
+        "caption": "Blaster for Hire",
+        "initiative": 3,
+        "limited": 2,
+        "cost": 47,
+        "xws": "guildbountyhunter",
+        "slots": [
+            "Crew",
+            "Crew",
+            "Gunner",
+            "Illicit",
+            "Illicit",
+            "Modification",
+            "Title"
+          ],
+        "ability": "While you perform an attack at attack range 1-2, you may spend 1 non-recurring [Charge] from 1 of your equipped [Illicit] upgrades to change 1 [Focus] result to a [Critical Hit] result.",
+        "image": "https://infinitearenas.com/xw2/images/pilots/guildbountyhunter.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/guildbountyhunter.png",
+        "keywords": ["Bounty Hunter"],
+        "standard": true,
+        "wildspace": true,
+        "epic": true
+      },
+      {
+        "name": "Outer Rim Enforcer",
+        "initiative": 2,
+        "limited": 0,
+        "cost": 46,
+        "xws": "outerrimenforcer",
+        "slots": [
+            "Crew",
+            "Crew",
+            "Gunner",
+            "Illicit",
+            "Illicit",
+            "Modification",
+            "Title"
+          ],
+        "text": "Designed as a military craft, the ST-70 assault ship is a durable and versatile vessel. For someone travelling in the Outer Rim, this ship can be a transport, combat craft, and home all in one.",
+        "image": "https://infinitearenas.com/xw2/images/pilots/outerrimenforcer.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimenforcer.png",
+        "standard": true,
+        "wildspace": true,
+        "epic": true
+      }
+    ]
+  }
+  
