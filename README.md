@@ -29,8 +29,8 @@ There are a few scripts that make it easier to work on the data.
 
 You can run these scripts using `npm` or `yarn`. For example:
 
-- `npm run hyperspace`
-- `yarn run hyperspace`
+- `npm run format`
+- `yarn run format`
 
 ### Scripts to work with the repository
 

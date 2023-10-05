@@ -9,6 +9,13 @@
     "xws": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "ability": { "type": "string" },
     "text": { "type": "string" },
+    "standardLoadout": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      }
+    },
     "conditions": {
       "type": "array",
       "items": {
@@ -56,6 +63,7 @@
           "Force Power",
           "Gunner",
           "Hardpoint",
+          "Hyperdrive",
           "Illicit",
           "Missile",
           "Modification",
@@ -97,8 +105,9 @@
     },
     "image": { "type": "string" },
     "artwork": { "type": "string" },
-    "ffg": { "type": "integer" },
-    "hyperspace": { "type": "boolean" },
+    "standard": { "type": "boolean" },
+    "wildspace": { "type": "boolean" },
+    "epic": { "type": "boolean" },
     "alt": {
       "type": "array",
       "minItems": 1,
@@ -120,6 +129,75 @@
       },
       "required": ["name", "text"],
       "additionalProperties": false
+    },
+"shipStats": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["agility", "hull", "shields"]
+              },
+              "value": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "required": ["type", "value"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["agility", "hull", "shields", "energy"]
+              },
+              "value": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "recovers": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "required": ["type", "value", "recovers"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["attack"]
+              },
+              "arc": {
+                "type": "string",
+                "enum": [
+                  "Double Turret Arc",
+                  "Full Front Arc",
+                  "Front Arc",
+                  "Bullseye Arc",
+                  "Single Turret Arc",
+                  "Rear Arc",
+                  "Left Arc",
+                  "Right Arc"
+                ]
+              },
+              "value": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": ["type", "value", "arc"],
+            "additionalProperties": false
+          }
+        ]
+      }
     },
     "shipActions": {
       "type": "array",
@@ -181,6 +259,10 @@
       }
     }
   },
-  "required": ["name", "hyperspace"],
+  "required": ["name", "standard", "wildspace", "epic"],
+  "oneOf": [
+    {"required": ["slots"]},
+    {"required": ["standardLoadout"]}
+  ],
   "additionalProperties": false
 }
