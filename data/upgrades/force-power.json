@@ -9,13 +9,14 @@
         "type": "Force Power",
         "ability": "At the start of the Engagement Phase, you may spend 1 [Force]. If you do, engage at initiative 7 instead of your standard initiative value this phase.",
         "slots": ["Force Power"],
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_19.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_19.jpg",
-        "ffg": 248
+        "image": "https://infinitearenas.com/xw2/images/upgrades/heightenedperception.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/heightenedperception.png"
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": true
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Instinctive Aim",
@@ -27,13 +28,14 @@
         "type": "Force Power",
         "ability": "While you perform a special attack, you may spend 1 [Force] to ignore the [Focus] or [Lock] requirement.",
         "slots": ["Force Power"],
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_20.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_20.jpg",
-        "ffg": 249
+        "image": "https://infinitearenas.com/xw2/images/upgrades/instinctiveaim.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/instinctiveaim.png"
       }
     ],
     "cost": { "value": 1 },
-    "hyperspace": true
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Sense",
@@ -45,13 +47,14 @@
         "type": "Force Power",
         "ability": "During the System Phase, you may choose 1 ship at range 0-1 and look at its dial. If you spend 1 [Force], you may choose a ship at range 0-3 instead.",
         "slots": ["Force Power"],
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_21.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_21.jpg",
-        "ffg": 250
+        "image": "https://infinitearenas.com/xw2/images/upgrades/sense.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/sense.png"
       }
     ],
-    "cost": { "value": 6 },
-    "hyperspace": false
+    "cost": { "value": 7 },
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Supernatural Reflexes",
@@ -63,9 +66,8 @@
         "type": "Force Power",
         "ability": "Before you activate, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, suffer 1 [Hit] damage.",
         "slots": ["Force Power"],
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_22.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_22.jpg",
-        "ffg": 251
+        "image": "https://infinitearenas.com/xw2/images/upgrades/supernaturalreflexes.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/supernaturalreflexes.png"
       }
     ],
     "cost": {
@@ -73,7 +75,9 @@
       "values": { "0": 4, "1": 4, "2": 4, "3": 8, "4": 16, "5": 24, "6": 32 }
     },
     "restrictions": [{ "sizes": ["Small"] }],
-    "hyperspace": false
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Brilliant Evasion",
@@ -85,13 +89,14 @@
         "type": "Force Power",
         "ability": "While you defend, if you are not in the attacker's [Bullseye Arc], you may spend 1 [Force] to change 2 of your [Focus] results to [Evade] results.",
         "slots": ["Force Power"],
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/24b175ad35d035f33a35056b0d1d7a36.png",
-        "ffg": 536,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/73bd7872a2c74e0402255f868d9d12bb.jpg"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/brilliantevasion.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/brilliantevasion.png"
       }
     ],
     "cost": { "value": 2 },
-    "hyperspace": false
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Hate",
@@ -103,14 +108,15 @@
         "type": "Force Power",
         "ability": "After you suffer 1 or more damage, recover that many [Force].",
         "slots": ["Force Power"],
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4a10b5c8a3d796116163a741d145f4e9.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a373c947f0a56ee4bcf4223250326dc0.jpg",
-        "ffg": 489
+        "image": "https://infinitearenas.com/xw2/images/upgrades/hate.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/hate.png"
       }
     ],
     "cost": { "value": 4 },
     "restrictions": [{ "force_side": ["dark"] }],
-    "hyperspace": true
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Predictive Shot",
@@ -122,13 +128,14 @@
         "type": "Force Power",
         "ability": "After you declare an attack, if the defender is in your [Bullseye Arc], you may spend 1 [Force]. If you do, during the Roll Defense Dice step, the defender cannot roll more defense dice than the number of your [Hit]/[Critical Hit] results.",
         "slots": ["Force Power"],
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/53ceabb0e2e66e61c077145475b18dab.jpg",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e0100c63b2753daf68a9d3948824b086.png",
-        "ffg": 490
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/predictiveshot.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/predictiveshot.png"
       }
     ],
     "cost": { "value": 1 },
-    "hyperspace": false
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Battle Meditation",
@@ -140,32 +147,34 @@
         "type": "Force Power",
         "ability": "You cannot coordinate limited ships. While you perform a purple [Coordinate] action, you may coordinate 1 additional friendly non-limited ship of the same type. Both ships must perform the same action.",
         "slots": ["Force Power"],
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d0641df31a0fc40c501055dcd34094f6.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/battlemeditation.png",
         "grants": [
           {
             "type": "action",
             "value": { "type": "Coordinate", "difficulty": "Purple" }
           }
         ],
-        "ffg": 545,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e9aed0602a75ddad090820e59036a7fd.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/battlemeditation.png"
       }
     ],
     "cost": {
       "variable": "initiative",
       "values": { "0": 3, "1": 3, "2": 3, "3": 3, "4": 4, "5": 6, "6": 8 }
     },
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
-    "hyperspace": false
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Foresight",
+    "limited": 0,
+    "xws": "foresight",
     "sides": [
       {
-        "ffg": 613,
         "title": "Foresight",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/87b83856576c1d4b7f3036d6008863f6.jpg",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/12c948b9a0fe9f619ecda00f9fdcc437.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/foresight.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/foresight.png",
         "ability": "After an enemy ship executes a maneuver, you may spend 1 [Force] to perform this attack against it as a bonus attack. Attack: You may change 1 [Focus] result to a [Hit] result; your dice cannot be modified otherwise.",
         "slots": ["Force Power"],
         "type": "Force Power",
@@ -179,19 +188,19 @@
       }
     ],
     "cost": { "value": 5 },
-    "hyperspace": true,
-    "xws": "foresight",
-    "limited": 0
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Precognitive Reflexes",
     "limited": 0,
+    "xws": "precognitivereflexes",
     "sides": [
       {
-        "ffg": 614,
         "title": "Precognitive Reflexes",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/7c139cebc9475051506c5b79a98f465a.jpg",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/931c84c3e1b3afe5d078f6b3dd4f677a.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/precognitivereflexes.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/precognitivereflexes.png",
         "ability": "After you reveal your dial, you may spend 1 [Force] to perform a [Barrel Roll] or [Boost] action. Then, if you performed an action you do not have on your action bar, gain 1 strain token. If you do, you cannot perform another action during your activation.",
         "slots": ["Force Power"],
         "type": "Force Power"
@@ -201,89 +210,124 @@
       "variable": "initiative",
       "values": { "0": 3, "1": 3, "2": 3, "3": 4, "4": 7, "5": 10, "6": 13 }
     },
-    "hyperspace": false,
-    "xws": "precognitivereflexes"
+    "restrictions": [{ "sizes": ["Small"] }],
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Extreme Maneuvers",
     "limited": 0,
     "xws": "extrememaneuvers",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform a [Boost] action, you may spend 1 [Force] to use the turn ([Turn Left] or [Turn Right]) template instead.",
         "title": "Extreme Maneuvers",
         "type": "Force Power",
         "slots": ["Force Power"],
-        "ffg": 848,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9fde6e000d6e1d9dd28e3ffb301b9c04.jpg"
+        "image": "https://infinitearenas.com/xw2/images/upgrades/extrememaneuvers.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/extrememaneuvers.png"
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Compassion",
     "limited": 0,
     "xws": "compassion",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "Before another friendly ship at range 0-2 would be dealt a faceup Pilot or Crew damage card, you may spend 1 [Force]. If you do, that damage card is discarded instead, and you are dealt 1 facedown damage card. Then, if you have 2 or more damage cards, recover 2 [Force].",
         "title": "Compassion",
         "type": "Force Power",
         "slots": ["Force Power"],
-        "ffg": 934
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/compassion.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/compassion.png"
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 1 },
+    "restrictions": [{ "force_side": ["light"] }],
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Malice",
     "limited": 0,
     "xws": "malice",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform an attack, you may spend 1 [Force] to change 1 [Focus] or [Hit] result to a [Critical Hit] result. If you do, after you perform that attack, if the defender was dealt 1 or more faceup Pilot or Crew damage cards, recover 2 [Force].",
         "title": "Malice",
         "type": "Force Power",
         "slots": ["Force Power"],
-        "ffg": 935
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/malice.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/malice.png"
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "restrictions": [{ "force_side": ["dark"] }],
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Shattering Shot",
     "limited": 0,
     "xws": "shatteringshot",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "While you perform an attack, if the attack is obstructed by an obstacle or the defender is at range 0 of an obstacle, you may spend 1 [Force] to add 1 [Focus] result.",
         "title": "Shattering Shot",
         "type": "Force Power",
         "slots": ["Force Power"],
-        "ffg": 936
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/shatteringshot.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/shatteringshot.png"
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Patience",
     "limited": 0,
     "xws": "patience",
-    "hyperspace": true,
     "sides": [
       {
         "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Front Arc], you may gain 1 deplete token to recover 1 [Force].",
         "title": "Patience",
         "type": "Force Power",
         "slots": ["Force Power"],
-        "ffg": 849,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/905d768c07c386930b14d1d5f7e74ba4.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/patience.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/patience.png"
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "restrictions": [{ "force_side": ["light"] }],
+    "standard": true,
+    "wildspace": true,
+    "epic": true
+  },
+  {
+    "name": "Roiling Anger",
+    "limited": 0,
+    "xws": "roilinganger-siegeofcoruscant",
+    "sides": [
+      {
+        "title": "Roiling Anger",
+        "type": "Force Power",
+        "ability": "At the start of the Engagement Phase, if you are in an enemy ship's [Front Arc], you may gain 1 strain to recover 1 [Force].",
+        "slots": ["Force Power"]
+      }
+    ],
+    "standard": false,
+    "wildspace": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]

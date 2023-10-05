@@ -3,115 +3,120 @@
     "name": "Agent of the Empire",
     "limited": 1,
     "xws": "agentoftheempire",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "You are a wing leader. Your wingmates must be 2, 3, 4, or 5 TIE/ln fighters. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.",
         "title": "Agent of the Empire",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 732,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/42/fa/42fad53e-0d06-4c35-8427-eba34651791b/swz57_agent-of-the-empire.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f7021137f14e5ee530cd1cc9e5b9264a.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/agentoftheempire.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/agentoftheempire.png"
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Dreadnought Hunter",
     "limited": 2,
     "xws": "dreadnoughthunter",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "While you perform an attack against a huge ship, if the attack deals a faceup damage card to the defender and the defender is in your [Bullseye Arc], you may apply the Precision Shot effect even if you are not in the specified arc.",
         "title": "Dreadnought Hunter",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 735,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/8e/a3/8ea37fba-1307-40f7-838b-1ea77d5ee769/swz57_dreadnought-hunter.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/077db882ed94ceec1150c405bd689c33.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/dreadnoughthunter.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/dreadnoughthunter.png"
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "First Order Elite",
     "limited": 1,
     "xws": "firstorderelite",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "You are a wing leader. Your wingmates must be 2 or 3 TIE/fo fighters or TIE/sf fighters. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.",
         "title": "First Order Elite",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 733,
-        "image": "https://infinitearenas.com/xw2browse/epic/first-order-elite.PNG",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/aa85719e74f86fec8b7232cf901f9f29.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/firstorderelite.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/firstorderelite.png"
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Veteran Wing Leader",
     "limited": 0,
     "xws": "veteranwingleader",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "You are a wing leader. Your wingmates must be 2, 3, 4, or 5 other ships of your ship type. While you defend, up to 2 of your wingmates in the attack arc may suffer 1 [Hit] or [Critical Hit] damage to cancel a matching result.",
         "title": "Veteran Wing Leader",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 734,
-        "image": "https://infinitearenas.com/xw2browse/epic/veteran-wing-leader.PNG",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d40521b56b50feb76368a2233b4da4d9.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/veteranwingleader.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/veteranwingleader.png"
       }
     ],
-    "cost": { "value": 2 }
+    "cost": { "value": 2 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Admiral Ozzel",
     "limited": 1,
     "xws": "admiralozzel",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "While a friendly large or huge ship at range 0-3 executes a maneuver, it may suffer 1 [Hit] damage to execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
         "title": "Admiral Ozzel",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "ffg": 724,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/07/be/07be48c1-8c28-47af-8bee-ea09c08b59ec/swz53_admiral-ozzel.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f5f82fcbc211ffa39f9a213fac643a76.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/admiralozzel.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/admiralozzel.png"
       }
     ],
-    "cost": { "value": 6 }
+    "cost": { "value": 6 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Azmorigan",
     "limited": 1,
     "xws": "azmorigan",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "During the End Phase, you may choose up to 2 friendly ships at range 0-1. If you do, each of these ships does not remove 1 calculate or evade token.",
         "title": "Azmorigan",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "ffg": 725,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/5b/c2/5bc2cc05-bcc4-427a-90ad-039225fa1c87/swz55_azmorigan_card.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4dfc9c0a148c3aac400435771a229870.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/azmorigan.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/azmorigan.png"
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Captain Needa",
     "limited": 1,
     "xws": "captainneeda",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.",
@@ -119,18 +124,19 @@
         "type": "Command",
         "slots": ["Command", "Crew"],
         "charges": { "value": 4, "recovers": 0 },
-        "ffg": 726,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/48/59/48592366-3c7f-49f6-9088-b8f6b7d459b0/swz53_captain-needa.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0583ea3a0143ba8e16ced0d3338f0df1.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/captainneeda.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/captainneeda.png"
       }
     ],
-    "cost": { "value": 8 }
+    "cost": { "value": 8 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Carlist Rieekan",
     "limited": 1,
     "xws": "carlistrieekan",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "After a friendly ship at range 0-2 is destroyed, you may choose a friendly ship at range 0-2. If you do, it may perform a red [Evade] action.",
@@ -143,73 +149,77 @@
             "value": { "type": "Evade", "difficulty": "Red" }
           }
         ],
-        "ffg": 728,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/97/9b/979b69f2-1540-411b-a797-7cbf921f0fcb/swz55_carlist-rieekan_card.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a86c9d037c976d140ae0d6095f39225a.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/carlistrieekan.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/carlistrieekan.png"
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Jan Dodonna",
     "limited": 1,
     "xws": "jandodonna",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "Friendly ships at range 0-3 can spend your focus and evade tokens.",
         "title": "Jan Dodonna",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "ffg": 729,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/1e/b5/1eb5c6d9-dc5c-4fa0-8e58-5153a993d075/swz55_jan-dodonna_card.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/fa6dba670282a19b80dc0e53dec78536.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/jandodonna.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/jandodonna.png"
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Raymus Antilles",
     "limited": 1,
     "xws": "raymusantilles",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "After you are destroyed, each friendly ship at range 0-1 gains 1 focus token. After you are destroyed, you are not removed until the end of the End Phase.",
         "title": "Raymus Antilles",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "ffg": 730,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/ee/ba/eebaaf91-37a3-4d28-9e08-6c421ed496b4/swz55_raymus-antilles_card.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ac03675e91a973a4a31a9b4d380080a6.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/raymusantilles.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/raymusantilles.png"
       }
     ],
-    "cost": { "value": 8 }
+    "cost": { "value": 8 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Stalwart Captain",
     "limited": 1,
     "xws": "stalwartcaptain",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "After you are destroyed, you are not removed until the end of the End Phase.",
         "title": "Stalwart Captain",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "ffg": 731,
-        "image": "https://static.wikia.nocookie.net/xwing-miniatures-second-edition/images/b/bc/Stalwart_Captain.png/revision/latest?cb=20201006040027",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e204e200410fdea80a1e7582db0dcd32.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/stalwartcaptain.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/stalwartcaptain.png"
       }
     ],
-    "cost": { "value": 6 },
-    "restrictions": [{ "sizes": ["Huge"] }]
+    "cost": { "value": 10 },
+    "restrictions": [{ "sizes": ["Huge"] }],
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Strategic Commander",
     "limited": 1,
     "xws": "strategiccommander",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "After a friendly ship at range 0-4 reveals its dial, you may spend 1 [Charge]. If you do, it sets its dial to another maneuver of the same difficulty and speed.",
@@ -217,242 +227,260 @@
         "type": "Command",
         "slots": ["Command", "Crew"],
         "charges": { "value": 3, "recovers": 0 },
-        "ffg": 727,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/5e/b5/5eb5591f-95b5-4fd1-9371-f5c819200dc9/swz53_strategic-commander_card.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/strategiccommander.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/strategiccommander.png"
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "sizes": ["Huge"] }]
+    "restrictions": [{ "sizes": ["Huge"] }],
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Jedi Commander",
     "limited": 0,
     "xws": "jedicommander",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 V-19 Torrents or 2-5 Nimbus-class V-wings. After you are placed, flip this card.",
         "title": "Jedi Commander",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 835,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/04b5550c3226ede7611fcf46a0c6253f.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/jedicommander.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/jedicommander.png"
       },
       {
         "ability": "While your wingmates execute purple maneuvers, they treat those maneuvers as red, instead. While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
         "title": "Jedi Commander",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 834,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/fd/1f/fd1ff8be-72b9-4c61-b5cc-7b892c7244e3/swz79_jedi-commander2.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/04b5550c3226ede7611fcf46a0c6253f.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/jedicommander-sideb.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/jedicommander-sideb.png"
       }
     ],
     "cost": { "value": 4 },
     "restrictions": [
-      { "factions": ["Galactic Republic"] },
+      { "factions": ["galacticrepublic"] },
       { "ships": ["delta7aethersprite", "eta2actis"] }
-    ]
+    ],
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "B6 Blade Wing Prototype",
     "limited": 1,
     "xws": "b6bladewingprototype-command",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "Add [Gunner] slot. Attack ([Lock]): Gain 1 ion token to perform this attack. If this attack hits, the defender suffers 1 additional [Hit]/[Critical Hit] damage for each matching uncanceled result after the first.",
         "title": "B6 Blade Wing Prototype",
         "type": "Command",
         "slots": ["Command", "Title"],
-        "ffg": 903,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/71fe49e6d10dc74321a0a96f0b2f64e6.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/b6bladewingprototype-command.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/b6bladewingprototype-command.png"
       }
     ],
     "cost": { "value": 4 },
     "restrictions": [
-      { "factions": ["Rebel Alliance"] },
+      { "factions": ["rebelalliance"] },
       { "ships": ["asf01bwing"] }
-    ]
+    ],
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Bounty",
     "limited": 0,
     "xws": "bounty",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You can be included in Separatist, Imperial, and First Order squads. After you perform an attack, if the defender was a limited ship and was destroyed, you may recover 1 [Charge] on your ship card and each of your upgrade cards. Then flip this card.",
         "title": "Bounty (Hired)",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 905,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/6877dc90b8296a93c3fc9129d5087020.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/bounty.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/bounty.png"
       },
       {
         "text": "Bounty hunting is a complicated profession. Any assassin can kill, but the best hunters are renowned for their ability to bring a mark in alive, as doing so is more difficult but invariably commands a much greater reward.",
         "title": "Bounty (Paid)",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 904,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4502e115fb501138e161b28b0d3f0474.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/bounty-sideb.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/bounty-sideb.png"
       }
     ],
-    "cost": { "value": 1 }
+    "cost": { "value": 1 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Phoenix Squadron",
     "limited": 1,
     "xws": "phoenixsquadron",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 of the following: 0-1 Attack Shuttle 0-1 Sheathipede-class Shuttle 0-5 RZ-1 A-wings After you are placed, flip this card.",
         "title": "Phoenix Squadron",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 909,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/554a0d6690a6a3c4a175b1f363084670.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/phoenixsquadron.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/phoenixsquadron.png"
       },
       {
         "ability": "At the start of the Planning Phase, 1 of your wingmates that is docked with you may join your wing without gaining a stress token. While you or your Attack Shuttle wingmate or Sheathipede-class wingmate defends, up to 2 of your RZ-1 A-wing wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
         "title": "Phoenix Squadron",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 908,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/554a0d6690a6a3c4a175b1f363084670.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/phoenixsquadron-sideb.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/phoenixsquadron-sideb.png"
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Shadow Wing",
     "limited": 1,
     "xws": "shadowwing",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 other ships of your type. After you are placed, flip this card.",
         "title": "Shadow Wing",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 911,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8842d1539a912e7ae3b011bfdb4bbe0a.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/shadowwing.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/shadowwing.png"
       },
       {
         "ability": "Your wingmates can perform [Barrel Roll] or [Boost] actions. If they do, they voluntarily split from the wing. While you defend, up to 2 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
         "title": "Shadow Wing",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 910,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8842d1539a912e7ae3b011bfdb4bbe0a.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/shadowwing-sideb.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/shadowwing-sideb.png"
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Skystrike Academy Class",
     "limited": 2,
     "xws": "skystrikeacademyclass",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You are a wing leader. Your wingmates must be 2-5 TIE/ln Fighters with initiative lower than yours. After you are placed, flip this card.",
         "title": "Skystrike Academy Class",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 913,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b24e79586085204391faa4d4b3d1f4c.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/skystrikeacademyclass.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/skystrikeacademyclass.png"
       },
       {
         "ability": "After you barrel roll or boost, each of your wingmates is forced to split from the wing. While you defend, up to 5 of your wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
         "title": "Skystrike Academy Class",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 912,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b24e79586085204391faa4d4b3d1f4c.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/skystrikeacademyclass-sideb.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/skystrikeacademyclass-sideb.png"
       }
     ],
-    "cost": { "value": 3 }
+    "cost": { "value": 3 },
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
-    "name": "In It For The Money/Rebellion",
+    "name": "In It For The Money",
     "limited": 0,
-    "xws": "initforthemoneyrebellion",
-    "hyperspace": false,
+    "xws": "initforthemoney",
     "sides": [
       {
         "ability": "Setup: Equip this side faceup. You can be included in Republic, Rebel, and Resistance squads. After an allied limited ship in your squad is destroyed, gain 1 focus token and flip this card.",
         "title": "In It For The Money",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 907,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/26e935cc224ffd02de5e797faa5685c6.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/initforthemoneyrebellion.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/initforthemoneyrebellion.png"
       },
       {
         "ability": "Non-Scum ships in your squad are treated as friendly instead of allied.",
         "title": "In It For Your Rebellion",
         "type": "Command",
         "slots": ["Command"],
-        "ffg": 906,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/977af5c5c1604a9e45cd040408f5e482.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/initforthemoneyrebellion-sideb.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/initforthemoneyrebellion-sideb.png"
       }
     ],
     "cost": { "value": 1 },
     "restrictions": [
-      { "factions": ["Scum and Villainy"] },
+      { "factions": ["scumandvillainy"] },
       { "standardized": true },
       { "non-limited": false }
-    ]
+    ],
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Mar Tuuk",
     "limited": 1,
     "xws": "martuuk",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "Setup: After placing forces, choose 1 friendly wing of ships with [Calculate] on their action bars and place that wing in reserve. During the End Phase, you may place that wing within your deployment area or beyond range 2 of any enemy shp. Then you may choose 1 enemy ship at range 0-1 of you; each ship in that wing acquires a lock on it.",
         "title": "Mar Tuuk",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "ffg": 727,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/martuuk.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/martuuk.png"
       }
     ],
     "cost": { "value": 4 },
     "restrictions": [
-      { "factions": ["Separatist Alliance"] },
+      { "factions": ["separatistalliance"] },
       { "sizes": ["Huge"] }
-    ]
+    ],
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Riff Tamson",
     "limited": 1,
     "xws": "rifftamson",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "During the Engagement Phase, at initiative 5, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack. After you perform an attack, if the defender was dealt 1 or more faceup damage cards, it gains 2 strain tokens.",
         "title": "Riff Tamson",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "ffg": 727,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/rifftamson.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/rifftamson.png"
       }
     ],
     "cost": { "value": 6 },
     "restrictions": [
-      { "factions": ["Separatist Alliance"] },
+      { "factions": ["separatistalliance"] },
       { "sizes": ["Huge"] }
-    ]
+    ],
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Asajj Ventress",
     "limited": 1,
     "xws": "asajjventresscommand",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "During the System Phase, you may spend 1 [Force]. IF you do, each enemy ship in your [Front Arc] at range 0-1 gains 1 strain token unless it chooses to gain 1 jam token.",
@@ -470,39 +498,43 @@
           },
           { "type": "force", "value": { "side": ["dark"] }, "amount": 1 }
         ],
-        "ffg": 727,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/asajjventresscommand.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/asajjventresscommand.png"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 8 },
     "restrictions": [
-      { "factions": ["Separatist Alliance", "Scum and Villainy"] },
+      { "factions": ["separatistalliance", "scumandvillainy"] },
       { "sizes": ["Huge"] }
-    ]
+    ],
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Zealous Captain",
     "limited": 1,
     "xws": "zealouscaptain",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "During the Engagement Phase, at initiative 4, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack.",
         "title": "Zealous Captain",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "ffg": 727,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/zealouscaptain.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/zealouscaptain.png"
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Huge"] }]
+    "restrictions": [{ "sizes": ["Huge"] }],
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "Hondo Ohnaka",
     "limited": 1,
     "xws": "hondoohnakacommand",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "During the System Phase, you may spend 1 [Charge] and choose 1 friendly ship at range 0-1. Move 1 Victory Token or Objective Token from its ship card to your ship card, or from your ship card to its ship card.",
@@ -520,34 +552,61 @@
             }
           }
         ],
-        "ffg": 123,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/hondoohnakacommand.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/hondoohnakacommand.png"
       }
     ],
-    "cost": { "value": 7 },
+    "cost": { "value": 6 },
     "restrictions": [
       { "sizes": ["Huge"] }
-    ]
+    ],
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   },
   {
     "name": "General Grievous",
     "limited": 1,
     "xws": "generalgrievouscommand",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "During the Engagement Phase, at initiative 4, you may spend 1 [Energy] to perform a bonus [Hardpoint] attack. You can perform attacks against friendly ships. After you perform an attack, if the defender was destroyed, each friendly ship at range 0-2 of it may perform a [Calculate] action.",
         "title": "General Grievous",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "ffg": 123,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/14ae4cbb0383462f172497c35890440e.jpg"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/generalgrievouscommand.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/generalgrievouscommand.png"
       }
     ],
     "cost": { "value": 5 },
     "restrictions": [
       { "sizes": ["Huge"] },
-      { "factions": ["Separatist Alliance"] }
-    ]
+      { "factions": ["separatistalliance"] }
+    ],
+    "standard": false,
+    "wildspace": false,
+    "epic": true
+  },
+  {
+    "name": "Combat Boarding Tube",
+    "limited": 0,
+    "xws": "combatboardingtube",
+    "sides": [
+      {
+        "ability": "During the System Phase, if you would drop a [Crew] remote and there is an enemy medium, large, or huge ship at range 0-1 in your [Rear Arc], you may place that device in the play area in your [Rear Arc] at range 0-1 so that it is at range 0 of that enemy ship instead. Then, that enemy ship gains 1 deplete, strain, or stress token of your choice.",
+        "title": "Combat Boarding Tube",
+        "type": "Command",
+        "slots": ["Command", "Configuration"],
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/combatboardingtube.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/combatboardingtube.png"
+      }
+    ],
+    "cost": { "value": "0" },
+    "restrictions": [
+      { "ships": ["gauntletfighter"] }
+    ],
+    "standard": false,
+    "wildspace": false,
+    "epic": true
   }
 ]

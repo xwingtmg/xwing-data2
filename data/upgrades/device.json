@@ -7,7 +7,7 @@
       {
         "title": "Bomblet Generator",
         "type": "Device",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Bomblet with the [1 [Straight]] template. At the start of the Activation Phase, you may spend 1 shield to recover 2 [Charge].",
         "slots": ["Device", "Device"],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
@@ -15,13 +15,39 @@
           "type": "Bomb",
           "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 2 attack dice. Each ship or remote suffers 1 [Hit] damage for each [Hit]/[Critical Hit] result."
         },
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_63.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_63.jpg",
-        "ffg": 392
+        "image": "https://infinitearenas.com/xw2/images/upgrades/bombletgenerator.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/bombletgenerator.png"
       }
     ],
-    "cost": { "value": 2 },
-    "hyperspace": false
+    "cost": { "value": 3 },
+    "standard": true,
+    "wildspace": true,
+    "epic": true
+  },
+  {
+    "name": "Blazer Bomb",
+    "limited": 0,
+    "xws": "blazerbomb",
+    "sides": [
+      {
+        "title": "Blazer Bomb",
+        "type": "Device",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Blazer Bomb using the [1 [Straight]] template.",
+        "slots": ["Device"],
+        "charges": { "value": 1, "recovers": 0 },
+        "device": {
+          "name": "Blazer Bomb",
+          "type": "Bomb",
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 rolls 1 attack die. Each ship or remote suffers 1 [Hit] damage for each [Hit]/[Critical Hit] result. After this device detonates, place a Blaze by aligning the Blaze's guides to the device's tab. A Blaze is an obstacle. After this obstacle is placed, place a fuse marker on it. During the End Phase, remove each Blaze with no fuse markers, then remove one fuse marker from each Blaze."
+        },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/blazerbomb.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/blazerbomb.png"
+      }
+    ],
+    "cost": { "value": 4 },
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Conner Nets",
@@ -31,7 +57,7 @@
       {
         "title": "Conner Nets",
         "type": "Device",
-        "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Conner Net using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": ["Device"],
         "charges": { "value": 1, "recovers": 0 },
         "device": {
@@ -39,13 +65,14 @@
           "type": "Mine",
           "effect": "After a ship overlaps or moves through this device, it detonates. When this device detonates, the ship suffers 1 [Hit] damage and gains 3 ion tokens."
         },
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_64.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_64.jpg",
-        "ffg": 393
+        "image": "https://infinitearenas.com/xw2/images/upgrades/connernets.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/connernets.png"
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": true
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Proton Bombs",
@@ -55,8 +82,8 @@
       {
         "title": "Proton Bombs",
         "type": "Device",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb using the [1 [Straight]] template.",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_65.png",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb using the [1 [Straight]] template.",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/protonbombs.png",
         "slots": ["Device"],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
@@ -64,12 +91,13 @@
           "type": "Bomb",
           "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-1 suffers 1 [Critical Hit] damage."
         },
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_65.jpg",
-        "ffg": 394
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/protonbombs.png"
       }
     ],
     "cost": { "value": 4 },
-    "hyperspace": false
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Proximity Mines",
@@ -79,7 +107,7 @@
       {
         "title": "Proximity Mines",
         "type": "Device",
-        "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "slots": ["Device"],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
@@ -87,13 +115,14 @@
           "type": "Mine",
           "effect": "After a ship overlaps or moves through this device, it detonates. When this device detonates, that ship rolls 2 attack dice. That ship then suffers 1 [Hit] damage plus 1 [Hit]/[Critical Hit] damage for each matching result."
         },
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_66.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_66.jpg",
-        "ffg": 395
+        "image": "https://infinitearenas.com/xw2/images/upgrades/proximitymines.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/proximitymines.png"
       }
     ],
     "cost": { "value": 6 },
-    "hyperspace": false
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Seismic Charges",
@@ -103,21 +132,22 @@
       {
         "title": "Seismic Charges",
         "type": "Device",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge with the [1 [Straight]] template.",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Upgrade_67.png",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge with the [1 [Straight]] template.",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/seismiccharges.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/seismiccharges.png",
         "slots": ["Device"],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Seismic Charge",
           "type": "Bomb",
           "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, choose 1 obstacle at range 0-1. Each ship and remote at range 0-1 of the obstacle suffers 1 [Hit] damage. Then remove that obstacle."
-        },
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_U_67.jpg",
-        "ffg": 396
+        }
       }
     ],
     "cost": { "value": 3 },
-    "hyperspace": false
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "DRK-1 Probe Droids",
@@ -128,7 +158,8 @@
         "title": "DRK-1 Probe Droids",
         "type": "Device",
         "ability": "During the End Phase, you may spend 1 [Charge] to drop or launch 1 DRK-1 probe droid using a speed 3 template. This card's [Charge] cannot be recovered.",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/44556cd042e536b41e7e89850e13081a.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/drk1probedroids.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/drk1probedroids.png",
         "slots": ["Device"],
         "charges": { "value": 2, "recovers": 0 },
         "device": {
@@ -140,15 +171,15 @@
             { "type": "agility", "value": 3 },
             { "type": "hull", "value": 1 }
           ],
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/d1/a7/d1a70245-95d9-4d20-931f-3cadd8a11ed8/swz30_probe-card.png"
-        },
-        "ffg": 541,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a69a3f1075a711b57cf7459e51647a7a.jpg"
+          "image": "https://infinitearenas.com/xw2/images/remotes/drk1probedroid.png"
+        }
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Separatist Alliance"] }],
-    "hyperspace": true
+    "restrictions": [{ "factions": ["separatistalliance"] }],
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Electro-Proton Bomb",
@@ -158,37 +189,36 @@
       {
         "title": "Electro-Proton Bomb",
         "type": "Device",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop an Electro-Proton Bomb with the [1 [Straight]] template. Then place 1 fuse marker on that device. This card's [Charge] cannot be recovered.",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/0f76484cc390fc97d1fe2f863d75944b.png",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop an Electro-Proton Bomb with the [1 [Straight]] template. Then place 1 fuse marker on that device. This card's [Charge] cannot be recovered.",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/electroprotonbomb.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/electroprotonbomb.png",
         "slots": ["Device", "Modification"],
         "charges": { "value": 1, "recovers": 0 },
         "device": {
           "name": "Electro-Proton Bomb",
           "type": "Bomb",
           "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0-2 rolls 4 attack dice. Each ship loses 1 shield for each blank result, gains 1 ion token for each [Focus]/[Hit] result, and gains 1 disarm token for each [Crit] result. Each remote at range 0-1 loses 1 shield for each blank result and suffers 1 damage for each [Focus]/[Hit] result."
-        },
-        "ffg": 591,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/215f5298b9917bd57db474a38139ba08.jpg"
+        }
       }
     ],
-    "hyperspace": false,
     "cost": { "value": 8 },
-    "restrictions": [{ "action": { "type": "Reload", "difficulty": "White" } }]
+    "restrictions": [{ "action": { "type": "Reload", "difficulty": "White" } }],
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Cluster Mines",
     "limited": 0,
     "xws": "clustermines",
-    "hyperspace": true,
     "sides": [
       {
         "title": "Cluster Mines",
         "type": "Device",
         "slots": ["Device"],
-        "ffg": 648,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/aea6bdafa5066a040a8929d6eb46499a.jpg",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c27f0dcda78915239450bedf5b931d86.png",
-        "ability": "Mine During the System Phase, you may spend 1 [Charge] to drop a Cluster Mine set using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/clustermines.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/clustermines.png",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop a Cluster Mine set using the [1 [Straight]] template. This card's [Charge] cannot be recovered.",
         "charges": { "value": 1, "recovers": 0 },
         "device": {
           "name": "Cluster Mine",
@@ -197,22 +227,23 @@
         }
       }
     ],
-    "cost": { "value": 7 }
+    "cost": { "value": 7 },
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Ion Bombs",
     "limited": 0,
     "xws": "ionbombs",
-    "hyperspace": false,
     "sides": [
       {
         "title": "Ion Bombs",
         "type": "Device",
         "slots": ["Device"],
-        "ffg": 649,
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f69c5ecaca9ab01380f6329e49970ddf.jpg",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e4c43791c16aea639f2e811c16d1dbcf.png",
-        "ability": "Bomb During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the [1 [Straight]] template.",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ionbombs.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/ionbombs.png",
+        "ability": "During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using the [1 [Straight]] template.",
         "charges": { "value": 2, "recovers": 0 },
         "device": {
           "name": "Ion Bomb",
@@ -221,17 +252,22 @@
         }
       }
     ],
-    "cost": { "value": 4 }
+    "cost": { "value": 4 },
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
+    "name": "Concussion Bombs",
+    "limited": 0,
+    "xws": "concussionbombs",
     "sides": [
       {
-        "ffg": 690,
         "title": "Concussion Bombs",
         "type": "Device",
         "slots": ["Device"],
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/960df489d295d30765d019cf42a1f450.jpg",
-        "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3b836493f5b17c47e44807c283bc4b04.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/concussionbombs.png",
+        "image": "https://infinitearenas.com/xw2/images/upgrades/concussionbombs.png",
         "ability": "During the System Phase, if any of this card's [Charge] are inactive, you must spend 1 [Charge] to drop 1 concussion bomb using the [1 [Straight]] template, if able. Otherwise, you may spend 1 [Charge] to drop 1 concussion bomb.",
         "charges": { "value": 3, "recovers": 0 },
         "device": {
@@ -241,34 +277,34 @@
         }
       }
     ],
-    "name": "Concussion Bombs",
     "cost": { "value": 4 },
-    "limited": 0,
-    "xws": "concussionbombs",
-    "hyperspace": true
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   },
   {
     "name": "Thermal Detonators",
     "limited": 0,
     "xws": "thermaldetonators",
-    "hyperspace": true,
     "sides": [
       {
-        "ability": "Bomb During the System Phase, you may spend up to 2 [Charge] to drop that many Thermal Detonators using the [1 [Straight]] or [2 [Straight]] template. Each must be placed using a different template. When you reload this card, recover 1 additional [Charge].",
+        "ability": "During the System Phase, you may spend up to 2 [Charge] to drop that many Thermal Detonators using the [1 [Straight]] or [2 [Straight]] template. Each must be placed using a different template. When you reload this card, recover 1 additional [Charge].",
         "title": "Thermal Detonators",
         "type": "Device",
         "slots": ["Device"],
         "charges": { "value": 4, "recovers": 0 },
-        "ffg": 864,
-        "image": "https://images-cdn.fantasyflightgames.com/filer_public/52/bf/52bff580-897d-4af0-9084-5088765babf0/swz80_upgrade_thermal-detonators.png",
-        "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/79c228aa933ae9970641262f6352ac4a.jpg",
-        "device" : {
-          "name" : "Thermal Detonators",
-          "type" : "Bomb",
-          "effect" : "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0–1 rolls 1 attack die. Each ship gains 1 strain token for each [Focus] result, and each ship and remote suffers 1 [Hit]/[Crit] damage for each matching result."
+        "image": "https://infinitearenas.com/xw2/images/upgrades/thermaldetonators.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/thermaldetonators.png",
+        "device": {
+          "name": "Thermal Detonators",
+          "type": "Bomb",
+          "effect": "At the end of the Activation Phase, this device detonates. When this device detonates, each ship and remote at range 0–1 rolls 1 attack die. Each ship gains 1 strain token for each [Focus] result, and each ship and remote suffers 1 [Hit]/[Crit] damage for each matching result."
           }
       }
     ],
-    "cost": { "value": 5 }
+    "cost": { "value": 5 },
+    "standard": true,
+    "wildspace": true,
+    "epic": true
   }
 ]
