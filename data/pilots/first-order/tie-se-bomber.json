@@ -2,7 +2,6 @@
   "name": "TIE/se Bomber",
   "xws": "tiesebomber",
   "size": "Small",
-  "ffg": 87,
   "dial": [
     "1TR",
     "1BW",
@@ -24,7 +23,7 @@
     "4FW"
   ],
   "dialCodes": ["Tse"],
-  "faction": "First Order",
+  "faction": "firstorder",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
     { "type": "agility", "value": 2 },
@@ -48,7 +47,7 @@
   ],
   "pilots": [
     {
-      "name": "\"Breach\"",
+      "name": "“Breach”",
       "xws": "breach",
       "initiative": 5,
       "limited": 1,
@@ -56,8 +55,9 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
-      "cost": 36,
+      "standard": true,
+      "wildspace": true,
+      "cost": 37,
       "slots": [
         "Talent",
         "Tech",
@@ -69,14 +69,14 @@
         "Modification"
       ],
       "ability": "After you fully execute a maneuver or perform a [Boost] action, if you moved through an enemy ship, you may acquire a lock on that ship.",
-      "ffg": 913,
-      "artwork": "???",
-      "image": "???",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/breach.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/breach.png",
       "caption": "Ordnance Expert",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Scorch\"",
+      "name": "“Scorch”",
       "xws": "scorch-tiesebomber",
       "initiative": 4,
       "limited": 1,
@@ -84,8 +84,9 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
-      "cost": 35,
+      "standard": true,
+      "wildspace": true,
+      "cost": 34,
       "slots": [
         "Talent",
         "Tech",
@@ -97,14 +98,14 @@
         "Modification"
       ],
       "ability": "While a friendly ship at range 0-1 performs a primary attack, it may spend 1 [Hit] result. If it does, after defending, the defender gains 1 strain token.",
-      "ffg": 914,
-      "artwork": "???",
-      "image": "???",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scorch-tiesebomber.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/scorch_tiesebomber.png",
       "caption": "Jad Bean",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Dread\"",
+      "name": "“Dread”",
       "xws": "dread",
       "initiative": 3,
       "limited": 1,
@@ -112,9 +113,11 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
+      "standard": true,
+      "wildspace": true,
       "cost": 32,
       "slots": [
+        "Talent",
         "Tech",
         "Torpedo",
         "Missile",
@@ -124,14 +127,14 @@
         "Modification"
       ],
       "ability": "After you reload, each ship in your [Bullseye Arc] gains 1 deplete token.",
-      "ffg": 915,
-      "artwork": "???",
-      "image": "???",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dread.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/dread.png",
       "caption": "Devotee of Devastation",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Grudge\"",
+      "name": "“Grudge”",
       "xws": "grudge",
       "initiative": 2,
       "limited": 1,
@@ -139,8 +142,9 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
-      "cost": 36,
+      "standard": true,
+      "wildspace": true,
+      "cost": 38,
       "slots": [
         "Tech",
         "Torpedo",
@@ -151,11 +155,11 @@
         "Modification"
       ],
       "ability": "While a friendly bomb or mine at range 0-2 detonates, each time attack dice are rolled to resolve its effect, you may reroll up to 1 of those dice.",
-      "ffg": 916,
-      "artwork": "???",
-      "image": "???",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/grudge.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/grudge.png",
       "caption": "Hateful Harrier",
-      "keywords": ["TIE"]
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "First Order Cadet",
@@ -166,7 +170,8 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
+      "standard": true,
+      "wildspace": true,
       "cost": 32,
       "slots": [
         "Talent",
@@ -179,10 +184,10 @@
         "Modification"
       ],
       "text": "The live-fire exercises of the First Order are intended to root out the weak, enforcing the maxim that only the strong survive.",
-      "ffg": 917,
-      "artwork": "???",
-      "image": "???",
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/firstordercadet.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/firstordercadet.png",
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Sienar-Jaemus Test Pilot",
@@ -193,7 +198,8 @@
         "name": "Pursuit Thrusters",
         "text": "During the System Phase, you may perform a [Boost] action."
       },
-      "hyperspace": true,
+      "standard": true,
+      "wildspace": true,
       "cost": 31,
       "slots": [
         "Tech",
@@ -205,11 +211,41 @@
         "Modification"
       ],
       "text": "Equipped with four laser cannons and advanced systems, the TIE/se bomber is a remarkably maneuverable craft that brings devastating ordnance to bear against any who dare to stand against the First Order.",
-      "ffg": 918,
-      "artwork": "???",
-      "image": "???",
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sienarjaemustestpilot.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/sienarjaemustestpilot.png",
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Jul Jerjerrod",
+      "xws": "juljerjerrod",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Pursuit Thrusters",
+        "text": "During the System Phase, you may perform a [Boost] action."
+      },
+      "standard": true,
+      "wildspace": true,
+      "cost": 34,
+      "slots": [
+        "Talent",
+        "Tech",
+        "Torpedo",
+        "Missile",
+        "Gunner",
+        "Device",
+        "Device",
+        "Modification"
+      ],
+      "ability": "After you perform a [Boost] action, you may spend 1 [Charge] to remove 1 non-lock red or orange token.",
+      "charges": { "value": 2, "recovers": 0 },
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/juljerjerrod.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/juljerjerrod.png",
+      "caption": "Security Commander",
+      "keywords": ["TIE"],
+      "epic": true
     }
   ],
-  "icon": "???"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_TIEseBomber.png"
 }

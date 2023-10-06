@@ -1,7 +1,6 @@
 {
   "name": "TIE/ba Interceptor",
   "xws": "tiebainterceptor",
-  "ffg": 70,
   "size": "Small",
   "dial": [
     "1TB",
@@ -25,7 +24,7 @@
     "5KR"
   ],
   "dialCodes": ["VT"],
-  "faction": "First Order",
+  "faction": "firstorder",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
     { "type": "agility", "value": 3 },
@@ -39,7 +38,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Vonregs-First-Order-TIE-Interceptor.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_Vonregs-First-Order-TIE-Interceptor.png",
   "pilots": [
     {
       "name": "Major Vonreg",
@@ -54,18 +53,19 @@
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
       "slots": ["Talent", "Tech", "Missile", "Modification"],
-      "hyperspace": true,
-      "ffg": 624,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/4d8fdab1a5317159fcd56f722b6d73e5.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e95d46ad3a22ad0790cfd18a7e10cf81.png",
-      "keywords": ["TIE"]
+      "standard": true,
+      "wildspace": true,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorvonreg.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/majorvonreg.png",
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Holo\"",
+      "name": "“Holo”",
       "caption": "Trick of the Light",
       "initiative": 5,
       "limited": 1,
-      "cost": 53,
+      "cost": 52,
       "xws": "holo",
       "ability": "At the start of the Engagement Phase, you must transfer 1 of your tokens to another friendly ship at range 0-2.",
       "shipAbility": {
@@ -73,18 +73,19 @@
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
       "slots": ["Talent", "Tech", "Missile", "Modification"],
-      "hyperspace": true,
-      "ffg": 625,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/61d81abede1ce312b0de7d16623c2e60.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/ee53482be8e59ff44f272e76c4e8123d.png",
-      "keywords": ["TIE"]
+      "standard": true,
+      "wildspace": true,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/holo.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/holo.png",
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Ember\"",
+      "name": "“Ember”",
       "caption": "Dying Flame",
       "initiative": 4,
       "limited": 1,
-      "cost": 45,
+      "cost": 44,
       "xws": "ember",
       "ability": "While you perform an attack, if there is a damaged ship friendly to the defender at range 0-1 of the defender, the defender cannot spend focus or calculate tokens.",
       "shipAbility": {
@@ -92,11 +93,12 @@
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
       "slots": ["Talent", "Tech", "Missile", "Modification"],
-      "hyperspace": true,
-      "ffg": 626,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/47fd0abc0fa4cea1508a800e75d18ebe.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4de956edddeacb92ef3e4f94e0a63db3.png",
-      "keywords": ["TIE"]
+      "standard": true,
+      "wildspace": true,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ember.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/ember.png",
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "First Order Provocateur",
@@ -110,11 +112,12 @@
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
       "slots": ["Talent", "Tech", "Missile", "Modification"],
-      "hyperspace": false,
-      "ffg": 627,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/947aa948233f6a5fe5833dcf45cf8f01.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c834c2c4722b60e67292130d40c7ec19.png",
-      "keywords": ["TIE"]
+      "standard": true,
+      "wildspace": true,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/firstorderprovocateur.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/firstorderprovocateur.png",
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }
