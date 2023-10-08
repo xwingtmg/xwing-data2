@@ -24,7 +24,7 @@
     "5KR"
   ],
   "dialCodes": ["SIn"],
-  "faction": "Separatist Alliance",
+  "faction": "separatistalliance",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
     { "type": "agility", "value": 1 },
@@ -36,7 +36,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_SithInfiltrator.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_SithInfiltrator.png",
   "pilots": [
     {
       "name": "Darth Maul",
@@ -46,9 +46,10 @@
       "xws": "darthmaul",
       "force": { "value": 3, "recovers": 1, "side": ["dark"] },
       "ability": "After you perform an attack, you may spend 2 [Force] to perform a bonus primary attack against a different target. If your attack missed, you may perform that bonus primary attack against the same target instead.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/95428161db7de4adcea6fa8bcbf9de2f.png",
-      "hyperspace": false,
-      "cost": 64,
+      "image": "https://infinitearenas.com/xw2/images/pilots/darthmaul.png",
+      "standard": true,
+      "wildspace": true,
+      "cost": 62,
       "slots": [
         "Cannon",
         "Torpedo",
@@ -60,9 +61,9 @@
         "Force Power",
         "Tactical Relay"
       ],
-      "ffg": 503,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/04b1c1fea3735eb844455dd3278346d0.jpg",
-      "keywords": ["Dark Side", "Sith"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthmaul.png",
+      "keywords": ["Dark Side", "Sith"],
+      "epic": true
     },
     {
       "name": "Count Dooku",
@@ -72,9 +73,10 @@
       "xws": "countdooku",
       "force": { "value": 3, "recovers": 1, "side": ["dark"] },
       "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Force] to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 [Force] to perform an action.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/88959087710ec5a80a16dd93573f149d.png",
-      "hyperspace": false,
-      "cost": 63,
+      "image": "https://infinitearenas.com/xw2/images/pilots/countdooku.png",
+      "standard": true,
+      "wildspace": true,
+      "cost": 60,
       "slots": [
         "Cannon",
         "Torpedo",
@@ -86,9 +88,9 @@
         "Force Power",
         "Tactical Relay"
       ],
-      "ffg": 504,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/65eabe68c7d1ae072442d8c8808414db.jpg",
-      "keywords": ["Dark Side", "Sith"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
+      "keywords": ["Dark Side", "Sith"],
+      "epic": true
     },
     {
       "name": "Dark Courier",
@@ -96,9 +98,10 @@
       "limited": 0,
       "xws": "darkcourier",
       "text": "The vessel called the Scimitar was heavily modified, equipped with stealth technologies and advanced surveillance devices for infiltration and assassination missions.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/132f1957b904c890b94bf3aaf2a944ce.png",
-      "hyperspace": true,
-      "cost": 50,
+      "image": "https://infinitearenas.com/xw2/images/pilots/darkcourier.png",
+      "standard": true,
+      "wildspace": true,
+      "cost": 45,
       "slots": [
         "Cannon",
         "Torpedo",
@@ -109,13 +112,13 @@
         "Title",
         "Tactical Relay"
       ],
-      "ffg": 506,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8b9c158df033daab2ea6acecd29c5c0d.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darkcourier.png",
+      "epic": true
     },
     {
       "name": "0-66",
       "xws": "066",
-      "cost": 49,
+      "cost": 46,
       "slots": [
         "Talent",
         "Torpedo",
@@ -127,21 +130,79 @@
         "Title",
         "Modification"
       ],
-      "ffg": 505,
       "caption": "Sinister Automaton",
       "initiative": 3,
       "limited": 1,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c0a65aa29f085d517d907bc7799e4146.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/9edd9bb6846e77723d8f0381bb7909aa.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/066.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/066.png",
       "ability": "After you defend, you may spend 1 calculate token to perform an action.",
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
         { "difficulty": "White", "type": "Lock" },
         { "difficulty": "Red", "type": "Barrel Roll" }
       ],
-      "hyperspace": false,
-      "keywords": ["Droid"]
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Droid"],
+      "epic": true
+    },
+    {
+      "name": "Count Dooku",
+      "caption": "Siege of Coruscant",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 75,
+      "xws": "countdooku-siegeofcoruscant",
+      "ability": "During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Jam" },
+        { "difficulty": "Red", "type": "Barrel Roll" },
+        { "difficulty": "Red", "type": "Cloak" }
+      ],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/countdooku-siegeofcoruscant.png",
+      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "standardLoadout": ["malice", "roilinganger-siegeofcoruscant", "scimitar"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
+      "standard": false,
+      "wildspace": true,
+      "keywords": ["Dark Side", "Sith"],
+      "epic": true
+    },
+    {
+      "name": "Count Dooku",
+      "caption": "Siege of Coruscant",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 64,
+      "xws": "countdooku-siegeofcoruscant-lsl",
+      "ability": "During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Jam" },
+        { "difficulty": "Red", "type": "Barrel Roll" },
+        { "difficulty": "Red", "type": "Cloak" }
+      ],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/countdooku-siegeofcoruscant.png",
+      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "slots": [
+        "Cannon",
+        "Torpedo",
+        "Crew",
+        "Crew",
+        "Device",
+        "Modification",
+        "Title",
+        "Force Power",
+        "Tactical Relay"
+      ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Dark Side", "Sith"],
+      "epic": true
     }
-  ],
-  "ffg": 60
+  ]
 }
