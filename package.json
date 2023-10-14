@@ -1,8 +1,9 @@
 {
-  "name": "xwing-data2",
+  "name": "xwing-data2-legacy",
   "version": "3.0.0",
-  "repository": "git@github.com:guidokessels/xwing-data2.git",
+  "repository": "git@github.com:SogeMoge/xwing-data2-legacy.git",
   "author": "Guido Kessels <mail@guidokessels.com>",
+  "maintainer": "Artem Kropachev @SogeMoge",
   "license": "MIT",
   "scripts": {
     "validate:json": "jsonlint-cli data/**/*.json",
@@ -12,7 +13,7 @@
     "changelog": "git log --pretty=format:'- %s (%h)' --no-merges"
   },
   "devDependencies": {
-"@types/node": "^17.0.21",
+    "@types/node": "^17.0.21",
     "exceljs": "^4.3",
     "git-diff": "^2.0.6",
     "husky": "^4.2.1",
@@ -41,6 +42,9 @@
     "printWidth": 80
   },
   "dependencies": {
+    "core-js": "^3.33.0",
+    "lodash": "^4.17.21",
+    "nomnom": "^1.5.3",
     "string-math": "^1.2.2"
   }
 }
