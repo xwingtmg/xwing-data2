@@ -2,7 +2,6 @@
   "name": "Resistance Transport Pod",
   "xws": "resistancetransportpod",
   "size": "Small",
-  "ffg": 65,
   "dial": [
     "1TR",
     "1BB",
@@ -21,7 +20,7 @@
     "4FR"
   ],
   "dialCodes": ["RTP"],
-  "faction": "Resistance",
+  "faction": "resistance",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
     { "type": "agility", "value": 2 },
@@ -40,13 +39,13 @@
       "xws": "bb8",
       "initiative": 3,
       "limited": 1,
-      "hyperspace": true,
-      "cost": 25,
+      "standard": true,
+      "wildspace": true,
+      "cost": 23,
       "slots": ["Talent", "Tech", "Crew", "Modification"],
       "ability": "During the System Phase, you may perform a red [Barrel Roll] or [Boost] action.",
-      "ffg": 573,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/bbe37aa13822e8c94d9b0950cdd9cdb0.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4d2201d40635299aa134acd52c9587af.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bb8.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/bb8.png",
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
         { "difficulty": "Red", "type": "Lock" },
@@ -54,7 +53,8 @@
         { "difficulty": "Red", "type": "Jam" }
       ],
       "caption": "Full of Surprises",
-      "keywords": ["Droid"]
+      "keywords": ["Droid"],
+      "epic": true
     },
     {
       "name": "Rose Tico",
@@ -62,13 +62,14 @@
       "initiative": 3,
       "limited": 1,
       "caption": "Earnest Engineer",
-      "hyperspace": true,
-      "cost": 28,
+      "standard": true,
+      "wildspace": true,
+      "cost": 26,
       "slots": ["Talent", "Tech", "Crew", "Modification"],
       "ability": "While you defend or perform an attack, you may reroll up to 1 of your results for each other friendly ship in the attack arc.",
-      "ffg": 574,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/40cba6527802ef9afa41e4009265873c.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/1dbf7b355d60f5b3f278522eb702f99f.png"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rosetico.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/rosetico.png",
+      "epic": true
     },
     {
       "name": "Vi Moradi",
@@ -76,14 +77,15 @@
       "initiative": 1,
       "limited": 1,
       "caption": "Starling",
-      "hyperspace": true,
-      "cost": 27,
+      "standard": true,
+      "wildspace": true,
+      "cost": 24,
       "slots": ["Tech", "Crew", "Modification"],
       "ability": "Setup: After placing forces, assign the Compromising Intel condition to 1 enemy ship.",
       "conditions": ["compromisingintel"],
-      "ffg": 576,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f13328acfd703dc5489fa2249b9f675e.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/14139a2d20ff13b01bd5810371a89064.png"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vimoradi.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/vimoradi.png",
+      "epic": true
     },
     {
       "name": "Finn",
@@ -91,14 +93,15 @@
       "initiative": 2,
       "limited": 1,
       "caption": "Big Deal",
-      "hyperspace": true,
-      "cost": 32,
+      "standard": true,
+      "wildspace": true,
+      "cost": 31,
       "slots": ["Talent", "Tech", "Crew", "Modification"],
       "ability": "While you defend or perform an attack, you may add 1 blank result, or you may gain 1 strain token to add 1 focus result instead.",
-      "ffg": 575,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/6e5fea21ac8a7ee345fd07f1c42cc81d.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/311d88e51a039b79e9a422ab3c475288.png"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/finn.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/finn.png",
+      "epic": true
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Resistance_Transport_Cockpit_Pod.png"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_Resistance_Transport_Cockpit_Pod.png"
 }
