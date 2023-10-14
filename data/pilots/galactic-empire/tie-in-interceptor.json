@@ -1,7 +1,6 @@
 {
   "name": "TIE/in Interceptor",
   "xws": "tieininterceptor",
-  "ffg": 41,
   "size": "Small",
   "dial": [
     "1TW",
@@ -23,7 +22,7 @@
     "5FW"
   ],
   "dialCodes": ["TI"],
-  "faction": "Galactic Empire",
+  "faction": "galacticempire",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
     { "type": "agility", "value": 3 },
@@ -35,7 +34,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEInterceptor.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEInterceptor.png",
   "pilots": [
     {
       "name": "Alpha Squadron Pilot",
@@ -44,72 +43,76 @@
       "cost": 32,
       "xws": "alphasquadronpilot",
       "text": "Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_106.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/alphasquadronpilot.png",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": ["Modification", "Modification", "Configuration"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_106.jpg",
-      "ffg": 106,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/alphasquadronpilot.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Saber Squadron Ace",
       "initiative": 4,
       "limited": 0,
-      "cost": 36,
+      "cost": 37,
       "xws": "sabersquadronace",
       "text": "Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire's best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_105.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/sabersquadronace.png",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_105.jpg",
-      "ffg": 105,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sabersquadronace.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Soontir Fel",
       "caption": "Ace of Legend",
       "initiative": 6,
       "limited": 1,
-      "cost": 53,
+      "cost": 54,
       "xws": "soontirfel",
       "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain 1 focus token.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_103.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/soontirfel.png",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_103.jpg",
-      "ffg": 103,
-      "hyperspace": true,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/soontirfel.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Turr Phennir",
       "caption": "Ambitious Ace",
       "initiative": 4,
       "limited": 1,
-      "cost": 42,
+      "cost": 39,
       "xws": "turrphennir",
       "ability": "After you perform an attack, you may perform a [Barrel Roll] or [Boost] action, even if you are stressed.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_104.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/turrphennir.png",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_104.jpg",
-      "ffg": 104,
-      "hyperspace": true,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/turrphennir.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Ciena Ree",
@@ -120,14 +123,15 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "hyperspace": true,
+      "standard": true,
+      "wildspace": true,
       "keywords": ["TIE"],
-      "cost": 48,
+      "cost": 47,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "ability": "After you perform an attack, if the defender was destroyed, gain 1 stress token. After a friendly ship at range 0-3 is destroyed, remove 1 stress token.",
       "caption": "Look Through My Eyes",
-      "ffg": 889,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1e8066a3e41db4df36bbb155feac4c20.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cienaree.png",
+      "epic": true
     },
     {
       "name": "Gideon Hask",
@@ -139,13 +143,14 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "caption": "Inferno Two",
-      "hyperspace": true,
+      "standard": true,
+      "wildspace": true,
       "keywords": ["TIE"],
-      "cost": 48,
+      "cost": 46,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "ability": "While you perform an attack against a damaged defender, roll 1 additional attack die.",
-      "ffg": 892,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f97eca9b805c2e0f8bb833ffce44b033.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cienaree.png",
+      "epic": true
     },
     {
       "name": "Vult Skerris",
@@ -157,32 +162,36 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "caption": "Arrogant Ace",
-      "hyperspace": true,
-      "cost": 43,
+      "standard": true,
+      "wildspace": true,
+      "cost": 44,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
       "charges": { "value": 1, "recovers": -1 },
       "keywords": ["TIE"],
-      "ffg": 890,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/528647fa86b7a42c3e48992185e422b5.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vultskerris-tieininterceptor.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/vultskerris-tieininterceptor.png",
+      "epic": true
     },
     {
       "name": "Commandant Goran",
       "xws": "commandantgoran",
       "initiative": 4,
       "limited": 1,
+      "ability": "After a friendly ship at range 0-3 with a lower initiative than yours partially executes a revealed maneuver, it may perform a red [Focus] action.",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "caption": "Skystrike Superintendent",
-      "hyperspace": true,
+      "standard": true,
+      "wildspace": true,
       "cost": 43,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
-      "ability": "After a friendly ship at range 0-3 with a lower initiative than yours partially executes a maneuver, it may perform a red [Focus] action.",
       "keywords": ["TIE"],
-      "ffg": 891,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/cf15fb0b36550e1066381dbd38eba259.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/commandantgoran.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/commandantgoran.png",
+      "epic": true
     },
     {
       "name": "Lieutenant Lorrir",
@@ -194,13 +203,15 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "caption": "Requiem for Brentaal",
-      "hyperspace": true,
-      "cost": 39,
+      "standard": true,
+      "wildspace": true,
+      "cost": 37,
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "ability": "While you barrel roll, you must use the [[Bank Left] or [Bank Right]] template instead of the [[Straight]] template.",
       "keywords": ["TIE"],
-      "ffg": 893,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0dc2601a5cdde23815e1d0fc54e7817b.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantlorrir.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/lieutenantlorrir.png",
+      "epic": true
     },
     {
       "name": "Nash Windrider",
@@ -212,14 +223,313 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "caption": "Alderaanian Zealot",
-      "hyperspace": true,
+      "standard": true,
+      "wildspace": true,
       "cost": 41,
       "charges": { "value": 1, "recovers": 1 },
       "slots": ["Talent", "Modification", "Modification", "Configuration"],
       "ability": "During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spend 1 [Charge]. If you do, that ship engages at the current initiative.",
       "keywords": ["TIE"],
-      "ffg": 894,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1470ad9f77f0c8ac14d9fa291895ec9a.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nashwindrider.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/nashwindrider.png",
+      "epic": true
+    },
+    {
+      "name": "Iden Versio",
+      "caption": "Battle of Yavin",
+      "xws": "idenversio-battleofyavin",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "standard": false,
+      "wildspace": true,
+      "cost": 67,
+      "charges": { "value": 2, "recovers": 1 },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 3 },
+        { "type": "shields", "value": 1 }
+      ],
+      "standardLoadout": ["predator", "fanatic-battleofyavin"],
+      "ability": "Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 [Charge]. If you do, prevent 1 damage.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/idenversio-battleofyavin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/idenversio-battleofyavin.png",
+      "epic": true
+    },
+    {
+      "name": "Iden Versio",
+      "caption": "Battle of Yavin",
+      "xws": "idenversio-battleofyavin-lsl",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "standard": true,
+      "wildspace": true,
+      "cost": 64,
+      "charges": { "value": 2, "recovers": 1 },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 3 },
+        { "type": "shields", "value": 1 }
+      ],
+      "slots": ["Talent", "Modification"],
+      "ability": "Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 [Charge]. If you do, prevent 1 damage.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/idenversio-battleofyavin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/idenversio-battleofyavin.png",
+      "epic": true
+    },
+    {
+      "name": "Sigma 4",
+      "caption": "Battle of Yavin",
+      "xws": "sigma4-battleofyavin",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "standard": false,
+      "wildspace": true,
+      "cost": 52,
+      "charges": { "value": 2, "recovers": 0 },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
+      ],
+      "standardLoadout": ["disciplined", "primedthrusters"],
+      "ability": "After you perform a [Barrel Roll] action, you may spend 1 [Charge] to perform a [Boost] action.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma4-battleofyavin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sigma4.png",
+      "epic": true
+    },
+    {
+      "name": "Sigma 4",
+      "caption": "Battle of Yavin",
+      "xws": "sigma4-battleofyavin-lsl",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "standard": true,
+      "wildspace": true,
+      "cost": 40,
+      "charges": { "value": 2, "recovers": 0 },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
+      ],
+      "slots": ["Talent", "Modification"],
+      "ability": "After you perform a [Barrel Roll] action, you may spend 1 [Charge] to perform a [Boost] action.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma4-battleofyavin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sigma4.png",
+      "epic": true
+    },
+    {
+      "name": "Sigma 5",
+      "caption": "Battle of Yavin",
+      "xws": "sigma5-battleofyavin",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "standard": false,
+      "wildspace": true,
+      "cost": 50,
+      "charges": { "value": 2, "recovers": 0 },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
+      ],
+      "standardLoadout": ["sensorjammer-battleofyavin", "elusive"],
+      "ability": "After you perform an attack that hits, you may spend 1 [Charge] to perform an [Evade] action.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma5-battleofyavin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sigma5.png",
+      "epic": true
+    },
+    {
+      "name": "Sigma 5",
+      "caption": "Battle of Yavin",
+      "xws": "sigma5-battleofyavin-lsl",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "standard": true,
+      "wildspace": true,
+      "cost": 41,
+      "charges": { "value": 2, "recovers": 0 },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
+      ],
+      "slots": ["Talent", "Modification"],
+      "ability": "After you perform an attack that hits, you may spend 1 [Charge] to perform an [Evade] action.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma5-battleofyavin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sigma5.png",
+      "epic": true
+    },
+    {
+      "name": "Sigma 6",
+      "caption": "Battle of Yavin",
+      "xws": "sigma6-battleofyavin",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "standard": false,
+      "wildspace": true,
+      "cost": 48,
+      "charges": { "value": 2, "recovers": 0 },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
+      ],
+      "standardLoadout": ["daredevil", "afterburners"],
+      "ability": "After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [SLAM] action.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma6-battleofyavin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sigma6.png",
+      "epic": true
+    },
+    {
+      "name": "Sigma 6",
+      "caption": "Battle of Yavin",
+      "xws": "sigma6-battleofyavin-lsl",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "standard": true,
+      "wildspace": true,
+      "cost": 41,
+      "charges": { "value": 2, "recovers": 0 },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
+      ],
+      "slots": ["Talent", "Modification"],
+      "ability": "After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [SLAM] action.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma6-battleofyavin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sigma6.png",
+      "epic": true
+    },
+    {
+      "name": "Sigma 7",
+      "caption": "Battle of Yavin",
+      "xws": "sigma7-battleofyavin",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "standard": false,
+      "wildspace": true,
+      "cost": 48,
+      "charges": { "value": 2, "recovers": 0 },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Boost" },
+        { "difficulty": "White", "type": "Lock" }
+      ],
+      "standardLoadout": ["marksmanship", "firecontrolsystem"],
+      "ability": "During the System Phase, you may spend 1 [Charge] to acquire a lock on an enemy ship at range 0-1.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma7-battleofyavin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sigma7.png",
+      "epic": true
+    },
+    {
+      "name": "Sigma 7",
+      "caption": "Battle of Yavin",
+      "xws": "sigma7-battleofyavin-lsl",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "standard": true,
+      "wildspace": true,
+      "cost": 43,
+      "charges": { "value": 2, "recovers": 0 },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Boost" },
+        { "difficulty": "White", "type": "Lock" }
+      ],
+      "slots": ["Talent"],
+      "ability": "During the System Phase, you may spend 1 [Charge] to acquire a lock on an enemy ship at range 0-1.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/sigma7-battleofyavin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sigma7.png",
+      "epic": true
+    },
+    {
+      "name": "Second Sister",
+      "xws": "secondsister",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "caption": "Manipulative Monster",
+      "standard": true,
+      "wildspace": true,
+      "cost": 47,
+      "slots": ["Force Power", "Modification", "Modification", "Configuration"],
+      "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force]. If you do, change all of your [Hit] results to [Critical Hit] results.",
+      "force": { "value": 2, "recovers": 1 },
+      "keywords": ["Dark Side", "TIE"],
+      "image": "https://infinitearenas.com/xw2/images/pilots/secondsister.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/secondsister.png",
+      "epic": true
     }
   ]
 }

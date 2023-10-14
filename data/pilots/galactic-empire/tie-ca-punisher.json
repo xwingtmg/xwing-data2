@@ -1,7 +1,6 @@
 {
   "name": "TIE/ca Punisher",
   "xws": "tiecapunisher",
-  "ffg": 20,
   "size": "Medium",
   "dial": [
     "0OR",
@@ -21,7 +20,7 @@
     "4KR"
   ],
   "dialCodes": ["TPu"],
-  "faction": "Galactic Empire",
+  "faction": "galacticempire",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
     { "type": "agility", "value": 1 },
@@ -39,17 +38,17 @@
     },
     { "difficulty": "White", "type": "Reload" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEPunisher.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEPunisher.png",
   "pilots": [
     {
-      "name": "\"Deathrain\"",
+      "name": "“Deathrain”",
       "caption": "Dexterous Bombardier",
       "initiative": 4,
       "limited": 1,
-      "cost": 43,
+      "cost": 44,
       "xws": "deathrain",
       "ability": "After you drop or launch a device, you may perform an action.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_140.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/deathrain.png",
       "slots": [
         "Sensor",
         "Torpedo",
@@ -60,17 +59,18 @@
         "Modification",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_140.jpg",
-      "ffg": 140,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathrain.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
-      "name": "\"Redline\"",
+      "name": "“Redline”",
       "caption": "Adrenaline Junkie",
       "initiative": 5,
       "limited": 1,
-      "cost": 51,
+      "cost": 50,
       "xws": "redline",
       "ability": "You can maintain up to 2 locks. After you perform an action, you may acquire a lock.",
       "slots": [
@@ -83,20 +83,21 @@
         "Modification",
         "Gunner"
       ],
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_139.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_139.jpg",
-      "ffg": 139,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "image": "https://infinitearenas.com/xw2/images/pilots/redline.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redline.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Cutlass Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 35,
+      "cost": 34,
       "xws": "cutlasssquadronpilot",
       "text": "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_141.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/cutlasssquadronpilot.png",
       "slots": [
         "Sensor",
         "Torpedo",
@@ -107,10 +108,11 @@
         "Modification",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_141.jpg",
-      "ffg": 141,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cutlasssquadronpilot.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "name": "TIE/D Defender",
   "xws": "tieddefender",
-  "ffg": 18,
   "size": "Small",
   "dial": [
     "1TR",
@@ -24,7 +23,7 @@
     "5FB"
   ],
   "dialCodes": ["TD"],
-  "faction": "Galactic Empire",
+  "faction": "galacticempire",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
     { "type": "agility", "value": 3 },
@@ -38,45 +37,47 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEDefender.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEDefender.png",
   "pilots": [
     {
       "name": "Colonel Vessery",
       "caption": "Contemplative Commander",
       "initiative": 4,
       "limited": 1,
-      "cost": 81,
+      "cost": 78,
       "xws": "colonelvessery",
       "ability": "While you perform an attack against a locked ship, after you roll attack dice, you may acquire a lock on the defender.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_123.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/colonelvessery.png",
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_123.jpg",
-      "ffg": 123,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/colonelvessery.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Countess Ryad",
       "caption": "Cutthroat Politico",
       "initiative": 4,
       "limited": 1,
-      "cost": 79,
+      "cost": 76,
       "xws": "countessryad",
       "ability": "While you would execute a [Straight] maneuver, you may increase the difficulty of the maneuver. If you do, execute it as a [Koiogran Turn] maneuver instead.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_124.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/countessryad.png",
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_124.jpg",
-      "ffg": 124,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countessryad.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Delta Squadron Pilot",
@@ -85,109 +86,118 @@
       "cost": 67,
       "xws": "deltasquadronpilot",
       "text": "In addition to its missile launchers and six wingtip laser cannons, the formidable TIE defender is equipped with deflector shields and a hyperdrive.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_126.png",
-      "shipAbility": {
-        "name": "Full Throttle",
-        "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
-      },
-      "slots": ["Sensor", "Cannon", "Missile", "Configuration"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_126.jpg",
-      "ffg": 126,
-      "hyperspace": true,
-      "keywords": ["TIE"]
-    },
-    {
-      "name": "Onyx Squadron Ace",
-      "initiative": 4,
-      "limited": 0,
-      "cost": 73,
-      "xws": "onyxsquadronace",
-      "text": "The experimental TIE defender outclasses all other contemporary starfighters, though its size, speed, and array of weapons come at a tremendous cost in credits.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_125.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/deltasquadronpilot.png",
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_125.jpg",
-      "ffg": 125,
-      "hyperspace": true,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deltasquadronpilot.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Onyx Squadron Ace",
+      "initiative": 4,
+      "limited": 0,
+      "cost": 71,
+      "xws": "onyxsquadronace",
+      "text": "The experimental TIE defender outclasses all other contemporary starfighters, though its size, speed, and array of weapons come at a tremendous cost in credits.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/onyxsquadronace.png",
+      "shipAbility": {
+        "name": "Full Throttle",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
+      },
+      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronace.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Rexler Brath",
       "caption": "Onyx Leader",
       "initiative": 5,
       "limited": 1,
-      "cost": 78,
+      "cost": 77,
       "xws": "rexlerbrath",
       "ability": "After you perform an attack that hits, if you are evading, expose 1 of the defender's damage cards.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_122.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/rexlerbrath.png",
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
       "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_122.jpg",
-      "ffg": 122,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rexlerbrath.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Vult Skerris",
-      "xws": "vultskerris",
+      "caption": "Arrogant Ace",
       "initiative": 5,
       "limited": 1,
+      "cost": 76,
+      "xws": "vultskerris",
+      "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "caption": "Arrogant Ace",
-      "hyperspace": false,
-      "cost": 77,
-      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
-      "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
       "charges": { "value": 1, "recovers": -1 },
+      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vultskerris.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/vultskerris.png",
+      "standard": true,
+      "wildspace": true,
       "keywords": ["TIE"],
-      "ffg": 887,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/b515e5eda1c2df774f598afc4091af09.jpg"
+      "epic": true
     },
     {
       "name": "Darth Vader",
-      "xws": "darthvader-tieddefender",
+      "caption": "Dark Lord of the Sith",
       "initiative": 6,
       "limited": 1,
+      "cost": 115,
+      "xws": "darthvader-tieddefender",
+      "ability": "You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "caption": "Dark Lord of the Sith",
-      "hyperspace": false,
       "force": { "value": 3, "recovers": 1 },
-      "cost": 112,
       "slots": ["Force Power", "Cannon", "Missile", "Configuration"],
-      "ability": "You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader-tieddefender.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/darthvader-tieddefender.png",
+      "standard": true,
+      "wildspace": true,
       "keywords": ["Dark Side", "Sith", "TIE"],
-      "ffg": 886,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9c2cfc58582671a7073c6b5339ed3004.jpg"
+      "epic": true
     },
     {
       "name": "Captain Dobbs",
-      "xws": "captaindobbs",
+      "caption": "Reliable Replacement",
       "initiative": 3,
       "limited": 1,
+      "cost": 71,
+      "xws": "captaindobbs",
+      "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc and are not ionized, you may gain 1 ion token to cancel 1 [Hit] result.",
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "caption": "Reliable Replacement",
-      "hyperspace": false,
-      "cost": 73,
       "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
-      "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc and are not ionized, you may gain 1 ion token to cancel 1 [Hit] result.",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captaindobbs.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/captaindobbs.png",
+      "standard": true,
+      "wildspace": true,
       "keywords": ["TIE"],
-      "ffg": 888,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1dde041cd0f46fb1ca2afe15264a3ad4.jpg"
+      "epic": true
     }
   ]
 }

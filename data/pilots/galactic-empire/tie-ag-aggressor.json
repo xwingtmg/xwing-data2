@@ -1,7 +1,6 @@
 {
   "name": "TIE/ag Aggressor",
   "xws": "tieagaggressor",
-  "ffg": 29,
   "size": "Small",
   "dial": [
     "1BW",
@@ -21,7 +20,7 @@
     "4KR"
   ],
   "dialCodes": ["TAg"],
-  "faction": "Galactic Empire",
+  "faction": "galacticempire",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
     { "type": "agility", "value": 2 },
@@ -37,72 +36,78 @@
       "type": "Barrel Roll"
     }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEAggressor.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEAggressor.png",
   "pilots": [
     {
-      "name": "\"Double Edge\"",
+      "name": "“Double Edge”",
       "caption": "Contingency Planner",
       "initiative": 2,
       "limited": 1,
-      "cost": 28,
+      "cost": 27,
       "xws": "doubleedge",
       "ability": "After you perform a [Turret] or [Missile] attack that misses, you may perform a bonus attack using a different weapon.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_128.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/doubleedge.png",
       "slots": [
         "Talent",
+        "Sensor",
         "Turret",
         "Missile",
         "Missile",
         "Modification",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_128.jpg",
-      "ffg": 128,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/doubleedge.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Lieutenant Kestal",
       "caption": "Innate Deadeye",
       "initiative": 4,
       "limited": 1,
-      "cost": 29,
+      "cost": 28,
       "xws": "lieutenantkestal",
       "ability": "While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender's blank/[Focus] results.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_127.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/lieutenantkestal.png",
       "slots": [
         "Talent",
+        "Sensor",
         "Turret",
         "Missile",
         "Missile",
         "Modification",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_127.jpg",
-      "ffg": 127,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantkestal.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Onyx Squadron Scout",
       "initiative": 3,
       "limited": 0,
-      "cost": 28,
+      "cost": 27,
       "xws": "onyxsquadronscout",
       "text": "Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loadout and its maneuverability to full effect.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_129.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/onyxsquadronscout.png",
       "slots": [
         "Talent",
+        "Sensor",
         "Turret",
         "Missile",
         "Missile",
         "Modification",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_129.jpg",
-      "ffg": 129,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronscout.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Sienar Specialist",
@@ -111,12 +116,20 @@
       "cost": 26,
       "xws": "sienarspecialist",
       "text": "During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_130.png",
-      "slots": ["Turret", "Missile", "Missile", "Modification", "Gunner"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_130.jpg",
-      "ffg": 130,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "image": "https://infinitearenas.com/xw2/images/pilots/sienarspecialist.png",
+      "slots": [
+        "Sensor",
+        "Turret",
+        "Missile",
+        "Missile",
+        "Modification",
+        "Gunner"
+      ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sienarspecialist.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }
