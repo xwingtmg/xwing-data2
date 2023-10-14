@@ -311,7 +311,6 @@
     "name": "Corsair Refit",
     "limited": 2,
     "xws": "corsairrefit",
-    "hyperspace": false,
     "sides": [
       {
         "ability": "Add [Cannon], [Turret], and [Missile] slots. Bonus Attack: Spend 1 [Energy] to perform a [Cannon], [Turret], or [Missile] attack.",
@@ -607,7 +606,7 @@
       { "ships": ["tieddefender"] },
       { "standardized": true }
     ],
-    "cost": { "value": -8 },
+    "cost": { "discountValue": -8 },
     "standard": true,
     "wildspace": true,
     "epic": true
