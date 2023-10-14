@@ -1,7 +1,6 @@
 {
   "name": "TIE/ln Fighter",
   "xws": "tielnfighter",
-  "ffg": 11,
   "size": "Small",
   "dial": [
     "1TW",
@@ -22,7 +21,7 @@
     "5FW"
   ],
   "dialCodes": ["TF"],
-  "faction": "Rebel Alliance",
+  "faction": "rebelalliance",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
     { "type": "agility", "value": 3 },
@@ -33,38 +32,40 @@
     { "difficulty": "White", "type": "Evade" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_TIEFighter.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_TIEFighter.png",
   "pilots": [
     {
-      "name": "\"Zeb\" Orrelios",
+      "name": "“Zeb” Orrelios",
       "caption": "Spectre-4",
       "initiative": 2,
       "limited": 1,
       "cost": 22,
       "xws": "zeborrelios-tielnfighter",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_49.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/zeborrelios-tielnfighter.png",
       "slots": ["Modification"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_49.jpg",
-      "ffg": 49,
-      "hyperspace": false,
-      "keywords": ["Spectre", "TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zeborrelios-tielnfighter.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE", "Spectre"],
+      "epic": true
     },
     {
       "name": "Captain Rex",
       "caption": "Clone Wars Veteran",
       "initiative": 2,
       "limited": 1,
-      "cost": 26,
+      "cost": 25,
       "xws": "captainrex",
       "ability": "After you perform an attack, assign the Suppressive Fire condition to the defender.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_48.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/captainrex.png",
       "conditions": ["suppressivefire"],
       "slots": ["Modification"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_48.jpg",
-      "ffg": 48,
-      "hyperspace": false,
-      "keywords": ["Clone", "TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainrex.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Clone", "TIE"],
+      "epic": true
     },
     {
       "name": "Ezra Bridger",
@@ -74,13 +75,14 @@
       "cost": 26,
       "xws": "ezrabridger-tielnfighter",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_46.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/ezrabridger-tielnfighter.png",
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
-      "slots": ["Modification", "Force Power"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_46.jpg",
-      "ffg": 46,
-      "hyperspace": false,
-      "keywords": ["Light Side", "Spectre", "TIE"]
+      "slots": [ "Force Power", "Modification"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ezrabridger-tielnfighter.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Light Side", "Spectre", "TIE"],
+      "epic": true
     },
     {
       "name": "Sabine Wren",
@@ -90,12 +92,13 @@
       "cost": 26,
       "xws": "sabinewren-tielnfighter",
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_47.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/sabinewren-tielnfighter.png",
       "slots": ["Talent", "Modification"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_47.jpg",
-      "ffg": 47,
-      "hyperspace": false,
-      "keywords": ["Spectre", "TIE"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sabinewren-tielnfighter.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Mandalorian", "TIE", "Spectre"],
+      "epic": true
     }
   ]
 }

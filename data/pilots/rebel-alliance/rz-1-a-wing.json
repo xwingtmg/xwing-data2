@@ -1,7 +1,6 @@
 {
   "name": "RZ-1 A-wing",
   "xws": "rz1awing",
-  "ffg": 35,
   "size": "Small",
   "dial": [
     "1TW",
@@ -23,7 +22,7 @@
     "5KR"
   ],
   "dialCodes": ["AW"],
-  "faction": "Rebel Alliance",
+  "faction": "rebelalliance",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
     { "type": "agility", "value": 3 },
@@ -37,7 +36,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_A-wing.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_A-wing.png",
   "pilots": [
     {
       "name": "Arvel Crynyd",
@@ -52,11 +51,12 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "slots": ["Talent", "Talent", "Missile"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_20.jpg",
-      "ffg": 20,
-      "hyperspace": true,
-      "keywords": ["A-wing"]
+      "slots": ["Talent", "Talent", "Missile", "Configuration"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/arvelcrynyd.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["A-wing"],
+      "epic": true
     },
     {
       "name": "Green Squadron Pilot",
@@ -65,35 +65,37 @@
       "cost": 30,
       "xws": "greensquadronpilot",
       "text": "Due to its sensitive controls and high maneuverability, only the most talented pilots belong in an A-wing cockpit.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_21.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/greensquadronpilot.png",
       "shipAbility": {
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "slots": ["Talent", "Talent", "Missile"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_21.jpg",
-      "ffg": 21,
-      "hyperspace": false,
-      "keywords": ["A-wing"]
+      "slots": ["Talent", "Talent", "Missile", "Configuration"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/greensquadronpilot.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["A-wing"],
+      "epic": true
     },
     {
       "name": "Jake Farrell",
       "caption": "Sage Instructor",
       "initiative": 4,
       "limited": 1,
-      "cost": 34,
+      "cost": 36,
       "xws": "jakefarrell",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may choose a friendly ship at range 0-1. That ship may perform a [Focus] action.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_19.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/jakefarrell.png",
       "shipAbility": {
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "slots": ["Talent", "Talent", "Missile"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_19.jpg",
-      "ffg": 19,
-      "hyperspace": true,
-      "keywords": ["A-wing"]
+      "slots": ["Talent", "Talent", "Missile", "Configuration"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jakefarrell.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["A-wing"],
+      "epic": true
     },
     {
       "name": "Phoenix Squadron Pilot",
@@ -102,34 +104,37 @@
       "cost": 28,
       "xws": "phoenixsquadronpilot",
       "text": "Led by Commander Jun Sato, the brave but inexperienced pilots of Phoenix Squadron face staggering odds in their battle against the Galactic Empire.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_22.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/phoenixsquadronpilot.png",
       "shipAbility": {
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "slots": ["Talent", "Missile"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_22.jpg",
-      "ffg": 22,
-      "hyperspace": false,
-      "keywords": ["A-wing"]
+      "slots": ["Talent", "Missile", "Configuration"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/phoenixsquadronpilot.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["A-wing"],
+      "epic": true
     },
     {
       "name": "Wedge Antilles",
-      "xws": "wedgeantilles-rz1awing",
+      "caption": "Promising Pilot",
       "initiative": 4,
       "limited": 1,
+      "cost": 38,
+      "xws": "wedgeantilles-rz1awing",
+      "ability": "While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.",
       "shipAbility": {
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "hyperspace": true,
       "keywords": ["A-wing"],
-      "cost": 35,
-      "slots": ["Talent", "Missile", "Configuration"],
-      "ability": "While you perform a primary attack, if the defender is in your [Front Arc], the defender rolls 1 fewer defense die.",
-      "caption": "Promising Pilot",
-      "ffg": 883,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/11bb21ea8f81f374ff862f86e722444f.jpg"
+      "slots": ["Talent", "Talent", "Missile", "Configuration"],
+      "standard": true,
+      "wildspace": true,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles-rz1awing.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/wedgeantilles-rz1awing.png",
+      "epic": true
     },
     {
       "name": "Sabine Wren",
@@ -140,14 +145,16 @@
         "name": "Vectored Thrusters",
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
-      "hyperspace": true,
+      "standard": true,
+      "wildspace": true,
       "keywords": ["A-wing", "Mandalorian"],
       "cost": 35,
       "slots": ["Talent", "Talent", "Missile", "Configuration"],
       "ability": "While you defend or perform an attack, if the attack range is 1 and you are in the enemy ship's [Front Arc], you may change 1 of your results to an [Evade] or [Hit] result.",
       "caption": "Daughter of Mandalore",
-      "ffg": 885,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/9db76c98a8bd8bff2c4c46408d631ac0.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sabinewren-rz1awing.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/sabinewren-rz1awing.png",
+      "epic": true
     },
     {
       "name": "Hera Syndulla",
@@ -159,13 +166,15 @@
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
       "caption": "Phoenix Leader",
-      "hyperspace": true,
-      "cost": 48,
+      "standard": true,
+      "wildspace": true,
+      "cost": 47,
       "slots": ["Talent", "Talent", "Missile", "Configuration"],
       "ability": "While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.",
       "keywords": ["A-wing", "Spectre"],
-      "ffg": 880,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a50b1f5e19e9b389bf521becfa71d447.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla-rz1awing.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/herasyndulla-rz1awing.png",
+      "epic": true
     },
     {
       "name": "Ahsoka Tano",
@@ -177,14 +186,16 @@
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
       "caption": "Fulcrum",
-      "hyperspace": true,
+      "standard": true,
+      "wildspace": true,
       "force": { "value": 3, "recovers": 1 },
-      "cost": 49,
+      "cost": 50,
       "slots": ["Force Power", "Force Power", "Missile", "Configuration"],
       "ability": "After you fully execute a maneuver, you may choose a friendly ship at range 1-2 and spend 2 [Force]. That ship may perform an action, even while stressed.",
       "keywords": ["A-wing", "Light Side"],
-      "ffg": 881,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/40fe14090b12fb634888c845a8efbb1c.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ahsokatano-rz1awing.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/ahsokatano-rz1awing.png",
+      "epic": true
     },
     {
       "name": "Shara Bey",
@@ -196,13 +207,15 @@
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
       "caption": "Green Four",
-      "hyperspace": true,
+      "standard": true,
+      "wildspace": true,
       "cost": 32,
       "slots": ["Talent", "Talent", "Missile", "Configuration"],
       "ability": "While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.",
       "keywords": ["A-wing"],
-      "ffg": 882,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/c7de7d8ea5e6d4624e8541423f23f447.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sharabey-rz1awing.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/sharabey-rz1awing.png",
+      "epic": true
     },
     {
       "name": "Derek Klivian",
@@ -214,13 +227,126 @@
         "text": "After you perform an action, you may perform a red [Boost] action."
       },
       "caption": "Hobbie",
-      "hyperspace": true,
+      "standard": true,
+      "wildspace": true,
       "cost": 30,
       "slots": ["Talent", "Missile", "Configuration"],
       "ability": "After you acquire or spend a lock, you may remove 1 red token from yourself.",
       "keywords": ["A-wing"],
-      "ffg": 884,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ab937640d11798db7513aecc3de53a16.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/derekklivian.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/derekklivian.png",
+      "epic": true
+    },
+    {
+      "name": "Keo Venzee",
+      "xws": "keovenzee",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "caption": "Auspicious Ace",
+      "standard": true,
+      "wildspace": true,
+      "cost": 35,
+      "force": { "value": 1, "recovers": 0 },
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Configuration"
+      ],
+      "ability": "If you have no active [Force], after you reveal a bank [[Bank Left] or [Bank Right]] or turn [[Turn Left] or [Turn Right]] maneuver, you may increase the difficulty of the maneuver. If you do, perform that maneuver as a sideslip and recover 1 [Force].",
+      "keywords": ["A-wing"],
+      "image": "https://infinitearenas.com/xw2/images/pilots/keovenzee.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/keovenzee.png",
+      "epic": true
+    },
+    {
+      "name": "Tycho Celchu",
+      "xws": "tychocelchu",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "caption": "Son of Alderaan",
+      "standard": true,
+      "wildspace": true,
+      "cost": 36,
+      "slots": [
+        "Talent",
+        "Talent",
+        "Missile",
+        "Configuration"
+      ],
+      "ability": "While you have 2 or fewer stress tokens, you may perform actions, even while stressed.",
+      "keywords": ["A-wing"],
+      "image": "https://infinitearenas.com/xw2/images/pilots/tychocelchu.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tychocelchu.png",
+      "epic": true
+    },
+    {
+      "name": "Arvel Crynyd",
+      "caption": "Green Leader",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 37,
+      "xws": "arvelcrynyd-swz106",
+      "ability": "If you would fail a [Boost] action by overlapping another ship, you may resolve it as though you were partially executing a maneuver instead. While you perform an attack at attack range 0, treat it as an attack at attack range 1.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/arvelcrynyd-swz106.png",
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "standardLoadout": ["predator", "afterburners"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/arvelcrynyd.png",
+      "standard": false,
+      "wildspace": true,
+      "keywords": ["A-wing"],
+      "epic": true
+    },
+    {
+      "name": "Jake Farrell",
+      "caption": "Sage Instructor",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 43,
+      "xws": "jakefarrell-swz106",
+      "ability": "After you perform a [Barrel Roll] or [Boost] action, you may choose a friendly ship at range 0-1. That ship may perform a [Focus] action.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/jakefarrell-swz106.png",
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "standardLoadout": ["elusive", "outmaneuver", "ionmissiles"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jakefarrell.png",
+      "standard": false,
+      "wildspace": true,
+      "keywords": ["A-wing"],
+      "epic": true
+    },
+    {
+      "name": "Shara Bey",
+      "xws": "sharabey-swz106",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Vectored Thrusters",
+        "text": "After you perform an action, you may perform a red [Boost] action."
+      },
+      "caption": "Green Four",
+      "standard": false,
+      "wildspace": true,
+      "cost": 36,
+      "standardLoadout": ["hopeful", "concussionmissiles"],
+      "ability": "While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 [Focus] result to your dice results.",
+      "keywords": ["A-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sharabey-rz1awing.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/sharabey-swz106.png",
+      "epic": true
     }
   ]
 }

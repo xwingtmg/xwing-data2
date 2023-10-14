@@ -1,7 +1,6 @@
 {
   "name": "Modified YT-1300 Light Freighter",
   "xws": "modifiedyt1300lightfreighter",
-  "ffg": 1,
   "size": "Large",
   "dial": [
     "1BW",
@@ -23,7 +22,7 @@
     "4KR"
   ],
   "dialCodes": ["YT13"],
-  "faction": "Rebel Alliance",
+  "faction": "rebelalliance",
   "stats": [
     { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
     { "type": "agility", "value": 1 },
@@ -36,17 +35,17 @@
     { "difficulty": "Red", "type": "Boost" },
     { "difficulty": "White", "type": "Rotate Arc" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Falcon.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Falcon.png",
   "pilots": [
     {
       "name": "Chewbacca",
       "caption": "The Mighty",
       "initiative": 4,
       "limited": 1,
-      "cost": 70,
+      "cost": 68,
       "xws": "chewbacca",
       "ability": "Before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt the card facedown instead.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_71.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/chewbacca.png",
       "charges": { "value": 1, "recovers": 1 },
       "slots": [
         "Talent",
@@ -58,20 +57,21 @@
         "Title",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_71.jpg",
-      "ffg": 71,
-      "hyperspace": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/chewbacca.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     },
     {
       "name": "Han Solo",
       "caption": "Scoundrel for Hire",
       "initiative": 6,
       "limited": 1,
-      "cost": 79,
+      "cost": 80,
       "xws": "hansolo-modifiedyt1300lightfreighter",
       "ability": "After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_69.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/hansolo-modifiedyt1300lightfreighter.png",
       "slots": [
         "Talent",
         "Missile",
@@ -82,10 +82,11 @@
         "Title",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_69.jpg",
-      "ffg": 69,
-      "hyperspace": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-modifiedyt1300lightfreighter.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     },
     {
       "name": "Lando Calrissian",
@@ -95,7 +96,7 @@
       "cost": 78,
       "xws": "landocalrissian-modifiedyt1300lightfreighter",
       "ability": "After you fully execute a blue maneuver, you may choose a friendly ship at range 0-3. That ship may perform an action.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_70.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/landocalrissian-modifiedyt1300lightfreighter.png",
       "slots": [
         "Talent",
         "Missile",
@@ -106,10 +107,11 @@
         "Title",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_70.jpg",
-      "ffg": 70,
-      "hyperspace": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-modifiedyt1300lightfreighter.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     },
     {
       "name": "Outer Rim Smuggler",
@@ -118,7 +120,7 @@
       "cost": 67,
       "xws": "outerrimsmuggler",
       "text": "Known for its durability and modular design, the YT-1300 is one of the most popular, widely used, and extensively customized freighters in the galaxy.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_72.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/outerrimsmuggler.png",
       "slots": [
         "Missile",
         "Crew",
@@ -128,35 +130,86 @@
         "Title",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_72.jpg",
-      "ffg": 72,
-      "hyperspace": false,
-      "keywords": ["Freighter", "YT-1300"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimsmuggler.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     },
     {
       "name": "Leia Organa",
-      "xws": "leiaorgana",
+      "caption": "There Is Another",
       "initiative": 5,
       "limited": 1,
-      "caption": "There Is Another",
-      "hyperspace": true,
+      "cost": 76,
+      "xws": "leiaorgana",
+      "ability": "After a friendly ship fully executes a red maneuver, if it is at range 0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or recovers 1 [Force].",
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
       "slots": [
         "Force Power",
         "Missile",
         "Crew",
         "Crew",
-        "Gunner",
         "Modification",
         "Modification",
-        "Title"
+        "Title",
+        "Gunner"
       ],
-      "ability": "After a friendly ship fully executes a red maneuver, if it is at range 0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or recovers 1 [Force].",
-      "cost": 77,
-      "ffg": 630,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/dc207b5c5f00a98e0fad8dc3905373f9.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/677d75036109127dc27d524b902b35ae.png",
-      "keywords": ["Freighter", "YT-1300"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leiaorgana.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/leiaorgana.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Freighter", "YT-1300", "Light Side"],
+      "epic": true
+    },
+    {
+      "name": "Han Solo",
+      "caption": "Battle of Yavin",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 105,
+      "xws": "hansolo-battleofyavin",
+      "ability": "After performing an attack that hits, you may spend 1 [Charge] to perform a [Coordinate] action.",
+      "shipAbility": {
+        "name": "Solo",
+        "text": "While you defend or perform an attack, if there are no other friendly ships at range 0-1, you may spend 1 [Charge] to reroll one of your dice."
+      },
+      "standardLoadout": ["chewbacca-battleofyavin", "riggedcargochute", "millenniumfalcon", "l337sprogramming-battleofyavin"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/hansolo-battleofyavin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-battleofyavin.png",
+      "standard": false,
+      "wildspace": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
+    },
+    {
+      "name": "Han Solo",
+      "caption": "Battle of Yavin",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 84,
+      "xws": "hansolo-battleofyavin-lsl",
+      "ability": "After performing an attack that hits, you may spend 1 [Charge] to perform a [Coordinate] action.",
+      "shipAbility": {
+        "name": "Solo",
+        "text": "While you defend or perform an attack, if there are no other friendly ships at range 0-1, you may spend 1 [Charge] to reroll one of your dice."
+      },
+      "slots": [
+        "Talent",
+        "Missile",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Modification",
+        "Title",
+        "Gunner"
+      ],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/hansolo-battleofyavin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-battleofyavin.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     }
   ]
 }

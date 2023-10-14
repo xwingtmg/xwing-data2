@@ -1,7 +1,6 @@
 {
   "name": "A/SF-01 B-wing",
   "xws": "asf01bwing",
-  "ffg": 17,
   "size": "Small",
   "dial": [
     "1ER",
@@ -23,7 +22,7 @@
     "4FR"
   ],
   "dialCodes": ["BW"],
-  "faction": "Rebel Alliance",
+  "faction": "rebelalliance",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
     { "type": "agility", "value": 1 },
@@ -39,16 +38,16 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_B-wing.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_B-wing.png",
   "pilots": [
     {
       "name": "Blade Squadron Veteran",
       "initiative": 3,
       "limited": 0,
-      "cost": 42,
+      "cost": 41,
       "xws": "bladesquadronveteran",
       "text": "A unique gyrostabilization system surrounds the B-wing's cockpit, ensuring that the pilot always remains stationary during flight.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_25.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/bladesquadronveteran.png",
       "slots": [
         "Talent",
         "Sensor",
@@ -59,19 +58,20 @@
         "Title",
         "Configuration"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_25.jpg",
-      "ffg": 25,
-      "hyperspace": true,
-      "keywords": ["B-wing"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bladesquadronveteran.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["B-wing"],
+      "epic": true
     },
     {
       "name": "Blue Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 41,
+      "cost": 40,
       "xws": "bluesquadronpilot",
       "text": "Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance's most innovative assault fighter.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_26.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/bluesquadronpilot.png",
       "slots": [
         "Sensor",
         "Cannon",
@@ -87,10 +87,11 @@
           "source": "Season Three 2018"
         }
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_26.jpg",
-      "ffg": 26,
-      "hyperspace": true,
-      "keywords": ["B-wing"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronpilot.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["B-wing"],
+      "epic": true
     },
     {
       "name": "Braylen Stramm",
@@ -100,7 +101,7 @@
       "cost": 52,
       "xws": "braylenstramm",
       "ability": "While you defend or perform an attack, if you are stressed, you may reroll up to 2 of your dice.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_23.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/braylenstramm.png",
       "slots": [
         "Talent",
         "Sensor",
@@ -111,10 +112,11 @@
         "Title",
         "Configuration"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_23.jpg",
-      "ffg": 23,
-      "hyperspace": true,
-      "keywords": ["B-wing"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/braylenstramm.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["B-wing"],
+      "epic": true
     },
     {
       "name": "Ten Numb",
@@ -124,7 +126,7 @@
       "cost": 49,
       "xws": "tennumb",
       "ability": "While you defend or perform an attack, you may spend 1 stress token to change all of your [Focus] results to [Evade] or [Hit] results.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_24.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/tennumb.png",
       "slots": [
         "Talent",
         "Sensor",
@@ -135,18 +137,20 @@
         "Title",
         "Configuration"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_24.jpg",
-      "ffg": 24,
-      "hyperspace": true,
-      "keywords": ["B-wing"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tennumb.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["B-wing"],
+      "epic": true
     },
     {
       "name": "Gina Moonsong",
-      "xws": "ginamoonsong",
+      "caption": "Insubordinate Ace",
       "initiative": 5,
       "limited": 1,
-      "caption": "Insubordinate Ace",
-      "hyperspace": true,
+      "xws": "ginamoonsong",
+      "cost": 45,
+      "ability": "At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2.",
       "slots": [
         "Talent",
         "Sensor",
@@ -156,23 +160,22 @@
         "Modification",
         "Title",
         "Configuration"
-      ],
-      "ability": "At the start of the Engagement Phase, you must transfer 1 of your stress tokens to another friendly ship at range 0-2.",
-      "cost": 45,
-      "ffg": 628,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/df07f280040d4284c04c194e18c62c9e.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/0fcceeaf64f96b4870146ffbec529dc2.png",
-      "keywords": ["B-wing"]
+      ], 
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ginamoonsong.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/ginamoonsong.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["B-wing"],
+      "epic": true
     },
     {
       "name": "Hera Syndulla",
-      "xws": "herasyndulla-asf01bwing",
+      "caption": "Phoenix Leader",
       "initiative": 6,
       "limited": 1,
-      "caption": "Phoenix Leader",
-      "hyperspace": false,
-      "keywords": ["B-wing", "Spectre"],
-      "cost": 48,
+      "xws": "herasyndulla-asf01bwing",
+      "cost": 50,
+      "ability": "While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.",
       "slots": [
         "Talent",
         "Sensor",
@@ -183,18 +186,21 @@
         "Title",
         "Configuration"
       ],
-      "ability": "While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship.",
-      "ffg": 878,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8a1e9cd504cde297c35d03aa728f5f40.jpg"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla-asf01bwing.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/herasyndulla-asf01bwing.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["B-wing", "Spectre"],
+      "epic": true
     },
     {
       "name": "Netrem Pollard",
-      "xws": "netrempollard",
+      "caption": "Dagger Leader",
       "initiative": 3,
       "limited": 1,
-      "caption": "Dagger Leader",
-      "hyperspace": false,
-      "cost": 43,
+      "xws": "netrempollard",
+      "cost": 42,
+      "ability": "After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.",
       "slots": [
         "Talent",
         "Sensor",
@@ -205,10 +211,12 @@
         "Title",
         "Configuration"
       ],
-      "ability": "After you barrel roll, you may choose 1 friendly ship that is not stressed at range 0-1. That ship gains 1 stress token, then you rotate 180°.",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/netrempollard.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/netrempollard.png",
+      "standard": true,
+      "wildspace": true,
       "keywords": ["B-wing"],
-      "ffg": 879,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/8e8ea8e29324398b455ec7b01bc1622e.jpg"
+      "epic": true
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
   "name": "BTL-S8 K-wing",
   "xws": "btls8kwing",
-  "ffg": 30,
   "size": "Medium",
   "dial": [
     "1BB",
@@ -17,7 +16,7 @@
     "3NW"
   ],
   "dialCodes": ["KW"],
-  "faction": "Rebel Alliance",
+  "faction": "rebelalliance",
   "stats": [
     { "arc": "Double Turret Arc", "type": "attack", "value": 2 },
     { "type": "agility", "value": 1 },
@@ -31,17 +30,17 @@
     { "difficulty": "White", "type": "Rotate Arc" },
     { "difficulty": "White", "type": "Reload" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_K-wing.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_K-wing.png",
   "pilots": [
     {
       "name": "Esege Tuketu",
       "caption": "Selfless Hero",
       "initiative": 3,
       "limited": 1,
-      "cost": 43,
+      "cost": 42,
       "xws": "esegetuketu",
       "ability": "While a friendly ship at range 0-2 defends or performs an attack, it may spend your focus tokens as if that ship has them.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_63.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/esegetuketu.png",
       "slots": [
         "Torpedo",
         "Missile",
@@ -52,9 +51,10 @@
         "Modification",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_63.jpg",
-      "ffg": 63,
-      "hyperspace": false
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/esegetuketu.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
     },
     {
       "name": "Miranda Doni",
@@ -64,7 +64,7 @@
       "cost": 40,
       "xws": "mirandadoni",
       "ability": "While you perform a primary attack, you may either spend 1 shield to roll 1 additional attack die or, if you are not shielded, you may roll 1 fewer attack die to recover 1 shield.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_62.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/mirandadoni.png",
       "slots": [
         "Torpedo",
         "Missile",
@@ -75,9 +75,10 @@
         "Modification",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_62.jpg",
-      "ffg": 62,
-      "hyperspace": false
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mirandadoni.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
     },
     {
       "name": "Warden Squadron Pilot",
@@ -86,7 +87,7 @@
       "cost": 38,
       "xws": "wardensquadronpilot",
       "text": "Koensayr Manufacturing's K-wing boasts an advanced SubLight Acceleration Motor and an unprecedented 18 hard points, granting it unrivaled speed and firepower.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_64.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/wardensquadronpilot.png",
       "slots": [
         "Torpedo",
         "Missile",
@@ -97,9 +98,10 @@
         "Modification",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_64.jpg",
-      "ffg": 64,
-      "hyperspace": false
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wardensquadronpilot.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
     }
   ]
 }
