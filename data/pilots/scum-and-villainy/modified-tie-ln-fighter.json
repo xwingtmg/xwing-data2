@@ -1,7 +1,6 @@
 {
   "name": "Modified TIE/ln Fighter",
   "xws": "modifiedtielnfighter",
-  "ffg": 56,
   "size": "Small",
   "dial": [
     "1TW",
@@ -21,7 +20,7 @@
     "5FR"
   ],
   "dialCodes": ["Tmg"],
-  "faction": "Scum and Villainy",
+  "faction": "scumandvillainy",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
     { "type": "agility", "value": 3 },
@@ -32,65 +31,68 @@
     { "difficulty": "White", "type": "Evade" },
     { "difficulty": "White", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_MiningGuild_TIE.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_MiningGuild_TIE.png",
   "pilots": [
     {
       "name": "Ahhav",
       "caption": "Vengeful Survivor",
       "initiative": 3,
       "limited": 1,
-      "cost": 28,
+      "cost": 27,
       "xws": "ahhav",
       "ability": "While you defend or perform an attack, if the enemy ship is a larger size than you, roll 1 additional die.",
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d58a0696c8d85a63e90eb8a1e522a54c.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/2d162fae88ae58b9eca31f7dc0b7a9da.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/ahhav.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ahhav.png",
       "slots": ["Talent", "Modification"],
-      "ffg": 442,
-      "hyperspace": true,
-      "keywords": ["TIE"]
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Captain Seevor",
       "caption": "Noisy Nuisance",
       "initiative": 3,
       "limited": 1,
-      "cost": 30,
+      "cost": 31,
       "xws": "captainseevor",
       "ability": "While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship's [Bullseye Arc], you may spend 1 [Charge]. If you do, the enemy ship gains 1 jam token.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/70b64586cc2eb05d10efc7ba8dfd69d0.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/6ead4bbfa14075a19972dc57b90a34e1.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/captainseevor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainseevor.png",
       "charges": { "value": 1, "recovers": 1 },
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
       "slots": ["Talent", "Modification"],
-      "ffg": 443,
-      "hyperspace": true,
-      "keywords": ["TIE"]
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Foreman Proach",
       "caption": "Slave Driver",
       "initiative": 4,
       "limited": 1,
-      "cost": 29,
+      "cost": 27,
       "xws": "foremanproach",
       "ability": "Before you engage, you may choose 1 enemy ship in your [Bullseye Arc] at range 1-2 and gain 1 disarm token. If you do, that ship gains 1 tractor token.",
       "shipAbility": {
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/cfb3b5fa9d747afc3aa10f3b86f45818.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f789aa53866112fc44fd27ed9e177993.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/foremanproach.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/foremanproach.png",
       "slots": ["Talent", "Modification"],
-      "ffg": 441,
-      "hyperspace": true,
-      "keywords": ["TIE"]
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Mining Guild Surveyor",
@@ -103,19 +105,20 @@
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/3e5872dea32f2015bb6737592c21efaf.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ad058d0b6d46f668f06bf0007207a30a.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/miningguildsurveyor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/miningguildsurveyor.png",
       "slots": ["Talent", "Modification"],
-      "ffg": 445,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Overseer Yushyn",
       "caption": "Overbearing Boss",
       "initiative": 2,
       "limited": 1,
-      "cost": 24,
+      "cost": 22,
       "xws": "overseeryushyn",
       "ability": "Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains 1 stress token instead.",
       "shipAbility": {
@@ -123,12 +126,13 @@
         "text": "While you move, you ignore asteroids."
       },
       "charges": { "value": 1, "recovers": 1 },
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6c9268d3e6cc6b671d6db6ac39fcad0f.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/1f454eb7c12b572103e59a9a782c3f50.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/overseeryushyn.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/overseeryushyn.png",
       "slots": ["Modification"],
-      "ffg": 444,
-      "hyperspace": true,
-      "keywords": ["TIE"]
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     },
     {
       "name": "Mining Guild Sentry",
@@ -141,12 +145,33 @@
         "name": "Notched Stabilizers",
         "text": "While you move, you ignore asteroids."
       },
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/6d67112b15c3c97bd3d4acf2c8d000ed.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/09c955b8008750a30fe398c200431160.jpg",
+      "image": "https://infinitearenas.com/xw2/images/pilots/miningguildsentry.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/miningguildsentry.png",
       "slots": ["Modification"],
-      "ffg": 446,
-      "hyperspace": false,
-      "keywords": ["TIE"]
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Lapin",
+      "caption": "Stickler for Details",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 25,
+      "xws": "lapin",
+      "ability": "While you defend or perform an attack, if the enemy ship is stressed, that ship's dice cannot be modified.",
+      "shipAbility": {
+        "name": "Notched Stabilizers",
+        "text": "While you move, you ignore asteroids."
+      },
+      "image": "https://infinitearenas.com/xw2/images/pilots/lapin.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lapin.png",
+      "slots": ["Modification"],
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }

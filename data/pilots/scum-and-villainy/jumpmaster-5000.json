@@ -1,7 +1,6 @@
 {
   "name": "JumpMaster 5000",
   "xws": "jumpmaster5000",
-  "ffg": 45,
   "size": "Large",
   "dial": [
     "1TW",
@@ -22,7 +21,7 @@
     "4KR"
   ],
   "dialCodes": ["JM5"],
-  "faction": "Scum and Villainy",
+  "faction": "scumandvillainy",
   "stats": [
     { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
     { "type": "agility", "value": 2 },
@@ -42,7 +41,7 @@
     },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Jumpmaster.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Jumpmaster.png",
   "pilots": [
     {
       "name": "Contracted Scout",
@@ -51,7 +50,7 @@
       "cost": 41,
       "xws": "contractedscout",
       "text": "Built for long-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_217.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/contractedscout.png",
       "slots": [
         "Cannon",
         "Torpedo",
@@ -61,9 +60,10 @@
         "Modification",
         "Title"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_217.jpg",
-      "ffg": 217,
-      "hyperspace": false
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/contractedscout.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
     },
     {
       "name": "Dengar",
@@ -73,7 +73,7 @@
       "cost": 53,
       "xws": "dengar",
       "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_214.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/dengar.png",
       "alt": [
         {
           "image": "https://images-cdn.fantasyflightgames.com/filer_public/fe/da/feda9a2c-38f4-447a-8b0c-af7e04ace137/op067_dengar.png",
@@ -91,10 +91,11 @@
         "Modification",
         "Title"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_214.jpg",
-      "ffg": 214,
-      "hyperspace": true,
-      "keywords": ["Bounty Hunter"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dengar.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     },
     {
       "name": "Manaroo",
@@ -104,7 +105,7 @@
       "cost": 45,
       "xws": "manaroo",
       "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_215.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/manaroo.png",
       "slots": [
         "Talent",
         "Cannon",
@@ -115,10 +116,11 @@
         "Modification",
         "Title"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_215.jpg",
-      "ffg": 215,
-      "hyperspace": true,
-      "keywords": ["Bounty Hunter"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/manaroo.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     },
     {
       "name": "Tel Trevura",
@@ -128,7 +130,7 @@
       "cost": 44,
       "xws": "teltrevura",
       "ability": "If you would be destroyed, you may spend 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [Hit] damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_216.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/teltrevura.png",
       "charges": { "value": 1, "recovers": 0 },
       "slots": [
         "Talent",
@@ -140,9 +142,10 @@
         "Modification",
         "Title"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_216.jpg",
-      "ffg": 216,
-      "hyperspace": true
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/teltrevura.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
     },
     {
       "name": "Nom Lumb",
@@ -150,7 +153,8 @@
       "initiative": 1,
       "limited": 1,
       "caption": "On the Run",
-      "hyperspace": true,
+      "standard": true,
+      "wildspace": true,
       "slots": [
         "Cannon",
         "Torpedo",
@@ -161,11 +165,11 @@
         "Title"
       ],
       "ability": "After you become the defender, if the attacker is not in your [Single Turret Arc], you must rotate your [Single Turret Arc] indicator to a standard arc the attacker is in.",
-      "cost": 38,
-      "ffg": 637,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/3de089d708ab1c7d8aee35ef99a1f1ed.jpg",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/4a13a4b7493d39f53b9c37c6a82edf5a.png",
-      "keywords": ["Bounty Hunter"]
+      "cost": 39,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nomlumb.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/nomlumb.png",
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     }
   ]
 }

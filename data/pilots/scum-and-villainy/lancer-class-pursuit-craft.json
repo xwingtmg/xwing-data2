@@ -1,7 +1,6 @@
 {
   "name": "Lancer-class Pursuit Craft",
   "xws": "lancerclasspursuitcraft",
-  "ffg": 42,
   "size": "Large",
   "dial": [
     "1BW",
@@ -22,7 +21,7 @@
     "5KR"
   ],
   "dialCodes": ["LPC"],
-  "faction": "Scum and Villainy",
+  "faction": "scumandvillainy",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
     { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
@@ -36,17 +35,17 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "White", "type": "Rotate Arc" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_ShadowCaster.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_ShadowCaster.png",
   "pilots": [
     {
       "name": "Asajj Ventress",
       "caption": "Force of Her Own",
       "initiative": 4,
       "limited": 1,
-      "cost": 68,
+      "cost": 66,
       "xws": "asajjventress",
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your [Single Turret Arc] at range 0-2 and spend 1 [Force]. If you do, that ship gains 1 stress token unless it removes 1 green token.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_219.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/asajjventress.png",
       "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "slots": [
         "Crew",
@@ -56,20 +55,21 @@
         "Title",
         "Force Power"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_219.jpg",
-      "ffg": 219,
-      "hyperspace": false,
-      "keywords": ["Bounty Hunter", "Dark Side"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/asajjventress.png",
+      "wildspace": true,
+      "extended": true,
+      "keywords": ["Bounty Hunter", "Dark Side"],
+      "epic": true
     },
     {
       "name": "Ketsu Onyo",
       "caption": "Black Sun Contractor",
       "initiative": 5,
       "limited": 1,
-      "cost": 66,
+      "cost": 65,
       "xws": "ketsuonyo",
       "ability": "At the start of the Engagement Phase, you may choose 1 ship in both your [Front Arc] and [Single Turret Arc] at range 0-1. If you do, that ship gains 1 tractor token.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_218.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/ketsuonyo.png",
       "slots": [
         "Talent",
         "Crew",
@@ -78,20 +78,21 @@
         "Modification",
         "Title"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_218.jpg",
-      "ffg": 218,
-      "hyperspace": false,
-      "keywords": ["Bounty Hunter"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ketsuonyo.png",
+      "wildspace": true,
+      "extended": true,
+      "keywords": ["Bounty Hunter", "Mandalorian"],
+      "epic": true
     },
     {
       "name": "Sabine Wren",
       "caption": "Artistic Saboteur",
       "initiative": 3,
       "limited": 1,
-      "cost": 58,
+      "cost": 56,
       "xws": "sabinewren-lancerclasspursuitcraft",
       "ability": "While you defend, if the attacker is in your [Single Turret Arc] at range 0-2, you may add 1 [Focus] result to your dice results.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_220.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/sabinewren-lancerclasspursuitcraft.png",
       "slots": [
         "Talent",
         "Crew",
@@ -100,24 +101,26 @@
         "Modification",
         "Title"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_220.jpg",
-      "ffg": 220,
-      "hyperspace": false,
-      "keywords": ["Mandalorian"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sabinewren-lancerclasspursuitcraft.png",
+      "wildspace": true,
+      "extended": true,
+      "keywords": ["Bounty Hunter", "Mandalorian"],
+      "epic": true
     },
     {
       "name": "Shadowport Hunter",
       "initiative": 2,
       "limited": 0,
-      "cost": 54,
+      "cost": 52,
       "xws": "shadowporthunter",
       "text": "Crime syndicates augment the lethal skills of their loyal contractors with the best technology available, like the fast and formidable Lancer-class pursuit craft.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_221.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/shadowporthunter.png",
       "slots": ["Crew", "Illicit", "Illicit", "Modification", "Title"],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_221.jpg",
-      "ffg": 221,
-      "hyperspace": false,
-      "keywords": ["Bounty Hunter"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shadowporthunter.png",
+      "wildspace": true,
+      "extended": true,
+      "keywords": ["Bounty Hunter"],
+      "epic": true
     }
   ]
 }

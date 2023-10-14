@@ -1,7 +1,6 @@
 {
   "name": "Customized YT-1300 Light Freighter",
   "xws": "customizedyt1300lightfreighter",
-  "ffg": 47,
   "size": "Large",
   "dial": [
     "1BB",
@@ -23,7 +22,7 @@
     "4KR"
   ],
   "dialCodes": ["CY"],
-  "faction": "Scum and Villainy",
+  "faction": "scumandvillainy",
   "stats": [
     { "arc": "Double Turret Arc", "type": "attack", "value": 2 },
     { "type": "agility", "value": 1 },
@@ -36,7 +35,7 @@
     { "difficulty": "Red", "type": "Boost" },
     { "difficulty": "White", "type": "Rotate Arc" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_CustomizedYT-1300.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_CustomizedYT-1300.png",
   "pilots": [
     {
       "name": "Freighter Captain",
@@ -54,21 +53,22 @@
         "Title",
         "Gunner"
       ],
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_225.png",
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_225.jpg",
-      "ffg": 225,
-      "hyperspace": false,
-      "keywords": ["Freighter", "YT-1300"]
+      "image": "https://infinitearenas.com/xw2/images/pilots/freightercaptain.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/freightercaptain.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     },
     {
       "name": "Han Solo",
       "caption": "The Corellian Kid",
       "initiative": 6,
       "limited": 1,
-      "cost": 48,
+      "cost": 49,
       "xws": "hansolo",
       "ability": "While you defend or perform a primary attack, if the attack is obstructed by an obstacle, you may roll 1 additional die.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_222.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/hansolo.png",
       "slots": [
         "Talent",
         "Missile",
@@ -79,10 +79,11 @@
         "Title",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_222.jpg",
-      "ffg": 222,
-      "hyperspace": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     },
     {
       "name": "L3-37",
@@ -92,7 +93,7 @@
       "cost": 41,
       "xws": "l337",
       "ability": "If you are not shielded, decrease the difficulty of your bank ([Bank Left] and [Bank Right]) maneuvers.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_224.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/l337.png",
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
         { "difficulty": "White", "type": "Lock" },
@@ -108,20 +109,21 @@
         "Modification",
         "Title"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_224.jpg",
-      "ffg": 224,
-      "hyperspace": true,
-      "keywords": ["Droid", "Freighter", "YT-1300"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/l337.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Droid", "Freighter", "YT-1300"],
+      "epic": true
     },
     {
       "name": "Lando Calrissian",
       "caption": "Smooth-talking Gambler",
       "initiative": 4,
       "limited": 1,
-      "cost": 42,
+      "cost": 43,
       "xws": "landocalrissian",
       "ability": "After you roll dice, if you are not stressed, you may gain 1 stress token to reroll all of your blank results.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_223.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/landocalrissian.png",
       "slots": [
         "Talent",
         "Missile",
@@ -132,10 +134,11 @@
         "Title",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_223.jpg",
-      "ffg": 223,
-      "hyperspace": true,
-      "keywords": ["Freighter", "YT-1300"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     }
   ]
 }

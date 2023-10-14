@@ -1,7 +1,6 @@
 {
   "name": "Scurrg H-6 bomber",
   "xws": "scurrgh6bomber",
-  "ffg": 4,
   "size": "Medium",
   "dial": [
     "1BB",
@@ -22,7 +21,7 @@
     "4FR"
   ],
   "dialCodes": ["SRG"],
-  "faction": "Scum and Villainy",
+  "faction": "scumandvillainy",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
     { "type": "agility", "value": 1 },
@@ -34,7 +33,7 @@
     { "difficulty": "White", "type": "Lock" },
     { "difficulty": "Red", "type": "Barrel Roll" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Scurrg.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Scurrg.png",
   "pilots": [
     {
       "name": "Captain Nym",
@@ -44,7 +43,7 @@
       "cost": 45,
       "xws": "captainnym",
       "ability": "Before a friendly bomb or mine would detonate, you may spend 1 [Charge] to prevent it from detonating. While you defend against an attack obstructed by a bomb or mine, roll 1 additional defense die.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_204.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/captainnym.png",
       "charges": { "value": 1, "recovers": 1 },
       "slots": [
         "Talent",
@@ -56,18 +55,19 @@
         "Title",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_204.jpg",
-      "ffg": 204,
-      "hyperspace": false
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainnym.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
     },
     {
       "name": "Lok Revenant",
       "initiative": 2,
       "limited": 0,
-      "cost": 43,
+      "cost": 42,
       "xws": "lokrevenant",
       "text": "The Nubian Design Collective crafted the Scurrg H-6 Bomber with combat versatility in mind, arming it with powerful shields and a bristling array of destructive weaponry.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_206.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/lokrevenant.png",
       "slots": [
         "Turret",
         "Crew",
@@ -77,9 +77,10 @@
         "Title",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_206.jpg",
-      "ffg": 206,
-      "hyperspace": false
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lokrevenant.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
     },
     {
       "name": "Sol Sixxa",
@@ -89,7 +90,7 @@
       "cost": 44,
       "xws": "solsixxa",
       "ability": "If you would drop a device using a [1 [Straight]] template, you may drop it using any other speed 1 template instead.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_205.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/solsixxa.png",
       "slots": [
         "Talent",
         "Turret",
@@ -100,9 +101,10 @@
         "Title",
         "Gunner"
       ],
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/Card_art_XW_P_205.jpg",
-      "ffg": 205,
-      "hyperspace": false
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/solsixxa.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
     }
   ]
 }
