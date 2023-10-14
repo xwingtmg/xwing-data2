@@ -1367,9 +1367,9 @@
             "turret": ["ioncannonturret"],
             "tech": ["targetingsynchronizer"],
             "torpedo": ["plasmatorpedoes"],
-			"gunner": ["weaponssystemsofficer"],
-			"astromech": ["r4b11"],
-			"device": ["concussionbombs"]
+            "gunner": ["weaponssystemsofficer"],
+            "astromech": ["r4b11"],
+            "device": ["concussionbombs"]
           }
         }
       ]
@@ -1446,7 +1446,7 @@
             "crew": ["lattsrazzi"],
             "gunner": ["dengar"],
             "modification": ["shieldupgrade"],
-			"torpedo": ["advprotontorpedoes"]
+            "torpedo": ["advprotontorpedoes"]
           }
         }
       ]
@@ -1474,8 +1474,8 @@
             "torpedo": ["protontorpedoes"],
             "illicit": ["contrabandcybernetics"],
             "modification": ["hullupgrade", "shieldupgrade"],
-			"astromech": ["r5p8"],
-			"title": ["punishingone"]
+            "astromech": ["r5p8"],
+            "title": ["punishingone"]
           }
         }
       ]
@@ -1604,7 +1604,7 @@
           "upgrades": {
             "missile": ["homingmissiles"],
             "crew": ["cikatrovizago", "freelanceslicer"],
-			"gunner": ["greedo"],
+            "gunner": ["greedo"],
             "illicit": ["feedbackarray"]
           }
         }
@@ -1619,18 +1619,18 @@
             "talent": ["predator"],
             "missile": ["homingmissiles"],
             "crew": ["gnkgonkdroid"],
-			"gunner": ["bt1"],
+            "gunner": ["bt1"],
             "title": ["houndstooth"]
           }
         },
-		{
-		  "id": "nashtahpup",
-		  "upgrades": {
-			"talent": ["predator"],
-			"missile": ["homingmissiles"],
-			"illicit": ["feedbackarray"]
-		  }
-		}
+        {
+          "id": "nashtahpup",
+          "upgrades": {
+            "talent": ["predator"],
+            "missile": ["homingmissiles"],
+            "illicit": ["feedbackarray"]
+          }
+        }
       ]
     },
     {
@@ -1643,7 +1643,7 @@
             "cannon": ["tractorbeam"],
             "illicit": ["feedbackarray"],
             "modification": ["ablativeplating"],
-			"crew": ["tacticalofficer"]
+            "crew": ["tacticalofficer"]
           }
         }
       ]
@@ -1672,10 +1672,10 @@
             "hardpoint": ["pointdefensebattery"],
             "turret": ["dorsalturret"],
             "crew": ["novicetechnician"],
-			"team": ["commsteam", "igrmdroids"],
-			"cargo": ["adaptiveshields", "tibannareserves"],
-			"illicit": ["quickreleaselocks"],
-			"title": ["merchantone"]
+            "team": ["commsteam", "igrmdroids"],
+            "cargo": ["adaptiveshields", "tibannareserves"],
+            "illicit": ["quickreleaselocks"],
+            "title": ["merchantone"]
           }
         }
       ]
@@ -1690,8 +1690,8 @@
             "hardpoint": ["tractortentacles", "protoncannonbattery"],
             "crew": ["novicetechnician"],
             "team": ["corsaircrew"],
-			"cargo": ["tibannareserves"],
-			"title": ["nautolansrevenge"]
+            "cargo": ["tibannareserves"],
+            "title": ["nautolansrevenge"]
           }
         }
       ]
@@ -1706,8 +1706,8 @@
             "hardpoint": ["tractortentacles", "drillbeak"],
             "crew": ["seasonednavigator"],
             "team": ["corsaircrew", "gunneryspecialists"],
-			"cargo": ["boostedscanners"],
-			"title": ["grappler"]
+            "cargo": ["boostedscanners"],
+            "title": ["grappler"]
           }
         }
       ]
@@ -1749,9 +1749,9 @@
             "cannon": ["syncedlasercannons"],
             "illicit": ["overtunedmodulators"],
             "modification": ["shieldupgrade"],
-			"crew": ["freelanceslicer"],
-			"device": ["blazerbomb"],
-			"title": ["xanadublood"]
+            "crew": ["freelanceslicer"],
+            "device": ["blazerbomb"],
+            "title": ["xanadublood"]
           }
         }
       ]
@@ -1800,7 +1800,7 @@
           "upgrades": {
             "force-power": ["heightenedperception"],
             "title": ["nightbrother"],
-			"configuration": ["swivelwing"]
+            "configuration": ["swivelwing"]
           }
         }
       ]
@@ -1815,7 +1815,7 @@
             "crew": ["mandaloriansupercommandos"],
             "title": ["nightbrother"],
             "modification": ["dropseatbay"],
-			"configuration": ["swivelwing"]
+            "configuration": ["swivelwing"]
           }
         }
       ]
@@ -1829,7 +1829,7 @@
             "talent": ["enduring"],
             "device": ["blazerbomb"],
             "modification": ["shieldupgrade"],
-			"illicit": ["overtunedmodulators"]
+            "illicit": ["overtunedmodulators"]
           }
         }
       ]
@@ -1841,10 +1841,10 @@
           "id": "themandalorian",
           "upgrades": {
             "talent": ["notorious"],
-			"crew": ["kuiil", "thechild"],
+            "crew": ["kuiil", "thechild"],
             "title": ["razorcrest"],
             "modification": ["burnoutthrusters", "hullupgrade"],
-			"illicit": ["trackingfob"]
+            "illicit": ["trackingfob"]
           }
         }
       ]
@@ -1857,7 +1857,7 @@
           "upgrades": {
             "crew": ["pelimotto", "ig11"],
             "modification": ["hullupgrade"],
-			"illicit": ["hotshottailblaster", "trackingfob"]
+            "illicit": ["hotshottailblaster", "trackingfob"]
           }
         }
       ]
@@ -1869,11 +1869,11 @@
           "id": "q90",
           "upgrades": {
             "talent": ["outmaneuver"],
-			"crew": ["themandalorian", "thechild"],
+            "crew": ["themandalorian", "thechild"],
             "gunner": ["migsmayfeld"],
             "modification": ["burnoutthrusters"],
-			"illicit": ["trackingfob"],
-			"title": ["razorcrest"]
+            "illicit": ["trackingfob"],
+            "title": ["razorcrest"]
           }
         }
       ]
@@ -1884,7 +1884,7 @@
         {
           "id": "outerrimenforcer",
           "upgrades": {
-			"illicit": ["trackingfob"]
+            "illicit": ["trackingfob"]
           }
         }
       ]

@@ -209,9 +209,11 @@
         }
       }
     ],
-    
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["firstorder"] }, { "sizes": ["Medium", "Large"] }],
+    "restrictions": [
+      { "factions": ["firstorder"] },
+      { "sizes": ["Medium", "Large"] }
+    ],
     "standard": true,
     "wildspace": true,
     "epic": true

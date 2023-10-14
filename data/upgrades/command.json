@@ -487,7 +487,7 @@
         "title": "Asajj Ventress",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "grants" : [
+        "grants": [
           {
             "type": "action",
             "value": {
@@ -542,7 +542,7 @@
         "title": "Hondo Ohnaka",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "grants" : [
+        "grants": [
           {
             "type": "action",
             "value": {
@@ -557,9 +557,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [
-      { "sizes": ["Huge"] }
-    ],
+    "restrictions": [{ "sizes": ["Huge"] }],
     "standard": false,
     "wildspace": false,
     "epic": true
@@ -602,9 +600,7 @@
       }
     ],
     "cost": { "value": "0" },
-    "restrictions": [
-      { "ships": ["gauntletfighter"] }
-    ],
+    "restrictions": [{ "ships": ["gauntletfighter"] }],
     "standard": false,
     "wildspace": false,
     "epic": true

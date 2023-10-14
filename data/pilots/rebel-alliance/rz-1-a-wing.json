@@ -251,12 +251,7 @@
       "wildspace": true,
       "cost": 35,
       "force": { "value": 1, "recovers": 0 },
-      "slots": [
-        "Talent",
-        "Talent",
-        "Missile",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Talent", "Missile", "Configuration"],
       "ability": "If you have no active [Force], after you reveal a bank [[Bank Left] or [Bank Right]] or turn [[Turn Left] or [Turn Right]] maneuver, you may increase the difficulty of the maneuver. If you do, perform that maneuver as a sideslip and recover 1 [Force].",
       "keywords": ["A-wing"],
       "image": "https://infinitearenas.com/xw2/images/pilots/keovenzee.png",
@@ -276,12 +271,7 @@
       "standard": true,
       "wildspace": true,
       "cost": 36,
-      "slots": [
-        "Talent",
-        "Talent",
-        "Missile",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Talent", "Missile", "Configuration"],
       "ability": "While you have 2 or fewer stress tokens, you may perform actions, even while stressed.",
       "keywords": ["A-wing"],
       "image": "https://infinitearenas.com/xw2/images/pilots/tychocelchu.png",

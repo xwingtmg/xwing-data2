@@ -1097,7 +1097,17 @@
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 2, "1": 3, "2": 4, "3": 5, "4": 6, "5": 7, "6": 8, "7": 9, "8": 10 }
+      "values": {
+        "0": 2,
+        "1": 3,
+        "2": 4,
+        "3": 5,
+        "4": 6,
+        "5": 7,
+        "6": 8,
+        "7": 9,
+        "8": 10
+      }
     },
     "standard": true,
     "wildspace": true,
@@ -1416,7 +1426,7 @@
     "standard": true,
     "wildspace": true,
     "epic": true
-},
+  },
   {
     "name": "Amilyn Holdo",
     "limited": 1,
@@ -1440,7 +1450,7 @@
   {
     "name": "GA-97",
     "limited": 1,
-    "xws": "ga97",    
+    "xws": "ga97",
     "sides": [
       {
         "ability": "Setup: Before placing forces, you may spend 3-5 [Charge]. If you do, choose another friendly ship and assign the It's the Resistance condition to it.",
@@ -1468,7 +1478,7 @@
   {
     "name": "Kaydel Connix",
     "limited": 1,
-    "xws": "kaydelconnix",   
+    "xws": "kaydelconnix",
     "sides": [
       {
         "ability": "After you reveal your dial, you may set your dial to a basic maneuver of the next higher speed. While you execute that maneuver, increase its difficulty.",
@@ -1608,7 +1618,7 @@
     "name": "Aayla Secura",
     "limited": 1,
     "xws": "aaylasecura",
-        "sides": [
+    "sides": [
       {
         "ability": "While an enemy ship in your [Bullseye Arc] performs an attack, if the defender is friendly and at range 0-2, the defender may change 1 blank result to a [Focus] result.",
         "title": "Aayla Secura",
@@ -1638,7 +1648,7 @@
     "name": "Agent Terex",
     "limited": 1,
     "xws": "agentterex",
-        "sides": [
+    "sides": [
       {
         "ability": "Setup: Equip this side faceup and place 3 calculate tokens on this card. At the start of the Engagement Phase, you may choose a friendly ship at range 0-3 and remove 1 calculate token from this card to have that ship gain a matching token. Then, if there are no calculate tokens on this card, flip it.",
         "title": "Agent Terex",
@@ -1665,7 +1675,7 @@
     "name": "K-2SO",
     "limited": 1,
     "xws": "k2so",
-        "sides": [
+    "sides": [
       {
         "ability": "During the System Phase, you may choose a friendly ship at range 0-3. That ship gains 1 calculate and 1 stress token.",
         "title": "K-2SO",
@@ -1948,9 +1958,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [
-      { "factions": ["scumandvillainy", "separatistalliance"] }
-    ],
+    "restrictions": [{ "factions": ["scumandvillainy", "separatistalliance"] }],
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -1959,7 +1967,7 @@
     "name": "Zam Wesell",
     "limited": 1,
     "xws": "zamwesell",
-        "sides": [
+    "sides": [
       {
         "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: You Should Thank Me You'd Better Mean Business",
         "title": "Zam Wesell",
@@ -1972,9 +1980,7 @@
       }
     ],
     "cost": { "value": 11 },
-    "restrictions": [
-      { "factions": ["scumandvillainy", "separatistalliance"] }
-    ],
+    "restrictions": [{ "factions": ["scumandvillainy", "separatistalliance"] }],
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -1983,7 +1989,7 @@
     "name": "Gamut Key",
     "limited": 1,
     "xws": "gamutkey",
-        "sides": [
+    "sides": [
       {
         "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose a ship at range 0-1 with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
         "title": "Gamut Key",
@@ -2004,7 +2010,7 @@
     "name": "Protectorate Gleb",
     "limited": 1,
     "xws": "protectorategleb",
-        "sides": [
+    "sides": [
       {
         "ability": "After you coordinate a friendly ship, you may transfer 1 orange or red token to the ship you coordinated.",
         "title": "Protectorate Gleb",
@@ -2203,9 +2209,7 @@
       }
     ],
     "cost": { "value": 9 },
-    "restrictions": [
-      { "factions": ["scumandvillainy", "galacticrepublic"] }
-    ],
+    "restrictions": [{ "factions": ["scumandvillainy", "galacticrepublic"] }],
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -2374,9 +2378,7 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [
-      { "factions": ["scumandvillainy", "separatistalliance"] }
-    ],
+    "restrictions": [{ "factions": ["scumandvillainy", "separatistalliance"] }],
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -2442,9 +2444,7 @@
       }
     ],
     "cost": { "value": 9 },
-    "restrictions": [
-      { "factions": ["scumandvillainy", "separatistalliance"] }
-    ],
+    "restrictions": [{ "factions": ["scumandvillainy", "separatistalliance"] }],
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -2465,9 +2465,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [
-      { "factions": ["rebelalliance"], "names": ["Gar Saxon"] }
-    ],
+    "restrictions": [{ "factions": ["rebelalliance"], "names": ["Gar Saxon"] }],
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -2529,9 +2527,7 @@
       }
     ],
     "cost": { "value": 10 },
-    "restrictions": [
-      { "factions": ["scumandvillainy", "galacticrepublic"] }
-    ],
+    "restrictions": [{ "factions": ["scumandvillainy", "galacticrepublic"] }],
     "standard": true,
     "wildspace": true,
     "epic": true

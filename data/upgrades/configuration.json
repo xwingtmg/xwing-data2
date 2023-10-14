@@ -241,7 +241,15 @@
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 15, "1": 15, "2": 15, "3": 15, "4": 17, "5": 20, "6": 24 }
+      "values": {
+        "0": 15,
+        "1": 15,
+        "2": 15,
+        "3": 15,
+        "4": 17,
+        "5": 20,
+        "6": 24
+      }
     },
     "restrictions": [{ "ships": ["delta7aethersprite"] }],
     "standard": false,
@@ -557,8 +565,8 @@
       {
         "ability": "Replace your Autothrusters ship ability with the following:",
         "shipAbility": {
-              "name": "Sensitive Controls",
-              "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+          "name": "Sensitive Controls",
+          "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
         },
         "title": "Sensitive Controls",
         "type": "Configuration",
@@ -637,7 +645,7 @@
     ],
     "standard": true,
     "wildspace": true,
-    "epic": true,
+    "epic": true
   },
   {
     "name": "Wartime Loadout",

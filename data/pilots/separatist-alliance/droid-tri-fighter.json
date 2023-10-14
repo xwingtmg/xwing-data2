@@ -177,7 +177,11 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dis347-siegeofcoruscant.png",
-      "standardLoadout": ["marksmanship", "afterburners", "contingencyprotocol-siegeofcoruscant"],
+      "standardLoadout": [
+        "marksmanship",
+        "afterburners",
+        "contingencyprotocol-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dis347.png",
       "standard": false,
       "wildspace": true,
@@ -217,7 +221,11 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dist81-siegeofcoruscant.png",
-      "standardLoadout": ["outmaneuver", "afterburners", "contingencyprotocol-siegeofcoruscant"],
+      "standardLoadout": [
+        "outmaneuver",
+        "afterburners",
+        "contingencyprotocol-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dist81.png",
       "standard": false,
       "wildspace": true,
@@ -257,7 +265,11 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/phlacarphoccprototype-siegeofcoruscant.png",
-      "standardLoadout": ["afterburners", "contingencyprotocol-siegeofcoruscant", "evasionsequence7-siegeofcoruscant"],
+      "standardLoadout": [
+        "afterburners",
+        "contingencyprotocol-siegeofcoruscant",
+        "evasionsequence7-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/phlacarphoccprototype.png",
       "standard": false,
       "wildspace": true,
@@ -315,7 +327,14 @@
       "cost": 40,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/volandas.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/volandas.png",
-      "slots": ["Talent", "Sensor", "Missile", "Illicit", "Modification", "Configuration"],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Missile",
+        "Illicit",
+        "Modification",
+        "Configuration"
+      ],
       "keywords": ["Bounty Hunter"],
       "epic": true
     }

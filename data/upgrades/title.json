@@ -594,9 +594,9 @@
         "type": "Title",
         "slots": ["Title"],
         "grants": [
-              { "type": "stat", "value": "hull", "amount": 2 },
-              { "type": "stat", "value": "shields", "amount": -2 },
-              { "type": "slot", "value": "Gunner", "amount": 1 }
+          { "type": "stat", "value": "hull", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -2 },
+          { "type": "slot", "value": "Gunner", "amount": 1 }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/assailer.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/assailer.png"
@@ -622,9 +622,9 @@
         "type": "Title",
         "slots": ["Title"],
         "grants": [
-              { "type": "stat", "value": "energy", "amount": 2 },
-              { "type": "stat", "value": "shields", "amount": -1 },
-              { "type": "slot", "value": "Gunner", "amount": 1 }
+          { "type": "stat", "value": "energy", "amount": 2 },
+          { "type": "stat", "value": "shields", "amount": -1 },
+          { "type": "slot", "value": "Gunner", "amount": 1 }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/bloodcrow.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/bloodcrow.png"
@@ -673,8 +673,8 @@
         "type": "Title",
         "slots": ["Title"],
         "grants": [
-              { "type": "slot", "value": "Illicit", "amount": 1 },
-              { "type": "slot", "value": "Crew", "amount": 1 }
+          { "type": "slot", "value": "Illicit", "amount": 1 },
+          { "type": "slot", "value": "Crew", "amount": 1 }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/brokenhorn.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/brokenhorn.png"
@@ -1004,7 +1004,7 @@
     "standard": false,
     "wildspace": false,
     "epic": true
-  },  
+  },
   {
     "name": "Requiem",
     "limited": 1,
@@ -1039,9 +1039,9 @@
         "type": "Title",
         "slots": ["Title"],
         "grants": [
-              { "type": "stat", "value": "hull", "amount": -2 },
-              { "type": "stat", "value": "shields", "amount": 2 },
-              { "type": "slot", "value": "Sensor", "amount": 1 }
+          { "type": "stat", "value": "hull", "amount": -2 },
+          { "type": "stat", "value": "shields", "amount": 2 },
+          { "type": "slot", "value": "Sensor", "amount": 1 }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/suppressor.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/suppressor.png"
@@ -1282,7 +1282,7 @@
     "standard": false,
     "wildspace": false,
     "epic": true
-},
+  },
   {
     "name": "Nightbrother",
     "limited": 1,

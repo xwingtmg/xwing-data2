@@ -597,7 +597,11 @@
           "upgrades": {
             "talent": ["experthandling"],
             "astromech": ["r2astromech"],
-            "modification": ["engineupgrade", "hullupgrade", "targetingcomputer"]
+            "modification": [
+              "engineupgrade",
+              "hullupgrade",
+              "targetingcomputer"
+            ]
           }
         }
       ]
@@ -623,7 +627,7 @@
           "upgrades": {
             "talent": ["tierfonbellyrun"],
             "turret": ["ioncannonturret"],
-			"illicit": ["overtunedmodulators"],
+            "illicit": ["overtunedmodulators"],
             "modification": ["engineupgrade", "targetingcomputer"]
           }
         }
@@ -650,7 +654,7 @@
           "upgrades": {
             "talent": ["outmaneuver"],
             "turret": ["ioncannonturret"],
-			"astromech": ["r3astromech"],
+            "astromech": ["r3astromech"],
             "modification": ["shieldupgrade", "targetingcomputer"]
           }
         }
@@ -663,7 +667,7 @@
           "id": "shasazaro",
           "upgrades": {
             "turret": ["ioncannonturret"],
-			"astromech": ["watchfulastromech"],
+            "astromech": ["watchfulastromech"],
             "device": ["concussionbombs"],
             "configuration": ["wartimeloadout"]
           }
@@ -679,8 +683,8 @@
             "talent": ["experthandling"],
             "astromech": ["r2astromech"],
             "turret": ["ioncannonturret"],
-			"modification": ["delayedfuses", "engineupgrade"],
-			"device": ["concussionbombs"]
+            "modification": ["delayedfuses", "engineupgrade"],
+            "device": ["concussionbombs"]
           }
         }
       ]
@@ -693,7 +697,7 @@
           "upgrades": {
             "talent": ["predator"],
             "astromech": ["r3astromech"],
-			"turret": ["ioncannonturret"],
+            "turret": ["ioncannonturret"],
             "modification": ["engineupgrade", "targetingcomputer"]
           }
         }
@@ -707,8 +711,8 @@
           "upgrades": {
             "talent": ["outmaneuver"],
             "torpedo": ["protontorpedoes"],
-			"astromech": ["r3astromech"],
-			"illicit": ["babufrik"],
+            "astromech": ["r3astromech"],
+            "illicit": ["babufrik"],
             "configuration": ["wartimeloadout"]
           }
         }
@@ -836,11 +840,11 @@
           "id": "blacksquadronace-t70xwing",
           "upgrades": {
             "tech": ["primedthrusters"],
-			"talent": ["deadeyeshot"],
-			"torpedo": ["protontorpedoes"],
+            "talent": ["deadeyeshot"],
+            "torpedo": ["protontorpedoes"],
             "configuration": ["integratedsfoils"],
             "astromech": ["r3astromech"],
-			"modification": ["afterburners"]
+            "modification": ["afterburners"]
           }
         }
       ]
@@ -852,10 +856,10 @@
           "id": "caithrenalli",
           "upgrades": {
             "tech": ["primedthrusters"],
-			"talent": ["backwardstailslide"],
+            "talent": ["backwardstailslide"],
             "configuration": ["integratedsfoils"],
             "astromech": ["r4astromech"],
-			"torpedo": ["protontorpedoes"]
+            "torpedo": ["protontorpedoes"]
           }
         }
       ]
@@ -869,8 +873,8 @@
             "talent": ["backwardstailslide", "daredevil"],
             "configuration": ["integratedsfoils"],
             "astromech": ["r2d2-resistance"],
-			"modification": ["overdrivethruster"],
-			"title": ["blackone"]
+            "modification": ["overdrivethruster"],
+            "title": ["blackone"]
           }
         }
       ]
@@ -884,8 +888,8 @@
             "talent": ["snapshot"],
             "configuration": ["integratedsfoils"],
             "astromech": ["r6d8"],
-			"cannon": ["underslungblastercannon"],
-			"modification": ["hullupgrade"]
+            "cannon": ["underslungblastercannon"],
+            "modification": ["hullupgrade"]
           }
         }
       ]
@@ -899,8 +903,8 @@
             "command": ["stalwartcaptain"],
             "hardpoint": ["ioncannonbattery"],
             "turret": ["dorsalturret"],
-			"team": ["sensorexperts"],
-			"cargo": ["boostedscanners", "tibannareserves"]
+            "team": ["sensorexperts"],
+            "cargo": ["boostedscanners", "tibannareserves"]
           }
         }
       ]

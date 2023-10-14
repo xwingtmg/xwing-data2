@@ -1,5 +1,5 @@
 [
-{
+  {
     "name": "Homing Torpedoes",
     "limited": 0,
     "xws": "homingtorpedoes",
@@ -111,7 +111,7 @@
     "name": "Plasma Torpedoes",
     "limited": 0,
     "xws": "plasmatorpedoes",
-        "sides": [
+    "sides": [
       {
         "ability": "Attack ([Lock]): Spend 1 [Charge]. During the Neutralize Results step, [Critical Hit] results are canceled before [Hit] results. After this attack hits, the defender loses 1 shield.",
         "title": "Plasma Torpedoes",

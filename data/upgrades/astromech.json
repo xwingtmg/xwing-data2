@@ -2,7 +2,7 @@
   {
     "name": "“Chopper”",
     "limited": 1,
-    "xws": "chopper",
+    "xws": "chopper-astromech",
     "sides": [
       {
         "title": "“Chopper”",
@@ -271,7 +271,17 @@
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 2, "1": 2, "2": 3, "3": 4, "4": 4, "5": 5, "6": 6, "7": 6, "8": 6 }
+      "values": {
+        "0": 2,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 6,
+        "8": 6
+      }
     },
     "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
@@ -295,7 +305,17 @@
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 1, "1": 1, "2": 2, "3": 3, "4": 3, "5": 4, "6": 5, "7": 5, "8": 5 }
+      "values": {
+        "0": 1,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 3,
+        "5": 4,
+        "6": 5,
+        "7": 5,
+        "8": 5
+      }
     },
     "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,

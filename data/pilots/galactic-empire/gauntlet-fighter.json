@@ -1,111 +1,110 @@
 {
-    "name": "Gauntlet Fighter",
-    "xws": "gauntletfighter",
-    "size": "Large",
-    "dial": [
-      "0OR",
-      "1BB",
-      "1NB",
-      "2TW",
-      "2BB",
-      "2FB",
-      "2NB",
-      "2YW",
-      "3TR",
-      "3BW",
-      "3FW",
-      "3NW",
-      "3YR",
-      "4FW"
-    ],
-    "dialCodes": ["GtF"],
-    "faction": "galacticempire",
-    "stats": [
-      { "arc": "Front Arc", "type": "attack", "value": 3 },
-      { "arc": "Rear Arc", "type": "attack", "value": 2 },
-      { "type": "agility", "value": 2 },
-      { "type": "hull", "value": 9 },
-      { "type": "shields", "value": 2 }
-    ],
-    "actions": [
-      { "difficulty": "White", "type": "Focus" },
-      { "difficulty": "Red", "type": "Reinforce" },
-      { "difficulty": "White", "type": "Lock" },
-      { "difficulty": "Red", "type": "Coordinate" }
-    ],
-    "pilots": [
-      {
-        "name": "Captain Hark",
-        "caption": "Obedient Underling",
-        "initiative": 3,
-        "limited": 1,
-        "cost": 53,
-        "xws": "captainhark",
-        "ability": "After you reveal a [0 [Stationary]] maneuver, if you are equipped with Swivel Wings (Down), you must execute a [1 [Bank Left]] or [1 [Bank Right]] sideslip maneuver of the same difficulty instead. After you execute that maneuver, you must flip Swivel Wings (Down).",
-        "standard": true,
-        "wildspace": true,
-        "epic": true,
-        "slots": [
-          "Talent",
-          "Crew",
-          "Gunner",
-          "Device",
-          "Modification",
-          "Title",
-          "Configuration"
-        ],
-        "image": "https://infinitearenas.com/xw2/images/pilots/captainhark.png",
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainhark.png",
-        "keywords": ["Mandalorian"]
-      },
-      {
-        "name": "Gar Saxon",
-        "caption": "Treacherous Viceroy",
-        "charges": { "value": 2, "recovers": 1 },
-        "initiative": 3,
-        "limited": 1,
-        "cost": 61,
-        "xws": "garsaxon",
-        "ability": "When a friendly unit at range 0-2 performs a primary attack, if the attacker is in the defender's [Rear Arc], you may spend 1 [Charge]. If you do, the attacker rolls 1 additional die.",
-        "standard": true,
-        "wildspace": true,
-        "epic": true,
-        "slots": [
-          "Talent",
-          "Crew",
-          "Gunner",
-          "Device",
-          "Modification",
-          "Title",
-          "Configuration"
-        ],
-        "image": "https://infinitearenas.com/xw2/images/pilots/garsaxon.png",
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/garsaxon.png",
-        "keywords": ["Mandalorian"]
-        
-      },
-      {
-        "name": "Imperial Super Commando",
-        "initiative": 2,
-        "limited": 0,
-        "cost": 54,
-        "xws": "imperialsupercommando",
-        "text": "Under the rule of Viceroy Gar Saxon, the ruthless warriors that once served Lord Maul have been transformed into enforcers of the new order. The Mandalorian Gauntlet Fighter continues to serve as the combat transport of choice for these Imperial Super Commandos.",
-        "standard": true,
-        "wildspace": true,
-        "epic": true,
-        "slots": [
-          "Talent",
-          "Crew",
-          "Gunner",
-          "Device",
-          "Modification",
-          "Title",
-          "Configuration"
-        ],
-        "image": "https://infinitearenas.com/xw2/images/pilots/imperialsupercommando.png",
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/imperialsupercommando.png",
-        "keywords": ["Mandalorian"]
-      }
-    ]
-  }
+  "name": "Gauntlet Fighter",
+  "xws": "gauntletfighter",
+  "size": "Large",
+  "dial": [
+    "0OR",
+    "1BB",
+    "1NB",
+    "2TW",
+    "2BB",
+    "2FB",
+    "2NB",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FW",
+    "3NW",
+    "3YR",
+    "4FW"
+  ],
+  "dialCodes": ["GtF"],
+  "faction": "galacticempire",
+  "stats": [
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "arc": "Rear Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 9 },
+    { "type": "shields", "value": 2 }
+  ],
+  "actions": [
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "Red", "type": "Reinforce" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Coordinate" }
+  ],
+  "pilots": [
+    {
+      "name": "Captain Hark",
+      "caption": "Obedient Underling",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 53,
+      "xws": "captainhark",
+      "ability": "After you reveal a [0 [Stationary]] maneuver, if you are equipped with Swivel Wings (Down), you must execute a [1 [Bank Left]] or [1 [Bank Right]] sideslip maneuver of the same difficulty instead. After you execute that maneuver, you must flip Swivel Wings (Down).",
+      "standard": true,
+      "wildspace": true,
+      "epic": true,
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Modification",
+        "Title",
+        "Configuration"
+      ],
+      "image": "https://infinitearenas.com/xw2/images/pilots/captainhark.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainhark.png",
+      "keywords": ["Mandalorian"]
+    },
+    {
+      "name": "Gar Saxon",
+      "caption": "Treacherous Viceroy",
+      "charges": { "value": 2, "recovers": 1 },
+      "initiative": 3,
+      "limited": 1,
+      "cost": 61,
+      "xws": "garsaxon",
+      "ability": "When a friendly unit at range 0-2 performs a primary attack, if the attacker is in the defender's [Rear Arc], you may spend 1 [Charge]. If you do, the attacker rolls 1 additional die.",
+      "standard": true,
+      "wildspace": true,
+      "epic": true,
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Modification",
+        "Title",
+        "Configuration"
+      ],
+      "image": "https://infinitearenas.com/xw2/images/pilots/garsaxon.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/garsaxon.png",
+      "keywords": ["Mandalorian"]
+    },
+    {
+      "name": "Imperial Super Commando",
+      "initiative": 2,
+      "limited": 0,
+      "cost": 54,
+      "xws": "imperialsupercommando",
+      "text": "Under the rule of Viceroy Gar Saxon, the ruthless warriors that once served Lord Maul have been transformed into enforcers of the new order. The Mandalorian Gauntlet Fighter continues to serve as the combat transport of choice for these Imperial Super Commandos.",
+      "standard": true,
+      "wildspace": true,
+      "epic": true,
+      "slots": [
+        "Talent",
+        "Crew",
+        "Gunner",
+        "Device",
+        "Modification",
+        "Title",
+        "Configuration"
+      ],
+      "image": "https://infinitearenas.com/xw2/images/pilots/imperialsupercommando.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/imperialsupercommando.png",
+      "keywords": ["Mandalorian"]
+    }
+  ]
+}

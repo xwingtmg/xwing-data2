@@ -163,7 +163,11 @@
       ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/countdooku-siegeofcoruscant.png",
       "force": { "value": 3, "recovers": 1, "side": ["dark"] },
-      "standardLoadout": ["malice", "roilinganger-siegeofcoruscant", "scimitar"],
+      "standardLoadout": [
+        "malice",
+        "roilinganger-siegeofcoruscant",
+        "scimitar"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
       "standard": false,
       "wildspace": true,

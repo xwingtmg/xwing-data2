@@ -367,7 +367,7 @@
             "cannon": ["jammingbeam"],
             "device": ["thermaldetonators"],
             "gunner": ["suppressivegunner"],
-			"modification": ["ablativeplating"]
+            "modification": ["ablativeplating"]
           }
         }
       ]
@@ -380,7 +380,7 @@
           "upgrades": {
             "illicit": ["falsetranspondercodes"],
             "crew": ["zamwesell"],
-			"gunner": ["bobafett-gunner"],
+            "gunner": ["bobafett-gunner"],
             "title": ["slavei-swz82"]
           }
         }
@@ -393,9 +393,9 @@
           "id": "zamwesell",
           "upgrades": {
             "talent": ["deadeyeshot"],
-			"illicit": ["falsetranspondercodes"],
+            "illicit": ["falsetranspondercodes"],
             "crew": ["jangofett"],
-			"gunner": ["hotshotgunner"],
+            "gunner": ["hotshotgunner"],
             "title": ["slavei-swz82"]
           }
         }
@@ -410,7 +410,7 @@
             "missile": ["ionmissiles"],
             "device": ["concussionbombs"],
             "modification": ["delayedfuses"],
-			"configuration": ["repulsorliftstabilizers"]
+            "configuration": ["repulsorliftstabilizers"]
           }
         }
       ]
@@ -424,7 +424,7 @@
             "missile": ["ionmissiles"],
             "device": ["concussionbombs"],
             "modification": ["delayedfuses"],
-			"configuration": ["repulsorliftstabilizers"]
+            "configuration": ["repulsorliftstabilizers"]
           }
         }
       ]
@@ -437,7 +437,7 @@
           "upgrades": {
             "missile": ["ionmissiles"],
             "cannon": ["syncedlasercannons"],
-			"configuration": ["repulsorliftstabilizers"]
+            "configuration": ["repulsorliftstabilizers"]
           }
         }
       ]
@@ -449,7 +449,7 @@
           "id": "onderonoppressor",
           "upgrades": {
             "missile": ["multimissilepods"],
-			"configuration": ["repulsorliftstabilizers"]
+            "configuration": ["repulsorliftstabilizers"]
           }
         }
       ]
@@ -474,10 +474,10 @@
           "id": "dgs286",
           "upgrades": {
             "missile": ["multimissilepods"],
-			"tactical-relay": ["kalani"],
+            "tactical-relay": ["kalani"],
             "device": ["concussionbombs"],
             "modification": ["afterburners", "shieldupgrade"],
-			"configuration": ["repulsorliftstabilizers"]
+            "configuration": ["repulsorliftstabilizers"]
           }
         }
       ]
@@ -575,11 +575,11 @@
             "command": ["stalwartcaptain"],
             "hardpoint": ["turbolaserbattery"],
             "cannon": ["heavylasercannon"],
-			"turret": ["dorsalturret"],
-			"missile": ["clustermissiles"],
-			"team": ["bombardmentspecialists"],
-			"cargo": ["boostedscanners", "tibannareserves"],
-			"configuration": ["corsairrefit"]
+            "turret": ["dorsalturret"],
+            "missile": ["clustermissiles"],
+            "team": ["bombardmentspecialists"],
+            "cargo": ["boostedscanners", "tibannareserves"],
+            "configuration": ["corsairrefit"]
           }
         }
       ]
@@ -591,7 +591,7 @@
           "id": "colicoiddestroyer",
           "upgrades": {
             "hardpoint": ["tractortentacles", "drillbeak"],
-			"cargo": ["optimizedpowercore"]
+            "cargo": ["optimizedpowercore"]
           }
         }
       ]
@@ -605,8 +605,8 @@
             "command": ["asajjventresscommand"],
             "hardpoint": ["tractortentacles", "enhancedpropulsion"],
             "crew": ["seasonednavigator"],
-			"team": ["droidcrew", "tractortechnicians"],
-			"title": ["trident"]
+            "team": ["droidcrew", "tractortechnicians"],
+            "title": ["trident"]
           }
         }
       ]
@@ -619,12 +619,12 @@
           "upgrades": {
             "command": ["rifftamson"],
             "hardpoint": ["tractortentacles", "protoncannonbattery"],
-			"torpedo": ["protontorpedoes"],
+            "torpedo": ["protontorpedoes"],
             "crew": ["novicetechnician"],
-			"gunner": ["hotshotgunner"],
-			"team": ["droidcrew", "gunneryspecialists"],
-			"cargo": ["tibannareserves"],
-			"title": ["neimoidiangrasp"]
+            "gunner": ["hotshotgunner"],
+            "team": ["droidcrew", "gunneryspecialists"],
+            "cargo": ["tibannareserves"],
+            "title": ["neimoidiangrasp"]
           }
         }
       ]
@@ -636,7 +636,7 @@
           "id": "ig111",
           "upgrades": {
             "talent": ["predator"],
-			"cannon": ["protoncannons"],
+            "cannon": ["protoncannons"],
             "modification": ["shieldupgrade"]
           }
         }
@@ -649,7 +649,7 @@
           "id": "magnaguardprotector",
           "upgrades": {
             "talent": ["enduring"],
-			"cannon": ["protoncannons"],
+            "cannon": ["protoncannons"],
             "modification": ["independentcalculations"]
           }
         }
@@ -662,7 +662,7 @@
           "id": "magnaguardexecutioner",
           "upgrades": {
             "talent": ["outmaneuver"],
-			"cannon": ["protoncannons"]
+            "cannon": ["protoncannons"]
           }
         }
       ]
@@ -674,10 +674,10 @@
           "id": "cadbane-separatistalliance",
           "upgrades": {
             "talent": ["outmaneuver"],
-			"cannon": ["syncedlasercannons"],
+            "cannon": ["syncedlasercannons"],
             "modification": ["afterburners"],
-			"crew": ["freelanceslicer"],
-			"title": ["xanadublood"]
+            "crew": ["freelanceslicer"],
+            "title": ["xanadublood"]
           }
         }
       ]
@@ -689,7 +689,7 @@
           "id": "ig101",
           "upgrades": {
             "talent": ["enduring"],
-			"cannon": ["protoncannons"],
+            "cannon": ["protoncannons"],
             "modification": ["hullupgrade"]
           }
         }
@@ -702,7 +702,7 @@
           "id": "ig102",
           "upgrades": {
             "talent": ["elusive"],
-			"cannon": ["syncedlasercannons"]
+            "cannon": ["syncedlasercannons"]
           }
         }
       ]
@@ -717,7 +717,7 @@
             "device": ["blazerbomb"],
             "crew": ["deathwatchcommandos"],
             "modification": ["shieldupgrade"],
-			"configuration": ["swivelwing"]
+            "configuration": ["swivelwing"]
           }
         }
       ]
@@ -730,7 +730,7 @@
           "upgrades": {
             "talent": ["outmaneuver"],
             "gunner": ["veterantailgunner"],
-			"configuration": ["swivelwing"]
+            "configuration": ["swivelwing"]
           }
         }
       ]
@@ -743,7 +743,7 @@
           "upgrades": {
             "device": ["concussionbombs"],
             "modification": ["hullupgrade", "shieldupgrade"],
-			"configuration": ["swivelwing"]
+            "configuration": ["swivelwing"]
           }
         }
       ]

@@ -57,7 +57,7 @@
         "Illicit",
         "Modification",
         "Title"
-        ],
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dashrendar-freighterforhire.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/dashrendar-freighterforhire.png",
       "standard": true,
@@ -85,7 +85,7 @@
         "Illicit",
         "Modification",
         "Title"
-        ],
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dashrendar.png",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dashrendar-initforhimself-rebelalliance.png",
       "standard": true,
@@ -105,7 +105,12 @@
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, you roll 1 fewer die. While you defend at range 1, you roll 1 fewer defense die."
       },
-      "standardLoadout": ["mercenary-swz103", "seekermissiles-swz103", "leebo-swz103", "outrider"],
+      "standardLoadout": [
+        "mercenary-swz103",
+        "seekermissiles-swz103",
+        "leebo-swz103",
+        "outrider"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dashrendar.png",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dashrendar-initforhimself-rebelalliance.png",
       "standard": false,
@@ -142,7 +147,7 @@
         "Illicit",
         "Modification",
         "Title"
-        ],
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leebo-wisdomofages.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/leebo-wisdomofages.png",
       "standard": true,
@@ -179,7 +184,7 @@
         "Illicit",
         "Modification",
         "Title"
-        ],
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leebo.png",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/leebo-hethinkshesfunny-rebelalliance.png",
       "standard": true,
@@ -209,7 +214,11 @@
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, you roll 1 fewer die. While you defend at range 1, you roll 1 fewer defense die."
       },
-      "standardLoadout": ["efficientprocessing-swz103", "seekermissiles-swz103", "outrider"],
+      "standardLoadout": [
+        "efficientprocessing-swz103",
+        "seekermissiles-swz103",
+        "outrider"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leebo.png",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/leebo-hethinkshesfunny-rebelalliance.png",
       "standard": false,

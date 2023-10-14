@@ -171,7 +171,11 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dfs081-siegeofcoruscant.png",
-      "standardLoadout": ["discordmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "discordmissiles",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dfs081.png",
       "standard": false,
       "wildspace": true,
@@ -212,7 +216,11 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dfs311-siegeofcoruscant.png",
-      "standardLoadout": ["discordmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "discordmissiles",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dfs311.png",
       "standard": false,
       "wildspace": true,
@@ -252,7 +260,11 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/haorchallprototype-siegeofcoruscant.png",
-      "standardLoadout": ["ionmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "ionmissiles",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/haorchallprototype.png",
       "standard": false,
       "wildspace": true,
@@ -318,8 +330,8 @@
           "type": "Barrel Roll",
           "linked": { "difficulty": "Red", "type": "Focus" }
         }
-  ],
-  "ability": "After you are destroyed, you may transfer each of your locks and green tokens to another friendly Kelrodo-Ai Holdout at range 0-3.",
+      ],
+      "ability": "After you are destroyed, you may transfer each of your locks and green tokens to another friendly Kelrodo-Ai Holdout at range 0-3.",
       "standard": true,
       "wildspace": true,
       "image": "https://infinitearenas.com/xw2/images/pilots/kelrodoaiholdout.png",

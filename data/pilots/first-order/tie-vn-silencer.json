@@ -49,13 +49,7 @@
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Missile",
-        "Tech",
-        "Configuration"
-      ],
+      "slots": ["Talent", "Torpedo", "Missile", "Tech", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/blackout.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blackout.png",
       "standard": true,
@@ -77,7 +71,7 @@
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "conditions": ["illshowyouthedarkside"],
-      "slots": ["Force Power", "Torpedo", "Missile",  "Tech", "Configuration"],
+      "slots": ["Force Power", "Torpedo", "Missile", "Tech", "Configuration"],
       "image": "https://infinitearenas.com/xw2/images/pilots/kyloren.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kyloren.png",
       "standard": true,
