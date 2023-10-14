@@ -23,7 +23,7 @@
     "5KR"
   ],
   "dialCodes": ["D7A"],
-  "faction": "Galactic Republic",
+  "faction": "galacticrepublic",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 2 },
     { "type": "agility", "value": 3 },
@@ -37,7 +37,7 @@
     { "difficulty": "White", "type": "Barrel Roll" },
     { "difficulty": "White", "type": "Boost" }
   ],
-  "icon": "https://squadbuilder.fantasyflightgames.com/ship_types/I_Delta-7.png",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Delta-7.png",
   "pilots": [
     {
       "name": "Jedi Knight",
@@ -49,14 +49,15 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/13d08d0d1131e7a11f6d10fd1626bff9.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/jediknight.png",
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
-      "hyperspace": true,
-      "cost": 36,
+      "standard": true,
+      "wildspace": true,
+      "cost": 35,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
-      "ffg": 515,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/d3bf6f2f5482c2b68a4d3d02cd758a68.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jediknight.png",
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Obi-Wan Kenobi",
@@ -69,14 +70,15 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/fcf515534a722b581bc2f85f36cb5c30.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/obiwankenobi.png",
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
+      "standard": true,
+      "wildspace": true,
       "cost": 47,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
-      "ffg": 511,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/f449693ccfd6529244ea7765eed2f83f.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/obiwankenobi.png",
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Plo Koon",
@@ -89,14 +91,15 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/c0936c57c897ea7bacadf723cfcbd0b6.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/plokoon.png",
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
-      "cost": 43,
+      "standard": true,
+      "wildspace": true,
+      "cost": 45,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
-      "ffg": 513,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/a4f58c67ecedcb9fcfa6ee45613c002e.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/plokoon.png",
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Saesee Tiin",
@@ -109,14 +112,15 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/e0fdedf1af8fd1e5b36c2fba17b4f6b0.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/saeseetiin.png",
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
+      "standard": false,
+      "wildspace": true,
       "cost": 40,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
-      "ffg": 514,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/e36d5e616e0b0135b0faa1c9f46992a1.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/saeseetiin.png",
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Mace Windu",
@@ -129,14 +133,15 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f0c905f162de8d77dd78c3d49cca77f1.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/macewindu.png",
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
+      "standard": true,
+      "wildspace": true,
       "cost": 44,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
-      "ffg": 512,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/ba6c851af3b8f650d8dcb865a05636f2.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/macewindu.png",
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Anakin Skywalker",
@@ -150,17 +155,18 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "force": { "value": 3, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/d60f4eca355471465ca3f6b99fb98e56.png",
-      "cost": 59,
+      "standard": true,
+      "wildspace": true,
+      "image": "https://infinitearenas.com/xw2/images/pilots/anakinskywalker.png",
+      "cost": 56,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
-      "ffg": 507,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/dc121e1b285f30e4708bda6c0594b55f.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker.png",
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Ahsoka Tano",
-      "caption": "\"Snips\"",
+      "caption": "“Snips”",
       "initiative": 3,
       "limited": 1,
       "xws": "ahsokatano",
@@ -170,13 +176,14 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/15f6bf84f63970c982dd722a5473217f.png",
-      "cost": 41,
+      "standard": true,
+      "wildspace": true,
+      "image": "https://infinitearenas.com/xw2/images/pilots/ahsokatano.png",
+      "cost": 39,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
-      "ffg": 510,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/0fc229b9b79c9f6c750a587614729293.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ahsokatano.png",
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Barriss Offee",
@@ -190,13 +197,14 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "force": { "value": 1, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/f8f58005da18d7041b1ec2374701465c.png",
-      "cost": 36,
+      "standard": true,
+      "wildspace": true,
+      "image": "https://infinitearenas.com/xw2/images/pilots/barrissoffee.png",
+      "cost": 35,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
-      "ffg": 509,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/6eb248dfda52dc29a8aa4fda7e414eab.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/barrissoffee.png",
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     },
     {
       "name": "Luminara Unduli",
@@ -210,14 +218,35 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "hyperspace": false,
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/en/7f87b6c12631687bedf75a18582af0b0.png",
-      "cost": 40,
+      "standard": true,
+      "wildspace": true,
+      "image": "https://infinitearenas.com/xw2/images/pilots/luminaraunduli.png",
+      "cost": 41,
       "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
-      "ffg": 508,
-      "artwork": "https://squadbuilder.fantasyflightgames.com/card_art/22519908330c72696863815565a2beda.jpg",
-      "keywords": ["Jedi", "Light Side"]
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/luminaraunduli.png",
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
+    },
+    {
+      "name": "Adi Gallia",
+      "caption": "Shooting Star",
+      "initiative": 5,
+      "limited": 1,
+      "xws": "adigallia",
+      "ability": "While you defend at attack range 1, you may spend 1 [Force]. If you do, the attacker cannot apply the range bonus. While you perform an attack against a defender at attack range 3, you may spend 1 [Force]. If you do, the defender cannot apply the range bonus.",
+      "shipAbility": {
+        "name": "Fine-tuned Controls",
+        "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
+      },
+      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "standard": true,
+      "wildspace": true,
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/adigallia.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/adigallia.png",
+      "cost": 45,
+      "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
+      "keywords": ["Jedi", "Light Side"],
+      "epic": true
     }
-  ],
-  "ffg": 61
+  ]
 }
