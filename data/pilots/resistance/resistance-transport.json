@@ -42,7 +42,7 @@
       "initiative": 4,
       "limited": 1,
       "standard": true,
-      "extended": true,
+      "wildspace": true,
       "cost": 38,
       "slots": [
         "Talent",
@@ -68,7 +68,7 @@
       "limited": 1,
       "caption": "D’Qar Dispatcher",
       "standard": true,
-      "extended": true,
+      "wildspace": true,
       "cost": 31,
       "slots": [
         "Talent",
@@ -92,7 +92,7 @@
       "initiative": 2,
       "limited": 1,
       "standard": true,
-      "extended": true,
+      "wildspace": true,
       "cost": 34,
       "slots": [
         "Talent",
@@ -118,7 +118,7 @@
       "limited": 0,
       "text": "Without the support of the New Republic, members of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.",
       "standard": true,
-      "extended": true,
+      "wildspace": true,
       "cost": 30,
       "slots": [
         "Tech",
@@ -142,7 +142,7 @@
       "limited": 1,
       "ability": "After you jam, you must assign 1 jam token to another ship at range 0-1 of the jammed ship, if able.",
       "standard": true,
-      "extended": true,
+      "wildspace": true,
       "cost": 31,
       "slots": [
         "Tech",
