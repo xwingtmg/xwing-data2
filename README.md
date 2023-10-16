@@ -55,7 +55,6 @@ Before opening a pull request, see the following checklist:
 
 Go through these steps to create a new release:
 
-1. Make sure to run `yarn run ffg2xws` to verify that `data/ffg-xws.json` has been updated
 1. Bump the version number in `package.json` and `data/manifest.json` according to the [Versioning](#Versioning) rules listed below
 1. Push the `package.json` and `data/manifest.json` changes to GitHub and/or merge them to the `master` branch
 1. [Create a new release](https://github.com/guidokessels/xwing-data2/releases/new) on GitHub and use the following:

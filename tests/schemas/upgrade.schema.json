@@ -17,8 +17,7 @@
           "additionalProperties": false,
           "description": "Points cost",
           "properties": {
-            "value": { "type": "integer", "minimum": 0 },
-            "discountValue": { "type": "integer", "maximun": -1 }
+            "value": { "type": "integer"}
           }
         },
         {
