@@ -230,19 +230,19 @@ const runUpgrades = async () => {
   wb.worksheets.forEach(ws => {
     let faction = ws.getCell('A2').text.toLowerCase();
     if (faction === "separatist") {
-      faction = "Separatist Alliance";
+      faction = "separatistalliance";
     } else if (faction === "republic") {
-      faction = "Galactic Republic";
+      faction = "galacticrepublic";
     } else if (faction === "imperial" || faction.startsWith("upgrade points document")) {
-      faction = "Galactic Empire";
+      faction = "galacticempire";
     } else if (faction === "rebel") {
-      faction = "Rebel Alliance";
+      faction = "rebelalliance";
     } else if (faction === "scum and villainy") {
-      faction = "Scum and Villainy";
+      faction = "scumandvillainy";
     } else if (faction === "first order") {
-      faction = "First Order";
+      faction = "firstorder";
     } else if (faction === "resistance") {
-      faction = "Resistance";
+      faction = "resistance";
     }
     ws.eachRow(row => {
       if (row.cellCount === 6 && row.getCell(1).text !== "Upgrade Name") {

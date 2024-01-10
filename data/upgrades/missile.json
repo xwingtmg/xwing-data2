@@ -185,7 +185,7 @@
     ],
     "restrictions": [
       { "action": { "type": "Calculate", "difficulty": "White" } },
-      { "factions": ["Separatist Alliance"] }
+      { "factions": ["separatistalliance"] }
     ],
     "cost": { "value": 4 },
     "standard": true,
@@ -218,7 +218,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Separatist Alliance"] }],
+    "restrictions": [{ "factions": ["separatistalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -350,5 +350,31 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Seeker Missiles",
+    "limited": 0,
+    "xws": "seekermissiles-swz103",
+    "sides": [
+      {
+        "ability": "Attack ([Lock]): During the Modify Attack Dice step, you may spend up to 2 additional [Charge]. Change one [Focus] result to a [Hit] result for each [Charge] spent in this way.",
+        "attack": {
+          "arc": "Front Arc",
+          "maxrange": 3,
+          "minrange": 2,
+          "ordnance": true,
+          "value": 3
+        },
+        "charges": { "value": 4, "recovers": 0 },
+        "title": "Seeker Missiles",
+        "type": "Missile",
+        "slots": ["Missile"]
+      }
+    ],
+    "cost": { "value": 4 },
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]

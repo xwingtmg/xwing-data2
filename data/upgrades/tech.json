@@ -33,7 +33,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -53,7 +53,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["First Order"] }, { "sizes": ["Large"] }],
+    "restrictions": [{ "factions": ["firstorder"] }, { "sizes": ["Large"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -132,7 +132,7 @@
     ],
     "cost": { "value": 1 },
     "restrictions": [
-      { "factions": ["First Order"] },
+      { "factions": ["firstorder"] },
       { "action": { "type": "Lock" } }
     ],
     "standard": true,

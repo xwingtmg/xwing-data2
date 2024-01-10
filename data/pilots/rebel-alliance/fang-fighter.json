@@ -22,7 +22,7 @@
     "5FW"
   ],
   "dialCodes": ["Fng"],
-  "faction": "Rebel Alliance",
+  "faction": "rebelalliance",
   "stats": [
     { "arc": "Front Arc", "type": "attack", "value": 3 },
     { "type": "agility", "value": 3 },
@@ -51,7 +51,7 @@
       "limited": 1,
       "cost": 5,
       "loadout": 10,
-      "xws": "fennrau-rebel-fang",
+      "xws": "fennrau-fangfighter",
       "ability": "Before a friendly ship at range 1-2 engages, if there is an enemy ship in its [Front Arc] at range 1, that friendly ship may remove 1 non-lock red token.",
       "image": "https://infinitearenas.com/xw2/images/pilots/fennrau-rebel-fang.png",
       "shipAbility": {

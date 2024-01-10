@@ -14,7 +14,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -34,7 +34,7 @@
       }
     ],
     "cost": { "value": 2 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -75,7 +75,7 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -155,7 +155,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Rebel Alliance"] }],
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -176,7 +176,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -196,7 +196,7 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -217,7 +217,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -237,7 +237,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -258,7 +258,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -279,7 +279,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -299,7 +299,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -319,7 +319,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -339,7 +339,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/r4pastromech.png"
       }
     ],
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "cost": { "value": 2 },
     "standard": true,
     "extended": true,
@@ -360,7 +360,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/r4p17.png"
       }
     ],
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "cost": { "value": 4 },
     "standard": true,
     "extended": true,
@@ -380,7 +380,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/r4p44.png"
       }
     ],
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "cost": { "value": 2 },
     "standard": true,
     "extended": true,
@@ -400,7 +400,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/r2a6.png"
       }
     ],
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "cost": { "value": 6 },
     "standard": false,
     "extended": true,
@@ -430,7 +430,7 @@
     ],
     "cost": { "value": 8 },
     "limited": 1,
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -451,7 +451,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -490,7 +490,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/r2d2-republic.png"
       }
     ],
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "cost": { "value": 8 },
     "standard": true,
     "extended": true,
@@ -515,7 +515,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "factions": ["Resistance"] }]
+    "restrictions": [{ "factions": ["resistance"] }]
   },
   {
     "name": "R6-D8",
@@ -532,7 +532,7 @@
       }
     ],
     "cost": { "value": 4 },
-    "restrictions": [{ "factions": ["Resistance"] }],
+    "restrictions": [{ "factions": ["resistance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -553,7 +553,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Galactic Republic"] }],
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -573,7 +573,7 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -623,7 +623,7 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [
-      { "factions": ["Resistance"], "action": { "type": "Rotate Arc" } }
+      { "factions": ["resistance"], "action": { "type": "Rotate Arc" } }
     ],
     "standard": true,
     "extended": true,

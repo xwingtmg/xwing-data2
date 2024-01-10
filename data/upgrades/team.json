@@ -240,7 +240,7 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Scum and Villainy"] }],
+    "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "extended": false,
     "epic": true
@@ -273,6 +273,6 @@
       }
     ],
     "cost": { "value": 5 },
-    "restrictions": [{ "factions": ["Separatist Alliance"] }]
+    "restrictions": [{ "factions": ["separatistalliance"] }]
   }
 ]

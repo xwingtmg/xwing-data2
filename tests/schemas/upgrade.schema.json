@@ -98,13 +98,13 @@
             "items": {
               "type": "string",
               "enum": [
-                "Rebel Alliance",
-                "Galactic Empire",
-                "Scum and Villainy",
-                "Resistance",
-                "First Order",
-                "Galactic Republic",
-                "Separatist Alliance"
+                "rebelalliance",
+                "galacticempire",
+                "scumandvillainy",
+                "resistance",
+                "firstorder",
+                "galacticrepublic",
+                "separatistalliance"
               ]
             }
           },

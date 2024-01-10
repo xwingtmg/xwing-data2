@@ -235,7 +235,7 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/babufrik.png"
       }
     ],
-    "restrictions": [{ "factions": ["Scum and Villainy", "Resistance"] }],
+    "restrictions": [{ "factions": ["scumandvillainy", "resistance"] }],
     "cost": { "value": 5 },
     "standard": true,
     "extended": true,
@@ -271,6 +271,7 @@
         "title": "Tracking Fob",
         "type": "Illicit",
         "slots": ["Illicit"],
+        "conditions": ["markedforelimination"],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/trackingfob.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/trackingfob.png"
       }
