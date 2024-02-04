@@ -192,7 +192,7 @@
       "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, choose an initiative value from 1 to 6. You activate at that initiative this phase.",
       "shipAbility": {
         "name": "High Stakes",
-        "text": "After you perform a red action, you may roll an attack die. On a [Hit]/[Crit] result, remove 1 stress."
+        "text": "After you perform a red action, you may roll an attack die. On a [Hit]/[Critical Hit] result, remove 1 stress."
       },
       "shipActions": [
         { "difficulty": "White", "type": "Focus" },
