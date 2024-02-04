@@ -986,5 +986,108 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "No Escape",
+    "limited": 0,
+    "xws": "noescape-battleoverendor",
+    "sides": [
+      {
+        "title": "No Escape",
+        "type": "Talent",
+        "ability": "While you perform a primary attack, if there are more friendly ships than other enemy ships at range 0-1 of the defender, you may reroll 1 of your blank results.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Push The Limit",
+    "limited": 0,
+    "xws": "pushthelimit-battleoverendor",
+    "sides": [
+      {
+        "title": "Push The Limit",
+        "type": "Talent",
+        "ability": "After you fully execute a red maneuver or perform a red action, if you are not strained, you may gain 1 strain token to remove 1 stress token.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Reckless",
+    "limited": 0,
+    "xws": "reckless-battleoverendor",
+    "sides": [
+      {
+        "title": "Reckless",
+        "type": "Talent",
+        "ability": "While you perform a red [Boost] or a red [Barrel Roll] action, you may use the (1 [Turn Left]) or (1 [Turn Right]) template instead. If you do, roll an attack die. On a [Hit]/[Crit] result, gain a stress token.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Apex Predator",
+    "limited": 0,
+    "xws": "apexpredator-battleoverendor",
+    "sides": [
+      {
+        "title": "Apex Predator",
+        "type": "Talent",
+        "ability": "While you perform a primary attack, if the defender's initiative is lower than yours, you may reroll 1 attack die.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "It's a Trap!",
+    "limited": 0,
+    "xws": "itsatrap-battleoverendor",
+    "sides": [
+      {
+        "title": "It's a Trap!",
+        "type": "Talent",
+        "ability": "While defending, if there are more other friendly ships than enemy ships at range 0-1, you may reroll 1 of your blank results.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Ace in the Hole",
+    "limited": 0,
+    "xws": "aceinthehole-battleoverendor",
+    "sides": [
+      {
+        "title": "Ace in the Hole",
+        "type": "Talent",
+        "charges": { "value": 2, "recovers": 0 },
+        "ability": "At the start of the Engagement Phase, you may spend 1 [Charge] and gain 1 jam token to perform a [Barrel Roll] action.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]
