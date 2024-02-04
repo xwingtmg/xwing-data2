@@ -771,5 +771,23 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "R2-A3",
+    "limited": 1,
+    "xws": "r2a3-battleoverendor",
+    "sides": [
+      {
+        "title": "R2-A3",
+        "type": "Astromech",
+        "ability": "After you perform an action, you may spend 1 [Charge] to acquire a lock.",
+        "slots": ["Astromech"],
+        "charges": { "value": 1, "recovers": 0 }
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]
