@@ -1370,5 +1370,22 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Millennium Falcon",
+    "limited": 1,
+    "xws": "millenniumfalcon-battleoverendor",
+    "sides": [
+      {
+        "title": "Millennium Falcon",
+        "type": "Title",
+        "ability": "While attacking or defending, if you have a non-lock red or orange token, you may reroll 1 die.",
+        "slots": ["Title"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]
