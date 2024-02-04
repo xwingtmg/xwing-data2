@@ -309,5 +309,23 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Feedback Emitter",
+    "limited": 0,
+    "xws": "feedbackemitter-battleoverendor",
+    "sides": [
+      {
+        "title": "Feedback Emitter",
+        "charges": { "value": 1, "recovers": 0 },
+        "type": "Illicit",
+        "ability": "After an object acquires a lock on you, you may spend 1 [Charge] to jam that object, ignoring range restrictions. This upgrade's [Charge] cannot be recovered.",
+        "slots": ["Illicit"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]
