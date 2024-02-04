@@ -678,5 +678,22 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Airen Cracken",
+    "limited": 1,
+    "xws": "airencracken-battleoverendor",
+    "sides": [
+      {
+        "title": "Airen Cracken",
+        "type": "Gunner",
+        "ability": "After defending, if the attack hit, you may gain 1 deplete token to perform a bonus primary attack targeting the attacker.",
+        "slots": ["Gunner"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]
