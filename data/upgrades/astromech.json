@@ -789,5 +789,41 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Stabilizing Astromech",
+    "limited": 1,
+    "xws": "stabilizingastromech-battleoverendor",
+    "sides": [
+      {
+        "title": "Stabilizing Astromech",
+        "type": "Astromech",
+        "ability": "After you fully execute a maneuver, you may spend 1 [Charge] to perform a white action, even while stressed.",
+        "slots": ["Astromech"],
+        "charges": { "value": 1, "recovers": 0 }
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Modified R4-P Unit",
+    "limited": 1,
+    "xws": "modifiedr4punit-battleoverendor",
+    "sides": [
+      {
+        "title": "Modified R4-P Unit",
+        "type": "Astromech",
+        "ability": "Before you execute a red maneuver, you may spend 1 [Charge]. If you do, while you execute that maneuver, reduce its difficulty.",
+        "slots": ["Astromech"],
+        "charges": { "value": 1, "recovers": 0 }
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]
