@@ -1089,5 +1089,56 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Collected",
+    "limited": 0,
+    "xws": "collected-battleoverendor",
+    "sides": [
+      {
+        "title": "Collected",
+        "type": "Talent",
+        "ability": "After you perform a primary attack, you may spend 1 focus token to gain 2 evade tokens.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Parting Gift",
+    "limited": 0,
+    "xws": "partinggift-battleoverendor",
+    "sides": [
+      {
+        "title": "Parting Gift",
+        "type": "Talent",
+        "ability": "When you are destroyed, before you are removed, you may spend 1 [Charge] on an equipped [Device] upgrade to drop or launch a bomb using a speed 1 straight or bank ([Bank Left], [Straight], [Bank Right]) template.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Heroic Sacrifice",
+    "limited": 0,
+    "xws": "heroicsacrifice-battleoverendor",
+    "sides": [
+      {
+        "title": "Heroic Sacrifice",
+        "type": "Talent",
+        "ability": "After you perform a [Slam] action, roll 5 attack dice. Each large ship, huge ship, and scenario feature at range 0 suffers 1 [Hit] damage for each [Hit]/[Critical Hit] result, bypassing shields. Then this ship is destroyed. You can perform [Slam] actions, even while stressed.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]
