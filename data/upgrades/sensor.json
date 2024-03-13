@@ -95,5 +95,23 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Blank Signature",
+    "limited": 0,
+    "xws": "blanksignature-battleoverendor",
+    "sides": [
+      {
+        "title": "Blank Signature",
+        "charges": { "value": 1, "recovers": 1 },
+        "type": "Sensor",
+        "ability": "While defending, if you are not locked by the attacker, you may spend 1 [Charge] to change 1 [Focus] result to an [Evade] result.",
+        "slots": ["Sensor"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]

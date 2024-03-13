@@ -603,5 +603,57 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Computer-Assisted Handling",
+    "limited": 0,
+    "xws": "computerassistedhandling-battleoverendor",
+    "sides": [
+      {
+        "title": "Computer-Assisted Handling",
+        "charges": { "value": 1, "recovers": 0 },
+        "type": "Modification",
+        "ability": "After you fully execute a maneuver, you may spend 1 [Charge] to perform a [Boost] or [Barrel Roll] action.",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Targeting Matrix",
+    "limited": 0,
+    "xws": "targetingmatrix-battleoverendor",
+    "sides": [
+      {
+        "title": "Targeting Matrix",
+        "type": "Modification",
+        "ability": "While attacking, you may spend 1 [Focus] result at the end of the Neutralize Results step. If you do, after the attack is resolved, the defender gains a strain token.",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Chaff Particles",
+    "limited": 0,
+    "xws": "chaffparticles-battleoverendor",
+    "sides": [
+      {
+        "title": "Chaff Particles",
+        "type": "Modification",
+        "ability": "While defending, you may spend 1 [Focus] result at the end of the Neutralize Results step to remove 1 red or orange token.",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]

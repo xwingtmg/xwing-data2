@@ -458,6 +458,38 @@
       "extended": true,
       "keywords": ["X-wing"],
       "epic": true
+    },
+    {
+      "name": "Wedge Antilles",
+      "caption": "Battle Over Endor",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 5,
+      "xws": "wedgeantilles-battleoverendor",
+      "ability": "After you perform an attack that hits, gain 1 focus token.",
+      "shipAbility": {
+        "name": "Locked S-Foils",
+        "text": "After you perform a [Boost] action, gain a deplete token."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 2 },
+        { "type": "hull", "value": 4 },
+        { "type": "shields", "value": 3 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Boost" } },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
+        { "difficulty": "White", "type": "Boost"}
+      ],
+      "standardLoadout": ["itsatrap-battleoverendor", "predator", "advprotontorpedoes", "r2a3-battleoverendor"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/wedgeantilles-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles-battleoverendor.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["X-wing"],
+      "epic": true
     }
   ]
 }
