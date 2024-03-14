@@ -655,5 +655,58 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Ion Maneuvering Jet",
+    "limited": 0,
+    "xws": "ionmaneuveringjet-battleoverendor",
+    "sides": [
+      {
+        "title": "Ion Maneuvering Jet",
+        "type": "Modification",
+        "charges": { "value": 2, "recovers": 0 },
+        "ability": "After you fully execute a Koiogran Turn ([Koiogran Turn]) maneuver, you may spend 1 [Charge] to perform an action, even while stressed.",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Fuel Injection Override",
+    "limited": 0,
+    "xws": "fuelinjectionoverride-battleoverendor",
+    "sides": [
+      {
+        "title": "Fuel Injection Override",
+        "type": "Modification",
+        "charges": { "value": 2, "recovers": 0 },
+        "ability": "While you perform a [Boost] or [Barrel Roll] action, you may spend 1 [Charge] to use a template with a speed 1 higher instead.",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Target-Assist Algorithm",
+    "limited": 0,
+    "xws": "targetassistalgorithm-battleoverendor",
+    "sides": [
+      {
+        "title": "Target-Assist Algorithm",
+        "type": "Modification",
+        "ability": "Before you engage, if you have no green tokens and there are 1 or more enemy objects in your [Front Arc], gain a calculate token.",
+        "slots": ["Modification"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]
