@@ -231,5 +231,29 @@
     "standard": true,
     "extended": true,
     "epic": true
+  },
+  {
+    "name": "Precision-Tuned Cannons",
+    "limited": 0,
+    "xws": "precisiontunedcannons-battleoverendor",
+    "sides": [
+      {
+        "ability": "Attack: if the defender is in your [Bullseye Arc], add 1 [Focus] result.",
+        "title": "Precision-Tuned Cannons",
+        "attack": {
+          "arc": "Front Arc",
+          "value": 2,
+          "minrange": 2,
+          "maxrange": 3,
+          "ordnance": false
+        },
+        "type": "Cannon",
+        "slots": ["Cannon"]
+      }
+    ],
+    "standardLoadoutOnly": true,
+    "standard": true,
+    "extended": true,
+    "epic": true
   }
 ]
