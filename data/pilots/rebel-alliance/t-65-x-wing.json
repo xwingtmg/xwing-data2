@@ -490,6 +490,58 @@
       "extended": true,
       "keywords": ["X-wing"],
       "epic": true
+    },
+    {
+      "name": "Yendor",
+      "caption": "Battle Over Endor",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 5,
+      "xws": "yendor-battleoverendor",
+      "ability": "While you perform a primary attack, you may gain a strain token to reroll 1 of your blank results.",
+      "shipAbility": {
+        "name": "Locked S-Foils",
+        "text": "After you perform a [Boost] action, gain a deplete token."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Boost" } },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
+        { "difficulty": "White", "type": "Boost"}
+      ],
+      "standardLoadout": ["itsatrap-battleoverendor", "plasmatorpedoes", "stabilizingastromech-battleoverendor"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/yendor-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/yendor-battleoverendor.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["X-wing"],
+      "epic": true
+    },
+    {
+      "name": "Kendy Idele",
+      "caption": "Battle Over Endor",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 4,
+      "xws": "kendyidele-battleoverendor",
+      "ability": "After you spend a green token, you may choose a friendly ship at range 1-3 and gain a strain token. If you do, that ship may perform a red [Focus] or red [Evade] action.",
+      "shipAbility": {
+        "name": "Locked S-Foils",
+        "text": "After you perform a [Boost] action, gain a deplete token."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Boost" } },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
+        { "difficulty": "White", "type": "Boost"}
+      ],
+      "standardLoadout": ["itsatrap-battleoverendor", "ionmissiles", "modifiedr4punit-battleoverendor", "chaffparticles-battleoverendor"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/kendyidele-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kendyidele-battleoverendor.png",
+      "standard": true,
+      "extended": true,
+      "keywords": ["X-wing"],
+      "epic": true
     }
   ]
 }
