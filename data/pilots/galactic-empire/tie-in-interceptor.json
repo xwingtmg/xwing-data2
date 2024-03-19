@@ -450,6 +450,26 @@
       "standard": true,
       "extended": true,
       "epic": true
+    },
+    {
+      "name": "Maus Monare",
+      "caption": "Battle Over Endor",
+      "xws": "mausmonare-battleoverendor",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "cost": 5,
+      "standardLoadout": ["noescape-battleoverendor", "outmaneuver", "fuelinjectionoverride-battleoverendor"],
+      "ability": "After you perform an [Evade] action, gain a calculate token",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/mausmonare-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mausmonare-battleoverendor.png",
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }
