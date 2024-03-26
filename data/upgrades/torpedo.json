@@ -129,7 +129,10 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/plasmatorpedoes.png"
       }
     ],
-    "cost": { "value": 7 },
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 6, "1": 6, "2": 6, "3": 7, "4": 7, "5": 7, "6": 7 }
+    },
     "standard": true,
     "wildspace": true,
     "epic": true

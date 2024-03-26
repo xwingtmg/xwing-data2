@@ -198,7 +198,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/hansolo-gunner.png"
       }
     ],
-    "cost": { "value": 9 },
+    "cost": { "value": 10 },
     "restrictions": [{ "factions": ["scumandvillainy"] }],
     "standard": true,
     "wildspace": true,
@@ -406,7 +406,7 @@
       }
     ],
     "restrictions": [{ "factions": ["galacticrepublic"] }],
-    "cost": { "value": 8 },
+    "cost": { "value": 7 },
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -426,7 +426,7 @@
       }
     ],
     "restrictions": [{ "factions": ["galacticrepublic"] }],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -446,7 +446,7 @@
         "type": "Gunner"
       }
     ],
-    "cost": { "value": 10 },
+    "cost": { "value": 9 },
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -465,7 +465,7 @@
         "ability": "While you perform an attack, you may spend 1 [Focus] result. If you do, each friendly ship that has the defender in its [Bullseye Arc] may gain 1 strain to perform a [Focus] action."
       }
     ],
-    "cost": { "value": 2 },
+    "cost": { "value": 1 },
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -503,7 +503,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/bobafett-gunner.png"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 4 },
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -654,7 +654,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ursawren-gunner.png"
       }
     ],
-    "cost": { "value": 7 },
+    "cost": { "value": 4 },
     "restrictions": [
       { "factions": ["galacticrepublic", "separatistalliance"] }
     ],
@@ -676,7 +676,10 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/migsmayfeld.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "variable": "size",
+      "values": { "Small": 2, "Medium": 3, "Large": 4, "Huge": 7 }
+    },
     "restrictions": [{ "factions": ["galacticempire", "scumandvillainy"] }],
     "standard": true,
     "wildspace": true,

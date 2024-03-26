@@ -43,7 +43,7 @@
       "caption": "Ill-Fated Test Pilot",
       "initiative": 5,
       "limited": 1,
-      "cost": 61,
+      "cost": 60,
       "ability": "While you perform an attack, if the attack is obstructed by an obstacle, the defender rolls 2 fewer defense dice.",
       "shipAbility": {
         "name": "Autothrusters",
@@ -63,7 +63,7 @@
       "caption": "Tormented Apprentice",
       "initiative": 5,
       "limited": 1,
-      "cost": 78,
+      "cost": 79,
       "ability": "After you defend, you may spend 1 [Force] to assign the I'll Show You the Dark Side condition to the attacker.",
       "force": { "value": 2, "recovers": 1, "side": ["dark"] },
       "shipAbility": {

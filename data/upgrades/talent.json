@@ -300,7 +300,10 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/outmaneuver.png"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 5, "1": 5, "2": 5, "3": 5, "4": 6, "5": 6, "6": 6 }
+    },
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -407,7 +410,7 @@
     ],
     "cost": {
       "variable": "initiative",
-      "values": { "0": 2, "1": 4, "2": 6, "3": 8, "4": 10, "5": 12, "6": 14 }
+      "values": { "0": 2, "1": 4, "2": 5, "3": 7, "4": 9, "5": 10, "6": 12 }
     },
     "standard": true,
     "wildspace": true,
@@ -552,7 +555,7 @@
     ],
     "cost": {
       "variable": "size",
-      "values": { "Small": 7, "Medium": 8, "Large": 9, "Huge": 10 }
+      "values": { "Small": 6, "Medium": 7, "Large": 8, "Huge": 9 }
     },
     "standard": true,
     "wildspace": true,
@@ -803,7 +806,10 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/tierfonbellyrun.png"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "variable": "initiative",
+      "values": { "0": 0, "1": 0, "2": 0, "3": 0, "4": 1, "5": 1, "6": 1 }
+    },
     "restrictions": [{ "keywords": ["Y-wing"] }],
     "standard": true,
     "wildspace": true,

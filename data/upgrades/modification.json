@@ -14,7 +14,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ablativeplating.png"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": { "value": 3 },
     "restrictions": [{ "sizes": ["Medium", "Large"] }],
     "standard": true,
     "wildspace": true,
@@ -198,7 +198,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/staticdischargevanes.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 4 },
     "standard": true,
     "wildspace": true,
     "epic": true
@@ -516,7 +516,10 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/beskarreinforcedplating.png"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": {
+      "variable": "agility",
+      "values": { "0": 2, "1": 3, "2": 4, "3": 5 }
+    },
     "restrictions": [{ "keywords": ["Mandalorian"] }],
     "standard": true,
     "wildspace": true,

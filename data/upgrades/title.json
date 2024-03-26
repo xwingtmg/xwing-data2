@@ -72,7 +72,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/dauntless.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": { "value": 2 },
     "restrictions": [
       { "factions": ["galacticempire"] },
       { "ships": ["vt49decimator"] }
@@ -517,7 +517,7 @@
         "slots": ["Title"]
       }
     ],
-    "cost": { "value": 1 },
+    "cost": { "value": 3 },
     "restrictions": [
       { "factions": ["resistance"] },
       { "ships": ["scavengedyt1300"] }
@@ -1357,7 +1357,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/razorcrest.png"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": { "value": 5 },
     "restrictions": [{ "ships": ["st70assaultship"] }],
     "standard": true,
     "wildspace": true,
