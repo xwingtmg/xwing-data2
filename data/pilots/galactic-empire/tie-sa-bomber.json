@@ -451,6 +451,118 @@
       "wildspace": true,
       "keywords": ["TIE"],
       "epic": true
+    },
+    {
+      "name": "Scimitar 1",
+      "caption": "Battle Over Endor",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 56,
+      "xws": "scimitar1-battleoverendor",
+      "ability": "After a friendly ship at range 0-3 performs an attack, you may spend 1 [Charge] to acquire a lock on the defender.",
+      "charges": { "value": 2, "recovers": 0 },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/scimitar1-battleoverendor.png",
+      "shipAbility": {
+        "name": "Nimble Bomber",
+        "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+      },
+      "standardLoadout": [
+        "marksmanship",
+        "noescape-battleoverendor",
+        "protontorpedoes",
+        "ionbombs"
+      ],
+      "artwork": "",
+      "standard": false,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Scimitar 1",
+      "caption": "Battle Over Endor",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 36,
+      "xws": "scimitar1-battleoverendor-lsl",
+      "ability": "After a friendly ship at range 0-3 performs an attack, you may spend 1 [Charge] to acquire a lock on the defender.",
+      "charges": { "value": 2, "recovers": 0 },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/scimitar1-battleoverendor.png",
+      "shipAbility": {
+        "name": "Nimble Bomber",
+        "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+      },
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Missile",
+        "Missile",
+        "Device",
+        "Device",
+        "Modification",
+        "Gunner"
+      ],
+      "artwork": "",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Scimitar 3",
+      "caption": "Battle Over Endor",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 57,
+      "xws": "scimitar3-battleoverendor",
+      "ability": "After you drop a bomb, you may spend 1 [Charge] to perform a [Boost] action.",
+      "charges": { "value": 2, "recovers": 0 },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/scimitar3-battleoverendor.png",
+      "shipAbility": {
+        "name": "Nimble Bomber",
+        "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+      },
+      "standardLoadout": [
+        "noescape-battleoverendor",
+        "partinggift-battleoverendor",
+        "protontorpedoes",
+        "protonbombs"
+      ],
+      "artwork": "",
+      "standard": false,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
+    },
+    {
+      "name": "Scimitar 3",
+      "caption": "Battle Over Endor",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 34,
+      "xws": "scimitar3-battleoverendor-lsl",
+      "ability": "After you drop a bomb, you may spend 1 [Charge] to perform a [Boost] action.",
+      "charges": { "value": 2, "recovers": 0 },
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/scimitar3-battleoverendor.png",
+      "shipAbility": {
+        "name": "Nimble Bomber",
+        "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
+      },
+      "slots": [
+        "Talent",
+        "Torpedo",
+        "Missile",
+        "Missile",
+        "Device",
+        "Device",
+        "Modification",
+        "Gunner"
+      ],
+      "artwork": "",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["TIE"],
+      "epic": true
     }
   ]
 }

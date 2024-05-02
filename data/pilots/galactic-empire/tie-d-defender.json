@@ -198,6 +198,112 @@
       "wildspace": true,
       "keywords": ["TIE"],
       "epic": true
+    },
+    {
+      "name": "Captain Yorr",
+      "caption": "Battle Over Endor",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 85,
+      "xws": "captainyorr-battleoverendor",
+      "ability": "After you perform a primary attack that hits, you may spend 1 [Charge] to perform a bonus [Cannon] attack.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/captainyorr-battleoverendor.png",
+      "charges": { "value": 2, "recovers": 0 },
+      "shipAbility": {
+        "name": "Chiss Engineering",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform a [Lock] action. While attacking, if you are not stressed, you may spend 1 [Shield] to apply the range 1 bonus."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade", "linked": { "difficulty": "Red", "type": "Barrel Roll" }},
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Boost" }
+      ],
+      "standardLoadout": ["noescape-battleoverendor", "predator", "ioncannon", "computerassistedhandling-battleoverendor"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainyorr-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Captain Yorr",
+      "caption": "Battle Over Endor",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 72,
+      "xws": "captainyorr-battleoverendor-lsl",
+      "ability": "After you perform a primary attack that hits, you may spend 1 [Charge] to perform a bonus [Cannon] attack.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/captainyorr-battleoverendor.png",
+      "charges": { "value": 2, "recovers": 0 },
+      "shipAbility": {
+        "name": "Chiss Engineering",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform a [Lock] action. While attacking, if you are not stressed, you may spend 1 [Shield] to apply the range 1 bonus."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade", "linked": { "difficulty": "Red", "type": "Barrel Roll" }},
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Boost" }
+      ],
+      "slots": ["Talent", "Sensor", "Cannon", "Missile"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainyorr-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Colonel Jendon",
+      "caption": "Battle Over Endor",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 87,
+      "xws": "coloneljendon-battleoverendor",
+      "ability": "While you defend, if you are not shielded, you may change 1 of your blank results to a [Focus] result.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/coloneljendon-battleoverendor.png",
+      "shipAbility": {
+        "name": "Chiss Engineering",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform a [Lock] action. While attacking, if you are not stressed, you may spend 1 [Shield] to apply the range 1 bonus."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade", "linked": { "difficulty": "Red", "type": "Barrel Roll" }},
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Boost" }
+      ],
+      "standardLoadout": ["noescape-battleoverendor", "pushthelimit-battleoverendor", "protoncannons", "computerassistedhandling-battleoverendor"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/coloneljendon-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Colonel Jendon",
+      "caption": "Battle Over Endor",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 80,
+      "xws": "coloneljendon-battleoverendor-lsl",
+      "ability": "While you defend, if you are not shielded, you may change 1 of your blank results to a [Focus] result.",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/coloneljendon-battleoverendor.png",
+      "shipAbility": {
+        "name": "Chiss Engineering",
+        "text": "After you fully execute a speed 3-5 maneuver, you may perform a [Lock] action. While attacking, if you are not stressed, you may spend 1 [Shield] to apply the range 1 bonus."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade", "linked": { "difficulty": "Red", "type": "Barrel Roll" }},
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Boost" }
+      ],
+      "slots": ["Talent", "Sensor", "Cannon", "Missile"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/coloneljendon-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
     }
   ]
 }

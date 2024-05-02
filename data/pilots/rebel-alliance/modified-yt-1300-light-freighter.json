@@ -215,6 +215,73 @@
       "wildspace": true,
       "keywords": ["Freighter", "YT-1300"],
       "epic": true
+    },
+    {
+      "name": "Lando Calrissian",
+      "caption": "Battle Over Endor",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 101,
+      "xws": "landocalrissian-battleoverendor",
+      "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, choose an initiative value from 1 to 6. You activate at that initiative this phase.",
+      "shipAbility": {
+        "name": "High Stakes",
+        "text": "After you perform a red action, you may roll an attack die. On a [Hit]/[Critical Hit] result, remove 1 stress."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "Red", "type": "Boost" },
+        { "difficulty": "White", "type": "Rotate Arc" },
+        { "difficulty": "Red", "type": "Coordinate", "linked": { "difficulty": "Red", "type": "Focus" } }
+      ],
+      "charges": { "value": 2, "recovers": 0 },
+      "standardLoadout": ["aceinthehole-battleoverendor", "itsatrap-battleoverendor", "niennunb", "airencracken-battleoverendor", "millenniumfalcon-battleoverendor"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/landocalrissian-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
+    },
+    {
+      "name": "Lando Calrissian",
+      "caption": "Battle Over Endor",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 75,
+      "xws": "landocalrissian-battleoverendor-lsl",
+      "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, choose an initiative value from 1 to 6. You activate at that initiative this phase.",
+      "shipAbility": {
+        "name": "High Stakes",
+        "text": "After you perform a red action, you may roll an attack die. On a [Hit]/[Critical Hit] result, remove 1 stress."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "Red", "type": "Boost" },
+        { "difficulty": "White", "type": "Rotate Arc" },
+        { "difficulty": "Red", "type": "Coordinate", "linked": { "difficulty": "Red", "type": "Focus" } }
+      ],
+      "charges": { "value": 2, "recovers": 0 },
+      "slots": [
+        "Talent",
+        "Missile",
+        "Crew",
+        "Crew",
+        "Modification",
+        "Modification",
+        "Title",
+        "Gunner"
+      ],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/landocalrissian-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "keywords": ["Freighter", "YT-1300"],
+      "epic": true
     }
   ]
 }

@@ -530,6 +530,128 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/secondsister.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/secondsister.png",
       "epic": true
+    },
+    {
+      "name": "Sapphire 2",
+      "caption": "Battle Over Endor",
+      "xws": "sapphire2-battleoverendor",
+      "initiative": 1,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "cost": 53,
+      "standardLoadout": ["noescape-battleoverendor", "reckless-battleoverendor", "primedthrusters", "targetingmatrix-battleoverendor"],
+      "ability": "While you defend, if you are focused, roll 1 additional defense die.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/sapphire2-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sapphire2-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Sapphire 2",
+      "caption": "Battle Over Endor",
+      "xws": "sapphire2-battleoverendor-lsl",
+      "initiative": 1,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "cost": 38,
+      "slots": ["Modification", "Modification"],
+      "ability": "While you defend, if you are focused, roll 1 additional defense die.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/sapphire2-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sapphire2-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Soontir Fel",
+      "caption": "Battle Over Endor",
+      "xws": "soontirfel-battleoverendor",
+      "initiative": 6,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "charges": { "value": 2, "recovers": 0 },
+      "cost": 68,
+      "standardLoadout": ["apexpredator-battleoverendor", "noescape-battleoverendor", "blanksignature-battleoverendor", "feedbackemitter-battleoverendor"],
+      "ability": "After you perform an attack, you may spend 1 [Charge] and gain 1 deplete token to boost or barrel roll.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/soontirfel-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/soontirfel-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Soontir Fel",
+      "caption": "Battle Over Endor",
+      "xws": "soontirfel-battleoverendor-lsl",
+      "initiative": 6,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "charges": { "value": 2, "recovers": 0 },
+      "cost": 48,
+      "slots": ["Talent", "Modification", "Modification"],
+      "ability": "After you perform an attack, you may spend 1 [Charge] and gain 1 deplete token to boost or barrel roll.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/soontirfel-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/soontirfel-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Maus Monare",
+      "caption": "Battle Over Endor",
+      "xws": "mausmonare-battleoverendor",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "cost": 56,
+      "standardLoadout": ["noescape-battleoverendor", "outmaneuver", "fuelinjectionoverride-battleoverendor"],
+      "ability": "After you perform an [Evade] action, gain a calculate token",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/mausmonare-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mausmonare-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Maus Monare",
+      "caption": "Battle Over Endor",
+      "xws": "mausmonare-battleoverendor-lsl",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Sensitive Controls",
+        "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "cost": 42,
+      "slots": ["Talent", "Modification", "Modification"],
+      "ability": "After you perform an [Evade] action, gain a calculate token",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/mausmonare-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mausmonare-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
     }
   ]
 }

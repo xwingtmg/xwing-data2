@@ -337,6 +337,192 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sharabey-rz1awing.png",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/sharabey-swz106.png",
       "epic": true
+    },
+    {
+      "name": "Arvel Crynyd",
+      "caption": "Battle Over Endor",
+      "xws": "arvelcrynyd-battleoverendor",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 51,
+      "shipAbility": {
+        "name": "Vectored Cannons",
+        "text": "During the System Phase, you may perform a red [Boost] or [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]."
+      },
+      "shipStats": [
+        { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 2 },
+        { "type": "shields", "value": 3 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
+        { "difficulty": "White", "type": "Boost" },
+        { "difficulty": "White", "type": "SLAM" }
+      ],
+      "standardLoadout": ["heroicsacrifice-battleoverendor", "itsatrap-battleoverendor", "protonrockets"],
+      "ability": "While defending, you may gain a strain token to change 1 [Focus] result to an [Evade] result.",
+      "keywords": ["A-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/arvelcrynyd-battleoverendor.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/arvelcrynyd-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Arvel Crynyd",
+      "caption": "Battle Over Endor",
+      "xws": "arvelcrynyd-battleoverendor-lsl",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 38,
+      "shipAbility": {
+        "name": "Vectored Cannons",
+        "text": "During the System Phase, you may perform a red [Boost] or [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]."
+      },
+      "shipStats": [
+        { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 2 },
+        { "type": "shields", "value": 3 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
+        { "difficulty": "White", "type": "Boost" },
+        { "difficulty": "White", "type": "SLAM" }
+      ],
+      "slots": ["Talent", "Talent", "Missile"],
+      "ability": "While defending, you may gain a strain token to change 1 [Focus] result to an [Evade] result.",
+      "keywords": ["A-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/arvelcrynyd-battleoverendor.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/arvelcrynyd-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Tycho Celchu",
+      "caption": "Battle Over Endor",
+      "xws": "tychocelchu-battleoverendor",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 57,
+      "shipAbility": {
+        "name": "Vectored Cannons",
+        "text": "During the System Phase, you may perform a red [Boost] or [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]."
+      },
+      "shipStats": [
+        { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 2 },
+        { "type": "shields", "value": 3 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Reload" } },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Boost", "linked": { "difficulty": "Red", "type": "Evade" } }
+      ],
+      "standardLoadout": ["itsatrap-battleoverendor", "juke", "protonrockets", "chaffparticles-battleoverendor"],
+      "ability": "While you are disarmed, you can still perform [Missile] attacks. When you perform a [Missile] attack while disarmed, roll a maximum of 4 dice.",
+      "keywords": ["A-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tychocelchu-battleoverendor.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/tychocelchu-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Tycho Celchu",
+      "caption": "Battle Over Endor",
+      "xws": "tychocelchu-battleoverendor-lsl",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 41,
+      "shipAbility": {
+        "name": "Vectored Cannons",
+        "text": "During the System Phase, you may perform a red [Boost] or [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]."
+      },
+      "shipStats": [
+        { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 2 },
+        { "type": "shields", "value": 3 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Reload" } },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll" },
+        { "difficulty": "White", "type": "Boost", "linked": { "difficulty": "Red", "type": "Evade" } }
+      ],
+      "slots": ["Talent", "Talent", "Missile"],
+      "ability": "While you are disarmed, you can still perform [Missile] attacks. When you perform a [Missile] attack while disarmed, roll a maximum of 4 dice.",
+      "keywords": ["A-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tychocelchu-battleoverendor.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/tychocelchu-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Gemmer Sojan",
+      "caption": "Battle Over Endor",
+      "xws": "gemmersojan-battleoverendor",
+      "initiative": 2,
+      "limited": 1,
+      "cost": 46,
+      "shipAbility": {
+        "name": "Vectored Cannons",
+        "text": "During the System Phase, you may perform a red [Boost] or [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]."
+      },
+      "shipStats": [
+        { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 2 },
+        { "type": "shields", "value": 2 }
+      ],
+      "standardLoadout": ["itsatrap-battleoverendor", "precisiontunedcannons-battleoverendor", "chaffparticles-battleoverendor", "targetassistalgorithm-battleoverendor"],
+      "ability": "While defending, you may gain 1 strain token to change up to 2 of your blank results to [Focus] results.",
+      "keywords": ["A-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gemmersojan-battleoverendor.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/gemmersojan-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Gemmer Sojan",
+      "caption": "Battle Over Endor",
+      "xws": "gemmersojan-battleoverendor-lsl",
+      "initiative": 2,
+      "limited": 1,
+      "cost": 33,
+      "shipAbility": {
+        "name": "Vectored Cannons",
+        "text": "During the System Phase, you may perform a red [Boost] or [Rotate Arc] action. You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]."
+      },
+      "shipStats": [
+        { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 2 },
+        { "type": "shields", "value": 2 }
+      ],
+      "slots": ["Talent", "Missile"],
+      "ability": "While defending, you may gain 1 strain token to change up to 2 of your blank results to [Focus] results.",
+      "keywords": ["A-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gemmersojan-battleoverendor.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/gemmersojan-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
     }
   ]
 }

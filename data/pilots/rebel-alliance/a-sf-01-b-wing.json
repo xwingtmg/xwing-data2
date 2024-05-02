@@ -217,6 +217,216 @@
       "wildspace": true,
       "keywords": ["B-wing"],
       "epic": true
+    },
+    {
+      "name": "Adon Fox",
+      "caption": "Battle Over Endor",
+      "xws": "adonfox-battleoverendor",
+      "initiative": 1,
+      "limited": 1,
+      "cost": 65,
+      "ability": "While you defend, if you are stressed, roll 1 additional defense die.",
+      "shipAbility": {
+        "name": "Gyro-Cockpit",
+        "text": "After you gain a stress token, you may spend 2 [Charge] to gain an evade token. When you drop a device, you may spend 1 [Charge] to set the template with its middle line aligned with the hashmark on your ship's left or right side instead of your rear guides."
+      },
+      "charges": { "value": 2, "recovers": 1 },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Barrel Roll" } },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Lock" } },
+        { "difficulty": "Red", "type": "Reload"}
+      ],
+      "standardLoadout": ["itsatrap-battleoverendor", "partinggift-battleoverendor", "protonrockets", "protonbombs"],
+      "keywords": ["B-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/adonfox-battleoverendor.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/adonfox-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Adon Fox",
+      "caption": "Battle Over Endor",
+      "xws": "adonfox-battleoverendor-lsl",
+      "initiative": 1,
+      "limited": 1,
+      "cost": 46,
+      "ability": "While you defend, if you are stressed, roll 1 additional defense die.",
+      "shipAbility": {
+        "name": "Gyro-Cockpit",
+        "text": "After you gain a stress token, you may spend 2 [Charge] to gain an evade token. When you drop a device, you may spend 1 [Charge] to set the template with its middle line aligned with the hashmark on your ship's left or right side instead of your rear guides."
+      },
+      "charges": { "value": 2, "recovers": 1 },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Barrel Roll" } },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Lock" } },
+        { "difficulty": "Red", "type": "Reload"}
+      ],
+      "slots": [
+        "Sensor",
+        "Cannon",
+        "Cannon",
+        "Torpedo",
+        "Modification",
+        "Title",
+        "Configuration"
+      ],
+      "keywords": ["B-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/adonfox-battleoverendor.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/adonfox-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Gina Moonsong",
+      "caption": "Battle Over Endor",
+      "xws": "ginamoonsong-battleoverendor",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 80,
+      "ability": "At the start of the Engagement Phase, if a friendly Braylen Stramm ship at range 0-2 is stressed, you may acquire a lock.",
+      "shipAbility": {
+        "name": "Gyro-Cockpit",
+        "text": "After you gain a stress token, you may spend 2 [Charge] to gain an evade token. When you drop a device, you may spend 1 [Charge] to set the template with its middle line aligned with the hashmark on your ship's left or right side instead of your rear guides."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 1 },
+        { "type": "hull", "value": 4 },
+        { "type": "shields", "value": 5 }
+      ],
+      "charges": { "value": 2, "recovers": 1 },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Barrel Roll" } },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Lock" } },
+        { "difficulty": "Red", "type": "Reload"}
+      ],
+      "standardLoadout": ["itsatrap-battleoverendor", "juke", "protontorpedoes", "ionbombs"],
+      "keywords": ["B-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ginamoonsong-battleoverendor.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/ginamoonsong-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Gina Moonsong",
+      "caption": "Battle Over Endor",
+      "xws": "ginamoonsong-battleoverendor-lsl",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 55,
+      "ability": "At the start of the Engagement Phase, if a friendly Braylen Stramm ship at range 0-2 is stressed, you may acquire a lock.",
+      "shipAbility": {
+        "name": "Gyro-Cockpit",
+        "text": "After you gain a stress token, you may spend 2 [Charge] to gain an evade token. When you drop a device, you may spend 1 [Charge] to set the template with its middle line aligned with the hashmark on your ship's left or right side instead of your rear guides."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 1 },
+        { "type": "hull", "value": 4 },
+        { "type": "shields", "value": 5 }
+      ],
+      "charges": { "value": 2, "recovers": 1 },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Barrel Roll" } },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Lock" } },
+        { "difficulty": "Red", "type": "Reload"}
+      ],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Cannon",
+        "Torpedo",
+        "Title",
+        "Configuration"
+      ],
+      "keywords": ["B-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ginamoonsong-battleoverendor.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/ginamoonsong-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Braylen Stramm",
+      "caption": "Battle Over Endor",
+      "xws": "braylenstramm-battleoverendor",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 68,
+      "ability": "At the start of the Engagement Phase, if a friendly Gina Moonsong ship at range 0-2 is stressed, you may gain a focus token.",
+      "shipAbility": {
+        "name": "Gyro-Cockpit",
+        "text": "After you gain a stress token, you may spend 2 [Charge] to gain an evade token. When you drop a device, you may spend 1 [Charge] to set the template with its middle line aligned with the hashmark on your ship's left or right side instead of your rear guides."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 1 },
+        { "type": "hull", "value": 4 },
+        { "type": "shields", "value": 5 }
+      ],
+      "charges": { "value": 2, "recovers": 1 },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Barrel Roll" } },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Lock" } },
+        { "difficulty": "Red", "type": "Reload"}
+      ],
+      "standardLoadout": ["itsatrap-battleoverendor", "homingmissiles", "protonbombs", "delayedfuses"],
+      "keywords": ["B-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/braylenstramm-battleoverendor.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/braylenstramm-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Braylen Stramm",
+      "caption": "Battle Over Endor",
+      "xws": "braylenstramm-battleoverendor-lsl",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 53,
+      "ability": "At the start of the Engagement Phase, if a friendly Gina Moonsong ship at range 0-2 is stressed, you may gain a focus token.",
+      "shipAbility": {
+        "name": "Gyro-Cockpit",
+        "text": "After you gain a stress token, you may spend 2 [Charge] to gain an evade token. When you drop a device, you may spend 1 [Charge] to set the template with its middle line aligned with the hashmark on your ship's left or right side instead of your rear guides."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 1 },
+        { "type": "hull", "value": 4 },
+        { "type": "shields", "value": 5 }
+      ],
+      "charges": { "value": 2, "recovers": 1 },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Barrel Roll" } },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Lock" } },
+        { "difficulty": "Red", "type": "Reload"}
+      ],
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Cannon",
+        "Cannon",
+        "Torpedo",
+        "Title",
+        "Configuration"
+      ],
+      "keywords": ["B-wing"],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/braylenstramm-battleoverendor.png",
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/braylenstramm-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
     }
   ]
 }

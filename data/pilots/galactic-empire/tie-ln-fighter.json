@@ -542,6 +542,192 @@
       "wildspace": true,
       "keywords": ["TIE"],
       "epic": true
+    },
+    {
+      "name": "Lieutenant Hebsly",
+      "caption": "Battle Over Endor",
+      "xws": "lieutenanthebsly-battleoverendor",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Formed Up",
+        "text": "At the end of the End Phase, if there is another friendly TIE/ln Fighter at range 0-1, you may remove 1 stress token."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Evade" }},
+        { "difficulty": "Red", "type": "Boost" }
+      ],
+      "cost": 51,
+      "standardLoadout": ["collected-battleoverendor", "elusive", "noescape-battleoverendor"],
+      "ability": "After you defend, you may perform a red [Boost] action, even while stressed.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/lieutenanthebsly-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenanthebsly-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Lieutenant Hebsly",
+      "caption": "Battle Over Endor",
+      "xws": "lieutenanthebsly-battleoverendor-lsl",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Formed Up",
+        "text": "At the end of the End Phase, if there is another friendly TIE/ln Fighter at range 0-1, you may remove 1 stress token."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Evade" }},
+        { "difficulty": "Red", "type": "Boost" }
+      ],
+      "cost": 38,
+      "slots": ["Talent"],
+      "ability": "After you defend, you may perform a red [Boost] action, even while stressed.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/lieutenanthebsly-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenanthebsly-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Scythe 6",
+      "caption": "Battle Over Endor",
+      "xws": "scythe6-battleoverendor",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Formed Up",
+        "text": "At the end of the End Phase, if there is another friendly TIE/ln Fighter at range 0-1, you may remove 1 stress token."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Evade" }}
+      ],
+      "cost": 53,
+      "standardLoadout": ["noescape-battleoverendor", "predator", "ionmaneuveringjet-battleoverendor", "targetingmatrix-battleoverendor"],
+      "ability": "While you perform an attack at attack range 1-2, roll 1 additional attack die.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/scythe6-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scythe6-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Scythe 6",
+      "caption": "Battle Over Endor",
+      "xws": "scythe6-battleoverendor-lsl",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Formed Up",
+        "text": "At the end of the End Phase, if there is another friendly TIE/ln Fighter at range 0-1, you may remove 1 stress token."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 4 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Evade" }}
+      ],
+      "cost": 42,
+      "slots": [],
+      "ability": "While you perform an attack at attack range 1-2, roll 1 additional attack die.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/scythe6-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scythe6-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Major Mianda",
+      "caption": "Battle Over Endor",
+      "xws": "majormianda-battleoverendor",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Formed Up",
+        "text": "At the end of the End Phase, if there is another friendly TIE/ln Fighter at range 0-1, you may remove 1 stress token."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 3 },
+        { "type": "shields", "value": 1 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Evade" }},
+        { "difficulty": "Red", "type": "Coordinate" }
+      ],
+      "cost": 48,
+      "standardLoadout": ["noescape-battleoverendor", "ruthless", "swarmtactics"],
+      "ability": "During the End Phase, you may choose up to 2 friendly small ships at range 0-2. You and the chosen ships may perform a red [Barrel Roll] or red [Boost] action.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/majormianda-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majormianda-battleoverendor.png",
+      "standard": false,
+      "wildspace": true,
+      "epic": true
+    },
+    {
+      "name": "Major Mianda",
+      "caption": "Battle Over Endor",
+      "xws": "majormianda-battleoverendor-lsl",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Formed Up",
+        "text": "At the end of the End Phase, if there is another friendly TIE/ln Fighter at range 0-1, you may remove 1 stress token."
+      },
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 2 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 3 },
+        { "type": "shields", "value": 1 }
+      ],
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Evade" },
+        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Evade" }},
+        { "difficulty": "Red", "type": "Coordinate" }
+      ],
+      "cost": 41,
+      "slots": ["Talent"],
+      "ability": "During the End Phase, you may choose up to 2 friendly small ships at range 0-2. You and the chosen ships may perform a red [Barrel Roll] or red [Boost] action.",
+      "keywords": ["TIE"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/majormianda-battleoverendor.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majormianda-battleoverendor.png",
+      "standard": true,
+      "wildspace": true,
+      "epic": true
     }
   ]
 }
