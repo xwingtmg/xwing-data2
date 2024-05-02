@@ -619,6 +619,12 @@
       "xws": "mausmonare-battleoverendor",
       "initiative": 3,
       "limited": 1,
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 3 },
+        { "type": "shields", "value": 1 }
+      ],
       "shipAbility": {
         "name": "Sensitive Controls",
         "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
@@ -639,6 +645,12 @@
       "xws": "mausmonare-battleoverendor-lsl",
       "initiative": 3,
       "limited": 1,
+      "shipStats": [
+        { "arc": "Front Arc", "type": "attack", "value": 3 },
+        { "type": "agility", "value": 3 },
+        { "type": "hull", "value": 3 },
+        { "type": "shields", "value": 1 }
+      ],
       "shipAbility": {
         "name": "Sensitive Controls",
         "text": "During the System Phase, you may perform a red [Barrel Roll] or red [Boost] action."
