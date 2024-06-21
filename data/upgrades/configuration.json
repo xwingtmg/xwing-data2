@@ -317,6 +317,7 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/corsairrefit.png"
       }
     ],
+    "restrictions": [{ "ships": ["croccruiser"] }],
     "cost": { "value": 6 }
   },
   {
@@ -366,6 +367,9 @@
       }
     ],
     "cost": { "value": 0 },
+    "restrictions": [
+      { "ships": ["asf01bwing"] }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -390,6 +394,7 @@
       }
     ],
     "name": "Repulsorlift Stabilizers",
+    "restrictions": [{ "ships": ["hmpdroidgunship"] }],
     "cost": { "value": 0 },
     "limited": 0,
     "xws": "repulsorliftstabilizers",
@@ -412,6 +417,7 @@
       }
     ],
     "cost": { "value": 1 },
+    "restrictions": [{ "ships": ["nimbusclassvwing"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -432,6 +438,7 @@
       }
     ],
     "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["nimbusclassvwing"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -470,6 +477,7 @@
       }
     ],
     "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["droidtrifighter"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -503,6 +511,7 @@
       }
     ],
     "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["tierbheavy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -536,6 +545,7 @@
       }
     ],
     "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["tierbheavy"] }],
     "standard": true,
     "extended": true,
     "epic": true
