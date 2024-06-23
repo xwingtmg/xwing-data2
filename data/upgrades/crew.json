@@ -2048,6 +2048,7 @@
     "sides": [
       {
         "ability": "Setup: After placing forces, choose an opponent; they assign the Merciless Pursuit condition to 2 of their ships. Your [Force] lose the recurring icon. After you defend, if you suffer damage during that attack, recover 1 [Force].",
+        "conditions": ["mercilesspursuit"],
         "title": "The Child",
         "type": "Crew",
         "slots": ["Crew"],
@@ -2331,6 +2332,7 @@
     "sides": [
       {
         "ability": "Setup: Before placing forces, choose 1 enemy ship and assign the False Friend condition to it. Action: If the False Friend condition is not assigned to an enemy ship, assign it to an enemy ship in your [Front Arc] at range 0-2.",
+        "conditions": ["falsefriend"],
         "title": "Tal Merrik",
         "type": "Crew",
         "slots": ["Crew"],
