@@ -235,7 +235,7 @@
       }
     ],
     "cost": { "value": 6 },
-    "restrictions": [{ "sizes": ["Huge"] }]
+    "ions": [{ "sizes": ["Huge"] }]
   },
   {
     "name": "Jedi Commander",
@@ -639,7 +639,7 @@
       "value": "5"
     },
     "restrictions": [
-      { "factions": ["Rebel Alliance"] },
+      { "factions": ["rebelalliance"] },
       { "sizes": ["Small", "Medium", "Large"] }
     ]
   }
