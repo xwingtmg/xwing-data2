@@ -19,7 +19,7 @@
           "maxrange": 4,
           "ordnance": false
         },
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ioncannonbattery.png"
       },
       {
         "ability": "Offline: After you engage, you may spend 2 [Energy] to flip this card.",
@@ -32,7 +32,7 @@
             "value": { "type": "Rotate Arc", "difficulty": "White" }
           }
         ],
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ioncannonbattery-sideb.png"
       }
     ],
     "cost": { "value": 5 }
@@ -50,14 +50,14 @@
         "title": "Ordnance Tubes",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ordnancetubes.png"
       },
       {
         "ability": "Offline: You must treat the [Front Arc] requirement of your equipped [Torpedo] and [Missile] upgrades as [Bullseye Arc]. Action: Spend 2 [Energy] to flip this card.",
         "title": "Ordnance Tubes (Offline)",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ordnancetubes-sideb.png"
       }
     ],
     "cost": { "value": 1 }
@@ -88,14 +88,14 @@
           "maxrange": 2,
           "ordnance": false
         },
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/pointdefensebattery.png"
       },
       {
         "ability": "Offline: After you engage, you may spend 2 [Energy] to flip this card.",
         "title": "Point-Defense Battery (Offline)",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/pointdefensebattery-sideb.png"
       }
     ],
     "cost": { "value": 9 }
@@ -126,14 +126,14 @@
           "maxrange": 5,
           "ordnance": false
         },
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/targetingbattery.png"
       },
       {
         "ability": "Offline: After you engage, you may spend 2 [Energy] to flip this card.",
         "title": "Targeting Battery (Offline)",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/targetingbattery-sideb.png"
       }
     ],
     "cost": { "value": 5 }
@@ -164,14 +164,14 @@
           "maxrange": 5,
           "ordnance": false
         },
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/turbolaserbattery.png"
       },
       {
         "ability": "Offline: After you engage, you may spend 2 [Energy] to flip this card.",
         "title": "Turbolaser Battery (Offline)",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/turbolaserbattery-sideb.png"
       }
     ],
     "cost": { "value": 10 }
@@ -200,14 +200,14 @@
           "maxrange": 2,
           "ordnance": true
         },
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/tractortentacles.png"
       },
       {
         "ability": "Action: Spend 1 [Energy] to repair this card.",
         "title": "Tractor Tentacles (Offline)",
         "type": "Hardpoint",
         "slots": ["Hardpoint"],
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/tractortentacles-sideb.png"
       }
     ],
     "cost": { "value": 0 }
@@ -232,14 +232,14 @@
           "maxrange": 5,
           "ordnance": false
         },
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/protoncannonbattery.png"
       },
       {
         "ability": "Action: Spend 1 [Energy] to repair this card.",
         "title": "Proton Cannon Battery (Offline)",
         "type": "Hardpoint",
         "slots": ["Hardpoint", "Cargo"],
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/protoncannonbattery-sideb.png"
       }
     ],
     "cost": { "value": 10 }
@@ -257,14 +257,14 @@
         "title": "Enhanced Propulsion",
         "type": "Hardpoint",
         "slots": ["Hardpoint", "Cargo"],
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/enhancedpropulsion.png"
       },
       {
         "ability": "Action: Spend 1 [Energy] to repair this card.",
         "title": "Enhanced Propulsion (Offline)",
         "type": "Hardpoint",
         "slots": ["Hardpoint", "Cargo"],
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/enhancedpropulsion-sideb.png"
       }
     ],
     "cost": { "value": 6 },
@@ -293,14 +293,14 @@
           "maxrange": 1,
           "ordnance": true
         },
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/drillbeak.png"
       },
       {
         "ability": "Action: Spend 1 [Energy] to repair this card.",
         "title": "Drill Beak (Offline)",
         "type": "Hardpoint",
         "slots": ["Hardpoint", "Cargo"],
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/drillbeak-sideb.png"
       }
     ],
     "cost": { "value": 4 },
