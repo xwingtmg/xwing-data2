@@ -168,6 +168,7 @@
       "initiative": 6,
       "limited": 1,
       "cost": 105,
+      "charges": { "value": 4, "recovers": 0 },
       "xws": "hansolo-battleofyavin",
       "ability": "After performing an attack that hits, you may spend 1 [Charge] to perform a [Coordinate] action.",
       "shipAbility": {
@@ -194,6 +195,7 @@
       "limited": 1,
       "cost": 84,
       "xws": "hansolo-battleofyavin-lsl",
+      "charges": { "value": 4, "recovers": 0 },
       "ability": "After performing an attack that hits, you may spend 1 [Charge] to perform a [Coordinate] action.",
       "shipAbility": {
         "name": "Solo",
