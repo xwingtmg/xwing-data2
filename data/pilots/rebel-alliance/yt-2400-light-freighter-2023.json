@@ -128,11 +128,7 @@
       "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
       "shipActions": [
         { "difficulty": "White", "type": "Calculate" },
-        {
-          "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Rotate Arc" },
-          "type": "Lock"
-        },
+        { "difficulty": "White", "type": "Lock"},
         { "difficulty": "Red", "type": "Barrel Roll" },
         { "difficulty": "White", "type": "Rotate Arc" }
       ],
