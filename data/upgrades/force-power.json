@@ -239,6 +239,7 @@
       }
     ],
     "cost": { "value": 1 },
+    "restrictions": [{ "force_side": ["light"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -258,6 +259,7 @@
       }
     ],
     "cost": { "value": 4 },
+    "restrictions": [{ "force_side": ["dark"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -296,6 +298,7 @@
       }
     ],
     "cost": { "value": 2 },
+    "restrictions": [{ "force_side": ["light"] }],
     "standard": true,
     "extended": true,
     "epic": true
