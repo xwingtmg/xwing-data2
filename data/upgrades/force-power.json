@@ -200,6 +200,7 @@
       }
     ],
     "cost": { "value": 15 },
+    "restrictions": [{ "sizes": ["Small"] }],
     "xws": "precognitivereflexes",
     "standard": false,
     "extended": true,
@@ -220,6 +221,10 @@
       }
     ],
     "cost": { "value": 8 },
+    "restrictions": [
+      { "sizes": ["Small"] },
+      { "action": { "type": "Boost" } }
+    ],
     "standard": true,
     "extended": true,
     "epic": true

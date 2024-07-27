@@ -457,7 +457,10 @@
       }
     ],
     "cost": { "value": 3 },
-    "restrictions": [{ "factions": ["firstorder"] }],
+    "restrictions": [
+      { "factions": ["firstorder"] },
+      { "action": { "type": "Coordinate" } }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1621,6 +1624,7 @@
       }
     ],
     "cost": { "value": 12 },
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1648,6 +1652,7 @@
       }
     ],
     "cost": { "value": 7 },
+    "restrictions": [{ "factions": ["firstorder"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1677,6 +1682,7 @@
       }
     ],
     "cost": { "value": 6 },
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1703,6 +1709,7 @@
       }
     ],
     "cost": { "value": 9 },
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -1756,6 +1763,7 @@
     ],
     "name": "Kit Fisto",
     "cost": { "value": 8 },
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "limited": 1,
     "xws": "kitfisto",
     "standard": true,
@@ -1782,6 +1790,7 @@
     ],
     "name": "Yoda",
     "cost": { "value": 12 },
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "limited": 1,
     "xws": "yoda",
     "standard": true,
@@ -1801,6 +1810,7 @@
     ],
     "name": "“Fives”",
     "cost": { "value": 3 },
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "limited": 1,
     "xws": "fives",
     "standard": true,
@@ -1820,6 +1830,7 @@
     ],
     "name": "Wolfpack",
     "cost": { "value": 4 },
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "limited": 1,
     "xws": "wolfpack",
     "standard": true,
@@ -1847,6 +1858,7 @@
     ],
     "name": "Commander Malarus",
     "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["firstorder"] }],
     "limited": 1,
     "xws": "commandermalarus",
     "standard": true,
@@ -1876,6 +1888,10 @@
     ],
     "name": "Ghost Company",
     "cost": { "value": 5 },
+    "restrictions": [
+      { "factions": ["galacticrepublic"] },
+      { "action": { "type": "Rotate Arc" } }
+    ],
     "limited": 1,
     "xws": "ghostcompany",
     "standard": true,
@@ -1895,6 +1911,7 @@
     ],
     "name": "Commander Pyre",
     "cost": { "value": 5 },
+    "restrictions": [{ "factions": ["firstorder"] }],
     "limited": 1,
     "xws": "commanderpyre",
     "standard": false,

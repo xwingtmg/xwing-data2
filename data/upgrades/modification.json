@@ -400,6 +400,7 @@
       }
     ],
     "cost": { "value": 5 },
+    "restrictions": [{ "ships": ["t70xwing"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -484,6 +485,7 @@
       }
     ],
     "cost": { "value": 3 },
+    "restrictions": [{ "keywords": ["Mandalorian"] }],
     "standard": true,
     "extended": true,
     "epic": true
