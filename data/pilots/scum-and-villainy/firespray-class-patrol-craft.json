@@ -1,216 +1,253 @@
 {
-  "name": "Firespray-class Patrol Craft",
-  "xws": "firesprayclasspatrolcraft",
-  "size": "Medium",
-  "dial": [
-    "1TW",
-    "1BB",
-    "1FB",
-    "1NB",
-    "1YW",
-    "2TW",
-    "2BW",
-    "2FB",
-    "2NW",
-    "2YW",
-    "3ER",
-    "3BW",
-    "3FB",
-    "3NW",
-    "3RR",
-    "4FW",
-    "4KR"
-  ],
-  "dialCodes": ["FPC"],
-  "faction": "scumandvillainy",
-  "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Rear Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 4 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Boost" }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_FIrespray.png",
-  "pilots": [
-    {
-      "name": "Boba Fett",
-      "caption": "Notorious Bounty Hunter",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 90,
-      "xws": "bobafett",
-      "ability": "While you defend or perform an attack, you may reroll 1 of your dice for each enemy ship at range 0-1.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/bobafett.png",
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Modification",
-        "Title"
-      ],
-      "alt": [
+    "name": "Firespray-class Patrol Craft",
+    "xws": "firesprayclasspatrolcraft",
+    "size": "Medium",
+    "dial": [
+        "1TW",
+        "1BB",
+        "1FB",
+        "1NB",
+        "1YW",
+        "2TW",
+        "2BW",
+        "2FB",
+        "2NW",
+        "2YW",
+        "3ER",
+        "3BW",
+        "3FB",
+        "3NW",
+        "3RR",
+        "4FW",
+        "4KR"
+    ],
+    "dialCodes": [
+        "FPC"
+    ],
+    "faction": "scumandvillainy",
+    "stats": [
         {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/bd/38/bd388799-287f-455e-9624-8078e676fed0/op067_boba-fett.png",
-          "source": "Coruscant Invitational 2018"
+            "arc": "Front Arc",
+            "type": "attack",
+            "value": 3
+        },
+        {
+            "arc": "Rear Arc",
+            "type": "attack",
+            "value": 3
+        },
+        {
+            "type": "agility",
+            "value": 2
+        },
+        {
+            "type": "hull",
+            "value": 6
+        },
+        {
+            "type": "shields",
+            "value": 4
         }
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bobafett.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Bounty Hunter"],
-      "epic": true
-    },
-    {
-      "name": "Bounty Hunter",
-      "initiative": 2,
-      "limited": 0,
-      "cost": 62,
-      "xws": "bountyhunter",
-      "text": "The Firespray-class patrol craft is infamous for its association with the deadly bounty hunters Jango Fett and Boba Fett, who packed their craft with countless deadly armaments.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/bountyhunter.png",
-      "slots": [
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bountyhunter.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Bounty Hunter"],
-      "epic": true
-    },
-    {
-      "name": "Emon Azzameen",
-      "caption": "Shipping Magnate",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 69,
-      "xws": "emonazzameen",
-      "ability": "If you would drop a device using a [1 [Straight]] template, you may use the [3 [Turn Left]], [3 [Straight]], or [3 [Turn Right]] template instead.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/emonazzameen.png",
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/emonazzameen.png",
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    },
-    {
-      "name": "Kath Scarlet",
-      "caption": "Captain of the Binayre Pirates",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 67,
-      "xws": "kathscarlet",
-      "ability": "While you perform a primary attack, if there is at least 1 friendly non-limited ship at range 0 of the defender, roll 1 additional attack die.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/kathscarlet.png",
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kathscarlet.png",
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    },
-    {
-      "name": "Koshka Frost",
-      "caption": "Icy Professional",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 69,
-      "xws": "koshkafrost",
-      "ability": "While you defend or perform an attack, if the enemy ship is stressed, you may reroll 1 of your dice.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/koshkafrost.png",
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/koshkafrost.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Bounty Hunter"],
-      "epic": true
-    },
-    {
-      "name": "Krassis Trelix",
-      "caption": "Imperial Deserter",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 65,
-      "xws": "krassistrelix",
-      "ability": "You can perform [Front Arc] special attacks from your [Rear Arc]. While you perform a special attack, you may reroll 1 attack die.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/krassistrelix.png",
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/krassistrelix.png",
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    },
-    {
-      "name": "Hondo Ohnaka",
-      "caption": "I Smell Profit!",
-      "initiative": 1,
-      "limited": 1,
-      "cost": 63,
-      "xws": "hondoohnaka",
-      "ability": "Action: Choose 2 non-huge ships at range 0-3 of you that are not friendly to each other. Each chosen ship may perform an action that is on your action bar, even while stressed, in the order of your choice. Then, gain 1 calculate token.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/hondoohnaka.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hondoohnaka.png",
-      "slots": [
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    }
-  ]
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Reinforce"
+        },
+        {
+            "difficulty": "White",
+            "type": "Boost"
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_FIrespray.png",
+    "pilots": [
+        {
+            "name": "Boba Fett",
+            "caption": "Notorious Bounty Hunter",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 90,
+            "xws": "bobafett",
+            "ability": "While you defend or perform an attack, you may reroll 1 of your dice for each enemy ship at range 0-1.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/bobafett.png",
+            "slots": [
+                "Talent",
+                "Cannon",
+                "Missile",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Modification",
+                "Title"
+            ],
+            "alt": [
+                {
+                    "image": "https://images-cdn.fantasyflightgames.com/filer_public/bd/38/bd388799-287f-455e-9624-8078e676fed0/op067_boba-fett.png",
+                    "source": "Coruscant Invitational 2018"
+                }
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/bobafett.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Bounty Hunter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Bounty Hunter",
+            "initiative": 2,
+            "limited": 0,
+            "cost": 62,
+            "xws": "bountyhunter",
+            "text": "The Firespray-class patrol craft is infamous for its association with the deadly bounty hunters Jango Fett and Boba Fett, who packed their craft with countless deadly armaments.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/bountyhunter.png",
+            "slots": [
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Title"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/bountyhunter.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Bounty Hunter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Emon Azzameen",
+            "caption": "Shipping Magnate",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 69,
+            "xws": "emonazzameen",
+            "ability": "If you would drop a device using a [1 [Straight]] template, you may use the [3 [Turn Left]], [3 [Straight]], or [3 [Turn Right]] template instead.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/emonazzameen.png",
+            "slots": [
+                "Talent",
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Title"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/emonazzameen.png",
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        },
+        {
+            "name": "Kath Scarlet",
+            "caption": "Captain of the Binayre Pirates",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 67,
+            "xws": "kathscarlet",
+            "ability": "While you perform a primary attack, if there is at least 1 friendly non-limited ship at range 0 of the defender, roll 1 additional attack die.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/kathscarlet.png",
+            "slots": [
+                "Talent",
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Title"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/kathscarlet.png",
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        },
+        {
+            "name": "Koshka Frost",
+            "caption": "Icy Professional",
+            "initiative": 3,
+            "limited": 1,
+            "cost": 69,
+            "xws": "koshkafrost",
+            "ability": "While you defend or perform an attack, if the enemy ship is stressed, you may reroll 1 of your dice.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/koshkafrost.png",
+            "slots": [
+                "Talent",
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Title"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/koshkafrost.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Bounty Hunter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Krassis Trelix",
+            "caption": "Imperial Deserter",
+            "initiative": 3,
+            "limited": 1,
+            "cost": 65,
+            "xws": "krassistrelix",
+            "ability": "You can perform [Front Arc] special attacks from your [Rear Arc]. While you perform a special attack, you may reroll 1 attack die.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/krassistrelix.png",
+            "slots": [
+                "Talent",
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Title"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/krassistrelix.png",
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        },
+        {
+            "name": "Hondo Ohnaka",
+            "caption": "I Smell Profit!",
+            "initiative": 1,
+            "limited": 1,
+            "cost": 63,
+            "xws": "hondoohnaka",
+            "ability": "Action: Choose 2 non-huge ships at range 0-3 of you that are not friendly to each other. Each chosen ship may perform an action that is on your action bar, even while stressed, in the order of your choice. Then, gain 1 calculate token.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/hondoohnaka.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/hondoohnaka.png",
+            "slots": [
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Title"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        }
+    ]
 }

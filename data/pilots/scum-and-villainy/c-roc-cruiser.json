@@ -1,70 +1,105 @@
 {
-  "name": "C-ROC Cruiser",
-  "xws": "croccruiser",
-  "faction": "scumandvillainy",
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_C-ROC.png",
-  "size": "Huge",
-  "dial": [
-    "0BR",
-    "0OR",
-    "0NR",
-    "1BW",
-    "1NW",
-    "1FB",
-    "2BW",
-    "2NW",
-    "2FB",
-    "3NR",
-    "3FW",
-    "3BR",
-    "4FR",
-    "5FR"
-  ],
-  "dialCodes": ["CRC-SC"],
-  "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 12 },
-    { "type": "shields", "value": 4, "recovers": 1 },
-    { "type": "energy", "value": 4, "recovers": 1 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Coordinate" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Jam" }
-  ],
-  "pilots": [
-    {
-      "name": "Syndicate Smugglers",
-      "initiative": 7,
-      "cost": 63,
-      "limited": 0,
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/syndicatesmugglers.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/syndicatesmugglers.png",
-      "shipAbility": {
-        "name": "Overdrive Burners",
-        "text": "While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die."
-      },
-      "text": "Vessels like the C-ROC Cruiser allow criminal operations across the Outer Rim to move massive amounts of illicit materials, or project power that can bully small colonies into compliance.",
-      "standard": false,
-      "wildspace": false,
-      "epic": true,
-      "engagement": 1,
-      "xws": "syndicatesmugglers",
-      "slots": [
-        "Command",
-        "Hardpoint",
-        "Crew",
-        "Crew",
-        "Team",
-        "Cargo",
-        "Device",
-        "Illicit",
-        "Title",
-        "Configuration"
-      ]
-    }
-  ]
+    "name": "C-ROC Cruiser",
+    "xws": "croccruiser",
+    "faction": "scumandvillainy",
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_C-ROC.png",
+    "size": "Huge",
+    "dial": [
+        "0BR",
+        "0OR",
+        "0NR",
+        "1BW",
+        "1NW",
+        "1FB",
+        "2BW",
+        "2NW",
+        "2FB",
+        "3NR",
+        "3FW",
+        "3BR",
+        "4FR",
+        "5FR"
+    ],
+    "dialCodes": [
+        "CRC-SC"
+    ],
+    "stats": [
+        {
+            "arc": "Front Arc",
+            "type": "attack",
+            "value": 3
+        },
+        {
+            "type": "agility",
+            "value": 0
+        },
+        {
+            "type": "hull",
+            "value": 12
+        },
+        {
+            "type": "shields",
+            "value": 4,
+            "recovers": 1
+        },
+        {
+            "type": "energy",
+            "value": 4,
+            "recovers": 1
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Coordinate"
+        },
+        {
+            "difficulty": "White",
+            "type": "Reinforce"
+        },
+        {
+            "difficulty": "White",
+            "type": "Jam"
+        }
+    ],
+    "pilots": [
+        {
+            "name": "Syndicate Smugglers",
+            "initiative": 7,
+            "cost": 63,
+            "limited": 0,
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/syndicatesmugglers.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/syndicatesmugglers.png",
+            "shipAbility": {
+                "name": "Overdrive Burners",
+                "text": "While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die."
+            },
+            "text": "Vessels like the C-ROC Cruiser allow criminal operations across the Outer Rim to move massive amounts of illicit materials, or project power that can bully small colonies into compliance.",
+            "standard": false,
+            "wildspace": false,
+            "epic": true,
+            "engagement": 1,
+            "xws": "syndicatesmugglers",
+            "slots": [
+                "Command",
+                "Hardpoint",
+                "Crew",
+                "Crew",
+                "Team",
+                "Cargo",
+                "Device",
+                "Illicit",
+                "Title",
+                "Configuration"
+            ]
+        }
+    ]
 }

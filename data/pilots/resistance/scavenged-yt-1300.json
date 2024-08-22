@@ -1,191 +1,249 @@
 {
-  "name": "Scavenged YT-1300",
-  "xws": "scavengedyt1300",
-  "size": "Large",
-  "dial": [
-    "1BW",
-    "1FB",
-    "1NW",
-    "2TW",
-    "2BB",
-    "2FB",
-    "2NB",
-    "2YW",
-    "3LR",
-    "3TW",
-    "3BW",
-    "3FW",
-    "3NW",
-    "3YW",
-    "3PR",
-    "4FR"
-  ],
-  "dialCodes": ["sYT"],
-  "faction": "resistance",
-  "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 8 },
-    { "type": "shields", "value": 3 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Boost" },
-    { "difficulty": "Red", "type": "Rotate Arc" }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_Falcon_Resistance.png",
-  "pilots": [
-    {
-      "name": "Resistance Sympathizer",
-      "initiative": 2,
-      "limited": 0,
-      "xws": "resistancesympathizer",
-      "text": "After witnessing the Hosnian Cataclysm, some spacers willingly aided the Resistance with whatever ships they had.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/resistancesympathizer.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/resistancesympathizer.png",
-      "cost": 55,
-      "slots": [
-        "Missile",
-        "Crew",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    },
-    {
-      "name": "Chewbacca",
-      "caption": "Loyal Companion",
-      "initiative": 4,
-      "limited": 1,
-      "xws": "chewbacca-scavengedyt1300",
-      "ability": "After a friendly ship at range 0-3 is destroyed, before that ship is removed, you may perform an action. Then you may perform a bonus attack.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/chewbacca-scavengedyt1300.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/chewbacca-scavengedyt1300.png",
-      "cost": 59,
-      "slots": [
-        "Talent",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    },
-    {
-      "name": "Han Solo",
-      "caption": "Jaded Smuggler",
-      "initiative": 6,
-      "limited": 1,
-      "xws": "hansolo-scavengedyt1300",
-      "ability": "Setup: You can be placed anywhere in the play area beyond range 3 of enemy ships.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/hansolo-scavengedyt1300.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-scavengedyt1300.png",
-      "cost": 62,
-      "slots": [
-        "Talent",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    },
-    {
-      "name": "Rey",
-      "caption": "Resourceful Scavenger",
-      "initiative": 5,
-      "limited": 1,
-      "xws": "rey",
-      "ability": "While you defend or perform an attack, if the enemy ship is in your [Front Arc], you may spend 1 [Force] to change 1 of your blank results to an [Evade] or [Hit] result.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/rey.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rey.png",
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "cost": 70,
-      "slots": [
-        "Missile",
-        "Crew",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title",
-        "Gunner",
-        "Force Power"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "Light Side", "YT-1300"],
-      "epic": true
-    },
-    {
-      "name": "Poe Dameron",
-      "caption": "A Difficult Man",
-      "initiative": 6,
-      "limited": 1,
-      "xws": "poedameron-scavengedyt1300",
-      "ability": "Before you execute a maneuver, you may spend 1 [Charge]. If you do, ignore obstacles during that maneuver. After you fully execute a maneuver, you may spend 2 [Charge] to perform a white [Boost] or red [Barrel Roll] action. Then if you performed a red [Barrel Roll] action, expose 1 damage card, if able.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/poedameron-scavengedyt1300.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/poedameron-scavengedyt1300.png",
-      "charges": { "value": 2, "recovers": 1 },
-      "cost": 67,
-      "slots": [
-        "Talent",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    },
-    {
-      "name": "Lando Calrissian",
-      "caption": "Old General",
-      "initiative": 5,
-      "limited": 1,
-      "xws": "landocalrissian-scavengedyt1300",
-      "ability": "After you fully execute a red maneuver or perform a red action, you may spend any number of [Charge] to choose that many friendly ships at range 0-2. The chosen ships may perform an action, even while stressed.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/landocalrissian-scavengedyt1300.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-scavengedyt1300.png",
-      "charges": { "value": 3, "recovers": 1 },
-      "cost": 70,
-      "slots": [
-        "Talent",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    }
-  ]
+    "name": "Scavenged YT-1300",
+    "xws": "scavengedyt1300",
+    "size": "Large",
+    "dial": [
+        "1BW",
+        "1FB",
+        "1NW",
+        "2TW",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YW",
+        "3LR",
+        "3TW",
+        "3BW",
+        "3FW",
+        "3NW",
+        "3YW",
+        "3PR",
+        "4FR"
+    ],
+    "dialCodes": [
+        "sYT"
+    ],
+    "faction": "resistance",
+    "stats": [
+        {
+            "arc": "Double Turret Arc",
+            "type": "attack",
+            "value": 3
+        },
+        {
+            "type": "agility",
+            "value": 1
+        },
+        {
+            "type": "hull",
+            "value": 8
+        },
+        {
+            "type": "shields",
+            "value": 3
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Boost"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Rotate Arc"
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_Falcon_Resistance.png",
+    "pilots": [
+        {
+            "name": "Resistance Sympathizer",
+            "initiative": 2,
+            "limited": 0,
+            "xws": "resistancesympathizer",
+            "text": "After witnessing the Hosnian Cataclysm, some spacers willingly aided the Resistance with whatever ships they had.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/resistancesympathizer.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/resistancesympathizer.png",
+            "cost": 55,
+            "slots": [
+                "Missile",
+                "Crew",
+                "Crew",
+                "Illicit",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Chewbacca",
+            "caption": "Loyal Companion",
+            "initiative": 4,
+            "limited": 1,
+            "xws": "chewbacca-scavengedyt1300",
+            "ability": "After a friendly ship at range 0-3 is destroyed, before that ship is removed, you may perform an action. Then you may perform a bonus attack.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/chewbacca-scavengedyt1300.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/chewbacca-scavengedyt1300.png",
+            "cost": 59,
+            "slots": [
+                "Talent",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Illicit",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Han Solo",
+            "caption": "Jaded Smuggler",
+            "initiative": 6,
+            "limited": 1,
+            "xws": "hansolo-scavengedyt1300",
+            "ability": "Setup: You can be placed anywhere in the play area beyond range 3 of enemy ships.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/hansolo-scavengedyt1300.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/hansolo-scavengedyt1300.png",
+            "cost": 62,
+            "slots": [
+                "Talent",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Illicit",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Rey",
+            "caption": "Resourceful Scavenger",
+            "initiative": 5,
+            "limited": 1,
+            "xws": "rey",
+            "ability": "While you defend or perform an attack, if the enemy ship is in your [Front Arc], you may spend 1 [Force] to change 1 of your blank results to an [Evade] or [Hit] result.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/rey.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/rey.png",
+            "force": {
+                "value": 2,
+                "recovers": 1,
+                "side": [
+                    "light"
+                ]
+            },
+            "cost": 70,
+            "slots": [
+                "Missile",
+                "Crew",
+                "Crew",
+                "Illicit",
+                "Modification",
+                "Title",
+                "Gunner",
+                "Force Power"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "Light Side",
+                "YT-1300"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Poe Dameron",
+            "caption": "A Difficult Man",
+            "initiative": 6,
+            "limited": 1,
+            "xws": "poedameron-scavengedyt1300",
+            "ability": "Before you execute a maneuver, you may spend 1 [Charge]. If you do, ignore obstacles during that maneuver. After you fully execute a maneuver, you may spend 2 [Charge] to perform a white [Boost] or red [Barrel Roll] action. Then if you performed a red [Barrel Roll] action, expose 1 damage card, if able.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/poedameron-scavengedyt1300.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/poedameron-scavengedyt1300.png",
+            "charges": {
+                "value": 2,
+                "recovers": 1
+            },
+            "cost": 67,
+            "slots": [
+                "Talent",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Illicit",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Lando Calrissian",
+            "caption": "Old General",
+            "initiative": 5,
+            "limited": 1,
+            "xws": "landocalrissian-scavengedyt1300",
+            "ability": "After you fully execute a red maneuver or perform a red action, you may spend any number of [Charge] to choose that many friendly ships at range 0-2. The chosen ships may perform an action, even while stressed.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/landocalrissian-scavengedyt1300.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/landocalrissian-scavengedyt1300.png",
+            "charges": {
+                "value": 3,
+                "recovers": 1
+            },
+            "cost": 70,
+            "slots": [
+                "Talent",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Illicit",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        }
+    ]
 }

@@ -1,209 +1,245 @@
 {
-  "name": "MG-100 StarFortress",
-  "xws": "mg100starfortress",
-  "size": "Large",
-  "dial": [
-    "0OR",
-    "1TR",
-    "1BB",
-    "1FB",
-    "1NB",
-    "1YR",
-    "2TW",
-    "2BW",
-    "2FB",
-    "2NW",
-    "2YW",
-    "3BR",
-    "3FW",
-    "3NR"
-  ],
-  "dialCodes": ["MG1"],
-  "faction": "resistance",
-  "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Double Turret Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 9 },
-    { "type": "shields", "value": 3 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Rotate Arc" },
-    { "difficulty": "White", "type": "Reload" }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_StarFortress.png",
-  "pilots": [
-    {
-      "name": "Cobalt Squadron Bomber",
-      "initiative": 1,
-      "limited": 0,
-      "xws": "cobaltsquadronbomber",
-      "text": "Whether the ordnance silos of their StarFortresses are loaded with proton bombs or relief supplies, the heroic crews of Cobalt Squadron dedicate their lives to making a difference in the galaxy.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/cobaltsquadronbomber.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cobaltsquadronbomber.png",
-      "cost": 49,
-      "slots": [
-        "Sensor",
-        "Crew",
-        "Device",
-        "Device",
-        "Modification",
-        "Gunner",
-        "Gunner",
-        "Tech"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    },
-    {
-      "name": "Cat",
-      "caption": "Cobalt Wasp",
-      "initiative": 1,
-      "limited": 1,
-      "xws": "cat",
-      "ability": "While you perform a primary attack, if the defender is at range 0-1 of at least 1 friendly device, roll 1 additional die.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/cat.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cat.png",
-      "cost": 50,
-      "slots": [
-        "Sensor",
-        "Crew",
-        "Device",
-        "Device",
-        "Modification",
-        "Gunner",
-        "Gunner",
-        "Tech"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    },
-    {
-      "name": "Vennie",
-      "caption": "Crimson Cutter",
-      "initiative": 2,
-      "limited": 1,
-      "xws": "vennie",
-      "ability": "While you defend, if the attacker is in a friendly ship's [Single Turret Arc], you may add 1 [Focus] result to your roll.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/vennie.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vennie.png",
-      "cost": 51,
-      "slots": [
-        "Sensor",
-        "Crew",
-        "Device",
-        "Device",
-        "Modification",
-        "Gunner",
-        "Gunner",
-        "Tech"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    },
-    {
-      "name": "Ben Teene",
-      "caption": "Crimson Bolide",
-      "initiative": 3,
-      "limited": 1,
-      "xws": "benteene",
-      "ability": "After you perform an attack, if the defender is in your [Single Turret Arc], assign the Rattled condition to the defender.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/benteene.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/benteene.png",
-      "cost": 51,
-      "conditions": ["rattled"],
-      "slots": [
-        "Sensor",
-        "Crew",
-        "Device",
-        "Device",
-        "Modification",
-        "Gunner",
-        "Gunner",
-        "Tech"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    },
-    {
-      "name": "Edon Kappehl",
-      "caption": "Crimson Hailstorm",
-      "initiative": 3,
-      "limited": 1,
-      "xws": "edonkappehl",
-      "ability": "After you fully execute a blue or white maneuver, if you have not dropped or launched a device this round, you may drop 1 device.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/edonkappehl.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/edonkappehl.png",
-      "cost": 52,
-      "slots": [
-        "Sensor",
-        "Crew",
-        "Device",
-        "Device",
-        "Modification",
-        "Gunner",
-        "Gunner",
-        "Tech"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    },
-    {
-      "name": "Finch Dallow",
-      "caption": "Cobalt Hammer",
-      "initiative": 4,
-      "limited": 1,
-      "xws": "finchdallow",
-      "ability": "Before you would drop a bomb, you may place it in the play area touching you instead.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/finchdallow.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/finchdallow.png",
-      "cost": 52,
-      "slots": [
-        "Sensor",
-        "Crew",
-        "Device",
-        "Device",
-        "Modification",
-        "Gunner",
-        "Gunner",
-        "Tech"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    },
-    {
-      "name": "Paige Tico",
-      "xws": "paigetico",
-      "initiative": 5,
-      "limited": 1,
-      "caption": "Hero",
-      "standard": false,
-      "wildspace": true,
-      "charges": { "value": 1, "recovers": 1 },
-      "slots": [
-        "Talent",
-        "Sensor",
-        "Tech",
-        "Crew",
-        "Gunner",
-        "Gunner",
-        "Device",
-        "Device",
-        "Modification"
-      ],
-      "ability": "After you drop a device, you may spend 1 [Charge] to drop an additional device.",
-      "cost": 53,
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/paigetico.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/paigetico.png",
-      "epic": true
-    }
-  ]
+    "name": "MG-100 StarFortress",
+    "xws": "mg100starfortress",
+    "size": "Large",
+    "dial": [
+        "0OR",
+        "1TR",
+        "1BB",
+        "1FB",
+        "1NB",
+        "1YR",
+        "2TW",
+        "2BW",
+        "2FB",
+        "2NW",
+        "2YW",
+        "3BR",
+        "3FW",
+        "3NR"
+    ],
+    "dialCodes": [
+        "MG1"
+    ],
+    "faction": "resistance",
+    "stats": [
+        {
+            "arc": "Front Arc",
+            "type": "attack",
+            "value": 3
+        },
+        {
+            "arc": "Double Turret Arc",
+            "type": "attack",
+            "value": 2
+        },
+        {
+            "type": "agility",
+            "value": 1
+        },
+        {
+            "type": "hull",
+            "value": 9
+        },
+        {
+            "type": "shields",
+            "value": 3
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "White",
+            "type": "Rotate Arc"
+        },
+        {
+            "difficulty": "White",
+            "type": "Reload"
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_StarFortress.png",
+    "pilots": [
+        {
+            "name": "Cobalt Squadron Bomber",
+            "initiative": 1,
+            "limited": 0,
+            "xws": "cobaltsquadronbomber",
+            "text": "Whether the ordnance silos of their StarFortresses are loaded with proton bombs or relief supplies, the heroic crews of Cobalt Squadron dedicate their lives to making a difference in the galaxy.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/cobaltsquadronbomber.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/cobaltsquadronbomber.png",
+            "cost": 49,
+            "slots": [
+                "Sensor",
+                "Crew",
+                "Device",
+                "Device",
+                "Modification",
+                "Gunner",
+                "Gunner",
+                "Tech"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        },
+        {
+            "name": "Cat",
+            "caption": "Cobalt Wasp",
+            "initiative": 1,
+            "limited": 1,
+            "xws": "cat",
+            "ability": "While you perform a primary attack, if the defender is at range 0-1 of at least 1 friendly device, roll 1 additional die.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/cat.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/cat.png",
+            "cost": 50,
+            "slots": [
+                "Sensor",
+                "Crew",
+                "Device",
+                "Device",
+                "Modification",
+                "Gunner",
+                "Gunner",
+                "Tech"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        },
+        {
+            "name": "Vennie",
+            "caption": "Crimson Cutter",
+            "initiative": 2,
+            "limited": 1,
+            "xws": "vennie",
+            "ability": "While you defend, if the attacker is in a friendly ship's [Single Turret Arc], you may add 1 [Focus] result to your roll.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/vennie.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/vennie.png",
+            "cost": 51,
+            "slots": [
+                "Sensor",
+                "Crew",
+                "Device",
+                "Device",
+                "Modification",
+                "Gunner",
+                "Gunner",
+                "Tech"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        },
+        {
+            "name": "Ben Teene",
+            "caption": "Crimson Bolide",
+            "initiative": 3,
+            "limited": 1,
+            "xws": "benteene",
+            "ability": "After you perform an attack, if the defender is in your [Single Turret Arc], assign the Rattled condition to the defender.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/benteene.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/benteene.png",
+            "cost": 51,
+            "conditions": [
+                "rattled"
+            ],
+            "slots": [
+                "Sensor",
+                "Crew",
+                "Device",
+                "Device",
+                "Modification",
+                "Gunner",
+                "Gunner",
+                "Tech"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        },
+        {
+            "name": "Edon Kappehl",
+            "caption": "Crimson Hailstorm",
+            "initiative": 3,
+            "limited": 1,
+            "xws": "edonkappehl",
+            "ability": "After you fully execute a blue or white maneuver, if you have not dropped or launched a device this round, you may drop 1 device.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/edonkappehl.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/edonkappehl.png",
+            "cost": 52,
+            "slots": [
+                "Sensor",
+                "Crew",
+                "Device",
+                "Device",
+                "Modification",
+                "Gunner",
+                "Gunner",
+                "Tech"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        },
+        {
+            "name": "Finch Dallow",
+            "caption": "Cobalt Hammer",
+            "initiative": 4,
+            "limited": 1,
+            "xws": "finchdallow",
+            "ability": "Before you would drop a bomb, you may place it in the play area touching you instead.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/finchdallow.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/finchdallow.png",
+            "cost": 52,
+            "slots": [
+                "Sensor",
+                "Crew",
+                "Device",
+                "Device",
+                "Modification",
+                "Gunner",
+                "Gunner",
+                "Tech"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        },
+        {
+            "name": "Paige Tico",
+            "xws": "paigetico",
+            "initiative": 5,
+            "limited": 1,
+            "caption": "Hero",
+            "standard": false,
+            "wildspace": true,
+            "charges": {
+                "value": 1,
+                "recovers": 1
+            },
+            "slots": [
+                "Talent",
+                "Sensor",
+                "Tech",
+                "Crew",
+                "Gunner",
+                "Gunner",
+                "Device",
+                "Device",
+                "Modification"
+            ],
+            "ability": "After you drop a device, you may spend 1 [Charge] to drop an additional device.",
+            "cost": 53,
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/paigetico.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/paigetico.png",
+            "epic": true
+        }
+    ]
 }

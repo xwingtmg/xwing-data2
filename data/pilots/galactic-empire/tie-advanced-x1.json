@@ -1,297 +1,463 @@
 {
-  "name": "TIE Advanced x1",
-  "xws": "tieadvancedx1",
-  "size": "Small",
-  "dial": [
-    "1BB",
-    "1FW",
-    "1NB",
-    "2TW",
-    "2BB",
-    "2FB",
-    "2NB",
-    "2YW",
-    "3ER",
-    "3TW",
-    "3BW",
-    "3FB",
-    "3NW",
-    "3YW",
-    "3RR",
-    "4FW",
-    "4KR",
-    "5FW"
-  ],
-  "dialCodes": ["TAx"],
-  "faction": "galacticempire",
-  "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 2 }
-  ],
-  "actions": [
-    {
-      "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Barrel Roll" },
-      "type": "Focus"
-    },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Barrel Roll" }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEAdvanced.png",
-  "pilots": [
-    {
-      "name": "Darth Vader",
-      "caption": "Black Leader",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 68,
-      "xws": "darthvader",
-      "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/darthvader.png",
-      "alt": [
+    "name": "TIE Advanced x1",
+    "xws": "tieadvancedx1",
+    "size": "Small",
+    "dial": [
+        "1BB",
+        "1FW",
+        "1NB",
+        "2TW",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YW",
+        "3ER",
+        "3TW",
+        "3BW",
+        "3FB",
+        "3NW",
+        "3YW",
+        "3RR",
+        "4FW",
+        "4KR",
+        "5FW"
+    ],
+    "dialCodes": [
+        "TAx"
+    ],
+    "faction": "galacticempire",
+    "stats": [
         {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/24/0a/240a5d21-309c-4d3d-aef9-5dab25564b7b/op18xu_card_altart2.png",
-          "source": "European and North American Championship 2018"
-        }
-      ],
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
-      "shipAbility": {
-        "name": "Advanced Targeting Computer",
-        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      },
-      "slots": ["Sensor", "Missile", "Modification", "Force Power"],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Dark Side", "Sith", "TIE"],
-      "epic": true
-    },
-    {
-      "name": "Maarek Stele",
-      "caption": "Servant of the Empire",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 44,
-      "xws": "maarekstele",
-      "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/maarekstele.png",
-      "shipAbility": {
-        "name": "Advanced Targeting Computer",
-        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      },
-      "slots": ["Talent", "Sensor", "Missile", "Modification"],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["TIE"],
-      "epic": true
-    },
-    {
-      "name": "Storm Squadron Ace",
-      "initiative": 3,
-      "limited": 0,
-      "cost": 37,
-      "xws": "stormsquadronace",
-      "text": "The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/stormsquadronace.png",
-      "shipAbility": {
-        "name": "Advanced Targeting Computer",
-        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      },
-      "slots": ["Talent", "Sensor", "Missile", "Modification"],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/stormsquadronace.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["TIE"],
-      "epic": true
-    },
-    {
-      "name": "Tempest Squadron Pilot",
-      "initiative": 2,
-      "limited": 0,
-      "cost": 35,
-      "xws": "tempestsquadronpilot",
-      "text": "The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.",
-      "alt": [
+            "arc": "Front Arc",
+            "type": "attack",
+            "value": 2
+        },
         {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/19/d5/19d5865e-09d1-4bad-b8ac-8e0c5124745a/op18xu_card_plastic2.png",
-          "source": "European and North American Championship 2018"
+            "type": "agility",
+            "value": 3
+        },
+        {
+            "type": "hull",
+            "value": 3
+        },
+        {
+            "type": "shields",
+            "value": 2
         }
-      ],
-      "shipAbility": {
-        "name": "Advanced Targeting Computer",
-        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      },
-      "slots": ["Sensor", "Missile", "Modification"],
-      "image": "https://infinitearenas.com/xw2/images/pilots/tempestsquadronpilot.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tempestsquadronpilot.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["TIE"],
-      "epic": true
-    },
-    {
-      "name": "Ved Foslo",
-      "caption": "Ambitious Engineer",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 42,
-      "xws": "vedfoslo",
-      "ability": "While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/vedfoslo.png",
-      "shipAbility": {
-        "name": "Advanced Targeting Computer",
-        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      },
-      "slots": ["Talent", "Sensor", "Missile", "Modification"],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vedfoslo.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["TIE"],
-      "epic": true
-    },
-    {
-      "name": "Zertik Strom",
-      "caption": "Pitiless Administrator",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 39,
-      "xws": "zertikstrom",
-      "ability": "During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship's damage cards.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/zertikstrom.png",
-      "shipAbility": {
-        "name": "Advanced Targeting Computer",
-        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      },
-      "slots": ["Sensor", "Missile", "Modification"],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zertikstrom.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["TIE"],
-      "epic": true
-    },
-    {
-      "name": "Darth Vader",
-      "caption": "Battle of Yavin",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 81,
-      "xws": "darthvader-battleofyavin",
-      "ability": "While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/darthvader-battleofyavin.png",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
-      "shipAbility": {
-        "name": "Advanced Targeting Computer",
-        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      },
-      "shipStats": [
-        { "arc": "Front Arc", "type": "attack", "value": 2 },
-        { "type": "agility", "value": 3 },
-        { "type": "hull", "value": 3 },
-        { "type": "shields", "value": 3 }
-      ],
-      "standardLoadout": ["marksmanship", "hate", "afterburners"],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["Dark Side", "Sith", "TIE"],
-      "epic": true
-    },
-    {
-      "name": "Darth Vader",
-      "caption": "Battle of Yavin",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 73,
-      "xws": "darthvader-battleofyavin-lsl",
-      "ability": "While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/darthvader-battleofyavin.png",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
-      "shipAbility": {
-        "name": "Advanced Targeting Computer",
-        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      },
-      "shipStats": [
-        { "arc": "Front Arc", "type": "attack", "value": 2 },
-        { "type": "agility", "value": 3 },
-        { "type": "hull", "value": 3 },
-        { "type": "shields", "value": 3 }
-      ],
-      "slots": ["Sensor", "Missile", "Force Power"],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Dark Side", "Sith", "TIE"],
-      "epic": true
-    },
-    {
-      "name": "Juno Eclipse",
-      "caption": "Corulag's Finest",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 44,
-      "xws": "junoeclipse",
-      "ability": "After you perform an action, you may perform a red [Boost] action.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/junoeclipse.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/junoeclipse.png",
-      "shipAbility": {
-        "name": "Advanced Targeting Computer",
-        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      },
-      "slots": ["Talent", "Sensor", "Missile", "Modification"],
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["TIE"],
-      "epic": true
-    },
-    {
-      "name": "Darth Vader",
-      "caption": "Black Leader",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 6,
-      "xws": "darthvader-swz105",
-      "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/darthvader-swz105.png",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
-      "shipAbility": {
-        "name": "Advanced Targeting Computer",
-        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      },
-      "shipStats": [
-        { "arc": "Front Arc", "type": "attack", "value": 2 },
-        { "type": "agility", "value": 3 },
-        { "type": "hull", "value": 3 },
-        { "type": "shields", "value": 3 }
-      ],
-      "standardLoadout": ["hate", "ionmissiles", "afterburners"],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["Dark Side", "Sith", "TIE"],
-      "epic": true
-    },
-    {
-      "name": "Maarek Stele",
-      "caption": "Servant of the Empire",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 5,
-      "standardLoadout": ["elusive", "outmaneuver", "afterburners"],
-      "xws": "maarekstele-swz105",
-      "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/maarekstele-swz105.png",
-      "shipAbility": {
-        "name": "Advanced Targeting Computer",
-        "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
-      },
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["TIE"],
-      "epic": true
-    }
-  ]
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "linked": {
+                "difficulty": "Red",
+                "type": "Barrel Roll"
+            },
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "White",
+            "type": "Barrel Roll"
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEAdvanced.png",
+    "pilots": [
+        {
+            "name": "Darth Vader",
+            "caption": "Black Leader",
+            "initiative": 6,
+            "limited": 1,
+            "cost": 68,
+            "xws": "darthvader",
+            "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/darthvader.png",
+            "alt": [
+                {
+                    "image": "https://images-cdn.fantasyflightgames.com/filer_public/24/0a/240a5d21-309c-4d3d-aef9-5dab25564b7b/op18xu_card_altart2.png",
+                    "source": "European and North American Championship 2018"
+                }
+            ],
+            "force": {
+                "value": 3,
+                "recovers": 1,
+                "side": [
+                    "dark"
+                ]
+            },
+            "shipAbility": {
+                "name": "Advanced Targeting Computer",
+                "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+            },
+            "slots": [
+                "Sensor",
+                "Missile",
+                "Modification",
+                "Force Power"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/darthvader.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Dark Side",
+                "Sith",
+                "TIE"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Maarek Stele",
+            "caption": "Servant of the Empire",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 44,
+            "xws": "maarekstele",
+            "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/maarekstele.png",
+            "shipAbility": {
+                "name": "Advanced Targeting Computer",
+                "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+            },
+            "slots": [
+                "Talent",
+                "Sensor",
+                "Missile",
+                "Modification"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/maarekstele.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "TIE"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Storm Squadron Ace",
+            "initiative": 3,
+            "limited": 0,
+            "cost": 37,
+            "xws": "stormsquadronace",
+            "text": "The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/stormsquadronace.png",
+            "shipAbility": {
+                "name": "Advanced Targeting Computer",
+                "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+            },
+            "slots": [
+                "Talent",
+                "Sensor",
+                "Missile",
+                "Modification"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/stormsquadronace.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "TIE"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Tempest Squadron Pilot",
+            "initiative": 2,
+            "limited": 0,
+            "cost": 35,
+            "xws": "tempestsquadronpilot",
+            "text": "The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.",
+            "alt": [
+                {
+                    "image": "https://images-cdn.fantasyflightgames.com/filer_public/19/d5/19d5865e-09d1-4bad-b8ac-8e0c5124745a/op18xu_card_plastic2.png",
+                    "source": "European and North American Championship 2018"
+                }
+            ],
+            "shipAbility": {
+                "name": "Advanced Targeting Computer",
+                "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+            },
+            "slots": [
+                "Sensor",
+                "Missile",
+                "Modification"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/tempestsquadronpilot.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/tempestsquadronpilot.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "TIE"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Ved Foslo",
+            "caption": "Ambitious Engineer",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 42,
+            "xws": "vedfoslo",
+            "ability": "While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/vedfoslo.png",
+            "shipAbility": {
+                "name": "Advanced Targeting Computer",
+                "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+            },
+            "slots": [
+                "Talent",
+                "Sensor",
+                "Missile",
+                "Modification"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/vedfoslo.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "TIE"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Zertik Strom",
+            "caption": "Pitiless Administrator",
+            "initiative": 3,
+            "limited": 1,
+            "cost": 39,
+            "xws": "zertikstrom",
+            "ability": "During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship's damage cards.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/zertikstrom.png",
+            "shipAbility": {
+                "name": "Advanced Targeting Computer",
+                "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+            },
+            "slots": [
+                "Sensor",
+                "Missile",
+                "Modification"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/zertikstrom.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "TIE"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Darth Vader",
+            "caption": "Battle of Yavin",
+            "initiative": 6,
+            "limited": 1,
+            "cost": 81,
+            "xws": "darthvader-battleofyavin",
+            "ability": "While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/darthvader-battleofyavin.png",
+            "force": {
+                "value": 3,
+                "recovers": 1,
+                "side": [
+                    "dark"
+                ]
+            },
+            "shipAbility": {
+                "name": "Advanced Targeting Computer",
+                "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+            },
+            "shipStats": [
+                {
+                    "arc": "Front Arc",
+                    "type": "attack",
+                    "value": 2
+                },
+                {
+                    "type": "agility",
+                    "value": 3
+                },
+                {
+                    "type": "hull",
+                    "value": 3
+                },
+                {
+                    "type": "shields",
+                    "value": 3
+                }
+            ],
+            "standardLoadout": [
+                "marksmanship",
+                "hate",
+                "afterburners"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/darthvader-battleofyavin.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "Dark Side",
+                "Sith",
+                "TIE"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Darth Vader",
+            "caption": "Battle of Yavin",
+            "initiative": 6,
+            "limited": 1,
+            "cost": 73,
+            "xws": "darthvader-battleofyavin-lsl",
+            "ability": "While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/darthvader-battleofyavin-lsl.png",
+            "force": {
+                "value": 3,
+                "recovers": 1,
+                "side": [
+                    "dark"
+                ]
+            },
+            "shipAbility": {
+                "name": "Advanced Targeting Computer",
+                "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+            },
+            "shipStats": [
+                {
+                    "arc": "Front Arc",
+                    "type": "attack",
+                    "value": 2
+                },
+                {
+                    "type": "agility",
+                    "value": 3
+                },
+                {
+                    "type": "hull",
+                    "value": 3
+                },
+                {
+                    "type": "shields",
+                    "value": 3
+                }
+            ],
+            "slots": [
+                "Sensor",
+                "Missile",
+                "Force Power"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/darthvader-battleofyavin-lsl.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Dark Side",
+                "Sith",
+                "TIE"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Juno Eclipse",
+            "caption": "Corulag's Finest",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 44,
+            "xws": "junoeclipse",
+            "ability": "After you perform an action, you may perform a red [Boost] action.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/junoeclipse.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/junoeclipse.png",
+            "shipAbility": {
+                "name": "Advanced Targeting Computer",
+                "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+            },
+            "slots": [
+                "Talent",
+                "Sensor",
+                "Missile",
+                "Modification"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "TIE"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Darth Vader",
+            "caption": "Black Leader",
+            "initiative": 6,
+            "limited": 1,
+            "cost": 6,
+            "xws": "darthvader-swz105",
+            "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/darthvader-swz105.png",
+            "force": {
+                "value": 3,
+                "recovers": 1,
+                "side": [
+                    "dark"
+                ]
+            },
+            "shipAbility": {
+                "name": "Advanced Targeting Computer",
+                "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+            },
+            "shipStats": [
+                {
+                    "arc": "Front Arc",
+                    "type": "attack",
+                    "value": 2
+                },
+                {
+                    "type": "agility",
+                    "value": 3
+                },
+                {
+                    "type": "hull",
+                    "value": 3
+                },
+                {
+                    "type": "shields",
+                    "value": 3
+                }
+            ],
+            "standardLoadout": [
+                "hate",
+                "ionmissiles",
+                "afterburners"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/darthvader-swz105.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "Dark Side",
+                "Sith",
+                "TIE"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Maarek Stele",
+            "caption": "Servant of the Empire",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 5,
+            "standardLoadout": [
+                "elusive",
+                "outmaneuver",
+                "afterburners"
+            ],
+            "xws": "maarekstele-swz105",
+            "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/maarekstele-swz105.png",
+            "shipAbility": {
+                "name": "Advanced Targeting Computer",
+                "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
+            },
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/maarekstele-swz105.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "TIE"
+            ],
+            "epic": true
+        }
+    ]
 }

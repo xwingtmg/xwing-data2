@@ -1,212 +1,313 @@
 {
-  "name": "Sith Infiltrator",
-  "xws": "sithinfiltrator",
-  "size": "Large",
-  "dial": [
-    "1TR",
-    "1BB",
-    "1FB",
-    "1NB",
-    "1YR",
-    "2LR",
-    "2TW",
-    "2BB",
-    "2FB",
-    "2NB",
-    "2YW",
-    "2PR",
-    "3TW",
-    "3BW",
-    "3FB",
-    "3NW",
-    "3YW",
-    "4FW",
-    "5KR"
-  ],
-  "dialCodes": ["SIn"],
-  "faction": "separatistalliance",
-  "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 4 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_SithInfiltrator.png",
-  "pilots": [
-    {
-      "name": "Darth Maul",
-      "caption": "Sith Assassin",
-      "initiative": 5,
-      "limited": 1,
-      "xws": "darthmaul",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
-      "ability": "After you perform an attack, you may spend 2 [Force] to perform a bonus primary attack against a different target. If your attack missed, you may perform that bonus primary attack against the same target instead.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/darthmaul.png",
-      "standard": true,
-      "wildspace": true,
-      "cost": 62,
-      "slots": [
-        "Cannon",
-        "Torpedo",
-        "Crew",
-        "Crew",
-        "Device",
-        "Modification",
-        "Title",
-        "Force Power",
-        "Tactical Relay"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthmaul.png",
-      "keywords": ["Dark Side", "Sith"],
-      "epic": true
-    },
-    {
-      "name": "Count Dooku",
-      "caption": "Darth Tyranus",
-      "initiative": 3,
-      "limited": 1,
-      "xws": "countdooku",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
-      "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Force] to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 [Force] to perform an action.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/countdooku.png",
-      "standard": true,
-      "wildspace": true,
-      "cost": 60,
-      "slots": [
-        "Cannon",
-        "Torpedo",
-        "Crew",
-        "Crew",
-        "Device",
-        "Modification",
-        "Title",
-        "Force Power",
-        "Tactical Relay"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
-      "keywords": ["Dark Side", "Sith"],
-      "epic": true
-    },
-    {
-      "name": "Dark Courier",
-      "initiative": 2,
-      "limited": 0,
-      "xws": "darkcourier",
-      "text": "The vessel called the Scimitar was heavily modified, equipped with stealth technologies and advanced surveillance devices for infiltration and assassination missions.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/darkcourier.png",
-      "standard": true,
-      "wildspace": true,
-      "cost": 45,
-      "slots": [
-        "Cannon",
-        "Torpedo",
-        "Crew",
-        "Crew",
-        "Device",
-        "Modification",
-        "Title",
-        "Tactical Relay"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darkcourier.png",
-      "epic": true
-    },
-    {
-      "name": "0-66",
-      "xws": "066",
-      "cost": 46,
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Cannon",
-        "Crew",
-        "Crew",
-        "Tactical Relay",
-        "Device",
-        "Title",
-        "Modification"
-      ],
-      "caption": "Sinister Automaton",
-      "initiative": 3,
-      "limited": 1,
-      "image": "https://infinitearenas.com/xw2/images/pilots/066.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/066.png",
-      "ability": "After you defend, you may spend 1 calculate token to perform an action.",
-      "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Barrel Roll" }
-      ],
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Droid"],
-      "epic": true
-    },
-    {
-      "name": "Count Dooku",
-      "caption": "Siege of Coruscant",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 75,
-      "xws": "countdooku-siegeofcoruscant",
-      "ability": "During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
-      "shipActions": [
-        { "difficulty": "White", "type": "Focus" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Jam" },
-        { "difficulty": "Red", "type": "Barrel Roll" },
-        { "difficulty": "Red", "type": "Cloak" }
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/countdooku-siegeofcoruscant.png",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
-      "standardLoadout": [
-        "malice",
-        "roilinganger-siegeofcoruscant",
-        "scimitar"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["Dark Side", "Sith"],
-      "epic": true
-    },
-    {
-      "name": "Count Dooku",
-      "caption": "Siege of Coruscant",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 64,
-      "xws": "countdooku-siegeofcoruscant-lsl",
-      "ability": "During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
-      "shipActions": [
-        { "difficulty": "White", "type": "Focus" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Jam" },
-        { "difficulty": "Red", "type": "Barrel Roll" },
-        { "difficulty": "Red", "type": "Cloak" }
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/countdooku-siegeofcoruscant.png",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
-      "slots": [
-        "Cannon",
-        "Torpedo",
-        "Crew",
-        "Crew",
-        "Device",
-        "Modification",
-        "Title",
-        "Force Power",
-        "Tactical Relay"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Dark Side", "Sith"],
-      "epic": true
-    }
-  ]
+    "name": "Sith Infiltrator",
+    "xws": "sithinfiltrator",
+    "size": "Large",
+    "dial": [
+        "1TR",
+        "1BB",
+        "1FB",
+        "1NB",
+        "1YR",
+        "2LR",
+        "2TW",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YW",
+        "2PR",
+        "3TW",
+        "3BW",
+        "3FB",
+        "3NW",
+        "3YW",
+        "4FW",
+        "5KR"
+    ],
+    "dialCodes": [
+        "SIn"
+    ],
+    "faction": "separatistalliance",
+    "stats": [
+        {
+            "arc": "Front Arc",
+            "type": "attack",
+            "value": 3
+        },
+        {
+            "type": "agility",
+            "value": 1
+        },
+        {
+            "type": "hull",
+            "value": 6
+        },
+        {
+            "type": "shields",
+            "value": 4
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_SithInfiltrator.png",
+    "pilots": [
+        {
+            "name": "Darth Maul",
+            "caption": "Sith Assassin",
+            "initiative": 5,
+            "limited": 1,
+            "xws": "darthmaul",
+            "force": {
+                "value": 3,
+                "recovers": 1,
+                "side": [
+                    "dark"
+                ]
+            },
+            "ability": "After you perform an attack, you may spend 2 [Force] to perform a bonus primary attack against a different target. If your attack missed, you may perform that bonus primary attack against the same target instead.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/darthmaul.png",
+            "standard": true,
+            "wildspace": true,
+            "cost": 62,
+            "slots": [
+                "Cannon",
+                "Torpedo",
+                "Crew",
+                "Crew",
+                "Device",
+                "Modification",
+                "Title",
+                "Force Power",
+                "Tactical Relay"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/darthmaul.png",
+            "keywords": [
+                "Dark Side",
+                "Sith"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Count Dooku",
+            "caption": "Darth Tyranus",
+            "initiative": 3,
+            "limited": 1,
+            "xws": "countdooku",
+            "force": {
+                "value": 3,
+                "recovers": 1,
+                "side": [
+                    "dark"
+                ]
+            },
+            "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Force] to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 [Force] to perform an action.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/countdooku.png",
+            "standard": true,
+            "wildspace": true,
+            "cost": 60,
+            "slots": [
+                "Cannon",
+                "Torpedo",
+                "Crew",
+                "Crew",
+                "Device",
+                "Modification",
+                "Title",
+                "Force Power",
+                "Tactical Relay"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/countdooku.png",
+            "keywords": [
+                "Dark Side",
+                "Sith"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Dark Courier",
+            "initiative": 2,
+            "limited": 0,
+            "xws": "darkcourier",
+            "text": "The vessel called the Scimitar was heavily modified, equipped with stealth technologies and advanced surveillance devices for infiltration and assassination missions.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/darkcourier.png",
+            "standard": true,
+            "wildspace": true,
+            "cost": 45,
+            "slots": [
+                "Cannon",
+                "Torpedo",
+                "Crew",
+                "Crew",
+                "Device",
+                "Modification",
+                "Title",
+                "Tactical Relay"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/darkcourier.png",
+            "epic": true
+        },
+        {
+            "name": "0-66",
+            "xws": "066",
+            "cost": 46,
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Cannon",
+                "Crew",
+                "Crew",
+                "Tactical Relay",
+                "Device",
+                "Title",
+                "Modification"
+            ],
+            "caption": "Sinister Automaton",
+            "initiative": 3,
+            "limited": 1,
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/066.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/066.png",
+            "ability": "After you defend, you may spend 1 calculate token to perform an action.",
+            "shipActions": [
+                {
+                    "difficulty": "White",
+                    "type": "Calculate"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Lock"
+                },
+                {
+                    "difficulty": "Red",
+                    "type": "Barrel Roll"
+                }
+            ],
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Droid"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Count Dooku",
+            "caption": "Siege of Coruscant",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 75,
+            "xws": "countdooku-siegeofcoruscant",
+            "ability": "During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
+            "shipActions": [
+                {
+                    "difficulty": "White",
+                    "type": "Focus"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Lock"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Jam"
+                },
+                {
+                    "difficulty": "Red",
+                    "type": "Barrel Roll"
+                },
+                {
+                    "difficulty": "Red",
+                    "type": "Cloak"
+                }
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/countdooku-siegeofcoruscant.png",
+            "force": {
+                "value": 3,
+                "recovers": 1,
+                "side": [
+                    "dark"
+                ]
+            },
+            "standardLoadout": [
+                "malice",
+                "roilinganger-siegeofcoruscant",
+                "scimitar"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/countdooku-siegeofcoruscant.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "Dark Side",
+                "Sith"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Count Dooku",
+            "caption": "Siege of Coruscant",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 64,
+            "xws": "countdooku-siegeofcoruscant-lsl",
+            "ability": "During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
+            "shipActions": [
+                {
+                    "difficulty": "White",
+                    "type": "Focus"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Lock"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Jam"
+                },
+                {
+                    "difficulty": "Red",
+                    "type": "Barrel Roll"
+                },
+                {
+                    "difficulty": "Red",
+                    "type": "Cloak"
+                }
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/countdooku-siegeofcoruscant-lsl.png",
+            "force": {
+                "value": 3,
+                "recovers": 1,
+                "side": [
+                    "dark"
+                ]
+            },
+            "slots": [
+                "Cannon",
+                "Torpedo",
+                "Crew",
+                "Crew",
+                "Device",
+                "Modification",
+                "Title",
+                "Force Power",
+                "Tactical Relay"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/countdooku-siegeofcoruscant-lsl.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Dark Side",
+                "Sith"
+            ],
+            "epic": true
+        }
+    ]
 }

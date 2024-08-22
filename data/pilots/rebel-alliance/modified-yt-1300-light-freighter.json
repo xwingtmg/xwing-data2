@@ -1,289 +1,415 @@
 {
-  "name": "Modified YT-1300 Light Freighter",
-  "xws": "modifiedyt1300lightfreighter",
-  "size": "Large",
-  "dial": [
-    "1BW",
-    "1FB",
-    "1NW",
-    "2TW",
-    "2BB",
-    "2FB",
-    "2NB",
-    "2YW",
-    "3LR",
-    "3TW",
-    "3BW",
-    "3FB",
-    "3NW",
-    "3YW",
-    "3PR",
-    "4FW",
-    "4KR"
-  ],
-  "dialCodes": ["YT13"],
-  "faction": "rebelalliance",
-  "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 8 },
-    { "type": "shields", "value": 5 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Boost" },
-    { "difficulty": "White", "type": "Rotate Arc" }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Falcon.png",
-  "pilots": [
-    {
-      "name": "Chewbacca",
-      "caption": "The Mighty",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 68,
-      "xws": "chewbacca",
-      "ability": "Before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt the card facedown instead.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/chewbacca.png",
-      "charges": { "value": 1, "recovers": 1 },
-      "slots": [
-        "Talent",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/chewbacca.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    },
-    {
-      "name": "Han Solo",
-      "caption": "Scoundrel for Hire",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 81,
-      "xws": "hansolo-modifiedyt1300lightfreighter",
-      "ability": "After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/hansolo-modifiedyt1300lightfreighter.png",
-      "slots": [
-        "Talent",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-modifiedyt1300lightfreighter.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    },
-    {
-      "name": "Lando Calrissian",
-      "caption": "General of the Alliance",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 79,
-      "xws": "landocalrissian-modifiedyt1300lightfreighter",
-      "ability": "After you fully execute a blue maneuver, you may choose a friendly ship at range 0-3. That ship may perform an action.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/landocalrissian-modifiedyt1300lightfreighter.png",
-      "slots": [
-        "Talent",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-modifiedyt1300lightfreighter.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    },
-    {
-      "name": "Outer Rim Smuggler",
-      "initiative": 1,
-      "limited": 0,
-      "cost": 67,
-      "xws": "outerrimsmuggler",
-      "text": "Known for its durability and modular design, the YT-1300 is one of the most popular, widely used, and extensively customized freighters in the galaxy.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/outerrimsmuggler.png",
-      "slots": [
-        "Missile",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimsmuggler.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    },
-    {
-      "name": "Leia Organa",
-      "caption": "There Is Another",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 74,
-      "xws": "leiaorgana",
-      "ability": "After a friendly ship fully executes a red maneuver, if it is at range 0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or recovers 1 [Force].",
-      "force": { "value": 1, "recovers": 1, "side": ["light"] },
-      "slots": [
-        "Force Power",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leiaorgana.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/leiaorgana.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300", "Light Side"],
-      "epic": true
-    },
-    {
-      "name": "Han Solo",
-      "caption": "Battle of Yavin",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 105,
-      "charges": { "value": 4, "recovers": 0 },
-      "xws": "hansolo-battleofyavin",
-      "ability": "After performing an attack that hits, you may spend 1 [Charge] to perform a [Coordinate] action.",
-      "shipAbility": {
-        "name": "Solo",
-        "text": "While you defend or perform an attack, if there are no other friendly ships at range 0-1, you may spend 1 [Charge] to reroll one of your dice."
-      },
-      "standardLoadout": [
-        "chewbacca-battleofyavin",
-        "riggedcargochute",
-        "millenniumfalcon",
-        "l337sprogramming-battleofyavin"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/hansolo-battleofyavin.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-battleofyavin.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    },
-    {
-      "name": "Han Solo",
-      "caption": "Battle of Yavin",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 84,
-      "xws": "hansolo-battleofyavin-lsl",
-      "charges": { "value": 4, "recovers": 0 },
-      "ability": "After performing an attack that hits, you may spend 1 [Charge] to perform a [Coordinate] action.",
-      "shipAbility": {
-        "name": "Solo",
-        "text": "While you defend or perform an attack, if there are no other friendly ships at range 0-1, you may spend 1 [Charge] to reroll one of your dice."
-      },
-      "slots": [
-        "Talent",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/hansolo-battleofyavin.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hansolo-battleofyavin.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    },
-    {
-      "name": "Lando Calrissian",
-      "caption": "Battle Over Endor",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 101,
-      "xws": "landocalrissian-battleoverendor",
-      "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, choose an initiative value from 1 to 6. You activate at that initiative this phase.",
-      "shipAbility": {
-        "name": "High Stakes",
-        "text": "After you perform a red action, you may roll an attack die. On a [Hit]/[Critical Hit] result, remove 1 stress."
-      },
-      "shipActions": [
-        { "difficulty": "White", "type": "Focus" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Evade" },
-        { "difficulty": "Red", "type": "Boost" },
-        { "difficulty": "White", "type": "Rotate Arc" },
-        { "difficulty": "Red", "type": "Coordinate", "linked": { "difficulty": "Red", "type": "Focus" } }
-      ],
-      "charges": { "value": 2, "recovers": 0 },
-      "standardLoadout": ["aceinthehole-battleoverendor", "itsatrap-battleoverendor", "niennunb", "airencracken-battleoverendor", "millenniumfalcon-battleoverendor"],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/landocalrissian-battleoverendor.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-battleoverendor.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    },
-    {
-      "name": "Lando Calrissian",
-      "caption": "Battle Over Endor",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 75,
-      "xws": "landocalrissian-battleoverendor-lsl",
-      "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, choose an initiative value from 1 to 6. You activate at that initiative this phase.",
-      "shipAbility": {
-        "name": "High Stakes",
-        "text": "After you perform a red action, you may roll an attack die. On a [Hit]/[Critical Hit] result, remove 1 stress."
-      },
-      "shipActions": [
-        { "difficulty": "White", "type": "Focus" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Evade" },
-        { "difficulty": "Red", "type": "Boost" },
-        { "difficulty": "White", "type": "Rotate Arc" },
-        { "difficulty": "Red", "type": "Coordinate", "linked": { "difficulty": "Red", "type": "Focus" } }
-      ],
-      "charges": { "value": 2, "recovers": 0 },
-      "slots": [
-        "Talent",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/landocalrissian-battleoverendor.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/landocalrissian-battleoverendor.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter", "YT-1300"],
-      "epic": true
-    }
-  ]
+    "name": "Modified YT-1300 Light Freighter",
+    "xws": "modifiedyt1300lightfreighter",
+    "size": "Large",
+    "dial": [
+        "1BW",
+        "1FB",
+        "1NW",
+        "2TW",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YW",
+        "3LR",
+        "3TW",
+        "3BW",
+        "3FB",
+        "3NW",
+        "3YW",
+        "3PR",
+        "4FW",
+        "4KR"
+    ],
+    "dialCodes": [
+        "YT13"
+    ],
+    "faction": "rebelalliance",
+    "stats": [
+        {
+            "arc": "Double Turret Arc",
+            "type": "attack",
+            "value": 3
+        },
+        {
+            "type": "agility",
+            "value": 1
+        },
+        {
+            "type": "hull",
+            "value": 8
+        },
+        {
+            "type": "shields",
+            "value": 5
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Boost"
+        },
+        {
+            "difficulty": "White",
+            "type": "Rotate Arc"
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Falcon.png",
+    "pilots": [
+        {
+            "name": "Chewbacca",
+            "caption": "The Mighty",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 68,
+            "xws": "chewbacca",
+            "ability": "Before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt the card facedown instead.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/chewbacca.png",
+            "charges": {
+                "value": 1,
+                "recovers": 1
+            },
+            "slots": [
+                "Talent",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Modification",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/chewbacca.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Han Solo",
+            "caption": "Scoundrel for Hire",
+            "initiative": 6,
+            "limited": 1,
+            "cost": 81,
+            "xws": "hansolo-modifiedyt1300lightfreighter",
+            "ability": "After you roll dice, if you are at range 0-1 of an obstacle, you may reroll all of your dice. This does not count as rerolling for the purpose of other effects.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/hansolo-modifiedyt1300lightfreighter.png",
+            "slots": [
+                "Talent",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Modification",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/hansolo-modifiedyt1300lightfreighter.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Lando Calrissian",
+            "caption": "General of the Alliance",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 79,
+            "xws": "landocalrissian-modifiedyt1300lightfreighter",
+            "ability": "After you fully execute a blue maneuver, you may choose a friendly ship at range 0-3. That ship may perform an action.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/landocalrissian-modifiedyt1300lightfreighter.png",
+            "slots": [
+                "Talent",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Modification",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/landocalrissian-modifiedyt1300lightfreighter.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Outer Rim Smuggler",
+            "initiative": 1,
+            "limited": 0,
+            "cost": 67,
+            "xws": "outerrimsmuggler",
+            "text": "Known for its durability and modular design, the YT-1300 is one of the most popular, widely used, and extensively customized freighters in the galaxy.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/outerrimsmuggler.png",
+            "slots": [
+                "Missile",
+                "Crew",
+                "Crew",
+                "Modification",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/outerrimsmuggler.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Leia Organa",
+            "caption": "There Is Another",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 74,
+            "xws": "leiaorgana",
+            "ability": "After a friendly ship fully executes a red maneuver, if it is at range 0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or recovers 1 [Force].",
+            "force": {
+                "value": 1,
+                "recovers": 1,
+                "side": [
+                    "light"
+                ]
+            },
+            "slots": [
+                "Force Power",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Modification",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/leiaorgana.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/leiaorgana.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300",
+                "Light Side"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Han Solo",
+            "caption": "Battle of Yavin",
+            "initiative": 6,
+            "limited": 1,
+            "cost": 105,
+            "charges": {
+                "value": 4,
+                "recovers": 0
+            },
+            "xws": "hansolo-battleofyavin",
+            "ability": "After performing an attack that hits, you may spend 1 [Charge] to perform a [Coordinate] action.",
+            "shipAbility": {
+                "name": "Solo",
+                "text": "While you defend or perform an attack, if there are no other friendly ships at range 0-1, you may spend 1 [Charge] to reroll one of your dice."
+            },
+            "standardLoadout": [
+                "chewbacca-battleofyavin",
+                "riggedcargochute",
+                "millenniumfalcon",
+                "l337sprogramming-battleofyavin"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/hansolo-battleofyavin.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/hansolo-battleofyavin.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Han Solo",
+            "caption": "Battle of Yavin",
+            "initiative": 6,
+            "limited": 1,
+            "cost": 84,
+            "xws": "hansolo-battleofyavin-lsl",
+            "charges": {
+                "value": 4,
+                "recovers": 0
+            },
+            "ability": "After performing an attack that hits, you may spend 1 [Charge] to perform a [Coordinate] action.",
+            "shipAbility": {
+                "name": "Solo",
+                "text": "While you defend or perform an attack, if there are no other friendly ships at range 0-1, you may spend 1 [Charge] to reroll one of your dice."
+            },
+            "slots": [
+                "Talent",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Modification",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/hansolo-battleofyavin-lsl.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/hansolo-battleofyavin-lsl.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Lando Calrissian",
+            "caption": "Battle Over Endor",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 101,
+            "xws": "landocalrissian-battleoverendor",
+            "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, choose an initiative value from 1 to 6. You activate at that initiative this phase.",
+            "shipAbility": {
+                "name": "High Stakes",
+                "text": "After you perform a red action, you may roll an attack die. On a [Hit]/[Critical Hit] result, remove 1 stress."
+            },
+            "shipActions": [
+                {
+                    "difficulty": "White",
+                    "type": "Focus"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Lock"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Evade"
+                },
+                {
+                    "difficulty": "Red",
+                    "type": "Boost"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Rotate Arc"
+                },
+                {
+                    "difficulty": "Red",
+                    "type": "Coordinate",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Focus"
+                    }
+                }
+            ],
+            "charges": {
+                "value": 2,
+                "recovers": 0
+            },
+            "standardLoadout": [
+                "aceinthehole-battleoverendor",
+                "itsatrap-battleoverendor",
+                "niennunb",
+                "airencracken-battleoverendor",
+                "millenniumfalcon-battleoverendor"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/landocalrissian-battleoverendor.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/landocalrissian-battleoverendor.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Lando Calrissian",
+            "caption": "Battle Over Endor",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 75,
+            "xws": "landocalrissian-battleoverendor-lsl",
+            "ability": "At the start of the Activation Phase, you may spend 1 [Charge]. If you do, choose an initiative value from 1 to 6. You activate at that initiative this phase.",
+            "shipAbility": {
+                "name": "High Stakes",
+                "text": "After you perform a red action, you may roll an attack die. On a [Hit]/[Critical Hit] result, remove 1 stress."
+            },
+            "shipActions": [
+                {
+                    "difficulty": "White",
+                    "type": "Focus"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Lock"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Evade"
+                },
+                {
+                    "difficulty": "Red",
+                    "type": "Boost"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Rotate Arc"
+                },
+                {
+                    "difficulty": "Red",
+                    "type": "Coordinate",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Focus"
+                    }
+                }
+            ],
+            "charges": {
+                "value": 2,
+                "recovers": 0
+            },
+            "slots": [
+                "Talent",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Modification",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/landocalrissian-battleoverendor-lsl.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/landocalrissian-battleoverendor-lsl.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter",
+                "YT-1300"
+            ],
+            "epic": true
+        }
+    ]
 }

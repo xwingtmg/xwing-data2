@@ -1,266 +1,336 @@
 {
-  "name": "BTL-B Y-wing",
-  "xws": "btlbywing",
-  "size": "Small",
-  "dial": [
-    "1BW",
-    "1FB",
-    "1NW",
-    "2TW",
-    "2BW",
-    "2FB",
-    "2NW",
-    "2YW",
-    "3TR",
-    "3BW",
-    "3FW",
-    "3NW",
-    "3YR",
-    "4FR",
-    "4KR"
-  ],
-  "dialCodes": ["YwB"],
-  "faction": "galacticrepublic",
-  "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 5 },
-    { "type": "shields", "value": 3 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
-    { "difficulty": "Red", "type": "Reload" }
-  ],
-  "pilots": [
-    {
-      "name": "Shadow Squadron Veteran",
-      "initiative": 3,
-      "limited": 0,
-      "xws": "shadowsquadronveteran",
-      "text": "Shadow Squadron has served since the early days of the Clone Wars, winning victories at Kadavo and against the flagship of Grievous, Malevolence.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/shadowsquadronveteran.png",
-      "shipAbility": {
-        "name": "Plated Hull",
-        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
-      },
-      "standard": true,
-      "wildspace": true,
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shadowsquadronveteran.png",
-      "cost": 31,
-      "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
-        "Astromech",
-        "Device",
-        "Modification",
-        "Gunner"
-      ],
-      "keywords": ["Clone", "Y-wing"],
-      "epic": true
-    },
-    {
-      "name": "Anakin Skywalker",
-      "initiative": 6,
-      "limited": 1,
-      "xws": "anakinskywalker-btlbywing",
-      "shipAbility": {
-        "name": "Plated Hull",
-        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
-      },
-      "force": { "value": 3, "recovers": 1, "side": ["light"] },
-      "standard": true,
-      "wildspace": true,
-      "caption": "Hero of the Republic",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-btlbywing.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/anakinskywalker-btlbywing.png",
-      "ability": "After you fully execute a maneuver, if there is an enemy ship in your [Front Arc] at range 0-1 or in your [Bullseye Arc], you may spend 1 [Force] to remove 1 stress token.",
-      "cost": 48,
-      "slots": [
-        "Turret",
-        "Torpedo",
-        "Astromech",
-        "Device",
-        "Modification",
-        "Gunner",
-        "Force Power"
-      ],
-      "keywords": ["Jedi", "Light Side", "Y-wing"],
-      "epic": true
-    },
-    {
-      "name": "R2-D2",
-      "xws": "r2d2",
-      "caption": "Bucket of Bolts",
-      "cost": 31,
-      "limited": 1,
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/r2d2.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/r2d2.png",
-      "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Barrel Roll" },
-        { "difficulty": "Red", "type": "Reload" }
-      ],
-      "shipAbility": {
-        "name": "Plated Hull",
-        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
-      },
-      "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Rear Arc], gain 1 calculate token.",
-      "standard": true,
-      "wildspace": true,
-      "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
-        "Crew",
-        "Device",
-        "Modification",
-        "Gunner"
-      ],
-      "initiative": 2,
-      "keywords": ["Droid", "Y-wing"],
-      "epic": true
-    },
-    {
-      "name": "“Odd Ball”",
-      "xws": "oddball-btlbywing",
-      "initiative": 5,
-      "limited": 1,
-      "shipAbility": {
-        "name": "Plated Hull",
-        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
-      },
-      "caption": "CC-2237",
-      "standard": true,
-      "wildspace": true,
-      "cost": 37,
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/oddball-btlbywing.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/oddball-btlbywing.png",
-      "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
-      "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
-        "Astromech",
-        "Device",
-        "Modification",
-        "Gunner"
-      ],
-      "keywords": ["Clone", "Y-wing"],
-      "epic": true
-    },
-    {
-      "name": "“Matchstick”",
-      "xws": "matchstick",
-      "initiative": 4,
-      "limited": 1,
-      "shipAbility": {
-        "name": "Plated Hull",
-        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
-      },
-      "standard": true,
-      "wildspace": true,
-      "caption": "Shadow Two",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/matchstick.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/matchstick.png",
-      "ability": "While you perform a primary or [Single Turret Arc] attack, you may reroll 1 attack die for each red token you have.",
-      "cost": 39,
-      "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
-        "Astromech",
-        "Device",
-        "Modification",
-        "Gunner"
-      ],
-      "keywords": ["Clone", "Y-wing"],
-      "epic": true
-    },
-    {
-      "name": "“Broadside”",
-      "xws": "broadside",
-      "initiative": 3,
-      "limited": 1,
-      "shipAbility": {
-        "name": "Plated Hull",
-        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
-      },
-      "standard": true,
-      "wildspace": true,
-      "caption": "Shadow Three",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/broadside.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/broadside.png",
-      "ability": "While you perform a [Single Turret Arc] attack, if your [Single Turret Arc] indicator is in your [Left Arc] or [Right Arc], you may change 1 blank result to a [Focus] result.",
-      "cost": 35,
-      "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
-        "Astromech",
-        "Device",
-        "Modification",
-        "Gunner"
-      ],
-      "keywords": ["Clone", "Y-wing"],
-      "epic": true
-    },
-    {
-      "name": "“Goji”",
-      "xws": "goji",
-      "initiative": 2,
-      "limited": 1,
-      "shipAbility": {
-        "name": "Plated Hull",
-        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
-      },
-      "standard": true,
-      "wildspace": true,
-      "caption": "Payload Specialist",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/goji.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/goji.png",
-      "ability": "While a friendly ship at range 0-3 defends, it may roll 1 additional defense die for each friendly bomb at range 0-1 of it.",
-      "cost": 29,
-      "slots": [
-        "Turret",
-        "Torpedo",
-        "Astromech",
-        "Device",
-        "Modification",
-        "Gunner"
-      ],
-      "keywords": ["Clone", "Y-wing"],
-      "epic": true
-    },
-    {
-      "name": "Red Squadron Bomber",
-      "xws": "redsquadronbomber",
-      "initiative": 2,
-      "limited": 0,
-      "shipAbility": {
-        "name": "Plated Hull",
-        "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
-      },
-      "text": "At the battle of Geonosis, Red Squadron provided vital cover to the LAAT gunships deployed to secure the surface.",
-      "standard": true,
-      "wildspace": true,
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redsquadronbomber.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/redsquadronbomber.png",
-      "cost": 30,
-      "slots": [
-        "Turret",
-        "Torpedo",
-        "Astromech",
-        "Device",
-        "Modification",
-        "Gunner"
-      ],
-      "keywords": ["Clone", "Y-wing"],
-      "epic": true
-    }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_BTL-B_Ywing.png"
+    "name": "BTL-B Y-wing",
+    "xws": "btlbywing",
+    "size": "Small",
+    "dial": [
+        "1BW",
+        "1FB",
+        "1NW",
+        "2TW",
+        "2BW",
+        "2FB",
+        "2NW",
+        "2YW",
+        "3TR",
+        "3BW",
+        "3FW",
+        "3NW",
+        "3YR",
+        "4FR",
+        "4KR"
+    ],
+    "dialCodes": [
+        "YwB"
+    ],
+    "faction": "galacticrepublic",
+    "stats": [
+        {
+            "arc": "Front Arc",
+            "type": "attack",
+            "value": 2
+        },
+        {
+            "type": "agility",
+            "value": 1
+        },
+        {
+            "type": "hull",
+            "value": 5
+        },
+        {
+            "type": "shields",
+            "value": 3
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Reload"
+        }
+    ],
+    "pilots": [
+        {
+            "name": "Shadow Squadron Veteran",
+            "initiative": 3,
+            "limited": 0,
+            "xws": "shadowsquadronveteran",
+            "text": "Shadow Squadron has served since the early days of the Clone Wars, winning victories at Kadavo and against the flagship of Grievous, Malevolence.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/shadowsquadronveteran.png",
+            "shipAbility": {
+                "name": "Plated Hull",
+                "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+            },
+            "standard": true,
+            "wildspace": true,
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/shadowsquadronveteran.png",
+            "cost": 31,
+            "slots": [
+                "Talent",
+                "Turret",
+                "Torpedo",
+                "Astromech",
+                "Device",
+                "Modification",
+                "Gunner"
+            ],
+            "keywords": [
+                "Clone",
+                "Y-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Anakin Skywalker",
+            "initiative": 6,
+            "limited": 1,
+            "xws": "anakinskywalker-btlbywing",
+            "shipAbility": {
+                "name": "Plated Hull",
+                "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+            },
+            "force": {
+                "value": 3,
+                "recovers": 1,
+                "side": [
+                    "light"
+                ]
+            },
+            "standard": true,
+            "wildspace": true,
+            "caption": "Hero of the Republic",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/anakinskywalker-btlbywing.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/anakinskywalker-btlbywing.png",
+            "ability": "After you fully execute a maneuver, if there is an enemy ship in your [Front Arc] at range 0-1 or in your [Bullseye Arc], you may spend 1 [Force] to remove 1 stress token.",
+            "cost": 48,
+            "slots": [
+                "Turret",
+                "Torpedo",
+                "Astromech",
+                "Device",
+                "Modification",
+                "Gunner",
+                "Force Power"
+            ],
+            "keywords": [
+                "Jedi",
+                "Light Side",
+                "Y-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "R2-D2",
+            "xws": "r2d2",
+            "caption": "Bucket of Bolts",
+            "cost": 31,
+            "limited": 1,
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/r2d2.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/r2d2.png",
+            "shipActions": [
+                {
+                    "difficulty": "White",
+                    "type": "Calculate"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Lock"
+                },
+                {
+                    "difficulty": "Red",
+                    "type": "Barrel Roll"
+                },
+                {
+                    "difficulty": "Red",
+                    "type": "Reload"
+                }
+            ],
+            "shipAbility": {
+                "name": "Plated Hull",
+                "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+            },
+            "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Rear Arc], gain 1 calculate token.",
+            "standard": true,
+            "wildspace": true,
+            "slots": [
+                "Talent",
+                "Turret",
+                "Torpedo",
+                "Crew",
+                "Device",
+                "Modification",
+                "Gunner"
+            ],
+            "initiative": 2,
+            "keywords": [
+                "Droid",
+                "Y-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "\u201cOdd Ball\u201d",
+            "xws": "oddball-btlbywing",
+            "initiative": 5,
+            "limited": 1,
+            "shipAbility": {
+                "name": "Plated Hull",
+                "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+            },
+            "caption": "CC-2237",
+            "standard": true,
+            "wildspace": true,
+            "cost": 37,
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/oddball-btlbywing.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/oddball-btlbywing.png",
+            "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
+            "slots": [
+                "Talent",
+                "Turret",
+                "Torpedo",
+                "Astromech",
+                "Device",
+                "Modification",
+                "Gunner"
+            ],
+            "keywords": [
+                "Clone",
+                "Y-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "\u201cMatchstick\u201d",
+            "xws": "matchstick",
+            "initiative": 4,
+            "limited": 1,
+            "shipAbility": {
+                "name": "Plated Hull",
+                "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+            },
+            "standard": true,
+            "wildspace": true,
+            "caption": "Shadow Two",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/matchstick.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/matchstick.png",
+            "ability": "While you perform a primary or [Single Turret Arc] attack, you may reroll 1 attack die for each red token you have.",
+            "cost": 39,
+            "slots": [
+                "Talent",
+                "Turret",
+                "Torpedo",
+                "Astromech",
+                "Device",
+                "Modification",
+                "Gunner"
+            ],
+            "keywords": [
+                "Clone",
+                "Y-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "\u201cBroadside\u201d",
+            "xws": "broadside",
+            "initiative": 3,
+            "limited": 1,
+            "shipAbility": {
+                "name": "Plated Hull",
+                "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+            },
+            "standard": true,
+            "wildspace": true,
+            "caption": "Shadow Three",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/broadside.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/broadside.png",
+            "ability": "While you perform a [Single Turret Arc] attack, if your [Single Turret Arc] indicator is in your [Left Arc] or [Right Arc], you may change 1 blank result to a [Focus] result.",
+            "cost": 35,
+            "slots": [
+                "Talent",
+                "Turret",
+                "Torpedo",
+                "Astromech",
+                "Device",
+                "Modification",
+                "Gunner"
+            ],
+            "keywords": [
+                "Clone",
+                "Y-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "\u201cGoji\u201d",
+            "xws": "goji",
+            "initiative": 2,
+            "limited": 1,
+            "shipAbility": {
+                "name": "Plated Hull",
+                "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+            },
+            "standard": true,
+            "wildspace": true,
+            "caption": "Payload Specialist",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/goji.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/goji.png",
+            "ability": "While a friendly ship at range 0-3 defends, it may roll 1 additional defense die for each friendly bomb at range 0-1 of it.",
+            "cost": 29,
+            "slots": [
+                "Turret",
+                "Torpedo",
+                "Astromech",
+                "Device",
+                "Modification",
+                "Gunner"
+            ],
+            "keywords": [
+                "Clone",
+                "Y-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Red Squadron Bomber",
+            "xws": "redsquadronbomber",
+            "initiative": 2,
+            "limited": 0,
+            "shipAbility": {
+                "name": "Plated Hull",
+                "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
+            },
+            "text": "At the battle of Geonosis, Red Squadron provided vital cover to the LAAT gunships deployed to secure the surface.",
+            "standard": true,
+            "wildspace": true,
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/redsquadronbomber.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/redsquadronbomber.png",
+            "cost": 30,
+            "slots": [
+                "Turret",
+                "Torpedo",
+                "Astromech",
+                "Device",
+                "Modification",
+                "Gunner"
+            ],
+            "keywords": [
+                "Clone",
+                "Y-wing"
+            ],
+            "epic": true
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_BTL-B_Ywing.png"
 }

@@ -1,140 +1,173 @@
 {
-  "name": "VT-49 Decimator",
-  "xws": "vt49decimator",
-  "size": "Large",
-  "dial": [
-    "1TR",
-    "1BB",
-    "1FB",
-    "1NB",
-    "1YR",
-    "2TW",
-    "2BW",
-    "2FB",
-    "2NW",
-    "2YW",
-    "3TW",
-    "3BW",
-    "3FW",
-    "3NW",
-    "3YW",
-    "4FW"
-  ],
-  "dialCodes": ["Dec"],
-  "faction": "galacticempire",
-  "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 12 },
-    { "type": "shields", "value": 4 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Rotate Arc" },
-    { "difficulty": "Red", "type": "Coordinate" }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Decimator.png",
-  "pilots": [
-    {
-      "name": "Captain Oicunn",
-      "caption": "Inspired Tactician",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 69,
-      "xws": "captainoicunn",
-      "ability": "You can perform primary attacks at range 0.",
-      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_146.png",
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Crew",
-        "Crew",
-        "Crew",
-        "Device",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainoicunn.png",
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    },
-    {
-      "name": "Patrol Leader",
-      "initiative": 2,
-      "limited": 0,
-      "cost": 67,
-      "xws": "patrolleader",
-      "text": "To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/patrolleader.png",
-      "slots": [
-        "Torpedo",
-        "Crew",
-        "Crew",
-        "Crew",
-        "Device",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/patrolleader.png",
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    },
-    {
-      "name": "Rear Admiral Chiraneau",
-      "caption": "Advisor to Admiral Piett",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 76,
-      "xws": "rearadmiralchiraneau",
-      "ability": "While you perform an attack, if you are reinforced and the defender is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token, you may change 1 of your [Focus] results to a [Critical Hit] result.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/rearadmiralchiraneau.png",
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Crew",
-        "Crew",
-        "Crew",
-        "Device",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rearadmiralchiraneau.png",
-      "standard": true,
-      "wildspace": true,
-      "epic": true
-    },
-    {
-      "name": "Morna Kee",
-      "xws": "mornakee",
-      "initiative": 4,
-      "limited": 1,
-      "caption": "Determined Attaché",
-      "standard": true,
-      "wildspace": true,
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Crew",
-        "Crew",
-        "Crew",
-        "Gunner",
-        "Device",
-        "Modification",
-        "Title"
-      ],
-      "charges": { "value": 3, "recovers": 0 },
-      "ability": "During the End Phase, you may spend 1 [Charge] to flip 1 of your reinforce tokens to your other full arc instead of removing it.",
-      "cost": 70,
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mornakee.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/mornakee.png",
-      "epic": true
-    }
-  ]
+    "name": "VT-49 Decimator",
+    "xws": "vt49decimator",
+    "size": "Large",
+    "dial": [
+        "1TR",
+        "1BB",
+        "1FB",
+        "1NB",
+        "1YR",
+        "2TW",
+        "2BW",
+        "2FB",
+        "2NW",
+        "2YW",
+        "3TW",
+        "3BW",
+        "3FW",
+        "3NW",
+        "3YW",
+        "4FW"
+    ],
+    "dialCodes": [
+        "Dec"
+    ],
+    "faction": "galacticempire",
+    "stats": [
+        {
+            "arc": "Double Turret Arc",
+            "type": "attack",
+            "value": 3
+        },
+        {
+            "type": "agility",
+            "value": 0
+        },
+        {
+            "type": "hull",
+            "value": 12
+        },
+        {
+            "type": "shields",
+            "value": 4
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "White",
+            "type": "Reinforce"
+        },
+        {
+            "difficulty": "White",
+            "type": "Rotate Arc"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Coordinate"
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Decimator.png",
+    "pilots": [
+        {
+            "name": "Captain Oicunn",
+            "caption": "Inspired Tactician",
+            "initiative": 3,
+            "limited": 1,
+            "cost": 69,
+            "xws": "captainoicunn",
+            "ability": "You can perform primary attacks at range 0.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/captainoicunn.png",
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Crew",
+                "Crew",
+                "Crew",
+                "Device",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/captainoicunn.png",
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        },
+        {
+            "name": "Patrol Leader",
+            "initiative": 2,
+            "limited": 0,
+            "cost": 67,
+            "xws": "patrolleader",
+            "text": "To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/patrolleader.png",
+            "slots": [
+                "Torpedo",
+                "Crew",
+                "Crew",
+                "Crew",
+                "Device",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/patrolleader.png",
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        },
+        {
+            "name": "Rear Admiral Chiraneau",
+            "caption": "Advisor to Admiral Piett",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 76,
+            "xws": "rearadmiralchiraneau",
+            "ability": "While you perform an attack, if you are reinforced and the defender is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token, you may change 1 of your [Focus] results to a [Critical Hit] result.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/rearadmiralchiraneau.png",
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Crew",
+                "Crew",
+                "Crew",
+                "Device",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/rearadmiralchiraneau.png",
+            "standard": true,
+            "wildspace": true,
+            "epic": true
+        },
+        {
+            "name": "Morna Kee",
+            "xws": "mornakee",
+            "initiative": 4,
+            "limited": 1,
+            "caption": "Determined Attach\u00e9",
+            "standard": true,
+            "wildspace": true,
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Crew",
+                "Crew",
+                "Crew",
+                "Gunner",
+                "Device",
+                "Modification",
+                "Title"
+            ],
+            "charges": {
+                "value": 3,
+                "recovers": 0
+            },
+            "ability": "During the End Phase, you may spend 1 [Charge] to flip 1 of your reinforce tokens to your other full arc instead of removing it.",
+            "cost": 70,
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/mornakee.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/mornakee.png",
+            "epic": true
+        }
+    ]
 }

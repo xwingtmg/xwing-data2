@@ -1,246 +1,298 @@
 {
-  "name": "BTL-A4 Y-wing",
-  "xws": "btla4ywing",
-  "size": "Small",
-  "dial": [
-    "1BB",
-    "1FB",
-    "1NB",
-    "2TW",
-    "2BW",
-    "2FB",
-    "2NW",
-    "2YW",
-    "3TR",
-    "3BW",
-    "3FW",
-    "3NW",
-    "3YR",
-    "4FR",
-    "4KR"
-  ],
-  "dialCodes": ["YW"],
-  "faction": "scumandvillainy",
-  "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 2 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
-    { "difficulty": "Red", "type": "Reload" }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Y-wing.png",
-  "pilots": [
-    {
-      "name": "Crymorah Goon",
-      "initiative": 1,
-      "limited": 0,
-      "cost": 29,
-      "xws": "crymorahgoon",
-      "text": "Though far from nimble, the Y-wing's heavy hull, substantial shielding, and turret-mounted cannons make it an excellent patrol craft.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/crymorahgoon.png",
-      "slots": [
-        "Turret",
-        "Torpedo",
-        "Astromech",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Missile"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/crymorahgoon.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Y-wing"],
-      "epic": true
-    },
-    {
-      "name": "Drea Renthal",
-      "caption": "Pirate Lord",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 46,
-      "xws": "drearenthal",
-      "ability": "While a friendly non-limited ship performs an attack, if the defender is in your firing arc, the attacker may reroll 1 attack die.",
-      "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
-        "Astromech",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Missile"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/pilots/drearenthal.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/drearenthal.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Y-wing"],
-      "epic": true
-    },
-    {
-      "name": "Hired Gun",
-      "initiative": 2,
-      "limited": 0,
-      "cost": 30,
-      "xws": "hiredgun",
-      "text": "Just the mention of Imperial credits can bring a host of less-than-trustworthy individuals to your side.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/hiredgun.png",
-      "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
-        "Astromech",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Missile"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hiredgun.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Y-wing"],
-      "epic": true
-    },
-    {
-      "name": "Kavil",
-      "caption": "Callous Corsair",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 40,
-      "xws": "kavil",
-      "ability": "While you perform a non-[Front Arc] attack, roll 1 additional attack die.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/kavil.png",
-      "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
-        "Astromech",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Missile"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kavil.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Y-wing"],
-      "epic": true
-    },
-    {
-      "name": "Leema Kai",
-      "xws": "leemakai",
-      "initiative": 5,
-      "limited": 1,
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Y-wing"],
-      "cost": 37,
-      "slots": [
-        "Talent",
-        "Tech",
-        "Turret",
-        "Torpedo",
-        "Missile",
-        "Astromech",
-        "Device"
-      ],
-      "ability": "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your full front arc.",
-      "caption": "Opportunity Knocks",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leemakai.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/leemakai.png",
-      "epic": true
-    },
-    {
-      "name": "Arliz Hadrassian",
-      "xws": "arlizhadrassian",
-      "initiative": 4,
-      "limited": 1,
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Y-wing"],
-      "cost": 35,
-      "slots": [
-        "Talent",
-        "Tech",
-        "Turret",
-        "Torpedo",
-        "Missile",
-        "Astromech",
-        "Device"
-      ],
-      "ability": "While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, before the Modify Defense Dice step, you must change 1 of your [Focus] results to a blank result.",
-      "caption": "Crimson Blade",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/arlizhadrassian.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/arlizhadrassian.png",
-      "epic": true
-    },
-    {
-      "name": "Amaxine Warrior",
-      "xws": "amaxinewarrior",
-      "initiative": 3,
-      "limited": 0,
-      "text": "Decades after the Battle of Endor, former Imperials remain active in the New Republic. Many have joined paramilitary organizations, such as the Amaxine Warriors, that appropriate martial traditions and cultures to spread the hateful ideology of the First Order amongst those most vulnerable to it.",
-      "standard": true,
-      "wildspace": true,
-      "cost": 31,
-      "slots": [
-        "Talent",
-        "Tech",
-        "Turret",
-        "Torpedo",
-        "Missile",
-        "Astromech",
-        "Device"
-      ],
-      "keywords": ["Y-wing"],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/amaxinewarrior.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/amaxinewarrior.png",
-      "epic": true
-    },
-    {
-      "name": "Padric",
-      "xws": "padric",
-      "initiative": 3,
-      "limited": 1,
-      "caption": "Napkin Bomber",
-      "standard": true,
-      "wildspace": true,
-      "cost": 32,
-      "slots": [
-        "Talent",
-        "Tech",
-        "Turret",
-        "Torpedo",
-        "Missile",
-        "Astromech",
-        "Device"
-      ],
-      "ability": "After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.",
-      "keywords": ["Y-wing"],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/padric.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/padric.png",
-      "epic": true
-    },
-    {
-      "name": "Jinata Security Officer",
-      "xws": "jinatasecurityofficer",
-      "initiative": 2,
-      "limited": 0,
-      "text": "Headquartered on the former Imperial stronghold of Vardos, Jinata Security continues its reconstruction efforts on the devastated planet, even while collaborating with the First Order's rearmament program.",
-      "standard": true,
-      "wildspace": true,
-      "cost": 39,
-      "slots": ["Tech", "Turret", "Torpedo", "Missile", "Astromech", "Device"],
-      "keywords": ["Y-wing"],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jinatasecurityofficer.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/jinatasecurityofficer.png",
-      "epic": true
-    }
-  ]
+    "name": "BTL-A4 Y-wing",
+    "xws": "btla4ywing",
+    "size": "Small",
+    "dial": [
+        "1BB",
+        "1FB",
+        "1NB",
+        "2TW",
+        "2BW",
+        "2FB",
+        "2NW",
+        "2YW",
+        "3TR",
+        "3BW",
+        "3FW",
+        "3NW",
+        "3YR",
+        "4FR",
+        "4KR"
+    ],
+    "dialCodes": [
+        "YW"
+    ],
+    "faction": "scumandvillainy",
+    "stats": [
+        {
+            "arc": "Front Arc",
+            "type": "attack",
+            "value": 2
+        },
+        {
+            "type": "agility",
+            "value": 1
+        },
+        {
+            "type": "hull",
+            "value": 6
+        },
+        {
+            "type": "shields",
+            "value": 2
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Reload"
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Y-wing.png",
+    "pilots": [
+        {
+            "name": "Crymorah Goon",
+            "initiative": 1,
+            "limited": 0,
+            "cost": 29,
+            "xws": "crymorahgoon",
+            "text": "Though far from nimble, the Y-wing's heavy hull, substantial shielding, and turret-mounted cannons make it an excellent patrol craft.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/crymorahgoon.png",
+            "slots": [
+                "Turret",
+                "Torpedo",
+                "Astromech",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Missile"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/crymorahgoon.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Y-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Drea Renthal",
+            "caption": "Pirate Lord",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 46,
+            "xws": "drearenthal",
+            "ability": "While a friendly non-limited ship performs an attack, if the defender is in your firing arc, the attacker may reroll 1 attack die.",
+            "slots": [
+                "Talent",
+                "Turret",
+                "Torpedo",
+                "Astromech",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Missile"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/drearenthal.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/drearenthal.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Y-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Hired Gun",
+            "initiative": 2,
+            "limited": 0,
+            "cost": 30,
+            "xws": "hiredgun",
+            "text": "Just the mention of Imperial credits can bring a host of less-than-trustworthy individuals to your side.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/hiredgun.png",
+            "slots": [
+                "Talent",
+                "Turret",
+                "Torpedo",
+                "Astromech",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Missile"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/hiredgun.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Y-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Kavil",
+            "caption": "Callous Corsair",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 40,
+            "xws": "kavil",
+            "ability": "While you perform a non-[Front Arc] attack, roll 1 additional attack die.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/kavil.png",
+            "slots": [
+                "Talent",
+                "Turret",
+                "Torpedo",
+                "Astromech",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Missile"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/kavil.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Y-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Leema Kai",
+            "xws": "leemakai",
+            "initiative": 5,
+            "limited": 1,
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Y-wing"
+            ],
+            "cost": 37,
+            "slots": [
+                "Talent",
+                "Tech",
+                "Turret",
+                "Torpedo",
+                "Missile",
+                "Astromech",
+                "Device"
+            ],
+            "ability": "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your full front arc.",
+            "caption": "Opportunity Knocks",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/leemakai.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/leemakai.png",
+            "epic": true
+        },
+        {
+            "name": "Arliz Hadrassian",
+            "xws": "arlizhadrassian",
+            "initiative": 4,
+            "limited": 1,
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Y-wing"
+            ],
+            "cost": 35,
+            "slots": [
+                "Talent",
+                "Tech",
+                "Turret",
+                "Torpedo",
+                "Missile",
+                "Astromech",
+                "Device"
+            ],
+            "ability": "While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, before the Modify Defense Dice step, you must change 1 of your [Focus] results to a blank result.",
+            "caption": "Crimson Blade",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/arlizhadrassian.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/arlizhadrassian.png",
+            "epic": true
+        },
+        {
+            "name": "Amaxine Warrior",
+            "xws": "amaxinewarrior",
+            "initiative": 3,
+            "limited": 0,
+            "text": "Decades after the Battle of Endor, former Imperials remain active in the New Republic. Many have joined paramilitary organizations, such as the Amaxine Warriors, that appropriate martial traditions and cultures to spread the hateful ideology of the First Order amongst those most vulnerable to it.",
+            "standard": true,
+            "wildspace": true,
+            "cost": 31,
+            "slots": [
+                "Talent",
+                "Tech",
+                "Turret",
+                "Torpedo",
+                "Missile",
+                "Astromech",
+                "Device"
+            ],
+            "keywords": [
+                "Y-wing"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/amaxinewarrior.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/amaxinewarrior.png",
+            "epic": true
+        },
+        {
+            "name": "Padric",
+            "xws": "padric",
+            "initiative": 3,
+            "limited": 1,
+            "caption": "Napkin Bomber",
+            "standard": true,
+            "wildspace": true,
+            "cost": 32,
+            "slots": [
+                "Talent",
+                "Tech",
+                "Turret",
+                "Torpedo",
+                "Missile",
+                "Astromech",
+                "Device"
+            ],
+            "ability": "After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.",
+            "keywords": [
+                "Y-wing"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/padric.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/padric.png",
+            "epic": true
+        },
+        {
+            "name": "Jinata Security Officer",
+            "xws": "jinatasecurityofficer",
+            "initiative": 2,
+            "limited": 0,
+            "text": "Headquartered on the former Imperial stronghold of Vardos, Jinata Security continues its reconstruction efforts on the devastated planet, even while collaborating with the First Order's rearmament program.",
+            "standard": true,
+            "wildspace": true,
+            "cost": 39,
+            "slots": [
+                "Tech",
+                "Turret",
+                "Torpedo",
+                "Missile",
+                "Astromech",
+                "Device"
+            ],
+            "keywords": [
+                "Y-wing"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/jinatasecurityofficer.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/jinatasecurityofficer.png",
+            "epic": true
+        }
+    ]
 }

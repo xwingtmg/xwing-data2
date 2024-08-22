@@ -1,216 +1,271 @@
 {
-  "name": "HWK-290 Light Freighter",
-  "xws": "hwk290lightfreighter",
-  "size": "Small",
-  "dial": [
-    "0OR",
-    "1BB",
-    "1FB",
-    "1NB",
-    "2TW",
-    "2BW",
-    "2FB",
-    "2NW",
-    "2YW",
-    "3TR",
-    "3BW",
-    "3FB",
-    "3NW",
-    "3YR",
-    "4FW"
-  ],
-  "dialCodes": ["HK"],
-  "faction": "scumandvillainy",
-  "stats": [
-    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 2 }
-  ],
-  "actions": [
-    {
-      "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
-      "type": "Lock"
-    },
-    { "difficulty": "Red", "type": "Boost" },
-    { "difficulty": "White", "type": "Rotate Arc" },
-    { "difficulty": "Red", "type": "Jam" }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_HWK-290.png",
-  "pilots": [
-    {
-      "name": "Dace Bonearm",
-      "caption": "Outer Rim Mercenary",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 29,
-      "xws": "dacebonearm",
-      "ability": "After an enemy ship at range 0-3 receives at least 1 ion token, you may spend 3 [Charge]. If you do, that ship gains 2 additional ion tokens.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/dacebonearm.png",
-      "charges": { "value": 3, "recovers": 1 },
-      "slots": [
-        "Talent",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Modification",
-        "Title"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dacebonearm.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter"],
-      "epic": true
-    },
-    {
-      "name": "Palob Godalhi",
-      "caption": "Tethan Resister",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 40,
-      "xws": "palobgodalhi",
-      "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your firing arc at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/palobgodalhi.png",
-      "slots": [
-        "Talent",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Modification",
-        "Title"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/palobgodalhi.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter"],
-      "epic": true
-    },
-    {
-      "name": "Spice Runner",
-      "initiative": 1,
-      "limited": 0,
-      "cost": 26,
-      "xws": "spicerunner",
-      "text": "Though its cargo space is limited compared to other light freighters, the small, swift HWK-290 is a favorite choice of smugglers who specialize in discreetly transporting precious goods.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/spicerunner.png",
-      "slots": [
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Modification",
-        "Title"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/spicerunner.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter"],
-      "epic": true
-    },
-    {
-      "name": "Torkil Mux",
-      "caption": "Mercenary Miner",
-      "initiative": 2,
-      "limited": 1,
-      "cost": 38,
-      "xws": "torkilmux",
-      "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/torkilmux.png",
-      "slots": [
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Modification",
-        "Title"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/torkilmux.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter"],
-      "epic": true
-    },
-    {
-      "name": "Gamut Key",
-      "xws": "gamutkey",
-      "initiative": 3,
-      "limited": 1,
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter"],
-      "cost": 31,
-      "slots": [
-        "Talent",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Modification",
-        "Title"
-      ],
-      "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship in your [Single Turret Arc] with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
-      "charges": { "value": 2, "recovers": 1 },
-      "caption": "Collaborationist Governor",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gamutkey.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/gamutkey.png",
-      "epic": true
-    },
-    {
-      "name": "Kanan Jarrus",
-      "xws": "kananjarrus-hwk290lightfreighter",
-      "initiative": 3,
-      "limited": 1,
-      "caption": "Lost Padawan",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Jedi", "Light Side", "Freighter"],
-      "force": { "value": 1, "recovers": 1 },
-      "cost": 40,
-      "slots": [
-        "Force Power",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Modification",
-        "Title"
-      ],
-      "ability": "While you or a ship in your [Single Turret Arc] defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kananjarrus-hwk290lightfreighter.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/kananjarrus-hwk290lightfreighter.png",
-      "epic": true
-    },
-    {
-      "name": "Tápusk",
-      "xws": "tapusk",
-      "initiative": 5,
-      "limited": 1,
-      "caption": "Order 66 Informant",
-      "standard": true,
-      "wildspace": true,
-      "cost": 33,
-      "slots": [
-        "Talent",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Modification",
-        "Title"
-      ],
-      "ability": "During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge]. If you do, that ship does not recover that [Charge] or [Force].",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tapusk.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/tapusk.png",
-      "keywords": ["Freighter"],
-      "epic": true
-    }
-  ]
+    "name": "HWK-290 Light Freighter",
+    "xws": "hwk290lightfreighter",
+    "size": "Small",
+    "dial": [
+        "0OR",
+        "1BB",
+        "1FB",
+        "1NB",
+        "2TW",
+        "2BW",
+        "2FB",
+        "2NW",
+        "2YW",
+        "3TR",
+        "3BW",
+        "3FB",
+        "3NW",
+        "3YR",
+        "4FW"
+    ],
+    "dialCodes": [
+        "HK"
+    ],
+    "faction": "scumandvillainy",
+    "stats": [
+        {
+            "arc": "Single Turret Arc",
+            "type": "attack",
+            "value": 2
+        },
+        {
+            "type": "agility",
+            "value": 2
+        },
+        {
+            "type": "hull",
+            "value": 3
+        },
+        {
+            "type": "shields",
+            "value": 2
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "linked": {
+                "difficulty": "Red",
+                "type": "Rotate Arc"
+            },
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "linked": {
+                "difficulty": "Red",
+                "type": "Rotate Arc"
+            },
+            "type": "Lock"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Boost"
+        },
+        {
+            "difficulty": "White",
+            "type": "Rotate Arc"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Jam"
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_HWK-290.png",
+    "pilots": [
+        {
+            "name": "Dace Bonearm",
+            "caption": "Outer Rim Mercenary",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 29,
+            "xws": "dacebonearm",
+            "ability": "After an enemy ship at range 0-3 receives at least 1 ion token, you may spend 3 [Charge]. If you do, that ship gains 2 additional ion tokens.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/dacebonearm.png",
+            "charges": {
+                "value": 3,
+                "recovers": 1
+            },
+            "slots": [
+                "Talent",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Modification",
+                "Title"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/dacebonearm.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Palob Godalhi",
+            "caption": "Tethan Resister",
+            "initiative": 3,
+            "limited": 1,
+            "cost": 40,
+            "xws": "palobgodalhi",
+            "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship in your firing arc at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/palobgodalhi.png",
+            "slots": [
+                "Talent",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Modification",
+                "Title"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/palobgodalhi.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Spice Runner",
+            "initiative": 1,
+            "limited": 0,
+            "cost": 26,
+            "xws": "spicerunner",
+            "text": "Though its cargo space is limited compared to other light freighters, the small, swift HWK-290 is a favorite choice of smugglers who specialize in discreetly transporting precious goods.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/spicerunner.png",
+            "slots": [
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Modification",
+                "Title"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/spicerunner.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Torkil Mux",
+            "caption": "Mercenary Miner",
+            "initiative": 2,
+            "limited": 1,
+            "cost": 38,
+            "xws": "torkilmux",
+            "ability": "At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/torkilmux.png",
+            "slots": [
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Modification",
+                "Title"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/torkilmux.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Gamut Key",
+            "xws": "gamutkey",
+            "initiative": 3,
+            "limited": 1,
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter"
+            ],
+            "cost": 31,
+            "slots": [
+                "Talent",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Modification",
+                "Title"
+            ],
+            "ability": "At the start of the End Phase, you may spend 2 [Charge] to choose yourself or a ship in your [Single Turret Arc] with 1 or more circular tokens. During the End Phase, circular tokens are not removed from that ship.",
+            "charges": {
+                "value": 2,
+                "recovers": 1
+            },
+            "caption": "Collaborationist Governor",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/gamutkey.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/gamutkey.png",
+            "epic": true
+        },
+        {
+            "name": "Kanan Jarrus",
+            "xws": "kananjarrus-hwk290lightfreighter",
+            "initiative": 3,
+            "limited": 1,
+            "caption": "Lost Padawan",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Jedi",
+                "Light Side",
+                "Freighter"
+            ],
+            "force": {
+                "value": 1,
+                "recovers": 1
+            },
+            "cost": 40,
+            "slots": [
+                "Force Power",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Modification",
+                "Title"
+            ],
+            "ability": "While you or a ship in your [Single Turret Arc] defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/kananjarrus-hwk290lightfreighter.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/kananjarrus-hwk290lightfreighter.png",
+            "epic": true
+        },
+        {
+            "name": "T\u00e1pusk",
+            "xws": "tapusk",
+            "initiative": 5,
+            "limited": 1,
+            "caption": "Order 66 Informant",
+            "standard": true,
+            "wildspace": true,
+            "cost": 33,
+            "slots": [
+                "Talent",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Modification",
+                "Title"
+            ],
+            "ability": "During the End Phase, before an enemy ship in your [Single Turret Arc] recovers 1 recurring [Charge] or [Force], you may spend 2 [Charge]. If you do, that ship does not recover that [Charge] or [Force].",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/tapusk.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/tapusk.png",
+            "keywords": [
+                "Freighter"
+            ],
+            "epic": true
+        }
+    ]
 }

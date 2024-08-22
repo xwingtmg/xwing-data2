@@ -1,795 +1,1117 @@
 {
-  "name": "T-65 X-wing",
-  "xws": "t65xwing",
-  "size": "Small",
-  "dial": [
-    "1BB",
-    "1FB",
-    "1NB",
-    "2TW",
-    "2BB",
-    "2FB",
-    "2NB",
-    "2YW",
-    "3ER",
-    "3TW",
-    "3BW",
-    "3FW",
-    "3NW",
-    "3YW",
-    "3RR",
-    "4FW",
-    "4KR"
-  ],
-  "dialCodes": ["XW", "T65"],
-  "faction": "rebelalliance",
-  "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 4 },
-    { "type": "shields", "value": 2 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Barrel Roll" }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_X-wing-T65.png",
-  "pilots": [
-    {
-      "name": "Biggs Darklighter",
-      "caption": "Red Three",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 44,
-      "xws": "biggsdarklighter",
-      "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Hit] or [Critical Hit] damage to cancel 1 matching result.",
-      "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
-      "image": "https://infinitearenas.com/xw2/images/pilots/biggsdarklighter.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/biggsdarklighter.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Blue Squadron Escort",
-      "initiative": 2,
-      "limited": 0,
-      "cost": 38,
-      "xws": "bluesquadronescort",
-      "text": "Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/bluesquadronescort.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronescort.png",
-      "alt": [
+    "name": "T-65 X-wing",
+    "xws": "t65xwing",
+    "size": "Small",
+    "dial": [
+        "1BB",
+        "1FB",
+        "1NB",
+        "2TW",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YW",
+        "3ER",
+        "3TW",
+        "3BW",
+        "3FW",
+        "3NW",
+        "3YW",
+        "3RR",
+        "4FW",
+        "4KR"
+    ],
+    "dialCodes": [
+        "XW",
+        "T65"
+    ],
+    "faction": "rebelalliance",
+    "stats": [
         {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/1a/9c1ad7ef-dfb1-427c-b700-747d857f53fc/op066-blue-squadron-pilot.png",
-          "source": "X-Wing Second Edition Launch Party"
-        }
-      ],
-      "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Cavern Angels Zealot",
-      "initiative": 1,
-      "limited": 0,
-      "cost": 38,
-      "xws": "cavernangelszealot",
-      "text": "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha.",
-      "slots": [
-        "Torpedo",
-        "Astromech",
-        "Illicit",
-        "Modification",
-        "Configuration"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/pilots/cavernangelszealot.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cavernangelszealot.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Partisan", "X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Edrio Two Tubes",
-      "caption": "Cavern Angels Veteran",
-      "initiative": 2,
-      "limited": 1,
-      "cost": 41,
-      "xws": "edriotwotubes",
-      "ability": "Before you activate, if you are focused, you may perform an action.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/edriotwotubes.png",
-      "slots": [
-        "Torpedo",
-        "Astromech",
-        "Illicit",
-        "Modification",
-        "Configuration"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/edriotwotubes.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Partisan", "X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Garven Dreis",
-      "caption": "Red Leader",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 46,
-      "xws": "garvendreis-t65xwing",
-      "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/garvendreis-t65xwing.png",
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Astromech",
-        "Modification",
-        "Configuration"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/garvendreis-t65xwing.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Jek Porkins",
-      "caption": "Red Six",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 42,
-      "xws": "jekporkins",
-      "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Astromech",
-        "Modification",
-        "Configuration"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/pilots/jekporkins.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jekporkins.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Kullbee Sperado",
-      "caption": "Enigmatic Gunslinger",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 42,
-      "xws": "kullbeesperado",
-      "ability": "After you perform a [Barrel Roll] or [Boost] action, you may flip your equipped [Configuration] upgrade card.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/kullbeesperado.png",
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Astromech",
-        "Illicit",
-        "Modification",
-        "Configuration"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kullbeesperado.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Partisan", "X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Leevan Tenza",
-      "caption": "Rebel Alliance Defector",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 41,
-      "xws": "leevantenza",
-      "ability": "After you perform a [Barrel Roll] or [Boost] action, you may perform a red [Evade] action.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/leevantenza.png",
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Astromech",
-        "Illicit",
-        "Modification",
-        "Configuration"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leevantenza.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Partisan", "X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Luke Skywalker",
-      "caption": "Red Five",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 60,
-      "xws": "lukeskywalker",
-      "ability": "After you become the defender (before dice are rolled), you may recover 1 [Force].",
-      "image": "https://infinitearenas.com/xw2/images/pilots/lukeskywalker.png",
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "alt": [
-        {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/5b/aa/5baa3742-b7b2-47d7-9bec-07f02fafaf1c/op066-luke-skywalker.png",
-          "source": "X-Wing Second Edition Launch Party"
+            "arc": "Front Arc",
+            "type": "attack",
+            "value": 3
         },
         {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/ab/5d/ab5d5131-0043-4b74-9549-5e959aaaf47a/op086-luke-skywalker.png",
-          "source": "Gen Con Indy 2018"
+            "type": "agility",
+            "value": 2
+        },
+        {
+            "type": "hull",
+            "value": 4
+        },
+        {
+            "type": "shields",
+            "value": 2
         }
-      ],
-      "slots": [
-        "Force Power",
-        "Torpedo",
-        "Astromech",
-        "Modification",
-        "Configuration"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lukeskywalker.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Light Side", "X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Red Squadron Veteran",
-      "initiative": 3,
-      "limited": 0,
-      "cost": 40,
-      "xws": "redsquadronveteran",
-      "text": "Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.",
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Astromech",
-        "Modification",
-        "Configuration"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/pilots/redsquadronveteran.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redsquadronveteran.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Thane Kyrell",
-      "caption": "Corona Four",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 47,
-      "xws": "thanekyrell",
-      "ability": "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/thanekyrell.png",
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Astromech",
-        "Modification",
-        "Configuration"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/thanekyrell.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Wedge Antilles",
-      "caption": "Red Two",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 57,
-      "xws": "wedgeantilles",
-      "ability": "While you perform an attack, the defender rolls 1 fewer defense die.",
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Astromech",
-        "Modification",
-        "Configuration"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/pilots/wedgeantilles.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Biggs Darklighter",
-      "caption": "Battle of Yavin",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 56,
-      "xws": "biggsdarklighter-battleofyavin",
-      "ability": "During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase.",
-      "shipAbility": {
-        "name": "Hope",
-        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
-      },
-      "standardLoadout": [
-        "attackspeed-battleofyavin",
-        "selfless",
-        "protontorpedoes",
-        "r2f2-battleofyavin"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/biggsdarklighter-battleofyavin.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/biggsdarklighter.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Biggs Darklighter",
-      "caption": "Battle of Yavin",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 44,
-      "xws": "biggsdarklighter-battleofyavin-lsl",
-      "ability": "During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase.",
-      "shipAbility": {
-        "name": "Hope",
-        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
-      },
-      "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/biggsdarklighter-battleofyavin.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/biggsdarklighter.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Garven Dreis",
-      "caption": "Battle of Yavin",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 53,
-      "xws": "garvendreis-battleofyavin",
-      "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
-      "shipAbility": {
-        "name": "Hope",
-        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
-      },
-      "standardLoadout": ["advprotontorpedoes", "r5k6-battleofyavin"],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/garvendreis-battleofyavin.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/garvendreis-t65xwing.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Garven Dreis",
-      "caption": "Battle of Yavin",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 47,
-      "xws": "garvendreis-battleofyavin-lsl",
-      "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
-      "shipAbility": {
-        "name": "Hope",
-        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
-      },
-      "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/garvendreis-battleofyavin.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/garvendreis-t65xwing.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Jek Porkins",
-      "caption": "Battle of Yavin",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 54,
-      "xws": "jekporkins-battleofyavin",
-      "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
-      "shipAbility": {
-        "name": "Hope",
-        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
-      },
-      "standardLoadout": [
-        "advprotontorpedoes",
-        "r5d8-battleofyavin",
-        "unstablesublightengines-battleofyavin"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/jekporkins-battleofyavin.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jekporkins.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Jek Porkins",
-      "caption": "Battle of Yavin",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 42,
-      "xws": "jekporkins-battleofyavin-lsl",
-      "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
-      "shipAbility": {
-        "name": "Hope",
-        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
-      },
-      "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/jekporkins-battleofyavin.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jekporkins.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Luke Skywalker",
-      "caption": "Battle of Yavin",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 79,
-      "xws": "lukeskywalker-battleofyavin",
-      "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "shipAbility": {
-        "name": "Hope",
-        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
-      },
-      "standardLoadout": [
-        "attackspeed-battleofyavin",
-        "instinctiveaim",
-        "protontorpedoes",
-        "r2d2-battleofyavin"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/lukeskywalker-battleofyavin.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lukeskywalker.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Luke Skywalker",
-      "caption": "Battle of Yavin",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 61,
-      "xws": "lukeskywalker-battleofyavin-lsl",
-      "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "shipAbility": {
-        "name": "Hope",
-        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
-      },
-      "slots": [
-        "Force Power",
-        "Torpedo",
-        "Astromech",
-        "Modification",
-        "Configuration"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/lukeskywalker-battleofyavin.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lukeskywalker.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Wedge Antilles",
-      "caption": "Battle of Yavin",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 65,
-      "xws": "wedgeantilles-battleofyavin",
-      "ability": "While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 less defense dice.",
-      "shipAbility": {
-        "name": "Hope",
-        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
-      },
-      "standardLoadout": [
-        "attackspeed-battleofyavin",
-        "marksmanship",
-        "protontorpedoes",
-        "r2a3-battleofyavin"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/wedgeantilles-battleofyavin.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Wedge Antilles",
-      "caption": "Battle of Yavin",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 49,
-      "xws": "wedgeantilles-battleofyavin-lsl",
-      "ability": "While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 less defense dice.",
-      "shipAbility": {
-        "name": "Hope",
-        "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
-      },
-      "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/wedgeantilles-battleofyavin.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Corran Horn",
-      "caption": "Rogue Nine",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 46,
-      "xws": "corranhorn-t65xwing",
-      "ability": "After you declare the defender of an attack, if you have a lock on the defender, a friendly ship may transfer their lock token from you to the defender.",
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Astromech",
-        "Modification",
-        "Configuration"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/pilots/corranhorn-t65xwing.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/corranhorn-t65xwing.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Wes Janson",
-      "caption": "Wisecracking Wingman",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 49,
-      "xws": "wesjanson",
-      "ability": "After you perform an attack, you may spend 1 [Charge] to assign the defender 1 jam token. After you defend, you may spend 1 [Charge] to assign the attacker 1 jam token.",
-      "charges": { "value": 1, "recovers": 1 },
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Astromech",
-        "Modification",
-        "Configuration"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/pilots/wesjanson.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wesjanson.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Luke Skywalker",
-      "caption": "Red Five",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 75,
-      "xws": "lukeskywalker-swz106",
-      "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "standardLoadout": ["instinctiveaim", "protontorpedoes", "r2d2"],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/lukeskywalker-swz106.png",
-      "artwork": "",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Jek Porkins",
-      "caption": "Red Six",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 54,
-      "xws": "jekporkins-swz106",
-      "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
-      "standardLoadout": ["predator", "protontorpedoes", "r5d8-battleofyavin"],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/jekporkins-swz106.png",
-      "artwork": "",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Wedge Antilles",
-      "caption": "Battle Over Endor",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 70,
-      "xws": "wedgeantilles-battleoverendor",
-      "ability": "After you perform an attack that hits, gain 1 focus token.",
-      "shipAbility": {
-        "name": "Locked S-Foils",
-        "text": "After you perform a [Boost] action, gain a deplete token."
-      },
-      "shipStats": [
-        { "arc": "Front Arc", "type": "attack", "value": 3 },
-        { "type": "agility", "value": 2 },
-        { "type": "hull", "value": 4 },
-        { "type": "shields", "value": 3 }
-      ],
-      "shipActions": [
-        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Boost" } },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
-        { "difficulty": "White", "type": "Boost"}
-      ],
-      "standardLoadout": ["itsatrap-battleoverendor", "predator", "advprotontorpedoes", "r2a3-battleoverendor"],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/wedgeantilles-battleoverendor.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles-battleoverendor.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Wedge Antilles",
-      "caption": "Battle Over Endor",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 55,
-      "xws": "wedgeantilles-battleoverendor-lsl",
-      "ability": "After you perform an attack that hits, gain 1 focus token.",
-      "shipAbility": {
-        "name": "Locked S-Foils",
-        "text": "After you perform a [Boost] action, gain a deplete token."
-      },
-      "shipStats": [
-        { "arc": "Front Arc", "type": "attack", "value": 3 },
-        { "type": "agility", "value": 2 },
-        { "type": "hull", "value": 4 },
-        { "type": "shields", "value": 3 }
-      ],
-      "shipActions": [
-        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Boost" } },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
-        { "difficulty": "White", "type": "Boost"}
-      ],
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Astromech"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/wedgeantilles-battleoverendor.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles-battleoverendor.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Yendor",
-      "caption": "Battle Over Endor",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 61,
-      "xws": "yendor-battleoverendor",
-      "ability": "While you perform a primary attack, you may gain a strain token to reroll 1 of your blank results.",
-      "shipAbility": {
-        "name": "Locked S-Foils",
-        "text": "After you perform a [Boost] action, gain a deplete token."
-      },
-      "shipActions": [
-        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Boost" } },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
-        { "difficulty": "White", "type": "Boost"}
-      ],
-      "standardLoadout": ["itsatrap-battleoverendor", "plasmatorpedoes", "stabilizingastromech-battleoverendor"],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/yendor-battleoverendor.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/yendor-battleoverendor.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Yendor",
-      "caption": "Battle Over Endor",
-      "initiative": 5,
-      "limited": 1,
-      "cost": 50,
-      "xws": "yendor-battleoverendor-lsl",
-      "ability": "While you perform a primary attack, you may gain a strain token to reroll 1 of your blank results.",
-      "shipAbility": {
-        "name": "Locked S-Foils",
-        "text": "After you perform a [Boost] action, gain a deplete token."
-      },
-      "shipActions": [
-        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Boost" } },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
-        { "difficulty": "White", "type": "Boost"}
-      ],
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Astromech",
-        "Modification"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/yendor-battleoverendor.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/yendor-battleoverendor.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Kendy Idele",
-      "caption": "Battle Over Endor",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 57,
-      "xws": "kendyidele-battleoverendor",
-      "ability": "After you spend a green token, you may choose a friendly ship at range 1-3 and gain a strain token. If you do, that ship may perform a red [Focus] or red [Evade] action.",
-      "shipAbility": {
-        "name": "Locked S-Foils",
-        "text": "After you perform a [Boost] action, gain a deplete token."
-      },
-      "shipActions": [
-        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Boost" } },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
-        { "difficulty": "White", "type": "Boost"}
-      ],
-      "standardLoadout": ["itsatrap-battleoverendor", "ionmissiles", "modifiedr4punit-battleoverendor", "chaffparticles-battleoverendor"],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/kendyidele-battleoverendor.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kendyidele-battleoverendor.png",
-      "standard": false,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    },
-    {
-      "name": "Kendy Idele",
-      "caption": "Battle Over Endor",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 48,
-      "xws": "kendyidele-battleoverendor-lsl",
-      "ability": "After you spend a green token, you may choose a friendly ship at range 1-3 and gain a strain token. If you do, that ship may perform a red [Focus] or red [Evade] action.",
-      "shipAbility": {
-        "name": "Locked S-Foils",
-        "text": "After you perform a [Boost] action, gain a deplete token."
-      },
-      "shipActions": [
-        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Boost" } },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
-        { "difficulty": "White", "type": "Boost"}
-      ],
-      "slots": [
-        "Talent",
-        "Torpedo",
-        "Astromech",
-        "Modification"
-      ],
-      "image": "https://infinitearenas.com/xw2/images/quickbuilds/kendyidele-battleoverendor.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kendyidele-battleoverendor.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["X-wing"],
-      "epic": true
-    }
-  ]
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "White",
+            "type": "Barrel Roll"
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_X-wing-T65.png",
+    "pilots": [
+        {
+            "name": "Biggs Darklighter",
+            "caption": "Red Three",
+            "initiative": 3,
+            "limited": 1,
+            "cost": 44,
+            "xws": "biggsdarklighter",
+            "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Hit] or [Critical Hit] damage to cancel 1 matching result.",
+            "slots": [
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/biggsdarklighter.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/biggsdarklighter.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Blue Squadron Escort",
+            "initiative": 2,
+            "limited": 0,
+            "cost": 38,
+            "xws": "bluesquadronescort",
+            "text": "Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/bluesquadronescort.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/bluesquadronescort.png",
+            "alt": [
+                {
+                    "image": "https://images-cdn.fantasyflightgames.com/filer_public/9c/1a/9c1ad7ef-dfb1-427c-b700-747d857f53fc/op066-blue-squadron-pilot.png",
+                    "source": "X-Wing Second Edition Launch Party"
+                }
+            ],
+            "slots": [
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Cavern Angels Zealot",
+            "initiative": 1,
+            "limited": 0,
+            "cost": 38,
+            "xws": "cavernangelszealot",
+            "text": "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha.",
+            "slots": [
+                "Torpedo",
+                "Astromech",
+                "Illicit",
+                "Modification",
+                "Configuration"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/cavernangelszealot.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/cavernangelszealot.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Partisan",
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Edrio Two Tubes",
+            "caption": "Cavern Angels Veteran",
+            "initiative": 2,
+            "limited": 1,
+            "cost": 41,
+            "xws": "edriotwotubes",
+            "ability": "Before you activate, if you are focused, you may perform an action.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/edriotwotubes.png",
+            "slots": [
+                "Torpedo",
+                "Astromech",
+                "Illicit",
+                "Modification",
+                "Configuration"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/edriotwotubes.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Partisan",
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Garven Dreis",
+            "caption": "Red Leader",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 46,
+            "xws": "garvendreis-t65xwing",
+            "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/garvendreis-t65xwing.png",
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/garvendreis-t65xwing.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Jek Porkins",
+            "caption": "Red Six",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 42,
+            "xws": "jekporkins",
+            "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/jekporkins.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/jekporkins.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Kullbee Sperado",
+            "caption": "Enigmatic Gunslinger",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 42,
+            "xws": "kullbeesperado",
+            "ability": "After you perform a [Barrel Roll] or [Boost] action, you may flip your equipped [Configuration] upgrade card.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/kullbeesperado.png",
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Astromech",
+                "Illicit",
+                "Modification",
+                "Configuration"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/kullbeesperado.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Partisan",
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Leevan Tenza",
+            "caption": "Rebel Alliance Defector",
+            "initiative": 3,
+            "limited": 1,
+            "cost": 41,
+            "xws": "leevantenza",
+            "ability": "After you perform a [Barrel Roll] or [Boost] action, you may perform a red [Evade] action.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/leevantenza.png",
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Astromech",
+                "Illicit",
+                "Modification",
+                "Configuration"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/leevantenza.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Partisan",
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Luke Skywalker",
+            "caption": "Red Five",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 60,
+            "xws": "lukeskywalker",
+            "ability": "After you become the defender (before dice are rolled), you may recover 1 [Force].",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/lukeskywalker.png",
+            "force": {
+                "value": 2,
+                "recovers": 1,
+                "side": [
+                    "light"
+                ]
+            },
+            "alt": [
+                {
+                    "image": "https://images-cdn.fantasyflightgames.com/filer_public/5b/aa/5baa3742-b7b2-47d7-9bec-07f02fafaf1c/op066-luke-skywalker.png",
+                    "source": "X-Wing Second Edition Launch Party"
+                },
+                {
+                    "image": "https://images-cdn.fantasyflightgames.com/filer_public/ab/5d/ab5d5131-0043-4b74-9549-5e959aaaf47a/op086-luke-skywalker.png",
+                    "source": "Gen Con Indy 2018"
+                }
+            ],
+            "slots": [
+                "Force Power",
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/lukeskywalker.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Light Side",
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Red Squadron Veteran",
+            "initiative": 3,
+            "limited": 0,
+            "cost": 40,
+            "xws": "redsquadronveteran",
+            "text": "Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.",
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/redsquadronveteran.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/redsquadronveteran.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Thane Kyrell",
+            "caption": "Corona Four",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 47,
+            "xws": "thanekyrell",
+            "ability": "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/thanekyrell.png",
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/thanekyrell.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Wedge Antilles",
+            "caption": "Red Two",
+            "initiative": 6,
+            "limited": 1,
+            "cost": 57,
+            "xws": "wedgeantilles",
+            "ability": "While you perform an attack, the defender rolls 1 fewer defense die.",
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/wedgeantilles.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/wedgeantilles.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Biggs Darklighter",
+            "caption": "Battle of Yavin",
+            "initiative": 3,
+            "limited": 1,
+            "cost": 56,
+            "xws": "biggsdarklighter-battleofyavin",
+            "ability": "During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase.",
+            "shipAbility": {
+                "name": "Hope",
+                "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+            },
+            "standardLoadout": [
+                "attackspeed-battleofyavin",
+                "selfless",
+                "protontorpedoes",
+                "r2f2-battleofyavin"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/biggsdarklighter-battleofyavin.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/biggsdarklighter-battleofyavin.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Biggs Darklighter",
+            "caption": "Battle of Yavin",
+            "initiative": 3,
+            "limited": 1,
+            "cost": 44,
+            "xws": "biggsdarklighter-battleofyavin-lsl",
+            "ability": "During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase.",
+            "shipAbility": {
+                "name": "Hope",
+                "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+            },
+            "slots": [
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/biggsdarklighter-battleofyavin-lsl.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/biggsdarklighter-battleofyavin-lsl.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Garven Dreis",
+            "caption": "Battle of Yavin",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 53,
+            "xws": "garvendreis-battleofyavin",
+            "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
+            "shipAbility": {
+                "name": "Hope",
+                "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+            },
+            "standardLoadout": [
+                "advprotontorpedoes",
+                "r5k6-battleofyavin"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/garvendreis-battleofyavin.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/garvendreis-battleofyavin.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Garven Dreis",
+            "caption": "Battle of Yavin",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 47,
+            "xws": "garvendreis-battleofyavin-lsl",
+            "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
+            "shipAbility": {
+                "name": "Hope",
+                "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+            },
+            "slots": [
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/garvendreis-battleofyavin-lsl.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/garvendreis-battleofyavin-lsl.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Jek Porkins",
+            "caption": "Battle of Yavin",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 54,
+            "xws": "jekporkins-battleofyavin",
+            "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
+            "shipAbility": {
+                "name": "Hope",
+                "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+            },
+            "standardLoadout": [
+                "advprotontorpedoes",
+                "r5d8-battleofyavin",
+                "unstablesublightengines-battleofyavin"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/jekporkins-battleofyavin.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/jekporkins-battleofyavin.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Jek Porkins",
+            "caption": "Battle of Yavin",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 42,
+            "xws": "jekporkins-battleofyavin-lsl",
+            "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
+            "shipAbility": {
+                "name": "Hope",
+                "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+            },
+            "slots": [
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/jekporkins-battleofyavin-lsl.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/jekporkins-battleofyavin-lsl.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Luke Skywalker",
+            "caption": "Battle of Yavin",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 79,
+            "xws": "lukeskywalker-battleofyavin",
+            "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
+            "force": {
+                "value": 2,
+                "recovers": 1,
+                "side": [
+                    "light"
+                ]
+            },
+            "shipAbility": {
+                "name": "Hope",
+                "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+            },
+            "standardLoadout": [
+                "attackspeed-battleofyavin",
+                "instinctiveaim",
+                "protontorpedoes",
+                "r2d2-battleofyavin"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/lukeskywalker-battleofyavin.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/lukeskywalker-battleofyavin.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Luke Skywalker",
+            "caption": "Battle of Yavin",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 61,
+            "xws": "lukeskywalker-battleofyavin-lsl",
+            "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
+            "force": {
+                "value": 2,
+                "recovers": 1,
+                "side": [
+                    "light"
+                ]
+            },
+            "shipAbility": {
+                "name": "Hope",
+                "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+            },
+            "slots": [
+                "Force Power",
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/lukeskywalker-battleofyavin-lsl.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/lukeskywalker-battleofyavin-lsl.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Wedge Antilles",
+            "caption": "Battle of Yavin",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 65,
+            "xws": "wedgeantilles-battleofyavin",
+            "ability": "While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 less defense dice.",
+            "shipAbility": {
+                "name": "Hope",
+                "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+            },
+            "standardLoadout": [
+                "attackspeed-battleofyavin",
+                "marksmanship",
+                "protontorpedoes",
+                "r2a3-battleofyavin"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/wedgeantilles-battleofyavin.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/wedgeantilles-battleofyavin.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Wedge Antilles",
+            "caption": "Battle of Yavin",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 49,
+            "xws": "wedgeantilles-battleofyavin-lsl",
+            "ability": "While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 less defense dice.",
+            "shipAbility": {
+                "name": "Hope",
+                "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
+            },
+            "slots": [
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/wedgeantilles-battleofyavin-lsl.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/wedgeantilles-battleofyavin-lsl.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Corran Horn",
+            "caption": "Rogue Nine",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 46,
+            "xws": "corranhorn-t65xwing",
+            "ability": "After you declare the defender of an attack, if you have a lock on the defender, a friendly ship may transfer their lock token from you to the defender.",
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/corranhorn-t65xwing.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/corranhorn-t65xwing.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Wes Janson",
+            "caption": "Wisecracking Wingman",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 49,
+            "xws": "wesjanson",
+            "ability": "After you perform an attack, you may spend 1 [Charge] to assign the defender 1 jam token. After you defend, you may spend 1 [Charge] to assign the attacker 1 jam token.",
+            "charges": {
+                "value": 1,
+                "recovers": 1
+            },
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Astromech",
+                "Modification",
+                "Configuration"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/wesjanson.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/wesjanson.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Luke Skywalker",
+            "caption": "Red Five",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 75,
+            "xws": "lukeskywalker-swz106",
+            "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
+            "force": {
+                "value": 2,
+                "recovers": 1,
+                "side": [
+                    "light"
+                ]
+            },
+            "standardLoadout": [
+                "instinctiveaim",
+                "protontorpedoes",
+                "r2d2"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/lukeskywalker-swz106.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/lukeskywalker-swz106.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Jek Porkins",
+            "caption": "Red Six",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 54,
+            "xws": "jekporkins-swz106",
+            "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
+            "standardLoadout": [
+                "predator",
+                "protontorpedoes",
+                "r5d8-battleofyavin"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/jekporkins-swz106.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/jekporkins-swz106.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Wedge Antilles",
+            "caption": "Battle Over Endor",
+            "initiative": 6,
+            "limited": 1,
+            "cost": 70,
+            "xws": "wedgeantilles-battleoverendor",
+            "ability": "After you perform an attack that hits, gain 1 focus token.",
+            "shipAbility": {
+                "name": "Locked S-Foils",
+                "text": "After you perform a [Boost] action, gain a deplete token."
+            },
+            "shipStats": [
+                {
+                    "arc": "Front Arc",
+                    "type": "attack",
+                    "value": 3
+                },
+                {
+                    "type": "agility",
+                    "value": 2
+                },
+                {
+                    "type": "hull",
+                    "value": 4
+                },
+                {
+                    "type": "shields",
+                    "value": 3
+                }
+            ],
+            "shipActions": [
+                {
+                    "difficulty": "White",
+                    "type": "Focus",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Boost"
+                    }
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Lock"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Barrel Roll",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Focus"
+                    }
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Boost"
+                }
+            ],
+            "standardLoadout": [
+                "itsatrap-battleoverendor",
+                "predator",
+                "advprotontorpedoes",
+                "r2a3-battleoverendor"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/wedgeantilles-battleoverendor.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/wedgeantilles-battleoverendor.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Wedge Antilles",
+            "caption": "Battle Over Endor",
+            "initiative": 6,
+            "limited": 1,
+            "cost": 55,
+            "xws": "wedgeantilles-battleoverendor-lsl",
+            "ability": "After you perform an attack that hits, gain 1 focus token.",
+            "shipAbility": {
+                "name": "Locked S-Foils",
+                "text": "After you perform a [Boost] action, gain a deplete token."
+            },
+            "shipStats": [
+                {
+                    "arc": "Front Arc",
+                    "type": "attack",
+                    "value": 3
+                },
+                {
+                    "type": "agility",
+                    "value": 2
+                },
+                {
+                    "type": "hull",
+                    "value": 4
+                },
+                {
+                    "type": "shields",
+                    "value": 3
+                }
+            ],
+            "shipActions": [
+                {
+                    "difficulty": "White",
+                    "type": "Focus",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Boost"
+                    }
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Lock"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Barrel Roll",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Focus"
+                    }
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Boost"
+                }
+            ],
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Astromech"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/wedgeantilles-battleoverendor-lsl.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/wedgeantilles-battleoverendor-lsl.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Yendor",
+            "caption": "Battle Over Endor",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 61,
+            "xws": "yendor-battleoverendor",
+            "ability": "While you perform a primary attack, you may gain a strain token to reroll 1 of your blank results.",
+            "shipAbility": {
+                "name": "Locked S-Foils",
+                "text": "After you perform a [Boost] action, gain a deplete token."
+            },
+            "shipActions": [
+                {
+                    "difficulty": "White",
+                    "type": "Focus",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Boost"
+                    }
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Lock"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Barrel Roll",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Focus"
+                    }
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Boost"
+                }
+            ],
+            "standardLoadout": [
+                "itsatrap-battleoverendor",
+                "plasmatorpedoes",
+                "stabilizingastromech-battleoverendor"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/yendor-battleoverendor.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/yendor-battleoverendor.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Yendor",
+            "caption": "Battle Over Endor",
+            "initiative": 5,
+            "limited": 1,
+            "cost": 50,
+            "xws": "yendor-battleoverendor-lsl",
+            "ability": "While you perform a primary attack, you may gain a strain token to reroll 1 of your blank results.",
+            "shipAbility": {
+                "name": "Locked S-Foils",
+                "text": "After you perform a [Boost] action, gain a deplete token."
+            },
+            "shipActions": [
+                {
+                    "difficulty": "White",
+                    "type": "Focus",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Boost"
+                    }
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Lock"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Barrel Roll",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Focus"
+                    }
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Boost"
+                }
+            ],
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Astromech",
+                "Modification"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/yendor-battleoverendor-lsl.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/yendor-battleoverendor-lsl.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Kendy Idele",
+            "caption": "Battle Over Endor",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 57,
+            "xws": "kendyidele-battleoverendor",
+            "ability": "After you spend a green token, you may choose a friendly ship at range 1-3 and gain a strain token. If you do, that ship may perform a red [Focus] or red [Evade] action.",
+            "shipAbility": {
+                "name": "Locked S-Foils",
+                "text": "After you perform a [Boost] action, gain a deplete token."
+            },
+            "shipActions": [
+                {
+                    "difficulty": "White",
+                    "type": "Focus",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Boost"
+                    }
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Lock"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Barrel Roll",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Focus"
+                    }
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Boost"
+                }
+            ],
+            "standardLoadout": [
+                "itsatrap-battleoverendor",
+                "ionmissiles",
+                "modifiedr4punit-battleoverendor",
+                "chaffparticles-battleoverendor"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/kendyidele-battleoverendor.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/kendyidele-battleoverendor.png",
+            "standard": false,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Kendy Idele",
+            "caption": "Battle Over Endor",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 48,
+            "xws": "kendyidele-battleoverendor-lsl",
+            "ability": "After you spend a green token, you may choose a friendly ship at range 1-3 and gain a strain token. If you do, that ship may perform a red [Focus] or red [Evade] action.",
+            "shipAbility": {
+                "name": "Locked S-Foils",
+                "text": "After you perform a [Boost] action, gain a deplete token."
+            },
+            "shipActions": [
+                {
+                    "difficulty": "White",
+                    "type": "Focus",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Boost"
+                    }
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Lock"
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Barrel Roll",
+                    "linked": {
+                        "difficulty": "Red",
+                        "type": "Focus"
+                    }
+                },
+                {
+                    "difficulty": "White",
+                    "type": "Boost"
+                }
+            ],
+            "slots": [
+                "Talent",
+                "Torpedo",
+                "Astromech",
+                "Modification"
+            ],
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/kendyidele-battleoverendor-lsl.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/kendyidele-battleoverendor-lsl.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "X-wing"
+            ],
+            "epic": true
+        }
+    ]
 }

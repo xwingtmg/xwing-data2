@@ -1,166 +1,215 @@
 {
-  "name": "Firespray-class Patrol Craft",
-  "xws": "firesprayclasspatrolcraft",
-  "size": "Medium",
-  "dial": [
-    "1TW",
-    "1BB",
-    "1FB",
-    "1NB",
-    "1YW",
-    "2TW",
-    "2BW",
-    "2FB",
-    "2NW",
-    "2YW",
-    "3ER",
-    "3BW",
-    "3FB",
-    "3NW",
-    "3RR",
-    "4FW",
-    "4KR"
-  ],
-  "dialCodes": ["FPC"],
-  "faction": "separatistalliance",
-  "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Rear Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 4 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Boost" }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_FIrespray.png",
-  "pilots": [
-    {
-      "name": "Jango Fett",
-      "caption": "Simple Man",
-      "initiative": 6,
-      "limited": 1,
-      "xws": "jangofett",
-      "ability": "While you defend or perform a primary attack, if the difficulty of your revealed maneuver is less than that of the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result.",
-      "standard": true,
-      "wildspace": true,
-      "cost": 79,
-      "image": "https://infinitearenas.com/xw2/images/pilots/jangofett.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jangofett.png",
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "keywords": ["Bounty Hunter"],
-      "epic": true
-    },
-    {
-      "name": "Zam Wesell",
-      "xws": "zamwesell",
-      "initiative": 5,
-      "limited": 1,
-      "caption": "Clawdite Changeling",
-      "conditions": ["youdbettermeanbusiness", "youshouldthankme"],
-      "standard": true,
-      "wildspace": true,
-      "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: “You Should Thank Me” or “You'd Better Mean Business”",
-      "charges": { "value": 4, "recovers": 0 },
-      "cost": 83,
-      "image": "https://infinitearenas.com/xw2/images/pilots/zamwesell.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zamwesell.png",
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "keywords": ["Bounty Hunter"],
-      "epic": true
-    },
-    {
-      "name": "Boba Fett",
-      "xws": "bobafett-firesprayclasspatrolcraft",
-      "initiative": 3,
-      "limited": 1,
-      "caption": "Survivor",
-      "standard": true,
-      "wildspace": true,
-      "ability": "While you defend, if there are no other friendly ships at range 0-2, you may change 1 of your blank results to a [Focus] result.",
-      "cost": 68,
-      "image": "https://infinitearenas.com/xw2/images/pilots/bobafett-separatistalliance.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bobafett-separatistalliance.png",
-      "slots": [
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "keywords": ["Bounty Hunter"],
-      "epic": true
-    },
-    {
-      "name": "Separatist Racketeer",
-      "xws": "separatistracketeer",
-      "initiative": 2,
-      "limited": 0,
-      "text": "Emboldened by the bitter stalemate of the Outer Rim Sieges, mercenary groups across the galaxy take the opportunity to profit from the ongoing war.",
-      "standard": true,
-      "wildspace": true,
-      "cost": 62,
-      "image": "https://infinitearenas.com/xw2/images/pilots/separatistracketeer.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/separatistracketeer.png",
-      "slots": [
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "epic": true
-    },
-    {
-      "name": "Aurra Sing",
-      "xws": "aurrasing",
-      "initiative": 4,
-      "limited": 1,
-      "caption": "Bane of the Jedi",
-      "standard": true,
-      "wildspace": true,
-      "ability": "Before you engage, you may spend 1 [Force] to choose 2 enemy ships at range 0-1. Transfer any number of orange and red tokens between those two ships.",
-      "force": { "value": 1, "recovers": 1 },
-      "cost": 77,
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/aurrasing.png",
-      "image": "https://infinitearenas.com/xw2/images/pilots/aurrasing.png",
-      "slots": [
-        "Force Power",
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Device",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "keywords": ["Dark Side", "Bounty Hunter"],
-      "epic": true
-    }
-  ]
+    "name": "Firespray-class Patrol Craft",
+    "xws": "firesprayclasspatrolcraft",
+    "size": "Medium",
+    "dial": [
+        "1TW",
+        "1BB",
+        "1FB",
+        "1NB",
+        "1YW",
+        "2TW",
+        "2BW",
+        "2FB",
+        "2NW",
+        "2YW",
+        "3ER",
+        "3BW",
+        "3FB",
+        "3NW",
+        "3RR",
+        "4FW",
+        "4KR"
+    ],
+    "dialCodes": [
+        "FPC"
+    ],
+    "faction": "separatistalliance",
+    "stats": [
+        {
+            "arc": "Front Arc",
+            "type": "attack",
+            "value": 3
+        },
+        {
+            "arc": "Rear Arc",
+            "type": "attack",
+            "value": 3
+        },
+        {
+            "type": "agility",
+            "value": 2
+        },
+        {
+            "type": "hull",
+            "value": 6
+        },
+        {
+            "type": "shields",
+            "value": 4
+        }
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        },
+        {
+            "difficulty": "Red",
+            "type": "Reinforce"
+        },
+        {
+            "difficulty": "White",
+            "type": "Boost"
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_FIrespray.png",
+    "pilots": [
+        {
+            "name": "Jango Fett",
+            "caption": "Simple Man",
+            "initiative": 6,
+            "limited": 1,
+            "xws": "jangofett",
+            "ability": "While you defend or perform a primary attack, if the difficulty of your revealed maneuver is less than that of the enemy ship's, you may change 1 of the enemy ship's [Focus] results to a blank result.",
+            "standard": true,
+            "wildspace": true,
+            "cost": 79,
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/jangofett.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/jangofett.png",
+            "slots": [
+                "Talent",
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Title"
+            ],
+            "keywords": [
+                "Bounty Hunter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Zam Wesell",
+            "xws": "zamwesell",
+            "initiative": 5,
+            "limited": 1,
+            "caption": "Clawdite Changeling",
+            "conditions": [
+                "youdbettermeanbusiness",
+                "youshouldthankme"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "ability": "Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your secret conditions to yourself facedown: \u201cYou Should Thank Me\u201d or \u201cYou'd Better Mean Business\u201d",
+            "charges": {
+                "value": 4,
+                "recovers": 0
+            },
+            "cost": 83,
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/zamwesell.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/zamwesell.png",
+            "slots": [
+                "Talent",
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Title"
+            ],
+            "keywords": [
+                "Bounty Hunter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Boba Fett",
+            "xws": "bobafett-firesprayclasspatrolcraft",
+            "initiative": 3,
+            "limited": 1,
+            "caption": "Survivor",
+            "standard": true,
+            "wildspace": true,
+            "ability": "While you defend, if there are no other friendly ships at range 0-2, you may change 1 of your blank results to a [Focus] result.",
+            "cost": 68,
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/bobafett-firesprayclasspatrolcraft.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/bobafett-firesprayclasspatrolcraft.png",
+            "slots": [
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Title"
+            ],
+            "keywords": [
+                "Bounty Hunter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Separatist Racketeer",
+            "xws": "separatistracketeer",
+            "initiative": 2,
+            "limited": 0,
+            "text": "Emboldened by the bitter stalemate of the Outer Rim Sieges, mercenary groups across the galaxy take the opportunity to profit from the ongoing war.",
+            "standard": true,
+            "wildspace": true,
+            "cost": 62,
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/separatistracketeer.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/separatistracketeer.png",
+            "slots": [
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Title"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Aurra Sing",
+            "xws": "aurrasing",
+            "initiative": 4,
+            "limited": 1,
+            "caption": "Bane of the Jedi",
+            "standard": true,
+            "wildspace": true,
+            "ability": "Before you engage, you may spend 1 [Force] to choose 2 enemy ships at range 0-1. Transfer any number of orange and red tokens between those two ships.",
+            "force": {
+                "value": 1,
+                "recovers": 1
+            },
+            "cost": 77,
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/aurrasing.png",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/aurrasing.png",
+            "slots": [
+                "Force Power",
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Device",
+                "Illicit",
+                "Modification",
+                "Title"
+            ],
+            "keywords": [
+                "Dark Side",
+                "Bounty Hunter"
+            ],
+            "epic": true
+        }
+    ]
 }

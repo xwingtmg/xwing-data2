@@ -1,174 +1,216 @@
 {
-  "name": "YV-666 Light Freighter",
-  "xws": "yv666lightfreighter",
-  "size": "Large",
-  "dial": [
-    "0OR",
-    "1BB",
-    "1FB",
-    "1NB",
-    "2TR",
-    "2BW",
-    "2FB",
-    "2NW",
-    "2YR",
-    "3TW",
-    "3BW",
-    "3FB",
-    "3NW",
-    "3YW",
-    "4FW"
-  ],
-  "dialCodes": ["YV6"],
-  "faction": "scumandvillainy",
-  "stats": [
-    { "arc": "Full Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 9 },
-    { "type": "shields", "value": 3 }
-  ],
-  "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Lock" }
-  ],
-  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_YV-666.png",
-  "pilots": [
-    {
-      "name": "Bossk",
-      "caption": "Fearsome Hunter",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 63,
-      "xws": "bossk",
-      "ability": "While you perform a primary attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/bossk.png",
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "alt": [
+    "name": "YV-666 Light Freighter",
+    "xws": "yv666lightfreighter",
+    "size": "Large",
+    "dial": [
+        "0OR",
+        "1BB",
+        "1FB",
+        "1NB",
+        "2TR",
+        "2BW",
+        "2FB",
+        "2NW",
+        "2YR",
+        "3TW",
+        "3BW",
+        "3FB",
+        "3NW",
+        "3YW",
+        "4FW"
+    ],
+    "dialCodes": [
+        "YV6"
+    ],
+    "faction": "scumandvillainy",
+    "stats": [
         {
-          "image": "https://images-cdn.fantasyflightgames.com/filer_public/f7/65/f765febe-2e28-4f9f-8ee0-1dbc4c013ef3/op067_bossk.png",
-          "source": "Coruscant Invitational 2018"
+            "arc": "Full Front Arc",
+            "type": "attack",
+            "value": 3
+        },
+        {
+            "type": "agility",
+            "value": 1
+        },
+        {
+            "type": "hull",
+            "value": 9
+        },
+        {
+            "type": "shields",
+            "value": 3
         }
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bossk.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Bounty Hunter", "Freighter"],
-      "epic": true
-    },
-    {
-      "name": "Latts Razzi",
-      "caption": "Martial Artist",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 53,
-      "xws": "lattsrazzi",
-      "ability": "At the start of the Engagement Phase, you may choose a ship at range 1 and spend a lock you have on that ship. If you do, that ship gains 1 tractor token.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/lattsrazzi.png",
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lattsrazzi.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Bounty Hunter", "Freighter"],
-      "epic": true
-    },
-    {
-      "name": "Moralo Eval",
-      "caption": "Criminal Mastermind",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 62,
-      "xws": "moraloeval",
-      "ability": "If you would flee, you may spend 1 [Charge]. If you do, place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of the edge of the play area that you fled from.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/moraloeval.png",
-      "charges": { "value": 2, "recovers": 0 },
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/moraloeval.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter"],
-      "epic": true
-    },
-    {
-      "name": "Trandoshan Slaver",
-      "initiative": 2,
-      "limited": 0,
-      "cost": 51,
-      "xws": "trandoshanslaver",
-      "text": "The spacious triple-decker design of the YV-666 makes it popular among bounty hunters and slavers, who often retrofit an entire deck for prisoner transport.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/trandoshanslaver.png",
-      "slots": [
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/trandoshanslaver.png",
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter"],
-      "epic": true
-    },
-    {
-      "name": "Doctor Aphra",
-      "caption": "Professional Disaster Zone",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 53,
-      "xws": "doctoraphra",
-      "ability": "Before you engage, you may spend 1 green token and 1 [Charge]. If you do, you may choose another ship at range 0-1 that is not stressed. The chosen ship gains 1 stress token.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/doctoraphra.png",
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/doctoraphra.png",
-      "charges": { "value": 3, "recovers": 0 },
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
-        "Crew",
-        "Crew",
-        "Illicit",
-        "Modification",
-        "Title",
-        "Gunner"
-      ],
-      "standard": true,
-      "wildspace": true,
-      "keywords": ["Freighter"],
-      "epic": true
-    }
-  ]
+    ],
+    "actions": [
+        {
+            "difficulty": "White",
+            "type": "Focus"
+        },
+        {
+            "difficulty": "White",
+            "type": "Reinforce"
+        },
+        {
+            "difficulty": "White",
+            "type": "Lock"
+        }
+    ],
+    "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_YV-666.png",
+    "pilots": [
+        {
+            "name": "Bossk",
+            "caption": "Fearsome Hunter",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 63,
+            "xws": "bossk",
+            "ability": "While you perform a primary attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/bossk.png",
+            "slots": [
+                "Talent",
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Illicit",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "alt": [
+                {
+                    "image": "https://images-cdn.fantasyflightgames.com/filer_public/f7/65/f765febe-2e28-4f9f-8ee0-1dbc4c013ef3/op067_bossk.png",
+                    "source": "Coruscant Invitational 2018"
+                }
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/bossk.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Bounty Hunter",
+                "Freighter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Latts Razzi",
+            "caption": "Martial Artist",
+            "initiative": 3,
+            "limited": 1,
+            "cost": 53,
+            "xws": "lattsrazzi",
+            "ability": "At the start of the Engagement Phase, you may choose a ship at range 1 and spend a lock you have on that ship. If you do, that ship gains 1 tractor token.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/lattsrazzi.png",
+            "slots": [
+                "Talent",
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Illicit",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/lattsrazzi.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Bounty Hunter",
+                "Freighter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Moralo Eval",
+            "caption": "Criminal Mastermind",
+            "initiative": 4,
+            "limited": 1,
+            "cost": 62,
+            "xws": "moraloeval",
+            "ability": "If you would flee, you may spend 1 [Charge]. If you do, place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of the edge of the play area that you fled from.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/moraloeval.png",
+            "charges": {
+                "value": 2,
+                "recovers": 0
+            },
+            "slots": [
+                "Talent",
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Illicit",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/moraloeval.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Trandoshan Slaver",
+            "initiative": 2,
+            "limited": 0,
+            "cost": 51,
+            "xws": "trandoshanslaver",
+            "text": "The spacious triple-decker design of the YV-666 makes it popular among bounty hunters and slavers, who often retrofit an entire deck for prisoner transport.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/trandoshanslaver.png",
+            "slots": [
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Illicit",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/trandoshanslaver.png",
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter"
+            ],
+            "epic": true
+        },
+        {
+            "name": "Doctor Aphra",
+            "caption": "Professional Disaster Zone",
+            "initiative": 3,
+            "limited": 1,
+            "cost": 53,
+            "xws": "doctoraphra",
+            "ability": "Before you engage, you may spend 1 green token and 1 [Charge]. If you do, you may choose another ship at range 0-1 that is not stressed. The chosen ship gains 1 stress token.",
+            "image": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/En/pilots/doctoraphra.png",
+            "artwork": "https://raw.githubusercontent.com/SogeMoge/x-wing2.0-project-goldenrod/2.0-legacy/src/images/Art/pilots/doctoraphra.png",
+            "charges": {
+                "value": 3,
+                "recovers": 0
+            },
+            "slots": [
+                "Talent",
+                "Cannon",
+                "Missile",
+                "Crew",
+                "Crew",
+                "Illicit",
+                "Modification",
+                "Title",
+                "Gunner"
+            ],
+            "standard": true,
+            "wildspace": true,
+            "keywords": [
+                "Freighter"
+            ],
+            "epic": true
+        }
+    ]
 }
