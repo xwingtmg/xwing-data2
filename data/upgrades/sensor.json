@@ -113,5 +113,39 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Long-Range Scanners",
+    "limited": 0,
+    "xws": "longrangescanners-alphaclassstarwing",
+    "sides": [
+      {
+        "title": "Long-Range Scanners",
+        "type": "Sensor",
+        "ability": "Before you perform a [Lock] action, you may spend 1 [Charge]. If you do, you may acquire a lock on an object at any range during that action.",
+        "slots": ["Sensor"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Relay System",
+    "limited": 0,
+    "xws": "relaysystem-tiephphantom",
+    "sides": [
+      {
+        "title": "Relay System",
+        "type": "Sensor",
+        "ability": "After a friendly ship at range 0-2 performs a [Lock] action, you may acquire a lock on the same object. After you perform an attack that hits, you may spend a lock you have on the defender. If you do, another friendly ship at range 0-1 may acquire a lock on the defender.",
+        "slots": ["Sensor"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]

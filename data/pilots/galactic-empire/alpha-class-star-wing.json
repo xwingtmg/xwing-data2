@@ -95,6 +95,58 @@
       "standard": false,
       "extended": true,
       "epic": true
+    },
+    {
+      "name": "Lieutenant Karsabi",
+      "caption": "Payload Courier",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 5,
+      "xws": "lieutenantkarsabi-alphaclassstarwing",
+      "ability": "When you perform a [Reload] action, the chosen upgrade recovers 1 additional [Charge].",
+      "shipAbility": {
+        "name": "Prioritized Weapons Systems",
+        "text": "Before you engage, you may gain a strain token to remove a disarm token."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "SLAM", "linked": { "difficulty": "Red", "type": "Lock" } },
+        { "difficulty": "White", "type": "SLAM", "linked": { "difficulty": "Red", "type": "Reload" } },
+        { "difficulty": "White", "type": "Reload" }
+      ],
+      "standardLoadout": ["protontorpedoes", "saturationrockets-alphaclassstarwing", "electronicbaffle"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/lieutenantkarsabi-alphaclassstarwing.png",
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "epic": true
+    },
+    {
+      "name": "Major Vynder",
+      "caption": "Helping Hand",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 5,
+      "xws": "majorvynder-alphaclassstarwing",
+      "ability": "After you perform a [Missile] attack, you may perform a bonus [Cannon] attack. While you perform this bonus attack, you may change 1 [Focus] result to a [Hit] result.",
+      "shipAbility": {
+        "name": "Prioritized Weapons Systems",
+        "text": "Before you engage, you may gain a strain token to remove a disarm token."
+      },
+      "shipActions": [
+        { "difficulty": "White", "type": "Focus" },
+        { "difficulty": "White", "type": "Lock" },
+        { "difficulty": "White", "type": "SLAM", "linked": { "difficulty": "Red", "type": "Lock" } },
+        { "difficulty": "White", "type": "SLAM", "linked": { "difficulty": "Red", "type": "Reload" } },
+        { "difficulty": "White", "type": "Reload" }
+      ],
+      "standardLoadout": ["longrangescanners-alphaclassstarwing", "ioncannon", "heavyplasmamissiles-alphaclassstarwing"],
+      "image": "https://infinitearenas.com/xw2/images/quickbuilds/majorvynder-alphaclassstarwing.png",
+      "artwork": "",
+      "standard": true,
+      "extended": true,
+      "epic": true
     }
   ]
 }
