@@ -122,6 +122,7 @@
       {
         "title": "Long-Range Scanners",
         "type": "Sensor",
+        "charges": { "value": 2, "recovers": 0 },
         "ability": "Before you perform a [Lock] action, you may spend 1 [Charge]. If you do, you may acquire a lock on an object at any range during that action.",
         "slots": ["Sensor"]
       }
