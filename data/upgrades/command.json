@@ -490,7 +490,7 @@
         "title": "Asajj Ventress",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "grants" : [
+        "grants": [
           {
             "type": "action",
             "value": {
@@ -545,7 +545,7 @@
         "title": "Hondo Ohnaka",
         "type": "Command",
         "slots": ["Command", "Crew"],
-        "grants" : [
+        "grants": [
           {
             "type": "action",
             "value": {
@@ -560,9 +560,7 @@
       }
     ],
     "cost": { "value": 7 },
-    "restrictions": [
-      { "sizes": ["Huge"] }
-    ]
+    "restrictions": [{ "sizes": ["Huge"] }]
   },
   {
     "name": "General Grievous",
@@ -605,8 +603,37 @@
       }
     ],
     "cost": { "value": "?" },
+    "restrictions": [{ "ships": ["gauntletfighter"] }]
+  },
+  {
+    "name": "Sabine Wren",
+    "limited": 1,
+    "xws": "sabinewren-command",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "sides": [
+      {
+        "ability": "Setup: Before placing forces, assign the Trials of the Darksaber condition to yourself. While you perform a [Coordinate] action, you may coordinate 1 additional friendly ship.",
+        "title": "Sabine Wren",
+        "type": "Command",
+        "slots": ["Command", "Crew"],
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "Red"
+            }
+          }
+        ],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/sabinewren-command.png"
+      }
+    ],
+    "cost": { "value": 5 },
     "restrictions": [
-      { "ships": ["gauntletfighter"] }
+      { "sizes": ["Small", "Medium", "Large"] },
+      { "factions": ["rebelalliance"] }
     ]
   }
 ]
