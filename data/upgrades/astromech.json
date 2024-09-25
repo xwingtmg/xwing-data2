@@ -471,6 +471,7 @@
       }
     ],
     "cost": { "value": 1 },
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -623,7 +624,8 @@
     ],
     "cost": { "value": 3 },
     "restrictions": [
-      { "factions": ["resistance"], "action": { "type": "Rotate Arc" } }
+      { "factions": ["resistance"] },
+      { "action": { "type": "Rotate Arc" } }
     ],
     "standard": true,
     "extended": true,

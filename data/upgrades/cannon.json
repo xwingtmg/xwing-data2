@@ -210,6 +210,10 @@
       }
     ],
     "cost": { "value": 2 },
+    "restrictions": [
+      { "factions": ["resistance"] },
+      { "ships": ["t70xwing"]}
+    ],
     "standard": true,
     "extended": true,
     "epic": true

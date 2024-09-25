@@ -117,6 +117,10 @@
     ],
     "name": "Kalani",
     "cost": { "value": 3 },
+    "restrictions": [
+      { "factions": ["separatistalliance"] },
+      { "solitary": true }
+    ],
     "limited": 1,
     "xws": "kalani",
     "standard": true,

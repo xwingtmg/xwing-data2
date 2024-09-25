@@ -391,6 +391,7 @@
     ],
     "name": "Repulsorlift Stabilizers",
     "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["hmpdroidgunship"] }],
     "limited": 0,
     "xws": "repulsorliftstabilizers",
     "standard": true,
@@ -412,6 +413,7 @@
       }
     ],
     "cost": { "value": 1 },
+    "restrictions": [{ "ships": ["nimbusclassvwing"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -432,6 +434,7 @@
       }
     ],
     "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["nimbusclassvwing"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -470,6 +473,7 @@
       }
     ],
     "cost": { "value": 0 },
+    "restrictions": [{ "ships": ["droidtrifighter"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -503,6 +507,7 @@
       }
     ],
     "cost": { "value": 0 },
+    "restrictions": [{"ships": ["tierbheavy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -536,6 +541,7 @@
       }
     ],
     "cost": { "value": 0 },
+    "restrictions": [{"ships": ["tierbheavy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -710,7 +716,10 @@
       }
     ],
     "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["tiewiwhispermodifiedinterceptor"] }],
+    "restrictions": [
+      { "ships": ["tiewiwhispermodifiedinterceptor"] },
+      { "standardized": true }
+    ],
     "standard": true,
     "extended": true,
     "epic": true

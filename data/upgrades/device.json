@@ -202,7 +202,7 @@
       }
     ],
     "cost": { "value": 8 },
-    "restrictions": [{ "action": { "type": "Reload", "difficulty": "White" } }],
+    "restrictions": [{ "action": { "type": "Reload" } }],
     "standard": true,
     "extended": true,
     "epic": true

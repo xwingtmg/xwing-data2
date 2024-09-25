@@ -442,6 +442,7 @@
       }
     ],
     "cost": { "value": 12 },
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "limited": 1,
     "xws": "ahsokatano",
     "standard": true,
@@ -461,6 +462,7 @@
     ],
     "name": "Clone Captain Rex",
     "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["galacticrepublic"] }],
     "limited": 1,
     "xws": "clonecaptainrex",
     "standard": true,
@@ -501,6 +503,7 @@
       }
     ],
     "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["separatistalliance", "scumandvillainy"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -539,13 +542,14 @@
       }
     ],
     "cost": { "value": 2 },
+    "restrictions": [{ "factions": ["rebelalliance"] }],
     "standard": true,
     "extended": true,
     "epic": true
   },
   {
     "name": "DT-798",
-    "limited": 0,
+    "limited": 1,
     "xws": "dt798",
     "sides": [
       {

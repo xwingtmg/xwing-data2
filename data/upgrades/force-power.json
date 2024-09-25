@@ -200,6 +200,7 @@
       }
     ],
     "cost": { "value": 15 },
+    "restrictions": [{ "sizes": ["Small"] }],
     "xws": "precognitivereflexes",
     "standard": false,
     "extended": true,
@@ -220,6 +221,10 @@
       }
     ],
     "cost": { "value": 8 },
+    "restrictions": [
+      { "sizes": ["Small"] },
+      { "action": { "type": "Boost" } }
+    ],
     "standard": true,
     "extended": true,
     "epic": true
@@ -239,6 +244,7 @@
       }
     ],
     "cost": { "value": 1 },
+    "restrictions": [{ "force_side": ["light"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -258,6 +264,7 @@
       }
     ],
     "cost": { "value": 4 },
+    "restrictions": [{ "force_side": ["dark"] }],
     "standard": true,
     "extended": true,
     "epic": true
@@ -296,6 +303,7 @@
       }
     ],
     "cost": { "value": 2 },
+    "restrictions": [{ "force_side": ["light"] }],
     "standard": true,
     "extended": true,
     "epic": true
