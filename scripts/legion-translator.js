@@ -12,6 +12,14 @@ Object.keys(legion).forEach((c) => {
         let name = card.cardName
         if (card.title) name += " " + card.title
         translation[name] = card.rank
+    } else if (card.cardSubtype == 'heavy weapon') {
+        let name = card.cardName
+        if (card.title) name += " " + card.title
+        translation[name] = "heavy weapon"
+    } else if (card.cardType == "counterpart") {
+        let name = card.cardName
+        if (card.title) name += " " + card.title
+        translation[name] = "counterpart"
     }
 })
 
