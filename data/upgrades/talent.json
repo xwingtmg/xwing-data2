@@ -1140,5 +1140,56 @@
     "extended": true,
     "epic": true,
     "standardLoadoutOnly": true
+  },
+  {
+    "name": "Without a Trace",
+    "limited": 0,
+    "xws": "withoutatrace-tiephphantom",
+    "sides": [
+      {
+        "title": "Without a Trace",
+        "type": "Talent",
+        "ability": "After you gain a cloak token, you may remove 1 red token. While you are cloaked, enemy ships cannot acquire locks on you.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Silent Hunter",
+    "limited": 0,
+    "xws": "silenthunter-tiephphantom",
+    "sides": [
+      {
+        "title": "Silent Hunter",
+        "type": "Talent",
+        "ability": "After you decloak, you may acquire a lock on an enemy ship in your [Bullseye Arc].",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
+  },
+  {
+    "name": "Stealth Gambit",
+    "limited": 0,
+    "xws": "stealthgambit-tiephphantom",
+    "sides": [
+      {
+        "title": "Silent Hunter",
+        "type": "Talent",
+        "ability": "After a friendly ship performs an attack that hits an enemy ship in your [Front Arc], if you are cloaked, you may gain a strain token to remove your cloak token and perform a bonus primary attack targeting the defender. At the end of the Engagement Phase, if you are strained, gain an evade token.",
+        "slots": ["Talent"]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true
   }
 ]
