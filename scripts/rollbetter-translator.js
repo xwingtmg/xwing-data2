@@ -28,6 +28,7 @@ pilotFactions.forEach(f => {
             translation[p.xws] = p.name
             if (p.xws.includes('battleofyavin')) translation[p.xws] += " (BoY)"
             if (p.xws.includes('siegeofcoruscant')) translation[p.xws] += " (SoC)"
+            if (p.xws.includes('battleoverendor')) translation[p.xws] += " (BoE)"
             // reverseTranslation[translation[p.xws]] = p.xws
             addToReverse(translation[p.xws], p.xws, reverseTranslation)
             pilotValidity[p.xws] = {
@@ -56,6 +57,8 @@ upgrades.forEach(u => {
         translation[uu.xws] = uu.name
         if (uu.xws.includes('battleofyavin')) translation[uu.xws] += " (BoY)"
         if (uu.xws.includes('siegeofcoruscant')) translation[uu.xws] += " (SoC)"
+        if (uu.xws.includes('battleoverendor')) translation[uu.xws] += " (BoE)"
+        
         // reverseTranslation[translation[uu.xws]] = uu.xws
         addToReverse(translation[uu.xws], uu.xws, reverseTranslation)
         upgradeValidity[uu.xws] = {
