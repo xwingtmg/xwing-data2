@@ -1174,6 +1174,15 @@
           "value": 2,
           "recovers": 1
         },
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "Red"
+            }
+          }
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/thrawn-legendsandrelics.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/thrawn-legendsandrelics.png"
       }
@@ -3502,7 +3511,7 @@
     "xws": "ahsokatano-legendsandrelics",
     "sides": [
       {
-        "ability": "Before you activate, you may spend 1 [Force] to ignore obstacles until the end of this phase. If you do, and you move through an obstacle, you may acquire a lock on an enemy ship in your [Front Arc] at range 1",
+        "ability": "Before you activate, you may spend 1 [Force] to ignore obstacles until the end of this phase. If you do, and you move through an obstacle, you may acquire a lock on an enemy ship in your [Front Arc] at range 1.",
         "title": "Ahsoka Tano",
         "type": "Crew",
         "slots": [
