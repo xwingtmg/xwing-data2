@@ -599,12 +599,25 @@
       {
         "title": "R7-T1",
         "type": "Astromech",
-        "ability": "While you perform a white [Barrel Roll] or [Boost] action, you may spend 1 [Charge]. If you do, treat the action as red and use a speed 2 template while performing the action.",
+        "text": "R7-T1, nicknamed Artee, served as Luke Skywalker's in-flight astromech droid when the Jedi Master borrowed an E-wing escort starfighter from the New Republic Defense Force for a brief time during the Black Fleet Crisis.",
         "slots": [
           "Astromech"
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/r7t1-legendsandrelics.png",
-        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/r7t1-legendsandrelics.png"
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/r7t1-legendsandrelics.png",
+        "grants": [
+          {
+            "type": "action",
+            "value": {
+              "type": "Lock",
+              "difficulty": "White",
+              "linked": {
+                "type": "Boost",
+                "difficulty": "Red"
+              }
+            }
+          }
+        ]
       }
     ],
     "restrictions": [
@@ -667,7 +680,7 @@
       {
         "title": "Flight-Assist Astromech",
         "type": "Astromech",
-        "ability": "While you perform a white [Barrel Roll] or [Boost] action, you may spend 1 [Charge]. If you do, treat the action as red and use a speed 2 template while performing the action.",
+        "ability": "While you perform a white [Barrel Roll] or white [Boost] action, you may spend 1 [Charge]. If you do, treat the action as red and use a speed 2 template while performing the action.",
         "slots": [
           "Astromech"
         ],
