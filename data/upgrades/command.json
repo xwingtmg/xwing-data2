@@ -403,6 +403,13 @@
           "Command",
           "Title"
         ],
+        "attack": {
+          "arc": "Front Arc",
+          "value": 3,
+          "minrange": 2,
+          "maxrange": 4,
+          "ordnance": false
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/b6bladewingprototype-command.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/b6bladewingprototype-command.png"
       }
