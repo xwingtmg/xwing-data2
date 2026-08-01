@@ -22,27 +22,49 @@
     "3FB",
     "3NW"
   ],
-  "dialCodes": ["QUA"],
+  "dialCodes": [
+    "QUA"
+  ],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 5 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 5
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "Red", "type": "Evade" },
-    { "difficulty": "White", "type": "Barrel Roll" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Quadjumper.png",
   "pilots": [
     {
+      "uid": "PSV0623",
       "name": "Constable Zuvio",
       "caption": "Missing Sheriff of Niima Outpost",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 13,
+      "cost": 10,
+      "loadout": 19,
       "xws": "constablezuvio",
       "ability": "If you would drop a device, you may launch it using a [1 [Straight]] template instead.",
       "image": "https://infinitearenas.com/xw2/images/pilots/constablezuvio.png",
@@ -51,23 +73,25 @@
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
       "slots": [
-        "Talent",
-        "Device",
-        "Device",
+        "Crew",
         "Illicit",
         "Modification",
-        "Tech"
+        "Talent",
+        "Payload"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/constablezuvio.png",
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 140
     },
     {
+      "uid": "PSV0624",
       "name": "Jakku Gunrunner",
       "initiative": 1,
       "limited": 0,
-      "cost": 4,
+      "cost": 7,
       "loadout": 4,
       "xws": "jakkugunrunner",
       "text": "The Quadrijet transfer spacetug, commonly called a “Quadjumper,” is nimble in space and atmosphere alike, making it popular among both smugglers and explorers.",
@@ -76,19 +100,26 @@
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
-      "slots": ["Device", "Illicit"],
+      "slots": [
+        "Crew",
+        "Illicit",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jakkugunrunner.png",
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 143
     },
     {
+      "uid": "PSV0625",
       "name": "Sarco Plank",
       "caption": "The Scavenger",
       "initiative": 2,
       "limited": 1,
-      "cost": 4,
-      "loadout": 6,
+      "cost": 9,
+      "loadout": 14,
       "xws": "sarcoplank",
       "ability": "While you defend, you may treat your agility value as equal to the speed of the maneuver you executed this round.",
       "image": "https://infinitearenas.com/xw2/images/pilots/sarcoplank.png",
@@ -96,20 +127,31 @@
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
-      "slots": ["Crew", "Device", "Illicit", "Illicit", "Modification", "Tech"],
+      "slots": [
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Illicit",
+        "Tech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sarcoplank.png",
       "standard": false,
       "extended": true,
-      "keywords": ["Bounty Hunter"],
-      "epic": true
+      "keywords": [
+        "Bounty Hunter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 141
     },
     {
+      "uid": "PSV0626",
       "name": "Unkar Plutt",
       "caption": "Miserly Portion Master",
       "initiative": 2,
       "limited": 1,
-      "cost": 4,
-      "loadout": 7,
+      "cost": 9,
+      "loadout": 13,
       "xws": "unkarplutt",
       "ability": "At the start of the Engagement Phase, if there are one or more other ships at range 0, you and each other ship at range 0 gain 1 tractor token.",
       "image": "https://infinitearenas.com/xw2/images/pilots/unkarplutt.png",
@@ -117,11 +159,18 @@
         "name": "Spacetug Tractor Array",
         "text": "Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1."
       },
-      "slots": ["Crew", "Device", "Illicit", "Modification", "Tech"],
+      "slots": [
+        "Crew",
+        "Illicit",
+        "Modification",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/unkarplutt.png",
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 142
     }
   ]
 }

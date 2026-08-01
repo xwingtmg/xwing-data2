@@ -21,35 +21,60 @@
     "4KR",
     "5FW"
   ],
-  "dialCodes": ["Fng"],
+  "dialCodes": [
+    "Fng"
+  ],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 4 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Focus" },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Focus"
+      },
       "type": "Barrel Roll"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Focus" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Focus"
+      },
       "type": "Boost"
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_FangFighter.png",
   "pilots": [
     {
+      "uid": "PSV0555",
       "name": "Fenn Rau",
       "caption": "Skull Leader",
       "initiative": 6,
       "limited": 1,
-      "cost": 6,
+      "cost": 16,
       "loadout": 12,
       "xws": "fennrau",
       "ability": "While you defend or perform an attack, if the attack range is 1, you may roll 1 additional die.",
@@ -58,20 +83,31 @@
         "name": "Concordia Faceoff",
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
-      "slots": ["Talent", "Talent", "Modification", "Modification", "Torpedo"],
+      "slots": [
+        "Talent",
+        "Modification",
+        "Modification",
+        "Torpedo",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/fennrau.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Mandalorian"],
-      "epic": true
+      "keywords": [
+        "Mandalorian"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 97
     },
     {
+      "uid": "PSV0556",
       "name": "Joy Rekkoff",
       "caption": "Skull Squadron Ace",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 7,
+      "cost": 11,
+      "loadout": 10,
       "xws": "joyrekkoff",
       "ability": "While you perform an attack, you may spend 1 [Charge] from an equipped [Torpedo] upgrade. If you do, the defender rolls 1 fewer defense die.",
       "image": "https://infinitearenas.com/xw2/images/pilots/joyrekkoff.png",
@@ -79,20 +115,30 @@
         "name": "Concordia Faceoff",
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
-      "slots": ["Talent", "Missile", "Torpedo", "Modification", "Modification"],
+      "slots": [
+        "Talent",
+        "Modification",
+        "Modification",
+        "Torpedo"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/joyrekkoff.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Mandalorian"],
-      "epic": true
+      "keywords": [
+        "Mandalorian"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 100
     },
     {
+      "uid": "PSV0557",
       "name": "Kad Solus",
       "caption": "Skilled Commando",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 8,
+      "cost": 11,
+      "loadout": 11,
       "xws": "kadsolus",
       "ability": "After you fully execute a red maneuver, gain 2 focus tokens.",
       "image": "https://infinitearenas.com/xw2/images/pilots/kadsolus.png",
@@ -100,20 +146,30 @@
         "name": "Concordia Faceoff",
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
-      "slots": ["Talent", "Missile", "Modification", "Modification"],
+      "slots": [
+        "Talent",
+        "Modification",
+        "Modification",
+        "Torpedo"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kadsolus.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Mandalorian"],
-      "epic": true
+      "keywords": [
+        "Mandalorian"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 99
     },
     {
+      "uid": "PSV0558",
       "name": "Old Teroch",
       "caption": "Mandalorian Mentor",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
-      "loadout": 10,
+      "cost": 12,
+      "loadout": 8,
       "xws": "oldteroch",
       "ability": "At the start of the Engagement Phase, you may choose 1 enemy ship at range 1. If you do and you are in its [Front Arc], it removes all of its green tokens.",
       "image": "https://infinitearenas.com/xw2/images/pilots/oldteroch.png",
@@ -121,19 +177,29 @@
         "name": "Concordia Faceoff",
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
-      "slots": ["Talent", "Talent", "Torpedo", "Modification", "Modification"],
+      "slots": [
+        "Talent",
+        "Modification",
+        "Modification",
+        "Torpedo"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/oldteroch.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Mandalorian"],
-      "epic": true
+      "keywords": [
+        "Mandalorian"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 98
     },
     {
+      "uid": "PSV0559",
       "name": "Skull Squadron Pilot",
       "initiative": 4,
       "limited": 0,
-      "cost": 4,
-      "loadout": 6,
+      "cost": 11,
+      "loadout": 10,
       "xws": "skullsquadronpilot",
       "text": "The aces of Skull Squadron favor an aggressive approach, using their craft's pivot wing technology to achieve unmatched agility in the pursuit of their quarry.",
       "image": "https://infinitearenas.com/xw2/images/pilots/skullsquadronpilot.png",
@@ -141,19 +207,29 @@
         "name": "Concordia Faceoff",
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
-      "slots": ["Torpedo", "Modification"],
+      "slots": [
+        "Talent",
+        "Modification",
+        "Modification",
+        "Torpedo"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/skullsquadronpilot.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Mandalorian"],
-      "epic": true
+      "keywords": [
+        "Mandalorian"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 101
     },
     {
+      "uid": "PSV0560",
       "name": "Zealous Recruit",
       "initiative": 1,
       "limited": 0,
-      "cost": 4,
-      "loadout": 5,
+      "cost": 10,
+      "loadout": 10,
       "xws": "zealousrecruit",
       "text": "Mandalorian Fang fighter pilots must master the Concordia Faceoff maneuver, leveraging their ships' narrow attack profile to execute deadly head-on charges.",
       "image": "https://infinitearenas.com/xw2/images/pilots/zealousrecruit.png",
@@ -161,19 +237,28 @@
         "name": "Concordia Faceoff",
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
-      "slots": ["Modification", "Modification"],
+      "slots": [
+        "Modification",
+        "Modification",
+        "Torpedo"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zealousrecruit.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Mandalorian"],
-      "epic": true
+      "keywords": [
+        "Mandalorian"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 102
     },
     {
+      "uid": "PSV0561",
       "name": "Mandalorian Royal Guard",
       "initiative": 4,
       "limited": 2,
-      "cost": 4,
-      "loadout": 7,
+      "cost": 12,
+      "loadout": 15,
       "xws": "mandalorianroyalguard",
       "ability": "While a friendly non-small ship defends, if you are in the attack arc, you may gain 1 deplete and 1 strain token. If you do, the defender may change 1 result to an [Evade] result.",
       "image": "https://infinitearenas.com/xw2/images/pilots/mandalorianroyalguard.png",
@@ -181,21 +266,31 @@
         "name": "Concordia Faceoff",
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
-      "slots": ["Talent", "Missile", "Modification", "Modification"],
+      "slots": [
+        "Talent",
+        "Modification",
+        "Modification",
+        "Torpedo"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mandalorianroyalguard.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Mandalorian"],
+      "keywords": [
+        "Mandalorian"
+      ],
       "caption": "Selfless Protector",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 505
     },
     {
+      "uid": "PSV0562",
       "name": "Tor Phun",
       "caption": "Direct Pressure",
       "initiative": 3,
       "limited": 1,
-      "cost": 4,
-      "loadout": 11,
+      "cost": 11,
+      "loadout": 8,
       "xws": "torphun",
       "ability": "After you perform an attack, if the defender was destroyed, you may perform an action, even while stressed. Then you may gain 2 strain tokens to perform a bonus attack.",
       "image": "https://infinitearenas.com/xw2/images/pilots/torphun.png",
@@ -204,11 +299,66 @@
         "name": "Concordia Faceoff",
         "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
       },
-      "slots": ["Talent", "Missile", "Modification", "Modification"],
+      "slots": [
+        "Talent",
+        "Modification",
+        "Modification",
+        "Torpedo"
+      ],
       "standard": true,
       "extended": true,
-      "keywords": ["Mandalorian"],
-      "epic": true
+      "keywords": [
+        "Mandalorian"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 610
+    },
+    {
+      "uid": "PSV0563",
+      "name": "Fenn Rau",
+      "caption": "Armed and Dangerous",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 17,
+      "loadout": 0,
+      "xws": "fennrau-armedanddangerous",
+      "ability": "While you defend or perform an attack, if the attack range is 1, you may roll 1 additional die.",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/fennrau-armedanddangerous.png",
+      "shipAbility": {
+        "name": "Concordia Faceoff",
+        "text": "While you defend, if the attack range is 1 and you are in the attacker's [Front Arc], change 1 result to an [Evade] result."
+      },
+      "shipStats": [
+        {
+          "arc": "Front Arc",
+          "type": "attack",
+          "value": 3
+        },
+        {
+          "type": "agility",
+          "value": 3
+        },
+        {
+          "type": "hull",
+          "value": 5
+        }
+      ],
+      "standardLoadout": [
+        "fearless",
+        "adaptablepowersystems-armedanddangerous",
+        "beskarreinforcedplating"
+      ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/fennrau-armedanddangerous.png",
+      "standard": true,
+      "extended": true,
+      "keywords": [
+        "Mandalorian"
+      ],
+      "epic": true,
+      "slots": [],
+      "restricted": 0,
+      "id": 719
     }
   ]
 }

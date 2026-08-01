@@ -21,71 +21,135 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": ["YT24"],
+  "dialCodes": [
+    "YT24"
+  ],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 4 }
+    {
+      "arc": "Double Turret Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
-    { "difficulty": "White", "type": "Rotate Arc" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "type": "Rotate Arc"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_YT-2400.png",
   "pilots": [
     {
+      "uid": "PSV0649",
       "name": "“Leebo”",
       "caption": "He Thinks He's Funny",
       "initiative": 3,
       "limited": 1,
-      "cost": 6,
+      "cost": 15,
       "xws": "leebo-swz103-sl-scumandvillainy",
       "ability": "At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3.",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Rotate Arc" },
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Rotate Arc"
+          },
           "type": "Lock"
         },
-        { "difficulty": "Red", "type": "Barrel Roll" },
-        { "difficulty": "White", "type": "Rotate Arc" }
+        {
+          "difficulty": "Red",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
       ],
       "shipAbility": {
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, you roll 1 fewer die. While you defend at range 1, you roll 1 fewer defense die."
       },
-      "standardLoadout": ["efficientprocessing-swz103", "seekermissiles-swz103", "outrider"],
+      "standardLoadout": [
+        "efficientprocessing-swz103",
+        "seekermissiles-swz103",
+        "outrider"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leebo.png",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/leebo-hethinkshesfunny-scumandvillainy.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid", "Freighter"],
-      "epic": true
+      "keywords": [
+        "Droid",
+        "Freighter"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 653
     },
     {
+      "uid": "PSV0650",
       "name": "Dash Rendar",
       "caption": "In it for Himself",
       "initiative": 5,
       "limited": 1,
-      "cost": 6,
+      "cost": 16,
       "xws": "dashrendar-swz103-sl-scumandvillainy",
       "ability": "After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1.",
       "shipAbility": {
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, you roll 1 fewer die. While you defend at range 1, you roll 1 fewer defense die."
       },
-      "standardLoadout": ["mercenary-swz103", "seekermissiles-swz103", "leebo-swz103", "outrider"],
+      "standardLoadout": [
+        "mercenary-swz103",
+        "seekermissiles-swz103",
+        "leebo-swz103",
+        "outrider"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dashrendar.png",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dashrendar-initforhimself-scumandvillainy.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid", "Freighter"],
-      "epic": true
+      "keywords": [
+        "Droid",
+        "Freighter"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 650
     }
   ]
 }

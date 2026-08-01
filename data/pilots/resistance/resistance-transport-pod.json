@@ -19,45 +19,94 @@
     "3KR",
     "4FR"
   ],
-  "dialCodes": ["RTP"],
+  "dialCodes": [
+    "RTP"
+  ],
   "faction": "resistance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 1 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "Red", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
-    { "difficulty": "Red", "type": "Jam" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Jam"
+    }
   ],
   "pilots": [
     {
+      "uid": "PRE0477",
       "name": "BB-8",
       "xws": "bb8",
       "initiative": 3,
       "limited": 1,
       "standard": true,
       "extended": true,
-      "cost": 2,
-      "loadout": 4,
-      "slots": ["Tech", "Tech", "Crew", "Modification"],
+      "cost": 7,
+      "loadout": 9,
+      "slots": [
+        "Crew",
+        "Modification",
+        "Tech"
+      ],
       "ability": "During the System Phase, you may perform a red [Barrel Roll] or [Boost] action.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bb8.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/bb8.png",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "Red", "type": "Lock" },
-        { "difficulty": "Red", "type": "Barrel Roll" },
-        { "difficulty": "Red", "type": "Jam" }
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Jam"
+        }
       ],
       "caption": "Full of Surprises",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 349
     },
     {
+      "uid": "PRE0478",
       "name": "Rose Tico",
       "xws": "rosetico",
       "initiative": 3,
@@ -65,15 +114,23 @@
       "caption": "Earnest Engineer",
       "standard": true,
       "extended": true,
-      "cost": 3,
-      "loadout": 9,
-      "slots": ["Talent", "Tech", "Crew", "Modification", "Modification"],
+      "cost": 8,
+      "loadout": 14,
+      "slots": [
+        "Crew",
+        "Modification",
+        "Tech",
+        "Talent"
+      ],
       "ability": "While you defend or perform an attack, you may reroll up to 1 of your results for each other friendly ship in the attack arc.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rosetico.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/rosetico.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 345
     },
     {
+      "uid": "PRE0479",
       "name": "Vi Moradi",
       "xws": "vimoradi",
       "initiative": 1,
@@ -81,16 +138,25 @@
       "caption": "Starling",
       "standard": false,
       "extended": true,
-      "cost": 3,
-      "loadout": 6,
-      "slots": ["Tech", "Crew", "Modification"],
+      "cost": 6,
+      "loadout": 5,
+      "slots": [
+        "Crew",
+        "Modification",
+        "Tech"
+      ],
       "ability": "Setup: After placing forces, assign the Compromising Intel condition to 1 enemy ship.",
-      "conditions": ["compromisingintel"],
+      "conditions": [
+        "compromisingintel"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vimoradi.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/vimoradi.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 348
     },
     {
+      "uid": "PRE0480",
       "name": "Finn",
       "xws": "finn",
       "initiative": 2,
@@ -98,13 +164,20 @@
       "caption": "Big Deal",
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 15,
-      "slots": ["Talent", "Talent", "Tech", "Crew", "Modification"],
+      "cost": 10,
+      "loadout": 16,
+      "slots": [
+        "Crew",
+        "Modification",
+        "Tech",
+        "Talent"
+      ],
       "ability": "While you defend or perform an attack, you may add 1 blank result, or you may gain 1 strain token to add 1 focus result instead.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/finn.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/finn.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 350
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_Resistance_Transport_Cockpit_Pod.png"

@@ -1,5 +1,5 @@
 {
-  "version": "3.9.1",
+  "version": "4.0",
   "damagedecks": ["data/damage-decks/core.json"],
   "factions": ["data/factions/factions.json"],
   "stats": ["data/stats/stats.json"],
@@ -50,6 +50,7 @@
         "data/pilots/scum-and-villainy/m12-l-kimogila-fighter.json",
         "data/pilots/scum-and-villainy/m3-a-interceptor.json",
         "data/pilots/scum-and-villainy/modified-tie-ln-fighter.json",
+        "data/pilots/scum-and-villainy/naboo-royal-n-1-starfighter.json",
         "data/pilots/scum-and-villainy/quadrijet-transfer-spacetug.json",
         "data/pilots/scum-and-villainy/rogue-class-starfighter.json",
         "data/pilots/scum-and-villainy/scurrg-h-6-bomber.json",
@@ -87,6 +88,7 @@
     {
       "faction": "resistance",
       "ships": [
+        "data/pilots/resistance/cr90-corellian-corvette.json",
         "data/pilots/resistance/gr-75-medium-transport.json",
         "data/pilots/resistance/mg-100-starfortress-sf-17.json",
         "data/pilots/resistance/scavenged-yt-1300.json",
@@ -95,7 +97,8 @@
         "data/pilots/resistance/resistance-transport.json",
         "data/pilots/resistance/resistance-transport-pod.json",
         "data/pilots/resistance/fireball.json",
-        "data/pilots/resistance/bta-nr2-y-wing.json"
+        "data/pilots/resistance/bta-nr2-y-wing.json",
+        "data/pilots/resistance/bta-nr2-w-y-wing.json"
       ]
     },
     {
@@ -133,6 +136,7 @@
     {
       "faction": "galacticrepublic",
       "ships": [
+        "data/pilots/galactic-republic/gozanti-class-cruiser.json",
         "data/pilots/galactic-republic/arc-170-starfighter.json",
         "data/pilots/galactic-republic/delta-7-aethersprite.json",
         "data/pilots/galactic-republic/delta-7b-aethersprite.json",

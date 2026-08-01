@@ -22,30 +22,58 @@
     "5FW",
     "5KR"
   ],
-  "dialCodes": ["DTF"],
+  "dialCodes": [
+    "DTF"
+  ],
   "faction": "separatistalliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Calculate" },
-    { "difficulty": "White", "type": "Evade" },
-    { "difficulty": "White", "type": "Lock" },
+    {
+      "difficulty": "White",
+      "type": "Calculate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
     {
       "difficulty": "White",
       "type": "Barrel Roll",
-      "linked": { "difficulty": "Red", "type": "Evade" }
+      "linked": {
+        "difficulty": "Red",
+        "type": "Evade"
+      }
     },
     {
       "difficulty": "White",
       "type": "Boost",
-      "linked": { "difficulty": "Red", "type": "Calculate" }
+      "linked": {
+        "difficulty": "Red",
+        "type": "Calculate"
+      }
     }
   ],
   "pilots": [
     {
+      "uid": "PSA0669",
       "name": "DIS-T81",
       "initiative": 4,
       "limited": 1,
@@ -58,22 +86,28 @@
       "extended": true,
       "ability": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship in the enemy ship's firing arc to change 1 [Focus] result to an [Evade] or [Hit] result.",
       "caption": "Clever Circuits",
-      "cost": 3,
-      "loadout": 3,
+      "cost": 10,
+      "loadout": 14,
       "image": "https://infinitearenas.com/xw2/images/pilots/dist81.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dist81.png",
       "slots": [
         "Talent",
         "Sensor",
+        "Modification",
+        "Modification",
+        "Missile",
         "Cannon",
-        "Modification",
-        "Modification",
         "Configuration"
       ],
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 422
     },
     {
+      "uid": "PSA0670",
       "name": "Phlac-Arphocc Prototype",
       "xws": "phlacarphoccprototype",
       "initiative": 5,
@@ -86,15 +120,28 @@
       "standard": false,
       "extended": true,
       "ability": "During the System Phase, you may spend your lock on a ship to look at that ship's dial.",
-      "cost": 3,
-      "loadout": 6,
+      "cost": 10,
+      "loadout": 9,
       "image": "https://infinitearenas.com/xw2/images/pilots/phlacarphoccprototype.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/phlacarphoccprototype.png",
-      "slots": ["Talent", "Sensor", "Missile", "Modification", "Modification", "Configuration"],
-      "keywords": ["Droid"],
-      "epic": true
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Modification",
+        "Modification",
+        "Missile",
+        "Cannon",
+        "Configuration"
+      ],
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 423
     },
     {
+      "uid": "PSA0671",
       "name": "Fearsome Predator",
       "xws": "fearsomepredator",
       "initiative": 3,
@@ -104,19 +151,34 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "caption": "Fixated Pursuit",
-      "conditions": ["fearfulprey"],
+      "conditions": [
+        "fearfulprey"
+      ],
       "standard": true,
       "extended": true,
       "ability": "Setup: After placing forces, assign the Fearful Prey condition to 1 enemy ship.",
-      "cost": 3,
-      "loadout": 3,
+      "cost": 9,
+      "loadout": 6,
       "image": "https://infinitearenas.com/xw2/images/pilots/fearsomepredator.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/fearsomepredator.png",
-      "slots": ["Talent", "Sensor", "Missile", "Modification", "Modification", "Configuration"],
-      "keywords": ["Droid"],
-      "epic": true
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Modification",
+        "Modification",
+        "Missile",
+        "Cannon",
+        "Configuration"
+      ],
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 420
     },
     {
+      "uid": "PSA0672",
       "name": "DIS-347",
       "xws": "dis347",
       "initiative": 3,
@@ -129,15 +191,28 @@
       "standard": true,
       "extended": true,
       "ability": "At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock.",
-      "cost": 3,
-      "loadout": 4,
+      "cost": 9,
+      "loadout": 8,
       "image": "https://infinitearenas.com/xw2/images/pilots/dis347.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dis347.png",
-      "slots": ["Talent", "Sensor", "Missile", "Modification", "Modification", "Configuration"],
-      "keywords": ["Droid"],
-      "epic": true
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Modification",
+        "Modification",
+        "Missile",
+        "Cannon",
+        "Configuration"
+      ],
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 421
     },
     {
+      "uid": "PSA0673",
       "name": "Separatist Interceptor",
       "xws": "separatistinterceptor",
       "initiative": 3,
@@ -149,15 +224,28 @@
       "text": "Deployed late in the Clone Wars, these aggressive starfighters, and the destructive buzz droids they carry, pose a serious threat to even veteran Jedi pilots.",
       "standard": true,
       "extended": true,
-      "cost": 3,
-      "loadout": 3,
+      "cost": 9,
+      "loadout": 8,
       "image": "https://infinitearenas.com/xw2/images/pilots/separatistinterceptor.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/separatistinterceptor.png",
-      "slots": ["Talent", "Missile", "Modification", "Configuration"],
-      "keywords": ["Droid"],
-      "epic": true
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Modification",
+        "Modification",
+        "Missile",
+        "Cannon",
+        "Configuration"
+      ],
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 425
     },
     {
+      "uid": "PSA0674",
       "name": "Colicoid Interceptor",
       "xws": "colicoidinterceptor",
       "initiative": 1,
@@ -169,20 +257,32 @@
       "text": "Designed by the Colicoid Creation Nest and manufactured by Phlac-Arphocc Automata Industries, the heuristic processors of Droid Tri-Fighters allow these deadly ships to analyze and adapt to enemy tactics in-flight.",
       "standard": true,
       "extended": true,
-      "cost": 3,
-      "loadout": 4,
+      "cost": 8,
+      "loadout": 5,
       "image": "https://infinitearenas.com/xw2/images/pilots/colicoidinterceptor.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/colicoidinterceptor.png",
-      "slots": ["Talent", "Modification", "Configuration"],
-      "keywords": ["Droid"],
-      "epic": true
+      "slots": [
+        "Sensor",
+        "Modification",
+        "Modification",
+        "Missile",
+        "Cannon",
+        "Configuration"
+      ],
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 424
     },
     {
+      "uid": "PSA0675",
       "name": "DIS-347",
       "caption": "Siege of Coruscant",
       "initiative": 3,
       "limited": 1,
-      "cost": 3,
+      "cost": 9,
       "xws": "dis347-siegeofcoruscant",
       "ability": "At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock.",
       "shipAbility": {
@@ -190,19 +290,30 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dis347-siegeofcoruscant.png",
-      "standardLoadout": ["marksmanship", "afterburners", "contingencyprotocol-siegeofcoruscant"],
+      "standardLoadout": [
+        "marksmanship",
+        "afterburners",
+        "contingencyprotocol-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dis347.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 588
     },
     {
+      "uid": "PSA0676",
       "name": "DIS-T81",
       "caption": "Siege of Coruscant",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 10,
       "xws": "dist81-siegeofcoruscant",
       "ability": "While you defend or perform an attack, you may reroll any number of your dice. Then if you were defending, gain 1 strain token for each die that was rerolled. If you were attacking, gain 1 deplete token for each die that was rerolled instead.",
       "shipAbility": {
@@ -210,19 +321,30 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dist81-siegeofcoruscant.png",
-      "standardLoadout": ["outmaneuver", "afterburners", "contingencyprotocol-siegeofcoruscant"],
+      "standardLoadout": [
+        "outmaneuver",
+        "afterburners",
+        "contingencyprotocol-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dist81.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 589
     },
     {
+      "uid": "PSA0677",
       "name": "Phlac-Arphocc Prototype",
       "caption": "Siege of Coruscant",
       "initiative": 5,
       "limited": 2,
-      "cost": 4,
+      "cost": 10,
       "xws": "phlacarphoccprototype-siegeofcoruscant",
       "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], gain a calculate token",
       "shipAbility": {
@@ -230,14 +352,25 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/phlacarphoccprototype-siegeofcoruscant.png",
-      "standardLoadout": ["afterburners", "contingencyprotocol-siegeofcoruscant", "evasionsequence7-siegeofcoruscant"],
+      "standardLoadout": [
+        "afterburners",
+        "contingencyprotocol-siegeofcoruscant",
+        "evasionsequence7-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/phlacarphoccprototype.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 590
     },
     {
+      "uid": "PSA0678",
       "name": "Volan Das",
       "xws": "volandas",
       "initiative": 5,
@@ -247,31 +380,96 @@
         "text": "This ship is not affected by the Standardized restriction. Reduce the difficulty of your speed 2 and 3 bank [[Bank Left] or [Bank Right]] maneuvers. Increase the difficulty of your speed 3 turn [[Turn Left] or [Turn Right]] maneuvers."
       },
       "shipActions": [
-        { "difficulty": "White", "type": "Focus" },
-        { "difficulty": "White", "type": "Evade" },
-        { "difficulty": "White", "type": "Lock" },
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Evade"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
         {
           "difficulty": "White",
           "type": "Barrel Roll",
-          "linked": { "difficulty": "Red", "type": "Evade" }
+          "linked": {
+            "difficulty": "Red",
+            "type": "Evade"
+          }
         },
         {
           "difficulty": "White",
           "type": "Boost",
-          "linked": { "difficulty": "Red", "type": "Focus" }
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
         }
       ],
       "caption": "Impatient Invader",
       "standard": true,
       "extended": true,
       "ability": "After you fully execute a red maneuver, you may chose an enemy ship at range 1. The chosen ship gains 1 strain token and you may remove 1 stress token.",
-      "cost": 4,
-      "loadout": 12,
+      "cost": 10,
+      "loadout": 11,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/volandas.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/volandas.png",
-      "slots": ["Talent", "Missile", "Illicit", "Modification"],
-      "keywords": ["Bounty Hunter"],
-      "epic": true
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Modification",
+        "Modification",
+        "Missile",
+        "Cannon",
+        "Illicit"
+      ],
+      "keywords": [
+        "Bounty Hunter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 614
+    },
+    {
+      "uid": "PSA0679",
+      "name": "DIS-L9B2",
+      "initiative": 6,
+      "limited": 1,
+      "xws": "disl9b2-legendsandrelics",
+      "shipAbility": {
+        "name": "Networked Calculations",
+        "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
+      },
+      "standard": true,
+      "extended": true,
+      "ability": "At the start of the Engagement Phase, if there is an enemy ship in your [Bullseye Arc], you must spend 1 [Charge]. During the Engagement Phase, if your [Charge] is active, treat your initiative value as 1.",
+      "caption": "Calculated Risk",
+      "cost": 11,
+      "loadout": 11,
+      "image": "https://infinitearenas.com/xw2xwa/images/pilots/disl9b2-legendsandrelics.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/disl9b2-legendsandrelics.png",
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "slots": [
+        "Talent",
+        "Sensor",
+        "Modification",
+        "Modification",
+        "Missile",
+        "Cannon",
+        "Configuration"
+      ],
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 422
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_Droid_Tri-Fighter.png"

@@ -1,6 +1,7 @@
 {
   "name": "Gauntlet Fighter",
   "xws": "gauntletfighter",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_GauntletFighter.png",
   "size": "Large",
   "dial": [
     "0OR",
@@ -18,28 +19,60 @@
     "3YR",
     "4FW"
   ],
-  "dialCodes": ["GtF"],
+  "dialCodes": [
+    "GtF"
+  ],
   "faction": "rebelalliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Rear Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 9 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Rear Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 9
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "Red", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Coordinate" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    }
   ],
   "pilots": [
     {
+      "uid": "PRB0349",
       "xws": "chopper-gauntletfighter",
       "name": "“Chopper”",
       "ability": "At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.",
-      "cost": 6,
-      "loadout": 10,
+      "cost": 15,
+      "loadout": 16,
       "initiative": 2,
       "limited": 1,
       "standard": true,
@@ -48,70 +81,94 @@
       "slots": [
         "Crew",
         "Gunner",
-        "Device",
         "Illicit",
         "Modification",
         "Modification",
+        "Payload",
         "Configuration",
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/chopper-gauntletfighter.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/chopper-gauntletfighter.png",
-      "keywords": ["Droid", "Spectre"],
-      "caption": "Spectre-3"
+      "keywords": [
+        "Droid",
+        "Spectre"
+      ],
+      "caption": "Spectre-3",
+      "restricted": 0,
+      "id": 519
     },
     {
+      "uid": "PRB0350",
       "xws": "ezrabridger-gauntletfighter",
       "name": "Ezra Bridger",
-      "cost": 6,
-      "loadout": 12,
+      "cost": 16,
+      "loadout": 15,
       "initiative": 3,
       "limited": 1,
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
-      "force": { "side": ["light"], "value": 1, "recovers": 1 },
+      "force": {
+        "side": [
+          "light"
+        ],
+        "value": 1,
+        "recovers": 1
+      },
       "standard": true,
       "extended": true,
       "epic": true,
       "slots": [
-        "Force Power",
-        "Talent",
         "Crew",
         "Gunner",
-        "Device",
         "Illicit",
         "Modification",
         "Modification",
+        "Payload",
         "Configuration",
-        "Title"
+        "Title",
+        "Force Power",
+        "Force Power"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ezrabridger-gauntletfighter.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/ezrabridger-gauntletfighter.png",
-      "keywords": ["Light Side", "Spectre"],
-      "caption": "Spectre-6"
+      "keywords": [
+        "Light Side",
+        "Spectre"
+      ],
+      "caption": "Spectre-6",
+      "restricted": 0,
+      "id": 520
     },
     {
+      "uid": "PRB0351",
       "xws": "mandalorianresistancepilot",
       "name": "Mandalorian Resistance Pilot",
-      "cost": 7,
-      "loadout": 10,
+      "cost": 15,
+      "loadout": 18,
       "initiative": 2,
       "limited": 0,
       "standard": true,
       "extended": true,
       "epic": true,
       "slots": [
-        "Talent",
         "Crew",
         "Gunner",
-        "Device",
         "Illicit",
         "Modification",
-        "Configuration"
+        "Modification",
+        "Payload",
+        "Configuration",
+        "Title",
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mandalorianresistancepilot.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/mandalorianresistancepilot.png",
-      "keywords": ["Mandalorian"],
-      "caption": "Clan Loyalist"
+      "keywords": [
+        "Mandalorian"
+      ],
+      "caption": "Clan Loyalist",
+      "restricted": 0,
+      "id": 518
     }
   ]
 }

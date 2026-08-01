@@ -20,28 +20,54 @@
     "3KR",
     "4FR"
   ],
-  "dialCodes": ["ShS"],
+  "dialCodes": [
+    "ShS"
+  ],
   "faction": "rebelalliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "arc": "Rear Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 4 },
-    { "type": "shields", "value": 1 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "arc": "Rear Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Coordinate" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Coordinate"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Sheathipede.png",
   "pilots": [
     {
+      "uid": "PRB0383",
       "name": "“Zeb” Orrelios",
       "caption": "Spectre-4",
       "initiative": 2,
       "limited": 1,
-      "cost": 3,
-      "loadout": 3,
+      "cost": 7,
+      "loadout": 4,
       "xws": "zeborrelios-sheathipedeclassshuttle",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://infinitearenas.com/xw2/images/pilots/zeborrelios-sheathipedeclassshuttle.png",
@@ -49,66 +75,111 @@
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
-      "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
+      "slots": [
+        "Astromech",
+        "Crew",
+        "Modification",
+        "Title"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zeborrelios-sheathipedeclassshuttle.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Spectre"],
-      "epic": true
+      "keywords": [
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 71
     },
     {
+      "uid": "PRB0384",
       "name": "AP-5",
       "caption": "Escaped Analyst Droid",
       "initiative": 1,
       "limited": 1,
-      "cost": 3,
-      "loadout": 5,
+      "cost": 8,
+      "loadout": 6,
       "xws": "ap5",
       "ability": "While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions.",
       "image": "https://infinitearenas.com/xw2/images/pilots/ap5.png",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Coordinate" }
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Coordinate"
+        }
       ],
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
-      "slots": ["Crew", "Astromech", "Modification", "Title"],
+      "slots": [
+        "Astromech",
+        "Crew",
+        "Modification",
+        "Title"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ap5.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid", "Spectre"],
-      "epic": true
+      "keywords": [
+        "Droid",
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 72
     },
     {
+      "uid": "PRB0385",
       "name": "Ezra Bridger",
       "caption": "Spectre-6",
       "initiative": 3,
       "limited": 1,
-      "cost": 4,
-      "loadout": 6,
+      "cost": 9,
+      "loadout": 9,
       "xws": "ezrabridger-sheathipedeclassshuttle",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade]/[Hit] results.",
       "image": "https://infinitearenas.com/xw2/images/pilots/ezrabridger-sheathipedeclassshuttle.png",
-      "force": { "value": 1, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 1,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "shipAbility": {
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
-      "slots": ["Crew", "Astromech", "Modification", "Title", "Force Power"],
+      "slots": [
+        "Astromech",
+        "Crew",
+        "Modification",
+        "Title",
+        "Force Power"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ezrabridger-sheathipedeclassshuttle.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Light Side", "Spectre"],
-      "epic": true
+      "keywords": [
+        "Light Side",
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 70
     },
     {
+      "uid": "PRB0386",
       "name": "Fenn Rau",
       "caption": "Reluctant Rebel",
       "initiative": 6,
       "limited": 1,
-      "cost": 5,
+      "cost": 11,
       "loadout": 10,
       "xws": "fennrau-sheathipedeclassshuttle",
       "ability": "Before an enemy ship in your firing arc engages, if you are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.",
@@ -117,12 +188,23 @@
         "name": "Comms Shuttle",
         "text": "While you are docked, your carrier ship gains [Coordinate]. Before your carrier ship activates, it may perform a [Coordinate] action."
       },
-      "slots": ["Talent", "Crew", "Astromech", "Modification", "Title"],
+      "slots": [
+        "Astromech",
+        "Crew",
+        "Modification",
+        "Title",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/fennrau-sheathipedeclassshuttle.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Mandalorian", "Spectre"],
-      "epic": true
+      "keywords": [
+        "Mandalorian",
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 69
     }
   ]
 }

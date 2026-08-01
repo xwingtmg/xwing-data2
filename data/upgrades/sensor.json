@@ -1,5 +1,6 @@
 [
   {
+    "uid": "UGN1173",
     "name": "Advanced Sensors",
     "limited": 0,
     "xws": "advancedsensors",
@@ -8,17 +9,23 @@
         "title": "Advanced Sensors",
         "type": "Sensor",
         "ability": "After you reveal your dial, you may perform 1 action. If you do, you cannot perform another action during your activation.",
-        "slots": ["Sensor"],
+        "slots": [
+          "Sensor"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/advancedsensors.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/advancedsensors.png"
       }
     ],
-    "cost": { "value": 12 },
+    "cost": {
+      "value": 8
+    },
     "standard": false,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1174",
     "name": "Collision Detector",
     "limited": 0,
     "xws": "collisiondetector",
@@ -27,18 +34,52 @@
         "title": "Collision Detector",
         "type": "Sensor",
         "ability": "While you boost or barrel roll, you can move through and overlap obstacles. After you move through or overlap an obstacle, you may spend 1 [Charge] to ignore its effects until the end of the round.",
-        "slots": ["Sensor"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Sensor"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "image": "https://infinitearenas.com/xw2/images/upgrades/collisiondetector.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/collisiondetector.png"
       }
     ],
-    "cost": { "value": 7 },
+    "cost": {
+      "value": 7
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1175",
+    "name": "Blindspot Targeter",
+    "limited": 0,
+    "xws": "blindspottargeter-legendsandrelics",
+    "sides": [
+      {
+        "title": "Blindspot Targeter",
+        "type": "Sensor",
+        "ability": "While you perform a primary attack, if you are not in the defender's firing arc, you may change 1 [Focus] result to a [Hit] result.",
+        "slots": [
+          "Sensor"
+        ],
+        "image": "https://infinitearenas.com/xw2/images/upgrades/blindspottargeter-legendsandrelics.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/blindspottargeter.png"
+      }
+    ],
+    "cost": {
+      "value": 8
+    },
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1176",
     "name": "Fire-Control System",
     "limited": 0,
     "xws": "firecontrolsystem",
@@ -47,17 +88,23 @@
         "title": "Fire-Control System",
         "type": "Sensor",
         "ability": "While you perform an attack, if you have a lock on the defender, you may reroll 1 attack die. If you do, you cannot spend your lock during this attack.",
-        "slots": ["Sensor"],
+        "slots": [
+          "Sensor"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/firecontrolsystem.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/firecontrolsystem.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1177",
     "name": "Trajectory Simulator",
     "limited": 0,
     "xws": "trajectorysimulator",
@@ -66,17 +113,23 @@
         "title": "Trajectory Simulator",
         "type": "Sensor",
         "ability": "During the System Phase, if you would drop or launch a bomb, you may launch it using the [5 [Straight]] template instead.",
-        "slots": ["Sensor"],
+        "slots": [
+          "Sensor"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/trajectorysimulator.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/trajectorysimulator.png"
       }
     ],
-    "cost": { "value": 8 },
+    "cost": {
+      "value": 8
+    },
     "standard": false,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 2
   },
   {
+    "uid": "UGN1178",
     "name": "Passive Sensors",
     "limited": 0,
     "xws": "passivesensors",
@@ -85,36 +138,52 @@
         "ability": "Action: Spend 1 [Charge]. You can only perform this action in your Perform Action step. While your [Charge] is inactive, you cannot be coordinated. Before you engage, if your [Charge] is inactive, you may perform a [Calculate] or [Lock] action.",
         "title": "Passive Sensors",
         "type": "Sensor",
-        "slots": ["Sensor"],
-        "charges": { "value": 1, "recovers": 1 },
+        "slots": [
+          "Sensor"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 1
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/passivesensors.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/passivesensors.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 5
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1179",
     "name": "Blank Signature",
     "limited": 0,
     "xws": "blanksignature-battleoverendor",
     "sides": [
       {
         "title": "Blank Signature",
-        "charges": { "value": 1, "recovers": 1 },
+        "charges": {
+          "value": 1,
+          "recovers": 1
+        },
         "type": "Sensor",
         "ability": "While defending, if you are not locked by the attacker, you may spend 1 [Charge] to change 1 [Focus] result to an [Evade] result.",
-        "slots": ["Sensor"]
+        "slots": [
+          "Sensor"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1180",
     "name": "Long-Range Scanners",
     "limited": 0,
     "xws": "longrangescanners-alphaclassstarwing",
@@ -122,17 +191,24 @@
       {
         "title": "Long-Range Scanners",
         "type": "Sensor",
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "ability": "Before you perform a [Lock] action, you may spend 1 [Charge]. If you do, you may acquire a lock on an object at any range during that action.",
-        "slots": ["Sensor"]
+        "slots": [
+          "Sensor"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1181",
     "name": "Relay System",
     "limited": 0,
     "xws": "relaysystem-tiephphantom",
@@ -141,12 +217,40 @@
         "title": "Relay System",
         "type": "Sensor",
         "ability": "After a friendly ship at range 0-2 performs a [Lock] action, you may acquire a lock on the same object. After you perform an attack that hits, you may spend a lock you have on the defender. If you do, another friendly ship at range 0-1 may acquire a lock on the defender.",
-        "slots": ["Sensor"]
+        "slots": [
+          "Sensor"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1182",
+    "name": "Homing Beacon",
+    "limited": 0,
+    "xws": "homingbeacon-armedanddangerous",
+    "sides": [
+      {
+        "title": "Homing Beacon",
+        "type": "Sensor",
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "ability": "While you perform a [lock] action, you may spend 1 [charge] to ignore range restrictions.\n\nAfter you fully execute an advanced maneuver, if there is an enemy ship at range 1-2 in your [Front Arc], you may spend 1 [Charge] to acquire a lock on that ship.",
+        "slots": [
+          "Sensor"
+        ]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "restricted": 0
   }
 ]

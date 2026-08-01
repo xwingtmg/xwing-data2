@@ -20,27 +20,63 @@
     "4KR",
     "5FW"
   ],
-  "dialCodes": ["TAS"],
+  "dialCodes": [
+    "TAS"
+  ],
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 10 },
-    { "type": "shields", "value": 4, "recovers": 1 },
-    { "type": "energy", "value": 3, "recovers": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 10
+    },
+    {
+      "type": "shields",
+      "value": 4,
+      "recovers": 1
+    },
+    {
+      "type": "energy",
+      "value": 3,
+      "recovers": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "Red", "type": "Evade" },
-    { "difficulty": "Red", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Coordinate" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    }
   ],
   "pilots": [
     {
+      "uid": "PSA0722",
       "name": "Colicoid Destroyer",
       "initiative": 8,
-      "cost": 85,
-      "loadout": 0,
+      "cost": 25,
+      "loadout": 40,
       "limited": 0,
       "image": "https://infinitearenas.com/xw2/images/pilots/colicoiddestroyer.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/colicoiddestroyer.png",
@@ -65,7 +101,68 @@
         "Team",
         "Cargo",
         "Title"
-      ]
+      ],
+      "restricted": 0,
+      "id": 475
+    },
+    {
+      "uid": "PSA0723",
+      "name": "Asajj Ventress",
+      "caption": "Trident",
+      "initiative": 8,
+      "engagement": 1,
+      "limited": 1,
+      "cost": 19,
+      "xws": "asajjventress-epicsl",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/asajjventress-epicsl.png",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/asajjventress-epicsl.png",
+      "shipAbility": {
+        "name": "Tractor Grasp",
+        "text": "After you perform a Tractor Tentacles attack that hits, the defender gains 1 tractor token."
+      },
+      "force": {
+        "value": 1,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Evade"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Coordinate"
+        }
+      ],
+      "text": "",
+      "standard": false,
+      "extended": false,
+      "epic": true,
+      "standardLoadout": [
+        "aqseriesbattledroids-epicsl",
+        "tractortentacles-epicsl",
+        "drillbeak-epicsl",
+        "trident-epicsl"
+      ],
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 690
     }
   ]
 }

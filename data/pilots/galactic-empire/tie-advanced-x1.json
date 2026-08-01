@@ -22,62 +22,97 @@
     "4KR",
     "5FW"
   ],
-  "dialCodes": ["TAx"],
+  "dialCodes": [
+    "TAx"
+  ],
   "faction": "galacticempire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Barrel Roll"
+      },
       "type": "Focus"
     },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Barrel Roll" }
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEAdvanced.png",
   "pilots": [
     {
+      "uid": "PEM0094",
       "name": "Darth Vader",
       "caption": "Black Leader",
       "initiative": 6,
       "limited": 1,
-      "cost": 7,
-      "loadout": 21,
+      "cost": 16,
+      "loadout": 10,
       "xws": "darthvader",
       "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
       "image": "https://infinitearenas.com/xw2/images/pilots/darthvader.png",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
       "slots": [
-        "Sensor",
         "Missile",
-        "Modification",
+        "Sensor",
         "Modification",
         "Force Power",
-        "Force Power",
-        "Talent",
-        "Tech"
+        "Force Power"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "Sith", "TIE"],
-      "epic": true
+      "keywords": [
+        "Dark Side",
+        "Sith",
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 173
     },
     {
+      "uid": "PEM0095",
       "name": "Maarek Stele",
       "caption": "Servant of the Empire",
       "initiative": 5,
       "limited": 1,
-      "cost": 4,
+      "cost": 11,
       "loadout": 10,
       "xws": "maarekstele",
       "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
@@ -86,19 +121,30 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Talent", "Talent", "Sensor", "Missile", "Modification"],
+      "slots": [
+        "Missile",
+        "Sensor",
+        "Modification",
+        "Talent",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 174
     },
     {
+      "uid": "PEM0096",
       "name": "Storm Squadron Ace",
       "initiative": 3,
       "limited": 0,
-      "cost": 4,
-      "loadout": 2,
+      "cost": 10,
+      "loadout": 9,
       "xws": "stormsquadronace",
       "text": "The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.",
       "image": "https://infinitearenas.com/xw2/images/pilots/stormsquadronace.png",
@@ -106,40 +152,59 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Sensor", "Talent", "Modification"],
+      "slots": [
+        "Missile",
+        "Sensor",
+        "Modification",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/stormsquadronace.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 177
     },
     {
+      "uid": "PEM0097",
       "name": "Tempest Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 4,
-      "loadout": 4,
+      "cost": 9,
+      "loadout": 5,
       "xws": "tempestsquadronpilot",
       "text": "The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.",
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Sensor", "Modification"],
+      "slots": [
+        "Missile",
+        "Sensor",
+        "Modification"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/tempestsquadronpilot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tempestsquadronpilot.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 178
     },
     {
+      "uid": "PEM0098",
       "name": "Ved Foslo",
       "caption": "Ambitious Engineer",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 8,
+      "cost": 10,
+      "loadout": 9,
       "xws": "vedfoslo",
       "ability": "While you execute a maneuver, you may execute a maneuver of the same bearing and difficulty of a speed 1 higher or lower instead.",
       "image": "https://infinitearenas.com/xw2/images/pilots/vedfoslo.png",
@@ -147,20 +212,30 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Talent", "Sensor", "Missile", "Modification"],
+      "slots": [
+        "Missile",
+        "Sensor",
+        "Modification",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vedfoslo.png",
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 175
     },
     {
+      "uid": "PEM0099",
       "name": "Zertik Strom",
       "caption": "Pitiless Administrator",
       "initiative": 3,
       "limited": 1,
-      "cost": 4,
-      "loadout": 14,
+      "cost": 10,
+      "loadout": 13,
       "xws": "zertikstrom",
       "ability": "During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship's damage cards.",
       "image": "https://infinitearenas.com/xw2/images/pilots/zertikstrom.png",
@@ -168,47 +243,88 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Sensor", "Missile", "Modification"],
+      "slots": [
+        "Missile",
+        "Sensor",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zertikstrom.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 176
     },
     {
+      "uid": "PEM0100",
       "name": "Darth Vader",
       "caption": "Battle of Yavin",
       "initiative": 6,
       "limited": 1,
-      "cost": 6,
+      "cost": 17,
       "xws": "darthvader-battleofyavin",
       "ability": "While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/darthvader-battleofyavin.png",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
       "shipStats": [
-        { "arc": "Front Arc", "type": "attack", "value": 2 },
-        { "type": "agility", "value": 3 },
-        { "type": "hull", "value": 3 },
-        { "type": "shields", "value": 3 }
+        {
+          "arc": "Front Arc",
+          "type": "attack",
+          "value": 2
+        },
+        {
+          "type": "agility",
+          "value": 3
+        },
+        {
+          "type": "hull",
+          "value": 3
+        },
+        {
+          "type": "shields",
+          "value": 3
+        }
       ],
-      "standardLoadout": ["marksmanship", "hate", "afterburners"],
+      "standardLoadout": [
+        "marksmanship",
+        "hate",
+        "afterburners"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "Sith", "TIE"],
-      "epic": true
+      "keywords": [
+        "Dark Side",
+        "Sith",
+        "TIE"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 564
     },
     {
+      "uid": "PEM0101",
       "name": "Juno Eclipse",
       "caption": "Corulag's Finest",
       "initiative": 5,
       "limited": 1,
-      "cost": 4,
-      "loadout": 8,
+      "cost": 11,
+      "loadout": 13,
       "xws": "junoeclipse",
       "ability": "After you perform an action, you may perform a red [Boost] action.",
       "image": "https://infinitearenas.com/xw2/images/pilots/junoeclipse.png",
@@ -217,46 +333,93 @@
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
-      "slots": ["Talent", "Tech", "Sensor", "Missile", "Modification"],
+      "slots": [
+        "Missile",
+        "Sensor",
+        "Modification",
+        "Talent",
+        "Talent"
+      ],
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 600
     },
     {
+      "uid": "PEM0102",
       "name": "Darth Vader",
       "caption": "Black Leader",
       "initiative": 6,
       "limited": 1,
-      "cost": 6,
+      "cost": 17,
       "xws": "darthvader-swz105",
       "ability": "After you perform an action, you may spend 1 [Force] to perform an action.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/darthvader-swz105.png",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
       "shipAbility": {
         "name": "Advanced Targeting Computer",
         "text": "While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1 [Hit] result to a [Critical Hit] result."
       },
       "shipStats": [
-        { "arc": "Front Arc", "type": "attack", "value": 2 },
-        { "type": "agility", "value": 3 },
-        { "type": "hull", "value": 3 },
-        { "type": "shields", "value": 3 }
+        {
+          "arc": "Front Arc",
+          "type": "attack",
+          "value": 2
+        },
+        {
+          "type": "agility",
+          "value": 3
+        },
+        {
+          "type": "hull",
+          "value": 3
+        },
+        {
+          "type": "shields",
+          "value": 3
+        }
       ],
-      "standardLoadout": ["hate", "ionmissiles", "afterburners"],
+      "standardLoadout": [
+        "hate",
+        "ionmissiles",
+        "afterburners"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "Sith", "TIE"],
-      "epic": true
+      "keywords": [
+        "Dark Side",
+        "Sith",
+        "TIE"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 630
     },
     {
+      "uid": "PEM0103",
       "name": "Maarek Stele",
       "caption": "Servant of the Empire",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
-      "standardLoadout": ["elusive", "outmaneuver", "afterburners"],
+      "cost": 13,
+      "standardLoadout": [
+        "elusive",
+        "outmaneuver",
+        "afterburners"
+      ],
       "xws": "maarekstele-swz105",
       "ability": "While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/maarekstele-swz105.png",
@@ -267,8 +430,14 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maarekstele.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 631
     }
   ]
 }

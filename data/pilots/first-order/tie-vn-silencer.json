@@ -21,156 +21,255 @@
     "4KR",
     "5FB"
   ],
-  "dialCodes": ["Tvn"],
+  "dialCodes": [
+    "Tvn"
+  ],
   "faction": "firstorder",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 4 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Barrel Roll" },
-    { "difficulty": "White", "type": "Boost" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_TIESilencer.png",
   "pilots": [
     {
+      "uid": "PFO0046",
       "name": "“Blackout”",
       "xws": "blackout",
       "caption": "Ill-Fated Test Pilot",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
-      "loadout": 12,
+      "cost": 15,
+      "loadout": 14,
       "ability": "While you perform an attack, if the attack is obstructed by an obstacle, the defender rolls 2 fewer defense dice.",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
       "slots": [
-        "Talent",
-        "Torpedo",
+        "Tech",
+        "Modification",
         "Missile",
-        "Tech",
-        "Tech",
-        "Configuration"
+        "Torpedo",
+        "Configuration",
+        "Talent"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/blackout.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blackout.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 237
     },
     {
+      "uid": "PFO0047",
       "name": "Kylo Ren",
       "xws": "kyloren",
       "caption": "Tormented Apprentice",
       "initiative": 5,
       "limited": 1,
-      "cost": 7,
-      "loadout": 24,
+      "cost": 16,
+      "loadout": 12,
       "ability": "After you defend, you may spend 1 [Force] to assign the I'll Show You the Dark Side condition to the attacker.",
-      "force": { "value": 2, "recovers": 1, "side": ["dark"] },
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "conditions": ["illshowyouthedarkside"],
-      "slots": ["Torpedo", "Missile", "Force Power", "Talent", "Tech", "Configuration"],
+      "conditions": [
+        "illshowyouthedarkside"
+      ],
+      "slots": [
+        "Tech",
+        "Modification",
+        "Missile",
+        "Torpedo",
+        "Configuration",
+        "Force Power"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/kyloren.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kyloren.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "TIE"],
-      "epic": true
+      "keywords": [
+        "Dark Side",
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 236
     },
     {
+      "uid": "PFO0048",
       "name": "First Order Test Pilot",
       "xws": "firstordertestpilot",
       "initiative": 4,
       "limited": 0,
-      "cost": 5,
-      "loadout": 5,
+      "cost": 12,
+      "loadout": 7,
       "text": "Engineered for incredible speed and precise handling, the TIE Silencer is devastating in the hands of those who can unlock its full potential. Any lesser pilot could easily be overwhelmed and lose control of the nimble craft.",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Torpedo", "Missile", "Tech", "Configuration"],
+      "slots": [
+        "Tech",
+        "Modification",
+        "Missile",
+        "Torpedo",
+        "Configuration",
+        "Talent"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/firstordertestpilot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/firstordertestpilot.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 287
     },
     {
+      "uid": "PFO0049",
       "name": "“Recoil”",
       "xws": "recoil",
       "caption": "Quantity Over Quality",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
-      "loadout": 10,
+      "cost": 13,
+      "loadout": 8,
       "ability": "While you are stressed, you may treat enemy ships in your [Front Arc] at range 0-1 as being in your [Bullseye Arc].",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Torpedo", "Missile", "Tech", "Configuration"],
+      "slots": [
+        "Tech",
+        "Modification",
+        "Missile",
+        "Torpedo",
+        "Configuration",
+        "Talent"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/recoil.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/recoil.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 284
     },
     {
+      "uid": "PFO0050",
       "name": "“Avenger”",
       "xws": "avenger",
       "caption": "Wrathful Wingmate",
       "initiative": 3,
       "limited": 1,
-      "cost": 5,
-      "loadout": 10,
+      "cost": 14,
+      "loadout": 17,
       "ability": "After another friendly ship is destroyed, you may perform an action, even while stressed.",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Talent", "Torpedo", "Missile", "Tech", "Configuration"],
+      "slots": [
+        "Tech",
+        "Modification",
+        "Missile",
+        "Torpedo",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/avenger.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/avenger.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 283
     },
     {
+      "uid": "PFO0051",
       "name": "Sienar-Jaemus Engineer",
       "xws": "sienarjaemusengineer",
       "initiative": 1,
       "limited": 0,
-      "cost": 5,
-      "loadout": 5,
+      "cost": 11,
+      "loadout": 7,
       "text": "Developed by Sienar-Jaemus Fleet Systems as a successor to the vaunted TIE Defender, the TIE/vn Silencer incorporates bleeding-edge technologies developed at research facilities hidden in the Unknown Regions.",
       "shipAbility": {
         "name": "Autothrusters",
         "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
       },
-      "slots": ["Tech", "Torpedo", "Missile", "Modification", "Configuration"],
+      "slots": [
+        "Tech",
+        "Missile",
+        "Torpedo",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/sienarjaemusengineer.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sienarjaemusengineer.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 286
     },
     {
+      "uid": "PFO0052",
       "name": "“Rush”",
       "xws": "rush",
       "initiative": 2,
@@ -182,14 +281,63 @@
       "caption": "Adrenaline Junkie",
       "standard": true,
       "extended": true,
-      "slots": ["Tech", "Talent", "Talent", "Missile", "Configuration"],
+      "slots": [
+        "Tech",
+        "Modification",
+        "Missile",
+        "Torpedo",
+        "Configuration"
+      ],
       "ability": "While you are damaged, treat your initiative as 6.",
-      "cost": 5,
+      "cost": 13,
       "loadout": 11,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rush.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/rush.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 386
+    },
+    {
+      "uid": "PFO0053",
+      "name": "Kylo Ren",
+      "xws": "kyloren-evacuationofdqar",
+      "caption": "Evacuation of D'Qar",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 17,
+      "loadout": 0,
+      "ability": "Before an enemy ship in your [Bullseye Arc] is dealt a facedown damage card, you may spend 1 [Force]. If you do, that damage card is dealt faceup instead.",
+      "shipAbility": {
+        "name": "Autothrusters",
+        "text": "After you perform an action, you may perform a red [Barrel Roll] or red [Boost] action."
+      },
+      "standardLoadout": [
+        "determination-evacuationofdqar",
+        "malice",
+        "protontorpedoes"
+      ],
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/kyloren-evacuationofdqar.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kyloren-evacuationofdqar.png",
+      "standard": true,
+      "extended": true,
+      "keywords": [
+        "Dark Side",
+        "TIE"
+      ],
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
+      "epic": true,
+      "slots": [],
+      "restricted": 0,
+      "id": 692
     }
   ]
 }

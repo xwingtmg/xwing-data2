@@ -20,27 +20,63 @@
     "4FR",
     "5FR"
   ],
-  "dialCodes": ["CRC-SC"],
+  "dialCodes": [
+    "CRC-SC"
+  ],
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 12 },
-    { "type": "shields", "value": 4, "recovers": 1 },
-    { "type": "energy", "value": 4, "recovers": 1 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 12
+    },
+    {
+      "type": "shields",
+      "value": 4,
+      "recovers": 1
+    },
+    {
+      "type": "energy",
+      "value": 4,
+      "recovers": 1
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Coordinate" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Jam" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Jam"
+    }
   ],
   "pilots": [
     {
+      "uid": "PSV0544",
       "name": "Syndicate Smugglers",
       "initiative": 7,
-      "cost": 63,
-      "loadout": 0,
+      "cost": 24,
+      "loadout": 30,
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/syndicatesmugglers.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/syndicatesmugglers.png",
@@ -61,11 +97,73 @@
         "Crew",
         "Team",
         "Cargo",
-        "Device",
+        "Payload",
         "Illicit",
         "Title",
         "Configuration"
-      ]
+      ],
+      "restricted": 0,
+      "id": 376
+    },
+    {
+      "uid": "PSV0545",
+      "name": "Cikatro Vizago",
+      "caption": "Broken Horn",
+      "initiative": 7,
+      "engagement": 1,
+      "limited": 1,
+      "cost": 20,
+      "xws": "cikatrovizago-epicsl",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cikatrovizago-epicsl.png",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/cikatrovizago-epicsl.png",
+      "shipAbility": {
+        "name": "Overdrive Burners",
+        "text": "While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Jam"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Coordinate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
+      ],
+      "text": "",
+      "standard": false,
+      "extended": false,
+      "epic": true,
+      "standardLoadout": [
+        "azmorigan-epicsl",
+        "illegalcountermeasures-epicsl",
+        "modifieddorsalturret-epicsl",
+        "brokenhorn-epicsl"
+      ],
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 689
     }
   ]
 }

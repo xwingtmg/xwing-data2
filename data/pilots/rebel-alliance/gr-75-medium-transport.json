@@ -17,27 +17,63 @@
     "3FR",
     "4FR"
   ],
-  "dialCodes": ["GR75-REB"],
+  "dialCodes": [
+    "GR75-REB"
+  ],
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 12 },
-    { "type": "shields", "value": 3, "recovers": 1 },
-    { "type": "energy", "value": 4, "recovers": 1 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 12
+    },
+    {
+      "type": "shields",
+      "value": 3,
+      "recovers": 1
+    },
+    {
+      "type": "energy",
+      "value": 4,
+      "recovers": 1
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "Red", "type": "Lock" },
-    { "difficulty": "White", "type": "Coordinate" },
-    { "difficulty": "Red", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Jam" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Coordinate"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Jam"
+    }
   ],
   "pilots": [
     {
+      "uid": "PRB0352",
       "name": "Echo Base Evacuees",
       "initiative": 7,
-      "cost": 65,
-      "loadout": 0,
+      "cost": 23,
+      "loadout": 25,
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/echobaseevacuees.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/echobaseevacuees.png",
@@ -61,7 +97,67 @@
         "Cargo",
         "Cargo",
         "Title"
-      ]
+      ],
+      "restricted": 0,
+      "id": 371
+    },
+    {
+      "uid": "PRB0353",
+      "name": "Trebor Zednem",
+      "initiative": 7,
+      "engagement": 1,
+      "limited": 1,
+      "cost": 19,
+      "xws": "treborzednem-epicsl",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/treborzednem-epicsl.png",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/treborzednem-epicsl.png",
+      "shipAbility": {
+        "name": "Resupply Craft",
+        "text": "After another friendly ship at range 0-1 performs an action, you may spend 1 [Energy]. If you do, it removes 1 orange or red token, or recovers 1 [Shield]."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Coordinate"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Coordinate"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Coordinate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        }
+      ],
+      "text": "",
+      "standard": false,
+      "extended": false,
+      "epic": true,
+      "standardLoadout": [
+        "torynfarr",
+        "planetaryionbombardment-epicsl",
+        "brighthope"
+      ],
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 688
     }
   ]
 }

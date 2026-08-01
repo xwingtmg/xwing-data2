@@ -23,79 +23,128 @@
     "4FW",
     "5KR"
   ],
-  "dialCodes": ["SIn"],
+  "dialCodes": [
+    "SIn"
+  ],
   "faction": "separatistalliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 4 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_SithInfiltrator.png",
   "pilots": [
     {
+      "uid": "PSA0717",
       "name": "Darth Maul",
       "caption": "Sith Assassin",
       "initiative": 5,
       "limited": 1,
       "xws": "darthmaul",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
       "ability": "After you perform an attack, you may spend 2 [Force] to perform a bonus primary attack against a different target. If your attack missed, you may perform that bonus primary attack against the same target instead.",
       "image": "https://infinitearenas.com/xw2/images/pilots/darthmaul.png",
       "standard": true,
       "extended": true,
-      "cost": 6,
-      "loadout": 14,
+      "cost": 17,
+      "loadout": 20,
       "slots": [
-        "Cannon",
-        "Torpedo",
         "Crew",
         "Crew",
-        "Device",
+        "Sensor",
         "Modification",
+        "Force Power",
+        "Force Power",
+        "Torpedo",
+        "Payload",
         "Title",
-        "Force Power",
-        "Force Power",
-        "Tactical Relay"
+        "Tech"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthmaul.png",
-      "keywords": ["Dark Side", "Sith"],
-      "epic": true
+      "keywords": [
+        "Dark Side",
+        "Sith"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 272
     },
     {
+      "uid": "PSA0718",
       "name": "Count Dooku",
       "caption": "Darth Tyranus",
       "initiative": 3,
       "limited": 1,
       "xws": "countdooku",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
       "ability": "After you defend, if the attacker is in your firing arc, you may spend 1 [Force] to remove 1 of your blue or red tokens. After you perform an attack that hits, you may spend 1 [Force] to perform an action.",
       "image": "https://infinitearenas.com/xw2/images/pilots/countdooku.png",
       "standard": true,
       "extended": true,
-      "cost": 7,
-      "loadout": 24,
+      "cost": 14,
+      "loadout": 8,
       "slots": [
-        "Cannon",
-        "Torpedo",
         "Crew",
         "Crew",
-        "Device",
+        "Sensor",
         "Modification",
-        "Title",
         "Force Power",
-        "Tactical Relay"
+        "Force Power",
+        "Payload",
+        "Title",
+        "Tech"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
-      "keywords": ["Dark Side", "Sith"],
-      "epic": true
+      "keywords": [
+        "Dark Side",
+        "Sith"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 334
     },
     {
+      "uid": "PSA0719",
       "name": "Dark Courier",
       "initiative": 2,
       "limited": 0,
@@ -104,24 +153,37 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/darkcourier.png",
       "standard": true,
       "extended": true,
-      "cost": 6,
-      "loadout": 9,
-      "slots": ["Cannon", "Torpedo", "Device", "Modification"],
+      "cost": 12,
+      "loadout": 6,
+      "slots": [
+        "Crew",
+        "Crew",
+        "Sensor",
+        "Payload",
+        "Modification",
+        "Tech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darkcourier.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 336
     },
     {
+      "uid": "PSA0720",
       "name": "0-66",
       "xws": "066",
-      "cost": 5,
-      "loadout": 12,
+      "cost": 12,
+      "loadout": 7,
       "slots": [
-        "Talent",
-        "Torpedo",
-        "Cannon",
         "Crew",
-        "Device",
-        "Modification"
+        "Crew",
+        "Sensor",
+        "Modification",
+        "Torpedo",
+        "Tactical Relay",
+        "Payload",
+        "Title",
+        "Tech"
       ],
       "caption": "Sinister Automaton",
       "initiative": 3,
@@ -130,38 +192,84 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/066.png",
       "ability": "After you defend, you may spend 1 calculate token to perform an action.",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Barrel Roll" }
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Barrel Roll"
+        }
       ],
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 335
     },
     {
+      "uid": "PSA0721",
       "name": "Count Dooku",
       "caption": "Siege of Coruscant",
       "initiative": 5,
       "limited": 1,
-      "cost": 6,
+      "cost": 15,
       "xws": "countdooku-siegeofcoruscant",
       "ability": "During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your [Force] are active, you may spend 1 [Force] and name a result. If the roll does not contain the named result, the ship must change 1 die to that result.",
       "shipActions": [
-        { "difficulty": "White", "type": "Focus" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Jam" },
-        { "difficulty": "Red", "type": "Barrel Roll" },
-        { "difficulty": "Red", "type": "Cloak" }
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Cloak"
+        }
       ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/countdooku-siegeofcoruscant.png",
-      "force": { "value": 3, "recovers": 1, "side": ["dark"] },
-      "standardLoadout": ["malice", "roilinganger-siegeofcoruscant", "scimitar"],
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
+      "standardLoadout": [
+        "malice",
+        "roilinganger-siegeofcoruscant",
+        "scimitar"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdooku.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "Sith"],
-      "epic": true
+      "keywords": [
+        "Dark Side",
+        "Sith"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 584
     }
   ]
 }

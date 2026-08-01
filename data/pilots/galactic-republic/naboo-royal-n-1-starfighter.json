@@ -21,33 +21,75 @@
     "4FW",
     "5FW"
   ],
-  "dialCodes": ["N1"],
+  "dialCodes": [
+    "N1"
+  ],
   "faction": "galacticrepublic",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Barrel Roll" },
-    { "difficulty": "White", "type": "Boost" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
   ],
   "pilots": [
     {
+      "uid": "PGR0276",
       "name": "Anakin Skywalker",
       "initiative": 4,
       "limited": 1,
       "xws": "anakinskywalker-nabooroyaln1starfighter",
       "standard": true,
       "extended": true,
-      "cost": 5,
-      "loadout": 20,
-      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
+      "cost": 9,
+      "loadout": 9,
+      "slots": [
+        "Talent",
+        "Astromech",
+        "Modification",
+        "Torpedo",
+        "Sensor",
+        "Force Power",
+        "Tech"
+      ],
       "ability": "Before you reveal your maneuver, you may spend 1 [Force] to barrel roll (this is not an action).",
-      "force": { "value": 1, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 1,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "shipAbility": {
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
@@ -55,10 +97,15 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-nabooroyaln1starfighter.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/anakinskywalker-nabooroyaln1starfighter.png",
       "caption": "Hero of Naboo",
-      "keywords": ["Light Side"],
-      "epic": true
+      "keywords": [
+        "Light Side"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 322
     },
     {
+      "uid": "PGR0277",
       "name": "Ric Olié",
       "xws": "ricolie",
       "initiative": 5,
@@ -70,15 +117,26 @@
       "caption": "Bravo Leader",
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 12,
-      "slots": ["Talent", "Talent", "Sensor", "Torpedo", "Astromech"],
+      "cost": 11,
+      "loadout": 16,
+      "slots": [
+        "Talent",
+        "Astromech",
+        "Modification",
+        "Torpedo",
+        "Sensor",
+        "Talent",
+        "Tech"
+      ],
       "ability": "While you defend or perform a primary attack, if the speed of your revealed maneuver is higher than the enemy ship's, roll 1 additional die.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ricolie.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/ricolie.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 333
     },
     {
+      "uid": "PGR0278",
       "name": "Padmé Amidala",
       "xws": "padmeamidala",
       "initiative": 4,
@@ -90,15 +148,25 @@
       "caption": "Aggressive Negotiator",
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 16,
-      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
+      "cost": 10,
+      "loadout": 13,
+      "slots": [
+        "Talent",
+        "Astromech",
+        "Modification",
+        "Torpedo",
+        "Sensor",
+        "Tech"
+      ],
       "ability": "While an enemy ship in your [Front Arc] defends or performs an attack, that ship can modify only 1 [Focus] result (other results can still be modified).",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/padmeamidala.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/padmeamidala.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 332
     },
     {
+      "uid": "PGR0279",
       "name": "Dineé Ellberger",
       "xws": "dineeellberger",
       "caption": "Bravo Five",
@@ -110,15 +178,25 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 14,
-      "slots": ["Talent", "Sensor", "Torpedo", "Astromech"],
+      "cost": 10,
+      "loadout": 16,
+      "slots": [
+        "Talent",
+        "Astromech",
+        "Modification",
+        "Torpedo",
+        "Sensor",
+        "Tech"
+      ],
       "ability": "While you defend or perform an attack, if the speed of your revealed maneuver is the same as the enemy ship's, that ship's dice cannot be modified.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dineeellberger.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/dineeellberger.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 331
     },
     {
+      "uid": "PGR0280",
       "name": "Bravo Flight Officer",
       "xws": "bravoflightofficer",
       "initiative": 2,
@@ -130,14 +208,24 @@
       "text": "The volunteer pilots of the Royal Naboo Security Force are dedicated to protecting the people and ideals of their homeworld, and trust their Queen to send them into battle only when all other options have failed.",
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 8,
-      "slots": ["Sensor", "Torpedo", "Astromech"],
+      "cost": 7,
+      "loadout": 3,
+      "slots": [
+        "Talent",
+        "Astromech",
+        "Modification",
+        "Torpedo",
+        "Sensor",
+        "Tech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bravoflightofficer.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/bravoflightofficer.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 323
     },
     {
+      "uid": "PGR0281",
       "name": "Naboo Handmaiden",
       "xws": "naboohandmaiden",
       "caption": "Regal Ruse",
@@ -149,16 +237,28 @@
       },
       "standard": true,
       "extended": true,
-      "conditions": ["decoyed"],
+      "conditions": [
+        "decoyed"
+      ],
       "ability": "Setup: After placing forces, assign the Decoyed condition to 1 friendly ship other than Naboo Handmaiden.",
-      "cost": 4,
-      "loadout": 8,
-      "slots": ["Sensor", "Modification", "Astromech"],
+      "cost": 8,
+      "loadout": 4,
+      "slots": [
+        "Talent",
+        "Astromech",
+        "Modification",
+        "Torpedo",
+        "Sensor",
+        "Tech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/naboohandmaiden.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/naboohandmaiden.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 330
     },
     {
+      "uid": "PGR0282",
       "name": "Gavyn Sykes",
       "xws": "gavynsykes",
       "caption": "Bravo Three",
@@ -170,13 +270,22 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 16,
-      "slots": ["Talent", "Sensor", "Torpedo", "Astromech", "Modification"],
+      "cost": 9,
+      "loadout": 13,
+      "slots": [
+        "Talent",
+        "Astromech",
+        "Modification",
+        "Torpedo",
+        "Sensor",
+        "Tech"
+      ],
       "ability": "While you defend or perform an attack, if the speed of your revealed maneuver is greater than the enemy ship's, you may reroll your blank results.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gavynsykes.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/gavynsykes.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 624
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Royal_Naboo_N-1_Starfighter.png"

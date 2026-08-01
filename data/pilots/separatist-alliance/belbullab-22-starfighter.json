@@ -22,31 +22,59 @@
     "4FW",
     "5FW"
   ],
-  "dialCodes": ["B22"],
+  "dialCodes": [
+    "B22"
+  ],
   "faction": "separatistalliance",
   "stats": [
-    { "type": "attack", "value": 3, "arc": "Front Arc" },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 2 }
+    {
+      "type": "attack",
+      "value": 3,
+      "arc": "Front Arc"
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Focus" },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Focus"
+      },
       "type": "Barrel Roll"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Focus" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Focus"
+      },
       "type": "Boost"
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_Belbullab-22.png",
   "pilots": [
     {
+      "uid": "PSA0663",
       "name": "General Grievous",
       "caption": "Ambitious Cyborg",
       "initiative": 4,
@@ -56,13 +84,21 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/generalgrievous.png",
       "standard": true,
       "extended": true,
-      "cost": 5,
-      "loadout": 14,
-      "slots": ["Talent", "Modification", "Modification", "Missile", "Title"],
+      "cost": 13,
+      "loadout": 20,
+      "slots": [
+        "Modification",
+        "Modification",
+        "Talent",
+        "Title"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/generalgrievous.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 305
     },
     {
+      "uid": "PSA0664",
       "name": "Wat Tambor",
       "caption": "Techno Union Foreman",
       "initiative": 3,
@@ -72,13 +108,21 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/wattambor.png",
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 9,
-      "slots": ["Talent", "Modification", "Modification", "Tactical Relay"],
+      "cost": 10,
+      "loadout": 14,
+      "slots": [
+        "Modification",
+        "Modification",
+        "Tactical Relay",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wattambor.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 306
     },
     {
+      "uid": "PSA0665",
       "name": "Feethan Ottraw Autopilot",
       "limited": 0,
       "initiative": 1,
@@ -86,29 +130,50 @@
       "text": "Unlike the more disposable fighters it also built for the Separatists, Feethan Ottraw Scalable Assemblies designed the Belbullab-22 with a solid mix of firepower, durability, and speed.",
       "image": "https://infinitearenas.com/xw2/images/pilots/feethanottrawautopilot.png",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Calculate" },
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Calculate"
+          },
           "type": "Barrel Roll"
         },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Calculate" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Calculate"
+          },
           "type": "Boost"
         }
       ],
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 5,
-      "slots": ["Modification", "Tactical Relay"],
+      "cost": 9,
+      "loadout": 10,
+      "slots": [
+        "Modification",
+        "Modification",
+        "Tactical Relay"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/feethanottrawautopilot.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 307
     },
     {
+      "uid": "PSA0666",
       "name": "Captain Sear",
       "caption": "Kage Infiltrator",
       "limited": 1,
@@ -118,18 +183,29 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/captainsear.png",
       "standard": true,
       "extended": true,
-      "cost": 5,
-      "loadout": 17,
-      "slots": ["Modification", "Modification", "Tactical Relay"],
+      "cost": 10,
+      "loadout": 11,
+      "slots": [
+        "Modification",
+        "Modification",
+        "Tactical Relay"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainsear.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 308
     },
     {
+      "uid": "PSA0667",
       "name": "Skakoan Ace",
       "xws": "skakoanace",
-      "cost": 4,
-      "loadout": 4,
-      "slots": ["Talent", "Modification", "Modification"],
+      "cost": 10,
+      "loadout": 14,
+      "slots": [
+        "Modification",
+        "Modification",
+        "Talent"
+      ],
       "initiative": 3,
       "limited": 0,
       "image": "https://infinitearenas.com/xw2/images/pilots/skakoanace.png",
@@ -137,7 +213,9 @@
       "text": "With its powerful engines, devastating triple laser cannons, and high customizability, the Belbullab-22 is the chosen craft of several elite Separatist Alliance pilots, including the infamous General Grievous.",
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 344
     }
   ]
 }

@@ -23,68 +23,117 @@
     "4FW",
     "5FW"
   ],
-  "dialCodes": ["Tsf"],
+  "dialCodes": [
+    "Tsf"
+  ],
   "faction": "firstorder",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "arc": "Single Turret Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": { "difficulty": "White", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
       "type": "Focus"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "White", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
       "type": "Evade"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "White", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
       "type": "Lock"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "White", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
       "type": "Barrel Roll"
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_TIEsf.png",
   "pilots": [
     {
+      "uid": "PFO0037",
       "name": "“Quickdraw”",
       "caption": "Defiant Duelist",
       "initiative": 6,
       "limited": 1,
-      "cost": 5,
-      "loadout": 12,
+      "cost": 14,
+      "loadout": 24,
       "xws": "quickdraw",
       "ability": "After you lose a shield, you may spend 1 [Charge]. If you do, you may perform a bonus primary attack.",
       "shipAbility": {
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "slots": ["Talent", "Talent", "Sensor", "Modification", "Gunner", "Tech"],
-      "charges": { "value": 1, "recovers": 1 },
+      "slots": [
+        "Sensor",
+        "Gunner",
+        "Modification",
+        "Tech",
+        "Missile",
+        "Talent",
+        "Talent",
+        "Modification"
+      ],
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
       "image": "https://infinitearenas.com/xw2/images/pilots/quickdraw.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/quickdraw.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 243
     },
     {
+      "uid": "PFO0038",
       "name": "“Backdraft”",
       "caption": "Fiery Fanatic",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 5,
+      "cost": 11,
+      "loadout": 15,
       "xws": "backdraft",
       "ability": "While you perform a [Single Turret Arc] primary attack, if the defender is in your [Rear Arc], roll 1 additional die.",
       "shipAbility": {
@@ -92,61 +141,90 @@
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
       "slots": [
-        "Talent",
         "Sensor",
-        "Missile",
-        "Modification",
         "Gunner",
-        "Tech"
+        "Modification",
+        "Tech",
+        "Missile",
+        "Talent",
+        "Modification"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/backdraft.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/backdraft.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 242
     },
     {
+      "uid": "PFO0039",
       "name": "Omega Squadron Expert",
       "initiative": 3,
       "limited": 0,
-      "cost": 4,
-      "loadout": 3,
+      "cost": 11,
+      "loadout": 19,
       "xws": "omegasquadronexpert",
       "text": "The TIE/sf is a versatile starfighter that carries specialized armament and experimental systems for long-range operations by First Order Special Forces.",
       "shipAbility": {
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "slots": ["Sensor", "Missile", "Modification", "Gunner", "Tech"],
+      "slots": [
+        "Sensor",
+        "Gunner",
+        "Modification",
+        "Tech",
+        "Missile",
+        "Talent"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/omegasquadronexpert.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/omegasquadronexpert.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 285
     },
     {
+      "uid": "PFO0040",
       "name": "Zeta Squadron Survivor",
       "initiative": 2,
       "limited": 0,
-      "cost": 4,
-      "loadout": 4,
+      "cost": 10,
+      "loadout": 16,
       "xws": "zetasquadronsurvivor",
       "text": "Humiliated by their failure, the remaining pilots from Starkiller Base are eager to prove their worth in pursuit of the Resistance.",
       "shipAbility": {
         "name": "Heavy Weapon Turret",
         "text": "You can rotate your [Single Turret Arc] indicator only to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
       },
-      "slots": ["Sensor", "Talent", "Gunner", "Tech"],
+      "slots": [
+        "Sensor",
+        "Gunner",
+        "Modification",
+        "Tech",
+        "Missile"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/zetasquadronsurvivor.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zetasquadronsurvivor.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 259
     },
     {
+      "uid": "PFO0041",
       "name": "Lieutenant LeHuse",
       "xws": "lieutenantlehuse",
       "initiative": 5,
@@ -159,23 +237,28 @@
       "standard": true,
       "extended": true,
       "slots": [
-        "Talent",
         "Sensor",
+        "Gunner",
+        "Modification",
         "Tech",
         "Missile",
-        "Missile",
-        "Gunner",
+        "Talent",
         "Modification"
       ],
       "ability": "While you perform an attack, you may spend another friendly ship's lock on the defender to reroll any number of your results.",
-      "cost": 4,
-      "loadout": 7,
+      "cost": 12,
+      "loadout": 20,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantlehuse.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/lieutenantlehuse.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 397
     },
     {
+      "uid": "PFO0042",
       "name": "Captain Phasma",
       "xws": "captainphasma",
       "initiative": 4,
@@ -188,21 +271,195 @@
       "standard": true,
       "extended": true,
       "slots": [
-        "Talent",
         "Sensor",
-        "Tech",
-        "Missile",
         "Gunner",
         "Modification",
-        "Modification"
+        "Tech",
+        "Missile",
+        "Talent"
       ],
       "ability": "While you defend, after the Neutralize Results step, another friendly ship at range 0-1 must suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.",
-      "cost": 4,
-      "loadout": 6,
+      "cost": 10,
+      "loadout": 15,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainphasma.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/captainphasma.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 385
+    },
+    {
+      "uid": "PFO0043",
+      "name": "Lieutenant LeHuse",
+      "caption": "Evacuation of D'Qar",
+      "initiative": 5,
+      "limited": 1,
+      "cost": 11,
+      "loadout": 0,
+      "xws": "lieutenantlehuse-evacuationofdqar",
+      "ability": "At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock. If you do, break a friendly lock on that object.",
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "After you perform an action, you may perform a white [Rotate Arc] action. You can only rotate your [Single Turret Arc] arc to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Evade"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reload",
+          "linked": {
+            "difficulty": "White",
+            "type": "Lock"
+          }
+        }
+      ],
+      "standardLoadout": [
+        "determination-evacuationofdqar",
+        "concussionmissiles",
+        "firstorderordnancetech-evacuationofdqar"
+      ],
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/lieutenantlehuse-evacuationofdqar.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantlehuse-evacuationofdqar.png",
+      "standard": true,
+      "extended": true,
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "slots": [],
+      "restricted": 0,
+      "id": 698
+    },
+    {
+      "uid": "PFO0044",
+      "name": "Theta 3",
+      "caption": "Evacuation of D'Qar",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 10,
+      "loadout": 0,
+      "xws": "theta3-evacuationofdqar",
+      "ability": "At the start of the Engagement Phase, if you have no green tokens, you may spend 1 [Charge] to gain an evade token.",
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "After you perform an action, you may perform a white [Rotate Arc] action. You can only rotate your [Single Turret Arc] arc to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      },
+      "charges": {
+        "value": 2,
+        "recovers": 0
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Evade"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reload",
+          "linked": {
+            "difficulty": "White",
+            "type": "Lock"
+          }
+        }
+      ],
+      "standardLoadout": [
+        "passivesensors",
+        "seekermissiles-swz103",
+        "firstorderordnancetech-evacuationofdqar"
+      ],
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/theta3-evacuationofdqar.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/theta3-evacuationofdqar.png",
+      "standard": true,
+      "extended": true,
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "slots": [],
+      "restricted": 0,
+      "id": 699
+    },
+    {
+      "uid": "PFO0045",
+      "name": "Theta 4",
+      "caption": "Evacuation of D'Qar",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 11,
+      "loadout": 0,
+      "xws": "theta4-evacuationofdqar",
+      "ability": "While an enemy ship in your [Single Turret Arc] performs an attack, you may spend 1 [Charge]. If you do, spend 1 [Charge] from your [Missile] upgrade to choose two attack dice. The attacker must reroll those dice.",
+      "shipAbility": {
+        "name": "Heavy Weapon Turret",
+        "text": "After you perform an action, you may perform a white [Rotate Arc] action. You can only rotate your [Single Turret Arc] arc to your [Front Arc] or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile] upgrades as [Single Turret Arc]."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Evade"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        }
+      ],
+      "standardLoadout": [
+        "determination-evacuationofdqar",
+        "barragerockets",
+        "patternanalyzer"
+      ],
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/theta4-evacuationofdqar.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/theta4-evacuationofdqar.png",
+      "standard": true,
+      "extended": true,
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "slots": [],
+      "restricted": 0,
+      "id": 700
     }
   ]
 }

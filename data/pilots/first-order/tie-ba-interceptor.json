@@ -23,29 +23,60 @@
     "5FW",
     "5KR"
   ],
-  "dialCodes": ["VT"],
+  "dialCodes": [
+    "VT"
+  ],
   "faction": "firstorder",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 2 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Evade" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Barrel Roll" },
-    { "difficulty": "White", "type": "Boost" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_Vonregs-First-Order-TIE-Interceptor.png",
   "pilots": [
     {
+      "uid": "PFO0005",
       "name": "Major Vonreg",
       "caption": "Red Baron",
       "initiative": 6,
       "limited": 1,
-      "cost": 5,
+      "cost": 13,
       "loadout": 14,
       "xws": "majorvonreg",
       "ability": "During the System Phase, you may choose 1 enemy ship in your [Bullseye Arc]. That ship gains 1 deplete or strain token of your choice.",
@@ -54,26 +85,31 @@
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
       "slots": [
-        "Talent",
-        "Talent",
-        "Tech",
         "Missile",
+        "Tech",
         "Modification",
+        "Talent",
+        "Talent",
         "Modification"
       ],
       "standard": true,
       "extended": true,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorvonreg.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/majorvonreg.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 381
     },
     {
+      "uid": "PFO0006",
       "name": "“Holo”",
       "caption": "Trick of the Light",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
+      "cost": 12,
       "loadout": 12,
       "xws": "holo",
       "ability": "At the start of the Engagement Phase, you must transfer 1 of your tokens to another friendly ship at range 0-2.",
@@ -81,54 +117,85 @@
         "name": "Fine-Tuned Thrusters",
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
-      "slots": ["Talent", "Tech", "Missile", "Modification", "Modification"],
+      "slots": [
+        "Missile",
+        "Tech",
+        "Modification",
+        "Talent",
+        "Talent",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/holo.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/holo.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 382
     },
     {
+      "uid": "PFO0007",
       "name": "“Ember”",
       "caption": "Dying Flame",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 7,
+      "cost": 10,
+      "loadout": 8,
       "xws": "ember",
       "ability": "While you perform an attack, if there is a damaged ship friendly to the defender at range 0-1 of the defender, the defender cannot spend focus or calculate tokens.",
       "shipAbility": {
         "name": "Fine-Tuned Thrusters",
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
-      "slots": ["Talent", "Talent", "Tech", "Missile", "Modification"],
+      "slots": [
+        "Missile",
+        "Tech",
+        "Modification",
+        "Talent",
+        "Modification"
+      ],
       "standard": true,
       "extended": true,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ember.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/ember.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 383
     },
     {
+      "uid": "PFO0008",
       "name": "First Order Provocateur",
       "initiative": 3,
       "limited": 0,
-      "cost": 4,
-      "loadout": 3,
+      "cost": 9,
+      "loadout": 5,
       "xws": "firstorderprovocateur",
       "text": "Major Vonreg's vision guided the enhancement of proven designs while engineering this one-of-a-kind precise and lethal craft from Sienar-Jaemus Fleet Systems.",
       "shipAbility": {
         "name": "Fine-Tuned Thrusters",
         "text": "After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a [Lock] or [Barrel Roll] action."
       },
-      "slots": ["Talent", "Tech", "Modification"],
+      "slots": [
+        "Tech",
+        "Modification",
+        "Talent"
+      ],
       "standard": true,
       "extended": true,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/firstorderprovocateur.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/firstorderprovocateur.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 384
     }
   ]
 }

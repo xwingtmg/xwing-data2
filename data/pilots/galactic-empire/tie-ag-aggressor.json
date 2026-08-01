@@ -19,105 +19,164 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": ["TAg"],
+  "dialCodes": [
+    "TAg"
+  ],
   "faction": "galacticempire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 4 },
-    { "type": "shields", "value": 1 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Evade" },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Evade"
+      },
       "type": "Barrel Roll"
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEAggressor.png",
   "pilots": [
     {
+      "uid": "PEM0104",
       "name": "“Double Edge”",
       "caption": "Contingency Planner",
       "initiative": 2,
       "limited": 1,
-      "cost": 4,
-      "loadout": 13,
+      "cost": 9,
+      "loadout": 17,
       "xws": "doubleedge",
       "ability": "After you perform a [Turret] or [Missile] attack that misses, you may perform a bonus attack using a different weapon.",
       "image": "https://infinitearenas.com/xw2/images/pilots/doubleedge.png",
       "slots": [
-        "Talent",
+        "Gunner",
         "Turret",
         "Missile",
         "Missile",
-        "Modification",
-        "Gunner"
+        "Sensor",
+        "Modification"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/doubleedge.png",
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 188
     },
     {
+      "uid": "PEM0105",
       "name": "Lieutenant Kestal",
       "caption": "Innate Deadeye",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
-      "loadout": 19,
+      "cost": 9,
+      "loadout": 15,
       "xws": "lieutenantkestal",
       "ability": "While you perform an attack, after the defender rolls defense dice, you may spend 1 focus token to cancel all of the defender's blank/[Focus] results.",
       "image": "https://infinitearenas.com/xw2/images/pilots/lieutenantkestal.png",
       "slots": [
-        "Talent",
+        "Gunner",
         "Turret",
         "Missile",
         "Missile",
         "Modification",
-        "Modification",
-        "Gunner"
+        "Sensor",
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantkestal.png",
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 187
     },
     {
+      "uid": "PEM0106",
       "name": "Onyx Squadron Scout",
       "initiative": 3,
       "limited": 0,
-      "cost": 4,
-      "loadout": 12,
+      "cost": 8,
+      "loadout": 9,
       "xws": "onyxsquadronscout",
       "text": "Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loadout and its maneuverability to full effect.",
       "image": "https://infinitearenas.com/xw2/images/pilots/onyxsquadronscout.png",
-      "slots": ["Talent", "Turret", "Missile", "Gunner"],
+      "slots": [
+        "Gunner",
+        "Turret",
+        "Missile",
+        "Missile",
+        "Modification",
+        "Sensor",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronscout.png",
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 189
     },
     {
+      "uid": "PEM0107",
       "name": "Sienar Specialist",
       "initiative": 2,
       "limited": 0,
-      "cost": 4,
-      "loadout": 8,
+      "cost": 7,
+      "loadout": 6,
       "xws": "sienarspecialist",
       "text": "During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency.",
       "image": "https://infinitearenas.com/xw2/images/pilots/sienarspecialist.png",
-      "slots": ["Turret", "Missile", "Modification", "Gunner"],
+      "slots": [
+        "Gunner",
+        "Turret",
+        "Missile",
+        "Missile",
+        "Sensor",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sienarspecialist.png",
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 190
     }
   ]
 }

@@ -4,18 +4,28 @@
   "size": "Small",
   "faction": "galacticrepublic",
   "stats": [
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 1 },
-    { "type": "shields", "value": 2 }
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 1
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [],
   "pilots": [
     {
+      "uid": "PGR0291",
       "name": "TransGalMeg Control Link",
       "xws": "transgalmegcontrollink",
       "initiative": 0,
-      "cost": 2,
-      "loadout": 0,
+      "cost": 1,
+      "loadout": 5,
       "slots": [
         "Hyperdrive"
       ],
@@ -28,7 +38,9 @@
       },
       "standard": false,
       "extended": false,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 406
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Syliure-class_Hyperspace_Ring.png"

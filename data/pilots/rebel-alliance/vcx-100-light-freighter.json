@@ -21,63 +21,104 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": ["VCX"],
+  "dialCodes": [
+    "VCX"
+  ],
   "faction": "rebelalliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 4 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 10 },
-    { "type": "shields", "value": 4 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 4
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 10
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Reinforce" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Ghost.png",
   "pilots": [
     {
+      "uid": "PRB0424",
       "name": "“Chopper”",
       "caption": "Spectre-3",
       "initiative": 2,
       "limited": 1,
-      "cost": 6,
-      "loadout": 14,
+      "cost": 16,
+      "loadout": 12,
       "xws": "chopper",
       "ability": "At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens.",
       "image": "https://infinitearenas.com/xw2/images/pilots/chopper.png",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Reinforce" }
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce"
+        }
       ],
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
       },
       "slots": [
+        "Crew",
+        "Crew",
         "Sensor",
+        "Gunner",
         "Turret",
-        "Torpedo",
-        "Crew",
-        "Crew",
         "Modification",
-        "Title",
-        "Gunner"
+        "Torpedo",
+        "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/chopper.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid", "Freighter", "Spectre"],
-      "epic": true
+      "keywords": [
+        "Droid",
+        "Freighter",
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 63
     },
     {
+      "uid": "PRB0425",
       "name": "Hera Syndulla",
       "caption": "Spectre-2",
       "initiative": 5,
       "limited": 1,
-      "cost": 7,
-      "loadout": 20,
+      "cost": 17,
+      "loadout": 19,
       "xws": "herasyndulla-vcx100lightfreighter",
       "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.",
       "image": "https://infinitearenas.com/xw2/images/pilots/herasyndulla-vcx100lightfreighter.png",
@@ -86,60 +127,119 @@
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
       },
       "slots": [
-        "Talent",
+        "Crew",
+        "Crew",
         "Sensor",
+        "Gunner",
         "Turret",
-        "Torpedo",
-        "Crew",
-        "Crew",
         "Modification",
+        "Torpedo",
         "Title",
-        "Gunner"
+        "Talent",
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla-vcx100lightfreighter.png",
       "standard": false,
       "extended": true,
-      "keywords": ["Freighter", "Spectre"],
-      "epic": true
+      "keywords": [
+        "Freighter",
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 61
     },
     {
-      "name": "Kanan Jarrus",
-      "caption": "Spectre-1",
-      "initiative": 3,
+      "uid": "PRB0426",
+      "name": "Hera Syndulla",
+      "caption": "New Republic General",
+      "initiative": 6,
       "limited": 1,
-      "cost": 7,
+      "cost": 18,
       "loadout": 20,
-      "xws": "kananjarrus",
-      "ability": "While a friendly ship in your firing arc defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/kananjarrus.png",
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "xws": "herasyndulla-legendsandrelics",
+      "ability": "After you fully execute a red maneuver, you may coordinate a friendly ship at range 1-3.",
+      "image": "https://infinitearenas.com/xw2xwa/images/pilots/herasyndulla-legendsandrelics.png",
       "shipAbility": {
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
       },
       "slots": [
+        "Crew",
+        "Crew",
         "Sensor",
-        "Turret",
-        "Torpedo",
-        "Crew",
-        "Crew",
-        "Modification",
-        "Title",
         "Gunner",
+        "Turret",
+        "Modification",
+        "Torpedo",
+        "Title",
+        "Talent",
+        "Talent"
+      ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla-legendsandrelics.png",
+      "standard": false,
+      "extended": true,
+      "keywords": [
+        "Freighter",
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 732
+    },
+    {
+      "uid": "PRB0427",
+      "name": "Kanan Jarrus",
+      "caption": "Spectre-1",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 18,
+      "loadout": 20,
+      "xws": "kananjarrus",
+      "ability": "While a friendly ship in your firing arc defends, you may spend 1 [Force]. If you do, the attacker rolls 1 fewer attack die.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/kananjarrus.png",
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
+      "shipAbility": {
+        "name": "Tail Gun",
+        "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
+      },
+      "slots": [
+        "Crew",
+        "Crew",
+        "Sensor",
+        "Gunner",
+        "Turret",
+        "Modification",
+        "Torpedo",
+        "Title",
         "Force Power"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kananjarrus.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter", "Jedi", "Light Side", "Spectre"],
-      "epic": true
+      "keywords": [
+        "Freighter",
+        "Jedi",
+        "Light Side",
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 62
     },
     {
+      "uid": "PRB0428",
       "name": "Lothal Rebel",
       "initiative": 2,
       "limited": 0,
-      "cost": 7,
-      "loadout": 8,
+      "cost": 15,
+      "loadout": 9,
       "xws": "lothalrebel",
       "text": "Another successful Corellian Engineering Corporation freighter design, the VCX-100 is larger than the ubiquitous YT-series, boasting more living space and customizability.",
       "image": "https://infinitearenas.com/xw2/images/pilots/lothalrebel.png",
@@ -147,14 +247,27 @@
         "name": "Tail Gun",
         "text": "While you have a docked ship, you have a primary [Rear Arc] weapon with an attack value equal to your docked ship's primary [Front Arc] attack value."
       },
-      "slots": ["Turret", "Torpedo", "Gunner"],
+      "slots": [
+        "Crew",
+        "Crew",
+        "Sensor",
+        "Gunner",
+        "Turret",
+        "Modification",
+        "Torpedo"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lothalrebel.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter"],
-      "epic": true
+      "keywords": [
+        "Freighter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 64
     },
     {
+      "uid": "PRB0429",
       "name": "Alexsandr Kallus",
       "xws": "alexsandrkallus",
       "initiative": 4,
@@ -167,23 +280,28 @@
       "standard": true,
       "extended": true,
       "slots": [
-        "Talent",
+        "Crew",
+        "Crew",
         "Sensor",
-        "Turret",
-        "Torpedo",
-        "Crew",
-        "Crew",
         "Gunner",
+        "Turret",
         "Modification",
-        "Title"
+        "Torpedo",
+        "Title",
+        "Talent"
       ],
       "ability": "While you defend, if the attacker modified any attack dice, you may roll 1 additional defense die.",
-      "cost": 7,
-      "loadout": 16,
+      "cost": 17,
+      "loadout": 14,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/alexsandrkallus.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/alexsandrkallus.png",
-      "keywords": ["Freighter", "Spectre"],
-      "epic": true
+      "keywords": [
+        "Freighter",
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 392
     }
   ]
 }

@@ -21,6 +21,19 @@ pilotFiles.forEach(({ faction, ships }) => {
         describe(`Pilots`, () => {
           pilots.forEach(p => {
             test(`${p.name || `(unknown pilot)`}`, () => {
+              if (!global.skipDebug) {
+                const Ajv = require("ajv");
+                const ajv = new Ajv({ allErrors: true, strict: false, verbose: true });
+
+                const validate = ajv.compile(pilotSchema);
+                const valid = validate(p);
+              
+                if (!valid) {
+                  console.log(`❌ Validation errors for: ${p.name}`);
+                  console.log(validate.errors);
+                }
+              }             
+
               expect(p).toMatchSchema(pilotSchema);
               if (p.text) {
                 checkKeywordsInString(p.text);

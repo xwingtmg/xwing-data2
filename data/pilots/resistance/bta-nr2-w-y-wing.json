@@ -1,0 +1,430 @@
+{
+  "name": "BTA-NR2 Y-Wing",
+  "xws": "btanr2wywing",
+  "size": "Small",
+  "dial": [
+    "1BB",
+    "1FB",
+    "1NB",
+    "2TW",
+    "2BW",
+    "2FB",
+    "2NW",
+    "2YW",
+    "3TR",
+    "3BW",
+    "3FB",
+    "3NW",
+    "3YR",
+    "4FR",
+    "5KR"
+  ],
+  "dialCodes": [
+    "NR2"
+  ],
+  "faction": "resistance",
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "shields",
+      "value": 5
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Boost"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reload"
+    }
+  ],
+  "pilots": [
+    {
+      "uid": "PRE0441",
+      "name": "Zorii Bliss",
+      "xws": "zoriibliss-wartime",
+      "initiative": 5,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Devastating Barrage",
+        "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannot be cancelled by [Evade] results."
+      },
+      "standard": true,
+      "extended": true,
+      "cost": 12,
+      "loadout": 20,
+      "slots": [
+        "Astromech",
+        "Turret",
+        "Modification",
+        "Modification",
+        "Tech",
+        "Payload",
+        "Talent",
+        "Missile",
+        "Torpedo",
+        "Illicit"
+      ],
+      "ability": "After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 [Charge] to perform that action, treating it as red.",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zoriibliss.png",
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "image": "https://infinitearenas.com/xw2/images/pilots/zoriibliss-wartime.png",
+      "caption": "Corsair of Kijimi",
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 722
+    },
+    {
+      "uid": "PRE0442",
+      "name": "Teza Nasz",
+      "xws": "tezanasz-wartime",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Devastating Barrage",
+        "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannot be cancelled by [Evade] results."
+      },
+      "standard": true,
+      "extended": true,
+      "cost": 11,
+      "loadout": 18,
+      "slots": [
+        "Astromech",
+        "Turret",
+        "Modification",
+        "Modification",
+        "Tech",
+        "Payload",
+        "Missile",
+        "Torpedo",
+        "Talent"
+      ],
+      "ability": "While a friendly ship at range 0-2 performs an attack, if the defender has a ship friendly to the attacker in each of its side arcs ([Left Arc] and [Right Arc]), the attacker may reroll 1 attack die.",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tezanasz.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/tezanasz-wartime.png",
+      "caption": "Old Soldier",
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 723
+    },
+    {
+      "uid": "PRE0443",
+      "name": "Wilsa Teshlo",
+      "xws": "wilsateshlo-wartime",
+      "initiative": 4,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Devastating Barrage",
+        "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannot be cancelled by [Evade] results."
+      },
+      "standard": true,
+      "extended": true,
+      "cost": 11,
+      "loadout": 17,
+      "slots": [
+        "Astromech",
+        "Turret",
+        "Modification",
+        "Modification",
+        "Tech",
+        "Payload",
+        "Missile",
+        "Torpedo",
+        "Talent"
+      ],
+      "ability": "After you perform an attack, if the defender was dealt a faceup damage card, the defender gains 1 strain token unless it chooses 1 non-recurring [Charge] from 1 of its equipped upgrades and loses that [Charge].",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wilsateshlo.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/wilsateshlo-wartime.png",
+      "caption": "Veiled Sorority Privateer",
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 724
+    },
+    {
+      "uid": "PRE0444",
+      "name": "Shasa Zaro",
+      "xws": "shasazaro-wartime",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Devastating Barrage",
+        "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannot be cancelled by [Evade] results."
+      },
+      "standard": true,
+      "extended": true,
+      "cost": 11,
+      "loadout": 15,
+      "slots": [
+        "Astromech",
+        "Turret",
+        "Modification",
+        "Modification",
+        "Tech",
+        "Payload",
+        "Missile",
+        "Torpedo",
+        "Talent"
+      ],
+      "ability": "After you defend, you may choose a friendly ship in your [Full Rear Arc] at range 0-2 and 1 of your green tokens. If you do, that ship gains a matching token.",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shasazaro.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/shasazaro-wartime.png",
+      "caption": "Artistic Ace",
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 725
+    },
+    {
+      "uid": "PRE0445",
+      "name": "Lega Fossang",
+      "xws": "legafossang-wartime",
+      "initiative": 3,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Devastating Barrage",
+        "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannot be cancelled by [Evade] results."
+      },
+      "standard": true,
+      "extended": true,
+      "cost": 10,
+      "loadout": 10,
+      "slots": [
+        "Astromech",
+        "Turret",
+        "Modification",
+        "Modification",
+        "Tech",
+        "Payload",
+        "Missile",
+        "Torpedo"
+      ],
+      "ability": "While you perform a primary or [Turret] attack, you may reroll 1 attack die for each friendly device or calculating friendly ship in the attack arc.",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/legafossang.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/legafossang-wartime.png",
+      "caption": "Hero of Humbarine",
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 726
+    },
+    {
+      "uid": "PRE0446",
+      "name": "Aftab Ackbar",
+      "xws": "aftabackbar-wartime",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Devastating Barrage",
+        "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannot be cancelled by [Evade] results."
+      },
+      "standard": true,
+      "extended": true,
+      "cost": 10,
+      "loadout": 13,
+      "slots": [
+        "Astromech",
+        "Turret",
+        "Modification",
+        "Modification",
+        "Tech",
+        "Payload",
+        "Missile",
+        "Torpedo"
+      ],
+      "ability": "After you execute a red basic maneuver or perform a red action, if you have exactly 1 stress token, you may gain 1 strain token to remove that stress token.",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/aftabackbar.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/aftabackbar-wartime.png",
+      "caption": "“Junior”",
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 727
+    },
+    {
+      "uid": "PRE0447",
+      "name": "Corus Kapellim",
+      "xws": "coruskapellim-wartime",
+      "initiative": 1,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Devastating Barrage",
+        "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannot be cancelled by [Evade] results."
+      },
+      "standard": true,
+      "extended": true,
+      "cost": 11,
+      "loadout": 18,
+      "slots": [
+        "Astromech",
+        "Turret",
+        "Modification",
+        "Modification",
+        "Tech",
+        "Payload",
+        "Illicit",
+        "Missile",
+        "Torpedo"
+      ],
+      "ability": "Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself.",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/coruskapellim.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/coruskapellim-wartime.png",
+      "caption": "“Gentleman Flyer”",
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 728
+    },
+    {
+      "uid": "PRE0448",
+      "name": "C’ai Threnalli",
+      "xws": "caithrenalli-wartime",
+      "initiative": 2,
+      "limited": 1,
+      "shipAbility": {
+        "name": "Devastating Barrage",
+        "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannot be cancelled by [Evade] results."
+      },
+      "standard": true,
+      "extended": true,
+      "cost": 10,
+      "loadout": 12,
+      "slots": [
+        "Astromech",
+        "Turret",
+        "Modification",
+        "Modification",
+        "Tech",
+        "Payload",
+        "Missile",
+        "Torpedo",
+        "Talent"
+      ],
+      "ability": "After you fully execute a maneuver, if you moved through a friendly ship, you may perform an [Evade] action.",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/caithrenalli-btanr2ywing.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/caithrenalli-wartime.png",
+      "caption": "Tenacious Survivor",
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 729
+    },
+    {
+      "uid": "PRE0449",
+      "name": "New Republic Patrol",
+      "xws": "newrepublicpatrol-wartime",
+      "initiative": 3,
+      "limited": 0,
+      "shipAbility": {
+        "name": "Devastating Barrage",
+        "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannot be cancelled by [Evade] results."
+      },
+      "standard": true,
+      "extended": true,
+      "cost": 10,
+      "loadout": 11,
+      "slots": [
+        "Astromech",
+        "Turret",
+        "Modification",
+        "Modification",
+        "Tech",
+        "Payload",
+        "Missile",
+        "Torpedo"
+      ],
+      "text": "Designed for customization, the BTA-NR2 Y-wing is used by numerous military organizations across the galaxy in a variety of roles, from law enforcement craft to wartime bombers.",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/newrepublicpatrol.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/newrepublicpatrol-wartime.png",
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 730
+    },
+    {
+      "uid": "PRE0450",
+      "name": "Kijimi Spice Runner",
+      "xws": "kijimispicerunner-wartime",
+      "initiative": 2,
+      "limited": 0,
+      "shipAbility": {
+        "name": "Devastating Barrage",
+        "text": "While you perform a [Torpedo] or [Missile] attack, if the defender is in your [Bullseye Arc], your [Critical Hit] results cannot be cancelled by [Evade] results."
+      },
+      "standard": true,
+      "extended": true,
+      "cost": 11,
+      "loadout": 16,
+      "slots": [
+        "Astromech",
+        "Turret",
+        "Modification",
+        "Modification",
+        "Tech",
+        "Payload",
+        "Missile",
+        "Torpedo",
+        "Illicit"
+      ],
+      "text": "Led by Zorii Bliss, the Kijimi Spice Runners set aside their usual mercenary ways to take the fight to the Final Order at the Battle of Exegol.",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kijimispicerunner.png",
+      "image": "https://infinitearenas.com/xw2/images/pilots/kijimispicerunner-wartime.png",
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 731
+    }
+  ],
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_Y-wing-bta-nr2.png"
+}

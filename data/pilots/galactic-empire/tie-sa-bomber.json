@@ -20,32 +20,57 @@
     "4FW",
     "5KR"
   ],
-  "dialCodes": ["TB"],
+  "dialCodes": [
+    "TB"
+  ],
   "faction": "galacticempire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 6 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 6
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Lock" },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Lock"
+      },
       "type": "Barrel Roll"
     },
-    { "difficulty": "Red", "type": "Reload" }
+    {
+      "difficulty": "Red",
+      "type": "Reload"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEBomber.png",
   "pilots": [
     {
+      "uid": "PEM0183",
       "name": "“Deathfire”",
       "caption": "Unflinching Diehard",
       "initiative": 2,
       "limited": 1,
-      "cost": 3,
-      "loadout": 11,
+      "cost": 9,
+      "loadout": 13,
       "xws": "deathfire",
       "ability": "After you are destroyed, before you are removed, you may perform an attack and drop or launch 1 device.",
       "image": "https://infinitearenas.com/xw2/images/pilots/deathfire.png",
@@ -53,19 +78,30 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "slots": ["Torpedo", "Missile", "Device", "Modification", "Gunner"],
+      "slots": [
+        "Torpedo",
+        "Missile",
+        "Payload",
+        "Payload",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathfire.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 206
     },
     {
+      "uid": "PEM0184",
       "name": "Captain Jonus",
       "caption": "Disciplined Instructor",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 10,
       "loadout": 10,
       "xws": "captainjonus",
       "ability": "While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.",
@@ -75,27 +111,30 @@
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
       "slots": [
-        "Talent",
         "Torpedo",
         "Missile",
-        "Missile",
-        "Device",
-        "Device",
+        "Payload",
+        "Payload",
         "Modification",
-        "Gunner"
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 203
     },
     {
+      "uid": "PEM0185",
       "name": "Gamma Squadron Ace",
       "initiative": 3,
       "limited": 0,
-      "cost": 4,
-      "loadout": 8,
+      "cost": 10,
+      "loadout": 16,
       "xws": "gammasquadronace",
       "text": "Though it sacrifices a degree of speed and maneuverability compared to a TIE/ln, the TIE bomber's increased payload can carry enough firepower to destroy virtually any enemy target.",
       "image": "https://infinitearenas.com/xw2/images/pilots/gammasquadronace.png",
@@ -103,20 +142,32 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "slots": ["Torpedo", "Device", "Device", "Modification", "Gunner"],
+      "slots": [
+        "Torpedo",
+        "Missile",
+        "Payload",
+        "Payload",
+        "Modification",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/gammasquadronace.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 207
     },
     {
+      "uid": "PEM0186",
       "name": "Major Rhymer",
       "caption": "Scimitar Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 3,
-      "loadout": 7,
+      "cost": 10,
+      "loadout": 13,
       "xws": "majorrhymer",
       "ability": "While you perform a [Torpedo] or [Missile] attack, you may increase or decrease the range requirement by 1, to a limit of 0-3.",
       "image": "https://infinitearenas.com/xw2/images/pilots/majorrhymer.png",
@@ -125,26 +176,30 @@
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
       "slots": [
-        "Talent",
         "Torpedo",
         "Missile",
-        "Missile",
-        "Device",
+        "Payload",
+        "Payload",
         "Modification",
-        "Gunner"
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorrhymer.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 204
     },
     {
+      "uid": "PEM0187",
       "name": "Scimitar Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 4,
-      "loadout": 6,
+      "cost": 8,
+      "loadout": 8,
       "xws": "scimitarsquadronpilot",
       "text": "The TIE/sa is exceptionally nimble for a bomber, allowing it to pinpoint its target while avoiding excessive collateral damage to the surrounding area.",
       "image": "https://infinitearenas.com/xw2/images/pilots/scimitarsquadronpilot.png",
@@ -152,20 +207,31 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "slots": ["Missile", "Device", "Device", "Modification", "Gunner"],
+      "slots": [
+        "Torpedo",
+        "Missile",
+        "Payload",
+        "Payload",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/scimitarsquadronpilot.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 208
     },
     {
+      "uid": "PEM0188",
       "name": "Tomax Bren",
       "caption": "Brash Maverick",
       "initiative": 5,
       "limited": 1,
-      "cost": 3,
-      "loadout": 7,
+      "cost": 10,
+      "loadout": 13,
       "xws": "tomaxbren",
       "ability": "After you perform a [Reload] action, you may recover 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.",
       "image": "https://infinitearenas.com/xw2/images/pilots/tomaxbren.png",
@@ -174,27 +240,30 @@
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
       "slots": [
-        "Talent",
-        "Talent",
+        "Torpedo",
         "Missile",
-        "Missile",
-        "Device",
-        "Device",
+        "Payload",
+        "Payload",
         "Modification",
-        "Gunner"
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 205
     },
     {
+      "uid": "PEM0189",
       "name": "Captain Jonus",
       "caption": "Disciplined Instructor",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 10,
       "xws": "captainjonus-swz105",
       "ability": "While a friendly ship at range 0-1 performs a [Torpedo] or [Missile] attack, that ship may reroll up to 2 attack dice.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/captainjonus-swz105.png",
@@ -202,19 +271,30 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "standardLoadout": ["feedbackping", "plasmatorpedoes", "protonbombs"],
+      "standardLoadout": [
+        "feedbackping",
+        "plasmatorpedoes",
+        "protonbombs"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainjonus.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 632
     },
     {
+      "uid": "PEM0190",
       "name": "Tomax Bren",
       "caption": "Brash Maverick",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
+      "cost": 11,
       "xws": "tomaxbren-swz105",
       "ability": "After you perform a [Reload] action, you may recover 1 [Charge] token on 1 of your equipped [Talent] upgrade cards.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/tomaxbren-swz105.png",
@@ -222,40 +302,65 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "standardLoadout": ["elusive", "barragerockets", "proximitymines"],
+      "standardLoadout": [
+        "elusive",
+        "barragerockets",
+        "proximitymines"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tomaxbren.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 633
     },
     {
+      "uid": "PEM0191",
       "name": "“Deathfire”",
       "caption": "Obstinate Bombardier",
       "initiative": 2,
       "limited": 1,
-      "cost": 3,
+      "cost": 10,
       "xws": "deathfire-swz98",
       "ability": "After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 [Charge] to drop or launch a bomb using the (3 [Straight]) template.",
-      "charges": { "value": 2, "recovers": 1 },
+      "charges": {
+        "value": 2,
+        "recovers": 1
+      },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/deathfire-swz98.png",
       "shipAbility": {
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "standardLoadout": ["swiftapproach-swz98", "connernets", "protonbombs"],
+      "standardLoadout": [
+        "swiftapproach-swz98",
+        "connernets",
+        "protonbombs"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathfire.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 644
     },
     {
+      "uid": "PEM0192",
       "name": "Captain Jonus",
       "caption": "Top Cover",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
+      "cost": 10,
       "xws": "captainjonus-swz98",
       "ability": "After you drop or launch a device, gain an evade token.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/captainjonus-swz98.png",
@@ -263,40 +368,65 @@
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "standardLoadout": ["topcover-swz98", "barragerockets", "protonbombs"],
+      "standardLoadout": [
+        "topcover-swz98",
+        "barragerockets",
+        "protonbombs"
+      ],
       "artwork": "",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 646
     },
     {
+      "uid": "PEM0193",
       "name": "Tomax Bren",
       "caption": "Scimitar Veteran",
       "initiative": 5,
       "limited": 1,
-      "cost": 4,
+      "cost": 12,
       "xws": "tomaxbren-swz98",
       "ability": "After you perform a [Barrel Roll] action, you may spend 2 [Charge]. If you do, gain a focus token.",
-      "charges": { "value": 2, "recovers": 1 },
+      "charges": {
+        "value": 2,
+        "recovers": 1
+      },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/tomaxbren-swz98.png",
       "shipAbility": {
         "name": "Nimble Bomber",
         "text": "If you would drop a device using a [Straight] template, you may use a [Bank Left] or [Bank Right] template of the same speed instead."
       },
-      "standardLoadout": ["truegrit-swz98", "plasmatorpedoes", "ionbombs"],
+      "standardLoadout": [
+        "truegrit-swz98",
+        "plasmatorpedoes",
+        "ionbombs"
+      ],
       "artwork": "",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 647
     },
     {
+      "uid": "PEM0194",
       "name": "Major Rhymer",
       "caption": "Precision Destruction",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 11,
       "xws": "majorrhymer-swz98",
       "ability": "While you perform a [Torpedo] attack, if the defender is in your [Bullseye Arc], change 1 [Focus] result to a [Critical Hit] result.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/majorrhymer-swz98.png",
@@ -312,18 +442,28 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorrhymer.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 645
     },
     {
+      "uid": "PEM0195",
       "name": "Scimitar 1",
       "caption": "Battle Over Endor",
       "initiative": 3,
       "limited": 1,
-      "cost": 4,
+      "cost": 12,
       "xws": "scimitar1-battleoverendor",
       "ability": "After a friendly ship at range 0-3 performs an attack, you may spend 1 [Charge] to acquire a lock on the defender.",
-      "charges": { "value": 2, "recovers": 0 },
+      "charges": {
+        "value": 2,
+        "recovers": 0
+      },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/scimitar1-battleoverendor.png",
       "shipAbility": {
         "name": "Nimble Bomber",
@@ -338,18 +478,28 @@
       "artwork": "",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 672
     },
     {
+      "uid": "PEM0196",
       "name": "Scimitar 3",
       "caption": "Battle Over Endor",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 10,
       "xws": "scimitar3-battleoverendor",
       "ability": "After you drop a bomb, you may spend 1 [Charge] to perform a [Boost] action.",
-      "charges": { "value": 2, "recovers": 0 },
+      "charges": {
+        "value": 2,
+        "recovers": 0
+      },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/scimitar3-battleoverendor.png",
       "shipAbility": {
         "name": "Nimble Bomber",
@@ -364,8 +514,14 @@
       "artwork": "",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 673
     }
   ]
 }

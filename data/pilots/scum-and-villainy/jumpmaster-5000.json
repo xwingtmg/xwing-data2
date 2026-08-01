@@ -20,124 +20,176 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": ["JM5"],
+  "dialCodes": [
+    "JM5"
+  ],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Single Turret Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Rotate Arc"
+      },
       "type": "Focus"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Rotate Arc"
+      },
       "type": "Lock"
     },
-    { "difficulty": "Red", "type": "Barrel Roll" }
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Jumpmaster.png",
   "pilots": [
     {
+      "uid": "PSV0587",
       "name": "Contracted Scout",
       "initiative": 2,
       "limited": 0,
-      "cost": 5,
-      "loadout": 4,
+      "cost": 10,
+      "loadout": 8,
       "xws": "contractedscout",
       "text": "Built for long-distance reconnaissance and plotting new standard routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.",
       "image": "https://infinitearenas.com/xw2/images/pilots/contractedscout.png",
-      "slots": ["Cannon", "Torpedo", "Illicit"],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/contractedscout.png",
-      "standard": true,
-      "extended": true,
-      "epic": true
-    },
-    {
-      "name": "Dengar",
-      "caption": "Vengeful Corellian",
-      "initiative": 6,
-      "limited": 1,
-      "cost": 6,
-      "loadout": 11,
-      "xws": "dengar",
-      "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/dengar.png",
-      "charges": { "value": 1, "recovers": 1 },
       "slots": [
-        "Talent",
         "Cannon",
-        "Torpedo",
-        "Crew",
-        "Gunner",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dengar.png",
-      "standard": true,
-      "extended": true,
-      "keywords": ["Bounty Hunter"],
-      "epic": true
-    },
-    {
-      "name": "Manaroo",
-      "caption": "Graceful Aruzan",
-      "initiative": 3,
-      "limited": 1,
-      "cost": 5,
-      "loadout": 15,
-      "xws": "manaroo",
-      "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/manaroo.png",
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Torpedo",
-        "Crew",
-        "Gunner",
-        "Illicit",
-        "Modification",
-        "Title"
-      ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/manaroo.png",
-      "standard": true,
-      "extended": true,
-      "keywords": ["Bounty Hunter"],
-      "epic": true
-    },
-    {
-      "name": "Tel Trevura",
-      "caption": "Escape Artist",
-      "initiative": 4,
-      "limited": 1,
-      "cost": 6,
-      "loadout": 20,
-      "xws": "teltrevura",
-      "ability": "If you would be destroyed, you may spend 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [Hit] damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/teltrevura.png",
-      "charges": { "value": 1, "recovers": 0 },
-      "slots": [
-        "Talent",
-        "Cannon",
-        "Cannon",
-        "Torpedo",
         "Crew",
         "Gunner",
         "Illicit",
         "Modification"
       ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/contractedscout.png",
+      "standard": true,
+      "extended": true,
+      "epic": true,
+      "restricted": 2,
+      "id": 118
+    },
+    {
+      "uid": "PSV0588",
+      "name": "Dengar",
+      "caption": "Vengeful Corellian",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 16,
+      "loadout": 18,
+      "xws": "dengar",
+      "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/dengar.png",
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "slots": [
+        "Cannon",
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Torpedo",
+        "Talent",
+        "Title"
+      ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dengar.png",
+      "standard": true,
+      "extended": true,
+      "keywords": [
+        "Bounty Hunter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 115
+    },
+    {
+      "uid": "PSV0589",
+      "name": "Manaroo",
+      "caption": "Graceful Aruzan",
+      "initiative": 3,
+      "limited": 1,
+      "cost": 12,
+      "loadout": 13,
+      "xws": "manaroo",
+      "ability": "At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/manaroo.png",
+      "slots": [
+        "Cannon",
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Torpedo",
+        "Talent",
+        "Title"
+      ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/manaroo.png",
+      "standard": true,
+      "extended": true,
+      "keywords": [
+        "Bounty Hunter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 117
+    },
+    {
+      "uid": "PSV0590",
+      "name": "Tel Trevura",
+      "caption": "Escape Artist",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 13,
+      "loadout": 21,
+      "xws": "teltrevura",
+      "ability": "If you would be destroyed, you may spend 1 [Charge]. If you do, discard all of your damage cards, suffer 5 [Hit] damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/teltrevura.png",
+      "charges": {
+        "value": 1,
+        "recovers": 0
+      },
+      "slots": [
+        "Cannon",
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Torpedo",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/teltrevura.png",
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 116
     },
     {
+      "uid": "PSV0591",
       "name": "Nom Lumb",
       "xws": "nomlumb",
       "initiative": 1,
@@ -147,20 +199,52 @@
       "extended": true,
       "slots": [
         "Cannon",
-        "Cannon",
-        "Torpedo",
         "Crew",
         "Gunner",
         "Illicit",
-        "Modification"
+        "Modification",
+        "Torpedo"
       ],
       "ability": "After you become the defender, if the attacker is not in your [Single Turret Arc], you must rotate your [Single Turret Arc] indicator to a standard arc the attacker is in.",
-      "cost": 5,
-      "loadout": 11,
+      "cost": 11,
+      "loadout": 13,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nomlumb.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/nomlumb.png",
-      "keywords": ["Bounty Hunter"],
-      "epic": true
+      "keywords": [
+        "Bounty Hunter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 400
+    },
+    {
+      "uid": "PSV0592",
+      "name": "Dengar",
+      "initiative": 6,
+      "limited": 1,
+      "cost": 15,
+      "loadout": 0,
+      "xws": "dengar-armedanddangerous",
+      "ability": "After you defend, if the attacker is in your [Front Arc], you may spend 1 [Charge] to perform a bonus attack against the attacker.",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/dengar-armedanddangerous.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dengar-armedanddangerous.png",
+      "standardLoadout": [
+        "r2g8-armedanddangerous",
+        "synchronizedhandling-armedanddangerous",
+        "starboardthrusters-armedanddangerous",
+        "punishingone"
+      ],
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "standard": true,
+      "extended": true,
+      "epic": true,
+      "caption": "Armed and Dangerous",
+      "slots": [],
+      "restricted": 0,
+      "id": 716
     }
   ]
 }

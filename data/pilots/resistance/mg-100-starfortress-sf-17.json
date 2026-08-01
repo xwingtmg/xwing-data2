@@ -18,24 +18,56 @@
     "3FW",
     "3NR"
   ],
-  "dialCodes": ["MG1"],
+  "dialCodes": [
+    "MG1"
+  ],
   "faction": "resistance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Double Turret Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 9 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Double Turret Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 9
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Rotate Arc" },
-    { "difficulty": "White", "type": "Reload" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Rotate Arc"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reload"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/resistance/I_StarFortress.png",
   "pilots": [
     {
+      "uid": "PRE0468",
       "name": "Cobalt Squadron Bomber",
       "initiative": 1,
       "limited": 0,
@@ -43,22 +75,25 @@
       "text": "Whether the ordnance silos of their StarFortresses are loaded with proton bombs or relief supplies, the heroic crews of Cobalt Squadron dedicate their lives to making a difference in the galaxy.",
       "image": "https://infinitearenas.com/xw2/images/pilots/cobaltsquadronbomber.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cobaltsquadronbomber.png",
-      "cost": 6,
-      "loadout": 12,
+      "cost": 15,
+      "loadout": 20,
       "slots": [
-        "Sensor",
-        "Device",
-        "Device",
-        "Modification",
+        "Payload",
+        "Payload",
+        "Crew",
         "Gunner",
         "Gunner",
-        "Tech"
+        "Tech",
+        "Modification"
       ],
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 260
     },
     {
+      "uid": "PRE0469",
       "name": "Cat",
       "caption": "Cobalt Wasp",
       "initiative": 1,
@@ -67,24 +102,26 @@
       "ability": "While you perform a primary attack, if the defender is at range 0-1 of at least 1 friendly device, roll 1 additional die.",
       "image": "https://infinitearenas.com/xw2/images/pilots/cat.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cat.png",
-      "cost": 5,
-      "loadout": 17,
+      "cost": 15,
+      "loadout": 22,
       "slots": [
-        "Talent",
-        "Sensor",
+        "Payload",
+        "Payload",
         "Crew",
-        "Device",
-        "Device",
-        "Modification",
         "Gunner",
         "Gunner",
-        "Tech"
+        "Sensor",
+        "Tech",
+        "Modification"
       ],
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 291
     },
     {
+      "uid": "PRE0470",
       "name": "Vennie",
       "caption": "Crimson Cutter",
       "initiative": 2,
@@ -93,23 +130,26 @@
       "ability": "While you defend, if the attacker is in a friendly ship's [Single Turret Arc], you may add 1 [Focus] result to your roll.",
       "image": "https://infinitearenas.com/xw2/images/pilots/vennie.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vennie.png",
-      "cost": 6,
-      "loadout": 18,
+      "cost": 17,
+      "loadout": 28,
       "slots": [
+        "Payload",
+        "Payload",
         "Sensor",
-        "Torpedo",
         "Crew",
-        "Device",
-        "Device",
-        "Modification",
         "Gunner",
-        "Gunner"
+        "Gunner",
+        "Tech",
+        "Modification"
       ],
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 294
     },
     {
+      "uid": "PRE0471",
       "name": "Ben Teene",
       "caption": "Crimson Bolide",
       "initiative": 3,
@@ -118,25 +158,29 @@
       "ability": "After you perform an attack, if the defender is in your [Single Turret Arc], assign the Rattled condition to the defender.",
       "image": "https://infinitearenas.com/xw2/images/pilots/benteene.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/benteene.png",
-      "cost": 5,
-      "loadout": 19,
-      "conditions": ["rattled"],
+      "cost": 15,
+      "loadout": 20,
+      "conditions": [
+        "rattled"
+      ],
       "slots": [
+        "Payload",
+        "Payload",
         "Sensor",
         "Crew",
-        "Device",
-        "Device",
-        "Modification",
         "Gunner",
         "Gunner",
         "Tech",
-        "Tech"
+        "Modification"
       ],
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 292
     },
     {
+      "uid": "PRE0472",
       "name": "Edon Kappehl",
       "caption": "Crimson Hailstorm",
       "initiative": 3,
@@ -145,24 +189,26 @@
       "ability": "After you fully execute a blue or white maneuver, if you have not dropped or launched a device this round, you may drop 1 device.",
       "image": "https://infinitearenas.com/xw2/images/pilots/edonkappehl.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/edonkappehl.png",
-      "cost": 6,
-      "loadout": 22,
+      "cost": 16,
+      "loadout": 24,
       "slots": [
-        "Sensor",
-        "Cannon",
+        "Payload",
+        "Payload",
         "Crew",
-        "Device",
-        "Device",
+        "Gunner",
+        "Gunner",
+        "Tech",
         "Modification",
-        "Gunner",
-        "Gunner",
-        "Tech"
+        "Sensor"
       ],
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 293
     },
     {
+      "uid": "PRE0473",
       "name": "Finch Dallow",
       "caption": "Cobalt Hammer",
       "initiative": 4,
@@ -171,24 +217,27 @@
       "ability": "Before you would drop a bomb, you may place it in the play area touching you instead.",
       "image": "https://infinitearenas.com/xw2/images/pilots/finchdallow.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/finchdallow.png",
-      "cost": 6,
-      "loadout": 22,
+      "cost": 15,
+      "loadout": 18,
       "slots": [
-        "Sensor",
-        "Missile",
+        "Payload",
+        "Payload",
         "Crew",
-        "Device",
-        "Device",
+        "Gunner",
+        "Gunner",
+        "Tech",
         "Modification",
-        "Gunner",
-        "Gunner",
-        "Tech"
+        "Talent",
+        "Sensor"
       ],
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 250
     },
     {
+      "uid": "PRE0474",
       "name": "Paige Tico",
       "xws": "paigetico",
       "initiative": 5,
@@ -196,23 +245,132 @@
       "caption": "Hero",
       "standard": false,
       "extended": true,
-      "charges": { "value": 1, "recovers": 1 },
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
       "slots": [
-        "Talent",
-        "Sensor",
-        "Tech",
+        "Payload",
+        "Payload",
         "Crew",
         "Gunner",
-        "Device",
-        "Device",
+        "Gunner",
+        "Tech",
+        "Modification",
+        "Talent",
+        "Sensor",
         "Modification"
       ],
       "ability": "After you drop a device, you may spend 1 [Charge] to drop an additional device.",
-      "cost": 6,
-      "loadout": 23,
+      "cost": 16,
+      "loadout": 24,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/paigetico.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/paigetico.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 389
+    },
+    {
+      "uid": "PRE0475",
+      "name": "Finch Dallow",
+      "caption": "Evacuation of D'Qar",
+      "initiative": 4,
+      "limited": 1,
+      "xws": "finchdallow-evacuationofdqar",
+      "ability": "If you would drop a device using a [Straight] template and you are not stressed, you may gain 1 stress token to use a [Bank Left] or [Bank Right] template of the same speed instead.",
+      "shipAbility": {
+        "name": "Modular Bombing Magazine",
+        "text": "When you drop a device, you may set the template with its middle line aligned with the hashmark on the base in your [Left Arc] or [Right Arc]."
+      },
+      "standardLoadout": [
+        "nixjerd-evacuationofdqar",
+        "paigetico-evacuationofdqar",
+        "protonbombs",
+        "thermaldetonators"
+      ],
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/finchdallow-evacuationofdqar.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/finchdallow-evacuationofdqar.png",
+      "cost": 16,
+      "loadout": 0,
+      "standard": true,
+      "extended": true,
+      "epic": true,
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reload",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Reinforce"
+          }
+        }
+      ],
+      "slots": [],
+      "restricted": 0,
+      "id": 710
+    },
+    {
+      "uid": "PRE0476",
+      "name": "Vennie",
+      "caption": "Evacuation of D'Qar",
+      "initiative": 2,
+      "limited": 1,
+      "xws": "vennie-evacuationofdqar",
+      "text": "",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/vennie-evacuationofdqar.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vennie-evacuationofdqar.png",
+      "cost": 17,
+      "loadout": 0,
+      "ability": "While you defend, if the attacker is in a friendly ship's [Single Turret Arc], you may change 1 [Focus] result to an [Evade] result.",
+      "shipAbility": {
+        "name": "Modular Bombing Magazine",
+        "text": "When you drop a device, you may set the template with its middle line aligned with the hashmark on the base in your [Left Arc] or [Right Arc]."
+      },
+      "standardLoadout": [
+        "perceptivecopilot",
+        "dedicatedgunners-evacuationofdqar",
+        "protonbombs"
+      ],
+      "standard": true,
+      "extended": true,
+      "epic": true,
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Reload"
+        }
+      ],
+      "slots": [],
+      "restricted": 0,
+      "id": 711
     }
   ]
 }

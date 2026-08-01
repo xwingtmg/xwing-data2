@@ -23,101 +23,194 @@
     "4KR",
     "5FW"
   ],
-  "dialCodes": ["TAv"],
+  "dialCodes": [
+    "TAv"
+  ],
   "faction": "galacticempire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 2 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Evade" },
-    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Focus" },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Focus"
+      },
       "type": "Barrel Roll"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Focus" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Focus"
+      },
       "type": "Boost"
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEAdvancedPrototype.png",
   "pilots": [
     {
+      "uid": "PEM0089",
       "name": "Baron of the Empire",
       "initiative": 3,
       "limited": 0,
-      "cost": 4,
-      "loadout": 4,
+      "cost": 9,
+      "loadout": 10,
       "xws": "baronoftheempire",
       "text": "Sienar Fleet System's TIE Advanced v1 is a groundbreaking starfighter design, featuring upgraded engines, a missile launcher, and folding s-foils.",
       "image": "https://infinitearenas.com/xw2/images/pilots/baronoftheempire.png",
-      "slots": ["Talent", "Sensor", "Missile"],
+      "slots": [
+        "Missile",
+        "Sensor",
+        "Modification",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/baronoftheempire.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 172
     },
     {
+      "uid": "PEM0090",
       "name": "Grand Inquisitor",
       "caption": "Master of the Inquisitorious",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
-      "loadout": 10,
+      "cost": 13,
+      "loadout": 15,
       "xws": "grandinquisitor",
       "ability": "While you defend at attack range 1, you may spend 1 [Force] to prevent the range 1 bonus. While you perform an attack against a defender at attack range 2-3, you may spend 1 [Force] to apply the range 1 bonus.",
       "image": "https://infinitearenas.com/xw2/images/pilots/grandinquisitor.png",
-      "force": { "value": 2, "recovers": 1, "side": ["dark"] },
-      "slots": ["Sensor", "Missile", "Force Power", "Force Power", "Talent"],
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
+      "slots": [
+        "Missile",
+        "Sensor",
+        "Modification",
+        "Force Power",
+        "Force Power"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/grandinquisitor.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "TIE"],
-      "epic": true
+      "keywords": [
+        "Dark Side",
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 169
     },
     {
+      "uid": "PEM0091",
       "name": "Inquisitor",
       "initiative": 3,
       "limited": 0,
-      "cost": 4,
-      "loadout": 5,
+      "cost": 10,
+      "loadout": 13,
       "xws": "inquisitor",
       "text": "The fearsome Inquisitors are given a great deal of autonomy and access to the Empire's latest technology, like the prototype TIE Advanced v1.",
       "image": "https://infinitearenas.com/xw2/images/pilots/inquisitor.png",
-      "force": { "value": 1, "recovers": 1, "side": ["dark"] },
-      "slots": ["Sensor", "Force Power"],
+      "force": {
+        "value": 1,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
+      "slots": [
+        "Missile",
+        "Sensor",
+        "Modification",
+        "Force Power"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/inquisitor.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "TIE"],
-      "epic": true
+      "keywords": [
+        "Dark Side",
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 171
     },
     {
+      "uid": "PEM0092",
       "name": "Seventh Sister",
       "caption": "Sadistic Interrogator",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 6,
+      "cost": 11,
+      "loadout": 13,
       "xws": "seventhsister",
       "ability": "While you perform a primary attack, before the Neutralize Results step, you may spend 2 [Force] to cancel 1 [Evade] result.",
       "image": "https://infinitearenas.com/xw2/images/pilots/seventhsister.png",
-      "force": { "value": 2, "recovers": 1, "side": ["dark"] },
-      "slots": ["Sensor", "Missile", "Force Power", "Talent"],
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
+      "slots": [
+        "Missile",
+        "Sensor",
+        "Modification",
+        "Force Power"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/seventhsister.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Dark Side", "TIE"],
-      "epic": true
+      "keywords": [
+        "Dark Side",
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 170
     },
     {
+      "uid": "PEM0093",
       "name": "Fifth Brother",
       "xws": "fifthbrother",
       "initiative": 4,
@@ -125,15 +218,31 @@
       "caption": "Ruthless Brute",
       "standard": true,
       "extended": true,
-      "force": { "value": 2, "recovers": 1, "side": ["dark"] },
-      "slots": ["Force Power", "Sensor", "Talent", "Missile"],
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "dark"
+        ]
+      },
+      "slots": [
+        "Missile",
+        "Sensor",
+        "Modification",
+        "Force Power"
+      ],
       "ability": "While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 [Force] to add 1 [Critical Hit] result.",
-      "cost": 4,
-      "loadout": 7,
+      "cost": 11,
+      "loadout": 12,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/fifthbrother.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/fifthbrother.png",
-      "keywords": ["Dark Side", "TIE"],
-      "epic": true
+      "keywords": [
+        "Dark Side",
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 394
     }
   ]
 }

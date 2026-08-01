@@ -23,75 +23,120 @@
     "5FW",
     "5KR"
   ],
-  "dialCodes": ["RCS"],
+  "dialCodes": [
+    "RCS"
+  ],
   "faction": "separatistalliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 5 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 5
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Boost" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Boost"
+      },
       "type": "Focus"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Barrel Roll"
+      },
       "type": "Focus"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+      "linked": {
+        "difficulty": "Red",
+        "type": "Barrel Roll"
+      },
       "type": "Evade"
     },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Boost" }
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Boost"
+    }
   ],
-  "icon": "???",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Rogue.png",
   "pilots": [
     {
+      "uid": "PSA0710",
       "name": "Cad Bane",
       "caption": "Needs No Introduction",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 13,
+      "cost": 11,
+      "loadout": 11,
       "xws": "cadbane-separatistalliance",
       "slots": [
         "Cannon",
         "Cannon",
+        "Illicit",
         "Modification",
-        "Title",
-        "Illicit",
-        "Illicit",
+        "Modification",
         "Talent",
+        "Title",
         "Missile"
       ],
       "ability": "During the Engagement Phase, after another ship at range 0-3 is destroyed, you may spend 1 [Charge] to perform an action, even while stressed.",
-      "charges": { "value": 1, "recovers": 1 },
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
       "shipAbility": {
         "name": "Dead to Rights",
         "text": "While you perform an attack, if the defender is in your [Bullseye Arc], defense dice cannot be modified using green tokens."
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/cadbane-separatistalliance.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cadbane-separatistalliance.png",
-      "keywords": ["Bounty Hunter"],
+      "keywords": [
+        "Bounty Hunter"
+      ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 538
     },
     {
+      "uid": "PSA0711",
       "name": "IG-101",
       "caption": "Tenacious Bodyguard",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 11,
+      "cost": 10,
+      "loadout": 12,
       "xws": "ig101",
-      "slots": ["Cannon", "Cannon", "Modification", "Modification"],
+      "slots": [
+        "Cannon",
+        "Cannon",
+        "Modification",
+        "Modification",
+        "Talent"
+      ],
       "ability": "At the start of the System Phase, you may repair 1 faceup damage card.",
       "shipAbility": {
         "name": "Networked Calculations",
@@ -100,37 +145,62 @@
       "shipActions": [
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Boost" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Boost"
+          },
           "type": "Calculate"
         },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          },
           "type": "Calculate"
         },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          },
           "type": "Evade"
         },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Boost" }
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Boost"
+        }
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/ig101.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ig101.png",
-      "keywords": ["Droid"],
+      "keywords": [
+        "Droid"
+      ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 539
     },
     {
+      "uid": "PSA0712",
       "name": "MagnaGuard Executioner",
       "initiative": 3,
       "limited": 0,
-      "cost": 4,
-      "loadout": 6,
+      "cost": 9,
+      "loadout": 8,
       "xws": "magnaguardexecutioner",
-      "slots": ["Cannon", "Cannon", "Modification"],
+      "slots": [
+        "Cannon",
+        "Cannon",
+        "Modification",
+        "Modification"
+      ],
       "text": "In addition to guarding Separatist leaders, MagneGuard droids are sometimes dispatched in swift Rogue-class Starfighters to eliminate their enemies.",
       "shipAbility": {
         "name": "Networked Calculations",
@@ -139,38 +209,64 @@
       "shipActions": [
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Boost" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Boost"
+          },
           "type": "Calculate"
         },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          },
           "type": "Calculate"
         },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          },
           "type": "Evade"
         },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Boost" }
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Boost"
+        }
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/magnaguardexecutioner.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/magnaguardexecutioner.png",
-      "keywords": ["Droid"],
+      "keywords": [
+        "Droid"
+      ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 543
     },
     {
+      "uid": "PSA0713",
       "name": "MagnaGuard Protector",
       "caption": "Implacable Escort",
       "initiative": 4,
       "limited": 2,
-      "cost": 4,
+      "cost": 10,
       "loadout": 10,
       "xws": "magnaguardprotector",
-      "slots": ["Cannon", "Cannon", "Modification", "Missile"],
+      "slots": [
+        "Cannon",
+        "Cannon",
+        "Modification",
+        "Modification",
+        "Talent"
+      ],
       "ability": "After placing forces, assign the Guarded condition to 1 friendly ship other than MagnaGuard Protector.",
       "shipAbility": {
         "name": "Networked Calculations",
@@ -179,38 +275,64 @@
       "shipActions": [
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Boost" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Boost"
+          },
           "type": "Calculate"
         },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          },
           "type": "Calculate"
         },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          },
           "type": "Evade"
         },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Boost" }
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Boost"
+        }
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/magnaguardprotector.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/magnaguardprotector.png",
-      "keywords": ["Droid"],
+      "keywords": [
+        "Droid"
+      ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 542
     },
     {
+      "uid": "PSA0714",
       "name": "IG-102",
       "caption": "Dueling Droid",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 10,
       "loadout": 11,
       "xws": "ig102",
-      "slots": ["Cannon", "Cannon", "Modification", "Modification"],
+      "slots": [
+        "Cannon",
+        "Cannon",
+        "Modification",
+        "Modification",
+        "Talent"
+      ],
       "ability": "While you defend, if the attacker's initiative is equal to or greater than yours, you may change 1 blank result to a [Focus] result.",
       "shipAbility": {
         "name": "Networked Calculations",
@@ -219,38 +341,63 @@
       "shipActions": [
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Boost" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Boost"
+          },
           "type": "Calculate"
         },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          },
           "type": "Calculate"
         },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          },
           "type": "Evade"
         },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Boost" }
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Boost"
+        }
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/ig102.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ig102.png",
-      "keywords": ["Droid"],
+      "keywords": [
+        "Droid"
+      ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 540
     },
     {
+      "uid": "PSA0715",
       "name": "IG-111",
       "caption": "One Eye",
       "initiative": 1,
       "limited": 1,
-      "cost": 4,
-      "loadout": 12,
+      "cost": 9,
+      "loadout": 7,
       "xws": "ig111",
-      "slots": ["Cannon", "Cannon", "Modification", "Modification"],
+      "slots": [
+        "Cannon",
+        "Cannon",
+        "Modification",
+        "Modification"
+      ],
       "ability": "After you perform an attack that missed, you may choose 1 enemy ship in your [Bullseye Arc] and gain 1 deplete token. If you do, that ship suffers 1 [Hit] damage.",
       "shipAbility": {
         "name": "Networked Calculations",
@@ -259,46 +406,69 @@
       "shipActions": [
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Boost" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Boost"
+          },
           "type": "Calculate"
         },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          },
           "type": "Calculate"
         },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Barrel Roll" },
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          },
           "type": "Evade"
         },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Boost" }
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Boost"
+        }
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/ig111.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ig111.png",
-      "keywords": ["Droid"],
+      "keywords": [
+        "Droid"
+      ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 541
     },
     {
+      "uid": "PSA0716",
       "name": "Durge",
       "caption": "On His Own Time",
       "initiative": 5,
       "limited": 1,
-      "cost": 4,
-      "loadout": 10,
-      "charges": { "value": 1, "recovers": 0 },
+      "cost": 12,
+      "loadout": 13,
+      "charges": {
+        "value": 1,
+        "recovers": 0
+      },
       "xws": "durge-separatistalliance",
       "slots": [
-        "Talent",
         "Cannon",
         "Cannon",
         "Illicit",
+        "Illicit",
         "Modification",
         "Modification",
-        "Title"
+        "Talent"
       ],
       "ability": "When you would be destroyed, you may spend 1 [Charge] to reveal all of your facedown damage cards. If you do, discard each Direct Hit! and each of your damage cards with the Pilot trait, then repair all of your faceup damage cards.",
       "shipAbility": {
@@ -307,10 +477,14 @@
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/durge-separatistalliance.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/durge-separatistalliance.png",
-      "keywords": ["Bounty Hunter"],
+      "keywords": [
+        "Bounty Hunter"
+      ],
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 616
     }
   ]
 }

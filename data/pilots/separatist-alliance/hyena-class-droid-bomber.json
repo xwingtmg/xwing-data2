@@ -22,25 +22,50 @@
     "4FW",
     "5FR"
   ],
-  "dialCodes": ["HDB"],
+  "dialCodes": [
+    "HDB"
+  ],
   "faction": "separatistalliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 5 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 5
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Calculate" },
-    { "difficulty": "White", "type": "Lock" },
+    {
+      "difficulty": "White",
+      "type": "Calculate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
     {
       "difficulty": "White",
       "type": "Barrel Roll",
-      "linked": { "difficulty": "Red", "type": "Lock" }
+      "linked": {
+        "difficulty": "Red",
+        "type": "Lock"
+      }
     },
-    { "difficulty": "Red", "type": "Reload" }
+    {
+      "difficulty": "Red",
+      "type": "Reload"
+    }
   ],
   "pilots": [
     {
+      "uid": "PSA0695",
       "name": "Techno Union Bomber",
       "initiative": 1,
       "limited": 0,
@@ -51,16 +76,26 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 3,
-      "loadout": 6,
-      "slots": ["Torpedo", "Device", "Modification", "Configuration"],
+      "cost": 8,
+      "loadout": 12,
+      "slots": [
+        "Modification",
+        "Payload",
+        "Configuration",
+        "Torpedo"
+      ],
       "text": "Baktoid Armor Workshop developed the Hyena as a strike craft compatible with Trade Federation Vulture swarm tactics.",
       "image": "https://infinitearenas.com/xw2/images/pilots/technounionbomber.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/technounionbomber.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 324
     },
     {
+      "uid": "PSA0696",
       "name": "Bombardment Drone",
       "caption": "Time on Target",
       "limited": 3,
@@ -74,14 +109,23 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/bombardmentdrone.png",
       "standard": true,
       "extended": true,
-      "cost": 3,
-      "loadout": 8,
-      "slots": ["Device", "Device", "Modification", "Configuration"],
+      "cost": 9,
+      "loadout": 9,
+      "slots": [
+        "Modification",
+        "Payload",
+        "Payload"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bombardmentdrone.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 325
     },
     {
+      "uid": "PSA0697",
       "name": "DBS-404",
       "caption": "Preservation Protocol Not Found",
       "xws": "dbs404",
@@ -93,22 +137,26 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 10,
+      "cost": 9,
+      "loadout": 12,
       "slots": [
-        "Torpedo",
-        "Missile",
-        "Device",
         "Modification",
-        "Configuration"
+        "Payload",
+        "Configuration",
+        "Torpedo"
       ],
       "ability": "While you perform an attack at attack range 1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage.",
       "image": "https://infinitearenas.com/xw2/images/pilots/dbs404.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dbs404.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 326
     },
     {
+      "uid": "PSA0698",
       "name": "Baktoid Prototype",
       "caption": "Function over Form",
       "xws": "baktoidprototype",
@@ -122,20 +170,25 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 3,
-      "loadout": 9,
+      "cost": 8,
+      "loadout": 10,
       "slots": [
-        "Sensor",
-        "Missile",
-        "Missile",
         "Modification",
-        "Configuration"
+        "Payload",
+        "Configuration",
+        "Missile",
+        "Missile"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/baktoidprototype.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 329
     },
     {
+      "uid": "PSA0699",
       "name": "Separatist Bomber",
       "xws": "separatistbomber",
       "initiative": 3,
@@ -148,14 +201,24 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 3,
-      "loadout": 4,
-      "slots": ["Missile", "Device", "Modification", "Configuration"],
+      "cost": 9,
+      "loadout": 14,
+      "slots": [
+        "Modification",
+        "Payload",
+        "Configuration",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/separatistbomber.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 327
     },
     {
+      "uid": "PSA0700",
       "name": "DBS-32C",
       "xws": "dbs32c",
       "caption": "Droid Control Signal Relay",
@@ -168,31 +231,58 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
         {
           "difficulty": "White",
           "type": "Barrel Roll",
-          "linked": { "difficulty": "Red", "type": "Lock" }
+          "linked": {
+            "difficulty": "Red",
+            "type": "Lock"
+          }
         },
-        { "difficulty": "Red", "type": "Jam" }
+        {
+          "difficulty": "Red",
+          "type": "Jam"
+        }
       ],
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 16,
-      "slots": ["Sensor", "Tactical Relay", "Modification", "Configuration"],
+      "cost": 9,
+      "loadout": 10,
+      "slots": [
+        "Modification",
+        "Payload",
+        "Configuration",
+        "Missile",
+        "Tactical Relay",
+        "Sensor"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dbs32c.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 328
     },
     {
+      "uid": "PSA0701",
       "name": "DBS-32C",
       "caption": "Siege of Coruscant",
       "initiative": 3,
       "limited": 1,
-      "cost": 3,
-      "charges": { "value": 2, "recovers": 0 },
+      "cost": 9,
+      "charges": {
+        "value": 2,
+        "recovers": 0
+      },
       "xws": "dbs32c-siegeofcoruscant",
       "ability": "After you perform a [Calculate] action, you may spend 1 [Charge] to perform a [Jam] action.",
       "shipAbility": {
@@ -200,29 +290,52 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
         {
           "difficulty": "White",
           "type": "Barrel Roll",
-          "linked": { "difficulty": "Red", "type": "Lock" }
+          "linked": {
+            "difficulty": "Red",
+            "type": "Lock"
+          }
         },
-        { "difficulty": "Red", "type": "Jam" }
+        {
+          "difficulty": "Red",
+          "type": "Jam"
+        }
       ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dbs32c-siegeofcoruscant.png",
-      "standardLoadout": ["plasmatorpedoes", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "plasmatorpedoes",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dbs32c.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 585
     },
     {
+      "uid": "PSA0702",
       "name": "DBS-404",
       "caption": "Siege of Coruscant",
       "initiative": 4,
       "limited": 1,
-      "cost": 3,
+      "cost": 9,
       "xws": "dbs404-siegeofcoruscant",
       "ability": "While you perform an attack at range 1, you must roll 1 additional die. After the attack hits, suffer 1 [Critical Hit] damage.",
       "shipAbility": {
@@ -230,19 +343,30 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dbs404-siegeofcoruscant.png",
-      "standardLoadout": ["advprotontorpedoes", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "advprotontorpedoes",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dbs404.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 586
     },
     {
+      "uid": "PSA0703",
       "name": "Baktoid Prototype",
       "caption": "Siege of Coruscant",
       "initiative": 1,
       "limited": 2,
-      "cost": 3,
+      "cost": 7,
       "xws": "baktoidprototype-siegeofcoruscant",
       "ability": "While you perform a special attack, if a friendly ship with the Networked Calculations ship ability has a lock on the defender, you may ignore the [Focus], [Calculate], or [Lock] requirement of that attack.",
       "shipAbility": {
@@ -250,12 +374,22 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/baktoidprototype-siegeofcoruscant.png",
-      "standardLoadout": ["homingmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "homingmissiles",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/baktoidprototype.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 587
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_Hyena.png"

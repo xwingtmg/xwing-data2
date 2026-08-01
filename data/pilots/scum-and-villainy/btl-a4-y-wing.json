@@ -19,156 +19,225 @@
     "4FR",
     "4KR"
   ],
-  "dialCodes": ["YW"],
+  "dialCodes": [
+    "YW"
+  ],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
-    { "difficulty": "Red", "type": "Reload" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reload"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Y-wing.png",
   "pilots": [
     {
+      "uid": "PSV0535",
       "name": "Crymorah Goon",
       "initiative": 1,
       "limited": 0,
-      "cost": 4,
-      "loadout": 4,
+      "cost": 7,
+      "loadout": 5,
       "xws": "crymorahgoon",
       "text": "Though far from nimble, the Y-wing's heavy hull, substantial shielding, and turret-mounted cannons make it an excellent patrol craft.",
       "image": "https://infinitearenas.com/xw2/images/pilots/crymorahgoon.png",
-      "slots": ["Turret", "Device", "Illicit", "Missile"],
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Payload",
+        "Turret",
+        "Illicit",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/crymorahgoon.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 88
     },
     {
+      "uid": "PSV0536",
       "name": "Drea Renthal",
       "caption": "Pirate Lord",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 10,
       "loadout": 10,
       "xws": "drearenthal",
       "ability": "While a friendly non-limited ship performs an attack, if the defender is in your firing arc, the attacker may reroll 1 attack die.",
       "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
         "Astromech",
-        "Device",
-        "Illicit",
         "Modification",
+        "Payload",
+        "Turret",
+        "Talent",
+        "Illicit",
         "Missile"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/drearenthal.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/drearenthal.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 86
     },
     {
+      "uid": "PSV0537",
       "name": "Hired Gun",
       "initiative": 2,
       "limited": 0,
-      "cost": 4,
-      "loadout": 6,
+      "cost": 9,
+      "loadout": 12,
       "xws": "hiredgun",
       "text": "Just the mention of Imperial credits can bring a host of less-than-trustworthy individuals to your side.",
       "image": "https://infinitearenas.com/xw2/images/pilots/hiredgun.png",
-      "slots": ["Turret", "Torpedo", "Device", "Illicit", "Missile"],
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Payload",
+        "Turret",
+        "Illicit",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hiredgun.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 87
     },
     {
+      "uid": "PSV0538",
       "name": "Kavil",
       "caption": "Callous Corsair",
       "initiative": 5,
       "limited": 1,
-      "cost": 4,
-      "loadout": 7,
+      "cost": 11,
+      "loadout": 17,
       "xws": "kavil",
       "ability": "While you perform a non-[Front Arc] attack, roll 1 additional attack die.",
       "image": "https://infinitearenas.com/xw2/images/pilots/kavil.png",
       "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
         "Astromech",
-        "Device",
-        "Illicit",
         "Modification",
+        "Payload",
+        "Turret",
+        "Talent",
+        "Illicit",
         "Missile"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kavil.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 85
     },
     {
+      "uid": "PSV0539",
       "name": "Leema Kai",
       "xws": "leemakai",
       "initiative": 5,
       "limited": 1,
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "cost": 3,
-      "loadout": 8,
+      "keywords": [
+        "Y-wing"
+      ],
+      "cost": 11,
+      "loadout": 21,
       "slots": [
-        "Tech",
-        "Turret",
-        "Torpedo",
-        "Missile",
         "Astromech",
-        "Device"
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret",
+        "Talent"
       ],
       "ability": "Before you engage, if you are not in any enemy ship's [Front Arc], you may acquire a lock on an enemy ship in your full front arc.",
       "caption": "Opportunity Knocks",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leemakai.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/leemakai.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 458
     },
     {
+      "uid": "PSV0540",
       "name": "Arliz Hadrassian",
       "xws": "arlizhadrassian",
       "initiative": 4,
       "limited": 1,
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "cost": 3,
-      "loadout": 10,
+      "keywords": [
+        "Y-wing"
+      ],
+      "cost": 10,
+      "loadout": 14,
       "slots": [
-        "Talent",
-        "Tech",
-        "Turret",
-        "Torpedo",
-        "Missile",
         "Astromech",
-        "Device"
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret",
+        "Talent"
       ],
       "ability": "While you perform a [Front Arc] attack, if you are damaged, you may change 1 of your [Focus] results to a [Critical Hit] result. While you defend, if you are damaged, before the Modify Defense Dice step, you must change 1 of your [Focus] results to a blank result.",
       "caption": "Crimson Blade",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/arlizhadrassian.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/arlizhadrassian.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 459
     },
     {
+      "uid": "PSV0541",
       "name": "Amaxine Warrior",
       "xws": "amaxinewarrior",
       "initiative": 3,
@@ -176,15 +245,27 @@
       "text": "Decades after the Battle of Endor, former Imperials remain active in the New Republic. Many have joined paramilitary organizations, such as the Amaxine Warriors, that appropriate martial traditions and cultures to spread the hateful ideology of the First Order amongst those most vulnerable to it.",
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 6,
-      "slots": ["Turret", "Torpedo", "Missile", "Astromech", "Device"],
-      "keywords": ["Y-wing"],
+      "cost": 10,
+      "loadout": 16,
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret",
+        "Talent"
+      ],
+      "keywords": [
+        "Y-wing"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/amaxinewarrior.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/amaxinewarrior.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 472
     },
     {
+      "uid": "PSV0542",
       "name": "Padric",
       "xws": "padric",
       "initiative": 3,
@@ -192,25 +273,28 @@
       "caption": "Napkin Bomber",
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 10,
+      "cost": 8,
+      "loadout": 8,
       "slots": [
-        "Talent",
-        "Tech",
-        "Turret",
-        "Torpedo",
-        "Missile",
         "Astromech",
-        "Device",
-        "Modification"
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret",
+        "Talent"
       ],
       "ability": "After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token.",
-      "keywords": ["Y-wing"],
+      "keywords": [
+        "Y-wing"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/padric.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/padric.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 460
     },
     {
+      "uid": "PSV0543",
       "name": "Jinata Security Officer",
       "xws": "jinatasecurityofficer",
       "initiative": 2,
@@ -218,13 +302,23 @@
       "text": "Headquartered on the former Imperial stronghold of Vardos, Jinata Security continues its reconstruction efforts on the devastated planet, even while collaborating with the First Order's rearmament program.",
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 5,
-      "slots": ["Turret", "Torpedo", "Missile", "Device"],
-      "keywords": ["Y-wing"],
+      "cost": 8,
+      "loadout": 8,
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret"
+      ],
+      "keywords": [
+        "Y-wing"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jinatasecurityofficer.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/jinatasecurityofficer.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 471
     }
   ]
 }

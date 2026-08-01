@@ -17,27 +17,63 @@
     "3FB",
     "4FR"
   ],
-  "dialCodes": ["GOZ-FO"],
+  "dialCodes": [
+    "GOZ-FO"
+  ],
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 11 },
-    { "type": "shields", "value": 5, "recovers": 1 },
-    { "type": "energy", "value": 3, "recovers": 1 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 11
+    },
+    {
+      "type": "shields",
+      "value": 5,
+      "recovers": 1
+    },
+    {
+      "type": "energy",
+      "value": 3,
+      "recovers": 1
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Coordinate" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Jam" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Coordinate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Jam"
+    }
   ],
   "pilots": [
     {
+      "uid": "PFO0001",
       "name": "First Order Sympathizers",
       "initiative": 7,
-      "cost": 67,
-      "loadout": 0,
+      "cost": 25,
+      "loadout": 40,
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/firstordersympathizers.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/firstordersympathizers.png",
@@ -60,7 +96,65 @@
         "Team",
         "Cargo",
         "Cargo"
-      ]
+      ],
+      "restricted": 0,
+      "id": 374
+    },
+    {
+      "uid": "PFO0002",
+      "name": "Cerra Fellian",
+      "caption": "Malefactor",
+      "initiative": 7,
+      "engagement": 1,
+      "limited": 1,
+      "cost": 14,
+      "xws": "cerrafellian-epicsl",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cerrafellian-epicsl.png",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/cerrafellian-epicsl.png",
+      "shipAbility": {
+        "name": "Docking Clamps",
+        "text": "You can dock up to 4 small ships."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Coordinate"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Coordinate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
+      ],
+      "text": "",
+      "standard": false,
+      "extended": false,
+      "epic": true,
+      "standardLoadout": [
+        "pettyofficerthanisson",
+        "ioncannonbattery-epicsl",
+        "malefactor-epicsl"
+      ],
+      "restricted": 0
     }
   ]
 }

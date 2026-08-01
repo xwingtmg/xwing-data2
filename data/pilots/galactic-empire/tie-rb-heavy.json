@@ -22,31 +22,65 @@
     "3RR",
     "4FW"
   ],
-  "dialCodes": ["Trb"],
+  "dialCodes": [
+    "Trb"
+  ],
   "faction": "galacticempire",
   "stats": [
-    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 8 }
+    {
+      "arc": "Single Turret Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 8
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Calculate" },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Calculate"
+      },
       "type": "Rotate Arc"
     }
   ],
   "pilots": [
     {
+      "uid": "PEM0174",
       "name": "Carida Academy Cadet",
-      "cost": 5,
+      "cost": 9,
       "loadout": 8,
       "initiative": 1,
-      "slots": ["Cannon", "Cannon", "Configuration"],
+      "slots": [
+        "Cannon",
+        "Cannon",
+        "Gunner",
+        "Modification",
+        "Configuration"
+      ],
       "xws": "caridaacademycadet",
       "shipAbility": {
         "name": "Rotating Cannons",
@@ -58,15 +92,27 @@
       "limited": 0,
       "image": "https://infinitearenas.com/xw2/images/pilots/caridaacademycadet.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/caridaacademycadet.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 416
     },
     {
+      "uid": "PEM0175",
       "name": "Onyx Squadron Sentry",
-      "cost": 5,
-      "loadout": 7,
+      "cost": 10,
+      "loadout": 11,
       "initiative": 3,
-      "slots": ["Cannon", "Cannon", "Modification", "Configuration"],
+      "slots": [
+        "Cannon",
+        "Cannon",
+        "Gunner",
+        "Modification",
+        "Configuration",
+        "Talent"
+      ],
       "xws": "onyxsquadronsentry",
       "shipAbility": {
         "name": "Rotating Cannons",
@@ -78,23 +124,28 @@
       "limited": 0,
       "image": "https://infinitearenas.com/xw2/images/pilots/onyxsquadronsentry.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronsentry.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 417
     },
     {
+      "uid": "PEM0176",
       "name": "“Rampage”",
       "caption": "Implacable Pursuer",
-      "cost": 4,
-      "loadout": 10,
+      "cost": 10,
+      "loadout": 15,
       "initiative": 4,
       "limited": 1,
       "slots": [
-        "Talent",
         "Cannon",
         "Cannon",
         "Gunner",
         "Modification",
-        "Configuration"
+        "Configuration",
+        "Talent"
       ],
       "xws": "rampage",
       "ability": "After you execute a speed 3-4 maneuver, you may choose a ship in your [Single Turret Arc] at range 0-1. That ship gains 1 strain token, or 2 strain tokens if you are damaged.",
@@ -106,18 +157,22 @@
       "extended": true,
       "image": "https://infinitearenas.com/xw2/images/pilots/rampage.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rampage.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 419
     },
     {
+      "uid": "PEM0177",
       "name": "Lyttan Dree",
       "caption": "Onyx 2",
-      "cost": 5,
-      "loadout": 14,
+      "cost": 10,
+      "loadout": 13,
       "initiative": 3,
       "limited": 1,
       "slots": [
-        "Sensor",
         "Cannon",
         "Cannon",
         "Gunner",
@@ -134,24 +189,28 @@
       "extended": true,
       "image": "https://infinitearenas.com/xw2/images/pilots/lyttandree.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lyttandree.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 418
     },
     {
+      "uid": "PEM0178",
       "name": "Flight Leader Ubbel",
       "caption": "Onyx Leader",
-      "cost": 5,
-      "loadout": 12,
+      "cost": 12,
+      "loadout": 13,
       "initiative": 5,
       "limited": 1,
       "slots": [
-        "Talent",
         "Cannon",
         "Cannon",
         "Gunner",
         "Modification",
-        "Modification",
-        "Configuration"
+        "Configuration",
+        "Talent"
       ],
       "xws": "flightleaderubbel",
       "ability": "After a friendly ship at range 0-2 defends, if it was dealt a damage card, you may perform a bonus attack against the attacker.",
@@ -163,8 +222,12 @@
       "extended": true,
       "image": "https://infinitearenas.com/xw2/images/pilots/flightleaderubbel.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/flightleaderubbel.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 599
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIE_Brute.png"

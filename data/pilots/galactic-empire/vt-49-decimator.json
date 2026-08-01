@@ -20,91 +20,139 @@
     "3YW",
     "4FW"
   ],
-  "dialCodes": ["Dec"],
+  "dialCodes": [
+    "Dec"
+  ],
   "faction": "galacticempire",
   "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 12 },
-    { "type": "shields", "value": 4 }
+    {
+      "arc": "Double Turret Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 12
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Rotate Arc" },
-    { "difficulty": "Red", "type": "Coordinate" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Rotate Arc"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Decimator.png",
   "pilots": [
     {
+      "uid": "PEM0203",
       "name": "Captain Oicunn",
       "caption": "Inspired Tactician",
       "initiative": 3,
       "limited": 1,
-      "cost": 7,
-      "loadout": 19,
+      "cost": 16,
+      "loadout": 14,
       "xws": "captainoicunn",
       "ability": "While you perform an attack at attack range 0, treat it as an attack at attack range 1.",
       "image": "https://infinitearenas.com/xw2/images/pilots/captainoicunn.png",
       "slots": [
-        "Talent",
-        "Talent",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Gunner",
         "Torpedo",
-        "Crew",
-        "Crew",
-        "Device",
         "Modification",
-        "Title",
-        "Gunner"
+        "Payload",
+        "Talent",
+        "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainoicunn.png",
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 215
     },
     {
+      "uid": "PEM0204",
       "name": "Patrol Leader",
       "initiative": 2,
       "limited": 0,
-      "cost": 7,
-      "loadout": 12,
+      "cost": 16,
+      "loadout": 9,
       "xws": "patrolleader",
       "text": "To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.",
       "image": "https://infinitearenas.com/xw2/images/pilots/patrolleader.png",
-      "slots": ["Torpedo", "Crew", "Device", "Modification", "Gunner"],
+      "slots": [
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Gunner",
+        "Torpedo",
+        "Modification",
+        "Payload"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/patrolleader.png",
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 216
     },
     {
+      "uid": "PEM0205",
       "name": "Rear Admiral Chiraneau",
       "caption": "Advisor to Admiral Piett",
       "initiative": 5,
       "limited": 1,
-      "cost": 7,
-      "loadout": 20,
+      "cost": 19,
+      "loadout": 27,
       "xws": "rearadmiralchiraneau",
       "ability": "While you perform an attack, if you are reinforced and the defender is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token, you may change 1 of your [Focus] results to a [Critical Hit] result.",
       "image": "https://infinitearenas.com/xw2/images/pilots/rearadmiralchiraneau.png",
       "slots": [
-        "Talent",
+        "Crew",
+        "Crew",
+        "Gunner",
+        "Gunner",
         "Torpedo",
-        "Crew",
-        "Crew",
-        "Crew",
-        "Device",
         "Modification",
-        "Title",
-        "Gunner"
+        "Payload",
+        "Talent",
+        "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rearadmiralchiraneau.png",
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 214
     },
     {
+      "uid": "PEM0206",
       "name": "Morna Kee",
       "xws": "mornakee",
       "initiative": 4,
@@ -113,23 +161,28 @@
       "standard": true,
       "extended": true,
       "slots": [
-        "Talent",
-        "Torpedo",
         "Crew",
         "Crew",
         "Gunner",
-        "Device",
+        "Gunner",
+        "Torpedo",
         "Modification",
-        "Modification",
+        "Payload",
+        "Talent",
         "Title"
       ],
-      "charges": { "value": 3, "recovers": 0 },
+      "charges": {
+        "value": 3,
+        "recovers": 0
+      },
       "ability": "During the End Phase, you may spend 1 [Charge] to flip 1 of your reinforce tokens to your other full arc instead of removing it.",
-      "cost": 7,
-      "loadout": 22,
+      "cost": 17,
+      "loadout": 16,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mornakee.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/mornakee.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 396
     }
   ]
 }

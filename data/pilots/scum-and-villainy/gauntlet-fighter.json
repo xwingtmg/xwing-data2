@@ -1,6 +1,7 @@
 {
   "name": "Gauntlet Fighter",
   "xws": "gauntletfighter",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_GauntletFighter.png",
   "size": "Large",
   "dial": [
     "0OR",
@@ -18,57 +19,100 @@
     "3YR",
     "4FW"
   ],
-  "dialCodes": ["GtF"],
+  "dialCodes": [
+    "GtF"
+  ],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Rear Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 9 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Rear Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 9
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "Red", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Coordinate" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    }
   ],
   "pilots": [
     {
+      "uid": "PSV0576",
       "xws": "maul",
       "name": "Maul",
       "image": "https://infinitearenas.com/xw2/images/pilots/maul.png",
       "ability": "While you perform a [Coordinate] action, if you choose a ship with an initiative lower than yours, you may spend 1 [Force]. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token.",
-      "force": { "side": ["dark"], "value": 3, "recovers": 1 },
-      "cost": 8,
-      "loadout": 15,
+      "force": {
+        "side": [
+          "dark"
+        ],
+        "value": 3,
+        "recovers": 1
+      },
+      "cost": 18,
+      "loadout": 18,
       "initiative": 5,
       "limited": 1,
       "standard": true,
       "extended": true,
       "epic": true,
       "slots": [
-        "Force Power",
-        "Talent",
         "Crew",
         "Gunner",
-        "Device",
         "Illicit",
         "Modification",
         "Modification",
+        "Payload",
         "Configuration",
+        "Force Power",
+        "Force Power",
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/maul.png",
-      "keywords": ["Dark Side"],
-      "caption": "Lord of the Shadow Collective"
+      "keywords": [
+        "Dark Side"
+      ],
+      "caption": "Lord of the Shadow Collective",
+      "restricted": 0,
+      "id": 512
     },
     {
+      "uid": "PSV0577",
       "xws": "rookkast",
       "name": "Rook Kast",
       "image": "https://infinitearenas.com/xw2/images/pilots/rookkast.png",
-      "cost": 7,
-      "loadout": 14,
+      "cost": 17,
+      "loadout": 17,
       "initiative": 3,
       "limited": 1,
       "ability": "Before you engage, you may gain 1 strain token. While you perform a primary attack, if you are strained, you may change 1 of your blank or [Focus] results to a [Hit] result.",
@@ -76,24 +120,30 @@
       "extended": true,
       "epic": true,
       "slots": [
-        "Talent",
         "Crew",
         "Gunner",
-        "Device",
         "Illicit",
         "Modification",
-        "Configuration"
+        "Modification",
+        "Payload",
+        "Configuration",
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rookkast.png",
-      "keywords": ["Mandalorian"],
-      "caption": "Stoic Super Commando"
+      "keywords": [
+        "Mandalorian"
+      ],
+      "caption": "Stoic Super Commando",
+      "restricted": 0,
+      "id": 514
     },
     {
+      "uid": "PSV0578",
       "xws": "shadowcollectiveoperator",
       "name": "Shadow Collective Operator",
       "image": "https://infinitearenas.com/xw2/images/pilots/shadowcollectiveoperator.png",
-      "cost": 7,
-      "loadout": 10,
+      "cost": 15,
+      "loadout": 18,
       "initiative": 1,
       "limited": 0,
       "standard": true,
@@ -102,14 +152,53 @@
       "slots": [
         "Crew",
         "Gunner",
-        "Device",
-        "Device",
         "Illicit",
         "Modification",
+        "Modification",
+        "Payload",
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shadowcollectiveoperator.png",
-      "keywords": ["Mandalorian"]
+      "keywords": [
+        "Mandalorian"
+      ],
+      "restricted": 0,
+      "id": 513
+    },
+    {
+      "uid": "PSV0579",
+      "xws": "bokatankryze-armedanddangerous",
+      "name": "Bo-Katan Kryze",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/bokatankryze-armedanddangerous.png",
+      "ability": "While you perform an attack, if you are at range 0-1 of the defender, you may reroll 1 attack die.",
+      "shipAbility": {
+        "name": "Winged Reversal",
+        "text": "After you reveal a turn [[Turn Left] or [Turn Right]] maneuver, you may spend 1 [Charge], gain 1 strain token and increase its difficulty. If you do, perform that maneuver as a Tallon Roll [[Tallon Roll Left] or [Tallon Roll Right]] maneuver in the same direction instead."
+      },
+      "charges": {
+        "value": 2,
+        "recovers": 0
+      },
+      "cost": 16,
+      "loadout": 0,
+      "initiative": 4,
+      "limited": 1,
+      "standard": true,
+      "extended": true,
+      "epic": true,
+      "standardLoadout": [
+        "mandaloriantactics-armedanddangerous",
+        "niteowlsentries-armedanddangerous",
+        "veterantailgunner"
+      ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bokatankryze-armedanddangerous.png",
+      "keywords": [
+        "Mandalorian"
+      ],
+      "caption": "Armed and Dangerous",
+      "slots": [],
+      "restricted": 0,
+      "id": 715
     }
   ]
 }

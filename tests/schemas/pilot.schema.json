@@ -10,6 +10,7 @@
     "xws": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "ability": { "type": "string" },
     "text": { "type": "string" },
+    "subtitle": { "type": "string" },
     "standardLoadout": {
       "type": "array",
       "items": {

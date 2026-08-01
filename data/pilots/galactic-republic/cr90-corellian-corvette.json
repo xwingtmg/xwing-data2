@@ -20,28 +20,68 @@
     "4FR",
     "5FR"
   ],
-  "dialCodes": ["CR90-REP"],
+  "dialCodes": [
+    "CR90-REP"
+  ],
   "stats": [
-    { "arc": "Left Arc", "type": "attack", "value": 4 },
-    { "arc": "Right Arc", "type": "attack", "value": 4 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 18 },
-    { "type": "shields", "value": 7, "recovers": 2 },
-    { "type": "energy", "value": 7, "recovers": 2 }
+    {
+      "arc": "Left Arc",
+      "type": "attack",
+      "value": 4
+    },
+    {
+      "arc": "Right Arc",
+      "type": "attack",
+      "value": 4
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 18
+    },
+    {
+      "type": "shields",
+      "value": 7,
+      "recovers": 2
+    },
+    {
+      "type": "energy",
+      "value": 7,
+      "recovers": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Coordinate" },
-    { "difficulty": "White", "type": "Jam" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Jam"
+    }
   ],
   "pilots": [
     {
+      "uid": "PGR0234",
       "name": "Republic Judiciary",
       "initiative": 8,
-      "cost": 131,
-      "loadout": 0,
+      "cost": 35,
+      "loadout": 40,
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/republicjudiciary.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/republicjudiciary.png",
@@ -65,7 +105,70 @@
         "Team",
         "Team",
         "Cargo"
-      ]
+      ],
+      "restricted": 0,
+      "id": 367
+    },
+    {
+      "uid": "PGR0235",
+      "name": "Raymus Antilles",
+      "caption": "Tantive IV",
+      "initiative": 8,
+      "engagement": 0,
+      "limited": 1,
+      "cost": 35,
+      "xws": "raymusantilles-epicsl-galacticrepublic",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/raymusantilles-epicsl-galacticrepublic.png",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/raymusantilles-epicsl-galacticrepublic.png",
+      "shipAbility": {
+        "name": "Broadside Batteries",
+        "text": "You can acquire locks and perform primary attacks at range 1-4."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Coordinate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
+      ],
+      "text": "",
+      "standard": false,
+      "extended": false,
+      "epic": true,
+      "standardLoadout": [
+        "bornforthis-epicsl",
+        "bailorgana-epicsl",
+        "secretprovisions-epicsl",
+        "turbolaserbattery-epicsl",
+        "tantiveiv-epicsl-galacticrepublic"
+      ],
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 679
     }
   ]
 }

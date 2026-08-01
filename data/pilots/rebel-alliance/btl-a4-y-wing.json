@@ -19,289 +19,422 @@
     "4FR",
     "4KR"
   ],
-  "dialCodes": ["YW"],
+  "dialCodes": [
+    "YW"
+  ],
   "faction": "rebelalliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
-    { "difficulty": "Red", "type": "Reload" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reload"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_Y-wing.png",
   "pilots": [
     {
+      "uid": "PRB0323",
       "name": "“Dutch” Vander",
       "caption": "Gold Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 12,
+      "cost": 11,
+      "loadout": 18,
       "xws": "dutchvander",
       "ability": "After you perform the [Lock] action, you may choose 1 friendly ship at range 1-3. That ship may acquire a lock on the object you locked, ignoring range restrictions.",
       "image": "https://infinitearenas.com/xw2/images/pilots/dutchvander.png",
       "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
         "Astromech",
-        "Device",
-        "Device",
         "Modification",
-        "Missile"
+        "Payload",
+        "Torpedo",
+        "Turret",
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dutchvander.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 27
     },
     {
+      "uid": "PRB0324",
       "name": "Evaan Verlaine",
       "caption": "Gold Three",
       "initiative": 3,
       "limited": 1,
-      "cost": 3,
-      "loadout": 8,
+      "cost": 8,
+      "loadout": 7,
       "xws": "evaanverlaine",
       "ability": "At the start of the Engagement Phase, you may spend 1 focus token to choose a friendly ship at range 0-1. If you do, that ship rolls 1 additional defense die while defending until the end of the round.",
       "image": "https://infinitearenas.com/xw2/images/pilots/evaanverlaine.png",
       "slots": [
-        "Turret",
-        "Torpedo",
-        "Missile",
         "Astromech",
-        "Device",
         "Modification",
-        "Modification"
+        "Payload",
+        "Torpedo",
+        "Turret"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/evaanverlaine.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 28
     },
     {
+      "uid": "PRB0325",
       "name": "Gold Squadron Veteran",
       "initiative": 3,
       "limited": 0,
-      "cost": 4,
-      "loadout": 6,
+      "cost": 9,
+      "loadout": 13,
       "xws": "goldsquadronveteran",
       "text": "Commanded by Jon “Dutch” Vander, Gold Squadron played an instrumental role in the Battles of Scarif and Yavin.",
       "image": "https://infinitearenas.com/xw2/images/pilots/goldsquadronveteran.png",
-      "slots": ["Turret", "Modification", "Missile"],
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/goldsquadronveteran.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 29
     },
     {
+      "uid": "PRB0326",
       "name": "Gray Squadron Bomber",
       "initiative": 2,
       "limited": 0,
-      "cost": 4,
-      "loadout": 8,
+      "cost": 7,
+      "loadout": 5,
       "xws": "graysquadronbomber",
       "text": "Long after the Y-wing was phased out by the Galactic Empire, its durability, dependability, and heavy armament help it remain a staple in the Rebel fleet.",
       "image": "https://infinitearenas.com/xw2/images/pilots/graysquadronbomber.png",
-      "slots": ["Device", "Modification", "Missile"],
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/graysquadronbomber.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 30
     },
     {
+      "uid": "PRB0327",
       "name": "Horton Salm",
       "caption": "Gray Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 3,
-      "loadout": 7,
+      "cost": 9,
+      "loadout": 12,
       "xws": "hortonsalm",
       "ability": "While you perform an attack, you may reroll 1 attack die for each other friendly ship at range 0-1 of the defender.",
       "image": "https://infinitearenas.com/xw2/images/pilots/hortonsalm.png",
       "slots": [
-        "Turret",
-        "Torpedo",
         "Astromech",
-        "Device",
         "Modification",
-        "Missile"
+        "Payload",
+        "Torpedo",
+        "Turret",
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hortonsalm.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 26
     },
     {
+      "uid": "PRB0328",
       "name": "Norra Wexley",
       "caption": "Gold Nine",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
-      "loadout": 18,
+      "cost": 12,
+      "loadout": 20,
       "xws": "norrawexley-btla4ywing",
       "ability": "While you defend, if there is an enemy ship at range 0-1, add 1 [Evade] result to your dice results.",
       "image": "https://infinitearenas.com/xw2/images/pilots/norrawexley-btla4ywing.png",
       "slots": [
-        "Talent",
-        "Turret",
-        "Gunner",
         "Astromech",
-        "Device",
-        "Modification"
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret",
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/norrawexley-btla4ywing.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 25
     },
     {
+      "uid": "PRB0329",
       "name": "Dex Tiree",
       "caption": "Battle of Yavin",
       "initiative": 2,
       "limited": 1,
-      "cost": 4,
+      "cost": 9,
       "xws": "dextiree-battleofyavin",
       "ability": "While you defend, if there is at least 1 other friendly ship at range 0-1, you may roll 1 additional defense die.",
       "shipAbility": {
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["dorsalturret", "advprotontorpedoes", "r4astromech"],
+      "standardLoadout": [
+        "dorsalturret",
+        "advprotontorpedoes",
+        "r4astromech"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dextiree-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dextiree-battleofyavin.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 561
     },
     {
+      "uid": "PRB0330",
       "name": "“Dutch” Vander",
       "caption": "Battle of Yavin",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 10,
       "xws": "dutchvander-battleofyavin",
       "ability": "After you spend a lock during an attack, choose a friendly ship at range 1-3. The chosen ship may acquire a lock on the defender.",
       "shipAbility": {
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["ioncannonturret", "advprotontorpedoes", "targetingastromech-battleofyavin"],
+      "standardLoadout": [
+        "ioncannonturret",
+        "advprotontorpedoes",
+        "targetingastromech-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dutchvander-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dutchvander.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 560
     },
     {
+      "uid": "PRB0331",
       "name": "Hol Okand",
       "caption": "Battle of Yavin",
       "initiative": 4,
       "limited": 1,
-      "cost": 3,
+      "cost": 10,
       "xws": "holokand-battleofyavin",
       "ability": "During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 [Charge] on any upgrade.",
       "shipAbility": {
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["dorsalturret", "advprotontorpedoes", "preciseastromech-battleofyavin"],
+      "standardLoadout": [
+        "dorsalturret",
+        "advprotontorpedoes",
+        "preciseastromech-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/holokand-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/holokand-battleofyavin.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 563
     },
     {
+      "uid": "PRB0332",
       "name": "“Pops” Krail",
       "caption": "Battle of Yavin",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 10,
       "xws": "popskrail-battleofyavin",
       "ability": "While you perform a [Single Turret Arc] attack, you may reroll up to 2 attack dice.",
       "shipAbility": {
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["ioncannonturret", "advprotontorpedoes", "r4astromech"],
+      "standardLoadout": [
+        "ioncannonturret",
+        "advprotontorpedoes",
+        "r4astromech"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/popskrail-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/popskrail-battleofyavin.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 562
     },
     {
+      "uid": "PRB0333",
       "name": "“Pops” Krail",
       "caption": "Gold Five",
       "initiative": 3,
       "limited": 1,
-      "cost": 4,
-      "loadout": 16,
+      "cost": 9,
+      "loadout": 11,
       "xws": "popskrail",
       "ability": "After you fully execute a white maneuver, you may choose a friendly ship at range 0-1. If you do, it may perform a [Focus] action.",
       "image": "https://infinitearenas.com/xw2/images/pilots/popskrail.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/popskrail.png",
       "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
         "Astromech",
-        "Device",
-        "Missile",
-        "Modification"
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret"
       ],
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 598
     },
     {
+      "uid": "PRB0334",
       "name": "“Dutch” Vander",
       "caption": "Gold Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 9,
       "xws": "dutchvander-swz106",
       "ability": "After you perform the [Lock] action, you may choose 1 friendly ship at range 1-3. That ship may acquire a lock on the object you locked, ignoring range restrictions.",
-      "standardLoadout": ["ioncannonturret", "protonbombs"],
+      "standardLoadout": [
+        "ioncannonturret",
+        "protonbombs"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dutchvander-swz106.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dutchvander-swz106.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 637
     },
     {
+      "uid": "PRB0335",
       "name": "Horton Salm",
       "caption": "Gray Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 9,
       "xws": "hortonsalm-swz106",
       "ability": "While you perform an attack, you may reroll 1 attack die for each other friendly ship at range 0-1 of the defender.",
-      "standardLoadout": ["ioncannonturret", "proximitymines"],
+      "standardLoadout": [
+        "ioncannonturret",
+        "proximitymines"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/hortonsalm-swz106.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hortonsalm-swz106.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Y-wing"],
-      "epic": true
+      "keywords": [
+        "Y-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 638
     }
   ]
 }

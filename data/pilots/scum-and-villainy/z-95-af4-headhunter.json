@@ -20,95 +20,148 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": ["Z95"],
+  "dialCodes": [
+    "Z95"
+  ],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 2 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_Z-95.png",
   "pilots": [
     {
+      "uid": "PSV0657",
       "name": "Binayre Pirate",
       "initiative": 1,
       "limited": 0,
-      "cost": 3,
-      "loadout": 2,
+      "cost": 6,
+      "loadout": 5,
       "xws": "binayrepirate",
       "text": "Operating from the Double Worlds, Talus and Tralus, Kath Scarlet's gang of smugglers and pirates would never be described as reputable or dependable—even by other criminals.",
       "image": "https://infinitearenas.com/xw2/images/pilots/binayrepirate.png",
-      "slots": ["Illicit"],
+      "slots": [
+        "Illicit",
+        "Modification",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/binayrepirate.png",
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 159
     },
     {
+      "uid": "PSV0658",
       "name": "Black Sun Soldier",
       "initiative": 3,
       "limited": 0,
-      "cost": 3,
-      "loadout": 4,
+      "cost": 7,
+      "loadout": 10,
       "xws": "blacksunsoldier",
       "text": "The vast and influential Black Sun crime syndicate can always find a use for talented pilots, provided they aren't particular about how they earn their credits.",
       "image": "https://infinitearenas.com/xw2/images/pilots/blacksunsoldier.png",
-      "slots": ["Illicit", "Modification"],
+      "slots": [
+        "Talent",
+        "Illicit",
+        "Modification",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksunsoldier.png",
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 158
     },
     {
+      "uid": "PSV0659",
       "name": "Kaa’to Leeachos",
       "caption": "Imposing Marauder",
       "initiative": 3,
       "limited": 1,
-      "cost": 3,
-      "loadout": 11,
+      "cost": 7,
+      "loadout": 13,
       "xws": "kaatoleeachos",
       "ability": "At the start of the Engagement Phase, you may choose 1 friendly ship at range 0-2. If you do, transfer 1 focus or evade token from that ship to yourself.",
       "image": "https://infinitearenas.com/xw2/images/pilots/kaatoleeachos.png",
-      "slots": ["Talent", "Missile", "Illicit", "Modification"],
+      "slots": [
+        "Talent",
+        "Illicit",
+        "Modification",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kaatoleeachos.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Bounty Hunter"],
-      "epic": true
+      "keywords": [
+        "Bounty Hunter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 157
     },
     {
+      "uid": "PSV0660",
       "name": "N’dru Suhlak",
       "caption": "Hunt Saboteur",
       "initiative": 4,
       "limited": 1,
-      "cost": 3,
-      "loadout": 7,
+      "cost": 8,
+      "loadout": 14,
       "xws": "ndrusuhlak",
       "ability": "While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack die.",
       "slots": [
         "Talent",
-        "Missile",
-        "Missile",
-        "Illicit"
+        "Illicit",
+        "Modification",
+        "Missile"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/ndrusuhlak.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ndrusuhlak.png",
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 156
     },
     {
+      "uid": "PSV0661",
       "name": "Nashtah Pup",
       "caption": "Contingency Plan",
       "initiative": 0,
       "limited": 1,
-      "cost": 2,
+      "cost": 0,
       "loadout": 0,
       "xws": "nashtahpup",
       "ability": "You can deploy only via emergency deployment, and you have the name, initiative, pilot ability, and ship [Charge] of the friendly, destroyed Hound's Tooth.",
@@ -121,9 +174,12 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nashtahpup.png",
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 160
     },
     {
+      "uid": "PSV0662",
       "name": "Bossk",
       "caption": "Fearsome Hunter",
       "initiative": 4,
@@ -134,15 +190,24 @@
         "name": "Pursuit Craft",
         "text": "After you deploy, you may acquire a lock on a ship the friendly Hound's Tooth has locked."
       },
-      "slots": ["Talent", "Talent", "Missile", "Illicit", "Modification"],
+      "slots": [
+        "Talent",
+        "Illicit",
+        "Modification",
+        "Missile"
+      ],
       "standard": true,
       "extended": true,
-      "cost": 2,
-      "loadout": 3,
+      "cost": 8,
+      "loadout": 11,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bossk-z95af4headhunter.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/bossk-z95af4headhunter.png",
-      "keywords": ["Bounty Hunter"],
-      "epic": true
+      "keywords": [
+        "Bounty Hunter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 398
     }
   ]
 }

@@ -21,25 +21,47 @@
     "4FB",
     "5FW"
   ],
-  "dialCodes": ["VDF"],
+  "dialCodes": [
+    "VDF"
+  ],
   "faction": "separatistalliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Calculate" },
-    { "difficulty": "White", "type": "Lock" },
+    {
+      "difficulty": "White",
+      "type": "Calculate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
     {
       "difficulty": "White",
       "type": "Barrel Roll",
-      "linked": { "difficulty": "Red", "type": "Calculate" }
+      "linked": {
+        "difficulty": "Red",
+        "type": "Calculate"
+      }
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_VultureDroid.png",
   "pilots": [
     {
+      "uid": "PSA0724",
       "name": "Trade Federation Drone",
       "initiative": 1,
       "limited": 0,
@@ -52,14 +74,23 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/tradefederationdrone.png",
       "standard": true,
       "extended": true,
-      "cost": 2,
-      "loadout": 0,
-      "slots": ["Modification", "Configuration"],
+      "cost": 5,
+      "loadout": 3,
+      "slots": [
+        "Modification",
+        "Missile",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/tradefederationdrone.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 279
     },
     {
+      "uid": "PSA0725",
       "name": "Precise Hunter",
       "caption": "Pinpoint Protocols",
       "limited": 3,
@@ -73,14 +104,23 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/precisehunter.png",
       "standard": true,
       "extended": true,
-      "cost": 3,
-      "loadout": 8,
-      "slots": ["Cannon", "Modification", "Configuration"],
+      "cost": 6,
+      "loadout": 5,
+      "slots": [
+        "Modification",
+        "Cannon",
+        "Configuration"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/precisehunter.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 309
     },
     {
+      "uid": "PSA0726",
       "name": "Haor Chall Prototype",
       "caption": "Xi Char Offering",
       "limited": 2,
@@ -94,14 +134,23 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/haorchallprototype.png",
       "standard": true,
       "extended": true,
-      "cost": 2,
-      "loadout": 4,
-      "slots": ["Missile", "Modification", "Configuration"],
+      "cost": 6,
+      "loadout": 7,
+      "slots": [
+        "Modification",
+        "Configuration",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/haorchallprototype.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 310
     },
     {
+      "uid": "PSA0727",
       "name": "DFS-081",
       "xws": "dfs081",
       "initiative": 3,
@@ -115,14 +164,23 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/dfs081.png",
       "standard": true,
       "extended": true,
-      "cost": 2,
+      "cost": 6,
       "loadout": 7,
-      "slots": ["Missile", "Modification", "Configuration"],
+      "slots": [
+        "Modification",
+        "Configuration",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dfs081.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 311
     },
     {
+      "uid": "PSA0728",
       "name": "Separatist Drone",
       "initiative": 3,
       "limited": 0,
@@ -135,14 +193,23 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/separatistdrone.png",
       "standard": true,
       "extended": true,
-      "cost": 2,
-      "loadout": 3,
-      "slots": ["Missile", "Modification", "Configuration"],
+      "cost": 6,
+      "loadout": 6,
+      "slots": [
+        "Modification",
+        "Configuration",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/separatistdrone.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 343
     },
     {
+      "uid": "PSA0729",
       "name": "DFS-311",
       "xws": "dfs311",
       "initiative": 1,
@@ -156,20 +223,32 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/dfs311.png",
       "standard": true,
       "extended": true,
-      "cost": 3,
-      "loadout": 10,
-      "slots": ["Missile", "Modification", "Modification", "Configuration"],
+      "cost": 6,
+      "loadout": 6,
+      "slots": [
+        "Configuration",
+        "Missile",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dfs311.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 337
     },
     {
+      "uid": "PSA0730",
       "name": "DFS-081",
       "caption": "Siege of Coruscant",
       "initiative": 3,
       "limited": 1,
-      "cost": 2,
-      "charges": { "value": 2, "recovers": 0 },
+      "cost": 6,
+      "charges": {
+        "value": 2,
+        "recovers": 0
+      },
       "xws": "dfs081-siegeofcoruscant",
       "ability": "While defending, you may spend 1 [Charge] and 1 calculate token to cancel 1 [Critical Hit] result.",
       "shipAbility": {
@@ -177,19 +256,30 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dfs081-siegeofcoruscant.png",
-      "standardLoadout": ["discordmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "discordmissiles",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dfs081.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 591
     },
     {
+      "uid": "PSA0731",
       "name": "DFS-311",
       "caption": "Siege of Coruscant",
       "initiative": 1,
       "limited": 1,
-      "cost": 3,
+      "cost": 6,
       "xws": "dfs311-siegeofcoruscant",
       "ability": "At the start of the Engagement Phase, you may transfer 1 of your calculate tokens to another friendly ship at range 0-3.",
       "shipAbility": {
@@ -197,34 +287,56 @@
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dfs311-siegeofcoruscant.png",
-      "standardLoadout": ["discordmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "discordmissiles",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dfs311.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 592
     },
     {
+      "uid": "PSA0732",
       "name": "Haor Chall Prototype",
       "caption": "Siege of Coruscant",
       "initiative": 1,
       "limited": 1,
-      "cost": 2,
+      "cost": 6,
       "xws": "haorchallprototype-siegeofcoruscant",
-      "ability": "After an enemy ship in your [Bullseye Arc] at range 0-2 declares a scenario feature or another friendly ship as the defender, you may perform a [Calculate] or [Lock] action.",
+      "ability": "After an enemy ship in your [Bullseye Arc] declares a scenario feature or another friendly ship as the defender, you may perform a [Calculate] or [Lock] action.",
       "shipAbility": {
         "name": "Networked Calculations",
         "text": "While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit] result."
       },
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/haorchallprototype-siegeofcoruscant.png",
-      "standardLoadout": ["ionmissiles", "contingencyprotocol-siegeofcoruscant", "strutlockoverride-siegeofcoruscant"],
+      "standardLoadout": [
+        "ionmissiles",
+        "contingencyprotocol-siegeofcoruscant",
+        "strutlockoverride-siegeofcoruscant"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/haorchallprototype.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 593
     },
     {
+      "uid": "PSA0733",
       "name": "The Iron Assembler",
       "xws": "theironassembler",
       "initiative": 1,
@@ -239,14 +351,27 @@
       "extended": true,
       "image": "https://infinitearenas.com/xw2/images/pilots/theironassembler.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/theironassembler.png",
-      "cost": 2,
-      "loadout": 5,
-      "charges": { "value": 3, "recovers": 0 },
-      "slots": ["Missile", "Modification", "Modification", "Configuration"],
-      "keywords": ["Droid"],
-      "epic": true
+      "cost": 6,
+      "loadout": 4,
+      "charges": {
+        "value": 3,
+        "recovers": 0
+      },
+      "slots": [
+        "Modification",
+        "Configuration",
+        "Missile",
+        "Modification"
+      ],
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 617
     },
     {
+      "uid": "PSA0734",
       "name": "Kelrodo-Ai Holdout",
       "xws": "kelrodoaiholdout",
       "initiative": 1,
@@ -257,12 +382,21 @@
         "text": "This ship is not affected by the Standardized restriction. Reduce the difficulty of your speed 2 and 3 bank [[Bank Left] or [Bank Right]] maneuvers. Increase the difficulty of your speed 3 turn [[Turn Left] or [Turn Right]] maneuvers."
       },
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
         {
           "difficulty": "White",
           "type": "Barrel Roll",
-          "linked": { "difficulty": "Red", "type": "Focus" }
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
         }
       ],
       "ability": "After you are destroyed, you may transfer each of your locks and green tokens to another friendly Kelrodo-Ai Holdout at range 0-3.",
@@ -270,10 +404,15 @@
       "extended": true,
       "image": "https://infinitearenas.com/xw2/images/pilots/kelrodoaiholdout.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kelrodoaiholdout.png",
-      "cost": 2,
-      "loadout": 7,
-      "slots": ["Talent", "Missile", "Modification"],
-      "epic": true
+      "cost": 6,
+      "loadout": 10,
+      "slots": [
+        "Modification",
+        "Modification"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 618
     }
   ]
 }

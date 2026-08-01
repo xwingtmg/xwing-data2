@@ -19,23 +19,52 @@
     "4FR",
     "4KR"
   ],
-  "dialCodes": ["AR"],
+  "dialCodes": [
+    "AR"
+  ],
   "faction": "galacticrepublic",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Rear Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Rear Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Arc-170.png",
   "pilots": [
     {
+      "uid": "PGR0207",
       "name": "“Sinker”",
       "caption": "Wolfpack Veteran",
       "initiative": 3,
@@ -44,35 +73,37 @@
       "ability": "While a friendly ship at range 1-2 in your [Left Arc] or [Right Arc] performs a primary attack, it may reroll 1 attack die.",
       "image": "https://infinitearenas.com/xw2/images/pilots/sinker.png",
       "slots": [
-        "Talent",
-        "Torpedo",
-        "Crew",
         "Astromech",
-        "Modification",
         "Gunner",
-        "Gunner"
+        "Crew",
+        "Modification",
+        "Torpedo",
+        "Talent"
       ],
       "standard": true,
       "extended": true,
-      "cost": 5,
-      "loadout": 15,
+      "cost": 11,
+      "loadout": 6,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sinker.png",
-      "keywords": ["Clone"],
-      "epic": true
+      "keywords": [
+        "Clone"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 280
     },
     {
+      "uid": "PGR0208",
       "name": "“Jag”",
       "xws": "jag",
-      "cost": 4,
-      "loadout": 9,
+      "cost": 10,
+      "loadout": 4,
       "slots": [
-        "Torpedo",
         "Astromech",
-        "Modification",
-        "Modification",
         "Gunner",
-        "Gunner",
-        "Talent"
+        "Crew",
+        "Modification",
+        "Torpedo"
       ],
       "caption": "CT-55/11-9009",
       "initiative": 3,
@@ -82,23 +113,26 @@
       "ability": "After a friendly ship at range 1-2 in your [Left Arc] or [Right Arc] defends, you may acquire a lock on the attacker.",
       "standard": true,
       "extended": true,
-      "keywords": ["Clone"],
-      "epic": true
+      "keywords": [
+        "Clone"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 339
     },
     {
+      "uid": "PGR0209",
       "name": "“Odd Ball”",
       "xws": "oddball-arc170starfighter",
-      "cost": 4,
-      "loadout": 7,
+      "cost": 11,
+      "loadout": 8,
       "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
-        "Torpedo",
         "Astromech",
-        "Modification",
         "Gunner",
-        "Gunner"
+        "Crew",
+        "Modification",
+        "Torpedo",
+        "Talent"
       ],
       "caption": "CC-2237",
       "initiative": 5,
@@ -108,40 +142,59 @@
       "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
       "standard": true,
       "extended": true,
-      "keywords": ["Clone"],
-      "epic": true
+      "keywords": [
+        "Clone"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 338
     },
     {
+      "uid": "PGR0210",
       "name": "“Wolffe”",
       "xws": "wolffe",
-      "cost": 4,
-      "loadout": 9,
+      "cost": 12,
+      "loadout": 12,
       "slots": [
-        "Talent",
-        "Torpedo",
         "Astromech",
-        "Modification",
         "Gunner",
-        "Gunner"
+        "Crew",
+        "Modification",
+        "Torpedo",
+        "Talent"
       ],
       "caption": "CC-3636",
       "initiative": 4,
       "limited": 1,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wolffe.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/wolffe.png",
-      "charges": { "value": 1, "recovers": 0 },
+      "charges": {
+        "value": 1,
+        "recovers": 0
+      },
       "ability": "While you perform a primary [Front Arc] attack, you may spend 1 [Charge] to reroll 1 attack die. While you perform a primary [Rear Arc] attack, you may recover 1 [Charge] to roll 1 additional attack die.",
       "standard": true,
       "extended": true,
-      "keywords": ["Clone"],
-      "epic": true
+      "keywords": [
+        "Clone"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 342
     },
     {
+      "uid": "PGR0211",
       "name": "104th Battalion Pilot",
       "xws": "104thbattalionpilot",
-      "cost": 5,
-      "loadout": 8,
-      "slots": ["Torpedo", "Astromech", "Modification", "Gunner", "Gunner"],
+      "cost": 10,
+      "loadout": 3,
+      "slots": [
+        "Astromech",
+        "Gunner",
+        "Crew",
+        "Modification",
+        "Torpedo"
+      ],
       "initiative": 2,
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/104thbattalionpilot.png",
@@ -149,15 +202,27 @@
       "text": "The ARC-170 was designed as a dominating heavy escort fighter with powerful front and rear lasers, ordnance, and an astromech for navigation. Squadrons of these mighty ships bolster the Republic Navy's presence at any battle where they are deployed.",
       "standard": true,
       "extended": true,
-      "keywords": ["Clone"],
-      "epic": true
+      "keywords": [
+        "Clone"
+      ],
+      "epic": true,
+      "restricted": 2,
+      "id": 341
     },
     {
+      "uid": "PGR0212",
       "name": "Squad Seven Veteran",
       "xws": "squadsevenveteran",
-      "cost": 5,
-      "loadout": 10,
-      "slots": ["Talent", "Astromech", "Modification", "Gunner", "Gunner"],
+      "cost": 12,
+      "loadout": 16,
+      "slots": [
+        "Astromech",
+        "Gunner",
+        "Crew",
+        "Modification",
+        "Torpedo",
+        "Talent"
+      ],
       "initiative": 3,
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/squadsevenveteran.png",
@@ -165,10 +230,15 @@
       "text": "Clone Flight Seven serves as part of the Open Circle Fleet under legendary Jedi Generals such as Plo Koon and Obi-Wan Kenobi, and won glory at the battles of Coruscant and Cato Neimoidia.",
       "standard": true,
       "extended": true,
-      "keywords": ["Clone"],
-      "epic": true
+      "keywords": [
+        "Clone"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 340
     },
     {
+      "uid": "PGR0213",
       "name": "“Odd Ball”",
       "caption": "Siege of Coruscant",
       "initiative": 5,
@@ -177,25 +247,53 @@
         "name": "Born for This",
         "text": "While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."
       },
-      "cost": 5,
+      "cost": 12,
       "xws": "oddball-siegeofcoruscant",
       "ability": "After you fully execute a red maneuver or perform a red action, you may choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/oddball-siegeofcoruscant.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/oddball-arc170starfighter.png",
-      "standardLoadout": ["selfless", "veterantailgunner", "r4pastromech"],
+      "standardLoadout": [
+        "selfless",
+        "veterantailgunner",
+        "r4pastromech"
+      ],
       "shipStats": [
-        { "arc": "Front Arc", "type": "attack", "value": 3 },
-        { "arc": "Rear Arc", "type": "attack", "value": 2 },
-        { "type": "agility", "value": 1 },
-        { "type": "hull", "value": 6 },
-        { "type": "shields", "value": 4 }
+        {
+          "arc": "Front Arc",
+          "type": "attack",
+          "value": 3
+        },
+        {
+          "arc": "Rear Arc",
+          "type": "attack",
+          "value": 2
+        },
+        {
+          "type": "agility",
+          "value": 1
+        },
+        {
+          "type": "hull",
+          "value": 6
+        },
+        {
+          "type": "shields",
+          "value": 4
+        }
       ],
       "standard": true,
       "extended": true,
-      "keywords": ["Clone"],
-      "epic": true
+      "keywords": [
+        "Clone"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 577
     },
     {
+      "uid": "PGR0214",
       "name": "“Wolffe”",
       "caption": "Siege of Coruscant",
       "initiative": 4,
@@ -204,19 +302,33 @@
         "name": "Born for This",
         "text": "While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."
       },
-      "cost": 4,
+      "cost": 12,
       "xws": "wolffe-siegeofcoruscant",
       "ability": "While you perform a primary [Front Arc] attack, you may spend 1 [Charge] to reroll 1 attack die. While you perform a primary [Rear Arc] attack, you may recover 1 [Charge] to roll 1 additional attack die.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/wolffe-siegeofcoruscant.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wolffe.png",
-      "charges": { "value": 1, "recovers": 0 },
-      "standardLoadout": ["wolfpack-siegeofcoruscant", "veterantailgunner", "q7astromech"],
+      "charges": {
+        "value": 1,
+        "recovers": 0
+      },
+      "standardLoadout": [
+        "wolfpack-siegeofcoruscant",
+        "veterantailgunner",
+        "q7astromech"
+      ],
       "standard": true,
       "extended": true,
-      "keywords": ["Clone"],
-      "epic": true
+      "keywords": [
+        "Clone"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 578
     },
     {
+      "uid": "PGR0215",
       "name": "“Jag”",
       "caption": "Siege of Coruscant",
       "initiative": 3,
@@ -225,16 +337,26 @@
         "name": "Born for This",
         "text": "While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."
       },
-      "cost": 4,
+      "cost": 12,
       "xws": "jag-siegeofcoruscant",
       "ability": "After a friendly ship at range 0-2 in your [Left Arc] or [Right Arc] performs an attack, if you are not strained, you may acquire a lock on the defender.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/jag-siegeofcoruscant.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jag.png",
-      "standardLoadout": ["veterantailgunner", "r4pastromech", "synchronizedconsole"],
+      "standardLoadout": [
+        "veterantailgunner",
+        "r4pastromech",
+        "synchronizedconsole"
+      ],
       "standard": true,
       "extended": true,
-      "keywords": ["Clone"],
-      "epic": true
+      "keywords": [
+        "Clone"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 579
     }
   ]
 }

@@ -20,28 +20,53 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": ["Z95"],
+  "dialCodes": [
+    "Z95"
+  ],
   "faction": "galacticrepublic",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 2 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 2
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    }
   ],
-  "icon": "???",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_CloneZ95Headhunter.png",
   "pilots": [
     {
+      "uid": "PGR0224",
       "name": "“Killer”",
       "caption": "Dependable Closer",
       "initiative": 2,
       "limited": 1,
-      "cost": 3,
-      "loadout": 11,
+      "cost": 7,
+      "loadout": 6,
       "xws": "killer",
       "ability": "While you perform an attack, if the defender has 2 or fewer hull remaining, you may roll 1 additional attack die. If you do, gain 1 deplete token after rolling attack dice.",
       "shipAbility": {
@@ -51,24 +76,26 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/killer.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/killer.png",
       "slots": [
-        "Talent",
-        "Talent",
-        "Sensor",
-        "Cannon",
-        "Modification"
+        "Modification",
+        "Sensor"
       ],
       "standard": true,
       "extended": true,
       "epic": true,
-      "keywords": ["Clone"]
+      "keywords": [
+        "Clone"
+      ],
+      "restricted": 0,
+      "id": 551
     },
     {
+      "uid": "PGR0225",
       "name": "“Drift”",
       "caption": "CT-1020",
       "initiative": 3,
       "limited": 1,
-      "cost": 3,
-      "loadout": 5,
+      "cost": 8,
+      "loadout": 13,
       "xws": "drift",
       "ability": "While a friendly ship at range 0-1 performs an attack, if you have exactly 1 non-lock red token or exactly 1 orange token, that ship may reroll 1 attack die.",
       "shipAbility": {
@@ -79,21 +106,26 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/drift.png",
       "slots": [
         "Talent",
-        "Sensor",
-        "Modification"
+        "Modification",
+        "Sensor"
       ],
       "standard": true,
       "extended": true,
       "epic": true,
-      "keywords": ["Clone"]
+      "keywords": [
+        "Clone"
+      ],
+      "restricted": 0,
+      "id": 549
     },
     {
+      "uid": "PGR0226",
       "name": "“Boost”",
       "caption": "CT-4860",
       "initiative": 3,
       "limited": 1,
-      "cost": 2,
-      "loadout": 3,
+      "cost": 8,
+      "loadout": 12,
       "xws": "boost",
       "ability": "At the start of the Engagement Phase, if there is a friendly ship at range 0-1 whose revealed maneuver is blue, you may perform a [Boost] action.",
       "shipAbility": {
@@ -104,22 +136,26 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/boost.png",
       "slots": [
         "Talent",
-        "Talent",
-        "Sensor",
-        "Modification"
+        "Modification",
+        "Sensor"
       ],
       "standard": true,
       "extended": true,
       "epic": true,
-      "keywords": ["Clone"]
+      "keywords": [
+        "Clone"
+      ],
+      "restricted": 0,
+      "id": 548
     },
     {
+      "uid": "PGR0227",
       "name": "“Stub”",
       "caption": "Scrappy Flier",
       "initiative": 3,
       "limited": 1,
-      "cost": 3,
-      "loadout": 8,
+      "cost": 8,
+      "loadout": 11,
       "xws": "stub",
       "ability": "While you defend, if the speed of your revealed maneuver is even, roll 1 additional defende die. While you perform a primary attack, if the speed of your revealed maneuver is odd, roll 1 additional attack die.",
       "shipAbility": {
@@ -128,19 +164,28 @@
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/stub.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/stub.png",
-      "slots": ["Talent", "Sensor", "Modification"],
+      "slots": [
+        "Talent",
+        "Modification",
+        "Sensor"
+      ],
       "standard": true,
       "extended": true,
       "epic": true,
-      "keywords": ["Clone"]
+      "keywords": [
+        "Clone"
+      ],
+      "restricted": 0,
+      "id": 550
     },
     {
+      "uid": "PGR0228",
       "name": "“Knack”",
       "caption": "Incautious Instructor",
       "initiative": 5,
       "limited": 1,
-      "cost": 3,
-      "loadout": 7,
+      "cost": 8,
+      "loadout": 13,
       "xws": "knack",
       "ability": "After you are destroyed, you may choose a friendly non-limited ship and assign 1 of your equipped [Talent] upgrades to it. End of Game: Return all [Talent] upgrades to their original ships.",
       "shipAbility": {
@@ -151,22 +196,27 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/knack.png",
       "slots": [
         "Talent",
-        "Talent",
+        "Modification",
         "Sensor",
-        "Modification"
+        "Talent"
       ],
       "standard": true,
       "extended": true,
       "epic": true,
-      "keywords": ["Clone"]
+      "keywords": [
+        "Clone"
+      ],
+      "restricted": 0,
+      "id": 544
     },
     {
+      "uid": "PGR0229",
       "name": "“Hawk”",
       "caption": "Valkyrie 2929",
       "initiative": 4,
       "limited": 1,
-      "cost": 3,
-      "loadout": 8,
+      "cost": 8,
+      "loadout": 12,
       "xws": "hawk-clonez95headhunter",
       "ability": "At the start of the end phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a [Barrel Roll] or [Boost] action.",
       "shipAbility": {
@@ -177,21 +227,25 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/hawk-clonez95headhunter.png",
       "slots": [
         "Talent",
-        "Sensor",
         "Modification",
-        "Modification"
+        "Sensor"
       ],
       "standard": true,
       "extended": true,
       "epic": true,
-      "keywords": ["Clone"]
+      "keywords": [
+        "Clone"
+      ],
+      "restricted": 0,
+      "id": 546
     },
     {
+      "uid": "PGR0230",
       "name": "7th Sky Corps Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 3,
-      "loadout": 3,
+      "cost": 7,
+      "loadout": 10,
       "xws": "7thskycorpspilot",
       "text": "",
       "shipAbility": {
@@ -201,20 +255,25 @@
       "image": "https://infinitearenas.com/xw2/images/pilots/7thskycorpspilot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/7thskycorpspilot.png",
       "slots": [
-        "Sensor",
-        "Modification"
+        "Modification",
+        "Sensor"
       ],
       "standard": true,
       "extended": true,
       "epic": true,
-      "keywords": ["Clone"]
+      "keywords": [
+        "Clone"
+      ],
+      "restricted": 0,
+      "id": 553
     },
     {
+      "uid": "PGR0231",
       "name": "Reaper Squadron Scout",
       "initiative": 3,
       "limited": 0,
-      "cost": 3,
-      "loadout": 2,
+      "cost": 8,
+      "loadout": 11,
       "xws": "reapersquadronscout",
       "text": "Despite the Clone Z-95's unglamorous reputation, Reaper Squadron has become legendary for their skill with this fighter in far-flung engagements, such as the skirmish over Castilon.",
       "shipAbility": {
@@ -225,23 +284,32 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/reapersquadronscout.png",
       "slots": [
         "Talent",
+        "Modification",
         "Sensor"
       ],
       "standard": true,
       "extended": true,
       "epic": true,
-      "keywords": ["Clone"]
+      "keywords": [
+        "Clone"
+      ],
+      "restricted": 0,
+      "id": 552
     },
     {
+      "uid": "PGR0232",
       "name": "“Slider”",
       "caption": "Evasive Aviator",
       "initiative": 4,
       "limited": 1,
-      "cost": 2,
-      "loadout": 3,
+      "cost": 7,
+      "loadout": 6,
       "xws": "slider",
       "ability": "When you reveal a [2 [Bank Left]] or [2 [Bank Right]] maneuver, you may spend 2 [Charge] to execute it as a sideslip.",
-      "charges": { "value": 2, "recovers": 1 },
+      "charges": {
+        "value": 2,
+        "recovers": 1
+      },
       "shipAbility": {
         "name": "Versatile Frame",
         "text": "You can equip 1 [Torpedo] or [Missile] upgrade. While your revealed maneuver is blue, add white [Boost] to your action bar."
@@ -250,23 +318,26 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/slider.png",
       "slots": [
         "Talent",
-        "Talent",
-        "Sensor",
         "Modification",
-        "Modification"
+        "Sensor"
       ],
       "standard": true,
       "extended": true,
       "epic": true,
-      "keywords": ["Clone"]
+      "keywords": [
+        "Clone"
+      ],
+      "restricted": 0,
+      "id": 545
     },
     {
+      "uid": "PGR0233",
       "name": "“Warthog”",
       "caption": "Veteran of Kadavo",
       "initiative": 3,
       "limited": 1,
-      "cost": 3,
-      "loadout": 10,
+      "cost": 9,
+      "loadout": 21,
       "xws": "warthog-clonez95headhunter",
       "ability": "After you or a friendly non-limited ship at range 0-2 are destroyed during the Engagement Phase, that ship is not removed until the end of that phase.",
       "shipAbility": {
@@ -277,13 +348,17 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/warthog-clonez95headhunter.png",
       "slots": [
         "Talent",
-        "Sensor",
-        "Modification"
+        "Modification",
+        "Sensor"
       ],
       "standard": true,
       "extended": true,
       "epic": true,
-      "keywords": ["Clone"]
+      "keywords": [
+        "Clone"
+      ],
+      "restricted": 0,
+      "id": 547
     }
   ]
 }

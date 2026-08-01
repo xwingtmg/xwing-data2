@@ -1,5 +1,6 @@
 [
   {
+    "uid": "USV1292",
     "name": "Andrasta",
     "limited": 1,
     "xws": "andrasta",
@@ -8,29 +9,55 @@
         "title": "Andrasta",
         "type": "Title",
         "ability": "Add [Device] slot.",
-        "slots": ["Title"],
-        "actions": [{ "type": "Reload", "difficulty": "White" }],
+        "slots": [
+          "Title"
+        ],
+        "actions": [
+          {
+            "type": "Reload",
+            "difficulty": "White"
+          }
+        ],
         "grants": [
-          { "type": "slot", "value": "Device", "amount": 1 },
+          {
+            "type": "slot",
+            "value": "Device",
+            "amount": 1
+          },
           {
             "type": "action",
-            "value": { "type": "Reload", "difficulty": "White" }
+            "value": {
+              "type": "Reload",
+              "difficulty": "White"
+            }
           }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/andrasta.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/andrasta.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["firesprayclasspatrolcraft"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "firesprayclasspatrolcraft"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "URE1293",
     "name": "Black One",
     "limited": 1,
     "xws": "blackone",
@@ -39,26 +66,54 @@
         "title": "Black One",
         "type": "Title",
         "ability": "After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1 ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [SLAM] action.",
-        "slots": ["Title"],
-        "charges": { "value": 1, "recovers": 0 },
-        "actions": [{ "type": "SLAM", "difficulty": "White" }],
+        "slots": [
+          "Title"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
+        "actions": [
+          {
+            "type": "SLAM",
+            "difficulty": "White"
+          }
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/blackone.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/blackone.png",
         "grants": [
           {
             "type": "action",
-            "value": { "type": "SLAM", "difficulty": "White" }
+            "value": {
+              "type": "SLAM",
+              "difficulty": "White"
+            }
           }
         ]
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "factions": ["resistance"] }, { "ships": ["t70xwing"] }],
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "resistance"
+        ]
+      },
+      {
+        "ships": [
+          "t70xwing"
+        ]
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UEM1294",
     "name": "Dauntless",
     "limited": 1,
     "xws": "dauntless",
@@ -68,20 +123,34 @@
         "type": "Title",
         "ability": "After you partially execute a maneuver, you may perform 1 white action, treating that action as red.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/dauntless.png",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/dauntless.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 4
+    },
     "restrictions": [
-      { "factions": ["galacticempire"] },
-      { "ships": ["vt49decimator"] }
+      {
+        "factions": [
+          "galacticempire"
+        ]
+      },
+      {
+        "ships": [
+          "vt49decimator"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "URB1295",
     "name": "Ghost",
     "limited": 1,
     "xws": "ghost",
@@ -91,20 +160,34 @@
         "type": "Title",
         "ability": "You can dock 1 attack shuttle or Sheathipede-class shuttle. Your docked ships can deploy only from your rear guides.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/ghost.png",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ghost.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["vcx100lightfreighter"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "vcx100lightfreighter"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USV1296",
     "name": "Havoc",
     "limited": 1,
     "xws": "havoc",
@@ -113,26 +196,52 @@
         "title": "Havoc",
         "type": "Title",
         "ability": "Remove [Crew] slot. Add [Sensor] and [Astromech] slots.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "slot", "value": "Sensor", "amount": 1 },
-          { "type": "slot", "value": "Astromech", "amount": 1 },
-          { "type": "slot", "value": "Crew", "amount": -1 }
+          {
+            "type": "slot",
+            "value": "Sensor",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Astromech",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Crew",
+            "amount": -1
+          }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/havoc.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/havoc.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["scurrgh6bomber"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "scurrgh6bomber"
+        ]
+      }
     ],
     "standard": false,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USV1297",
     "name": "Hound's Tooth",
     "limited": 1,
     "xws": "houndstooth",
@@ -141,21 +250,35 @@
         "title": "Hound's Tooth",
         "type": "Title",
         "ability": "1 Z-95-AF4 headhunter can dock with you.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/houndstooth.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/houndstooth.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 6
+    },
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["yv666lightfreighter"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "yv666lightfreighter"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USV1298",
     "name": "IG-2000",
     "limited": 0,
     "xws": "ig2000",
@@ -164,21 +287,35 @@
         "title": "IG-2000",
         "type": "Title",
         "ability": "You have the pilot ability of each other friendly ship with the IG-2000 upgrade.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/ig2000.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ig2000.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["aggressorassaultfighter"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "aggressorassaultfighter"
+        ]
+      }
     ],
     "standard": false,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USV1299",
     "name": "Lando's Millennium Falcon",
     "limited": 1,
     "xws": "landosmillenniumfalcon",
@@ -187,21 +324,35 @@
         "title": "Lando's Millennium Falcon",
         "type": "Title",
         "ability": "1 Escape Craft may dock with you. While you have an Escape Craft docked, you may treat its shields as if they were on your ship card. While you perform a primary attack against a stressed ship, roll 1 additional attack die.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/landosmillenniumfalcon.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/landosmillenniumfalcon.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["customizedyt1300lightfreighter"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "customizedyt1300lightfreighter"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USV1300",
     "name": "Marauder",
     "limited": 1,
     "xws": "marauder",
@@ -210,22 +361,42 @@
         "title": "Marauder",
         "type": "Title",
         "ability": "While you perform a primary [Rear Arc] attack, you may reroll 1 attack die. Add [Gunner] slot.",
-        "slots": ["Title"],
-        "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }],
+        "slots": [
+          "Title"
+        ],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Gunner",
+            "amount": 1
+          }
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/marauder.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/marauder.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["firesprayclasspatrolcraft"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "firesprayclasspatrolcraft"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "URB1301",
     "name": "Millennium Falcon",
     "limited": 1,
     "xws": "millenniumfalcon",
@@ -235,27 +406,49 @@
         "type": "Title",
         "ability": "While you defend, if you are evading, you may reroll 1 defense die.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/millenniumfalcon.png",
-        "slots": ["Title"],
-        "actions": [{ "type": "Evade", "difficulty": "White" }],
+        "slots": [
+          "Title"
+        ],
+        "actions": [
+          {
+            "type": "Evade",
+            "difficulty": "White"
+          }
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Evade", "difficulty": "White" }
+            "value": {
+              "type": "Evade",
+              "difficulty": "White"
+            }
           }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/millenniumfalcon.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["modifiedyt1300lightfreighter"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "modifiedyt1300lightfreighter"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USV1302",
     "name": "Mist Hunter",
     "limited": 1,
     "xws": "misthunter",
@@ -264,29 +457,55 @@
         "title": "Mist Hunter",
         "type": "Title",
         "ability": "Add [Cannon] slot.",
-        "slots": ["Title"],
-        "actions": [{ "type": "Barrel Roll", "difficulty": "White" }],
+        "slots": [
+          "Title"
+        ],
+        "actions": [
+          {
+            "type": "Barrel Roll",
+            "difficulty": "White"
+          }
+        ],
         "grants": [
-          { "type": "slot", "value": "Cannon", "amount": 1 },
+          {
+            "type": "slot",
+            "value": "Cannon",
+            "amount": 1
+          },
           {
             "type": "action",
-            "value": { "type": "Barrel Roll", "difficulty": "White" }
+            "value": {
+              "type": "Barrel Roll",
+              "difficulty": "White"
+            }
           }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/misthunter.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/misthunter.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["g1astarfighter"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "g1astarfighter"
+        ]
+      }
     ],
     "standard": false,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "URB1303",
     "name": "Moldy Crow",
     "limited": 1,
     "xws": "moldycrow",
@@ -295,24 +514,44 @@
         "title": "Moldy Crow",
         "type": "Title",
         "ability": "Gain a [Front Arc] primary weapon with a value of “3.” During the End Phase, do not remove up to 2 focus tokens.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "stat", "value": "attack", "arc": "Front Arc", "amount": 3 }
+          {
+            "type": "stat",
+            "value": "attack",
+            "arc": "Front Arc",
+            "amount": 3
+          }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/moldycrow.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/moldycrow.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["rebelalliance", "scumandvillainy"] },
-      { "ships": ["hwk290lightfreighter"] }
+      {
+        "factions": [
+          "rebelalliance",
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "hwk290lightfreighter"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "URB1304",
     "name": "Outrider",
     "limited": 1,
     "xws": "outrider",
@@ -322,20 +561,34 @@
         "type": "Title",
         "ability": "While you perform a primary attack at range 3, roll 1 additional attack die. While you perform an attack that is obstructed by an obstacle, you may change one of the defender's [Evade] results to a [Focus] result.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/outrider.png",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/outrider.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["yt2400lightfreighter"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "yt2400lightfreighter"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "URB1305",
     "name": "Phantom",
     "limited": 1,
     "xws": "phantom",
@@ -345,20 +598,35 @@
         "type": "Title",
         "ability": "You can dock at range 0-1.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/phantom.png",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/phantom.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["attackshuttle", "sheathipedeclassshuttle"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "attackshuttle",
+          "sheathipedeclassshuttle"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USV1306",
     "name": "Punishing One",
     "limited": 1,
     "xws": "punishingone",
@@ -367,25 +635,47 @@
         "title": "Punishing One",
         "type": "Title",
         "ability": "While you perform a primary attack, if the defender is in your [Front Arc], roll 1 additional attack die. Remove [Crew] slot. Add [Astromech] slot.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "slot", "value": "Crew", "amount": -1 },
-          { "type": "slot", "value": "Astromech", "amount": 1 }
+          {
+            "type": "slot",
+            "value": "Crew",
+            "amount": -1
+          },
+          {
+            "type": "slot",
+            "value": "Astromech",
+            "amount": 1
+          }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/punishingone.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/punishingone.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["jumpmaster5000"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "jumpmaster5000"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UEM1307",
     "name": "ST-321",
     "limited": 1,
     "xws": "st321",
@@ -395,20 +685,34 @@
         "type": "Title",
         "ability": "After you perform a [Coordinate] action, you may choose an enemy ship at range 0-3 of the ship you coordinated. If you do, acquire a lock on that enemy ship, ignoring range restrictions.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/st321.png",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/st321.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 3
+    },
     "restrictions": [
-      { "factions": ["galacticempire"] },
-      { "ships": ["lambdaclasst4ashuttle"] }
+      {
+        "factions": [
+          "galacticempire"
+        ]
+      },
+      {
+        "ships": [
+          "lambdaclasst4ashuttle"
+        ]
+      }
     ],
     "standard": false,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USV1308",
     "name": "Shadow Caster",
     "limited": 1,
     "xws": "shadowcaster",
@@ -417,21 +721,35 @@
         "title": "Shadow Caster",
         "type": "Title",
         "ability": "After you perform an attack that hits, if the defender is in your [Single Turret Arc] and your [Front Arc], the defender gains 1 tractor token.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/shadowcaster.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/shadowcaster.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["lancerclasspursuitcraft"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "lancerclasspursuitcraft"
+        ]
+      }
     ],
     "standard": false,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USV1309",
     "name": "Slave I",
     "limited": 1,
     "xws": "slavei",
@@ -440,22 +758,42 @@
         "title": "Slave I",
         "type": "Title",
         "ability": "After you reveal a turn ([Turn Left] or [Turn Right]) or bank ([Bank Left] or [Bank Right]) maneuver, you may set your dial to the maneuver of the same speed and bearing in the other direction. Add [Torpedo] slot.",
-        "slots": ["Title"],
-        "grants": [{ "type": "slot", "value": "Torpedo", "amount": 1 }],
+        "slots": [
+          "Title"
+        ],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Torpedo",
+            "amount": 1
+          }
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/slavei.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/slavei.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 10
+    },
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["firesprayclasspatrolcraft"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "firesprayclasspatrolcraft"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1310",
     "name": "Virago",
     "limited": 1,
     "xws": "virago",
@@ -464,23 +802,46 @@
         "title": "Virago",
         "type": "Title",
         "ability": "During the End Phase, you may spend 1 [Charge] to perform a red [Boost] action. Add [Modification] slot.",
-        "slots": ["Title"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Title"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "grants": [
-          { "type": "slot", "value": "Modification", "amount": 1 },
-          { "type": "stat", "value": "shields", "amount": 1 }
+          {
+            "type": "slot",
+            "value": "Modification",
+            "amount": 1
+          },
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": 1
+          }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/virago.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/virago.png"
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["starviperclassattackplatform"] }],
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "starviperclassattackplatform"
+        ]
+      }
+    ],
     "standard": false,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "URE1311",
     "name": "Rey's Millennium Falcon",
     "limited": 1,
     "xws": "reysmillenniumfalcon",
@@ -491,19 +852,33 @@
         "ability": "If you have 2 or fewer stress tokens, you can execute red Segnor's Loop [[Segnor's Loop Left] or [Segnor's Loop Right]] maneuvers and perform [Boost] and [Rotate Arc] actions even while stressed.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/reysmillenniumfalcon.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/reysmillenniumfalcon.png",
-        "slots": ["Title"]
+        "slots": [
+          "Title"
+        ]
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["resistance"] },
-      { "ships": ["scavengedyt1300"] }
+      {
+        "factions": [
+          "resistance"
+        ]
+      },
+      {
+        "ships": [
+          "scavengedyt1300"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USA1312",
     "name": "Soulless One",
     "limited": 1,
     "xws": "soullessone",
@@ -512,22 +887,42 @@
         "title": "Soulless One",
         "type": "Title",
         "ability": "While you defend, if the attacker is outside your firing arc, you may reroll 1 defense die.",
-        "slots": ["Title"],
-        "grants": [{ "type": "stat", "value": "hull", "amount": 2 }],
+        "slots": [
+          "Title"
+        ],
+        "grants": [
+          {
+            "type": "stat",
+            "value": "hull",
+            "amount": 2
+          }
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/soullessone.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/soullessone.png"
       }
     ],
     "restrictions": [
-      { "factions": ["separatistalliance"] },
-      { "ships": ["belbullab22starfighter"] }
+      {
+        "factions": [
+          "separatistalliance"
+        ]
+      },
+      {
+        "ships": [
+          "belbullab22starfighter"
+        ]
+      }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 9
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USA1313",
     "name": "Scimitar",
     "limited": 1,
     "xws": "scimitar",
@@ -536,15 +931,23 @@
         "title": "Scimitar",
         "type": "Title",
         "ability": "Setup: After the Place Forces step, you may cloak. After you decloak, you may choose an enemy ship in your [Bullseye Arc]. If you do, it gains 1 jam token.",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Cloak", "difficulty": "Red" }
+            "value": {
+              "type": "Cloak",
+              "difficulty": "Red"
+            }
           },
           {
             "type": "action",
-            "value": { "type": "Jam", "difficulty": "White" }
+            "value": {
+              "type": "Jam",
+              "difficulty": "White"
+            }
           }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/scimitar.png",
@@ -552,15 +955,27 @@
       }
     ],
     "restrictions": [
-      { "factions": ["separatistalliance"] },
-      { "ships": ["sithinfiltrator"] }
+      {
+        "factions": [
+          "separatistalliance"
+        ]
+      },
+      {
+        "ships": [
+          "sithinfiltrator"
+        ]
+      }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UEM1314",
     "name": "Assailer",
     "limited": 1,
     "xws": "assailer",
@@ -572,23 +987,49 @@
         "ability": "Add [Gunner] slot. While you defend, if the attack range is 1, you may roll 1 additional defense die.",
         "title": "Assailer",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "stat", "value": "hull", "amount": 2 },
-          { "type": "stat", "value": "shields", "amount": -2 },
-          { "type": "slot", "value": "Gunner", "amount": 1 }
+          {
+            "type": "stat",
+            "value": "hull",
+            "amount": 2
+          },
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": -2
+          },
+          {
+            "type": "slot",
+            "value": "Gunner",
+            "amount": 1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/assailer.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/assailer.png"
       }
     ],
     "restrictions": [
-      { "factions": ["galacticempire"] },
-      { "ships": ["raiderclasscorvette"] }
+      {
+        "factions": [
+          "galacticempire"
+        ]
+      },
+      {
+        "ships": [
+          "raiderclasscorvette"
+        ]
+      }
     ],
-    "cost": { "value": 5 }
+    "cost": {
+      "value": 5
+    },
+    "restricted": 0
   },
   {
+    "uid": "UEM1315",
     "name": "Blood Crow",
     "limited": 1,
     "xws": "bloodcrow",
@@ -600,23 +1041,49 @@
         "ability": "Add [Gunner] slot. While you perform an attack at attack range 1-2, you may add 1 [Focus] result.",
         "title": "Blood Crow",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "stat", "value": "energy", "amount": 2 },
-          { "type": "stat", "value": "shields", "amount": -1 },
-          { "type": "slot", "value": "Gunner", "amount": 1 }
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": -1
+          },
+          {
+            "type": "stat",
+            "value": "energy",
+            "amount": 2
+          },
+          {
+            "type": "slot",
+            "value": "Gunner",
+            "amount": 1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/bloodcrow.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/bloodcrow.png"
       }
     ],
     "restrictions": [
-      { "factions": ["galacticempire"] },
-      { "ships": ["gozanticlasscruiser"] }
+      {
+        "factions": [
+          "galacticempire"
+        ]
+      },
+      {
+        "ships": [
+          "gozanticlasscruiser"
+        ]
+      }
     ],
-    "cost": { "value": 8 }
+    "cost": {
+      "value": 8
+    },
+    "restricted": 0
   },
   {
+    "uid": "URB1316",
     "name": "Bright Hope",
     "limited": 1,
     "xws": "brighthope",
@@ -628,18 +1095,32 @@
         "ability": "You can reinforce only your [Full Front Arc]. While you defend, if you are reinforced and the attacker is in your [Full Front Arc], you may roll 1 additional defense die.",
         "title": "Bright Hope",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/brighthope.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/brighthope.png"
       }
     ],
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["gr75mediumtransport"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "gr75mediumtransport"
+        ]
+      }
     ],
-    "cost": { "value": 5 }
+    "cost": {
+      "value": 5
+    },
+    "restricted": 0
   },
   {
+    "uid": "USV1317",
     "name": "Broken Horn",
     "limited": 1,
     "xws": "brokenhorn",
@@ -651,22 +1132,44 @@
         "ability": "Add [Crew] and [Illicit] slots. If you are damaged, reduce the difficulty of your speed 3-5 maneuvers.",
         "title": "Broken Horn",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "slot", "value": "Illicit", "amount": 1 },
-          { "type": "slot", "value": "Crew", "amount": 1 }
+          {
+            "type": "slot",
+            "value": "Illicit",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Crew",
+            "amount": 1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/brokenhorn.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/brokenhorn.png"
       }
     ],
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["croccruiser"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "croccruiser"
+        ]
+      }
     ],
-    "cost": { "value": 4 }
+    "cost": {
+      "value": 4
+    },
+    "restricted": 0
   },
   {
+    "uid": "UEM1318",
     "name": "Corvus",
     "limited": 1,
     "xws": "corvus",
@@ -678,11 +1181,16 @@
         "ability": "You can dock up to 2 small ships. After you perform a [Calculate] action, gain 1 calculate token.",
         "title": "Corvus",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Calculate", "difficulty": "White" }
+            "value": {
+              "type": "Calculate",
+              "difficulty": "White"
+            }
           }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/corvus.png",
@@ -690,12 +1198,24 @@
       }
     ],
     "restrictions": [
-      { "factions": ["galacticempire"] },
-      { "ships": ["raiderclasscorvette"] }
+      {
+        "factions": [
+          "galacticempire"
+        ]
+      },
+      {
+        "ships": [
+          "raiderclasscorvette"
+        ]
+      }
     ],
-    "cost": { "value": 3 }
+    "cost": {
+      "value": 3
+    },
+    "restricted": 0
   },
   {
+    "uid": "URB1319",
     "name": "Dodonna's Pride",
     "limited": 1,
     "xws": "dodonnaspride",
@@ -707,14 +1227,19 @@
         "ability": "Add [Team] and [Cargo] slots.",
         "title": "Dodonna's Pride",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
           {
             "type": "action",
             "value": {
               "type": "Evade",
               "difficulty": "White",
-              "linked": { "type": "Coordinate", "difficulty": "Red" }
+              "linked": {
+                "type": "Coordinate",
+                "difficulty": "Red"
+              }
             }
           },
           {
@@ -722,24 +1247,51 @@
             "value": {
               "type": "Focus",
               "difficulty": "White",
-              "linked": { "type": "Coordinate", "difficulty": "Red" }
+              "linked": {
+                "type": "Coordinate",
+                "difficulty": "Red"
+              }
             }
           },
-          { "type": "stat", "value": "shields", "amount": -2 },
-          { "type": "slot", "value": "Team", "amount": 1 },
-          { "type": "slot", "value": "Cargo", "amount": 1 }
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": -2
+          },
+          {
+            "type": "slot",
+            "value": "Team",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Cargo",
+            "amount": 1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/dodonnaspride.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/dodonnaspride.png"
       }
     ],
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["cr90corelliancorvette"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "cr90corelliancorvette"
+        ]
+      }
     ],
-    "cost": { "value": 4 }
+    "cost": {
+      "value": 4
+    },
+    "restricted": 0
   },
   {
+    "uid": "UEM1320",
     "name": "Impetuous",
     "limited": 1,
     "xws": "impetuous",
@@ -751,23 +1303,49 @@
         "ability": "Add [Crew] slot. After you perform an attack, if the defender was destroyed, you may perform a [Focus] or [Lock] action.",
         "title": "Impetuous",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "stat", "value": "energy", "amount": 2 },
-          { "type": "stat", "value": "shields", "amount": -2 },
-          { "type": "slot", "value": "Crew", "amount": 1 }
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": -2
+          },
+          {
+            "type": "stat",
+            "value": "energy",
+            "amount": 2
+          },
+          {
+            "type": "slot",
+            "value": "Crew",
+            "amount": 1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/impetuous.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/impetuous.png"
       }
     ],
     "restrictions": [
-      { "factions": ["galacticempire"] },
-      { "ships": ["raiderclasscorvette"] }
+      {
+        "factions": [
+          "galacticempire"
+        ]
+      },
+      {
+        "ships": [
+          "raiderclasscorvette"
+        ]
+      }
     ],
-    "cost": { "value": 4 }
+    "cost": {
+      "value": 4
+    },
+    "restricted": 0
   },
   {
+    "uid": "USV1321",
     "name": "Insatiable Worrt",
     "limited": 1,
     "xws": "insatiableworrt",
@@ -779,24 +1357,54 @@
         "ability": "Add [Cargo] slot. During the End Phase, you may recover 1 additional shield or 1 additional [Energy].",
         "title": "Insatiable Worrt",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "stat", "value": "energy", "amount": -1 },
-          { "type": "stat", "value": "hull", "amount": 3 },
-          { "type": "stat", "value": "shields", "amount": -1 },
-          { "type": "slot", "value": "Cargo", "amount": 1 }
+          {
+            "type": "stat",
+            "value": "hull",
+            "amount": 3
+          },
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": -1
+          },
+          {
+            "type": "stat",
+            "value": "energy",
+            "amount": -1
+          },
+          {
+            "type": "slot",
+            "value": "Cargo",
+            "amount": 1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/insatiableworrt.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/insatiableworrt.png"
       }
     ],
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["croccruiser"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "croccruiser"
+        ]
+      }
     ],
-    "cost": { "value": 7 }
+    "cost": {
+      "value": 7
+    },
+    "restricted": 0
   },
   {
+    "uid": "UEM1322",
     "name": "Instigator",
     "limited": 1,
     "xws": "instigator",
@@ -808,19 +1416,39 @@
         "ability": "Add [Team] slot. While you perform an attack, if the defender has an orange or red token, you may reroll up to 2 attack dice.",
         "title": "Instigator",
         "type": "Title",
-        "slots": ["Title"],
-        "grants": [{ "type": "slot", "value": "Team", "amount": 1 }],
+        "slots": [
+          "Title"
+        ],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Team",
+            "amount": 1
+          }
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/instigator.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/instigator.png"
       }
     ],
     "restrictions": [
-      { "factions": ["galacticempire"] },
-      { "ships": ["raiderclasscorvette"] }
+      {
+        "factions": [
+          "galacticempire"
+        ]
+      },
+      {
+        "ships": [
+          "raiderclasscorvette"
+        ]
+      }
     ],
-    "cost": { "value": 6 }
+    "cost": {
+      "value": 6
+    },
+    "restricted": 0
   },
   {
+    "uid": "URB1323",
     "name": "Jaina's Light",
     "limited": 1,
     "xws": "jainaslight",
@@ -832,22 +1460,44 @@
         "ability": "While a friendly ship at range 0-2 defends, if the attack is obstructed by an obstacle, you may spend 1 [Energy]. If you do, the defender rolls 1 additional defense die.",
         "title": "Jaina's Light",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "stat", "value": "energy", "amount": -1 },
-          { "type": "stat", "value": "shields", "amount": 1 }
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": 1
+          },
+          {
+            "type": "stat",
+            "value": "energy",
+            "amount": -1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/jainaslight.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/jainaslight.png"
       }
     ],
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["cr90corelliancorvette"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "cr90corelliancorvette"
+        ]
+      }
     ],
-    "cost": { "value": 4 }
+    "cost": {
+      "value": 4
+    },
+    "restricted": 0
   },
   {
+    "uid": "URE1324",
     "name": "Kaz's Fireball",
     "limited": 1,
     "xws": "kazsfireball",
@@ -856,18 +1506,35 @@
         "ability": "Setup: When you resolve Explosion with Wings, you may search the damage deck and choose a damage card with the Ship trait; you are dealt that card instead. Then, shuffle the damage deck. You can perform actions on damage cards even while ionized.",
         "title": "Kaz's Fireball",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/kazsfireball.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/kazsfireball.png"
       }
     ],
-    "restrictions": [{ "factions": ["resistance"] }, { "ships": ["fireball"] }],
-    "cost": { "value": 0 },
+    "restrictions": [
+      {
+        "factions": [
+          "resistance"
+        ]
+      },
+      {
+        "ships": [
+          "fireball"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 0
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "URB1325",
     "name": "Liberator",
     "limited": 1,
     "xws": "liberator",
@@ -879,19 +1546,39 @@
         "ability": "You can dock up to 2 small ships. After a ship deploys from you, it may perform a [Focus] or [Barrel Roll] action.",
         "title": "Liberator",
         "type": "Title",
-        "slots": ["Title"],
-        "grants": [{ "type": "stat", "value": "energy", "amount": 1 }],
+        "slots": [
+          "Title"
+        ],
+        "grants": [
+          {
+            "type": "stat",
+            "value": "energy",
+            "amount": 1
+          }
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/liberator.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/liberator.png"
       }
     ],
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["cr90corelliancorvette"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "cr90corelliancorvette"
+        ]
+      }
     ],
-    "cost": { "value": 5 }
+    "cost": {
+      "value": 5
+    },
+    "restricted": 0
   },
   {
+    "uid": "URB1326",
     "name": "Luminous",
     "limited": 1,
     "xws": "luminous",
@@ -903,22 +1590,44 @@
         "ability": "Setup: You are placed in reserve. At the end of setup, you are placed in the play area at range 0-2 of a friendly ship.",
         "title": "Luminous",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "stat", "value": "energy", "amount": 2 },
-          { "type": "stat", "value": "shields", "amount": -1 }
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": -1
+          },
+          {
+            "type": "stat",
+            "value": "energy",
+            "amount": 2
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/luminous.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/luminous.png"
       }
     ],
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["gr75mediumtransport"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "gr75mediumtransport"
+        ]
+      }
     ],
-    "cost": { "value": 12 }
+    "cost": {
+      "value": 12
+    },
+    "restricted": 0
   },
   {
+    "uid": "USV1327",
     "name": "Merchant One",
     "limited": 1,
     "xws": "merchantone",
@@ -930,31 +1639,63 @@
         "ability": "Add [Turret], [Team], and [Cargo] slots. Bonus Attack: Perform a [Turret] attack.",
         "title": "Merchant One",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Evade", "difficulty": "Red" }
+            "value": {
+              "type": "Evade",
+              "difficulty": "Red"
+            }
           },
           {
             "type": "action",
-            "value": { "type": "Coordinate", "difficulty": "White" }
+            "value": {
+              "type": "Coordinate",
+              "difficulty": "White"
+            }
           },
-          { "type": "slot", "value": "Turret", "amount": 1 },
-          { "type": "slot", "value": "Team", "amount": 1 },
-          { "type": "slot", "value": "Cargo", "amount": 1 }
+          {
+            "type": "slot",
+            "value": "Turret",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Team",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Cargo",
+            "amount": 1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/merchantone.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/merchantone.png"
       }
     ],
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["croccruiser"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "croccruiser"
+        ]
+      }
     ],
-    "cost": { "value": 8 }
+    "cost": {
+      "value": 8
+    },
+    "restricted": 0
   },
   {
+    "uid": "URB1328",
     "name": "Quantum Storm",
     "limited": 1,
     "xws": "quantumstorm",
@@ -966,23 +1707,49 @@
         "ability": "Add [Team] and [Cargo] slots. After you fully execute a white maneuver, recover 1 [Energy].",
         "title": "Quantum Storm",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "stat", "value": "energy", "amount": 1 },
-          { "type": "slot", "value": "Team", "amount": 1 },
-          { "type": "slot", "value": "Cargo", "amount": 1 }
+          {
+            "type": "stat",
+            "value": "energy",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Team",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Cargo",
+            "amount": 1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/quantumstorm.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/quantumstorm.png"
       }
     ],
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["gr75mediumtransport"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "gr75mediumtransport"
+        ]
+      }
     ],
-    "cost": { "value": 3 }
+    "cost": {
+      "value": 3
+    },
+    "restricted": 0
   },
   {
+    "uid": "UEM1329",
     "name": "Requiem",
     "limited": 1,
     "xws": "requiem",
@@ -994,18 +1761,32 @@
         "ability": "After a ship deploys from you, it may acquire a lock on one ship you are locking, ignoring range restrictions.",
         "title": "Requiem",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/requiem.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/requiem.png"
       }
     ],
     "restrictions": [
-      { "factions": ["galacticempire"] },
-      { "ships": ["gozanticlasscruiser"] }
+      {
+        "factions": [
+          "galacticempire"
+        ]
+      },
+      {
+        "ships": [
+          "gozanticlasscruiser"
+        ]
+      }
     ],
-    "cost": { "value": 7 }
+    "cost": {
+      "value": 7
+    },
+    "restricted": 0
   },
   {
+    "uid": "UEM1330",
     "name": "Suppressor",
     "limited": 1,
     "xws": "suppressor",
@@ -1017,23 +1798,49 @@
         "ability": "Add [Sensor] slot. After you coordinate a friendly ship, you may spend 1 [Energy] to jam an enemy ship at range 0-2 of that ship, ignoring range restrictions.",
         "title": "Suppressor",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "stat", "value": "hull", "amount": -2 },
-          { "type": "stat", "value": "shields", "amount": 2 },
-          { "type": "slot", "value": "Sensor", "amount": 1 }
+          {
+            "type": "stat",
+            "value": "hull",
+            "amount": -2
+          },
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": 2
+          },
+          {
+            "type": "slot",
+            "value": "Sensor",
+            "amount": 1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/suppressor.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/suppressor.png"
       }
     ],
     "restrictions": [
-      { "factions": ["galacticempire"] },
-      { "ships": ["gozanticlasscruiser"] }
+      {
+        "factions": [
+          "galacticempire"
+        ]
+      },
+      {
+        "ships": [
+          "gozanticlasscruiser"
+        ]
+      }
     ],
-    "cost": { "value": 6 }
+    "cost": {
+      "value": 6
+    },
+    "restricted": 0
   },
   {
+    "uid": "URB1331",
     "name": "Tantive IV",
     "limited": 1,
     "xws": "tantiveiv",
@@ -1045,19 +1852,39 @@
         "ability": "Add 2 [Crew] slots. While you defend, if the attacker is in your [Rear Arc], you may roll 1 additional defense die.",
         "title": "Tantive IV",
         "type": "Title",
-        "slots": ["Title"],
-        "grants": [{ "type": "slot", "value": "Crew", "amount": 2 }],
+        "slots": [
+          "Title"
+        ],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Crew",
+            "amount": 2
+          }
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/tantiveiv.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/tantiveiv.png"
       }
     ],
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["cr90corelliancorvette"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "cr90corelliancorvette"
+        ]
+      }
     ],
-    "cost": { "value": 5 }
+    "cost": {
+      "value": 5
+    },
+    "restricted": 0
   },
   {
+    "uid": "URB1332",
     "name": "Thunderstrike",
     "limited": 1,
     "xws": "thunderstrike",
@@ -1069,23 +1896,49 @@
         "ability": "Add [Gunner] slot. While you perform a bonus attack, if you have not attacked the defender this round, you may reroll 1 attack die.",
         "title": "Thunderstrike",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "stat", "value": "hull", "amount": 3 },
-          { "type": "stat", "value": "shields", "amount": -3 },
-          { "type": "slot", "value": "Gunner", "amount": 1 }
+          {
+            "type": "stat",
+            "value": "hull",
+            "amount": 3
+          },
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": -3
+          },
+          {
+            "type": "slot",
+            "value": "Gunner",
+            "amount": 1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/thunderstrike.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/thunderstrike.png"
       }
     ],
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["cr90corelliancorvette"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "cr90corelliancorvette"
+        ]
+      }
     ],
-    "cost": { "value": 4 }
+    "cost": {
+      "value": 4
+    },
+    "restricted": 0
   },
   {
+    "uid": "UEM1333",
     "name": "Vector",
     "limited": 1,
     "xws": "vector",
@@ -1097,22 +1950,44 @@
         "ability": "Add [Crew] and [Cargo] slots. After a ship deploys from you, it may perform a [Evade] or [Boost] action.",
         "title": "Vector",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "slot", "value": "Cargo", "amount": 1 },
-          { "type": "slot", "value": "Crew", "amount": 1 }
+          {
+            "type": "slot",
+            "value": "Cargo",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Crew",
+            "amount": 1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/vector.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/vector.png"
       }
     ],
     "restrictions": [
-      { "factions": ["galacticempire"] },
-      { "ships": ["gozanticlasscruiser"] }
+      {
+        "factions": [
+          "galacticempire"
+        ]
+      },
+      {
+        "ships": [
+          "gozanticlasscruiser"
+        ]
+      }
     ],
-    "cost": { "value": 7 }
+    "cost": {
+      "value": 7
+    },
+    "restricted": 0
   },
   {
+    "uid": "USV1334",
     "name": "Slave I",
     "limited": 1,
     "xws": "slavei-swz82",
@@ -1124,19 +1999,40 @@
         "ability": "While you perform a [Front Arc] attack, if you are in the defender's [Full Rear Arc], you may change 1 [Hit] result to a [Critical Hit] result. Add [Gunner] slot.",
         "title": "Slave I",
         "type": "Title",
-        "slots": ["Title"],
-        "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }],
+        "slots": [
+          "Title"
+        ],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Gunner",
+            "amount": 1
+          }
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/slavei-swz82.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/slavei-swz82.png"
       }
     ],
     "restrictions": [
-      { "factions": ["scumandvillainy", "separatistalliance"] },
-      { "ships": ["firesprayclasspatrolcraft"] }
+      {
+        "factions": [
+          "separatistalliance",
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "firesprayclasspatrolcraft"
+        ]
+      }
     ],
-    "cost": { "value": 0 }
+    "cost": {
+      "value": 0
+    },
+    "restricted": 0
   },
   {
+    "uid": "URB1335",
     "name": "B6 Blade Wing Prototype",
     "limited": 1,
     "xws": "b6bladewingprototype",
@@ -1145,22 +2041,42 @@
         "ability": "Add [Gunner] slot.",
         "title": "B6 Blade Wing Prototype",
         "type": "Title",
-        "slots": ["Title"],
-        "grants": [{ "type": "slot", "value": "Gunner", "amount": 1 }],
+        "slots": [
+          "Title"
+        ],
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Gunner",
+            "amount": 1
+          }
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/b6bladewingprototype.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/b6bladewingprototype.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["rebelalliance"] },
-      { "ships": ["asf01bwing"] }
+      {
+        "factions": [
+          "rebelalliance"
+        ]
+      },
+      {
+        "ships": [
+          "asf01bwing"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USV1336",
     "name": "Nautolan's Revenge",
     "limited": 1,
     "xws": "nautolansrevenge",
@@ -1172,23 +2088,49 @@
         "ability": "Before you engage, you may spend up to 2 calculate tokens. If you do, recover that many [Energy].",
         "title": "Nautolan's Revenge",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "stat", "value": "energy", "amount": 1 },
-          { "type": "stat", "value": "hull", "amount": -2 },
-          { "type": "stat", "value": "shields", "amount": 1 }
+          {
+            "type": "stat",
+            "value": "hull",
+            "amount": -2
+          },
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": 1
+          },
+          {
+            "type": "stat",
+            "value": "energy",
+            "amount": 1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/nautolansrevenge.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/nautolansrevenge.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "ships": ["tridentclassassaultship"] }
-    ]
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "tridentclassassaultship"
+        ]
+      }
+    ],
+    "restricted": 0
   },
   {
+    "uid": "UGN1337",
     "name": "Grappler",
     "limited": 1,
     "xws": "grappler",
@@ -1200,19 +2142,39 @@
         "ability": "While you perform a Drill Beak attack at range 1, if the defender is tractored, treat it as being range 0 instead.",
         "title": "Grappler",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "stat", "value": "hull", "amount": 2 },
-          { "type": "stat", "value": "shields", "amount": -1 }
+          {
+            "type": "stat",
+            "value": "hull",
+            "amount": 2
+          },
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": -1
+          }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/grappler.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/grappler.png"
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "ships": ["tridentclassassaultship"] }]
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "tridentclassassaultship"
+        ]
+      }
+    ],
+    "restricted": 0
   },
   {
+    "uid": "USA1338",
     "name": "Neimoidian Grasp",
     "limited": 1,
     "xws": "neimoidiangrasp",
@@ -1224,19 +2186,39 @@
         "ability": "After you perform an attack, you may perform a red [Evade] action. While you defend, if you are evading, you may roll 1 additional defense die.",
         "title": "Neimoidian Grasp",
         "type": "Title",
-        "slots": ["Title"],
-        "grants": [{ "type": "stat", "value": "shields", "amount": -2 }],
+        "slots": [
+          "Title"
+        ],
+        "grants": [
+          {
+            "type": "stat",
+            "value": "hull",
+            "amount": -2
+          }
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/neimoidiangrasp.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/neimoidiangrasp.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 5
+    },
     "restrictions": [
-      { "factions": ["separatistalliance"] },
-      { "ships": ["tridentclassassaultship"] }
-    ]
+      {
+        "factions": [
+          "separatistalliance"
+        ]
+      },
+      {
+        "ships": [
+          "tridentclassassaultship"
+        ]
+      }
+    ],
+    "restricted": 0
   },
   {
+    "uid": "USA1339",
     "name": "Trident",
     "limited": 1,
     "xws": "trident",
@@ -1248,19 +2230,39 @@
         "ability": "After you overlap a ship or a ship overlaps you, if it is not tractored, you may spend 1 [Energy]. If you do, it gains 3 tractor tokens.",
         "title": "Trident",
         "type": "Title",
-        "slots": ["Title"],
-        "grants": [{ "type": "stat", "value": "energy", "amount": 1 }],
+        "slots": [
+          "Title"
+        ],
+        "grants": [
+          {
+            "type": "stat",
+            "value": "energy",
+            "amount": 1
+          }
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/trident.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/trident.png"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 4
+    },
     "restrictions": [
-      { "factions": ["separatistalliance"] },
-      { "ships": ["tridentclassassaultship"] }
-    ]
+      {
+        "factions": [
+          "separatistalliance"
+        ]
+      },
+      {
+        "ships": [
+          "tridentclassassaultship"
+        ]
+      }
+    ],
+    "restricted": 0
   },
   {
+    "uid": "URB1340",
     "name": "Nightbrother",
     "limited": 1,
     "xws": "nightbrother",
@@ -1269,23 +2271,48 @@
         "ability": "After you reveal a non-blue maneuver, if you are stressed, you may spend 2 [Charge] to gain 1 focus or evade token. Add [Crew] slot.",
         "title": "Nightbrother",
         "type": "Title",
-        "slots": ["Title", "Modification"],
-        "charges": { "value": 2, "recovers": 1 },
-        "grants": [{ "type": "slot", "value": "Crew", "amount": 1 }],
+        "slots": [
+          "Title",
+          "Modification"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 1
+        },
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Crew",
+            "amount": 1
+          }
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/nightbrother.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/nightbrother.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["scumandvillainy", "rebelalliance"] },
-      { "ships": ["gauntletfighter"] }
+      {
+        "factions": [
+          "rebelalliance",
+          "scumandvillainy"
+        ]
+      },
+      {
+        "ships": [
+          "gauntletfighter"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGR1341",
     "name": "Gauntlet",
     "limited": 1,
     "xws": "gauntlet",
@@ -1294,23 +2321,48 @@
         "ability": "During the System Phase, you may spend 1 [Charge] to repair 1 faceup ship damage card. Add [Crew] slot.",
         "title": "Gauntlet",
         "type": "Title",
-        "slots": ["Title", "Modification"],
-        "charges": { "value": 2, "recovers": 0 },
-        "grants": [{ "type": "slot", "value": "Crew", "amount": -1 }],
+        "slots": [
+          "Title",
+          "Modification"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "grants": [
+          {
+            "type": "slot",
+            "value": "Crew",
+            "amount": -1
+          }
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/gauntlet.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/gauntlet.png"
       }
     ],
-    "cost": { "value": 0 },
+    "cost": {
+      "value": 0
+    },
     "restrictions": [
-      { "factions": ["galacticrepublic", "separatistalliance"] },
-      { "ships": ["gauntletfighter"] }
+      {
+        "factions": [
+          "galacticrepublic",
+          "separatistalliance"
+        ]
+      },
+      {
+        "ships": [
+          "gauntletfighter"
+        ]
+      }
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1342",
     "name": "Razor Crest",
     "limited": 1,
     "xws": "razorcrest",
@@ -1319,14 +2371,19 @@
         "ability": "Setup: Place 1 non-limited [Illicit] upgrade facedown under this card. During the System Phase, you may reveal that [Illicit] upgrade and equip it as if it were equipped at Setup (without paying its points cost).",
         "title": "Razor Crest",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
           {
             "type": "action",
             "value": {
               "type": "Evade",
               "difficulty": "White",
-              "linked": { "type": "Barrel Roll", "difficulty": "Red" }
+              "linked": {
+                "type": "Barrel Roll",
+                "difficulty": "Red"
+              }
             }
           }
         ],
@@ -1334,13 +2391,23 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/razorcrest.png"
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["st70assaultship"] }],
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "st70assaultship"
+        ]
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1343",
     "name": "Xanadu Blood",
     "limited": 1,
     "xws": "xanadublood",
@@ -1349,10 +2416,20 @@
         "ability": "Add [Crew] and [Device] slots.",
         "title": "Xanadu Blood",
         "type": "Title",
-        "slots": ["Title"],
+        "slots": [
+          "Title"
+        ],
         "grants": [
-          { "type": "slot", "value": "Crew", "amount": 1 },
-          { "type": "slot", "value": "Device", "amount": 1 },
+          {
+            "type": "slot",
+            "value": "Crew",
+            "amount": 1
+          },
+          {
+            "type": "slot",
+            "value": "Device",
+            "amount": 1
+          },
           {
             "type": "action",
             "value": {
@@ -1365,13 +2442,23 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/xanadublood.png"
       }
     ],
-    "cost": { "value": 0 },
-    "restrictions": [{ "ships": ["rogueclassstarfighter"] }],
+    "cost": {
+      "value": 0
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "rogueclassstarfighter"
+        ]
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1344",
     "name": "Millennium Falcon",
     "limited": 1,
     "xws": "millenniumfalcon-battleoverendor",
@@ -1380,12 +2467,422 @@
         "title": "Millennium Falcon",
         "type": "Title",
         "ability": "While attacking or defending, if you have a non-lock red or orange token, you may reroll 1 die.",
-        "slots": ["Title"]
+        "slots": [
+          "Title"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1345",
+    "name": "Lando's Millennium Falcon",
+    "limited": 1,
+    "xws": "landosmillenniumfalcon-armedanddangerous",
+    "sides": [
+      {
+        "title": "Lando's Millennium Falcon",
+        "type": "Title",
+        "ability": "While you perform a primary attack, if the defender has a non-lock red or orange token, roll 1 additional attack die.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1346",
+    "name": "Hound's Tooth",
+    "limited": 1,
+    "xws": "houndstooth-armedanddangerous",
+    "sides": [
+      {
+        "title": "Hound's Tooth",
+        "type": "Title",
+        "ability": "While you perform an attack, if you are reinforced and the defender is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token, you may change 1 of your [Focus] results to a [Hit] result. If the defender is stressed, you may change 1 of your [Focus] results to a [Critical Hit] result instead. ",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1347",
+    "name": "Xanadu Blood",
+    "limited": 1,
+    "xws": "xanadublood-armedanddangerous",
+    "sides": [
+      {
+        "title": "Xanadu Blood",
+        "type": "Title",
+        "ability": "After you decloak, you may choose an enemy ship in your [Bullseye Arc]. If you do, that ship gains 1 strain token.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1348",
+    "name": "Virago",
+    "limited": 1,
+    "xws": "virago-armedanddangerous",
+    "sides": [
+      {
+        "title": "Virago",
+        "type": "Title",
+        "ability": "During the System Phase you may perform a red [Barrel Roll] or red [Boost] action.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1349",
+    "name": "Mist Hunter",
+    "limited": 1,
+    "xws": "misthunter-armedanddangerous",
+    "sides": [
+      {
+        "title": "Mist Hunter",
+        "type": "Title",
+        "ability": "After you perform a [Cannon] attack, you may gain 1 strain token to perform a bonus primary attack against the same target.",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1350",
+    "name": "Black One",
+    "limited": 1,
+    "xws": "blackone-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Black One",
+        "type": "Title",
+        "ability": "After you perform a [SLAM] action, lose 1[Charge]. If this upgrade has 0 active [Charge], you cannot perform the [SLAM] action.",
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1351",
+    "name": "Corvus",
+    "limited": 1,
+    "xws": "corvus-epicsl",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "Setup: Place this ship as if it were a standard ship with initiative 5.",
+        "title": "Corvus",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1352",
+    "name": "Blood Crow",
+    "limited": 1,
+    "xws": "bloodcrow-epicsl",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "While you defend or perform an attack, if the attack range is 1, you may spend 1 [Energy] to add 1 [Focus] result.",
+        "title": "Blood Crow",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1353",
+    "name": "Nautolan's Revenge",
+    "limited": 1,
+    "xws": "nautolansrevenge-epicsl",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "After a tractored enemy ship in your [Rear Arc] suffers damage, you may spend 1 [Charge]. If you do, that ship suffers 1 additional [Hit] damage.",
+        "title": "Nautolan's Revenge",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 1
+        }
+      }
+    ],
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1354",
+    "name": "Broken Horn",
+    "limited": 1,
+    "xws": "brokenhorn-epicsl",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "If you are damaged, reduce the difficulty of your speed 3-5 maneuvers.",
+        "title": "Broken Horn",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1355",
+    "name": "Tantive IV",
+    "limited": 1,
+    "xws": "tantiveiv-epicsl",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "While you defend, if the attacker is in your [Rear Arc], you may roll 1 additional defense die.",
+        "title": "Tantive IV",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1356",
+    "name": "Tantive IV",
+    "limited": 1,
+    "xws": "tantiveiv-epicsl-resistance",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "While a friendly ship at range 0-2 defends or performs an attack, if it has only blank results and has 2 or more results, you may suffer 1 [Hit] damage or spend 2 [Energy]. If you do, that ship may reroll all of its dice.",
+        "title": "Tantive IV",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1357",
+    "name": "Hosnian Lament",
+    "limited": 1,
+    "xws": "hosnianlament-epicsl",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "While a friendly ship at range 0-2 is defending, if it suffers 2 or more damage during the attack, you may spend 1 [Energy] to assign a strain token to the attacker.",
+        "title": "Hosnian Lament",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1358",
+    "name": "Precursor",
+    "limited": 1,
+    "xws": "precursor-epicsl",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "At the end of the Engagement Phase, you may spend 1 [Shield] to recover 1 [Energy], or spend 1 [Energy] to recover 1 [Shield].",
+        "title": "Precursor",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1359",
+    "name": "Malefactor",
+    "limited": 1,
+    "xws": "malefactor-epicsl",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "While you defend, friendly ships docked with you may suffer damage instead of you.",
+        "title": "Malefactor",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1360",
+    "name": "Tantive IV",
+    "limited": 1,
+    "xws": "tantiveiv-epicsl-galacticrepublic",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "While you defend, if you have no green tokens, you may change 1 result to an [Evade] result.",
+        "title": "Tantive IV",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1361",
+    "name": "Spectre of Nayr",
+    "limited": 1,
+    "xws": "spectreofnayr-epicsl",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "After you perform an attack, if you have not targeted the defender in a previous attack this round and you are focused, you may recover 1 [Energy].",
+        "title": "Spectre of Nayr",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1362",
+    "name": "Trident",
+    "limited": 1,
+    "xws": "trident-epicsl",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "While you defend, if the attacker does not have any green tokens, you may add 1 [Evade] result.",
+        "title": "Trident",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1363",
+    "name": "Alpha Revue",
+    "limited": 1,
+    "xws": "alpharevue-epicsl",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "Before the Neutralize Results step, while a friendly Vulture-class Droid Fighter at range 0-2 is attacking a defender in its [Bullseye Arc], it may suffer 1 [Hit] damage to cancel 1 [Evade] result.",
+        "title": "Alpha Revue",
+        "type": "Title",
+        "slots": [
+          "Title"
+        ]
+      }
+    ],
+    "restricted": 0
   }
 ]

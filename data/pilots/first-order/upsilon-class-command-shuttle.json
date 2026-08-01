@@ -20,30 +20,61 @@
     "3NW",
     "3YR"
   ],
-  "dialCodes": ["Ups"],
+  "dialCodes": [
+    "Ups"
+  ],
   "faction": "firstorder",
   "stats": [
-    { "type": "attack", "value": 4, "arc": "Front Arc" },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 6 }
+    {
+      "type": "attack",
+      "value": 4,
+      "arc": "Front Arc"
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 6
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Coordinate" },
-    { "difficulty": "White", "type": "Jam" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Coordinate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Jam"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_UpsilonShuttle.png",
   "pilots": [
     {
+      "uid": "PFO0060",
       "name": "Lieutenant Dormitz",
       "caption": "Hypercomms Specialist",
       "initiative": 2,
       "limited": 1,
-      "cost": 8,
-      "loadout": 20,
+      "cost": 17,
+      "loadout": 22,
       "xws": "lieutenantdormitz",
       "ability": "Setup: After you are placed, other friendly ships can be placed anywhere in the play area at range 0-2 of you.",
       "shipAbility": {
@@ -51,29 +82,31 @@
         "text": "While you perform a [Cannon] attack, roll 1 additional die."
       },
       "slots": [
-        "Sensor",
-        "Sensor",
         "Cannon",
-        "Crew",
-        "Crew",
-        "Crew",
-        "Modification",
+        "Sensor",
         "Tech",
-        "Tech"
+        "Tech",
+        "Crew",
+        "Crew",
+        "Crew",
+        "Modification"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/lieutenantdormitz.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenantdormitz.png",
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 238
     },
     {
+      "uid": "PFO0061",
       "name": "Major Stridan",
       "caption": "Stentorian Commander",
       "initiative": 4,
       "limited": 1,
-      "cost": 7,
-      "loadout": 13,
+      "cost": 17,
+      "loadout": 25,
       "xws": "majorstridan",
       "ability": "While you coordinate or resolve the effect of one of your upgrades, you may treat friendly ships at range 2-3 as being at range 0 or range 1.",
       "shipAbility": {
@@ -81,138 +114,191 @@
         "text": "While you perform a [Cannon] attack, roll 1 additional die."
       },
       "slots": [
-        "Sensor",
         "Cannon",
+        "Sensor",
+        "Tech",
+        "Tech",
         "Crew",
         "Crew",
         "Crew",
         "Modification",
-        "Tech",
-        "Tech"
+        "Talent"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/majorstridan.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/majorstridan.png",
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 251
     },
     {
+      "uid": "PFO0062",
       "name": "Petty Officer Thanisson",
       "xws": "pettyofficerthanisson",
       "caption": "Alert Flight Controller",
       "initiative": 1,
       "limited": 1,
-      "cost": 7,
-      "loadout": 14,
-      "charges": { "value": 1, "recovers": 1 },
+      "cost": 15,
+      "loadout": 15,
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
       "ability": "During the Activation or Engagement Phase, after a ship in your [Front Arc] at range 0-2 gains 1 stress token, you may spend 1 [Charge]. If you do, that ship gains 1 tractor token.",
       "shipAbility": {
         "name": "Linked Battery",
         "text": "While you perform a [Cannon] attack, roll 1 additional die."
       },
       "slots": [
+        "Cannon",
         "Sensor",
-        "Cannon",
-        "Cannon",
-        "Crew",
-        "Crew",
-        "Crew",
-        "Modification",
         "Tech",
-        "Tech"
+        "Tech",
+        "Crew",
+        "Crew",
+        "Crew",
+        "Modification"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/pettyofficerthanisson.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/pettyofficerthanisson.png",
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 281
     },
     {
+      "uid": "PFO0063",
       "name": "Starkiller Base Pilot",
       "xws": "starkillerbasepilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 7,
-      "loadout": 8,
+      "cost": 15,
+      "loadout": 18,
       "text": "The Upsilon-class command shuttle serves as a base of operations for many of the First Order's senior officers and agents. Its powerful sensors and communications equipment allow them to orchestrate the spread of terror across the galaxy.",
       "shipAbility": {
         "name": "Linked Battery",
         "text": "While you perform a [Cannon] attack, roll 1 additional die."
       },
       "slots": [
-        "Sensor",
         "Cannon",
-        "Crew",
-        "Crew",
-        "Modification",
+        "Sensor",
         "Tech",
-        "Tech"
+        "Tech",
+        "Crew",
+        "Crew",
+        "Crew",
+        "Modification"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/starkillerbasepilot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/starkillerbasepilot.png",
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 288
     },
     {
+      "uid": "PFO0064",
       "name": "Lieutenant Tavson",
       "caption": "Obedient Shuttle Pilot",
       "initiative": 3,
       "limited": 1,
-      "cost": 8,
+      "cost": 16,
       "loadout": 17,
       "xws": "lieutenanttavson",
       "ability": "After you suffer damage, you may spend 1 [Charge] to perform an action.",
-      "charges": { "value": 2, "recovers": 1 },
+      "charges": {
+        "value": 2,
+        "recovers": 1
+      },
       "shipAbility": {
         "name": "Linked Battery",
         "text": "While you perform a [Cannon] attack, roll 1 additional die."
       },
       "slots": [
-        "Sensor",
         "Cannon",
-        "Crew",
-        "Crew",
-        "Modification",
+        "Sensor",
         "Tech",
-        "Tech"
+        "Tech",
+        "Crew",
+        "Crew",
+        "Crew",
+        "Modification"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/lieutenanttavson.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lieutenanttavson.png",
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 289
     },
     {
+      "uid": "PFO0065",
       "name": "Captain Cardinal",
       "caption": "Principled Instructor",
       "initiative": 4,
       "limited": 1,
-      "cost": 7,
-      "loadout": 12,
+      "cost": 16,
+      "loadout": 19,
       "xws": "captaincardinal",
       "ability": "While a friendly ship at range 1-2 with lower initiative than you defends or performs an attack, if you have at least 1 [Charge], that ship may reroll 1 [Focus] result. After an enemy ship at range 0-3 is destroyed, lose 1 [Charge].",
       "shipAbility": {
         "name": "Linked Battery",
         "text": "While you perform a [Cannon] attack, roll 1 additional die."
       },
-      "charges": { "value": 2, "recovers": 0 },
+      "charges": {
+        "value": 2,
+        "recovers": 0
+      },
       "slots": [
-        "Sensor",
-        "Talent",
         "Cannon",
+        "Sensor",
+        "Tech",
+        "Tech",
         "Crew",
         "Crew",
         "Crew",
         "Modification",
-        "Tech",
-        "Tech"
+        "Talent"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/captaincardinal.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captaincardinal.png",
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 282
+    },
+    {
+      "uid": "PFO0066",
+      "name": "Petty Officer Thanisson",
+      "caption": "Evacuation of D'Qar",
+      "initiative": 1,
+      "limited": 1,
+      "cost": 16,
+      "loadout": 0,
+      "xws": "pettyofficerthanisson-evacuationofdqar",
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "ability": "During the Activation or Engagement Phase, after a ship in your [Front Arc] at range 0-2 gains 1 deplete or strain token, you may spend 1[Charge]. If you do, that ship gains 1 stress token.",
+      "standardLoadout": [
+        "generalhux-evacuationofdqar",
+        "advancedsensors",
+        "interferencearray-evacuationofdqar"
+      ],
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/pettyofficerthanisson-evacuationofdqar.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/pettyofficerthanisson-evacuationofdqar.png",
+      "standard": true,
+      "extended": true,
+      "epic": true,
+      "slots": [],
+      "restricted": 0,
+      "id": 701
     }
   ]
 }

@@ -17,27 +17,63 @@
     "3FB",
     "4FR"
   ],
-  "dialCodes": ["GOZ-I"],
+  "dialCodes": [
+    "GOZ-I"
+  ],
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 11 },
-    { "type": "shields", "value": 5, "recovers": 1 },
-    { "type": "energy", "value": 3, "recovers": 1 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 11
+    },
+    {
+      "type": "shields",
+      "value": 5,
+      "recovers": 1
+    },
+    {
+      "type": "energy",
+      "value": 3,
+      "recovers": 1
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Coordinate" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Jam" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Coordinate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Jam"
+    }
   ],
   "pilots": [
     {
+      "uid": "PEM0081",
       "name": "Outer Rim Garrison",
       "initiative": 7,
-      "cost": 67,
-      "loadout": 0,
+      "cost": 26,
+      "loadout": 40,
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimgarrison.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/outerrimgarrison.png",
@@ -53,15 +89,75 @@
       "xws": "outerrimgarrison",
       "slots": [
         "Command",
-        "Hardpoint",
-        "Crew",
         "Crew",
         "Gunner",
+        "Cargo",
+        "Title",
+        "Hardpoint",
+        "Crew",
         "Team",
-        "Cargo",
-        "Cargo",
-        "Title"
-      ]
+        "Cargo"
+      ],
+      "restricted": 0,
+      "id": 373
+    },
+    {
+      "uid": "PEM0082",
+      "name": "Rik Virgilio",
+      "initiative": 7,
+      "engagement": 1,
+      "limited": 1,
+      "cost": 20,
+      "xws": "rikvirgilio-epicsl",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rikvirgilio-epicsl.png",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/rikvirgilio-epicsl.png",
+      "shipAbility": {
+        "name": "Docking Clamps",
+        "text": "You can dock up to 4 small ships."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Coordinate"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Coordinate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
+      ],
+      "text": "",
+      "standard": false,
+      "extended": false,
+      "epic": true,
+      "standardLoadout": [
+        "thrawn-epicsl",
+        "heavylasercannonturret-epicsl",
+        "bloodcrow-epicsl"
+      ],
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 685
     }
   ]
 }

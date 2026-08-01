@@ -21,69 +21,129 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": ["YT24"],
+  "dialCodes": [
+    "YT24"
+  ],
   "faction": "rebelalliance",
   "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 4 }
+    {
+      "arc": "Double Turret Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
-    { "difficulty": "White", "type": "Rotate Arc" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "type": "Rotate Arc"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_YT-2400.png",
   "pilots": [
     {
+      "uid": "PRB0430",
       "name": "“Leebo”",
       "caption": "Dry-Witted Droid",
       "initiative": 3,
       "limited": 1,
-      "cost": 8,
-      "loadout": 16,
+      "cost": 19,
+      "loadout": 19,
       "xws": "leebo",
       "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
       "image": "https://infinitearenas.com/xw2/images/pilots/leebo.png",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Barrel Roll" },
-        { "difficulty": "White", "type": "Rotate Arc" }
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
       ],
       "shipAbility": {
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
       },
-      "shipStats" : [
-        { "arc": "Double Turret Arc", "type": "attack", "value": 4 },
-        { "type": "agility", "value": 2 },
-        { "type": "hull", "value": 6 },
-        { "type": "shields", "value": 4 }
+      "shipStats": [
+        {
+          "arc": "Double Turret Arc",
+          "type": "attack",
+          "value": 4
+        },
+        {
+          "type": "agility",
+          "value": 2
+        },
+        {
+          "type": "hull",
+          "value": 6
+        },
+        {
+          "type": "shields",
+          "value": 4
+        }
       ],
       "slots": [
         "Talent",
-        "Missile",
+        "Crew",
+        "Gunner",
         "Illicit",
         "Illicit",
         "Modification",
-        "Title"
+        "Missile"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leebo.png",
       "standard": false,
       "extended": true,
-      "keywords": ["Droid", "Freighter"],
-      "epic": true
+      "keywords": [
+        "Droid",
+        "Freighter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 40
     },
     {
+      "uid": "PRB0431",
       "name": "Dash Rendar",
       "caption": "Hotshot Mercenary",
       "initiative": 5,
       "limited": 1,
-      "cost": 10,
-      "loadout": 22,
+      "cost": 19,
+      "loadout": 20,
       "xws": "dashrendar",
       "ability": "While you move, you ignore obstacles.",
       "image": "https://infinitearenas.com/xw2/images/pilots/dashrendar.png",
@@ -91,33 +151,51 @@
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
       },
-      "shipStats" : [
-        { "arc": "Double Turret Arc", "type": "attack", "value": 4 },
-        { "type": "agility", "value": 2 },
-        { "type": "hull", "value": 6 },
-        { "type": "shields", "value": 4 }
+      "shipStats": [
+        {
+          "arc": "Double Turret Arc",
+          "type": "attack",
+          "value": 4
+        },
+        {
+          "type": "agility",
+          "value": 2
+        },
+        {
+          "type": "hull",
+          "value": 6
+        },
+        {
+          "type": "shields",
+          "value": 4
+        }
       ],
       "slots": [
         "Talent",
-        "Missile",
         "Crew",
+        "Gunner",
         "Illicit",
         "Illicit",
         "Modification",
-        "Title"
+        "Missile"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dashrendar.png",
       "standard": false,
       "extended": true,
-      "keywords": ["Freighter"],
-      "epic": true
+      "keywords": [
+        "Freighter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 39
     },
     {
+      "uid": "PRB0432",
       "name": "Wild Space Fringer",
       "initiative": 1,
       "limited": 0,
-      "cost": 8,
-      "loadout": 7,
+      "cost": 17,
+      "loadout": 14,
       "xws": "wildspacefringer",
       "text": "Although stock YT-2400 light freighters have plenty of room for cargo, that space is often annexed to support modified weapon systems and oversized engines.",
       "image": "https://infinitearenas.com/xw2/images/pilots/wildspacefringer.png",
@@ -125,129 +203,198 @@
         "name": "Sensor Blindspot",
         "text": "While you perform a primary attack at attack range 0-1, do not apply the range 0-1 bonus and roll 1 fewer attack die."
       },
-      "slots": ["Missile", "Illicit"],
+      "slots": [
+        "Crew",
+        "Illicit",
+        "Illicit",
+        "Modification",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wildspacefringer.png",
       "standard": false,
       "extended": true,
-      "keywords": ["Freighter"],
-      "epic": true
+      "keywords": [
+        "Freighter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 41
     },
     {
+      "uid": "PRB0433",
       "name": "“Leebo”",
       "caption": "Wisdom of Ages",
       "initiative": 3,
       "limited": 1,
-      "cost": 6,
-      "loadout": 16,
+      "cost": 16,
+      "loadout": 10,
       "xws": "leebo-swz103-rebelalliance",
       "ability": "After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token.",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Rotate Arc" },
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
           "type": "Lock"
         },
-        { "difficulty": "Red", "type": "Barrel Roll" },
-        { "difficulty": "White", "type": "Rotate Arc" }
+        {
+          "difficulty": "Red",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
       ],
       "shipAbility": {
-        "name": "Sensor Blindspot",
-        "text": "While you perform a primary attack at attack range 0-1, you roll 1 less attack die. While you defend at range 1, you roll 1 less defense die."
+        "name": "Sensor Blackout",
+        "text": "While you perform a primary attack at range 0-1, you roll 1 fewer attack die. While you defend at range 1, you roll 1 fewer defense die."
       },
       "slots": [
         "Talent",
-        "Missile",
+        "Crew",
+        "Gunner",
         "Illicit",
         "Illicit",
         "Modification",
+        "Missile",
         "Title"
       ],
       "artwork": "",
       "image": "https://infinitearenas.com/xw2/images/pilots/leebo-wisdomofages.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid", "Freighter"],
-      "epic": true
+      "keywords": [
+        "Droid",
+        "Freighter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 651
     },
     {
+      "uid": "PRB0434",
       "name": "Dash Rendar",
       "caption": "Freighter for Hire",
       "initiative": 5,
       "limited": 1,
-      "cost": 6,
-      "loadout": 20,
+      "cost": 18,
+      "loadout": 24,
       "xws": "dashrendar-swz103-rebelalliance",
       "ability": "During the Engagement Phase, you ignore the effects of obstacles that you are overlapping.",
       "shipAbility": {
-        "name": "Sensor Blindspot",
-        "text": "While you perform a primary attack at attack range 0-1, you roll 1 fewer attack die. While you defend at range 1, you roll 1 fewer defense die."
+        "name": "Sensor Blackout",
+        "text": "While you perform a primary attack at range 0-1, you roll 1 fewer attack die. While you defend at range 1, you roll 1 fewer defense die."
       },
       "slots": [
         "Talent",
-        "Missile",
         "Crew",
         "Illicit",
         "Illicit",
+        "Gunner",
         "Modification",
+        "Missile",
         "Title"
       ],
       "artwork": "",
       "image": "https://infinitearenas.com/xw2/images/pilots/dashrendar-freighterforhire.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter"],
-      "epic": true
+      "keywords": [
+        "Freighter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 648
     },
     {
+      "uid": "PRB0435",
       "name": "“Leebo”",
       "caption": "He Thinks He's Funny",
       "initiative": 3,
       "limited": 1,
-      "cost": 6,
+      "cost": 15,
       "xws": "leebo-swz103-sl-rebelalliance",
       "ability": "At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3.",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
         {
           "difficulty": "White",
-          "linked": { "difficulty": "Red", "type": "Rotate Arc" },
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Rotate Arc"
+          },
           "type": "Lock"
         },
-        { "difficulty": "Red", "type": "Barrel Roll" },
-        { "difficulty": "White", "type": "Rotate Arc" }
+        {
+          "difficulty": "Red",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
       ],
       "shipAbility": {
-        "name": "Sensor Blindspot",
-        "text": "While you perform a primary attack at attack range 0-1, you roll 1 fewer die. While you defend at range 1, you roll 1 fewer defense die."
+        "name": "Sensor Blackout",
+        "text": "While you perform a primary attack at range 0-1, you roll 1 fewer attack die. While you defend at range 1, you roll 1 fewer defense die."
       },
-      "standardLoadout": ["efficientprocessing-swz103", "seekermissiles-swz103", "outrider"],
+      "standardLoadout": [
+        "efficientprocessing-swz103",
+        "seekermissiles-swz103",
+        "outrider"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leebo.png",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/leebo-hethinkshesfunny-rebelalliance.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid", "Freighter"],
-      "epic": true
+      "keywords": [
+        "Droid",
+        "Freighter"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 652
     },
     {
+      "uid": "PRB0436",
       "name": "Dash Rendar",
       "caption": "In it for Himself",
       "initiative": 5,
       "limited": 1,
-      "cost": 7,
+      "cost": 16,
       "xws": "dashrendar-swz103-sl-rebelalliance",
       "ability": "After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1.",
       "shipAbility": {
-        "name": "Sensor Blindspot",
-        "text": "While you perform a primary attack at attack range 0-1, you roll 1 fewer die. While you defend at range 1, you roll 1 fewer defense die."
+        "name": "Sensor Blackout",
+        "text": "While you perform a primary attack at range 0-1, you roll 1 fewer attack die. While you defend at range 1, you roll 1 fewer defense die."
       },
-      "standardLoadout": ["mercenary-swz103", "seekermissiles-swz103", "leebo-swz103", "outrider"],
+      "standardLoadout": [
+        "mercenary-swz103",
+        "seekermissiles-swz103",
+        "leebo-swz103",
+        "outrider"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dashrendar.png",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/dashrendar-initforhimself-rebelalliance.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid", "Freighter"],
-      "epic": true
+      "keywords": [
+        "Droid",
+        "Freighter"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 649
     }
   ]
 }

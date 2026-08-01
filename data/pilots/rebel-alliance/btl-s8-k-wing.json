@@ -15,30 +15,61 @@
     "3FW",
     "3NW"
   ],
-  "dialCodes": ["KW"],
+  "dialCodes": [
+    "KW"
+  ],
   "faction": "rebelalliance",
   "stats": [
-    { "arc": "Double Turret Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Double Turret Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "SLAM" },
-    { "difficulty": "White", "type": "Rotate Arc" },
-    { "difficulty": "White", "type": "Reload" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "SLAM"
+    },
+    {
+      "difficulty": "White",
+      "type": "Rotate Arc"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reload"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_K-wing.png",
   "pilots": [
     {
+      "uid": "PRB0336",
       "name": "Esege Tuketu",
       "caption": "Selfless Hero",
       "initiative": 3,
       "limited": 1,
-      "cost": 5,
-      "loadout": 16,
+      "cost": 12,
+      "loadout": 14,
       "xws": "esegetuketu",
       "ability": "While a friendly ship at range 0-2 defends or performs an attack, it may spend your focus tokens as if that ship has them.",
       "image": "https://infinitearenas.com/xw2/images/pilots/esegetuketu.png",
@@ -46,54 +77,74 @@
         "Torpedo",
         "Missile",
         "Missile",
-        "Crew",
-        "Device",
+        "Payload",
+        "Payload",
         "Modification",
-        "Gunner"
+        "Gunner",
+        "Crew"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/esegetuketu.png",
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 18
     },
     {
+      "uid": "PRB0337",
       "name": "Miranda Doni",
       "caption": "Heavy Hitter",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
-      "loadout": 14,
+      "cost": 12,
+      "loadout": 16,
       "xws": "mirandadoni",
       "ability": "While you perform a primary attack, you may either spend 1 shield to roll 1 additional attack die or, if you are not shielded, you may roll 1 fewer attack die to recover 1 shield.",
       "image": "https://infinitearenas.com/xw2/images/pilots/mirandadoni.png",
       "slots": [
         "Torpedo",
         "Missile",
-        "Crew",
-        "Device",
-        "Device",
+        "Missile",
+        "Payload",
+        "Payload",
         "Modification",
-        "Gunner"
+        "Gunner",
+        "Crew",
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/mirandadoni.png",
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 17
     },
     {
+      "uid": "PRB0338",
       "name": "Warden Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 5,
-      "loadout": 7,
+      "cost": 11,
+      "loadout": 12,
       "xws": "wardensquadronpilot",
       "text": "Koensayr Manufacturing's K-wing boasts an advanced SubLight Acceleration Motor and an unprecedented 18 hard points, granting it unrivaled speed and firepower.",
       "image": "https://infinitearenas.com/xw2/images/pilots/wardensquadronpilot.png",
-      "slots": ["Torpedo", "Missile", "Device", "Device", "Gunner"],
+      "slots": [
+        "Torpedo",
+        "Missile",
+        "Missile",
+        "Payload",
+        "Payload",
+        "Modification",
+        "Gunner",
+        "Crew"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wardensquadronpilot.png",
       "standard": false,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 20
     }
   ]
 }

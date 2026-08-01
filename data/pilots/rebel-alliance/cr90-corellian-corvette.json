@@ -20,28 +20,68 @@
     "4FR",
     "5FR"
   ],
-  "dialCodes": ["CR90-REB"],
+  "dialCodes": [
+    "CR90-REB"
+  ],
   "stats": [
-    { "arc": "Left Arc", "type": "attack", "value": 4 },
-    { "arc": "Right Arc", "type": "attack", "value": 4 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 18 },
-    { "type": "shields", "value": 7, "recovers": 2 },
-    { "type": "energy", "value": 7, "recovers": 2 }
+    {
+      "arc": "Left Arc",
+      "type": "attack",
+      "value": 4
+    },
+    {
+      "arc": "Right Arc",
+      "type": "attack",
+      "value": 4
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 18
+    },
+    {
+      "type": "shields",
+      "value": 7,
+      "recovers": 2
+    },
+    {
+      "type": "energy",
+      "value": 7,
+      "recovers": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Coordinate" },
-    { "difficulty": "White", "type": "Jam" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Jam"
+    }
   ],
   "pilots": [
     {
+      "uid": "PRB0339",
       "name": "Alderaanian Guard",
       "initiative": 8,
-      "cost": 134,
-      "loadout": 0,
+      "cost": 36,
+      "loadout": 40,
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/alderaanianguard.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/alderaanianguard.png",
@@ -66,7 +106,66 @@
         "Team",
         "Cargo",
         "Title"
-      ]
+      ],
+      "restricted": 0,
+      "id": 368
+    },
+    {
+      "uid": "PRB0340",
+      "name": "Raymus Antilles",
+      "initiative": 8,
+      "engagement": 0,
+      "limited": 1,
+      "cost": 32,
+      "xws": "raymusantilles-epicsl-rebelalliance",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/raymusantilles-epicsl-rebelalliance.png",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/raymusantilles-epicsl-rebelalliance.png",
+      "shipAbility": {
+        "name": "Broadside Batteries",
+        "text": "You can acquire locks and perform primary attacks at range 1-4."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Coordinate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
+      ],
+      "text": "",
+      "standard": false,
+      "extended": false,
+      "epic": true,
+      "standardLoadout": [
+        "leiaorgana-epicsl",
+        "c3po-epicsl",
+        "r2d2-epicsl",
+        "turbolaserbattery-epicsl",
+        "tantiveiv-epicsl"
+      ],
+      "restricted": 0
     }
   ]
 }

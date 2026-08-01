@@ -19,101 +19,147 @@
     "3YR",
     "4KR"
   ],
-  "dialCodes": ["TPu"],
+  "dialCodes": [
+    "TPu"
+  ],
   "faction": "galacticempire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 6 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 6
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Lock" },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Lock"
+      },
       "type": "Boost"
     },
-    { "difficulty": "White", "type": "Reload" }
+    {
+      "difficulty": "White",
+      "type": "Reload"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEPunisher.png",
   "pilots": [
     {
+      "uid": "PEM0108",
       "name": "“Deathrain”",
       "caption": "Dexterous Bombardier",
       "initiative": 4,
       "limited": 1,
-      "cost": 6,
-      "loadout": 20,
+      "cost": 13,
+      "loadout": 24,
       "xws": "deathrain",
       "ability": "After you drop or launch a device, you may perform an action.",
       "image": "https://infinitearenas.com/xw2/images/pilots/deathrain.png",
       "slots": [
-        "Talent",
-        "Sensor",
-        "Torpedo",
         "Missile",
-        "Device",
-        "Device",
+        "Missile",
+        "Torpedo",
+        "Payload",
+        "Payload",
+        "Sensor",
         "Modification",
-        "Gunner"
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathrain.png",
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 192
     },
     {
+      "uid": "PEM0109",
       "name": "“Redline”",
       "caption": "Adrenaline Junkie",
       "initiative": 5,
       "limited": 1,
-      "cost": 7,
-      "loadout": 25,
+      "cost": 14,
+      "loadout": 20,
       "xws": "redline",
       "ability": "You can maintain up to 2 locks. After you perform an action, you may acquire a lock.",
       "slots": [
-        "Sensor",
+        "Missile",
+        "Missile",
         "Torpedo",
-        "Missile",
-        "Missile",
-        "Device",
+        "Payload",
+        "Payload",
+        "Sensor",
         "Modification",
-        "Modification",
-        "Gunner"
+        "Talent"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/redline.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redline.png",
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 191
     },
     {
+      "uid": "PEM0110",
       "name": "Cutlass Squadron Pilot",
       "initiative": 2,
       "limited": 0,
-      "cost": 5,
-      "loadout": 6,
+      "cost": 10,
+      "loadout": 14,
       "xws": "cutlasssquadronpilot",
       "text": "The TIE punisher's design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.",
       "image": "https://infinitearenas.com/xw2/images/pilots/cutlasssquadronpilot.png",
       "slots": [
-        "Sensor",
-        "Torpedo",
         "Missile",
-        "Device",
-        "Modification",
-        "Gunner"
+        "Missile",
+        "Torpedo",
+        "Payload",
+        "Payload",
+        "Sensor",
+        "Modification"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cutlasssquadronpilot.png",
       "standard": false,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 193
     }
   ]
 }

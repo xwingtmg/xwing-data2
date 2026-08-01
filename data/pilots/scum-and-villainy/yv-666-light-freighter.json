@@ -19,146 +19,235 @@
     "3YW",
     "4FW"
   ],
-  "dialCodes": ["YV6"],
+  "dialCodes": [
+    "YV6"
+  ],
   "faction": "scumandvillainy",
   "stats": [
-    { "arc": "Full Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 9 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Full Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 9
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Lock" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/scum-and-villainy/I_YV-666.png",
   "pilots": [
     {
+      "uid": "PSV0651",
       "name": "Bossk",
       "caption": "Fearsome Hunter",
       "initiative": 4,
       "limited": 1,
-      "cost": 6,
-      "loadout": 16,
+      "cost": 17,
+      "loadout": 21,
       "xws": "bossk",
       "ability": "While you perform a primary attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.",
       "image": "https://infinitearenas.com/xw2/images/pilots/bossk.png",
       "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
         "Crew",
         "Crew",
         "Illicit",
         "Modification",
+        "Cannon",
+        "Missile",
+        "Talent",
         "Title",
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bossk.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Bounty Hunter", "Freighter"],
-      "epic": true
+      "keywords": [
+        "Bounty Hunter",
+        "Freighter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 153
     },
     {
+      "uid": "PSV0652",
       "name": "Latts Razzi",
       "caption": "Martial Artist",
       "initiative": 3,
       "limited": 1,
-      "cost": 6,
-      "loadout": 22,
+      "cost": 15,
+      "loadout": 15,
       "xws": "lattsrazzi",
       "ability": "At the start of the Engagement Phase, you may choose a ship at range 1 and spend a lock you have on that ship. If you do, that ship gains 1 tractor token.",
       "image": "https://infinitearenas.com/xw2/images/pilots/lattsrazzi.png",
       "slots": [
-        "Talent",
-        "Cannon",
-        "Missile",
         "Crew",
         "Crew",
         "Illicit",
         "Modification",
+        "Cannon",
+        "Missile",
+        "Talent",
         "Title",
         "Gunner"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lattsrazzi.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Bounty Hunter", "Freighter"],
-      "epic": true
+      "keywords": [
+        "Bounty Hunter",
+        "Freighter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 154
     },
     {
+      "uid": "PSV0653",
       "name": "Moralo Eval",
       "caption": "Criminal Mastermind",
       "initiative": 4,
       "limited": 1,
-      "cost": 7,
-      "loadout": 20,
+      "cost": 15,
+      "loadout": 13,
       "xws": "moraloeval",
       "ability": "If you would flee, you may spend 1 [Charge]. If you do, place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of the edge of the play area that you fled from.",
       "image": "https://infinitearenas.com/xw2/images/pilots/moraloeval.png",
-      "charges": { "value": 2, "recovers": 0 },
+      "charges": {
+        "value": 2,
+        "recovers": 0
+      },
       "slots": [
+        "Crew",
+        "Crew",
+        "Illicit",
+        "Modification",
         "Talent",
-        "Cannon",
-        "Missile",
+        "Gunner"
+      ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/moraloeval.png",
+      "standard": true,
+      "extended": true,
+      "keywords": [
+        "Freighter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 152
+    },
+    {
+      "uid": "PSV0654",
+      "name": "Trandoshan Slaver",
+      "initiative": 2,
+      "limited": 0,
+      "cost": 14,
+      "loadout": 9,
+      "xws": "trandoshanslaver",
+      "text": "The spacious triple-decker design of the YV-666 makes it popular among bounty hunters and slavers, who often retrofit an entire deck for prisoner transport.",
+      "image": "https://infinitearenas.com/xw2/images/pilots/trandoshanslaver.png",
+      "slots": [
         "Crew",
         "Crew",
         "Illicit",
         "Modification",
         "Gunner"
       ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/moraloeval.png",
-      "standard": true,
-      "extended": true,
-      "keywords": ["Freighter"],
-      "epic": true
-    },
-    {
-      "name": "Trandoshan Slaver",
-      "initiative": 2,
-      "limited": 0,
-      "cost": 6,
-      "loadout": 6,
-      "xws": "trandoshanslaver",
-      "text": "The spacious triple-decker design of the YV-666 makes it popular among bounty hunters and slavers, who often retrofit an entire deck for prisoner transport.",
-      "image": "https://infinitearenas.com/xw2/images/pilots/trandoshanslaver.png",
-      "slots": ["Cannon", "Missile", "Modification"],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/trandoshanslaver.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter"],
-      "epic": true
+      "keywords": [
+        "Freighter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 155
     },
     {
+      "uid": "PSV0655",
       "name": "Doctor Aphra",
       "caption": "Professional Disaster Zone",
       "initiative": 3,
       "limited": 1,
-      "cost": 6,
+      "cost": 16,
       "loadout": 22,
       "xws": "doctoraphra",
       "ability": "Before you engage, you may spend 1 green token and 1 [Charge]. If you do, you may choose another ship at range 0-1 that is not stressed. The chosen ship gains 1 stress token.",
       "image": "https://infinitearenas.com/xw2/images/pilots/doctoraphra.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/doctoraphra.png",
-      "charges": { "value": 3, "recovers": 0 },
+      "charges": {
+        "value": 3,
+        "recovers": 0
+      },
       "slots": [
-        "Cannon",
-        "Missile",
         "Crew",
         "Crew",
-        "Gunner",
-        "Illicit",
         "Illicit",
         "Modification",
-        "Modification",
-        "Title"
+        "Talent",
+        "Gunner"
       ],
       "standard": true,
       "extended": true,
-      "keywords": ["Freighter"],
-      "epic": true
+      "keywords": [
+        "Freighter"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 612
+    },
+    {
+      "uid": "PSV0656",
+      "name": "Bossk",
+      "caption": "Armed and Dangerous",
+      "initiative": 4,
+      "limited": 1,
+      "cost": 15,
+      "loadout": 0,
+      "xws": "bossk-armedanddangerous",
+      "ability": "While you perform an attack, after the Neutralize Results step, you may spend 1 [Critical Hit] result to add 2 [Hit] results.",
+      "shipAbility": {
+        "name": "Imposing Behemoth",
+        "text": "While an enemy ship at range 0 defends, if you are reinforced and the defender is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token, that enemy ship rolls 1 fewer defense die."
+      },
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/bossk-armedanddangerous.png",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bossk-armedanddangerous.png",
+      "standard": true,
+      "extended": true,
+      "keywords": [
+        "Bounty Hunter",
+        "Freighter"
+      ],
+      "standardLoadout": [
+        "embo-armedanddangerous",
+        "contrabandcybernetics",
+        "houndstooth-armedanddangerous"
+      ],
+      "epic": true,
+      "slots": [],
+      "restricted": 0,
+      "id": 717
     }
   ]
 }

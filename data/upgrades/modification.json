@@ -1,5 +1,6 @@
 [
   {
+    "uid": "UGN1129",
     "name": "Ablative Plating",
     "limited": 0,
     "xws": "ablativeplating",
@@ -8,19 +9,35 @@
         "title": "Ablative Plating",
         "type": "Modification",
         "ability": "Before you would suffer damage from an obstacle or from a friendly bomb detonating, you may spend 1 [Charge]. If you do, prevent 1 damage.",
-        "slots": ["Modification"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Modification"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "image": "https://infinitearenas.com/xw2/images/upgrades/ablativeplating.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ablativeplating.png"
       }
     ],
-    "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Medium",
+          "Large"
+        ]
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1130",
     "name": "Advanced SLAM",
     "limited": 0,
     "xws": "advancedslam",
@@ -29,18 +46,66 @@
         "title": "Advanced SLAM",
         "type": "Modification",
         "ability": "After you perform a [SLAM] action, if you fully executed the maneuver, you may perform a white action on your action bar, treating that action as red.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/advancedslam.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/advancedslam.png"
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "action": { "type": "SLAM", "difficulty": "White" } }],
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "SLAM"
+        }
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1131",
+    "name": "Retrofitted Autothrusters",
+    "limited": 0,
+    "xws": "retrofittedautothrusters-legendsandrelics",
+    "sides": [
+      {
+        "title": "Retrofitted Autothrusters",
+        "type": "Modification",
+        "ability": "After you fully execute a speed 3 turn ([Turn Left] or [Turn Right]), bank ([Bank Left] or [Bank Right]), Tallon Roll ([Tallon Roll Left] or [Tallon Roll Right]), or Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuver, you may spend 1 [Charge] to perform a [Barrel Roll] action, even while stressed.",
+        "slots": [
+          "Modification"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "image": "https://infinitearenas.com/xw2/images/upgrades/retrofittedautothrusters-legendsandrelics.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/retrofittedautothrusters-legendsandrelics.png"
+      }
+    ],
+    "cost": {
+      "value": 6
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small"
+        ]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1132",
     "name": "Afterburners",
     "limited": 0,
     "xws": "afterburners",
@@ -49,19 +114,34 @@
         "title": "Afterburners",
         "type": "Modification",
         "ability": "After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.",
-        "slots": ["Modification"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Modification"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "image": "https://infinitearenas.com/xw2/images/upgrades/afterburners.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/afterburners.png"
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "sizes": ["Small"] }],
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small"
+        ]
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1133",
     "name": "Electronic Baffle",
     "limited": 0,
     "xws": "electronicbaffle",
@@ -70,17 +150,23 @@
         "title": "Electronic Baffle",
         "type": "Modification",
         "ability": "During the End Phase, you may suffer 1 [Hit] damage to remove 1 red token.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/electronicbaffle.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/electronicbaffle.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1134",
     "name": "Engine Upgrade",
     "limited": 0,
     "xws": "engineupgrade",
@@ -89,25 +175,46 @@
         "title": "Engine Upgrade",
         "type": "Modification",
         "text": "Large military forces such as the Galactic Empire have standardized engines, but individual pilots and small organizations often replace the power couplings, add thrusters, or use high-performance fuel to get extra push out of their engines.",
-        "slots": ["Modification"],
-        "actions": [{ "type": "Boost", "difficulty": "White" }],
+        "slots": [
+          "Modification"
+        ],
+        "actions": [
+          {
+            "type": "Boost",
+            "difficulty": "White"
+          }
+        ],
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Boost", "difficulty": "White" }
+            "value": {
+              "type": "Boost",
+              "difficulty": "White"
+            }
           }
         ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/engineupgrade.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/engineupgrade.png"
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "action": { "type": "Boost", "difficulty": "Red" } }],
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "Boost",
+          "difficulty": "Red"
+        }
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1135",
     "name": "Hull Upgrade",
     "limited": 0,
     "xws": "hullupgrade",
@@ -116,18 +223,30 @@
         "title": "Hull Upgrade",
         "type": "Modification",
         "text": "For those who cannot afford an enhanced shield generator, bolting additional plates onto the hull of a ship can serve as an adequate substitute.",
-        "slots": ["Modification"],
-        "grants": [{ "type": "stat", "value": "hull", "amount": 1 }],
+        "slots": [
+          "Modification"
+        ],
+        "grants": [
+          {
+            "type": "stat",
+            "value": "hull",
+            "amount": 1
+          }
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/hullupgrade.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/hullupgrade.png"
       }
     ],
-    "cost": { "value": 6 },
+    "cost": {
+      "value": 9
+    },
     "standard": false,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1136",
     "name": "Munitions Failsafe",
     "limited": 0,
     "xws": "munitionsfailsafe",
@@ -136,17 +255,23 @@
         "title": "Munitions Failsafe",
         "type": "Modification",
         "ability": "While you perform a [Torpedo] or [Missile] attack, after rolling attack dice, you may cancel all dice results to recover 1 [Charge] you spent as a cost for the attack.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/munitionsfailsafe.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/munitionsfailsafe.png"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 1
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1137",
     "name": "Shield Upgrade",
     "limited": 0,
     "xws": "shieldupgrade",
@@ -155,18 +280,30 @@
         "title": "Shield Upgrade",
         "type": "Modification",
         "text": "Deflector shields are a substantial line of defense on most starships beyond the lightest fighters. While enhancing a ship's shield capacity can be costly, all but the most confident or reckless pilots see the value in this sort of investment.",
-        "slots": ["Modification"],
-        "grants": [{ "type": "stat", "value": "shields", "amount": 1 }],
+        "slots": [
+          "Modification"
+        ],
+        "grants": [
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": 1
+          }
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/shieldupgrade.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/shieldupgrade.png"
       }
     ],
-    "cost": { "value": 8 },
+    "cost": {
+      "value": 10
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1138",
     "name": "Static Discharge Vanes",
     "limited": 0,
     "xws": "staticdischargevanes",
@@ -175,17 +312,23 @@
         "title": "Static Discharge Vanes",
         "type": "Modification",
         "ability": "Before you would gain 1 ion or jam token, if you are not stressed, you may choose another ship at range 0-1 and gain 1 stress token. If you do, the chosen ship gains that ion or jam token instead, then you suffer 1 [Hit] damage.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/staticdischargevanes.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/staticdischargevanes.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 12
+    },
     "standard": false,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1139",
     "name": "Stealth Device",
     "limited": 0,
     "xws": "stealthdevice",
@@ -194,18 +337,27 @@
         "title": "Stealth Device",
         "type": "Modification",
         "ability": "While you defend, if your [Charge] is active, roll 1 additional defense die. After you suffer damage, lose 1 [Charge].",
-        "slots": ["Modification"],
-        "charges": { "value": 1, "recovers": 0 },
+        "slots": [
+          "Modification"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "image": "https://infinitearenas.com/xw2/images/upgrades/stealthdevice.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/stealthdevice.png"
       }
     ],
-    "cost": { "value": 8 },
+    "cost": {
+      "value": 8
+    },
     "standard": false,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1140",
     "name": "Tactical Scrambler",
     "limited": 0,
     "xws": "tacticalscrambler",
@@ -214,18 +366,31 @@
         "title": "Tactical Scrambler",
         "type": "Modification",
         "ability": "While you obstruct an enemy ship's attack, the defender rolls 1 additional defense die.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/tacticalscrambler.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/tacticalscrambler.png"
       }
     ],
-    "cost": { "value": 2 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Medium",
+          "Large"
+        ]
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1141",
     "name": "Impervium Plating",
     "limited": 0,
     "xws": "imperviumplating",
@@ -234,19 +399,34 @@
         "title": "Impervium Plating",
         "type": "Modification",
         "ability": "Before you would be dealt a faceup Ship damage card, you may spend 1 [Charge] to discard it instead.",
-        "charges": { "value": 2, "recovers": 0 },
-        "slots": ["Modification"],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "slots": [
+          "Modification"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/imperviumplating.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/imperviumplating.png"
       }
     ],
-    "restrictions": [{ "ships": ["belbullab22starfighter"] }],
-    "cost": { "value": 2 },
+    "restrictions": [
+      {
+        "ships": [
+          "belbullab22starfighter"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGR1142",
     "name": "Synchronized Console",
     "xws": "synchronizedconsole",
     "limited": 0,
@@ -255,21 +435,36 @@
         "title": "Synchronized Console",
         "type": "Modification",
         "ability": "After you perform an attack, you may choose a friendly ship at range 1 or a friendly ship with the Synchronized Console upgrade at range 1-3 and spend a lock you have on the defender. If you do, the friendly ship you chose may acquire a lock on the defender.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/synchronizedconsole.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/synchronizedconsole.png"
       }
     ],
     "restrictions": [
-      { "factions": ["galacticrepublic"] },
-      { "action": { "type": "Lock", "difficulty": "White" } }
+      {
+        "factions": [
+          "galacticrepublic"
+        ]
+      },
+      {
+        "action": {
+          "type": "Lock",
+          "difficulty": "White"
+        }
+      }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1143",
     "name": "Spare Parts Canisters",
     "limited": 0,
     "xws": "sparepartscanisters",
@@ -278,19 +473,34 @@
         "title": "Spare Parts Canisters",
         "type": "Modification",
         "ability": "Action: Spend 1 [Charge] to recover 1 charge on one of your equipped [Astromech] upgrades. Action: Spend 1 [Charge] to drop 1 spare parts, then break all locks assigned to you.",
-        "charges": { "value": 1, "recovers": 0 },
-        "slots": ["Modification"],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
+        "slots": [
+          "Modification"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/sparepartscanisters.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/sparepartscanisters.png"
       }
     ],
-    "restrictions": [{ "equipped": ["Astromech"] }],
-    "cost": { "value": 3 },
+    "restrictions": [
+      {
+        "equipped": [
+          "Astromech"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 3
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1144",
     "name": "Delayed Fuses",
     "limited": 0,
     "xws": "delayedfuses",
@@ -299,34 +509,62 @@
         "title": "Delayed Fuses",
         "type": "Modification",
         "ability": "After you drop, launch, or place a bomb or mine, you may place 1 fuse marker on that device.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/delayedfuses.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/delayedfuses.png"
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1145",
     "name": "Angled Deflectors",
     "limited": 0,
     "xws": "angleddeflectors",
-    "cost": { "value": 4 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "cost": {
+      "value": 1
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small",
+          "Medium"
+        ]
+      },
+      {
+        "shields": [
+          "1 OR MORE"
+        ]
+      }
+    ],
     "sides": [
       {
         "text": "Starfighter shields often have manual overrides that allow them to be angled for increased front or rear protection. However, doing so leaves the ship exposed if the pilot's situational awareness falters.",
         "title": "Angled Deflectors",
         "type": "Modification",
-        "slots": ["Modification"],
-        "restrictions": [{ "sizes": ["Small", "Medium"] }],
+        "slots": [
+          "Modification"
+        ],
         "grants": [
-          { "type": "stat", "value": "shields", "amount": -1 },
+          {
+            "type": "stat",
+            "value": "shields",
+            "amount": -1
+          },
           {
             "type": "action",
-            "value": { "type": "Reinforce", "difficulty": "White" }
+            "value": {
+              "type": "Reinforce",
+              "difficulty": "White"
+            }
           }
         ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/angleddeflectors.png",
@@ -335,9 +573,11 @@
     ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1146",
     "name": "Targeting Computer",
     "limited": 0,
     "sides": [
@@ -346,23 +586,32 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/targetingcomputer.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/targetingcomputer.png",
         "text": "Targeting computers are standard features on many vessels, especially those designed to deliver ordnance. Some light starfighters and transport craft lack such weapons guidance, though it can be installed as an after-market modification.",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "type": "Modification",
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Lock", "difficulty": "White" }
+            "value": {
+              "type": "Lock",
+              "difficulty": "White"
+            }
           }
         ]
       }
     ],
-    "cost": { "value": 1 },
+    "cost": {
+      "value": 1
+    },
     "xws": "targetingcomputer",
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1147",
     "name": "Independent Calculations",
     "limited": 0,
     "xws": "independentcalculations",
@@ -371,21 +620,33 @@
         "ability": "Replace your Networked Calculations ship ability with the following: Independent Calculations: While you perform a white [Calculate] action, you may treat it as red to gain 1 additional calculate token. Other ships cannot spend your calculate tokens using the Networked Calculations ship ability.",
         "title": "Independent Calculations",
         "type": "Modification",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/independentcalculations.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/independentcalculations.png"
       }
     ],
     "restrictions": [
-      { "shipAbility": ["Networked Calculations"] },
-      { "standardized": true }
+      {
+        "shipAbility": [
+          "Networked Calculations"
+        ]
+      },
+      {
+        "standardized": true
+      }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 1
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1148",
     "name": "Overdrive Thruster",
     "limited": 1,
     "xws": "overdrivethruster",
@@ -394,17 +655,30 @@
         "ability": "While you perform a red [Boost], [Barrel Roll], or [SLAM] action, you must use a template of 1 speed higher, if able.",
         "title": "Overdrive Thruster",
         "type": "Modification",
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/overdrivethruster.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/overdrivethruster.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 5
+    },
+    "restrictions": [
+      {
+        "ships": [
+          "t70xwing"
+        ]
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1149",
     "name": "Precision Ion Engines",
     "limited": 0,
     "xws": "precisionionengines",
@@ -413,18 +687,27 @@
         "ability": "Before you execute a speed 1-3 Koiogran Turn ([Koiogran Turn]) maneuver, you may spend 1 [Charge] to execute that maneuver as a Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuver instead.",
         "title": "Precision Ion Engines",
         "type": "Modification",
-        "slots": ["Modification"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Modification"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "image": "https://infinitearenas.com/xw2/images/upgrades/precisionionengines.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/precisionionengines.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 1
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1150",
     "name": "Mandalorian Optics",
     "limited": 0,
     "xws": "mandalorianoptics",
@@ -433,18 +716,34 @@
         "ability": "During the System Phase, you may spend 1 [Charge] to acquire a lock on an object in your [Front Arc]. While you perform a primary attack, if you have a lock on the defender, ignore obstacles beyond range 0 obstructing the attack.",
         "title": "Mandalorian Optics",
         "type": "Modification",
-        "slots": ["Modification"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Modification"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "image": "https://infinitearenas.com/xw2/images/upgrades/mandalorianoptics.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/mandalorianoptics.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "keywords": [
+          "Mandalorian"
+        ]
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1151",
     "name": "Drop-Seat bay",
     "limited": 0,
     "xws": "dropseatbay",
@@ -454,21 +753,41 @@
         "title": "Drop-Seat bay",
         "type": "Modification",
         "grants": [
-          { "type": "slot", "value": "Crew", "amount": 2 },
-          { "type": "slot", "value": "Device", "amount": -1 }
+          {
+            "type": "slot",
+            "value": "Crew",
+            "amount": 2
+          },
+          {
+            "type": "slot",
+            "value": "Device",
+            "amount": -1
+          }
         ],
-        "slots": ["Modification"],
+        "slots": [
+          "Modification"
+        ],
         "image": "https://infinitearenas.com/xw2/images/upgrades/dropseatbay.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/dropseatbay.png"
       }
     ],
-    "restrictions": [{ "ships": ["gauntletfighter"] }],
-    "cost": { "value": 5 },
+    "restrictions": [
+      {
+        "ships": [
+          "gauntletfighter"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 0
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1152",
     "name": "Beskar Reinforced Plating",
     "limited": 0,
     "xws": "beskarreinforcedplating",
@@ -477,18 +796,34 @@
         "ability": "While you defend, if the attacker is in your [Front Arc], before you would be dealt a faceup damage card, you may spend 1 [Charge] to be dealt that card facedown instead, or spend 2 [Charge] to discard it instead.",
         "title": "Beskar Reinforced Plating",
         "type": "Modification",
-        "slots": ["Modification"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Modification"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "image": "https://infinitearenas.com/xw2/images/upgrades/beskarreinforcedplating.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/beskarreinforcedplating.png"
       }
     ],
-    "cost": { "value": 3 },
+    "restrictions": [
+      {
+        "keywords": [
+          "Mandalorian"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 6
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USV1153",
     "name": "Burnout Thrusters",
     "limited": 0,
     "xws": "burnoutthrusters",
@@ -497,28 +832,49 @@
         "ability": "After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1 deplete token to remove 1 disarm token. If your [Charge] is inactive, you cannot perform the [SLAM] action.",
         "title": "Burnout Thrusters",
         "type": "Modification",
-        "slots": ["Modification"],
-        "charges": { "value": 1, "recovers": 0 },
+        "slots": [
+          "Modification"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "image": "https://infinitearenas.com/xw2/images/upgrades/burnoutthrusters.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/burnoutthrusters.png",
         "grants": [
           {
             "type": "action",
-            "value": { "type": "SLAM", "difficulty": "White" }
+            "value": {
+              "type": "SLAM",
+              "difficulty": "White"
+            }
           }
         ]
       }
     ],
     "restrictions": [
-      { "factions": ["scumandvillainy"] },
-      { "sizes": ["Small", "Medium"] }
+      {
+        "factions": [
+          "scumandvillainy"
+        ]
+      },
+      {
+        "sizes": [
+          "Small",
+          "Medium"
+        ]
+      }
     ],
-    "cost": { "value": 6 },
+    "cost": {
+      "value": 5
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1154",
     "name": "Unstable Sublight Engines",
     "limited": 0,
     "xws": "unstablesublightengines-battleofyavin",
@@ -527,15 +883,19 @@
         "ability": "After you are destroyed, you must execute a [1 [Straight]] maneuver, then each other ship at range 0-1 suffers 1 [Hit] damage.",
         "title": "Unstable Sublight Engines",
         "type": "Modification",
-        "slots": ["Modification"]
+        "slots": [
+          "Modification"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1155",
     "name": "Sensor Jammer",
     "limited": 0,
     "xws": "sensorjammer-battleofyavin",
@@ -544,15 +904,19 @@
         "ability": "While defending, if there is a friendly lock on the attacker, you may change 1 of the attacker's [Hit] results to a [Focus] result.",
         "title": "Sensor Jammer",
         "type": "Modification",
-        "slots": ["Modification"]
+        "slots": [
+          "Modification"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1156",
     "name": "Contingency Protocol",
     "limited": 0,
     "xws": "contingencyprotocol-siegeofcoruscant",
@@ -561,15 +925,19 @@
         "ability": "After this ship is destroyed, another friendly ship at range 0-3 with Contingency Protocol may perform an action, even while stressed.",
         "title": "Contingency Protocol",
         "type": "Modification",
-        "slots": ["Modification"]
+        "slots": [
+          "Modification"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1157",
     "name": "Evasion Sequence 7",
     "limited": 0,
     "xws": "evasionsequence7-siegeofcoruscant",
@@ -578,15 +946,19 @@
         "ability": "While you perform a red [Evade] action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead.",
         "title": "Evasion Sequence 7",
         "type": "Modification",
-        "slots": ["Modification"]
+        "slots": [
+          "Modification"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1158",
     "name": "Automated Loaders",
     "limited": 0,
     "xws": "automatedloaders-swz98",
@@ -595,34 +967,84 @@
         "ability": "After you perform a primary attack, you may spend 1 [Charge] to perform a [Reload] action.",
         "title": "Automated Loaders",
         "type": "Modification",
-        "slots": ["Modification"],
-        "charges": { "value": 1, "recovers": 0 }
+        "slots": [
+          "Modification"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        }
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1159",
+    "name": "Automated Loaders",
+    "limited": 0,
+    "xws": "automatedloaders-legendsandrelics",
+    "sides": [
+      {
+        "ability": "After you perform a primary attack, you may spend 1 [Charge] to perform a [Reload] action.",
+        "image": "https://infinitearenas.com/xw2xwa/images/upgrades/automatedloaders-legendsandrelics.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/automatedloaders-legendsandrelics.png",
+        "title": "Automated Loaders",
+        "type": "Modification",
+        "slots": [
+          "Modification"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        }
+      }
+    ],
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "action": {
+            "type": "Reload"
+        }
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1160",
     "name": "Computer-Assisted Handling",
     "limited": 0,
     "xws": "computerassistedhandling-battleoverendor",
     "sides": [
       {
         "title": "Computer-Assisted Handling",
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "type": "Modification",
         "ability": "After you fully execute a maneuver, you may spend 1 [Charge] to perform a [Boost] or [Barrel Roll] action.",
-        "slots": ["Modification"]
+        "slots": [
+          "Modification"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1161",
     "name": "Targeting Matrix",
     "limited": 0,
     "xws": "targetingmatrix-battleoverendor",
@@ -631,15 +1053,44 @@
         "title": "Targeting Matrix",
         "type": "Modification",
         "ability": "While attacking, you may spend 1 [Focus] result at the end of the Neutralize Results step. If you do, after the attack is resolved, the defender gains a strain token.",
-        "slots": ["Modification"]
+        "slots": [
+          "Modification"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1162",
+    "name": "Targeting Matrix",
+    "limited": 0,
+    "xws": "targetingmatrix-legendsandrelics",
+    "sides": [
+      {
+        "title": "Targeting Matrix",
+        "type": "Modification",
+        "ability": "While attacking, at the end of the Neutralize Results step, you may spend 1 [Focus] result. If you do, after the attack is resolved, the defender gains 1 strain token.",
+        "image": "https://infinitearenas.com/xw2xwa/images/upgrades/targetingmatrix-legendsandrelics.png",
+        "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/targetingmatrix-legendsandrelics.png",
+        "slots": [
+          "Modification"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 4
+    },
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1163",
     "name": "Chaff Particles",
     "limited": 0,
     "xws": "chaffparticles-battleoverendor",
@@ -648,15 +1099,19 @@
         "title": "Chaff Particles",
         "type": "Modification",
         "ability": "While defending, you may spend 1 [Focus] result at the end of the Neutralize Results step to remove 1 red or orange token.",
-        "slots": ["Modification"]
+        "slots": [
+          "Modification"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1164",
     "name": "Ion Maneuvering Jet",
     "limited": 0,
     "xws": "ionmaneuveringjet-battleoverendor",
@@ -664,17 +1119,24 @@
       {
         "title": "Ion Maneuvering Jet",
         "type": "Modification",
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "ability": "After you fully execute a Koiogran Turn ([Koiogran Turn]) maneuver, you may spend 1 [Charge] to perform an action, even while stressed.",
-        "slots": ["Modification"]
+        "slots": [
+          "Modification"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1165",
     "name": "Fuel Injection Override",
     "limited": 0,
     "xws": "fuelinjectionoverride-battleoverendor",
@@ -682,17 +1144,24 @@
       {
         "title": "Fuel Injection Override",
         "type": "Modification",
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "ability": "While you perform a [Boost] or [Barrel Roll] action, you may spend 1 [Charge] to use a template with a speed 1 higher instead.",
-        "slots": ["Modification"]
+        "slots": [
+          "Modification"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1166",
     "name": "Target-Assist Algorithm",
     "limited": 0,
     "xws": "targetassistalgorithm-battleoverendor",
@@ -701,15 +1170,19 @@
         "title": "Target-Assist Algorithm",
         "type": "Modification",
         "ability": "Before you engage, if you have no green tokens and there are 1 or more enemy objects in your [Front Arc], gain a calculate token.",
-        "slots": ["Modification"]
+        "slots": [
+          "Modification"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1167",
     "name": "Stygium Reserve",
     "limited": 0,
     "xws": "stygiumreserve-tiephphantom",
@@ -717,17 +1190,24 @@
       {
         "title": "Stygium Reserve",
         "type": "Modification",
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "ability": "After you fully execute a maneuver, you may spend 1 [Charge] to perform a [Boost] action, even while stressed.",
-        "slots": ["Modification"]
+        "slots": [
+          "Modification"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1168",
     "name": "Manual Ailerons",
     "limited": 0,
     "xws": "manualailerons-tiephphantom",
@@ -735,14 +1215,112 @@
       {
         "title": "Manual Ailerons",
         "type": "Modification",
-        "charges": { "value": 2, "recovers": 0 },
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "ability": "When you decloak, you may spend 1 [Charge] to use the [2 [Bank Left]] or [2 [Bank Right]] template instead of the [2 [Straight]] template.",
-        "slots": ["Modification"]
+        "slots": [
+          "Modification"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1169",
+    "name": "Advanced Warning Systems",
+    "limited": 0,
+    "xws": "advancedwarningsystems-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Advanced Warning Systems",
+        "type": "Modification",
+        "ability": "After you are declared the defender of an attack, if a friendly ship at range 0-2 has a lock on the attacker, you may perform a red [Evade] action.",
+        "slots": [
+          "Modification"
+        ]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1170",
+    "name": "Adaptable Power Systems",
+    "limited": 0,
+    "xws": "adaptablepowersystems-armedanddangerous",
+    "sides": [
+      {
+        "title": "Adaptable Power Systems",
+        "type": "Modification",
+        "ability": "After you fully execute a red maneuver or perform a red action, you may spend 1 [Charge]. If you do, you may gain 1 deplete token to remove 1 stress token.\n\nBefore you engage, you may spend 1 [Charge]. If you do, you may gain 1 strain token to remove 1 deplete token.",
+        "slots": [
+          "Modification"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        }
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1171",
+    "name": "Starboard Thrusters",
+    "limited": 0,
+    "xws": "starboardthrusters-armedanddangerous",
+    "sides": [
+      {
+        "title": "Starboard Thrusters",
+        "type": "Modification",
+        "ability": "After you reveal a turn [[Turn Left]] or Segnor's Loop [[Segnor's Loop Left]] maneuver,  you may spend 1 [Charge]. If you do, decrease the difficulty of that maneuver. After you execute a white Segnor's Loop [[Segnor's Loop Left]], gain 1 strain token.",
+        "slots": [
+          "Modification"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        }
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1172",
+    "name": "Repulsorlift Engines",
+    "limited": 0,
+    "xws": "repulsorliftengines-evacuationofdqar",
+    "sides": [
+      {
+        "title": "Repulsorlift Engines",
+        "type": "Modification",
+        "ability": "While you perform a [Barrel Roll] action, you may gain 1 strain token to use the [Bank Left] or [Bank Right] template instead of the [Straight] template.",
+        "slots": [
+          "Modification"
+        ]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "restricted": 0
   }
 ]

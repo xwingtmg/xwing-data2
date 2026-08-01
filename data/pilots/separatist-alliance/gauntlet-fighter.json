@@ -1,6 +1,7 @@
 {
   "name": "Gauntlet Fighter",
   "xws": "gauntletfighter",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_GauntletFighter.png",
   "size": "Large",
   "dial": [
     "0OR",
@@ -18,99 +19,152 @@
     "3YR",
     "4FW"
   ],
-  "dialCodes": ["GtF"],
+  "dialCodes": [
+    "GtF"
+  ],
   "faction": "separatistalliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Rear Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 9 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Rear Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 9
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "Red", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Coordinate" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    }
   ],
   "pilots": [
     {
+      "uid": "PSA0685",
       "xws": "bokatankryze-separatistalliance",
       "name": "Bo-Katan Kryze",
       "image": "https://infinitearenas.com/xw2/images/pilots/bokatankryze-separatist-alliance.png",
       "caption": "Vizsla's Lieutenant",
       "ability": "Before a friendly ship at range 0-2 activates, you may spend 1 [Charge]. If you do, that ship may gain 1 strain token to remove 1 non-stress red or orange token.",
-      "charges": { "value": 1, "recovers": 1 },
-      "cost": 6,
-      "loadout": 12,
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
+      "cost": 16,
+      "loadout": 20,
       "initiative": 4,
       "limited": 1,
       "standard": true,
       "extended": true,
       "epic": true,
       "slots": [
-        "Talent",
         "Crew",
         "Gunner",
-        "Device",
         "Illicit",
         "Modification",
         "Modification",
+        "Payload",
         "Configuration",
+        "Talent",
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bokatankryze-separatist-alliance.png",
-      "keywords": ["Mandalorian"]
+      "keywords": [
+        "Mandalorian"
+      ],
+      "restricted": 0,
+      "id": 509
     },
     {
+      "uid": "PSA0686",
       "xws": "previzsla",
       "name": "Pre Vizsla",
       "image": "https://infinitearenas.com/xw2/images/pilots/previzsla.png",
-      "cost": 6,
-      "loadout": 14,
+      "cost": 16,
+      "loadout": 16,
       "initiative": 3,
       "limited": 1,
       "ability": "While you perform an attack, if the defender's initiative is equal to or greater than yours, you may spend 2  to roll 1 additional die.",
-      "charges": { "value": 2, "recovers": 1 },
+      "charges": {
+        "value": 2,
+        "recovers": 1
+      },
       "standard": true,
       "extended": true,
       "epic": true,
       "slots": [
-        "Talent",
         "Crew",
         "Gunner",
-        "Device",
         "Illicit",
         "Modification",
-        "Configuration"
+        "Modification",
+        "Payload",
+        "Configuration",
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/previzsla.png",
-      "keywords": ["Mandalorian"],
-      "caption": "Leader of Death Watch"
+      "keywords": [
+        "Mandalorian"
+      ],
+      "caption": "Leader of Death Watch",
+      "restricted": 0,
+      "id": 507
     },
     {
+      "uid": "PSA0687",
       "xws": "deathwatchwarrior",
       "name": "Death Watch Warrior",
       "image": "https://infinitearenas.com/xw2/images/pilots/deathwatchwarrior.png",
-      "cost": 7,
-      "loadout": 10,
-      "initiative": 1,
+      "cost": 15,
+      "loadout": 18,
+      "initiative": 2,
       "limited": 0,
       "standard": true,
       "extended": true,
       "epic": true,
       "slots": [
-        "Talent",
         "Crew",
         "Gunner",
-        "Device",
         "Illicit",
         "Modification",
+        "Modification",
+        "Payload",
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deathwatchwarrior.png",
-      "keywords": ["Mandalorian"],
-      "caption": "Fanatical Adherent"
+      "keywords": [
+        "Mandalorian"
+      ],
+      "caption": "Fanatical Adherent",
+      "restricted": 0,
+      "id": 508
     }
   ]
 }

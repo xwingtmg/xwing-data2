@@ -20,38 +20,65 @@
     "4FR",
     "5FR"
   ],
-  "dialCodes": ["HMP"],
+  "dialCodes": [
+    "HMP"
+  ],
   "faction": "separatistalliance",
   "stats": [
-    { "arc": "Full Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 5 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Full Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 5
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Calculate" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
+    {
+      "difficulty": "White",
+      "type": "Calculate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
     {
       "difficulty": "White",
       "type": "Reload",
-      "linked": { "difficulty": "Red", "type": "Calculate" }
+      "linked": {
+        "difficulty": "Red",
+        "type": "Calculate"
+      }
     }
   ],
   "pilots": [
     {
+      "uid": "PSA0689",
       "name": "DGS-047",
       "xws": "dgs047",
       "caption": "Adaptive Intelligence",
       "initiative": 1,
-      "cost": 3,
+      "cost": 9,
       "loadout": 8,
       "slots": [
         "Missile",
         "Missile",
-        "Crew",
-        "Device",
         "Modification",
+        "Payload",
         "Configuration",
         "Tactical Relay"
       ],
@@ -65,16 +92,27 @@
       "ability": "After you perform an attack, if the defender is in your [Front Arc], you may acquire a lock on it. Then, if the defender is in your [Bullseye Arc], it gains 1 strain token.",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 409
     },
     {
+      "uid": "PSA0690",
       "name": "Baktoid Drone",
       "xws": "baktoiddrone",
       "initiative": 1,
-      "cost": 4,
-      "loadout": 8,
-      "slots": ["Missile", "Device", "Modification", "Configuration"],
+      "cost": 9,
+      "loadout": 7,
+      "slots": [
+        "Missile",
+        "Missile",
+        "Modification",
+        "Payload",
+        "Configuration"
+      ],
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/baktoiddrone.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/baktoiddrone.png",
@@ -85,24 +123,27 @@
       "text": "A late-war development for the Confederacy of Independent Systems, the droid gunship uses specialized repulsors to nimbly strafe targets and precisely drop battle droids.",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 405
     },
     {
+      "uid": "PSA0691",
       "name": "Geonosian Prototype",
       "xws": "geonosianprototype",
       "caption": "Devastation Protocols",
       "initiative": 2,
-      "cost": 4,
-      "loadout": 12,
+      "cost": 10,
+      "loadout": 13,
       "slots": [
-        "Cannon",
-        "Cannon",
-        "Missile",
-        "Missile",
         "Modification",
+        "Payload",
         "Configuration",
-        "Tactical Relay"
+        "Cannon",
+        "Cannon"
       ],
       "limited": 2,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/geonosianprototype.png",
@@ -114,24 +155,29 @@
       "ability": "While you perform a [Missile] or [Cannon] attack, you may remove 1 tractor token from the defender to reroll up to 2 attack dice.",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 408
     },
     {
+      "uid": "PSA0692",
       "name": "DGS-286",
       "xws": "dgs286",
       "caption": "Ambush Protocols",
       "initiative": 3,
-      "cost": 3,
-      "loadout": 7,
+      "cost": 10,
+      "loadout": 13,
       "slots": [
         "Missile",
         "Missile",
-        "Crew",
-        "Device",
         "Modification",
+        "Payload",
         "Configuration",
-        "Tactical Relay"
+        "Tactical Relay",
+        "Torpedo"
       ],
       "limited": 1,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/dgs286.png",
@@ -143,17 +189,28 @@
       "ability": "Before you engage, you may choose another friendly ship at range 0-1. That ship transfers 1 calculate token to you.",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 410
     },
     {
+      "uid": "PSA0693",
       "name": "Onderon Oppressor",
       "xws": "onderonoppressor",
       "caption": "Atmospheric Attack Module",
       "initiative": 3,
-      "cost": 4,
-      "loadout": 15,
-      "slots": ["Missile", "Missile", "Crew", "Device", "Modification", "Configuration"],
+      "cost": 9,
+      "loadout": 9,
+      "slots": [
+        "Missile",
+        "Missile",
+        "Modification",
+        "Payload",
+        "Configuration"
+      ],
       "limited": 2,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onderonoppressor.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/onderonoppressor.png",
@@ -164,10 +221,15 @@
       "ability": "After you barrel roll or sideslip, if you are stressed, gain 1 calculate token.",
       "standard": true,
       "extended": true,
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 411
     },
     {
+      "uid": "PSA0694",
       "name": "Separatist Predator",
       "initiative": 3,
       "limited": 0,
@@ -179,19 +241,23 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 9,
+      "cost": 10,
+      "loadout": 12,
       "slots": [
         "Missile",
         "Missile",
-        "Device",
         "Modification",
+        "Payload",
         "Configuration"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/separatistpredator.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/separatistpredator.png",
-      "keywords": ["Droid"],
-      "epic": true
+      "keywords": [
+        "Droid"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 407
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/separatist-alliance/I_HMP_Droid_Gunship.png"

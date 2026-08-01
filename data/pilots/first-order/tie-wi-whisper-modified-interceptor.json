@@ -22,36 +22,71 @@
     "5FB",
     "5KR"
   ],
-  "dialCodes": ["Twi"],
+  "dialCodes": [
+    "Twi"
+  ],
   "faction": "firstorder",
   "stats": [
-    { "arc": "Bullseye Arc", "type": "attack", "value": 3 },
-    { "arc": "Single Turret Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Bullseye Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Single Turret Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
     {
       "difficulty": "White",
-      "linked": { "difficulty": "White", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
       "type": "Focus"
     },
-    { "difficulty": "White", "type": "Evade" },
-    { "difficulty": "White", "type": "Lock" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "White", "type": "Rotate Arc" },
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
       "type": "Barrel Roll"
     },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "White", "type": "Rotate Arc" },
+      "linked": {
+        "difficulty": "White",
+        "type": "Rotate Arc"
+      },
       "type": "Boost"
     }
   ],
   "pilots": [
     {
+      "uid": "PFO0054",
       "name": "Kylo Ren",
       "xws": "kyloren-tiewiwhispermodifiedinterceptor",
       "initiative": 5,
@@ -62,27 +97,40 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 5,
-      "loadout": 14,
+      "cost": 14,
+      "loadout": 12,
       "slots": [
-        "Force Power",
-        "Force Power",
-        "Talent",
-        "Missile",
         "Tech",
         "Tech",
         "Modification",
-        "Configuration"
+        "Missile",
+        "Configuration",
+        "Force Power",
+        "Force Power"
       ],
       "ability": "Before an enemy ship in your [Bullseye Arc] is dealt a facedown damage card, you may spend 1 [Force]. If you do, that damage card is dealt faceup instead.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kyloren-tiewiwhispermodifiedinterceptor.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/kyloren-tiewiwhispermodifiedinterceptor.png",
       "caption": "Supreme Leader of the First Order",
-      "keywords": ["Dark Side", "Light Side", "TIE"],
-      "force": { "value": 3, "recovers": 1, "side": ["dark", "light"] },
-      "epic": true
+      "keywords": [
+        "Dark Side",
+        "Light Side",
+        "TIE"
+      ],
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": [
+          "dark",
+          "light"
+        ]
+      },
+      "epic": true,
+      "restricted": 0,
+      "id": 487
     },
     {
+      "uid": "PFO0055",
       "name": "“Wrath”",
       "xws": "wrath",
       "initiative": 5,
@@ -93,17 +141,30 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 5,
-      "loadout": 15,
-      "slots": ["Talent", "Talent", "Cannon", "Tech", "Tech", "Configuration"],
+      "cost": 12,
+      "loadout": 14,
+      "slots": [
+        "Gunner",
+        "Tech",
+        "Tech",
+        "Modification",
+        "Configuration",
+        "Talent",
+        "Cannon"
+      ],
       "ability": "After you perform a [Bullseye Arc] attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wrath.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/wrath.png",
       "caption": "Herald of Destruction",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 488
     },
     {
+      "uid": "PFO0056",
       "name": "“Nightfall”",
       "xws": "nightfall",
       "initiative": 4,
@@ -114,17 +175,30 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 10,
-      "slots": ["Talent", "Missile", "Tech", "Tech", "Configuration"],
+      "cost": 11,
+      "loadout": 11,
+      "slots": [
+        "Gunner",
+        "Tech",
+        "Tech",
+        "Modification",
+        "Missile",
+        "Configuration",
+        "Talent"
+      ],
       "ability": "After you fully execute a maneuver or perform a [Boost] action, each ship you moved through gains 2 jam tokens.",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/nightfall.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/nightfall.png",
       "caption": "709th Legion Veteran",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 489
     },
     {
+      "uid": "PFO0057",
       "name": "“Whirlwind”",
       "xws": "whirlwind",
       "initiative": 3,
@@ -135,17 +209,30 @@
       },
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 12,
-      "slots": ["Talent", "Talent", "Missile", "Tech", "Tech", "Configuration"],
+      "cost": 11,
+      "loadout": 13,
+      "slots": [
+        "Gunner",
+        "Tech",
+        "Tech",
+        "Modification",
+        "Missile",
+        "Configuration",
+        "Talent"
+      ],
       "ability": "Before you engage, you may remove any number of jam tokens, then you may gain 1 focus token for each enemy ship that has you in its [Front Arc].",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/whirlwind.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/whirlwind.png",
       "caption": "Reap What You Sow",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 490
     },
     {
+      "uid": "PFO0058",
       "name": "709th Legion Ace",
       "xws": "709thlegionace",
       "initiative": 4,
@@ -157,15 +244,28 @@
       "text": "Commanded by Supreme Leader Kylo Ren, the 709th Legion fights without mercy or remorse to crush the Resistance and bring the galaxy under the First Order's dominion.",
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 10,
-      "slots": ["Talent", "Missile", "Tech", "Tech", "Configuration"],
+      "cost": 10,
+      "loadout": 8,
+      "slots": [
+        "Gunner",
+        "Tech",
+        "Tech",
+        "Modification",
+        "Missile",
+        "Configuration",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/709thlegionace.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/709thlegionace.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 491
     },
     {
+      "uid": "PFO0059",
       "name": "Red Fury Zealot",
       "xws": "redfuryzealot",
       "initiative": 2,
@@ -177,14 +277,24 @@
       "text": "Also called Red Fury, the 709th Legion is charged by Supreme Leader Kylo Ren with rooting out dissenters at Black Spire Outpost.",
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 3,
-      "slots": ["Talent", "Tech", "Tech", "Configuration"],
+      "cost": 8,
+      "loadout": 5,
+      "slots": [
+        "Gunner",
+        "Tech",
+        "Tech",
+        "Modification",
+        "Missile"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redfuryzealot.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/redfuryzealot.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 492
     }
   ],
-  "icon": "???"
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/first-order/I_TIEWhisper.png"
 }

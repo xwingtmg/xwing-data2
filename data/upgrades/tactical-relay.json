@@ -1,5 +1,6 @@
 [
   {
+    "uid": "USA1183",
     "name": "Kraken",
     "limited": 1,
     "xws": "kraken",
@@ -9,26 +10,41 @@
         "type": "Tactical Relay",
         "ability": "During the End Phase, you may choose up to 3 friendly ships at range 0-3. If you do, each of these ships does not remove 1 calculate token.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/kraken.png",
-        "slots": ["Tactical Relay"],
+        "slots": [
+          "Tactical Relay"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/kraken.png",
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Calculate", "difficulty": "White" }
+            "value": {
+              "type": "Calculate",
+              "difficulty": "White"
+            }
           }
         ]
       }
     ],
     "restrictions": [
-      { "factions": ["separatistalliance"] },
-      { "solitary": true }
+      {
+        "factions": [
+          "separatistalliance"
+        ]
+      },
+      {
+        "solitary": true
+      }
     ],
-    "cost": { "value": 8 },
+    "cost": {
+      "value": 7
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USA1184",
     "name": "TV-94",
     "xws": "tv94",
     "limited": 1,
@@ -38,20 +54,32 @@
         "type": "Tactical Relay",
         "ability": "While a friendly ship at range 0-3 performs a primary attack against a defender in its [Bullseye Arc], if there are 2 or fewer attack dice, it may spend 1 calculate token to add 1 [Hit] result.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/tv94.png",
-        "slots": ["Tactical Relay"],
+        "slots": [
+          "Tactical Relay"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/tv94.png"
       }
     ],
     "restrictions": [
-      { "factions": ["separatistalliance"] },
-      { "solitary": true }
+      {
+        "factions": [
+          "separatistalliance"
+        ]
+      },
+      {
+        "solitary": true
+      }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USA1185",
     "name": "K2-B4",
     "xws": "k2b4",
     "limited": 1,
@@ -61,20 +89,32 @@
         "type": "Tactical Relay",
         "ability": "While a friendly ship at range 0-3 defends, it may spend 1 calculate token. If it does, add 1 [Evade] result unless the attacker chooses to gain 1 strain token.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/k2b4.png",
-        "slots": ["Tactical Relay"],
+        "slots": [
+          "Tactical Relay"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/k2b4.png"
       }
     ],
     "restrictions": [
-      { "factions": ["separatistalliance"] },
-      { "solitary": true }
+      {
+        "factions": [
+          "separatistalliance"
+        ]
+      },
+      {
+        "solitary": true
+      }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 4
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USA1186",
     "name": "TA-175",
     "xws": "ta175",
     "limited": 1,
@@ -84,43 +124,97 @@
         "type": "Tactical Relay",
         "ability": "After a friendly ship at range 0-3 with [Calculate] on its action bar is destroyed, each friendly ship at range 0-3 with [Calculate] in its action bar gains 1 calculate token.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/ta175.png",
-        "slots": ["Tactical Relay"],
+        "slots": [
+          "Tactical Relay"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/ta175.png"
       }
     ],
     "restrictions": [
-      { "factions": ["separatistalliance"] },
-      { "solitary": true }
+      {
+        "factions": [
+          "separatistalliance"
+        ]
+      },
+      {
+        "solitary": true
+      }
     ],
-    "cost": { "value": 6 },
+    "cost": {
+      "value": 5
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "USA1187",
     "sides": [
       {
         "title": "Kalani",
         "type": "Tactical Relay",
-        "slots": ["Tactical Relay"],
+        "slots": [
+          "Tactical Relay"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/kalani.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/kalani.png",
         "ability": "After an enemy ship executes a maneuver, if it is in the [Bullseye Arc] of a friendly ship at range 0-3, you may spend 1 [Charge]. If you do, that friendly ship acquires a lock on that enemy ship, then gains 1 stress token.",
-        "charges": { "value": 3, "recovers": 3 },
+        "charges": {
+          "value": 3,
+          "recovers": 3
+        },
         "grants": [
           {
             "type": "action",
-            "value": { "type": "Calculate", "difficulty": "White" }
+            "value": {
+              "type": "Calculate",
+              "difficulty": "White"
+            }
           }
         ]
       }
     ],
     "name": "Kalani",
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
+    "restrictions": [
+      {
+        "factions": [
+          "separatistalliance"
+        ]
+      },
+      {
+        "solitary": true
+      }
+    ],
     "limited": 1,
     "xws": "kalani",
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1188",
+    "name": "TX-25",
+    "limited": 1,
+    "xws": "tx25-epicsl",
+    "standard": false,
+    "extended": false,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "sides": [
+      {
+        "ability": "After a friendly ship at range 0-3 is destroyed, you may equip a Tactical Relay upgrade attached to that ship to this one.",
+        "title": "TX-25",
+        "type": "Tactical Relay",
+        "slots": [
+          "Tactical Relay"
+        ]
+      }
+    ],
+    "restricted": 0
   }
 ]

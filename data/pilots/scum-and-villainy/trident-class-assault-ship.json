@@ -20,27 +20,63 @@
     "4KR",
     "5FW"
   ],
-  "dialCodes": ["TAS"],
+  "dialCodes": [
+    "TAS"
+  ],
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 10 },
-    { "type": "shields", "value": 4, "recovers": 1 },
-    { "type": "energy", "value": 3, "recovers": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 10
+    },
+    {
+      "type": "shields",
+      "value": 4,
+      "recovers": 1
+    },
+    {
+      "type": "energy",
+      "value": 3,
+      "recovers": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "Red", "type": "Evade" },
-    { "difficulty": "Red", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Coordinate" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    }
   ],
   "pilots": [
     {
+      "uid": "PSV0647",
       "name": "Lawless Pirates",
       "initiative": 8,
-      "cost": 85,
-      "loadout": 0,
+      "cost": 26,
+      "loadout": 45,
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lawlesspirates.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/lawlesspirates.png",
@@ -65,7 +101,61 @@
         "Team",
         "Cargo",
         "Title"
-      ]
+      ],
+      "restricted": 0,
+      "id": 476
+    },
+    {
+      "uid": "PSV0648",
+      "name": "Sorc Tormo",
+      "caption": "Nautolan's Revenge",
+      "initiative": 8,
+      "engagement": 1,
+      "limited": 1,
+      "cost": 19,
+      "xws": "sorctormo-epicsl",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sorctormo-epicsl.png",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/sorctormo-epicsl.png",
+      "shipAbility": {
+        "name": "Tractor Grasp",
+        "text": "After you perform a Tractor Tentacles attack that hits, the defender gains 1 tractor token."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Evade"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Coordinate"
+        }
+      ],
+      "text": "",
+      "standard": false,
+      "extended": false,
+      "epic": true,
+      "standardLoadout": [
+        "caijvanda-epicsl",
+        "tractortentacles-epicsl",
+        "drillbeak-epicsl",
+        "nautolansrevenge-epicsl"
+      ],
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 691
     }
   ]
 }

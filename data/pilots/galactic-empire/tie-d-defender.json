@@ -22,30 +22,61 @@
     "4KW",
     "5FB"
   ],
-  "dialCodes": ["TD"],
+  "dialCodes": [
+    "TD"
+  ],
   "faction": "galacticempire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 4 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Evade" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Barrel Roll" },
-    { "difficulty": "White", "type": "Boost" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEDefender.png",
   "pilots": [
     {
+      "uid": "PEM0111",
       "name": "Colonel Vessery",
       "caption": "Contemplative Commander",
       "initiative": 4,
       "limited": 1,
-      "cost": 7,
-      "loadout": 10,
+      "cost": 16,
+      "loadout": 8,
       "xws": "colonelvessery",
       "ability": "While you perform an attack against a locked ship, after you roll attack dice, you may acquire a lock on the defender.",
       "image": "https://infinitearenas.com/xw2/images/pilots/colonelvessery.png",
@@ -53,20 +84,34 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+      "slots": [
+        "Talent",
+        "Cannon",
+        "Missile",
+        "Modification",
+        "Sensor",
+        "Configuration",
+        "Cannon",
+        "Tech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/colonelvessery.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 194
     },
     {
+      "uid": "PEM0112",
       "name": "Countess Ryad",
       "caption": "Cutthroat Politico",
       "initiative": 4,
       "limited": 1,
-      "cost": 7,
-      "loadout": 12,
+      "cost": 16,
+      "loadout": 11,
       "xws": "countessryad",
       "ability": "While you would execute a [Straight] maneuver, you may increase the difficulty of the maneuver. If you do, execute it as a [Koiogran Turn] maneuver instead.",
       "image": "https://infinitearenas.com/xw2/images/pilots/countessryad.png",
@@ -76,24 +121,31 @@
       },
       "slots": [
         "Talent",
-        "Sensor",
-        "Sensor",
         "Cannon",
         "Missile",
-        "Configuration"
+        "Modification",
+        "Sensor",
+        "Configuration",
+        "Modification",
+        "Tech"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countessryad.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 195
     },
     {
+      "uid": "PEM0113",
       "name": "Delta Squadron Pilot",
       "initiative": 1,
       "limited": 0,
-      "cost": 7,
-      "loadout": 4,
+      "cost": 15,
+      "loadout": 9,
       "xws": "deltasquadronpilot",
       "text": "In addition to its missile launchers and six wingtip laser cannons, the formidable TIE defender is equipped with deflector shields and a hyperdrive.",
       "image": "https://infinitearenas.com/xw2/images/pilots/deltasquadronpilot.png",
@@ -101,19 +153,31 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Sensor", "Cannon", "Configuration"],
+      "slots": [
+        "Cannon",
+        "Missile",
+        "Modification",
+        "Sensor",
+        "Configuration",
+        "Tech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/deltasquadronpilot.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 198
     },
     {
+      "uid": "PEM0114",
       "name": "Onyx Squadron Ace",
       "initiative": 4,
       "limited": 0,
-      "cost": 7,
-      "loadout": 6,
+      "cost": 16,
+      "loadout": 10,
       "xws": "onyxsquadronace",
       "text": "The experimental TIE defender outclasses all other contemporary starfighters, though its size, speed, and array of weapons come at a tremendous cost in credits.",
       "image": "https://infinitearenas.com/xw2/images/pilots/onyxsquadronace.png",
@@ -121,19 +185,32 @@
         "name": "Full Throttle",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action."
       },
-      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+      "slots": [
+        "Talent",
+        "Cannon",
+        "Missile",
+        "Modification",
+        "Sensor",
+        "Configuration",
+        "Tech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/onyxsquadronace.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 197
     },
     {
+      "uid": "PEM0115",
       "name": "Rexler Brath",
       "caption": "Onyx Leader",
       "initiative": 5,
       "limited": 1,
-      "cost": 7,
+      "cost": 18,
       "loadout": 13,
       "xws": "rexlerbrath",
       "ability": "After you perform an attack that hits, if you are evading, expose 1 of the defender's damage cards.",
@@ -144,19 +221,25 @@
       },
       "slots": [
         "Talent",
-        "Sensor",
         "Cannon",
         "Missile",
-        "Missile",
-        "Configuration"
+        "Modification",
+        "Sensor",
+        "Configuration",
+        "Tech"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/rexlerbrath.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 196
     },
     {
+      "uid": "PEM0116",
       "name": "Vult Skerris",
       "xws": "vultskerris",
       "initiative": 5,
@@ -168,24 +251,34 @@
       "caption": "Arrogant Ace",
       "standard": true,
       "extended": true,
-      "cost": 7,
-      "loadout": 13,
+      "cost": 15,
+      "loadout": 6,
       "slots": [
         "Talent",
-        "Talent",
-        "Sensor",
         "Cannon",
         "Missile",
-        "Configuration"
+        "Modification",
+        "Sensor",
+        "Configuration",
+        "Talent",
+        "Tech"
       ],
       "ability": "Action: Gain 1 strain token to recover 1 [Charge]. Before you engage, you may spend 1 [Charge] to perform an action.",
-      "charges": { "value": 1, "recovers": -1 },
-      "keywords": ["TIE"],
+      "charges": {
+        "value": 1,
+        "recovers": -1
+      },
+      "keywords": [
+        "TIE"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vultskerris.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/vultskerris.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 454
     },
     {
+      "uid": "PEM0117",
       "name": "Darth Vader",
       "xws": "darthvader-tieddefender",
       "initiative": 6,
@@ -197,17 +290,35 @@
       "caption": "Dark Lord of the Sith",
       "standard": true,
       "extended": true,
-      "force": { "value": 3, "recovers": 1 },
-      "cost": 9,
-      "loadout": 10,
-      "slots": ["Force Power", "Tech", "Cannon", "Missile", "Configuration"],
+      "force": {
+        "value": 3,
+        "recovers": 1
+      },
+      "cost": 22,
+      "loadout": 14,
+      "slots": [
+        "Cannon",
+        "Missile",
+        "Modification",
+        "Configuration",
+        "Force Power",
+        "Force Power",
+        "Tech"
+      ],
       "ability": "You cannot spend [Force] except while attacking. While you perform an attack, you may spend 1 [Force] to change 1 blank result to a [Hit] result.",
-      "keywords": ["Dark Side", "Sith", "TIE"],
+      "keywords": [
+        "Dark Side",
+        "Sith",
+        "TIE"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/darthvader-tieddefender.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/darthvader-tieddefender.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 469
     },
     {
+      "uid": "PEM0118",
       "name": "Captain Dobbs",
       "xws": "captaindobbs",
       "initiative": 3,
@@ -219,48 +330,93 @@
       "caption": "Reliable Replacement",
       "standard": true,
       "extended": true,
-      "cost": 7,
-      "loadout": 15,
-      "slots": ["Talent", "Sensor", "Cannon", "Missile", "Configuration"],
+      "cost": 15,
+      "loadout": 7,
+      "slots": [
+        "Talent",
+        "Cannon",
+        "Missile",
+        "Modification",
+        "Sensor",
+        "Configuration",
+        "Tech"
+      ],
       "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc and are not ionized, you may gain 1 ion token to cancel 1 [Hit] result.",
-      "keywords": ["TIE"],
+      "keywords": [
+        "TIE"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captaindobbs.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/captaindobbs.png",
-      "epic": true
+      "epic": true,
+      "restricted": 0,
+      "id": 470
     },
     {
+      "uid": "PEM0119",
       "name": "Captain Yorr",
       "caption": "Battle Over Endor",
       "initiative": 4,
       "limited": 1,
-      "cost": 6,
+      "cost": 16,
       "xws": "captainyorr-battleoverendor",
       "ability": "After you perform a primary attack that hits, you may spend 1 [Charge] to perform a bonus [Cannon] attack.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/captainyorr-battleoverendor.png",
-      "charges": { "value": 2, "recovers": 0 },
+      "charges": {
+        "value": 2,
+        "recovers": 0
+      },
       "shipAbility": {
         "name": "Chiss Engineering",
         "text": "After you fully execute a speed 3-5 maneuver, you may perform a [Lock] action. While attacking, if you are not stressed, you may spend 1 [Shield] to apply the range 1 bonus."
       },
       "shipActions": [
-        { "difficulty": "White", "type": "Focus" },
-        { "difficulty": "White", "type": "Evade", "linked": { "difficulty": "Red", "type": "Barrel Roll" }},
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Barrel Roll" },
-        { "difficulty": "White", "type": "Boost" }
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Evade",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost"
+        }
       ],
-      "standardLoadout": ["noescape-battleoverendor", "predator", "ioncannon", "computerassistedhandling-battleoverendor"],
+      "standardLoadout": [
+        "noescape-battleoverendor",
+        "predator",
+        "ioncannon",
+        "computerassistedhandling-battleoverendor"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/captainyorr-battleoverendor.png",
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 664
     },
     {
+      "uid": "PEM0120",
       "name": "Colonel Jendon",
       "caption": "Battle Over Endor",
       "initiative": 6,
       "limited": 1,
-      "cost": 7,
+      "cost": 20,
       "xws": "coloneljendon-battleoverendor",
       "ability": "While you defend, if you are not shielded, you may change 1 of your blank results to a [Focus] result.",
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/coloneljendon-battleoverendor.png",
@@ -269,17 +425,45 @@
         "text": "After you fully execute a speed 3-5 maneuver, you may perform a [Lock] action. While attacking, if you are not stressed, you may spend 1 [Shield] to apply the range 1 bonus."
       },
       "shipActions": [
-        { "difficulty": "White", "type": "Focus" },
-        { "difficulty": "White", "type": "Evade", "linked": { "difficulty": "Red", "type": "Barrel Roll" }},
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Barrel Roll" },
-        { "difficulty": "White", "type": "Boost" }
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Evade",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Barrel Roll"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost"
+        }
       ],
-      "standardLoadout": ["noescape-battleoverendor", "pushthelimit-battleoverendor", "protoncannons", "computerassistedhandling-battleoverendor"],
+      "standardLoadout": [
+        "noescape-battleoverendor",
+        "pushthelimit-battleoverendor",
+        "protoncannons",
+        "computerassistedhandling-battleoverendor"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/coloneljendon-battleoverendor.png",
       "standard": true,
       "extended": true,
-      "epic": true
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 665
     }
   ]
 }

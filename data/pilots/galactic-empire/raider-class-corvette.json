@@ -20,27 +20,63 @@
     "4FW",
     "5FR"
   ],
-  "dialCodes": ["RDR-I"],
+  "dialCodes": [
+    "RDR-I"
+  ],
   "stats": [
-    { "arc": "Full Front Arc", "type": "attack", "value": 4 },
-    { "type": "agility", "value": 0 },
-    { "type": "hull", "value": 20 },
-    { "type": "shields", "value": 8, "recovers": 2 },
-    { "type": "energy", "value": 6, "recovers": 2 }
+    {
+      "arc": "Full Front Arc",
+      "type": "attack",
+      "value": 4
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 20
+    },
+    {
+      "type": "shields",
+      "value": 8,
+      "recovers": 2
+    },
+    {
+      "type": "energy",
+      "value": 6,
+      "recovers": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Coordinate" },
-    { "difficulty": "White", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Jam" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Coordinate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Jam"
+    }
   ],
   "pilots": [
     {
+      "uid": "PEM0087",
       "name": "Outer Rim Patrol",
       "initiative": 8,
-      "cost": 134,
-      "loadout": 0,
+      "cost": 39,
+      "loadout": 50,
       "limited": 0,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/outerrimpatrol.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/outerrimpatrol.png",
@@ -56,8 +92,8 @@
       "xws": "outerrimpatrol",
       "slots": [
         "Command",
-        "Torpedo",
         "Missile",
+        "Torpedo",
         "Hardpoint",
         "Hardpoint",
         "Crew",
@@ -66,7 +102,69 @@
         "Team",
         "Cargo",
         "Title"
-      ]
+      ],
+      "restricted": 0,
+      "id": 369
+    },
+    {
+      "uid": "PEM0088",
+      "name": "Iden Versio",
+      "initiative": 8,
+      "engagement": 0,
+      "limited": 1,
+      "cost": 32,
+      "xws": "idenversio-epicsl",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/idenversio-epicsl.png",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/idenversio-epicsl.png",
+      "shipAbility": {
+        "name": "Concentrated Batteries",
+        "text": "While you perform a primary, [Torpedo], or [Missile] attack, if the defender is in your [Bullseye Arc], roll 1 additional die."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Coordinate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        }
+      ],
+      "text": "",
+      "standard": false,
+      "extended": false,
+      "epic": true,
+      "standardLoadout": [
+        "ruthless",
+        "fanatical-epicsl",
+        "infernosquad-epicsl",
+        "twinmissilelauncher-epicsl",
+        "corvus-epicsl"
+      ],
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 681
     }
   ]
 }

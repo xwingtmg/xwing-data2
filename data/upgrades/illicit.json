@@ -1,5 +1,6 @@
 [
   {
+    "uid": "UGN1095",
     "name": "Cloaking Device",
     "limited": 1,
     "xws": "cloakingdevice",
@@ -9,18 +10,34 @@
         "type": "Illicit",
         "ability": "Action: Spend 1 [Charge] to perform a [Cloak] action. At the start of the Planning Phase, roll 1 attack die. On a [Focus] result, decloak or discard your cloak token.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/cloakingdevice.png",
-        "slots": ["Illicit"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Illicit"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/cloakingdevice.png"
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "sizes": ["Small", "Medium"] }],
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Small",
+          "Medium"
+        ]
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1096",
     "name": "Contraband Cybernetics",
     "limited": 0,
     "xws": "contrabandcybernetics",
@@ -30,17 +47,26 @@
         "type": "Illicit",
         "ability": "Before you activate, you may spend 1 [Charge]. If you do, until the end of the round, you can perform actions and execute red maneuvers, even while stressed. This card's [Charge] cannot be recovered.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/contrabandcybernetics.png",
-        "slots": ["Illicit"],
-        "charges": { "value": 1, "recovers": 0 },
+        "slots": [
+          "Illicit"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/contrabandcybernetics.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 4
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1097",
     "name": "Deadman's Switch",
     "limited": 0,
     "xws": "deadmansswitch",
@@ -50,16 +76,22 @@
         "type": "Illicit",
         "ability": "After you are destroyed, each other ship at range 0-1 suffers 1 [Hit] damage.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/deadmansswitch.png",
-        "slots": ["Illicit"],
+        "slots": [
+          "Illicit"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/deadmansswitch.png"
       }
     ],
-    "cost": { "value": 2 },
+    "cost": {
+      "value": 2
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1098",
     "name": "Feedback Array",
     "limited": 0,
     "xws": "feedbackarray",
@@ -69,16 +101,22 @@
         "type": "Illicit",
         "ability": "Before you engage, you may gain 1 ion token and 1 disarm token. If you do, each ship at range 0 suffers 1 [Hit] damage.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/feedbackarray.png",
-        "slots": ["Illicit"],
+        "slots": [
+          "Illicit"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/feedbackarray.png"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 4
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1099",
     "name": "Inertial Dampeners",
     "limited": 0,
     "xws": "inertialdampeners",
@@ -88,16 +126,22 @@
         "type": "Illicit",
         "ability": "Before you would execute a maneuver, you may spend 1 shield. If you do, execute a white [0 [Stationary]] instead of the maneuver you revealed, then gain 1 stress token.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/inertialdampeners.png",
-        "slots": ["Illicit"],
+        "slots": [
+          "Illicit"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/inertialdampeners.png"
       }
     ],
-    "cost": { "value": 8 },
+    "cost": {
+      "value": 8
+    },
     "standard": false,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1100",
     "name": "Rigged Cargo Chute",
     "limited": 0,
     "xws": "riggedcargochute",
@@ -107,23 +151,39 @@
         "type": "Illicit",
         "ability": "Action: Spend 1 [Charge]. Drop 1 loose cargo using the [1 [Straight]] template.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/riggedcargochute.png",
-        "slots": ["Illicit"],
-        "charges": { "value": 1, "recovers": 0 },
+        "slots": [
+          "Illicit"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "device": {
           "name": "Loose Cargo",
           "type": "Obstacle",
-          "effect": "Loose cargo is a debris cloud."
+          "effect": "The ship is assigned one strain token. Roll one attack die. On a [Hit] or [Critical Hit] result, the ship is assigned one stress token."
         },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/riggedcargochute.png"
       }
     ],
-    "cost": { "value": 3 },
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Medium",
+          "Large"
+        ]
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1101",
     "name": "Coaxium Hyperfuel",
     "limited": 0,
     "xws": "coaxiumhyperfuel",
@@ -132,17 +192,30 @@
         "ability": "You can perform the [SLAM] action even while stressed. If you do, you suffer 1 [Critical Hit] damage unless you expose 1 of your damage cards. After you partially execute a maneuver, you may expose 1 of your damage cards or suffer 1 [Critical Hit] damage to perform a [SLAM] action.",
         "title": "Coaxium Hyperfuel",
         "type": "Illicit",
-        "slots": ["Illicit"],
+        "slots": [
+          "Illicit"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/coaxiumhyperfuel.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/coaxiumhyperfuel.png"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 2
+    },
+    "restrictions": [
+      {
+        "action": {
+          "type": "SLAM"
+        }
+      }
+    ],
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1102",
     "name": "Quick-Release Locks",
     "limited": 1,
     "xws": "quickreleaselocks",
@@ -154,15 +227,31 @@
         "ability": "During the System Phase, you may spend 1 [Charge] to drop 1 cargo crate drift in your [Rear Arc] at range 0. It cannot overlap a ship this way.. This card's [Charge] cannot be recovered.",
         "title": "Quick-Release Locks",
         "type": "Illicit",
-        "slots": ["Illicit"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Illicit"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/quickreleaselocks.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/quickreleaselocks.png"
       }
     ],
-    "cost": { "value": 5 }
+    "restrictions": [
+      {
+        "sizes": [
+          "Huge"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 5
+    },
+    "restricted": 0
   },
   {
+    "uid": "UGN1103",
     "name": "Saboteur's Map",
     "limited": 1,
     "xws": "saboteursmap",
@@ -174,14 +263,27 @@
         "ability": "At the end of Setup, you may spend up to 1 [Charge] from each of your equipped Mine upgrades to place the corresponding device in the play area beyond range 2 of any enemy ship, strategic marker, or other device.",
         "title": "Saboteur's Map",
         "type": "Illicit",
-        "slots": ["Illicit"],
+        "slots": [
+          "Illicit"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/saboteursmap.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/saboteursmap.png"
       }
     ],
-    "cost": { "value": 3 }
+    "restrictions": [
+      {
+        "sizes": [
+          "Huge"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 3
+    },
+    "restricted": 0
   },
   {
+    "uid": "UGN1104",
     "name": "Scanner Baffler",
     "limited": 1,
     "xws": "scannerbaffler",
@@ -193,14 +295,27 @@
         "ability": "At the end of Setup, you may choose any number of other friendly, non-huge ships in your deployment area at range 0-1. If you do, place those ships anywhere in the same deployment area.",
         "title": "Scanner Baffler",
         "type": "Illicit",
-        "slots": ["Illicit"],
+        "slots": [
+          "Illicit"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/scannerbaffler.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/scannerbaffler.png"
       }
     ],
-    "cost": { "value": 8 }
+    "restrictions": [
+      {
+        "sizes": [
+          "Huge"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 8
+    },
+    "restricted": 0
   },
   {
+    "uid": "UGN1105",
     "name": "False Transponder Codes",
     "limited": 0,
     "xws": "falsetranspondercodes",
@@ -209,18 +324,27 @@
         "ability": "After you acquire a lock on an object or an object acquires a lock on you, if you have 1 active [Charge], lose 1 [Charge] and jam that object, ignoring range restrictions.",
         "title": "False Transponder Codes",
         "type": "Illicit",
-        "slots": ["Illicit"],
-        "charges": { "value": 1, "recovers": 0 },
+        "slots": [
+          "Illicit"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/falsetranspondercodes.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/falsetranspondercodes.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 5
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 3
   },
   {
+    "uid": "URE1106",
     "name": "Babu Frik",
     "limited": 1,
     "xws": "babufrik",
@@ -229,19 +353,35 @@
         "ability": "Before you would gain a non-lock red or orange token, you may spend 1 [Charge] to place it on this card instead. During the System Phase, if there are 1 or more tokens on this card, you must spend 1 [Charge]. If you cannot, remove those tokens and gain matching tokens.",
         "title": "Babu Frik",
         "type": "Illicit",
-        "slots": ["Illicit"],
-        "charges": { "value": 3, "recovers": 0 },
+        "slots": [
+          "Illicit"
+        ],
+        "charges": {
+          "value": 3,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/babufrik.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/babufrik.png"
       }
     ],
-    "restrictions": [{ "factions": ["scumandvillainy", "resistance"] }],
-    "cost": { "value": 5 },
+    "restrictions": [
+      {
+        "factions": [
+          "resistance",
+          "scumandvillainy"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 5
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1107",
     "name": "Overtuned Modulators",
     "limited": 0,
     "xws": "overtunedmodulators",
@@ -250,18 +390,27 @@
         "ability": "During the System Phase, if you are not stressed, you may spend 1 [Charge] to gain 3 calculate tokens. During the End Phase, if your [Charge] is inactive, for each green token you remove, gain 1 strain token.",
         "title": "Overtuned Modulators",
         "type": "Illicit",
-        "slots": ["Illicit"],
-        "charges": { "value": 1, "recovers": 0 },
+        "slots": [
+          "Illicit"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/overtunedmodulators.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/overtunedmodulators.png"
       }
     ],
-    "cost": { "value": 3 },
+    "cost": {
+      "value": 3
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1108",
     "name": "Tracking Fob",
     "limited": 3,
     "xws": "trackingfob",
@@ -270,19 +419,33 @@
         "ability": "Setup: After placing forces, choose an opponent: they assign the Marked for Elimination condition to 1 of their ships. They must assign it to a limited ship, if able. You ignore range restrictions while acquiring locks on the ship with the Marked for Elimination condition.",
         "title": "Tracking Fob",
         "type": "Illicit",
-        "slots": ["Illicit"],
-        "conditions": ["markedforelimination"],
+        "slots": [
+          "Illicit"
+        ],
+        "conditions": [
+          "markedforelimination"
+        ],
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/trackingfob.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/trackingfob.png"
       }
     ],
-    "restrictions": [{ "keywords": ["Bounty Hunter"] }],
-    "cost": { "value": 3 },
+    "restrictions": [
+      {
+        "keywords": [
+          "Bounty Hunter"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 3
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1109",
     "name": "Hotshot Tail Blaster",
     "limited": 0,
     "xws": "hotshottailblaster",
@@ -291,8 +454,13 @@
         "ability": "This attack can be performed at range 0. Attack: Spend 1 [Charge].",
         "title": "Hotshot Tail Blaster",
         "type": "Illicit",
-        "slots": ["Illicit"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Illicit"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "attack": {
           "arc": "Rear Arc",
           "value": 2,
@@ -304,28 +472,70 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/hotshottailblaster.png"
       }
     ],
-    "restrictions": [{ "sizes": ["Medium", "Large"] }],
-    "cost": { "value": 2 },
+    "restrictions": [
+      {
+        "sizes": [
+          "Medium",
+          "Large"
+        ]
+      }
+    ],
+    "cost": {
+      "value": 1
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1110",
     "name": "Feedback Emitter",
     "limited": 0,
     "xws": "feedbackemitter-battleoverendor",
     "sides": [
       {
         "title": "Feedback Emitter",
-        "charges": { "value": 1, "recovers": 0 },
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "type": "Illicit",
         "ability": "After an object acquires a lock on you, you may spend 1 [Charge] to jam that object, ignoring range restrictions. This upgrade's [Charge] cannot be recovered.",
-        "slots": ["Illicit"]
+        "slots": [
+          "Illicit"
+        ]
       }
     ],
     "standard": true,
     "extended": true,
     "epic": true,
-    "standardLoadoutOnly": true
+    "standardLoadoutOnly": true,
+    "restricted": 0
+  },
+  {
+    "uid": "UGN1111",
+    "name": "Kineso-Switch",
+    "limited": 0,
+    "xws": "kinesoswitch-armedanddangerous",
+    "sides": [
+      {
+        "title": "Kineso-Switch",
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
+        "type": "Illicit",
+        "ability": "After you perform a [SLAM] action, if you fully executed the maneuver, you may spend 1 [Charge] to break all locks assigned to you.",
+        "slots": [
+          "Illicit"
+        ]
+      }
+    ],
+    "standard": true,
+    "extended": true,
+    "epic": true,
+    "standardLoadoutOnly": true,
+    "restricted": 0
   }
 ]

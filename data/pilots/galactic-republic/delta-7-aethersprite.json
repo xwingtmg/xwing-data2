@@ -22,24 +22,55 @@
     "5FW",
     "5KR"
   ],
-  "dialCodes": ["D7A"],
+  "dialCodes": [
+    "D7A"
+  ],
   "faction": "galacticrepublic",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 3 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 1 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 3
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "Purple", "type": "Evade" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Barrel Roll" },
-    { "difficulty": "White", "type": "Boost" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Purple",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "White",
+      "type": "Boost"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_Delta-7.png",
   "pilots": [
     {
+      "uid": "PGR0236",
       "name": "Jedi Knight",
       "initiative": 3,
       "limited": 0,
@@ -50,17 +81,35 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/jediknight.png",
-      "force": { "value": 1, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 1,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 3,
-      "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
+      "cost": 9,
+      "loadout": 6,
+      "slots": [
+        "Force Power",
+        "Configuration",
+        "Modification",
+        "Modification",
+        "Astromech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jediknight.png",
-      "keywords": ["Jedi", "Light Side"],
-      "epic": true
+      "keywords": [
+        "Jedi",
+        "Light Side"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 277
     },
     {
+      "uid": "PGR0237",
       "name": "Obi-Wan Kenobi",
       "caption": "Guardian of the Republic",
       "initiative": 5,
@@ -72,25 +121,36 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/obiwankenobi.png",
-      "force": { "value": 3, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "standard": true,
       "extended": true,
-      "cost": 5,
-      "loadout": 10,
+      "cost": 12,
+      "loadout": 8,
       "slots": [
+        "Force Power",
+        "Configuration",
+        "Modification",
+        "Modification",
         "Astromech",
-        "Modification",
-        "Modification",
-        "Force Power",
-        "Force Power",
-        "Talent",
-        "Configuration"
+        "Force Power"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/obiwankenobi.png",
-      "keywords": ["Jedi", "Light Side"],
-      "epic": true
+      "keywords": [
+        "Jedi",
+        "Light Side"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 278
     },
     {
+      "uid": "PGR0238",
       "name": "Plo Koon",
       "caption": "Serene Mentor",
       "initiative": 5,
@@ -102,23 +162,36 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/plokoon.png",
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "standard": true,
       "extended": true,
-      "cost": 5,
-      "loadout": 14,
+      "cost": 12,
+      "loadout": 8,
       "slots": [
-        "Astromech",
-        "Modification",
         "Force Power",
-        "Talent",
-        "Configuration"
+        "Configuration",
+        "Modification",
+        "Modification",
+        "Astromech",
+        "Force Power"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/plokoon.png",
-      "keywords": ["Jedi", "Light Side"],
-      "epic": true
+      "keywords": [
+        "Jedi",
+        "Light Side"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 312
     },
     {
+      "uid": "PGR0239",
       "name": "Saesee Tiin",
       "caption": "Prophetic Pilot",
       "initiative": 4,
@@ -130,17 +203,36 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/saeseetiin.png",
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "standard": false,
       "extended": true,
-      "cost": 4,
-      "loadout": 8,
-      "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
+      "cost": 10,
+      "loadout": 7,
+      "slots": [
+        "Force Power",
+        "Configuration",
+        "Modification",
+        "Modification",
+        "Astromech",
+        "Force Power"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/saeseetiin.png",
-      "keywords": ["Jedi", "Light Side"],
-      "epic": true
+      "keywords": [
+        "Jedi",
+        "Light Side"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 313
     },
     {
+      "uid": "PGR0240",
       "name": "Mace Windu",
       "caption": "Harsh Traditionalist",
       "initiative": 4,
@@ -152,22 +244,36 @@
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
       "image": "https://infinitearenas.com/xw2/images/pilots/macewindu.png",
-      "force": { "value": 3, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 7,
+      "cost": 10,
+      "loadout": 8,
       "slots": [
-        "Astromech",
-        "Modification",
         "Force Power",
+        "Configuration",
+        "Modification",
+        "Modification",
+        "Astromech",
         "Force Power"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/macewindu.png",
-      "keywords": ["Jedi", "Light Side"],
-      "epic": true
+      "keywords": [
+        "Jedi",
+        "Light Side"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 314
     },
     {
+      "uid": "PGR0241",
       "name": "Anakin Skywalker",
       "caption": "Hero of the Republic",
       "initiative": 6,
@@ -178,25 +284,37 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "force": { "value": 3, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "standard": true,
       "extended": true,
       "image": "https://infinitearenas.com/xw2/images/pilots/anakinskywalker.png",
-      "cost": 6,
-      "loadout": 10,
+      "cost": 13,
+      "loadout": 8,
       "slots": [
-        "Astromech",
+        "Force Power",
+        "Configuration",
         "Modification",
-        "Force Power",
-        "Force Power",
-        "Talent",
-        "Configuration"
+        "Modification",
+        "Astromech",
+        "Force Power"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker.png",
-      "keywords": ["Jedi", "Light Side"],
-      "epic": true
+      "keywords": [
+        "Jedi",
+        "Light Side"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 273
     },
     {
+      "uid": "PGR0242",
       "name": "Ahsoka Tano",
       "caption": "“Snips”",
       "initiative": 3,
@@ -207,18 +325,36 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "standard": true,
       "extended": true,
       "image": "https://infinitearenas.com/xw2/images/pilots/ahsokatano.png",
-      "cost": 4,
-      "loadout": 7,
-      "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
+      "cost": 10,
+      "loadout": 8,
+      "slots": [
+        "Force Power",
+        "Configuration",
+        "Modification",
+        "Modification",
+        "Astromech"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ahsokatano.png",
-      "keywords": ["Jedi", "Light Side"],
-      "epic": true
+      "keywords": [
+        "Jedi",
+        "Light Side"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 276
     },
     {
+      "uid": "PGR0243",
       "name": "Barriss Offee",
       "caption": "Conflicted Padawan",
       "initiative": 4,
@@ -229,23 +365,36 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "force": { "value": 1, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 1,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "standard": true,
       "extended": true,
       "image": "https://infinitearenas.com/xw2/images/pilots/barrissoffee.png",
-      "cost": 4,
-      "loadout": 9,
+      "cost": 10,
+      "loadout": 10,
       "slots": [
-        "Astromech",
-        "Modification",
         "Force Power",
-        "Configuration"
+        "Configuration",
+        "Modification",
+        "Modification",
+        "Astromech"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/barrissoffee.png",
-      "keywords": ["Jedi", "Light Side"],
-      "epic": true
+      "keywords": [
+        "Jedi",
+        "Light Side"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 275
     },
     {
+      "uid": "PGR0244",
       "name": "Luminara Unduli",
       "caption": "Wise Protector",
       "initiative": 4,
@@ -256,18 +405,37 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "standard": true,
       "extended": true,
       "image": "https://infinitearenas.com/xw2/images/pilots/luminaraunduli.png",
-      "cost": 4,
+      "cost": 10,
       "loadout": 7,
-      "slots": ["Astromech", "Modification", "Force Power", "Configuration"],
+      "slots": [
+        "Force Power",
+        "Configuration",
+        "Modification",
+        "Modification",
+        "Astromech",
+        "Force Power"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/luminaraunduli.png",
-      "keywords": ["Jedi", "Light Side"],
-      "epic": true
+      "keywords": [
+        "Jedi",
+        "Light Side"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 274
     },
     {
+      "uid": "PGR0245",
       "name": "Adi Gallia",
       "caption": "Shooting Star",
       "initiative": 5,
@@ -278,16 +446,34 @@
         "name": "Fine-tuned Controls",
         "text": "After you fully execute a maneuver, you may spend 1 [Force] to perform a [Boost] or [Barrel Roll] action."
       },
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "standard": true,
       "extended": true,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/adigallia.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/adigallia.png",
-      "cost": 5,
-      "loadout": 12,
-      "slots": ["Force Power", "Talent", "Astromech", "Configuration", "Modification"],
-      "keywords": ["Jedi", "Light Side"],
-      "epic": true
+      "cost": 12,
+      "loadout": 6,
+      "slots": [
+        "Force Power",
+        "Configuration",
+        "Modification",
+        "Modification",
+        "Astromech",
+        "Force Power"
+      ],
+      "keywords": [
+        "Jedi",
+        "Light Side"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 619
     }
   ]
 }

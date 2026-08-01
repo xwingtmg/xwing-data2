@@ -20,27 +20,49 @@
     "3FB",
     "3NW"
   ],
-  "dialCodes": ["TS"],
+  "dialCodes": [
+    "TS"
+  ],
   "faction": "galacticempire",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 4 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 4
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Evade" },
-    { "difficulty": "White", "type": "Barrel Roll" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_TIEStriker.png",
   "pilots": [
     {
+      "uid": "PEM0197",
       "name": "“Countdown”",
       "caption": "Death Defier",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 11,
+      "cost": 10,
+      "loadout": 12,
       "xws": "countdown",
       "ability": "While you defend, after the Neutralize Results step, if you are not stressed, you may suffer 1 [Hit] damage and gain 1 stress token. If you do, cancel all dice results.",
       "image": "https://infinitearenas.com/xw2/images/pilots/countdown.png",
@@ -48,20 +70,28 @@
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must boost."
       },
-      "slots": ["Talent", "Talent", "Device", "Modification", "Gunner"],
+      "slots": [
+        "Gunner",
+        "Payload"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/countdown.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 209
     },
     {
+      "uid": "PEM0198",
       "name": "“Duchess”",
       "caption": "Urbane Ace",
       "initiative": 5,
       "limited": 1,
-      "cost": 4,
-      "loadout": 7,
+      "cost": 11,
+      "loadout": 19,
       "xws": "duchess",
       "ability": "You may choose not to use your Adaptive Ailerons. You may use your Adaptive Ailerons even while stressed.",
       "image": "https://infinitearenas.com/xw2/images/pilots/duchess.png",
@@ -69,20 +99,31 @@
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must boost."
       },
-      "slots": ["Talent", "Talent", "Device", "Modification", "Gunner"],
+      "slots": [
+        "Gunner",
+        "Modification",
+        "Payload",
+        "Talent",
+        "Modification"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/duchess.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 211
     },
     {
+      "uid": "PEM0199",
       "name": "“Pure Sabacc”",
       "caption": "Confident Gambler",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 9,
+      "cost": 10,
+      "loadout": 13,
       "xws": "puresabacc",
       "ability": "While you perform an attack, if you have 1 or fewer damage cards, you may roll 1 additional attack die.",
       "image": "https://infinitearenas.com/xw2/images/pilots/puresabacc.png",
@@ -90,19 +131,29 @@
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must boost."
       },
-      "slots": ["Talent", "Device", "Modification", "Gunner"],
+      "slots": [
+        "Gunner",
+        "Modification",
+        "Payload",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/puresabacc.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 210
     },
     {
+      "uid": "PEM0200",
       "name": "Black Squadron Scout",
       "initiative": 3,
       "limited": 0,
-      "cost": 4,
-      "loadout": 5,
+      "cost": 9,
+      "loadout": 10,
       "xws": "blacksquadronscout",
       "text": "These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability.",
       "image": "https://infinitearenas.com/xw2/images/pilots/blacksquadronscout.png",
@@ -110,19 +161,29 @@
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must boost."
       },
-      "slots": ["Talent", "Device", "Gunner"],
+      "slots": [
+        "Gunner",
+        "Modification",
+        "Payload",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/blacksquadronscout.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 212
     },
     {
+      "uid": "PEM0201",
       "name": "Planetary Sentinel",
       "initiative": 1,
       "limited": 0,
-      "cost": 4,
-      "loadout": 4,
+      "cost": 8,
+      "loadout": 5,
       "xws": "planetarysentinel",
       "text": "To protect its many military installations, the Empire requires a swift and vigilant defense force.",
       "image": "https://infinitearenas.com/xw2/images/pilots/planetarysentinel.png",
@@ -130,14 +191,23 @@
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must boost."
       },
-      "slots": ["Device", "Modification", "Gunner"],
+      "slots": [
+        "Gunner",
+        "Modification",
+        "Payload"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/planetarysentinel.png",
       "standard": true,
       "extended": true,
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 213
     },
     {
+      "uid": "PEM0202",
       "name": "“Vagabond”",
       "xws": "vagabond",
       "initiative": 2,
@@ -149,14 +219,22 @@
       "caption": "Destitute Demolitionist",
       "standard": true,
       "extended": true,
-      "slots": ["Talent", "Gunner", "Device", "Device", "Modification"],
+      "slots": [
+        "Gunner",
+        "Modification",
+        "Payload"
+      ],
       "ability": "After you fully execute a maneuver using your Adaptive Ailerons, if you are not stressed, you may drop 1 device.",
-      "cost": 4,
-      "loadout": 12,
+      "cost": 9,
+      "loadout": 16,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/vagabond.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/vagabond.png",
-      "keywords": ["TIE"],
-      "epic": true
+      "keywords": [
+        "TIE"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 395
     }
   ]
 }

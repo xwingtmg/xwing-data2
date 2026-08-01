@@ -1,0 +1,127 @@
+{
+  "name": "Gozanti-class Cruiser",
+  "xws": "gozanticlasscruiser",
+  "faction": "Separatist Alliance",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-empire/I_Gozanti.png",
+  "size": "Huge",
+  "dial": [
+    "0BR",
+    "0OR",
+    "0NR",
+    "1BW",
+    "1NW",
+    "1FB",
+    "2BR",
+    "2NR",
+    "2FB",
+    "3FB",
+    "4FR"
+  ],
+  "dialCodes": [
+    "GOZ-I"
+  ],
+  "stats": [
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 0
+    },
+    {
+      "type": "hull",
+      "value": 11
+    },
+    {
+      "type": "shields",
+      "value": 5,
+      "recovers": 1
+    },
+    {
+      "type": "energy",
+      "value": 3,
+      "recovers": 1
+    }
+  ],
+  "actions": [
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Coordinate"
+    },
+    {
+      "difficulty": "White",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Jam"
+    }
+  ],
+  "pilots": [
+    {
+      "uid": "PSA0688",
+      "name": "Aut-O",
+      "caption": "Alpha Revue",
+      "initiative": 7,
+      "engagement": 1,
+      "limited": 1,
+      "cost": 20,
+      "xws": "aut0-epicsl",
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/auto-epicsl.png",
+      "image": "https://infinitearenas.com/xw2xwa/images/quickbuilds/auto-epicsl.png",
+      "shipAbility": {
+        "name": "Docking Clamps",
+        "text": "You can dock up to 4 small ships."
+      },
+      "shipActions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Coordinate"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Coordinate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
+        }
+      ],
+      "text": "",
+      "standard": false,
+      "extended": false,
+      "epic": true,
+      "standardLoadout": [
+        "tx25-epicsl",
+        "endlesshordes-epicsl",
+        "alpharevue-epicsl"
+      ],
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 683
+    }
+  ]
+}

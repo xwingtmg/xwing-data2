@@ -19,22 +19,50 @@
     "4FR",
     "4KR"
   ],
-  "dialCodes": ["YwB"],
+  "dialCodes": [
+    "YwB"
+  ],
   "faction": "galacticrepublic",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 1 },
-    { "type": "hull", "value": 5 },
-    { "type": "shields", "value": 3 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 1
+    },
+    {
+      "type": "hull",
+      "value": 5
+    },
+    {
+      "type": "shields",
+      "value": 3
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Barrel Roll" },
-    { "difficulty": "Red", "type": "Reload" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Barrel Roll"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reload"
+    }
   ],
   "pilots": [
     {
+      "uid": "PGR0216",
       "name": "Shadow Squadron Veteran",
       "initiative": 3,
       "limited": 0,
@@ -48,20 +76,27 @@
       "standard": true,
       "extended": true,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/shadowsquadronveteran.png",
-      "cost": 4,
-      "loadout": 4,
+      "cost": 9,
+      "loadout": 13,
       "slots": [
-        "Turret",
-        "Torpedo",
         "Astromech",
-        "Device",
+        "Gunner",
         "Modification",
-        "Gunner"
+        "Payload",
+        "Torpedo",
+        "Turret",
+        "Talent"
       ],
-      "keywords": ["Clone", "Y-wing"],
-      "epic": true
+      "keywords": [
+        "Clone",
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 360
     },
     {
+      "uid": "PGR0217",
       "name": "Anakin Skywalker",
       "initiative": 6,
       "limited": 1,
@@ -70,41 +105,67 @@
         "name": "Plated Hull",
         "text": "While you defend, if you are not critically damaged, change 1 [Critical Hit] result to a [Hit] result."
       },
-      "force": { "value": 3, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 3,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "standard": true,
       "extended": true,
       "caption": "Hero of the Republic",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/anakinskywalker-btlbywing.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/anakinskywalker-btlbywing.png",
       "ability": "After you fully execute a maneuver, if there is an enemy ship in your [Front Arc] at range 0-1 or in your [Bullseye Arc], you may spend 1 [Force] to remove 1 stress token.",
-      "cost": 6,
-      "loadout": 20,
+      "cost": 12,
+      "loadout": 14,
       "slots": [
-        "Turret",
-        "Torpedo",
         "Astromech",
-        "Device",
-        "Modification",
         "Gunner",
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret",
+        "Force Power",
         "Force Power"
       ],
-      "keywords": ["Jedi", "Light Side", "Y-wing"],
-      "epic": true
+      "keywords": [
+        "Jedi",
+        "Light Side",
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 359
     },
     {
+      "uid": "PGR0218",
       "name": "R2-D2",
       "xws": "r2d2",
       "caption": "Bucket of Bolts",
-      "cost": 3,
-      "loadout": 9,
+      "cost": 10,
+      "loadout": 20,
       "limited": 1,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/r2d2.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/r2d2.png",
       "shipActions": [
-        { "difficulty": "White", "type": "Calculate" },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "Red", "type": "Barrel Roll" },
-        { "difficulty": "Red", "type": "Reload" }
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Reload"
+        }
       ],
       "shipAbility": {
         "name": "Plated Hull",
@@ -114,19 +175,24 @@
       "standard": true,
       "extended": true,
       "slots": [
-        "Sensor",
-        "Turret",
+        "Gunner",
+        "Modification",
+        "Payload",
         "Torpedo",
-        "Crew",
-        "Device",
-        "Device",
-        "Modification"
+        "Turret",
+        "Crew"
       ],
       "initiative": 2,
-      "keywords": ["Droid", "Y-wing"],
-      "epic": true
+      "keywords": [
+        "Droid",
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 362
     },
     {
+      "uid": "PGR0219",
       "name": "“Odd Ball”",
       "xws": "oddball-btlbywing",
       "initiative": 5,
@@ -138,24 +204,30 @@
       "caption": "CC-2237",
       "standard": true,
       "extended": true,
-      "cost": 4,
-      "loadout": 18,
+      "cost": 11,
+      "loadout": 19,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/oddball-btlbywing.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/oddball-btlbywing.png",
       "ability": "After you fully execute a red maneuver or perform a red action, if there is an enemy ship in your [Bullseye Arc], you may acquire a lock on that ship.",
       "slots": [
-        "Talent",
-        "Turret",
-        "Torpedo",
-        "Torpedo",
         "Astromech",
+        "Gunner",
         "Modification",
-        "Gunner"
+        "Payload",
+        "Torpedo",
+        "Turret",
+        "Talent"
       ],
-      "keywords": ["Clone", "Y-wing"],
-      "epic": true
+      "keywords": [
+        "Clone",
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 366
     },
     {
+      "uid": "PGR0220",
       "name": "“Matchstick”",
       "xws": "matchstick",
       "initiative": 4,
@@ -170,19 +242,27 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/matchstick.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/matchstick.png",
       "ability": "While you perform a primary or [Single Turret Arc] attack, you may reroll 1 attack die for each red token you have.",
-      "cost": 3,
-      "loadout": 9,
+      "cost": 10,
+      "loadout": 13,
       "slots": [
-        "Talent",
-        "Turret",
         "Astromech",
-        "Device",
-        "Modification"
+        "Gunner",
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret",
+        "Talent"
       ],
-      "keywords": ["Clone", "Y-wing"],
-      "epic": true
+      "keywords": [
+        "Clone",
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 365
     },
     {
+      "uid": "PGR0221",
       "name": "“Broadside”",
       "xws": "broadside",
       "initiative": 3,
@@ -197,19 +277,26 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/broadside.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/broadside.png",
       "ability": "While you perform a [Single Turret Arc] attack, if your [Single Turret Arc] indicator is in your [Left Arc] or [Right Arc], you may change 1 blank result to a [Focus] result.",
-      "cost": 3,
+      "cost": 9,
       "loadout": 10,
       "slots": [
-        "Talent",
-        "Turret",
         "Astromech",
-        "Device",
-        "Modification"
+        "Gunner",
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret"
       ],
-      "keywords": ["Clone", "Y-wing"],
-      "epic": true
+      "keywords": [
+        "Clone",
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 364
     },
     {
+      "uid": "PGR0222",
       "name": "“Goji”",
       "xws": "goji",
       "initiative": 2,
@@ -224,22 +311,26 @@
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/goji.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/goji.png",
       "ability": "While a friendly ship at range 0-3 defends, it may roll 1 additional defense die for each friendly bomb at range 0-1 of it.",
-      "cost": 4,
-      "loadout": 16,
+      "cost": 9,
+      "loadout": 13,
       "slots": [
-        "Talent",
-        "Turret",
         "Astromech",
-        "Device",
-        "Device",
-        "Device",
+        "Gunner",
         "Modification",
-        "Gunner"
+        "Payload",
+        "Torpedo",
+        "Turret"
       ],
-      "keywords": ["Clone", "Y-wing"],
-      "epic": true
+      "keywords": [
+        "Clone",
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 363
     },
     {
+      "uid": "PGR0223",
       "name": "Red Squadron Bomber",
       "xws": "redsquadronbomber",
       "initiative": 2,
@@ -253,11 +344,23 @@
       "extended": true,
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redsquadronbomber.png",
       "image": "https://infinitearenas.com/xw2/images/pilots/redsquadronbomber.png",
-      "cost": 4,
-      "loadout": 6,
-      "slots": ["Turret", "Torpedo", "Astromech", "Device", "Gunner"],
-      "keywords": ["Clone", "Y-wing"],
-      "epic": true
+      "cost": 8,
+      "loadout": 9,
+      "slots": [
+        "Astromech",
+        "Gunner",
+        "Modification",
+        "Payload",
+        "Torpedo",
+        "Turret"
+      ],
+      "keywords": [
+        "Clone",
+        "Y-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 361
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_BTL-B_Ywing.png"

@@ -21,450 +21,684 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": ["XW", "T65"],
+  "dialCodes": [
+    "XW",
+    "T65"
+  ],
   "faction": "rebelalliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 4 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 4
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "White", "type": "Barrel Roll" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "White",
+      "type": "Barrel Roll"
+    }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_X-wing-T65.png",
   "pilots": [
     {
+      "uid": "PRB0387",
       "name": "Biggs Darklighter",
       "caption": "Red Three",
       "initiative": 3,
       "limited": 1,
-      "cost": 5,
-      "loadout": 18,
+      "cost": 10,
+      "loadout": 7,
       "xws": "biggsdarklighter",
       "ability": "While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1 [Hit] or [Critical Hit] damage to cancel 1 matching result.",
-      "slots": ["Torpedo", "Astromech", "Modification", "Configuration"],
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Torpedo",
+        "Configuration"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/biggsdarklighter.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/biggsdarklighter.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 7
     },
     {
+      "uid": "PRB0388",
       "name": "Blue Squadron Escort",
       "initiative": 2,
       "limited": 0,
-      "cost": 5,
-      "loadout": 4,
+      "cost": 9,
+      "loadout": 3,
       "xws": "bluesquadronescort",
       "text": "Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.",
       "image": "https://infinitearenas.com/xw2/images/pilots/bluesquadronescort.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bluesquadronescort.png",
-      "slots": ["Astromech", "Configuration"],
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Torpedo",
+        "Configuration"
+      ],
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 1
     },
     {
+      "uid": "PRB0389",
       "name": "Cavern Angels Zealot",
       "initiative": 1,
       "limited": 0,
-      "cost": 5,
-      "loadout": 4,
+      "cost": 10,
+      "loadout": 10,
       "xws": "cavernangelszealot",
       "text": "Unlike most Rebel cells, Saw Gerrera's partisans are willing to use extreme methods to undermine the Galactic Empire's objectives in brutal battles that raged from Geonosis to Jedha.",
-      "slots": ["Astromech", "Illicit", "Configuration"],
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Configuration",
+        "Missile",
+        "Illicit"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/cavernangelszealot.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/cavernangelszealot.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Partisan", "X-wing"],
-      "epic": true
+      "keywords": [
+        "Partisan",
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 0
     },
     {
+      "uid": "PRB0390",
       "name": "Edrio Two Tubes",
       "caption": "Cavern Angels Veteran",
       "initiative": 2,
       "limited": 1,
-      "cost": 4,
-      "loadout": 10,
+      "cost": 10,
+      "loadout": 11,
       "xws": "edriotwotubes",
       "ability": "Before you activate, if you are focused, you may perform an action.",
       "image": "https://infinitearenas.com/xw2/images/pilots/edriotwotubes.png",
       "slots": [
+        "Astromech",
+        "Modification",
+        "Configuration",
         "Missile",
-        "Illicit",
-        "Configuration"
+        "Illicit"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/edriotwotubes.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Partisan", "X-wing"],
-      "epic": true
+      "keywords": [
+        "Partisan",
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 8
     },
     {
+      "uid": "PRB0391",
       "name": "Garven Dreis",
       "caption": "Red Leader",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
-      "loadout": 16,
+      "cost": 11,
+      "loadout": 9,
       "xws": "garvendreis-t65xwing",
       "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
       "image": "https://infinitearenas.com/xw2/images/pilots/garvendreis-t65xwing.png",
       "slots": [
-        "Talent",
-        "Torpedo",
         "Astromech",
         "Modification",
-        "Configuration"
+        "Torpedo",
+        "Configuration",
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/garvendreis-t65xwing.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 6
     },
     {
+      "uid": "PRB0392",
       "name": "Jek Porkins",
       "caption": "Red Six",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
-      "loadout": 15,
+      "cost": 10,
+      "loadout": 8,
       "xws": "jekporkins",
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
-      "slots": ["Torpedo", "Astromech", "Talent", "Configuration"],
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Torpedo",
+        "Configuration",
+        "Talent"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/jekporkins.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jekporkins.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 3
     },
     {
+      "uid": "PRB0393",
       "name": "Kullbee Sperado",
       "caption": "Enigmatic Gunslinger",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
-      "loadout": 7,
+      "cost": 11,
+      "loadout": 14,
       "xws": "kullbeesperado",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may flip your equipped [Configuration] upgrade card.",
       "image": "https://infinitearenas.com/xw2/images/pilots/kullbeesperado.png",
       "slots": [
-        "Talent",
-        "Missile",
         "Astromech",
+        "Modification",
+        "Configuration",
+        "Missile",
         "Illicit",
-        "Configuration"
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kullbeesperado.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Partisan", "X-wing"],
-      "epic": true
+      "keywords": [
+        "Partisan",
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 12
     },
     {
+      "uid": "PRB0394",
       "name": "Leevan Tenza",
       "caption": "Rebel Alliance Defector",
       "initiative": 3,
       "limited": 1,
-      "cost": 4,
-      "loadout": 8,
+      "cost": 10,
+      "loadout": 10,
       "xws": "leevantenza",
       "ability": "After you perform a [Barrel Roll] or [Boost] action, you may perform a red [Evade] action.",
       "image": "https://infinitearenas.com/xw2/images/pilots/leevantenza.png",
       "slots": [
-        "Talent",
-        "Missile",
         "Astromech",
+        "Modification",
+        "Configuration",
+        "Missile",
         "Illicit",
-        "Configuration"
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/leevantenza.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Partisan", "X-wing"],
-      "epic": true
+      "keywords": [
+        "Partisan",
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 10
     },
     {
+      "uid": "PRB0395",
       "name": "Luke Skywalker",
       "caption": "Red Five",
       "initiative": 5,
       "limited": 1,
-      "cost": 6,
-      "loadout": 24,
+      "cost": 14,
+      "loadout": 10,
       "xws": "lukeskywalker",
       "ability": "After you become the defender (before dice are rolled), you may recover 1 [Force].",
       "image": "https://infinitearenas.com/xw2/images/pilots/lukeskywalker.png",
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "slots": [
-        "Talent",
-        "Torpedo",
         "Astromech",
         "Modification",
+        "Torpedo",
+        "Configuration",
         "Force Power",
-        "Configuration"
+        "Force Power"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lukeskywalker.png",
       "standard": true,
       "extended": true,
-      "keywords": ["Light Side", "X-wing"],
-      "epic": true
+      "keywords": [
+        "Light Side",
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 4
     },
     {
+      "uid": "PRB0396",
       "name": "Red Squadron Veteran",
       "initiative": 3,
       "limited": 0,
-      "cost": 5,
-      "loadout": 3,
+      "cost": 10,
+      "loadout": 10,
       "xws": "redsquadronveteran",
       "text": "Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.",
-      "slots": ["Talent", "Astromech", "Configuration"],
+      "slots": [
+        "Astromech",
+        "Modification",
+        "Torpedo",
+        "Configuration",
+        "Talent"
+      ],
       "image": "https://infinitearenas.com/xw2/images/pilots/redsquadronveteran.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/redsquadronveteran.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 2
     },
     {
+      "uid": "PRB0397",
       "name": "Thane Kyrell",
       "caption": "Corona Four",
       "initiative": 5,
       "limited": 1,
-      "cost": 4,
+      "cost": 11,
       "loadout": 8,
       "xws": "thanekyrell",
       "ability": "While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical Hit] result to look at the defender's facedown damage cards, choose 1, and expose it.",
       "image": "https://infinitearenas.com/xw2/images/pilots/thanekyrell.png",
       "slots": [
-        "Talent",
-        "Missile",
         "Astromech",
-        "Configuration"
+        "Modification",
+        "Torpedo",
+        "Configuration",
+        "Talent"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/thanekyrell.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 9
     },
     {
+      "uid": "PRB0398",
       "name": "Wedge Antilles",
       "caption": "Red Two",
       "initiative": 6,
       "limited": 1,
-      "cost": 5,
-      "loadout": 9,
+      "cost": 14,
+      "loadout": 13,
       "xws": "wedgeantilles",
       "ability": "While you perform an attack, the defender rolls 1 fewer defense die.",
       "slots": [
-        "Talent",
-        "Talent",
-        "Torpedo",
         "Astromech",
         "Modification",
-        "Configuration"
+        "Torpedo",
+        "Configuration",
+        "Talent"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/wedgeantilles.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 5
     },
     {
+      "uid": "PRB0399",
       "name": "Biggs Darklighter",
       "caption": "Battle of Yavin",
       "initiative": 3,
       "limited": 1,
-      "cost": 5,
+      "cost": 13,
       "xws": "biggsdarklighter-battleofyavin",
       "ability": "During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase.",
       "shipAbility": {
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["attackspeed-battleofyavin", "selfless", "protontorpedoes", "r2f2-battleofyavin"],
+      "standardLoadout": [
+        "attackspeed-battleofyavin",
+        "selfless",
+        "protontorpedoes",
+        "r2f2-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/biggsdarklighter-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/biggsdarklighter.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 557
     },
     {
+      "uid": "PRB0400",
       "name": "Garven Dreis",
       "caption": "Battle of Yavin",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 12,
       "xws": "garvendreis-battleofyavin",
       "ability": "After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.",
       "shipAbility": {
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["advprotontorpedoes", "r5k6-battleofyavin"],
+      "standardLoadout": [
+        "advprotontorpedoes",
+        "r5k6-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/garvendreis-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/garvendreis-t65xwing.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 554
     },
     {
+      "uid": "PRB0401",
       "name": "Jek Porkins",
       "caption": "Battle of Yavin",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 12,
       "xws": "jekporkins-battleofyavin",
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
       "shipAbility": {
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["advprotontorpedoes", "r5d8-battleofyavin", "unstablesublightengines-battleofyavin"],
+      "standardLoadout": [
+        "advprotontorpedoes",
+        "r5d8-battleofyavin",
+        "unstablesublightengines-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/jekporkins-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/jekporkins.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 556
     },
     {
+      "uid": "PRB0402",
       "name": "Luke Skywalker",
       "caption": "Battle of Yavin",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
+      "cost": 15,
       "xws": "lukeskywalker-battleofyavin",
       "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "shipAbility": {
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["attackspeed-battleofyavin", "instinctiveaim", "protontorpedoes", "r2d2-battleofyavin"],
+      "standardLoadout": [
+        "attackspeed-battleofyavin",
+        "instinctiveaim",
+        "protontorpedoes",
+        "r2d2-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/lukeskywalker-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/lukeskywalker.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 555
     },
     {
+      "uid": "PRB0403",
       "name": "Wedge Antilles",
       "caption": "Battle of Yavin",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
+      "cost": 13,
       "xws": "wedgeantilles-battleofyavin",
       "ability": "While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 less defense dice.",
       "shipAbility": {
         "name": "Hope",
         "text": "After another friendly ship at range 0-3 is destroyed, you may perform a [Focus] or [Boost] action."
       },
-      "standardLoadout": ["attackspeed-battleofyavin", "marksmanship", "protontorpedoes", "r2a3-battleofyavin"],
+      "standardLoadout": [
+        "attackspeed-battleofyavin",
+        "marksmanship",
+        "protontorpedoes",
+        "r2a3-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/wedgeantilles-battleofyavin.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 558
     },
     {
+      "uid": "PRB0404",
       "name": "Corran Horn",
       "caption": "Rogue Nine",
       "initiative": 5,
       "limited": 1,
-      "cost": 4,
-      "loadout": 9,
+      "cost": 13,
+      "loadout": 18,
       "xws": "corranhorn-t65xwing",
       "ability": "After you declare the defender of an attack, if you have a lock on the defender, a friendly ship may transfer their lock token from you to the defender.",
       "slots": [
-        "Talent",
-        "Missile",
         "Astromech",
-        "Configuration"
+        "Modification",
+        "Torpedo",
+        "Configuration",
+        "Talent"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/corranhorn-t65xwing.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/corranhorn-t65xwing.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 594
     },
     {
+      "uid": "PRB0405",
       "name": "Wes Janson",
       "caption": "Wisecracking Wingman",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
-      "loadout": 15,
+      "cost": 12,
+      "loadout": 13,
       "xws": "wesjanson",
       "ability": "After you perform an attack, you may spend 1 [Charge] to assign the defender 1 jam token. After you defend, you may spend 1 [Charge] to assign the attacker 1 jam token.",
-      "charges": { "value": 1, "recovers": 1 },
+      "charges": {
+        "value": 1,
+        "recovers": 1
+      },
       "slots": [
-        "Talent",
-        "Missile",
         "Astromech",
         "Modification",
-        "Configuration"
+        "Torpedo",
+        "Configuration",
+        "Talent"
       ],
       "image": "https://infinitearenas.com/xw2/images/pilots/wesjanson.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wesjanson.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 595
     },
     {
+      "uid": "PRB0406",
       "name": "Luke Skywalker",
       "caption": "Red Five",
       "initiative": 5,
       "limited": 1,
-      "cost": 6,
+      "cost": 15,
       "xws": "lukeskywalker-swz106",
       "ability": "After you are declared as the defender during an attack, you may recover 1 [Force].",
-      "force": { "value": 2, "recovers": 1, "side": ["light"] },
-      "standardLoadout": ["instinctiveaim", "protontorpedoes", "r2d2"],
+      "force": {
+        "value": 2,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
+      "standardLoadout": [
+        "instinctiveaim",
+        "protontorpedoes",
+        "r2d2"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/lukeskywalker-swz106.png",
       "artwork": "",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 642
     },
     {
+      "uid": "PRB0407",
       "name": "Jek Porkins",
       "caption": "Red Six",
       "initiative": 4,
       "limited": 1,
-      "cost": 5,
+      "cost": 13,
       "xws": "jekporkins-swz106",
       "ability": "After you receive a stress token, you may roll 1 attack die to remove it. On a [Hit] result, suffer 1 [Hit] damage.",
-      "standardLoadout": ["predator", "protontorpedoes", "r5d8-battleofyavin"],
+      "standardLoadout": [
+        "predator",
+        "protontorpedoes",
+        "r5d8-battleofyavin"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/jekporkins-swz106.png",
       "artwork": "",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 641
     },
     {
+      "uid": "PRB0408",
       "name": "Wedge Antilles",
       "caption": "Battle Over Endor",
       "initiative": 6,
       "limited": 1,
-      "cost": 5,
+      "cost": 15,
       "xws": "wedgeantilles-battleoverendor",
       "ability": "After you perform an attack that hits, gain 1 focus token.",
       "shipAbility": {
@@ -472,31 +706,76 @@
         "text": "After you perform a [Boost] action, gain a deplete token."
       },
       "shipStats": [
-        { "arc": "Front Arc", "type": "attack", "value": 3 },
-        { "type": "agility", "value": 2 },
-        { "type": "hull", "value": 4 },
-        { "type": "shields", "value": 3 }
+        {
+          "arc": "Front Arc",
+          "type": "attack",
+          "value": 3
+        },
+        {
+          "type": "agility",
+          "value": 2
+        },
+        {
+          "type": "hull",
+          "value": 4
+        },
+        {
+          "type": "shields",
+          "value": 3
+        }
       ],
       "shipActions": [
-        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Boost" } },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
-        { "difficulty": "White", "type": "Boost"}
+        {
+          "difficulty": "White",
+          "type": "Focus",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Boost"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost"
+        }
       ],
-      "standardLoadout": ["itsatrap-battleoverendor", "predator", "advprotontorpedoes", "r2a3-battleoverendor"],
+      "standardLoadout": [
+        "itsatrap-battleoverendor",
+        "predator",
+        "advprotontorpedoes",
+        "r2a3-battleoverendor"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/wedgeantilles-battleoverendor.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/wedgeantilles-battleoverendor.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 661
     },
     {
+      "uid": "PRB0409",
       "name": "Yendor",
       "caption": "Battle Over Endor",
       "initiative": 5,
       "limited": 1,
-      "cost": 5,
+      "cost": 12,
       "xws": "yendor-battleoverendor",
       "ability": "While you perform a primary attack, you may gain a strain token to reroll 1 of your blank results.",
       "shipAbility": {
@@ -504,25 +783,56 @@
         "text": "After you perform a [Boost] action, gain a deplete token."
       },
       "shipActions": [
-        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Boost" } },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
-        { "difficulty": "White", "type": "Boost"}
+        {
+          "difficulty": "White",
+          "type": "Focus",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Boost"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost"
+        }
       ],
-      "standardLoadout": ["itsatrap-battleoverendor", "plasmatorpedoes", "stabilizingastromech-battleoverendor"],
+      "standardLoadout": [
+        "itsatrap-battleoverendor",
+        "plasmatorpedoes",
+        "stabilizingastromech-battleoverendor"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/yendor-battleoverendor.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/yendor-battleoverendor.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 662
     },
     {
+      "uid": "PRB0410",
       "name": "Kendy Idele",
       "caption": "Battle Over Endor",
       "initiative": 4,
       "limited": 1,
-      "cost": 4,
+      "cost": 10,
       "xws": "kendyidele-battleoverendor",
       "ability": "After you spend a green token, you may choose a friendly ship at range 1-3 and gain a strain token. If you do, that ship may perform a red [Focus] or red [Evade] action.",
       "shipAbility": {
@@ -530,18 +840,49 @@
         "text": "After you perform a [Boost] action, gain a deplete token."
       },
       "shipActions": [
-        { "difficulty": "White", "type": "Focus", "linked": { "difficulty": "Red", "type": "Boost" } },
-        { "difficulty": "White", "type": "Lock" },
-        { "difficulty": "White", "type": "Barrel Roll", "linked": { "difficulty": "Red", "type": "Focus" } },
-        { "difficulty": "White", "type": "Boost"}
+        {
+          "difficulty": "White",
+          "type": "Focus",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Boost"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Focus"
+          }
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost"
+        }
       ],
-      "standardLoadout": ["itsatrap-battleoverendor", "ionmissiles", "modifiedr4punit-battleoverendor", "chaffparticles-battleoverendor"],
+      "standardLoadout": [
+        "itsatrap-battleoverendor",
+        "ionmissiles",
+        "modifiedr4punit-battleoverendor",
+        "chaffparticles-battleoverendor"
+      ],
       "image": "https://infinitearenas.com/xw2/images/quickbuilds/kendyidele-battleoverendor.png",
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/kendyidele-battleoverendor.png",
       "standard": true,
       "extended": true,
-      "keywords": ["X-wing"],
-      "epic": true
+      "keywords": [
+        "X-wing"
+      ],
+      "epic": true,
+      "loadout": 0,
+      "slots": [],
+      "restricted": 0,
+      "id": 660
     }
   ]
 }

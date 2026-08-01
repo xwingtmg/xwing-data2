@@ -1,6 +1,7 @@
 {
   "name": "Gauntlet Fighter",
   "xws": "gauntletfighter",
+  "icon": "https://infinitearenas.com/xw2/images/shipicons/galactic-republic/I_GauntletFighter.png",
   "size": "Large",
   "dial": [
     "0OR",
@@ -18,58 +19,125 @@
     "3YR",
     "4FW"
   ],
-  "dialCodes": ["GtF"],
+  "dialCodes": [
+    "GtF"
+  ],
   "faction": "galacticrepublic",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "arc": "Rear Arc", "type": "attack", "value": 2 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 9 },
-    { "type": "shields", "value": 2 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "arc": "Rear Arc",
+      "type": "attack",
+      "value": 2
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 9
+    },
+    {
+      "type": "shields",
+      "value": 2
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "Red", "type": "Reinforce" },
-    { "difficulty": "White", "type": "Lock" },
-    { "difficulty": "Red", "type": "Coordinate" }
+    {
+      "difficulty": "White",
+      "type": "Focus"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Reinforce"
+    },
+    {
+      "difficulty": "White",
+      "type": "Lock"
+    },
+    {
+      "difficulty": "Red",
+      "type": "Coordinate"
+    }
   ],
   "pilots": [
     {
+      "uid": "PGR0267",
       "xws": "bokatankryze",
       "name": "Bo-Katan Kryze",
       "image": "https://infinitearenas.com/xw2/images/pilots/bokatankryze-galactic-republic.png",
       "caption": "Nite Owl Commander",
       "ability": "After you fully execute a maneuver, you may gain 1 deplete token to choose an object in your [Front Arc] at range 1-2. If you do, another friendly ship may perform a [Lock] action to lock that object.",
-      "cost": 6,
-      "loadout": 12,
+      "cost": 16,
+      "loadout": 22,
       "initiative": 4,
       "limited": 1,
       "standard": true,
       "extended": true,
       "epic": true,
       "slots": [
-        "Talent",
         "Crew",
         "Gunner",
-        "Torpedo",
-        "Device",
         "Illicit",
         "Modification",
         "Modification",
+        "Payload",
         "Configuration",
+        "Talent",
         "Title"
       ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/bokatankryze-galactic-republic.png",
-      "keywords": ["Mandalorian"]
+      "keywords": [
+        "Mandalorian"
+      ],
+      "restricted": 0,
+      "id": 510
     },
     {
+      "uid": "PGR0268",
       "xws": "niteowlliberator",
       "name": "Nite Owl Liberator",
       "image": "https://infinitearenas.com/xw2/images/pilots/niteowlliberator.png",
-      "cost": 7,
-      "loadout": 12,
+      "cost": 15,
+      "loadout": 18,
       "initiative": 2,
       "limited": 1,
+      "standard": true,
+      "extended": true,
+      "epic": true,
+      "slots": [
+        "Crew",
+        "Gunner",
+        "Illicit",
+        "Modification",
+        "Modification",
+        "Payload",
+        "Configuration"
+      ],
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/niteowlliberator.png",
+      "keywords": [
+        "Mandalorian"
+      ],
+      "caption": "Resolute Warrior",
+      "restricted": 0,
+      "id": 511
+    },
+    {
+      "uid": "PGR0269",
+      "xws": "ursawren-legendsandrelics",
+      "name": "Ursa Wren",
+      "image": "https://infinitearenas.com/xw2xwa/images/pilots/ursawren-legendsandrelics.png",
+      "cost": 15,
+      "loadout": 17,
+      "initiative": 3,
+      "limited": 1,
+      "caption": "Countess of Clan Wren",
+      "ability": "After you acquire a lock on an enemy ship, if there are no enemy ships at range 0-1 of you, you may gain 1 reinforce token.",
       "standard": true,
       "extended": true,
       "epic": true,
@@ -77,14 +145,18 @@
         "Talent",
         "Crew",
         "Gunner",
-        "Device",
         "Illicit",
         "Modification",
+        "Modification",
+        "Payload",
         "Configuration"
       ],
-      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/niteowlliberator.png",
-      "keywords": ["Mandalorian"],
-      "caption": "Resolute Warrior"
+      "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ursawren-legendsandrelics.png",
+      "keywords": [
+        "Mandalorian"
+      ],
+      "restricted": 0,
+      "id": 511
     }
   ]
 }

@@ -1,5 +1,6 @@
 [
   {
+    "uid": "UGN1364",
     "name": "Homing Torpedoes",
     "limited": 0,
     "xws": "homingtorpedoes",
@@ -10,8 +11,13 @@
         "ability": "Attack ([Lock]): Spend 1 [Charge]. After you declare the defender, the defender may choose to suffer 1 [Critical Hit] damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/homingtorpedoes.png",
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/homingtorpedoes.png",
-        "slots": ["Torpedo"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Torpedo"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "attack": {
           "arc": "Front Arc",
           "value": 4,
@@ -21,12 +27,16 @@
         }
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 4
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 2
   },
   {
+    "uid": "UGN1365",
     "name": "Adv. Proton Torpedoes",
     "limited": 0,
     "xws": "advprotontorpedoes",
@@ -35,8 +45,13 @@
         "title": "Adv. Proton Torpedoes",
         "type": "Torpedo",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.",
-        "slots": ["Torpedo"],
-        "charges": { "value": 1, "recovers": 0 },
+        "slots": [
+          "Torpedo"
+        ],
+        "charges": {
+          "value": 1,
+          "recovers": 0
+        },
         "attack": {
           "arc": "Front Arc",
           "value": 5,
@@ -48,12 +63,16 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/advprotontorpedoes.png"
       }
     ],
-    "cost": { "value": 9 },
+    "cost": {
+      "value": 7
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1366",
     "name": "Ion Torpedoes",
     "limited": 0,
     "xws": "iontorpedoes",
@@ -62,8 +81,13 @@
         "title": "Ion Torpedoes",
         "type": "Torpedo",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. If this attack hits, spend 1 [Hit] or [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit] results inflict ion tokens instead of damage.",
-        "slots": ["Torpedo"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Torpedo"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "attack": {
           "arc": "Front Arc",
           "value": 4,
@@ -75,12 +99,16 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/iontorpedoes.png"
       }
     ],
-    "cost": { "value": 4 },
+    "cost": {
+      "value": 5
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1367",
     "name": "Proton Torpedoes",
     "limited": 0,
     "xws": "protontorpedoes",
@@ -90,8 +118,13 @@
         "type": "Torpedo",
         "ability": "Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical Hit] result.",
         "image": "https://infinitearenas.com/xw2/images/upgrades/protontorpedoes.png",
-        "slots": ["Torpedo"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Torpedo"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "attack": {
           "arc": "Front Arc",
           "value": 4,
@@ -102,12 +135,16 @@
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/protontorpedoes.png"
       }
     ],
-    "cost": { "value": 12 },
+    "cost": {
+      "value": 14
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 3
   },
   {
+    "uid": "UGN1368",
     "name": "Plasma Torpedoes",
     "limited": 0,
     "xws": "plasmatorpedoes",
@@ -116,8 +153,13 @@
         "ability": "Attack ([Lock]): Spend 1 [Charge]. During the Neutralize Results step, [Critical Hit] results are canceled before [Hit] results. After this attack hits, the defender loses 1 shield.",
         "title": "Plasma Torpedoes",
         "type": "Torpedo",
-        "slots": ["Torpedo"],
-        "charges": { "value": 2, "recovers": 0 },
+        "slots": [
+          "Torpedo"
+        ],
+        "charges": {
+          "value": 2,
+          "recovers": 0
+        },
         "attack": {
           "arc": "Front Arc",
           "value": 3,
@@ -129,12 +171,16 @@
         "image": "https://infinitearenas.com/xw2/images/upgrades/plasmatorpedoes.png"
       }
     ],
-    "cost": { "value": 5 },
+    "cost": {
+      "value": 7
+    },
     "standard": true,
     "extended": true,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   },
   {
+    "uid": "UGN1369",
     "name": "Tracking Torpedoes",
     "limited": 1,
     "xws": "trackingtorpedoes",
@@ -143,16 +189,30 @@
         "title": "Tracking Torpedoes",
         "type": "Torpedo",
         "ability": "During the System Phase, you may spend up to 3 [Charge] to launch that many tracking torpedoes using the [3 [Bank Left]], [4 [Straight]], and [3 [Bank Right]] templates. Each device must use a seperate template. Then each device may acquire a lock on an object you have locked, ignoring range restrictions. This card's [Charge] cannot be recovered.",
-        "slots": ["Torpedo"],
-        "charges": { "value": 3, "recovers": 0 },
+        "slots": [
+          "Torpedo"
+        ],
+        "charges": {
+          "value": 3,
+          "recovers": 0
+        },
         "artwork": "https://infinitearenas.com/xw2/images/artwork/upgrades/trackingtorpedoes.png",
         "image": "https://infinitearenas.com/xw2/images/upgrades/trackingtorpedoes.png"
       }
     ],
-    "cost": { "value": 8 },
-    "restrictions": [{ "sizes": ["Huge"] }],
+    "cost": {
+      "value": 8
+    },
+    "restrictions": [
+      {
+        "sizes": [
+          "Huge"
+        ]
+      }
+    ],
     "standard": false,
     "extended": false,
-    "epic": true
+    "epic": true,
+    "restricted": 0
   }
 ]

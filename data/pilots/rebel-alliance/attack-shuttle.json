@@ -21,32 +21,57 @@
     "4FW",
     "4KR"
   ],
-  "dialCodes": ["AS"],
+  "dialCodes": [
+    "AS"
+  ],
   "faction": "rebelalliance",
   "stats": [
-    { "arc": "Front Arc", "type": "attack", "value": 3 },
-    { "type": "agility", "value": 2 },
-    { "type": "hull", "value": 3 },
-    { "type": "shields", "value": 1 }
+    {
+      "arc": "Front Arc",
+      "type": "attack",
+      "value": 3
+    },
+    {
+      "type": "agility",
+      "value": 2
+    },
+    {
+      "type": "hull",
+      "value": 3
+    },
+    {
+      "type": "shields",
+      "value": 1
+    }
   ],
   "actions": [
-    { "difficulty": "White", "type": "Focus" },
-    { "difficulty": "White", "type": "Evade" },
     {
       "difficulty": "White",
-      "linked": { "difficulty": "Red", "type": "Evade" },
+      "type": "Focus"
+    },
+    {
+      "difficulty": "White",
+      "type": "Evade"
+    },
+    {
+      "difficulty": "White",
+      "linked": {
+        "difficulty": "Red",
+        "type": "Evade"
+      },
       "type": "Barrel Roll"
     }
   ],
   "icon": "https://infinitearenas.com/xw2/images/shipicons/rebel-alliance/I_AttackShuttle.png",
   "pilots": [
     {
+      "uid": "PRB0316",
       "name": "“Zeb” Orrelios",
       "caption": "Spectre-4",
       "initiative": 2,
       "limited": 1,
-      "cost": 3,
-      "loadout": 10,
+      "cost": 8,
+      "loadout": 6,
       "xws": "zeborrelios",
       "ability": "While you defend, [Critical Hit] results are neutralized before [Hit] results.",
       "image": "https://infinitearenas.com/xw2/images/pilots/zeborrelios.png",
@@ -54,42 +79,70 @@
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
-      "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
+      "slots": [
+        "Crew",
+        "Modification",
+        "Turret",
+        "Title"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/zeborrelios.png",
       "standard": false,
       "extended": true,
-      "keywords": ["Spectre"],
-      "epic": true
+      "keywords": [
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 68
     },
     {
+      "uid": "PRB0317",
       "name": "Ezra Bridger",
       "caption": "Spectre-6",
       "initiative": 3,
       "limited": 1,
-      "cost": 4,
-      "loadout": 7,
+      "cost": 9,
+      "loadout": 8,
       "xws": "ezrabridger",
       "ability": "While you defend or perform an attack, if you are stressed, you may spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or [Hit] results.",
       "image": "https://infinitearenas.com/xw2/images/pilots/ezrabridger.png",
-      "force": { "value": 1, "recovers": 1, "side": ["light"] },
+      "force": {
+        "value": 1,
+        "recovers": 1,
+        "side": [
+          "light"
+        ]
+      },
       "shipAbility": {
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
-      "slots": ["Turret", "Crew", "Modification", "Title", "Force Power"],
+      "slots": [
+        "Crew",
+        "Modification",
+        "Turret",
+        "Title",
+        "Force Power"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/ezrabridger.png",
       "standard": false,
       "extended": true,
-      "keywords": ["Light Side", "Spectre"],
-      "epic": true
+      "keywords": [
+        "Light Side",
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 67
     },
     {
+      "uid": "PRB0318",
       "name": "Hera Syndulla",
       "caption": "Spectre-2",
       "initiative": 5,
       "limited": 1,
-      "cost": 4,
-      "loadout": 9,
+      "cost": 10,
+      "loadout": 15,
       "xws": "herasyndulla",
       "ability": "After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty.",
       "image": "https://infinitearenas.com/xw2/images/pilots/herasyndulla.png",
@@ -97,20 +150,32 @@
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
-      "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
+      "slots": [
+        "Crew",
+        "Modification",
+        "Turret",
+        "Title",
+        "Talent",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/herasyndulla.png",
       "standard": false,
       "extended": true,
-      "keywords": ["Spectre"],
-      "epic": true
+      "keywords": [
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 65
     },
     {
+      "uid": "PRB0319",
       "name": "Sabine Wren",
       "caption": "Spectre-5",
       "initiative": 3,
       "limited": 1,
-      "cost": 4,
-      "loadout": 6,
+      "cost": 10,
+      "loadout": 13,
       "xws": "sabinewren",
       "ability": "Before you activate, you may perform a [Barrel Roll] or [Boost] action.",
       "image": "https://infinitearenas.com/xw2/images/pilots/sabinewren.png",
@@ -118,12 +183,23 @@
         "name": "Locked and Loaded",
         "text": "While you are docked, after your carrier ship performs a primary [Front Arc] or [Turret] attack, it may perform a bonus primary [Rear Arc] attack."
       },
-      "slots": ["Talent", "Turret", "Crew", "Modification", "Title"],
+      "slots": [
+        "Crew",
+        "Modification",
+        "Turret",
+        "Title",
+        "Talent"
+      ],
       "artwork": "https://infinitearenas.com/xw2/images/artwork/pilots/sabinewren.png",
       "standard": false,
       "extended": true,
-      "keywords": ["Mandalorian", "Spectre"],
-      "epic": true
+      "keywords": [
+        "Mandalorian",
+        "Spectre"
+      ],
+      "epic": true,
+      "restricted": 0,
+      "id": 66
     }
   ]
 }
